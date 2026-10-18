@@ -1,0 +1,12 @@
+{
+  "logical_canvas": {"landscape": [1920, 1080], "portrait": [1080, 1920]},
+  "portrait": {
+    "safe": {"top": 153.6, "right": 928.8, "bottom": 1497.6},
+    "hud": {"x": 62, "y": 173, "w": 840, "h": 116, "fontSize": 30},
+    "plot": {"x": 65, "y": 490, "w": 835, "h": 800},
+    "subtitles": {"x": 63, "y": 1346, "w": 840, "h": 138, "fontSize": 43, "maxLines": 2, "maxChineseCharsPerLine": 14},
+    "subtitle_anchor_from_bottom_fraction": 0.26
+  },
+  "landscape": {"plot": {"x": 80, "y": 310, "w": 1760, "h": 540}},
+  "notes": ["Portrait uses four compact telemetry rows for mobile readability; canonical full labels are retained in landscape and telemetry-lexicon.json.", "HUD starts at 9 percent; its 116 logical pixel block ends at approximately 15.1 percent. All critical content remains inside the requested safe region."]
+}

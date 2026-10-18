@@ -1,0 +1,248 @@
+{
+  "schema_version": 1,
+  "status": "evidence_collected",
+  "layout": "landscape",
+  "media_path": "B站/si-ep05-landauer-limit-bilibili-120s-4k.mp4",
+  "expected": {
+    "width": 3840,
+    "height": 2160,
+    "fps": 60,
+    "duration_seconds": 120,
+    "total_frames": 7200
+  },
+  "ffprobe": {
+    "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+    "container_duration_seconds": 120.0,
+    "video_duration_seconds": 120.0,
+    "audio_duration_seconds": 120.0,
+    "video": {
+      "codec_name": "h264",
+      "width": 3840,
+      "height": 2160,
+      "avg_frame_rate": "60/1",
+      "r_frame_rate": "60/1",
+      "nb_frames": "7200",
+      "pix_fmt": "yuv420p",
+      "color_space": "bt709",
+      "color_primaries": "bt709",
+      "color_transfer": "bt709"
+    },
+    "audio": {
+      "codec_name": "aac",
+      "sample_rate": "48000",
+      "channels": 2,
+      "channel_layout": "stereo",
+      "duration": "120.000000"
+    },
+    "metadata_checks": {
+      "dimensions": true,
+      "fps_60": true,
+      "frame_count_7200": true,
+      "pixel_format_yuv420p": true,
+      "colorspace_bt709": true,
+      "color_primaries_bt709": true,
+      "color_transfer_bt709": true,
+      "audio_aac": true,
+      "audio_48khz": true,
+      "audio_stereo": true,
+      "video_duration_exact_120s": true,
+      "audio_duration_within_50ms_of_120s": true,
+      "container_duration_within_50ms_of_120s": true
+    }
+  },
+  "encoded_audio_loudness": {
+    "measurement": "FFmpeg ebur128=peak=true on the encoded MP4 audio stream",
+    "integrated_lufs": -16.9,
+    "true_peak_dbTP": -1.7
+  },
+  "aac_packet_sha256": {
+    "algorithm": "sha256",
+    "value": "568decdfb9ea345647659a8ebb0e07d73233cb1ac9c109a4675ee5580bba3d73"
+  },
+  "representative_frames": {
+    "method": "selected frames decoded from the final encoded MP4 with FFmpeg; lossless native-resolution PNGs",
+    "frame_indexes": [
+      0,
+      120,
+      959,
+      960,
+      1260,
+      1500,
+      2190,
+      2800,
+      3040,
+      3900,
+      4800,
+      5399,
+      5400,
+      5790,
+      6240,
+      6500,
+      7020,
+      7199
+    ],
+    "contact_sheet_path": "review/encoded-landscape-contact-sheet.jpg",
+    "contact_tile_width_px": 480,
+    "full_native_frame_paths": [
+      "review/encoded-landscape-native-frame-0000.png",
+      "review/encoded-landscape-native-frame-0120.png",
+      "review/encoded-landscape-native-frame-0959.png",
+      "review/encoded-landscape-native-frame-0960.png",
+      "review/encoded-landscape-native-frame-1260.png",
+      "review/encoded-landscape-native-frame-1500.png",
+      "review/encoded-landscape-native-frame-2190.png",
+      "review/encoded-landscape-native-frame-2800.png",
+      "review/encoded-landscape-native-frame-3040.png",
+      "review/encoded-landscape-native-frame-3900.png",
+      "review/encoded-landscape-native-frame-4800.png",
+      "review/encoded-landscape-native-frame-5399.png",
+      "review/encoded-landscape-native-frame-5400.png",
+      "review/encoded-landscape-native-frame-5790.png",
+      "review/encoded-landscape-native-frame-6240.png",
+      "review/encoded-landscape-native-frame-6500.png",
+      "review/encoded-landscape-native-frame-7020.png",
+      "review/encoded-landscape-native-frame-7199.png"
+    ]
+  },
+  "motion_heuristic": {
+    "method": "mean absolute difference between Pillow FIND_EDGES grayscale crops from the final MP4",
+    "logical_roi_xywh": [
+      80,
+      310,
+      1760,
+      540
+    ],
+    "native_roi_xywh": [
+      160,
+      620,
+      3520,
+      1080
+    ],
+    "pairs": [
+      {
+        "start_frame": 180,
+        "end_frame": 330,
+        "start_seconds": 3.0,
+        "end_seconds": 5.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 2.684550382653061
+      },
+      {
+        "start_frame": 840,
+        "end_frame": 990,
+        "start_seconds": 14.0,
+        "end_seconds": 16.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 6.078786670918367
+      },
+      {
+        "start_frame": 1380,
+        "end_frame": 1530,
+        "start_seconds": 23.0,
+        "end_seconds": 25.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 14.181855867346938
+      },
+      {
+        "start_frame": 1920,
+        "end_frame": 2070,
+        "start_seconds": 32.0,
+        "end_seconds": 34.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 4.407206632653061
+      },
+      {
+        "start_frame": 2700,
+        "end_frame": 2850,
+        "start_seconds": 45.0,
+        "end_seconds": 47.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 4.766948341836735
+      },
+      {
+        "start_frame": 3120,
+        "end_frame": 3270,
+        "start_seconds": 52.0,
+        "end_seconds": 54.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 5.096213329081633
+      },
+      {
+        "start_frame": 3720,
+        "end_frame": 3870,
+        "start_seconds": 62.0,
+        "end_seconds": 64.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 4.271707589285715
+      },
+      {
+        "start_frame": 4560,
+        "end_frame": 4710,
+        "start_seconds": 76.0,
+        "end_seconds": 78.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 4.921595982142857
+      },
+      {
+        "start_frame": 5460,
+        "end_frame": 5610,
+        "start_seconds": 91.0,
+        "end_seconds": 93.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 4.195137117346939
+      },
+      {
+        "start_frame": 6060,
+        "end_frame": 6210,
+        "start_seconds": 101.0,
+        "end_seconds": 103.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 4.184558354591837
+      },
+      {
+        "start_frame": 6420,
+        "end_frame": 6570,
+        "start_seconds": 107.0,
+        "end_seconds": 109.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 7.597146045918367
+      },
+      {
+        "start_frame": 6960,
+        "end_frame": 7110,
+        "start_seconds": 116.0,
+        "end_seconds": 118.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 5.82421875
+      }
+    ],
+    "pair_contact_sheet_path": "review/encoded-landscape-pair-contact-sheet.jpg",
+    "limitation": "Nonzero edge differences are evidence of pixel changes only; they do not prove meaningful continuous motion or satisfy human motion review."
+  },
+  "native_frame_metadata": {
+    "width": 3840,
+    "height": 2160,
+    "frame_count_reported": "7200"
+  },
+  "acceptance_status": "NOT_EVALUATED",
+  "created_at_utc": "2026-10-18T14:36:54.093214+00:00",
+  "shared_aac_identity": {
+    "same_aac_packet_sha256": true,
+    "landscape_sha256": "568decdfb9ea345647659a8ebb0e07d73233cb1ac9c109a4675ee5580bba3d73",
+    "portrait_sha256": "568decdfb9ea345647659a8ebb0e07d73233cb1ac9c109a4675ee5580bba3d73"
+  },
+  "shared_pcm_master": {
+    "path": "project/public/audio/master.wav",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples_per_channel": 5760000,
+    "sample_width_bytes": 2,
+    "sha256": "8cb7537d6f47c1279b3df51e72c44087efa0debf13b6834876309137df8f1acf",
+    "expected": {
+      "sample_rate": 48000,
+      "channels": 2,
+      "samples_per_channel": 5760000
+    },
+    "metadata_matches_expected": true
+  }
+}

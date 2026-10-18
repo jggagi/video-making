@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "title": "兰道尔极限｜THE LANDAUER LIMIT · EP.05",
+  "slug": "si-ep05-landauer-limit",
+  "duration_seconds": 120,
+  "fps": 60,
+  "total_frames": 7200,
+  "script": {
+    "path": "source/script.md",
+    "sha256": "18ac9111b16bcced36eebe5843839c4d0ec57f939737866fe7e178c9aa7ffd93"
+  },
+  "audio": {
+    "mode": "narrated",
+    "master": "project/public/audio/master.wav",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples_per_channel": 5760000,
+    "sha256": "8cb7537d6f47c1279b3df51e72c44087efa0debf13b6834876309137df8f1acf",
+    "pcm_metrics": {
+      "lufs": -16.9,
+      "true_peak_dbtp": -1.8
+    },
+    "final_aac": {
+      "codec": "aac",
+      "sample_rate": 48000,
+      "channels": 2,
+      "lufs": -16.9,
+      "true_peak_dbtp": -1.7,
+      "packet_sha256": "568decdfb9ea345647659a8ebb0e07d73233cb1ac9c109a4675ee5580bba3d73"
+    }
+  },
+  "outputs": {
+    "bilibili": {
+      "path": "B站/si-ep05-landauer-limit-bilibili-120s-4k.mp4",
+      "width": 3840,
+      "height": 2160,
+      "file_size_bytes": 173518083,
+      "sha256": "2a5e6b526773da3e6401dba4c73c30a93b746347207557eacd4b5253d6852473",
+      "audio": {
+        "codec": "aac",
+        "sample_rate": 48000,
+        "channels": 2,
+        "lufs": -16.9,
+        "true_peak_dbtp": -1.7
+      }
+    },
+    "xiaohongshu": {
+      "path": "小红书/si-ep05-landauer-limit-xiaohongshu-120s-portrait.mp4",
+      "width": 2160,
+      "height": 3840,
+      "file_size_bytes": 171355743,
+      "sha256": "7a1d9822c94a0d77450c2355cf432e1bff937f7827bb49ea40a1c6b6a770c7c0",
+      "audio": {
+        "codec": "aac",
+        "sample_rate": 48000,
+        "channels": 2,
+        "lufs": -16.9,
+        "true_peak_dbtp": -1.7
+      }
+    }
+  },
+  "qa": {
+    "automated": "PASS",
+    "representative_frames": "encoded_samples_reviewed",
+    "continuous_human_review": "pending",
+    "target_device_playback": "pending",
+    "automated_evidence": "review/media-validation-20261018T143517.193216Z.json",
+    "local_browser": "PASS",
+    "local_browser_evidence": "review/browser-player-qa.json",
+    "shared_audio_waveform": "PASS",
+    "shared_audio_evidence": "review/shared-audio-correlation.json",
+    "representative_evidence": "review/representative-review.json"
+  },
+  "production_status": "final_media_validated"
+}

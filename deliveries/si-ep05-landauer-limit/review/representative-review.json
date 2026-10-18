@@ -1,0 +1,39 @@
+{
+  "status": "encoded_samples_reviewed",
+  "method": "Root model inspection of final-MP4 frame contact sheets, 360px portrait sheets, native pixel crops and 2.5-second plot-ROI pairs",
+  "representative_frames_per_layout": 18,
+  "motion_pairs_per_layout": 12,
+  "all_frames_from_final_encoded_mp4": true,
+  "media_sha256": {
+    "bilibili": "2a5e6b526773da3e6401dba4c73c30a93b746347207557eacd4b5253d6852473",
+    "xiaohongshu": "7a1d9822c94a0d77450c2355cf432e1bff937f7827bb49ea40a1c6b6a770c7c0"
+  },
+  "mobile_sheets": [
+    "review/encoded-portrait-mobile-sheet-1.jpg",
+    "review/encoded-portrait-mobile-sheet-2.jpg",
+    "review/encoded-portrait-mobile-sheet-3.jpg"
+  ],
+  "observations": [
+    "Quartic reset, piston isothermal/adiabatic comparison and frame960 pulse remain separated from subtitles.",
+    "Koomey labels are readable at 360px; historical values below 10^3 are identified as below range. The post2009 dashed curve is mathematical extrapolation, not a forecast or realizable operation-efficiency claim.",
+    "Planck peak moves to shorter wavelength while its amplitude rises; Earth model terms satisfy the stated equilibrium relation.",
+    "CMB bath and 40K radiator temperatures are distinct; Murray branching is marked a coolant concept.",
+    "Closing quote has a visible hypothesis qualifier; EP06 key is marked symbolic.",
+    "Foreground titles/quotes are no longer duplicated at the same position; subtitle lines do not overlap panels in inspected encoded samples.",
+    "Native pixel crops of dark backgrounds and the globe gradient show no severe contour banding in sampled areas.",
+    "Paired frames show particle/piston, potential-surface, year cursor/lattice, Planck/flux, branch/field, quote/camera and cortex/key spatial changes. Nonzero edge differences alone are not treated as full motion acceptance."
+  ],
+  "edge_difference_ranges": {
+    "landscape": [
+      2.684550382653061,
+      14.181855867346938
+    ],
+    "portrait": [
+      3.2098465538336054,
+      15.182139579934747
+    ]
+  },
+  "continuous_human_viewing": "pending",
+  "human_listening_and_pronunciation": "pending",
+  "real_phone_app_playback": "pending"
+}

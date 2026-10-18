@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "generated_by": "scripts/build-final-library.py",
-  "total_files": 27,
-  "logical_bytes": 4957644865,
+  "total_files": 29,
+  "logical_bytes": 5302518691,
   "files": [
     {
       "source_path": "out/extended/兰亭集序-展厅增强版-1080p.mp4",
@@ -346,6 +346,36 @@
       "backup_release_tag": "final-si-ep04-verifier-paradox-v02-365c1634ab37",
       "backup_release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep04-verifier-paradox-v02-365c1634ab37",
       "backup_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep04-verifier-paradox-v02-365c1634ab37/final--si-ep04-verifier-paradox-v02--deliveries--si-ep04-verifier-paradox-v02-----si-ep04-verifier-paradox-v02-xiaohongshu-120s-portrait--61a9935ef4da.mp4",
+      "materialization": "APFS clonefile for new files; existing independent matches are retained",
+      "verification": "SHA-256 matches archive catalog; stable stat and inode checks passed"
+    },
+    {
+      "source_path": "deliveries/si-ep05-landauer-limit/B站/si-ep05-landauer-limit-bilibili-120s-4k.mp4",
+      "final_path": "final/si-ep05-landauer-limit/B站/si-ep05-landauer-limit-bilibili-120s-4k.mp4",
+      "work_id": "si-ep05-landauer-limit",
+      "title": "兰道尔极限｜THE LANDAUER LIMIT · EP.05",
+      "platform": "B站",
+      "bytes": 173518083,
+      "sha256": "2a5e6b526773da3e6401dba4c73c30a93b746347207557eacd4b5253d6852473",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep05-landauer-limit-0028c8c759f4/si-ep05-landauer-limit--deliveries--si-ep05-landauer-limit--B---si-ep05-landauer-limit-bilibili-120s-4k--2a5e6b526773.mp4",
+      "backup_release_tag": "final-si-ep05-landauer-limit-0028c8c759f4",
+      "backup_release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep05-landauer-limit-0028c8c759f4",
+      "backup_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep05-landauer-limit-0028c8c759f4/final--si-ep05-landauer-limit--deliveries--si-ep05-landauer-limit--B---si-ep05-landauer-limit-bilibili-120s-4k--2a5e6b526773.mp4",
+      "materialization": "APFS clonefile for new files; existing independent matches are retained",
+      "verification": "SHA-256 matches archive catalog; stable stat and inode checks passed"
+    },
+    {
+      "source_path": "deliveries/si-ep05-landauer-limit/小红书/si-ep05-landauer-limit-xiaohongshu-120s-portrait.mp4",
+      "final_path": "final/si-ep05-landauer-limit/小红书/si-ep05-landauer-limit-xiaohongshu-120s-portrait.mp4",
+      "work_id": "si-ep05-landauer-limit",
+      "title": "兰道尔极限｜THE LANDAUER LIMIT · EP.05",
+      "platform": "小红书",
+      "bytes": 171355743,
+      "sha256": "7a1d9822c94a0d77450c2355cf432e1bff937f7827bb49ea40a1c6b6a770c7c0",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep05-landauer-limit-0028c8c759f4/si-ep05-landauer-limit--deliveries--si-ep05-landauer-limit-----si-ep05-landauer-limit-xiaohongshu-120s-portrait--7a1d9822c94a.mp4",
+      "backup_release_tag": "final-si-ep05-landauer-limit-0028c8c759f4",
+      "backup_release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep05-landauer-limit-0028c8c759f4",
+      "backup_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep05-landauer-limit-0028c8c759f4/final--si-ep05-landauer-limit--deliveries--si-ep05-landauer-limit-----si-ep05-landauer-limit-xiaohongshu-120s-portrait--7a1d9822c94a.mp4",
       "materialization": "APFS clonefile for new files; existing independent matches are retained",
       "verification": "SHA-256 matches archive catalog; stable stat and inode checks passed"
     },

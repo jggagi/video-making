@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "status": "evidence_collected",
+  "requested_layouts": [
+    "landscape",
+    "portrait"
+  ],
+  "collected_layouts": [
+    "landscape",
+    "portrait"
+  ],
+  "missing_media": [],
+  "failures": [],
+  "incomplete": [],
+  "shared_pcm_master": {
+    "path": "project/public/audio/master.wav",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples_per_channel": 5760000,
+    "sample_width_bytes": 2,
+    "sha256": "8cb7537d6f47c1279b3df51e72c44087efa0debf13b6834876309137df8f1acf",
+    "expected": {
+      "sample_rate": 48000,
+      "channels": 2,
+      "samples_per_channel": 5760000
+    },
+    "metadata_matches_expected": true
+  },
+  "per_layout_reports": [
+    "review/encoded-qa-landscape.json",
+    "review/encoded-qa-portrait.json"
+  ],
+  "acceptance_status": "NOT_EVALUATED",
+  "limitations": [
+    "AAC loudness and packet hashes are measurements; they do not prove PCM identity without the recorded master hash/sample count.",
+    "Frame differences are visual heuristics and do not establish meaningful continuous motion.",
+    "This script does not run strict full-file decode, human listening, human visual review, or target-device playback."
+  ]
+}

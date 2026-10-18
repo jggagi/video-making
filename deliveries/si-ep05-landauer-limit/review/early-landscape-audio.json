@@ -1,0 +1,5 @@
+{
+  "measurement": "FFmpeg ebur128=peak=true on the encoded MP4 audio stream",
+  "integrated_lufs": -16.9,
+  "true_peak_dbTP": -1.7
+}

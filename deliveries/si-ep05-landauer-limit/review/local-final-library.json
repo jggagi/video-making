@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "library_total": 29,
+  "new_verified_clones": 2,
+  "existing_retained": 27,
+  "items": [
+    {
+      "path": "final/si-ep05-landauer-limit/B站/si-ep05-landauer-limit-bilibili-120s-4k.mp4",
+      "sha256": "2a5e6b526773da3e6401dba4c73c30a93b746347207557eacd4b5253d6852473",
+      "bytes": 173518083,
+      "matches_source": true
+    },
+    {
+      "path": "final/si-ep05-landauer-limit/小红书/si-ep05-landauer-limit-xiaohongshu-120s-portrait.mp4",
+      "sha256": "7a1d9822c94a0d77450c2355cf432e1bff937f7827bb49ea40a1c6b6a770c7c0",
+      "bytes": 171355743,
+      "matches_source": true
+    }
+  ]
+}

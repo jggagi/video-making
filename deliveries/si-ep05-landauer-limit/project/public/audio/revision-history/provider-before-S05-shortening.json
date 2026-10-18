@@ -1,0 +1,190 @@
+{
+  "version": 1,
+  "settings": {
+    "provider": "Aliyun Bailian",
+    "model_selection": "active profile default",
+    "effective_model": "cosyvoice-v3-flash",
+    "voice": "longtian_v3",
+    "rate": 1.0,
+    "format": "wav",
+    "sample_rate": 24000
+  },
+  "authorization": {
+    "manifest": "project/audio-authorization.json",
+    "sha256AtInvocation": "419b81d7276876640b669a2d35e3d93bdb109c51dd2140c718cbd5d528b70603",
+    "scope": "EP05 ten tts_phonetic_text segments only",
+    "source": "direct user reply in current chat",
+    "note": "Current EP05 authorization only; no EP04 consent is inherited."
+  },
+  "segments": {
+    "S02": {
+      "cache_key": "8348c60d59dd4031dd57983a5421ed6b14f542c81ba204ec5086a6a83d9d520d",
+      "tts_phonetic_text": "一九六一年，兰道尔提出：在三百开尔文下，擦除一个未知比特，至少释放，二点八七，仄焦耳热。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 224640,
+      "actual_samples_48k": 449280,
+      "duration_seconds": 9.36,
+      "pcm_sha256_24k": "aa5339c9d63592f651e3799d251e0df58045ef4d484f76d6294a585b2cbeaf91",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S02-8348c60d59dd.wav",
+      "raw_sha256": "760e22e41461888181867cab25b516d42252a3c1ca3cd124591c388bc06e5cef",
+      "canonical_path": "public/audio/canonical/S02-8348c60d59dd.wav",
+      "canonical_sha256": "e03a0fa5637f55f3aa054e4d24596542504be105baa2d84576b85bbc6a18600e",
+      "cue_path": "public/audio/cues/S02-8348c60d59dd.wav",
+      "cue_sha256": "1ed45f24db2603cc85a1f73d221ddaa5833b0c14d90e4f712dd64f0442d08488",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S01": {
+      "cache_key": "9c0fc425007e50f47166128cf1e4e5eb4e7126d1954bfec1bba87c3da6b2fa6d",
+      "tts_phonetic_text": "你此时此刻，闪过的每一个念头，都伴随着能量消耗，和热量释放。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 153600,
+      "actual_samples_48k": 307200,
+      "duration_seconds": 6.4,
+      "fitsDeclaredWindowBeforeOnsetAdjustment": true,
+      "declaredWindowSamples": 384000,
+      "pcm_sha256_24k": "55a6a3cbff2f530f873adee495b91e4e8742fba0695364a0bebe1bb9494c1cb1",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S01-9c0fc425007e.wav",
+      "raw_sha256": "a6e1dda65861afd9838496fbb7171171671a6386dfd7e00b8727adadd9866d81",
+      "canonical_path": "public/audio/canonical/S01-9c0fc425007e.wav",
+      "canonical_sha256": "c17ad8291fd6eec6c5ea2db715a73d2dac68db6dea22a19581a2c8d60f5df914",
+      "cue_path": "public/audio/cues/S01-9c0fc425007e.wav",
+      "cue_sha256": "933a9444032a7aa8ca901236064988b2cb752b46d951b7d076d725f9a42514f3",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S03": {
+      "cache_key": "1c6a0502e64660c02980b0db12f1690bba7e9b08c2d9cae31b51ceada7f80ba5",
+      "tts_phonetic_text": "这不是芯片工艺缺陷；对不可逆擦除而言，这是热力学的能耗下限。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 140160,
+      "actual_samples_48k": 280320,
+      "duration_seconds": 5.84,
+      "fitsDeclaredWindowBeforeOnsetAdjustment": true,
+      "declaredWindowSamples": 384000,
+      "pcm_sha256_24k": "fba01bf0a719f00ae836a34724ddfa37e7ae0117fe7b0ea94e736c3500e200fc",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S03-1c6a0502e646.wav",
+      "raw_sha256": "162e0b9ffa4d04d7adcd416d6374a19362e20e1a9ff14e874b3dfaddef5650f5",
+      "canonical_path": "public/audio/canonical/S03-1c6a0502e646.wav",
+      "canonical_sha256": "9d4c51440a74ed493d4c49d7c3bdcfcc4deabd1fb86321ba236af15162ef0a64",
+      "cue_path": "public/audio/cues/S03-1c6a0502e646.wav",
+      "cue_sha256": "3e7be4712963d043a435346e1c1e439a310510d2abf7533268cb18ca0f514b14",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S04": {
+      "cache_key": "c09a6e2b794531fcc6fd69021b499a0c842c995a7165295d578038d1fe8aed00",
+      "tts_phonetic_text": "进化约四十亿年，造就约二十瓦的人脑；而不断增长的硅基算力，也受制于不可逆擦除的热力学下限。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 216960,
+      "actual_samples_48k": 433920,
+      "duration_seconds": 9.04,
+      "fitsDeclaredWindowBeforeOnsetAdjustment": true,
+      "declaredWindowSamples": 576000,
+      "pcm_sha256_24k": "1d0c81e6a8d3f8e420f5054e51ae172c8f83e18c5f1b5dd3676b49f6c43e7a25",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S04-c09a6e2b7945.wav",
+      "raw_sha256": "9beaae025619e38ad3021b751c01ff445de7e930d95b4273e423685e03dced9d",
+      "canonical_path": "public/audio/canonical/S04-c09a6e2b7945.wav",
+      "canonical_sha256": "b5ce8acd80fafd62a55e67e926642184992ccb9cdd52a68ceb4081d803401448",
+      "cue_path": "public/audio/cues/S04-c09a6e2b7945.wav",
+      "cue_sha256": "1074c1da6b7fce4b8b53f8affa1a6e3d32b703f92a2c3d9132a2b1cfeae9d23e",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S05": {
+      "cache_key": "9d705045ff70097e36d41f1aa70c128aa814d19633820a0a870d8f0c84796d2e",
+      "tts_phonetic_text": "即使把每次不可逆擦除，都推向理论极限；一万亿次，也只释放，二点八七，纳焦耳。真正的危机，是行星级运算的总热量。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 326400,
+      "actual_samples_48k": 652800,
+      "duration_seconds": 13.6,
+      "fitsDeclaredWindowBeforeOnsetAdjustment": false,
+      "declaredWindowSamples": 624000,
+      "pcm_sha256_24k": "d39c336bfcff7b8b6f1128e9106539bcfeb2a605321b691be02db3d96edad6ec",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S05-9d705045ff70.wav",
+      "raw_sha256": "cfdf36eebdf0e6e76530bf1842d1938bf0ec53e0c2ab637adf4715192d6c9c97",
+      "canonical_path": "public/audio/canonical/S05-9d705045ff70.wav",
+      "canonical_sha256": "a9868e8f47b04d3ee2355090ef3ffc7160c987ec5add7a635ddb6abdaba30756",
+      "cue_path": "public/audio/cues/S05-9d705045ff70.wav",
+      "cue_sha256": "c43d1a895b38cbc4666ed59df81ebaccf66c23147ee32296dfce515b52f637b5",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    }
+  },
+  "cacheHistory": []
+}

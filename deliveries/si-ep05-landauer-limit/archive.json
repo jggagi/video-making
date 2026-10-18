@@ -1,0 +1,264 @@
+{
+  "id": "si-ep05-landauer-limit",
+  "title": "兰道尔极限｜THE LANDAUER LIMIT · EP.05",
+  "release_tag": "film-si-ep05-landauer-limit-0028c8c759f4",
+  "historical": false,
+  "duration_seconds": 120,
+  "project_path": "deliveries/si-ep05-landauer-limit/project",
+  "delivery_directory": "deliveries/si-ep05-landauer-limit",
+  "final_output_paths": {
+    "B站": "deliveries/si-ep05-landauer-limit/B站/si-ep05-landauer-limit-bilibili-120s-4k.mp4",
+    "小红书": "deliveries/si-ep05-landauer-limit/小红书/si-ep05-landauer-limit-xiaohongshu-120s-portrait.mp4"
+  },
+  "final_output_dimensions": {
+    "B站": [
+      3840,
+      2160
+    ],
+    "小红书": [
+      2160,
+      3840
+    ]
+  },
+  "assets": [
+    {
+      "path": "deliveries/si-ep05-landauer-limit/B站/si-ep05-landauer-limit-bilibili-120s-4k.mp4",
+      "name": "si-ep05-landauer-limit--deliveries--si-ep05-landauer-limit--B---si-ep05-landauer-limit-bilibili-120s-4k--2a5e6b526773.mp4",
+      "bytes": 173518083,
+      "sha256": "2a5e6b526773da3e6401dba4c73c30a93b746347207557eacd4b5253d6852473",
+      "kind": "video",
+      "platform": "B站",
+      "measurements": {
+        "width": 3840,
+        "height": 2160,
+        "fps": "60/1",
+        "frames": "7200",
+        "video_duration_seconds": 120.0,
+        "container_duration_seconds": 120.0
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep05-landauer-limit-0028c8c759f4/si-ep05-landauer-limit--deliveries--si-ep05-landauer-limit--B---si-ep05-landauer-limit-bilibili-120s-4k--2a5e6b526773.mp4"
+    },
+    {
+      "path": "deliveries/si-ep05-landauer-limit/review/motion-landscape-2160-2339.mp4",
+      "name": "si-ep05-landauer-limit--deliveries--si-ep05-landauer-limit--review--motion-landscape-2160-2339--bef4127337fe.mp4",
+      "bytes": 944855,
+      "sha256": "bef4127337feb6bc85a03b80eb4ae5ba16c09ee1e7364800842886a42975d10c",
+      "kind": "video",
+      "platform": "预览",
+      "measurements": {
+        "width": 1280,
+        "height": 720,
+        "fps": "60/1",
+        "frames": "180",
+        "video_duration_seconds": 3.0,
+        "container_duration_seconds": 3.008
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep05-landauer-limit-0028c8c759f4/si-ep05-landauer-limit--deliveries--si-ep05-landauer-limit--review--motion-landscape-2160-2339--bef4127337fe.mp4"
+    },
+    {
+      "path": "deliveries/si-ep05-landauer-limit/review/motion-landscape-4740-4919.mp4",
+      "name": "si-ep05-landauer-limit--deliveries--si-ep05-landauer-limit--review--motion-landscape-4740-4919--71e1ca2de6ea.mp4",
+      "bytes": 931716,
+      "sha256": "71e1ca2de6ea3c975afdade014ced9464e54965263a5e6fc90a39b09e0b7b034",
+      "kind": "video",
+      "platform": "预览",
+      "measurements": {
+        "width": 1280,
+        "height": 720,
+        "fps": "60/1",
+        "frames": "180",
+        "video_duration_seconds": 3.0,
+        "container_duration_seconds": 3.008
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep05-landauer-limit-0028c8c759f4/si-ep05-landauer-limit--deliveries--si-ep05-landauer-limit--review--motion-landscape-4740-4919--71e1ca2de6ea.mp4"
+    },
+    {
+      "path": "deliveries/si-ep05-landauer-limit/review/motion-landscape-5340-5519.mp4",
+      "name": "si-ep05-landauer-limit--deliveries--si-ep05-landauer-limit--review--motion-landscape-5340-5519--0ea4b2739942.mp4",
+      "bytes": 960103,
+      "sha256": "0ea4b2739942ba4e1a2b8edb0bf7ef12bc8a41d4c6ae70c1a128498b55139130",
+      "kind": "video",
+      "platform": "预览",
+      "measurements": {
+        "width": 1280,
+        "height": 720,
+        "fps": "60/1",
+        "frames": "180",
+        "video_duration_seconds": 3.0,
+        "container_duration_seconds": 3.008
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep05-landauer-limit-0028c8c759f4/si-ep05-landauer-limit--deliveries--si-ep05-landauer-limit--review--motion-landscape-5340-5519--0ea4b2739942.mp4"
+    },
+    {
+      "path": "deliveries/si-ep05-landauer-limit/review/motion-landscape-6360-6539.mp4",
+      "name": "si-ep05-landauer-limit--deliveries--si-ep05-landauer-limit--review--motion-landscape-6360-6539--d0dab1da3aba.mp4",
+      "bytes": 1111099,
+      "sha256": "d0dab1da3aba1c18aae122cb7d091f2de2867f81fe7b6caa1dfdd4193cfcd786",
+      "kind": "video",
+      "platform": "预览",
+      "measurements": {
+        "width": 1280,
+        "height": 720,
+        "fps": "60/1",
+        "frames": "180",
+        "video_duration_seconds": 3.0,
+        "container_duration_seconds": 3.008
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep05-landauer-limit-0028c8c759f4/si-ep05-landauer-limit--deliveries--si-ep05-landauer-limit--review--motion-landscape-6360-6539--d0dab1da3aba.mp4"
+    },
+    {
+      "path": "deliveries/si-ep05-landauer-limit/review/motion-landscape-6960-7139.mp4",
+      "name": "si-ep05-landauer-limit--deliveries--si-ep05-landauer-limit--review--motion-landscape-6960-7139--62dfc9bde7cf.mp4",
+      "bytes": 1049094,
+      "sha256": "62dfc9bde7cf5220f1162a9e5e4c5bce19ac6d553b00be6d934a58126d374c9f",
+      "kind": "video",
+      "platform": "预览",
+      "measurements": {
+        "width": 1280,
+        "height": 720,
+        "fps": "60/1",
+        "frames": "180",
+        "video_duration_seconds": 3.0,
+        "container_duration_seconds": 3.008
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep05-landauer-limit-0028c8c759f4/si-ep05-landauer-limit--deliveries--si-ep05-landauer-limit--review--motion-landscape-6960-7139--62dfc9bde7cf.mp4"
+    },
+    {
+      "path": "deliveries/si-ep05-landauer-limit/review/motion-landscape-900-1079.mp4",
+      "name": "si-ep05-landauer-limit--deliveries--si-ep05-landauer-limit--review--motion-landscape-900-1079--3078abff6ab6.mp4",
+      "bytes": 1141521,
+      "sha256": "3078abff6ab62eb36de3014b24d154f46fc12402c61b87c71360de5c8e55267d",
+      "kind": "video",
+      "platform": "预览",
+      "measurements": {
+        "width": 1280,
+        "height": 720,
+        "fps": "60/1",
+        "frames": "180",
+        "video_duration_seconds": 3.0,
+        "container_duration_seconds": 3.008
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep05-landauer-limit-0028c8c759f4/si-ep05-landauer-limit--deliveries--si-ep05-landauer-limit--review--motion-landscape-900-1079--3078abff6ab6.mp4"
+    },
+    {
+      "path": "deliveries/si-ep05-landauer-limit/review/motion-portrait-2160-2339.mp4",
+      "name": "si-ep05-landauer-limit--deliveries--si-ep05-landauer-limit--review--motion-portrait-2160-2339--cf8e3fc9a470.mp4",
+      "bytes": 932953,
+      "sha256": "cf8e3fc9a47068e7abef495ec187b1c15516bb096d3fe8ffef70b13dddda434a",
+      "kind": "video",
+      "platform": "预览",
+      "measurements": {
+        "width": 720,
+        "height": 1280,
+        "fps": "60/1",
+        "frames": "180",
+        "video_duration_seconds": 3.0,
+        "container_duration_seconds": 3.008
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep05-landauer-limit-0028c8c759f4/si-ep05-landauer-limit--deliveries--si-ep05-landauer-limit--review--motion-portrait-2160-2339--cf8e3fc9a470.mp4"
+    },
+    {
+      "path": "deliveries/si-ep05-landauer-limit/review/motion-portrait-4740-4919.mp4",
+      "name": "si-ep05-landauer-limit--deliveries--si-ep05-landauer-limit--review--motion-portrait-4740-4919--f9936273ec8e.mp4",
+      "bytes": 965306,
+      "sha256": "f9936273ec8e05b7cdb0b8d71192a284c6b82b9fff8a8bac067b37a93620aba4",
+      "kind": "video",
+      "platform": "预览",
+      "measurements": {
+        "width": 720,
+        "height": 1280,
+        "fps": "60/1",
+        "frames": "180",
+        "video_duration_seconds": 3.0,
+        "container_duration_seconds": 3.008
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep05-landauer-limit-0028c8c759f4/si-ep05-landauer-limit--deliveries--si-ep05-landauer-limit--review--motion-portrait-4740-4919--f9936273ec8e.mp4"
+    },
+    {
+      "path": "deliveries/si-ep05-landauer-limit/review/motion-portrait-5340-5519.mp4",
+      "name": "si-ep05-landauer-limit--deliveries--si-ep05-landauer-limit--review--motion-portrait-5340-5519--ad3cb7ac6812.mp4",
+      "bytes": 936357,
+      "sha256": "ad3cb7ac6812b582043e79b90b465e9e4f405d69206fade721cd4e18b8a8e27e",
+      "kind": "video",
+      "platform": "预览",
+      "measurements": {
+        "width": 720,
+        "height": 1280,
+        "fps": "60/1",
+        "frames": "180",
+        "video_duration_seconds": 3.0,
+        "container_duration_seconds": 3.008
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep05-landauer-limit-0028c8c759f4/si-ep05-landauer-limit--deliveries--si-ep05-landauer-limit--review--motion-portrait-5340-5519--ad3cb7ac6812.mp4"
+    },
+    {
+      "path": "deliveries/si-ep05-landauer-limit/review/motion-portrait-6360-6539.mp4",
+      "name": "si-ep05-landauer-limit--deliveries--si-ep05-landauer-limit--review--motion-portrait-6360-6539--9a1ae701d625.mp4",
+      "bytes": 1130280,
+      "sha256": "9a1ae701d6255d7a7ad0ca77e794d91a76da25bc86fa99a18316d63bce231769",
+      "kind": "video",
+      "platform": "预览",
+      "measurements": {
+        "width": 720,
+        "height": 1280,
+        "fps": "60/1",
+        "frames": "180",
+        "video_duration_seconds": 3.0,
+        "container_duration_seconds": 3.008
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep05-landauer-limit-0028c8c759f4/si-ep05-landauer-limit--deliveries--si-ep05-landauer-limit--review--motion-portrait-6360-6539--9a1ae701d625.mp4"
+    },
+    {
+      "path": "deliveries/si-ep05-landauer-limit/review/motion-portrait-6960-7139.mp4",
+      "name": "si-ep05-landauer-limit--deliveries--si-ep05-landauer-limit--review--motion-portrait-6960-7139--ce3bf6bc40b0.mp4",
+      "bytes": 1065233,
+      "sha256": "ce3bf6bc40b009c9a91568bb15f008d33be930783a19c23ef25d6016faccf84a",
+      "kind": "video",
+      "platform": "预览",
+      "measurements": {
+        "width": 720,
+        "height": 1280,
+        "fps": "60/1",
+        "frames": "180",
+        "video_duration_seconds": 3.0,
+        "container_duration_seconds": 3.008
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep05-landauer-limit-0028c8c759f4/si-ep05-landauer-limit--deliveries--si-ep05-landauer-limit--review--motion-portrait-6960-7139--ce3bf6bc40b0.mp4"
+    },
+    {
+      "path": "deliveries/si-ep05-landauer-limit/review/motion-portrait-900-1079.mp4",
+      "name": "si-ep05-landauer-limit--deliveries--si-ep05-landauer-limit--review--motion-portrait-900-1079--03908951b10c.mp4",
+      "bytes": 1118076,
+      "sha256": "03908951b10c0dbe0d626fdce6ea6a99f09c02a3814b72b786c305cf5f6e635e",
+      "kind": "video",
+      "platform": "预览",
+      "measurements": {
+        "width": 720,
+        "height": 1280,
+        "fps": "60/1",
+        "frames": "180",
+        "video_duration_seconds": 3.0,
+        "container_duration_seconds": 3.008
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep05-landauer-limit-0028c8c759f4/si-ep05-landauer-limit--deliveries--si-ep05-landauer-limit--review--motion-portrait-900-1079--03908951b10c.mp4"
+    },
+    {
+      "path": "deliveries/si-ep05-landauer-limit/小红书/si-ep05-landauer-limit-xiaohongshu-120s-portrait.mp4",
+      "name": "si-ep05-landauer-limit--deliveries--si-ep05-landauer-limit-----si-ep05-landauer-limit-xiaohongshu-120s-portrait--7a1d9822c94a.mp4",
+      "bytes": 171355743,
+      "sha256": "7a1d9822c94a0d77450c2355cf432e1bff937f7827bb49ea40a1c6b6a770c7c0",
+      "kind": "video",
+      "platform": "小红书",
+      "measurements": {
+        "width": 2160,
+        "height": 3840,
+        "fps": "60/1",
+        "frames": "7200",
+        "video_duration_seconds": 120.0,
+        "container_duration_seconds": 120.0
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep05-landauer-limit-0028c8c759f4/si-ep05-landauer-limit--deliveries--si-ep05-landauer-limit-----si-ep05-landauer-limit-xiaohongshu-120s-portrait--7a1d9822c94a.mp4"
+    }
+  ],
+  "generated_by": "scripts/build-archive-catalog.py"
+}

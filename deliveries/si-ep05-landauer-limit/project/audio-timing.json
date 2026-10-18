@@ -1,0 +1,554 @@
+{
+  "durationSeconds": 120,
+  "fps": 60,
+  "sampleRate": 48000,
+  "samplesPerFrame": 800,
+  "samplesPerChannel": 5760000,
+  "segments": [
+    {
+      "id": "S01",
+      "declaredStartFrame": 120,
+      "declaredEndFrame": 600,
+      "voiceStartSample": 105600,
+      "voiceEndSampleExclusive": 393281,
+      "cueStartSample": 95849,
+      "cueEndSampleExclusive": 403049,
+      "cueSamplesAt48k": 307200,
+      "measuredActiveSamples": 287681,
+      "onsetOffsetSamplesInCue": 9751,
+      "activeEndOffsetSamplesInCueExclusive": 297432,
+      "delayFrames": 12,
+      "delayReason": "opening SFX shares segment onset",
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 102,
+        "windowSamples": 240
+      },
+      "cueFile": "project/public/audio/cues/S01-9c0fc425007e.wav",
+      "cueSha256": "933a9444032a7aa8ca901236064988b2cb752b46d951b7d076d725f9a42514f3",
+      "cuePcmSha256": "43321a69401ce477b716cab8238479be229db525a4dfb589874210a36bfd0f74"
+    },
+    {
+      "id": "S02",
+      "declaredStartFrame": 660,
+      "declaredEndFrame": 1260,
+      "voiceStartSample": 528000,
+      "voiceEndSampleExclusive": 958393,
+      "cueStartSample": 517951,
+      "cueEndSampleExclusive": 967231,
+      "cueSamplesAt48k": 449280,
+      "measuredActiveSamples": 430393,
+      "onsetOffsetSamplesInCue": 10049,
+      "activeEndOffsetSamplesInCueExclusive": 440442,
+      "delayFrames": 0,
+      "delayReason": null,
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 99,
+        "windowSamples": 240
+      },
+      "cueFile": "project/public/audio/cues/S02-8348c60d59dd.wav",
+      "cueSha256": "1ed45f24db2603cc85a1f73d221ddaa5833b0c14d90e4f712dd64f0442d08488",
+      "cuePcmSha256": "0d8fbd644ef8d0b27e7c281e513c44e8fe616851246c42a9cbb56b3cd585ec14"
+    },
+    {
+      "id": "S03",
+      "declaredStartFrame": 1320,
+      "declaredEndFrame": 1800,
+      "voiceStartSample": 1056000,
+      "voiceEndSampleExclusive": 1319254,
+      "cueStartSample": 1045951,
+      "cueEndSampleExclusive": 1326271,
+      "cueSamplesAt48k": 280320,
+      "measuredActiveSamples": 263254,
+      "onsetOffsetSamplesInCue": 10049,
+      "activeEndOffsetSamplesInCueExclusive": 273303,
+      "delayFrames": 0,
+      "delayReason": null,
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 80,
+        "windowSamples": 240
+      },
+      "cueFile": "project/public/audio/cues/S03-1c6a0502e646.wav",
+      "cueSha256": "3e7be4712963d043a435346e1c1e439a310510d2abf7533268cb18ca0f514b14",
+      "cuePcmSha256": "b518d4aea57d28fe0daea4087ad541dfe36179e6e00726660e76088b068106a4"
+    },
+    {
+      "id": "S04",
+      "declaredStartFrame": 1860,
+      "declaredEndFrame": 2580,
+      "voiceStartSample": 1488000,
+      "voiceEndSampleExclusive": 1901920,
+      "cueStartSample": 1477820,
+      "cueEndSampleExclusive": 1911740,
+      "cueSamplesAt48k": 433920,
+      "measuredActiveSamples": 413920,
+      "onsetOffsetSamplesInCue": 10180,
+      "activeEndOffsetSamplesInCueExclusive": 424100,
+      "delayFrames": 0,
+      "delayReason": null,
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 103,
+        "windowSamples": 240
+      },
+      "cueFile": "project/public/audio/cues/S04-c09a6e2b7945.wav",
+      "cueSha256": "1074c1da6b7fce4b8b53f8affa1a6e3d32b703f92a2c3d9132a2b1cfeae9d23e",
+      "cuePcmSha256": "59751e81b47149ec65e3e647c665b9c7f223811578240f146d627790d4355521"
+    },
+    {
+      "id": "S05",
+      "declaredStartFrame": 2700,
+      "declaredEndFrame": 3480,
+      "voiceStartSample": 2160000,
+      "voiceEndSampleExclusive": 2763165,
+      "cueStartSample": 2150259,
+      "cueEndSampleExclusive": 2772339,
+      "cueSamplesAt48k": 622080,
+      "measuredActiveSamples": 603165,
+      "onsetOffsetSamplesInCue": 9741,
+      "activeEndOffsetSamplesInCueExclusive": 612906,
+      "delayFrames": 0,
+      "delayReason": null,
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 100,
+        "windowSamples": 240
+      },
+      "cueFile": "project/public/audio/cues/S05-c78539829732.wav",
+      "cueSha256": "434c845b3d037fcc32b259d1c936835706e67641c31617cbdc2420e04a91a284",
+      "cuePcmSha256": "627ff3f2e7e7a6172faf8c45191e489f39716f488fdd199df19315295b2df532"
+    },
+    {
+      "id": "S06",
+      "declaredStartFrame": 3660,
+      "declaredEndFrame": 4440,
+      "voiceStartSample": 2928000,
+      "voiceEndSampleExclusive": 3291806,
+      "cueStartSample": 2917704,
+      "cueEndSampleExclusive": 3301704,
+      "cueSamplesAt48k": 384000,
+      "measuredActiveSamples": 363806,
+      "onsetOffsetSamplesInCue": 10296,
+      "activeEndOffsetSamplesInCueExclusive": 374102,
+      "delayFrames": 0,
+      "delayReason": null,
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 80,
+        "windowSamples": 240
+      },
+      "cueFile": "project/public/audio/cues/S06-01f5ec7ccc81.wav",
+      "cueSha256": "8fd796f5a4908da120b4eb8052d09f4a9525c4482ca5ccbc266dcdf4616b6646",
+      "cuePcmSha256": "467348d54db868716eb3ad27061a00993273123fb823c2d6749ab48bee18cb26"
+    },
+    {
+      "id": "S07",
+      "declaredStartFrame": 4500,
+      "declaredEndFrame": 5340,
+      "voiceStartSample": 3600000,
+      "voiceEndSampleExclusive": 3954306,
+      "cueStartSample": 3590104,
+      "cueEndSampleExclusive": 3966424,
+      "cueSamplesAt48k": 376320,
+      "measuredActiveSamples": 354306,
+      "onsetOffsetSamplesInCue": 9896,
+      "activeEndOffsetSamplesInCueExclusive": 364202,
+      "delayFrames": 0,
+      "delayReason": null,
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 81,
+        "windowSamples": 240
+      },
+      "cueFile": "project/public/audio/cues/S07-e8e92e68a359.wav",
+      "cueSha256": "4919d3aeeee6ce2b04a1f0f62638b85127085f3fa91f0ba38a8f2c9e3f7fcfa5",
+      "cuePcmSha256": "aa646e9ff74b3072484946fb19cd2bb3551656cefc726a3f84f678a9a6241598"
+    },
+    {
+      "id": "S08",
+      "declaredStartFrame": 5460,
+      "declaredEndFrame": 6240,
+      "voiceStartSample": 4368000,
+      "voiceEndSampleExclusive": 4799313,
+      "cueStartSample": 4357680,
+      "cueEndSampleExclusive": 4814640,
+      "cueSamplesAt48k": 456960,
+      "measuredActiveSamples": 431313,
+      "onsetOffsetSamplesInCue": 10320,
+      "activeEndOffsetSamplesInCueExclusive": 441633,
+      "delayFrames": 0,
+      "delayReason": null,
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 111,
+        "windowSamples": 240
+      },
+      "cueFile": "project/public/audio/cues/S08-e6b83ab3d5ed.wav",
+      "cueSha256": "d65c934aea803136db6df8e371b652bccf0ed8cd9a47107e2adf38255a82811f",
+      "cuePcmSha256": "2edc1cefc300cd13a0d49ccf3e82089d651709476034ab6db519042981537c97"
+    },
+    {
+      "id": "S09",
+      "declaredStartFrame": 6360,
+      "declaredEndFrame": 6900,
+      "voiceStartSample": 5088000,
+      "voiceEndSampleExclusive": 5456787,
+      "cueStartSample": 5077948,
+      "cueEndSampleExclusive": 5465788,
+      "cueSamplesAt48k": 387840,
+      "measuredActiveSamples": 368787,
+      "onsetOffsetSamplesInCue": 10052,
+      "activeEndOffsetSamplesInCueExclusive": 378839,
+      "delayFrames": 0,
+      "delayReason": null,
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 79,
+        "windowSamples": 240
+      },
+      "cueFile": "project/public/audio/cues/S09-a685c9844552.wav",
+      "cueSha256": "66ee1d4e26d1324df1fd2d21ea32f6cf3e33f835359482d6b160c8ba7d677eea",
+      "cuePcmSha256": "7733f9e4cd418746b9660ac4dff40cc08fa91f14f721c1ca1f97163d0fb6f10e"
+    },
+    {
+      "id": "S10",
+      "declaredStartFrame": 6960,
+      "declaredEndFrame": 7200,
+      "voiceStartSample": 5568000,
+      "voiceEndSampleExclusive": 5671935,
+      "cueStartSample": 5557059,
+      "cueEndSampleExclusive": 5683779,
+      "cueSamplesAt48k": 126720,
+      "measuredActiveSamples": 103935,
+      "onsetOffsetSamplesInCue": 10941,
+      "activeEndOffsetSamplesInCueExclusive": 114876,
+      "delayFrames": 0,
+      "delayReason": null,
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 82,
+        "windowSamples": 240
+      },
+      "cueFile": "project/public/audio/cues/S10-4348402d849b.wav",
+      "cueSha256": "ab80f4a8220ab948173f3d20c309748c47bf63f26a4cbcd1d42cc59d726ba352",
+      "cuePcmSha256": "1a81874071e5b221752163ce166a3e241ecff95fd6aa1d25a66f309b37553edb"
+    }
+  ],
+  "captionTimingMethod": "Subtitle units are divided proportionally across each segment's measured active PCM sample span. Editorial display-only prefix/suffix units are included but are not narrated. Frame boundaries are derived from sample counts and rounded once at shared cue edges. This is estimated phrase timing, not ASR or word alignment.",
+  "sfxEvents": [
+    {
+      "id": "opening_state_tick",
+      "authoredId": "thermal_state_tick",
+      "frame": 120,
+      "sampleIndex": 96000,
+      "durationSeconds": 0.9,
+      "description": "Soft deterministic Brownian thermal hiss with a crisp state tick.",
+      "spectralDesign": "two-pole 850 Hz low-pass; voice-critical 1-4 kHz band reduced"
+    },
+    {
+      "id": "barrier_collapse",
+      "authoredId": "erasure_heat_pulse",
+      "frame": 960,
+      "sampleIndex": 768000,
+      "durationSeconds": 1.5,
+      "description": "Potential-barrier drop followed by an infrared phonon-like burst.",
+      "spectralDesign": "two-pole 850 Hz low-pass; voice-critical 1-4 kHz band reduced"
+    },
+    {
+      "id": "resonant_seal",
+      "authoredId": "thermodynamic_seal",
+      "frame": 1350,
+      "sampleIndex": 1080000,
+      "durationSeconds": 1.8,
+      "description": "Low resonant metallic seal with a brief scanline texture.",
+      "spectralDesign": "two-pole 850 Hz low-pass; voice-critical 1-4 kHz band reduced"
+    },
+    {
+      "id": "limit_wall",
+      "authoredId": "compute_wall",
+      "frame": 2200,
+      "sampleIndex": 1760000,
+      "durationSeconds": 2.0,
+      "description": "Rising synthetic tone reaches a controlled limiter-like stop.",
+      "spectralDesign": "two-pole 850 Hz low-pass; voice-critical 1-4 kHz band reduced"
+    },
+    {
+      "id": "bit_flip_heat",
+      "authoredId": "aggregate_heat",
+      "frame": 3000,
+      "sampleIndex": 2400000,
+      "durationSeconds": 2.5,
+      "description": "Deterministic bit-flip crackle expands into a thermal pink-noise bed.",
+      "spectralDesign": "two-pole 850 Hz low-pass; voice-critical 1-4 kHz band reduced"
+    },
+    {
+      "id": "planetary_infrared",
+      "authoredId": "planetary_infrared",
+      "frame": 3780,
+      "sampleIndex": 3024000,
+      "durationSeconds": 1.8,
+      "description": "Low planetary infrared hum with a restrained telemetry beep.",
+      "spectralDesign": "two-pole 850 Hz low-pass; voice-critical 1-4 kHz band reduced"
+    },
+    {
+      "id": "planck_peak_shift",
+      "authoredId": "radiative_limit",
+      "frame": 4800,
+      "sampleIndex": 3840000,
+      "durationSeconds": 2.0,
+      "description": "Planck-curve peak-shift tone and brief thermal warning accent.",
+      "spectralDesign": "two-pole 850 Hz low-pass; voice-critical 1-4 kHz band reduced"
+    },
+    {
+      "id": "cryo_lock_chime",
+      "authoredId": "deep_space_transition",
+      "frame": 5400,
+      "sampleIndex": 4320000,
+      "durationSeconds": 2.4,
+      "description": "Short near-silent texture cut followed by an icy crystalline chime.",
+      "spectralDesign": "two-pole 850 Hz low-pass; voice-critical 1-4 kHz band reduced"
+    },
+    {
+      "id": "deep_space_organ",
+      "authoredId": "hypothesis_resolution",
+      "frame": 6500,
+      "sampleIndex": 5200000,
+      "durationSeconds": 5.5,
+      "description": "Solemn, spacious low-brass and organ-like harmonic resolution.",
+      "spectralDesign": "two-pole 850 Hz low-pass; voice-critical 1-4 kHz band reduced"
+    },
+    {
+      "id": "heartbeat_key",
+      "authoredId": "human_scale_preview",
+      "frame": 7020,
+      "sampleIndex": 5616000,
+      "durationSeconds": 2.0,
+      "description": "Intimate heartbeat pulse locking into a restrained golden-key tone.",
+      "spectralDesign": "two-pole 850 Hz low-pass; voice-critical 1-4 kHz band reduced"
+    }
+  ],
+  "thermalNoise": {
+    "cutFrame": 5400,
+    "cutSample": 4320000,
+    "preCutFadeSamples": 240,
+    "samplesZeroFromCut": true
+  },
+  "sourceHashes": {
+    "scriptMd": "18ac9111b16bcced36eebe5843839c4d0ec57f939737866fe7e178c9aa7ffd93",
+    "segmentsJson": "5367c9e52e435a796e72da18f8c2abac8d385fbe88d8eae9008b708b2fd18be9",
+    "eventsJson": "172c2e47af924faf219c797f7aa452ca6ccdc0572fd21f0ed95dadcd4e9ed547",
+    "eventSpec": "e0f4310408003e6fb6c826db8af8fb5888dde5a7bf785557ae782652b9408d27",
+    "providerManifest": "7ebd470b2ab7211c9d06d4c19fd3296a8422d60363019df9e63f3c173f55d22d",
+    "cueWavs": [
+      {
+        "id": "S01",
+        "path": "project/public/audio/cues/S01-9c0fc425007e.wav",
+        "sha256": "933a9444032a7aa8ca901236064988b2cb752b46d951b7d076d725f9a42514f3",
+        "samplesAt48k": 307200
+      },
+      {
+        "id": "S02",
+        "path": "project/public/audio/cues/S02-8348c60d59dd.wav",
+        "sha256": "1ed45f24db2603cc85a1f73d221ddaa5833b0c14d90e4f712dd64f0442d08488",
+        "samplesAt48k": 449280
+      },
+      {
+        "id": "S03",
+        "path": "project/public/audio/cues/S03-1c6a0502e646.wav",
+        "sha256": "3e7be4712963d043a435346e1c1e439a310510d2abf7533268cb18ca0f514b14",
+        "samplesAt48k": 280320
+      },
+      {
+        "id": "S04",
+        "path": "project/public/audio/cues/S04-c09a6e2b7945.wav",
+        "sha256": "1074c1da6b7fce4b8b53f8affa1a6e3d32b703f92a2c3d9132a2b1cfeae9d23e",
+        "samplesAt48k": 433920
+      },
+      {
+        "id": "S05",
+        "path": "project/public/audio/cues/S05-c78539829732.wav",
+        "sha256": "434c845b3d037fcc32b259d1c936835706e67641c31617cbdc2420e04a91a284",
+        "samplesAt48k": 622080
+      },
+      {
+        "id": "S06",
+        "path": "project/public/audio/cues/S06-01f5ec7ccc81.wav",
+        "sha256": "8fd796f5a4908da120b4eb8052d09f4a9525c4482ca5ccbc266dcdf4616b6646",
+        "samplesAt48k": 384000
+      },
+      {
+        "id": "S07",
+        "path": "project/public/audio/cues/S07-e8e92e68a359.wav",
+        "sha256": "4919d3aeeee6ce2b04a1f0f62638b85127085f3fa91f0ba38a8f2c9e3f7fcfa5",
+        "samplesAt48k": 376320
+      },
+      {
+        "id": "S08",
+        "path": "project/public/audio/cues/S08-e6b83ab3d5ed.wav",
+        "sha256": "d65c934aea803136db6df8e371b652bccf0ed8cd9a47107e2adf38255a82811f",
+        "samplesAt48k": 456960
+      },
+      {
+        "id": "S09",
+        "path": "project/public/audio/cues/S09-a685c9844552.wav",
+        "sha256": "66ee1d4e26d1324df1fd2d21ea32f6cf3e33f835359482d6b160c8ba7d677eea",
+        "samplesAt48k": 387840
+      },
+      {
+        "id": "S10",
+        "path": "project/public/audio/cues/S10-4348402d849b.wav",
+        "sha256": "ab80f4a8220ab948173f3d20c309748c47bf63f26a4cbcd1d42cc59d726ba352",
+        "samplesAt48k": 126720
+      }
+    ]
+  },
+  "status": "measured_pcm_with_estimated_phrase_timing",
+  "captions": [
+    {
+      "segmentId": "S01",
+      "startFrame": 132,
+      "endFrame": 355,
+      "text": "你此时此刻闪过的每\n一个念头，都伴随着"
+    },
+    {
+      "segmentId": "S01",
+      "startFrame": 355,
+      "endFrame": 492,
+      "text": "能量消耗，和热量释放。"
+    },
+    {
+      "segmentId": "S02",
+      "startFrame": 660,
+      "endFrame": 962,
+      "text": "1961年，兰道尔提出：\n在300K下，擦除一个"
+    },
+    {
+      "segmentId": "S02",
+      "startFrame": 962,
+      "endFrame": 1198,
+      "text": "未知比特，至少释放\n2.87仄焦耳热。"
+    },
+    {
+      "segmentId": "S03",
+      "startFrame": 1320,
+      "endFrame": 1528,
+      "text": "这不是芯片工艺缺陷；\n对不可逆擦除而言，"
+    },
+    {
+      "segmentId": "S03",
+      "startFrame": 1528,
+      "endFrame": 1650,
+      "text": "这是热力学的能耗下限。"
+    },
+    {
+      "segmentId": "S04",
+      "startFrame": 1860,
+      "endFrame": 2072,
+      "text": "进化约四十亿年，\n造就约二十瓦的人脑；"
+    },
+    {
+      "segmentId": "S04",
+      "startFrame": 2072,
+      "endFrame": 2283,
+      "text": "而硅基算力不断增长，\n也受不可逆擦除的"
+    },
+    {
+      "segmentId": "S04",
+      "startFrame": 2283,
+      "endFrame": 2378,
+      "text": "热力学下限约束。"
+    },
+    {
+      "segmentId": "S05",
+      "startFrame": 2700,
+      "endFrame": 2971,
+      "text": "即使每次不可逆擦除，\n都达到理论极限；"
+    },
+    {
+      "segmentId": "S05",
+      "startFrame": 2971,
+      "endFrame": 3228,
+      "text": "一万亿次，也只释放\n2.87纳焦耳。"
+    },
+    {
+      "segmentId": "S05",
+      "startFrame": 3228,
+      "endFrame": 3454,
+      "text": "危机来自，行星级\n运算的总热量。"
+    },
+    {
+      "segmentId": "S06",
+      "startFrame": 3660,
+      "endFrame": 3946,
+      "text": "根据斯特藩—玻尔兹曼定律，\n给定温度和发射率，"
+    },
+    {
+      "segmentId": "S06",
+      "startFrame": 3946,
+      "endFrame": 4115,
+      "text": "地球散热功率受\n表面积限制。"
+    },
+    {
+      "segmentId": "S07",
+      "startFrame": 4500,
+      "endFrame": 4721,
+      "text": "行星级算力的瓶颈，\n不只有供电，还有散热。"
+    },
+    {
+      "segmentId": "S07",
+      "startFrame": 4721,
+      "endFrame": 4943,
+      "text": "若不增加散热面积，\n巨量废热将威胁生物圈。"
+    },
+    {
+      "segmentId": "S08",
+      "startFrame": 5460,
+      "endFrame": 5760,
+      "text": "温暖的星球属于生命。\n超级智能或许会迁向更冷的深空；"
+    },
+    {
+      "segmentId": "S08",
+      "startFrame": 5760,
+      "endFrame": 6000,
+      "text": "但2.7开尔文是背景温度，\n不是运行温度。"
+    },
+    {
+      "segmentId": "S09",
+      "startFrame": 6360,
+      "endFrame": 6475,
+      "text": "一种未经证实的费米悖论假说"
+    },
+    {
+      "segmentId": "S09",
+      "startFrame": 6475,
+      "endFrame": 6617,
+      "text": "“这或许就是宇宙如此\n寂静的原因："
+    },
+    {
+      "segmentId": "S09",
+      "startFrame": 6617,
+      "endFrame": 6786,
+      "text": "最高等的智慧，正躲在\n最寒冷的黑暗里静默"
+    },
+    {
+      "segmentId": "S09",
+      "startFrame": 6786,
+      "endFrame": 6821,
+      "text": "思考。”"
+    },
+    {
+      "segmentId": "S10",
+      "startFrame": 6960,
+      "endFrame": 7015,
+      "text": "下一次观测：主权心印。"
+    },
+    {
+      "segmentId": "S10",
+      "startFrame": 7015,
+      "endFrame": 7090,
+      "text": "[EP.06 当算法比你更懂你]"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "status": "PASS",
+  "method": "Real local Google Chrome via the repository-style bundled Playwright check; muted playback and seeks in the supplied local player",
+  "results": [
+    {
+      "layout": "landscape",
+      "metadata": {
+        "width": 3840,
+        "height": 2160,
+        "duration": 120,
+        "error": null
+      },
+      "playback": {
+        "time": 0.717134,
+        "paused": false,
+        "totalFrames": 49,
+        "droppedFrames": 0
+      },
+      "seeks": [
+        {
+          "target": 16,
+          "time": 16,
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "target": 48,
+          "time": 48,
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "target": 80,
+          "time": 80,
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "target": 96.5,
+          "time": 96.5,
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "target": 118.5,
+          "time": 118.5,
+          "readyState": 4,
+          "error": null
+        }
+      ]
+    },
+    {
+      "layout": "portrait",
+      "metadata": {
+        "width": 2160,
+        "height": 3840,
+        "duration": 120,
+        "error": null
+      },
+      "playback": {
+        "time": 0.708565,
+        "paused": false,
+        "totalFrames": 259,
+        "droppedFrames": 0
+      },
+      "seeks": [
+        {
+          "target": 16,
+          "time": 16,
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "target": 48,
+          "time": 48,
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "target": 80,
+          "time": 80,
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "target": 96.5,
+          "time": 96.5,
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "target": 118.5,
+          "time": 118.5,
+          "readyState": 4,
+          "error": null
+        }
+      ]
+    }
+  ],
+  "page_errors": [],
+  "limitations": [
+    "No listening or pronunciation judgment; playback muted for automation.",
+    "Desktop browser only, not phone App or account upload evidence."
+  ]
+}

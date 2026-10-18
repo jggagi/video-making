@@ -1,0 +1,286 @@
+{
+  "version": 1,
+  "durationSeconds": 120,
+  "fps": 60,
+  "sampleRate": 48000,
+  "samplesPerFrame": 800,
+  "samplesPerChannel": 5760000,
+  "channels": 2,
+  "blockSamples": 24000,
+  "scoreDesign": "Low-register warm amber drone resolves to a cool, stable harmonic bed at frame 5400; all oscillators remain below 400 Hz.",
+  "sfxDesign": "Ten fixed-frame cues; two-pole 850 Hz low-pass reduces SFX energy in the 1-4 kHz speech band.",
+  "sfxOnsets": [
+    {
+      "id": "opening_state_tick",
+      "authoredId": "thermal_state_tick",
+      "frame": 120,
+      "sampleIndex": 96000,
+      "durationSeconds": 0.9,
+      "description": "Soft deterministic Brownian thermal hiss with a crisp state tick.",
+      "spectralDesign": "two-pole 850 Hz low-pass; voice-critical 1-4 kHz band reduced"
+    },
+    {
+      "id": "barrier_collapse",
+      "authoredId": "erasure_heat_pulse",
+      "frame": 960,
+      "sampleIndex": 768000,
+      "durationSeconds": 1.5,
+      "description": "Potential-barrier drop followed by an infrared phonon-like burst.",
+      "spectralDesign": "two-pole 850 Hz low-pass; voice-critical 1-4 kHz band reduced"
+    },
+    {
+      "id": "resonant_seal",
+      "authoredId": "thermodynamic_seal",
+      "frame": 1350,
+      "sampleIndex": 1080000,
+      "durationSeconds": 1.8,
+      "description": "Low resonant metallic seal with a brief scanline texture.",
+      "spectralDesign": "two-pole 850 Hz low-pass; voice-critical 1-4 kHz band reduced"
+    },
+    {
+      "id": "limit_wall",
+      "authoredId": "compute_wall",
+      "frame": 2200,
+      "sampleIndex": 1760000,
+      "durationSeconds": 2.0,
+      "description": "Rising synthetic tone reaches a controlled limiter-like stop.",
+      "spectralDesign": "two-pole 850 Hz low-pass; voice-critical 1-4 kHz band reduced"
+    },
+    {
+      "id": "bit_flip_heat",
+      "authoredId": "aggregate_heat",
+      "frame": 3000,
+      "sampleIndex": 2400000,
+      "durationSeconds": 2.5,
+      "description": "Deterministic bit-flip crackle expands into a thermal pink-noise bed.",
+      "spectralDesign": "two-pole 850 Hz low-pass; voice-critical 1-4 kHz band reduced"
+    },
+    {
+      "id": "planetary_infrared",
+      "authoredId": "planetary_infrared",
+      "frame": 3780,
+      "sampleIndex": 3024000,
+      "durationSeconds": 1.8,
+      "description": "Low planetary infrared hum with a restrained telemetry beep.",
+      "spectralDesign": "two-pole 850 Hz low-pass; voice-critical 1-4 kHz band reduced"
+    },
+    {
+      "id": "planck_peak_shift",
+      "authoredId": "radiative_limit",
+      "frame": 4800,
+      "sampleIndex": 3840000,
+      "durationSeconds": 2.0,
+      "description": "Planck-curve peak-shift tone and brief thermal warning accent.",
+      "spectralDesign": "two-pole 850 Hz low-pass; voice-critical 1-4 kHz band reduced"
+    },
+    {
+      "id": "cryo_lock_chime",
+      "authoredId": "deep_space_transition",
+      "frame": 5400,
+      "sampleIndex": 4320000,
+      "durationSeconds": 2.4,
+      "description": "Short near-silent texture cut followed by an icy crystalline chime.",
+      "spectralDesign": "two-pole 850 Hz low-pass; voice-critical 1-4 kHz band reduced"
+    },
+    {
+      "id": "deep_space_organ",
+      "authoredId": "hypothesis_resolution",
+      "frame": 6500,
+      "sampleIndex": 5200000,
+      "durationSeconds": 5.5,
+      "description": "Solemn, spacious low-brass and organ-like harmonic resolution.",
+      "spectralDesign": "two-pole 850 Hz low-pass; voice-critical 1-4 kHz band reduced"
+    },
+    {
+      "id": "heartbeat_key",
+      "authoredId": "human_scale_preview",
+      "frame": 7020,
+      "sampleIndex": 5616000,
+      "durationSeconds": 2.0,
+      "description": "Intimate heartbeat pulse locking into a restrained golden-key tone.",
+      "spectralDesign": "two-pole 850 Hz low-pass; voice-critical 1-4 kHz band reduced"
+    }
+  ],
+  "thermalNoise": {
+    "noise": "Seeded Brownian-style two-stage low-pass noise",
+    "cutFrame": 5400,
+    "cutSample": 4320000,
+    "preCutFadeSamples": 240,
+    "exactZeroFromSample": 4320000
+  },
+  "loudnormTarget": {
+    "integratedLUFS": -17.0,
+    "truePeakDBTP": -1.8,
+    "acceptanceLUFS": [
+      -18.0,
+      -16.0
+    ],
+    "acceptanceTruePeakDBTP": -1.0,
+    "passes": 2
+  },
+  "sourceHashes": {
+    "scriptMd": "18ac9111b16bcced36eebe5843839c4d0ec57f939737866fe7e178c9aa7ffd93",
+    "segmentsJson": "5367c9e52e435a796e72da18f8c2abac8d385fbe88d8eae9008b708b2fd18be9",
+    "eventsJson": "172c2e47af924faf219c797f7aa452ca6ccdc0572fd21f0ed95dadcd4e9ed547",
+    "eventSpec": "e0f4310408003e6fb6c826db8af8fb5888dde5a7bf785557ae782652b9408d27",
+    "providerManifest": "7ebd470b2ab7211c9d06d4c19fd3296a8422d60363019df9e63f3c173f55d22d",
+    "cueWavs": [
+      {
+        "id": "S01",
+        "path": "project/public/audio/cues/S01-9c0fc425007e.wav",
+        "sha256": "933a9444032a7aa8ca901236064988b2cb752b46d951b7d076d725f9a42514f3",
+        "samplesAt48k": 307200
+      },
+      {
+        "id": "S02",
+        "path": "project/public/audio/cues/S02-8348c60d59dd.wav",
+        "sha256": "1ed45f24db2603cc85a1f73d221ddaa5833b0c14d90e4f712dd64f0442d08488",
+        "samplesAt48k": 449280
+      },
+      {
+        "id": "S03",
+        "path": "project/public/audio/cues/S03-1c6a0502e646.wav",
+        "sha256": "3e7be4712963d043a435346e1c1e439a310510d2abf7533268cb18ca0f514b14",
+        "samplesAt48k": 280320
+      },
+      {
+        "id": "S04",
+        "path": "project/public/audio/cues/S04-c09a6e2b7945.wav",
+        "sha256": "1074c1da6b7fce4b8b53f8affa1a6e3d32b703f92a2c3d9132a2b1cfeae9d23e",
+        "samplesAt48k": 433920
+      },
+      {
+        "id": "S05",
+        "path": "project/public/audio/cues/S05-c78539829732.wav",
+        "sha256": "434c845b3d037fcc32b259d1c936835706e67641c31617cbdc2420e04a91a284",
+        "samplesAt48k": 622080
+      },
+      {
+        "id": "S06",
+        "path": "project/public/audio/cues/S06-01f5ec7ccc81.wav",
+        "sha256": "8fd796f5a4908da120b4eb8052d09f4a9525c4482ca5ccbc266dcdf4616b6646",
+        "samplesAt48k": 384000
+      },
+      {
+        "id": "S07",
+        "path": "project/public/audio/cues/S07-e8e92e68a359.wav",
+        "sha256": "4919d3aeeee6ce2b04a1f0f62638b85127085f3fa91f0ba38a8f2c9e3f7fcfa5",
+        "samplesAt48k": 376320
+      },
+      {
+        "id": "S08",
+        "path": "project/public/audio/cues/S08-e6b83ab3d5ed.wav",
+        "sha256": "d65c934aea803136db6df8e371b652bccf0ed8cd9a47107e2adf38255a82811f",
+        "samplesAt48k": 456960
+      },
+      {
+        "id": "S09",
+        "path": "project/public/audio/cues/S09-a685c9844552.wav",
+        "sha256": "66ee1d4e26d1324df1fd2d21ea32f6cf3e33f835359482d6b160c8ba7d677eea",
+        "samplesAt48k": 387840
+      },
+      {
+        "id": "S10",
+        "path": "project/public/audio/cues/S10-4348402d849b.wav",
+        "sha256": "ab80f4a8220ab948173f3d20c309748c47bf63f26a4cbcd1d42cc59d726ba352",
+        "samplesAt48k": 126720
+      }
+    ]
+  },
+  "outputs": {
+    "narration": {
+      "file": "project/public/audio/narration.wav",
+      "sha256": "ec1d9735be56f7e3b782528e8f41ac930d11cb2d6f7a87832f0fe72a80abf780",
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleWidthBytes": 2,
+      "samplesPerChannel": 5760000,
+      "durationSeconds": 120.0
+    },
+    "score": {
+      "file": "project/public/audio/score.wav",
+      "sha256": "f4276b75060aca91b2121f09b2bd6584780f69427eccc87dad9b000d81f57ab1",
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleWidthBytes": 2,
+      "samplesPerChannel": 5760000,
+      "durationSeconds": 120.0,
+      "design": "Low-register warm amber drone resolves to a cool, stable harmonic bed at frame 5400; all oscillators remain below 400 Hz."
+    },
+    "sfx": {
+      "file": "project/public/audio/sfx.wav",
+      "sha256": "3498ac166f717bf0503211ba44b136014efe8367a1685c7eb6d8a059a4d6dfab",
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleWidthBytes": 2,
+      "samplesPerChannel": 5760000,
+      "durationSeconds": 120.0,
+      "design": "Ten fixed-frame cues; two-pole 850 Hz low-pass reduces SFX energy in the 1-4 kHz speech band."
+    },
+    "thermal": {
+      "file": "project/public/audio/thermal.wav",
+      "sha256": "75594acf656f941e455faaab52330e3700677f74c1b5856f11a51f3cb73cbd62",
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleWidthBytes": 2,
+      "samplesPerChannel": 5760000,
+      "durationSeconds": 120.0,
+      "design": {
+        "noise": "Seeded Brownian-style two-stage low-pass noise",
+        "cutFrame": 5400,
+        "cutSample": 4320000,
+        "preCutFadeSamples": 240,
+        "exactZeroFromSample": 4320000
+      }
+    },
+    "master": {
+      "file": "project/public/audio/master.wav",
+      "sha256": "8cb7537d6f47c1279b3df51e72c44087efa0debf13b6834876309137df8f1acf",
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleWidthBytes": 2,
+      "samplesPerChannel": 5760000,
+      "durationSeconds": 120.0,
+      "strictDecode": "passed",
+      "loudnormFirstPass": {
+        "input_i": "-20.00",
+        "input_tp": "-1.17",
+        "input_lra": "13.00",
+        "input_thresh": "-30.09",
+        "output_i": "-16.75",
+        "output_tp": "-1.80",
+        "output_lra": "10.10",
+        "output_thresh": "-26.75",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.25"
+      },
+      "loudnormSecondPass": {
+        "input_i": "-20.00",
+        "input_tp": "-1.17",
+        "input_lra": "13.00",
+        "input_thresh": "-30.09",
+        "output_i": "-16.95",
+        "output_tp": "-1.80",
+        "output_lra": "10.10",
+        "output_thresh": "-26.95",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.05"
+      },
+      "ebur128Final": {
+        "integratedLUFS": -16.9,
+        "truePeakDBTP": -1.8
+      },
+      "loudnormTarget": {
+        "integratedLUFS": -17.0,
+        "truePeakDBTP": -1.8,
+        "acceptanceLUFS": [
+          -18.0,
+          -16.0
+        ],
+        "acceptanceTruePeakDBTP": -1.0,
+        "passes": 2
+      },
+      "latencyNote": "FFmpeg loudnorm true-peak processing is delay compensated; output is trimmed to exactly 5,760,000 samples per channel."
+    }
+  }
+}

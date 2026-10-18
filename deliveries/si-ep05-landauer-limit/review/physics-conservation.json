@@ -1,0 +1,98 @@
+{
+  "status": "PASS",
+  "source_sha256": "9247051202fdb110a2a459306c06e9104eb24c6ef95b377b20fd4d6069a0479f",
+  "spectral_exitance": [
+    {
+      "T": 300,
+      "integral_W_m2": 459.30037304696293,
+      "sigmaT4_W_m2": 459.300327939,
+      "relative_error": 9.821016933031501e-8
+    },
+    {
+      "T": 330,
+      "integral_W_m2": 672.4616761790043,
+      "sigmaT4_W_m2": 672.4616101354899,
+      "relative_error": 9.82115757608426e-8
+    },
+    {
+      "T": 345,
+      "integral_W_m2": 803.3192230880253,
+      "sigmaT4_W_m2": 803.3191441923606,
+      "relative_error": 9.821210578131456e-8
+    }
+  ],
+  "murray_branch_conservation": [
+    {
+      "level": 1,
+      "parent_radius_m": 0.03,
+      "child_radius_m": 0.023811015779522993,
+      "cubic_ratio": 1.0000000000000002
+    },
+    {
+      "level": 2,
+      "parent_radius_m": 0.023811015779522993,
+      "child_radius_m": 0.0188988157484231,
+      "cubic_ratio": 1.0000000000000004
+    },
+    {
+      "level": 3,
+      "parent_radius_m": 0.0188988157484231,
+      "child_radius_m": 0.015000000000000003,
+      "cubic_ratio": 1.0000000000000002
+    },
+    {
+      "level": 4,
+      "parent_radius_m": 0.015000000000000003,
+      "child_radius_m": 0.0119055078897615,
+      "cubic_ratio": 1.0000000000000004
+    },
+    {
+      "level": 5,
+      "parent_radius_m": 0.011905507889761498,
+      "child_radius_m": 0.00944940787421155,
+      "cubic_ratio": 1
+    }
+  ],
+  "earth_equilibria": [
+    {
+      "frame": 3600,
+      "T": 300,
+      "absorbed_W": 121484605597113810,
+      "compute_W": 21421789725987330,
+      "outgoing_W": 142906395323101140,
+      "relative_residual": 0
+    },
+    {
+      "frame": 3900,
+      "T": 303.3333333333333,
+      "absorbed_W": 121484605597113810,
+      "compute_W": 27879827963810450,
+      "outgoing_W": 149364433560924260,
+      "relative_residual": 0
+    },
+    {
+      "frame": 4800,
+      "T": 333.3333333333333,
+      "absorbed_W": 121484605597113810,
+      "compute_W": 96327306189353360,
+      "outgoing_W": 217811911786467170,
+      "relative_residual": 0
+    },
+    {
+      "frame": 5399,
+      "T": 344.9999583487654,
+      "absorbed_W": 121484605597113810,
+      "compute_W": 128459452286723380,
+      "outgoing_W": 249944057883837200,
+      "relative_residual": 0
+    }
+  ],
+  "landauer": {
+    "warm_J": 2.870978885078724e-21,
+    "cold_J": 2.6078058206131743e-23,
+    "ideal_ratio": 110.09174311926606,
+    "trillion_erasures_at_300K_nJ": 2.870978885078724
+  },
+  "model_boundaries": "../project/scientific-notes.md",
+  "failures": []
+}

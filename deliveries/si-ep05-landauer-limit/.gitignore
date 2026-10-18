@@ -1,0 +1,16 @@
+# Full-resolution working captures remain local; compact contact sheets are retained.
+review/source-*.png
+review/native/
+review/pairs/
+review/frames/
+review/*.log
+project/public/audio/narration.wav
+project/public/audio/score.wav
+project/public/audio/sfx.wav
+project/public/audio/thermal.wav
+project/public/audio/prelimit.wav
+project/public/audio/master-*.wav
+project/audio-authorization.json
+review/encoded-*-native-frame-*.png
+review/*-stdout.json
+review/storage-preflight.json

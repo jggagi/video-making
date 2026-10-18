@@ -1,0 +1,850 @@
+{
+  "schema_version": 1,
+  "reuse_policy": "One source, one narration cache, one PCM master, two native layouts. No platform-specific generation.",
+  "assets": [
+    {
+      "id": "procedural-CanvasWorld",
+      "kind": "frame_driven_analytical_geometry",
+      "path": "src/CanvasWorld.tsx",
+      "sha256": "ca7291a3386aa8d518ec34c59f7b13d35431c57fb6f9d2f424b265e72929fdd2",
+      "seed": "fixed indexed trigonometric sequences; shared frame clock",
+      "generation_provider": "local source; no image generation"
+    },
+    {
+      "id": "procedural-Film",
+      "kind": "frame_driven_analytical_geometry",
+      "path": "src/Film.tsx",
+      "sha256": "ee1319f84228c9b1d9dbd88033f43cbd4d271ccd6c76cdb95e8406b02b8f7630",
+      "seed": "fixed indexed trigonometric sequences; shared frame clock",
+      "generation_provider": "local source; no image generation"
+    },
+    {
+      "id": "procedural-Root",
+      "kind": "frame_driven_analytical_geometry",
+      "path": "src/Root.tsx",
+      "sha256": "8688d56eb986e804a576909d7f7fdbd4bc36b86b6fb96967fe663c266451a964",
+      "seed": "fixed indexed trigonometric sequences; shared frame clock",
+      "generation_provider": "local source; no image generation"
+    },
+    {
+      "id": "procedural-index",
+      "kind": "frame_driven_analytical_geometry",
+      "path": "src/index.ts",
+      "sha256": "2e0e358282a1b998a65387c653b97c2bb2eb7aae94cf200fc0b8d919f7be73a6",
+      "seed": "fixed indexed trigonometric sequences; shared frame clock",
+      "generation_provider": "local source; no image generation"
+    },
+    {
+      "id": "procedural-physics",
+      "kind": "frame_driven_analytical_geometry",
+      "path": "src/physics.ts",
+      "sha256": "9247051202fdb110a2a459306c06e9104eb24c6ef95b377b20fd4d6069a0479f",
+      "seed": "fixed indexed trigonometric sequences; shared frame clock",
+      "generation_provider": "local source; no image generation"
+    },
+    {
+      "id": "S01-raw",
+      "kind": "narration",
+      "path": "public/audio/raw/S01-9c0fc425007e.wav",
+      "sha256": "a6e1dda65861afd9838496fbb7171171671a6386dfd7e00b8727adadd9866d81",
+      "cache_key": "9c0fc425007e50f47166128cf1e4e5eb4e7126d1954bfec1bba87c3da6b2fa6d",
+      "tts_phonetic_text": "你此时此刻，闪过的每一个念头，都伴随着能量消耗，和热量释放。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "reported_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "S01-canonical",
+      "kind": "narration",
+      "path": "public/audio/canonical/S01-9c0fc425007e.wav",
+      "sha256": "c17ad8291fd6eec6c5ea2db715a73d2dac68db6dea22a19581a2c8d60f5df914",
+      "cache_key": "9c0fc425007e50f47166128cf1e4e5eb4e7126d1954bfec1bba87c3da6b2fa6d",
+      "tts_phonetic_text": "你此时此刻，闪过的每一个念头，都伴随着能量消耗，和热量释放。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "reported_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "S01-cue",
+      "kind": "narration",
+      "path": "public/audio/cues/S01-9c0fc425007e.wav",
+      "sha256": "933a9444032a7aa8ca901236064988b2cb752b46d951b7d076d725f9a42514f3",
+      "cache_key": "9c0fc425007e50f47166128cf1e4e5eb4e7126d1954bfec1bba87c3da6b2fa6d",
+      "tts_phonetic_text": "你此时此刻，闪过的每一个念头，都伴随着能量消耗，和热量释放。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "reported_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "S02-raw",
+      "kind": "narration",
+      "path": "public/audio/raw/S02-8348c60d59dd.wav",
+      "sha256": "760e22e41461888181867cab25b516d42252a3c1ca3cd124591c388bc06e5cef",
+      "cache_key": "8348c60d59dd4031dd57983a5421ed6b14f542c81ba204ec5086a6a83d9d520d",
+      "tts_phonetic_text": "一九六一年，兰道尔提出：在三百开尔文下，擦除一个未知比特，至少释放，二点八七，仄焦耳热。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "reported_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "S02-canonical",
+      "kind": "narration",
+      "path": "public/audio/canonical/S02-8348c60d59dd.wav",
+      "sha256": "e03a0fa5637f55f3aa054e4d24596542504be105baa2d84576b85bbc6a18600e",
+      "cache_key": "8348c60d59dd4031dd57983a5421ed6b14f542c81ba204ec5086a6a83d9d520d",
+      "tts_phonetic_text": "一九六一年，兰道尔提出：在三百开尔文下，擦除一个未知比特，至少释放，二点八七，仄焦耳热。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "reported_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "S02-cue",
+      "kind": "narration",
+      "path": "public/audio/cues/S02-8348c60d59dd.wav",
+      "sha256": "1ed45f24db2603cc85a1f73d221ddaa5833b0c14d90e4f712dd64f0442d08488",
+      "cache_key": "8348c60d59dd4031dd57983a5421ed6b14f542c81ba204ec5086a6a83d9d520d",
+      "tts_phonetic_text": "一九六一年，兰道尔提出：在三百开尔文下，擦除一个未知比特，至少释放，二点八七，仄焦耳热。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "reported_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "S03-raw",
+      "kind": "narration",
+      "path": "public/audio/raw/S03-1c6a0502e646.wav",
+      "sha256": "162e0b9ffa4d04d7adcd416d6374a19362e20e1a9ff14e874b3dfaddef5650f5",
+      "cache_key": "1c6a0502e64660c02980b0db12f1690bba7e9b08c2d9cae31b51ceada7f80ba5",
+      "tts_phonetic_text": "这不是芯片工艺缺陷；对不可逆擦除而言，这是热力学的能耗下限。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "reported_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "S03-canonical",
+      "kind": "narration",
+      "path": "public/audio/canonical/S03-1c6a0502e646.wav",
+      "sha256": "9d4c51440a74ed493d4c49d7c3bdcfcc4deabd1fb86321ba236af15162ef0a64",
+      "cache_key": "1c6a0502e64660c02980b0db12f1690bba7e9b08c2d9cae31b51ceada7f80ba5",
+      "tts_phonetic_text": "这不是芯片工艺缺陷；对不可逆擦除而言，这是热力学的能耗下限。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "reported_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "S03-cue",
+      "kind": "narration",
+      "path": "public/audio/cues/S03-1c6a0502e646.wav",
+      "sha256": "3e7be4712963d043a435346e1c1e439a310510d2abf7533268cb18ca0f514b14",
+      "cache_key": "1c6a0502e64660c02980b0db12f1690bba7e9b08c2d9cae31b51ceada7f80ba5",
+      "tts_phonetic_text": "这不是芯片工艺缺陷；对不可逆擦除而言，这是热力学的能耗下限。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "reported_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "S04-raw",
+      "kind": "narration",
+      "path": "public/audio/raw/S04-c09a6e2b7945.wav",
+      "sha256": "9beaae025619e38ad3021b751c01ff445de7e930d95b4273e423685e03dced9d",
+      "cache_key": "c09a6e2b794531fcc6fd69021b499a0c842c995a7165295d578038d1fe8aed00",
+      "tts_phonetic_text": "进化约四十亿年，造就约二十瓦的人脑；而不断增长的硅基算力，也受制于不可逆擦除的热力学下限。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "reported_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "S04-canonical",
+      "kind": "narration",
+      "path": "public/audio/canonical/S04-c09a6e2b7945.wav",
+      "sha256": "b5ce8acd80fafd62a55e67e926642184992ccb9cdd52a68ceb4081d803401448",
+      "cache_key": "c09a6e2b794531fcc6fd69021b499a0c842c995a7165295d578038d1fe8aed00",
+      "tts_phonetic_text": "进化约四十亿年，造就约二十瓦的人脑；而不断增长的硅基算力，也受制于不可逆擦除的热力学下限。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "reported_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "S04-cue",
+      "kind": "narration",
+      "path": "public/audio/cues/S04-c09a6e2b7945.wav",
+      "sha256": "1074c1da6b7fce4b8b53f8affa1a6e3d32b703f92a2c3d9132a2b1cfeae9d23e",
+      "cache_key": "c09a6e2b794531fcc6fd69021b499a0c842c995a7165295d578038d1fe8aed00",
+      "tts_phonetic_text": "进化约四十亿年，造就约二十瓦的人脑；而不断增长的硅基算力，也受制于不可逆擦除的热力学下限。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "reported_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "S05-raw",
+      "kind": "narration",
+      "path": "public/audio/raw/S05-c78539829732.wav",
+      "sha256": "63b8123acaeef23552129807309f80ad544c3eb5bea34657d5b6f1c9bfb446f9",
+      "cache_key": "c78539829732a08915cb0c88542c8501cef11972b36eaaca93244580bca1d2f4",
+      "tts_phonetic_text": "即使每次不可逆擦除，都达到理论极限；一万亿次，也只释放，二点八七，纳焦耳。危机来自，行星级运算的总热量。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "reported_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "S05-canonical",
+      "kind": "narration",
+      "path": "public/audio/canonical/S05-c78539829732.wav",
+      "sha256": "c87ff01b7114a0d74658d7172929b8863a46913bdb2b037b6e9bf55ed9be0daf",
+      "cache_key": "c78539829732a08915cb0c88542c8501cef11972b36eaaca93244580bca1d2f4",
+      "tts_phonetic_text": "即使每次不可逆擦除，都达到理论极限；一万亿次，也只释放，二点八七，纳焦耳。危机来自，行星级运算的总热量。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "reported_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "S05-cue",
+      "kind": "narration",
+      "path": "public/audio/cues/S05-c78539829732.wav",
+      "sha256": "434c845b3d037fcc32b259d1c936835706e67641c31617cbdc2420e04a91a284",
+      "cache_key": "c78539829732a08915cb0c88542c8501cef11972b36eaaca93244580bca1d2f4",
+      "tts_phonetic_text": "即使每次不可逆擦除，都达到理论极限；一万亿次，也只释放，二点八七，纳焦耳。危机来自，行星级运算的总热量。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "reported_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "S06-raw",
+      "kind": "narration",
+      "path": "public/audio/raw/S06-01f5ec7ccc81.wav",
+      "sha256": "02322810ec4fc4535f24021f2528af909399732f390a28aa7a11a59f6f3f54d4",
+      "cache_key": "01f5ec7ccc8119fd062717a41bd4b956d033ac98e63408d8b1f5c548b08823a7",
+      "tts_phonetic_text": "根据斯特藩，玻尔兹曼定律，给定温度和发射率，地球散热功率受表面积限制。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "reported_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "S06-canonical",
+      "kind": "narration",
+      "path": "public/audio/canonical/S06-01f5ec7ccc81.wav",
+      "sha256": "f32685eed8bed51966c6588db149ccfcd639f12a8db7e6d516deb9539ce50a21",
+      "cache_key": "01f5ec7ccc8119fd062717a41bd4b956d033ac98e63408d8b1f5c548b08823a7",
+      "tts_phonetic_text": "根据斯特藩，玻尔兹曼定律，给定温度和发射率，地球散热功率受表面积限制。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "reported_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "S06-cue",
+      "kind": "narration",
+      "path": "public/audio/cues/S06-01f5ec7ccc81.wav",
+      "sha256": "8fd796f5a4908da120b4eb8052d09f4a9525c4482ca5ccbc266dcdf4616b6646",
+      "cache_key": "01f5ec7ccc8119fd062717a41bd4b956d033ac98e63408d8b1f5c548b08823a7",
+      "tts_phonetic_text": "根据斯特藩，玻尔兹曼定律，给定温度和发射率，地球散热功率受表面积限制。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "reported_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "S07-raw",
+      "kind": "narration",
+      "path": "public/audio/raw/S07-e8e92e68a359.wav",
+      "sha256": "611e0ecec44ed3cf80f0d1ca88889314e9ea25182e7bb9c065d00db2fe501615",
+      "cache_key": "e8e92e68a359c69904254d0d97b405f9f3af8c37fbe33f20194cec21baa6a3b4",
+      "tts_phonetic_text": "行星级算力的瓶颈，不只有供电，还有散热。若不增加散热面积，巨量废热将威胁生物圈。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "reported_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "S07-canonical",
+      "kind": "narration",
+      "path": "public/audio/canonical/S07-e8e92e68a359.wav",
+      "sha256": "cc3ecb70a8a838743ec21b671ffb7af3777ba9564654a8bf90f4a2c6de24ed29",
+      "cache_key": "e8e92e68a359c69904254d0d97b405f9f3af8c37fbe33f20194cec21baa6a3b4",
+      "tts_phonetic_text": "行星级算力的瓶颈，不只有供电，还有散热。若不增加散热面积，巨量废热将威胁生物圈。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "reported_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "S07-cue",
+      "kind": "narration",
+      "path": "public/audio/cues/S07-e8e92e68a359.wav",
+      "sha256": "4919d3aeeee6ce2b04a1f0f62638b85127085f3fa91f0ba38a8f2c9e3f7fcfa5",
+      "cache_key": "e8e92e68a359c69904254d0d97b405f9f3af8c37fbe33f20194cec21baa6a3b4",
+      "tts_phonetic_text": "行星级算力的瓶颈，不只有供电，还有散热。若不增加散热面积，巨量废热将威胁生物圈。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "reported_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "S08-raw",
+      "kind": "narration",
+      "path": "public/audio/raw/S08-e6b83ab3d5ed.wav",
+      "sha256": "3b61333f50b4d0b47d1d88cdd4d294131d0011c6617e7501aa03949fc9548f00",
+      "cache_key": "e6b83ab3d5eda5dbf462c1b537459dbc35c95945d6c896d97aeb61ef1ce7f912",
+      "tts_phonetic_text": "温暖的星球属于生命。超级智能或许会迁向更冷的深空；但二点七开尔文，是背景温度，不是运行温度。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "reported_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "S08-canonical",
+      "kind": "narration",
+      "path": "public/audio/canonical/S08-e6b83ab3d5ed.wav",
+      "sha256": "73ade595d6a866c30d167504cd9f3d01bf8a08b1b0b8835955bf590e4c8d7626",
+      "cache_key": "e6b83ab3d5eda5dbf462c1b537459dbc35c95945d6c896d97aeb61ef1ce7f912",
+      "tts_phonetic_text": "温暖的星球属于生命。超级智能或许会迁向更冷的深空；但二点七开尔文，是背景温度，不是运行温度。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "reported_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "S08-cue",
+      "kind": "narration",
+      "path": "public/audio/cues/S08-e6b83ab3d5ed.wav",
+      "sha256": "d65c934aea803136db6df8e371b652bccf0ed8cd9a47107e2adf38255a82811f",
+      "cache_key": "e6b83ab3d5eda5dbf462c1b537459dbc35c95945d6c896d97aeb61ef1ce7f912",
+      "tts_phonetic_text": "温暖的星球属于生命。超级智能或许会迁向更冷的深空；但二点七开尔文，是背景温度，不是运行温度。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "reported_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "S09-raw",
+      "kind": "narration",
+      "path": "public/audio/raw/S09-a685c9844552.wav",
+      "sha256": "9c7a956444ee7b89cbc4ea53ccdf97df47cdd8542f63b7eb2bc2fbca72b789d8",
+      "cache_key": "a685c9844552b21c8fef0288c8956a25c58762fb245186893c7041b7ab3e67ea",
+      "tts_phonetic_text": "这或许就是宇宙如此寂静的原因：最高等的智慧，正躲在最寒冷的黑暗里静默思考。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "reported_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "S09-canonical",
+      "kind": "narration",
+      "path": "public/audio/canonical/S09-a685c9844552.wav",
+      "sha256": "2dc7561e28576d43ff984ca040923fa3aae6ad7b941a48eae5e290e0154cb837",
+      "cache_key": "a685c9844552b21c8fef0288c8956a25c58762fb245186893c7041b7ab3e67ea",
+      "tts_phonetic_text": "这或许就是宇宙如此寂静的原因：最高等的智慧，正躲在最寒冷的黑暗里静默思考。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "reported_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "S09-cue",
+      "kind": "narration",
+      "path": "public/audio/cues/S09-a685c9844552.wav",
+      "sha256": "66ee1d4e26d1324df1fd2d21ea32f6cf3e33f835359482d6b160c8ba7d677eea",
+      "cache_key": "a685c9844552b21c8fef0288c8956a25c58762fb245186893c7041b7ab3e67ea",
+      "tts_phonetic_text": "这或许就是宇宙如此寂静的原因：最高等的智慧，正躲在最寒冷的黑暗里静默思考。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "reported_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "S10-raw",
+      "kind": "narration",
+      "path": "public/audio/raw/S10-4348402d849b.wav",
+      "sha256": "e5de401a48306fb1fc900078ac5aa2d26f1c87d1cdb156f847e8e7dbd54a726b",
+      "cache_key": "4348402d849b2e0e5954595639f6f071eaaa4d803243295c693d07c3df3f6d35",
+      "tts_phonetic_text": "下一次观测，主权心印。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "reported_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "S10-canonical",
+      "kind": "narration",
+      "path": "public/audio/canonical/S10-4348402d849b.wav",
+      "sha256": "677ef9641d72ead1097454e74453324c1d8d60eeba450ea3c34d09f33b2fd91f",
+      "cache_key": "4348402d849b2e0e5954595639f6f071eaaa4d803243295c693d07c3df3f6d35",
+      "tts_phonetic_text": "下一次观测，主权心印。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "reported_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "S10-cue",
+      "kind": "narration",
+      "path": "public/audio/cues/S10-4348402d849b.wav",
+      "sha256": "ab80f4a8220ab948173f3d20c309748c47bf63f26a4cbcd1d42cc59d726ba352",
+      "cache_key": "4348402d849b2e0e5954595639f6f071eaaa4d803243295c693d07c3df3f6d35",
+      "tts_phonetic_text": "下一次观测，主权心印。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "reported_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "audio-master",
+      "kind": "shared_PCM",
+      "path": "public/audio/master.wav",
+      "sha256": "8cb7537d6f47c1279b3df51e72c44087efa0debf13b6834876309137df8f1acf",
+      "sample_rate": 48000,
+      "channels": 2,
+      "samples_per_channel": 5760000,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "provenance": "public/audio/mix-settings.json"
+    },
+    {
+      "id": "audio-narration",
+      "kind": "reproducible_audio_stem",
+      "path": "public/audio/narration.wav",
+      "sha256": "ec1d9735be56f7e3b782528e8f41ac930d11cb2d6f7a87832f0fe72a80abf780",
+      "sample_rate": 48000,
+      "channels": 2,
+      "samples_per_channel": 5760000,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "provenance": "public/audio/mix-settings.json"
+    },
+    {
+      "id": "audio-score",
+      "kind": "reproducible_audio_stem",
+      "path": "public/audio/score.wav",
+      "sha256": "f4276b75060aca91b2121f09b2bd6584780f69427eccc87dad9b000d81f57ab1",
+      "sample_rate": 48000,
+      "channels": 2,
+      "samples_per_channel": 5760000,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "provenance": "public/audio/mix-settings.json"
+    },
+    {
+      "id": "audio-sfx",
+      "kind": "reproducible_audio_stem",
+      "path": "public/audio/sfx.wav",
+      "sha256": "3498ac166f717bf0503211ba44b136014efe8367a1685c7eb6d8a059a4d6dfab",
+      "sample_rate": 48000,
+      "channels": 2,
+      "samples_per_channel": 5760000,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "provenance": "public/audio/mix-settings.json"
+    },
+    {
+      "id": "audio-thermal",
+      "kind": "reproducible_audio_stem",
+      "path": "public/audio/thermal.wav",
+      "sha256": "75594acf656f941e455faaab52330e3700677f74c1b5856f11a51f3cb73cbd62",
+      "sample_rate": 48000,
+      "channels": 2,
+      "samples_per_channel": 5760000,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "provenance": "public/audio/mix-settings.json"
+    }
+  ],
+  "fonts": [
+    {
+      "family": "PingFang SC / Hiragino Sans GB",
+      "source": "installed macOS system fonts, locally resolved",
+      "redistributed": false
+    },
+    {
+      "family": "Menlo / Arial",
+      "source": "installed macOS fonts",
+      "redistributed": false
+    }
+  ],
+  "physics_boundaries": "scientific-notes.md",
+  "audio_phrase_alignment": "measured cue spans; estimated phrase boundaries; no ASR upload"
+}

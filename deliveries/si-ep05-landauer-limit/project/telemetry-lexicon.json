@@ -1,0 +1,22 @@
+{
+  "terms": [
+    "LANDAUER",
+    "BOLTZMANN",
+    "THERMODYNAMIC",
+    "IRREVERSIBLE",
+    "PLANCK",
+    "RESERVOIR TEMP (T)",
+    "LANDAUER BIT ERASURE FLOOR",
+    "ENERGY EFFICIENCY",
+    "PLANETARY WASTE HEAT",
+    "SOLAR INTERCEPT",
+    "STEFAN–BOLTZMANN",
+    "MURRAY",
+    "SOVEREIGN INTENT VAULT // PRIVATE KEY LOCKED"
+  ],
+  "temperature_units": "K",
+  "ideal_erasure_at_300K_J": 2.870978885078724e-21,
+  "ideal_erasure_at_2_725K_J": 2.6078058206131746e-23,
+  "landauer_comparison_assumption": "one irreversible bit erasure per op; not a universal operations limit",
+  "portrait_labels": "compact four-row equivalents; full canonical strings in landscape"
+}

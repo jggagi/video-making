@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "method": "Fresh agent-dev status plus successful per-job verified runner; expected volume identities checked locally. Raw UUID report retained locally.",
+  "volumes": {
+    "agentdev": {
+      "mount": "/Volumes/AgentDev",
+      "free_bytes": 117820698624,
+      "expected_identity_verified": true
+    },
+    "host": {
+      "mount": "/Volumes/WD_BLACK",
+      "free_bytes": 268148146176,
+      "expected_identity_verified": true
+    }
+  },
+  "internal_free_bytes_at_initial_preflight": 5755117568,
+  "internal_capacity_policy": "warning only; render caches use verified AgentDev storage"
+}

@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "title": "兰道尔极限｜THE LANDAUER LIMIT · EP.05",
+  "slug": "si-ep05-landauer-limit",
+  "duration_seconds": 120,
+  "fps": 60,
+  "total_frames": 7200,
+  "script": {
+    "path": "source/script.md",
+    "sha256": "18ac9111b16bcced36eebe5843839c4d0ec57f939737866fe7e178c9aa7ffd93"
+  },
+  "audio": {
+    "mode": "narrated",
+    "master": "project/public/audio/master.wav",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples_per_channel": 5760000,
+    "sha256": "8cb7537d6f47c1279b3df51e72c44087efa0debf13b6834876309137df8f1acf",
+    "pcm_metrics": {
+      "integratedLUFS": -16.9,
+      "truePeakDBTP": -1.8
+    }
+  },
+  "outputs": {
+    "bilibili": {
+      "path": "B站/si-ep05-landauer-limit-bilibili-120s-4k.mp4",
+      "width": 3840,
+      "height": 2160
+    },
+    "xiaohongshu": {
+      "path": "小红书/si-ep05-landauer-limit-xiaohongshu-120s-portrait.mp4",
+      "width": 2160,
+      "height": 3840
+    }
+  },
+  "qa": {
+    "automated": "pending",
+    "representative_frames": "pending",
+    "continuous_human_review": "pending",
+    "target_device_playback": "pending"
+  }
+}

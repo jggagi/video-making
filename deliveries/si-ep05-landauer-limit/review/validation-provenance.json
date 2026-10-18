@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "validated_input_snapshot": "review/validated-manifest-input.json",
+  "snapshot_sha256": "5cfe7e89c0c8cd53c4bba3702d41b21b7d55ca31ff03e97574d233e1cc14f61c",
+  "strict_media_report": "review/media-validation-20261018T143517.193216Z.json",
+  "current_media_spec_matches_validated_input": true,
+  "later_metadata_additions": [
+    "measured output hashes and byte sizes",
+    "measured AAC metrics",
+    "QA evidence links and statuses",
+    "production status"
+  ],
+  "media_reencoded_after_validation": false
+}

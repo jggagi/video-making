@@ -1,0 +1,67 @@
+{
+  "fps": 60,
+  "sampleRate": 48000,
+  "samplesPerFrame": 800,
+  "events": [
+    {
+      "id": "thermal_state_tick",
+      "frame": 120,
+      "sampleIndex": 96000,
+      "description": "Soft deterministic Brownian thermal hiss with a crisp state tick."
+    },
+    {
+      "id": "erasure_heat_pulse",
+      "frame": 960,
+      "sampleIndex": 768000,
+      "description": "Potential-barrier drop followed by an infrared phonon-like burst."
+    },
+    {
+      "id": "thermodynamic_seal",
+      "frame": 1350,
+      "sampleIndex": 1080000,
+      "description": "Low resonant metallic seal with a brief scanline texture."
+    },
+    {
+      "id": "compute_wall",
+      "frame": 2200,
+      "sampleIndex": 1760000,
+      "description": "Rising synthetic tone reaches a controlled limiter-like stop."
+    },
+    {
+      "id": "aggregate_heat",
+      "frame": 3000,
+      "sampleIndex": 2400000,
+      "description": "Deterministic bit-flip crackle expands into a thermal pink-noise bed."
+    },
+    {
+      "id": "planetary_infrared",
+      "frame": 3780,
+      "sampleIndex": 3024000,
+      "description": "Low planetary infrared hum with a restrained telemetry beep."
+    },
+    {
+      "id": "radiative_limit",
+      "frame": 4800,
+      "sampleIndex": 3840000,
+      "description": "Planck-curve peak-shift tone and brief thermal warning accent."
+    },
+    {
+      "id": "deep_space_transition",
+      "frame": 5400,
+      "sampleIndex": 4320000,
+      "description": "Short near-silent texture cut followed by an icy crystalline chime."
+    },
+    {
+      "id": "hypothesis_resolution",
+      "frame": 6500,
+      "sampleIndex": 5200000,
+      "description": "Solemn, spacious low-brass and organ-like harmonic resolution."
+    },
+    {
+      "id": "human_scale_preview",
+      "frame": 7020,
+      "sampleIndex": 5616000,
+      "description": "Intimate heartbeat pulse locking into a restrained golden-key tone."
+    }
+  ]
+}

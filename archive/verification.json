@@ -1,0 +1,479 @@
+{
+  "schema_version": 1,
+  "repository": "jggagi/video-making",
+  "status": "verified",
+  "verified_at_utc": "2026-10-18T02:32:28.202307+00:00",
+  "source_commit": "ead6db0d9f8c446a5c6b6b18d6a047b1d2fe4da0",
+  "catalog_sha256": "8f1cf63fc14ee0fac115c5901e76744a068ffd914ea8b8386187c833b94a059e",
+  "counts": {
+    "works": 5,
+    "video_files": 41,
+    "project_zip_files": 10,
+    "total_assets": 51,
+    "total_bytes": 5173284551
+  },
+  "verification": "Fresh authenticated GitHub release reads: all published, asset state uploaded, byte size, SHA-256 digest and download URL match catalog.",
+  "public_download_smoke": {
+    "path": "si-eternity/out/ending-title-v3.mp4",
+    "bytes": 664599,
+    "sha256": "9fa8d3d800ccdec845a042a2e52a5a90e86ee82e9a3b07da124531518bc325d1",
+    "restored_from_public_release": true,
+    "second_run": "skipped matching existing file",
+    "scope": "one small preview video in an isolated temporary workspace; no continuous viewing/listening claim"
+  },
+  "releases": [
+    {
+      "work_id": "lanting",
+      "tag": "archive-lanting-v1",
+      "url": "https://github.com/jggagi/video-making/releases/tag/archive-lanting-v1",
+      "draft": false,
+      "target_commitish": "e026d59564677f3577af298f696f0b42d41dcd8a",
+      "assets_verified": [
+        {
+          "path": "out/extended/motion-sample.mp4",
+          "name": "lanting--out--extended--motion-sample--cd7323ea1a8a.mp4",
+          "bytes": 32651926,
+          "sha256": "cd7323ea1a8a64d709ceaf296a20d42ee046efa66be41bfdc87f9f07a5d21941",
+          "asset_id": 652221655,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/archive-lanting-v1/lanting--out--extended--motion-sample--cd7323ea1a8a.mp4"
+        },
+        {
+          "path": "out/extended/兰亭集序-展厅增强版-1080p.mp4",
+          "name": "lanting--out--extended------1080p--2713a7cd2a0b.mp4",
+          "bytes": 183109096,
+          "sha256": "2713a7cd2a0bd049476cbe8a561c22995027b24e3041cfcc8902966b70c13ff8",
+          "asset_id": 652221792,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/archive-lanting-v1/lanting--out--extended------1080p--2713a7cd2a0b.mp4"
+        },
+        {
+          "path": "out/extended/兰亭集序-展厅增强版-4K.mp4",
+          "name": "lanting--out--extended------4K--24fdd06c726c.mp4",
+          "bytes": 781248818,
+          "sha256": "24fdd06c726cbfede58d4755c348b4b8400808aff6b737407d83a403e1a21c78",
+          "asset_id": 652222352,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/archive-lanting-v1/lanting--out--extended------4K--24fdd06c726c.mp4"
+        },
+        {
+          "path": "out/museum/motion-sample.mp4",
+          "name": "lanting--out--museum--motion-sample--6aad0a44824a.mp4",
+          "bytes": 39923300,
+          "sha256": "6aad0a44824a7a185a629e7497f8b3d275ebc1fe8d77b39f2647b1f09fa389cd",
+          "asset_id": 652225643,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/archive-lanting-v1/lanting--out--museum--motion-sample--6aad0a44824a.mp4"
+        },
+        {
+          "path": "out/museum/兰亭集序-博物馆版-1080p.mp4",
+          "name": "lanting--out--museum------1080p--76cfb10b2e73.mp4",
+          "bytes": 143791306,
+          "sha256": "76cfb10b2e73050786170a350ec972af6331823d6a8af47215af60d067818d36",
+          "asset_id": 652225762,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/archive-lanting-v1/lanting--out--museum------1080p--76cfb10b2e73.mp4"
+        },
+        {
+          "path": "out/museum/兰亭集序-博物馆版-4K.mp4",
+          "name": "lanting--out--museum------4K--2471e8382db5.mp4",
+          "bytes": 629677206,
+          "sha256": "2471e8382db5674898443cdc4800c43182e8a436a1bb591ae19b0e54b51aa19d",
+          "asset_id": 652226218,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/archive-lanting-v1/lanting--out--museum------4K--2471e8382db5.mp4"
+        },
+        {
+          "path": "out/time-bridge/兰亭集序-古今回望版-1080p.mp4",
+          "name": "lanting--out--time-bridge------1080p--c448d0426462.mp4",
+          "bytes": 182675421,
+          "sha256": "c448d04264628266a7080b62264d552571f3813078380eac3b666b21d43533d4",
+          "asset_id": 652228797,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/archive-lanting-v1/lanting--out--time-bridge------1080p--c448d0426462.mp4"
+        },
+        {
+          "path": "out/time-bridge/兰亭集序-古今回望版-4K.mp4",
+          "name": "lanting--out--time-bridge------4K--8e41a82c51e4.mp4",
+          "bytes": 770129376,
+          "sha256": "8e41a82c51e45b7a0fd8e7692daf189e2174667d9f04e92be68fa94d55a6b188",
+          "asset_id": 652229274,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/archive-lanting-v1/lanting--out--time-bridge------4K--8e41a82c51e4.mp4"
+        },
+        {
+          "path": "out/time-bridge/古今回望-点睛片段.mp4",
+          "name": "lanting--out--time-bridge--5791311c7d53.mp4",
+          "bytes": 15108514,
+          "sha256": "5791311c7d53bce1e7ab007a22958ccfe8c4a0a098e25af0cb0cd13b67c1c0c3",
+          "asset_id": 652231957,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/archive-lanting-v1/lanting--out--time-bridge--5791311c7d53.mp4"
+        },
+        {
+          "path": "out/兰亭集序.mp4",
+          "name": "lanting--out--bebefa8d5043.mp4",
+          "bytes": 202565502,
+          "sha256": "bebefa8d50433498743e9fbf40e53efa855912eb3775e817e8de65cb8022b2c6",
+          "asset_id": 652232062,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/archive-lanting-v1/lanting--out--bebefa8d5043.mp4"
+        }
+      ]
+    },
+    {
+      "work_id": "madman",
+      "tag": "archive-madman-v1",
+      "url": "https://github.com/jggagi/video-making/releases/tag/archive-madman-v1",
+      "draft": false,
+      "target_commitish": "af36688a9bac51f816e44409c8fbc4670933b09c",
+      "assets_verified": [
+        {
+          "path": "out/madman/cinema-v5-diagnosis-sample.mp4",
+          "name": "madman--out--madman--cinema-v5-diagnosis-sample--cf7dc5260291.mp4",
+          "bytes": 5679158,
+          "sha256": "cf7dc5260291c1dd5cca3e63d893119ab0fdba47751abefc82e4a0ddec08bf77",
+          "asset_id": 652233094,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/archive-madman-v1/madman--out--madman--cinema-v5-diagnosis-sample--cf7dc5260291.mp4"
+        },
+        {
+          "path": "out/madman/draft-default-range.mp4",
+          "name": "madman--out--madman--draft-default-range--24267af841b1.mp4",
+          "bytes": 90530662,
+          "sha256": "24267af841b13a4b59cc4b7d04594548a699ae1e12923a2cd7f247d0bcbbdb5e",
+          "asset_id": 652233191,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/archive-madman-v1/madman--out--madman--draft-default-range--24267af841b1.mp4"
+        },
+        {
+          "path": "out/madman/full-v4-transition-sample.mp4",
+          "name": "madman--out--madman--full-v4-transition-sample--a236365ed827.mp4",
+          "bytes": 1777607,
+          "sha256": "a236365ed8275775185b79f8345afef168f49eaf9ecdd7e8e557dfb518d53687",
+          "asset_id": 652233479,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/archive-madman-v1/madman--out--madman--full-v4-transition-sample--a236365ed827.mp4"
+        },
+        {
+          "path": "out/madman/sample.mp4",
+          "name": "madman--out--madman--sample--84d6dc51669c.mp4",
+          "bytes": 2126607,
+          "sha256": "84d6dc51669c77c514ab9c3a89cd08c29f4f3f69f6a500f2660bdefc71e888ee",
+          "asset_id": 652233514,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/archive-madman-v1/madman--out--madman--sample--84d6dc51669c.mp4"
+        },
+        {
+          "path": "out/madman/voice-v2-sample.mp4",
+          "name": "madman--out--madman--voice-v2-sample--89c78060c6d8.mp4",
+          "bytes": 10342908,
+          "sha256": "89c78060c6d86fc0fa41e91db2ec81edf1759c8e14849b53b83016c597dc4ff0",
+          "asset_id": 652233555,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/archive-madman-v1/madman--out--madman--voice-v2-sample--89c78060c6d8.mp4"
+        },
+        {
+          "path": "out/madman/狂人日记-字缝加强样片-v3-1080p.mp4",
+          "name": "madman--out--madman------v3-1080p--c84c2e803089.mp4",
+          "bytes": 7909153,
+          "sha256": "c84c2e803089c3a91c05cbbd586e62be8ff4ee41cd70844d736784c5073236a1",
+          "asset_id": 652233671,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/archive-madman-v1/madman--out--madman------v3-1080p--c84c2e803089.mp4"
+        },
+        {
+          "path": "out/madman/狂人日记-心理悬疑版-v5-1080p.mp4",
+          "name": "madman--out--madman------v5-1080p--671923eda74a.mp4",
+          "bytes": 34979820,
+          "sha256": "671923eda74aab3b09ab723cbb182ebee877eaa286ac49e406ce45dfb721bc7e",
+          "asset_id": 652233733,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/archive-madman-v1/madman--out--madman------v5-1080p--671923eda74a.mp4"
+        },
+        {
+          "path": "out/madman/狂人日记-木刻意象版-v1-1080p.mp4",
+          "name": "madman--out--madman------v1-1080p--56e7dfb8b8dd.mp4",
+          "bytes": 57455105,
+          "sha256": "56e7dfb8b8dd988eb9927ff8f8b082e993250f3ce252ef1781471a06dbad494d",
+          "asset_id": 652233853,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/archive-madman-v1/madman--out--madman------v1-1080p--56e7dfb8b8dd.mp4"
+        },
+        {
+          "path": "out/madman/狂人日记-男声配音版-v2-1080p.mp4",
+          "name": "madman--out--madman------v2-1080p--7d709339a515.mp4",
+          "bytes": 57635815,
+          "sha256": "7d709339a515cb45d01bfabfd82f7101045e40658b1be79565e851b40303681c",
+          "asset_id": 652234065,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/archive-madman-v1/madman--out--madman------v2-1080p--7d709339a515.mp4"
+        },
+        {
+          "path": "out/madman/狂人日记-节奏意象加强版-v4-1080p.mp4",
+          "name": "madman--out--madman------v4-1080p--795871b25d54.mp4",
+          "bytes": 44037667,
+          "sha256": "795871b25d54bd7e266842904dfa10247de69603e8035bb0e72e5d9455ab3cfa",
+          "asset_id": 652234215,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/archive-madman-v1/madman--out--madman------v4-1080p--795871b25d54.mp4"
+        }
+      ]
+    },
+    {
+      "work_id": "si-eternity",
+      "tag": "archive-si-eternity-v1",
+      "url": "https://github.com/jggagi/video-making/releases/tag/archive-si-eternity-v1",
+      "draft": false,
+      "target_commitish": "af36688a9bac51f816e44409c8fbc4670933b09c",
+      "assets_verified": [
+        {
+          "path": "si-eternity/out/ending-title-v3.mp4",
+          "name": "si-eternity--si-eternity--out--ending-title-v3--9fa8d3d800cc.mp4",
+          "bytes": 664599,
+          "sha256": "9fa8d3d800ccdec845a042a2e52a5a90e86ee82e9a3b07da124531518bc325d1",
+          "asset_id": 652234576,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-eternity-v1/si-eternity--si-eternity--out--ending-title-v3--9fa8d3d800cc.mp4"
+        },
+        {
+          "path": "si-eternity/out/one-blink-ten-millennia-portrait-v4-project.zip",
+          "name": "si-eternity--si-eternity--out--one-blink-ten-millennia-portrait-v4-project--2b5fb5db3a7c.zip",
+          "bytes": 75673043,
+          "sha256": "2b5fb5db3a7c1a94a33e8d0f33db2110a3ef663c155f26fceefc06f5b73775e8",
+          "asset_id": 652234610,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-eternity-v1/si-eternity--si-eternity--out--one-blink-ten-millennia-portrait-v4-project--2b5fb5db3a7c.zip"
+        },
+        {
+          "path": "si-eternity/out/one-blink-ten-millennia-portrait-v4.mp4",
+          "name": "si-eternity--si-eternity--out--one-blink-ten-millennia-portrait-v4--94da6f6fb30c.mp4",
+          "bytes": 64272277,
+          "sha256": "94da6f6fb30ce1cc8e555a0068b559d21bed894e14150743cf33591f974e629a",
+          "asset_id": 652234860,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-eternity-v1/si-eternity--si-eternity--out--one-blink-ten-millennia-portrait-v4--94da6f6fb30c.mp4"
+        },
+        {
+          "path": "si-eternity/out/one-blink-ten-millennia-v3-project.zip",
+          "name": "si-eternity--si-eternity--out--one-blink-ten-millennia-v3-project--37cbbf6ef57b.zip",
+          "bytes": 75642473,
+          "sha256": "37cbbf6ef57bd0fba204c062a1ce833f027d9ccee4962d59f87e5fa56cb6e6f2",
+          "asset_id": 652235113,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-eternity-v1/si-eternity--si-eternity--out--one-blink-ten-millennia-v3-project--37cbbf6ef57b.zip"
+        },
+        {
+          "path": "si-eternity/out/one-blink-ten-millennia-v3.mp4",
+          "name": "si-eternity--si-eternity--out--one-blink-ten-millennia-v3--4ef2326bf22b.mp4",
+          "bytes": 82206028,
+          "sha256": "4ef2326bf22b443c58e6d9eff8379ac73ac450d0bb37c711853c1db4ba722e31",
+          "asset_id": 652235371,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-eternity-v1/si-eternity--si-eternity--out--one-blink-ten-millennia-v3--4ef2326bf22b.mp4"
+        },
+        {
+          "path": "si-eternity/out/one-shot-preview-voiced-v2.mp4",
+          "name": "si-eternity--si-eternity--out--one-shot-preview-voiced-v2--3bf2661c6ff0.mp4",
+          "bytes": 1541541,
+          "sha256": "3bf2661c6ff0162e84ebaf47099cf9c83c5d25eade87ee56485e4c61e8684a9f",
+          "asset_id": 652235741,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-eternity-v1/si-eternity--si-eternity--out--one-shot-preview-voiced-v2--3bf2661c6ff0.mp4"
+        },
+        {
+          "path": "si-eternity/out/one-shot-preview.mp4",
+          "name": "si-eternity--si-eternity--out--one-shot-preview--64a401cda13e.mp4",
+          "bytes": 1261813,
+          "sha256": "64a401cda13e6a61a9b8bd2a39fb678000cc1d6faee3ab4406a00aae6003a256",
+          "asset_id": 652235786,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-eternity-v1/si-eternity--si-eternity--out--one-shot-preview--64a401cda13e.mp4"
+        },
+        {
+          "path": "si-eternity/out/opening-title-v3.mp4",
+          "name": "si-eternity--si-eternity--out--opening-title-v3--b0889c91e7ca.mp4",
+          "bytes": 1694030,
+          "sha256": "b0889c91e7cace659c562dd4e1d71ca646493c9827559a6f435b4c6b2d9d8dc7",
+          "asset_id": 652235849,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-eternity-v1/si-eternity--si-eternity--out--opening-title-v3--b0889c91e7ca.mp4"
+        },
+        {
+          "path": "si-eternity/out/portrait-layout-preview-v4.mp4",
+          "name": "si-eternity--si-eternity--out--portrait-layout-preview-v4--6866a7bb540e.mp4",
+          "bytes": 2047684,
+          "sha256": "6866a7bb540e3fd1b548047b7b1132923ae1eb3412c125f7a1b5aa36a70826c6",
+          "asset_id": 652235925,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-eternity-v1/si-eternity--si-eternity--out--portrait-layout-preview-v4--6866a7bb540e.mp4"
+        },
+        {
+          "path": "si-eternity/out/si-eternity-project.zip",
+          "name": "si-eternity--si-eternity--out--si-eternity-project--0e0fb5f66293.zip",
+          "bytes": 75411,
+          "sha256": "0e0fb5f6629335cff03fa6166513085e3ab5c7b8062040d02ccc57e3431e5ea7",
+          "asset_id": 652236004,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-eternity-v1/si-eternity--si-eternity--out--si-eternity-project--0e0fb5f66293.zip"
+        },
+        {
+          "path": "si-eternity/out/si-eternity-voiced-v2-project.zip",
+          "name": "si-eternity--si-eternity--out--si-eternity-voiced-v2-project--9fbb512a4c96.zip",
+          "bytes": 87576477,
+          "sha256": "9fbb512a4c9600232b2b44078665ed8197037685ff0c3673c3cb59f4ecb60b69",
+          "asset_id": 652236049,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-eternity-v1/si-eternity--si-eternity--out--si-eternity-voiced-v2-project--9fbb512a4c96.zip"
+        },
+        {
+          "path": "si-eternity/out/the-half-second-eternity-voiced-v2.mp4",
+          "name": "si-eternity--si-eternity--out--the-half-second-eternity-voiced-v2--cfe44315e6cb.mp4",
+          "bytes": 81031943,
+          "sha256": "cfe44315e6cbc55b17d316c2e56f9ee78411f56a42bea07240c1a4b4a8c3e957",
+          "asset_id": 652236300,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-eternity-v1/si-eternity--si-eternity--out--the-half-second-eternity-voiced-v2--cfe44315e6cb.mp4"
+        },
+        {
+          "path": "si-eternity/out/the-half-second-eternity.mp4",
+          "name": "si-eternity--si-eternity--out--the-half-second-eternity--5b4fa1a41cec.mp4",
+          "bytes": 76671341,
+          "sha256": "5b4fa1a41cecf13c779eed6b60fdb9eb54aa4c3f5940d25881f5ae45a9378f88",
+          "asset_id": 652236497,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-eternity-v1/si-eternity--si-eternity--out--the-half-second-eternity--5b4fa1a41cec.mp4"
+        }
+      ]
+    },
+    {
+      "work_id": "si-cage-7plus2",
+      "tag": "archive-si-cage-7plus2-v1",
+      "url": "https://github.com/jggagi/video-making/releases/tag/archive-si-cage-7plus2-v1",
+      "draft": false,
+      "target_commitish": "af36688a9bac51f816e44409c8fbc4670933b09c",
+      "assets_verified": [
+        {
+          "path": "si-cage-7plus2/out/cage-of-seven-plus-two-1080p.mp4",
+          "name": "si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-1080p--e08c1bc00614.mp4",
+          "bytes": 92645526,
+          "sha256": "e08c1bc00614201f57b1b1a7c6143d82a1ec9e64958fff69f21cb387e52f6cbb",
+          "asset_id": 652236992,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-cage-7plus2-v1/si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-1080p--e08c1bc00614.mp4"
+        },
+        {
+          "path": "si-cage-7plus2/out/cage-of-seven-plus-two-project.zip",
+          "name": "si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-project--abee5facd7f5.zip",
+          "bytes": 56088342,
+          "sha256": "abee5facd7f53e4772e3a00ac0455c22bbe6925ba029f45c825bbc4997e87c97",
+          "asset_id": 652237393,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-cage-7plus2-v1/si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-project--abee5facd7f5.zip"
+        },
+        {
+          "path": "si-cage-7plus2/out/cage-of-seven-plus-two-uhd-v3-4k.mp4",
+          "name": "si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-uhd-v3-4k--73195073e6fa.mp4",
+          "bytes": 247421265,
+          "sha256": "73195073e6fa96e2cdc90dec0cbf6690bee965d8ba2de0e0fc575cdd4f18bb86",
+          "asset_id": 652237659,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-cage-7plus2-v1/si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-uhd-v3-4k--73195073e6fa.mp4"
+        },
+        {
+          "path": "si-cage-7plus2/out/cage-of-seven-plus-two-uhd-v3-project.zip",
+          "name": "si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-uhd-v3-project--47ca71206ff7.zip",
+          "bytes": 158641462,
+          "sha256": "47ca71206ff750b052d3b93ccb25bd84e9920855041c718d34ea359dcdbaac89",
+          "asset_id": 652238461,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-cage-7plus2-v1/si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-uhd-v3-project--47ca71206ff7.zip"
+        },
+        {
+          "path": "si-cage-7plus2/out/cage-of-seven-plus-two-voiced-v2-1080p.mp4",
+          "name": "si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-voiced-v2-1080p--f6f7b34821e5.mp4",
+          "bytes": 92669296,
+          "sha256": "f6f7b34821e573223f27d5a66ff08dda01e550364a0fef0e502f1a551252d25b",
+          "asset_id": 652239440,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-cage-7plus2-v1/si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-voiced-v2-1080p--f6f7b34821e5.mp4"
+        },
+        {
+          "path": "si-cage-7plus2/out/cage-of-seven-plus-two-voiced-v2-project.zip",
+          "name": "si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-voiced-v2-project--ed88cb3991e6.zip",
+          "bytes": 106106724,
+          "sha256": "ed88cb3991e6f73d662161c00b775c977a3b935588be619237b9948d4514e07e",
+          "asset_id": 652239704,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-cage-7plus2-v1/si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-voiced-v2-project--ed88cb3991e6.zip"
+        },
+        {
+          "path": "si-cage-7plus2/out/cage-of-seven-plus-two-xhs-v1-1080x1920.mp4",
+          "name": "si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-xhs-v1-1080x1920--7f73b80017c8.mp4",
+          "bytes": 14667073,
+          "sha256": "7f73b80017c81f25bbbf4bd873906d6e3c183e238ce8acce3c6ebf43b67b7d33",
+          "asset_id": 652240016,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-cage-7plus2-v1/si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-xhs-v1-1080x1920--7f73b80017c8.mp4"
+        },
+        {
+          "path": "si-cage-7plus2/out/cage-of-seven-plus-two-xhs-v1-4k.mp4",
+          "name": "si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-xhs-v1-4k--113910360392.mp4",
+          "bytes": 45456126,
+          "sha256": "113910360392d5a3c858ec07bb2c03d0b35b79ef61bdb75e162c54ba082c16bc",
+          "asset_id": 652240083,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-cage-7plus2-v1/si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-xhs-v1-4k--113910360392.mp4"
+        },
+        {
+          "path": "si-cage-7plus2/out/cage-of-seven-plus-two-xhs-v1-project.zip",
+          "name": "si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-xhs-v1-project--fa7e7a4b60b6.zip",
+          "bytes": 162236563,
+          "sha256": "fa7e7a4b60b64f01db7ca985584a099176f95f79040d0e4ef0a71613dfb0dfcd",
+          "asset_id": 652240183,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-cage-7plus2-v1/si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-xhs-v1-project--fa7e7a4b60b6.zip"
+        },
+        {
+          "path": "si-cage-7plus2/out/manifold-preview.mp4",
+          "name": "si-cage-7plus2--si-cage-7plus2--out--manifold-preview--18558cd06c4b.mp4",
+          "bytes": 6007369,
+          "sha256": "18558cd06c4b300eb1dbd5fae5d4160805aa15cc9579b81986f872a2c8b1b593",
+          "asset_id": 652240635,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-cage-7plus2-v1/si-cage-7plus2--si-cage-7plus2--out--manifold-preview--18558cd06c4b.mp4"
+        },
+        {
+          "path": "si-cage-7plus2/out/overload-preview.mp4",
+          "name": "si-cage-7plus2--si-cage-7plus2--out--overload-preview--3fddab14745c.mp4",
+          "bytes": 3111703,
+          "sha256": "3fddab14745cc1db7bef0dca96e0501a97517b58fc96afa9dc670698cfdcfe63",
+          "asset_id": 652240708,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-cage-7plus2-v1/si-cage-7plus2--si-cage-7plus2--out--overload-preview--3fddab14745c.mp4"
+        },
+        {
+          "path": "si-cage-7plus2/out/uhd-v3-overload-preview.mp4",
+          "name": "si-cage-7plus2--si-cage-7plus2--out--uhd-v3-overload-preview--276b3af0ef64.mp4",
+          "bytes": 8623466,
+          "sha256": "276b3af0ef64a9ed71725ef31739e7a4d8d611a6dc0cc1b153da9b4c2414ff51",
+          "asset_id": 652240750,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-cage-7plus2-v1/si-cage-7plus2--si-cage-7plus2--out--uhd-v3-overload-preview--276b3af0ef64.mp4"
+        },
+        {
+          "path": "si-cage-7plus2/out/uhd-v3-source-before.zip",
+          "name": "si-cage-7plus2--si-cage-7plus2--out--uhd-v3-source-before--c9c8a667c4eb.zip",
+          "bytes": 85080,
+          "sha256": "c9c8a667c4ebfface068c45213edd959b99a713b9048c6ee99eefc4cf09fee71",
+          "asset_id": 652240804,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-cage-7plus2-v1/si-cage-7plus2--si-cage-7plus2--out--uhd-v3-source-before--c9c8a667c4eb.zip"
+        },
+        {
+          "path": "si-cage-7plus2/out/voiced-v2-opening-preview.mp4",
+          "name": "si-cage-7plus2--si-cage-7plus2--out--voiced-v2-opening-preview--3a8406a2bcb9.mp4",
+          "bytes": 9177857,
+          "sha256": "3a8406a2bcb91f87bd6860b74006b8c1ba971a4c2e438452bb4bd1f68fb5de78",
+          "asset_id": 652240834,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-cage-7plus2-v1/si-cage-7plus2--si-cage-7plus2--out--voiced-v2-opening-preview--3a8406a2bcb9.mp4"
+        },
+        {
+          "path": "si-cage-7plus2/out/xhs-v1-opening-preview.mp4",
+          "name": "si-cage-7plus2--si-cage-7plus2--out--xhs-v1-opening-preview--a7f45013ee1f.mp4",
+          "bytes": 1650431,
+          "sha256": "a7f45013ee1ff4827c43af62e176f0f4bf45a5d4101ab70bba045eb8bef3c0db",
+          "asset_id": 652240900,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-cage-7plus2-v1/si-cage-7plus2--si-cage-7plus2--out--xhs-v1-opening-preview--a7f45013ee1f.mp4"
+        }
+      ]
+    },
+    {
+      "work_id": "qstory-ep03",
+      "tag": "archive-qstory-ep03-v1",
+      "url": "https://github.com/jggagi/video-making/releases/tag/archive-qstory-ep03-v1",
+      "draft": false,
+      "target_commitish": "af36688a9bac51f816e44409c8fbc4670933b09c",
+      "assets_verified": [
+        {
+          "path": "qstory-ep03/out/QStory-EP03-editable-project.zip",
+          "name": "qstory-ep03--qstory-ep03--out--QStory-EP03-editable-project--bd1b5427badd.zip",
+          "bytes": 189725333,
+          "sha256": "bd1b5427badd054179d642b2ee86b5d8c2af91eefe83df62ed75fd83af995665",
+          "asset_id": 652243840,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/archive-qstory-ep03-v1/qstory-ep03--qstory-ep03--out--QStory-EP03-editable-project--bd1b5427badd.zip"
+        },
+        {
+          "path": "qstory-ep03/out/QStory-EP03-十万亿个分身-4K.mp4",
+          "name": "qstory-ep03--qstory-ep03--out--QStory-EP03---4K--088a33698608.mp4",
+          "bytes": 128286647,
+          "sha256": "088a3369860885d9bbfc3516336799856e260582619565cf13b28296fd8efcf4",
+          "asset_id": 652244695,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/archive-qstory-ep03-v1/qstory-ep03--qstory-ep03--out--QStory-EP03---4K--088a33698608.mp4"
+        },
+        {
+          "path": "qstory-ep03/out/climax-preview-1080p.mp4",
+          "name": "qstory-ep03--qstory-ep03--out--climax-preview-1080p--3afe6e2eea20.mp4",
+          "bytes": 6970661,
+          "sha256": "3afe6e2eea201ccbe5f448fcae326c3e52a70777727101e85d3501462f16fde6",
+          "asset_id": 652245037,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/archive-qstory-ep03-v1/qstory-ep03--qstory-ep03--out--climax-preview-1080p--3afe6e2eea20.mp4"
+        }
+      ]
+    }
+  ]
+}

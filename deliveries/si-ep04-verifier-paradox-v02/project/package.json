@@ -1,0 +1,28 @@
+{
+  "name": "si-ep04-verifier-paradox-v02",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "description": "EP04 v2 · theory-grounded mechanism diagrams · 120s60 dual native4K",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "stills": "node scripts/render.mjs stills",
+    "render:landscape": "node scripts/render.mjs video landscape",
+    "render:portrait": "node scripts/render.mjs video portrait",
+    "verify": "python3 scripts/verify_project.py",
+    "audio:mix": "python3 scripts/build_audio.py --mix"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.534",
+    "@remotion/cli": "4.0.534",
+    "@remotion/renderer": "4.0.534",
+    "remotion": "4.0.534",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.0",
+    "@types/react-dom": "19.1.0",
+    "typescript": "5.9.3"
+  }
+}

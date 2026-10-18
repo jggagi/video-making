@@ -1,0 +1,539 @@
+{
+  "schema_version": 1,
+  "generation": {
+    "visuals": "Local deterministic Canvas2D explanatory diagrams; theory and toy-model formulas documented; native rasterization; no external image/video generation",
+    "score_sfx": "Original deterministic local procedural synthesis",
+    "narration": {
+      "provider": "Aliyun Bailian",
+      "model_selection": "active profile default",
+      "voice": "longtian_v3",
+      "rate": 1.0,
+      "format": "wav",
+      "sample_rate": 24000,
+      "cli_version": "2.3.2",
+      "effective_model": "cosyvoice-v3-flash"
+    }
+  },
+  "resources": [
+    {
+      "id": "audio/canonical/S01.wav",
+      "path": "public/audio/canonical/S01.wav",
+      "sha256": "6f5721d573d666e3197279649f00c0b086c1aef478c660da292fecbab59dcb01",
+      "bytes": 265004,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "pcm": {
+        "sample_rate": 24000,
+        "channels": 1,
+        "sample_width_bytes": 2,
+        "samples_per_channel": 132480
+      }
+    },
+    {
+      "id": "audio/canonical/S02.wav",
+      "path": "public/audio/canonical/S02.wav",
+      "sha256": "19a822e7f2a79443cad0b8d5d02923c827c95b38e5e673ec19c5e7de1e522daf",
+      "bytes": 372524,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "pcm": {
+        "sample_rate": 24000,
+        "channels": 1,
+        "sample_width_bytes": 2,
+        "samples_per_channel": 186240
+      }
+    },
+    {
+      "id": "audio/canonical/S03.wav",
+      "path": "public/audio/canonical/S03.wav",
+      "sha256": "c9d34caab2841b7f5df406417050e57df1695a831f6340cb4b00a62b121aed7c",
+      "bytes": 226604,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "pcm": {
+        "sample_rate": 24000,
+        "channels": 1,
+        "sample_width_bytes": 2,
+        "samples_per_channel": 113280
+      }
+    },
+    {
+      "id": "audio/canonical/S04.wav",
+      "path": "public/audio/canonical/S04.wav",
+      "sha256": "5424ba340b42ce9bd0f58bf6252f54006795dad5f13359aca9e6f866d88f316e",
+      "bytes": 376364,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "pcm": {
+        "sample_rate": 24000,
+        "channels": 1,
+        "sample_width_bytes": 2,
+        "samples_per_channel": 188160
+      }
+    },
+    {
+      "id": "audio/canonical/S05.wav",
+      "path": "public/audio/canonical/S05.wav",
+      "sha256": "3d378b80b1b3b87f1eecae4c10858b27a96d4700de73423118b7e336662923a0",
+      "bytes": 364844,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "pcm": {
+        "sample_rate": 24000,
+        "channels": 1,
+        "sample_width_bytes": 2,
+        "samples_per_channel": 182400
+      }
+    },
+    {
+      "id": "audio/canonical/S06.wav",
+      "path": "public/audio/canonical/S06.wav",
+      "sha256": "1fe541702669d9f4b4dd45613ef3c6f3fd18f9044a6043a3c96eb03378e366e0",
+      "bytes": 341804,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "pcm": {
+        "sample_rate": 24000,
+        "channels": 1,
+        "sample_width_bytes": 2,
+        "samples_per_channel": 170880
+      }
+    },
+    {
+      "id": "audio/canonical/S07.wav",
+      "path": "public/audio/canonical/S07.wav",
+      "sha256": "f9719e6fa52a610d7ca65c816cd09eaf09b1ddc666f5616ef64377d9cce2af02",
+      "bytes": 326444,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "pcm": {
+        "sample_rate": 24000,
+        "channels": 1,
+        "sample_width_bytes": 2,
+        "samples_per_channel": 163200
+      }
+    },
+    {
+      "id": "audio/canonical/S08.wav",
+      "path": "public/audio/canonical/S08.wav",
+      "sha256": "08e1ee195216f5e1749c0e00dc7b7d6b45b539940cdf38f52e149fc0de34eee1",
+      "bytes": 384044,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "pcm": {
+        "sample_rate": 24000,
+        "channels": 1,
+        "sample_width_bytes": 2,
+        "samples_per_channel": 192000
+      }
+    },
+    {
+      "id": "audio/canonical/S09.wav",
+      "path": "public/audio/canonical/S09.wav",
+      "sha256": "ae609c4c92146f5586953f275f7c677ebcdf2ec800a9da59fc66778128eba857",
+      "bytes": 291884,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "pcm": {
+        "sample_rate": 24000,
+        "channels": 1,
+        "sample_width_bytes": 2,
+        "samples_per_channel": 145920
+      }
+    },
+    {
+      "id": "audio/canonical/S10.wav",
+      "path": "public/audio/canonical/S10.wav",
+      "sha256": "ec57359dfb20b23235d0000a88881d14f9e972c84573c5076087c287eca1f4f4",
+      "bytes": 119084,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "pcm": {
+        "sample_rate": 24000,
+        "channels": 1,
+        "sample_width_bytes": 2,
+        "samples_per_channel": 59520
+      }
+    },
+    {
+      "id": "audio/cues/S01.wav",
+      "path": "public/audio/cues/S01.wav",
+      "sha256": "41bd41ee3315b20b1ace9a70c786290ef9516acfff00a10962faa787a9396cf5",
+      "bytes": 529998,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "pcm": {
+        "sample_rate": 48000,
+        "channels": 1,
+        "sample_width_bytes": 2,
+        "samples_per_channel": 264960
+      }
+    },
+    {
+      "id": "audio/cues/S02.wav",
+      "path": "public/audio/cues/S02.wav",
+      "sha256": "66d912ed615af6e7b9e142fbdc5b48a668e3dd7875145fa50888c740d401c4e2",
+      "bytes": 745038,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "pcm": {
+        "sample_rate": 48000,
+        "channels": 1,
+        "sample_width_bytes": 2,
+        "samples_per_channel": 372480
+      }
+    },
+    {
+      "id": "audio/cues/S03.wav",
+      "path": "public/audio/cues/S03.wav",
+      "sha256": "e5de6bbd42687261eee005af065f1168191117fbc6f59d8f5a6c07e49abd1139",
+      "bytes": 453198,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "pcm": {
+        "sample_rate": 48000,
+        "channels": 1,
+        "sample_width_bytes": 2,
+        "samples_per_channel": 226560
+      }
+    },
+    {
+      "id": "audio/cues/S04.wav",
+      "path": "public/audio/cues/S04.wav",
+      "sha256": "ca1c610287c788bbb633c2315720f212d568fc09f4f27c939ad429f98bb7beca",
+      "bytes": 752718,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "pcm": {
+        "sample_rate": 48000,
+        "channels": 1,
+        "sample_width_bytes": 2,
+        "samples_per_channel": 376320
+      }
+    },
+    {
+      "id": "audio/cues/S05.wav",
+      "path": "public/audio/cues/S05.wav",
+      "sha256": "77e3b2dd45f3cafe0d0cd24c3c7445a95aa883afca703948881e4c52ad5cc680",
+      "bytes": 729678,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "pcm": {
+        "sample_rate": 48000,
+        "channels": 1,
+        "sample_width_bytes": 2,
+        "samples_per_channel": 364800
+      }
+    },
+    {
+      "id": "audio/cues/S06.wav",
+      "path": "public/audio/cues/S06.wav",
+      "sha256": "fb6847750725f67a7451375d0c749e14f88d700b07ef9c74dfd997d77d70071f",
+      "bytes": 683598,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "pcm": {
+        "sample_rate": 48000,
+        "channels": 1,
+        "sample_width_bytes": 2,
+        "samples_per_channel": 341760
+      }
+    },
+    {
+      "id": "audio/cues/S07.wav",
+      "path": "public/audio/cues/S07.wav",
+      "sha256": "c234c67935ce26fa94879c09a92fff57be1feb55f742c7a2a1a9667dea85a115",
+      "bytes": 652878,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "pcm": {
+        "sample_rate": 48000,
+        "channels": 1,
+        "sample_width_bytes": 2,
+        "samples_per_channel": 326400
+      }
+    },
+    {
+      "id": "audio/cues/S08.wav",
+      "path": "public/audio/cues/S08.wav",
+      "sha256": "1a6ceb91899808cc61bd41037c4b47e9633389f5d6829a9426703c52501e0fb9",
+      "bytes": 768078,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "pcm": {
+        "sample_rate": 48000,
+        "channels": 1,
+        "sample_width_bytes": 2,
+        "samples_per_channel": 384000
+      }
+    },
+    {
+      "id": "audio/cues/S09.wav",
+      "path": "public/audio/cues/S09.wav",
+      "sha256": "203fff53725bad3faab44c2ae2f578537b6226c06ec93230ecefb865c5f68093",
+      "bytes": 583758,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "pcm": {
+        "sample_rate": 48000,
+        "channels": 1,
+        "sample_width_bytes": 2,
+        "samples_per_channel": 291840
+      }
+    },
+    {
+      "id": "audio/cues/S10.wav",
+      "path": "public/audio/cues/S10.wav",
+      "sha256": "1af2d235e67a335b429610850da7dbf0dbba40fea51ac0e505a0c40469c10a3f",
+      "bytes": 238158,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "pcm": {
+        "sample_rate": 48000,
+        "channels": 1,
+        "sample_width_bytes": 2,
+        "samples_per_channel": 119040
+      }
+    },
+    {
+      "id": "audio/master.wav",
+      "path": "public/audio/master.wav",
+      "sha256": "6a73f8c5121f8d1d3ff96f5b4ba3097df66d4b0c217950716fe56f2bc8a74826",
+      "bytes": 23040044,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "pcm": {
+        "sample_rate": 48000,
+        "channels": 2,
+        "sample_width_bytes": 2,
+        "samples_per_channel": 5760000
+      }
+    },
+    {
+      "id": "audio/narration.wav",
+      "path": "public/audio/narration.wav",
+      "sha256": "630da442ecf6551ba2b3563af5d4cca6ffea848a6fdedb84a9e4a6856c9dd2de",
+      "bytes": 23040044,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "pcm": {
+        "sample_rate": 48000,
+        "channels": 2,
+        "sample_width_bytes": 2,
+        "samples_per_channel": 5760000
+      }
+    },
+    {
+      "id": "audio/raw/S01-0b9dfd3d762b.wav",
+      "path": "public/audio/raw/S01-0b9dfd3d762b.wav",
+      "sha256": "a2546a671fbbdb2b0c546380d22a77577317b97a58b35970e806349ed2476fe6",
+      "bytes": 265004,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "note": "Original provider file retained; header declaration differs from real PCM payload; canonical version preserves PCM hash."
+    },
+    {
+      "id": "audio/raw/S02-6eac00f2a6ec.wav",
+      "path": "public/audio/raw/S02-6eac00f2a6ec.wav",
+      "sha256": "d4ba357fed45b3caf391b10fdc2f45319cc3be5778a6fdb79741f93dc532ed2d",
+      "bytes": 372524,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "note": "Original provider file retained; header declaration differs from real PCM payload; canonical version preserves PCM hash."
+    },
+    {
+      "id": "audio/raw/S03-1dd24f6b736f.wav",
+      "path": "public/audio/raw/S03-1dd24f6b736f.wav",
+      "sha256": "dbf366879c880680a443319e0a70e8e9b042266d60012d74cded7e97f620505e",
+      "bytes": 226604,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "note": "Original provider file retained; header declaration differs from real PCM payload; canonical version preserves PCM hash."
+    },
+    {
+      "id": "audio/raw/S04-643518ccc13d.wav",
+      "path": "public/audio/raw/S04-643518ccc13d.wav",
+      "sha256": "d03b415643a4115e38661d892664d3c08b46a5a13965ee0f410fe017bff9002c",
+      "bytes": 376364,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "note": "Original provider file retained; header declaration differs from real PCM payload; canonical version preserves PCM hash."
+    },
+    {
+      "id": "audio/raw/S05-3d14ed5287d4.wav",
+      "path": "public/audio/raw/S05-3d14ed5287d4.wav",
+      "sha256": "fc4182281f2aba0657796b7a30018072a6200f0de3e6377d5d47aa741bd950fa",
+      "bytes": 364844,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "note": "Original provider file retained; header declaration differs from real PCM payload; canonical version preserves PCM hash."
+    },
+    {
+      "id": "audio/raw/S06-eac752465d4c.wav",
+      "path": "public/audio/raw/S06-eac752465d4c.wav",
+      "sha256": "df68be8b57ea4c3f29267ed8be9b09343d4fc203f36b1679ccb5d4c00c3bed89",
+      "bytes": 341804,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "note": "Original provider file retained; header declaration differs from real PCM payload; canonical version preserves PCM hash."
+    },
+    {
+      "id": "audio/raw/S07-ac40d5837efa.wav",
+      "path": "public/audio/raw/S07-ac40d5837efa.wav",
+      "sha256": "8188013c71edbad656b181a938d48c9d5a50080621c076a853444f445507a537",
+      "bytes": 326444,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "note": "Original provider file retained; header declaration differs from real PCM payload; canonical version preserves PCM hash."
+    },
+    {
+      "id": "audio/raw/S08-525ebc85afb5.wav",
+      "path": "public/audio/raw/S08-525ebc85afb5.wav",
+      "sha256": "4beecb971ef07bb8223b139c41ffe92af98056112a2f35808feb2d5bbc185032",
+      "bytes": 384044,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "note": "Original provider file retained; header declaration differs from real PCM payload; canonical version preserves PCM hash."
+    },
+    {
+      "id": "audio/raw/S09-c6eb52bbe3e8.wav",
+      "path": "public/audio/raw/S09-c6eb52bbe3e8.wav",
+      "sha256": "a13d96bc58c732da88642354ad8e27f3a49f4b576672c644b3200bd8ddbcca4a",
+      "bytes": 291884,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "note": "Original provider file retained; header declaration differs from real PCM payload; canonical version preserves PCM hash."
+    },
+    {
+      "id": "audio/raw/S10-42175af4b3e9.wav",
+      "path": "public/audio/raw/S10-42175af4b3e9.wav",
+      "sha256": "2ae9f939f25074f19c0a952043efe8a2f93db37a6c113ff719670033ce3c06da",
+      "bytes": 119084,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "note": "Original provider file retained; header declaration differs from real PCM payload; canonical version preserves PCM hash."
+    },
+    {
+      "id": "audio/score.wav",
+      "path": "public/audio/score.wav",
+      "sha256": "811ccbf90eddd9354fab1cc1056ae62f2373512b3d8949ebe30a2b9ad277ceb2",
+      "bytes": 23040044,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "pcm": {
+        "sample_rate": 48000,
+        "channels": 2,
+        "sample_width_bytes": 2,
+        "samples_per_channel": 5760000
+      }
+    },
+    {
+      "id": "audio/sfx.wav",
+      "path": "public/audio/sfx.wav",
+      "sha256": "799d4957016c06774bd8798549aaf3c0a65bd9b23163ec302276ceaeafd767a0",
+      "bytes": 23040044,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "pcm": {
+        "sample_rate": 48000,
+        "channels": 2,
+        "sample_width_bytes": 2,
+        "samples_per_channel": 5760000
+      }
+    },
+    {
+      "id": "model/teaching-data",
+      "path": "model-data.json",
+      "sha256": "4969f4f328cf8eb9bcd77c359ae6fd36286f31e257274b0432bc2785a35b4a0b",
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "kind": "synthetic explicitly-labelled educational model, not empirical data"
+    }
+  ],
+  "provider_cache_manifest": "public/audio/provider-manifest.json",
+  "fonts": {
+    "families": [
+      "PingFang SC",
+      "Hiragino Sans GB",
+      "Menlo"
+    ],
+    "source": "Native macOS system fonts; not redistributed"
+  },
+  "reuse": "Both compositions use identical asset IDs, timeline, narration cues and PCM master. Canvas particle counts are bounded visual representatives of the narrative agent population.",
+  "revision": {
+    "version": 2,
+    "audio_source_work": "si-ep04-verifier-paradox",
+    "new_cloud_calls": 0,
+    "all_audio_files_byte_identical": true
+  }
+}

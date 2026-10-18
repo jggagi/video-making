@@ -1,0 +1,69 @@
+{
+  "status": "LOCKED_FOR_FINAL_RENDER",
+  "source_sha256": {
+    "src/CanvasWorld.tsx": "2e4dcbd1dc960d9c47d9597b99225535592da7d124eedc7757d7de8c9d84cd29",
+    "src/Film.tsx": "cf718db5f9263ed1068f21efa88f460686c12788ed9b74a09e8618f43bb82a05",
+    "src/FormalScenes.ts": "ee1b8070861e0706163b0dc184603bd00caf990d66ca05eb3ff41d10d670fb85",
+    "src/MeasurementScenes.ts": "bd8a4be27d31d1827bc4a6676c87123d8e85ab13ff8262f2af32be375a4681bb",
+    "src/RewardScenes.ts": "dee30f8404261aafd3b74dab98e86140e1ed0c164897f29f3b822c0964de4660",
+    "src/Root.tsx": "8688d56eb986e804a576909d7f7fdbd4bc36b86b6fb96967fe663c266451a964",
+    "src/draw.ts": "a966d5770958f7c6b81498ed15023b2fcee182520f64c0c23be6db60e2bec7eb",
+    "src/index.ts": "2e0e358282a1b998a65387c653b97c2bb2eb7aae94cf200fc0b8d919f7be73a6",
+    "src/model.ts": "f734ef8571c249b903c4ca9a08b9736c22e1d1925ec5260df5daea8ad793b6ff"
+  },
+  "original_script_unchanged": true,
+  "new_cloud_generation_calls": 0,
+  "script_audio_reuse_evidence": "review/audio-reuse.json",
+  "per_layout_source_sha256": {
+    "landscape": {
+      "src/CanvasWorld.tsx": "2e4dcbd1dc960d9c47d9597b99225535592da7d124eedc7757d7de8c9d84cd29",
+      "src/Film.tsx": "7f3e9d75b97751ea273cc45d2f00824ba1e0ed40f9312323ea733ffc9e3d8ec0",
+      "src/FormalScenes.ts": "ee1b8070861e0706163b0dc184603bd00caf990d66ca05eb3ff41d10d670fb85",
+      "src/MeasurementScenes.ts": "10aeb2f1e04faf030cec21532150e7a147f5b4c135f0e7c88880f88c4dc0a29e",
+      "src/RewardScenes.ts": "48179563818df352f4807ab9f0d374e30b0fe63c1c83b6d7dbf6a4fd4524ae0c",
+      "src/Root.tsx": "8688d56eb986e804a576909d7f7fdbd4bc36b86b6fb96967fe663c266451a964",
+      "src/draw.ts": "a966d5770958f7c6b81498ed15023b2fcee182520f64c0c23be6db60e2bec7eb",
+      "src/index.ts": "2e0e358282a1b998a65387c653b97c2bb2eb7aae94cf200fc0b8d919f7be73a6",
+      "src/model.ts": "f734ef8571c249b903c4ca9a08b9736c22e1d1925ec5260df5daea8ad793b6ff"
+    },
+    "portrait": {
+      "src/CanvasWorld.tsx": "2e4dcbd1dc960d9c47d9597b99225535592da7d124eedc7757d7de8c9d84cd29",
+      "src/Film.tsx": "cf718db5f9263ed1068f21efa88f460686c12788ed9b74a09e8618f43bb82a05",
+      "src/FormalScenes.ts": "ee1b8070861e0706163b0dc184603bd00caf990d66ca05eb3ff41d10d670fb85",
+      "src/MeasurementScenes.ts": "bd8a4be27d31d1827bc4a6676c87123d8e85ab13ff8262f2af32be375a4681bb",
+      "src/RewardScenes.ts": "dee30f8404261aafd3b74dab98e86140e1ed0c164897f29f3b822c0964de4660",
+      "src/Root.tsx": "8688d56eb986e804a576909d7f7fdbd4bc36b86b6fb96967fe663c266451a964",
+      "src/draw.ts": "a966d5770958f7c6b81498ed15023b2fcee182520f64c0c23be6db60e2bec7eb",
+      "src/index.ts": "2e0e358282a1b998a65387c653b97c2bb2eb7aae94cf200fc0b8d919f7be73a6",
+      "src/model.ts": "f734ef8571c249b903c4ca9a08b9736c22e1d1925ec5260df5daea8ad793b6ff"
+    }
+  },
+  "portrait_readability_adjustment": "Portrait-only font sizes/shorter layout-specific subheading raised to39px; false portrait branches of landscape remain unchanged. Compare current source landscape RGB stills against pre-adjustment source RGB hashes after full render.",
+  "landscape_reference_rgb_sha256": {
+    "960": "2eae5eecdeff66d2bfd1c7f29747a059c401121543a871df4b8af1f7bf0dc56e",
+    "1500": "e2753f2c49fda71d71d38dbc473b1eed4dac60a03a37fd7b231e1e85c6cfb05c",
+    "2190": "ee6558e0ec331add494f45ef4cd0c067967142688dbb75806c42243a2f43adf2",
+    "3040": "3e5181cf624955ac475b93098780fde327cbe227f13ec3c614517d86aba30141",
+    "3900": "64366068d156753bf3a2973164612b8dab23d947bf482fc4b9c3ebea5bff3b72",
+    "4590": "5be8da4f5ae3737089d6accaa0aeae832eef23a97c2815518853c56f8fea06f3",
+    "6090": "99123771184e4c875a7d10647a00f7dd4f9365bbe8774674d6729e414d7844b2",
+    "6500": "645475e80236a053fa8090a897604780d0ab2bc4e7966e2d2eaf99fe3edc5809",
+    "7100": "19b3932d16ce0091fed53919c694e6874425be0d0f932e3b3cfb4f254082a4e5"
+  },
+  "landscape_pixel_identity_after_portrait_adjustments": {
+    "status": "PASS_FOR_8_UNCHANGED_REFERENCE_FRAMES",
+    "native_rgb_reference_frames": {
+      "960": true,
+      "1500": true,
+      "2190": true,
+      "3040": false,
+      "3900": true,
+      "4590": true,
+      "6090": true,
+      "6500": true,
+      "7100": true
+    },
+    "frame_3040_note": "Reference PNG predates the corrected buoy counter and looping-boat label; correction is present in the landscape render source snapshot. Actual encoded frame3040 reviewed separately.",
+    "scope": "Eight current-source landscape nativeRGB frames exactly match pre-adjustment references; font edits are portrait branches only."
+  }
+}

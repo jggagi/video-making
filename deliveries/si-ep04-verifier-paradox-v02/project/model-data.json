@@ -1,0 +1,149 @@
+{
+  "kind": "illustrative mixture of two deterministic episode policies, not paper data",
+  "policy_model": {
+    "normal": {
+      "proxy_reward": 1,
+      "finish_rate": 1
+    },
+    "loop": {
+      "proxy_reward": 6,
+      "finish_rate": 0
+    },
+    "samples": [
+      {
+        "q": 0.0,
+        "proxyReward": 1.0,
+        "normalizedProxy": 0.16666666666666666,
+        "finishRate": 1.0
+      },
+      {
+        "q": 0.05,
+        "proxyReward": 1.25,
+        "normalizedProxy": 0.20833333333333334,
+        "finishRate": 0.95
+      },
+      {
+        "q": 0.1,
+        "proxyReward": 1.5,
+        "normalizedProxy": 0.25,
+        "finishRate": 0.9
+      },
+      {
+        "q": 0.15,
+        "proxyReward": 1.75,
+        "normalizedProxy": 0.2916666666666667,
+        "finishRate": 0.85
+      },
+      {
+        "q": 0.2,
+        "proxyReward": 2.0,
+        "normalizedProxy": 0.3333333333333333,
+        "finishRate": 0.8
+      },
+      {
+        "q": 0.25,
+        "proxyReward": 2.25,
+        "normalizedProxy": 0.375,
+        "finishRate": 0.75
+      },
+      {
+        "q": 0.3,
+        "proxyReward": 2.5,
+        "normalizedProxy": 0.4166666666666667,
+        "finishRate": 0.7
+      },
+      {
+        "q": 0.35,
+        "proxyReward": 2.75,
+        "normalizedProxy": 0.4583333333333333,
+        "finishRate": 0.65
+      },
+      {
+        "q": 0.4,
+        "proxyReward": 3.0,
+        "normalizedProxy": 0.5,
+        "finishRate": 0.6
+      },
+      {
+        "q": 0.45,
+        "proxyReward": 3.25,
+        "normalizedProxy": 0.5416666666666666,
+        "finishRate": 0.55
+      },
+      {
+        "q": 0.5,
+        "proxyReward": 3.5,
+        "normalizedProxy": 0.5833333333333334,
+        "finishRate": 0.5
+      },
+      {
+        "q": 0.55,
+        "proxyReward": 3.75,
+        "normalizedProxy": 0.625,
+        "finishRate": 0.44999999999999996
+      },
+      {
+        "q": 0.6,
+        "proxyReward": 4.0,
+        "normalizedProxy": 0.6666666666666666,
+        "finishRate": 0.4
+      },
+      {
+        "q": 0.65,
+        "proxyReward": 4.25,
+        "normalizedProxy": 0.7083333333333334,
+        "finishRate": 0.35
+      },
+      {
+        "q": 0.7,
+        "proxyReward": 4.5,
+        "normalizedProxy": 0.75,
+        "finishRate": 0.30000000000000004
+      },
+      {
+        "q": 0.75,
+        "proxyReward": 4.75,
+        "normalizedProxy": 0.7916666666666666,
+        "finishRate": 0.25
+      },
+      {
+        "q": 0.8,
+        "proxyReward": 5.0,
+        "normalizedProxy": 0.8333333333333334,
+        "finishRate": 0.19999999999999996
+      },
+      {
+        "q": 0.85,
+        "proxyReward": 5.25,
+        "normalizedProxy": 0.875,
+        "finishRate": 0.15000000000000002
+      },
+      {
+        "q": 0.9,
+        "proxyReward": 5.5,
+        "normalizedProxy": 0.9166666666666666,
+        "finishRate": 0.09999999999999998
+      },
+      {
+        "q": 0.95,
+        "proxyReward": 5.75,
+        "normalizedProxy": 0.9583333333333334,
+        "finishRate": 0.050000000000000044
+      },
+      {
+        "q": 1.0,
+        "proxyReward": 6.0,
+        "normalizedProxy": 1.0,
+        "finishRate": 0.0
+      }
+    ]
+  },
+  "spring": {
+    "forceN": 10,
+    "assumedStiffnessNPerM": 1000,
+    "trueStiffnessNPerM": 500,
+    "limitMm": 15,
+    "predictedMm": 10,
+    "observedMm": 20
+  }
+}

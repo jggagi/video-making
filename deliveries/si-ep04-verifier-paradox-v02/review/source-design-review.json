@@ -1,0 +1,84 @@
+{
+  "status": "SOURCE_REPRESENTATIVE_REVIEW_COMPLETE",
+  "stage": "before final media encoding",
+  "layout_geometry": {
+    "landscape": {
+      "logical_stage": [
+        100,
+        300,
+        1720,
+        580
+      ]
+    },
+    "portrait": {
+      "logical_stage": [
+        65,
+        440,
+        850,
+        850
+      ],
+      "hud_top": 174,
+      "critical_right_max": 915,
+      "subtitle_bottom_max": 1491,
+      "safe_right_limit": 928.8,
+      "safe_bottom_limit": 1497.6,
+      "mobile_preview_width": 360,
+      "body_min_logical_px": 39,
+      "subtitle_logical_px": 43
+    }
+  },
+  "observations": [
+    "Sorting: original array, wrong candidate, failing pair3<=2 and corrected output form an explicit check chain; proof checker is shown separately.",
+    "CoastRunners: labelled goal finish line and respawning targets explain why loop behaviour earns reward. Score counter was corrected to one point per target crossing and labelled as the looping boat.",
+    "Chart: q axis and separately-normalized percentages, caption explicitly says teaching model; no empirical gold-model data is fabricated.",
+    "Physical measurement:10mm predicted vs20mm example reading with15mm limit; numeric parameter overlay split to remove collision;5760frame reveal retained.",
+    "Landauer: equalprobability unknownbit, reset, knownoutput and bathT; arrows routed around input cards; heat label shortened to fit.",
+    "Portrait reflowed, critical nodes and subtitles inside specified safe bounds; minor source/scope annotations30px at360 preview are not body text."
+  ],
+  "motion_previews": {
+    "layouts": [
+      "landscape",
+      "portrait"
+    ],
+    "ranges": [
+      [
+        120,
+        299
+      ],
+      [
+        1800,
+        1979
+      ],
+      [
+        4500,
+        4679
+      ],
+      [
+        5700,
+        5879
+      ],
+      [
+        6360,
+        6539
+      ],
+      [
+        6960,
+        7139
+      ]
+    ],
+    "audio": "shared original master",
+    "observation": "Paired portrait preview frames show compare-pointer steps, moving evidence packets, boats, physical-reading revelation and reset/heat routing. Continuous human listening not performed."
+  },
+  "final_media_review": "PENDING",
+  "human_watch_listen": "PENDING",
+  "real_phone_app": "PENDING",
+  "portrait_readability_refinement": {
+    "body_and_explanatory_subheading_px": 39,
+    "conclusion_node_note_px": 39,
+    "phone_effective_px_at_360": 13,
+    "source_annotations_px": 29,
+    "instrumentation_min_px": 30,
+    "status": "PASS in final source stills and three rerendered motion previews; encoded review pending"
+  },
+  "landscape_source_equivalence": "Eight native RGB representative frames unchanged after portrait-only fonts; stale pre-counter frame3040 replaced and separately checked in actual landscape encode: loopingboat +3, finish0."
+}

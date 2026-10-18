@@ -1,0 +1,545 @@
+{
+  "archive": {
+    "crc_status": "PASS",
+    "member_count": 102,
+    "path": "si-ep04-verifier-paradox-v02-editable-project.zip",
+    "sha256": "d884646d04c1f9149ed0e0e25ef0cc6a5bf56534cb0397c28871cc4674d6ded6",
+    "size_bytes": 59882295
+  },
+  "files": [
+    {
+      "path": "B站/captions.srt",
+      "sha256": "a5706cb57567a66af602796015b731946766b68b0561dbc3bca5501a7c83f626",
+      "size_bytes": 1598
+    },
+    {
+      "path": "delivery.json",
+      "sha256": "796899627f1803596d48be0807c5000c9f6cbb22ddeaa92a0353d328cbccc8ab",
+      "size_bytes": 2742
+    },
+    {
+      "path": "project/README.md",
+      "sha256": "dd7d5494ff57995dfa3134982c6a4e4350890844e972428388a26988c6991ba9",
+      "size_bytes": 1213
+    },
+    {
+      "path": "project/assets-manifest.json",
+      "sha256": "9ca225eae5e4d384f7fb50ed0d23386083265b105f86c6944da82663734fdee3",
+      "size_bytes": 16159
+    },
+    {
+      "path": "project/audio-timing.json",
+      "sha256": "0570e2109ace00d27763fb20218d572fbd45d3a7cc38a28d9f40204f237e426d",
+      "size_bytes": 19688
+    },
+    {
+      "path": "project/brief.md",
+      "sha256": "6da699d96dafdad0b8c7606a40eef651e41545d33d58952b3cd0e62bc5e5e12b",
+      "size_bytes": 1717
+    },
+    {
+      "path": "project/model-data.json",
+      "sha256": "4969f4f328cf8eb9bcd77c359ae6fd36286f31e257274b0432bc2785a35b4a0b",
+      "size_bytes": 3329
+    },
+    {
+      "path": "project/package-lock.json",
+      "sha256": "8e700e931d36c8b6e7140f82413355b6551b8b597f6b0d48a43a297dd2935cd0",
+      "size_bytes": 142075
+    },
+    {
+      "path": "project/package.json",
+      "sha256": "ed947f583e5e878088490669e3f6d2d8cac51d8a4378d4f974c87f0b8bd53cdf",
+      "size_bytes": 860
+    },
+    {
+      "path": "project/public/audio/canonical/S01.wav",
+      "sha256": "6f5721d573d666e3197279649f00c0b086c1aef478c660da292fecbab59dcb01",
+      "size_bytes": 265004
+    },
+    {
+      "path": "project/public/audio/canonical/S02.wav",
+      "sha256": "19a822e7f2a79443cad0b8d5d02923c827c95b38e5e673ec19c5e7de1e522daf",
+      "size_bytes": 372524
+    },
+    {
+      "path": "project/public/audio/canonical/S03.wav",
+      "sha256": "c9d34caab2841b7f5df406417050e57df1695a831f6340cb4b00a62b121aed7c",
+      "size_bytes": 226604
+    },
+    {
+      "path": "project/public/audio/canonical/S04.wav",
+      "sha256": "5424ba340b42ce9bd0f58bf6252f54006795dad5f13359aca9e6f866d88f316e",
+      "size_bytes": 376364
+    },
+    {
+      "path": "project/public/audio/canonical/S05.wav",
+      "sha256": "3d378b80b1b3b87f1eecae4c10858b27a96d4700de73423118b7e336662923a0",
+      "size_bytes": 364844
+    },
+    {
+      "path": "project/public/audio/canonical/S06.wav",
+      "sha256": "1fe541702669d9f4b4dd45613ef3c6f3fd18f9044a6043a3c96eb03378e366e0",
+      "size_bytes": 341804
+    },
+    {
+      "path": "project/public/audio/canonical/S07.wav",
+      "sha256": "f9719e6fa52a610d7ca65c816cd09eaf09b1ddc666f5616ef64377d9cce2af02",
+      "size_bytes": 326444
+    },
+    {
+      "path": "project/public/audio/canonical/S08.wav",
+      "sha256": "08e1ee195216f5e1749c0e00dc7b7d6b45b539940cdf38f52e149fc0de34eee1",
+      "size_bytes": 384044
+    },
+    {
+      "path": "project/public/audio/canonical/S09.wav",
+      "sha256": "ae609c4c92146f5586953f275f7c677ebcdf2ec800a9da59fc66778128eba857",
+      "size_bytes": 291884
+    },
+    {
+      "path": "project/public/audio/canonical/S10.wav",
+      "sha256": "ec57359dfb20b23235d0000a88881d14f9e972c84573c5076087c287eca1f4f4",
+      "size_bytes": 119084
+    },
+    {
+      "path": "project/public/audio/cues/S01.wav",
+      "sha256": "41bd41ee3315b20b1ace9a70c786290ef9516acfff00a10962faa787a9396cf5",
+      "size_bytes": 529998
+    },
+    {
+      "path": "project/public/audio/cues/S02.wav",
+      "sha256": "66d912ed615af6e7b9e142fbdc5b48a668e3dd7875145fa50888c740d401c4e2",
+      "size_bytes": 745038
+    },
+    {
+      "path": "project/public/audio/cues/S03.wav",
+      "sha256": "e5de6bbd42687261eee005af065f1168191117fbc6f59d8f5a6c07e49abd1139",
+      "size_bytes": 453198
+    },
+    {
+      "path": "project/public/audio/cues/S04.wav",
+      "sha256": "ca1c610287c788bbb633c2315720f212d568fc09f4f27c939ad429f98bb7beca",
+      "size_bytes": 752718
+    },
+    {
+      "path": "project/public/audio/cues/S05.wav",
+      "sha256": "77e3b2dd45f3cafe0d0cd24c3c7445a95aa883afca703948881e4c52ad5cc680",
+      "size_bytes": 729678
+    },
+    {
+      "path": "project/public/audio/cues/S06.wav",
+      "sha256": "fb6847750725f67a7451375d0c749e14f88d700b07ef9c74dfd997d77d70071f",
+      "size_bytes": 683598
+    },
+    {
+      "path": "project/public/audio/cues/S07.wav",
+      "sha256": "c234c67935ce26fa94879c09a92fff57be1feb55f742c7a2a1a9667dea85a115",
+      "size_bytes": 652878
+    },
+    {
+      "path": "project/public/audio/cues/S08.wav",
+      "sha256": "1a6ceb91899808cc61bd41037c4b47e9633389f5d6829a9426703c52501e0fb9",
+      "size_bytes": 768078
+    },
+    {
+      "path": "project/public/audio/cues/S09.wav",
+      "sha256": "203fff53725bad3faab44c2ae2f578537b6226c06ec93230ecefb865c5f68093",
+      "size_bytes": 583758
+    },
+    {
+      "path": "project/public/audio/cues/S10.wav",
+      "sha256": "1af2d235e67a335b429610850da7dbf0dbba40fea51ac0e505a0c40469c10a3f",
+      "size_bytes": 238158
+    },
+    {
+      "path": "project/public/audio/master.wav",
+      "sha256": "6a73f8c5121f8d1d3ff96f5b4ba3097df66d4b0c217950716fe56f2bc8a74826",
+      "size_bytes": 23040044
+    },
+    {
+      "path": "project/public/audio/mix-manifest.json",
+      "sha256": "66e6e9e0bb0505199214eb8cd5adc2c61588931bc0dfd2ed8b35504695ed3344",
+      "size_bytes": 8077
+    },
+    {
+      "path": "project/public/audio/mix-settings.json",
+      "sha256": "e6050f91033670d0d6b5d42cb3f23a406a93b951871dd16863c8c009e1b87b9d",
+      "size_bytes": 6802
+    },
+    {
+      "path": "project/public/audio/narration.wav",
+      "sha256": "630da442ecf6551ba2b3563af5d4cca6ffea848a6fdedb84a9e4a6856c9dd2de",
+      "size_bytes": 23040044
+    },
+    {
+      "path": "project/public/audio/provider-manifest.json",
+      "sha256": "cc10ff9b6f6013b54c48c762d1fe73a782e82f4b1ab9b7e5d0611342d48b85af",
+      "size_bytes": 11889
+    },
+    {
+      "path": "project/public/audio/raw/S01-0b9dfd3d762b.wav",
+      "sha256": "a2546a671fbbdb2b0c546380d22a77577317b97a58b35970e806349ed2476fe6",
+      "size_bytes": 265004
+    },
+    {
+      "path": "project/public/audio/raw/S02-6eac00f2a6ec.wav",
+      "sha256": "d4ba357fed45b3caf391b10fdc2f45319cc3be5778a6fdb79741f93dc532ed2d",
+      "size_bytes": 372524
+    },
+    {
+      "path": "project/public/audio/raw/S03-1dd24f6b736f.wav",
+      "sha256": "dbf366879c880680a443319e0a70e8e9b042266d60012d74cded7e97f620505e",
+      "size_bytes": 226604
+    },
+    {
+      "path": "project/public/audio/raw/S04-643518ccc13d.wav",
+      "sha256": "d03b415643a4115e38661d892664d3c08b46a5a13965ee0f410fe017bff9002c",
+      "size_bytes": 376364
+    },
+    {
+      "path": "project/public/audio/raw/S05-3d14ed5287d4.wav",
+      "sha256": "fc4182281f2aba0657796b7a30018072a6200f0de3e6377d5d47aa741bd950fa",
+      "size_bytes": 364844
+    },
+    {
+      "path": "project/public/audio/raw/S06-eac752465d4c.wav",
+      "sha256": "df68be8b57ea4c3f29267ed8be9b09343d4fc203f36b1679ccb5d4c00c3bed89",
+      "size_bytes": 341804
+    },
+    {
+      "path": "project/public/audio/raw/S07-ac40d5837efa.wav",
+      "sha256": "8188013c71edbad656b181a938d48c9d5a50080621c076a853444f445507a537",
+      "size_bytes": 326444
+    },
+    {
+      "path": "project/public/audio/raw/S08-525ebc85afb5.wav",
+      "sha256": "4beecb971ef07bb8223b139c41ffe92af98056112a2f35808feb2d5bbc185032",
+      "size_bytes": 384044
+    },
+    {
+      "path": "project/public/audio/raw/S09-c6eb52bbe3e8.wav",
+      "sha256": "a13d96bc58c732da88642354ad8e27f3a49f4b576672c644b3200bd8ddbcca4a",
+      "size_bytes": 291884
+    },
+    {
+      "path": "project/public/audio/raw/S10-42175af4b3e9.wav",
+      "sha256": "2ae9f939f25074f19c0a952043efe8a2f93db37a6c113ff719670033ce3c06da",
+      "size_bytes": 119084
+    },
+    {
+      "path": "project/public/audio/score.wav",
+      "sha256": "811ccbf90eddd9354fab1cc1056ae62f2373512b3d8949ebe30a2b9ad277ceb2",
+      "size_bytes": 23040044
+    },
+    {
+      "path": "project/public/audio/sfx.wav",
+      "sha256": "799d4957016c06774bd8798549aaf3c0a65bd9b23163ec302276ceaeafd767a0",
+      "size_bytes": 23040044
+    },
+    {
+      "path": "project/scripts/audit_audio_alignment.py",
+      "sha256": "186654c14e3506d09d2da85916b5d7f9149b7e899be04f3a19725edef3cb1774",
+      "size_bytes": 2213
+    },
+    {
+      "path": "project/scripts/browser_player_check.mjs",
+      "sha256": "a21a132ed2a5d07f8c219bd0860abf97dc5cbacd2f7d2eb7284b570907689a44",
+      "size_bytes": 4647
+    },
+    {
+      "path": "project/scripts/build_audio.py",
+      "sha256": "fd34ed2b3f5f21afe0818e2d2405374f44ced7efaf37478462a9f0505de31844",
+      "size_bytes": 52815
+    },
+    {
+      "path": "project/scripts/collect_qa.py",
+      "sha256": "b94352ebae745a15cf4aa17054c3f750c781c60928c6f7965b2eb1b2925607a6",
+      "size_bytes": 26138
+    },
+    {
+      "path": "project/scripts/export_captions.py",
+      "sha256": "083b91b4fde845cfcd8efdab134ede858d81560f7abe3bb09f03730673452c7e",
+      "size_bytes": 6889
+    },
+    {
+      "path": "project/scripts/package_project.py",
+      "sha256": "3b3c335da8c1013e746b394ad96f5d5031b3db2c7bf7a8e9aab00eb132127cda",
+      "size_bytes": 33360
+    },
+    {
+      "path": "project/scripts/render.mjs",
+      "sha256": "0e6c8e33a0f35c39edcfa95a26771df25dd37b3ddf89f4f0d221665cb6a45f3e",
+      "size_bytes": 3653
+    },
+    {
+      "path": "project/scripts/sync_audio.py",
+      "sha256": "56ff4a7ebe47214b406584076c075baf71dbccb954db53f15637d9e5aaff0542",
+      "size_bytes": 3187
+    },
+    {
+      "path": "project/scripts/verify_project.py",
+      "sha256": "e090002d6dcc6fdd230e31148fb9189bd78bafc416e98f601481058e5a5c6d86",
+      "size_bytes": 27860
+    },
+    {
+      "path": "project/segments.json",
+      "sha256": "bf08d081737e8a7a311ea7d3ac382bd517205d6bb9d830209caeec55bcca37a8",
+      "size_bytes": 6218
+    },
+    {
+      "path": "project/sfx_events.json",
+      "sha256": "98732e3a7c3a616a55303487d5e9943842478a439bfa35c278060a36c5877f9e",
+      "size_bytes": 2079
+    },
+    {
+      "path": "project/src/CanvasWorld.tsx",
+      "sha256": "2e4dcbd1dc960d9c47d9597b99225535592da7d124eedc7757d7de8c9d84cd29",
+      "size_bytes": 1671
+    },
+    {
+      "path": "project/src/Film.tsx",
+      "sha256": "cf718db5f9263ed1068f21efa88f460686c12788ed9b74a09e8618f43bb82a05",
+      "size_bytes": 4989
+    },
+    {
+      "path": "project/src/FormalScenes.ts",
+      "sha256": "ee1b8070861e0706163b0dc184603bd00caf990d66ca05eb3ff41d10d670fb85",
+      "size_bytes": 15382
+    },
+    {
+      "path": "project/src/MeasurementScenes.ts",
+      "sha256": "bd8a4be27d31d1827bc4a6676c87123d8e85ab13ff8262f2af32be375a4681bb",
+      "size_bytes": 17086
+    },
+    {
+      "path": "project/src/RewardScenes.ts",
+      "sha256": "dee30f8404261aafd3b74dab98e86140e1ed0c164897f29f3b822c0964de4660",
+      "size_bytes": 5765
+    },
+    {
+      "path": "project/src/Root.tsx",
+      "sha256": "8688d56eb986e804a576909d7f7fdbd4bc36b86b6fb96967fe663c266451a964",
+      "size_bytes": 457
+    },
+    {
+      "path": "project/src/draw.ts",
+      "sha256": "a966d5770958f7c6b81498ed15023b2fcee182520f64c0c23be6db60e2bec7eb",
+      "size_bytes": 2053
+    },
+    {
+      "path": "project/src/index.ts",
+      "sha256": "2e0e358282a1b998a65387c653b97c2bb2eb7aae94cf200fc0b8d919f7be73a6",
+      "size_bytes": 88
+    },
+    {
+      "path": "project/src/model.ts",
+      "sha256": "f734ef8571c249b903c4ca9a08b9736c22e1d1925ec5260df5daea8ad793b6ff",
+      "size_bytes": 330
+    },
+    {
+      "path": "project/theory-and-visual-model.md",
+      "sha256": "c6cfb7f0c11d128246bd73c9033f828e139a99d894934f7d3cfd4dbe23c89946",
+      "size_bytes": 5786
+    },
+    {
+      "path": "project/timeline.json",
+      "sha256": "a616ee40cb9d1165c97be05a17d722fc275f3225764a82c3270a77f1ee643f65",
+      "size_bytes": 5444
+    },
+    {
+      "path": "project/tsconfig.json",
+      "sha256": "522ac46763476439555ea8ebe67a503254cc22cc4799c22c6163fa9172949625",
+      "size_bytes": 315
+    },
+    {
+      "path": "project/visual-contract.md",
+      "sha256": "c8afdae48fcd1d741c992994b52d42a4d2eccbb8e2c049e1eea27a87f1708955",
+      "size_bytes": 1041
+    },
+    {
+      "path": "review/acceptance.md",
+      "sha256": "94bb77684572b1b7b2575c7b017d0dfa1da68e9714d4be4882d9b1c953e8d0be",
+      "size_bytes": 3866
+    },
+    {
+      "path": "review/audio-reuse.json",
+      "sha256": "cedb7c696bf048cf7b64bb4752e7b1a145b76d6b34cc81438ed0dfb485122846",
+      "size_bytes": 419
+    },
+    {
+      "path": "review/browser-player-qa-under-qa-load.json",
+      "sha256": "721f448f67043f91eb6ce2205cbe9b1b10a0257fa1c7a55b9dd9f0bbf74c136d",
+      "size_bytes": 2506
+    },
+    {
+      "path": "review/browser-player-qa.json",
+      "sha256": "32b7d72540a5de4a59635a6b153c4bb75d39cefe99971e02deaa92e6f1f5e238",
+      "size_bytes": 2505
+    },
+    {
+      "path": "review/encoded-landscape-contact-sheet.jpg",
+      "sha256": "eec8ff454e467d2697b4e19ef6fd392a7662be50275c9604347fcea958de9c38",
+      "size_bytes": 364674
+    },
+    {
+      "path": "review/encoded-landscape-native-frame-1500.jpg",
+      "sha256": "0ec8d5799d1ee898c9dba1c9800ffed6c251cb90ac47f56ef74547ccdccff5de",
+      "size_bytes": 571681
+    },
+    {
+      "path": "review/encoded-landscape-native-frame-4590.jpg",
+      "sha256": "efac2f9494b7e454180d695aba89bf59c032c78bff92b04dc0dc0d6f6a4f47a8",
+      "size_bytes": 630175
+    },
+    {
+      "path": "review/encoded-landscape-pair-contact-sheet.jpg",
+      "sha256": "1130106b475cb6f042e0e2558835efc07e42682d0e033d02e7574100bf05e5d1",
+      "size_bytes": 399563
+    },
+    {
+      "path": "review/encoded-portrait-contact-sheet.jpg",
+      "sha256": "ac690d3d2028dcd000f4084663309d46ecf2c0ac31cb12a13a637fe37db10e29",
+      "size_bytes": 609024
+    },
+    {
+      "path": "review/encoded-portrait-mobile-priority.jpg",
+      "sha256": "408585656ac64884f160a86e6ada74723581e0c94e0e3860c31c183954413c88",
+      "size_bytes": 273786
+    },
+    {
+      "path": "review/encoded-portrait-native-frame-1500.jpg",
+      "sha256": "232173ba774a15740082e30d8238979f719a73a7c255311060de74dae42dff65",
+      "size_bytes": 608695
+    },
+    {
+      "path": "review/encoded-portrait-native-frame-4590.jpg",
+      "sha256": "684def060bb440b5bc5e14100dc720f430ab01a7b58f76d58ab5d3a8345d45e9",
+      "size_bytes": 608874
+    },
+    {
+      "path": "review/encoded-portrait-pair-contact-sheet.jpg",
+      "sha256": "563c2cc9f83179d5e94a59ab1e3b05dc46c78decc2e5cc9b50b29b572e83bce8",
+      "size_bytes": 653227
+    },
+    {
+      "path": "review/encoded-qa-landscape.json",
+      "sha256": "674c78dba2ae0d782d5c79155c96083d00df0992216cd7af088a015bbbc3d328",
+      "size_bytes": 9526
+    },
+    {
+      "path": "review/encoded-qa-portrait.json",
+      "sha256": "d818da7eaeef0e3bd9c58ef2c2846b7fcac3d8aa8dfd50b5c0d95e88ca1aef3b",
+      "size_bytes": 9501
+    },
+    {
+      "path": "review/encoded-qa-summary.json",
+      "sha256": "78ed09cafc0c1c6bde0a7c0fbc1e76aeed7808446398b30701e0be3e4f9c5519",
+      "size_bytes": 666
+    },
+    {
+      "path": "review/media-validation-20261018T134240.199743Z.json",
+      "sha256": "c71cecb405b591176a50bc62297d217ac62cb9d2183f9bd1c51d2e6a1bb33d2b",
+      "size_bytes": 327
+    },
+    {
+      "path": "review/media-validation-20261018T141306.329264Z.json",
+      "sha256": "cbf7d17e5f3e9b78f11f97649fca6d838e5e2dfe76f346e8cc67fd731540cc27",
+      "size_bytes": 4656
+    },
+    {
+      "path": "review/narration-alignment.json",
+      "sha256": "97fcc075f8884102bc8d9635cb1343d01a8a7622e0333ec530b2e0ad870f1661",
+      "size_bytes": 4470
+    },
+    {
+      "path": "review/preview-motion-pairs-portrait.jpg",
+      "sha256": "c11f96c26f282ba5a0e11d851b481f05fca831ce81076be733b5554d8df3cba4",
+      "size_bytes": 541884
+    },
+    {
+      "path": "review/project-check.json",
+      "sha256": "194a56fe6e40ada7678e0b8b4b4e110e2724b0cb8c22448e2bb8d2f47236108a",
+      "size_bytes": 2645
+    },
+    {
+      "path": "review/render-source-lock.json",
+      "sha256": "c6aedfa3de39fe41ac3aeab163b31cd2a2f3b9604f4f2f859bdb53742f2a0f36",
+      "size_bytes": 4521
+    },
+    {
+      "path": "review/representative-review.json",
+      "sha256": "ec8765c2d199ec3bd47c86a73261319c59b6b8351e9c3863bf1003491d4486ea",
+      "size_bytes": 3310
+    },
+    {
+      "path": "review/shared-audio-encoding.json",
+      "sha256": "29cf6173583bba9d20520feeee43d87816b8188abfbb48d9ce2426a2550e27f4",
+      "size_bytes": 3615
+    },
+    {
+      "path": "review/source-contact-landscape.jpg",
+      "sha256": "0e39a40daa2040e275e208f652beb11cb231b7d9c0db23b7ccca0c42512c88ce",
+      "size_bytes": 1116217
+    },
+    {
+      "path": "review/source-contact-portrait.jpg",
+      "sha256": "7a688b6e20ca435819989948468d998a2c3afc57a4a62f2e1efad163f7b71927",
+      "size_bytes": 595720
+    },
+    {
+      "path": "review/source-design-review.json",
+      "sha256": "04d74b28ea77bc8b1dfd80514f76c32b6bc4e9f90ee9edbbd1454c996104c70d",
+      "size_bytes": 2860
+    },
+    {
+      "path": "review/source-mobile-review.jpg",
+      "sha256": "4738c2e8cdb60eabfff53f2086aa6cdf7a055e533f4f3b4bcc03f4a557945ff1",
+      "size_bytes": 356670
+    },
+    {
+      "path": "source/script.md",
+      "sha256": "61c63ebe3ecc0e8f1252fc5ca098bce05f5cd9bf56d02df6e8963a6d542d7a01",
+      "size_bytes": 12332
+    },
+    {
+      "path": "watch.html",
+      "sha256": "7b06ee50d1342a731b071fdd318b4c0711b39301b1ec40feb043659baf7a4a74",
+      "size_bytes": 1774
+    },
+    {
+      "path": "小红书/captions.srt",
+      "sha256": "a5706cb57567a66af602796015b731946766b68b0561dbc3bca5501a7c83f626",
+      "size_bytes": 1598
+    }
+  ],
+  "notes": [
+    "PingFang SC and Menlo are referenced native system fonts and are not embedded.",
+    "project/package-lock.json is preserved for reproducible dependency installation."
+  ],
+  "project": {
+    "caption_windows_from_measured_segment_pcm": 19,
+    "duration_seconds": 120,
+    "fps": 60,
+    "layouts": {
+      "bilibili": {
+        "height": 2160,
+        "width": 3840
+      },
+      "xiaohongshu": {
+        "height": 3840,
+        "width": 2160
+      }
+    },
+    "shared_audio": {
+      "channels": 2,
+      "sample_rate": 48000,
+      "sample_width_bytes": 2,
+      "samples_per_channel": 5760000
+    },
+    "slug": "si-ep04-verifier-paradox-v02",
+    "title": "神也会自我欺骗 · v2 机制图解版",
+    "total_frames": 7200
+  },
+  "schema_version": 1
+}

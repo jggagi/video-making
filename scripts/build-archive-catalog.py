@@ -177,6 +177,52 @@ def _validate_new_work_identities(works: list[dict]) -> None:
     _validate_unique_work_ids_and_tags(works)
 
 
+def _validated_excluded_deliveries(root: Path, names) -> tuple[str, ...]:
+    if isinstance(names, str):
+        names = (names,)
+    requested = []
+    for name in names:
+        if (not isinstance(name, str) or not name or name in {".", ".."}
+                or "/" in name or "\\" in name or "\x00" in name):
+            raise ValueError(
+                "--exclude-delivery must name an existing delivery-directory basename"
+            )
+        if name not in requested:
+            requested.append(name)
+
+    deliveries = root / "deliveries"
+    for name in requested:
+        directory = deliveries / name
+        manifest_path = directory / "delivery.json"
+        if (directory.is_symlink() or not directory.is_dir()
+                or manifest_path.is_symlink() or not manifest_path.is_file()):
+            raise ValueError(
+                f"Excluded delivery must be an existing directory with delivery.json: {name}"
+            )
+
+    if requested:
+        catalog_path = root / "archive" / "catalog.json"
+        if catalog_path.exists() or catalog_path.is_symlink():
+            if catalog_path.is_symlink() or not catalog_path.is_file():
+                raise ValueError(f"Cannot safely check existing archive catalog: {catalog_path}")
+            try:
+                catalog = json.loads(catalog_path.read_text(encoding="utf-8"))
+            except (OSError, json.JSONDecodeError) as error:
+                raise ValueError(f"Cannot safely check existing archive catalog: {error}") from None
+            if not isinstance(catalog, dict) or not isinstance(catalog.get("works"), list):
+                raise ValueError(f"Cannot safely check existing archive catalog: {catalog_path}")
+            for work in catalog["works"]:
+                if not isinstance(work, dict):
+                    raise ValueError(f"Cannot safely check existing archive catalog: {catalog_path}")
+                for name in requested:
+                    if (work.get("id") == name
+                            or work.get("delivery_directory") == f"deliveries/{name}"):
+                        raise ValueError(
+                            f"Cannot exclude already-catalogued delivery: {name}"
+                        )
+    return tuple(requested)
+
+
 def _check_generated_markdown_target(path: Path) -> None:
     if not path.exists() and not path.is_symlink():
         return
@@ -229,7 +275,8 @@ def probe(path: Path) -> dict:
     }
 
 
-def discover(root: Path) -> list[dict]:
+def discover(root: Path, excluded_deliveries=()) -> list[dict]:
+    excluded = _validated_excluded_deliveries(root, excluded_deliveries)
     works = []
     for work_id, title, directories, project in HISTORICAL:
         files = sorted({path for directory in directories for path in (root / directory).glob("*")
@@ -241,6 +288,8 @@ def discover(root: Path) -> list[dict]:
     deliveries = root / "deliveries"
     if deliveries.exists():
         for directory in sorted(deliveries.iterdir()):
+            if directory.name in excluded:
+                continue
             manifest_path = directory / "delivery.json"
             if not directory.is_dir() or not manifest_path.is_file():
                 continue
@@ -393,9 +442,14 @@ def write_work(root: Path, work: dict, assets: list[dict]) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
+    parser.add_argument(
+        "--exclude-delivery", action="append", default=[], metavar="SLUG",
+        help="Skip an unfinished, not-yet-catalogued delivery directory (repeatable)",
+    )
     args = parser.parse_args()
     root = args.root.resolve()
-    works = discover(root)
+    excluded = tuple(dict.fromkeys(args.exclude_delivery))
+    works = discover(root, excluded_deliveries=excluded)
     catalog = {"schema_version": 1, "repository": REPOSITORY,
                "generated_by": GENERATED_BY, "works": []}
     # Inspect/hash every source before emitting catalog/index changes.
@@ -417,7 +471,8 @@ def main() -> None:
         relative = Path(work["delivery_directory"]).relative_to("deliveries").as_posix()
         index += f"- [{work['title']}]({quote(relative, safe='/')}/README.md)：{len(assets)} 个视频/工程资产。\n"
     _write_generated_markdown(root / "deliveries" / "README.md", index)
-    print(f"Indexed {len(works)} works, {count} media/project assets, {total:,} bytes; originals unchanged")
+    report = f"; excluded unfinished deliveries: {', '.join(excluded)}" if excluded else ""
+    print(f"Indexed {len(works)} works, {count} media/project assets, {total:,} bytes{report}; originals unchanged")
 
 
 if __name__ == "__main__":

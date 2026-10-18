@@ -76,10 +76,22 @@ def create_work(root, directory_name='森林 时间 🌲-v01', manifest_slug=Non
     return delivery
 
 
+def create_unfinished_work(root, directory_name='unfinished-v02'):
+    delivery = root / 'deliveries' / directory_name
+    delivery.mkdir(parents=True)
+    (delivery / 'delivery.json').write_text('{ unfinished manifest', encoding='utf-8')
+    return delivery
+
+
 class ArchiveCatalogTests(unittest.TestCase):
-    def run_main(self, root):
-        with patch.object(mod, 'probe', side_effect=fake_probe), patch.object(sys, 'argv', ['build-archive-catalog.py', '--root', str(root)]), contextlib.redirect_stdout(io.StringIO()):
+    def run_main(self, root, excluded_deliveries=()):
+        argv = ['build-archive-catalog.py', '--root', str(root)]
+        for name in excluded_deliveries:
+            argv.extend(['--exclude-delivery', name])
+        output = io.StringIO()
+        with patch.object(mod, 'probe', side_effect=fake_probe), patch.object(sys, 'argv', argv), contextlib.redirect_stdout(output):
             mod.main()
+        return output.getvalue()
 
     def test_chinese_spaced_slug_catalog_and_project_video_classification(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -336,6 +348,55 @@ class ArchiveCatalogTests(unittest.TestCase):
             self.assertEqual(work['id'], 'lanting')
             self.assertTrue(work['historical'])
             self.assertNotIn('duration_seconds', work)
+
+    def test_unfinished_unregistered_delivery_can_be_excluded_before_manifest_parsing(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            valid = create_work(root, directory_name='finished-v01')
+            create_unfinished_work(root)
+
+            with self.assertRaises(json.JSONDecodeError):
+                mod.discover(root)
+
+            works = mod.discover(root, excluded_deliveries=('unfinished-v02',))
+            self.assertEqual([work['id'] for work in works], ['finished-v01'])
+            output = self.run_main(root, ('unfinished-v02',))
+            self.assertIn('excluded unfinished deliveries: unfinished-v02', output)
+            catalog = json.loads((root / 'archive' / 'catalog.json').read_text(encoding='utf-8'))
+            self.assertEqual([work['id'] for work in catalog['works']], ['finished-v01'])
+            self.assertTrue(valid.is_dir())
+
+    def test_catalogued_delivery_cannot_be_excluded_by_id_or_directory(self):
+        for identity in (
+            {'id': 'unfinished-v02', 'delivery_directory': 'deliveries/other'},
+            {'id': 'other', 'delivery_directory': 'deliveries/unfinished-v02'},
+        ):
+            with self.subTest(identity=identity), tempfile.TemporaryDirectory() as tmp:
+                root = Path(tmp)
+                create_unfinished_work(root)
+                archive = root / 'archive'
+                archive.mkdir()
+                (archive / 'catalog.json').write_text(
+                    json.dumps({'works': [identity]}), encoding='utf-8'
+                )
+                with self.assertRaisesRegex(ValueError, 'already-catalogued delivery'):
+                    mod.discover(root, excluded_deliveries=('unfinished-v02',))
+
+    def test_exclusion_requires_literal_existing_delivery_basename_and_manifest(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            create_unfinished_work(root)
+            (root / 'deliveries' / 'missing-manifest').mkdir()
+            for name in ('.', '..', 'unfinished-v02/child', r'unfinished-v02\child', 'missing', 'missing-manifest'):
+                with self.subTest(name=name), self.assertRaises(ValueError):
+                    mod.discover(root, excluded_deliveries=(name,))
+
+    def test_default_discovery_still_finds_valid_work(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            create_work(root, directory_name='expected-valid-v01')
+            works = mod.discover(root)
+            self.assertEqual([work['id'] for work in works], ['expected-valid-v01'])
 
 
 if __name__ == '__main__':

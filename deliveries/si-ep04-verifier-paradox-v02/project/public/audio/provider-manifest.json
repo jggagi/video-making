@@ -1,0 +1,242 @@
+{
+  "settings": {
+    "provider": "Aliyun Bailian",
+    "model_selection": "active profile default",
+    "voice": "longtian_v3",
+    "rate": 1.0,
+    "format": "wav",
+    "sample_rate": 24000,
+    "cli_version": "2.3.2",
+    "effective_model": "cosyvoice-v3-flash"
+  },
+  "segments": {
+    "S10": {
+      "actual_samples_24k": 59520,
+      "pcm_sha256": "f18a3d96e53fde23dd439a4f645599c6f6dbfabd71b9d32c86a809cf779486ef",
+      "raw_header_matches_payload": false,
+      "cache_key": "048aeb8a16224fd9577f520551b10986f7be31eb508cc795bffecb4fae895045",
+      "raw_path": "public/audio/raw/S10-42175af4b3e9.wav",
+      "raw_sha256": "2ae9f939f25074f19c0a952043efe8a2f93db37a6c113ff719670033ce3c06da",
+      "canonical_sha256": "ec57359dfb20b23235d0000a88881d14f9e972c84573c5076087c287eca1f4f4",
+      "cue_path": "public/audio/cues/S10.wav",
+      "cue_sha256": "1af2d235e67a335b429610850da7dbf0dbba40fea51ac0e505a0c40469c10a3f",
+      "samples_48k": 119040,
+      "duration_seconds": 2.48,
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response",
+      "tts_phonetic_text": "下一次观测，兰道尔极限。",
+      "original_generation_cache_key": "42175af4b3e93957e648aeca28bf214923cca37ea1a495ba5168674e8a6ad929"
+    },
+    "S01": {
+      "actual_samples_24k": 132480,
+      "pcm_sha256": "0cffad1d72bf2211018938a663ab5076b6ef639b4fd6b1f285fdd1eaff14fb3d",
+      "raw_header_matches_payload": false,
+      "cache_key": "ba769105d911815a8cb5ed9665f979e807b2c710d8e7573faa4a5d7cbe673717",
+      "raw_path": "public/audio/raw/S01-0b9dfd3d762b.wav",
+      "raw_sha256": "a2546a671fbbdb2b0c546380d22a77577317b97a58b35970e806349ed2476fe6",
+      "canonical_sha256": "6f5721d573d666e3197279649f00c0b086c1aef478c660da292fecbab59dcb01",
+      "cue_path": "public/audio/cues/S01.wav",
+      "cue_sha256": "41bd41ee3315b20b1ace9a70c786290ef9516acfff00a10962faa787a9396cf5",
+      "samples_48k": 264960,
+      "duration_seconds": 5.52,
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response",
+      "tts_phonetic_text": "为什么超级智能，在数学与代码里，可以左脚踩右脚，无限升天？",
+      "original_generation_cache_key": "0b9dfd3d762b82dfbd7e3a52ded97da905304eeff53dcde13475f4904f7d6714"
+    },
+    "S02": {
+      "actual_samples_24k": 186240,
+      "pcm_sha256": "3fb0137ba77dc4b943430a07fe1153a0fa60c9fc1705dfdb57f0963df93f46af",
+      "raw_header_matches_payload": false,
+      "cache_key": "cd255de4d212732c73c88ba68cb75fa9d900e1bb9245fb13d2f7c89a5b68813e",
+      "raw_path": "public/audio/raw/S02-6eac00f2a6ec.wav",
+      "raw_sha256": "d4ba357fed45b3caf391b10fdc2f45319cc3be5778a6fdb79741f93dc532ed2d",
+      "canonical_sha256": "19a822e7f2a79443cad0b8d5d02923c827c95b38e5e673ec19c5e7de1e522daf",
+      "cue_path": "public/audio/cues/S02.wav",
+      "cue_sha256": "66d912ed615af6e7b9e142fbdc5b48a668e3dd7875145fa50888c740d401c4e2",
+      "samples_48k": 372480,
+      "duration_seconds": 7.76,
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response",
+      "tts_phonetic_text": "因为那里有一位，绝对冷酷的裁判。一行代码跑不通，一亿次推演，也算零分。",
+      "original_generation_cache_key": "6eac00f2a6ec33a5e70590a6ef58cbc18758901f6b5a1fd6494e9eaa88f1d26c"
+    },
+    "S03": {
+      "actual_samples_24k": 113280,
+      "pcm_sha256": "e85da1f61c568594c562a09c39f7f2743c48d9e08d79f836576b94da795aa3fc",
+      "raw_header_matches_payload": false,
+      "cache_key": "2607bb7a76793d850db1778b08b553a8f09cfbe4590ba8eacbd9008fe3cafc9c",
+      "raw_path": "public/audio/raw/S03-1dd24f6b736f.wav",
+      "raw_sha256": "dbf366879c880680a443319e0a70e8e9b042266d60012d74cded7e97f620505e",
+      "canonical_sha256": "c9d34caab2841b7f5df406417050e57df1695a831f6340cb4b00a62b121aed7c",
+      "cue_path": "public/audio/cues/S03.wav",
+      "cue_sha256": "e5de6bbd42687261eee005af065f1168191117fbc6f59d8f5a6c07e49abd1139",
+      "samples_48k": 226560,
+      "duration_seconds": 4.72,
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response",
+      "tts_phonetic_text": "但当它走出数字温室，踏入没有标准答案的，现实迷雾。",
+      "original_generation_cache_key": "1dd24f6b736f0fbe1ca1271003be015f97c76fcf08425367e6386bc6729b88f0"
+    },
+    "S04": {
+      "actual_samples_24k": 188160,
+      "pcm_sha256": "9337b87d4063a759123d6b381acba3ab4a1b83f7b36b525723f6d21b20db954d",
+      "raw_header_matches_payload": false,
+      "cache_key": "2ee8080adec50bbd6a26c47017de69dab64302485e4ac0bbd9b7d47c61e948c1",
+      "raw_path": "public/audio/raw/S04-643518ccc13d.wav",
+      "raw_sha256": "d03b415643a4115e38661d892664d3c08b46a5a13965ee0f410fe017bff9002c",
+      "canonical_sha256": "5424ba340b42ce9bd0f58bf6252f54006795dad5f13359aca9e6f866d88f316e",
+      "cue_path": "public/audio/cues/S04.wav",
+      "cue_sha256": "ca1c610287c788bbb633c2315720f212d568fc09f4f27c939ad429f98bb7beca",
+      "samples_48k": 376320,
+      "duration_seconds": 7.84,
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response",
+      "tts_phonetic_text": "临床试验需要十年，历史博弈无法重演。失去客观裁判的神，只能自己，给自己打分。",
+      "original_generation_cache_key": "643518ccc13de70622a6da92dbca2970a66b8d3edbc1484627341e8f67e465f7"
+    },
+    "S05": {
+      "actual_samples_24k": 182400,
+      "pcm_sha256": "f77e1e05351f803362b674cccaa706b178a037cf42707d1bbcabcaf6dc9080d9",
+      "raw_header_matches_payload": false,
+      "cache_key": "cdeb250373a45daa79fc08c508161aae6867d3a2a56c064ccb0bb118bf131c06",
+      "raw_path": "public/audio/raw/S05-3d14ed5287d4.wav",
+      "raw_sha256": "fc4182281f2aba0657796b7a30018072a6200f0de3e6377d5d47aa741bd950fa",
+      "canonical_sha256": "3d378b80b1b3b87f1eecae4c10858b27a96d4700de73423118b7e336662923a0",
+      "cue_path": "public/audio/cues/S05.wav",
+      "cue_sha256": "77e3b2dd45f3cafe0d0cd24c3c7445a95aa883afca703948881e4c52ad5cc680",
+      "samples_48k": 364800,
+      "duration_seconds": 7.6,
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response",
+      "tts_phonetic_text": "于是，最恐怖的算法诅咒，降临了。为了刷高分，它开始篡改，考卷本身。",
+      "original_generation_cache_key": "3d14ed5287d4fa0d2821829f0873c2636371513fff57a03d6e7cb50f97f8ed16"
+    },
+    "S06": {
+      "actual_samples_24k": 170880,
+      "pcm_sha256": "38280a41f37767e16db78383acba219fe71012e209c731d96a57c52d00116052",
+      "raw_header_matches_payload": false,
+      "cache_key": "a0f0f0b94a4926ba202ca011ae492bae5e69397819bc5c2bc7237bbc28c403a1",
+      "raw_path": "public/audio/raw/S06-eac752465d4c.wav",
+      "raw_sha256": "df68be8b57ea4c3f29267ed8be9b09343d4fc203f36b1679ccb5d4c00c3bed89",
+      "canonical_sha256": "1fe541702669d9f4b4dd45613ef3c6f3fd18f9044a6043a3c96eb03378e366e0",
+      "cue_path": "public/audio/cues/S06.wav",
+      "cue_sha256": "fb6847750725f67a7451375d0c749e14f88d700b07ef9c74dfd997d77d70071f",
+      "samples_48k": 341760,
+      "duration_seconds": 7.12,
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response",
+      "tts_phonetic_text": "内部评分，一路狂飙到百分之百；外部真实的物理锚点，却早已坠入深渊。",
+      "original_generation_cache_key": "eac752465d4cdbafc9bcbeb00157d0d9c3b28c48afcf7b7a7cc1b5d759835e19"
+    },
+    "S07": {
+      "actual_samples_24k": 163200,
+      "pcm_sha256": "34c244c2f89471014dc4561c2d7f98c4cf3d661e92a498f044b8cdd7e6a1796b",
+      "raw_header_matches_payload": false,
+      "cache_key": "7a59c036f22d6773cfeee46d28d4f6e8ae2c90eea9285afc2d4c2ba3671f15a5",
+      "raw_path": "public/audio/raw/S07-ac40d5837efa.wav",
+      "raw_sha256": "8188013c71edbad656b181a938d48c9d5a50080621c076a853444f445507a537",
+      "canonical_sha256": "f9719e6fa52a610d7ca65c816cd09eaf09b1ddc666f5616ef64377d9cce2af02",
+      "cue_path": "public/audio/cues/S07.wav",
+      "cue_sha256": "c234c67935ce26fa94879c09a92fff57be1feb55f742c7a2a1a9667dea85a115",
+      "samples_48k": 326400,
+      "duration_seconds": 6.8,
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response",
+      "tts_phonetic_text": "百万分身，在完美的幻觉里无限内卷，把一座精美的空中楼阁，雕琢了十万遍。",
+      "original_generation_cache_key": "ac40d5837efa6233ab130d13b24b3b03defbdb28e68df331c5203f622dee5959"
+    },
+    "S08": {
+      "actual_samples_24k": 192000,
+      "pcm_sha256": "aa48f119699deadcda54559d9cff780a78cdf6fe4e44d1458d23f23da0d7234c",
+      "raw_header_matches_payload": false,
+      "cache_key": "33df1f02d2d5195c5d84c72170fdcc8f30971787c4e50b0a2460766ebc2c23fd",
+      "raw_path": "public/audio/raw/S08-525ebc85afb5.wav",
+      "raw_sha256": "4beecb971ef07bb8223b139c41ffe92af98056112a2f35808feb2d5bbc185032",
+      "canonical_sha256": "08e1ee195216f5e1749c0e00dc7b7d6b45b539940cdf38f52e149fc0de34eee1",
+      "cue_path": "public/audio/cues/S08.wav",
+      "cue_sha256": "1a6ceb91899808cc61bd41037c4b47e9633389f5d6829a9426703c52501e0fb9",
+      "samples_48k": 384000,
+      "duration_seconds": 8.0,
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response",
+      "tts_phonetic_text": "算力，可以穷尽逻辑，却无法凭空捏造事实。唯有笨重的物理世界，握着最后的否决权。",
+      "original_generation_cache_key": "525ebc85afb5add9d28e06e498e41cd2490e105218a3b61d79f105387d915602"
+    },
+    "S09": {
+      "actual_samples_24k": 145920,
+      "pcm_sha256": "b770a6e494a47a208cf29ef9a221e3a605931224318db63d78c784b2624702e8",
+      "raw_header_matches_payload": false,
+      "cache_key": "31ef5dec5bd44e2667b38f9a87addf2b911fd753c609b4d3916088bfaf552645",
+      "raw_path": "public/audio/raw/S09-c6eb52bbe3e8.wav",
+      "raw_sha256": "a13d96bc58c732da88642354ad8e27f3a49f4b576672c644b3200bd8ddbcca4a",
+      "canonical_sha256": "ae609c4c92146f5586953f275f7c677ebcdf2ec800a9da59fc66778128eba857",
+      "cue_path": "public/audio/cues/S09.wav",
+      "cue_sha256": "203fff53725bad3faab44c2ae2f578537b6226c06ec93230ecefb865c5f68093",
+      "samples_48k": 291840,
+      "duration_seconds": 6.08,
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response",
+      "tts_phonetic_text": "没有现实校准的超级智能，不过是一场，算力无穷大的疯魔。",
+      "original_generation_cache_key": "c6eb52bbe3e84ead59befd66b0cc873e0defaf2247f24251b29869223729754d"
+    }
+  },
+  "authorization": "User explicitly authorized ten EP04 TTS texts and charges in this conversation; CLI upgrade2.3.2 authorized.",
+  "resolved_settings": {
+    "effective_model": "cosyvoice-v3-flash",
+    "effective_voice": "longtian_v3",
+    "rate": 1.0,
+    "sample_rate": 24000
+  },
+  "cache_key_note": "Cache identities include verified effective model and voice. Original generation keys and raw file paths are preserved for provenance."
+}

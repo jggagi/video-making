@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-10-18T14:13:06.328468Z",
+  "status": "PASS",
+  "target_duration_seconds": 120,
+  "manifest_sha256": "b039c685dfaaaf7e6a09974adbc943fcf9281cf3b994ffb95221ba37d719debb",
+  "checks": {
+    "manifest": "PASS",
+    "schema_version": "PASS",
+    "title": "PASS",
+    "duration_seconds": "PASS",
+    "slug": "PASS",
+    "fps": "PASS",
+    "duration_frame_alignment": "PASS",
+    "duration_sample_alignment": "PASS",
+    "total_frames": "PASS",
+    "audio_mode": "PASS",
+    "audio_master": "PASS",
+    "script_path": "PASS",
+    "script_hash": "PASS",
+    "script_sha256": "61c63ebe3ecc0e8f1252fc5ca098bce05f5cd9bf56d02df6e8963a6d542d7a01",
+    "bilibili_manifest_dimensions": "PASS",
+    "xiaohongshu_manifest_dimensions": "PASS"
+  },
+  "outputs": {
+    "bilibili": {
+      "status": "PASS",
+      "path": "B站/si-ep04-verifier-paradox-v02-bilibili-120s-4k.mp4",
+      "sha256": "89637a2afe80d75063a8b49887a4484a688637e9e104c669d4417bc2c5ffe9e3",
+      "measurements": {
+        "file_size_bytes": 54552026,
+        "video": {
+          "codec": "h264",
+          "pixel_format": "yuv420p",
+          "width": 3840,
+          "height": 2160,
+          "nominal_fps": "60/1",
+          "average_fps": "60/1",
+          "counted_frames": "7200",
+          "duration_seconds": 120.0
+        },
+        "audio_stream_count": 1,
+        "audio": {
+          "codec": "aac",
+          "sample_rate": 48000,
+          "channels": 2,
+          "duration_seconds": 120.0
+        },
+        "container": {
+          "duration_seconds": 120.0,
+          "padding_vs_video_seconds": 0.0
+        },
+        "mp4_atoms": {
+          "atom_types": [
+            "ftyp",
+            "moov",
+            "free",
+            "mdat"
+          ],
+          "moov_offset": 32,
+          "mdat_offset": 185661,
+          "moov_before_mdat": true
+        }
+      },
+      "checks": {
+        "manifest_dimensions": "PASS",
+        "media_file": "PASS",
+        "ffprobe": "PASS",
+        "video_stream_count": "PASS",
+        "dimensions": "PASS",
+        "codec": "PASS",
+        "pixel_format": "PASS",
+        "nominal_fps": "PASS",
+        "average_fps": "PASS",
+        "counted_frames": "PASS",
+        "video_duration": "PASS",
+        "audio_stream_count": "PASS",
+        "audio_codec": "PASS",
+        "audio_sample_rate": "PASS",
+        "audio_channels": "PASS",
+        "audio_duration": "PASS",
+        "container_duration": "PASS",
+        "moov_before_mdat": "PASS",
+        "strict_decode": "PASS"
+      },
+      "failures": []
+    },
+    "xiaohongshu": {
+      "status": "PASS",
+      "path": "小红书/si-ep04-verifier-paradox-v02-xiaohongshu-120s-portrait.mp4",
+      "sha256": "61a9935ef4daa810e7c8d6fe28efeecb5e98edbc3d112bf1c9ad4b17aab94fe0",
+      "measurements": {
+        "file_size_bytes": 55718671,
+        "video": {
+          "codec": "h264",
+          "pixel_format": "yuv420p",
+          "width": 2160,
+          "height": 3840,
+          "nominal_fps": "60/1",
+          "average_fps": "60/1",
+          "counted_frames": "7200",
+          "duration_seconds": 120.0
+        },
+        "audio_stream_count": 1,
+        "audio": {
+          "codec": "aac",
+          "sample_rate": 48000,
+          "channels": 2,
+          "duration_seconds": 120.0
+        },
+        "container": {
+          "duration_seconds": 120.0,
+          "padding_vs_video_seconds": 0.0
+        },
+        "mp4_atoms": {
+          "atom_types": [
+            "ftyp",
+            "moov",
+            "free",
+            "mdat"
+          ],
+          "moov_offset": 32,
+          "mdat_offset": 182713,
+          "moov_before_mdat": true
+        }
+      },
+      "checks": {
+        "manifest_dimensions": "PASS",
+        "media_file": "PASS",
+        "ffprobe": "PASS",
+        "video_stream_count": "PASS",
+        "dimensions": "PASS",
+        "codec": "PASS",
+        "pixel_format": "PASS",
+        "nominal_fps": "PASS",
+        "average_fps": "PASS",
+        "counted_frames": "PASS",
+        "video_duration": "PASS",
+        "audio_stream_count": "PASS",
+        "audio_codec": "PASS",
+        "audio_sample_rate": "PASS",
+        "audio_channels": "PASS",
+        "audio_duration": "PASS",
+        "container_duration": "PASS",
+        "moov_before_mdat": "PASS",
+        "strict_decode": "PASS"
+      },
+      "failures": []
+    }
+  },
+  "failures": [],
+  "human_review": {
+    "representative_frames": "pending",
+    "continuous_human_review": "pending",
+    "target_device_playback": "pending"
+  },
+  "source_scan": {
+    "status": "PASS",
+    "files_scanned": 22,
+    "matches": [],
+    "read_errors": []
+  }
+}

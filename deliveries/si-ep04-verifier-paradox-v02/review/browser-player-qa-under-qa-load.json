@@ -1,0 +1,92 @@
+{
+  "status": "PASS",
+  "project_slug": "si-ep04-verifier-paradox-v02",
+  "method": "Real headless Google Chrome via bundled Playwright; current delivery manifest paths; local file player; playback and seeks",
+  "results": [
+    {
+      "layout": "landscape",
+      "media_path": "B站/si-ep04-verifier-paradox-v02-bilibili-120s-4k.mp4",
+      "metadata": {
+        "duration": 120,
+        "width": 3840,
+        "height": 2160,
+        "source": "file:///Users/guoq/Documents/ChatGPT/video/deliveries/si-ep04-verifier-paradox-v02/B%E7%AB%99/si-ep04-verifier-paradox-v02-bilibili-120s-4k.mp4",
+        "error": null
+      },
+      "playback": {
+        "currentTime": 0.662197,
+        "paused": false,
+        "quality": {
+          "totalVideoFrames": 44,
+          "droppedVideoFrames": 12
+        }
+      },
+      "seeks": [
+        {
+          "target": 75.2,
+          "time": 75.2,
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "target": 96.5,
+          "time": 96.5,
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "target": 118.5,
+          "time": 118.5,
+          "readyState": 4,
+          "error": null
+        }
+      ],
+      "hidden_other_paused": true
+    },
+    {
+      "layout": "portrait",
+      "media_path": "小红书/si-ep04-verifier-paradox-v02-xiaohongshu-120s-portrait.mp4",
+      "metadata": {
+        "duration": 120,
+        "width": 2160,
+        "height": 3840,
+        "source": "file:///Users/guoq/Documents/ChatGPT/video/deliveries/si-ep04-verifier-paradox-v02/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep04-verifier-paradox-v02-xiaohongshu-120s-portrait.mp4",
+        "error": null
+      },
+      "playback": {
+        "currentTime": 0.620225,
+        "paused": false,
+        "quality": {
+          "totalVideoFrames": 43,
+          "droppedVideoFrames": 0
+        }
+      },
+      "seeks": [
+        {
+          "target": 75.2,
+          "time": 75.2,
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "target": 96.5,
+          "time": 96.5,
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "target": 118.5,
+          "time": 118.5,
+          "readyState": 4,
+          "error": null
+        }
+      ],
+      "hidden_other_paused": true
+    }
+  ],
+  "page_errors": [],
+  "limitations": [
+    "Videos were muted for automation; no pronunciation or listening judgment",
+    "This is local desktop browser evidence, not phone App playback"
+  ]
+}

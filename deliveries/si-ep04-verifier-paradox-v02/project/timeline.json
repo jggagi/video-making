@@ -1,0 +1,107 @@
+{
+  "duration_seconds": 120,
+  "fps": 60,
+  "totalFrames": 7200,
+  "audio_master": "public/audio/master.wav",
+  "shots": [
+    {
+      "id": "V01",
+      "startFrame": 0,
+      "endFrame": 1200,
+      "purpose": "明确规则与候选验算",
+      "action": "比较指针逐项检测，相邻逆序被拒绝，正确结果进入下一轮；证明项通过内核检查另列。",
+      "sound": "unchanged shared v1 master, original frame-accurate SFX",
+      "landscape": "side-by-side explanatory components in 1720x580 stage",
+      "portrait": "reflowed stack within x65..915, y440..1290; body >=39 logical px",
+      "continuous_motion": "比较指针逐项检测，相邻逆序被拒绝，正确结果进入下一轮；证明项通过内核检查另列。"
+    },
+    {
+      "id": "V02",
+      "startFrame": 1200,
+      "endFrame": 1800,
+      "purpose": "检验成本与延迟",
+      "action": "三条观测时间线，数据沿不同延迟路径到达。",
+      "sound": "unchanged shared v1 master, original frame-accurate SFX",
+      "landscape": "side-by-side explanatory components in 1720x580 stage",
+      "portrait": "reflowed stack within x65..915, y440..1290; body >=39 logical px",
+      "continuous_motion": "三条观测时间线，数据沿不同延迟路径到达。"
+    },
+    {
+      "id": "V03",
+      "startFrame": 1800,
+      "endFrame": 2700,
+      "purpose": "代理评分闭环",
+      "action": "候选经过评分器、筛选和生成器回流，外部结果沿独立虚线路径延迟进入。",
+      "sound": "unchanged shared v1 master, original frame-accurate SFX",
+      "landscape": "side-by-side explanatory components in 1720x580 stage",
+      "portrait": "reflowed stack within x65..915, y440..1290; body >=39 logical px",
+      "continuous_motion": "候选经过评分器、筛选和生成器回流，外部结果沿独立虚线路径延迟进入。"
+    },
+    {
+      "id": "V04",
+      "startFrame": 2700,
+      "endFrame": 3600,
+      "purpose": "奖励投机具体案例",
+      "action": "正常船驶向终点，投机船在三个刷新靶标间转圈，显示得分与完赛分离。",
+      "sound": "unchanged shared v1 master, original frame-accurate SFX",
+      "landscape": "side-by-side explanatory components in 1720x580 stage",
+      "portrait": "reflowed stack within x65..915, y440..1290; body >=39 logical px",
+      "continuous_motion": "正常船驶向终点，投机船在三个刷新靶标间转圈，显示得分与完赛分离。"
+    },
+    {
+      "id": "V05",
+      "startFrame": 3600,
+      "endFrame": 4500,
+      "purpose": "代理指标与真实目标分叉",
+      "action": "策略混合比例q向右移动，代理奖励线升而完赛率线降。",
+      "sound": "unchanged shared v1 master, original frame-accurate SFX",
+      "landscape": "side-by-side explanatory components in 1720x580 stage",
+      "portrait": "reflowed stack within x65..915, y440..1290; body >=39 logical px",
+      "continuous_motion": "策略混合比例q向右移动，代理奖励线升而完赛率线降。"
+    },
+    {
+      "id": "V06",
+      "startFrame": 4500,
+      "endFrame": 5400,
+      "purpose": "并行搜索不会自动带来新证据",
+      "action": "六或十二个可见候选在同一奖励环路循环，采样扩张而独立观测没有增加。",
+      "sound": "unchanged shared v1 master, original frame-accurate SFX",
+      "landscape": "side-by-side explanatory components in 1720x580 stage",
+      "portrait": "reflowed stack within x65..915, y440..1290; body >=39 logical px",
+      "continuous_motion": "六或十二个可见候选在同一奖励环路循环，采样扩张而独立观测没有增加。"
+    },
+    {
+      "id": "V07",
+      "startFrame": 5400,
+      "endFrame": 6300,
+      "purpose": "独立物理测量推翻错误参数",
+      "action": "弹簧载荷10N，预测10mm；5760帧读数20mm越过15mm阈值；反例回传修正k。",
+      "sound": "unchanged shared v1 master, original frame-accurate SFX",
+      "landscape": "side-by-side explanatory components in 1720x580 stage",
+      "portrait": "reflowed stack within x65..915, y440..1290; body >=39 logical px",
+      "continuous_motion": "弹簧载荷10N，预测10mm；5760帧读数20mm越过15mm阈值；反例回传修正k。"
+    },
+    {
+      "id": "V08",
+      "startFrame": 6300,
+      "endFrame": 6930,
+      "purpose": "闭环校准与核心引句",
+      "action": "预测、实验、误差和修正之间的观测包持续移动；原句完整保留。",
+      "sound": "unchanged shared v1 master, original frame-accurate SFX",
+      "landscape": "side-by-side explanatory components in 1720x580 stage",
+      "portrait": "reflowed stack within x65..915, y440..1290; body >=39 logical px",
+      "continuous_motion": "预测、实验、误差和修正之间的观测包持续移动；原句完整保留。"
+    },
+    {
+      "id": "V09",
+      "startFrame": 6930,
+      "endFrame": 7200,
+      "purpose": "兰道尔极限预告",
+      "action": "未知比特0或1经擦除归零，热流进入温度T的热浴。",
+      "sound": "unchanged shared v1 master, original frame-accurate SFX",
+      "landscape": "side-by-side explanatory components in 1720x580 stage",
+      "portrait": "reflowed stack within x65..915, y440..1290; body >=39 logical px",
+      "continuous_motion": "未知比特0或1经擦除归零，热流进入温度T的热浴。"
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "version": 1,
+  "durationSeconds": 120,
+  "fps": 60,
+  "sampleRate": 48000,
+  "samplesPerFrame": 800,
+  "samplesPerChannel": 5760000,
+  "channels": 2,
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "stdlibFallback": null
+  },
+  "outputs": {
+    "narration": {
+      "file": "project/public/audio/narration.wav",
+      "sha256": "630da442ecf6551ba2b3563af5d4cca6ffea848a6fdedb84a9e4a6856c9dd2de",
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleWidthBytes": 2,
+      "samplesPerChannel": 5760000,
+      "durationSeconds": 120.0
+    },
+    "score": {
+      "file": "project/public/audio/score.wav",
+      "sha256": "811ccbf90eddd9354fab1cc1056ae62f2373512b3d8949ebe30a2b9ad277ceb2",
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleWidthBytes": 2,
+      "samplesPerChannel": 5760000,
+      "durationSeconds": 120.0
+    },
+    "sfx": {
+      "file": "project/public/audio/sfx.wav",
+      "sha256": "799d4957016c06774bd8798549aaf3c0a65bd9b23163ec302276ceaeafd767a0",
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleWidthBytes": 2,
+      "samplesPerChannel": 5760000,
+      "durationSeconds": 120.0
+    },
+    "master": {
+      "file": "project/public/audio/master.wav",
+      "sha256": "6a73f8c5121f8d1d3ff96f5b4ba3097df66d4b0c217950716fe56f2bc8a74826",
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleWidthBytes": 2,
+      "samplesPerChannel": 5760000,
+      "durationSeconds": 120.0,
+      "strictDecode": "passed",
+      "loudnormFirstPass": {
+        "input_i": "-22.84",
+        "input_tp": "-2.51",
+        "input_lra": "10.20",
+        "input_thresh": "-33.10",
+        "output_i": "-17.96",
+        "output_tp": "-1.80",
+        "output_lra": "7.80",
+        "output_thresh": "-28.00",
+        "normalization_type": "dynamic",
+        "target_offset": "0.96"
+      },
+      "loudnormSecondPass": {
+        "input_i": "-22.83",
+        "input_tp": "-2.51",
+        "input_lra": "10.20",
+        "input_thresh": "-33.10",
+        "output_i": "-17.24",
+        "output_tp": "-1.80",
+        "output_lra": "7.30",
+        "output_thresh": "-27.26",
+        "normalization_type": "dynamic",
+        "target_offset": "0.24"
+      },
+      "ebur128Final": {
+        "integratedLUFS": -17.2,
+        "truePeakDBTP": -1.8
+      },
+      "loudnormTarget": {
+        "integratedLUFS": -17.0,
+        "truePeakDBTP": -1.8,
+        "truePeakAcceptanceDBTP": -1.0,
+        "passes": 2
+      },
+      "latencyNote": "FFmpeg timestamps are retained; source stems and authored event sample positions are not shifted."
+    }
+  },
+  "ducking": {
+    "filter": "sidechaincompress",
+    "threshold": 0.035,
+    "ratio": 5,
+    "attackMs": 20,
+    "releaseMs": 250
+  },
+  "voiceBandCarve": {
+    "frequencyHz": 2200,
+    "q": 0.7,
+    "gainDB": -5,
+    "appliedTo": [
+      "score",
+      "sfx"
+    ]
+  },
+  "loudnorm": {
+    "firstPass": {
+      "input_i": "-22.84",
+      "input_tp": "-2.51",
+      "input_lra": "10.20",
+      "input_thresh": "-33.10",
+      "output_i": "-17.96",
+      "output_tp": "-1.80",
+      "output_lra": "7.80",
+      "output_thresh": "-28.00",
+      "normalization_type": "dynamic",
+      "target_offset": "0.96"
+    },
+    "secondPass": {
+      "input_i": "-22.83",
+      "input_tp": "-2.51",
+      "input_lra": "10.20",
+      "input_thresh": "-33.10",
+      "output_i": "-17.24",
+      "output_tp": "-1.80",
+      "output_lra": "7.30",
+      "output_thresh": "-27.26",
+      "normalization_type": "dynamic",
+      "target_offset": "0.24"
+    }
+  },
+  "absoluteSilence": {
+    "startFrame": 5740,
+    "endFrameExclusive": 5760,
+    "startSample": 4592000,
+    "endSampleExclusive": 4608000,
+    "allStemsExactZero": true
+  },
+  "sfxOnsets": [
+    {
+      "id": "compiler_arpeggio",
+      "frame": 120,
+      "startSample": 96000,
+      "durationSamples": 105600,
+      "endSampleExclusive": 201600,
+      "description": "Crisp ascending crystalline arpeggio (compiler pass ticks) |",
+      "deterministicSeed": 2824362759
+    },
+    {
+      "id": "anvil_lock",
+      "frame": 960,
+      "startSample": 768000,
+      "durationSamples": 115200,
+      "endSampleExclusive": 883200,
+      "description": "Heavy metallic anvil lock + emerald verification chime |",
+      "deterministicSeed": 1018596942
+    },
+    {
+      "id": "fog_sub_drop",
+      "frame": 1260,
+      "startSample": 1008000,
+      "durationSamples": 120000,
+      "endSampleExclusive": 1128000,
+      "description": "Deep sub-bass drop (`40Hz`) + sudden high-frequency cut (entering fog) |",
+      "deterministicSeed": 3419178199
+    },
+    {
+      "id": "sonar_feedback",
+      "frame": 1920,
+      "startSample": 1536000,
+      "durationSamples": 163200,
+      "endSampleExclusive": 1699200,
+      "description": "Hollow echoing sonar ping with eerie pitch-bend feedback |",
+      "deterministicSeed": 2758893937
+    },
+    {
+      "id": "glitch_rip",
+      "frame": 2880,
+      "startSample": 2304000,
+      "durationSamples": 115200,
+      "endSampleExclusive": 2419200,
+      "description": "Distorted magenta glitch rip + detuned harmonic drone |",
+      "deterministicSeed": 2570767219
+    },
+    {
+      "id": "counter_divergence",
+      "frame": 3900,
+      "startSample": 3120000,
+      "durationSamples": 168000,
+      "endSampleExclusive": 3288000,
+      "description": "Manic accelerating high-pitched counter clicks vs. low structural groan |",
+      "deterministicSeed": 3881585285
+    },
+    {
+      "id": "shepard_mobius",
+      "frame": 4680,
+      "startSample": 3744000,
+      "durationSamples": 384000,
+      "endSampleExclusive": 4128000,
+      "description": "Phase-inverted Shepard tone spiraling into a hypnotic Möbius loop |",
+      "deterministicSeed": 2590356079
+    },
+    {
+      "id": "physical_veto",
+      "frame": 5760,
+      "startSample": 4608000,
+      "durationSamples": 216000,
+      "endSampleExclusive": 4824000,
+      "description": "20-frame absolute silence -> Thunderous amber physical laser strike shattering the magenta illusion |",
+      "deterministicSeed": 746664863
+    },
+    {
+      "id": "organ_resolution",
+      "frame": 6500,
+      "startSample": 5200000,
+      "durationSamples": 264000,
+      "endSampleExclusive": 5464000,
+      "description": "Clean, solemn pipe organ resolution chord |",
+      "deterministicSeed": 1981918129
+    },
+    {
+      "id": "thermal_hiss",
+      "frame": 7020,
+      "startSample": 5616000,
+      "durationSamples": 153600,
+      "endSampleExclusive": 5769600,
+      "description": "Sizzling thermal dissipation hiss + deep power-grid hum |",
+      "deterministicSeed": 774892543
+    }
+  ],
+  "captionTiming": "Measured cue PCM sample counts are divided among supplied phrase chunks by text-length estimates; phrase timing is estimated and not word aligned."
+}

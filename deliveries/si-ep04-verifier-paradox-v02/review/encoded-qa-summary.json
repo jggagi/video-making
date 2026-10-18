@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "status": "evidence_collected",
+  "requested_layouts": [
+    "landscape",
+    "portrait"
+  ],
+  "collected_layouts": [
+    "landscape",
+    "portrait"
+  ],
+  "missing_media": [],
+  "failures": [],
+  "per_layout_reports": [
+    "review/encoded-qa-landscape.json",
+    "review/encoded-qa-portrait.json"
+  ],
+  "acceptance_status": "NOT_EVALUATED",
+  "limitations": [
+    "Contact sheets and loudness/hash measurements are evidence, not delivery acceptance.",
+    "Edge-geometry differences are heuristics; a nonzero value is not proof of meaningful motion.",
+    "Human visual review, safe-zone review, and listening remain separate."
+  ]
+}

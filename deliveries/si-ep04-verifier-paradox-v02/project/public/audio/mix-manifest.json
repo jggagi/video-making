@@ -1,0 +1,234 @@
+{
+  "version": 1,
+  "status": "built",
+  "mixSettings": "project/public/audio/mix-settings.json",
+  "audioTiming": "project/audio-timing.json",
+  "stemsAndMaster": {
+    "narration": {
+      "file": "project/public/audio/narration.wav",
+      "sha256": "630da442ecf6551ba2b3563af5d4cca6ffea848a6fdedb84a9e4a6856c9dd2de",
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleWidthBytes": 2,
+      "samplesPerChannel": 5760000,
+      "durationSeconds": 120.0
+    },
+    "score": {
+      "file": "project/public/audio/score.wav",
+      "sha256": "811ccbf90eddd9354fab1cc1056ae62f2373512b3d8949ebe30a2b9ad277ceb2",
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleWidthBytes": 2,
+      "samplesPerChannel": 5760000,
+      "durationSeconds": 120.0
+    },
+    "sfx": {
+      "file": "project/public/audio/sfx.wav",
+      "sha256": "799d4957016c06774bd8798549aaf3c0a65bd9b23163ec302276ceaeafd767a0",
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleWidthBytes": 2,
+      "samplesPerChannel": 5760000,
+      "durationSeconds": 120.0
+    },
+    "master": {
+      "file": "project/public/audio/master.wav",
+      "sha256": "6a73f8c5121f8d1d3ff96f5b4ba3097df66d4b0c217950716fe56f2bc8a74826",
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleWidthBytes": 2,
+      "samplesPerChannel": 5760000,
+      "durationSeconds": 120.0,
+      "strictDecode": "passed",
+      "loudnormFirstPass": {
+        "input_i": "-22.84",
+        "input_tp": "-2.51",
+        "input_lra": "10.20",
+        "input_thresh": "-33.10",
+        "output_i": "-17.96",
+        "output_tp": "-1.80",
+        "output_lra": "7.80",
+        "output_thresh": "-28.00",
+        "normalization_type": "dynamic",
+        "target_offset": "0.96"
+      },
+      "loudnormSecondPass": {
+        "input_i": "-22.83",
+        "input_tp": "-2.51",
+        "input_lra": "10.20",
+        "input_thresh": "-33.10",
+        "output_i": "-17.24",
+        "output_tp": "-1.80",
+        "output_lra": "7.30",
+        "output_thresh": "-27.26",
+        "normalization_type": "dynamic",
+        "target_offset": "0.24"
+      },
+      "ebur128Final": {
+        "integratedLUFS": -17.2,
+        "truePeakDBTP": -1.8
+      },
+      "loudnormTarget": {
+        "integratedLUFS": -17.0,
+        "truePeakDBTP": -1.8,
+        "truePeakAcceptanceDBTP": -1.0,
+        "passes": 2
+      },
+      "latencyNote": "FFmpeg timestamps are retained; source stems and authored event sample positions are not shifted."
+    }
+  },
+  "inputCues": [
+    {
+      "file": "project/public/audio/cues/S01.wav",
+      "samplesAt48k": 264960,
+      "sha256": "41bd41ee3315b20b1ace9a70c786290ef9516acfff00a10962faa787a9396cf5",
+      "pcmSha256": "f4d4a2809704b5f9172e72a34fc9149fd902c23ce8ec74119b5bccaf4ff6462a"
+    },
+    {
+      "file": "project/public/audio/cues/S02.wav",
+      "samplesAt48k": 372480,
+      "sha256": "66d912ed615af6e7b9e142fbdc5b48a668e3dd7875145fa50888c740d401c4e2",
+      "pcmSha256": "be3547cae472f6522033383de1c46f6e31b35ed35507914503e6964412df7a61"
+    },
+    {
+      "file": "project/public/audio/cues/S03.wav",
+      "samplesAt48k": 226560,
+      "sha256": "e5de6bbd42687261eee005af065f1168191117fbc6f59d8f5a6c07e49abd1139",
+      "pcmSha256": "7f8bb476ec5c57a0cfb348288ba252d75a718415462e512ee55a4e654e7ae715"
+    },
+    {
+      "file": "project/public/audio/cues/S04.wav",
+      "samplesAt48k": 376320,
+      "sha256": "ca1c610287c788bbb633c2315720f212d568fc09f4f27c939ad429f98bb7beca",
+      "pcmSha256": "8b6ce145435c1f5b3daae6dfcdf406c159635341c8384e750260eba54a9785e2"
+    },
+    {
+      "file": "project/public/audio/cues/S05.wav",
+      "samplesAt48k": 364800,
+      "sha256": "77e3b2dd45f3cafe0d0cd24c3c7445a95aa883afca703948881e4c52ad5cc680",
+      "pcmSha256": "d04b0d2e0406415dccaaaa49ff7fcfcb9f08ab80f410fc4b41139d58fe0a54aa"
+    },
+    {
+      "file": "project/public/audio/cues/S06.wav",
+      "samplesAt48k": 341760,
+      "sha256": "fb6847750725f67a7451375d0c749e14f88d700b07ef9c74dfd997d77d70071f",
+      "pcmSha256": "693df86a0eaa72d58d8d87dafbf6b50ee04dc27b1f60a78952538a6c6b368b34"
+    },
+    {
+      "file": "project/public/audio/cues/S07.wav",
+      "samplesAt48k": 326400,
+      "sha256": "c234c67935ce26fa94879c09a92fff57be1feb55f742c7a2a1a9667dea85a115",
+      "pcmSha256": "156e2a40caba9c88d60c68b62b95f3437bf0fc38f5914d54bc5d783b574eab03"
+    },
+    {
+      "file": "project/public/audio/cues/S08.wav",
+      "samplesAt48k": 384000,
+      "sha256": "1a6ceb91899808cc61bd41037c4b47e9633389f5d6829a9426703c52501e0fb9",
+      "pcmSha256": "cf77aa3b47ed9a11cddb40e9c459953c70cabafae11f639efb2d2560f9b9942c"
+    },
+    {
+      "file": "project/public/audio/cues/S09.wav",
+      "samplesAt48k": 291840,
+      "sha256": "203fff53725bad3faab44c2ae2f578537b6226c06ec93230ecefb865c5f68093",
+      "pcmSha256": "00742fb1a7511f20a6e9c84d3fbc6642f5f3297cc06b26035bbfe6af61cef280"
+    },
+    {
+      "file": "project/public/audio/cues/S10.wav",
+      "samplesAt48k": 119040,
+      "sha256": "1af2d235e67a335b429610850da7dbf0dbba40fea51ac0e505a0c40469c10a3f",
+      "pcmSha256": "f6e838e16fcc72f71fc9b49b41b266e1c951707eded1e920311f47d008d1e1fb"
+    }
+  ],
+  "eventOnsets": [
+    {
+      "id": "compiler_arpeggio",
+      "frame": 120,
+      "startSample": 96000,
+      "durationSamples": 105600,
+      "endSampleExclusive": 201600,
+      "description": "Crisp ascending crystalline arpeggio (compiler pass ticks) |",
+      "deterministicSeed": 2824362759
+    },
+    {
+      "id": "anvil_lock",
+      "frame": 960,
+      "startSample": 768000,
+      "durationSamples": 115200,
+      "endSampleExclusive": 883200,
+      "description": "Heavy metallic anvil lock + emerald verification chime |",
+      "deterministicSeed": 1018596942
+    },
+    {
+      "id": "fog_sub_drop",
+      "frame": 1260,
+      "startSample": 1008000,
+      "durationSamples": 120000,
+      "endSampleExclusive": 1128000,
+      "description": "Deep sub-bass drop (`40Hz`) + sudden high-frequency cut (entering fog) |",
+      "deterministicSeed": 3419178199
+    },
+    {
+      "id": "sonar_feedback",
+      "frame": 1920,
+      "startSample": 1536000,
+      "durationSamples": 163200,
+      "endSampleExclusive": 1699200,
+      "description": "Hollow echoing sonar ping with eerie pitch-bend feedback |",
+      "deterministicSeed": 2758893937
+    },
+    {
+      "id": "glitch_rip",
+      "frame": 2880,
+      "startSample": 2304000,
+      "durationSamples": 115200,
+      "endSampleExclusive": 2419200,
+      "description": "Distorted magenta glitch rip + detuned harmonic drone |",
+      "deterministicSeed": 2570767219
+    },
+    {
+      "id": "counter_divergence",
+      "frame": 3900,
+      "startSample": 3120000,
+      "durationSamples": 168000,
+      "endSampleExclusive": 3288000,
+      "description": "Manic accelerating high-pitched counter clicks vs. low structural groan |",
+      "deterministicSeed": 3881585285
+    },
+    {
+      "id": "shepard_mobius",
+      "frame": 4680,
+      "startSample": 3744000,
+      "durationSamples": 384000,
+      "endSampleExclusive": 4128000,
+      "description": "Phase-inverted Shepard tone spiraling into a hypnotic Möbius loop |",
+      "deterministicSeed": 2590356079
+    },
+    {
+      "id": "physical_veto",
+      "frame": 5760,
+      "startSample": 4608000,
+      "durationSamples": 216000,
+      "endSampleExclusive": 4824000,
+      "description": "20-frame absolute silence -> Thunderous amber physical laser strike shattering the magenta illusion |",
+      "deterministicSeed": 746664863
+    },
+    {
+      "id": "organ_resolution",
+      "frame": 6500,
+      "startSample": 5200000,
+      "durationSamples": 264000,
+      "endSampleExclusive": 5464000,
+      "description": "Clean, solemn pipe organ resolution chord |",
+      "deterministicSeed": 1981918129
+    },
+    {
+      "id": "thermal_hiss",
+      "frame": 7020,
+      "startSample": 5616000,
+      "durationSamples": 153600,
+      "endSampleExclusive": 5769600,
+      "description": "Sizzling thermal dissipation hiss + deep power-grid hum |",
+      "deterministicSeed": 774892543
+    }
+  ]
+}

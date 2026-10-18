@@ -1,0 +1,75 @@
+{
+  "status": "REPRESENTATIVE_MEDIA_REVIEW_COMPLETE",
+  "method": "Model visual inspection of final MP4 contacts, exact-frame samples, 360px mobile priority montage, 4K native samples and same-shot pairs; not continuous human watch/listen",
+  "media_sha256": {
+    "bilibili": "89637a2afe80d75063a8b49887a4484a688637e9e104c669d4417bc2c5ffe9e3",
+    "xiaohongshu": "61a9935ef4daa810e7c8d6fe28efeecb5e98edbc3d112bf1c9ad4b17aab94fe0"
+  },
+  "media_validation_input_manifest_sha256": "b039c685dfaaaf7e6a09974adbc943fcf9281cf3b994ffb95221ba37d719debb",
+  "post_validation_manifest_sha256": "796899627f1803596d48be0807c5000c9f6cbb22ddeaa92a0353d328cbccc8ab",
+  "manifest_change_after_validation": "QA evidence/status fields only; media hashes, dimensions, frame counts, script and audio specs unchanged",
+  "frames_per_layout": [
+    360,
+    960,
+    1500,
+    2190,
+    3040,
+    3900,
+    4590,
+    5500,
+    5740,
+    5760,
+    5790,
+    6090,
+    6500,
+    7100,
+    7199
+  ],
+  "pair_evidence": {
+    "landscape": {
+      "pairs": 31,
+      "minimum_edge_difference_mean": 0.9066044560185185,
+      "caution": "ROI excludes top HUD/subtitles but retains diagram labels; differences alone do not prove meaningful motion."
+    },
+    "portrait": {
+      "pairs": 31,
+      "minimum_edge_difference_mean": 1.1837934027777777,
+      "caution": "ROI excludes top HUD/subtitles but retains diagram labels; differences alone do not prove meaningful motion."
+    }
+  },
+  "observations": [
+    "Wrong sorting candidate is rejected by the visible3<=2 counterexample; correct output and separate proof chain are legible.",
+    "CoastRunners redraw shows normal finish route versus3 respawning targets; looping-boat counter and0finishes match source arithmetic.",
+    "Chart axes are q and independently normalized%; proxy reward rises as completion falls; teaching-model source tag remains visible.",
+    "Parallel agent miniatures visibly change boat positions, while explanation distinguishes candidate count from observations.",
+    "5740 wait /5760 reveal /5790 reading /6090 parameter update demonstrate10mm prediction versus20mm example observation and15mm limit, with units.",
+    "Quote, loop labels and last-frame EP05caption stay inside critical portrait bounds; last caption is held through7199.",
+    "Native4K4590 samples show sharp text, thin course lines and flat dark grid; no severe contour banding observed.",
+    "Both pair contacts show pointer motion, evidence travel, boat rotation, curve growth and calibration data; sparse timing paths remain purposeful."
+  ],
+  "loudness": {
+    "landscape": {
+      "measurement": "FFmpeg ebur128=peak=true on the encoded MP4 audio stream",
+      "integrated_lufs": -17.2,
+      "true_peak_dbTP": -1.7
+    },
+    "portrait": {
+      "measurement": "FFmpeg ebur128=peak=true on the encoded MP4 audio stream",
+      "integrated_lufs": -17.2,
+      "true_peak_dbTP": -1.7
+    }
+  },
+  "local_browser": "PASS for playback/seeks/hidden-pause, muted startup smoke tests only",
+  "browser_startup_dropped_frames": {
+    "during_parallel_decode": {
+      "landscape": 12,
+      "portrait": 0
+    },
+    "after_decode": {
+      "landscape": 0,
+      "portrait": 1
+    }
+  },
+  "human_continuous_watch_listen": "PENDING",
+  "phone_app_overlay_and_playback": "PENDING"
+}

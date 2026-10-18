@@ -1,0 +1,127 @@
+{
+  "status": "PASS",
+  "method": "Independent PCM sample equality; narration left/right equal; reassembled S08 around inserted silence; no spoken samples removed",
+  "segments": [
+    {
+      "id": "S01",
+      "samples_preserved": 264960,
+      "expected_pcm_sha256": "f4d4a2809704b5f9172e72a34fc9149fd902c23ce8ec74119b5bccaf4ff6462a",
+      "scheduled_pcm_sha256": "f4d4a2809704b5f9172e72a34fc9149fd902c23ce8ec74119b5bccaf4ff6462a",
+      "exact_match": true,
+      "split": null
+    },
+    {
+      "id": "S02",
+      "samples_preserved": 372480,
+      "expected_pcm_sha256": "be3547cae472f6522033383de1c46f6e31b35ed35507914503e6964412df7a61",
+      "scheduled_pcm_sha256": "be3547cae472f6522033383de1c46f6e31b35ed35507914503e6964412df7a61",
+      "exact_match": true,
+      "split": null
+    },
+    {
+      "id": "S03",
+      "samples_preserved": 226560,
+      "expected_pcm_sha256": "7f8bb476ec5c57a0cfb348288ba252d75a718415462e512ee55a4e654e7ae715",
+      "scheduled_pcm_sha256": "7f8bb476ec5c57a0cfb348288ba252d75a718415462e512ee55a4e654e7ae715",
+      "exact_match": true,
+      "split": null
+    },
+    {
+      "id": "S04",
+      "samples_preserved": 376320,
+      "expected_pcm_sha256": "8b6ce145435c1f5b3daae6dfcdf406c159635341c8384e750260eba54a9785e2",
+      "scheduled_pcm_sha256": "8b6ce145435c1f5b3daae6dfcdf406c159635341c8384e750260eba54a9785e2",
+      "exact_match": true,
+      "split": null
+    },
+    {
+      "id": "S05",
+      "samples_preserved": 364800,
+      "expected_pcm_sha256": "d04b0d2e0406415dccaaaa49ff7fcfcb9f08ab80f410fc4b41139d58fe0a54aa",
+      "scheduled_pcm_sha256": "d04b0d2e0406415dccaaaa49ff7fcfcb9f08ab80f410fc4b41139d58fe0a54aa",
+      "exact_match": true,
+      "split": null
+    },
+    {
+      "id": "S06",
+      "samples_preserved": 341760,
+      "expected_pcm_sha256": "693df86a0eaa72d58d8d87dafbf6b50ee04dc27b1f60a78952538a6c6b368b34",
+      "scheduled_pcm_sha256": "693df86a0eaa72d58d8d87dafbf6b50ee04dc27b1f60a78952538a6c6b368b34",
+      "exact_match": true,
+      "split": null
+    },
+    {
+      "id": "S07",
+      "samples_preserved": 326400,
+      "expected_pcm_sha256": "156e2a40caba9c88d60c68b62b95f3437bf0fc38f5914d54bc5d783b574eab03",
+      "scheduled_pcm_sha256": "156e2a40caba9c88d60c68b62b95f3437bf0fc38f5914d54bc5d783b574eab03",
+      "exact_match": true,
+      "split": null
+    },
+    {
+      "id": "S08",
+      "samples_preserved": 384000,
+      "expected_pcm_sha256": "cf77aa3b47ed9a11cddb40e9c459953c70cabafae11f639efb2d2560f9b9942c",
+      "scheduled_pcm_sha256": "cf77aa3b47ed9a11cddb40e9c459953c70cabafae11f639efb2d2560f9b9942c",
+      "exact_match": true,
+      "split": {
+        "mode": "natural-low-energy-split",
+        "splitAtSample": 4592000,
+        "resumeAtSample": 4608000,
+        "cueSplitSample": 214400,
+        "quietWindow": {
+          "targetSampleInCue": 214400,
+          "quietWindowStartSample": 209600,
+          "quietWindowEndSampleExclusive": 219200,
+          "quietWindowSamples": 9600,
+          "peakPcm16": 11,
+          "rmsPcm16": 3.958,
+          "criterion": "100 ms on each side, peak <=512 and RMS <=160"
+        },
+        "spokenSamplesPreserved": 384000,
+        "insertedSilenceSamples": 16000
+      }
+    },
+    {
+      "id": "S09",
+      "samples_preserved": 291840,
+      "expected_pcm_sha256": "00742fb1a7511f20a6e9c84d3fbc6642f5f3297cc06b26035bbfe6af61cef280",
+      "scheduled_pcm_sha256": "00742fb1a7511f20a6e9c84d3fbc6642f5f3297cc06b26035bbfe6af61cef280",
+      "exact_match": true,
+      "split": null
+    },
+    {
+      "id": "S10",
+      "samples_preserved": 119040,
+      "expected_pcm_sha256": "f6e838e16fcc72f71fc9b49b41b266e1c951707eded1e920311f47d008d1e1fb",
+      "scheduled_pcm_sha256": "f6e838e16fcc72f71fc9b49b41b266e1c951707eded1e920311f47d008d1e1fb",
+      "exact_match": true,
+      "split": null
+    }
+  ],
+  "absolute_silence": {
+    "startFrame": 5740,
+    "endFrameExclusive": 5760,
+    "stems": {
+      "narration": {
+        "samples_per_channel": 5760000,
+        "silence_peak_pcm16": 0
+      },
+      "score": {
+        "samples_per_channel": 5760000,
+        "silence_peak_pcm16": 0
+      },
+      "sfx": {
+        "samples_per_channel": 5760000,
+        "silence_peak_pcm16": 0
+      },
+      "master": {
+        "samples_per_channel": 5760000,
+        "silence_peak_pcm16": 0
+      }
+    }
+  },
+  "limitations": [
+    "This establishes exact scheduling and preservation, not pronunciation or perceived mix quality."
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "source_work": "si-ep04-verifier-paradox",
+  "files_verified": 47,
+  "master_sha256": "6a73f8c5121f8d1d3ff96f5b4ba3097df66d4b0c217950716fe56f2bc8a74826",
+  "new_generation_calls": 0,
+  "comparison": "all copied audio files byte-identical to v1",
+  "new_shared_aac_packets_identical_to_v1": true,
+  "aac_packet_sha256": "SHA256=028f04bf844e5ea83f66d46bdb1d2aaf4fdf55c4728fcea36d65c6a4e6907f34"
+}

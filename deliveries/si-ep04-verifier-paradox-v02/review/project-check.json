@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "checker": "EP04 v2 source verifier",
+  "delivery_timing": {
+    "duration_seconds": 120,
+    "fps": 60,
+    "total_frames": 7200
+  },
+  "sfx_and_stems": {
+    "physical_veto_anchor_valid": true,
+    "stems": {
+      "master": {
+        "present": true,
+        "sample_rate": 48000,
+        "channels": 2,
+        "samples_per_channel": 5760000,
+        "silent_5740_5760": true,
+        "sha256": "6a73f8c5121f8d1d3ff96f5b4ba3097df66d4b0c217950716fe56f2bc8a74826"
+      },
+      "narration": {
+        "present": true,
+        "sample_rate": 48000,
+        "channels": 2,
+        "samples_per_channel": 5760000,
+        "silent_5740_5760": true,
+        "sha256": "630da442ecf6551ba2b3563af5d4cca6ffea848a6fdedb84a9e4a6856c9dd2de"
+      },
+      "score": {
+        "present": true,
+        "sample_rate": 48000,
+        "channels": 2,
+        "samples_per_channel": 5760000,
+        "silent_5740_5760": true,
+        "sha256": "811ccbf90eddd9354fab1cc1056ae62f2373512b3d8949ebe30a2b9ad277ceb2"
+      },
+      "sfx": {
+        "present": true,
+        "sample_rate": 48000,
+        "channels": 2,
+        "samples_per_channel": 5760000,
+        "silent_5740_5760": true,
+        "sha256": "799d4957016c06774bd8798549aaf3c0a65bd9b23163ec302276ceaeafd767a0"
+      }
+    }
+  },
+  "audio_reuse": {
+    "files_compared_byte_for_byte": 47,
+    "source_work": "si-ep04-verifier-paradox"
+  },
+  "source_scan": {
+    "files_scanned": 9,
+    "nondeterministic_hits": [],
+    "fictional_alignment_hits": []
+  },
+  "numeric_model": {
+    "kind": "illustrative mixture of two deterministic episode policies, not paper data",
+    "policy_samples_checked": 21,
+    "spring_prediction_mm": 10,
+    "spring_observation_mm": 20,
+    "spring_limit_mm": 15
+  },
+  "status": "PASS",
+  "source_status": "PASS",
+  "final_media_status": "MEDIA_PRESENT_UNVALIDATED",
+  "final_files": {
+    "landscape": {
+      "present": true,
+      "path": "B站/si-ep04-verifier-paradox-v02-bilibili-120s-4k.mp4"
+    },
+    "portrait": {
+      "present": true,
+      "path": "小红书/si-ep04-verifier-paradox-v02-xiaohongshu-120s-portrait.mp4"
+    }
+  },
+  "failures": [],
+  "incomplete": [],
+  "limitations": [
+    "Source PASS confirms project invariants only; it does not validate encoded video or audio streams.",
+    "FINAL_FILES_PENDING and MEDIA_PRESENT_UNVALIDATED are not media acceptance states.",
+    "The motion ROI heuristic is evidence only; semantic labels remain in its crop and numeric differences do not prove meaningful motion.",
+    "Human visual review, listening, and target-device playback remain separate acceptance steps."
+  ]
+}

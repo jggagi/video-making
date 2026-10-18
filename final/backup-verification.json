@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
   "status": "COMPLETE",
-  "verified_at_utc": "2026-10-18T04:26:22.515090+00:00",
+  "verified_at_utc": "2026-10-18T13:16:16.416640+00:00",
   "repository": "jggagi/video-making",
-  "source_commit": "52de315fc24081bd6e1429258df1ef7f0882aea9",
+  "source_commit": "93fdc96fc6a9ae5aa45223d439e814fb2eb88bc5",
   "catalog_path": "final/backup-catalog.json",
-  "catalog_sha256": "5880243d389a9f83dc0a1be1a22e265dc5126362ae5b6eb5fa10574ab057e7a5",
-  "upload_receipt_sha256": "31c291e81c392c639eefb0e22668e4b5cc3ee29eedfba789112640a391bc7155",
+  "catalog_sha256": "79f24a273fb2deb4d97af31223aad33978375d4231944d6e87b500b04f114027",
+  "upload_receipt_sha256": "7b3581f10545a3396c662b9e7ca249c9b3f9cf885bdba716a93d657968fa0a6e",
   "verification_method": "Fresh published GitHub Release API inventory plus all local final file hashes; every remote size, SHA-256 digest and URL matched the current catalog.",
-  "verified_releases": 6,
-  "verified_files": 23,
-  "verified_bytes": 4386828468,
+  "verified_releases": 7,
+  "verified_files": 25,
+  "verified_bytes": 4847374168,
   "works": [
     {
       "id": "lanting",
@@ -253,6 +253,36 @@
       ]
     },
     {
+      "id": "si-ep04-verifier-paradox",
+      "title": "Final 成片备份 · 神也会自我欺骗｜THE VERIFIER PARADOX · EP.04",
+      "release_tag": "final-si-ep04-verifier-paradox-c7bcd4c3eca0",
+      "release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep04-verifier-paradox-c7bcd4c3eca0",
+      "release_target": "93fdc96fc6a9ae5aa45223d439e814fb2eb88bc5",
+      "release_draft": false,
+      "assets": [
+        {
+          "path": "final/si-ep04-verifier-paradox/B站/si-ep04-verifier-paradox-bilibili-120s-4k.mp4",
+          "name": "final--si-ep04-verifier-paradox--deliveries--si-ep04-verifier-paradox--B---si-ep04-verifier-paradox-bilibili-120s-4k--df28c2bf6485.mp4",
+          "bytes": 240713684,
+          "sha256": "df28c2bf6485f325a5320f0665adb42c9f8406794466c7c20b85ae2dce59dbc2",
+          "github_digest": "sha256:df28c2bf6485f325a5320f0665adb42c9f8406794466c7c20b85ae2dce59dbc2",
+          "github_asset_id": 653525878,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep04-verifier-paradox-c7bcd4c3eca0/final--si-ep04-verifier-paradox--deliveries--si-ep04-verifier-paradox--B---si-ep04-verifier-paradox-bilibili-120s-4k--df28c2bf6485.mp4",
+          "local_and_remote_match": true
+        },
+        {
+          "path": "final/si-ep04-verifier-paradox/小红书/si-ep04-verifier-paradox-xiaohongshu-120s-portrait.mp4",
+          "name": "final--si-ep04-verifier-paradox--deliveries--si-ep04-verifier-paradox-----si-ep04-verifier-paradox-xiaohongshu-120s-portrait--a5efd1439126.mp4",
+          "bytes": 219832016,
+          "sha256": "a5efd1439126c9d5837d08ef4bef86bffc71a3500b750d3d2b64ea78008a1b00",
+          "github_digest": "sha256:a5efd1439126c9d5837d08ef4bef86bffc71a3500b750d3d2b64ea78008a1b00",
+          "github_asset_id": 653526569,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep04-verifier-paradox-c7bcd4c3eca0/final--si-ep04-verifier-paradox--deliveries--si-ep04-verifier-paradox-----si-ep04-verifier-paradox-xiaohongshu-120s-portrait--a5efd1439126.mp4",
+          "local_and_remote_match": true
+        }
+      ]
+    },
+    {
       "id": "si-eternity",
       "title": "Final 成片备份 · 一眼万年",
       "release_tag": "final-si-eternity-66d480b1c859",
@@ -305,13 +335,16 @@
   ],
   "restore_probe": {
     "status": "PASS",
-    "method": "Repository fetch-archive-assets.py downloaded a real published final asset into an isolated temporary root, preserved its final directory path, verified bytes/SHA-256, and skipped it on the second invocation.",
-    "work_id": "si-cage-7plus2",
-    "restored_relative_path": "final/7±2的囚笼/小红书/cage-of-seven-plus-two-xhs-v1-1080x1920.mp4",
-    "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-cage-7plus2-7ce13d05c1b6/final--si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-xhs-v1-1080x1920--7f73b80017c8.mp4",
-    "bytes": 14667073,
-    "sha256": "7f73b80017c81f25bbbf4bd873906d6e3c183e238ce8acce3c6ebf43b67b7d33",
-    "existing_match_skipped": true,
-    "temporary_files_removed": true
+    "verified_at_utc": "2026-10-18T13:18:02.113801+00:00",
+    "scope": "One newly added EP04 portrait final movie was actually downloaded; this does not claim all25 files were restored.",
+    "path": "final/si-ep04-verifier-paradox/小红书/si-ep04-verifier-paradox-xiaohongshu-120s-portrait.mp4",
+    "bytes": 219832016,
+    "sha256": "a5efd1439126c9d5837d08ef4bef86bffc71a3500b750d3d2b64ea78008a1b00",
+    "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep04-verifier-paradox-c7bcd4c3eca0/final--si-ep04-verifier-paradox--deliveries--si-ep04-verifier-paradox-----si-ep04-verifier-paradox-xiaohongshu-120s-portrait--a5efd1439126.mp4",
+    "actual_download": true,
+    "relative_path_preserved": true,
+    "independent_sha256_match": true,
+    "second_run": "0 downloaded;1 already verified",
+    "temporary_copy_removed": true
   }
 }

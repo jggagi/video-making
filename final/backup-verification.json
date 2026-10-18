@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
   "status": "COMPLETE",
-  "verified_at_utc": "2026-10-18T14:53:24.638815+00:00",
+  "verified_at_utc": "2026-10-18T15:38:54.716960+00:00",
   "repository": "jggagi/video-making",
-  "source_commit": "c20169db65f659b0a4b5f8165c0ed247ac1ddad3",
+  "source_commit": "c5abcd50d9027e57b8dd89bdd5f8077b10ebd718",
   "catalog_path": "final/backup-catalog.json",
-  "catalog_sha256": "d38bf1cb148d6b441b6adbccb8f3eac317e36ac544608e443114bd1b8a2c9239",
-  "upload_receipt_sha256": "86d628045bf952d7286201e3528ee5025761e82a706e5e50b23bb67880ee57cf",
+  "catalog_sha256": "5ec1abb92f1756eb7901192b9c6270415dd47517f397de3927b456a5fafd06d6",
+  "upload_receipt_sha256": "2db1cd56427e0324c49faf07fcc1c839853677a535a368ed00bee58c9efbf025",
   "verification_method": "Fresh published GitHub Release API inventory plus all local final file hashes; every remote size, SHA-256 digest and URL matched the current catalog.",
-  "verified_releases": 9,
-  "verified_files": 29,
-  "verified_bytes": 5302518691,
+  "verified_releases": 10,
+  "verified_files": 31,
+  "verified_bytes": 5405848779,
   "works": [
     {
       "id": "lanting",
@@ -313,6 +313,36 @@
       ]
     },
     {
+      "id": "si-ep04-verifier-paradox-v03",
+      "title": "Final 成片备份 · 神也会自我欺骗 · v3 直观结尾版",
+      "release_tag": "final-si-ep04-verifier-paradox-v03-fbbf6de2043c",
+      "release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep04-verifier-paradox-v03-fbbf6de2043c",
+      "release_target": "c5abcd50d9027e57b8dd89bdd5f8077b10ebd718",
+      "release_draft": false,
+      "assets": [
+        {
+          "path": "final/si-ep04-verifier-paradox-v03/B站/si-ep04-verifier-paradox-v03-bilibili-120s-4k.mp4",
+          "name": "final--si-ep04-verifier-paradox-v03--deliveries--si-ep04-verifier-paradox-v03--B---si-ep04-verifier-paradox-v03-bilibili-120s-4k--95e5b554fd5e.mp4",
+          "bytes": 50952126,
+          "sha256": "95e5b554fd5e2ea4f900f7dfc1590ce24ea36b3b5a09e217a692024577a11cf1",
+          "github_digest": "sha256:95e5b554fd5e2ea4f900f7dfc1590ce24ea36b3b5a09e217a692024577a11cf1",
+          "github_asset_id": 653812197,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep04-verifier-paradox-v03-fbbf6de2043c/final--si-ep04-verifier-paradox-v03--deliveries--si-ep04-verifier-paradox-v03--B---si-ep04-verifier-paradox-v03-bilibili-120s-4k--95e5b554fd5e.mp4",
+          "local_and_remote_match": true
+        },
+        {
+          "path": "final/si-ep04-verifier-paradox-v03/小红书/si-ep04-verifier-paradox-v03-xiaohongshu-120s-portrait.mp4",
+          "name": "final--si-ep04-verifier-paradox-v03--deliveries--si-ep04-verifier-paradox-v03-----si-ep04-verifier-paradox-v03-xiaohongshu-120s-portrait--86265036cd83.mp4",
+          "bytes": 52377962,
+          "sha256": "86265036cd83dc690e9e4970aba4984e4f75aa7fa7e0a6f0bbee7d409cf91143",
+          "github_digest": "sha256:86265036cd83dc690e9e4970aba4984e4f75aa7fa7e0a6f0bbee7d409cf91143",
+          "github_asset_id": 653812412,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep04-verifier-paradox-v03-fbbf6de2043c/final--si-ep04-verifier-paradox-v03--deliveries--si-ep04-verifier-paradox-v03-----si-ep04-verifier-paradox-v03-xiaohongshu-120s-portrait--86265036cd83.mp4",
+          "local_and_remote_match": true
+        }
+      ]
+    },
+    {
       "id": "si-ep05-landauer-limit",
       "title": "Final 成片备份 · 兰道尔极限｜THE LANDAUER LIMIT · EP.05",
       "release_tag": "final-si-ep05-landauer-limit-0028c8c759f4",
@@ -395,16 +425,21 @@
   ],
   "restore_probe": {
     "status": "PASS",
-    "verified_at_utc": "2026-10-18T14:54:22.371485+00:00",
-    "evidence_path": "deliveries/si-ep05-landauer-limit/review/final-restore-probe.json",
-    "catalog_sha256": "d38bf1cb148d6b441b6adbccb8f3eac317e36ac544608e443114bd1b8a2c9239",
-    "work_id": "si-ep05-landauer-limit",
-    "path": "final/si-ep05-landauer-limit/B站/si-ep05-landauer-limit-bilibili-120s-4k.mp4",
-    "bytes": 173518083,
-    "sha256": "2a5e6b526773da3e6401dba4c73c30a93b746347207557eacd4b5253d6852473",
-    "scope": "One newly backed-up EP05 landscape final; not a full 29-file restore.",
-    "downloaded": true,
+    "verified_at_utc": "2026-10-18T15:39:24.220844+00:00",
+    "catalog_sha256": "5ec1abb92f1756eb7901192b9c6270415dd47517f397de3927b456a5fafd06d6",
+    "work_id": "si-ep04-verifier-paradox-v03",
+    "path": "final/si-ep04-verifier-paradox-v03/小红书/si-ep04-verifier-paradox-v03-xiaohongshu-120s-portrait.mp4",
+    "bytes": 52377962,
+    "sha256": "86265036cd83dc690e9e4970aba4984e4f75aa7fa7e0a6f0bbee7d409cf91143",
+    "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep04-verifier-paradox-v03-fbbf6de2043c/final--si-ep04-verifier-paradox-v03--deliveries--si-ep04-verifier-paradox-v03-----si-ep04-verifier-paradox-v03-xiaohongshu-120s-portrait--86265036cd83.mp4",
+    "scope": "One newly backed-up v3 portrait final; not a full 31-file restore.",
+    "actual_download": true,
+    "relative_path_preserved": true,
+    "independent_sha256_verified": true,
     "idempotent_skip": true,
-    "temporary_root_removed": true
+    "first_run": "Restored: final/si-ep04-verifier-paradox-v03/小红书/si-ep04-verifier-paradox-v03-xiaohongshu-120s-portrait.mp4 (52,377,962 bytes)\nRestore complete: 0 already verified, 1 downloaded",
+    "second_run": "Restore complete: 1 already verified, 0 downloaded",
+    "temporary_root_removed": true,
+    "evidence_path": "deliveries/si-ep04-verifier-paradox-v03/review/final-restore-probe.json"
   }
 }

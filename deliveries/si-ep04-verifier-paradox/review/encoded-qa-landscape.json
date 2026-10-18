@@ -1,0 +1,327 @@
+{
+  "schema_version": 1,
+  "status": "evidence_collected",
+  "layout": "landscape",
+  "media_path": "B站/si-ep04-verifier-paradox-bilibili-120s-4k.mp4",
+  "expected": {
+    "width": 3840,
+    "height": 2160,
+    "fps": 60,
+    "duration_seconds": 120,
+    "total_frames": 7200
+  },
+  "ffprobe": {
+    "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+    "duration_seconds": "120.000000",
+    "video": {
+      "codec_name": "h264",
+      "width": 3840,
+      "height": 2160,
+      "avg_frame_rate": "60/1",
+      "r_frame_rate": "60/1",
+      "nb_frames": "7200",
+      "pix_fmt": "yuv420p",
+      "color_space": "bt709",
+      "color_primaries": "bt709",
+      "color_transfer": "bt709"
+    },
+    "audio": {
+      "codec_name": "aac",
+      "sample_rate": "48000",
+      "channels": 2,
+      "channel_layout": "stereo"
+    },
+    "metadata_checks": {
+      "dimensions": true,
+      "fps_60": true,
+      "pixel_format_yuv420p": true,
+      "colorspace_bt709": true,
+      "color_primaries_bt709": true,
+      "color_transfer_bt709": true
+    }
+  },
+  "loudness": {
+    "measurement": "FFmpeg ebur128=peak=true on the encoded MP4 audio stream",
+    "integrated_lufs": -17.2,
+    "true_peak_dbTP": -1.7
+  },
+  "audio_packet_sha256": {
+    "algorithm": "sha256",
+    "value": "028f04bf844e5ea83f66d46bdb1d2aaf4fdf55c4728fcea36d65c6a4e6907f34"
+  },
+  "representative_frames": {
+    "method": "FFmpeg select=eq(n,index) over decoded final MP4 frames",
+    "frame_indexes": [
+      360,
+      960,
+      1260,
+      1500,
+      2190,
+      3040,
+      3900,
+      4590,
+      5500,
+      5740,
+      5760,
+      5790,
+      6090,
+      6500,
+      7100,
+      7199
+    ],
+    "contact_sheet_path": "review/encoded-landscape-contact-sheet.jpg",
+    "contact_tile_width_px": 480,
+    "full_native_keyframe_paths": [
+      "review/encoded-landscape-native-frame-1500.jpg",
+      "review/encoded-landscape-native-frame-4590.jpg"
+    ],
+    "full_native_keyframe_indexes": [
+      1500,
+      4590
+    ]
+  },
+  "motion_heuristic": {
+    "method": "mean absolute pixel difference between Pillow FIND_EDGES grayscale ROI images, resized to at most 640x480",
+    "interval_source": "timeline.json",
+    "roi_fraction_xyxy": [
+      0.08,
+      0.27,
+      0.92,
+      0.76
+    ],
+    "pairs": [
+      {
+        "subscene": "形式化温室",
+        "start_frame": 0,
+        "end_frame": 150,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 7.603504464285714
+      },
+      {
+        "subscene": "形式化温室",
+        "start_frame": 300,
+        "end_frame": 450,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 6.391495535714285
+      },
+      {
+        "subscene": "形式化温室",
+        "start_frame": 525,
+        "end_frame": 675,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 6.492767857142857
+      },
+      {
+        "subscene": "形式化温室",
+        "start_frame": 600,
+        "end_frame": 750,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 6.918095238095238
+      },
+      {
+        "subscene": "形式化温室",
+        "start_frame": 900,
+        "end_frame": 1050,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 6.689017857142857
+      },
+      {
+        "subscene": "形式化边界与片名",
+        "start_frame": 1200,
+        "end_frame": 1350,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 15.623452380952381
+      },
+      {
+        "subscene": "形式化边界与片名",
+        "start_frame": 1425,
+        "end_frame": 1575,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 15.945818452380953
+      },
+      {
+        "subscene": "形式化边界与片名",
+        "start_frame": 1500,
+        "end_frame": 1650,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 8.016480654761905
+      },
+      {
+        "subscene": "内部裁判闭环",
+        "start_frame": 1800,
+        "end_frame": 1950,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 5.242224702380953
+      },
+      {
+        "subscene": "内部裁判闭环",
+        "start_frame": 2100,
+        "end_frame": 2250,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 5.493511904761904
+      },
+      {
+        "subscene": "内部裁判闭环",
+        "start_frame": 2175,
+        "end_frame": 2325,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 5.5581845238095235
+      },
+      {
+        "subscene": "内部裁判闭环",
+        "start_frame": 2400,
+        "end_frame": 2550,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 5.743794642857143
+      },
+      {
+        "subscene": "代理指标漂移",
+        "start_frame": 2700,
+        "end_frame": 2850,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 2.568936011904762
+      },
+      {
+        "subscene": "代理指标漂移",
+        "start_frame": 3000,
+        "end_frame": 3150,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 3.4788988095238094
+      },
+      {
+        "subscene": "代理指标漂移",
+        "start_frame": 3075,
+        "end_frame": 3225,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 3.3911830357142856
+      },
+      {
+        "subscene": "代理指标漂移",
+        "start_frame": 3300,
+        "end_frame": 3450,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 3.560223214285714
+      },
+      {
+        "subscene": "评分与现实分叉",
+        "start_frame": 3600,
+        "end_frame": 3750,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 11.457380952380952
+      },
+      {
+        "subscene": "评分与现实分叉",
+        "start_frame": 3900,
+        "end_frame": 4050,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 14.677574404761904
+      },
+      {
+        "subscene": "评分与现实分叉",
+        "start_frame": 3975,
+        "end_frame": 4125,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 14.753802083333333
+      },
+      {
+        "subscene": "评分与现实分叉",
+        "start_frame": 4200,
+        "end_frame": 4350,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 14.26794642857143
+      },
+      {
+        "subscene": "自恋漩涡",
+        "start_frame": 4500,
+        "end_frame": 4650,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 13.094456845238096
+      },
+      {
+        "subscene": "自恋漩涡",
+        "start_frame": 4800,
+        "end_frame": 4950,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 12.807180059523809
+      },
+      {
+        "subscene": "自恋漩涡",
+        "start_frame": 4875,
+        "end_frame": 5025,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 12.821026785714286
+      },
+      {
+        "subscene": "自恋漩涡",
+        "start_frame": 5100,
+        "end_frame": 5250,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 13.151138392857144
+      },
+      {
+        "subscene": "物理实验蓄势",
+        "start_frame": 5400,
+        "end_frame": 5550,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 15.076324404761905
+      },
+      {
+        "subscene": "物理实验蓄势",
+        "start_frame": 5505,
+        "end_frame": 5655,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 15.169925595238094
+      },
+      {
+        "subscene": "原子否决",
+        "start_frame": 5760,
+        "end_frame": 5910,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 4.106369047619047
+      },
+      {
+        "subscene": "原子否决",
+        "start_frame": 5955,
+        "end_frame": 6105,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 1.3825074404761906
+      },
+      {
+        "subscene": "原子否决",
+        "start_frame": 6060,
+        "end_frame": 6210,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 1.0575520833333334
+      },
+      {
+        "subscene": "核心引句",
+        "start_frame": 6300,
+        "end_frame": 6450,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 13.2978125
+      },
+      {
+        "subscene": "核心引句",
+        "start_frame": 6540,
+        "end_frame": 6690,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 13.822135416666667
+      },
+      {
+        "subscene": "核心引句",
+        "start_frame": 6600,
+        "end_frame": 6750,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 15.052276785714286
+      }
+    ],
+    "pair_contact_sheet_path": "review/encoded-landscape-pair-contact-sheet.jpg",
+    "limitation": "Numeric edge differences are visual-change heuristics only; nonzero values do not prove meaningful continuous motion."
+  },
+  "acceptance_status": "NOT_EVALUATED",
+  "cross_layout_audio_packet_hash": {
+    "same_encoded_audio_packets": true,
+    "landscape_sha256": "028f04bf844e5ea83f66d46bdb1d2aaf4fdf55c4728fcea36d65c6a4e6907f34",
+    "portrait_sha256": "028f04bf844e5ea83f66d46bdb1d2aaf4fdf55c4728fcea36d65c6a4e6907f34"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "status": "MODEL_SAMPLES_REVIEWED",
+  "layouts": {
+    "landscape": {
+      "representative_frames": [
+        360,
+        960,
+        1260,
+        1500,
+        2190,
+        3040,
+        3900,
+        4590,
+        5500,
+        5740,
+        5760,
+        5790,
+        6090,
+        6500,
+        7100,
+        7199
+      ],
+      "pair_count": 32,
+      "edge_delta_min": 1.0575520833333334,
+      "edge_delta_max": 15.945818452380953,
+      "phone_width_px": null,
+      "model_observations": [
+        "Title, HUD, exact scripted Chinese captions and act changes checked in encoded samples.",
+        "Native dark-gradient frames reviewed; no severe banding observed in sampled frames.",
+        "Spatial staircase, judge-loop, divergent curves, cathedral, physical impact, pendulum and thermal shell changes visible in sampled pairs.",
+        "Impact/beam begins at5760;20-frame preceding absolute silence verified in PCM.",
+        "EP05 header remains visible through last frame."
+      ],
+      "limits": [
+        "Sparse locked core after the strike relies on moving environmental grid; continuous human viewing remains pending.",
+        "Numeric edge difference does not prove continuous motion or perception."
+      ]
+    },
+    "portrait": {
+      "representative_frames": [
+        360,
+        960,
+        1260,
+        1500,
+        2190,
+        3040,
+        3900,
+        4590,
+        5500,
+        5740,
+        5760,
+        5790,
+        6090,
+        6500,
+        7100,
+        7199
+      ],
+      "pair_count": 32,
+      "edge_delta_min": 0.9610384980988593,
+      "edge_delta_max": 19.930453897338403,
+      "phone_width_px": 360,
+      "model_observations": [
+        "Title, HUD, exact scripted Chinese captions and act changes checked in encoded samples.",
+        "Native dark-gradient frames reviewed; no severe banding observed in sampled frames.",
+        "Spatial staircase, judge-loop, divergent curves, cathedral, physical impact, pendulum and thermal shell changes visible in sampled pairs.",
+        "Impact/beam begins at5760;20-frame preceding absolute silence verified in PCM.",
+        "EP05 header remains visible through last frame."
+      ],
+      "limits": [
+        "Sparse locked core after the strike relies on moving environmental grid; continuous human viewing remains pending.",
+        "Numeric edge difference does not prove continuous motion or perception."
+      ]
+    }
+  },
+  "validation_media_unchanged": {
+    "bilibili": true,
+    "xiaohongshu": true
+  },
+  "validation_input_manifest_sha256": "abe03885a764cdf8cc6f71742ac68c3f77752d796ce68f6024d4fb382f97a7c9",
+  "metadata_note": "Only measured file/audio metadata and QA status were added to delivery.json after full strict media validation; timing, paths, dimensions, script and media bytes are unchanged.",
+  "continuous_human_review": "pending",
+  "actual_phone_app_review": "pending"
+}

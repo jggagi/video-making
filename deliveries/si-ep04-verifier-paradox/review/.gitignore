@@ -1,0 +1,4 @@
+# Keep full-size working renders locally; portable JPEG/JSON evidence is versioned.
+/source-*.png
+/early-encoded-*.png
+/browser-player-*.png

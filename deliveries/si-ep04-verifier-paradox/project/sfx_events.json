@@ -1,0 +1,72 @@
+{
+  "fps": 60,
+  "sampleRate": 48000,
+  "samplesPerFrame": 800,
+  "absoluteSilence": {
+    "startFrame": 5740,
+    "endFrame": 5760,
+    "reason": "20 frames immediately before exact frame-5760 physical strike; no spoken samples may be cut"
+  },
+  "events": [
+    {
+      "id": "compiler_arpeggio",
+      "frame": 120,
+      "sampleIndex": 96000,
+      "description": "Crisp ascending crystalline arpeggio (compiler pass ticks) |"
+    },
+    {
+      "id": "anvil_lock",
+      "frame": 960,
+      "sampleIndex": 768000,
+      "description": "Heavy metallic anvil lock + emerald verification chime |"
+    },
+    {
+      "id": "fog_sub_drop",
+      "frame": 1260,
+      "sampleIndex": 1008000,
+      "description": "Deep sub-bass drop (`40Hz`) + sudden high-frequency cut (entering fog) |"
+    },
+    {
+      "id": "sonar_feedback",
+      "frame": 1920,
+      "sampleIndex": 1536000,
+      "description": "Hollow echoing sonar ping with eerie pitch-bend feedback |"
+    },
+    {
+      "id": "glitch_rip",
+      "frame": 2880,
+      "sampleIndex": 2304000,
+      "description": "Distorted magenta glitch rip + detuned harmonic drone |"
+    },
+    {
+      "id": "counter_divergence",
+      "frame": 3900,
+      "sampleIndex": 3120000,
+      "description": "Manic accelerating high-pitched counter clicks vs. low structural groan |"
+    },
+    {
+      "id": "shepard_mobius",
+      "frame": 4680,
+      "sampleIndex": 3744000,
+      "description": "Phase-inverted Shepard tone spiraling into a hypnotic Möbius loop |"
+    },
+    {
+      "id": "physical_veto",
+      "frame": 5760,
+      "sampleIndex": 4608000,
+      "description": "20-frame absolute silence -> Thunderous amber physical laser strike shattering the magenta illusion |"
+    },
+    {
+      "id": "organ_resolution",
+      "frame": 6500,
+      "sampleIndex": 5200000,
+      "description": "Clean, solemn pipe organ resolution chord |"
+    },
+    {
+      "id": "thermal_hiss",
+      "frame": 7020,
+      "sampleIndex": 5616000,
+      "description": "Sizzling thermal dissipation hiss + deep power-grid hum |"
+    }
+  ]
+}

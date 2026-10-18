@@ -1,0 +1,107 @@
+{
+  "duration_seconds": 120,
+  "fps": 60,
+  "total_frames": 7200,
+  "shots": [
+    {
+      "startFrame": 0,
+      "endFrame": 1200,
+      "title": "形式化温室",
+      "motion": "Isometric staircase climbing continuously through rotating emerald proof gate",
+      "landscape": "native wide composition; act3 left/right comparison",
+      "portrait": "native safe composition; act3 top/bottom comparison",
+      "audio": "shared measured PCM + sfx_events.json",
+      "purpose": "形式化温室"
+    },
+    {
+      "startFrame": 1200,
+      "endFrame": 1800,
+      "title": "形式化边界与片名",
+      "motion": "Grid dissolves into trigonometric fog; title maintains perspective drift",
+      "landscape": "native wide composition; act3 left/right comparison",
+      "portrait": "native safe composition; act3 top/bottom comparison",
+      "audio": "shared measured PCM + sfx_events.json",
+      "purpose": "形式化边界与片名"
+    },
+    {
+      "startFrame": 1800,
+      "endFrame": 2700,
+      "title": "内部裁判闭环",
+      "motion": "Generator and internal judge exchange pulses along rotating figure-eight",
+      "landscape": "native wide composition; act3 left/right comparison",
+      "portrait": "native safe composition; act3 top/bottom comparison",
+      "audio": "shared measured PCM + sfx_events.json",
+      "purpose": "内部裁判闭环"
+    },
+    {
+      "startFrame": 2700,
+      "endFrame": 3600,
+      "title": "代理指标漂移",
+      "motion": "Moving trajectory abandons amber physical objective for magenta proxy",
+      "landscape": "native wide composition; act3 left/right comparison",
+      "portrait": "native safe composition; act3 top/bottom comparison",
+      "audio": "shared measured PCM + sfx_events.json",
+      "purpose": "代理指标漂移"
+    },
+    {
+      "startFrame": 3600,
+      "endFrame": 4500,
+      "title": "评分与现实分叉",
+      "motion": "Rotating impossible staircase above/alongside physically collapsing lattice",
+      "landscape": "native wide composition; act3 left/right comparison",
+      "portrait": "native safe composition; act3 top/bottom comparison",
+      "audio": "shared measured PCM + sfx_events.json",
+      "purpose": "评分与现实分叉"
+    },
+    {
+      "startFrame": 4500,
+      "endFrame": 5400,
+      "title": "自恋漩涡",
+      "motion": "Camera flies into Mobius cathedral; deterministic agents orbit",
+      "landscape": "native wide composition; act3 left/right comparison",
+      "portrait": "native safe composition; act3 top/bottom comparison",
+      "audio": "shared measured PCM + sfx_events.json",
+      "purpose": "自恋漩涡"
+    },
+    {
+      "startFrame": 5400,
+      "endFrame": 5760,
+      "title": "物理实验蓄势",
+      "motion": "Amber beam apparatus advances toward moving magenta illusion",
+      "landscape": "native wide composition; act3 left/right comparison",
+      "portrait": "native safe composition; act3 top/bottom comparison",
+      "audio": "shared measured PCM + sfx_events.json",
+      "purpose": "物理实验蓄势"
+    },
+    {
+      "startFrame": 5760,
+      "endFrame": 6300,
+      "title": "原子否决",
+      "motion": "Exact-frame beam shatters polygons; calibrated gold core emerges",
+      "landscape": "native wide composition; act3 left/right comparison",
+      "portrait": "native safe composition; act3 top/bottom comparison",
+      "audio": "shared measured PCM + sfx_events.json",
+      "purpose": "原子否决"
+    },
+    {
+      "startFrame": 6300,
+      "endFrame": 6930,
+      "title": "核心引句",
+      "motion": "Gold core orbits physical pendulum under drifting quote",
+      "landscape": "native wide composition; act3 left/right comparison",
+      "portrait": "native safe composition; act3 top/bottom comparison",
+      "audio": "shared measured PCM + sfx_events.json",
+      "purpose": "核心引句"
+    },
+    {
+      "startFrame": 6930,
+      "endFrame": 7200,
+      "title": "兰道尔极限",
+      "motion": "Rotating Earth wireframe and compute shell heat toward white",
+      "landscape": "native wide composition; act3 left/right comparison",
+      "portrait": "native safe composition; act3 top/bottom comparison",
+      "audio": "shared measured PCM + sfx_events.json",
+      "purpose": "兰道尔极限"
+    }
+  ]
+}

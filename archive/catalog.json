@@ -986,6 +986,296 @@
           "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep03-million-mind-v02-9517e8e05dfb/si-ep03-million-mind-v02--deliveries--si-ep03-million-mind-v02-----si-ep03-million-mind-v02-xiaohongshu-120s-portrait--54d248dab782.mp4"
         }
       ]
+    },
+    {
+      "id": "si-ep04-verifier-paradox",
+      "title": "神也会自我欺骗｜THE VERIFIER PARADOX · EP.04",
+      "release_tag": "film-si-ep04-verifier-paradox-c7bcd4c3eca0",
+      "historical": false,
+      "duration_seconds": 120,
+      "project_path": "deliveries/si-ep04-verifier-paradox/project",
+      "delivery_directory": "deliveries/si-ep04-verifier-paradox",
+      "final_output_paths": {
+        "B站": "deliveries/si-ep04-verifier-paradox/B站/si-ep04-verifier-paradox-bilibili-120s-4k.mp4",
+        "小红书": "deliveries/si-ep04-verifier-paradox/小红书/si-ep04-verifier-paradox-xiaohongshu-120s-portrait.mp4"
+      },
+      "final_output_dimensions": {
+        "B站": [
+          3840,
+          2160
+        ],
+        "小红书": [
+          2160,
+          3840
+        ]
+      },
+      "assets": [
+        {
+          "path": "deliveries/si-ep04-verifier-paradox/B站/si-ep04-verifier-paradox-bilibili-120s-4k.mp4",
+          "name": "si-ep04-verifier-paradox--deliveries--si-ep04-verifier-paradox--B---si-ep04-verifier-paradox-bilibili-120s-4k--df28c2bf6485.mp4",
+          "bytes": 240713684,
+          "sha256": "df28c2bf6485f325a5320f0665adb42c9f8406794466c7c20b85ae2dce59dbc2",
+          "kind": "video",
+          "platform": "B站",
+          "measurements": {
+            "width": 3840,
+            "height": 2160,
+            "fps": "60/1",
+            "frames": "7200",
+            "video_duration_seconds": 120.0,
+            "container_duration_seconds": 120.0
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep04-verifier-paradox-c7bcd4c3eca0/si-ep04-verifier-paradox--deliveries--si-ep04-verifier-paradox--B---si-ep04-verifier-paradox-bilibili-120s-4k--df28c2bf6485.mp4"
+        },
+        {
+          "path": "deliveries/si-ep04-verifier-paradox/review/motion-landscape-120-299.mp4",
+          "name": "si-ep04-verifier-paradox--deliveries--si-ep04-verifier-paradox--review--motion-landscape-120-299--46f077eb174e.mp4",
+          "bytes": 873064,
+          "sha256": "46f077eb174e7f4b945f6ca14859ccd8a91326661be2f236296744f3fb8c37d6",
+          "kind": "video",
+          "platform": "预览",
+          "measurements": {
+            "width": 1280,
+            "height": 720,
+            "fps": "60/1",
+            "frames": "180",
+            "video_duration_seconds": 3.0,
+            "container_duration_seconds": 3.008
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep04-verifier-paradox-c7bcd4c3eca0/si-ep04-verifier-paradox--deliveries--si-ep04-verifier-paradox--review--motion-landscape-120-299--46f077eb174e.mp4"
+        },
+        {
+          "path": "deliveries/si-ep04-verifier-paradox/review/motion-landscape-1800-1979.mp4",
+          "name": "si-ep04-verifier-paradox--deliveries--si-ep04-verifier-paradox--review--motion-landscape-1800-1979--c30340978412.mp4",
+          "bytes": 709452,
+          "sha256": "c30340978412b9d87e08c0450026f0b747bfdec508e96728f5288a0137708236",
+          "kind": "video",
+          "platform": "预览",
+          "measurements": {
+            "width": 1280,
+            "height": 720,
+            "fps": "60/1",
+            "frames": "180",
+            "video_duration_seconds": 3.0,
+            "container_duration_seconds": 3.008
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep04-verifier-paradox-c7bcd4c3eca0/si-ep04-verifier-paradox--deliveries--si-ep04-verifier-paradox--review--motion-landscape-1800-1979--c30340978412.mp4"
+        },
+        {
+          "path": "deliveries/si-ep04-verifier-paradox/review/motion-landscape-4500-4679.mp4",
+          "name": "si-ep04-verifier-paradox--deliveries--si-ep04-verifier-paradox--review--motion-landscape-4500-4679--72a4f4dc8517.mp4",
+          "bytes": 2058999,
+          "sha256": "72a4f4dc8517a1769a3b1b462ebbf4f05817ff3246f9b2241194d40077c24b79",
+          "kind": "video",
+          "platform": "预览",
+          "measurements": {
+            "width": 1280,
+            "height": 720,
+            "fps": "60/1",
+            "frames": "180",
+            "video_duration_seconds": 3.0,
+            "container_duration_seconds": 3.008
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep04-verifier-paradox-c7bcd4c3eca0/si-ep04-verifier-paradox--deliveries--si-ep04-verifier-paradox--review--motion-landscape-4500-4679--72a4f4dc8517.mp4"
+        },
+        {
+          "path": "deliveries/si-ep04-verifier-paradox/review/motion-landscape-5700-5879.mp4",
+          "name": "si-ep04-verifier-paradox--deliveries--si-ep04-verifier-paradox--review--motion-landscape-5700-5879--e3e30ad068f0.mp4",
+          "bytes": 1802956,
+          "sha256": "e3e30ad068f0831a07d1fb84afa64121d42f3440c5e7cf8fa8a6ba10f2122498",
+          "kind": "video",
+          "platform": "预览",
+          "measurements": {
+            "width": 1280,
+            "height": 720,
+            "fps": "60/1",
+            "frames": "180",
+            "video_duration_seconds": 3.0,
+            "container_duration_seconds": 3.008
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep04-verifier-paradox-c7bcd4c3eca0/si-ep04-verifier-paradox--deliveries--si-ep04-verifier-paradox--review--motion-landscape-5700-5879--e3e30ad068f0.mp4"
+        },
+        {
+          "path": "deliveries/si-ep04-verifier-paradox/review/motion-landscape-6360-6539.mp4",
+          "name": "si-ep04-verifier-paradox--deliveries--si-ep04-verifier-paradox--review--motion-landscape-6360-6539--1bcef9a9479f.mp4",
+          "bytes": 735814,
+          "sha256": "1bcef9a9479f20fc484b0f1c1a09467d732b9647cc4d359c544ccb5d0e1afbe9",
+          "kind": "video",
+          "platform": "预览",
+          "measurements": {
+            "width": 1280,
+            "height": 720,
+            "fps": "60/1",
+            "frames": "180",
+            "video_duration_seconds": 3.0,
+            "container_duration_seconds": 3.008
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep04-verifier-paradox-c7bcd4c3eca0/si-ep04-verifier-paradox--deliveries--si-ep04-verifier-paradox--review--motion-landscape-6360-6539--1bcef9a9479f.mp4"
+        },
+        {
+          "path": "deliveries/si-ep04-verifier-paradox/review/motion-landscape-6960-7139.mp4",
+          "name": "si-ep04-verifier-paradox--deliveries--si-ep04-verifier-paradox--review--motion-landscape-6960-7139--29060a3b0cc0.mp4",
+          "bytes": 1910034,
+          "sha256": "29060a3b0cc0b5647b733f4a7fc0e14f0d032d58c18d0169d5755655ea2caa52",
+          "kind": "video",
+          "platform": "预览",
+          "measurements": {
+            "width": 1280,
+            "height": 720,
+            "fps": "60/1",
+            "frames": "180",
+            "video_duration_seconds": 3.0,
+            "container_duration_seconds": 3.008
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep04-verifier-paradox-c7bcd4c3eca0/si-ep04-verifier-paradox--deliveries--si-ep04-verifier-paradox--review--motion-landscape-6960-7139--29060a3b0cc0.mp4"
+        },
+        {
+          "path": "deliveries/si-ep04-verifier-paradox/review/motion-portrait-120-299.mp4",
+          "name": "si-ep04-verifier-paradox--deliveries--si-ep04-verifier-paradox--review--motion-portrait-120-299--c74cb6e9cb1b.mp4",
+          "bytes": 795726,
+          "sha256": "c74cb6e9cb1b36c67fb1d8bd842fde9dc3d9346ad902b9986fe031975b040e88",
+          "kind": "video",
+          "platform": "预览",
+          "measurements": {
+            "width": 720,
+            "height": 1280,
+            "fps": "60/1",
+            "frames": "180",
+            "video_duration_seconds": 3.0,
+            "container_duration_seconds": 3.008
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep04-verifier-paradox-c7bcd4c3eca0/si-ep04-verifier-paradox--deliveries--si-ep04-verifier-paradox--review--motion-portrait-120-299--c74cb6e9cb1b.mp4"
+        },
+        {
+          "path": "deliveries/si-ep04-verifier-paradox/review/motion-portrait-1800-1979.mp4",
+          "name": "si-ep04-verifier-paradox--deliveries--si-ep04-verifier-paradox--review--motion-portrait-1800-1979--b84e3b0fbf15.mp4",
+          "bytes": 725230,
+          "sha256": "b84e3b0fbf15195a8815fa530310a0a62dbc83c72a22f54b1be74b60290ef301",
+          "kind": "video",
+          "platform": "预览",
+          "measurements": {
+            "width": 720,
+            "height": 1280,
+            "fps": "60/1",
+            "frames": "180",
+            "video_duration_seconds": 3.0,
+            "container_duration_seconds": 3.008
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep04-verifier-paradox-c7bcd4c3eca0/si-ep04-verifier-paradox--deliveries--si-ep04-verifier-paradox--review--motion-portrait-1800-1979--b84e3b0fbf15.mp4"
+        },
+        {
+          "path": "deliveries/si-ep04-verifier-paradox/review/motion-portrait-4000-4179.mp4",
+          "name": "si-ep04-verifier-paradox--deliveries--si-ep04-verifier-paradox--review--motion-portrait-4000-4179--4e6fcf8fa9e9.mp4",
+          "bytes": 1486608,
+          "sha256": "4e6fcf8fa9e9b4c72956fff8013209b3a79647fca2c6ad8ff4693465db0a6893",
+          "kind": "video",
+          "platform": "预览",
+          "measurements": {
+            "width": 720,
+            "height": 1280,
+            "fps": "60/1",
+            "frames": "180",
+            "video_duration_seconds": 3.0,
+            "container_duration_seconds": 3.008
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep04-verifier-paradox-c7bcd4c3eca0/si-ep04-verifier-paradox--deliveries--si-ep04-verifier-paradox--review--motion-portrait-4000-4179--4e6fcf8fa9e9.mp4"
+        },
+        {
+          "path": "deliveries/si-ep04-verifier-paradox/review/motion-portrait-4500-4679.mp4",
+          "name": "si-ep04-verifier-paradox--deliveries--si-ep04-verifier-paradox--review--motion-portrait-4500-4679--8c30b9316d03.mp4",
+          "bytes": 1534724,
+          "sha256": "8c30b9316d031fb2c066d8ff1bae636e538ea8f70f0bfc862eea0f9ee31e5407",
+          "kind": "video",
+          "platform": "预览",
+          "measurements": {
+            "width": 720,
+            "height": 1280,
+            "fps": "60/1",
+            "frames": "180",
+            "video_duration_seconds": 3.0,
+            "container_duration_seconds": 3.008
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep04-verifier-paradox-c7bcd4c3eca0/si-ep04-verifier-paradox--deliveries--si-ep04-verifier-paradox--review--motion-portrait-4500-4679--8c30b9316d03.mp4"
+        },
+        {
+          "path": "deliveries/si-ep04-verifier-paradox/review/motion-portrait-5700-5879.mp4",
+          "name": "si-ep04-verifier-paradox--deliveries--si-ep04-verifier-paradox--review--motion-portrait-5700-5879--615e743a8fdd.mp4",
+          "bytes": 1679538,
+          "sha256": "615e743a8fddb9d3ea78e59dc1bbf36a56293046534791e93a1345e3f64879b6",
+          "kind": "video",
+          "platform": "预览",
+          "measurements": {
+            "width": 720,
+            "height": 1280,
+            "fps": "60/1",
+            "frames": "180",
+            "video_duration_seconds": 3.0,
+            "container_duration_seconds": 3.008
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep04-verifier-paradox-c7bcd4c3eca0/si-ep04-verifier-paradox--deliveries--si-ep04-verifier-paradox--review--motion-portrait-5700-5879--615e743a8fdd.mp4"
+        },
+        {
+          "path": "deliveries/si-ep04-verifier-paradox/review/motion-portrait-6360-6539.mp4",
+          "name": "si-ep04-verifier-paradox--deliveries--si-ep04-verifier-paradox--review--motion-portrait-6360-6539--42c4e370c1ee.mp4",
+          "bytes": 782764,
+          "sha256": "42c4e370c1eeac4c614800227253d13aecea282077b6c7e14567b199787510b4",
+          "kind": "video",
+          "platform": "预览",
+          "measurements": {
+            "width": 720,
+            "height": 1280,
+            "fps": "60/1",
+            "frames": "180",
+            "video_duration_seconds": 3.0,
+            "container_duration_seconds": 3.008
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep04-verifier-paradox-c7bcd4c3eca0/si-ep04-verifier-paradox--deliveries--si-ep04-verifier-paradox--review--motion-portrait-6360-6539--42c4e370c1ee.mp4"
+        },
+        {
+          "path": "deliveries/si-ep04-verifier-paradox/review/motion-portrait-6960-7139.mp4",
+          "name": "si-ep04-verifier-paradox--deliveries--si-ep04-verifier-paradox--review--motion-portrait-6960-7139--9982e63b2c49.mp4",
+          "bytes": 1452728,
+          "sha256": "9982e63b2c49d5e2b763c596a64e6ef491c97b80f01656aa512833b357af1286",
+          "kind": "video",
+          "platform": "预览",
+          "measurements": {
+            "width": 720,
+            "height": 1280,
+            "fps": "60/1",
+            "frames": "180",
+            "video_duration_seconds": 3.0,
+            "container_duration_seconds": 3.008
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep04-verifier-paradox-c7bcd4c3eca0/si-ep04-verifier-paradox--deliveries--si-ep04-verifier-paradox--review--motion-portrait-6960-7139--9982e63b2c49.mp4"
+        },
+        {
+          "path": "deliveries/si-ep04-verifier-paradox/si-ep04-verifier-paradox-editable-project.zip",
+          "name": "si-ep04-verifier-paradox--deliveries--si-ep04-verifier-paradox--si-ep04-verifier-paradox-editable-project--bda0eb51a7f0.zip",
+          "bytes": 58326895,
+          "sha256": "bda0eb51a7f01d9b42d245ccd931faea625cc69b475290185ec478696e8fc480",
+          "kind": "project",
+          "platform": "工程",
+          "measurements": {},
+          "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep04-verifier-paradox-c7bcd4c3eca0/si-ep04-verifier-paradox--deliveries--si-ep04-verifier-paradox--si-ep04-verifier-paradox-editable-project--bda0eb51a7f0.zip"
+        },
+        {
+          "path": "deliveries/si-ep04-verifier-paradox/小红书/si-ep04-verifier-paradox-xiaohongshu-120s-portrait.mp4",
+          "name": "si-ep04-verifier-paradox--deliveries--si-ep04-verifier-paradox-----si-ep04-verifier-paradox-xiaohongshu-120s-portrait--a5efd1439126.mp4",
+          "bytes": 219832016,
+          "sha256": "a5efd1439126c9d5837d08ef4bef86bffc71a3500b750d3d2b64ea78008a1b00",
+          "kind": "video",
+          "platform": "小红书",
+          "measurements": {
+            "width": 2160,
+            "height": 3840,
+            "fps": "60/1",
+            "frames": "7200",
+            "video_duration_seconds": 120.0,
+            "container_duration_seconds": 120.0
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep04-verifier-paradox-c7bcd4c3eca0/si-ep04-verifier-paradox--deliveries--si-ep04-verifier-paradox-----si-ep04-verifier-paradox-xiaohongshu-120s-portrait--a5efd1439126.mp4"
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,54 @@
+{
+  "status": "PREVIEW_REVIEWED_FINAL_MEDIA_PENDING",
+  "typecheck": "PASS",
+  "source_scan": "PASS",
+  "shared_pcm": {
+    "samples_per_channel": 5760000,
+    "sample_rate": 48000,
+    "channels": 2,
+    "integrated_LUFS": -17.2,
+    "true_peak_DBTP": -1.8
+  },
+  "preview_evidence": [
+    "source-portrait-contact.jpg",
+    "motion-landscape-contact.jpg",
+    "motion-portrait-contact.jpg"
+  ],
+  "observations": [
+    "Staircase reframed after first review; no critical geometry enters HUD.",
+    "Boundary label moved below title tag; no title overlap at frame1500.",
+    "Portrait act3 uses top/bottom panels; vortex cathedral enlarged after first review.",
+    "Frame5760 amber impact has beam, expanding ring and rapidly separating polygons.",
+    "Closing quote, orbiting golden core and rotating thermal shell remain readable in mobile samples.",
+    "Final checklist found missing explicit act3 curves; first partial landscape render was interrupted. Added rising reward and falling reality curves, checked portrait frames3900/4350 and motion4000..4179 before restarting final render."
+  ],
+  "subtitle_bounds_logical": {
+    "one_line": {
+      "top": 1380,
+      "height": 82.35,
+      "bottom": 1462.35
+    },
+    "two_line": {
+      "top": 1346,
+      "height": 144.7,
+      "bottom": 1490.7
+    },
+    "safe_bottom": 1497.6,
+    "font_at_360px": 14.333333333333334
+  },
+  "portrait_hud": {
+    "top": 173,
+    "bottom": 287,
+    "font_at_360px": 10
+  },
+  "source_sha256": {
+    "project/src/Root.tsx": "8688d56eb986e804a576909d7f7fdbd4bc36b86b6fb96967fe663c266451a964",
+    "project/src/CanvasWorld.tsx": "fd4edf911867d482b7b06efd60d678042a446ac9c8a88d0251ca9d3770958d27",
+    "project/src/Film.tsx": "3e3f4ce65b066b3470579ee94b9ff70da41ae0d995e3594ecddea621dfbaba81",
+    "project/src/index.ts": "2e0e358282a1b998a65387c653b97c2bb2eb7aae94cf200fc0b8d919f7be73a6"
+  },
+  "limitations": [
+    "Preview review uses encoded sample frames, not final MP4 frames.",
+    "No continuous human listening or actual phone App acceptance has occurred."
+  ]
+}

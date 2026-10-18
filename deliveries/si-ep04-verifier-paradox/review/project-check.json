@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "checker": "EP04 source verifier",
+  "delivery_manifest": {
+    "duration_seconds": 120,
+    "fps": 60,
+    "total_frames": 7200
+  },
+  "status": "INCOMPLETE",
+  "source_status": "PASS",
+  "delivery_status": "INCOMPLETE",
+  "audio_timing_status": null,
+  "output_files": {
+    "landscape": {
+      "present": false,
+      "path": "B站/si-ep04-verifier-paradox-bilibili-120s-4k.mp4"
+    },
+    "portrait": {
+      "present": false,
+      "path": "小红书/si-ep04-verifier-paradox-xiaohongshu-120s-portrait.mp4"
+    }
+  },
+  "failures": [],
+  "incomplete": [
+    "missing final landscape MP4: B站/si-ep04-verifier-paradox-bilibili-120s-4k.mp4",
+    "missing final portrait MP4: 小红书/si-ep04-verifier-paradox-xiaohongshu-120s-portrait.mp4"
+  ],
+  "limitations": [
+    "Encoded video and audio streams are not decoded by this source verifier.",
+    "MEDIA_PRESENT_UNVALIDATED is not delivery acceptance; collect encoded QA and complete human review separately.",
+    "Heuristic motion evidence cannot prove meaningful continuous motion."
+  ]
+}

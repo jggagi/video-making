@@ -1,0 +1,10 @@
+{
+  "required": [
+    "VERIFIER",
+    "DETERMINISTIC",
+    "ALIGNMENT",
+    "GOODHART",
+    "THERMODYNAMIC"
+  ],
+  "status": "source constants independently checked at render"
+}

@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "generated_by": "scripts/build-final-library.py",
-  "total_files": 23,
-  "logical_bytes": 4386828468,
+  "total_files": 25,
+  "logical_bytes": 4847374168,
   "files": [
     {
       "source_path": "out/extended/兰亭集序-展厅增强版-1080p.mp4",
@@ -286,6 +286,36 @@
       "backup_release_tag": "final-si-ep03-million-mind-v02-9517e8e05dfb",
       "backup_release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep03-million-mind-v02-9517e8e05dfb",
       "backup_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep03-million-mind-v02-9517e8e05dfb/final--si-ep03-million-mind-v02--deliveries--si-ep03-million-mind-v02-----si-ep03-million-mind-v02-xiaohongshu-120s-portrait--54d248dab782.mp4",
+      "materialization": "APFS clonefile for new files; existing independent matches are retained",
+      "verification": "SHA-256 matches archive catalog; stable stat and inode checks passed"
+    },
+    {
+      "source_path": "deliveries/si-ep04-verifier-paradox/B站/si-ep04-verifier-paradox-bilibili-120s-4k.mp4",
+      "final_path": "final/si-ep04-verifier-paradox/B站/si-ep04-verifier-paradox-bilibili-120s-4k.mp4",
+      "work_id": "si-ep04-verifier-paradox",
+      "title": "神也会自我欺骗｜THE VERIFIER PARADOX · EP.04",
+      "platform": "B站",
+      "bytes": 240713684,
+      "sha256": "df28c2bf6485f325a5320f0665adb42c9f8406794466c7c20b85ae2dce59dbc2",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep04-verifier-paradox-c7bcd4c3eca0/si-ep04-verifier-paradox--deliveries--si-ep04-verifier-paradox--B---si-ep04-verifier-paradox-bilibili-120s-4k--df28c2bf6485.mp4",
+      "backup_release_tag": "final-si-ep04-verifier-paradox-c7bcd4c3eca0",
+      "backup_release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep04-verifier-paradox-c7bcd4c3eca0",
+      "backup_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep04-verifier-paradox-c7bcd4c3eca0/final--si-ep04-verifier-paradox--deliveries--si-ep04-verifier-paradox--B---si-ep04-verifier-paradox-bilibili-120s-4k--df28c2bf6485.mp4",
+      "materialization": "APFS clonefile for new files; existing independent matches are retained",
+      "verification": "SHA-256 matches archive catalog; stable stat and inode checks passed"
+    },
+    {
+      "source_path": "deliveries/si-ep04-verifier-paradox/小红书/si-ep04-verifier-paradox-xiaohongshu-120s-portrait.mp4",
+      "final_path": "final/si-ep04-verifier-paradox/小红书/si-ep04-verifier-paradox-xiaohongshu-120s-portrait.mp4",
+      "work_id": "si-ep04-verifier-paradox",
+      "title": "神也会自我欺骗｜THE VERIFIER PARADOX · EP.04",
+      "platform": "小红书",
+      "bytes": 219832016,
+      "sha256": "a5efd1439126c9d5837d08ef4bef86bffc71a3500b750d3d2b64ea78008a1b00",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep04-verifier-paradox-c7bcd4c3eca0/si-ep04-verifier-paradox--deliveries--si-ep04-verifier-paradox-----si-ep04-verifier-paradox-xiaohongshu-120s-portrait--a5efd1439126.mp4",
+      "backup_release_tag": "final-si-ep04-verifier-paradox-c7bcd4c3eca0",
+      "backup_release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep04-verifier-paradox-c7bcd4c3eca0",
+      "backup_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep04-verifier-paradox-c7bcd4c3eca0/final--si-ep04-verifier-paradox--deliveries--si-ep04-verifier-paradox-----si-ep04-verifier-paradox-xiaohongshu-120s-portrait--a5efd1439126.mp4",
       "materialization": "APFS clonefile for new files; existing independent matches are retained",
       "verification": "SHA-256 matches archive catalog; stable stat and inode checks passed"
     },

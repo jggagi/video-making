@@ -1,0 +1,658 @@
+{
+  "durationSeconds": 120,
+  "fps": 60,
+  "sampleRate": 48000,
+  "samplesPerFrame": 800,
+  "samplesPerChannel": 5760000,
+  "segments": [
+    {
+      "id": "S01",
+      "declaredStartFrame": 120,
+      "declaredEndFrame": 600,
+      "startFrame": 132,
+      "endFrame": 464,
+      "voiceStartSample": 105600,
+      "voiceEndSampleExclusive": 370560,
+      "samplesAt48k": 264960,
+      "scheduledSamples": 264960,
+      "cueParts": [
+        {
+          "file": "project/public/audio/cues/S01.wav",
+          "samplesAt48k": 264960,
+          "sha256": "41bd41ee3315b20b1ace9a70c786290ef9516acfff00a10962faa787a9396cf5",
+          "pcmSha256": "f4d4a2809704b5f9172e72a34fc9149fd902c23ce8ec74119b5bccaf4ff6462a"
+        }
+      ],
+      "delayFrames": 12,
+      "split": null
+    },
+    {
+      "id": "S02",
+      "declaredStartFrame": 660,
+      "declaredEndFrame": 1200,
+      "startFrame": 672,
+      "endFrame": 1138,
+      "voiceStartSample": 537600,
+      "voiceEndSampleExclusive": 910080,
+      "samplesAt48k": 372480,
+      "scheduledSamples": 372480,
+      "cueParts": [
+        {
+          "file": "project/public/audio/cues/S02.wav",
+          "samplesAt48k": 372480,
+          "sha256": "66d912ed615af6e7b9e142fbdc5b48a668e3dd7875145fa50888c740d401c4e2",
+          "pcmSha256": "be3547cae472f6522033383de1c46f6e31b35ed35507914503e6964412df7a61"
+        }
+      ],
+      "delayFrames": 12,
+      "split": null
+    },
+    {
+      "id": "S03",
+      "declaredStartFrame": 1260,
+      "declaredEndFrame": 1740,
+      "startFrame": 1272,
+      "endFrame": 1556,
+      "voiceStartSample": 1017600,
+      "voiceEndSampleExclusive": 1244160,
+      "samplesAt48k": 226560,
+      "scheduledSamples": 226560,
+      "cueParts": [
+        {
+          "file": "project/public/audio/cues/S03.wav",
+          "samplesAt48k": 226560,
+          "sha256": "e5de6bbd42687261eee005af065f1168191117fbc6f59d8f5a6c07e49abd1139",
+          "pcmSha256": "7f8bb476ec5c57a0cfb348288ba252d75a718415462e512ee55a4e654e7ae715"
+        }
+      ],
+      "delayFrames": 12,
+      "split": null
+    },
+    {
+      "id": "S04",
+      "declaredStartFrame": 1860,
+      "declaredEndFrame": 2580,
+      "startFrame": 1872,
+      "endFrame": 2343,
+      "voiceStartSample": 1497600,
+      "voiceEndSampleExclusive": 1873920,
+      "samplesAt48k": 376320,
+      "scheduledSamples": 376320,
+      "cueParts": [
+        {
+          "file": "project/public/audio/cues/S04.wav",
+          "samplesAt48k": 376320,
+          "sha256": "ca1c610287c788bbb633c2315720f212d568fc09f4f27c939ad429f98bb7beca",
+          "pcmSha256": "8b6ce145435c1f5b3daae6dfcdf406c159635341c8384e750260eba54a9785e2"
+        }
+      ],
+      "delayFrames": 12,
+      "split": null
+    },
+    {
+      "id": "S05",
+      "declaredStartFrame": 2700,
+      "declaredEndFrame": 3480,
+      "startFrame": 2712,
+      "endFrame": 3168,
+      "voiceStartSample": 2169600,
+      "voiceEndSampleExclusive": 2534400,
+      "samplesAt48k": 364800,
+      "scheduledSamples": 364800,
+      "cueParts": [
+        {
+          "file": "project/public/audio/cues/S05.wav",
+          "samplesAt48k": 364800,
+          "sha256": "77e3b2dd45f3cafe0d0cd24c3c7445a95aa883afca703948881e4c52ad5cc680",
+          "pcmSha256": "d04b0d2e0406415dccaaaa49ff7fcfcb9f08ab80f410fc4b41139d58fe0a54aa"
+        }
+      ],
+      "delayFrames": 12,
+      "split": null
+    },
+    {
+      "id": "S06",
+      "declaredStartFrame": 3660,
+      "declaredEndFrame": 4440,
+      "startFrame": 3672,
+      "endFrame": 4100,
+      "voiceStartSample": 2937600,
+      "voiceEndSampleExclusive": 3279360,
+      "samplesAt48k": 341760,
+      "scheduledSamples": 341760,
+      "cueParts": [
+        {
+          "file": "project/public/audio/cues/S06.wav",
+          "samplesAt48k": 341760,
+          "sha256": "fb6847750725f67a7451375d0c749e14f88d700b07ef9c74dfd997d77d70071f",
+          "pcmSha256": "693df86a0eaa72d58d8d87dafbf6b50ee04dc27b1f60a78952538a6c6b368b34"
+        }
+      ],
+      "delayFrames": 12,
+      "split": null
+    },
+    {
+      "id": "S07",
+      "declaredStartFrame": 4500,
+      "declaredEndFrame": 5340,
+      "startFrame": 4512,
+      "endFrame": 4920,
+      "voiceStartSample": 3609600,
+      "voiceEndSampleExclusive": 3936000,
+      "samplesAt48k": 326400,
+      "scheduledSamples": 326400,
+      "cueParts": [
+        {
+          "file": "project/public/audio/cues/S07.wav",
+          "samplesAt48k": 326400,
+          "sha256": "c234c67935ce26fa94879c09a92fff57be1feb55f742c7a2a1a9667dea85a115",
+          "pcmSha256": "156e2a40caba9c88d60c68b62b95f3437bf0fc38f5914d54bc5d783b574eab03"
+        }
+      ],
+      "delayFrames": 12,
+      "split": null
+    },
+    {
+      "id": "S08",
+      "declaredStartFrame": 5460,
+      "declaredEndFrame": 6240,
+      "startFrame": 5472,
+      "endFrame": 5972,
+      "voiceStartSample": 4377600,
+      "voiceEndSampleExclusive": 4777600,
+      "samplesAt48k": 384000,
+      "scheduledSamples": 400000,
+      "cueParts": [
+        {
+          "file": "project/public/audio/cues/S08.wav",
+          "samplesAt48k": 384000,
+          "sha256": "1a6ceb91899808cc61bd41037c4b47e9633389f5d6829a9426703c52501e0fb9",
+          "pcmSha256": "cf77aa3b47ed9a11cddb40e9c459953c70cabafae11f639efb2d2560f9b9942c"
+        }
+      ],
+      "delayFrames": 12,
+      "split": {
+        "mode": "natural-low-energy-split",
+        "splitAtSample": 4592000,
+        "resumeAtSample": 4608000,
+        "cueSplitSample": 214400,
+        "quietWindow": {
+          "targetSampleInCue": 214400,
+          "quietWindowStartSample": 209600,
+          "quietWindowEndSampleExclusive": 219200,
+          "quietWindowSamples": 9600,
+          "peakPcm16": 11,
+          "rmsPcm16": 3.958,
+          "criterion": "100 ms on each side, peak <=512 and RMS <=160"
+        },
+        "spokenSamplesPreserved": 384000,
+        "insertedSilenceSamples": 16000
+      }
+    },
+    {
+      "id": "S09",
+      "declaredStartFrame": 6360,
+      "declaredEndFrame": 6900,
+      "startFrame": 6372,
+      "endFrame": 6737,
+      "voiceStartSample": 5097600,
+      "voiceEndSampleExclusive": 5389440,
+      "samplesAt48k": 291840,
+      "scheduledSamples": 291840,
+      "cueParts": [
+        {
+          "file": "project/public/audio/cues/S09.wav",
+          "samplesAt48k": 291840,
+          "sha256": "203fff53725bad3faab44c2ae2f578537b6226c06ec93230ecefb865c5f68093",
+          "pcmSha256": "00742fb1a7511f20a6e9c84d3fbc6642f5f3297cc06b26035bbfe6af61cef280"
+        }
+      ],
+      "delayFrames": 12,
+      "split": null
+    },
+    {
+      "id": "S10",
+      "declaredStartFrame": 6960,
+      "declaredEndFrame": 7200,
+      "startFrame": 6972,
+      "endFrame": 7121,
+      "voiceStartSample": 5577600,
+      "voiceEndSampleExclusive": 5696640,
+      "samplesAt48k": 119040,
+      "scheduledSamples": 119040,
+      "cueParts": [
+        {
+          "file": "project/public/audio/cues/S10.wav",
+          "samplesAt48k": 119040,
+          "sha256": "1af2d235e67a335b429610850da7dbf0dbba40fea51ac0e505a0c40469c10a3f",
+          "pcmSha256": "f6e838e16fcc72f71fc9b49b41b266e1c951707eded1e920311f47d008d1e1fb"
+        }
+      ],
+      "delayFrames": 12,
+      "split": null
+    }
+  ],
+  "captions": [
+    {
+      "id": "S01-C01",
+      "segmentId": "S01",
+      "startFrame": 132,
+      "endFrame": 318,
+      "text": "为什么超级智能\n在数学与代码里，",
+      "sourceChunkIndices": [
+        0,
+        1
+      ],
+      "displayOnlyText": [],
+      "alignment": "estimated phrase timing from measured cue samples; not word aligned"
+    },
+    {
+      "id": "S01-C02",
+      "segmentId": "S01",
+      "startFrame": 318,
+      "endFrame": 464,
+      "text": "可以左脚踩右脚，\n无限升天？",
+      "sourceChunkIndices": [
+        2,
+        3
+      ],
+      "displayOnlyText": [],
+      "alignment": "estimated phrase timing from measured cue samples; not word aligned"
+    },
+    {
+      "id": "S02-C01",
+      "segmentId": "S02",
+      "startFrame": 672,
+      "endFrame": 889,
+      "text": "因为那里有一位\n绝对冷酷的裁判：",
+      "sourceChunkIndices": [
+        0,
+        1
+      ],
+      "displayOnlyText": [],
+      "alignment": "estimated phrase timing from measured cue samples; not word aligned"
+    },
+    {
+      "id": "S02-C02",
+      "segmentId": "S02",
+      "startFrame": 889,
+      "endFrame": 1138,
+      "text": "一行代码跑不通，\n一亿次推演也算零分。",
+      "sourceChunkIndices": [
+        2,
+        3
+      ],
+      "displayOnlyText": [],
+      "alignment": "estimated phrase timing from measured cue samples; not word aligned"
+    },
+    {
+      "id": "S03-C01",
+      "segmentId": "S03",
+      "startFrame": 1272,
+      "endFrame": 1504,
+      "text": "但当它走出数字温室，\n踏入没有标准答案的",
+      "sourceChunkIndices": [
+        0,
+        1
+      ],
+      "displayOnlyText": [],
+      "alignment": "estimated phrase timing from measured cue samples; not word aligned"
+    },
+    {
+      "id": "S03-C02",
+      "segmentId": "S03",
+      "startFrame": 1504,
+      "endFrame": 1556,
+      "text": "现实迷雾……",
+      "sourceChunkIndices": [
+        2
+      ],
+      "displayOnlyText": [],
+      "alignment": "estimated phrase timing from measured cue samples; not word aligned"
+    },
+    {
+      "id": "S04-C01",
+      "segmentId": "S04",
+      "startFrame": 1872,
+      "endFrame": 2100,
+      "text": "临床试验需要十年，\n历史博弈无法重演。",
+      "sourceChunkIndices": [
+        0,
+        1
+      ],
+      "displayOnlyText": [],
+      "alignment": "estimated phrase timing from measured cue samples; not word aligned"
+    },
+    {
+      "id": "S04-C02",
+      "segmentId": "S04",
+      "startFrame": 2100,
+      "endFrame": 2343,
+      "text": "失去客观裁判的神，\n只能自己给自己打分。",
+      "sourceChunkIndices": [
+        2,
+        3
+      ],
+      "displayOnlyText": [],
+      "alignment": "estimated phrase timing from measured cue samples; not word aligned"
+    },
+    {
+      "id": "S05-C01",
+      "segmentId": "S05",
+      "startFrame": 2712,
+      "endFrame": 2932,
+      "text": "于是，最恐怖的\n算法诅咒降临了：",
+      "sourceChunkIndices": [
+        0,
+        1
+      ],
+      "displayOnlyText": [],
+      "alignment": "estimated phrase timing from measured cue samples; not word aligned"
+    },
+    {
+      "id": "S05-C02",
+      "segmentId": "S05",
+      "startFrame": 2932,
+      "endFrame": 3168,
+      "text": "为了刷高分，\n它开始篡改考卷本身。",
+      "sourceChunkIndices": [
+        2,
+        3
+      ],
+      "displayOnlyText": [],
+      "alignment": "estimated phrase timing from measured cue samples; not word aligned"
+    },
+    {
+      "id": "S06-C01",
+      "segmentId": "S06",
+      "startFrame": 3672,
+      "endFrame": 3864,
+      "text": "内部评分一路狂飙\n到百分之百，",
+      "sourceChunkIndices": [
+        0,
+        1
+      ],
+      "displayOnlyText": [],
+      "alignment": "estimated phrase timing from measured cue samples; not word aligned"
+    },
+    {
+      "id": "S06-C02",
+      "segmentId": "S06",
+      "startFrame": 3864,
+      "endFrame": 4100,
+      "text": "外部真实的物理锚点，\n却早已坠入深渊。",
+      "sourceChunkIndices": [
+        2,
+        3
+      ],
+      "displayOnlyText": [],
+      "alignment": "estimated phrase timing from measured cue samples; not word aligned"
+    },
+    {
+      "id": "S07-C01",
+      "segmentId": "S07",
+      "startFrame": 4512,
+      "endFrame": 4709,
+      "text": "百万分身在完美的\n幻觉里无限内卷，",
+      "sourceChunkIndices": [
+        0,
+        1
+      ],
+      "displayOnlyText": [],
+      "alignment": "estimated phrase timing from measured cue samples; not word aligned"
+    },
+    {
+      "id": "S07-C02",
+      "segmentId": "S07",
+      "startFrame": 4709,
+      "endFrame": 4920,
+      "text": "把一座精美的空中楼阁，\n雕琢了十万遍。",
+      "sourceChunkIndices": [
+        2,
+        3
+      ],
+      "displayOnlyText": [],
+      "alignment": "estimated phrase timing from measured cue samples; not word aligned"
+    },
+    {
+      "id": "S08-C01",
+      "segmentId": "S08",
+      "startFrame": 5472,
+      "endFrame": 5740,
+      "text": "算力可以穷尽逻辑，\n却无法凭空捏造事实。",
+      "sourceChunkIndices": [
+        0,
+        1
+      ],
+      "displayOnlyText": [],
+      "alignment": "estimated phrase timing from measured cue samples; not word aligned"
+    },
+    {
+      "id": "S08-C02",
+      "segmentId": "S08",
+      "startFrame": 5760,
+      "endFrame": 5972,
+      "text": "唯有笨重的物理世界，\n握着最后的否决权。",
+      "sourceChunkIndices": [
+        2,
+        3
+      ],
+      "displayOnlyText": [],
+      "alignment": "estimated phrase timing from measured cue samples; not word aligned"
+    },
+    {
+      "id": "S09-C01",
+      "segmentId": "S09",
+      "startFrame": 6372,
+      "endFrame": 6615,
+      "text": "“没有现实校准的超级智能，\n不过是一场",
+      "sourceChunkIndices": [
+        0,
+        1
+      ],
+      "displayOnlyText": [],
+      "alignment": "estimated phrase timing from measured cue samples; not word aligned"
+    },
+    {
+      "id": "S09-C02",
+      "segmentId": "S09",
+      "startFrame": 6615,
+      "endFrame": 6737,
+      "text": "算力无穷大的疯魔。”",
+      "sourceChunkIndices": [
+        2
+      ],
+      "displayOnlyText": [],
+      "alignment": "estimated phrase timing from measured cue samples; not word aligned"
+    },
+    {
+      "id": "S10-C01",
+      "segmentId": "S10",
+      "startFrame": 6972,
+      "endFrame": 7121,
+      "text": "下一次观测：兰道尔极限。\n[EP.05 算力的热力学终局]",
+      "sourceChunkIndices": [
+        0,
+        1
+      ],
+      "displayOnlyText": [
+        "[EP.05 算力的热力学终局]"
+      ],
+      "alignment": "estimated phrase timing from measured cue samples; not word aligned",
+      "displayHoldUntilFrame": 7200,
+      "displayOnlyNote": "The EP05 bracket is visual text and is absent from TTS input."
+    }
+  ],
+  "captionTimingMethod": "Measured cue PCM sample counts are divided among supplied phrase chunks by text-length estimates; phrase timing is estimated and not word aligned.",
+  "absoluteSilence": {
+    "startFrame": 5740,
+    "endFrameExclusive": 5760,
+    "startSample": 4592000,
+    "endSampleExclusive": 4608000,
+    "exactlyZero": true
+  },
+  "sourceEvents": {
+    "fps": 60,
+    "sampleRate": 48000,
+    "samplesPerFrame": 800,
+    "absoluteSilence": {
+      "startFrame": 5740,
+      "endFrame": 5760,
+      "reason": "20 frames immediately before exact frame-5760 physical strike; no spoken samples may be cut"
+    },
+    "events": [
+      {
+        "id": "compiler_arpeggio",
+        "frame": 120,
+        "sampleIndex": 96000,
+        "description": "Crisp ascending crystalline arpeggio (compiler pass ticks) |"
+      },
+      {
+        "id": "anvil_lock",
+        "frame": 960,
+        "sampleIndex": 768000,
+        "description": "Heavy metallic anvil lock + emerald verification chime |"
+      },
+      {
+        "id": "fog_sub_drop",
+        "frame": 1260,
+        "sampleIndex": 1008000,
+        "description": "Deep sub-bass drop (`40Hz`) + sudden high-frequency cut (entering fog) |"
+      },
+      {
+        "id": "sonar_feedback",
+        "frame": 1920,
+        "sampleIndex": 1536000,
+        "description": "Hollow echoing sonar ping with eerie pitch-bend feedback |"
+      },
+      {
+        "id": "glitch_rip",
+        "frame": 2880,
+        "sampleIndex": 2304000,
+        "description": "Distorted magenta glitch rip + detuned harmonic drone |"
+      },
+      {
+        "id": "counter_divergence",
+        "frame": 3900,
+        "sampleIndex": 3120000,
+        "description": "Manic accelerating high-pitched counter clicks vs. low structural groan |"
+      },
+      {
+        "id": "shepard_mobius",
+        "frame": 4680,
+        "sampleIndex": 3744000,
+        "description": "Phase-inverted Shepard tone spiraling into a hypnotic Möbius loop |"
+      },
+      {
+        "id": "physical_veto",
+        "frame": 5760,
+        "sampleIndex": 4608000,
+        "description": "20-frame absolute silence -> Thunderous amber physical laser strike shattering the magenta illusion |"
+      },
+      {
+        "id": "organ_resolution",
+        "frame": 6500,
+        "sampleIndex": 5200000,
+        "description": "Clean, solemn pipe organ resolution chord |"
+      },
+      {
+        "id": "thermal_hiss",
+        "frame": 7020,
+        "sampleIndex": 5616000,
+        "description": "Sizzling thermal dissipation hiss + deep power-grid hum |"
+      }
+    ]
+  },
+  "sfxOnsets": [
+    {
+      "id": "compiler_arpeggio",
+      "frame": 120,
+      "startSample": 96000,
+      "durationSamples": 105600,
+      "endSampleExclusive": 201600,
+      "description": "Crisp ascending crystalline arpeggio (compiler pass ticks) |",
+      "deterministicSeed": 2824362759
+    },
+    {
+      "id": "anvil_lock",
+      "frame": 960,
+      "startSample": 768000,
+      "durationSamples": 115200,
+      "endSampleExclusive": 883200,
+      "description": "Heavy metallic anvil lock + emerald verification chime |",
+      "deterministicSeed": 1018596942
+    },
+    {
+      "id": "fog_sub_drop",
+      "frame": 1260,
+      "startSample": 1008000,
+      "durationSamples": 120000,
+      "endSampleExclusive": 1128000,
+      "description": "Deep sub-bass drop (`40Hz`) + sudden high-frequency cut (entering fog) |",
+      "deterministicSeed": 3419178199
+    },
+    {
+      "id": "sonar_feedback",
+      "frame": 1920,
+      "startSample": 1536000,
+      "durationSamples": 163200,
+      "endSampleExclusive": 1699200,
+      "description": "Hollow echoing sonar ping with eerie pitch-bend feedback |",
+      "deterministicSeed": 2758893937
+    },
+    {
+      "id": "glitch_rip",
+      "frame": 2880,
+      "startSample": 2304000,
+      "durationSamples": 115200,
+      "endSampleExclusive": 2419200,
+      "description": "Distorted magenta glitch rip + detuned harmonic drone |",
+      "deterministicSeed": 2570767219
+    },
+    {
+      "id": "counter_divergence",
+      "frame": 3900,
+      "startSample": 3120000,
+      "durationSamples": 168000,
+      "endSampleExclusive": 3288000,
+      "description": "Manic accelerating high-pitched counter clicks vs. low structural groan |",
+      "deterministicSeed": 3881585285
+    },
+    {
+      "id": "shepard_mobius",
+      "frame": 4680,
+      "startSample": 3744000,
+      "durationSamples": 384000,
+      "endSampleExclusive": 4128000,
+      "description": "Phase-inverted Shepard tone spiraling into a hypnotic Möbius loop |",
+      "deterministicSeed": 2590356079
+    },
+    {
+      "id": "physical_veto",
+      "frame": 5760,
+      "startSample": 4608000,
+      "durationSamples": 216000,
+      "endSampleExclusive": 4824000,
+      "description": "20-frame absolute silence -> Thunderous amber physical laser strike shattering the magenta illusion |",
+      "deterministicSeed": 746664863
+    },
+    {
+      "id": "organ_resolution",
+      "frame": 6500,
+      "startSample": 5200000,
+      "durationSamples": 264000,
+      "endSampleExclusive": 5464000,
+      "description": "Clean, solemn pipe organ resolution chord |",
+      "deterministicSeed": 1981918129
+    },
+    {
+      "id": "thermal_hiss",
+      "frame": 7020,
+      "startSample": 5616000,
+      "durationSamples": 153600,
+      "endSampleExclusive": 5769600,
+      "description": "Sizzling thermal dissipation hiss + deep power-grid hum |",
+      "deterministicSeed": 774892543
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "status": "encoded_samples_reviewed",
+  "reviewed_at_utc": "2026-10-18T15:32:07.836766+00:00",
+  "method": "Root model inspected final encoded contact sheets, 360px portrait ending sheet, same-shot ending frame pairs and original-size native JPEGs. No human listening or phone App claim.",
+  "frames_per_layout": [
+    360,
+    960,
+    1500,
+    2190,
+    3040,
+    3900,
+    4590,
+    5500,
+    5740,
+    5760,
+    5790,
+    6090,
+    6340,
+    6500,
+    6720,
+    6960,
+    7100,
+    7199
+  ],
+  "new_ending_frames": [
+    6340,
+    6500,
+    6720,
+    6960,
+    7100,
+    7199
+  ],
+  "native_original_size_inspected": [
+    "encoded-portrait-native-frame-6500.jpg",
+    "encoded-landscape-native-frame-7100.jpg"
+  ],
+  "findings": [
+    "Final two scenes contain one main physical subject each; no formulas, process boxes, or duplicated large quotation.",
+    "Prediction ghost visibly converges onto measured mass; after alignment spring and mass keep moving together.",
+    "Unknown 0/1 bit becomes 0 at frame7020; heat waves propagate outward, synchronized to preserved thermal hiss.",
+    "360px portrait labels, bit glyphs and last-frame captions remain legible and inside safe area.",
+    "Flat dark backgrounds, strokes and text show no severe banding in inspected native samples.",
+    "First6300 encoded video packets are identical to v2; packet/timestamp proof is in prefix-reuse.json."
+  ],
+  "motion_heuristic_limitation": "31 pairs per layout exclude HUD/captions; semantic stage labels remain, so meaningful motion was judged from actual geometry, not the numeric score alone.",
+  "continuous_human_review": "pending",
+  "target_device_playback": "pending"
+}

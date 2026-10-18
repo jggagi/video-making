@@ -444,6 +444,47 @@
       ]
     },
     {
+      "id": "si-ep04-verifier-paradox-v03",
+      "title": "Final 成片备份 · 神也会自我欺骗 · v3 直观结尾版",
+      "release_tag": "final-si-ep04-verifier-paradox-v03-fbbf6de2043c",
+      "assets": [
+        {
+          "path": "final/si-ep04-verifier-paradox-v03/B站/si-ep04-verifier-paradox-v03-bilibili-120s-4k.mp4",
+          "name": "final--si-ep04-verifier-paradox-v03--deliveries--si-ep04-verifier-paradox-v03--B---si-ep04-verifier-paradox-v03-bilibili-120s-4k--95e5b554fd5e.mp4",
+          "bytes": 50952126,
+          "sha256": "95e5b554fd5e2ea4f900f7dfc1590ce24ea36b3b5a09e217a692024577a11cf1",
+          "kind": "video",
+          "platform": "B站",
+          "measurements": {
+            "width": 3840,
+            "height": 2160,
+            "fps": "60/1",
+            "frames": "7200",
+            "video_duration_seconds": 120.0,
+            "container_duration_seconds": 120.0
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep04-verifier-paradox-v03-fbbf6de2043c/final--si-ep04-verifier-paradox-v03--deliveries--si-ep04-verifier-paradox-v03--B---si-ep04-verifier-paradox-v03-bilibili-120s-4k--95e5b554fd5e.mp4"
+        },
+        {
+          "path": "final/si-ep04-verifier-paradox-v03/小红书/si-ep04-verifier-paradox-v03-xiaohongshu-120s-portrait.mp4",
+          "name": "final--si-ep04-verifier-paradox-v03--deliveries--si-ep04-verifier-paradox-v03-----si-ep04-verifier-paradox-v03-xiaohongshu-120s-portrait--86265036cd83.mp4",
+          "bytes": 52377962,
+          "sha256": "86265036cd83dc690e9e4970aba4984e4f75aa7fa7e0a6f0bbee7d409cf91143",
+          "kind": "video",
+          "platform": "小红书",
+          "measurements": {
+            "width": 2160,
+            "height": 3840,
+            "fps": "60/1",
+            "frames": "7200",
+            "video_duration_seconds": 120.0,
+            "container_duration_seconds": 120.0
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep04-verifier-paradox-v03-fbbf6de2043c/final--si-ep04-verifier-paradox-v03--deliveries--si-ep04-verifier-paradox-v03-----si-ep04-verifier-paradox-v03-xiaohongshu-120s-portrait--86265036cd83.mp4"
+        }
+      ]
+    },
+    {
       "id": "si-ep05-landauer-limit",
       "title": "Final 成片备份 · 兰道尔极限｜THE LANDAUER LIMIT · EP.05",
       "release_tag": "final-si-ep05-landauer-limit-0028c8c759f4",

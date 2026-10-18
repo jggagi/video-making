@@ -12,4 +12,5 @@
 - [百万分身｜THE MILLION-FOLD MIND · EP.03 第二版](si-ep03-million-mind-v02/README.md)：7 个视频/工程资产。
 - [神也会自我欺骗｜THE VERIFIER PARADOX · EP.04](si-ep04-verifier-paradox/README.md)：16 个视频/工程资产。
 - [神也会自我欺骗 · v2 机制图解版](si-ep04-verifier-paradox-v02/README.md)：15 个视频/工程资产。
+- [神也会自我欺骗 · v3 直观结尾版](si-ep04-verifier-paradox-v03/README.md)：5 个视频/工程资产。
 - [兰道尔极限｜THE LANDAUER LIMIT · EP.05](si-ep05-landauer-limit/README.md)：14 个视频/工程资产。

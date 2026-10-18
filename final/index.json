@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "generated_by": "scripts/build-final-library.py",
-  "total_files": 29,
-  "logical_bytes": 5302518691,
+  "total_files": 31,
+  "logical_bytes": 5405848779,
   "files": [
     {
       "source_path": "out/extended/兰亭集序-展厅增强版-1080p.mp4",
@@ -346,6 +346,36 @@
       "backup_release_tag": "final-si-ep04-verifier-paradox-v02-365c1634ab37",
       "backup_release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep04-verifier-paradox-v02-365c1634ab37",
       "backup_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep04-verifier-paradox-v02-365c1634ab37/final--si-ep04-verifier-paradox-v02--deliveries--si-ep04-verifier-paradox-v02-----si-ep04-verifier-paradox-v02-xiaohongshu-120s-portrait--61a9935ef4da.mp4",
+      "materialization": "APFS clonefile for new files; existing independent matches are retained",
+      "verification": "SHA-256 matches archive catalog; stable stat and inode checks passed"
+    },
+    {
+      "source_path": "deliveries/si-ep04-verifier-paradox-v03/B站/si-ep04-verifier-paradox-v03-bilibili-120s-4k.mp4",
+      "final_path": "final/si-ep04-verifier-paradox-v03/B站/si-ep04-verifier-paradox-v03-bilibili-120s-4k.mp4",
+      "work_id": "si-ep04-verifier-paradox-v03",
+      "title": "神也会自我欺骗 · v3 直观结尾版",
+      "platform": "B站",
+      "bytes": 50952126,
+      "sha256": "95e5b554fd5e2ea4f900f7dfc1590ce24ea36b3b5a09e217a692024577a11cf1",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep04-verifier-paradox-v03-fbbf6de2043c/si-ep04-verifier-paradox-v03--deliveries--si-ep04-verifier-paradox-v03--B---si-ep04-verifier-paradox-v03-bilibili-120s-4k--95e5b554fd5e.mp4",
+      "backup_release_tag": "final-si-ep04-verifier-paradox-v03-fbbf6de2043c",
+      "backup_release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep04-verifier-paradox-v03-fbbf6de2043c",
+      "backup_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep04-verifier-paradox-v03-fbbf6de2043c/final--si-ep04-verifier-paradox-v03--deliveries--si-ep04-verifier-paradox-v03--B---si-ep04-verifier-paradox-v03-bilibili-120s-4k--95e5b554fd5e.mp4",
+      "materialization": "APFS clonefile for new files; existing independent matches are retained",
+      "verification": "SHA-256 matches archive catalog; stable stat and inode checks passed"
+    },
+    {
+      "source_path": "deliveries/si-ep04-verifier-paradox-v03/小红书/si-ep04-verifier-paradox-v03-xiaohongshu-120s-portrait.mp4",
+      "final_path": "final/si-ep04-verifier-paradox-v03/小红书/si-ep04-verifier-paradox-v03-xiaohongshu-120s-portrait.mp4",
+      "work_id": "si-ep04-verifier-paradox-v03",
+      "title": "神也会自我欺骗 · v3 直观结尾版",
+      "platform": "小红书",
+      "bytes": 52377962,
+      "sha256": "86265036cd83dc690e9e4970aba4984e4f75aa7fa7e0a6f0bbee7d409cf91143",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep04-verifier-paradox-v03-fbbf6de2043c/si-ep04-verifier-paradox-v03--deliveries--si-ep04-verifier-paradox-v03-----si-ep04-verifier-paradox-v03-xiaohongshu-120s-portrait--86265036cd83.mp4",
+      "backup_release_tag": "final-si-ep04-verifier-paradox-v03-fbbf6de2043c",
+      "backup_release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep04-verifier-paradox-v03-fbbf6de2043c",
+      "backup_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep04-verifier-paradox-v03-fbbf6de2043c/final--si-ep04-verifier-paradox-v03--deliveries--si-ep04-verifier-paradox-v03-----si-ep04-verifier-paradox-v03-xiaohongshu-120s-portrait--86265036cd83.mp4",
       "materialization": "APFS clonefile for new files; existing independent matches are retained",
       "verification": "SHA-256 matches archive catalog; stable stat and inode checks passed"
     },

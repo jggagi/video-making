@@ -1,0 +1,22 @@
+{
+  "landscape": {
+    "frames": 900,
+    "fps": "60/1",
+    "video_seconds": 15,
+    "width": 1280,
+    "height": 720,
+    "audio_codec": "aac",
+    "audio_hz": "48000",
+    "note": "audio re-encoded for preview only; final uses complete shared AAC"
+  },
+  "portrait": {
+    "frames": 900,
+    "fps": "60/1",
+    "video_seconds": 15,
+    "width": 720,
+    "height": 1280,
+    "audio_codec": "aac",
+    "audio_hz": "48000",
+    "note": "audio re-encoded for preview only; final uses complete shared AAC"
+  }
+}

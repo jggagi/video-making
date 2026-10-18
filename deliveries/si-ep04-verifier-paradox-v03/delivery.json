@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "title": "神也会自我欺骗 · v3 直观结尾版",
+  "slug": "si-ep04-verifier-paradox-v03",
+  "duration_seconds": 120,
+  "fps": 60,
+  "total_frames": 7200,
+  "script": {
+    "path": "source/script.md",
+    "sha256": "61c63ebe3ecc0e8f1252fc5ca098bce05f5cd9bf56d02df6e8963a6d542d7a01"
+  },
+  "audio": {
+    "mode": "narrated",
+    "master": "project/public/audio/master.wav",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples_per_channel": 5760000,
+    "sha256": "6a73f8c5121f8d1d3ff96f5b4ba3097df66d4b0c217950716fe56f2bc8a74826",
+    "pcm_metrics": {
+      "lufs": -17.2,
+      "true_peak_dbtp": -1.8
+    },
+    "final_aac": {
+      "codec": "aac",
+      "sample_rate": 48000,
+      "channels": 2,
+      "lufs": -17.2,
+      "true_peak_dbtp": -1.7,
+      "packet_sha256": "028f04bf844e5ea83f66d46bdb1d2aaf4fdf55c4728fcea36d65c6a4e6907f34"
+    }
+  },
+  "outputs": {
+    "bilibili": {
+      "path": "B站/si-ep04-verifier-paradox-v03-bilibili-120s-4k.mp4",
+      "width": 3840,
+      "height": 2160,
+      "audio": {
+        "codec": "aac",
+        "sample_rate": 48000,
+        "channels": 2,
+        "lufs": -17.2,
+        "true_peak_dbtp": -1.7
+      },
+      "file_size_bytes": 50952126,
+      "sha256": "95e5b554fd5e2ea4f900f7dfc1590ce24ea36b3b5a09e217a692024577a11cf1"
+    },
+    "xiaohongshu": {
+      "path": "小红书/si-ep04-verifier-paradox-v03-xiaohongshu-120s-portrait.mp4",
+      "width": 2160,
+      "height": 3840,
+      "audio": {
+        "codec": "aac",
+        "sample_rate": 48000,
+        "channels": 2,
+        "lufs": -17.2,
+        "true_peak_dbtp": -1.7
+      },
+      "file_size_bytes": 52377962,
+      "sha256": "86265036cd83dc690e9e4970aba4984e4f75aa7fa7e0a6f0bbee7d409cf91143"
+    }
+  },
+  "qa": {
+    "automated": "PASS",
+    "representative_frames": "encoded_samples_reviewed",
+    "continuous_human_review": "pending",
+    "target_device_playback": "pending",
+    "automated_evidence": "review/media-validation-20261018T152820.848591Z.json",
+    "representative_evidence": "review/representative-review.json",
+    "local_browser": "PASS",
+    "local_browser_evidence": "review/browser-player-qa.json"
+  },
+  "revision": {
+    "version": 3,
+    "derived_from": "si-ep04-verifier-paradox-v02",
+    "scope": "last two scenes only; script, audio, captions and first 105 seconds preserved",
+    "theory": "project/theory-and-visual-model.md"
+  },
+  "production_status": "final_media_validated",
+  "visual_model": {
+    "kind": "Theory-grounded explanatory diagrams with labelled toy values",
+    "references": "project/theory-and-visual-model.md",
+    "data": "project/model-data.json",
+    "data_sha256": "4969f4f328cf8eb9bcd77c359ae6fd36286f31e257274b0432bc2785a35b4a0b"
+  }
+}

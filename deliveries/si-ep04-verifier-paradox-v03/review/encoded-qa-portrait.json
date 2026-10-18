@@ -1,0 +1,329 @@
+{
+  "schema_version": 1,
+  "status": "evidence_collected",
+  "layout": "portrait",
+  "media_path": "小红书/si-ep04-verifier-paradox-v03-xiaohongshu-120s-portrait.mp4",
+  "expected": {
+    "width": 2160,
+    "height": 3840,
+    "fps": 60,
+    "duration_seconds": 120,
+    "total_frames": 7200
+  },
+  "ffprobe": {
+    "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+    "duration_seconds": "120.000000",
+    "video": {
+      "codec_name": "h264",
+      "width": 2160,
+      "height": 3840,
+      "avg_frame_rate": "60/1",
+      "r_frame_rate": "60/1",
+      "nb_frames": "7200",
+      "pix_fmt": "yuv420p",
+      "color_space": "bt709",
+      "color_primaries": "bt709",
+      "color_transfer": "bt709"
+    },
+    "audio": {
+      "codec_name": "aac",
+      "sample_rate": "48000",
+      "channels": 2,
+      "channel_layout": "stereo"
+    },
+    "metadata_checks": {
+      "dimensions": true,
+      "fps_60": true,
+      "pixel_format_yuv420p": true,
+      "colorspace_bt709": true,
+      "color_primaries_bt709": true,
+      "color_transfer_bt709": true
+    }
+  },
+  "loudness": {
+    "measurement": "FFmpeg ebur128=peak=true on the encoded MP4 audio stream",
+    "integrated_lufs": -17.2,
+    "true_peak_dbTP": -1.7
+  },
+  "audio_packet_sha256": {
+    "algorithm": "sha256",
+    "value": "028f04bf844e5ea83f66d46bdb1d2aaf4fdf55c4728fcea36d65c6a4e6907f34"
+  },
+  "representative_frames": {
+    "method": "FFmpeg select=eq(n,index) over decoded final MP4 frames",
+    "frame_indexes": [
+      360,
+      960,
+      1500,
+      2190,
+      3040,
+      3900,
+      4590,
+      5500,
+      5740,
+      5760,
+      5790,
+      6090,
+      6340,
+      6500,
+      6720,
+      6960,
+      7100,
+      7199
+    ],
+    "contact_sheet_path": "review/encoded-portrait-contact-sheet.jpg",
+    "contact_tile_width_px": 360,
+    "full_native_keyframe_paths": [
+      "review/encoded-portrait-native-frame-6500.jpg",
+      "review/encoded-portrait-native-frame-7100.jpg"
+    ],
+    "full_native_keyframe_indexes": [
+      6500,
+      7100
+    ]
+  },
+  "motion_heuristic": {
+    "method": "mean absolute pixel difference between Pillow FIND_EDGES grayscale ROI images, resized to at most 640x480",
+    "interval_source": "timeline.json",
+    "roi_pixel_xyxy": [
+      130,
+      880,
+      1830,
+      2580
+    ],
+    "roi_fraction_xyxy": [
+      0.06018518518518518,
+      0.22916666666666666,
+      0.8472222222222222,
+      0.671875
+    ],
+    "pairs": [
+      {
+        "subscene": "明确规则与候选验算",
+        "start_frame": 0,
+        "end_frame": 150,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 2.170230034722222
+      },
+      {
+        "subscene": "明确规则与候选验算",
+        "start_frame": 300,
+        "end_frame": 450,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 6.4942578125
+      },
+      {
+        "subscene": "明确规则与候选验算",
+        "start_frame": 525,
+        "end_frame": 675,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 1.1837934027777777
+      },
+      {
+        "subscene": "明确规则与候选验算",
+        "start_frame": 600,
+        "end_frame": 750,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 1.4811588541666667
+      },
+      {
+        "subscene": "明确规则与候选验算",
+        "start_frame": 900,
+        "end_frame": 1050,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 1.3788020833333334
+      },
+      {
+        "subscene": "检验成本与延迟",
+        "start_frame": 1200,
+        "end_frame": 1350,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 1.3051996527777778
+      },
+      {
+        "subscene": "检验成本与延迟",
+        "start_frame": 1425,
+        "end_frame": 1575,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 1.7467881944444446
+      },
+      {
+        "subscene": "检验成本与延迟",
+        "start_frame": 1500,
+        "end_frame": 1650,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 1.5496223958333333
+      },
+      {
+        "subscene": "代理评分闭环",
+        "start_frame": 1800,
+        "end_frame": 1950,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 2.0716015625
+      },
+      {
+        "subscene": "代理评分闭环",
+        "start_frame": 2100,
+        "end_frame": 2250,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 2.453337673611111
+      },
+      {
+        "subscene": "代理评分闭环",
+        "start_frame": 2175,
+        "end_frame": 2325,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 2.2716102430555556
+      },
+      {
+        "subscene": "代理评分闭环",
+        "start_frame": 2400,
+        "end_frame": 2550,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 1.9944965277777778
+      },
+      {
+        "subscene": "奖励投机具体案例",
+        "start_frame": 2700,
+        "end_frame": 2850,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 4.054761284722222
+      },
+      {
+        "subscene": "奖励投机具体案例",
+        "start_frame": 3000,
+        "end_frame": 3150,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 4.012178819444444
+      },
+      {
+        "subscene": "奖励投机具体案例",
+        "start_frame": 3075,
+        "end_frame": 3225,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 4.279908854166667
+      },
+      {
+        "subscene": "奖励投机具体案例",
+        "start_frame": 3300,
+        "end_frame": 3450,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 4.204565972222222
+      },
+      {
+        "subscene": "代理指标与真实目标分叉",
+        "start_frame": 3600,
+        "end_frame": 3750,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 4.201297743055555
+      },
+      {
+        "subscene": "代理指标与真实目标分叉",
+        "start_frame": 3900,
+        "end_frame": 4050,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 3.9838671875
+      },
+      {
+        "subscene": "代理指标与真实目标分叉",
+        "start_frame": 3975,
+        "end_frame": 4125,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 3.8081163194444443
+      },
+      {
+        "subscene": "代理指标与真实目标分叉",
+        "start_frame": 4200,
+        "end_frame": 4350,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 4.386254340277778
+      },
+      {
+        "subscene": "并行搜索不会自动带来新证据",
+        "start_frame": 4500,
+        "end_frame": 4650,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 5.2472960069444445
+      },
+      {
+        "subscene": "并行搜索不会自动带来新证据",
+        "start_frame": 4800,
+        "end_frame": 4950,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 5.248680555555556
+      },
+      {
+        "subscene": "并行搜索不会自动带来新证据",
+        "start_frame": 4875,
+        "end_frame": 5025,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 5.493680555555556
+      },
+      {
+        "subscene": "并行搜索不会自动带来新证据",
+        "start_frame": 5100,
+        "end_frame": 5250,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 5.587213541666666
+      },
+      {
+        "subscene": "独立物理测量推翻错误参数",
+        "start_frame": 5400,
+        "end_frame": 5550,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 2.9800694444444447
+      },
+      {
+        "subscene": "独立物理测量推翻错误参数",
+        "start_frame": 5700,
+        "end_frame": 5850,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 11.639205729166667
+      },
+      {
+        "subscene": "独立物理测量推翻错误参数",
+        "start_frame": 5775,
+        "end_frame": 5925,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 4.54359375
+      },
+      {
+        "subscene": "独立物理测量推翻错误参数",
+        "start_frame": 6000,
+        "end_frame": 6150,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 3.143806423611111
+      },
+      {
+        "subscene": "直观看到预测被实测校准",
+        "start_frame": 6300,
+        "end_frame": 6450,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 5.145182291666667
+      },
+      {
+        "subscene": "直观看到预测被实测校准",
+        "start_frame": 6540,
+        "end_frame": 6690,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 4.178181423611111
+      },
+      {
+        "subscene": "直观看到预测被实测校准",
+        "start_frame": 6600,
+        "end_frame": 6750,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 4.022200520833334
+      }
+    ],
+    "pair_contact_sheet_path": "review/encoded-portrait-pair-contact-sheet.jpg",
+    "content_scope": "Stage-only crop; excludes overlay HUD and captions, while semantic labels drawn inside the diagrams remain included.",
+    "limitation": "Numeric edge differences are visual-change heuristics only; nonzero values do not prove meaningful semantic or continuous motion."
+  },
+  "acceptance_status": "NOT_EVALUATED",
+  "cross_layout_audio_packet_hash": {
+    "same_encoded_audio_packets": true,
+    "landscape_sha256": "028f04bf844e5ea83f66d46bdb1d2aaf4fdf55c4728fcea36d65c6a4e6907f34",
+    "portrait_sha256": "028f04bf844e5ea83f66d46bdb1d2aaf4fdf55c4728fcea36d65c6a4e6907f34"
+  }
+}

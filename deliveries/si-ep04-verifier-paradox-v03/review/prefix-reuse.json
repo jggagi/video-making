@@ -1,0 +1,38 @@
+{
+  "cut_frame": 6300,
+  "cut_seconds": 105,
+  "audio": "separately muxed intact; never concatenated",
+  "outputs": {
+    "bilibili": {
+      "source_path": "si-ep04-verifier-paradox-v02/B站/si-ep04-verifier-paradox-v02-bilibili-120s-4k.mp4",
+      "source_sha256": "89637a2afe80d75063a8b49887a4484a688637e9e104c669d4417bc2c5ffe9e3",
+      "native_tail_sha256": "0d8dcd211695b0ea8ea2e7e8dfccb161b26371efa81e4981ab634e60b4456cf6",
+      "packet_count": 7200,
+      "prefix_packets_identical": true,
+      "tail_packets_identical_at_105s_offset": true,
+      "all_7200_pts_contiguous_and_unique": true,
+      "all_dts_contiguous": true,
+      "tail_starts_with_keyframe": true,
+      "prefix_packet_sequence_sha256": "ea0fc12a2fbf8c803c73558d73d0efa543d49cbc47567080baa79b43ca7623c2",
+      "compatible_extradata_sha256": "SHA256:c729b73af44800322acd608e62b5ca977caa54a7451e8c2a08fe183705790a69",
+      "duration_seconds": 120,
+      "status": "PASS"
+    },
+    "xiaohongshu": {
+      "source_path": "si-ep04-verifier-paradox-v02/小红书/si-ep04-verifier-paradox-v02-xiaohongshu-120s-portrait.mp4",
+      "source_sha256": "61a9935ef4daa810e7c8d6fe28efeecb5e98edbc3d112bf1c9ad4b17aab94fe0",
+      "native_tail_sha256": "a054edac5938277cb3cd239f37f005e3f2b0bc3d2905cec1c96ba28fb681e531",
+      "packet_count": 7200,
+      "prefix_packets_identical": true,
+      "tail_packets_identical_at_105s_offset": true,
+      "all_7200_pts_contiguous_and_unique": true,
+      "all_dts_contiguous": true,
+      "tail_starts_with_keyframe": true,
+      "prefix_packet_sequence_sha256": "21f61be5adbe13daff0f5ef4b3e9b15330300f5412aae338873f0ff43c5ba255",
+      "compatible_extradata_sha256": "SHA256:854cead7534c3cb4f7b37dba6e505feefd23dbbef6e9f65678eb107020fc8d82",
+      "duration_seconds": 120,
+      "status": "PASS"
+    }
+  },
+  "status": "PASS"
+}

@@ -1,0 +1,103 @@
+{
+  "master_sha256": "6a73f8c5121f8d1d3ff96f5b4ba3097df66d4b0c217950716fe56f2bc8a74826",
+  "aac_sha256": "b8b925e309dca18b48ffa5f9c7105b5b961c145400b66c99fdd06877fcbd012d",
+  "aac_packet_sha256": "SHA256=028f04bf844e5ea83f66d46bdb1d2aaf4fdf55c4728fcea36d65c6a4e6907f34",
+  "loudness": {
+    "integratedLUFS": -17.2,
+    "truePeakDBTP": -1.7
+  },
+  "ffprobe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "aac",
+        "codec_long_name": "AAC (Advanced Audio Coding)",
+        "profile": "LC",
+        "codec_type": "audio",
+        "codec_tag_string": "mp4a",
+        "codec_tag": "0x6134706d",
+        "sample_fmt": "fltp",
+        "sample_rate": "48000",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "bits_per_sample": 0,
+        "initial_padding": 0,
+        "id": "0x1",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/48000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 5760000,
+        "duration": "120.000000",
+        "bit_rate": "283237",
+        "nb_frames": "5626",
+        "extradata_size": 5,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "SoundHandler",
+          "vendor_id": "[0][0][0][0]"
+        }
+      }
+    ],
+    "format": {
+      "filename": "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep04-verifier-paradox-v03/project/out/shared-delivery.m4a",
+      "nb_streams": 1,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "120.000000",
+      "size": "4272680",
+      "bit_rate": "284845",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "M4A ",
+        "minor_version": "512",
+        "compatible_brands": "M4A isomiso2",
+        "encoder": "Lavf62.3.100"
+      }
+    }
+  },
+  "outputs": {
+    "bilibili": {
+      "path": "B站/si-ep04-verifier-paradox-v03-bilibili-120s-4k.mp4",
+      "video_packet_sha256_before": "SHA256=00a6b507f16dfdb7e2eee2aeafa64453a84479dcf123ba874b81a57d000e44a6",
+      "video_packet_sha256_after": "SHA256=00a6b507f16dfdb7e2eee2aeafa64453a84479dcf123ba874b81a57d000e44a6",
+      "video_unchanged": true,
+      "audio_packet_sha256": "SHA256=028f04bf844e5ea83f66d46bdb1d2aaf4fdf55c4728fcea36d65c6a4e6907f34",
+      "sha256": "95e5b554fd5e2ea4f900f7dfc1590ce24ea36b3b5a09e217a692024577a11cf1"
+    },
+    "xiaohongshu": {
+      "path": "小红书/si-ep04-verifier-paradox-v03-xiaohongshu-120s-portrait.mp4",
+      "video_packet_sha256_before": "SHA256=f242c4082ca47f1117da355f74793ee00c96a7004bfd43aec064407e6e0f9425",
+      "video_packet_sha256_after": "SHA256=f242c4082ca47f1117da355f74793ee00c96a7004bfd43aec064407e6e0f9425",
+      "video_unchanged": true,
+      "audio_packet_sha256": "SHA256=028f04bf844e5ea83f66d46bdb1d2aaf4fdf55c4728fcea36d65c6a4e6907f34",
+      "sha256": "86265036cd83dc690e9e4970aba4984e4f75aa7fa7e0a6f0bbee7d409cf91143"
+    }
+  },
+  "status": "BOTH_OUTPUTS_SAME_AAC_VERIFIED"
+}

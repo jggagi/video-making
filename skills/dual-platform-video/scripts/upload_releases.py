@@ -369,7 +369,18 @@ def verify_release_inventory(release: dict[str, Any], work: dict[str, Any]) -> l
     return verified
 
 
-def release_notes() -> str:
+def release_notes(work: dict[str, Any] | None = None) -> str:
+    if work is not None and work["release_tag"].startswith("final-"):
+        return (
+            "Final finished-video backups for jggagi/video-making.\n\n"
+            "See final/README.md and final/backup-catalog.json for the classified "
+            "local paths, exact byte sizes and SHA-256 hashes. These assets restore "
+            "directly into final/<work>/<platform>/.\n\n"
+            "Restore with: python3 scripts/fetch-archive-assets.py "
+            "--catalog final/backup-catalog.json --download\n\n"
+            "Historical editions retain their original specifications; backing "
+            "them up does not imply new human or device acceptance.\n"
+        )
     return (
         "Film media and editable project archives for jggagi/video-making.\n\n"
         "See archive/catalog.json and the work directory for exact dimensions, durations, "
@@ -380,7 +391,7 @@ def release_notes() -> str:
 
 def create_release(work: dict[str, Any], target: str) -> None:
     with tempfile.NamedTemporaryFile(mode="w", encoding="utf-8", suffix=".md") as notes:
-        notes.write(release_notes())
+        notes.write(release_notes(work))
         notes.flush()
         result = run_gh([
             "release", "create", work["release_tag"], "--repo", REPOSITORY,

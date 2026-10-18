@@ -20,8 +20,16 @@ to B站/小红书 accounts or changing repository visibility/settings.
   `python3 scripts/build-final-library.py` on this Mac to refresh that library.
   It retains every formal historical version and excludes previews, drafts,
   source clips and ZIPs. Use verified APFS clones, preserve original paths,
-  and never overwrite a divergent file. Keep its README/index in Git; movies
-  remain ignored and are already stored in the existing Releases.
+  and never overwrite a divergent file. Q also requires a GitHub final backup:
+  keep `final/README.md`, `final/index.json` and `final/backup-catalog.json` in
+  Git, and upload the actual final movies to the dedicated per-work `final-*`
+  Releases using that backup catalog. Movies remain ignored in ordinary Git.
+  After the source commit is pushed, run the existing uploader against both
+  catalogs, with a separate `--receipt` for the final backup. Verify every final
+  asset's remote size/SHA-256 and record `final/backup-verification.json` bound
+  to the current backup-catalog hash. Matching assets are skipped; new works
+  add their own backups without overwriting previous versions. Local final
+  and verified GitHub final backups are both required before delivery.
 - Keep skill/source/assets/subtitles/compact QA in Git. MP4/MOV/WEBM and project
   ZIPs live in this repository's Releases, indexed by `archive/catalog.json` and
   per-work/platform README files. Do not put large movies into ordinary Git.

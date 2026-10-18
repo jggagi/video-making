@@ -12,6 +12,7 @@ Q 本地 Mac 的现有仓库位于 `/Users/guoq/Documents/ChatGPT/video`。先�
 - 历史作品使用 `deliveries/legacy-<作品>/`，记录原版实际参数，不能为套用新技能擅自改成当前目标时长或伪造不存在的竖屏版。
 - `archive/catalog.json` 记录每个资产的原路径、Release 文件名、字节数、SHA-256、实测画面参数与下载 URL。所有可恢复文件均保留原来的工程相对路径。
 - 作品和平台的索引 README、`archive.json`、总清单由脚本生成；创作说明写在 `project/brief.md`，人工验收写在 `review/acceptance.md`，不要把手写内容放入生成索引。归档器保留并单列工程内的视频素材，不能将背景片段误列为最终平台成片。
+- Q要求另有统一的final成片备份：本地 `final/` 按作品版本/平台保存实际文件；GitHub `final/` 保存索引与恢复清单，实际视频另上传到专用的每作品 `final-*` Releases。它们是独立的云端final资产，不改变原作品Release及原工程路径。大电影仍不放入普通Git历史。
 
 ## 每次完成作品后
 
@@ -22,5 +23,19 @@ Q 本地 Mac 的现有仓库位于 `/Users/guoq/Documents/ChatGPT/video`。先�
 5. 用相同 uploader 加 `--apply --target <已push的完整commit SHA>` 上传。先创建 draft Release，再逐文件上传并核对远端大小及 SHA-256 digest，全部通过后公开该 Release。不得在上传不完整时声称归档完成。
 6. 如遇中断，修复实际原因后重跑同一清单；已验证相同内容会跳过。遇到同名但哈希不同的远端文件，保留旧文件并使用新作品版本/tag，不能 `--clobber`。
 7. 交付时同时提供本地两版视频、GitHub commit、作品 Release 链接及远端核对结果。只有本地 commit、push、Release 上传全部成功，才说“已同步到 GitHub”。
+
+## final 本地与GitHub双份留存
+
+更新总目录后，在本机运行 `python3 scripts/build-final-library.py`。脚本从正式平台成片生成本地APFS克隆、`final/index.json`、`final/README.md` 和兼容现有上传器的 `final/backup-catalog.json`，排除样片、工程素材和ZIP。保留原路径和所有正式历史版本；目标内容不同则停止，不覆盖。APFS克隆与原件在同一块盘上，云端备份需要单独完成。
+
+先对final备份清单运行上传器默认dry-run。将源码、清单、索引提交并push后，执行：
+
+```sh
+python3 skills/dual-platform-video/scripts/upload_releases.py --catalog final/backup-catalog.json --root . --apply --target <已push完整commit-SHA> --receipt archive/upload-receipt-final-<完整commit-SHA>.json
+```
+
+为final使用单独receipt，避免与同commit的作品归档记录互相替代。每个 `final-*` Release仅含该作品正式平台视频；未来作品新增对应备份，已存在且匹配的资产直接跳过，上传失败可重跑，不删除或覆盖旧资产。
+
+公开后逐项核对远端大小、SHA-256 digest与完整资产集合，保存 `final/backup-verification.json`，记录当前backup catalog散列、Release及资产身份。清单变化后，旧记录不能代表新增影片已经备份。只有本地final文件和当前云端final资产都匹配，才宣布双份留存完成。单独恢复final目录可运行 `python3 scripts/fetch-archive-assets.py --catalog final/backup-catalog.json --download`，下载器保留目录结构并验证散列。
 
 用户以后调用本技能制作新片时，继续执行此同步约定。没有新作品产生时不创建后台任务、定时器或无关提交。上传失败时保留本地交付与可续传状态，明确报告实际剩余项。

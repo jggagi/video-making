@@ -13,6 +13,9 @@
       "bytes": 183109096,
       "sha256": "2713a7cd2a0bd049476cbe8a561c22995027b24e3041cfcc8902966b70c13ff8",
       "download_url": "https://github.com/jggagi/video-making/releases/download/archive-lanting-v1/lanting--out--extended------1080p--2713a7cd2a0b.mp4",
+      "backup_release_tag": "final-lanting-f250ec5e6ece",
+      "backup_release_url": "https://github.com/jggagi/video-making/releases/tag/final-lanting-f250ec5e6ece",
+      "backup_download_url": "https://github.com/jggagi/video-making/releases/download/final-lanting-f250ec5e6ece/final--lanting--out--extended------1080p--2713a7cd2a0b.mp4",
       "materialization": "APFS clonefile for new files; existing independent matches are retained",
       "verification": "SHA-256 matches archive catalog; stable stat and inode checks passed"
     },
@@ -25,6 +28,9 @@
       "bytes": 781248818,
       "sha256": "24fdd06c726cbfede58d4755c348b4b8400808aff6b737407d83a403e1a21c78",
       "download_url": "https://github.com/jggagi/video-making/releases/download/archive-lanting-v1/lanting--out--extended------4K--24fdd06c726c.mp4",
+      "backup_release_tag": "final-lanting-f250ec5e6ece",
+      "backup_release_url": "https://github.com/jggagi/video-making/releases/tag/final-lanting-f250ec5e6ece",
+      "backup_download_url": "https://github.com/jggagi/video-making/releases/download/final-lanting-f250ec5e6ece/final--lanting--out--extended------4K--24fdd06c726c.mp4",
       "materialization": "APFS clonefile for new files; existing independent matches are retained",
       "verification": "SHA-256 matches archive catalog; stable stat and inode checks passed"
     },
@@ -37,6 +43,9 @@
       "bytes": 143791306,
       "sha256": "76cfb10b2e73050786170a350ec972af6331823d6a8af47215af60d067818d36",
       "download_url": "https://github.com/jggagi/video-making/releases/download/archive-lanting-v1/lanting--out--museum------1080p--76cfb10b2e73.mp4",
+      "backup_release_tag": "final-lanting-f250ec5e6ece",
+      "backup_release_url": "https://github.com/jggagi/video-making/releases/tag/final-lanting-f250ec5e6ece",
+      "backup_download_url": "https://github.com/jggagi/video-making/releases/download/final-lanting-f250ec5e6ece/final--lanting--out--museum------1080p--76cfb10b2e73.mp4",
       "materialization": "APFS clonefile for new files; existing independent matches are retained",
       "verification": "SHA-256 matches archive catalog; stable stat and inode checks passed"
     },
@@ -49,6 +58,9 @@
       "bytes": 629677206,
       "sha256": "2471e8382db5674898443cdc4800c43182e8a436a1bb591ae19b0e54b51aa19d",
       "download_url": "https://github.com/jggagi/video-making/releases/download/archive-lanting-v1/lanting--out--museum------4K--2471e8382db5.mp4",
+      "backup_release_tag": "final-lanting-f250ec5e6ece",
+      "backup_release_url": "https://github.com/jggagi/video-making/releases/tag/final-lanting-f250ec5e6ece",
+      "backup_download_url": "https://github.com/jggagi/video-making/releases/download/final-lanting-f250ec5e6ece/final--lanting--out--museum------4K--2471e8382db5.mp4",
       "materialization": "APFS clonefile for new files; existing independent matches are retained",
       "verification": "SHA-256 matches archive catalog; stable stat and inode checks passed"
     },
@@ -61,6 +73,9 @@
       "bytes": 182675421,
       "sha256": "c448d04264628266a7080b62264d552571f3813078380eac3b666b21d43533d4",
       "download_url": "https://github.com/jggagi/video-making/releases/download/archive-lanting-v1/lanting--out--time-bridge------1080p--c448d0426462.mp4",
+      "backup_release_tag": "final-lanting-f250ec5e6ece",
+      "backup_release_url": "https://github.com/jggagi/video-making/releases/tag/final-lanting-f250ec5e6ece",
+      "backup_download_url": "https://github.com/jggagi/video-making/releases/download/final-lanting-f250ec5e6ece/final--lanting--out--time-bridge------1080p--c448d0426462.mp4",
       "materialization": "APFS clonefile for new files; existing independent matches are retained",
       "verification": "SHA-256 matches archive catalog; stable stat and inode checks passed"
     },
@@ -73,6 +88,9 @@
       "bytes": 770129376,
       "sha256": "8e41a82c51e45b7a0fd8e7692daf189e2174667d9f04e92be68fa94d55a6b188",
       "download_url": "https://github.com/jggagi/video-making/releases/download/archive-lanting-v1/lanting--out--time-bridge------4K--8e41a82c51e4.mp4",
+      "backup_release_tag": "final-lanting-f250ec5e6ece",
+      "backup_release_url": "https://github.com/jggagi/video-making/releases/tag/final-lanting-f250ec5e6ece",
+      "backup_download_url": "https://github.com/jggagi/video-making/releases/download/final-lanting-f250ec5e6ece/final--lanting--out--time-bridge------4K--8e41a82c51e4.mp4",
       "materialization": "APFS clonefile for new files; existing independent matches are retained",
       "verification": "SHA-256 matches archive catalog; stable stat and inode checks passed"
     },
@@ -85,6 +103,9 @@
       "bytes": 202565502,
       "sha256": "bebefa8d50433498743e9fbf40e53efa855912eb3775e817e8de65cb8022b2c6",
       "download_url": "https://github.com/jggagi/video-making/releases/download/archive-lanting-v1/lanting--out--bebefa8d5043.mp4",
+      "backup_release_tag": "final-lanting-f250ec5e6ece",
+      "backup_release_url": "https://github.com/jggagi/video-making/releases/tag/final-lanting-f250ec5e6ece",
+      "backup_download_url": "https://github.com/jggagi/video-making/releases/download/final-lanting-f250ec5e6ece/final--lanting--out--bebefa8d5043.mp4",
       "materialization": "APFS clonefile for new files; existing independent matches are retained",
       "verification": "SHA-256 matches archive catalog; stable stat and inode checks passed"
     },
@@ -97,6 +118,9 @@
       "bytes": 34979820,
       "sha256": "671923eda74aab3b09ab723cbb182ebee877eaa286ac49e406ce45dfb721bc7e",
       "download_url": "https://github.com/jggagi/video-making/releases/download/archive-madman-v1/madman--out--madman------v5-1080p--671923eda74a.mp4",
+      "backup_release_tag": "final-madman-3b74dd038604",
+      "backup_release_url": "https://github.com/jggagi/video-making/releases/tag/final-madman-3b74dd038604",
+      "backup_download_url": "https://github.com/jggagi/video-making/releases/download/final-madman-3b74dd038604/final--madman--out--madman------v5-1080p--671923eda74a.mp4",
       "materialization": "APFS clonefile for new files; existing independent matches are retained",
       "verification": "SHA-256 matches archive catalog; stable stat and inode checks passed"
     },
@@ -109,6 +133,9 @@
       "bytes": 57455105,
       "sha256": "56e7dfb8b8dd988eb9927ff8f8b082e993250f3ce252ef1781471a06dbad494d",
       "download_url": "https://github.com/jggagi/video-making/releases/download/archive-madman-v1/madman--out--madman------v1-1080p--56e7dfb8b8dd.mp4",
+      "backup_release_tag": "final-madman-3b74dd038604",
+      "backup_release_url": "https://github.com/jggagi/video-making/releases/tag/final-madman-3b74dd038604",
+      "backup_download_url": "https://github.com/jggagi/video-making/releases/download/final-madman-3b74dd038604/final--madman--out--madman------v1-1080p--56e7dfb8b8dd.mp4",
       "materialization": "APFS clonefile for new files; existing independent matches are retained",
       "verification": "SHA-256 matches archive catalog; stable stat and inode checks passed"
     },
@@ -121,6 +148,9 @@
       "bytes": 57635815,
       "sha256": "7d709339a515cb45d01bfabfd82f7101045e40658b1be79565e851b40303681c",
       "download_url": "https://github.com/jggagi/video-making/releases/download/archive-madman-v1/madman--out--madman------v2-1080p--7d709339a515.mp4",
+      "backup_release_tag": "final-madman-3b74dd038604",
+      "backup_release_url": "https://github.com/jggagi/video-making/releases/tag/final-madman-3b74dd038604",
+      "backup_download_url": "https://github.com/jggagi/video-making/releases/download/final-madman-3b74dd038604/final--madman--out--madman------v2-1080p--7d709339a515.mp4",
       "materialization": "APFS clonefile for new files; existing independent matches are retained",
       "verification": "SHA-256 matches archive catalog; stable stat and inode checks passed"
     },
@@ -133,6 +163,9 @@
       "bytes": 44037667,
       "sha256": "795871b25d54bd7e266842904dfa10247de69603e8035bb0e72e5d9455ab3cfa",
       "download_url": "https://github.com/jggagi/video-making/releases/download/archive-madman-v1/madman--out--madman------v4-1080p--795871b25d54.mp4",
+      "backup_release_tag": "final-madman-3b74dd038604",
+      "backup_release_url": "https://github.com/jggagi/video-making/releases/tag/final-madman-3b74dd038604",
+      "backup_download_url": "https://github.com/jggagi/video-making/releases/download/final-madman-3b74dd038604/final--madman--out--madman------v4-1080p--795871b25d54.mp4",
       "materialization": "APFS clonefile for new files; existing independent matches are retained",
       "verification": "SHA-256 matches archive catalog; stable stat and inode checks passed"
     },
@@ -145,6 +178,9 @@
       "bytes": 128286647,
       "sha256": "088a3369860885d9bbfc3516336799856e260582619565cf13b28296fd8efcf4",
       "download_url": "https://github.com/jggagi/video-making/releases/download/archive-qstory-ep03-v1/qstory-ep03--qstory-ep03--out--QStory-EP03---4K--088a33698608.mp4",
+      "backup_release_tag": "final-qstory-ep03-078e54164654",
+      "backup_release_url": "https://github.com/jggagi/video-making/releases/tag/final-qstory-ep03-078e54164654",
+      "backup_download_url": "https://github.com/jggagi/video-making/releases/download/final-qstory-ep03-078e54164654/final--qstory-ep03--qstory-ep03--out--QStory-EP03---4K--088a33698608.mp4",
       "materialization": "APFS clonefile for new files; existing independent matches are retained",
       "verification": "SHA-256 matches archive catalog; stable stat and inode checks passed"
     },
@@ -157,6 +193,9 @@
       "bytes": 92645526,
       "sha256": "e08c1bc00614201f57b1b1a7c6143d82a1ec9e64958fff69f21cb387e52f6cbb",
       "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-cage-7plus2-v1/si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-1080p--e08c1bc00614.mp4",
+      "backup_release_tag": "final-si-cage-7plus2-7ce13d05c1b6",
+      "backup_release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-cage-7plus2-7ce13d05c1b6",
+      "backup_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-cage-7plus2-7ce13d05c1b6/final--si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-1080p--e08c1bc00614.mp4",
       "materialization": "APFS clonefile for new files; existing independent matches are retained",
       "verification": "SHA-256 matches archive catalog; stable stat and inode checks passed"
     },
@@ -169,6 +208,9 @@
       "bytes": 247421265,
       "sha256": "73195073e6fa96e2cdc90dec0cbf6690bee965d8ba2de0e0fc575cdd4f18bb86",
       "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-cage-7plus2-v1/si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-uhd-v3-4k--73195073e6fa.mp4",
+      "backup_release_tag": "final-si-cage-7plus2-7ce13d05c1b6",
+      "backup_release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-cage-7plus2-7ce13d05c1b6",
+      "backup_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-cage-7plus2-7ce13d05c1b6/final--si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-uhd-v3-4k--73195073e6fa.mp4",
       "materialization": "APFS clonefile for new files; existing independent matches are retained",
       "verification": "SHA-256 matches archive catalog; stable stat and inode checks passed"
     },
@@ -181,6 +223,9 @@
       "bytes": 92669296,
       "sha256": "f6f7b34821e573223f27d5a66ff08dda01e550364a0fef0e502f1a551252d25b",
       "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-cage-7plus2-v1/si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-voiced-v2-1080p--f6f7b34821e5.mp4",
+      "backup_release_tag": "final-si-cage-7plus2-7ce13d05c1b6",
+      "backup_release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-cage-7plus2-7ce13d05c1b6",
+      "backup_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-cage-7plus2-7ce13d05c1b6/final--si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-voiced-v2-1080p--f6f7b34821e5.mp4",
       "materialization": "APFS clonefile for new files; existing independent matches are retained",
       "verification": "SHA-256 matches archive catalog; stable stat and inode checks passed"
     },
@@ -193,6 +238,9 @@
       "bytes": 14667073,
       "sha256": "7f73b80017c81f25bbbf4bd873906d6e3c183e238ce8acce3c6ebf43b67b7d33",
       "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-cage-7plus2-v1/si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-xhs-v1-1080x1920--7f73b80017c8.mp4",
+      "backup_release_tag": "final-si-cage-7plus2-7ce13d05c1b6",
+      "backup_release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-cage-7plus2-7ce13d05c1b6",
+      "backup_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-cage-7plus2-7ce13d05c1b6/final--si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-xhs-v1-1080x1920--7f73b80017c8.mp4",
       "materialization": "APFS clonefile for new files; existing independent matches are retained",
       "verification": "SHA-256 matches archive catalog; stable stat and inode checks passed"
     },
@@ -205,6 +253,9 @@
       "bytes": 45456126,
       "sha256": "113910360392d5a3c858ec07bb2c03d0b35b79ef61bdb75e162c54ba082c16bc",
       "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-cage-7plus2-v1/si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-xhs-v1-4k--113910360392.mp4",
+      "backup_release_tag": "final-si-cage-7plus2-7ce13d05c1b6",
+      "backup_release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-cage-7plus2-7ce13d05c1b6",
+      "backup_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-cage-7plus2-7ce13d05c1b6/final--si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-xhs-v1-4k--113910360392.mp4",
       "materialization": "APFS clonefile for new files; existing independent matches are retained",
       "verification": "SHA-256 matches archive catalog; stable stat and inode checks passed"
     },
@@ -217,6 +268,9 @@
       "bytes": 210515816,
       "sha256": "4186fdfcd9770f2f216a9b8a023839a0b28058c0b2f5e26ad8239f4ab15a2a81",
       "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep03-million-mind-v02-9517e8e05dfb/si-ep03-million-mind-v02--deliveries--si-ep03-million-mind-v02--B---si-ep03-million-mind-v02-bilibili-120s-4k--4186fdfcd977.mp4",
+      "backup_release_tag": "final-si-ep03-million-mind-v02-9517e8e05dfb",
+      "backup_release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep03-million-mind-v02-9517e8e05dfb",
+      "backup_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep03-million-mind-v02-9517e8e05dfb/final--si-ep03-million-mind-v02--deliveries--si-ep03-million-mind-v02--B---si-ep03-million-mind-v02-bilibili-120s-4k--4186fdfcd977.mp4",
       "materialization": "APFS clonefile for new files; existing independent matches are retained",
       "verification": "SHA-256 matches archive catalog; stable stat and inode checks passed"
     },
@@ -229,6 +283,9 @@
       "bytes": 163679998,
       "sha256": "54d248dab782e4bc89658a4354019ad58a7ec51577b8cd3a4db21eeeaf86f0eb",
       "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep03-million-mind-v02-9517e8e05dfb/si-ep03-million-mind-v02--deliveries--si-ep03-million-mind-v02-----si-ep03-million-mind-v02-xiaohongshu-120s-portrait--54d248dab782.mp4",
+      "backup_release_tag": "final-si-ep03-million-mind-v02-9517e8e05dfb",
+      "backup_release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep03-million-mind-v02-9517e8e05dfb",
+      "backup_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep03-million-mind-v02-9517e8e05dfb/final--si-ep03-million-mind-v02--deliveries--si-ep03-million-mind-v02-----si-ep03-million-mind-v02-xiaohongshu-120s-portrait--54d248dab782.mp4",
       "materialization": "APFS clonefile for new files; existing independent matches are retained",
       "verification": "SHA-256 matches archive catalog; stable stat and inode checks passed"
     },
@@ -241,6 +298,9 @@
       "bytes": 82206028,
       "sha256": "4ef2326bf22b443c58e6d9eff8379ac73ac450d0bb37c711853c1db4ba722e31",
       "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-eternity-v1/si-eternity--si-eternity--out--one-blink-ten-millennia-v3--4ef2326bf22b.mp4",
+      "backup_release_tag": "final-si-eternity-66d480b1c859",
+      "backup_release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-eternity-66d480b1c859",
+      "backup_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-eternity-66d480b1c859/final--si-eternity--si-eternity--out--one-blink-ten-millennia-v3--4ef2326bf22b.mp4",
       "materialization": "APFS clonefile for new files; existing independent matches are retained",
       "verification": "SHA-256 matches archive catalog; stable stat and inode checks passed"
     },
@@ -253,6 +313,9 @@
       "bytes": 81031943,
       "sha256": "cfe44315e6cbc55b17d316c2e56f9ee78411f56a42bea07240c1a4b4a8c3e957",
       "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-eternity-v1/si-eternity--si-eternity--out--the-half-second-eternity-voiced-v2--cfe44315e6cb.mp4",
+      "backup_release_tag": "final-si-eternity-66d480b1c859",
+      "backup_release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-eternity-66d480b1c859",
+      "backup_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-eternity-66d480b1c859/final--si-eternity--si-eternity--out--the-half-second-eternity-voiced-v2--cfe44315e6cb.mp4",
       "materialization": "APFS clonefile for new files; existing independent matches are retained",
       "verification": "SHA-256 matches archive catalog; stable stat and inode checks passed"
     },
@@ -265,6 +328,9 @@
       "bytes": 76671341,
       "sha256": "5b4fa1a41cecf13c779eed6b60fdb9eb54aa4c3f5940d25881f5ae45a9378f88",
       "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-eternity-v1/si-eternity--si-eternity--out--the-half-second-eternity--5b4fa1a41cec.mp4",
+      "backup_release_tag": "final-si-eternity-66d480b1c859",
+      "backup_release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-eternity-66d480b1c859",
+      "backup_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-eternity-66d480b1c859/final--si-eternity--si-eternity--out--the-half-second-eternity--5b4fa1a41cec.mp4",
       "materialization": "APFS clonefile for new files; existing independent matches are retained",
       "verification": "SHA-256 matches archive catalog; stable stat and inode checks passed"
     },
@@ -277,6 +343,9 @@
       "bytes": 64272277,
       "sha256": "94da6f6fb30ce1cc8e555a0068b559d21bed894e14150743cf33591f974e629a",
       "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-eternity-v1/si-eternity--si-eternity--out--one-blink-ten-millennia-portrait-v4--94da6f6fb30c.mp4",
+      "backup_release_tag": "final-si-eternity-66d480b1c859",
+      "backup_release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-eternity-66d480b1c859",
+      "backup_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-eternity-66d480b1c859/final--si-eternity--si-eternity--out--one-blink-ten-millennia-portrait-v4--94da6f6fb30c.mp4",
       "materialization": "APFS clonefile for new files; existing independent matches are retained",
       "verification": "SHA-256 matches archive catalog; stable stat and inode checks passed"
     }

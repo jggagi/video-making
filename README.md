@@ -5,7 +5,7 @@
 
 - [剧本双平台短片 Skill](skills/dual-platform-video/SKILL.md)：新作默认两版均为 **120 秒、原生 4K**，B站 **3840×2160 横屏**，小红书 **2160×3840 竖屏**；共用素材、配音与时间轴，分别设计排版，减少重复生成消耗。
 - [全部成片与工程下载](https://github.com/jggagi/video-making/releases)：每部作品独立 Release，包含完整成片、历史版本、样片与工程 ZIP。
-- [本地 final 成片目录](final/README.md)：全部正式成片统一按作品、版本和平台整理，排除样片、草稿和工程 ZIP；每份同时提供 GitHub 下载入口。
+- [final 成片与备份目录](final/README.md)：本地保留全部正式成片，GitHub专用 `final-*` Releases 保存对应实际视频；按作品、版本和平台整理，排除样片、草稿和工程 ZIP。
 - [全部作品索引](deliveries/README.md)：包含历史作品与之后的新作，每次归档自动更新。
 - [机器可读媒体目录](archive/catalog.json)：当前全部媒体与工程资产的逐文件 SHA-256、大小及实测规格。
 - [本次历史归档的远端核对记录](archive/verification.json)：全部 51 个资产均已公开，远端大小、SHA-256 和下载地址与清单一致，并抽测了公开视频的下载恢复。
@@ -37,7 +37,16 @@ python3 scripts/fetch-archive-assets.py --work si-eternity --download
 
 省略 `--work` 会选中全部作品。下载器验证大小与 SHA-256，并恢复到原始相对路径；已存在且匹配的文件跳过，不覆盖不同内容。
 
-本机统一观看目录是 `final/`。下载或完成新片后，运行 `python3 scripts/build-final-library.py`，按目录清单核对 SHA-256，并用 macOS APFS 克隆建立可直接播放的独立文件；不移动原工程输出、不建立指向源视频的硬链接，也不额外完整复制数GB数据。所有正式历史版本保留，版本名沿用文件名或作品目录。APFS克隆仍在同一块盘上，不是独立备份；GitHub恢复入口保留在每个文件的索引中。
+本机统一观看目录是 `final/`。下载或完成新片后，运行 `python3 scripts/build-final-library.py`，按目录清单核对 SHA-256，并用 macOS APFS 克隆建立可直接播放的独立文件；不移动原工程输出、不建立指向源视频的硬链接，也不额外完整复制数GB数据。所有正式历史版本保留，版本名沿用文件名或作品目录。APFS克隆仍在同一块盘上；另一份云端视频备份保存在本仓库专用 `final-*` Releases，`final/backup-catalog.json` 保存恢复到相同目录结构的清单，`final/backup-verification.json` 记录当前清单的远端大小与SHA-256核对结果。
+
+只恢复final成片库时，在克隆仓库后运行：
+
+```sh
+python3 scripts/fetch-archive-assets.py --catalog final/backup-catalog.json
+python3 scripts/fetch-archive-assets.py --catalog final/backup-catalog.json --download
+```
+
+默认命令只预览；`--download` 校验大小和SHA-256后恢复 `final/<作品>/<平台>/<文件名>`。匹配文件跳过，不覆盖不同内容。
 
 ## 后续作品同步
 
@@ -47,11 +56,13 @@ python3 scripts/fetch-archive-assets.py --work si-eternity --download
 python3 scripts/build-archive-catalog.py
 python3 scripts/build-final-library.py
 python3 skills/dual-platform-video/scripts/upload_releases.py --catalog archive/catalog.json --root .
+python3 skills/dual-platform-video/scripts/upload_releases.py --catalog final/backup-catalog.json --root .
 # 确认源码提交已 push 后，再执行：
 python3 skills/dual-platform-video/scripts/upload_releases.py --catalog archive/catalog.json --root . --apply --target <完整commit-SHA>
+python3 skills/dual-platform-video/scripts/upload_releases.py --catalog final/backup-catalog.json --root . --apply --target <完整commit-SHA> --receipt archive/upload-receipt-final-<完整commit-SHA>.json
 ```
 
-上传会先创建 draft，逐项核对远端大小及 SHA-256 后再公开 Release。中断可续传；不会覆盖同名而内容不同的旧文件。具体授权和完成条件见 [GitHub 归档约定](skills/dual-platform-video/references/github-archive.md) 与 [AGENTS.md](AGENTS.md)。
+两个上传集合分别保留原作品归档和final成片备份。上传会先创建 draft，逐项核对远端大小及 SHA-256 后再公开 Release。中断可续传，已核验资产跳过；不会覆盖同名而内容不同的旧文件。final备份完成后保存绑定当前清单散列的远端核对记录；仅有索引或本地文件时不能标为云端备份完成。具体授权和完成条件见 [GitHub 归档约定](skills/dual-platform-video/references/github-archive.md) 与 [AGENTS.md](AGENTS.md)。
 
 ---
 

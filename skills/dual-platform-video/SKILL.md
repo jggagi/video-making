@@ -24,6 +24,8 @@ description: "把用户剧本制作成 B站 4K 横屏与小红书 4K 竖屏视�
 
 本技能已按用户要求绑定 [jggagi/video-making](https://github.com/jggagi/video-making) 归档；默认输出根目录为该仓库的 `deliveries/`，用户指定位置时使用指定位置并按归档约定同步。**一部作品一个子目录，作品内再分 `B站/` 和 `小红书/`。** 后续作品不能混在前一部目录；修订使用新的版本目录，例如 `作品名-v02`，保留旧交付。位置、存储与上传步骤见 [GitHub 归档与后续同步](references/github-archive.md)。
 
+在该仓库制作时，Q还要求保留两份final交付：本地 `final/<作品版本>/<平台>/` 的可播放文件，以及GitHub专用 `final-*` Releases 中的实际成片备份。更新总清单后用仓库 `scripts/build-final-library.py` 整理本地库并生成 `final/backup-catalog.json`；按归档参考文档提交、上传并核验该备份清单，保留原工程路径。只有当前清单的所有云端资产大小与SHA-256匹配，才把GitHub final备份标为完成。
+
 以下目录以默认 `T = 120` 为例；其他时长的文件名随 `T` 改变。
 
 ```text

@@ -14,6 +14,7 @@ import shutil
 import subprocess
 import sys
 import tempfile
+import time
 from typing import Any
 from urllib.parse import quote
 
@@ -322,6 +323,18 @@ def get_named_asset(release: dict[str, Any], name: str, tag: str) -> dict[str, A
     return matches[0] if matches else None
 
 
+def wait_for_release(tag: str, *, published: bool = False) -> dict[str, Any] | None:
+    """Bounded reads for GitHub's brief create/publish visibility delay."""
+    release = None
+    for delay in (0, 1, 2, 4):
+        if delay:
+            time.sleep(delay)
+        release = get_release(tag)
+        if release is not None and (not published or not release["draft"]):
+            return release
+    return release
+
+
 def verify_remote_asset(remote: dict[str, Any], asset: dict[str, Any], tag: str) -> None:
     expected_digest = f"sha256:{asset['sha256']}"
     if remote.get("size") != asset["bytes"] or remote.get("digest") != expected_digest:
@@ -426,7 +439,7 @@ def apply_upload(works: list[dict[str, Any]], target: str, receipt_path: Path) -
             release = get_release(tag)
             if release is None:
                 create_release(work, target)
-                release = get_release(tag)
+                release = wait_for_release(tag)
                 if release is None:
                     raise UploadError(f"Created release {tag} could not be found afterward.")
             receipt_work = receipt["works"][index]
@@ -462,7 +475,7 @@ def apply_upload(works: list[dict[str, Any]], target: str, receipt_path: Path) -
                 ])
                 if edited.returncode != 0:
                     raise UploadError(f"Could not publish verified draft {tag} (gh exit {edited.returncode}).")
-            final_release = get_release(tag)
+            final_release = wait_for_release(tag, published=True)
             if final_release is None:
                 raise UploadError(f"Release {tag} disappeared before final inventory verification.")
             final_assets = verify_release_inventory(final_release, work)

@@ -176,5 +176,6 @@
       },
       "download_url": "https://github.com/jggagi/video-making/releases/download/archive-madman-v1/madman--out--madman------v4-1080p--795871b25d54.mp4"
     }
-  ]
+  ],
+  "generated_by": "scripts/build-archive-catalog.py"
 }

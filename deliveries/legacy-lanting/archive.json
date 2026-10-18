@@ -176,5 +176,6 @@
       },
       "download_url": "https://github.com/jggagi/video-making/releases/download/archive-lanting-v1/lanting--out--bebefa8d5043.mp4"
     }
-  ]
+  ],
+  "generated_by": "scripts/build-archive-catalog.py"
 }

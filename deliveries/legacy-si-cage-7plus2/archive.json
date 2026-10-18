@@ -226,5 +226,6 @@
       },
       "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-cage-7plus2-v1/si-cage-7plus2--si-cage-7plus2--out--xhs-v1-opening-preview--a7f45013ee1f.mp4"
     }
-  ]
+  ],
+  "generated_by": "scripts/build-archive-catalog.py"
 }

@@ -1,6 +1,7 @@
 {
   "schema_version": 1,
   "repository": "jggagi/video-making",
+  "generated_by": "scripts/build-archive-catalog.py",
   "works": [
     {
       "id": "lanting",

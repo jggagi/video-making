@@ -11,6 +11,7 @@ Q 本地 Mac 的现有仓库位于 `/Users/guoq/Documents/ChatGPT/video`。先�
 - 成片 MP4/MOV/WEBM 与工程 ZIP 保存到**同一仓库的 Releases**。每部作品/版本一个独立 tag；`deliveries/<作品版本>/B站/` 和 `小红书/` 的索引提供对应下载链接。本机视频仍留在原交付目录。
 - 历史作品使用 `deliveries/legacy-<作品>/`，记录原版实际参数，不能为套用新技能擅自改成120秒或伪造不存在的竖屏版。
 - `archive/catalog.json` 记录每个资产的原路径、Release 文件名、字节数、SHA-256、实测画面参数与下载 URL。所有可恢复文件均保留原来的工程相对路径。
+- 作品和平台的索引 README、`archive.json`、总清单由脚本生成；创作说明写在 `project/brief.md`，人工验收写在 `review/acceptance.md`，不要把手写内容放入生成索引。归档器保留并单列工程内的视频素材，不能将背景片段误列为最终平台成片。
 
 ## 每次完成作品后
 

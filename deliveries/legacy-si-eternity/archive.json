@@ -199,5 +199,6 @@
       },
       "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-eternity-v1/si-eternity--si-eternity--out--the-half-second-eternity--5b4fa1a41cec.mp4"
     }
-  ]
+  ],
+  "generated_by": "scripts/build-archive-catalog.py"
 }

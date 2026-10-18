@@ -280,10 +280,29 @@ def is_not_found(result: subprocess.CompletedProcess[str]) -> bool:
 def get_release(tag: str) -> dict[str, Any] | None:
     result = run_gh(["api", endpoint(tag)])
     if result.returncode != 0:
-        if is_not_found(result):
+        if not is_not_found(result):
+            raise UploadError(f"Release lookup failed for tag {tag} (gh exit {result.returncode}).")
+        # A newly-created draft can have tag_name but no published Git tag yet.
+        # GitHub's by-tag endpoint returns404 for it; the authenticated release
+        # collection includes drafts and lets a retry find the existing object.
+        listed = run_gh(["api", f"repos/{REPOSITORY}/releases?per_page=100", "--paginate", "--slurp"])
+        if listed.returncode != 0:
+            raise UploadError(f"Draft release lookup failed for {tag} (gh exit {listed.returncode}).")
+        try:
+            pages = json.loads(listed.stdout)
+            if not isinstance(pages, list) or any(not isinstance(page, list) for page in pages):
+                raise ValueError("unexpected pagination shape")
+            matches = [item for page in pages for item in page
+                       if isinstance(item, dict) and item.get("tag_name") == tag]
+        except (json.JSONDecodeError, ValueError):
+            raise UploadError("Draft release lookup returned invalid paginated JSON.") from None
+        if len(matches) > 1:
+            raise UploadError(f"Multiple releases use tag {tag}; refusing to guess.")
+        if not matches:
             return None
-        raise UploadError(f"Release lookup failed for tag {tag} (gh exit {result.returncode}).")
-    release = parse_json_output(result, "Release lookup")
+        release = matches[0]
+    else:
+        release = parse_json_output(result, "Release lookup")
     if type(release.get("id")) is not int or release["id"] <= 0:
         raise UploadError(f"Release lookup for tag {tag} returned no valid release id.")
     if release.get("tag_name") != tag:

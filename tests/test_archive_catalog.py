@@ -20,7 +20,7 @@ def fake_probe(path):
     if path.parent.name == 'B站':
         width, height = 3840, 2160
     elif path.parent.name == '小红书':
-        width, height = 1080, 1920
+        width, height = 2160, 3840
     else:
         width, height = 640, 360
     duration = 120
@@ -31,6 +31,11 @@ def fake_probe(path):
             manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
             duration = manifest.get('duration_seconds', 120)
             fps = manifest.get('fps', 60)
+            if path.parent.name in {'B站', '小红书'}:
+                key = 'bilibili' if path.parent.name == 'B站' else 'xiaohongshu'
+                output = manifest.get('outputs', {}).get(key, {})
+                width = output.get('width', width)
+                height = output.get('height', height)
             break
     return {
         'width': width,
@@ -43,7 +48,8 @@ def fake_probe(path):
 
 
 def create_work(root, directory_name='森林 时间 🌲-v01', manifest_slug=None,
-                include_xhs=True, duration=120, include_duration=True):
+                include_xhs=True, duration=120, include_duration=True,
+                output_dimensions=None):
     delivery = root / 'deliveries' / directory_name
     (delivery / 'B站').mkdir(parents=True)
     (delivery / '小红书').mkdir()
@@ -62,6 +68,8 @@ def create_work(root, directory_name='森林 时间 🌲-v01', manifest_slug=Non
             'xiaohongshu': {'path': '小红书/final.mp4'},
         },
     }
+    for key, dimensions in (output_dimensions or {}).items():
+        manifest['outputs'][key]['width'], manifest['outputs'][key]['height'] = dimensions
     if include_duration:
         manifest['duration_seconds'] = duration
     (delivery / 'delivery.json').write_text(json.dumps(manifest, ensure_ascii=False), encoding='utf-8')
@@ -132,6 +140,71 @@ class ArchiveCatalogTests(unittest.TestCase):
             }):
                 with self.assertRaisesRegex(ValueError, 'wrong dimensions'):
                     mod.make_asset(root, work, xhs)
+
+    def test_declared_xhs_dimensions_match_and_constrain_final_media(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            create_work(root, output_dimensions={'xiaohongshu': (1080, 1920)})
+            work = mod.discover(root)[0]
+            xhs = next(path for path in work['files'] if path.parent.name == '小红书')
+            with patch.object(mod, 'probe', side_effect=fake_probe):
+                asset = mod.make_asset(root, work, xhs)
+            self.assertEqual((asset['measurements']['width'], asset['measurements']['height']), (1080, 1920))
+
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            create_work(root, output_dimensions={'xiaohongshu': (2160, 3840)})
+            work = mod.discover(root)[0]
+            xhs = next(path for path in work['files'] if path.parent.name == '小红书')
+
+            def legacy_sized_probe(path):
+                measurements = fake_probe(path)
+                if path.parent.name == '小红书':
+                    measurements.update({'width': 1080, 'height': 1920})
+                return measurements
+
+            with patch.object(mod, 'probe', side_effect=legacy_sized_probe):
+                with self.assertRaisesRegex(ValueError, 'wrong dimensions'):
+                    mod.make_asset(root, work, xhs)
+
+    def test_minimal_manifest_accepts_both_supported_xhs_sizes(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            create_work(root)
+            work = mod.discover(root)[0]
+            xhs = next(path for path in work['files'] if path.parent.name == '小红书')
+            with patch.object(mod, 'probe', side_effect=fake_probe):
+                asset = mod.make_asset(root, work, xhs)
+            self.assertEqual((asset['measurements']['width'], asset['measurements']['height']), (2160, 3840))
+
+            def legacy_sized_probe(path):
+                measurements = fake_probe(path)
+                if path.parent.name == '小红书':
+                    measurements.update({'width': 1080, 'height': 1920})
+                return measurements
+
+            with patch.object(mod, 'probe', side_effect=legacy_sized_probe):
+                asset = mod.make_asset(root, work, xhs)
+            self.assertEqual((asset['measurements']['width'], asset['measurements']['height']), (1080, 1920))
+
+    def test_explicit_output_dimensions_reject_partial_noninteger_and_unsupported_pairs(self):
+        invalid = (
+            {'xiaohongshu': {'width': 2160}},
+            {'xiaohongshu': {'width': True, 'height': 3840}},
+            {'xiaohongshu': {'width': 2160.0, 'height': 3840}},
+            {'xiaohongshu': {'width': 1920, 'height': 1080}},
+            {'bilibili': {'width': 1920, 'height': 1080}},
+        )
+        for dimensions in invalid:
+            with self.subTest(dimensions=dimensions), tempfile.TemporaryDirectory() as tmp:
+                root = Path(tmp)
+                create_work(root)
+                manifest_path = next((root / 'deliveries').glob('*/delivery.json'))
+                manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
+                manifest['outputs'][next(iter(dimensions))].update(next(iter(dimensions.values())))
+                manifest_path.write_text(json.dumps(manifest), encoding='utf-8')
+                with self.assertRaises(ValueError):
+                    mod.discover(root)
 
     def test_mismatched_slug_is_rejected(self):
         with tempfile.TemporaryDirectory() as tmp:

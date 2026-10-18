@@ -30,7 +30,8 @@ def make_atom(name, payload=b""):
     return struct.pack(">I4s", 8 + len(payload), name.encode("ascii")) + payload
 
 
-def create_delivery(root, duration=UNSET, fps=30, total_frames=None):
+def create_delivery(root, duration=UNSET, fps=30, total_frames=None,
+                    xhs_dimensions=None):
     root.mkdir(parents=True, exist_ok=True)
     source_dir = root / "source"
     source_dir.mkdir(exist_ok=True)
@@ -38,6 +39,8 @@ def create_delivery(root, duration=UNSET, fps=30, total_frames=None):
     source_path.write_text("A short test script.\n", encoding="utf-8")
     outputs = {}
     for key, (width, height) in VALIDATOR.OUTPUTS.items():
+        if key == "xiaohongshu" and xhs_dimensions is not None:
+            width, height = xhs_dimensions
         media_path = root / "outputs" / f"{key}.mp4"
         media_path.parent.mkdir(exist_ok=True)
         media_path.write_bytes(make_atom("moov") + make_atom("mdat", b"test"))
@@ -108,7 +111,9 @@ def run_validation(
                 target = 120
             target_text = str(target)
             frame_count = manifest.get("total_frames", int(Fraction(target_text) * fps))
-            width, height = VALIDATOR.OUTPUTS[key]
+            output_config = manifest.get("outputs", {}).get(key, {})
+            width = output_config.get("width", VALIDATOR.OUTPUTS[key][0])
+            height = output_config.get("height", VALIDATOR.OUTPUTS[key][1])
             video = {
                 "codec_type": "video",
                 "codec_name": "h264",
@@ -157,6 +162,59 @@ def run_validation(
 
 
 class DeliveryDurationTests(unittest.TestCase):
+    def test_default_and_declared_legacy_xhs_dimensions_match_media(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary) / "default-delivery"
+            manifest = create_delivery(root)
+            self.assertEqual(
+                (manifest["outputs"]["xiaohongshu"]["width"],
+                 manifest["outputs"]["xiaohongshu"]["height"]),
+                (2160, 3840),
+            )
+            exit_code, _, _, report = run_validation(root)
+            self.assertEqual(exit_code, 0)
+            self.assertEqual(report["outputs"]["xiaohongshu"]["checks"]["dimensions"], "PASS")
+
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary) / "legacy-delivery"
+            create_delivery(root, xhs_dimensions=(1080, 1920))
+            exit_code, _, _, report = run_validation(root)
+            self.assertEqual(exit_code, 0)
+            self.assertEqual(report["outputs"]["xiaohongshu"]["checks"]["manifest_dimensions"], "PASS")
+            self.assertEqual(report["outputs"]["xiaohongshu"]["checks"]["dimensions"], "PASS")
+
+    def test_declared_4k_xhs_rejects_legacy_sized_media(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary) / "delivery"
+            create_delivery(root)
+            exit_code, _, _, report = run_validation(
+                root,
+                probe_changes={
+                    "xiaohongshu": {"video": {"width": 1080, "height": 1920}}
+                },
+            )
+            self.assertEqual(exit_code, 1)
+            self.assertEqual(report["outputs"]["xiaohongshu"]["checks"]["dimensions"], "FAIL")
+
+    def test_unsupported_or_partial_xhs_dimensions_fail_manifest_check(self):
+        invalid_dimensions = ((1920, 1080), (1080, None), (2160.0, 3840))
+        for dimensions in invalid_dimensions:
+            with self.subTest(dimensions=dimensions), tempfile.TemporaryDirectory() as temporary:
+                root = Path(temporary) / "delivery"
+                create_delivery(root)
+                manifest_path = root / "delivery.json"
+                manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+                if dimensions[1] is None:
+                    manifest["outputs"]["xiaohongshu"].pop("height")
+                    manifest["outputs"]["xiaohongshu"]["width"] = dimensions[0]
+                else:
+                    manifest["outputs"]["xiaohongshu"]["width"] = dimensions[0]
+                    manifest["outputs"]["xiaohongshu"]["height"] = dimensions[1]
+                manifest_path.write_text(json.dumps(manifest), encoding="utf-8")
+                exit_code, _, _, report = run_validation(root)
+                self.assertEqual(exit_code, 1)
+                self.assertEqual(report["checks"]["xiaohongshu_manifest_dimensions"], "FAIL")
+
     def test_missing_duration_defaults_to_120_seconds(self):
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary) / "delivery"

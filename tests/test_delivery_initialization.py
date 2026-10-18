@@ -43,13 +43,23 @@ class DeliveryInitializationTests(unittest.TestCase):
             duration_seconds=duration,
         )
 
-    def test_default_duration_preserves_existing_manifest_and_filenames(self):
+    def test_default_120_second_outputs_use_4k_dimensions_and_existing_filenames(self):
         manifest = self.manifest()
         self.assertEqual(manifest["duration_seconds"], 120)
         self.assertEqual(manifest["total_frames"], 7_200)
         self.assertEqual(
+            (manifest["outputs"]["bilibili"]["width"],
+             manifest["outputs"]["bilibili"]["height"]),
+            (3840, 2160),
+        )
+        self.assertEqual(
             manifest["outputs"]["bilibili"]["path"],
             "B站/test-film-bilibili-120s-4k.mp4",
+        )
+        self.assertEqual(
+            (manifest["outputs"]["xiaohongshu"]["width"],
+             manifest["outputs"]["xiaohongshu"]["height"]),
+            (2160, 3840),
         )
         self.assertEqual(
             manifest["outputs"]["xiaohongshu"]["path"],

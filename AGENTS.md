@@ -9,8 +9,10 @@ to this repository as part of completing a film. It does not authorize posting
 to B站/小红书 accounts or changing repository visibility/settings.
 
 - Use `skills/dual-platform-video/SKILL.md` for new script-to-video work. Both new
-  platform editions default to 120 seconds; historical films keep their original
-  dimensions, durations and versions.
+  platform editions default to 120 seconds and native 4K: 3840x2160 for B站 and
+  2160x3840 for 小红书. Share assets, voiceover, PCM master and timeline; change
+  layout without repeating generation calls. Explicit project settings override
+  defaults; historical films keep their original dimensions, durations and versions.
 - New works go in `deliveries/<work-version>/`, with `B站/` and `小红书/` outputs,
   source script, editable `project/`, and `review/` evidence. Preserve old work.
 - Keep skill/source/assets/subtitles/compact QA in Git. MP4/MOV/WEBM and project

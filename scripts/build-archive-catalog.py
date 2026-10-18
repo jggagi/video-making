@@ -29,6 +29,10 @@ PREVIEW = re.compile(r"sample|preview|draft|opening-title|ending-title|样片|�
 DEFAULT_DURATION_SECONDS = 120
 PCM_SAMPLE_RATE = 48_000
 SUPPORTED_FPS = {24, 25, 30, 50, 60}
+SUPPORTED_FINAL_DIMENSIONS = {
+    "bilibili": {(3840, 2160)},
+    "xiaohongshu": {(2160, 3840), (1080, 1920)},
+}
 
 
 def _inside(root: Path, path: Path) -> bool:
@@ -90,7 +94,9 @@ def _validate_manifest_slug(directory: Path, manifest: dict, manifest_path: Path
     return slug
 
 
-def _validate_final_outputs(root: Path, directory: Path, manifest: dict, manifest_path: Path) -> dict[str, str]:
+def _validate_final_outputs(
+    root: Path, directory: Path, manifest: dict, manifest_path: Path
+) -> tuple[dict[str, str], dict[str, tuple[int, int] | None]]:
     outputs = manifest.get("outputs")
     if not isinstance(outputs, dict):
         raise ValueError(f"New delivery must declare outputs.bilibili.path and outputs.xiaohongshu.path: {manifest_path}")
@@ -100,11 +106,30 @@ def _validate_final_outputs(root: Path, directory: Path, manifest: dict, manifes
     if not _inside(resolved_root, work_root):
         raise ValueError(f"New delivery directory escapes repository root: {directory}")
     final_output_paths: dict[str, str] = {}
+    final_output_dimensions: dict[str, tuple[int, int] | None] = {}
     for key, platform in (("bilibili", "B站"), ("xiaohongshu", "小红书")):
         output = outputs.get(key)
         relative = output.get("path") if isinstance(output, dict) else None
         if not isinstance(relative, str) or not relative or "\\" in relative or "\x00" in relative:
             raise ValueError(f"New delivery must declare a relative {key} output path: {manifest_path}")
+        has_width = "width" in output
+        has_height = "height" in output
+        if has_width != has_height:
+            raise ValueError(
+                f"Final {platform} dimensions must declare both width and height: {manifest_path}"
+            )
+        dimensions = None
+        if has_width:
+            width, height = output["width"], output["height"]
+            if type(width) is not int or type(height) is not int:
+                raise ValueError(
+                    f"Final {platform} dimensions must be integer values: {manifest_path}"
+                )
+            dimensions = (width, height)
+            if dimensions not in SUPPORTED_FINAL_DIMENSIONS[key]:
+                raise ValueError(
+                    f"Final {platform} dimensions are unsupported: {width}x{height}: {manifest_path}"
+                )
         components = relative.split("/")
         if (len(components) != 2 or components[0] != platform
                 or components[1] in {"", ".", ".."}):
@@ -124,7 +149,8 @@ def _validate_final_outputs(root: Path, directory: Path, manifest: dict, manifes
         if output_path.parent.resolve(strict=True) != platform_directory.resolve(strict=True):
             raise ValueError(f"Final {platform} output must be directly inside {platform}/: {relative}")
         final_output_paths[platform] = output_path.relative_to(root).as_posix()
-    return final_output_paths
+        final_output_dimensions[platform] = dimensions
+    return final_output_paths, final_output_dimensions
 
 
 def _validate_unique_work_ids_and_tags(works: list[dict]) -> None:
@@ -226,7 +252,9 @@ def discover(root: Path) -> list[dict]:
             duration_value = manifest.get("duration_seconds", DEFAULT_DURATION_SECONDS)
             duration = _duration_fraction(duration_value, manifest_path)
             slug = _validate_manifest_slug(directory, manifest, manifest_path)
-            final_output_paths = _validate_final_outputs(root, directory, manifest, manifest_path)
+            final_output_paths, final_output_dimensions = _validate_final_outputs(
+                root, directory, manifest, manifest_path
+            )
             files = sorted(path for path in directory.rglob("*") if path.is_file()
                            and path.suffix.lower() in MEDIA_SUFFIXES
                            and not any(part.startswith("bundle") or part == "node_modules"
@@ -236,7 +264,8 @@ def discover(root: Path) -> list[dict]:
                           "duration_seconds": _duration_number(duration),
                           "project_path": (directory / "project").relative_to(root).as_posix(),
                           "delivery_directory": directory.relative_to(root).as_posix(),
-                          "final_output_paths": final_output_paths})
+                          "final_output_paths": final_output_paths,
+                          "final_output_dimensions": final_output_dimensions})
     _validate_new_work_identities(works)
     return works
 
@@ -275,8 +304,11 @@ def make_asset(root: Path, work: dict, path: Path) -> dict:
     if not work["historical"] and kind == "video" and relative in work["final_output_paths"].values():
         final_platform = next(name for name, output_path in work["final_output_paths"].items()
                               if output_path == relative)
-        expected_size = (3840, 2160) if final_platform == "B站" else (1080, 1920)
-        if (measurements["width"], measurements["height"]) != expected_size:
+        declared_size = work["final_output_dimensions"][final_platform]
+        supported_sizes = ({declared_size} if declared_size is not None else
+                           SUPPORTED_FINAL_DIMENSIONS["bilibili" if final_platform == "B站"
+                                                      else "xiaohongshu"])
+        if (measurements["width"], measurements["height"]) not in supported_sizes:
             raise ValueError(f"New platform output has wrong dimensions: {relative}")
         try:
             fps = Fraction(measurements["fps"])

@@ -1,6 +1,6 @@
 interface:
   display_name: "剧本双平台短片"
-  short_description: "根据剧本制作同长的 B站 4K 横屏与小红书竖屏视频，默认两分钟，按作品与平台交付"
-  default_prompt: "使用 $dual-platform-video，根据以下剧本和指定时长（缺省 120 秒）制作两版同长的视频，分别交付 B站 4K 横屏版和小红书手机竖屏版。"
+  short_description: "默认制作两分钟双平台 4K 横竖屏视频，共用素材与配音，按作品和平台交付"
+  default_prompt: "使用 $dual-platform-video，根据以下剧本制作默认各 120 秒的 B站 4K 横屏版和小红书 4K 竖屏版，共用素材与配音；有明确项目规格时按其执行。"
 policy:
   allow_implicit_invocation: true

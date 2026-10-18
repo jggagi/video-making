@@ -3,7 +3,7 @@
 
 从剧本到双平台短片的制作技能、可编辑工程与作品档案。
 
-- [剧本双平台短片 Skill](skills/dual-platform-video/SKILL.md)：新作默认两版均为 **120 秒**，B站 **3840×2160 横屏**，小红书 **1080×1920 竖屏**，分别设计排版。
+- [剧本双平台短片 Skill](skills/dual-platform-video/SKILL.md)：新作默认两版均为 **120 秒、原生 4K**，B站 **3840×2160 横屏**，小红书 **2160×3840 竖屏**；共用素材、配音与时间轴，分别设计排版，减少重复生成消耗。
 - [全部成片与工程下载](https://github.com/jggagi/video-making/releases)：每部作品独立 Release，包含完整成片、历史版本、样片与工程 ZIP。
 - [全部作品索引](deliveries/README.md)：包含历史作品与之后的新作，每次归档自动更新。
 - [机器可读媒体目录](archive/catalog.json)：51 个既有资产，共 5,173,284,551 字节，逐文件 SHA-256 与实测规格。

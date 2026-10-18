@@ -23,7 +23,11 @@ from typing import Any
 FPS_CHOICES = (24, 25, 30, 50, 60)
 OUTPUTS = {
     "bilibili": (3840, 2160),
-    "xiaohongshu": (1080, 1920),
+    "xiaohongshu": (2160, 3840),
+}
+SUPPORTED_OUTPUTS = {
+    "bilibili": {(3840, 2160)},
+    "xiaohongshu": {(2160, 3840), (1080, 1920)},
 }
 AUDIO_MODES = {"narrated", "provided", "silent"}
 DEFAULT_DURATION = 120
@@ -68,6 +72,22 @@ def parse_args() -> argparse.Namespace:
 
 def plain_int(value: Any) -> bool:
     return isinstance(value, int) and not isinstance(value, bool)
+
+
+def manifest_dimensions_valid(key: str, config: Any) -> bool:
+    if not isinstance(config, dict):
+        return False
+    width = config.get("width")
+    height = config.get("height")
+    return (plain_int(width) and plain_int(height)
+            and (width, height) in SUPPORTED_OUTPUTS[key])
+
+
+def expected_dimensions(key: str, config: Any) -> tuple[int, int]:
+    """Use a supported manifest pair, retaining the legacy XHS size explicitly."""
+    if manifest_dimensions_valid(key, config):
+        return config["width"], config["height"]
+    return OUTPUTS[key]
 
 
 def number(value: Any) -> float | None:
@@ -277,13 +297,11 @@ def validate_manifest(
         add_check(checks, failures, "outputs", False,
                   "delivery.json outputs entry must be an object")
     else:
-        for key, (width, height) in OUTPUTS.items():
+        for key in OUTPUTS:
             config = output_config.get(key)
-            valid = (isinstance(config, dict)
-                     and config.get("width") == width
-                     and config.get("height") == height)
+            valid = manifest_dimensions_valid(key, config)
             add_check(checks, failures, f"{key}_manifest_dimensions", valid,
-                      f"delivery.json outputs.{key} dimensions must be {width}x{height}")
+                      f"delivery.json outputs.{key} dimensions must be a supported integer pair")
 
     validated_duration = duration if duration_valid else None
     reported_duration = duration_value if duration_valid else None
@@ -303,7 +321,7 @@ def validate_media(
     ffmpeg: str | None,
     skip_decode: bool,
 ) -> dict[str, Any]:
-    width, height = OUTPUTS[key]
+    width, height = expected_dimensions(key, config)
     checks: dict[str, str] = {}
     failures: list[str] = []
     result: dict[str, Any] = {
@@ -332,9 +350,9 @@ def validate_media(
         return result
 
     result["path"] = path.relative_to(root).as_posix()
-    check("manifest_dimensions", config.get("width") == width
-          and config.get("height") == height,
-          f"{key}: manifest dimensions must be {width}x{height}")
+    dimensions_valid = manifest_dimensions_valid(key, config)
+    check("manifest_dimensions", dimensions_valid,
+          f"{key}: manifest dimensions must be a supported integer pair")
     if not path.is_file():
         check("media_file", False, f"{key}: media file is missing: {result['path']}")
         if skip_decode:

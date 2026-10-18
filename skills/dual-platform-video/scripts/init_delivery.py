@@ -134,8 +134,8 @@ def build_manifest(
             },
             "xiaohongshu": {
                 "path": f"小红书/{slug}-xiaohongshu-{label}s-portrait.mp4",
-                "width": 1080,
-                "height": 1920,
+                "width": 2160,
+                "height": 3840,
             },
         },
         "qa": {

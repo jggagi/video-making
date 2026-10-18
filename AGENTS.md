@@ -15,6 +15,13 @@ to B站/小红书 accounts or changing repository visibility/settings.
   defaults; historical films keep their original dimensions, durations and versions.
 - New works go in `deliveries/<work-version>/`, with `B站/` and `小红书/` outputs,
   source script, editable `project/`, and `review/` evidence. Preserve old work.
+- Q wants all finished videos in the root `final/` folder, classified by work,
+  version and platform. After updating `archive/catalog.json`, run
+  `python3 scripts/build-final-library.py` on this Mac to refresh that library.
+  It retains every formal historical version and excludes previews, drafts,
+  source clips and ZIPs. Use verified APFS clones, preserve original paths,
+  and never overwrite a divergent file. Keep its README/index in Git; movies
+  remain ignored and are already stored in the existing Releases.
 - Keep skill/source/assets/subtitles/compact QA in Git. MP4/MOV/WEBM and project
   ZIPs live in this repository's Releases, indexed by `archive/catalog.json` and
   per-work/platform README files. Do not put large movies into ordinary Git.

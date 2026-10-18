@@ -1,0 +1,119 @@
+{
+  "fps": 60,
+  "total_frames": 7200,
+  "sample_rate": 48000,
+  "samples_per_frame": 800,
+  "master_samples_per_channel": 5760000,
+  "shots": [
+    {
+      "startFrame": 0,
+      "endFrame": 1200,
+      "purpose": "孤岛与寿命归零",
+      "motion": "60 amber skull nodes, drifting perspective; f1020 mortality reset",
+      "spatial_motion_required": true,
+      "layout": {
+        "landscape": "native perspective field; Act3 left/right",
+        "portrait": "native safe-zone field; Act3 top/bottom"
+      }
+    },
+    {
+      "startFrame": 1200,
+      "endFrame": 1800,
+      "purpose": "动态标题",
+      "motion": "tilted island plane recedes; cyan Z flight",
+      "spatial_motion_required": true,
+      "layout": {
+        "landscape": "native perspective field; Act3 left/right",
+        "portrait": "native safe-zone field; Act3 top/bottom"
+      }
+    },
+    {
+      "startFrame": 1800,
+      "endFrame": 2640,
+      "purpose": "零拷贝分叉",
+      "motion": "f1920 golden-angle 900 hex agents, orbital flight",
+      "spatial_motion_required": true,
+      "layout": {
+        "landscape": "native perspective field; Act3 left/right",
+        "portrait": "native safe-zone field; Act3 top/bottom"
+      }
+    },
+    {
+      "startFrame": 2640,
+      "endFrame": 3600,
+      "purpose": "并行探索与剪枝",
+      "motion": "Z camera flight; f3000 deterministic94% pruning",
+      "spatial_motion_required": true,
+      "layout": {
+        "landscape": "native perspective field; Act3 left/right",
+        "portrait": "native safe-zone field; Act3 top/bottom"
+      }
+    },
+    {
+      "startFrame": 3600,
+      "endFrame": 4440,
+      "purpose": "学科巴别塔",
+      "motion": "orthogonal wave collisions; left/right or top/bottom",
+      "spatial_motion_required": true,
+      "layout": {
+        "landscape": "native perspective field; Act3 left/right",
+        "portrait": "native safe-zone field; Act3 top/bottom"
+      }
+    },
+    {
+      "startFrame": 4440,
+      "endFrame": 5400,
+      "purpose": "共同本能",
+      "motion": "f4560 insight; all mesh nodes upgraded by4575",
+      "spatial_motion_required": true,
+      "layout": {
+        "landscape": "native perspective field; Act3 left/right",
+        "portrait": "native safe-zone field; Act3 top/bottom"
+      }
+    },
+    {
+      "startFrame": 5400,
+      "endFrame": 6000,
+      "purpose": "百万归一",
+      "motion": "1800 logarithmic vortex points plus orbit",
+      "spatial_motion_required": true,
+      "layout": {
+        "landscape": "native perspective field; Act3 left/right",
+        "portrait": "native safe-zone field; Act3 top/bottom"
+      }
+    },
+    {
+      "startFrame": 6000,
+      "endFrame": 6300,
+      "purpose": "几何锁定",
+      "motion": "nested golden polyhedra rotate continuously;20frame silence",
+      "spatial_motion_required": true,
+      "layout": {
+        "landscape": "native perspective field; Act3 left/right",
+        "portrait": "native safe-zone field; Act3 top/bottom"
+      }
+    },
+    {
+      "startFrame": 6300,
+      "endFrame": 6930,
+      "purpose": "星空引句",
+      "motion": "orbiting gold star and scanning title",
+      "spatial_motion_required": true,
+      "layout": {
+        "landscape": "native perspective field; Act3 left/right",
+        "portrait": "native safe-zone field; Act3 top/bottom"
+      }
+    },
+    {
+      "startFrame": 6930,
+      "endFrame": 7200,
+      "purpose": "验证器悖论",
+      "motion": "moving impossible Penrose/Mobius loop",
+      "spatial_motion_required": true,
+      "layout": {
+        "landscape": "native perspective field; Act3 left/right",
+        "portrait": "native safe-zone field; Act3 top/bottom"
+      }
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 
 # 7±2 的囚笼
 
-这是历史归档，保留原时长、画幅与版本；不声称符合后续两分钟规格。
+这是历史归档，保留原时长、画幅与版本；不声称符合后续新作品的时长规格。
 
 [完整 Release 与全部下载](https://github.com/jggagi/video-making/releases/tag/archive-si-cage-7plus2-v1) · [B站横屏](B站/README.md) · [小红书竖屏](小红书/README.md)
 

@@ -1,0 +1,138 @@
+{
+  "id": "si-ep03-million-mind-v02",
+  "title": "百万分身｜THE MILLION-FOLD MIND · EP.03 第二版",
+  "release_tag": "film-si-ep03-million-mind-v02-9517e8e05dfb",
+  "historical": false,
+  "duration_seconds": 120,
+  "project_path": "deliveries/si-ep03-million-mind-v02/project",
+  "delivery_directory": "deliveries/si-ep03-million-mind-v02",
+  "final_output_paths": {
+    "B站": "deliveries/si-ep03-million-mind-v02/B站/si-ep03-million-mind-v02-bilibili-120s-4k.mp4",
+    "小红书": "deliveries/si-ep03-million-mind-v02/小红书/si-ep03-million-mind-v02-xiaohongshu-120s-portrait.mp4"
+  },
+  "final_output_dimensions": {
+    "B站": [
+      3840,
+      2160
+    ],
+    "小红书": [
+      2160,
+      3840
+    ]
+  },
+  "assets": [
+    {
+      "path": "deliveries/si-ep03-million-mind-v02/B站/si-ep03-million-mind-v02-bilibili-120s-4k.mp4",
+      "name": "si-ep03-million-mind-v02--deliveries--si-ep03-million-mind-v02--B---si-ep03-million-mind-v02-bilibili-120s-4k--4186fdfcd977.mp4",
+      "bytes": 210515816,
+      "sha256": "4186fdfcd9770f2f216a9b8a023839a0b28058c0b2f5e26ad8239f4ab15a2a81",
+      "kind": "video",
+      "platform": "B站",
+      "measurements": {
+        "width": 3840,
+        "height": 2160,
+        "fps": "60/1",
+        "frames": "7200",
+        "video_duration_seconds": 120.0,
+        "container_duration_seconds": 120.0
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep03-million-mind-v02-9517e8e05dfb/si-ep03-million-mind-v02--deliveries--si-ep03-million-mind-v02--B---si-ep03-million-mind-v02-bilibili-120s-4k--4186fdfcd977.mp4"
+    },
+    {
+      "path": "deliveries/si-ep03-million-mind-v02/review/motion-MUSIC-ONLY-portrait-5700-6139.mp4",
+      "name": "si-ep03-million-mind-v02--deliveries--si-ep03-million-mind-v02--review--motion-MUSIC-ONLY-portrait-5700-6139--ed003d4d8c74.mp4",
+      "bytes": 2474697,
+      "sha256": "ed003d4d8c748d549e30fe55a8e3cf5f85cd9cdc21076f2319be6dbbdbe7c1e2",
+      "kind": "video",
+      "platform": "预览",
+      "measurements": {
+        "width": 720,
+        "height": 1280,
+        "fps": "60/1",
+        "frames": "440",
+        "video_duration_seconds": 7.333333,
+        "container_duration_seconds": 7.333333
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep03-million-mind-v02-9517e8e05dfb/si-ep03-million-mind-v02--deliveries--si-ep03-million-mind-v02--review--motion-MUSIC-ONLY-portrait-5700-6139--ed003d4d8c74.mp4"
+    },
+    {
+      "path": "deliveries/si-ep03-million-mind-v02/review/motion-SILENT-landscape-1860-2159.mp4",
+      "name": "si-ep03-million-mind-v02--deliveries--si-ep03-million-mind-v02--review--motion-SILENT-landscape-1860-2159--354ebdae3ddc.mp4",
+      "bytes": 3957881,
+      "sha256": "354ebdae3ddc65a5b5515aae06f6a91b8a7bf094a37c2b1468ae0d363fcc631b",
+      "kind": "video",
+      "platform": "预览",
+      "measurements": {
+        "width": 1280,
+        "height": 720,
+        "fps": "60/1",
+        "frames": "300",
+        "video_duration_seconds": 5.0,
+        "container_duration_seconds": 5.0
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep03-million-mind-v02-9517e8e05dfb/si-ep03-million-mind-v02--deliveries--si-ep03-million-mind-v02--review--motion-SILENT-landscape-1860-2159--354ebdae3ddc.mp4"
+    },
+    {
+      "path": "deliveries/si-ep03-million-mind-v02/review/motion-SILENT-portrait-5700-6139.mp4",
+      "name": "si-ep03-million-mind-v02--deliveries--si-ep03-million-mind-v02--review--motion-SILENT-portrait-5700-6139--5f50f161ffb9.mp4",
+      "bytes": 2227933,
+      "sha256": "5f50f161ffb968177085ead11b467d278445f46e649c97a4ec0fb1d0de9c52fc",
+      "kind": "video",
+      "platform": "预览",
+      "measurements": {
+        "width": 720,
+        "height": 1280,
+        "fps": "60/1",
+        "frames": "440",
+        "video_duration_seconds": 7.333333,
+        "container_duration_seconds": 7.333333
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep03-million-mind-v02-9517e8e05dfb/si-ep03-million-mind-v02--deliveries--si-ep03-million-mind-v02--review--motion-SILENT-portrait-5700-6139--5f50f161ffb9.mp4"
+    },
+    {
+      "path": "deliveries/si-ep03-million-mind-v02/review/motion-portrait-5700-6139.mp4",
+      "name": "si-ep03-million-mind-v02--deliveries--si-ep03-million-mind-v02--review--motion-portrait-5700-6139--a2420a9bf466.mp4",
+      "bytes": 2526953,
+      "sha256": "a2420a9bf46634799694a84c8f60515e0280337100b9a5bc79e5741b0c853c82",
+      "kind": "video",
+      "platform": "预览",
+      "measurements": {
+        "width": 720,
+        "height": 1280,
+        "fps": "60/1",
+        "frames": "440",
+        "video_duration_seconds": 7.333333,
+        "container_duration_seconds": 7.339
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep03-million-mind-v02-9517e8e05dfb/si-ep03-million-mind-v02--deliveries--si-ep03-million-mind-v02--review--motion-portrait-5700-6139--a2420a9bf466.mp4"
+    },
+    {
+      "path": "deliveries/si-ep03-million-mind-v02/si-ep03-million-mind-v02-editable-project.zip",
+      "name": "si-ep03-million-mind-v02--deliveries--si-ep03-million-mind-v02--si-ep03-million-mind-v02-editable-project--a1b669698343.zip",
+      "bytes": 77285841,
+      "sha256": "a1b66969834330a83019d4c39ab331c3a4c4e7ec8fd35e3de8f8717e999fbcce",
+      "kind": "project",
+      "platform": "工程",
+      "measurements": {},
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep03-million-mind-v02-9517e8e05dfb/si-ep03-million-mind-v02--deliveries--si-ep03-million-mind-v02--si-ep03-million-mind-v02-editable-project--a1b669698343.zip"
+    },
+    {
+      "path": "deliveries/si-ep03-million-mind-v02/小红书/si-ep03-million-mind-v02-xiaohongshu-120s-portrait.mp4",
+      "name": "si-ep03-million-mind-v02--deliveries--si-ep03-million-mind-v02-----si-ep03-million-mind-v02-xiaohongshu-120s-portrait--54d248dab782.mp4",
+      "bytes": 163679998,
+      "sha256": "54d248dab782e4bc89658a4354019ad58a7ec51577b8cd3a4db21eeeaf86f0eb",
+      "kind": "video",
+      "platform": "小红书",
+      "measurements": {
+        "width": 2160,
+        "height": 3840,
+        "fps": "60/1",
+        "frames": "7200",
+        "video_duration_seconds": 120.0,
+        "container_duration_seconds": 120.0
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep03-million-mind-v02-9517e8e05dfb/si-ep03-million-mind-v02--deliveries--si-ep03-million-mind-v02-----si-ep03-million-mind-v02-xiaohongshu-120s-portrait--54d248dab782.mp4"
+    }
+  ],
+  "generated_by": "scripts/build-archive-catalog.py"
+}

@@ -1,0 +1,9 @@
+# Native source-composition frames and local render bundles are rebuildable.
+review/source-*.png
+project/out/
+project/node_modules/
+project/public/audio/*.tmp.wav
+project/public/audio/*.silence.tmp.wav
+# Movies and the editable ZIP are uploaded to this repository's Releases.
+*.mp4
+*.zip

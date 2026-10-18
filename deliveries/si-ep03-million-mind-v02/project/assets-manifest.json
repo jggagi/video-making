@@ -1,0 +1,444 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "id": "src-CanvasWorld.tsx",
+      "path": "src/CanvasWorld.tsx",
+      "sha256": "d1191bf57cdb153674fc3faaca981a01f9f295df09a853432fe36e5f30b4551c",
+      "source": "original deterministic procedural work / user script",
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "src-Film.tsx",
+      "path": "src/Film.tsx",
+      "sha256": "05446365fa29bf6ac665216f7459fb778973540440347c88af90c7628a733500",
+      "source": "original deterministic procedural work / user script",
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "segments.json",
+      "path": "segments.json",
+      "sha256": "ce18740e40d89495f1371e4fdbf70d9836db70ca79fb997c03aace8b906eabed",
+      "source": "original deterministic procedural work / user script",
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "sfx_events.json",
+      "path": "sfx_events.json",
+      "sha256": "e77ac3d2d109dfb736a38a66fc78185c15e195d8697102d6da1c9f6fc09fd759",
+      "source": "original deterministic procedural work / user script",
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public-audio-canonical-081a235134171ab782cd83208cca8718a9f17ff4eefc469bf62552860660ee7c.wav",
+      "path": "public/audio/canonical/081a235134171ab782cd83208cca8718a9f17ff4eefc469bf62552860660ee7c.wav",
+      "sha256": "d703f5a0cf19f61af20d8897865552319f94fec354590ae810a7c5b1011c087e",
+      "source": "Aliyun Bailian narration cache",
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public-audio-canonical-2f3884d46a34e289f9bc2314685d502e6902ad21b6969c69d59d93d8b7d4790b.wav",
+      "path": "public/audio/canonical/2f3884d46a34e289f9bc2314685d502e6902ad21b6969c69d59d93d8b7d4790b.wav",
+      "sha256": "8edc1f239659e7ef99d0bde47a764f689c4289be0c2540309c1029e3b0e37d58",
+      "source": "Aliyun Bailian narration cache",
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public-audio-canonical-38870c615d133bf342187e469f78b9ba9fec01a9aed399cc42bc5745f8f3a090.wav",
+      "path": "public/audio/canonical/38870c615d133bf342187e469f78b9ba9fec01a9aed399cc42bc5745f8f3a090.wav",
+      "sha256": "9cdfd7ada8034439fa130586417e346c587ae26fe12989ee0f4abb03f80f7c35",
+      "source": "Aliyun Bailian narration cache",
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public-audio-canonical-42292bbaeb675bf4530de251375cd03ee74e37b602b5b115226e94f8bd278e35.wav",
+      "path": "public/audio/canonical/42292bbaeb675bf4530de251375cd03ee74e37b602b5b115226e94f8bd278e35.wav",
+      "sha256": "f4b83caa78b7820610e80855ab10c6973f0c38d3cfcf9adc7eb2b536c89ecb48",
+      "source": "Aliyun Bailian narration cache",
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public-audio-canonical-c178dbd3f61b1baa384add36993b6a09f800b6ec38e9a1e267c6c273b22343f6.wav",
+      "path": "public/audio/canonical/c178dbd3f61b1baa384add36993b6a09f800b6ec38e9a1e267c6c273b22343f6.wav",
+      "sha256": "ba17d6f51028bb260b019adbf07e2fc632708212498fc0cd5e789d4665a9b99c",
+      "source": "Aliyun Bailian narration cache",
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public-audio-canonical-c1bbc11e2ffc9ed82e7e6c4fd9f18cc9dee1e1fd0161e25f931ab9ab089303db.wav",
+      "path": "public/audio/canonical/c1bbc11e2ffc9ed82e7e6c4fd9f18cc9dee1e1fd0161e25f931ab9ab089303db.wav",
+      "sha256": "571a4b3da005011819f8042161d03b04d0ecff3e70c3457274a3a189ba097deb",
+      "source": "Aliyun Bailian narration cache",
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public-audio-canonical-c5b0a53a4b164a69ea31a1d3d965ee0adc2284507f39636be2f37530b1fd89f2.wav",
+      "path": "public/audio/canonical/c5b0a53a4b164a69ea31a1d3d965ee0adc2284507f39636be2f37530b1fd89f2.wav",
+      "sha256": "09436f1bcde6d94a29fb7431a2a5c57e8a2e64e95e5e1d184082c9e0ab2a5bd5",
+      "source": "Aliyun Bailian narration cache",
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public-audio-canonical-cab77a885f65ab4019c590d584f3f1921b2f3fae05d47c88d85644ee42c223dd.wav",
+      "path": "public/audio/canonical/cab77a885f65ab4019c590d584f3f1921b2f3fae05d47c88d85644ee42c223dd.wav",
+      "sha256": "bce3913d80c8b56f515faad3ca5daef514efb9e05c47e6c161f430ea2be202c9",
+      "source": "Aliyun Bailian narration cache",
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public-audio-canonical-ce67289fc4c36dc1f996c4d6a8312f9ccd4a52906d6d76abe8856e69f88b0ebd.wav",
+      "path": "public/audio/canonical/ce67289fc4c36dc1f996c4d6a8312f9ccd4a52906d6d76abe8856e69f88b0ebd.wav",
+      "sha256": "da88a7f077473d361ecb3ba096eb3ae3fea48519a2dd4f865ae4831d710093f9",
+      "source": "Aliyun Bailian narration cache",
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public-audio-canonical-e70dd188a614b4c1332151d374baf7c2da8f830b9e7afb7105afab717b28e98e.wav",
+      "path": "public/audio/canonical/e70dd188a614b4c1332151d374baf7c2da8f830b9e7afb7105afab717b28e98e.wav",
+      "sha256": "d3c95392607a1ad0ab030150cbf97047363eec8ac85631166f97b6bb8645857a",
+      "source": "Aliyun Bailian narration cache",
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public-audio-cues-081a235134171ab782cd83208cca8718a9f17ff4eefc469bf62552860660ee7c.wav",
+      "path": "public/audio/cues/081a235134171ab782cd83208cca8718a9f17ff4eefc469bf62552860660ee7c.wav",
+      "sha256": "e18c7430094ce48fa281b2f0c9c701107eef354585b149f5b9c2183173f6817e",
+      "source": "Aliyun Bailian narration cache",
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public-audio-cues-2f3884d46a34e289f9bc2314685d502e6902ad21b6969c69d59d93d8b7d4790b.wav",
+      "path": "public/audio/cues/2f3884d46a34e289f9bc2314685d502e6902ad21b6969c69d59d93d8b7d4790b.wav",
+      "sha256": "a43292b546b30b8db59b665d31d57a23e18d0a5833ce112f4eb247336ed0b648",
+      "source": "Aliyun Bailian narration cache",
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public-audio-cues-38870c615d133bf342187e469f78b9ba9fec01a9aed399cc42bc5745f8f3a090.wav",
+      "path": "public/audio/cues/38870c615d133bf342187e469f78b9ba9fec01a9aed399cc42bc5745f8f3a090.wav",
+      "sha256": "946eb8aa93f62ba263453208ac66fa330bc85e06b11b0617030e12c96e8469b4",
+      "source": "Aliyun Bailian narration cache",
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public-audio-cues-42292bbaeb675bf4530de251375cd03ee74e37b602b5b115226e94f8bd278e35.wav",
+      "path": "public/audio/cues/42292bbaeb675bf4530de251375cd03ee74e37b602b5b115226e94f8bd278e35.wav",
+      "sha256": "62cefa233899aaf389afe3215953ff78b479fb5ae841db5308617c0e0ad03be1",
+      "source": "Aliyun Bailian narration cache",
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public-audio-cues-c178dbd3f61b1baa384add36993b6a09f800b6ec38e9a1e267c6c273b22343f6.wav",
+      "path": "public/audio/cues/c178dbd3f61b1baa384add36993b6a09f800b6ec38e9a1e267c6c273b22343f6.wav",
+      "sha256": "69967fd84bbf89c489e6e0b0876e1ee97aba7fe401ac50f32f7aa23babc66256",
+      "source": "Aliyun Bailian narration cache",
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public-audio-cues-c1bbc11e2ffc9ed82e7e6c4fd9f18cc9dee1e1fd0161e25f931ab9ab089303db.wav",
+      "path": "public/audio/cues/c1bbc11e2ffc9ed82e7e6c4fd9f18cc9dee1e1fd0161e25f931ab9ab089303db.wav",
+      "sha256": "ae6322828473a0f947fa841d7efcdae8289f6eef10513c9701c71cb86d6555f5",
+      "source": "Aliyun Bailian narration cache",
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public-audio-cues-c5b0a53a4b164a69ea31a1d3d965ee0adc2284507f39636be2f37530b1fd89f2.wav",
+      "path": "public/audio/cues/c5b0a53a4b164a69ea31a1d3d965ee0adc2284507f39636be2f37530b1fd89f2.wav",
+      "sha256": "d86fb8e63d1090c3ab56118d2816abe6044106b6642d04951c13b1eaf9d1dec6",
+      "source": "Aliyun Bailian narration cache",
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public-audio-cues-cab77a885f65ab4019c590d584f3f1921b2f3fae05d47c88d85644ee42c223dd.wav",
+      "path": "public/audio/cues/cab77a885f65ab4019c590d584f3f1921b2f3fae05d47c88d85644ee42c223dd.wav",
+      "sha256": "bdae059825b5c1cf2b0554b9043c64ff72f4efe2410d874427e781509f9d1d82",
+      "source": "Aliyun Bailian narration cache",
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public-audio-cues-ce67289fc4c36dc1f996c4d6a8312f9ccd4a52906d6d76abe8856e69f88b0ebd.wav",
+      "path": "public/audio/cues/ce67289fc4c36dc1f996c4d6a8312f9ccd4a52906d6d76abe8856e69f88b0ebd.wav",
+      "sha256": "7e50f76e0bdb5e9aa3ec1c94346faef9a28a6a3da6fc5c07bd5887a45b7fe01d",
+      "source": "Aliyun Bailian narration cache",
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public-audio-cues-e70dd188a614b4c1332151d374baf7c2da8f830b9e7afb7105afab717b28e98e.wav",
+      "path": "public/audio/cues/e70dd188a614b4c1332151d374baf7c2da8f830b9e7afb7105afab717b28e98e.wav",
+      "sha256": "e5bee4a76b2c89837877ac00159a3243b35d3e44dcaeb4378cd70a350ef84815",
+      "source": "Aliyun Bailian narration cache",
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public-audio-master.wav",
+      "path": "public/audio/master.wav",
+      "sha256": "ce324e5a36e8973830db5d62b849759d312bab0c82e4776d05c5b4914e7552ac",
+      "source": "local audio production / sanitized metadata",
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public-audio-mix-settings.json",
+      "path": "public/audio/mix-settings.json",
+      "sha256": "03c755c63833ab30547d6f3a602018e850c038fe4d28a975fcb655455aa84682",
+      "source": "local audio production / sanitized metadata",
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public-audio-narration.wav",
+      "path": "public/audio/narration.wav",
+      "sha256": "0f5f0c4e507606f50d13d3424d755fd2ad07744235710a35060951c16b45d8b0",
+      "source": "local audio production / sanitized metadata",
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public-audio-provider-manifest.json",
+      "path": "public/audio/provider-manifest.json",
+      "sha256": "00f29337594420cbe3b1e94b0f1aeb3f17d88b1745671a64cdd487a928e70c36",
+      "source": "local audio production / sanitized metadata",
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public-audio-raw-081a235134171ab782cd83208cca8718a9f17ff4eefc469bf62552860660ee7c.wav",
+      "path": "public/audio/raw/081a235134171ab782cd83208cca8718a9f17ff4eefc469bf62552860660ee7c.wav",
+      "sha256": "f2f75a6058a3e9e42a5196c5fa26c8cbff669553abfa34141ba1174f4ac3525f",
+      "source": "Aliyun Bailian narration cache",
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public-audio-raw-2f3884d46a34e289f9bc2314685d502e6902ad21b6969c69d59d93d8b7d4790b.wav",
+      "path": "public/audio/raw/2f3884d46a34e289f9bc2314685d502e6902ad21b6969c69d59d93d8b7d4790b.wav",
+      "sha256": "11c24f08656fd3e02d960a20f592ee7247b01caf8072648c954147d5f6573bba",
+      "source": "Aliyun Bailian narration cache",
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public-audio-raw-38870c615d133bf342187e469f78b9ba9fec01a9aed399cc42bc5745f8f3a090.wav",
+      "path": "public/audio/raw/38870c615d133bf342187e469f78b9ba9fec01a9aed399cc42bc5745f8f3a090.wav",
+      "sha256": "15ab49a90cb156d55dfb1eecac4b02a6d213c7c1b280abfccf8a5d909cc1fe2a",
+      "source": "Aliyun Bailian narration cache",
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public-audio-raw-42292bbaeb675bf4530de251375cd03ee74e37b602b5b115226e94f8bd278e35.wav",
+      "path": "public/audio/raw/42292bbaeb675bf4530de251375cd03ee74e37b602b5b115226e94f8bd278e35.wav",
+      "sha256": "3e385ea79f88082516b24d0b62e0818e3c389c03702d2af9fd9edaa8775a57cf",
+      "source": "Aliyun Bailian narration cache",
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public-audio-raw-c178dbd3f61b1baa384add36993b6a09f800b6ec38e9a1e267c6c273b22343f6.wav",
+      "path": "public/audio/raw/c178dbd3f61b1baa384add36993b6a09f800b6ec38e9a1e267c6c273b22343f6.wav",
+      "sha256": "849a0a650491fcd9a5502f6c9152536d6ba879a2210786fad8f7f9c91c6ce376",
+      "source": "Aliyun Bailian narration cache",
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public-audio-raw-c1bbc11e2ffc9ed82e7e6c4fd9f18cc9dee1e1fd0161e25f931ab9ab089303db.wav",
+      "path": "public/audio/raw/c1bbc11e2ffc9ed82e7e6c4fd9f18cc9dee1e1fd0161e25f931ab9ab089303db.wav",
+      "sha256": "f8c51d75389340a67ed3dc4bad15c5ad367f8d1999f72bd5c80aa840e9189d3d",
+      "source": "Aliyun Bailian narration cache",
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public-audio-raw-c5b0a53a4b164a69ea31a1d3d965ee0adc2284507f39636be2f37530b1fd89f2.wav",
+      "path": "public/audio/raw/c5b0a53a4b164a69ea31a1d3d965ee0adc2284507f39636be2f37530b1fd89f2.wav",
+      "sha256": "d42210e84068409719d3aaeb352326613d46580b4e56e0500c18e722b2520bac",
+      "source": "Aliyun Bailian narration cache",
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public-audio-raw-cab77a885f65ab4019c590d584f3f1921b2f3fae05d47c88d85644ee42c223dd.wav",
+      "path": "public/audio/raw/cab77a885f65ab4019c590d584f3f1921b2f3fae05d47c88d85644ee42c223dd.wav",
+      "sha256": "60f7dd22d429d8808e04d8bdf118a14b20f3265fe17f12b8e3df3f9f0495a3ba",
+      "source": "Aliyun Bailian narration cache",
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public-audio-raw-ce67289fc4c36dc1f996c4d6a8312f9ccd4a52906d6d76abe8856e69f88b0ebd.wav",
+      "path": "public/audio/raw/ce67289fc4c36dc1f996c4d6a8312f9ccd4a52906d6d76abe8856e69f88b0ebd.wav",
+      "sha256": "2a4ccf4caefec5fcf659eb31fa679ddd27aaa4cde5a1a07428e04ee1303288e3",
+      "source": "Aliyun Bailian narration cache",
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public-audio-raw-e70dd188a614b4c1332151d374baf7c2da8f830b9e7afb7105afab717b28e98e.wav",
+      "path": "public/audio/raw/e70dd188a614b4c1332151d374baf7c2da8f830b9e7afb7105afab717b28e98e.wav",
+      "sha256": "fdbc98885cea5d3337235db686f6accd8eb7910d1e83d8d01b9b779ff10a0895",
+      "source": "Aliyun Bailian narration cache",
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public-audio-score.wav",
+      "path": "public/audio/score.wav",
+      "sha256": "0afdcdffe9f51c73d52a7b2aeead3480327cedfb156e1390033cbac87272134b",
+      "source": "local audio production / sanitized metadata",
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public-audio-sfx-sample-map.json",
+      "path": "public/audio/sfx-sample-map.json",
+      "sha256": "d640c66a1ee4a3d595e1b0642eb2236a1e54fb426e439a632189aa5f58e8239a",
+      "source": "local audio production / sanitized metadata",
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public-audio-sfx.wav",
+      "path": "public/audio/sfx.wav",
+      "sha256": "dde8936492a0be03e6a46421e890b8291cb360f18cb26758f860ab2fd97d0940",
+      "source": "local audio production / sanitized metadata",
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    }
+  ],
+  "fonts": [
+    {
+      "family": "PingFang SC",
+      "source": "local macOS font",
+      "fallback": "Hiragino Sans GB, sans-serif"
+    },
+    {
+      "family": "Menlo",
+      "source": "local macOS font"
+    }
+  ],
+  "narration": {
+    "provider": "Aliyun Bailian",
+    "requested_model": "cosyvoice-v3-flash",
+    "requested_voice": "longtian_v3",
+    "status": "generated_and_effective_identity_verified",
+    "generated": true,
+    "model": "cosyvoice-v3-flash",
+    "voice": "longtian_v3",
+    "segments": 10
+  },
+  "master": {
+    "path": "public/audio/master.wav",
+    "status": "PCM_VALIDATED",
+    "samples_per_channel": 5760000,
+    "sha256": "ce324e5a36e8973830db5d62b849759d312bab0c82e4776d05c5b4914e7552ac",
+    "lufs": -17.2,
+    "true_peak_dbtp": -1.5
+  }
+}

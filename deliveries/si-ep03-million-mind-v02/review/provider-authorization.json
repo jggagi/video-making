@@ -1,0 +1,8 @@
+{
+  "status": "explicitly_authorized",
+  "user_message": "approve",
+  "scope": "Send this EP3 film ten narration texts to Aliyun Bailian; use existing CosyVoice v3 Flash / longtian_v3; possible charges acknowledged",
+  "date": "2026-10-17",
+  "other_provider_or_ASR_upload_authorized": false,
+  "explicit_follow_up_answer": "授权百炼生成本片旁白"
+}

@@ -1,0 +1,502 @@
+{
+  "schema_version": 1,
+  "status": "evidence_collected",
+  "generated_at_utc": "2026-10-18T03:52:33.214098+00:00",
+  "layout": "landscape",
+  "media_path": "B站/si-ep03-million-mind-v02-bilibili-120s-4k.mp4",
+  "expected": {
+    "width": 3840,
+    "height": 2160,
+    "fps": 60,
+    "duration_seconds": 120,
+    "total_frames": 7200
+  },
+  "ffprobe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "width": 3840,
+        "height": 2160,
+        "coded_width": 3840,
+        "coded_height": 2160,
+        "has_b_frames": 2,
+        "sample_aspect_ratio": "1:1",
+        "display_aspect_ratio": "16:9",
+        "pix_fmt": "yuv420p",
+        "level": 52,
+        "color_range": "tv",
+        "color_space": "bt709",
+        "color_transfer": "bt709",
+        "color_primaries": "bt709",
+        "chroma_location": "center",
+        "field_order": "progressive",
+        "refs": 1,
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "60/1",
+        "avg_frame_rate": "60/1",
+        "time_base": "1/90000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 10800000,
+        "duration": "120.000000",
+        "bit_rate": "13728343",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "7200",
+        "extradata_size": 52,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "vendor_id": "[0][0][0][0]"
+        }
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_long_name": "AAC (Advanced Audio Coding)",
+        "profile": "LC",
+        "codec_type": "audio",
+        "codec_tag_string": "mp4a",
+        "codec_tag": "0x6134706d",
+        "sample_fmt": "fltp",
+        "sample_rate": "48000",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "bits_per_sample": 0,
+        "initial_padding": 0,
+        "id": "0x2",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/48000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 5760000,
+        "duration": "120.000000",
+        "bit_rate": "293108",
+        "nb_frames": "5626",
+        "extradata_size": 5,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "SoundHandler",
+          "vendor_id": "[0][0][0][0]"
+        }
+      }
+    ],
+    "format": {
+      "filename": "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep03-million-mind-v02/B站/si-ep03-million-mind-v02-bilibili-120s-4k.mp4",
+      "nb_streams": 2,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "120.000000",
+      "size": "210515816",
+      "bit_rate": "14034387",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "title": "百万分身｜THE MILLION-FOLD MIND · EP.03 v02",
+        "encoder": "Lavf62.3.100",
+        "comment": "Made with Remotion 4.0.534; 120.00s 60fps native dual composition. Procedural science-fiction visualization; narrative parameters are fictional. Shared 48kHz PCM master. Bailian CosyVoice v3 Flash longtian_v3."
+      }
+    }
+  },
+  "loudness": {
+    "measurement": "FFmpeg ebur128=peak=true on the encoded MP4 audio stream",
+    "integrated_lufs": -17.2,
+    "true_peak_dbTP": -1.4,
+    "sample_peak_dbFS": null
+  },
+  "representative_frames": {
+    "method": "FFmpeg select=eq(n,index) over decoded final MP4 frames",
+    "frame_indexes": [
+      0,
+      360,
+      1020,
+      1040,
+      1500,
+      1920,
+      2190,
+      2990,
+      3030,
+      3900,
+      4560,
+      4567,
+      4575,
+      5790,
+      6000,
+      6020,
+      6500,
+      7100,
+      7199
+    ],
+    "contact_sheet_path": "review/encoded-landscape-contact-sheet.jpg",
+    "contact_tile_width_px": 480,
+    "native_keyframe_paths": [
+      "review/encoded-landscape-native-frame-0000.jpg",
+      "review/encoded-landscape-native-frame-1020.jpg",
+      "review/encoded-landscape-native-frame-2190.jpg",
+      "review/encoded-landscape-native-frame-4567.jpg",
+      "review/encoded-landscape-native-frame-4575.jpg",
+      "review/encoded-landscape-native-frame-6020.jpg",
+      "review/encoded-landscape-native-frame-7199.jpg"
+    ],
+    "native_keyframe_indexes": [
+      0,
+      1020,
+      2190,
+      4567,
+      4575,
+      6020,
+      7199
+    ]
+  },
+  "motion_heuristic": {
+    "method": "mean absolute difference between grayscale finite-difference edge-magnitude fields",
+    "frame_source": "decoded final MP4 frames only",
+    "roi_fraction_xyxy": [
+      0.1,
+      0.3,
+      0.9,
+      0.72
+    ],
+    "pair_gap_frames": 150,
+    "pair_gap_seconds": 2.5,
+    "sample_step_frames": 300,
+    "pair_contact_sheet_path": "review/encoded-landscape-pair-contact-sheet.jpg",
+    "samples": [
+      {
+        "segment_interval": 1,
+        "start_frame": 0,
+        "end_frame": 150,
+        "start_seconds": 0.0,
+        "end_seconds": 2.5,
+        "edge_difference_mean": 2.1035451000684358
+      },
+      {
+        "segment_interval": 1,
+        "start_frame": 300,
+        "end_frame": 450,
+        "start_seconds": 5.0,
+        "end_seconds": 7.5,
+        "edge_difference_mean": 2.1075099898391505
+      },
+      {
+        "segment_interval": 1,
+        "start_frame": 600,
+        "end_frame": 750,
+        "start_seconds": 10.0,
+        "end_seconds": 12.5,
+        "edge_difference_mean": 2.280763728063309
+      },
+      {
+        "segment_interval": 1,
+        "start_frame": 900,
+        "end_frame": 1050,
+        "start_seconds": 15.0,
+        "end_seconds": 17.5,
+        "edge_difference_mean": 2.7134399127527216
+      },
+      {
+        "segment_interval": 2,
+        "start_frame": 1200,
+        "end_frame": 1350,
+        "start_seconds": 20.0,
+        "end_seconds": 22.5,
+        "edge_difference_mean": 3.5641245483667223
+      },
+      {
+        "segment_interval": 2,
+        "start_frame": 1500,
+        "end_frame": 1650,
+        "start_seconds": 25.0,
+        "end_seconds": 27.5,
+        "edge_difference_mean": 3.842644369216882
+      },
+      {
+        "segment_interval": 3,
+        "start_frame": 1800,
+        "end_frame": 1950,
+        "start_seconds": 30.0,
+        "end_seconds": 32.5,
+        "edge_difference_mean": 3.897501621054575
+      },
+      {
+        "segment_interval": 3,
+        "start_frame": 2100,
+        "end_frame": 2250,
+        "start_seconds": 35.0,
+        "end_seconds": 37.5,
+        "edge_difference_mean": 3.8013116471715067
+      },
+      {
+        "segment_interval": 3,
+        "start_frame": 2400,
+        "end_frame": 2550,
+        "start_seconds": 40.0,
+        "end_seconds": 42.5,
+        "edge_difference_mean": 3.2260009469744655
+      },
+      {
+        "segment_interval": 4,
+        "start_frame": 2640,
+        "end_frame": 2790,
+        "start_seconds": 44.0,
+        "end_seconds": 46.5,
+        "edge_difference_mean": 3.3450964522099302
+      },
+      {
+        "segment_interval": 4,
+        "start_frame": 2940,
+        "end_frame": 3090,
+        "start_seconds": 49.0,
+        "end_seconds": 51.5,
+        "edge_difference_mean": 3.517796785715762
+      },
+      {
+        "segment_interval": 4,
+        "start_frame": 3240,
+        "end_frame": 3390,
+        "start_seconds": 54.0,
+        "end_seconds": 56.5,
+        "edge_difference_mean": 1.9335118127752418
+      },
+      {
+        "segment_interval": 5,
+        "start_frame": 3600,
+        "end_frame": 3750,
+        "start_seconds": 60.0,
+        "end_seconds": 62.5,
+        "edge_difference_mean": 1.067371152954033
+      },
+      {
+        "segment_interval": 5,
+        "start_frame": 3900,
+        "end_frame": 4050,
+        "start_seconds": 65.0,
+        "end_seconds": 67.5,
+        "edge_difference_mean": 0.9987649160428472
+      },
+      {
+        "segment_interval": 5,
+        "start_frame": 4200,
+        "end_frame": 4350,
+        "start_seconds": 70.0,
+        "end_seconds": 72.5,
+        "edge_difference_mean": 1.0395758717152461
+      },
+      {
+        "segment_interval": 6,
+        "start_frame": 4440,
+        "end_frame": 4590,
+        "start_seconds": 74.0,
+        "end_seconds": 76.5,
+        "edge_difference_mean": 3.1298032216956626
+      },
+      {
+        "segment_interval": 6,
+        "start_frame": 4740,
+        "end_frame": 4890,
+        "start_seconds": 79.0,
+        "end_seconds": 81.5,
+        "edge_difference_mean": 3.956574997685527
+      },
+      {
+        "segment_interval": 6,
+        "start_frame": 5040,
+        "end_frame": 5190,
+        "start_seconds": 84.0,
+        "end_seconds": 86.5,
+        "edge_difference_mean": 3.847486764592227
+      },
+      {
+        "segment_interval": 7,
+        "start_frame": 5400,
+        "end_frame": 5550,
+        "start_seconds": 90.0,
+        "end_seconds": 92.5,
+        "edge_difference_mean": 2.064650853796243
+      },
+      {
+        "segment_interval": 7,
+        "start_frame": 5700,
+        "end_frame": 5850,
+        "start_seconds": 95.0,
+        "end_seconds": 97.5,
+        "edge_difference_mean": 1.9684572942945227
+      },
+      {
+        "segment_interval": 8,
+        "start_frame": 6000,
+        "end_frame": 6150,
+        "start_seconds": 100.0,
+        "end_seconds": 102.5,
+        "edge_difference_mean": 6.262515520656777
+      },
+      {
+        "segment_interval": 9,
+        "start_frame": 6300,
+        "end_frame": 6450,
+        "start_seconds": 105.0,
+        "end_seconds": 107.5,
+        "edge_difference_mean": 7.230849830497517
+      },
+      {
+        "segment_interval": 9,
+        "start_frame": 6600,
+        "end_frame": 6750,
+        "start_seconds": 110.0,
+        "end_seconds": 112.5,
+        "edge_difference_mean": 7.5044812824290785
+      },
+      {
+        "segment_interval": 10,
+        "start_frame": 6930,
+        "end_frame": 7080,
+        "start_seconds": 115.5,
+        "end_seconds": 118.0,
+        "edge_difference_mean": 3.9158576022246074
+      }
+    ],
+    "limitation": "Heuristic only, not proof of meaningful motion. The ROI avoids most HUD and subtitles, but overlays or scene cuts may still affect edge differences. Human review is separate."
+  },
+  "audio_comparison": {
+    "master_path": "project/public/audio/master.wav",
+    "master_format": "48kHz stereo PCM WAV, decoded to s16le for comparison",
+    "encoded_format": "FFmpeg-decoded MP4 audio, resampled to 48kHz stereo s16le",
+    "master_decoded_frames": 5760000,
+    "encoded_decoded_frames": 5760000,
+    "encoded_minus_master_frames": 0,
+    "expected_frames_at_delivery_duration": 5760000,
+    "windows": [
+      {
+        "center_seconds": 3.0,
+        "window_seconds": 0.5,
+        "correlation": 0.9999654162610511,
+        "channel_correlation_at_best_lag": {
+          "left": 0.9999660712521459,
+          "right": 0.9999647617031363
+        },
+        "best_lag_ms": 0.0,
+        "max_alignment_search_ms": 50.0,
+        "master_window_rms_s16": 6033.998,
+        "encoded_window_rms_s16": 6027.252
+      },
+      {
+        "center_seconds": 50.0,
+        "window_seconds": 0.5,
+        "correlation": 0.9999781393441417,
+        "channel_correlation_at_best_lag": {
+          "left": 0.9999745718273684,
+          "right": 0.9999805363643245
+        },
+        "best_lag_ms": 0.0,
+        "max_alignment_search_ms": 50.0,
+        "master_window_rms_s16": 3124.798,
+        "encoded_window_rms_s16": 3121.94
+      },
+      {
+        "center_seconds": 80.0,
+        "window_seconds": 0.5,
+        "correlation": 0.9999914732773713,
+        "channel_correlation_at_best_lag": {
+          "left": 0.9999917109111256,
+          "right": 0.999991225493749
+        },
+        "best_lag_ms": 0.0,
+        "max_alignment_search_ms": 50.0,
+        "master_window_rms_s16": 4651.444,
+        "encoded_window_rms_s16": 4649.517
+      },
+      {
+        "center_seconds": 101.0,
+        "window_seconds": 0.5,
+        "correlation": 0.9999865968856665,
+        "channel_correlation_at_best_lag": {
+          "left": 0.999986453232038,
+          "right": 0.9999868577207061
+        },
+        "best_lag_ms": 0.0,
+        "max_alignment_search_ms": 50.0,
+        "master_window_rms_s16": 3381.403,
+        "encoded_window_rms_s16": 3380.248
+      },
+      {
+        "center_seconds": 117.0,
+        "window_seconds": 0.5,
+        "correlation": 0.9999091059154442,
+        "channel_correlation_at_best_lag": {
+          "left": 0.9998921878742624,
+          "right": 0.9999263942226851
+        },
+        "best_lag_ms": 0.0,
+        "max_alignment_search_ms": 50.0,
+        "master_window_rms_s16": 4884.764,
+        "encoded_window_rms_s16": 4872.194
+      }
+    ],
+    "encoded_audio_packet_sha256": {
+      "available": true,
+      "sha256": "e027ba450a7c61833278ffd9d017348b4c3df56e4e8d546c886bdf1cd77d19dd"
+    },
+    "aac_note": "AAC priming and tail padding can change container-presented duration and decoded sample count. Correlation allows a bounded +/-50ms alignment search; it is not a listening judgment.",
+    "cross_layout_packet_hash_comparison": {
+      "same_encoded_audio_packets": true,
+      "landscape_sha256": "e027ba450a7c61833278ffd9d017348b4c3df56e4e8d546c886bdf1cd77d19dd",
+      "portrait_sha256": "e027ba450a7c61833278ffd9d017348b4c3df56e4e8d546c886bdf1cd77d19dd"
+    }
+  },
+  "acceptance_limit": "Measurements and images are evidence only; this file makes no pass, listening, or human-acceptance claim."
+}

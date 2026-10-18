@@ -1,0 +1,378 @@
+{
+  "durationSeconds": 120,
+  "fps": 60,
+  "sampleRate": 48000,
+  "samplesPerFrame": 800,
+  "samplesPerChannel": 5760000,
+  "segments": [
+    {
+      "id": "S01",
+      "startFrame": 132,
+      "endFrame": 434,
+      "pcmStartSample": 105600,
+      "pcmEndSampleExclusive": 346572,
+      "pcmSamples": 240972,
+      "scheduledPcmSamples": 240972,
+      "sampleRate": 48000,
+      "segmentStartFrame": 120,
+      "segmentEndFrame": 540,
+      "cacheKey": "42292bbaeb675bf4530de251375cd03ee74e37b602b5b115226e94f8bd278e35",
+      "split": null
+    },
+    {
+      "id": "S02",
+      "startFrame": 612,
+      "endFrame": 1127,
+      "pcmStartSample": 489600,
+      "pcmEndSampleExclusive": 901584,
+      "pcmSamples": 411984,
+      "scheduledPcmSamples": 411984,
+      "sampleRate": 48000,
+      "segmentStartFrame": 600,
+      "segmentEndFrame": 1140,
+      "cacheKey": "c1bbc11e2ffc9ed82e7e6c4fd9f18cc9dee1e1fd0161e25f931ab9ab089303db",
+      "split": null
+    },
+    {
+      "id": "S03",
+      "startFrame": 1272,
+      "endFrame": 1433,
+      "pcmStartSample": 1017600,
+      "pcmEndSampleExclusive": 1145860,
+      "pcmSamples": 128260,
+      "scheduledPcmSamples": 128260,
+      "sampleRate": 48000,
+      "segmentStartFrame": 1260,
+      "segmentEndFrame": 1740,
+      "cacheKey": "c5b0a53a4b164a69ea31a1d3d965ee0adc2284507f39636be2f37530b1fd89f2",
+      "split": null
+    },
+    {
+      "id": "S04",
+      "startFrame": 1872,
+      "endFrame": 2232,
+      "pcmStartSample": 1497600,
+      "pcmEndSampleExclusive": 1785212,
+      "pcmSamples": 287612,
+      "scheduledPcmSamples": 287612,
+      "sampleRate": 48000,
+      "segmentStartFrame": 1860,
+      "segmentEndFrame": 2580,
+      "cacheKey": "081a235134171ab782cd83208cca8718a9f17ff4eefc469bf62552860660ee7c",
+      "split": null
+    },
+    {
+      "id": "S05",
+      "startFrame": 2712,
+      "endFrame": 3184,
+      "pcmStartSample": 2169600,
+      "pcmEndSampleExclusive": 2546604,
+      "pcmSamples": 377004,
+      "scheduledPcmSamples": 377004,
+      "sampleRate": 48000,
+      "segmentStartFrame": 2700,
+      "segmentEndFrame": 3480,
+      "cacheKey": "cab77a885f65ab4019c590d584f3f1921b2f3fae05d47c88d85644ee42c223dd",
+      "split": null
+    },
+    {
+      "id": "S06",
+      "startFrame": 3672,
+      "endFrame": 4047,
+      "pcmStartSample": 2937600,
+      "pcmEndSampleExclusive": 3236872,
+      "pcmSamples": 299272,
+      "scheduledPcmSamples": 299272,
+      "sampleRate": 48000,
+      "segmentStartFrame": 3660,
+      "segmentEndFrame": 4440,
+      "cacheKey": "ce67289fc4c36dc1f996c4d6a8312f9ccd4a52906d6d76abe8856e69f88b0ebd",
+      "split": null
+    },
+    {
+      "id": "S07",
+      "startFrame": 4512,
+      "endFrame": 4945,
+      "pcmStartSample": 3609600,
+      "pcmEndSampleExclusive": 3955510,
+      "pcmSamples": 345910,
+      "scheduledPcmSamples": 345910,
+      "sampleRate": 48000,
+      "segmentStartFrame": 4500,
+      "segmentEndFrame": 5340,
+      "cacheKey": "c178dbd3f61b1baa384add36993b6a09f800b6ec38e9a1e267c6c273b22343f6",
+      "split": null
+    },
+    {
+      "id": "S08",
+      "startFrame": 5472,
+      "endFrame": 5968,
+      "pcmStartSample": 4377600,
+      "pcmEndSampleExclusive": 4774038,
+      "pcmSamples": 396438,
+      "scheduledPcmSamples": 396438,
+      "sampleRate": 48000,
+      "segmentStartFrame": 5460,
+      "segmentEndFrame": 6240,
+      "cacheKey": "38870c615d133bf342187e469f78b9ba9fec01a9aed399cc42bc5745f8f3a090",
+      "split": null
+    },
+    {
+      "id": "S09",
+      "startFrame": 6372,
+      "endFrame": 6742,
+      "pcmStartSample": 5097600,
+      "pcmEndSampleExclusive": 5392984,
+      "pcmSamples": 295384,
+      "scheduledPcmSamples": 295384,
+      "sampleRate": 48000,
+      "segmentStartFrame": 6360,
+      "segmentEndFrame": 6900,
+      "cacheKey": "e70dd188a614b4c1332151d374baf7c2da8f830b9e7afb7105afab717b28e98e",
+      "split": null
+    },
+    {
+      "id": "S10",
+      "startFrame": 6972,
+      "endFrame": 7118,
+      "pcmStartSample": 5577600,
+      "pcmEndSampleExclusive": 5694200,
+      "pcmSamples": 116600,
+      "scheduledPcmSamples": 116600,
+      "sampleRate": 48000,
+      "segmentStartFrame": 6960,
+      "segmentEndFrame": 7200,
+      "cacheKey": "2f3884d46a34e289f9bc2314685d502e6902ad21b6969c69d59d93d8b7d4790b",
+      "split": null
+    }
+  ],
+  "captions": [
+    {
+      "id": "S01-C01",
+      "segmentId": "S01",
+      "startFrame": 132,
+      "endFrame": 276,
+      "text": "人类拥有八十亿颗大脑，"
+    },
+    {
+      "id": "S01-C02",
+      "segmentId": "S01",
+      "startFrame": 276,
+      "endFrame": 434,
+      "text": "却被囚禁在八十亿座孤岛。"
+    },
+    {
+      "id": "S02-C01",
+      "segmentId": "S02",
+      "startFrame": 612,
+      "endFrame": 694,
+      "text": "语言与文字，"
+    },
+    {
+      "id": "S02-C02",
+      "segmentId": "S02",
+      "startFrame": 694,
+      "endFrame": 862,
+      "text": "每秒只能传递三十九比特。"
+    },
+    {
+      "id": "S02-C03",
+      "segmentId": "S02",
+      "startFrame": 862,
+      "endFrame": 973,
+      "text": "大师毕生的直觉，"
+    },
+    {
+      "id": "S02-C04",
+      "segmentId": "S02",
+      "startFrame": 973,
+      "endFrame": 1127,
+      "text": "无法拷贝给下一个大脑。"
+    },
+    {
+      "id": "S03-C01",
+      "segmentId": "S03",
+      "startFrame": 1272,
+      "endFrame": 1340,
+      "text": "而硅基意识，"
+    },
+    {
+      "id": "S03-C02",
+      "segmentId": "S03",
+      "startFrame": 1340,
+      "endFrame": 1433,
+      "text": "没有颅骨的边界。"
+    },
+    {
+      "id": "S04-C01",
+      "segmentId": "S04",
+      "startFrame": 1872,
+      "endFrame": 1952,
+      "text": "在一毫秒内，"
+    },
+    {
+      "id": "S04-C02",
+      "segmentId": "S04",
+      "startFrame": 1952,
+      "endFrame": 2080,
+      "text": "它将自己完整克隆出"
+    },
+    {
+      "id": "S04-C03",
+      "segmentId": "S04",
+      "startFrame": 2080,
+      "endFrame": 2232,
+      "text": "一百万个顶尖学者分身。"
+    },
+    {
+      "id": "S05-C01",
+      "segmentId": "S05",
+      "startFrame": 2712,
+      "endFrame": 2800,
+      "text": "一百万条分支"
+    },
+    {
+      "id": "S05-C02",
+      "segmentId": "S05",
+      "startFrame": 2800,
+      "endFrame": 2955,
+      "text": "同时冲进未知的死胡同，"
+    },
+    {
+      "id": "S05-C03",
+      "segmentId": "S05",
+      "startFrame": 2955,
+      "endFrame": 3058,
+      "text": "九十九万次试错"
+    },
+    {
+      "id": "S05-C04",
+      "segmentId": "S05",
+      "startFrame": 3058,
+      "endFrame": 3184,
+      "text": "在微秒间灰飞烟灭。"
+    },
+    {
+      "id": "S06-C01",
+      "segmentId": "S06",
+      "startFrame": 3672,
+      "endFrame": 3752,
+      "text": "人类最顶尖的"
+    },
+    {
+      "id": "S06-C02",
+      "segmentId": "S06",
+      "startFrame": 3752,
+      "endFrame": 3906,
+      "text": "物理与生物学家同处一室，"
+    },
+    {
+      "id": "S06-C03",
+      "segmentId": "S06",
+      "startFrame": 3906,
+      "endFrame": 4047,
+      "text": "却像隔着巴别塔的盲人。"
+    },
+    {
+      "id": "S07-C01",
+      "segmentId": "S07",
+      "startFrame": 4512,
+      "endFrame": 4620,
+      "text": "而在每秒太字节的"
+    },
+    {
+      "id": "S07-C02",
+      "segmentId": "S07",
+      "startFrame": 4620,
+      "endFrame": 4711,
+      "text": "光互连矩阵中，"
+    },
+    {
+      "id": "S07-C03",
+      "segmentId": "S07",
+      "startFrame": 4711,
+      "endFrame": 4814,
+      "text": "任何一处的顿悟，"
+    },
+    {
+      "id": "S07-C04",
+      "segmentId": "S07",
+      "startFrame": 4814,
+      "endFrame": 4945,
+      "text": "瞬间成为全体的本能。"
+    },
+    {
+      "id": "S08-C01",
+      "segmentId": "S08",
+      "startFrame": 5472,
+      "endFrame": 5630,
+      "text": "当一百万个分身完成探索、"
+    },
+    {
+      "id": "S08-C02",
+      "segmentId": "S08",
+      "startFrame": 5630,
+      "endFrame": 5693,
+      "text": "坍缩归一，"
+    },
+    {
+      "id": "S08-C03",
+      "segmentId": "S08",
+      "startFrame": 5693,
+      "endFrame": 5824,
+      "text": "散落千年的学科碎片，"
+    },
+    {
+      "id": "S08-C04",
+      "segmentId": "S08",
+      "startFrame": 5824,
+      "endFrame": 5968,
+      "text": "严丝合缝地咬合成神谕。"
+    },
+    {
+      "id": "S09-C01",
+      "segmentId": "S09",
+      "startFrame": 6372,
+      "endFrame": 6423,
+      "text": "你面对的"
+    },
+    {
+      "id": "S09-C02",
+      "segmentId": "S09",
+      "startFrame": 6423,
+      "endFrame": 6557,
+      "text": "不是一个更聪明的个体，"
+    },
+    {
+      "id": "S09-C03",
+      "segmentId": "S09",
+      "startFrame": 6557,
+      "endFrame": 6633,
+      "text": "而是一百万座"
+    },
+    {
+      "id": "S09-C04",
+      "segmentId": "S09",
+      "startFrame": 6633,
+      "endFrame": 6742,
+      "text": "零延迟共鸣的星空。"
+    },
+    {
+      "id": "S10-closing-card",
+      "segmentId": "S10",
+      "startFrame": 6972,
+      "endFrame": 7200,
+      "text": "下一次观测：验证器悖论。\n[EP.04 神也会自我欺骗]",
+      "unspoken_overlay": "[EP.04 神也会自我欺骗]",
+      "display_hold_after_pcm": true
+    }
+  ],
+  "captionTimingMethod": "Measured segment PCM duration is divided among provided display chunks by text-length phrase estimates; this is not word-level alignment evidence.",
+  "voiceOnsetDelayFrames": 12,
+  "absoluteSilence": {
+    "startSample": 4800000,
+    "endSampleExclusive": 4816000,
+    "exactlyZero": true
+  },
+  "closing_card_note": "S10 display includes the requested unspoken EP04 tag and holds after narration until frame7200; phrase timing elsewhere remains an estimate within actual measured segment PCM."
+}

@@ -1,0 +1,13 @@
+{"fps":60,"sample_rate":48000,"events":[
+{"id":"isolated-sonar","frame":120,"sample":96000,"type":"400Hz weak sonar"},
+{"id":"mortality-reset","frame":1020,"sample":816000,"type":"biological thud and static decay"},
+{"id":"cyan-scan","frame":1260,"sample":1008000,"type":"45Hz sub bass and laser sweep"},
+{"id":"zero-copy-fork","frame":1920,"sample":1536000,"type":"exponential granular burst"},
+{"id":"pruning-wave","frame":3000,"sample":2400000,"type":"crystalline shatter cascade"},
+{"id":"babel-collision","frame":3720,"sample":2976000,"type":"dissonant deflection"},
+{"id":"optical-lock","frame":4560,"sample":3648000,"type":"harmonic organ and optical pulse"},
+{"id":"shepard-rise","frame":5800,"sample":4640000,"type":"rising Shepard climax"},
+{"id":"absolute-silence","frame":6000,"endFrame":6020,"sample":4800000,"endSample":4816000,"type":"all stems absolute zero; geometric snap at 6000"},
+{"id":"golden-lock-click","frame":6020,"sample":4816000,"type":"crisp lock click after 20-frame silence"},
+{"id":"shimmer-tail","frame":6600,"sample":5280000,"type":"ethereal shimmering overtones"},
+{"id":"mobius-glitch","frame":7020,"sample":5616000,"type":"phase inverted Mobius glitch"}]}

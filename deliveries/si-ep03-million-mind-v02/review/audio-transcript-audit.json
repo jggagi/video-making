@@ -1,0 +1,458 @@
+{
+  "auditVersion": 1,
+  "scope": "Factual metadata, caption, WAV-header, and exact silence-window audit. No TTS, ASR, full audio decode, or listening was performed.",
+  "provider": {
+    "provider": "Aliyun Bailian",
+    "settings": {
+      "provider": "Aliyun Bailian",
+      "model": "cosyvoice-v3-flash",
+      "voice": "longtian_v3",
+      "rate": 0.98,
+      "format": "wav",
+      "sampleRate": 24000,
+      "channels": 1,
+      "bitsPerSample": 16
+    },
+    "cueCount": 10,
+    "allEffectiveIdentitiesVerified": true,
+    "rawContainerNote": "All 10 raw provider entries record RIFF declared sizes that do not match physical payload size; canonicalization records the same PCM payload SHA-256, and each canonical cue strict-decodes.",
+    "cacheKeyRule": "SHA-256 of canonical UTF-8 JSON {text: tts_phonetic_text, settings: provider settings}, sorted keys and compact separators.",
+    "allTextSettingsAndCacheKeysMatch": true
+  },
+  "cues": [
+    {
+      "id": "S01",
+      "durationSeconds": 5.02025,
+      "startFrame": 132,
+      "endFrame": 434,
+      "pcmStartSample": 105600,
+      "pcmEndSampleExclusive": 346572,
+      "pcmSamples": 240972,
+      "scheduledStartFrame": 120,
+      "scheduledEndFrameExclusive": 540,
+      "cacheKey": "42292bbaeb675bf4530de251375cd03ee74e37b602b5b115226e94f8bd278e35",
+      "textSha256": "b1874b015471d2b98ed19a64b74710f19e68bb6a7920e7ff2aa5b2118dec2c46",
+      "providerStatus": "verified",
+      "effectiveModel": "cosyvoice-v3-flash",
+      "effectiveVoice": "longtian_v3"
+    },
+    {
+      "id": "S02",
+      "durationSeconds": 8.583,
+      "startFrame": 612,
+      "endFrame": 1127,
+      "pcmStartSample": 489600,
+      "pcmEndSampleExclusive": 901584,
+      "pcmSamples": 411984,
+      "scheduledStartFrame": 600,
+      "scheduledEndFrameExclusive": 1140,
+      "cacheKey": "c1bbc11e2ffc9ed82e7e6c4fd9f18cc9dee1e1fd0161e25f931ab9ab089303db",
+      "textSha256": "d7c46223a545020c435ef03fa4f69a3fe6a8b964fe7fbc7dc295ba035af54010",
+      "providerStatus": "verified",
+      "effectiveModel": "cosyvoice-v3-flash",
+      "effectiveVoice": "longtian_v3"
+    },
+    {
+      "id": "S03",
+      "durationSeconds": 2.672083333333333,
+      "startFrame": 1272,
+      "endFrame": 1433,
+      "pcmStartSample": 1017600,
+      "pcmEndSampleExclusive": 1145860,
+      "pcmSamples": 128260,
+      "scheduledStartFrame": 1260,
+      "scheduledEndFrameExclusive": 1740,
+      "cacheKey": "c5b0a53a4b164a69ea31a1d3d965ee0adc2284507f39636be2f37530b1fd89f2",
+      "textSha256": "b32ff84caf7aa804e68cc2d91b13e2b42a8ee92d840ed0e5c7e4efcd36f10c46",
+      "providerStatus": "verified",
+      "effectiveModel": "cosyvoice-v3-flash",
+      "effectiveVoice": "longtian_v3"
+    },
+    {
+      "id": "S04",
+      "durationSeconds": 5.991916666666667,
+      "startFrame": 1872,
+      "endFrame": 2232,
+      "pcmStartSample": 1497600,
+      "pcmEndSampleExclusive": 1785212,
+      "pcmSamples": 287612,
+      "scheduledStartFrame": 1860,
+      "scheduledEndFrameExclusive": 2580,
+      "cacheKey": "081a235134171ab782cd83208cca8718a9f17ff4eefc469bf62552860660ee7c",
+      "textSha256": "b2ab71bee687ebfc716879818ba221680be3da0121abee264d3517af6a40dc69",
+      "providerStatus": "verified",
+      "effectiveModel": "cosyvoice-v3-flash",
+      "effectiveVoice": "longtian_v3"
+    },
+    {
+      "id": "S05",
+      "durationSeconds": 7.85425,
+      "startFrame": 2712,
+      "endFrame": 3184,
+      "pcmStartSample": 2169600,
+      "pcmEndSampleExclusive": 2546604,
+      "pcmSamples": 377004,
+      "scheduledStartFrame": 2700,
+      "scheduledEndFrameExclusive": 3480,
+      "cacheKey": "cab77a885f65ab4019c590d584f3f1921b2f3fae05d47c88d85644ee42c223dd",
+      "textSha256": "ae5bff7c2e58f5a5fcdc16150da7529f67883737927fa833529afcda050bee2e",
+      "providerStatus": "verified",
+      "effectiveModel": "cosyvoice-v3-flash",
+      "effectiveVoice": "longtian_v3"
+    },
+    {
+      "id": "S06",
+      "durationSeconds": 6.2348333333333334,
+      "startFrame": 3672,
+      "endFrame": 4047,
+      "pcmStartSample": 2937600,
+      "pcmEndSampleExclusive": 3236872,
+      "pcmSamples": 299272,
+      "scheduledStartFrame": 3660,
+      "scheduledEndFrameExclusive": 4440,
+      "cacheKey": "ce67289fc4c36dc1f996c4d6a8312f9ccd4a52906d6d76abe8856e69f88b0ebd",
+      "textSha256": "04038ba44ec9b0a8f319924d1d1830577c7fe44492583983d4211260999e2520",
+      "providerStatus": "verified",
+      "effectiveModel": "cosyvoice-v3-flash",
+      "effectiveVoice": "longtian_v3"
+    },
+    {
+      "id": "S07",
+      "durationSeconds": 7.206458333333333,
+      "startFrame": 4512,
+      "endFrame": 4945,
+      "pcmStartSample": 3609600,
+      "pcmEndSampleExclusive": 3955510,
+      "pcmSamples": 345910,
+      "scheduledStartFrame": 4500,
+      "scheduledEndFrameExclusive": 5340,
+      "cacheKey": "c178dbd3f61b1baa384add36993b6a09f800b6ec38e9a1e267c6c273b22343f6",
+      "textSha256": "9b058c2c58bc6c9779c75f8ae6f90cb1e28a686cae83147d627290e59c869903",
+      "providerStatus": "verified",
+      "effectiveModel": "cosyvoice-v3-flash",
+      "effectiveVoice": "longtian_v3"
+    },
+    {
+      "id": "S08",
+      "durationSeconds": 8.259125,
+      "startFrame": 5472,
+      "endFrame": 5968,
+      "pcmStartSample": 4377600,
+      "pcmEndSampleExclusive": 4774038,
+      "pcmSamples": 396438,
+      "scheduledStartFrame": 5460,
+      "scheduledEndFrameExclusive": 6240,
+      "cacheKey": "38870c615d133bf342187e469f78b9ba9fec01a9aed399cc42bc5745f8f3a090",
+      "textSha256": "3abfe68b0e0a33cf72cfb571162f66f84a8c8a2003f893f94e92364a24e4678f",
+      "providerStatus": "verified",
+      "effectiveModel": "cosyvoice-v3-flash",
+      "effectiveVoice": "longtian_v3"
+    },
+    {
+      "id": "S09",
+      "durationSeconds": 6.153833333333333,
+      "startFrame": 6372,
+      "endFrame": 6742,
+      "pcmStartSample": 5097600,
+      "pcmEndSampleExclusive": 5392984,
+      "pcmSamples": 295384,
+      "scheduledStartFrame": 6360,
+      "scheduledEndFrameExclusive": 6900,
+      "cacheKey": "e70dd188a614b4c1332151d374baf7c2da8f830b9e7afb7105afab717b28e98e",
+      "textSha256": "b6df34b3ce2dc9d599f73e5a2a5f58102618168421a18276fe3c4e6ee612a8ba",
+      "providerStatus": "verified",
+      "effectiveModel": "cosyvoice-v3-flash",
+      "effectiveVoice": "longtian_v3"
+    },
+    {
+      "id": "S10",
+      "durationSeconds": 2.4291666666666667,
+      "startFrame": 6972,
+      "endFrame": 7118,
+      "pcmStartSample": 5577600,
+      "pcmEndSampleExclusive": 5694200,
+      "pcmSamples": 116600,
+      "scheduledStartFrame": 6960,
+      "scheduledEndFrameExclusive": 7200,
+      "cacheKey": "2f3884d46a34e289f9bc2314685d502e6902ad21b6969c69d59d93d8b7d4790b",
+      "textSha256": "d0e583fe75a984d099ffb6c95cab81081ce5d5cdb1d97a9f627f390bd0e71727",
+      "providerStatus": "verified",
+      "effectiveModel": "cosyvoice-v3-flash",
+      "effectiveVoice": "longtian_v3"
+    }
+  ],
+  "timeline": {
+    "fps": 60,
+    "sampleRate": 48000,
+    "samplesPerFrame": 800,
+    "voiceOnsetDelayFrames": 12,
+    "measuredSampleCountsEqualScheduledCounts": true,
+    "pcmIntervalsNonOverlapping": true,
+    "allCuesWithinScheduledSegmentBounds": true,
+    "captionTimingMethod": "Measured segment PCM duration is divided among provided display chunks by text-length phrase estimates; this is not word-level alignment evidence.",
+    "wordLevelTimestampsVerified": false
+  },
+  "captions": {
+    "nonClosingCaptionChunksConcatenateExactlyToDisplayText": true,
+    "allSpokenCaptionTextMatchesDisplayTextIncludingS10SpokenLine": true,
+    "nonClosingCaptionMaxCodepoints": 12,
+    "nonClosingCaptionChunkLimit14Passed": true,
+    "srtCueCount": 31,
+    "srtCaptionTextAndFrameTimecodesMatchAudioTiming": true,
+    "bothPlatformSrtFilesByteIdentical": true,
+    "srtSha256": "d21a202adeb436f042122610c08d1882b3749c592004d82babf44938e12adb99",
+    "platformFiles": [
+      "B站/captions.srt",
+      "小红书/captions.srt"
+    ],
+    "closingCard": {
+      "startFrame": 6972,
+      "endFrame": 7200,
+      "spokenText": "下一次观测：验证器悖论。",
+      "unspokenOverlay": "[EP.04 神也会自我欺骗]",
+      "unspokenOverlayPresentInSrt": true,
+      "displayHoldAfterPcm": true,
+      "pcmEndSampleExclusive": 5694200,
+      "srtDisplayHoldEndsAtFrame": 7200,
+      "note": "The EP.04 tag is an unspoken visual overlay; the SRT holds it through frame 7200, beyond S10 PCM end."
+    }
+  },
+  "criticalNumberAnchors": {
+    "八十亿": {
+      "originalScript": true,
+      "ttsPhoneticText": true,
+      "displayCaptionsExcludingUnspokenTag": true
+    },
+    "三十九比特": {
+      "originalScript": true,
+      "ttsPhoneticText": true,
+      "displayCaptionsExcludingUnspokenTag": true
+    },
+    "一毫秒": {
+      "originalScript": true,
+      "ttsPhoneticText": true,
+      "displayCaptionsExcludingUnspokenTag": true
+    },
+    "一百万": {
+      "originalScript": true,
+      "ttsPhoneticText": true,
+      "displayCaptionsExcludingUnspokenTag": true
+    },
+    "九十九万": {
+      "originalScript": true,
+      "ttsPhoneticText": true,
+      "displayCaptionsExcludingUnspokenTag": true
+    },
+    "每秒太字节": {
+      "originalScript": true,
+      "ttsPhoneticText": true,
+      "displayCaptionsExcludingUnspokenTag": true
+    },
+    "零延迟": {
+      "originalScript": true,
+      "ttsPhoneticText": true,
+      "displayCaptionsExcludingUnspokenTag": true
+    }
+  },
+  "master": {
+    "sha256": "ce324e5a36e8973830db5d62b849759d312bab0c82e4776d05c5b4914e7552ac",
+    "sampleRate": 48000,
+    "channels": 2,
+    "sampleWidthBytes": 3,
+    "samplesPerChannel": 5760000,
+    "durationSeconds": 120.0,
+    "integratedLUFS": -17.2,
+    "truePeakDBTP": -1.5,
+    "wavHeaderValidated": true,
+    "measuredValuesSource": "project/public/audio/mix-settings.json ebur128Final and master metadata; actual WAV header and required silence slice were checked; no fresh full decode.",
+    "strictDecode": "passed",
+    "loudnormFirstPass": {
+      "input_i": "-24.17",
+      "input_tp": "-1.01",
+      "input_lra": "8.40",
+      "input_thresh": "-34.17",
+      "target_offset": "1.22",
+      "output_i": "-18.22",
+      "output_tp": "-1.50",
+      "output_lra": "6.80",
+      "normalization_type": "dynamic"
+    },
+    "loudnormSecondPass": {
+      "input_i": "-24.17",
+      "input_tp": "-1.01",
+      "input_lra": "8.40",
+      "input_thresh": "-34.17",
+      "target_offset": "0.26",
+      "output_i": "-17.26",
+      "output_tp": "-1.50",
+      "output_lra": "6.40",
+      "normalization_type": "dynamic"
+    },
+    "truePeakLimitDBTP": -1.5
+  },
+  "stems": {
+    "narration.wav": {
+      "channels": 2,
+      "sampleRate": 48000,
+      "sampleWidthBytes": 2,
+      "frames": 5760000,
+      "silenceWindowBytes": 64000,
+      "expectedBytes": 64000,
+      "allZero": true,
+      "sha256": "0f5f0c4e507606f50d13d3424d755fd2ad07744235710a35060951c16b45d8b0",
+      "compression": "NONE"
+    },
+    "score.wav": {
+      "channels": 2,
+      "sampleRate": 48000,
+      "sampleWidthBytes": 2,
+      "frames": 5760000,
+      "silenceWindowBytes": 64000,
+      "expectedBytes": 64000,
+      "allZero": true,
+      "sha256": "0afdcdffe9f51c73d52a7b2aeead3480327cedfb156e1390033cbac87272134b",
+      "compression": "NONE"
+    },
+    "sfx.wav": {
+      "channels": 2,
+      "sampleRate": 48000,
+      "sampleWidthBytes": 2,
+      "frames": 5760000,
+      "silenceWindowBytes": 64000,
+      "expectedBytes": 64000,
+      "allZero": true,
+      "sha256": "dde8936492a0be03e6a46421e890b8291cb360f18cb26758f860ab2fd97d0940",
+      "compression": "NONE"
+    },
+    "master.wav": {
+      "channels": 2,
+      "sampleRate": 48000,
+      "sampleWidthBytes": 3,
+      "frames": 5760000,
+      "silenceWindowBytes": 96000,
+      "expectedBytes": 96000,
+      "allZero": true,
+      "sha256": "ce324e5a36e8973830db5d62b849759d312bab0c82e4776d05c5b4914e7552ac",
+      "compression": "NONE"
+    }
+  },
+  "absoluteSilence": {
+    "startFrame": 6000,
+    "endFrameExclusive": 6020,
+    "startSample": 4800000,
+    "endSampleExclusive": 4816000,
+    "durationSeconds": 0.3333333333333333,
+    "allFourWavSlicesReadOnceAndZero": true,
+    "S08PcmEndSampleExclusive": 4774038,
+    "S08EndsBeforeSilenceBySamples": 25962,
+    "S08PcmEndSeconds": 99.459125,
+    "silenceStartSeconds": 100.0,
+    "verifiedHeadersAndSlices": {
+      "narration.wav": {
+        "channels": 2,
+        "sampleRate": 48000,
+        "sampleWidthBytes": 2,
+        "frames": 5760000,
+        "compression": "NONE",
+        "silenceWindowBytes": 64000,
+        "expectedBytes": 64000,
+        "allZero": true
+      },
+      "score.wav": {
+        "channels": 2,
+        "sampleRate": 48000,
+        "sampleWidthBytes": 2,
+        "frames": 5760000,
+        "compression": "NONE",
+        "silenceWindowBytes": 64000,
+        "expectedBytes": 64000,
+        "allZero": true
+      },
+      "sfx.wav": {
+        "channels": 2,
+        "sampleRate": 48000,
+        "sampleWidthBytes": 2,
+        "frames": 5760000,
+        "compression": "NONE",
+        "silenceWindowBytes": 64000,
+        "expectedBytes": 64000,
+        "allZero": true
+      },
+      "master.wav": {
+        "channels": 2,
+        "sampleRate": 48000,
+        "sampleWidthBytes": 3,
+        "frames": 5760000,
+        "compression": "NONE",
+        "silenceWindowBytes": 96000,
+        "expectedBytes": 96000,
+        "allZero": true
+      }
+    },
+    "method": "Read WAV headers, then seek to sample 4,800,000 and inspect exactly 16,000 frames per file; no full audio decode."
+  },
+  "unverified": {
+    "pronunciation": "Not verified by human listening in this audit.",
+    "performanceNaturalness": "Not verified by human listening in this audit.",
+    "wordLevelAlignment": "Not verified; caption timing is phrase-length allocation over measured cue PCM duration.",
+    "speechClippingByAudition": "Not acoustically verified; recorded cue sample counts equal scheduled sample counts, and S08 PCM ends before the required silence."
+  },
+  "aacDelivery": {
+    "evidenceFile": "review/shared-audio-encoding.json",
+    "status": "BOTH_OUTPUTS_SAME_AAC_VERIFIED",
+    "sha256": "79ed727caa9ab8229ae86a3518568cd1461245d75a9edb896a6ae3a26a6403e5",
+    "packetSha256": "SHA256=e027ba450a7c61833278ffd9d017348b4c3df56e4e8d546c886bdf1cd77d19dd",
+    "sourcePcmMasterSha256": "ce324e5a36e8973830db5d62b849759d312bab0c82e4776d05c5b4914e7552ac",
+    "sampleRate": 48000,
+    "channels": 2,
+    "samplesPerChannel": 5760000,
+    "durationSeconds": 120.0,
+    "integratedLUFS": -17.2,
+    "truePeakDBTP": -1.4,
+    "sameAudioPacketsInBothMovies": true,
+    "movieOutputs": {
+      "bilibili": {
+        "path": "B站/si-ep03-million-mind-v02-bilibili-120s-4k.mp4",
+        "sha256": "4186fdfcd9770f2f216a9b8a023839a0b28058c0b2f5e26ad8239f4ab15a2a81",
+        "audioPacketSha256": "SHA256=e027ba450a7c61833278ffd9d017348b4c3df56e4e8d546c886bdf1cd77d19dd",
+        "videoPacketsUnchanged": true,
+        "videoPacketSha256Before": "SHA256=723aef45d31a75cd093ddb8234007f2c682ae1a2a10907f19cac122cf24e2137",
+        "videoPacketSha256After": "SHA256=723aef45d31a75cd093ddb8234007f2c682ae1a2a10907f19cac122cf24e2137"
+      },
+      "xiaohongshu": {
+        "path": "小红书/si-ep03-million-mind-v02-xiaohongshu-120s-portrait.mp4",
+        "sha256": "54d248dab782e4bc89658a4354019ad58a7ec51577b8cd3a4db21eeeaf86f0eb",
+        "audioPacketSha256": "SHA256=e027ba450a7c61833278ffd9d017348b4c3df56e4e8d546c886bdf1cd77d19dd",
+        "videoPacketsUnchanged": true,
+        "videoPacketSha256Before": "SHA256=1e33c0e100799aa9c3af6c683b52a1ceefead94e868f129a985199f08e60bab4",
+        "videoPacketSha256After": "SHA256=1e33c0e100799aa9c3af6c683b52a1ceefead94e868f129a985199f08e60bab4"
+      }
+    },
+    "measurementNote": "AAC delivery measurements are distinct from the PCM master measurements above; this refresh did not decode or re-encode AAC."
+  },
+  "pcmEventAlignment": {
+    "evidenceFile": "review/master-event-alignment.json",
+    "status": "PASS",
+    "comparison": "Dry pre-loudnorm authored mix compared to processed PCM master, six 0.5s windows with bounded FFT lag search",
+    "windowCount": 6,
+    "aggregateCorrelations": [
+      0.9999801807591545,
+      0.9999973735901097,
+      0.999999908030158,
+      0.9999997631953611,
+      0.9999999500788164,
+      0.9902526560483791
+    ],
+    "minimumAggregateCorrelation": 0.9902526560483791,
+    "bestLagMilliseconds": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "allBestLagsZero": true,
+    "limitation": "Waveform alignment and static SFX sample mapping evidence; not pronunciation or human listening acceptance"
+  }
+}

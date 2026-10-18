@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "title": "百万分身｜THE MILLION-FOLD MIND · EP.03 第二版",
+  "slug": "si-ep03-million-mind-v02",
+  "duration_seconds": 120,
+  "fps": 60,
+  "total_frames": 7200,
+  "script": {
+    "path": "source/script.md",
+    "sha256": "ddcfed76bdb8af7faff4ac31eecac954e4babed6cdd65e1aefe2da16ca770afe"
+  },
+  "audio": {
+    "mode": "narrated",
+    "master": "project/public/audio/master.wav",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples_per_channel": 5760000,
+    "sha256": "ce324e5a36e8973830db5d62b849759d312bab0c82e4776d05c5b4914e7552ac",
+    "pcm_metrics": {
+      "lufs": -17.2,
+      "true_peak_dbtp": -1.5
+    },
+    "final_aac": {
+      "codec": "aac",
+      "sample_rate": 48000,
+      "channels": 2,
+      "lufs": -17.2,
+      "true_peak_dbtp": -1.4
+    }
+  },
+  "outputs": {
+    "bilibili": {
+      "path": "B站/si-ep03-million-mind-v02-bilibili-120s-4k.mp4",
+      "width": 3840,
+      "height": 2160,
+      "file_size_bytes": 210515816,
+      "sha256": "4186fdfcd9770f2f216a9b8a023839a0b28058c0b2f5e26ad8239f4ab15a2a81",
+      "audio": {
+        "codec": "aac",
+        "sample_rate": 48000,
+        "channels": 2,
+        "lufs": -17.2,
+        "true_peak_dbtp": -1.4
+      }
+    },
+    "xiaohongshu": {
+      "path": "小红书/si-ep03-million-mind-v02-xiaohongshu-120s-portrait.mp4",
+      "width": 2160,
+      "height": 3840,
+      "file_size_bytes": 163679998,
+      "sha256": "54d248dab782e4bc89658a4354019ad58a7ec51577b8cd3a4db21eeeaf86f0eb",
+      "audio": {
+        "codec": "aac",
+        "sample_rate": 48000,
+        "channels": 2,
+        "lufs": -17.2,
+        "true_peak_dbtp": -1.4
+      }
+    }
+  },
+  "qa": {
+    "automated": "PASS",
+    "representative_frames": "encoded_samples_reviewed",
+    "continuous_human_review": "pending",
+    "target_device_playback": "pending",
+    "automated_evidence": "review/media-validation-20261018T035210.517455Z.json",
+    "local_browser": "PASS",
+    "local_browser_evidence": "review/browser-player-qa.json"
+  },
+  "production_status": "final_media_validated"
+}

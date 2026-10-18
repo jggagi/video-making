@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "audio_checked": true,
+  "issues": [],
+  "limitations": [
+    "No final MP4 media validation",
+    "No continuous motion or listening claim",
+    "Safe zones require rendered-frame inspection"
+  ]
+}

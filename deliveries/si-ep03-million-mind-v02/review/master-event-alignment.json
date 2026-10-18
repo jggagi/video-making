@@ -1,0 +1,86 @@
+{
+  "status": "PASS",
+  "method": "Dry pre-loudnorm authored mix compared to processed PCM master, six 0.5s windows with bounded FFT lag search",
+  "windows": [
+    {
+      "center_seconds": 2.1,
+      "window_seconds": 0.5,
+      "correlation": 0.9999801807591545,
+      "channel_correlation_at_best_lag": {
+        "left": 0.9999803329855617,
+        "right": 0.9999800370202054
+      },
+      "best_lag_ms": 0.0,
+      "max_alignment_search_ms": 50.0,
+      "master_window_rms_s16": 1758.39,
+      "encoded_window_rms_s16": 3058.197
+    },
+    {
+      "center_seconds": 17.2,
+      "window_seconds": 0.5,
+      "correlation": 0.9999973735901097,
+      "channel_correlation_at_best_lag": {
+        "left": 0.9999973698787247,
+        "right": 0.999997377669576
+      },
+      "best_lag_ms": 0.0,
+      "max_alignment_search_ms": 50.0,
+      "master_window_rms_s16": 2374.318,
+      "encoded_window_rms_s16": 4686.382
+    },
+    {
+      "center_seconds": 50.2,
+      "window_seconds": 0.5,
+      "correlation": 0.999999908030158,
+      "channel_correlation_at_best_lag": {
+        "left": 0.9999998937807595,
+        "right": 0.9999999172960584
+      },
+      "best_lag_ms": 0.0,
+      "max_alignment_search_ms": 50.0,
+      "master_window_rms_s16": 1329.901,
+      "encoded_window_rms_s16": 3290.211
+    },
+    {
+      "center_seconds": 76.2,
+      "window_seconds": 0.5,
+      "correlation": 0.9999997631953611,
+      "channel_correlation_at_best_lag": {
+        "left": 0.9999997627292856,
+        "right": 0.9999997636630533
+      },
+      "best_lag_ms": 0.0,
+      "max_alignment_search_ms": 50.0,
+      "master_window_rms_s16": 2081.443,
+      "encoded_window_rms_s16": 5407.114
+    },
+    {
+      "center_seconds": 100.4,
+      "window_seconds": 0.5,
+      "correlation": 0.9999999500788164,
+      "channel_correlation_at_best_lag": {
+        "left": 0.9999999509195218,
+        "right": 0.9999999490201753
+      },
+      "best_lag_ms": 0.0,
+      "max_alignment_search_ms": 50.0,
+      "master_window_rms_s16": 1114.466,
+      "encoded_window_rms_s16": 2935.71
+    },
+    {
+      "center_seconds": 117.2,
+      "window_seconds": 0.5,
+      "correlation": 0.9902526560483791,
+      "channel_correlation_at_best_lag": {
+        "left": 0.9905420652485136,
+        "right": 0.989973862720724
+      },
+      "best_lag_ms": 0.0,
+      "max_alignment_search_ms": 50.0,
+      "master_window_rms_s16": 2274.528,
+      "encoded_window_rms_s16": 5013.292
+    }
+  ],
+  "source_sample_rate": 48000,
+  "limitation": "Waveform alignment and static SFX sample mapping evidence; not pronunciation or human listening acceptance"
+}

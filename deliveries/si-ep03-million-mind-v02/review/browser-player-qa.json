@@ -1,0 +1,87 @@
+{
+  "status": "PASS",
+  "method": "Real headless Google Chrome via bundled Playwright; local file player; playback and seeks",
+  "results": [
+    {
+      "layout": "landscape",
+      "metadata": {
+        "duration": 120,
+        "width": 3840,
+        "height": 2160,
+        "error": null
+      },
+      "playback": {
+        "currentTime": 0.604477,
+        "paused": false,
+        "quality": {
+          "totalVideoFrames": 42,
+          "droppedVideoFrames": 0
+        }
+      },
+      "seeks": [
+        {
+          "target": 75.2,
+          "time": 75.2,
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "target": 100.333333,
+          "time": 100.333333,
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "target": 118.5,
+          "time": 118.5,
+          "readyState": 4,
+          "error": null
+        }
+      ],
+      "hidden_other_paused": true
+    },
+    {
+      "layout": "portrait",
+      "metadata": {
+        "duration": 120,
+        "width": 2160,
+        "height": 3840,
+        "error": null
+      },
+      "playback": {
+        "currentTime": 0.615563,
+        "paused": false,
+        "quality": {
+          "totalVideoFrames": 42,
+          "droppedVideoFrames": 0
+        }
+      },
+      "seeks": [
+        {
+          "target": 75.2,
+          "time": 75.2,
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "target": 100.333333,
+          "time": 100.333333,
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "target": 118.5,
+          "time": 118.5,
+          "readyState": 4,
+          "error": null
+        }
+      ],
+      "hidden_other_paused": true
+    }
+  ],
+  "page_errors": [],
+  "limitations": [
+    "Videos were muted for automation; no pronunciation or listening judgment",
+    "This is local desktop browser evidence, not phone App playback"
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "durationSeconds": 120,
+  "fps": 60,
+  "sampleRate": 48000,
+  "samplesPerFrame": 800,
+  "samplesPerChannel": 5760000,
+  "totalFrames": 7200,
+  "channels": 2,
+  "runtime": {
+    "python": "/Users/guoq/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "numpy": "2.3.5",
+    "synthesisFallback": null
+  },
+  "stemFiles": {
+    "narration": {
+      "file": "public/audio/narration.wav",
+      "sha256": "0f5f0c4e507606f50d13d3424d755fd2ad07744235710a35060951c16b45d8b0",
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleWidthBytes": 2,
+      "samplesPerChannel": 5760000,
+      "strictDecode": "passed"
+    },
+    "score": {
+      "file": "public/audio/score.wav",
+      "sha256": "0afdcdffe9f51c73d52a7b2aeead3480327cedfb156e1390033cbac87272134b",
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleWidthBytes": 2,
+      "samplesPerChannel": 5760000,
+      "strictDecode": "passed"
+    },
+    "sfx": {
+      "file": "public/audio/sfx.wav",
+      "sha256": "dde8936492a0be03e6a46421e890b8291cb360f18cb26758f860ab2fd97d0940",
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleWidthBytes": 2,
+      "samplesPerChannel": 5760000,
+      "strictDecode": "passed"
+    }
+  },
+  "master": {
+    "file": "public/audio/master.wav",
+    "sha256": "ce324e5a36e8973830db5d62b849759d312bab0c82e4776d05c5b4914e7552ac",
+    "sampleRate": 48000,
+    "channels": 2,
+    "sampleWidthBytes": 3,
+    "samplesPerChannel": 5760000,
+    "durationSeconds": 120.0,
+    "strictDecode": "passed",
+    "loudnormFirstPass": {
+      "input_i": "-24.17",
+      "input_tp": "-1.01",
+      "input_lra": "8.40",
+      "input_thresh": "-34.17",
+      "target_offset": "1.22",
+      "output_i": "-18.22",
+      "output_tp": "-1.50",
+      "output_lra": "6.80",
+      "normalization_type": "dynamic"
+    },
+    "loudnormSecondPass": {
+      "input_i": "-24.17",
+      "input_tp": "-1.01",
+      "input_lra": "8.40",
+      "input_thresh": "-34.17",
+      "target_offset": "0.26",
+      "output_i": "-17.26",
+      "output_tp": "-1.50",
+      "output_lra": "6.40",
+      "normalization_type": "dynamic"
+    },
+    "ebur128Final": {
+      "integratedLUFS": -17.2,
+      "truePeakDBTP": -1.5,
+      "samplePeakDBFS": null
+    },
+    "truePeakLimitDBTP": -1.5,
+    "filterLatencyCompensation": "FFmpeg loudnorm timestamps retained; source stems and event sample positions were not shifted."
+  },
+  "ducking": {
+    "filter": "sidechaincompress",
+    "threshold": 0.035,
+    "ratio": 5,
+    "attackMs": 20,
+    "releaseMs": 250
+  },
+  "loudnormTarget": {
+    "integratedLUFS": -17,
+    "truePeakDBTP": -1.5,
+    "lraLU": 9,
+    "passes": 2
+  },
+  "absoluteSilence": {
+    "startFrame": 6000,
+    "endFrameExclusive": 6020,
+    "startSample": 4800000,
+    "endSampleExclusive": 4816000,
+    "narrationPeak": 0,
+    "scorePeak": 0,
+    "sfxPeak": 0,
+    "masterPeak": 0
+  },
+  "sfxSampleMap": "public/audio/sfx-sample-map.json",
+  "captionTiming": "Measured segment PCM duration is divided among provided display chunks by text-length phrase estimates; this is not word-level alignment evidence."
+}

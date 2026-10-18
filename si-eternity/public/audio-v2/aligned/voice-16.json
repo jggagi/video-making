@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "voice-16",
+  "spokenText": "却依然要耐心地等待一颗原子的挪动。",
+  "sourcePath": "public/audio-v2/voice-16.wav",
+  "sourceSha256": "fed5c49918049d24442fab3ed98b8ccbf86874f320187e94c1c56b37d9148d08",
+  "cacheKey": "d013fe5a81dfec53d9c4035c08a0d75e744f84b2f1b2a7411975a6c8e700e811",
+  "parameters": {
+    "sampleRate": 48000,
+    "channels": 1,
+    "format": "pcm_s16le",
+    "targetNonSilentRmsDbfs": -20.0,
+    "nonSilentFloorDbfs": -60.0,
+    "maxGainDb": 6.0,
+    "peakCeilingDbfs": -3.0,
+    "atempoMax": 1.18
+  },
+  "actualStartSeconds": 141.24,
+  "deadlineSeconds": 150.82,
+  "atempo": 1.0,
+  "sampleRate": 48000,
+  "channels": 1,
+  "sampleCount": 180984,
+  "durationSeconds": 3.7705,
+  "processedSha256": "c78174fb4f8c6f0672f33938f6fab47de248be0fcbe247753f5b14bdc9489881",
+  "normalization": {
+    "nonSilentFloorDbfs": -60.0,
+    "nonSilentSampleCount": 145075.0,
+    "nonSilentRmsBeforeDbfs": -21.30907129684109,
+    "targetRmsDbfs": -20.0,
+    "appliedGainDb": 1.3090712968410898,
+    "nonSilentRmsAfterDbfs": -19.99999987057016,
+    "peakBeforeDbfs": -4.839910280912043,
+    "peakAfterDbfs": -3.5308386909353686,
+    "pcm16PeakDbfs": -3.5311076704272475,
+    "tempoFactor": 1.0,
+    "sampleCount": 180984.0
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "voice-21",
+  "spokenText": "然后，向现实挥出唯一的一击。",
+  "sourcePath": "public/audio-v2/voice-21.wav",
+  "sourceSha256": "159707199fff90a1e62bfa212e2346dc03ef74952221b08001c236b4ed357963",
+  "cacheKey": "30a44c2bbdcfa0902b2c05082859a33f11f9f6584f271625b51f8c949e8af58c",
+  "parameters": {
+    "sampleRate": 48000,
+    "channels": 1,
+    "format": "pcm_s16le",
+    "targetNonSilentRmsDbfs": -20.0,
+    "nonSilentFloorDbfs": -60.0,
+    "maxGainDb": 6.0,
+    "peakCeilingDbfs": -3.0,
+    "atempoMax": 1.18
+  },
+  "actualStartSeconds": 175.1,
+  "deadlineSeconds": 179.65,
+  "atempo": 1.0,
+  "sampleRate": 48000,
+  "channels": 1,
+  "sampleCount": 133770,
+  "durationSeconds": 2.786875,
+  "processedSha256": "7ff15d89f66b3d90306fb1f7e100673cb8e1b0b9280b5624b845a0d6956d1859",
+  "normalization": {
+    "nonSilentFloorDbfs": -60.0,
+    "nonSilentSampleCount": 103936.0,
+    "nonSilentRmsBeforeDbfs": -25.825793651724744,
+    "targetRmsDbfs": -20.0,
+    "appliedGainDb": 2.9693275115524846,
+    "nonSilentRmsAfterDbfs": -22.856466308604595,
+    "peakBeforeDbfs": -5.969327511552485,
+    "peakAfterDbfs": -3.0000002493010487,
+    "pcm16PeakDbfs": -3.0003622493859567,
+    "tempoFactor": 1.0,
+    "sampleCount": 133770.0
+  }
+}

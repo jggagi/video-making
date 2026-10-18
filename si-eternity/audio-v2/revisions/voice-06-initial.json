@@ -1,0 +1,23 @@
+{
+  "id": "voice-06",
+  "text": "热失控、结构坍塌、能量发散——失败先发生在模拟之中。",
+  "spokenText": "热失控、结构坍塌、能量发散——失败先发生在模拟之中。",
+  "subtitleFrom": 2820,
+  "subtitleTo": 3420,
+  "startSeconds": 47.24,
+  "deadlineSeconds": 56.82,
+  "file": "public/audio-v2/voice-06.wav",
+  "contentHash": "4d8992a1d3cf139a7114f441a60b31642438c859074c66a498f6cc1a969b8bd0",
+  "modelReportedByCli": "cosyvoice-v3-flash",
+  "voiceReportedByCli": "longtian_v3",
+  "modelReportedByProvider": null,
+  "voiceReportedByProvider": null,
+  "rawSha256": "6a9fe77dc49a80d2460f47984c10e41f4f82cd6d832c627c5b79a2f667b767d9",
+  "pcmSha256": "864fc92b545fe3530957c388bcfc6212e971dc1c630a6c64bc2400ef141cdd13",
+  "headerNormalized": true,
+  "declaredDataBytes": 2147483547,
+  "actualDataBytes": 263606,
+  "durationSeconds": 5.491791666666667,
+  "decodedSamples": 131803,
+  "sha256": "aa749ea0d2a77fe7325fd4f4d92002b0db8e74864527439eff3aec9a75556057"
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "voice-20",
+  "spokenText": "超级智能在瞬间穷尽千万个宇宙，",
+  "sourcePath": "public/audio-v2/voice-20.wav",
+  "sourceSha256": "7efaf3f2c924d0da9d11b41c502ac9629eec749ff0ecfe192740aa96766e768e",
+  "cacheKey": "6b791d9d5da58251327b72122c3131324dce28d9b2c1a7db2bf00ecff319fab1",
+  "parameters": {
+    "sampleRate": 48000,
+    "channels": 1,
+    "format": "pcm_s16le",
+    "targetNonSilentRmsDbfs": -20.0,
+    "nonSilentFloorDbfs": -60.0,
+    "maxGainDb": 6.0,
+    "peakCeilingDbfs": -3.0,
+    "atempoMax": 1.18
+  },
+  "actualStartSeconds": 168.15,
+  "deadlineSeconds": 174.8,
+  "atempo": 1.0,
+  "sampleRate": 48000,
+  "channels": 1,
+  "sampleCount": 196722,
+  "durationSeconds": 4.098375,
+  "processedSha256": "8a83b1b51042566dc37083ba171e997ec7bbfdb1bd3fba4b7f69b48950ae2b57",
+  "normalization": {
+    "nonSilentFloorDbfs": -60.0,
+    "nonSilentSampleCount": 141927.0,
+    "nonSilentRmsBeforeDbfs": -22.461310291664212,
+    "targetRmsDbfs": -20.0,
+    "appliedGainDb": 2.4613102916642156,
+    "nonSilentRmsAfterDbfs": -19.999999223420986,
+    "peakBeforeDbfs": -5.513502395863973,
+    "peakAfterDbfs": -3.0521915200760046,
+    "pcm16PeakDbfs": -3.0525660022345114,
+    "tempoFactor": 1.0,
+    "sampleCount": 196722.0
+  }
+}

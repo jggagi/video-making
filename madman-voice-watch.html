@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>狂人日记 · 鲁迅</title>
+  <style>
+    :root{color-scheme:dark;--paper:#e6deca;--muted:#999d91;--line:#343a32;--red:#b8493e}
+    *{box-sizing:border-box}body{margin:0;background:#101413;color:var(--paper);font-family:"PingFang SC",system-ui,sans-serif}
+    main{max-width:1360px;margin:48px auto 60px;padding:0 28px}header{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;margin-bottom:24px}
+    .eyebrow{font-size:11px;letter-spacing:4px;color:var(--muted);margin-bottom:14px}h1{font-family:"Songti SC",serif;font-size:38px;letter-spacing:7px;margin:0;font-weight:600}h1 span{font-size:18px;letter-spacing:4px;font-weight:400;margin-left:17px;color:var(--muted)}
+    .spec{font-size:12px;letter-spacing:2px;color:var(--muted)}video{display:block;width:100%;aspect-ratio:16/9;background:#090c0b;box-shadow:0 16px 55px #0005}
+    nav{display:grid;grid-template-columns:repeat(8,1fr);gap:0;border-bottom:1px solid var(--line);margin:22px 0 30px}
+    button{border:0;border-bottom:2px solid transparent;background:transparent;color:var(--muted);font:inherit;padding:14px 8px 20px;cursor:pointer;text-align:left;font-size:13px;letter-spacing:2px}button:hover,button.active{color:var(--paper);border-bottom-color:var(--red)}button small{display:block;font-size:10px;letter-spacing:1px;margin-bottom:8px;color:#707c72}
+    footer{display:flex;justify-content:space-between;gap:25px;flex-wrap:wrap;font-size:12px;line-height:1.8;color:var(--muted)}a{color:var(--paper);text-decoration:none;border-bottom:1px solid #626759;padding-bottom:3px}.links{display:flex;gap:24px}#status{color:var(--red);min-height:20px;font-size:13px}
+    @media(max-width:700px){main{margin:25px auto;padding:0 14px}header{display:block}h1{font-size:28px}.spec{margin-top:12px}nav{grid-template-columns:repeat(4,1fr)}button{padding:10px 5px}footer{display:block}.links{margin-top:18px}}
+  </style>
+</head>
+<body>
+  <main>
+    <header><div><div class="eyebrow">A LITERARY SHORT / 1918</div><h1>狂人日记<span>鲁迅</span></h1></div><div class="spec">原文节选 · 91.3 秒 · 1080p · 男声配音</div></header>
+    <video id="film" controls preload="metadata" playsinline poster="out/madman/still-voice-v2-title.png" aria-label="狂人日记原文节选男声配音短片">
+      <source src="out/madman/狂人日记-男声配音版-v2-1080p.mp4" type="video/mp4">
+      <track kind="subtitles" src="out/madman/狂人日记-男声配音版-v2.vtt" srclang="zh" label="中文原文">
+    </video>
+    <nav aria-label="镜头跳转">
+      <button data-time="0"><small>00:00</small>题名</button>
+      <button data-time="6"><small>00:06</small>月光</button>
+      <button data-time="17"><small>00:17</small>目光</button>
+      <button data-time="29"><small>00:29</small>字缝</button>
+      <button data-time="48.333333333333336"><small>00:48</small>质问</button>
+      <button data-time="60.333333333333336"><small>01:00</small>自省</button>
+      <button data-time="73.33333333333333"><small>01:13</small>孩子</button>
+      <button data-time="84.33333333333333"><small>01:24</small>呼喊</button>
+    </nav>
+    <div id="status" role="status"></div>
+    <footer><div>AI 木刻插画 · 百炼合成男声 · 原创氛围音<br>文本依据：<a href="https://zh.wikisource.org/zh-hans/狂人日記" target="_blank" rel="noopener">《狂人日记》原文</a></div><div class="links"><a href="out/madman/狂人日记-男声配音版-v2-1080p.mp4" download>下载成片</a><a href="out/madman/狂人日记-男声配音版-v2.vtt" download>下载字幕</a><a href="madman-watch-v1.html">无旁白版</a></div></footer>
+  </main>
+  <script>
+    const film=document.getElementById('film'), buttons=[...document.querySelectorAll('nav button')];
+    buttons.forEach(button=>button.addEventListener('click',()=>{film.currentTime=Number(button.dataset.time);film.play().catch(()=>{});}));
+    film.addEventListener('timeupdate',()=>{let active=0;buttons.forEach((button,i)=>{if(film.currentTime>=Number(button.dataset.time))active=i;});buttons.forEach((button,i)=>{button.classList.toggle('active',i===active);button.setAttribute('aria-current',i===active?'true':'false');});});
+    film.addEventListener('error',()=>document.getElementById('status').textContent='视频尚未载入，请确认成片已导出，或下载后播放。');
+  </script>
+</body>
+</html>

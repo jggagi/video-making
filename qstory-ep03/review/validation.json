@@ -1,0 +1,3060 @@
+{
+  "schemaVersion": 1,
+  "mode": "full",
+  "status": "passed",
+  "summary": {
+    "passed": 373,
+    "failed": 0,
+    "pending": 0,
+    "not_performed": 0
+  },
+  "specification": {
+    "width": 3840,
+    "height": 2160,
+    "fps": 30,
+    "frames": 5400,
+    "durationSeconds": 180,
+    "videoCodec": "h264",
+    "pixelFormat": "yuv420p",
+    "color": "BT.709",
+    "audioCodec": "aac",
+    "audioSampleRate": 48000,
+    "audioChannels": 2,
+    "audioProvider": "Aliyun Bailian",
+    "audioModel": "cosyvoice-v3-flash",
+    "audioVoice": "longtian_v3",
+    "pcmSamplesPerFullLengthAudioFile": 8640000
+  },
+  "videoObservation": {
+    "path": "out/QStory-EP03-十万亿个分身-4K.mp4",
+    "status": "probed",
+    "exists": true,
+    "containerDurationSeconds": 180.011,
+    "videoStreams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 3840,
+        "height": 2160,
+        "pix_fmt": "yuv420p",
+        "color_space": "bt709",
+        "color_transfer": "bt709",
+        "color_primaries": "bt709",
+        "r_frame_rate": "30/1",
+        "avg_frame_rate": "30/1",
+        "time_base": "1/90000",
+        "duration_ts": 16200000,
+        "duration": "180.000000",
+        "nb_frames": "5400",
+        "nb_read_frames": "5400",
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "vendor_id": "[0][0][0][0]"
+        }
+      }
+    ],
+    "audioStreams": [
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/48000",
+        "duration_ts": 8640528,
+        "duration": "180.011000",
+        "nb_frames": "8440",
+        "nb_read_frames": "8438",
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "SoundHandler",
+          "vendor_id": "[0][0][0][0]"
+        }
+      }
+    ],
+    "videoStreamDurationSeconds": 180.0,
+    "audioStreamDurationSeconds": 180.011,
+    "containerDurationToleranceSeconds": 0.021334333333333334
+  },
+  "checks": [
+    {
+      "id": "timeline.fps",
+      "status": "passed",
+      "expected": 30,
+      "actual": 30
+    },
+    {
+      "id": "timeline.duration_frames",
+      "status": "passed",
+      "expected": 5400,
+      "actual": 5400
+    },
+    {
+      "id": "timeline.duration_seconds",
+      "status": "passed",
+      "expected": 180,
+      "actual": 180
+    },
+    {
+      "id": "timeline.scenes.count",
+      "status": "passed",
+      "expected": 8,
+      "actual": 8
+    },
+    {
+      "id": "timeline.scenes.unfinished-sentence.unique_id",
+      "status": "passed",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "timeline.scenes.unfinished-sentence.continuous_start",
+      "status": "passed",
+      "expected": 0,
+      "actual": 0
+    },
+    {
+      "id": "timeline.scenes.unfinished-sentence.positive_duration",
+      "status": "passed",
+      "expected": "> 0",
+      "actual": 360
+    },
+    {
+      "id": "timeline.scenes.unfinished-sentence.declared_end",
+      "status": "passed",
+      "expected": 360,
+      "actual": 360
+    },
+    {
+      "id": "timeline.scenes.unfinished-sentence.declared_start",
+      "status": "passed",
+      "expected": 0,
+      "actual": 0
+    },
+    {
+      "id": "timeline.scenes.human-islands.unique_id",
+      "status": "passed",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "timeline.scenes.human-islands.continuous_start",
+      "status": "passed",
+      "expected": 360,
+      "actual": 360
+    },
+    {
+      "id": "timeline.scenes.human-islands.positive_duration",
+      "status": "passed",
+      "expected": "> 0",
+      "actual": 900
+    },
+    {
+      "id": "timeline.scenes.human-islands.declared_end",
+      "status": "passed",
+      "expected": 1260,
+      "actual": 1260
+    },
+    {
+      "id": "timeline.scenes.human-islands.declared_start",
+      "status": "passed",
+      "expected": 360,
+      "actual": 360
+    },
+    {
+      "id": "timeline.scenes.bridge-to-core.unique_id",
+      "status": "passed",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "timeline.scenes.bridge-to-core.continuous_start",
+      "status": "passed",
+      "expected": 1260,
+      "actual": 1260
+    },
+    {
+      "id": "timeline.scenes.bridge-to-core.positive_duration",
+      "status": "passed",
+      "expected": "> 0",
+      "actual": 540
+    },
+    {
+      "id": "timeline.scenes.bridge-to-core.declared_end",
+      "status": "passed",
+      "expected": 1800,
+      "actual": 1800
+    },
+    {
+      "id": "timeline.scenes.bridge-to-core.declared_start",
+      "status": "passed",
+      "expected": 1260,
+      "actual": 1260
+    },
+    {
+      "id": "timeline.scenes.multiplicity.unique_id",
+      "status": "passed",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "timeline.scenes.multiplicity.continuous_start",
+      "status": "passed",
+      "expected": 1800,
+      "actual": 1800
+    },
+    {
+      "id": "timeline.scenes.multiplicity.positive_duration",
+      "status": "passed",
+      "expected": "> 0",
+      "actual": 750
+    },
+    {
+      "id": "timeline.scenes.multiplicity.declared_end",
+      "status": "passed",
+      "expected": 2550,
+      "actual": 2550
+    },
+    {
+      "id": "timeline.scenes.multiplicity.declared_start",
+      "status": "passed",
+      "expected": 1800,
+      "actual": 1800
+    },
+    {
+      "id": "timeline.scenes.shared-workspace.unique_id",
+      "status": "passed",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "timeline.scenes.shared-workspace.continuous_start",
+      "status": "passed",
+      "expected": 2550,
+      "actual": 2550
+    },
+    {
+      "id": "timeline.scenes.shared-workspace.positive_duration",
+      "status": "passed",
+      "expected": "> 0",
+      "actual": 750
+    },
+    {
+      "id": "timeline.scenes.shared-workspace.declared_end",
+      "status": "passed",
+      "expected": 3300,
+      "actual": 3300
+    },
+    {
+      "id": "timeline.scenes.shared-workspace.declared_start",
+      "status": "passed",
+      "expected": 2550,
+      "actual": 2550
+    },
+    {
+      "id": "timeline.scenes.counterexample.unique_id",
+      "status": "passed",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "timeline.scenes.counterexample.continuous_start",
+      "status": "passed",
+      "expected": 3300,
+      "actual": 3300
+    },
+    {
+      "id": "timeline.scenes.counterexample.positive_duration",
+      "status": "passed",
+      "expected": "> 0",
+      "actual": 1050
+    },
+    {
+      "id": "timeline.scenes.counterexample.declared_end",
+      "status": "passed",
+      "expected": 4350,
+      "actual": 4350
+    },
+    {
+      "id": "timeline.scenes.counterexample.declared_start",
+      "status": "passed",
+      "expected": 3300,
+      "actual": 3300
+    },
+    {
+      "id": "timeline.scenes.integration.unique_id",
+      "status": "passed",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "timeline.scenes.integration.continuous_start",
+      "status": "passed",
+      "expected": 4350,
+      "actual": 4350
+    },
+    {
+      "id": "timeline.scenes.integration.positive_duration",
+      "status": "passed",
+      "expected": "> 0",
+      "actual": 600
+    },
+    {
+      "id": "timeline.scenes.integration.declared_end",
+      "status": "passed",
+      "expected": 4950,
+      "actual": 4950
+    },
+    {
+      "id": "timeline.scenes.integration.declared_start",
+      "status": "passed",
+      "expected": 4350,
+      "actual": 4350
+    },
+    {
+      "id": "timeline.scenes.return.unique_id",
+      "status": "passed",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "timeline.scenes.return.continuous_start",
+      "status": "passed",
+      "expected": 4950,
+      "actual": 4950
+    },
+    {
+      "id": "timeline.scenes.return.positive_duration",
+      "status": "passed",
+      "expected": "> 0",
+      "actual": 450
+    },
+    {
+      "id": "timeline.scenes.return.declared_end",
+      "status": "passed",
+      "expected": 5400,
+      "actual": 5400
+    },
+    {
+      "id": "timeline.scenes.return.declared_start",
+      "status": "passed",
+      "expected": 4950,
+      "actual": 4950
+    },
+    {
+      "id": "timeline.scenes.covers_full_duration",
+      "status": "passed",
+      "expected": 5400,
+      "actual": 5400
+    },
+    {
+      "id": "timeline.shots.count",
+      "status": "passed",
+      "expected": 24,
+      "actual": 24
+    },
+    {
+      "id": "timeline.shots.shot-01.unique_id",
+      "status": "passed",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "timeline.shots.shot-01.continuous_start",
+      "status": "passed",
+      "expected": 0,
+      "actual": 0
+    },
+    {
+      "id": "timeline.shots.shot-01.positive_duration",
+      "status": "passed",
+      "expected": "> 0",
+      "actual": 180
+    },
+    {
+      "id": "timeline.shots.shot-01.declared_end",
+      "status": "passed",
+      "expected": 180,
+      "actual": 180
+    },
+    {
+      "id": "timeline.shots.shot-01.declared_start",
+      "status": "passed",
+      "expected": 0,
+      "actual": 0
+    },
+    {
+      "id": "timeline.shots.shot-02.unique_id",
+      "status": "passed",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "timeline.shots.shot-02.continuous_start",
+      "status": "passed",
+      "expected": 180,
+      "actual": 180
+    },
+    {
+      "id": "timeline.shots.shot-02.positive_duration",
+      "status": "passed",
+      "expected": "> 0",
+      "actual": 180
+    },
+    {
+      "id": "timeline.shots.shot-02.declared_end",
+      "status": "passed",
+      "expected": 360,
+      "actual": 360
+    },
+    {
+      "id": "timeline.shots.shot-02.declared_start",
+      "status": "passed",
+      "expected": 180,
+      "actual": 180
+    },
+    {
+      "id": "timeline.shots.shot-03.unique_id",
+      "status": "passed",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "timeline.shots.shot-03.continuous_start",
+      "status": "passed",
+      "expected": 360,
+      "actual": 360
+    },
+    {
+      "id": "timeline.shots.shot-03.positive_duration",
+      "status": "passed",
+      "expected": "> 0",
+      "actual": 240
+    },
+    {
+      "id": "timeline.shots.shot-03.declared_end",
+      "status": "passed",
+      "expected": 600,
+      "actual": 600
+    },
+    {
+      "id": "timeline.shots.shot-03.declared_start",
+      "status": "passed",
+      "expected": 360,
+      "actual": 360
+    },
+    {
+      "id": "timeline.shots.shot-04.unique_id",
+      "status": "passed",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "timeline.shots.shot-04.continuous_start",
+      "status": "passed",
+      "expected": 600,
+      "actual": 600
+    },
+    {
+      "id": "timeline.shots.shot-04.positive_duration",
+      "status": "passed",
+      "expected": "> 0",
+      "actual": 240
+    },
+    {
+      "id": "timeline.shots.shot-04.declared_end",
+      "status": "passed",
+      "expected": 840,
+      "actual": 840
+    },
+    {
+      "id": "timeline.shots.shot-04.declared_start",
+      "status": "passed",
+      "expected": 600,
+      "actual": 600
+    },
+    {
+      "id": "timeline.shots.shot-05.unique_id",
+      "status": "passed",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "timeline.shots.shot-05.continuous_start",
+      "status": "passed",
+      "expected": 840,
+      "actual": 840
+    },
+    {
+      "id": "timeline.shots.shot-05.positive_duration",
+      "status": "passed",
+      "expected": "> 0",
+      "actual": 210
+    },
+    {
+      "id": "timeline.shots.shot-05.declared_end",
+      "status": "passed",
+      "expected": 1050,
+      "actual": 1050
+    },
+    {
+      "id": "timeline.shots.shot-05.declared_start",
+      "status": "passed",
+      "expected": 840,
+      "actual": 840
+    },
+    {
+      "id": "timeline.shots.shot-06.unique_id",
+      "status": "passed",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "timeline.shots.shot-06.continuous_start",
+      "status": "passed",
+      "expected": 1050,
+      "actual": 1050
+    },
+    {
+      "id": "timeline.shots.shot-06.positive_duration",
+      "status": "passed",
+      "expected": "> 0",
+      "actual": 210
+    },
+    {
+      "id": "timeline.shots.shot-06.declared_end",
+      "status": "passed",
+      "expected": 1260,
+      "actual": 1260
+    },
+    {
+      "id": "timeline.shots.shot-06.declared_start",
+      "status": "passed",
+      "expected": 1050,
+      "actual": 1050
+    },
+    {
+      "id": "timeline.shots.shot-07.unique_id",
+      "status": "passed",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "timeline.shots.shot-07.continuous_start",
+      "status": "passed",
+      "expected": 1260,
+      "actual": 1260
+    },
+    {
+      "id": "timeline.shots.shot-07.positive_duration",
+      "status": "passed",
+      "expected": "> 0",
+      "actual": 240
+    },
+    {
+      "id": "timeline.shots.shot-07.declared_end",
+      "status": "passed",
+      "expected": 1500,
+      "actual": 1500
+    },
+    {
+      "id": "timeline.shots.shot-07.declared_start",
+      "status": "passed",
+      "expected": 1260,
+      "actual": 1260
+    },
+    {
+      "id": "timeline.shots.shot-08.unique_id",
+      "status": "passed",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "timeline.shots.shot-08.continuous_start",
+      "status": "passed",
+      "expected": 1500,
+      "actual": 1500
+    },
+    {
+      "id": "timeline.shots.shot-08.positive_duration",
+      "status": "passed",
+      "expected": "> 0",
+      "actual": 300
+    },
+    {
+      "id": "timeline.shots.shot-08.declared_end",
+      "status": "passed",
+      "expected": 1800,
+      "actual": 1800
+    },
+    {
+      "id": "timeline.shots.shot-08.declared_start",
+      "status": "passed",
+      "expected": 1500,
+      "actual": 1500
+    },
+    {
+      "id": "timeline.shots.shot-09.unique_id",
+      "status": "passed",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "timeline.shots.shot-09.continuous_start",
+      "status": "passed",
+      "expected": 1800,
+      "actual": 1800
+    },
+    {
+      "id": "timeline.shots.shot-09.positive_duration",
+      "status": "passed",
+      "expected": "> 0",
+      "actual": 240
+    },
+    {
+      "id": "timeline.shots.shot-09.declared_end",
+      "status": "passed",
+      "expected": 2040,
+      "actual": 2040
+    },
+    {
+      "id": "timeline.shots.shot-09.declared_start",
+      "status": "passed",
+      "expected": 1800,
+      "actual": 1800
+    },
+    {
+      "id": "timeline.shots.shot-10.unique_id",
+      "status": "passed",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "timeline.shots.shot-10.continuous_start",
+      "status": "passed",
+      "expected": 2040,
+      "actual": 2040
+    },
+    {
+      "id": "timeline.shots.shot-10.positive_duration",
+      "status": "passed",
+      "expected": "> 0",
+      "actual": 240
+    },
+    {
+      "id": "timeline.shots.shot-10.declared_end",
+      "status": "passed",
+      "expected": 2280,
+      "actual": 2280
+    },
+    {
+      "id": "timeline.shots.shot-10.declared_start",
+      "status": "passed",
+      "expected": 2040,
+      "actual": 2040
+    },
+    {
+      "id": "timeline.shots.shot-11.unique_id",
+      "status": "passed",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "timeline.shots.shot-11.continuous_start",
+      "status": "passed",
+      "expected": 2280,
+      "actual": 2280
+    },
+    {
+      "id": "timeline.shots.shot-11.positive_duration",
+      "status": "passed",
+      "expected": "> 0",
+      "actual": 270
+    },
+    {
+      "id": "timeline.shots.shot-11.declared_end",
+      "status": "passed",
+      "expected": 2550,
+      "actual": 2550
+    },
+    {
+      "id": "timeline.shots.shot-11.declared_start",
+      "status": "passed",
+      "expected": 2280,
+      "actual": 2280
+    },
+    {
+      "id": "timeline.shots.shot-12.unique_id",
+      "status": "passed",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "timeline.shots.shot-12.continuous_start",
+      "status": "passed",
+      "expected": 2550,
+      "actual": 2550
+    },
+    {
+      "id": "timeline.shots.shot-12.positive_duration",
+      "status": "passed",
+      "expected": "> 0",
+      "actual": 240
+    },
+    {
+      "id": "timeline.shots.shot-12.declared_end",
+      "status": "passed",
+      "expected": 2790,
+      "actual": 2790
+    },
+    {
+      "id": "timeline.shots.shot-12.declared_start",
+      "status": "passed",
+      "expected": 2550,
+      "actual": 2550
+    },
+    {
+      "id": "timeline.shots.shot-13.unique_id",
+      "status": "passed",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "timeline.shots.shot-13.continuous_start",
+      "status": "passed",
+      "expected": 2790,
+      "actual": 2790
+    },
+    {
+      "id": "timeline.shots.shot-13.positive_duration",
+      "status": "passed",
+      "expected": "> 0",
+      "actual": 240
+    },
+    {
+      "id": "timeline.shots.shot-13.declared_end",
+      "status": "passed",
+      "expected": 3030,
+      "actual": 3030
+    },
+    {
+      "id": "timeline.shots.shot-13.declared_start",
+      "status": "passed",
+      "expected": 2790,
+      "actual": 2790
+    },
+    {
+      "id": "timeline.shots.shot-14.unique_id",
+      "status": "passed",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "timeline.shots.shot-14.continuous_start",
+      "status": "passed",
+      "expected": 3030,
+      "actual": 3030
+    },
+    {
+      "id": "timeline.shots.shot-14.positive_duration",
+      "status": "passed",
+      "expected": "> 0",
+      "actual": 270
+    },
+    {
+      "id": "timeline.shots.shot-14.declared_end",
+      "status": "passed",
+      "expected": 3300,
+      "actual": 3300
+    },
+    {
+      "id": "timeline.shots.shot-14.declared_start",
+      "status": "passed",
+      "expected": 3030,
+      "actual": 3030
+    },
+    {
+      "id": "timeline.shots.shot-15.unique_id",
+      "status": "passed",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "timeline.shots.shot-15.continuous_start",
+      "status": "passed",
+      "expected": 3300,
+      "actual": 3300
+    },
+    {
+      "id": "timeline.shots.shot-15.positive_duration",
+      "status": "passed",
+      "expected": "> 0",
+      "actual": 240
+    },
+    {
+      "id": "timeline.shots.shot-15.declared_end",
+      "status": "passed",
+      "expected": 3540,
+      "actual": 3540
+    },
+    {
+      "id": "timeline.shots.shot-15.declared_start",
+      "status": "passed",
+      "expected": 3300,
+      "actual": 3300
+    },
+    {
+      "id": "timeline.shots.shot-16.unique_id",
+      "status": "passed",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "timeline.shots.shot-16.continuous_start",
+      "status": "passed",
+      "expected": 3540,
+      "actual": 3540
+    },
+    {
+      "id": "timeline.shots.shot-16.positive_duration",
+      "status": "passed",
+      "expected": "> 0",
+      "actual": 270
+    },
+    {
+      "id": "timeline.shots.shot-16.declared_end",
+      "status": "passed",
+      "expected": 3810,
+      "actual": 3810
+    },
+    {
+      "id": "timeline.shots.shot-16.declared_start",
+      "status": "passed",
+      "expected": 3540,
+      "actual": 3540
+    },
+    {
+      "id": "timeline.shots.shot-17.unique_id",
+      "status": "passed",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "timeline.shots.shot-17.continuous_start",
+      "status": "passed",
+      "expected": 3810,
+      "actual": 3810
+    },
+    {
+      "id": "timeline.shots.shot-17.positive_duration",
+      "status": "passed",
+      "expected": "> 0",
+      "actual": 270
+    },
+    {
+      "id": "timeline.shots.shot-17.declared_end",
+      "status": "passed",
+      "expected": 4080,
+      "actual": 4080
+    },
+    {
+      "id": "timeline.shots.shot-17.declared_start",
+      "status": "passed",
+      "expected": 3810,
+      "actual": 3810
+    },
+    {
+      "id": "timeline.shots.shot-18.unique_id",
+      "status": "passed",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "timeline.shots.shot-18.continuous_start",
+      "status": "passed",
+      "expected": 4080,
+      "actual": 4080
+    },
+    {
+      "id": "timeline.shots.shot-18.positive_duration",
+      "status": "passed",
+      "expected": "> 0",
+      "actual": 270
+    },
+    {
+      "id": "timeline.shots.shot-18.declared_end",
+      "status": "passed",
+      "expected": 4350,
+      "actual": 4350
+    },
+    {
+      "id": "timeline.shots.shot-18.declared_start",
+      "status": "passed",
+      "expected": 4080,
+      "actual": 4080
+    },
+    {
+      "id": "timeline.shots.shot-19.unique_id",
+      "status": "passed",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "timeline.shots.shot-19.continuous_start",
+      "status": "passed",
+      "expected": 4350,
+      "actual": 4350
+    },
+    {
+      "id": "timeline.shots.shot-19.positive_duration",
+      "status": "passed",
+      "expected": "> 0",
+      "actual": 240
+    },
+    {
+      "id": "timeline.shots.shot-19.declared_end",
+      "status": "passed",
+      "expected": 4590,
+      "actual": 4590
+    },
+    {
+      "id": "timeline.shots.shot-19.declared_start",
+      "status": "passed",
+      "expected": 4350,
+      "actual": 4350
+    },
+    {
+      "id": "timeline.shots.shot-20.unique_id",
+      "status": "passed",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "timeline.shots.shot-20.continuous_start",
+      "status": "passed",
+      "expected": 4590,
+      "actual": 4590
+    },
+    {
+      "id": "timeline.shots.shot-20.positive_duration",
+      "status": "passed",
+      "expected": "> 0",
+      "actual": 210
+    },
+    {
+      "id": "timeline.shots.shot-20.declared_end",
+      "status": "passed",
+      "expected": 4800,
+      "actual": 4800
+    },
+    {
+      "id": "timeline.shots.shot-20.declared_start",
+      "status": "passed",
+      "expected": 4590,
+      "actual": 4590
+    },
+    {
+      "id": "timeline.shots.shot-21.unique_id",
+      "status": "passed",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "timeline.shots.shot-21.continuous_start",
+      "status": "passed",
+      "expected": 4800,
+      "actual": 4800
+    },
+    {
+      "id": "timeline.shots.shot-21.positive_duration",
+      "status": "passed",
+      "expected": "> 0",
+      "actual": 150
+    },
+    {
+      "id": "timeline.shots.shot-21.declared_end",
+      "status": "passed",
+      "expected": 4950,
+      "actual": 4950
+    },
+    {
+      "id": "timeline.shots.shot-21.declared_start",
+      "status": "passed",
+      "expected": 4800,
+      "actual": 4800
+    },
+    {
+      "id": "timeline.shots.shot-22.unique_id",
+      "status": "passed",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "timeline.shots.shot-22.continuous_start",
+      "status": "passed",
+      "expected": 4950,
+      "actual": 4950
+    },
+    {
+      "id": "timeline.shots.shot-22.positive_duration",
+      "status": "passed",
+      "expected": "> 0",
+      "actual": 180
+    },
+    {
+      "id": "timeline.shots.shot-22.declared_end",
+      "status": "passed",
+      "expected": 5130,
+      "actual": 5130
+    },
+    {
+      "id": "timeline.shots.shot-22.declared_start",
+      "status": "passed",
+      "expected": 4950,
+      "actual": 4950
+    },
+    {
+      "id": "timeline.shots.shot-23.unique_id",
+      "status": "passed",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "timeline.shots.shot-23.continuous_start",
+      "status": "passed",
+      "expected": 5130,
+      "actual": 5130
+    },
+    {
+      "id": "timeline.shots.shot-23.positive_duration",
+      "status": "passed",
+      "expected": "> 0",
+      "actual": 150
+    },
+    {
+      "id": "timeline.shots.shot-23.declared_end",
+      "status": "passed",
+      "expected": 5280,
+      "actual": 5280
+    },
+    {
+      "id": "timeline.shots.shot-23.declared_start",
+      "status": "passed",
+      "expected": 5130,
+      "actual": 5130
+    },
+    {
+      "id": "timeline.shots.shot-24.unique_id",
+      "status": "passed",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "timeline.shots.shot-24.continuous_start",
+      "status": "passed",
+      "expected": 5280,
+      "actual": 5280
+    },
+    {
+      "id": "timeline.shots.shot-24.positive_duration",
+      "status": "passed",
+      "expected": "> 0",
+      "actual": 120
+    },
+    {
+      "id": "timeline.shots.shot-24.declared_end",
+      "status": "passed",
+      "expected": 5400,
+      "actual": 5400
+    },
+    {
+      "id": "timeline.shots.shot-24.declared_start",
+      "status": "passed",
+      "expected": 5280,
+      "actual": 5280
+    },
+    {
+      "id": "timeline.shots.covers_full_duration",
+      "status": "passed",
+      "expected": 5400,
+      "actual": 5400
+    },
+    {
+      "id": "timeline.shot.shot-01.within_scene",
+      "status": "passed",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "timeline.shot.shot-02.within_scene",
+      "status": "passed",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "timeline.shot.shot-03.within_scene",
+      "status": "passed",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "timeline.shot.shot-04.within_scene",
+      "status": "passed",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "timeline.shot.shot-05.within_scene",
+      "status": "passed",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "timeline.shot.shot-06.within_scene",
+      "status": "passed",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "timeline.shot.shot-07.within_scene",
+      "status": "passed",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "timeline.shot.shot-08.within_scene",
+      "status": "passed",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "timeline.shot.shot-09.within_scene",
+      "status": "passed",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "timeline.shot.shot-10.within_scene",
+      "status": "passed",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "timeline.shot.shot-11.within_scene",
+      "status": "passed",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "timeline.shot.shot-12.within_scene",
+      "status": "passed",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "timeline.shot.shot-13.within_scene",
+      "status": "passed",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "timeline.shot.shot-14.within_scene",
+      "status": "passed",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "timeline.shot.shot-15.within_scene",
+      "status": "passed",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "timeline.shot.shot-16.within_scene",
+      "status": "passed",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "timeline.shot.shot-17.within_scene",
+      "status": "passed",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "timeline.shot.shot-18.within_scene",
+      "status": "passed",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "timeline.shot.shot-19.within_scene",
+      "status": "passed",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "timeline.shot.shot-20.within_scene",
+      "status": "passed",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "timeline.shot.shot-21.within_scene",
+      "status": "passed",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "timeline.shot.shot-22.within_scene",
+      "status": "passed",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "timeline.shot.shot-23.within_scene",
+      "status": "passed",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "timeline.shot.shot-24.within_scene",
+      "status": "passed",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "source_cues.count",
+      "status": "passed",
+      "expected": 25,
+      "actual": 25
+    },
+    {
+      "id": "source_cues.id_order",
+      "status": "passed",
+      "expected": [
+        "caption-001",
+        "caption-002",
+        "caption-003",
+        "caption-004",
+        "caption-005",
+        "caption-006",
+        "caption-007",
+        "caption-008",
+        "caption-009",
+        "caption-010",
+        "caption-011",
+        "caption-012",
+        "caption-013",
+        "caption-014",
+        "caption-015",
+        "caption-016",
+        "caption-017",
+        "caption-018",
+        "caption-019",
+        "caption-020",
+        "caption-021",
+        "caption-022",
+        "caption-023",
+        "caption-024",
+        "caption-025"
+      ],
+      "actual": [
+        "caption-001",
+        "caption-002",
+        "caption-003",
+        "caption-004",
+        "caption-005",
+        "caption-006",
+        "caption-007",
+        "caption-008",
+        "caption-009",
+        "caption-010",
+        "caption-011",
+        "caption-012",
+        "caption-013",
+        "caption-014",
+        "caption-015",
+        "caption-016",
+        "caption-017",
+        "caption-018",
+        "caption-019",
+        "caption-020",
+        "caption-021",
+        "caption-022",
+        "caption-023",
+        "caption-024",
+        "caption-025"
+      ]
+    },
+    {
+      "id": "source_narration.concatenation_unchanged",
+      "status": "passed",
+      "expected": {
+        "characters": 366,
+        "sha256": "ee0de2298ccbfe7f3260a2446b67bb30bac9ac3f667ecfebf928cf43c11bf1eb"
+      },
+      "actual": {
+        "characters": 366,
+        "sha256": "ee0de2298ccbfe7f3260a2446b67bb30bac9ac3f667ecfebf928cf43c11bf1eb"
+      }
+    },
+    {
+      "id": "timeline.hard_silence_window",
+      "status": "passed",
+      "expected": {
+        "fromFrame": 3870,
+        "toFrameExclusive": 3900,
+        "tracks": [
+          "voice",
+          "music",
+          "sfx"
+        ]
+      },
+      "actual": [
+        {
+          "id": "hard-silence",
+          "fromFrame": 3870,
+          "toFrameExclusive": 3900,
+          "tracks": [
+            "voice",
+            "music",
+            "sfx"
+          ],
+          "description": "完全静音，129—130秒；旁白已绕开此窗口。"
+        }
+      ]
+    },
+    {
+      "id": "audio_timing.sample_rate",
+      "status": "passed",
+      "expected": 48000,
+      "actual": 48000
+    },
+    {
+      "id": "audio_timing.duration",
+      "status": "passed",
+      "expected": 180,
+      "actual": 180
+    },
+    {
+      "id": "audio_timing.provider",
+      "status": "passed",
+      "expected": "Aliyun Bailian",
+      "actual": "Aliyun Bailian"
+    },
+    {
+      "id": "audio_timing.model",
+      "status": "passed",
+      "expected": "cosyvoice-v3-flash",
+      "actual": "cosyvoice-v3-flash"
+    },
+    {
+      "id": "audio_timing.voice",
+      "status": "passed",
+      "expected": "longtian_v3",
+      "actual": "longtian_v3"
+    },
+    {
+      "id": "audio_timing.cue_count",
+      "status": "passed",
+      "expected": 25,
+      "actual": 25
+    },
+    {
+      "id": "audio_timing.cue_id_order",
+      "status": "passed",
+      "expected": [
+        "caption-001",
+        "caption-002",
+        "caption-003",
+        "caption-004",
+        "caption-005",
+        "caption-006",
+        "caption-007",
+        "caption-008",
+        "caption-009",
+        "caption-010",
+        "caption-011",
+        "caption-012",
+        "caption-013",
+        "caption-014",
+        "caption-015",
+        "caption-016",
+        "caption-017",
+        "caption-018",
+        "caption-019",
+        "caption-020",
+        "caption-021",
+        "caption-022",
+        "caption-023",
+        "caption-024",
+        "caption-025"
+      ],
+      "actual": [
+        "caption-001",
+        "caption-002",
+        "caption-003",
+        "caption-004",
+        "caption-005",
+        "caption-006",
+        "caption-007",
+        "caption-008",
+        "caption-009",
+        "caption-010",
+        "caption-011",
+        "caption-012",
+        "caption-013",
+        "caption-014",
+        "caption-015",
+        "caption-016",
+        "caption-017",
+        "caption-018",
+        "caption-019",
+        "caption-020",
+        "caption-021",
+        "caption-022",
+        "caption-023",
+        "caption-024",
+        "caption-025"
+      ]
+    },
+    {
+      "id": "audio_timing.caption-001.valid_window",
+      "status": "passed",
+      "expected": "0 <= start < end <= 5400",
+      "actual": {
+        "fromFrame": 30,
+        "toFrameExclusive": 120
+      }
+    },
+    {
+      "id": "audio_timing.caption-001.within_corresponding_shot",
+      "status": "passed",
+      "expected": "shot-01",
+      "actual": {
+        "fromFrame": 30,
+        "toFrameExclusive": 120
+      }
+    },
+    {
+      "id": "audio_timing.caption-001.no_overlap",
+      "status": "passed",
+      "expected": "start >= previous end (-1)",
+      "actual": 30
+    },
+    {
+      "id": "audio_timing.caption-001.avoids_129_130s",
+      "status": "passed",
+      "expected": "outside [129s, 130s)",
+      "actual": {
+        "fromFrame": 30,
+        "toFrameExclusive": 120
+      }
+    },
+    {
+      "id": "audio_timing.caption-001.matches_source",
+      "status": "passed",
+      "expected": {
+        "id": "caption-001",
+        "text": "等等，我的意思是……",
+        "shotId": "shot-01",
+        "speaker": "researcher"
+      },
+      "actual": {
+        "id": "caption-001",
+        "text": "等等，我的意思是……",
+        "shotId": "shot-01",
+        "speaker": "researcher"
+      }
+    },
+    {
+      "id": "audio_timing.caption-002.valid_window",
+      "status": "passed",
+      "expected": "0 <= start < end <= 5400",
+      "actual": {
+        "fromFrame": 195,
+        "toFrameExclusive": 304
+      }
+    },
+    {
+      "id": "audio_timing.caption-002.within_corresponding_shot",
+      "status": "passed",
+      "expected": "shot-02",
+      "actual": {
+        "fromFrame": 195,
+        "toFrameExclusive": 304
+      }
+    },
+    {
+      "id": "audio_timing.caption-002.no_overlap",
+      "status": "passed",
+      "expected": "start >= previous end (120)",
+      "actual": 195
+    },
+    {
+      "id": "audio_timing.caption-002.avoids_129_130s",
+      "status": "passed",
+      "expected": "outside [129s, 130s)",
+      "actual": {
+        "fromFrame": 195,
+        "toFrameExclusive": 304
+      }
+    },
+    {
+      "id": "audio_timing.caption-002.matches_source",
+      "status": "passed",
+      "expected": {
+        "id": "caption-002",
+        "text": "一个想法，抵达另一个人，需要多久？",
+        "shotId": "shot-02",
+        "speaker": "narrator"
+      },
+      "actual": {
+        "id": "caption-002",
+        "text": "一个想法，抵达另一个人，需要多久？",
+        "shotId": "shot-02",
+        "speaker": "narrator"
+      }
+    },
+    {
+      "id": "audio_timing.caption-003.valid_window",
+      "status": "passed",
+      "expected": "0 <= start < end <= 5400",
+      "actual": {
+        "fromFrame": 381,
+        "toFrameExclusive": 498
+      }
+    },
+    {
+      "id": "audio_timing.caption-003.within_corresponding_shot",
+      "status": "passed",
+      "expected": "shot-03",
+      "actual": {
+        "fromFrame": 381,
+        "toFrameExclusive": 498
+      }
+    },
+    {
+      "id": "audio_timing.caption-003.no_overlap",
+      "status": "passed",
+      "expected": "start >= previous end (304)",
+      "actual": 381
+    },
+    {
+      "id": "audio_timing.caption-003.avoids_129_130s",
+      "status": "passed",
+      "expected": "outside [129s, 130s)",
+      "actual": {
+        "fromFrame": 381,
+        "toFrameExclusive": 498
+      }
+    },
+    {
+      "id": "audio_timing.caption-003.matches_source",
+      "status": "passed",
+      "expected": {
+        "id": "caption-003",
+        "text": "每个人心里，都有一个难以完整说出的世界。",
+        "shotId": "shot-03",
+        "speaker": "narrator"
+      },
+      "actual": {
+        "id": "caption-003",
+        "text": "每个人心里，都有一个难以完整说出的世界。",
+        "shotId": "shot-03",
+        "speaker": "narrator"
+      }
+    },
+    {
+      "id": "audio_timing.caption-004.valid_window",
+      "status": "passed",
+      "expected": "0 <= start < end <= 5400",
+      "actual": {
+        "fromFrame": 624,
+        "toFrameExclusive": 736
+      }
+    },
+    {
+      "id": "audio_timing.caption-004.within_corresponding_shot",
+      "status": "passed",
+      "expected": "shot-04",
+      "actual": {
+        "fromFrame": 624,
+        "toFrameExclusive": 736
+      }
+    },
+    {
+      "id": "audio_timing.caption-004.no_overlap",
+      "status": "passed",
+      "expected": "start >= previous end (498)",
+      "actual": 624
+    },
+    {
+      "id": "audio_timing.caption-004.avoids_129_130s",
+      "status": "passed",
+      "expected": "outside [129s, 130s)",
+      "actual": {
+        "fromFrame": 624,
+        "toFrameExclusive": 736
+      }
+    },
+    {
+      "id": "audio_timing.caption-004.matches_source",
+      "status": "passed",
+      "expected": {
+        "id": "caption-004",
+        "text": "我们把它变成语言、图像、公式。",
+        "shotId": "shot-04",
+        "speaker": "narrator"
+      },
+      "actual": {
+        "id": "caption-004",
+        "text": "我们把它变成语言、图像、公式。",
+        "shotId": "shot-04",
+        "speaker": "narrator"
+      }
+    },
+    {
+      "id": "audio_timing.caption-005.valid_window",
+      "status": "passed",
+      "expected": "0 <= start < end <= 5400",
+      "actual": {
+        "fromFrame": 855,
+        "toFrameExclusive": 967
+      }
+    },
+    {
+      "id": "audio_timing.caption-005.within_corresponding_shot",
+      "status": "passed",
+      "expected": "shot-05",
+      "actual": {
+        "fromFrame": 855,
+        "toFrameExclusive": 967
+      }
+    },
+    {
+      "id": "audio_timing.caption-005.no_overlap",
+      "status": "passed",
+      "expected": "start >= previous end (736)",
+      "actual": 855
+    },
+    {
+      "id": "audio_timing.caption-005.avoids_129_130s",
+      "status": "passed",
+      "expected": "outside [129s, 130s)",
+      "actual": {
+        "fromFrame": 855,
+        "toFrameExclusive": 967
+      }
+    },
+    {
+      "id": "audio_timing.caption-005.matches_source",
+      "status": "passed",
+      "expected": {
+        "id": "caption-005",
+        "text": "再由另一个人，一点一点，重新搭起。",
+        "shotId": "shot-05",
+        "speaker": "narrator"
+      },
+      "actual": {
+        "id": "caption-005",
+        "text": "再由另一个人，一点一点，重新搭起。",
+        "shotId": "shot-05",
+        "speaker": "narrator"
+      }
+    },
+    {
+      "id": "audio_timing.caption-006.valid_window",
+      "status": "passed",
+      "expected": "0 <= start < end <= 5400",
+      "actual": {
+        "fromFrame": 1065,
+        "toFrameExclusive": 1174
+      }
+    },
+    {
+      "id": "audio_timing.caption-006.within_corresponding_shot",
+      "status": "passed",
+      "expected": "shot-06",
+      "actual": {
+        "fromFrame": 1065,
+        "toFrameExclusive": 1174
+      }
+    },
+    {
+      "id": "audio_timing.caption-006.no_overlap",
+      "status": "passed",
+      "expected": "start >= previous end (967)",
+      "actual": 1065
+    },
+    {
+      "id": "audio_timing.caption-006.avoids_129_130s",
+      "status": "passed",
+      "expected": "outside [129s, 130s)",
+      "actual": {
+        "fromFrame": 1065,
+        "toFrameExclusive": 1174
+      }
+    },
+    {
+      "id": "audio_timing.caption-006.matches_source",
+      "status": "passed",
+      "expected": {
+        "id": "caption-006",
+        "text": "我们就这样，把无数孤岛连成文明。",
+        "shotId": "shot-06",
+        "speaker": "narrator"
+      },
+      "actual": {
+        "id": "caption-006",
+        "text": "我们就这样，把无数孤岛连成文明。",
+        "shotId": "shot-06",
+        "speaker": "narrator"
+      }
+    },
+    {
+      "id": "audio_timing.caption-007.valid_window",
+      "status": "passed",
+      "expected": "0 <= start < end <= 5400",
+      "actual": {
+        "fromFrame": 1275,
+        "toFrameExclusive": 1392
+      }
+    },
+    {
+      "id": "audio_timing.caption-007.within_corresponding_shot",
+      "status": "passed",
+      "expected": "shot-07",
+      "actual": {
+        "fromFrame": 1275,
+        "toFrameExclusive": 1392
+      }
+    },
+    {
+      "id": "audio_timing.caption-007.no_overlap",
+      "status": "passed",
+      "expected": "start >= previous end (1174)",
+      "actual": 1275
+    },
+    {
+      "id": "audio_timing.caption-007.avoids_129_130s",
+      "status": "passed",
+      "expected": "outside [129s, 130s)",
+      "actual": {
+        "fromFrame": 1275,
+        "toFrameExclusive": 1392
+      }
+    },
+    {
+      "id": "audio_timing.caption-007.matches_source",
+      "status": "passed",
+      "expected": {
+        "id": "caption-007",
+        "text": "但如果，协作不必一次次从解释开始？",
+        "shotId": "shot-07",
+        "speaker": "narrator"
+      },
+      "actual": {
+        "id": "caption-007",
+        "text": "但如果，协作不必一次次从解释开始？",
+        "shotId": "shot-07",
+        "speaker": "narrator"
+      }
+    },
+    {
+      "id": "audio_timing.caption-008.valid_window",
+      "status": "passed",
+      "expected": "0 <= start < end <= 5400",
+      "actual": {
+        "fromFrame": 1515,
+        "toFrameExclusive": 1661
+      }
+    },
+    {
+      "id": "audio_timing.caption-008.within_corresponding_shot",
+      "status": "passed",
+      "expected": "shot-08",
+      "actual": {
+        "fromFrame": 1515,
+        "toFrameExclusive": 1661
+      }
+    },
+    {
+      "id": "audio_timing.caption-008.no_overlap",
+      "status": "passed",
+      "expected": "start >= previous end (1392)",
+      "actual": 1515
+    },
+    {
+      "id": "audio_timing.caption-008.avoids_129_130s",
+      "status": "passed",
+      "expected": "outside [129s, 130s)",
+      "actual": {
+        "fromFrame": 1515,
+        "toFrameExclusive": 1661
+      }
+    },
+    {
+      "id": "audio_timing.caption-008.matches_source",
+      "status": "passed",
+      "expected": {
+        "id": "caption-008",
+        "text": "如果，同一个问题，可以向一万个方向，同时展开？",
+        "shotId": "shot-08",
+        "speaker": "narrator"
+      },
+      "actual": {
+        "id": "caption-008",
+        "text": "如果，同一个问题，可以向一万个方向，同时展开？",
+        "shotId": "shot-08",
+        "speaker": "narrator"
+      }
+    },
+    {
+      "id": "audio_timing.caption-009.valid_window",
+      "status": "passed",
+      "expected": "0 <= start < end <= 5400",
+      "actual": {
+        "fromFrame": 1821,
+        "toFrameExclusive": 1906
+      }
+    },
+    {
+      "id": "audio_timing.caption-009.within_corresponding_shot",
+      "status": "passed",
+      "expected": "shot-09",
+      "actual": {
+        "fromFrame": 1821,
+        "toFrameExclusive": 1906
+      }
+    },
+    {
+      "id": "audio_timing.caption-009.no_overlap",
+      "status": "passed",
+      "expected": "start >= previous end (1661)",
+      "actual": 1821
+    },
+    {
+      "id": "audio_timing.caption-009.avoids_129_130s",
+      "status": "passed",
+      "expected": "outside [129s, 130s)",
+      "actual": {
+        "fromFrame": 1821,
+        "toFrameExclusive": 1906
+      }
+    },
+    {
+      "id": "audio_timing.caption-009.matches_source",
+      "status": "passed",
+      "expected": {
+        "id": "caption-009",
+        "text": "它让不同分身，走向不同的可能。",
+        "shotId": "shot-09",
+        "speaker": "narrator"
+      },
+      "actual": {
+        "id": "caption-009",
+        "text": "它让不同分身，走向不同的可能。",
+        "shotId": "shot-09",
+        "speaker": "narrator"
+      }
+    },
+    {
+      "id": "audio_timing.caption-010.valid_window",
+      "status": "passed",
+      "expected": "0 <= start < end <= 5400",
+      "actual": {
+        "fromFrame": 2055,
+        "toFrameExclusive": 2162
+      }
+    },
+    {
+      "id": "audio_timing.caption-010.within_corresponding_shot",
+      "status": "passed",
+      "expected": "shot-10",
+      "actual": {
+        "fromFrame": 2055,
+        "toFrameExclusive": 2162
+      }
+    },
+    {
+      "id": "audio_timing.caption-010.no_overlap",
+      "status": "passed",
+      "expected": "start >= previous end (1906)",
+      "actual": 2055
+    },
+    {
+      "id": "audio_timing.caption-010.avoids_129_130s",
+      "status": "passed",
+      "expected": "outside [129s, 130s)",
+      "actual": {
+        "fromFrame": 2055,
+        "toFrameExclusive": 2162
+      }
+    },
+    {
+      "id": "audio_timing.caption-010.matches_source",
+      "status": "passed",
+      "expected": {
+        "id": "caption-010",
+        "text": "有的提出构想，有的寻找反例。",
+        "shotId": "shot-10",
+        "speaker": "narrator"
+      },
+      "actual": {
+        "id": "caption-010",
+        "text": "有的提出构想，有的寻找反例。",
+        "shotId": "shot-10",
+        "speaker": "narrator"
+      }
+    },
+    {
+      "id": "audio_timing.caption-011.valid_window",
+      "status": "passed",
+      "expected": "0 <= start < end <= 5400",
+      "actual": {
+        "fromFrame": 2298,
+        "toFrameExclusive": 2417
+      }
+    },
+    {
+      "id": "audio_timing.caption-011.within_corresponding_shot",
+      "status": "passed",
+      "expected": "shot-11",
+      "actual": {
+        "fromFrame": 2298,
+        "toFrameExclusive": 2417
+      }
+    },
+    {
+      "id": "audio_timing.caption-011.no_overlap",
+      "status": "passed",
+      "expected": "start >= previous end (2162)",
+      "actual": 2298
+    },
+    {
+      "id": "audio_timing.caption-011.avoids_129_130s",
+      "status": "passed",
+      "expected": "outside [129s, 130s)",
+      "actual": {
+        "fromFrame": 2298,
+        "toFrameExclusive": 2417
+      }
+    },
+    {
+      "id": "audio_timing.caption-011.matches_source",
+      "status": "passed",
+      "expected": {
+        "id": "caption-011",
+        "text": "有的重新检查，所有人默认正确的前提。",
+        "shotId": "shot-11",
+        "speaker": "narrator"
+      },
+      "actual": {
+        "id": "caption-011",
+        "text": "有的重新检查，所有人默认正确的前提。",
+        "shotId": "shot-11",
+        "speaker": "narrator"
+      }
+    },
+    {
+      "id": "audio_timing.caption-012.valid_window",
+      "status": "passed",
+      "expected": "0 <= start < end <= 5400",
+      "actual": {
+        "fromFrame": 2574,
+        "toFrameExclusive": 2642
+      }
+    },
+    {
+      "id": "audio_timing.caption-012.within_corresponding_shot",
+      "status": "passed",
+      "expected": "shot-12",
+      "actual": {
+        "fromFrame": 2574,
+        "toFrameExclusive": 2642
+      }
+    },
+    {
+      "id": "audio_timing.caption-012.no_overlap",
+      "status": "passed",
+      "expected": "start >= previous end (2417)",
+      "actual": 2574
+    },
+    {
+      "id": "audio_timing.caption-012.avoids_129_130s",
+      "status": "passed",
+      "expected": "outside [129s, 130s)",
+      "actual": {
+        "fromFrame": 2574,
+        "toFrameExclusive": 2642
+      }
+    },
+    {
+      "id": "audio_timing.caption-012.matches_source",
+      "status": "passed",
+      "expected": {
+        "id": "caption-012",
+        "text": "它们共享的不只是结论。",
+        "shotId": "shot-12",
+        "speaker": "narrator"
+      },
+      "actual": {
+        "id": "caption-012",
+        "text": "它们共享的不只是结论。",
+        "shotId": "shot-12",
+        "speaker": "narrator"
+      }
+    },
+    {
+      "id": "audio_timing.caption-013.valid_window",
+      "status": "passed",
+      "expected": "0 <= start < end <= 5400",
+      "actual": {
+        "fromFrame": 2805,
+        "toFrameExclusive": 2953
+      }
+    },
+    {
+      "id": "audio_timing.caption-013.within_corresponding_shot",
+      "status": "passed",
+      "expected": "shot-13",
+      "actual": {
+        "fromFrame": 2805,
+        "toFrameExclusive": 2953
+      }
+    },
+    {
+      "id": "audio_timing.caption-013.no_overlap",
+      "status": "passed",
+      "expected": "start >= previous end (2642)",
+      "actual": 2805
+    },
+    {
+      "id": "audio_timing.caption-013.avoids_129_130s",
+      "status": "passed",
+      "expected": "outside [129s, 130s)",
+      "actual": {
+        "fromFrame": 2805,
+        "toFrameExclusive": 2953
+      }
+    },
+    {
+      "id": "audio_timing.caption-013.matches_source",
+      "status": "passed",
+      "expected": {
+        "id": "caption-013",
+        "text": "还有假设、证据，以及别人可以接着推进的工作。",
+        "shotId": "shot-13",
+        "speaker": "narrator"
+      },
+      "actual": {
+        "id": "caption-013",
+        "text": "还有假设、证据，以及别人可以接着推进的工作。",
+        "shotId": "shot-13",
+        "speaker": "narrator"
+      }
+    },
+    {
+      "id": "audio_timing.caption-014.valid_window",
+      "status": "passed",
+      "expected": "0 <= start < end <= 5400",
+      "actual": {
+        "fromFrame": 3045,
+        "toFrameExclusive": 3152
+      }
+    },
+    {
+      "id": "audio_timing.caption-014.within_corresponding_shot",
+      "status": "passed",
+      "expected": "shot-14",
+      "actual": {
+        "fromFrame": 3045,
+        "toFrameExclusive": 3152
+      }
+    },
+    {
+      "id": "audio_timing.caption-014.no_overlap",
+      "status": "passed",
+      "expected": "start >= previous end (2953)",
+      "actual": 3045
+    },
+    {
+      "id": "audio_timing.caption-014.avoids_129_130s",
+      "status": "passed",
+      "expected": "outside [129s, 130s)",
+      "actual": {
+        "fromFrame": 3045,
+        "toFrameExclusive": 3152
+      }
+    },
+    {
+      "id": "audio_timing.caption-014.matches_source",
+      "status": "passed",
+      "expected": {
+        "id": "caption-014",
+        "text": "但一万次赞同，也可能是同一个错误。",
+        "shotId": "shot-14",
+        "speaker": "narrator"
+      },
+      "actual": {
+        "id": "caption-014",
+        "text": "但一万次赞同，也可能是同一个错误。",
+        "shotId": "shot-14",
+        "speaker": "narrator"
+      }
+    },
+    {
+      "id": "audio_timing.caption-015.valid_window",
+      "status": "passed",
+      "expected": "0 <= start < end <= 5400",
+      "actual": {
+        "fromFrame": 3315,
+        "toFrameExclusive": 3383
+      }
+    },
+    {
+      "id": "audio_timing.caption-015.within_corresponding_shot",
+      "status": "passed",
+      "expected": "shot-15",
+      "actual": {
+        "fromFrame": 3315,
+        "toFrameExclusive": 3383
+      }
+    },
+    {
+      "id": "audio_timing.caption-015.no_overlap",
+      "status": "passed",
+      "expected": "start >= previous end (3152)",
+      "actual": 3315
+    },
+    {
+      "id": "audio_timing.caption-015.avoids_129_130s",
+      "status": "passed",
+      "expected": "outside [129s, 130s)",
+      "actual": {
+        "fromFrame": 3315,
+        "toFrameExclusive": 3383
+      }
+    },
+    {
+      "id": "audio_timing.caption-015.matches_source",
+      "status": "passed",
+      "expected": {
+        "id": "caption-015",
+        "text": "直到，一个分身找到反例。",
+        "shotId": "shot-15",
+        "speaker": "narrator"
+      },
+      "actual": {
+        "id": "caption-015",
+        "text": "直到，一个分身找到反例。",
+        "shotId": "shot-15",
+        "speaker": "narrator"
+      }
+    },
+    {
+      "id": "audio_timing.caption-016.valid_window",
+      "status": "passed",
+      "expected": "0 <= start < end <= 5400",
+      "actual": {
+        "fromFrame": 3576,
+        "toFrameExclusive": 3632
+      }
+    },
+    {
+      "id": "audio_timing.caption-016.within_corresponding_shot",
+      "status": "passed",
+      "expected": "shot-16",
+      "actual": {
+        "fromFrame": 3576,
+        "toFrameExclusive": 3632
+      }
+    },
+    {
+      "id": "audio_timing.caption-016.no_overlap",
+      "status": "passed",
+      "expected": "start >= previous end (3383)",
+      "actual": 3576
+    },
+    {
+      "id": "audio_timing.caption-016.avoids_129_130s",
+      "status": "passed",
+      "expected": "outside [129s, 130s)",
+      "actual": {
+        "fromFrame": 3576,
+        "toFrameExclusive": 3632
+      }
+    },
+    {
+      "id": "audio_timing.caption-016.matches_source",
+      "status": "passed",
+      "expected": {
+        "id": "caption-016",
+        "text": "它没有把错误藏起来。",
+        "shotId": "shot-16",
+        "speaker": "narrator"
+      },
+      "actual": {
+        "id": "caption-016",
+        "text": "它没有把错误藏起来。",
+        "shotId": "shot-16",
+        "speaker": "narrator"
+      }
+    },
+    {
+      "id": "audio_timing.caption-017.valid_window",
+      "status": "passed",
+      "expected": "0 <= start < end <= 5400",
+      "actual": {
+        "fromFrame": 3906,
+        "toFrameExclusive": 3984
+      }
+    },
+    {
+      "id": "audio_timing.caption-017.within_corresponding_shot",
+      "status": "passed",
+      "expected": "shot-17",
+      "actual": {
+        "fromFrame": 3906,
+        "toFrameExclusive": 3984
+      }
+    },
+    {
+      "id": "audio_timing.caption-017.no_overlap",
+      "status": "passed",
+      "expected": "start >= previous end (3632)",
+      "actual": 3906
+    },
+    {
+      "id": "audio_timing.caption-017.avoids_129_130s",
+      "status": "passed",
+      "expected": "outside [129s, 130s)",
+      "actual": {
+        "fromFrame": 3906,
+        "toFrameExclusive": 3984
+      }
+    },
+    {
+      "id": "audio_timing.caption-017.matches_source",
+      "status": "passed",
+      "expected": {
+        "id": "caption-017",
+        "text": "相关的推理被重新检查。",
+        "shotId": "shot-17",
+        "speaker": "narrator"
+      },
+      "actual": {
+        "id": "caption-017",
+        "text": "相关的推理被重新检查。",
+        "shotId": "shot-17",
+        "speaker": "narrator"
+      }
+    },
+    {
+      "id": "audio_timing.caption-018.valid_window",
+      "status": "passed",
+      "expected": "0 <= start < end <= 5400",
+      "actual": {
+        "fromFrame": 3992,
+        "toFrameExclusive": 4065
+      }
+    },
+    {
+      "id": "audio_timing.caption-018.within_corresponding_shot",
+      "status": "passed",
+      "expected": "shot-17",
+      "actual": {
+        "fromFrame": 3992,
+        "toFrameExclusive": 4065
+      }
+    },
+    {
+      "id": "audio_timing.caption-018.no_overlap",
+      "status": "passed",
+      "expected": "start >= previous end (3984)",
+      "actual": 3992
+    },
+    {
+      "id": "audio_timing.caption-018.avoids_129_130s",
+      "status": "passed",
+      "expected": "outside [129s, 130s)",
+      "actual": {
+        "fromFrame": 3992,
+        "toFrameExclusive": 4065
+      }
+    },
+    {
+      "id": "audio_timing.caption-018.matches_source",
+      "status": "passed",
+      "expected": {
+        "id": "caption-018",
+        "text": "整片星云，改变方向。",
+        "shotId": "shot-17",
+        "speaker": "narrator"
+      },
+      "actual": {
+        "id": "caption-018",
+        "text": "整片星云，改变方向。",
+        "shotId": "shot-17",
+        "speaker": "narrator"
+      }
+    },
+    {
+      "id": "audio_timing.caption-019.valid_window",
+      "status": "passed",
+      "expected": "0 <= start < end <= 5400",
+      "actual": {
+        "fromFrame": 4098,
+        "toFrameExclusive": 4156
+      }
+    },
+    {
+      "id": "audio_timing.caption-019.within_corresponding_shot",
+      "status": "passed",
+      "expected": "shot-18",
+      "actual": {
+        "fromFrame": 4098,
+        "toFrameExclusive": 4156
+      }
+    },
+    {
+      "id": "audio_timing.caption-019.no_overlap",
+      "status": "passed",
+      "expected": "start >= previous end (4065)",
+      "actual": 4098
+    },
+    {
+      "id": "audio_timing.caption-019.avoids_129_130s",
+      "status": "passed",
+      "expected": "outside [129s, 130s)",
+      "actual": {
+        "fromFrame": 4098,
+        "toFrameExclusive": 4156
+      }
+    },
+    {
+      "id": "audio_timing.caption-019.matches_source",
+      "status": "passed",
+      "expected": {
+        "id": "caption-019",
+        "text": "失败没有消失。",
+        "shotId": "shot-18",
+        "speaker": "narrator"
+      },
+      "actual": {
+        "id": "caption-019",
+        "text": "失败没有消失。",
+        "shotId": "shot-18",
+        "speaker": "narrator"
+      }
+    },
+    {
+      "id": "audio_timing.caption-020.valid_window",
+      "status": "passed",
+      "expected": "0 <= start < end <= 5400",
+      "actual": {
+        "fromFrame": 4178,
+        "toFrameExclusive": 4253
+      }
+    },
+    {
+      "id": "audio_timing.caption-020.within_corresponding_shot",
+      "status": "passed",
+      "expected": "shot-18",
+      "actual": {
+        "fromFrame": 4178,
+        "toFrameExclusive": 4253
+      }
+    },
+    {
+      "id": "audio_timing.caption-020.no_overlap",
+      "status": "passed",
+      "expected": "start >= previous end (4156)",
+      "actual": 4178
+    },
+    {
+      "id": "audio_timing.caption-020.avoids_129_130s",
+      "status": "passed",
+      "expected": "outside [129s, 130s)",
+      "actual": {
+        "fromFrame": 4178,
+        "toFrameExclusive": 4253
+      }
+    },
+    {
+      "id": "audio_timing.caption-020.matches_source",
+      "status": "passed",
+      "expected": {
+        "id": "caption-020",
+        "text": "它成为其他路径的边界。",
+        "shotId": "shot-18",
+        "speaker": "narrator"
+      },
+      "actual": {
+        "id": "caption-020",
+        "text": "它成为其他路径的边界。",
+        "shotId": "shot-18",
+        "speaker": "narrator"
+      }
+    },
+    {
+      "id": "audio_timing.caption-021.valid_window",
+      "status": "passed",
+      "expected": "0 <= start < end <= 5400",
+      "actual": {
+        "fromFrame": 4365,
+        "toFrameExclusive": 4438
+      }
+    },
+    {
+      "id": "audio_timing.caption-021.within_corresponding_shot",
+      "status": "passed",
+      "expected": "shot-19",
+      "actual": {
+        "fromFrame": 4365,
+        "toFrameExclusive": 4438
+      }
+    },
+    {
+      "id": "audio_timing.caption-021.no_overlap",
+      "status": "passed",
+      "expected": "start >= previous end (4253)",
+      "actual": 4365
+    },
+    {
+      "id": "audio_timing.caption-021.avoids_129_130s",
+      "status": "passed",
+      "expected": "outside [129s, 130s)",
+      "actual": {
+        "fromFrame": 4365,
+        "toFrameExclusive": 4438
+      }
+    },
+    {
+      "id": "audio_timing.caption-021.matches_source",
+      "status": "passed",
+      "expected": {
+        "id": "caption-021",
+        "text": "不是所有声音变成一种声音。",
+        "shotId": "shot-19",
+        "speaker": "narrator"
+      },
+      "actual": {
+        "id": "caption-021",
+        "text": "不是所有声音变成一种声音。",
+        "shotId": "shot-19",
+        "speaker": "narrator"
+      }
+    },
+    {
+      "id": "audio_timing.caption-022.valid_window",
+      "status": "passed",
+      "expected": "0 <= start < end <= 5400",
+      "actual": {
+        "fromFrame": 4596,
+        "toFrameExclusive": 4701
+      }
+    },
+    {
+      "id": "audio_timing.caption-022.within_corresponding_shot",
+      "status": "passed",
+      "expected": "shot-20",
+      "actual": {
+        "fromFrame": 4596,
+        "toFrameExclusive": 4701
+      }
+    },
+    {
+      "id": "audio_timing.caption-022.no_overlap",
+      "status": "passed",
+      "expected": "start >= previous end (4438)",
+      "actual": 4596
+    },
+    {
+      "id": "audio_timing.caption-022.avoids_129_130s",
+      "status": "passed",
+      "expected": "outside [129s, 130s)",
+      "actual": {
+        "fromFrame": 4596,
+        "toFrameExclusive": 4701
+      }
+    },
+    {
+      "id": "audio_timing.caption-022.matches_source",
+      "status": "passed",
+      "expected": {
+        "id": "caption-022",
+        "text": "而是不同的探索，终于能够接成下一步。",
+        "shotId": "shot-20",
+        "speaker": "narrator"
+      },
+      "actual": {
+        "id": "caption-022",
+        "text": "而是不同的探索，终于能够接成下一步。",
+        "shotId": "shot-20",
+        "speaker": "narrator"
+      }
+    },
+    {
+      "id": "audio_timing.caption-023.valid_window",
+      "status": "passed",
+      "expected": "0 <= start < end <= 5400",
+      "actual": {
+        "fromFrame": 4962,
+        "toFrameExclusive": 5057
+      }
+    },
+    {
+      "id": "audio_timing.caption-023.within_corresponding_shot",
+      "status": "passed",
+      "expected": "shot-22",
+      "actual": {
+        "fromFrame": 4962,
+        "toFrameExclusive": 5057
+      }
+    },
+    {
+      "id": "audio_timing.caption-023.no_overlap",
+      "status": "passed",
+      "expected": "start >= previous end (4701)",
+      "actual": 4962
+    },
+    {
+      "id": "audio_timing.caption-023.avoids_129_130s",
+      "status": "passed",
+      "expected": "outside [129s, 130s)",
+      "actual": {
+        "fromFrame": 4962,
+        "toFrameExclusive": 5057
+      }
+    },
+    {
+      "id": "audio_timing.caption-023.matches_source",
+      "status": "passed",
+      "expected": {
+        "id": "caption-023",
+        "text": "……这个前提，也许得重新检查。",
+        "shotId": "shot-22",
+        "speaker": "researcher"
+      },
+      "actual": {
+        "id": "caption-023",
+        "text": "……这个前提，也许得重新检查。",
+        "shotId": "shot-22",
+        "speaker": "researcher"
+      }
+    },
+    {
+      "id": "audio_timing.caption-024.valid_window",
+      "status": "passed",
+      "expected": "0 <= start < end <= 5400",
+      "actual": {
+        "fromFrame": 5136,
+        "toFrameExclusive": 5211
+      }
+    },
+    {
+      "id": "audio_timing.caption-024.within_corresponding_shot",
+      "status": "passed",
+      "expected": "shot-23",
+      "actual": {
+        "fromFrame": 5136,
+        "toFrameExclusive": 5211
+      }
+    },
+    {
+      "id": "audio_timing.caption-024.no_overlap",
+      "status": "passed",
+      "expected": "start >= previous end (5057)",
+      "actual": 5136
+    },
+    {
+      "id": "audio_timing.caption-024.avoids_129_130s",
+      "status": "passed",
+      "expected": "outside [129s, 130s)",
+      "actual": {
+        "fromFrame": 5136,
+        "toFrameExclusive": 5211
+      }
+    },
+    {
+      "id": "audio_timing.caption-024.matches_source",
+      "status": "passed",
+      "expected": {
+        "id": "caption-024",
+        "text": "你听见的，只有一个声音。",
+        "shotId": "shot-23",
+        "speaker": "narrator"
+      },
+      "actual": {
+        "id": "caption-024",
+        "text": "你听见的，只有一个声音。",
+        "shotId": "shot-23",
+        "speaker": "narrator"
+      }
+    },
+    {
+      "id": "audio_timing.caption-025.valid_window",
+      "status": "passed",
+      "expected": "0 <= start < end <= 5400",
+      "actual": {
+        "fromFrame": 5280,
+        "toFrameExclusive": 5387
+      }
+    },
+    {
+      "id": "audio_timing.caption-025.within_corresponding_shot",
+      "status": "passed",
+      "expected": "shot-24",
+      "actual": {
+        "fromFrame": 5280,
+        "toFrameExclusive": 5387
+      }
+    },
+    {
+      "id": "audio_timing.caption-025.no_overlap",
+      "status": "passed",
+      "expected": "start >= previous end (5211)",
+      "actual": 5280
+    },
+    {
+      "id": "audio_timing.caption-025.avoids_129_130s",
+      "status": "passed",
+      "expected": "outside [129s, 130s)",
+      "actual": {
+        "fromFrame": 5280,
+        "toFrameExclusive": 5387
+      }
+    },
+    {
+      "id": "audio_timing.caption-025.matches_source",
+      "status": "passed",
+      "expected": {
+        "id": "caption-025",
+        "text": "它背后，是一片同时思考的星空。",
+        "shotId": "shot-24",
+        "speaker": "narrator"
+      },
+      "actual": {
+        "id": "caption-025",
+        "text": "它背后，是一片同时思考的星空。",
+        "shotId": "shot-24",
+        "speaker": "narrator"
+      }
+    },
+    {
+      "id": "audio_timing.narration_concatenation_unchanged",
+      "status": "passed",
+      "expected": {
+        "characters": 366,
+        "sha256": "ee0de2298ccbfe7f3260a2446b67bb30bac9ac3f667ecfebf928cf43c11bf1eb"
+      },
+      "actual": {
+        "characters": 366,
+        "sha256": "ee0de2298ccbfe7f3260a2446b67bb30bac9ac3f667ecfebf928cf43c11bf1eb"
+      }
+    },
+    {
+      "id": "audio.voice_zh.wav.full_length",
+      "status": "passed",
+      "expected": 8640000,
+      "actual": 8640000
+    },
+    {
+      "id": "audio.voice_zh.wav.sample_rate",
+      "status": "passed",
+      "expected": 48000,
+      "actual": 48000
+    },
+    {
+      "id": "audio.voice_zh.wav.channels",
+      "status": "passed",
+      "expected": 1,
+      "actual": 1
+    },
+    {
+      "id": "audio.voice_zh.wav.sample_width",
+      "status": "passed",
+      "expected": 2,
+      "actual": 2,
+      "detail": "WAV sample width is measured in bytes (2=16-bit PCM, 3=24-bit PCM)."
+    },
+    {
+      "id": "audio.voice_zh.wav.exact_129_130s_pcm_silence",
+      "status": "passed",
+      "expected": 96000,
+      "actual": {
+        "readBytes": 96000,
+        "allBytesZero": true,
+        "frames": 48000
+      }
+    },
+    {
+      "id": "audio.music.wav.full_length",
+      "status": "passed",
+      "expected": 8640000,
+      "actual": 8640000
+    },
+    {
+      "id": "audio.music.wav.sample_rate",
+      "status": "passed",
+      "expected": 48000,
+      "actual": 48000
+    },
+    {
+      "id": "audio.music.wav.channels",
+      "status": "passed",
+      "expected": 2,
+      "actual": 2
+    },
+    {
+      "id": "audio.music.wav.sample_width",
+      "status": "passed",
+      "expected": 2,
+      "actual": 2,
+      "detail": "WAV sample width is measured in bytes (2=16-bit PCM, 3=24-bit PCM)."
+    },
+    {
+      "id": "audio.music.wav.exact_129_130s_pcm_silence",
+      "status": "passed",
+      "expected": 192000,
+      "actual": {
+        "readBytes": 192000,
+        "allBytesZero": true,
+        "frames": 48000
+      }
+    },
+    {
+      "id": "audio.sfx.wav.full_length",
+      "status": "passed",
+      "expected": 8640000,
+      "actual": 8640000
+    },
+    {
+      "id": "audio.sfx.wav.sample_rate",
+      "status": "passed",
+      "expected": 48000,
+      "actual": 48000
+    },
+    {
+      "id": "audio.sfx.wav.channels",
+      "status": "passed",
+      "expected": 2,
+      "actual": 2
+    },
+    {
+      "id": "audio.sfx.wav.sample_width",
+      "status": "passed",
+      "expected": 2,
+      "actual": 2,
+      "detail": "WAV sample width is measured in bytes (2=16-bit PCM, 3=24-bit PCM)."
+    },
+    {
+      "id": "audio.sfx.wav.exact_129_130s_pcm_silence",
+      "status": "passed",
+      "expected": 192000,
+      "actual": {
+        "readBytes": 192000,
+        "allBytesZero": true,
+        "frames": 48000
+      }
+    },
+    {
+      "id": "audio.soundtrack.wav.full_length",
+      "status": "passed",
+      "expected": 8640000,
+      "actual": 8640000
+    },
+    {
+      "id": "audio.soundtrack.wav.sample_rate",
+      "status": "passed",
+      "expected": 48000,
+      "actual": 48000
+    },
+    {
+      "id": "audio.soundtrack.wav.channels",
+      "status": "passed",
+      "expected": 2,
+      "actual": 2
+    },
+    {
+      "id": "audio.soundtrack.wav.sample_width",
+      "status": "passed",
+      "expected": 3,
+      "actual": 3,
+      "detail": "WAV sample width is measured in bytes (2=16-bit PCM, 3=24-bit PCM)."
+    },
+    {
+      "id": "audio.soundtrack.wav.exact_129_130s_pcm_silence",
+      "status": "passed",
+      "expected": 288000,
+      "actual": {
+        "readBytes": 288000,
+        "allBytesZero": true,
+        "frames": 48000
+      }
+    },
+    {
+      "id": "audio.music.wav.matches_local_baseline_sha256",
+      "status": "passed",
+      "expected": "df370137c7e6c461485f2c55e25cb4dde0ea469ac4c34ba2d7438c5e3ad9af5b",
+      "actual": "df370137c7e6c461485f2c55e25cb4dde0ea469ac4c34ba2d7438c5e3ad9af5b"
+    },
+    {
+      "id": "audio.sfx.wav.matches_local_baseline_sha256",
+      "status": "passed",
+      "expected": "1f23420dba473ce8c6f61f55c2ca4f7f6cf31d6cd4cc8a56b82963e37c41f227",
+      "actual": "1f23420dba473ce8c6f61f55c2ca4f7f6cf31d6cd4cc8a56b82963e37c41f227"
+    },
+    {
+      "id": "subtitle.srt_written",
+      "status": "passed",
+      "expected": "out/QStory-EP03-zh.srt",
+      "actual": true
+    },
+    {
+      "id": "subtitle.srt_cue_count",
+      "status": "passed",
+      "expected": 25,
+      "actual": 25
+    },
+    {
+      "id": "subtitle.srt_matches_actual_cues",
+      "status": "passed",
+      "expected": "9652f52c98c1f59b537ee9dacda8b66091e5eb32b8ae635f699f27b07a3a832d",
+      "actual": "9652f52c98c1f59b537ee9dacda8b66091e5eb32b8ae635f699f27b07a3a832d"
+    },
+    {
+      "id": "video.exists",
+      "status": "passed",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "video.video_stream_count",
+      "status": "passed",
+      "expected": 1,
+      "actual": 1
+    },
+    {
+      "id": "video.audio_stream_count",
+      "status": "passed",
+      "expected": 1,
+      "actual": 1
+    },
+    {
+      "id": "video.codec",
+      "status": "passed",
+      "expected": "h264",
+      "actual": "h264"
+    },
+    {
+      "id": "video.width",
+      "status": "passed",
+      "expected": 3840,
+      "actual": 3840
+    },
+    {
+      "id": "video.height",
+      "status": "passed",
+      "expected": 2160,
+      "actual": 2160
+    },
+    {
+      "id": "video.pixel_format",
+      "status": "passed",
+      "expected": "yuv420p",
+      "actual": "yuv420p"
+    },
+    {
+      "id": "video.r_frame_rate",
+      "status": "passed",
+      "expected": "30/1",
+      "actual": "30/1"
+    },
+    {
+      "id": "video.avg_frame_rate",
+      "status": "passed",
+      "expected": "30/1",
+      "actual": "30/1"
+    },
+    {
+      "id": "video.frame_count",
+      "status": "passed",
+      "expected": 5400,
+      "actual": 5400
+    },
+    {
+      "id": "video.stream_duration_seconds",
+      "status": "passed",
+      "expected": 180,
+      "actual": 180.0
+    },
+    {
+      "id": "video.color_primaries",
+      "status": "passed",
+      "expected": "bt709",
+      "actual": "bt709"
+    },
+    {
+      "id": "video.color_transfer",
+      "status": "passed",
+      "expected": "bt709",
+      "actual": "bt709"
+    },
+    {
+      "id": "video.color_space",
+      "status": "passed",
+      "expected": "bt709",
+      "actual": "bt709"
+    },
+    {
+      "id": "video.audio_codec",
+      "status": "passed",
+      "expected": "aac",
+      "actual": "aac"
+    },
+    {
+      "id": "video.audio_sample_rate",
+      "status": "passed",
+      "expected": 48000,
+      "actual": 48000
+    },
+    {
+      "id": "video.audio_channels",
+      "status": "passed",
+      "expected": 2,
+      "actual": 2
+    },
+    {
+      "id": "video.audio_stream_duration_seconds",
+      "status": "passed",
+      "expected": {
+        "seconds": 180,
+        "toleranceSeconds": 0.021334333333333334
+      },
+      "actual": 180.011,
+      "detail": "Audio stream duration is reported separately; tolerance allows one AAC packet of encoder padding."
+    },
+    {
+      "id": "video.container_duration_seconds",
+      "status": "passed",
+      "expected": {
+        "seconds": 180,
+        "toleranceSeconds": 0.021334333333333334
+      },
+      "actual": 180.011,
+      "detail": "Container duration is reported separately from each stream; tolerance allows one AAC packet of encoder padding."
+    },
+    {
+      "id": "video.full_decode",
+      "status": "passed",
+      "expected": "full audio/video decode succeeds with one ffmpeg process and two decoder threads",
+      "actual": {
+        "exitCode": 0,
+        "command": [
+          "/opt/homebrew/bin/ffmpeg",
+          "-hide_banner",
+          "-nostats",
+          "-loglevel",
+          "error",
+          "-threads",
+          "2",
+          "-i",
+          "/Users/guoq/Documents/ChatGPT/video/qstory-ep03/out/QStory-EP03-十万亿个分身-4K.mp4",
+          "-map",
+          "0:v:0",
+          "-map",
+          "0:a:0",
+          "-f",
+          "null",
+          "-"
+        ]
+      }
+    }
+  ],
+  "review": {
+    "humanListening": {
+      "status": "not_performed",
+      "detail": "No human listening evidence was supplied to this validator."
+    },
+    "audienceVisualAcceptance": {
+      "status": "not_performed",
+      "detail": "No audience acceptance evidence was supplied to this validator."
+    },
+    "rootStaticFrameVisualCheck": {
+      "status": "not_reported_by_this_run",
+      "detail": "Root-owned static-frame visual review is reported separately; this script does not infer visual acceptance from metadata or decode checks."
+    }
+  },
+  "sha256": {
+    "sourceInputs": {
+      "source/EP03_timeline.json": "57bfd1a7426d5271d6aa9bc2e41cee09eea45bed287f7e43ddedf6ec11c4ec6c",
+      "source/EP03_narration_zh.txt": "6024e90ff570b8370580ac030ecf76c1f55fe6ebc3e21bf1b13dec3b830fc9ff",
+      "src/audio-timing.json": "db7927696f0ff469915d8b7d233471e4cf258fe1b2750c3e11201f5e1fae6799"
+    },
+    "baselineAudioProvenance": {
+      "music.wav": "df370137c7e6c461485f2c55e25cb4dde0ea469ac4c34ba2d7438c5e3ad9af5b",
+      "sfx.wav": "1f23420dba473ce8c6f61f55c2ca4f7f6cf31d6cd4cc8a56b82963e37c41f227"
+    },
+    "deliverables": {
+      "out/QStory-EP03-zh.srt": "9652f52c98c1f59b537ee9dacda8b66091e5eb32b8ae635f699f27b07a3a832d",
+      "public/audio-bailian/voice_zh.wav": "7065efc70aed0e3b1762e0556f866fa15922b8e64187f4a0b1aa96f6b7dfb504",
+      "public/audio-bailian/music.wav": "df370137c7e6c461485f2c55e25cb4dde0ea469ac4c34ba2d7438c5e3ad9af5b",
+      "public/audio-bailian/sfx.wav": "1f23420dba473ce8c6f61f55c2ca4f7f6cf31d6cd4cc8a56b82963e37c41f227",
+      "public/audio-bailian/soundtrack.wav": "da6c6169cfe748b2740761e13d27b1c58ba56b3bbed02b4d0dfa3c913ab370e4",
+      "out/QStory-EP03-十万亿个分身-4K.mp4": "088a3369860885d9bbfc3516336799856e260582619565cf13b28296fd8efcf4"
+    },
+    "validator": "202c63cb9e4c806c38b4dcca80616f6d18bcc681d359543a286950ad58f58028",
+    "validationReportSelfHash": "not_applicable"
+  }
+}

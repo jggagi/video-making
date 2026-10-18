@@ -1,0 +1,89 @@
+{
+  "edition": "字缝加强样片 v3 · 原文节选",
+  "specFile": "src/madman/history-study-v3.json",
+  "specSha256": "991b7b2942d2f739fe0b42c7bbd9ee01c17590ee75c7d03b4a3e2723f67eec41",
+  "sourceTimelineSha256": "025165c0d0d7fccfa40ef797469ff35ac3caac2fe2c2b3ea7f20451081848b39",
+  "providerManifestSha256": "abb23cdc81bf5f925b353c49fa30c9174d4238432684d0d48edb9496506f4bf9",
+  "durationSeconds": 20,
+  "durationFrames": 480,
+  "sampleRateHz": 48000,
+  "channels": 2,
+  "bitDepth": 16,
+  "peakLinear": 0.6000000238418579,
+  "peakDbfs": -4.43697464718089,
+  "silentInterval": {
+    "startSeconds": 12.75,
+    "endSeconds": 14,
+    "peakLinear": 0
+  },
+  "synthesis": "Reused Bailian voice clips; only an existing quiet interval was extended. Fixed-seed local paper/room sound.",
+  "cloudCalls": 0,
+  "narration": [
+    {
+      "id": "history-1",
+      "text": "我翻开历史一查，这历史没有年代，",
+      "file": "public/madman/voice-v2/history-1.wav",
+      "sha256": "00ca1e3d8e97840e625c92dbdb5eff98de124097448261ac354f3988add7004b",
+      "fromFrame": 24,
+      "sourceDurationSeconds": 4.201666666666667,
+      "sourcePeak": 0.832305908203125,
+      "gain": 0.6367850988156786,
+      "peakTarget": 0.53,
+      "insertedSilenceSeconds": 0,
+      "insertAtSeconds": null,
+      "insertionWindowRms": null,
+      "mixedEndSeconds": 5.201666666666667,
+      "model": "cosyvoice-v3-flash",
+      "voice": "longsanshu_v3"
+    },
+    {
+      "id": "history-2",
+      "text": "歪歪斜斜的每叶上都写着“仁义道德”几个字。",
+      "file": "public/madman/voice-v2/history-2.wav",
+      "sha256": "0ba0a6e79bd78b0873d1869773d07eed2cb1796d3bcf34cc885ae4121f4c3a75",
+      "fromFrame": 148,
+      "sourceDurationSeconds": 5.378166666666667,
+      "sourcePeak": 0.8295632600784302,
+      "gain": 0.6750540036537485,
+      "peakTarget": 0.56,
+      "insertedSilenceSeconds": 0,
+      "insertAtSeconds": null,
+      "insertionWindowRms": null,
+      "mixedEndSeconds": 11.544833333333333,
+      "model": "cosyvoice-v3-flash",
+      "voice": "longsanshu_v3"
+    },
+    {
+      "id": "history-3",
+      "text": "满本都写着两个字是“吃人”！",
+      "file": "public/madman/voice-v2/history-3.wav",
+      "sha256": "6035e73f3bb451ff705b09e8571cee22121e73dec3cbb862e44545eb1b628069",
+      "fromFrame": 336,
+      "sourceDurationSeconds": 3.0252083333333335,
+      "sourcePeak": 0.6621084809303284,
+      "gain": 0.9061959139338318,
+      "peakTarget": 0.6,
+      "insertedSilenceSeconds": 0.45,
+      "insertAtSeconds": 1.8,
+      "insertionWindowRms": 0.0001262256224627039,
+      "mixedEndSeconds": 17.475208333333335,
+      "model": "cosyvoice-v3-flash",
+      "voice": "longsanshu_v3"
+    }
+  ],
+  "layers": {
+    "history-study-v3": {
+      "file": "public/madman/audio/history-study-v3.wav",
+      "sha256": "c683cbe1c367bc5e9bda838073c47ea138962d89830e79ce86fb66d1b3766f9a"
+    },
+    "history-study-v3-voice": {
+      "file": "public/madman/audio/history-study-v3-voice.wav",
+      "sha256": "c8273aa70903e71d780532f187f9b98d64f6c8b0021ad29b642483e4581171e5"
+    },
+    "history-study-v3-paper": {
+      "file": "public/madman/audio/history-study-v3-paper.wav",
+      "sha256": "a8580d5fd997e7ebdeec467f50371a8400e9e8a0339c3b683a2d5f517bb62417"
+    }
+  },
+  "humanListeningReview": false
+}

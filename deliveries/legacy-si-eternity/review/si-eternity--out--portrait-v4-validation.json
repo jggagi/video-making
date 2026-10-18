@@ -1,0 +1,202 @@
+{
+  "width": 1080,
+  "height": 1920,
+  "fps": 60,
+  "videoFrames": 10800,
+  "containerSeconds": 180.011,
+  "videoCodec": "h264",
+  "audioCodec": "aac",
+  "audioRate": 48000,
+  "audioChannels": 2,
+  "strictFullAvDecodePassed": true,
+  "masterSha256": "7d0b79b47b888a04806b4087f3b3517c1ad9989f4080f3bf10a362cb9e651571",
+  "masterSampleFrames": 8640000,
+  "decodedAacFrames": 8640512,
+  "aacPaddingFrames": 512,
+  "audioZeroLagCorrelationToMaster": 0.9999447238351669,
+  "decodedSamplePeakDbfs": -1.4280954579748268,
+  "encodedAudioIntegratedLufs": -18.15,
+  "encodedAudioTruePeakDbtp": -1.43,
+  "fastStart": true,
+  "containerBoxes": [
+    {
+      "type": "ftyp",
+      "offset": 0,
+      "bytes": 32
+    },
+    {
+      "type": "moov",
+      "offset": 32,
+      "bytes": 286854
+    },
+    {
+      "type": "free",
+      "offset": 286886,
+      "bytes": 8
+    },
+    {
+      "type": "mdat",
+      "offset": 286894,
+      "bytes": 63985383
+    }
+  ],
+  "sourceSnapshotUnchanged": true,
+  "oldV1Unchanged": true,
+  "oldV2Unchanged": true,
+  "oldV3Unchanged": true,
+  "previewMetrics": {
+    "portrait-layout-preview-v4.mp4": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 60,
+      "videoFrames": 720,
+      "containerSeconds": 12.011,
+      "videoCodec": "h264",
+      "audioCodec": "aac",
+      "audioRate": 48000,
+      "audioChannels": 2,
+      "masterWindowStartSeconds": 156,
+      "masterWindowEndSeconds": 168,
+      "audioZeroLagCorrelationToMasterWindow": 0.999938526916954
+    }
+  },
+  "landscapePixelParity": [
+    {
+      "frame": 120,
+      "portraitFile": "portrait-v4-landscape-frame-00120.png",
+      "sourceFile": "v3-frame-00120.png",
+      "exactRgbPixelMatch": true,
+      "width": 1920,
+      "height": 1080,
+      "rgbSha256": "9604e81718fd8a8df447635ed9269efe6c9e6858fb0df3b75e9d4c39481b281d"
+    },
+    {
+      "frame": 9600,
+      "portraitFile": "portrait-v4-landscape-frame-09600.png",
+      "sourceFile": "v3-frame-09600.png",
+      "exactRgbPixelMatch": true,
+      "width": 1920,
+      "height": 1080,
+      "rgbSha256": "87cfc8d6eb4a5c80d2fa5f2923d35afff7cab444e5e391e3190bca507067bfc7"
+    },
+    {
+      "frame": 10799,
+      "portraitFile": "portrait-v4-landscape-frame-10799.png",
+      "sourceFile": "v3-frame-10799.png",
+      "exactRgbPixelMatch": true,
+      "width": 1920,
+      "height": 1080,
+      "rgbSha256": "3abecfb0c7e4faa3275021dc3a4fec3abc963cb0b4b1db386545c0e7476fa879"
+    }
+  ],
+  "extractedVideoFrames": [
+    120,
+    1200,
+    3240,
+    4920,
+    6000,
+    7170,
+    7800,
+    9240,
+    9599,
+    9600,
+    10200,
+    10650,
+    10799
+  ],
+  "extractedVideoFrameFiles": [
+    {
+      "frame": 120,
+      "file": "portrait-v4-encoded-01.png"
+    },
+    {
+      "frame": 1200,
+      "file": "portrait-v4-encoded-02.png"
+    },
+    {
+      "frame": 3240,
+      "file": "portrait-v4-encoded-03.png"
+    },
+    {
+      "frame": 4920,
+      "file": "portrait-v4-encoded-04.png"
+    },
+    {
+      "frame": 6000,
+      "file": "portrait-v4-encoded-05.png"
+    },
+    {
+      "frame": 7170,
+      "file": "portrait-v4-encoded-06.png"
+    },
+    {
+      "frame": 7800,
+      "file": "portrait-v4-encoded-07.png"
+    },
+    {
+      "frame": 9240,
+      "file": "portrait-v4-encoded-08.png"
+    },
+    {
+      "frame": 9599,
+      "file": "portrait-v4-encoded-09.png"
+    },
+    {
+      "frame": 9600,
+      "file": "portrait-v4-encoded-10.png"
+    },
+    {
+      "frame": 10200,
+      "file": "portrait-v4-encoded-11.png"
+    },
+    {
+      "frame": 10650,
+      "file": "portrait-v4-encoded-12.png"
+    },
+    {
+      "frame": 10799,
+      "file": "portrait-v4-encoded-13.png"
+    }
+  ],
+  "continuousHumanListeningComplete": false,
+  "visualInspectionCompleted": true,
+  "artifacts": {
+    "one-blink-ten-millennia-portrait-v4.mp4": {
+      "bytes": 64272277,
+      "sha256": "94da6f6fb30ce1cc8e555a0068b559d21bed894e14150743cf33591f974e629a"
+    },
+    "portrait-layout-preview-v4.mp4": {
+      "bytes": 2047684,
+      "sha256": "6866a7bb540e3fd1b548047b7b1132923ae1eb3412c125f7a1b5aa36a70826c6"
+    }
+  },
+  "edition": "native-portrait-v4",
+  "typecheckPassed": true,
+  "sourceModelChecksPassed": true,
+  "portraitCaptionCopyAndTimingPreserved": true,
+  "portraitCaptionMaxLines": 2,
+  "portraitCaptionMaxCharactersPerLine": 18,
+  "visualInspectionScope": "Codex representative encoded-frame inspection and a 360px-wide contact sheet; not continuous human playback or Xiaohongshu app testing.",
+  "visuallyInspectedEncodedFrames": [
+    120,
+    1200,
+    3240,
+    6000,
+    7800,
+    10200,
+    10650,
+    10799
+  ],
+  "phoneAppPlaybackTested": false,
+  "hudEndpoint": {
+    "globalFrame": 10200,
+    "physicalMilliseconds": 500,
+    "subjectiveYears": 10000,
+    "display": "10,000.0 年"
+  },
+  "impactGlobalFrame": 9600,
+  "unchangedAudioMasterReused": true,
+  "newCloudCalls": 0,
+  "newTtsCalls": 0,
+  "packagingManifest": "out/package-portrait-v4-manifest.json"
+}

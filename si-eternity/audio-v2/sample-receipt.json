@@ -1,0 +1,9 @@
+{
+  "contentHash": "642fee186996f2a79584c0d9b1b20c19071c711eae0abcf5e35480a3c8c13aa8",
+  "sha256": "64f89d5c6cbcda1c2bbe6c839cc863a965fb24eef87b92446fefcb06bfd0cbf3",
+  "reportedByCli": {
+    "model": "cosyvoice-v3-flash",
+    "voice": "longtian_v3"
+  },
+  "purpose": "Initial live sample for this film, reused for voice-01"
+}

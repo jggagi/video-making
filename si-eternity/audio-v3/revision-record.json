@@ -1,0 +1,30 @@
+{
+  "provider": "Bailian",
+  "cliVersion": "2.3.0",
+  "newTtsCalls": 2,
+  "asrCalls": 1,
+  "reusedVerifiedVoiceCues": 20,
+  "newCues": [
+    {
+      "id": "voice-01",
+      "file": "public/audio-v3/voice-01.wav",
+      "durationSeconds": 4.672125,
+      "sha256": "ee17de1e2ac0c63c698021c4c9b01a773eadbda3e96391356430e6a9f7381669"
+    },
+    {
+      "id": "voice-21",
+      "file": "public/audio-v3/voice-21.wav",
+      "durationSeconds": 3.524583333333333,
+      "sha256": "3f17f4bf1e1a51bbf97edd46899dcfa99bc6e357cf97ee39e5617841584baff4"
+    }
+  ],
+  "reusedStems": [
+    "public/audio-v2/ambient-score.wav",
+    "public/audio-v2/sound-design.wav"
+  ],
+  "noProviderFallback": true,
+  "actualBillVerified": false,
+  "asrReview": "audio-v3/asr-revisions-review.json",
+  "asrDifference": "一万年 transcribed as 1万年; closing quote matches literally.",
+  "continuousHumanListeningComplete": false
+}

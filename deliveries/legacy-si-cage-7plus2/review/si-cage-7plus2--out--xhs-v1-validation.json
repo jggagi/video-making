@@ -1,0 +1,1535 @@
+{
+  "status": "PASS",
+  "edition": "EP02 Xiaohongshu portrait short v1",
+  "results": {
+    "sourceBaseline": "PASS",
+    "audioManifestAndClipTiming": "PASS",
+    "narrationUnityGainDualMono": "PASS",
+    "nineStageHarmonicStackAndHardGate": "PASS",
+    "overloadStemDigitalZeroAfterNoise": "PASS",
+    "pcmMasterLengthAndOpeningNoise": "PASS",
+    "digitalZeroFrames48To66": "PASS",
+    "masterProbe": "PASS",
+    "publishProbe": "PASS",
+    "strictFullDecodeBothMovies": "PASS",
+    "masterRepresentativeFramesInSameDecodePass": "PASS",
+    "masterEncodedAudioMatchesPcm": "PASS",
+    "publishEncodedAudioMatchesPcm": "PASS",
+    "aacPacketsIdenticalAcrossMovies": "PASS",
+    "coverDimensions": "PASS",
+    "captionsPresent": "PASS",
+    "humanListening": "PENDING",
+    "continuousVisualReview": "PENDING",
+    "actualPlatformUpload": "PENDING",
+    "asr": "NOT_PERFORMED",
+    "cloudServices": "NOT_USED"
+  },
+  "timeline": {
+    "path": "xhs-timeline.json",
+    "sha256": "ec27e7d0c5db6951f262dd8447ba83391b5f06d8790526a1c026f31374f53544",
+    "fps": 60,
+    "durationFrames": 3600,
+    "masterDimensions": {
+      "width": 2160,
+      "height": 3840
+    },
+    "publishDimensions": {
+      "width": 1080,
+      "height": 1920
+    },
+    "voiceCues": 11
+  },
+  "sourceBaseline": {
+    "unchangedFilesVerified": 72,
+    "unchangedFiles": [
+      {
+        "path": "src/MainComposition.tsx",
+        "sha256": "e05fd6e7bd09ce2f99c180a1e936136d997155a868c7c3eab8ce58b6064f7c31"
+      },
+      {
+        "path": "src/components/Visuals.tsx",
+        "sha256": "f9c8856a43e5969de3a9b0a332d86fc6bc014e676f91a10e92cf4855c87725f3"
+      },
+      {
+        "path": "src/components/Act4OracleProjection.tsx",
+        "sha256": "c7a832487cd646e315dea366c5a344f0d6112a21bdd0b468f4455d75fedb62d0"
+      },
+      {
+        "path": "src/components/Act1BiologicalOverload.tsx",
+        "sha256": "343e3976d699fafc7b78089d7afa1a8c7b8e81474159a0cd7210ea57b8ed9a45"
+      },
+      {
+        "path": "src/components/Act3DeepCoTManifold.tsx",
+        "sha256": "7b0e7779c1f3741918e058af8577b8ee294436a1297c80c9711b45d37d3d47af"
+      },
+      {
+        "path": "src/components/Act2LinearVsMatrix.tsx",
+        "sha256": "42522f8a4bf0a1795d63ab1d6387c7f91c84bc0e1fc4eaf48f13a41ccab5d2ee"
+      },
+      {
+        "path": "src/components/GlobalHUD.tsx",
+        "sha256": "e0e358e0616a3a0dc406c42e645caa654c9a62be09e351e3f2b32f1b66d37b84"
+      },
+      {
+        "path": "src/index.ts",
+        "sha256": "f9bc4e836a064aca9c58a681e1dc779b62a4d82894450e8e15d5cdd05840e36e"
+      },
+      {
+        "path": "src/lib/math.ts",
+        "sha256": "f172f1e7db1c6e4683fdf40ea2e3671cf1cfca3baaa652a5428881b575eb74fb"
+      },
+      {
+        "path": "src/lib/captions.ts",
+        "sha256": "2e19a9e80f541b854bdbd2bf4257fb5f7b2a40445c31601925bca232f316177a"
+      },
+      {
+        "path": "src/lib/theme.ts",
+        "sha256": "2c07b51ea95ba7ad2154f834374fc190e9009a24d3b87b523d75f6f63a00e6ce"
+      },
+      {
+        "path": "timeline.json",
+        "sha256": "30bb98bdbe8dec676dc22fc01b0ffab2f325cb42f7f328e3b758d657527c30d0"
+      },
+      {
+        "path": "out/cage-of-seven-plus-two-uhd-v3-4k.mp4",
+        "sha256": "73195073e6fa96e2cdc90dec0cbf6690bee965d8ba2de0e0fc575cdd4f18bb86"
+      },
+      {
+        "path": "out/cage-of-seven-plus-two-uhd-v3-project.zip",
+        "sha256": "47ca71206ff750b052d3b93ccb25bd84e9920855041c718d34ea359dcdbaac89"
+      },
+      {
+        "path": "public/audio/soundtrack.wav",
+        "sha256": "d6dc699f3be2546d2ba07d179106583dc4125bac0f914d138460e8f419770331"
+      },
+      {
+        "path": "public/audio/atmosphere.wav",
+        "sha256": "252e453dc18995afedef37ffa9f904d56ac0c87a5b1670615abbb6c56609491d"
+      },
+      {
+        "path": "public/audio/order.wav",
+        "sha256": "834f4e66c81cf1106116862741f47284c03013eac3a6e7752c89d19c91c88d07"
+      },
+      {
+        "path": "public/audio/overload.wav",
+        "sha256": "a3ea17d6faac2906df1d1b45875e5ee55e3e230bedcf110eb83b029438436a0e"
+      },
+      {
+        "path": "public/audio-voiced-v2/soundtrack.wav",
+        "sha256": "f7df2b03a6f7767449dafdc8ba7ac405628fe4ea42bced50a00f597bcc7a4aef"
+      },
+      {
+        "path": "public/audio-voiced-v2/voice-quote.wav",
+        "sha256": "77b13ee915e344ab90bb7500e3d6f0256f4e2de6d18130b0c0e6894fb7ce794c"
+      },
+      {
+        "path": "public/audio-voiced-v2/voice-08.wav",
+        "sha256": "07e63212ae1a5031cac5dcd5a0235bcbba6ad5a9faf49b3a13a6394896ab2fae"
+      },
+      {
+        "path": "public/audio-voiced-v2/voice-09.wav",
+        "sha256": "4017602595ae7a0741dc3a7646f50bbb05c2c348e2f7ba1b475a43357cbfb24b"
+      },
+      {
+        "path": "public/audio-voiced-v2/voice-13.wav",
+        "sha256": "c8652258e0414be5b4b8f9d211085f437d1be35e1a2bf2e73e2e19f5008ff8c5"
+      },
+      {
+        "path": "public/audio-voiced-v2/voice-07.wav",
+        "sha256": "2ef540d7805b2c83d81dcb1c4a87973543d7f770b1b92991843b132674e7d85c"
+      },
+      {
+        "path": "public/audio-voiced-v2/voice-06.wav",
+        "sha256": "d0190e3ffc2fb1e7706950d674feaf78d4d379ba4bb8440aa0dd55aed9e4b993"
+      },
+      {
+        "path": "public/audio-voiced-v2/voice-12.wav",
+        "sha256": "e9c79927e3eaca2514c4e4b6ce8c1606a97e6ae135a6296aa1faac0458866a20"
+      },
+      {
+        "path": "public/audio-voiced-v2/voice-04.wav",
+        "sha256": "2a019fb3ab8c5265590aaa92806da665f106d5eecf362ec24fcb1f91982a0c5e"
+      },
+      {
+        "path": "public/audio-voiced-v2/voice-10.wav",
+        "sha256": "28ad7804673cbf8cc60df7efc9d8a9312f238f4153d694511d386b5e1492abeb"
+      },
+      {
+        "path": "public/audio-voiced-v2/voice-11.wav",
+        "sha256": "c07d7abb516df3f644757d94ad7c21dd8d08ad02f795a9162f37a9610902c58c"
+      },
+      {
+        "path": "public/audio-voiced-v2/voice-05.wav",
+        "sha256": "2d7883dcec86051362df3e71b4fdd96c37ef39c56f3b90d6a67e51662547452d"
+      },
+      {
+        "path": "public/audio-voiced-v2/voice-01.wav",
+        "sha256": "aa6dd79b50715534dce967f67fc31908bddcf50bac1b1864cba9f5886dfc82be"
+      },
+      {
+        "path": "public/audio-voiced-v2/voice-15.wav",
+        "sha256": "b97dccde73abd484f61d6098a96e3d512e3d936922c7f424b48a8e09d7f1b5c9"
+      },
+      {
+        "path": "public/audio-voiced-v2/voice-14.wav",
+        "sha256": "11b947595c4b93cb32ba03b0ab611db95bf466216cc9586ee7384e8c9e20a4f7"
+      },
+      {
+        "path": "public/audio-voiced-v2/voice-00.wav",
+        "sha256": "4cb45fdd88aa9ba92980195ef0470b28710d37d6d268d5e2a92df9a686b5cb60"
+      },
+      {
+        "path": "public/audio-voiced-v2/voice-02.wav",
+        "sha256": "1da36f9aa6a56093b6fe8d4f646686855dd648fbf250421903269753382928c5"
+      },
+      {
+        "path": "public/audio-voiced-v2/voice-03.wav",
+        "sha256": "fadec2550a7fbd898b14a8b661b6c8f78d186b89052cc92eaa1b9f0cb5955e9b"
+      },
+      {
+        "path": "public/audio-voiced-v2/voice-review.wav",
+        "sha256": "0a4cb38d514886947de262a8eabd23b59883b6be7870346c2f49cc05e1f3ffec"
+      },
+      {
+        "path": "public/audio-voiced-v2/narration.wav",
+        "sha256": "3684c619aa785a9946fa7b2661b613c5150b4fa4c1e11283f017b3414536779a"
+      },
+      {
+        "path": "public/audio-voiced-v2/aligned/voice-quote.wav",
+        "sha256": "f68c870d18ac9a0e05d2a0673473cbb826f57fe877a00f1a65ca97226dd19710"
+      },
+      {
+        "path": "public/audio-voiced-v2/aligned/voice-08.wav",
+        "sha256": "61e9faab32ec11017abd406246c13c9e7a3985d10911a540eabcb21817b3103f"
+      },
+      {
+        "path": "public/audio-voiced-v2/aligned/voice-09.wav",
+        "sha256": "bfb4a56b5ccdf133835e895536743bf0b20c7e5637add2bc946feffcb8902716"
+      },
+      {
+        "path": "public/audio-voiced-v2/aligned/voice-13.wav",
+        "sha256": "908b7d0d92342e18d5cf8630151c6400515dc5eb144bda8d65c1bbd6a0f24582"
+      },
+      {
+        "path": "public/audio-voiced-v2/aligned/voice-07.wav",
+        "sha256": "aa861b0c5e6c766657d10d773a67710b7fbe49ba2bece49adcf2bb522746fa82"
+      },
+      {
+        "path": "public/audio-voiced-v2/aligned/voice-06.wav",
+        "sha256": "ff8589f7bcc528d5782a3e39723b355e0806d9bf2d13d1cbf6a629ba586d18f9"
+      },
+      {
+        "path": "public/audio-voiced-v2/aligned/voice-12.wav",
+        "sha256": "efd19b6296fe4056afcffb33d122fd90dab6996b5c9cc2ed8016aeb5901cf288"
+      },
+      {
+        "path": "public/audio-voiced-v2/aligned/voice-04.wav",
+        "sha256": "95a9d022a6aee4014b03ad6093be07ab842d3461bc897898126de0f3404fafc8"
+      },
+      {
+        "path": "public/audio-voiced-v2/aligned/voice-10.wav",
+        "sha256": "5ca35a7b4ac5c133d709ed3145ee115da769419452c5186521988b392365a7b1"
+      },
+      {
+        "path": "public/audio-voiced-v2/aligned/voice-11.wav",
+        "sha256": "5ef677bf22105698dc3e4144e89bf9be599cc2b7585f2533336a660373925dad"
+      },
+      {
+        "path": "public/audio-voiced-v2/aligned/voice-05.wav",
+        "sha256": "fcc62eaacbfaf42cc92dcb31d4fb9404aa146ffd0bfd4f9b3dfdcf79fc143fd5"
+      },
+      {
+        "path": "public/audio-voiced-v2/aligned/voice-01.wav",
+        "sha256": "57c7ac5bd9611ee1b1863889d6a09e349442612597529a2503648db76744f050"
+      },
+      {
+        "path": "public/audio-voiced-v2/aligned/voice-15.wav",
+        "sha256": "4a072d302dfc0aed987c37072c80cde0e3300315ed3bb9078c26fa943064d73b"
+      },
+      {
+        "path": "public/audio-voiced-v2/aligned/voice-14.wav",
+        "sha256": "e31f62fa17d66ad1e05eed3ae0491533a0aeb596253beb1acc4f9c3ad957cbcd"
+      },
+      {
+        "path": "public/audio-voiced-v2/aligned/voice-00.wav",
+        "sha256": "e18e0231f66dd0771b7cf239a22feab3f2022b6c7d4ce2871134bb27a904ddcc"
+      },
+      {
+        "path": "public/audio-voiced-v2/aligned/voice-02.wav",
+        "sha256": "cc264b435187611d874f2a7f10d31465b5dc6d341d2c6ec2835d2bff50696e50"
+      },
+      {
+        "path": "public/audio-voiced-v2/aligned/voice-03.wav",
+        "sha256": "0d6edd0466f81a57c9a66b908bab9ac3e50c5ea9da86c8130b97524e046cf125"
+      },
+      {
+        "path": "public/audio-voiced-v2/raw/voice-quote.wav",
+        "sha256": "659b1194ca70aad6e3de9e8027ae6e8aecda891ed2013ed677f929e271c4d088"
+      },
+      {
+        "path": "public/audio-voiced-v2/raw/voice-08.wav",
+        "sha256": "995c72962d56f12935bd6455e219ad2fdb7b11331c1df37d0f32010c24dc481c"
+      },
+      {
+        "path": "public/audio-voiced-v2/raw/voice-09.wav",
+        "sha256": "8a90e6ddf2ac7950ddd4f323e499fbdfb5128bca4358b905c80e8d68c26618cb"
+      },
+      {
+        "path": "public/audio-voiced-v2/raw/voice-13.wav",
+        "sha256": "475ec135cebe509a0053f51f09d89bd36015cb983a339564b4dc4da05198ba83"
+      },
+      {
+        "path": "public/audio-voiced-v2/raw/voice-07.wav",
+        "sha256": "8b0d62f7184999fb69b904b48bb632c047968c6a5695bff9919aad58ecbf97a2"
+      },
+      {
+        "path": "public/audio-voiced-v2/raw/voice-06.wav",
+        "sha256": "42afa8fa0bee02f4823b90592bae09e5ec95b2e80f6231d9a8a858c7dff83dbe"
+      },
+      {
+        "path": "public/audio-voiced-v2/raw/voice-12.wav",
+        "sha256": "9a2605d9de8346a40feb547128b092049449604314dfc3bec88927e1e6c3ef04"
+      },
+      {
+        "path": "public/audio-voiced-v2/raw/voice-04.wav",
+        "sha256": "55e71c2e6e55ecd4ce3c1d70f806b8350bb56eab6e3b1b0675ee99c648110a3f"
+      },
+      {
+        "path": "public/audio-voiced-v2/raw/voice-10.wav",
+        "sha256": "cfd7c48e6da2726dbac5847d4c595cf70d3aabcdef6bb125bfb9c0d21cc59094"
+      },
+      {
+        "path": "public/audio-voiced-v2/raw/voice-11.wav",
+        "sha256": "3464e47d579340696d644e5ac2ef042b331152869192ba035069ca51364242c0"
+      },
+      {
+        "path": "public/audio-voiced-v2/raw/voice-05.wav",
+        "sha256": "28ca94bf1ffe6992d73cf9b14377ad0ef375657736057cbf6a4face43e98fc2c"
+      },
+      {
+        "path": "public/audio-voiced-v2/raw/voice-01.wav",
+        "sha256": "d18ac34550437d6b79bae76f9602fd01e9a157c3e4a035757fa7a4adb171d08c"
+      },
+      {
+        "path": "public/audio-voiced-v2/raw/voice-15.wav",
+        "sha256": "d29f4a7d61ee02a41c0081e49a747f9f6161a3daeb3a458615b789d3b0506658"
+      },
+      {
+        "path": "public/audio-voiced-v2/raw/voice-14.wav",
+        "sha256": "2148e9ebee3cbdc4f0729dfe19d8070e8c5554e48307b92a4170a7640251cb00"
+      },
+      {
+        "path": "public/audio-voiced-v2/raw/voice-00.wav",
+        "sha256": "c495ba242589c4d988e84ad61ea64bea8ae2be5932e83a3902b2f4b5c0638ab0"
+      },
+      {
+        "path": "public/audio-voiced-v2/raw/voice-02.wav",
+        "sha256": "25fd18cc3ae8e4b5ab301a5425b7e4a77afb07a42d0a1c36075cf79453087a4c"
+      },
+      {
+        "path": "public/audio-voiced-v2/raw/voice-03.wav",
+        "sha256": "c90ca7750e05aca91efb9c230ef0407bf49f0dc3251cd4708f2651489a6965fd"
+      }
+    ],
+    "allowedChanges": [
+      {
+        "path": "src/Root.tsx",
+        "baselineSha256": "fdd3d4cbb8f47a455c419c1f0712f69539533af39202693e55625f5cd4b1886f",
+        "currentSha256": "2e947937c7cbd92d866ab6ec68070c8800990014ca653bc7a4f68298f6d99261",
+        "allowed": true
+      },
+      {
+        "path": "package.json",
+        "baselineSha256": "11a372e8e9787263428fe91368003b297d2b999c0500f4c0601f7de7c157b205",
+        "currentSha256": "f2a14e0c403811f7852e28fff0c6921dcd147cdf43020900886f1f5150faa97a",
+        "allowed": true
+      }
+    ],
+    "onlyAllowedPreexistingChanges": true
+  },
+  "audio": {
+    "planSha256": "ec27e7d0c5db6951f262dd8447ba83391b5f06d8790526a1c026f31374f53544",
+    "format": {
+      "fps": 60,
+      "sampleRate": 48000,
+      "channels": 2,
+      "bitsPerSample": 16,
+      "durationFrames": 3600,
+      "sampleFrames": 2880000,
+      "durationSeconds": 60.0
+    },
+    "sourceStemsVerified": [
+      {
+        "name": "overload",
+        "path": "public/audio/overload.wav",
+        "sha256": "a3ea17d6faac2906df1d1b45875e5ee55e3e230bedcf110eb83b029438436a0e"
+      },
+      {
+        "name": "order",
+        "path": "public/audio/order.wav",
+        "sha256": "834f4e66c81cf1106116862741f47284c03013eac3a6e7752c89d19c91c88d07"
+      },
+      {
+        "name": "atmosphere",
+        "path": "public/audio/atmosphere.wav",
+        "sha256": "252e453dc18995afedef37ffa9f904d56ac0c87a5b1670615abbb6c56609491d"
+      }
+    ],
+    "voiceCueCount": 11,
+    "sourceClipCount": 11,
+    "sourceVoiceHashes": {
+      "public/audio-voiced-v2/voice-03.wav": "fadec2550a7fbd898b14a8b661b6c8f78d186b89052cc92eaa1b9f0cb5955e9b",
+      "public/audio-voiced-v2/voice-02.wav": "1da36f9aa6a56093b6fe8d4f646686855dd648fbf250421903269753382928c5",
+      "public/audio-voiced-v2/voice-05.wav": "2d7883dcec86051362df3e71b4fdd96c37ef39c56f3b90d6a67e51662547452d",
+      "public/audio-voiced-v2/voice-06.wav": "d0190e3ffc2fb1e7706950d674feaf78d4d379ba4bb8440aa0dd55aed9e4b993",
+      "public/audio-voiced-v2/voice-07.wav": "2ef540d7805b2c83d81dcb1c4a87973543d7f770b1b92991843b132674e7d85c",
+      "public/audio-voiced-v2/voice-11.wav": "c07d7abb516df3f644757d94ad7c21dd8d08ad02f795a9162f37a9610902c58c",
+      "public/audio-voiced-v2/voice-12.wav": "e9c79927e3eaca2514c4e4b6ce8c1606a97e6ae135a6296aa1faac0458866a20",
+      "public/audio-voiced-v2/voice-13.wav": "c8652258e0414be5b4b8f9d211085f437d1be35e1a2bf2e73e2e19f5008ff8c5",
+      "public/audio-voiced-v2/voice-14.wav": "11b947595c4b93cb32ba03b0ab611db95bf466216cc9586ee7384e8c9e20a4f7",
+      "public/audio-voiced-v2/voice-quote.wav": "77b13ee915e344ab90bb7500e3d6f0256f4e2de6d18130b0c0e6894fb7ce794c",
+      "public/audio-voiced-v2/voice-15.wav": "b97dccde73abd484f61d6098a96e3d512e3d936922c7f424b48a8e09d7f1b5c9"
+    },
+    "alignedVoiceCues": [
+      {
+        "id": "voice-03",
+        "sourceFile": "public/audio-voiced-v2/voice-03.wav",
+        "sourceSha256": "fadec2550a7fbd898b14a8b661b6c8f78d186b89052cc92eaa1b9f0cb5955e9b",
+        "file": "public/audio-voiced-v2/aligned/voice-03.wav",
+        "alignedSha256": "0d6edd0466f81a57c9a66b908bab9ac3e50c5ea9da86c8130b97524e046cf125",
+        "startFrame": 66,
+        "endFrame": 312,
+        "startSample": 52800,
+        "endSample": 249522,
+        "sampleFrames": 196722,
+        "atempo": 1.0
+      },
+      {
+        "id": "voice-02",
+        "sourceFile": "public/audio-voiced-v2/voice-02.wav",
+        "sourceSha256": "1da36f9aa6a56093b6fe8d4f646686855dd648fbf250421903269753382928c5",
+        "file": "public/audio-voiced-v2/aligned/voice-02.wav",
+        "alignedSha256": "cc264b435187611d874f2a7f10d31465b5dc6d341d2c6ec2835d2bff50696e50",
+        "startFrame": 342,
+        "endFrame": 569,
+        "startSample": 273600,
+        "endSample": 454584,
+        "sampleFrames": 180984,
+        "atempo": 1.0
+      },
+      {
+        "id": "voice-05",
+        "sourceFile": "public/audio-voiced-v2/voice-05.wav",
+        "sourceSha256": "2d7883dcec86051362df3e71b4fdd96c37ef39c56f3b90d6a67e51662547452d",
+        "file": "public/audio-voiced-v2/aligned/voice-05.wav",
+        "alignedSha256": "fcc62eaacbfaf42cc92dcb31d4fb9404aa146ffd0bfd4f9b3dfdcf79fc143fd5",
+        "startFrame": 620,
+        "endFrame": 1029,
+        "startSample": 496000,
+        "endSample": 822558,
+        "sampleFrames": 326558,
+        "atempo": 1.0
+      },
+      {
+        "id": "voice-06",
+        "sourceFile": "public/audio-voiced-v2/voice-06.wav",
+        "sourceSha256": "d0190e3ffc2fb1e7706950d674feaf78d4d379ba4bb8440aa0dd55aed9e4b993",
+        "file": "public/audio-voiced-v2/aligned/voice-06.wav",
+        "alignedSha256": "ff8589f7bcc528d5782a3e39723b355e0806d9bf2d13d1cbf6a629ba586d18f9",
+        "startFrame": 1044,
+        "endFrame": 1285,
+        "startSample": 835200,
+        "endSample": 1027986,
+        "sampleFrames": 192786,
+        "atempo": 1.0
+      },
+      {
+        "id": "voice-07",
+        "sourceFile": "public/audio-voiced-v2/voice-07.wav",
+        "sourceSha256": "2ef540d7805b2c83d81dcb1c4a87973543d7f770b1b92991843b132674e7d85c",
+        "file": "public/audio-voiced-v2/aligned/voice-07.wav",
+        "alignedSha256": "aa861b0c5e6c766657d10d773a67710b7fbe49ba2bece49adcf2bb522746fa82",
+        "startFrame": 1330,
+        "endFrame": 1616,
+        "startSample": 1064000,
+        "endSample": 1292196,
+        "sampleFrames": 228196,
+        "atempo": 1.0
+      },
+      {
+        "id": "voice-11",
+        "sourceFile": "public/audio-voiced-v2/voice-11.wav",
+        "sourceSha256": "c07d7abb516df3f644757d94ad7c21dd8d08ad02f795a9162f37a9610902c58c",
+        "file": "public/audio-voiced-v2/aligned/voice-11.wav",
+        "alignedSha256": "5ef677bf22105698dc3e4144e89bf9be599cc2b7585f2533336a660373925dad",
+        "startFrame": 1720,
+        "endFrame": 1932,
+        "startSample": 1376000,
+        "endSample": 1545180,
+        "sampleFrames": 169180,
+        "atempo": 1.0
+      },
+      {
+        "id": "voice-12",
+        "sourceFile": "public/audio-voiced-v2/voice-12.wav",
+        "sourceSha256": "e9c79927e3eaca2514c4e4b6ce8c1606a97e6ae135a6296aa1faac0458866a20",
+        "file": "public/audio-voiced-v2/aligned/voice-12.wav",
+        "alignedSha256": "efd19b6296fe4056afcffb33d122fd90dab6996b5c9cc2ed8016aeb5901cf288",
+        "startFrame": 1948,
+        "endFrame": 2101,
+        "startSample": 1558400,
+        "endSample": 1680368,
+        "sampleFrames": 121968,
+        "atempo": 1.0
+      },
+      {
+        "id": "voice-13",
+        "sourceFile": "public/audio-voiced-v2/voice-13.wav",
+        "sourceSha256": "c8652258e0414be5b4b8f9d211085f437d1be35e1a2bf2e73e2e19f5008ff8c5",
+        "file": "public/audio-voiced-v2/aligned/voice-13.wav",
+        "alignedSha256": "908b7d0d92342e18d5cf8630151c6400515dc5eb144bda8d65c1bbd6a0f24582",
+        "startFrame": 2240,
+        "endFrame": 2496,
+        "startSample": 1792000,
+        "endSample": 1996590,
+        "sampleFrames": 204590,
+        "atempo": 1.0
+      },
+      {
+        "id": "voice-14",
+        "sourceFile": "public/audio-voiced-v2/voice-14.wav",
+        "sourceSha256": "11b947595c4b93cb32ba03b0ab611db95bf466216cc9586ee7384e8c9e20a4f7",
+        "file": "public/audio-voiced-v2/aligned/voice-14.wav",
+        "alignedSha256": "e31f62fa17d66ad1e05eed3ae0491533a0aeb596253beb1acc4f9c3ad957cbcd",
+        "startFrame": 2514,
+        "endFrame": 2844,
+        "startSample": 2011200,
+        "endSample": 2274806,
+        "sampleFrames": 263606,
+        "atempo": 1.0
+      },
+      {
+        "id": "voice-quote",
+        "sourceFile": "public/audio-voiced-v2/voice-quote.wav",
+        "sourceSha256": "77b13ee915e344ab90bb7500e3d6f0256f4e2de6d18130b0c0e6894fb7ce794c",
+        "file": "public/audio-voiced-v2/aligned/voice-quote.wav",
+        "alignedSha256": "f68c870d18ac9a0e05d2a0673473cbb826f57fe877a00f1a65ca97226dd19710",
+        "startFrame": 2880,
+        "endFrame": 3318,
+        "startSample": 2304000,
+        "endSample": 2654164,
+        "sampleFrames": 350164,
+        "atempo": 1.0
+      },
+      {
+        "id": "voice-15",
+        "sourceFile": "public/audio-voiced-v2/voice-15.wav",
+        "sourceSha256": "b97dccde73abd484f61d6098a96e3d512e3d936922c7f424b48a8e09d7f1b5c9",
+        "file": "public/audio-voiced-v2/aligned/voice-15.wav",
+        "alignedSha256": "4a072d302dfc0aed987c37072c80cde0e3300315ed3bb9078c26fa943064d73b",
+        "startFrame": 3400,
+        "endFrame": 3563,
+        "startSample": 2720000,
+        "endSample": 2849836,
+        "sampleFrames": 129836,
+        "atempo": 1.0
+      }
+    ],
+    "outputsVerified": [
+      {
+        "name": "overload",
+        "path": "public/audio-xhs-v1/overload.wav",
+        "sha256": "8972a800687b8c0775753d5959287f22ed78cd486e791ae3176d1aafb4ba87e6"
+      },
+      {
+        "name": "narration",
+        "path": "public/audio-xhs-v1/narration.wav",
+        "sha256": "405214244e208187d27f90ecdf95b8c61e5e98d354be9e492e9c46303fd6392c"
+      },
+      {
+        "name": "score",
+        "path": "public/audio-xhs-v1/score.wav",
+        "sha256": "8ed1e90c4670687e91d09e2cbc92120eef966a3a57f35c21bd556c5f778dd7a9"
+      },
+      {
+        "name": "soundtrack",
+        "path": "public/audio-xhs-v1/soundtrack.wav",
+        "sha256": "f1dbf5423b1de259cf2d5b1058ecfdaf083befcc419b3c1846fd236267eb385b"
+      }
+    ],
+    "noAtTempo": true,
+    "voiceCuesFitWithoutOverlap": true,
+    "cloud": {
+      "providerCalls": 0,
+      "asrUploads": 0
+    }
+  },
+  "narrationUpmix": {
+    "path": "public/audio-xhs-v1/narration.wav",
+    "sha256": "405214244e208187d27f90ecdf95b8c61e5e98d354be9e492e9c46303fd6392c",
+    "format": {
+      "channels": 2,
+      "sampleRate": 48000,
+      "sampleWidthBytes": 2,
+      "sampleFrames": 2880000,
+      "compression": "NONE"
+    },
+    "alignedMonoCuesVerified": [
+      {
+        "id": "voice-03",
+        "alignedPath": "public/audio-voiced-v2/aligned/voice-03.wav",
+        "alignedChannels": 1,
+        "sampleFramesPerChannel": 196722,
+        "narrationStartSample": 52800,
+        "leftAndRightEqualAlignedMono": true,
+        "unityGainByteExact": true
+      },
+      {
+        "id": "voice-02",
+        "alignedPath": "public/audio-voiced-v2/aligned/voice-02.wav",
+        "alignedChannels": 1,
+        "sampleFramesPerChannel": 180984,
+        "narrationStartSample": 273600,
+        "leftAndRightEqualAlignedMono": true,
+        "unityGainByteExact": true
+      },
+      {
+        "id": "voice-05",
+        "alignedPath": "public/audio-voiced-v2/aligned/voice-05.wav",
+        "alignedChannels": 1,
+        "sampleFramesPerChannel": 326558,
+        "narrationStartSample": 496000,
+        "leftAndRightEqualAlignedMono": true,
+        "unityGainByteExact": true
+      },
+      {
+        "id": "voice-06",
+        "alignedPath": "public/audio-voiced-v2/aligned/voice-06.wav",
+        "alignedChannels": 1,
+        "sampleFramesPerChannel": 192786,
+        "narrationStartSample": 835200,
+        "leftAndRightEqualAlignedMono": true,
+        "unityGainByteExact": true
+      },
+      {
+        "id": "voice-07",
+        "alignedPath": "public/audio-voiced-v2/aligned/voice-07.wav",
+        "alignedChannels": 1,
+        "sampleFramesPerChannel": 228196,
+        "narrationStartSample": 1064000,
+        "leftAndRightEqualAlignedMono": true,
+        "unityGainByteExact": true
+      },
+      {
+        "id": "voice-11",
+        "alignedPath": "public/audio-voiced-v2/aligned/voice-11.wav",
+        "alignedChannels": 1,
+        "sampleFramesPerChannel": 169180,
+        "narrationStartSample": 1376000,
+        "leftAndRightEqualAlignedMono": true,
+        "unityGainByteExact": true
+      },
+      {
+        "id": "voice-12",
+        "alignedPath": "public/audio-voiced-v2/aligned/voice-12.wav",
+        "alignedChannels": 1,
+        "sampleFramesPerChannel": 121968,
+        "narrationStartSample": 1558400,
+        "leftAndRightEqualAlignedMono": true,
+        "unityGainByteExact": true
+      },
+      {
+        "id": "voice-13",
+        "alignedPath": "public/audio-voiced-v2/aligned/voice-13.wav",
+        "alignedChannels": 1,
+        "sampleFramesPerChannel": 204590,
+        "narrationStartSample": 1792000,
+        "leftAndRightEqualAlignedMono": true,
+        "unityGainByteExact": true
+      },
+      {
+        "id": "voice-14",
+        "alignedPath": "public/audio-voiced-v2/aligned/voice-14.wav",
+        "alignedChannels": 1,
+        "sampleFramesPerChannel": 263606,
+        "narrationStartSample": 2011200,
+        "leftAndRightEqualAlignedMono": true,
+        "unityGainByteExact": true
+      },
+      {
+        "id": "voice-quote",
+        "alignedPath": "public/audio-voiced-v2/aligned/voice-quote.wav",
+        "alignedChannels": 1,
+        "sampleFramesPerChannel": 350164,
+        "narrationStartSample": 2304000,
+        "leftAndRightEqualAlignedMono": true,
+        "unityGainByteExact": true
+      },
+      {
+        "id": "voice-15",
+        "alignedPath": "public/audio-voiced-v2/aligned/voice-15.wav",
+        "alignedChannels": 1,
+        "sampleFramesPerChannel": 129836,
+        "narrationStartSample": 2720000,
+        "leftAndRightEqualAlignedMono": true,
+        "unityGainByteExact": true
+      }
+    ],
+    "allCueSamplesCopiedToBothChannelsAtUnity": true,
+    "cachedSourceClipsUnchanged": true
+  },
+  "overloadStem": {
+    "path": "public/audio-xhs-v1/overload.wav",
+    "sha256": "8972a800687b8c0775753d5959287f22ed78cd486e791ae3176d1aafb4ba87e6",
+    "format": {
+      "channels": 2,
+      "sampleRate": 48000,
+      "sampleWidthBytes": 2,
+      "sampleFrames": 2880000,
+      "compression": "NONE"
+    },
+    "toneStopFrame": 36,
+    "allNineHarmonicsPresentByFinalStage": true,
+    "inactiveHarmonicsBelowThresholdAtEveryStage": true,
+    "harmonicAmplitudeThresholds": {
+      "activeAbove": 0.003,
+      "inactiveBelow": 0.001
+    },
+    "measuredStages": [
+      {
+        "activeLayers": 1,
+        "boundaryFrame": 4,
+        "windowStartSample": 1891,
+        "windowEndSampleExclusive": 3200,
+        "harmonics": [
+          {
+            "frequencyHz": 220,
+            "amplitude": 0.01767673128308788,
+            "expectedActive": true
+          },
+          {
+            "frequencyHz": 440,
+            "amplitude": 2.4004048580473173e-06,
+            "expectedActive": false
+          },
+          {
+            "frequencyHz": 660,
+            "amplitude": 2.0976244450239207e-06,
+            "expectedActive": false
+          },
+          {
+            "frequencyHz": 880,
+            "amplitude": 2.572325212123422e-06,
+            "expectedActive": false
+          },
+          {
+            "frequencyHz": 1100,
+            "amplitude": 2.5345310641296114e-06,
+            "expectedActive": false
+          },
+          {
+            "frequencyHz": 1320,
+            "amplitude": 2.2403159163528e-06,
+            "expectedActive": false
+          },
+          {
+            "frequencyHz": 1540,
+            "amplitude": 1.6869684333391262e-06,
+            "expectedActive": false
+          },
+          {
+            "frequencyHz": 1760,
+            "amplitude": 2.1891633849738824e-06,
+            "expectedActive": false
+          },
+          {
+            "frequencyHz": 1980,
+            "amplitude": 2.3564302605280184e-06,
+            "expectedActive": false
+          }
+        ]
+      },
+      {
+        "activeLayers": 2,
+        "boundaryFrame": 8,
+        "windowStartSample": 5091,
+        "windowEndSampleExclusive": 6400,
+        "harmonics": [
+          {
+            "frequencyHz": 220,
+            "amplitude": 0.01767516290488703,
+            "expectedActive": true
+          },
+          {
+            "frequencyHz": 440,
+            "amplitude": 0.012480266845500482,
+            "expectedActive": true
+          },
+          {
+            "frequencyHz": 660,
+            "amplitude": 3.990474573948618e-06,
+            "expectedActive": false
+          },
+          {
+            "frequencyHz": 880,
+            "amplitude": 3.5210787626449392e-06,
+            "expectedActive": false
+          },
+          {
+            "frequencyHz": 1100,
+            "amplitude": 3.6738386728451923e-06,
+            "expectedActive": false
+          },
+          {
+            "frequencyHz": 1320,
+            "amplitude": 3.472051512039393e-06,
+            "expectedActive": false
+          },
+          {
+            "frequencyHz": 1540,
+            "amplitude": 3.3831509699089625e-06,
+            "expectedActive": false
+          },
+          {
+            "frequencyHz": 1760,
+            "amplitude": 3.6408207928251913e-06,
+            "expectedActive": false
+          },
+          {
+            "frequencyHz": 1980,
+            "amplitude": 3.6589297655941637e-06,
+            "expectedActive": false
+          }
+        ]
+      },
+      {
+        "activeLayers": 3,
+        "boundaryFrame": 12,
+        "windowStartSample": 8291,
+        "windowEndSampleExclusive": 9600,
+        "harmonics": [
+          {
+            "frequencyHz": 220,
+            "amplitude": 0.017677870544030937,
+            "expectedActive": true
+          },
+          {
+            "frequencyHz": 440,
+            "amplitude": 0.012482356399787243,
+            "expectedActive": true
+          },
+          {
+            "frequencyHz": 660,
+            "amplitude": 0.010195005708063535,
+            "expectedActive": true
+          },
+          {
+            "frequencyHz": 880,
+            "amplitude": 2.3605747316052124e-07,
+            "expectedActive": false
+          },
+          {
+            "frequencyHz": 1100,
+            "amplitude": 1.729859728899962e-06,
+            "expectedActive": false
+          },
+          {
+            "frequencyHz": 1320,
+            "amplitude": 1.3571067588162954e-06,
+            "expectedActive": false
+          },
+          {
+            "frequencyHz": 1540,
+            "amplitude": 1.4412483577782397e-06,
+            "expectedActive": false
+          },
+          {
+            "frequencyHz": 1760,
+            "amplitude": 2.8987503492213084e-06,
+            "expectedActive": false
+          },
+          {
+            "frequencyHz": 1980,
+            "amplitude": 1.5926508688217476e-06,
+            "expectedActive": false
+          }
+        ]
+      },
+      {
+        "activeLayers": 4,
+        "boundaryFrame": 16,
+        "windowStartSample": 11491,
+        "windowEndSampleExclusive": 12800,
+        "harmonics": [
+          {
+            "frequencyHz": 220,
+            "amplitude": 0.017675635149386894,
+            "expectedActive": true
+          },
+          {
+            "frequencyHz": 440,
+            "amplitude": 0.012483027482066854,
+            "expectedActive": true
+          },
+          {
+            "frequencyHz": 660,
+            "amplitude": 0.010195060082713994,
+            "expectedActive": true
+          },
+          {
+            "frequencyHz": 880,
+            "amplitude": 0.008836041975675463,
+            "expectedActive": true
+          },
+          {
+            "frequencyHz": 1100,
+            "amplitude": 3.934511875252452e-06,
+            "expectedActive": false
+          },
+          {
+            "frequencyHz": 1320,
+            "amplitude": 3.607653175694838e-06,
+            "expectedActive": false
+          },
+          {
+            "frequencyHz": 1540,
+            "amplitude": 2.505576849467169e-06,
+            "expectedActive": false
+          },
+          {
+            "frequencyHz": 1760,
+            "amplitude": 4.075161986540618e-06,
+            "expectedActive": false
+          },
+          {
+            "frequencyHz": 1980,
+            "amplitude": 3.1505232040682726e-06,
+            "expectedActive": false
+          }
+        ]
+      },
+      {
+        "activeLayers": 5,
+        "boundaryFrame": 20,
+        "windowStartSample": 14691,
+        "windowEndSampleExclusive": 16000,
+        "harmonics": [
+          {
+            "frequencyHz": 220,
+            "amplitude": 0.017673588811221427,
+            "expectedActive": true
+          },
+          {
+            "frequencyHz": 440,
+            "amplitude": 0.012478297925271605,
+            "expectedActive": true
+          },
+          {
+            "frequencyHz": 660,
+            "amplitude": 0.010195015446970043,
+            "expectedActive": true
+          },
+          {
+            "frequencyHz": 880,
+            "amplitude": 0.00883272087159704,
+            "expectedActive": true
+          },
+          {
+            "frequencyHz": 1100,
+            "amplitude": 0.007887029675852029,
+            "expectedActive": true
+          },
+          {
+            "frequencyHz": 1320,
+            "amplitude": 5.2625461665967025e-06,
+            "expectedActive": false
+          },
+          {
+            "frequencyHz": 1540,
+            "amplitude": 5.589720493902807e-06,
+            "expectedActive": false
+          },
+          {
+            "frequencyHz": 1760,
+            "amplitude": 5.101683135761791e-06,
+            "expectedActive": false
+          },
+          {
+            "frequencyHz": 1980,
+            "amplitude": 5.664647492292163e-06,
+            "expectedActive": false
+          }
+        ]
+      },
+      {
+        "activeLayers": 6,
+        "boundaryFrame": 24,
+        "windowStartSample": 17891,
+        "windowEndSampleExclusive": 19200,
+        "harmonics": [
+          {
+            "frequencyHz": 220,
+            "amplitude": 0.017677849389197278,
+            "expectedActive": true
+          },
+          {
+            "frequencyHz": 440,
+            "amplitude": 0.012481503833219764,
+            "expectedActive": true
+          },
+          {
+            "frequencyHz": 660,
+            "amplitude": 0.010195067084204038,
+            "expectedActive": true
+          },
+          {
+            "frequencyHz": 880,
+            "amplitude": 0.00883869975796067,
+            "expectedActive": true
+          },
+          {
+            "frequencyHz": 1100,
+            "amplitude": 0.007889412364677429,
+            "expectedActive": true
+          },
+          {
+            "frequencyHz": 1320,
+            "amplitude": 0.007212008797149654,
+            "expectedActive": true
+          },
+          {
+            "frequencyHz": 1540,
+            "amplitude": 2.041483870028884e-06,
+            "expectedActive": false
+          },
+          {
+            "frequencyHz": 1760,
+            "amplitude": 4.027147382060734e-06,
+            "expectedActive": false
+          },
+          {
+            "frequencyHz": 1980,
+            "amplitude": 2.5197964548759223e-06,
+            "expectedActive": false
+          }
+        ]
+      },
+      {
+        "activeLayers": 7,
+        "boundaryFrame": 28,
+        "windowStartSample": 21091,
+        "windowEndSampleExclusive": 22400,
+        "harmonics": [
+          {
+            "frequencyHz": 220,
+            "amplitude": 0.017675109024485207,
+            "expectedActive": true
+          },
+          {
+            "frequencyHz": 440,
+            "amplitude": 0.012483153196857178,
+            "expectedActive": true
+          },
+          {
+            "frequencyHz": 660,
+            "amplitude": 0.01019483674674867,
+            "expectedActive": true
+          },
+          {
+            "frequencyHz": 880,
+            "amplitude": 0.008835775191071635,
+            "expectedActive": true
+          },
+          {
+            "frequencyHz": 1100,
+            "amplitude": 0.007891678020305014,
+            "expectedActive": true
+          },
+          {
+            "frequencyHz": 1320,
+            "amplitude": 0.007212126716602481,
+            "expectedActive": true
+          },
+          {
+            "frequencyHz": 1540,
+            "amplitude": 0.006678826817449539,
+            "expectedActive": true
+          },
+          {
+            "frequencyHz": 1760,
+            "amplitude": 4.548036449833242e-06,
+            "expectedActive": false
+          },
+          {
+            "frequencyHz": 1980,
+            "amplitude": 4.139394024821052e-06,
+            "expectedActive": false
+          }
+        ]
+      },
+      {
+        "activeLayers": 8,
+        "boundaryFrame": 32,
+        "windowStartSample": 24291,
+        "windowEndSampleExclusive": 25600,
+        "harmonics": [
+          {
+            "frequencyHz": 220,
+            "amplitude": 0.017672558232808524,
+            "expectedActive": true
+          },
+          {
+            "frequencyHz": 440,
+            "amplitude": 0.01247700783537517,
+            "expectedActive": true
+          },
+          {
+            "frequencyHz": 660,
+            "amplitude": 0.010194929732540188,
+            "expectedActive": true
+          },
+          {
+            "frequencyHz": 880,
+            "amplitude": 0.008831429375970808,
+            "expectedActive": true
+          },
+          {
+            "frequencyHz": 1100,
+            "amplitude": 0.007886594470342774,
+            "expectedActive": true
+          },
+          {
+            "frequencyHz": 1320,
+            "amplitude": 0.00721257193726384,
+            "expectedActive": true
+          },
+          {
+            "frequencyHz": 1540,
+            "amplitude": 0.00667346594413937,
+            "expectedActive": true
+          },
+          {
+            "frequencyHz": 1760,
+            "amplitude": 0.006232178095425963,
+            "expectedActive": true
+          },
+          {
+            "frequencyHz": 1980,
+            "amplitude": 7.353029424426907e-06,
+            "expectedActive": false
+          }
+        ]
+      },
+      {
+        "activeLayers": 9,
+        "boundaryFrame": 36,
+        "windowStartSample": 27491,
+        "windowEndSampleExclusive": 28800,
+        "harmonics": [
+          {
+            "frequencyHz": 220,
+            "amplitude": 0.017678094893205112,
+            "expectedActive": true
+          },
+          {
+            "frequencyHz": 440,
+            "amplitude": 0.012480405591981148,
+            "expectedActive": true
+          },
+          {
+            "frequencyHz": 660,
+            "amplitude": 0.010195305673657541,
+            "expectedActive": true
+          },
+          {
+            "frequencyHz": 880,
+            "amplitude": 0.008838675810501117,
+            "expectedActive": true
+          },
+          {
+            "frequencyHz": 1100,
+            "amplitude": 0.007888172086645764,
+            "expectedActive": true
+          },
+          {
+            "frequencyHz": 1320,
+            "amplitude": 0.007211966049310848,
+            "expectedActive": true
+          },
+          {
+            "frequencyHz": 1540,
+            "amplitude": 0.006680492860698069,
+            "expectedActive": true
+          },
+          {
+            "frequencyHz": 1760,
+            "amplitude": 0.006234854913957081,
+            "expectedActive": true
+          },
+          {
+            "frequencyHz": 1980,
+            "amplitude": 0.0058885254639483705,
+            "expectedActive": true
+          }
+        ]
+      }
+    ],
+    "digitalZeroFramesAfterNoise": [
+      48,
+      3600
+    ],
+    "verified": true
+  },
+  "pcmMaster": {
+    "path": "public/audio-xhs-v1/soundtrack.wav",
+    "sha256": "f1dbf5423b1de259cf2d5b1058ecfdaf083befcc419b3c1846fd236267eb385b",
+    "format": {
+      "channels": 2,
+      "sampleRate": 48000,
+      "sampleWidthBytes": 2,
+      "sampleFrames": 2880000,
+      "compression": "NONE"
+    },
+    "sampleFrames": 2880000,
+    "exactNoiseCopy": {
+      "masterFrames": [
+        36,
+        48
+      ],
+      "overloadStemFrames": [
+        36,
+        48
+      ],
+      "sourcePath": "public/audio/overload.wav",
+      "sourceFrames": [
+        1200,
+        1212
+      ],
+      "sampleFramesPerChannel": 9600,
+      "byteExact": true
+    },
+    "masterMatchesOverloadStemFrames0To48": true,
+    "digitalZero": {
+      "frames": [
+        48,
+        66
+      ],
+      "sampleFramesPerChannel": 14400,
+      "verified": true
+    }
+  },
+  "movies": {
+    "master": {
+      "path": "out/cage-of-seven-plus-two-xhs-v1-4k.mp4",
+      "width": 2160,
+      "height": 3840,
+      "rFrameRate": "60/1",
+      "avgFrameRate": "60/1",
+      "videoFrames": 3600,
+      "videoDurationSeconds": 60.0,
+      "audioCodec": "aac",
+      "audioSampleRate": 48000,
+      "audioChannels": 2,
+      "audioPresentedDurationSeconds": 60.011,
+      "containerDurationSeconds": 60.011,
+      "containerMinusVideoSeconds": 0.011000000000002785,
+      "sha256": "113910360392d5a3c858ec07bb2c03d0b35b79ef61bdb75e162c54ba082c16bc"
+    },
+    "publish": {
+      "path": "out/cage-of-seven-plus-two-xhs-v1-1080x1920.mp4",
+      "width": 1080,
+      "height": 1920,
+      "rFrameRate": "60/1",
+      "avgFrameRate": "60/1",
+      "videoFrames": 3600,
+      "videoDurationSeconds": 60.0,
+      "audioCodec": "aac",
+      "audioSampleRate": 48000,
+      "audioChannels": 2,
+      "audioPresentedDurationSeconds": 60.011,
+      "containerDurationSeconds": 60.011,
+      "containerMinusVideoSeconds": 0.011000000000002785,
+      "sha256": "7f73b80017c81f25bbbf4bd873906d6e3c183e238ce8acce3c6ebf43b67b7d33"
+    }
+  },
+  "strictDecode": {
+    "master": "PASS",
+    "publish": "PASS",
+    "atMostOneStrictDecodePassPerMovie": true,
+    "aacPackets": {
+      "master": {
+        "sha256": "751902452384a8fb1bf9b750993e0236aaa39e46f13525dde333498df01b416e",
+        "bytes": 1441281
+      },
+      "publish": {
+        "sha256": "751902452384a8fb1bf9b750993e0236aaa39e46f13525dde333498df01b416e",
+        "bytes": 1441281
+      },
+      "byteIdentical": true
+    },
+    "representativeFrames": {
+      "sourceFrames": [
+        0,
+        35,
+        36,
+        60,
+        420,
+        900,
+        1500,
+        1800,
+        2130,
+        2400,
+        2850,
+        3200,
+        3500,
+        3599
+      ],
+      "extracted": [
+        {
+          "sourceFrame": 0,
+          "path": "out/xhs-v1-final-frame-01.png",
+          "width": 2160,
+          "height": 3840,
+          "sha256": "0ca3f4130433c5d7b52d129f075d335cecdc1313967faf8d0521e7f0fd0fa676"
+        },
+        {
+          "sourceFrame": 35,
+          "path": "out/xhs-v1-final-frame-02.png",
+          "width": 2160,
+          "height": 3840,
+          "sha256": "40e576e6f6786f092dde85fda11aaf678939e12ab51dca0865fa54ccc2215383"
+        },
+        {
+          "sourceFrame": 36,
+          "path": "out/xhs-v1-final-frame-03.png",
+          "width": 2160,
+          "height": 3840,
+          "sha256": "f2690767ef6b300d63996e36f0e55c06cd77b12ab4f56701f2bff5b7ffea3b42"
+        },
+        {
+          "sourceFrame": 60,
+          "path": "out/xhs-v1-final-frame-04.png",
+          "width": 2160,
+          "height": 3840,
+          "sha256": "57afb6478638a30a261b3976dbf3cac9a67eaff719677c81fbd4d64c9402cd6e"
+        },
+        {
+          "sourceFrame": 420,
+          "path": "out/xhs-v1-final-frame-05.png",
+          "width": 2160,
+          "height": 3840,
+          "sha256": "ba2f35ded486d3fd669441381d3778f724784ebaaf4e5be39b83ce69bdad751e"
+        },
+        {
+          "sourceFrame": 900,
+          "path": "out/xhs-v1-final-frame-06.png",
+          "width": 2160,
+          "height": 3840,
+          "sha256": "a4f6117c9c06a3373c1e73b1e75922d00e969431c5ea39ce93c9d7abf65c2789"
+        },
+        {
+          "sourceFrame": 1500,
+          "path": "out/xhs-v1-final-frame-07.png",
+          "width": 2160,
+          "height": 3840,
+          "sha256": "e2741cfb81d6183077cbe675e753b944fb5d5ccb6171ad537e0378dda6a2151f"
+        },
+        {
+          "sourceFrame": 1800,
+          "path": "out/xhs-v1-final-frame-08.png",
+          "width": 2160,
+          "height": 3840,
+          "sha256": "3f40b1f37c4d52366daae4c14dc2bd53a8707fdb4d68b373c837743ea46c2a43"
+        },
+        {
+          "sourceFrame": 2130,
+          "path": "out/xhs-v1-final-frame-09.png",
+          "width": 2160,
+          "height": 3840,
+          "sha256": "1610c1c7577150f16c19b30e4b999afc30643908feaa964bae38d71ce6f75c79"
+        },
+        {
+          "sourceFrame": 2400,
+          "path": "out/xhs-v1-final-frame-10.png",
+          "width": 2160,
+          "height": 3840,
+          "sha256": "ee6a23f0d1cc8bd5b93fb3cbbebb9070e21d1ff52dc8529ad8adc1190928e5d1"
+        },
+        {
+          "sourceFrame": 2850,
+          "path": "out/xhs-v1-final-frame-11.png",
+          "width": 2160,
+          "height": 3840,
+          "sha256": "57efb5bfe856589e8f065aa01946fe6e30bba7c05c0c895e4c10264a91d36628"
+        },
+        {
+          "sourceFrame": 3200,
+          "path": "out/xhs-v1-final-frame-12.png",
+          "width": 2160,
+          "height": 3840,
+          "sha256": "dbf1ab93bb157b1d2b3af5674ed1100ca8769fdb2704a0d5086621422d46e35b"
+        },
+        {
+          "sourceFrame": 3500,
+          "path": "out/xhs-v1-final-frame-13.png",
+          "width": 2160,
+          "height": 3840,
+          "sha256": "eda8abc237778d12d5c25605e8da181bf59ce3edc25f0bffac2951c2314bb9ff"
+        },
+        {
+          "sourceFrame": 3599,
+          "path": "out/xhs-v1-final-frame-14.png",
+          "width": 2160,
+          "height": 3840,
+          "sha256": "770c7184aec35e1462b61413ed7cca3e55a0b10cb1a0abc475c92fdf1944217d"
+        }
+      ]
+    }
+  },
+  "encodedAudioComparison": {
+    "master": {
+      "status": "PASS",
+      "comparisonSampleRate": 8000,
+      "measurements": [
+        {
+          "window": "whole-film",
+          "fromSeconds": 0,
+          "toSeconds": 60,
+          "cosineCorrelation": 0.999898133648439,
+          "normalizedRmsError": 0.014348000676586713
+        },
+        {
+          "window": "overload",
+          "fromSeconds": 0,
+          "toSeconds": 10,
+          "cosineCorrelation": 0.9996647182648356,
+          "normalizedRmsError": 0.02593292648671803
+        },
+        {
+          "window": "linear",
+          "fromSeconds": 10,
+          "toSeconds": 22,
+          "cosineCorrelation": 0.9999584151554849,
+          "normalizedRmsError": 0.00923562397283457
+        },
+        {
+          "window": "matrix",
+          "fromSeconds": 22,
+          "toSeconds": 28,
+          "cosineCorrelation": 0.999966272548417,
+          "normalizedRmsError": 0.008298639953274525
+        },
+        {
+          "window": "manifold",
+          "fromSeconds": 28,
+          "toSeconds": 37,
+          "cosineCorrelation": 0.9999640055708278,
+          "normalizedRmsError": 0.00862549091665557
+        },
+        {
+          "window": "oracle",
+          "fromSeconds": 37,
+          "toSeconds": 48,
+          "cosineCorrelation": 0.9999629108096613,
+          "normalizedRmsError": 0.008729885253513868
+        },
+        {
+          "window": "ending",
+          "fromSeconds": 48,
+          "toSeconds": 60,
+          "cosineCorrelation": 0.9999538453789775,
+          "normalizedRmsError": 0.009747133219427506
+        }
+      ],
+      "note": "Decoded mono AAC compared at matching times with the 8 kHz mono PCM source; lossy AAC error is allowed. This does not assess voice intelligibility."
+    },
+    "publish": {
+      "status": "PASS",
+      "comparisonSampleRate": 8000,
+      "measurements": [
+        {
+          "window": "whole-film",
+          "fromSeconds": 0,
+          "toSeconds": 60,
+          "cosineCorrelation": 0.999898133648439,
+          "normalizedRmsError": 0.014348000676586713
+        },
+        {
+          "window": "overload",
+          "fromSeconds": 0,
+          "toSeconds": 10,
+          "cosineCorrelation": 0.9996647182648356,
+          "normalizedRmsError": 0.02593292648671803
+        },
+        {
+          "window": "linear",
+          "fromSeconds": 10,
+          "toSeconds": 22,
+          "cosineCorrelation": 0.9999584151554849,
+          "normalizedRmsError": 0.00923562397283457
+        },
+        {
+          "window": "matrix",
+          "fromSeconds": 22,
+          "toSeconds": 28,
+          "cosineCorrelation": 0.999966272548417,
+          "normalizedRmsError": 0.008298639953274525
+        },
+        {
+          "window": "manifold",
+          "fromSeconds": 28,
+          "toSeconds": 37,
+          "cosineCorrelation": 0.9999640055708278,
+          "normalizedRmsError": 0.00862549091665557
+        },
+        {
+          "window": "oracle",
+          "fromSeconds": 37,
+          "toSeconds": 48,
+          "cosineCorrelation": 0.9999629108096613,
+          "normalizedRmsError": 0.008729885253513868
+        },
+        {
+          "window": "ending",
+          "fromSeconds": 48,
+          "toSeconds": 60,
+          "cosineCorrelation": 0.9999538453789775,
+          "normalizedRmsError": 0.009747133219427506
+        }
+      ],
+      "note": "Decoded mono AAC compared at matching times with the 8 kHz mono PCM source; lossy AAC error is allowed. This does not assess voice intelligibility."
+    }
+  },
+  "covers": {
+    "3x4": {
+      "path": "out/cage-of-seven-plus-two-xhs-v1-cover-3x4.jpg",
+      "width": 1080,
+      "height": 1440,
+      "codec": "mjpeg",
+      "sha256": "7415ab103a21eb43a5345acdb12e8b473b268f4b4bd184ffff694ecee3f77d49"
+    },
+    "4k": {
+      "path": "out/xhs-v1-cover-4k.png",
+      "width": 2160,
+      "height": 2880,
+      "codec": "png",
+      "sha256": "b82e2f9ae5bc51bf0a7669418bb83bbca2159c9b8be976559539997995ecab3e"
+    }
+  },
+  "captions": {
+    "path": "out/cage-of-seven-plus-two-xhs-v1-zh.srt",
+    "bytes": 1127,
+    "sha256": "870687f8c395df9ffe574e230d4e85f7d892f44d08fba067cb3fcd0ea0f8d3af"
+  },
+  "humanReview": {
+    "listening": "pending",
+    "continuousViewing": "pending",
+    "platformUpload": "pending"
+  },
+  "privacy": {
+    "asrPerformed": false,
+    "cloudServicesUsed": false,
+    "audioUploads": 0
+  },
+  "note": "Automated local media and provenance checks only. Human listening, continuous visual review, and Xiaohongshu upload acceptance remain pending."
+}

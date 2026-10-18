@@ -1,0 +1,127 @@
+{
+  "checkedAt": "2026-10-11T15:35:03.400Z",
+  "film": "狂人日记-木刻意象版-v1-1080p.mp4",
+  "sizeBytes": 57455105,
+  "sha256": "56e7dfb8b8dd988eb9927ff8f8b082e993250f3ce252ef1781471a06dbad494d",
+  "video": {
+    "codec": "h264",
+    "width": 1920,
+    "height": 1080,
+    "fps": "24/1",
+    "frames": 2160,
+    "durationSeconds": 90,
+    "pixelFormat": "yuv420p",
+    "colorSpace": "bt709",
+    "colorRange": "tv"
+  },
+  "audio": {
+    "codec": "aac",
+    "sampleRateHz": 48000,
+    "channels": 2,
+    "durationSeconds": 90.005,
+    "peakDbfs": -14.785163,
+    "rmsDbfs": -32.338947,
+    "humanListeningReview": false
+  },
+  "containerDurationSeconds": 90.005,
+  "fastStart": true,
+  "fullDecode": "passed; video and audio, no errors",
+  "timeline": {
+    "continuous": true,
+    "cueCount": 11,
+    "cuesWithinBounds": true,
+    "captionsOrderedAndNonoverlapping": true,
+    "readingTimeChecked": true
+  },
+  "representativeStills": {
+    "frames": [
+      130,
+      334,
+      615,
+      975,
+      1007,
+      1053,
+      1335,
+      1641,
+      1918,
+      2113,
+      2159
+    ],
+    "inspected": true
+  },
+  "motionSample": {
+    "frames": [
+      1080,
+      1223
+    ],
+    "browserPlayback": "completed with no media error",
+    "transitionMidpointInspected": true
+  },
+  "finalFrameSamples": {
+    "timesSeconds": [
+      5.4,
+      13.9,
+      25.6,
+      40.625,
+      43.875,
+      47.375,
+      55.625,
+      68.375,
+      79.9,
+      88.1,
+      89.95
+    ],
+    "inspected": true
+  },
+  "finalPlayer": {
+    "checked": true,
+    "browser": "Codex in-app browser",
+    "url": "http://127.0.0.1:8031/madman-watch.html",
+    "durationSeconds": 90.005,
+    "playbackStarted": true,
+    "seekChecks": [
+      {
+        "chapter": "字缝",
+        "requestedSeconds": 29,
+        "observedSeconds": 29.066309,
+        "paused": false,
+        "error": null
+      },
+      {
+        "chapter": "质问",
+        "requestedSeconds": 47,
+        "observedSeconds": 47.172286,
+        "paused": false,
+        "error": null
+      },
+      {
+        "chapter": "呼喊",
+        "requestedSeconds": 83,
+        "observedSeconds": 83.137614,
+        "paused": false,
+        "error": null
+      }
+    ],
+    "endState": {
+      "currentTime": 90.005,
+      "ended": true,
+      "paused": true,
+      "error": null
+    },
+    "vttDownload": {
+      "status": 200,
+      "contentType": "text/vtt; charset=utf-8",
+      "contentLength": 788
+    },
+    "preview": "player-preview.png",
+    "returnedToOpening": true
+  },
+  "source": "https://zh.wikisource.org/zh-hans/狂人日記",
+  "visuals": {
+    "sourceType": "AI-generated woodcut-style original illustrations plus React/SVG",
+    "nativeRasterWidth": 1672,
+    "nativeRasterHeight": 941
+  },
+  "现场试播": "未进行",
+  "codeCheck": "TypeScript passed; preparation/render/validation script syntax passed"
+}

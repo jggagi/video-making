@@ -1,0 +1,29 @@
+{
+  "name": "qstory-ep03",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "余问 QStory EP.03 十万亿个分身 · editable procedural 4K film",
+  "scripts": {
+    "studio": "remotion studio src/index.ts --port=3103",
+    "typecheck": "tsc --noEmit",
+    "stills": "node scripts/render.mjs stills",
+    "render": "node scripts/render.mjs video",
+    "audio": "python3 scripts/make-bailian-audio.py --full",
+    "audio:local": "python3 scripts/make-audio.py --full",
+    "validate": "python3 scripts/validate-delivery.py --full"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.534",
+    "@remotion/cli": "4.0.534",
+    "@remotion/renderer": "4.0.534",
+    "remotion": "4.0.534",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.0",
+    "@types/react-dom": "19.1.0",
+    "typescript": "5.9.3"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "src/index.ts": "5462d3268136731ce43bfd7c5072ea1ba48b51fec94fa30076f5044f4b39e4a2",
+  "src/lib/math.ts": "235dfd05bea0145094a770d578d9cdbadaf5a7253eaeb7458b9c2ceaa8340119",
+  "src/lib/theme.ts": "a18ac2316ada8d7c650304439ecaab48292ee3e0f6e4222660fda5fd9cc3c197",
+  "src/lib/timeline.ts": "a02b25281f9e1bf2dbeaee3804225eaa2c3c333acb3ed96e76290bc8f1c25773",
+  "src/lib/voiced-subtitles.ts": "66afe0586bb32a4b5087ddd5894ac45d9db9f05941098fa8f57cb88c940d1167",
+  "src/MainComposition.tsx": "c640f605676fdd0c487d4a0f605e9b76aa4a415418bc6feb430666fd508314e1",
+  "src/Root.tsx": "2fb57986fcc3e33034c5487d8c331400fe06170262e411356ba5d6889b46e75e",
+  "src/components/Act1Speed.tsx": "59fd18d50e3d77a41310cfcb7ba349f4bddd4833aa4626c3175d01db0d2d3640",
+  "src/components/Act2BreadthMCTS.tsx": "c289c1e3844ef40c6b62fb44ab6a97876ec34494270338f2b1251f6079340d64",
+  "src/components/Act3DepthManifold.tsx": "c836fa837555ae5ff3aad0f02bd600927ad1fb75107554a1036002199c704155",
+  "src/components/Act4SplitWorld.tsx": "683273eecacf7383610eb7800ce0a0d681420b7d39a6f14c716fdca367797040",
+  "src/components/GlobalHUD.tsx": "aa4597bb5c5bdcc0398f51d13154e5b6b74fc6105356c40adf154ee6d75d6ff7",
+  "src/components/Soundtrack.tsx": "121aea0ab7e39b0cdeab16988032ca810f6e9c2e3cfd956e6a0d9fa991cd6a88",
+  "src/components/Visuals.tsx": "afb24913ab7875523b88bdbefbc7afeea891466daa127002b8ca1b1acbce12d3",
+  "package.json": "7652def3450d215e91a50d2600b8bdfc9dc0e64616edd29dab91286e96eced3d",
+  "package-lock.json": "48dc5aa2722d00ca17a05bdf2fe72d5edea46260a35e1f3ac65ec62ce8d00e5f",
+  "scripts/render.mjs": "b29df3cdfe88591e31d407ae372fc72d9a806a0307ac3f573447eb52f2fdd399",
+  "public/audio-v3/soundtrack.wav": "7d0b79b47b888a04806b4087f3b3517c1ad9989f4080f3bf10a362cb9e651571"
+}

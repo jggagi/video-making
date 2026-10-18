@@ -1,0 +1,15 @@
+{
+  "id": "voice-quote",
+  "file": "public/audio-voiced-v2/aligned/voice-quote.wav",
+  "sampleRate": 48000,
+  "channels": 1,
+  "bitsPerSample": 16,
+  "originalDurationSeconds": 7.295083333333333,
+  "actualDurationSeconds": 7.295083333333333,
+  "atempo": 1.0,
+  "gain": 1.1663130951583425,
+  "gainDb": 1.3363030367056474,
+  "nonsilentRmsBeforeGainDbfs": -23.269468146286666,
+  "samplePeakBeforeGain": 0.60699462890625,
+  "sha256": "f68c870d18ac9a0e05d2a0673473cbb826f57fe877a00f1a65ca97226dd19710"
+}

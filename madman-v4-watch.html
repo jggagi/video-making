@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101310">
+  <title>狂人日记 · 节奏与意象加强版</title>
+  <style>
+    :root{color-scheme:dark;--paper:#e8dfcc;--muted:#aaa796;--dim:#77796f;--line:#393c34;--red:#b64d40;--ink:#101310;--panel:#181b17}
+    *{box-sizing:border-box}
+    body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 48% -18%,#272a22 0,var(--ink) 57%);color:var(--paper);font-family:"PingFang SC",system-ui,sans-serif}
+    main{width:min(1180px,100% - 40px);margin:0 auto;padding:42px 0 48px}
+    header{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-bottom:21px}
+    .eyebrow{font-size:10px;letter-spacing:3.5px;color:var(--muted);margin-bottom:11px}
+    h1{font:600 clamp(27px,4.8vw,39px)/1.2 "Songti SC","STSong",serif;letter-spacing:5px;margin:0}
+    h1 span{font-size:15px;letter-spacing:2px;color:var(--muted);font-weight:400;margin-left:13px}
+    .spec{font-size:11px;letter-spacing:1.7px;line-height:1.9;color:var(--muted);text-align:right;white-space:nowrap}
+    .stage{background:#070908;border:1px solid #373a32;box-shadow:0 20px 62px #0007}
+    video{display:block;width:100%;aspect-ratio:16/9;background:#070908;object-fit:contain}
+    .toolbar{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:14px 0 6px}
+    button{appearance:none;border:1px solid #57584a;background:#22251f;color:var(--paper);font:inherit;font-size:12px;letter-spacing:1.2px;padding:10px 14px;cursor:pointer;transition:background .15s,border-color .15s,color .15s}
+    button:hover{background:#303329;border-color:#90876f}button.primary{background:#87382f;border-color:#a54a3e}button.primary:hover{background:#a0463a}
+    #clock{font-variant-numeric:tabular-nums;color:#c1baa8;font-size:12px;letter-spacing:1.2px;margin-left:auto}
+    nav[aria-label="章节跳转"]{display:grid;grid-template-columns:repeat(8,minmax(0,1fr));margin:19px 0 28px;border-bottom:1px solid var(--line)}
+    nav button{border:0;border-bottom:2px solid transparent;background:transparent;color:var(--muted);text-align:left;padding:12px 9px 15px;min-width:0}
+    nav button:hover,nav button.active{color:var(--paper);border-bottom-color:var(--red);background:#ffffff06}
+    nav small{display:block;color:var(--dim);font-size:10px;letter-spacing:1px;margin-bottom:7px;font-variant-numeric:tabular-nums}
+    #status{min-height:20px;color:#c88776;font-size:12px}
+    footer{display:flex;align-items:center;justify-content:space-between;gap:22px;flex-wrap:wrap;border-top:1px solid var(--line);margin-top:25px;padding-top:18px;color:var(--dim);font-size:11px;line-height:1.9}
+    .links{display:flex;gap:19px;flex-wrap:wrap}a{color:#d9d0bd;text-decoration:none;border-bottom:1px solid #666557;padding-bottom:2px}a:hover{color:#fff}
+    @media(max-width:760px){main{width:min(100% - 24px,1180px);padding-top:26px}header{display:block}.spec{text-align:left;margin-top:12px}nav{grid-template-columns:repeat(4,minmax(0,1fr));margin-top:14px}nav button{padding:10px 7px 12px}.toolbar{gap:8px}#clock{width:100%;margin-left:0}footer{display:block}.links{margin-top:12px}}
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div>
+        <div class="eyebrow">鲁迅 · 1918 / LITERARY SHORT</div>
+        <h1>狂人日记<span>节奏与意象加强版</span></h1>
+      </div>
+      <div class="spec">79 秒 · 原文节选 · 百炼合成男声<br>1920 × 1080 · v4</div>
+    </header>
+
+    <section aria-label="狂人日记节奏与意象加强版 v4">
+      <div class="stage">
+        <video id="film" controls preload="metadata" playsinline poster="out/madman/final-v4-title.png" aria-label="狂人日记节奏与意象加强版，79秒原文节选，百炼合成男声">
+          <source src="out/madman/狂人日记-节奏意象加强版-v4-1080p.mp4" type="video/mp4">
+          <track kind="subtitles" src="out/madman/狂人日记-节奏意象加强版-v4.vtt" srclang="zh" label="中文原文">
+        </video>
+      </div>
+      <div class="toolbar">
+        <button id="replay" class="primary" type="button">从头播放</button>
+        <span id="clock" aria-live="off">00:00 / 01:19</span>
+      </div>
+      <nav aria-label="章节跳转">
+        <button data-time="0"><small>00:00</small>题名</button>
+        <button data-time="5"><small>00:05</small>月光</button>
+        <button data-time="13"><small>00:13</small>目光</button>
+        <button data-time="24"><small>00:24</small>字缝</button>
+        <button data-time="44"><small>00:44</small>质问</button>
+        <button data-time="52"><small>00:52</small>自省</button>
+        <button data-time="63"><small>01:03</small>孩子</button>
+        <button data-time="72"><small>01:12</small>呼喊</button>
+      </nav>
+      <div id="status" role="status" aria-live="polite"></div>
+    </section>
+
+    <footer>
+      <span>鲁迅原文节选 · AI 木刻意象 · 百炼合成男声</span>
+      <nav class="links" aria-label="相关影片">
+        <a href="madman-voice-watch.html">男声配音版 v2</a>
+        <a href="madman-history-watch.html">字缝加强样片 v3 对照</a>
+        <a href="madman-watch-v1.html">木刻意象版 v1</a>
+        <a href="out/madman/狂人日记-节奏意象加强版-v4-1080p.mp4" download>下载 v4 成片</a>
+      </nav>
+    </footer>
+  </main>
+  <script>
+    const film = document.getElementById('film');
+    const chapters = [...document.querySelectorAll('nav[aria-label="章节跳转"] button')];
+    const clock = document.getElementById('clock');
+    const status = document.getElementById('status');
+    const durationSeconds = 79;
+    const formatTime = (value) => {
+      const seconds = Math.max(0, Math.min(durationSeconds, Math.floor(value)));
+      return `${String(Math.floor(seconds / 60)).padStart(2, '0')}:${String(seconds % 60).padStart(2, '0')}`;
+    };
+    const updateProgress = () => {
+      clock.textContent = `${formatTime(film.currentTime)} / ${formatTime(durationSeconds)}`;
+      let activeIndex = 0;
+      chapters.forEach((button, index) => {
+        if (film.currentTime >= Number(button.dataset.time)) activeIndex = index;
+      });
+      chapters.forEach((button, index) => {
+        const active = index === activeIndex;
+        button.classList.toggle('active', active);
+        button.setAttribute('aria-current', active ? 'true' : 'false');
+      });
+    };
+
+    document.getElementById('replay').addEventListener('click', () => {
+      film.currentTime = 0;
+      status.textContent = '';
+      film.play().catch(() => {
+        status.textContent = '影片无法播放，请确认 v4 成片已导出。';
+      });
+    });
+    chapters.forEach((button) => button.addEventListener('click', () => {
+      film.currentTime = Number(button.dataset.time);
+      status.textContent = '';
+      film.play().catch(() => {
+        status.textContent = '影片无法播放，请确认 v4 成片已导出。';
+      });
+    }));
+    film.addEventListener('timeupdate', updateProgress);
+    film.addEventListener('seeked', updateProgress);
+    film.addEventListener('loadedmetadata', updateProgress);
+    film.addEventListener('ended', updateProgress);
+    film.addEventListener('error', () => {
+      status.textContent = '影片尚未载入，请确认 v4 成片已导出，或下载后播放。';
+    });
+  </script>
+</body>
+</html>

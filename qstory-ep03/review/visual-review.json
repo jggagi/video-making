@@ -1,0 +1,74 @@
+{
+  "status": "root_static_visual_review_completed",
+  "logicalCanvas": [
+    1920,
+    1080
+  ],
+  "nativeOutput": [
+    3840,
+    2160
+  ],
+  "hdFramesViewed": [
+    90,
+    470,
+    1150,
+    1640,
+    2160,
+    2660,
+    3400,
+    3940,
+    4200,
+    4860,
+    5350,
+    5399
+  ],
+  "finalBailian4KFramesViewed": [
+    3660,
+    4020,
+    5399
+  ],
+  "observations": [
+    "字幕、标题、证据对象在安全区域内，无文字裁切。",
+    "反例断裂、传播、琥珀复核、相关结论撤回、保留档案均有可辨识的画面状态。",
+    "无关节点保留蓝色工作状态，新路径绕开灰色失败区域。",
+    "最终帧保留片名、品牌与待真实实验验证边界。"
+  ],
+  "studioPlayback": {
+    "status": "played_and_paused",
+    "fromFrame": 3540,
+    "observedAdvancingFrame": 4081,
+    "pausedFrame": 4299,
+    "audioVersion": "local prototype; final Bailian export verified separately"
+  },
+  "humanListening": "not performed",
+  "audienceComprehension": "not performed",
+  "finalEncodedFramesViewed": [
+    "encoded-climax.png",
+    "encoded-last.png"
+  ],
+  "finalFileSpecification": {
+    "width": 3840,
+    "height": 2160,
+    "fps": 30,
+    "frames": 5400,
+    "videoSeconds": 180.0,
+    "aacAndContainerSeconds": 180.011
+  },
+  "finalPlayer": {
+    "url": "http://127.0.0.1:3104/watch.html",
+    "fromStartObservedSeconds": 0.02,
+    "advanceObservedSeconds": 32.13,
+    "counterexampleSeekSeconds": 110.0,
+    "playbackAdvanceAfterSeekSeconds": 121.12,
+    "silenceChapterSeekSeconds": 129.0,
+    "finalChapterAndEnd": {
+      "status": "ended_naturally",
+      "currentTimeSeconds": 180.011,
+      "paused": true,
+      "ended": true,
+      "error": null,
+      "videoWidth": 3840,
+      "videoHeight": 2160
+    }
+  }
+}

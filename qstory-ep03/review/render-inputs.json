@@ -1,0 +1,24 @@
+{
+  "status": "render_inputs_frozen",
+  "compositionId": "QStory-EP03-4K",
+  "fps": 30,
+  "frames": 5400,
+  "width": 3840,
+  "height": 2160,
+  "seed": "qstory-ep03-v1",
+  "audioProvider": "Aliyun Bailian",
+  "model": "cosyvoice-v3-flash",
+  "voice": "longtian_v3",
+  "rendererVersion": "4.0.534",
+  "inputHashes": {
+    "public/audio-bailian/soundtrack.wav": "da6c6169cfe748b2740761e13d27b1c58ba56b3bbed02b4d0dfa3c913ab370e4",
+    "src/audio-timing.json": "db7927696f0ff469915d8b7d233471e4cf258fe1b2750c3e11201f5e1fae6799",
+    "src/Counterexample.tsx": "747720a6eaa2154bc2d487743d27873fa0d75f33579455c56463a829858e4ace",
+    "src/Film.tsx": "557652d85ae5a042b2917ddbd9ec6bbe73331e6962524d8bae6ff512d896458d",
+    "src/HumanScenes.tsx": "080a9a66b716399127d0ccb0965d3d35595225c7bd2fad5c0740cfb3b26042d4",
+    "src/Root.tsx": "0f876904223e12c20c394b39956f40a27cf197de3539f00997410b3f6cda3c82",
+    "src/SIScenes.tsx": "c1e9a10a5a362d083951285de96abdcadd2d0b00b96e9e51c660612f7bc091b3",
+    "src/Visuals.tsx": "57a0358779b719918dc0d61282e22c0b331c10f889ad6a023f65c46ae199192b"
+  },
+  "bundledSoundtrackSha256": "da6c6169cfe748b2740761e13d27b1c58ba56b3bbed02b4d0dfa3c913ab370e4"
+}

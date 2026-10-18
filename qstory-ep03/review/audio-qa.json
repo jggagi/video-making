@@ -1,0 +1,413 @@
+{
+  "status": "automated_pcm_checks_passed",
+  "sourceTimelineSha256": "57bfd1a7426d5271d6aa9bc2e41cee09eea45bed287f7e43ddedf6ec11c4ec6c",
+  "provider": "macOS say",
+  "voice": "Tingting (Chinese (China mainland))",
+  "baseRateWpm": 180,
+  "acceleratedShortCueRateWpm": 185,
+  "musicDesign": "Original evolving minor/add9 polyphonic score with shifting chord beds, arpeggiated pluck pulses, a restrained dissonance cue, recovery after silence, and an unresolved ending.",
+  "sample": {
+    "captionId": "caption-001",
+    "sha256": "f1e067b62d4e83ef06fd5cc39682f531ceee046f0107e84afe26b1a0b03ee2d6",
+    "decodedSamples": 91086
+  },
+  "cueCount": 25,
+  "cueIds": [
+    "caption-001",
+    "caption-002",
+    "caption-003",
+    "caption-004",
+    "caption-005",
+    "caption-006",
+    "caption-007",
+    "caption-008",
+    "caption-009",
+    "caption-010",
+    "caption-011",
+    "caption-012",
+    "caption-013",
+    "caption-014",
+    "caption-015",
+    "caption-016",
+    "caption-017",
+    "caption-018",
+    "caption-019",
+    "caption-020",
+    "caption-021",
+    "caption-022",
+    "caption-023",
+    "caption-024",
+    "caption-025"
+  ],
+  "cueTiming": [
+    {
+      "id": "caption-001",
+      "fromFrame": 30,
+      "toFrameExclusive": 92,
+      "plannedFromFrame": 30,
+      "plannedToFrameExclusive": 135,
+      "audioSeconds": 1.897625,
+      "rate": 180,
+      "decodedSamples": 91086
+    },
+    {
+      "id": "caption-002",
+      "fromFrame": 195,
+      "toFrameExclusive": 314,
+      "plannedFromFrame": 195,
+      "plannedToFrameExclusive": 330,
+      "audioSeconds": 3.811771,
+      "rate": 180,
+      "decodedSamples": 182965
+    },
+    {
+      "id": "caption-003",
+      "fromFrame": 381,
+      "toFrameExclusive": 506,
+      "plannedFromFrame": 381,
+      "plannedToFrameExclusive": 570,
+      "audioSeconds": 3.997896,
+      "rate": 180,
+      "decodedSamples": 191899
+    },
+    {
+      "id": "caption-004",
+      "fromFrame": 624,
+      "toFrameExclusive": 734,
+      "plannedFromFrame": 624,
+      "plannedToFrameExclusive": 795,
+      "audioSeconds": 3.498438,
+      "rate": 180,
+      "decodedSamples": 167925
+    },
+    {
+      "id": "caption-005",
+      "fromFrame": 855,
+      "toFrameExclusive": 977,
+      "plannedFromFrame": 855,
+      "plannedToFrameExclusive": 1020,
+      "audioSeconds": 3.898854,
+      "rate": 180,
+      "decodedSamples": 187145
+    },
+    {
+      "id": "caption-006",
+      "fromFrame": 1065,
+      "toFrameExclusive": 1172,
+      "plannedFromFrame": 1065,
+      "plannedToFrameExclusive": 1230,
+      "audioSeconds": 3.394042,
+      "rate": 180,
+      "decodedSamples": 162914
+    },
+    {
+      "id": "caption-007",
+      "fromFrame": 1275,
+      "toFrameExclusive": 1399,
+      "plannedFromFrame": 1275,
+      "plannedToFrameExclusive": 1470,
+      "audioSeconds": 3.96325,
+      "rate": 180,
+      "decodedSamples": 190236
+    },
+    {
+      "id": "caption-008",
+      "fromFrame": 1515,
+      "toFrameExclusive": 1683,
+      "plannedFromFrame": 1515,
+      "plannedToFrameExclusive": 1755,
+      "audioSeconds": 5.439896,
+      "rate": 180,
+      "decodedSamples": 261115
+    },
+    {
+      "id": "caption-009",
+      "fromFrame": 1821,
+      "toFrameExclusive": 1930,
+      "plannedFromFrame": 1821,
+      "plannedToFrameExclusive": 2010,
+      "audioSeconds": 3.462625,
+      "rate": 180,
+      "decodedSamples": 166206
+    },
+    {
+      "id": "caption-010",
+      "fromFrame": 2055,
+      "toFrameExclusive": 2152,
+      "plannedFromFrame": 2055,
+      "plannedToFrameExclusive": 2244,
+      "audioSeconds": 3.06875,
+      "rate": 180,
+      "decodedSamples": 147300
+    },
+    {
+      "id": "caption-011",
+      "fromFrame": 2298,
+      "toFrameExclusive": 2428,
+      "plannedFromFrame": 2298,
+      "plannedToFrameExclusive": 2505,
+      "audioSeconds": 4.171687,
+      "rate": 180,
+      "decodedSamples": 200241
+    },
+    {
+      "id": "caption-012",
+      "fromFrame": 2574,
+      "toFrameExclusive": 2647,
+      "plannedFromFrame": 2574,
+      "plannedToFrameExclusive": 2730,
+      "audioSeconds": 2.278396,
+      "rate": 180,
+      "decodedSamples": 109363
+    },
+    {
+      "id": "caption-013",
+      "fromFrame": 2805,
+      "toFrameExclusive": 2953,
+      "plannedFromFrame": 2805,
+      "plannedToFrameExclusive": 3009,
+      "audioSeconds": 4.779,
+      "rate": 180,
+      "decodedSamples": 229392
+    },
+    {
+      "id": "caption-014",
+      "fromFrame": 3045,
+      "toFrameExclusive": 3163,
+      "plannedFromFrame": 3045,
+      "plannedToFrameExclusive": 3240,
+      "audioSeconds": 3.7775,
+      "rate": 180,
+      "decodedSamples": 181320
+    },
+    {
+      "id": "caption-015",
+      "fromFrame": 3315,
+      "toFrameExclusive": 3397,
+      "plannedFromFrame": 3315,
+      "plannedToFrameExclusive": 3465,
+      "audioSeconds": 2.575646,
+      "rate": 180,
+      "decodedSamples": 123631
+    },
+    {
+      "id": "caption-016",
+      "fromFrame": 3576,
+      "toFrameExclusive": 3647,
+      "plannedFromFrame": 3576,
+      "plannedToFrameExclusive": 3726,
+      "audioSeconds": 2.20875,
+      "rate": 180,
+      "decodedSamples": 106020
+    },
+    {
+      "id": "caption-017",
+      "fromFrame": 3906,
+      "toFrameExclusive": 3988,
+      "plannedFromFrame": 3906,
+      "plannedToFrameExclusive": 3992,
+      "audioSeconds": 2.568479,
+      "rate": 180,
+      "decodedSamples": 123287
+    },
+    {
+      "id": "caption-018",
+      "fromFrame": 3992,
+      "toFrameExclusive": 4075,
+      "plannedFromFrame": 3992,
+      "plannedToFrameExclusive": 4071,
+      "audioSeconds": 2.599271,
+      "rate": 180,
+      "decodedSamples": 124765
+    },
+    {
+      "id": "caption-019",
+      "fromFrame": 4098,
+      "toFrameExclusive": 4152,
+      "plannedFromFrame": 4098,
+      "plannedToFrameExclusive": 4178,
+      "audioSeconds": 1.626604,
+      "rate": 180,
+      "decodedSamples": 78077
+    },
+    {
+      "id": "caption-020",
+      "fromFrame": 4178,
+      "toFrameExclusive": 4248,
+      "plannedFromFrame": 4178,
+      "plannedToFrameExclusive": 4305,
+      "audioSeconds": 2.173917,
+      "rate": 180,
+      "decodedSamples": 104348
+    },
+    {
+      "id": "caption-021",
+      "fromFrame": 4365,
+      "toFrameExclusive": 4457,
+      "plannedFromFrame": 4365,
+      "plannedToFrameExclusive": 4545,
+      "audioSeconds": 2.902438,
+      "rate": 180,
+      "decodedSamples": 139317
+    },
+    {
+      "id": "caption-022",
+      "fromFrame": 4596,
+      "toFrameExclusive": 4716,
+      "plannedFromFrame": 4596,
+      "plannedToFrameExclusive": 4770,
+      "audioSeconds": 3.848063,
+      "rate": 180,
+      "decodedSamples": 184707
+    },
+    {
+      "id": "caption-023",
+      "fromFrame": 4962,
+      "toFrameExclusive": 5078,
+      "plannedFromFrame": 4962,
+      "plannedToFrameExclusive": 5100,
+      "audioSeconds": 3.710875,
+      "rate": 180,
+      "decodedSamples": 178122
+    },
+    {
+      "id": "caption-024",
+      "fromFrame": 5136,
+      "toFrameExclusive": 5217,
+      "plannedFromFrame": 5136,
+      "plannedToFrameExclusive": 5244,
+      "audioSeconds": 2.536958,
+      "rate": 180,
+      "decodedSamples": 121774
+    },
+    {
+      "id": "caption-025",
+      "fromFrame": 5280,
+      "toFrameExclusive": 5392,
+      "plannedFromFrame": 5280,
+      "plannedToFrameExclusive": 5394,
+      "audioSeconds": 3.578729,
+      "rate": 180,
+      "decodedSamples": 171779
+    }
+  ],
+  "decodedFiles": {
+    "voice_zh.wav": {
+      "frames": 8640000,
+      "sampleRate": 48000,
+      "channels": 1,
+      "sampleWidthBytes": 2,
+      "sha256": "b245420b930e60f78295e2c0efbe6a7cb08cc5274d85a70d0908f665d137a9f5",
+      "ffprobe": {
+        "sample_fmt": "s16",
+        "sample_rate": "48000",
+        "channels": 1,
+        "time_base": "1/48000",
+        "duration_ts": 8640000,
+        "duration": "180.000000"
+      },
+      "ffmpegDecode": "passed"
+    },
+    "music.wav": {
+      "frames": 8640000,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleWidthBytes": 2,
+      "sha256": "df370137c7e6c461485f2c55e25cb4dde0ea469ac4c34ba2d7438c5e3ad9af5b",
+      "ffprobe": {
+        "sample_fmt": "s16",
+        "sample_rate": "48000",
+        "channels": 2,
+        "time_base": "1/48000",
+        "duration_ts": 8640000,
+        "duration": "180.000000"
+      },
+      "ffmpegDecode": "passed"
+    },
+    "sfx.wav": {
+      "frames": 8640000,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleWidthBytes": 2,
+      "sha256": "1f23420dba473ce8c6f61f55c2ca4f7f6cf31d6cd4cc8a56b82963e37c41f227",
+      "ffprobe": {
+        "sample_fmt": "s16",
+        "sample_rate": "48000",
+        "channels": 2,
+        "time_base": "1/48000",
+        "duration_ts": 8640000,
+        "duration": "180.000000"
+      },
+      "ffmpegDecode": "passed"
+    },
+    "soundtrack.wav": {
+      "frames": 8640000,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleWidthBytes": 3,
+      "sha256": "248792cc608f679ff8f43b74e5e6d1f59794f07fb8869b4fc11a027a4371d20f",
+      "ffprobe": {
+        "sample_fmt": "s32",
+        "sample_rate": "48000",
+        "channels": 2,
+        "time_base": "1/48000",
+        "duration_ts": 8640000,
+        "duration": "180.000000"
+      },
+      "ffmpegDecode": "passed"
+    }
+  },
+  "silenceWindow": {
+    "fromSeconds": 129.0,
+    "toSecondsExclusive": 130.0,
+    "voiceMaxAbsPcm": 0,
+    "musicMaxAbsPcm": 0,
+    "sfxMaxAbsPcm": 0,
+    "soundtrackMaxAbsPcm": 0
+  },
+  "ebur128Final": {
+    "integratedLUFS": "-16.0 LUFS",
+    "samplePeak": "-1.1 dBFS",
+    "truePeak": "-1.10 dBTP"
+  },
+  "humanListening": "not performed",
+  "visualOrPlaybackAcceptance": "not performed",
+  "ffmpegMixAnalysis": {
+    "firstPass": {
+      "input_i": "-16.76",
+      "input_tp": "-1.86",
+      "input_lra": "5.50",
+      "input_thresh": "-27.00",
+      "output_i": "-16.08",
+      "output_tp": "-1.00",
+      "output_lra": "5.30",
+      "output_thresh": "-26.31",
+      "normalization_type": "dynamic",
+      "target_offset": "0.08"
+    },
+    "secondPass": {
+      "input_i": "-16.76",
+      "input_tp": "-1.88",
+      "input_lra": "5.40",
+      "input_thresh": "-26.99",
+      "output_i": "-15.99",
+      "output_tp": "-1.12",
+      "output_lra": "5.50",
+      "output_thresh": "-26.23",
+      "normalization_type": "linear",
+      "target_offset": "-0.01"
+    },
+    "finalMeasuredInput": {
+      "input_i": "-16.00",
+      "input_tp": "-1.10",
+      "input_lra": "5.40",
+      "input_thresh": "-26.24",
+      "output_i": "-16.08",
+      "output_tp": "-1.00",
+      "output_lra": "5.30",
+      "output_thresh": "-26.31",
+      "normalization_type": "dynamic",
+      "target_offset": "0.08"
+    }
+  }
+}

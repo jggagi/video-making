@@ -1,0 +1,37 @@
+{
+  "typecheck": "pass",
+  "captionCoverage": "all 324 original characters in order",
+  "shots": 19,
+  "captionCues": 26,
+  "representativeStillReview": "pass",
+  "media": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "24/1",
+        "nb_frames": "3653",
+        "side_data_list": [
+          {}
+        ]
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "r_frame_rate": "0/0",
+        "nb_frames": "7137"
+      }
+    ],
+    "format": {
+      "duration": "152.213000",
+      "size": "202565502"
+    }
+  },
+  "fastStart": true,
+  "fullMediaDecode": "pass (ffmpeg exit 0)",
+  "audioPeakDb": -3.2
+}

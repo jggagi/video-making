@@ -1,0 +1,102 @@
+{
+  "status": "PASS",
+  "reviewScope": "Model visual inspection of native portrait stills and separate 3:4 cover, plus strict decoding of the six-second opening preview. Viewer may downsize images.",
+  "reviewedSourceFrames": [
+    36,
+    900,
+    1500,
+    1800,
+    2400,
+    3200,
+    3500
+  ],
+  "reviewedEncodedOpeningFrame": 36,
+  "sourceStills": [
+    {
+      "path": "out/xhs-v1-frame-0000.png",
+      "sha256": "7836761038cccba8933b8c4c5344792e5c84f81de07b0f26a84f5455b7020eb8"
+    },
+    {
+      "path": "out/xhs-v1-frame-0035.png",
+      "sha256": "462c5d3ecd697ebb98a2e4869979da6872dd699d1f110472c45cc01485f5cba0"
+    },
+    {
+      "path": "out/xhs-v1-frame-0036.png",
+      "sha256": "1b92e5c8561bdfe5f32db800fbaf59cfad4e7fae79492f396381e5db19ba8a5d"
+    },
+    {
+      "path": "out/xhs-v1-frame-0420.png",
+      "sha256": "b9ba858e56e23475a7a5ad720afc003befb8c06c8418f7bb958e3b34018cdfcd"
+    },
+    {
+      "path": "out/xhs-v1-frame-0900.png",
+      "sha256": "04b1d4c65831f0aff47c2fa90b5d2c7f3ba0b3c63691b55eae4cea63a8997400"
+    },
+    {
+      "path": "out/xhs-v1-frame-1500.png",
+      "sha256": "5712284ee9f5b0cbe537b6d223abc2c5e22b1a9a4c0cfcf9f7e6fcd28ac9452c"
+    },
+    {
+      "path": "out/xhs-v1-frame-1800.png",
+      "sha256": "3e8495a4ff326f863b2576ddd365d82be1b22cf4be1bd38ed159fbd3c8636d45"
+    },
+    {
+      "path": "out/xhs-v1-frame-2130.png",
+      "sha256": "c41fee85b9a16aeeffac33be9edffea82624db6e4b92c7924c07a1477cb24c84"
+    },
+    {
+      "path": "out/xhs-v1-frame-2400.png",
+      "sha256": "75de1e4bd74564c63ce982a0d2952d3f722c5a5c59aff5f559174afea1665f0f"
+    },
+    {
+      "path": "out/xhs-v1-frame-2850.png",
+      "sha256": "fb7441e7cdb96c30dde12a82d8fea3ff79db54c6f1ddd2d61ce8215cecc48573"
+    },
+    {
+      "path": "out/xhs-v1-frame-3020.png",
+      "sha256": "2ae6e7f4dcc303d439379c7c70241b0f9a7822e73fbf622b06dafd179819a343"
+    },
+    {
+      "path": "out/xhs-v1-frame-3200.png",
+      "sha256": "e945263e1cfeafac47781fd197eefa79681773e8d36984da5ade1c59b5de3af7"
+    },
+    {
+      "path": "out/xhs-v1-frame-3500.png",
+      "sha256": "a9a9fe314ee942fd6c785e92eab2add846fcd41928164b54baef734b12866531"
+    },
+    {
+      "path": "out/xhs-v1-frame-3599.png",
+      "sha256": "46f7a7af87a59115263519b19ea409a1ee7a25afe3ba2cb18202f51563cbe7ac"
+    }
+  ],
+  "findings": [
+    "Chinese headline and two-line captions fit the portrait canvas in reviewed samples.",
+    "Conceptual-visualization label and synthesized-narration disclosure are visible.",
+    "Cyan and gold graphics retain readable cores; graph labels and matrix/header backplates were refined after first source review.",
+    "The red tenth node and three forgotten nodes are visible at the exact audio snap frame 36."
+  ],
+  "humanContinuousPlayback": "pending",
+  "humanListening": "pending",
+  "actualXiaohongshuUpload": "not_performed",
+  "finalEncodedFrameContactSheet": "out/xhs-v1-final-contact-sheet.png",
+  "finalEncodedFramesReviewed": [
+    0,
+    35,
+    36,
+    60,
+    420,
+    900,
+    1500,
+    1800,
+    2130,
+    2400,
+    2850,
+    3200,
+    3500,
+    3599
+  ],
+  "publishDerivativeFrameReviewed": "out/xhs-v1-publish-frame15s.png",
+  "actualEncodedReview": "Model inspected all 14 master samples in the contact sheet and the enlarged 1080x1920 publish frame at15s; headline, caption and plot glyphs remain visible without obvious clipping in these samples.",
+  "masterSha256": "113910360392d5a3c858ec07bb2c03d0b35b79ef61bdb75e162c54ba082c16bc",
+  "publishSha256": "7f73b80017c81f25bbbf4bd873906d6e3c183e238ce8acce3c6ebf43b67b7d33"
+}

@@ -1,0 +1,12 @@
+{
+  "provider": "Bailian",
+  "requestedModel": "active Profile ASR default",
+  "reportedModel": null,
+  "expectedText": "在这滴水落入培养皿之前，硅基意识已经度过了一万年。\n人类眨眼一瞬，硅基已历万年。",
+  "transcripts": [
+    {
+      "path": "",
+      "text": "在这滴水落入培养皿之前，硅基意识已经度过了1万年。\n人类眨眼一瞬，硅基已历万年。"
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "id": "madman",
+  "title": "狂人日记",
+  "release_tag": "archive-madman-v1",
+  "historical": true,
+  "project_path": ".",
+  "delivery_directory": "deliveries/legacy-madman",
+  "assets": [
+    {
+      "path": "out/madman/cinema-v5-diagnosis-sample.mp4",
+      "name": "madman--out--madman--cinema-v5-diagnosis-sample--cf7dc5260291.mp4",
+      "bytes": 5679158,
+      "sha256": "cf7dc5260291c1dd5cca3e63d893119ab0fdba47751abefc82e4a0ddec08bf77",
+      "kind": "video",
+      "platform": "预览",
+      "measurements": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "24/1",
+        "frames": "768",
+        "video_duration_seconds": 32.0,
+        "container_duration_seconds": 32.0
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/archive-madman-v1/madman--out--madman--cinema-v5-diagnosis-sample--cf7dc5260291.mp4"
+    },
+    {
+      "path": "out/madman/draft-default-range.mp4",
+      "name": "madman--out--madman--draft-default-range--24267af841b1.mp4",
+      "bytes": 90530662,
+      "sha256": "24267af841b13a4b59cc4b7d04594548a699ae1e12923a2cd7f247d0bcbbdb5e",
+      "kind": "video",
+      "platform": "预览",
+      "measurements": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "24/1",
+        "frames": "2160",
+        "video_duration_seconds": 90.0,
+        "container_duration_seconds": 90.005
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/archive-madman-v1/madman--out--madman--draft-default-range--24267af841b1.mp4"
+    },
+    {
+      "path": "out/madman/full-v4-transition-sample.mp4",
+      "name": "madman--out--madman--full-v4-transition-sample--a236365ed827.mp4",
+      "bytes": 1777607,
+      "sha256": "a236365ed8275775185b79f8345afef168f49eaf9ecdd7e8e557dfb518d53687",
+      "kind": "video",
+      "platform": "预览",
+      "measurements": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "24/1",
+        "frames": "96",
+        "video_duration_seconds": 4.0,
+        "container_duration_seconds": 4.011
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/archive-madman-v1/madman--out--madman--full-v4-transition-sample--a236365ed827.mp4"
+    },
+    {
+      "path": "out/madman/sample.mp4",
+      "name": "madman--out--madman--sample--84d6dc51669c.mp4",
+      "bytes": 2126607,
+      "sha256": "84d6dc51669c77c514ab9c3a89cd08c29f4f3f69f6a500f2660bdefc71e888ee",
+      "kind": "video",
+      "platform": "预览",
+      "measurements": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "24/1",
+        "frames": "144",
+        "video_duration_seconds": 6.0,
+        "container_duration_seconds": 6.016
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/archive-madman-v1/madman--out--madman--sample--84d6dc51669c.mp4"
+    },
+    {
+      "path": "out/madman/voice-v2-sample.mp4",
+      "name": "madman--out--madman--voice-v2-sample--89c78060c6d8.mp4",
+      "bytes": 10342908,
+      "sha256": "89c78060c6d86fc0fa41e91db2ec81edf1759c8e14849b53b83016c597dc4ff0",
+      "kind": "video",
+      "platform": "预览",
+      "measurements": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "24/1",
+        "frames": "264",
+        "video_duration_seconds": 11.0,
+        "container_duration_seconds": 11.008
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/archive-madman-v1/madman--out--madman--voice-v2-sample--89c78060c6d8.mp4"
+    },
+    {
+      "path": "out/madman/狂人日记-字缝加强样片-v3-1080p.mp4",
+      "name": "madman--out--madman------v3-1080p--c84c2e803089.mp4",
+      "bytes": 7909153,
+      "sha256": "c84c2e803089c3a91c05cbbd586e62be8ff4ee41cd70844d736784c5073236a1",
+      "kind": "video",
+      "platform": "预览",
+      "measurements": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "24/1",
+        "frames": "480",
+        "video_duration_seconds": 20.0,
+        "container_duration_seconds": 20.011
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/archive-madman-v1/madman--out--madman------v3-1080p--c84c2e803089.mp4"
+    },
+    {
+      "path": "out/madman/狂人日记-心理悬疑版-v5-1080p.mp4",
+      "name": "madman--out--madman------v5-1080p--671923eda74a.mp4",
+      "bytes": 34979820,
+      "sha256": "671923eda74aab3b09ab723cbb182ebee877eaa286ac49e406ce45dfb721bc7e",
+      "kind": "video",
+      "platform": "B站",
+      "measurements": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "24/1",
+        "frames": "4770",
+        "video_duration_seconds": 198.75,
+        "container_duration_seconds": 198.763
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/archive-madman-v1/madman--out--madman------v5-1080p--671923eda74a.mp4"
+    },
+    {
+      "path": "out/madman/狂人日记-木刻意象版-v1-1080p.mp4",
+      "name": "madman--out--madman------v1-1080p--56e7dfb8b8dd.mp4",
+      "bytes": 57455105,
+      "sha256": "56e7dfb8b8dd988eb9927ff8f8b082e993250f3ce252ef1781471a06dbad494d",
+      "kind": "video",
+      "platform": "B站",
+      "measurements": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "24/1",
+        "frames": "2160",
+        "video_duration_seconds": 90.0,
+        "container_duration_seconds": 90.005
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/archive-madman-v1/madman--out--madman------v1-1080p--56e7dfb8b8dd.mp4"
+    },
+    {
+      "path": "out/madman/狂人日记-男声配音版-v2-1080p.mp4",
+      "name": "madman--out--madman------v2-1080p--7d709339a515.mp4",
+      "bytes": 57635815,
+      "sha256": "7d709339a515cb45d01bfabfd82f7101045e40658b1be79565e851b40303681c",
+      "kind": "video",
+      "platform": "B站",
+      "measurements": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "24/1",
+        "frames": "2192",
+        "video_duration_seconds": 91.333333,
+        "container_duration_seconds": 91.349
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/archive-madman-v1/madman--out--madman------v2-1080p--7d709339a515.mp4"
+    },
+    {
+      "path": "out/madman/狂人日记-节奏意象加强版-v4-1080p.mp4",
+      "name": "madman--out--madman------v4-1080p--795871b25d54.mp4",
+      "bytes": 44037667,
+      "sha256": "795871b25d54bd7e266842904dfa10247de69603e8035bb0e72e5d9455ab3cfa",
+      "kind": "video",
+      "platform": "B站",
+      "measurements": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "24/1",
+        "frames": "1896",
+        "video_duration_seconds": 79.0,
+        "container_duration_seconds": 79.019
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/archive-madman-v1/madman--out--madman------v4-1080p--795871b25d54.mp4"
+    }
+  ]
+}

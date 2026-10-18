@@ -1,0 +1,6501 @@
+{
+  "edition": "EP02 procedural original score",
+  "compositionNote": "Original procedural music. The C-major section uses Bach-inspired four-voice imitation; no Bach composition is used.",
+  "sourceTimeline": "timeline.json",
+  "timing": {
+    "fps": 60,
+    "sampleRate": 48000,
+    "channels": 2,
+    "bitsPerSample": 16,
+    "durationFrames": 10800,
+    "durationSeconds": 180,
+    "samplesPerFrame": 800,
+    "totalSampleFrames": 8640000,
+    "overloadFrame": 1200,
+    "overloadStartSample": 960000,
+    "overloadNoiseDurationFrames": 12,
+    "overloadEndFrame": 1212,
+    "overloadEndSample": 969600,
+    "hardSilenceFrames": {
+      "start": 1212,
+      "endExclusive": 1800
+    },
+    "hardSilenceSamples": {
+      "start": 969600,
+      "endExclusive": 1440000
+    },
+    "titleBedFrame": 1800,
+    "matrixFrame": 3800,
+    "tunnelFrame": 5400,
+    "manifoldFrame": 6700,
+    "oracleFrame": 8400,
+    "hookFrame": 10550,
+    "timelineEndingFrame": 10000,
+    "endingFrame": 10800,
+    "finalFadeStartFrame": 10200
+  },
+  "gains": {
+    "overloadHarmonics": "0.025 / sqrt(layerIndex + 1), added from each timeline chunk frame with subtle per-layer pan; held until the hard gate at sample 960000.",
+    "overloadLayers": [
+      {
+        "index": 0,
+        "frame": 0,
+        "sample": 0,
+        "frequencyHz": 220,
+        "amplitude": 0.025,
+        "pan": 0
+      },
+      {
+        "index": 1,
+        "frame": 120,
+        "sample": 96000,
+        "frequencyHz": 440,
+        "amplitude": 0.017677669529663688,
+        "pan": 0.10748384228160571
+      },
+      {
+        "index": 2,
+        "frame": 240,
+        "sample": 192000,
+        "frequencyHz": 660,
+        "amplitude": 0.014433756729740645,
+        "pan": 0.09558785666833038
+      },
+      {
+        "index": 3,
+        "frame": 360,
+        "sample": 288000,
+        "frequencyHz": 880,
+        "amplitude": 0.0125,
+        "pan": -0.022475359625148378
+      },
+      {
+        "index": 4,
+        "frame": 480,
+        "sample": 384000,
+        "frequencyHz": 1100,
+        "amplitude": 0.011180339887498949,
+        "pan": -0.115575711668798
+      },
+      {
+        "index": 5,
+        "frame": 600,
+        "sample": 480000,
+        "frequencyHz": 1320,
+        "amplitude": 0.010206207261596576,
+        "pan": -0.08030878287315135
+      },
+      {
+        "index": 6,
+        "frame": 720,
+        "sample": 576000,
+        "frequencyHz": 1540,
+        "amplitude": 0.00944911182523068,
+        "pan": 0.04415526126868616
+      },
+      {
+        "index": 7,
+        "frame": 840,
+        "sample": 672000,
+        "frequencyHz": 1760,
+        "amplitude": 0.008838834764831844,
+        "pan": 0.11957707376887207
+      },
+      {
+        "index": 8,
+        "frame": 960,
+        "sample": 768000,
+        "frequencyHz": 1980,
+        "amplitude": 0.008333333333333333,
+        "pan": 0.06218738471051702
+      }
+    ],
+    "overloadNoise": {
+      "generator": "seeded xorshift32 white noise, seed 0x7a31c5e9",
+      "shaping": "0.32 first-difference bright emphasis followed by tanh saturation",
+      "gain": 0.34,
+      "edgeFadeMilliseconds": 0.5
+    },
+    "titleBed": 0.027,
+    "matrixArpeggio": 0.032,
+    "tunnelMotif": 0.039,
+    "counterpointVoices": [
+      {
+        "name": "bass-subject",
+        "rootHz": 130.8128,
+        "entryOffsetFrames": 0,
+        "amplitude": 0.052,
+        "pan": -0.22
+      },
+      {
+        "name": "tenor-dominant-answer",
+        "rootHz": 130.8128,
+        "entryOffsetFrames": 120,
+        "amplitude": 0.048,
+        "pan": 0.18
+      },
+      {
+        "name": "alto-subject-octave",
+        "rootHz": 261.6256,
+        "entryOffsetFrames": 240,
+        "amplitude": 0.044,
+        "pan": -0.08
+      },
+      {
+        "name": "soprano-dominant-answer",
+        "rootHz": 261.6256,
+        "entryOffsetFrames": 360,
+        "amplitude": 0.04,
+        "pan": 0.12
+      }
+    ],
+    "counterpointDevelopment": "A planned 48-note line per voice: the original 12-note subject, its diatonic dominant answer, an octave development, and a closing C-major variation; entries are staggered by 120 frames and each line is gated at frame 8400.",
+    "counterpointEcho": {
+      "delayFrames": 54,
+      "delaySeconds": 0.9,
+      "gain": 0.16
+    },
+    "finalHookPulse": {
+      "frame": 10550,
+      "durationFrames": 84,
+      "stereo": true
+    },
+    "atmosphereVoices": [
+      {
+        "frequency": 55,
+        "amplitude": 0.0065,
+        "pan": -0.12,
+        "phase": 0.2
+      },
+      {
+        "frequency": 82.4069,
+        "amplitude": 0.0042,
+        "pan": 0.1,
+        "phase": 1.3
+      },
+      {
+        "frequency": 110,
+        "amplitude": 0.0028,
+        "pan": 0.2,
+        "phase": 2.2
+      }
+    ],
+    "finalFadeSeconds": 10,
+    "pcmPolicy": "No mix normalization or blanket clipping; generation stops if any output reaches 0.8 sample peak."
+  },
+  "outputs": {
+    "overload": {
+      "path": "public/audio/overload.wav",
+      "format": "WAV PCM16 stereo",
+      "sampleRate": 48000,
+      "sampleFrames": 8640000,
+      "durationSeconds": 180,
+      "samplePeak": 0.357025146484375,
+      "samplePeakDbfs": -8.946,
+      "rms": 0.0110767,
+      "sha256": "a3ea17d6faac2906df1d1b45875e5ee55e3e230bedcf110eb83b029438436a0e"
+    },
+    "order": {
+      "path": "public/audio/order.wav",
+      "format": "WAV PCM16 stereo",
+      "sampleRate": 48000,
+      "sampleFrames": 8640000,
+      "durationSeconds": 180,
+      "samplePeak": 0.144500732421875,
+      "samplePeakDbfs": -16.803,
+      "rms": 0.0187368,
+      "sha256": "834f4e66c81cf1106116862741f47284c03013eac3a6e7752c89d19c91c88d07"
+    },
+    "atmosphere": {
+      "path": "public/audio/atmosphere.wav",
+      "format": "WAV PCM16 stereo",
+      "sampleRate": 48000,
+      "sampleFrames": 8640000,
+      "durationSeconds": 180,
+      "samplePeak": 0.008880615234375,
+      "samplePeakDbfs": -41.031,
+      "rms": 0.0028587,
+      "sha256": "252e453dc18995afedef37ffa9f904d56ac0c87a5b1670615abbb6c56609491d"
+    },
+    "soundtrack": {
+      "path": "public/audio/soundtrack.wav",
+      "format": "WAV PCM16 stereo",
+      "sampleRate": 48000,
+      "sampleFrames": 8640000,
+      "durationSeconds": 180,
+      "samplePeak": 0.357025146484375,
+      "samplePeakDbfs": -8.946,
+      "rms": 0.0219537,
+      "sha256": "d6dc699f3be2546d2ba07d179106583dc4125bac0f914d138460e8f419770331"
+    }
+  },
+  "listeningClips": {
+    "buildup": {
+      "path": "out/nine-layer-build-sample.wav",
+      "format": "WAV PCM16 stereo",
+      "sampleRate": 48000,
+      "sampleFrames": 1080000,
+      "durationSeconds": 22.5,
+      "samplePeak": 0.357025146484375,
+      "samplePeakDbfs": -8.946,
+      "rms": 0.0313297,
+      "sha256": "2c44b13098589fe739e67016169df2edee7f3468a799c5232960ce3622b2c8fb"
+    },
+    "overload": {
+      "path": "out/overload-sample.wav",
+      "format": "WAV PCM16 stereo",
+      "sampleRate": 48000,
+      "sampleFrames": 216000,
+      "durationSeconds": 4.5,
+      "samplePeak": 0.357025146484375,
+      "samplePeakDbfs": -8.946,
+      "rms": 0.0597531,
+      "sha256": "6b4a068361d93b188eab06438922f4001fb8a685efff4e656e68751c5281f24d"
+    },
+    "manifold": {
+      "path": "out/manifold-sample.wav",
+      "format": "WAV PCM16 stereo",
+      "sampleRate": 48000,
+      "sampleFrames": 480000,
+      "durationSeconds": 10,
+      "samplePeak": 0.130401611328125,
+      "samplePeakDbfs": -17.694,
+      "rms": 0.0320155,
+      "sha256": "cf7718d2675a033e2716e3d2a88917694354679f7ceca2c9b901a5768c8b528d"
+    },
+    "polyphony": {
+      "path": "out/four-voice-order-sample.wav",
+      "format": "WAV PCM16 stereo",
+      "sampleRate": 48000,
+      "sampleFrames": 1360000,
+      "durationSeconds": 28.333333333333332,
+      "samplePeak": 0.14678955078125,
+      "samplePeakDbfs": -16.666,
+      "rms": 0.038307,
+      "sha256": "1ff46f0608898564e8c07a3f35963f2308c9a493d444be6fd4150e875bc34235"
+    }
+  },
+  "scoreNoteEvents": [
+    {
+      "id": "note-0001",
+      "track": "order",
+      "part": "soft-sparse-title-bed",
+      "frame": 1800,
+      "sample": 1440000,
+      "timeSeconds": 30,
+      "durationFrames": 180,
+      "durationSeconds": 3,
+      "frequencyHz": 130.8128,
+      "amplitude": 0.027,
+      "pan": 0,
+      "waveform": "sine",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0002",
+      "track": "order",
+      "part": "soft-sparse-title-bed",
+      "frame": 2040,
+      "sample": 1632000,
+      "timeSeconds": 34,
+      "durationFrames": 180,
+      "durationSeconds": 3,
+      "frequencyHz": 196,
+      "amplitude": 0.027,
+      "pan": 0.08608273090794273,
+      "waveform": "sine",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0003",
+      "track": "order",
+      "part": "soft-sparse-title-bed",
+      "frame": 2280,
+      "sample": 1824000,
+      "timeSeconds": 38,
+      "durationFrames": 180,
+      "durationSeconds": 3,
+      "frequencyHz": 164.8138,
+      "amplitude": 0.027,
+      "pan": 0.1199488323649806,
+      "waveform": "sine",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0004",
+      "track": "order",
+      "part": "soft-sparse-title-bed",
+      "frame": 2520,
+      "sample": 2016000,
+      "timeSeconds": 42,
+      "durationFrames": 180,
+      "durationSeconds": 3,
+      "frequencyHz": 261.6256,
+      "amplitude": 0.027,
+      "pan": 0.08105558166613808,
+      "waveform": "sine",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0005",
+      "track": "order",
+      "part": "soft-sparse-title-bed",
+      "frame": 2760,
+      "sample": 2208000,
+      "timeSeconds": 46,
+      "durationFrames": 180,
+      "durationSeconds": 3,
+      "frequencyHz": 196,
+      "amplitude": 0.027,
+      "pan": -0.00700489721130961,
+      "waveform": "sine",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0006",
+      "track": "order",
+      "part": "soft-sparse-title-bed",
+      "frame": 3000,
+      "sample": 2400000,
+      "timeSeconds": 50,
+      "durationFrames": 180,
+      "durationSeconds": 3,
+      "frequencyHz": 130.8128,
+      "amplitude": 0.027,
+      "pan": -0.09081629943695138,
+      "waveform": "sine",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0007",
+      "track": "order",
+      "part": "soft-sparse-title-bed",
+      "frame": 3240,
+      "sample": 2592000,
+      "timeSeconds": 54,
+      "durationFrames": 180,
+      "durationSeconds": 3,
+      "frequencyHz": 164.8138,
+      "amplitude": 0.027,
+      "pan": -0.11953975306030086,
+      "waveform": "sine",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0008",
+      "track": "order",
+      "part": "soft-sparse-title-bed",
+      "frame": 3480,
+      "sample": 2784000,
+      "timeSeconds": 58,
+      "durationFrames": 180,
+      "durationSeconds": 3,
+      "frequencyHz": 196,
+      "amplitude": 0.027,
+      "pan": -0.0757519965446785,
+      "waveform": "sine",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0009",
+      "track": "order",
+      "part": "soft-sparse-title-bed",
+      "frame": 3720,
+      "sample": 2976000,
+      "timeSeconds": 62,
+      "durationFrames": 80,
+      "durationSeconds": 1.3333333333333333,
+      "frequencyHz": 261.6256,
+      "amplitude": 0.027,
+      "pan": 0.013985904582059236,
+      "waveform": "sine",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0010",
+      "track": "order",
+      "part": "matrix-cyan-shimmer-arpeggio",
+      "frame": 3800,
+      "sample": 3040000,
+      "timeSeconds": 63.333333333333336,
+      "durationFrames": 24,
+      "durationSeconds": 0.4,
+      "frequencyHz": 261.6256,
+      "amplitude": 0.032,
+      "pan": 0,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.82,
+        0.14,
+        0.04
+      ]
+    },
+    {
+      "id": "note-0011",
+      "track": "order",
+      "part": "matrix-cyan-shimmer-arpeggio",
+      "frame": 3830,
+      "sample": 3064000,
+      "timeSeconds": 63.833333333333336,
+      "durationFrames": 24,
+      "durationSeconds": 0.4,
+      "frequencyHz": 392,
+      "amplitude": 0.032,
+      "pan": 0.1060460564296085,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.82,
+        0.14,
+        0.04
+      ]
+    },
+    {
+      "id": "note-0012",
+      "track": "order",
+      "part": "matrix-cyan-shimmer-arpeggio",
+      "frame": 3860,
+      "sample": 3088000,
+      "timeSeconds": 64.33333333333333,
+      "durationFrames": 24,
+      "durationSeconds": 0.4,
+      "frequencyHz": 523.2511,
+      "amplitude": 0.032,
+      "pan": 0.17137626148629284,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.82,
+        0.14,
+        0.04
+      ]
+    },
+    {
+      "id": "note-0013",
+      "track": "order",
+      "part": "matrix-cyan-shimmer-arpeggio",
+      "frame": 3890,
+      "sample": 3112000,
+      "timeSeconds": 64.83333333333333,
+      "durationFrames": 24,
+      "durationSeconds": 0.4,
+      "frequencyHz": 659.2551,
+      "amplitude": 0.032,
+      "pan": 0.17090741067563348,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.82,
+        0.14,
+        0.04
+      ]
+    },
+    {
+      "id": "note-0014",
+      "track": "order",
+      "part": "matrix-cyan-shimmer-arpeggio",
+      "frame": 3920,
+      "sample": 3136000,
+      "timeSeconds": 65.33333333333333,
+      "durationFrames": 24,
+      "durationSeconds": 0.4,
+      "frequencyHz": 523.2511,
+      "amplitude": 0.032,
+      "pan": 0.10481951691433473,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.82,
+        0.14,
+        0.04
+      ]
+    },
+    {
+      "id": "note-0015",
+      "track": "order",
+      "part": "matrix-cyan-shimmer-arpeggio",
+      "frame": 3950,
+      "sample": 3160000,
+      "timeSeconds": 65.83333333333333,
+      "durationFrames": 24,
+      "durationSeconds": 0.4,
+      "frequencyHz": 392,
+      "amplitude": 0.032,
+      "pan": -0.0015133045260867512,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.82,
+        0.14,
+        0.04
+      ]
+    },
+    {
+      "id": "note-0016",
+      "track": "order",
+      "part": "matrix-cyan-shimmer-arpeggio",
+      "frame": 3980,
+      "sample": 3184000,
+      "timeSeconds": 66.33333333333333,
+      "durationFrames": 24,
+      "durationSeconds": 0.4,
+      "frequencyHz": 329.6276,
+      "amplitude": 0.032,
+      "pan": -0.10726510028539755,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.82,
+        0.14,
+        0.04
+      ]
+    },
+    {
+      "id": "note-0017",
+      "track": "order",
+      "part": "matrix-cyan-shimmer-arpeggio",
+      "frame": 4010,
+      "sample": 3208000,
+      "timeSeconds": 66.83333333333333,
+      "durationFrames": 24,
+      "durationSeconds": 0.4,
+      "frequencyHz": 392,
+      "amplitude": 0.032,
+      "pan": -0.17183299889883893,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.82,
+        0.14,
+        0.04
+      ]
+    },
+    {
+      "id": "note-0018",
+      "track": "order",
+      "part": "matrix-cyan-shimmer-arpeggio",
+      "frame": 4040,
+      "sample": 3232000,
+      "timeSeconds": 67.33333333333333,
+      "durationFrames": 24,
+      "durationSeconds": 0.4,
+      "frequencyHz": 261.6256,
+      "amplitude": 0.032,
+      "pan": -0.1704264796066696,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.82,
+        0.14,
+        0.04
+      ]
+    },
+    {
+      "id": "note-0019",
+      "track": "order",
+      "part": "matrix-cyan-shimmer-arpeggio",
+      "frame": 4070,
+      "sample": 3256000,
+      "timeSeconds": 67.83333333333333,
+      "durationFrames": 24,
+      "durationSeconds": 0.4,
+      "frequencyHz": 392,
+      "amplitude": 0.032,
+      "pan": -0.10358556843513908,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.82,
+        0.14,
+        0.04
+      ]
+    },
+    {
+      "id": "note-0020",
+      "track": "order",
+      "part": "matrix-cyan-shimmer-arpeggio",
+      "frame": 4100,
+      "sample": 3280000,
+      "timeSeconds": 68.33333333333333,
+      "durationFrames": 24,
+      "durationSeconds": 0.4,
+      "frequencyHz": 523.2511,
+      "amplitude": 0.032,
+      "pan": 0.0030265020871829483,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.82,
+        0.14,
+        0.04
+      ]
+    },
+    {
+      "id": "note-0021",
+      "track": "order",
+      "part": "matrix-cyan-shimmer-arpeggio",
+      "frame": 4130,
+      "sample": 3304000,
+      "timeSeconds": 68.83333333333333,
+      "durationFrames": 24,
+      "durationSeconds": 0.4,
+      "frequencyHz": 659.2551,
+      "amplitude": 0.032,
+      "pan": 0.10847656231595501,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.82,
+        0.14,
+        0.04
+      ]
+    },
+    {
+      "id": "note-0022",
+      "track": "order",
+      "part": "matrix-cyan-shimmer-arpeggio",
+      "frame": 4160,
+      "sample": 3328000,
+      "timeSeconds": 69.33333333333333,
+      "durationFrames": 24,
+      "durationSeconds": 0.4,
+      "frequencyHz": 523.2511,
+      "amplitude": 0.032,
+      "pan": 0.1722775906296751,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.82,
+        0.14,
+        0.04
+      ]
+    },
+    {
+      "id": "note-0023",
+      "track": "order",
+      "part": "matrix-cyan-shimmer-arpeggio",
+      "frame": 4190,
+      "sample": 3352000,
+      "timeSeconds": 69.83333333333333,
+      "durationFrames": 24,
+      "durationSeconds": 0.4,
+      "frequencyHz": 392,
+      "amplitude": 0.032,
+      "pan": 0.16993350227307955,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.82,
+        0.14,
+        0.04
+      ]
+    },
+    {
+      "id": "note-0024",
+      "track": "order",
+      "part": "matrix-cyan-shimmer-arpeggio",
+      "frame": 4220,
+      "sample": 3376000,
+      "timeSeconds": 70.33333333333333,
+      "durationFrames": 24,
+      "durationSeconds": 0.4,
+      "frequencyHz": 329.6276,
+      "amplitude": 0.032,
+      "pan": 0.10234429821127253,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.82,
+        0.14,
+        0.04
+      ]
+    },
+    {
+      "id": "note-0025",
+      "track": "order",
+      "part": "matrix-cyan-shimmer-arpeggio",
+      "frame": 4250,
+      "sample": 3400000,
+      "timeSeconds": 70.83333333333333,
+      "durationFrames": 24,
+      "durationSeconds": 0.4,
+      "frequencyHz": 392,
+      "amplitude": 0.032,
+      "pan": -0.00453948572585857,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.82,
+        0.14,
+        0.04
+      ]
+    },
+    {
+      "id": "note-0026",
+      "track": "order",
+      "part": "matrix-cyan-shimmer-arpeggio",
+      "frame": 4280,
+      "sample": 3424000,
+      "timeSeconds": 71.33333333333333,
+      "durationFrames": 24,
+      "durationSeconds": 0.4,
+      "frequencyHz": 261.6256,
+      "amplitude": 0.032,
+      "pan": -0.10968035689144094,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.82,
+        0.14,
+        0.04
+      ]
+    },
+    {
+      "id": "note-0027",
+      "track": "order",
+      "part": "matrix-cyan-shimmer-arpeggio",
+      "frame": 4310,
+      "sample": 3448000,
+      "timeSeconds": 71.83333333333333,
+      "durationFrames": 24,
+      "durationSeconds": 0.4,
+      "frequencyHz": 392,
+      "amplitude": 0.032,
+      "pan": -0.1727100052536985,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.82,
+        0.14,
+        0.04
+      ]
+    },
+    {
+      "id": "note-0028",
+      "track": "order",
+      "part": "matrix-cyan-shimmer-arpeggio",
+      "frame": 4340,
+      "sample": 3472000,
+      "timeSeconds": 72.33333333333333,
+      "durationFrames": 24,
+      "durationSeconds": 0.4,
+      "frequencyHz": 523.2511,
+      "amplitude": 0.032,
+      "pan": -0.16942851352000832,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.82,
+        0.14,
+        0.04
+      ]
+    },
+    {
+      "id": "note-0029",
+      "track": "order",
+      "part": "matrix-cyan-shimmer-arpeggio",
+      "frame": 4370,
+      "sample": 3496000,
+      "timeSeconds": 72.83333333333333,
+      "durationFrames": 24,
+      "durationSeconds": 0.4,
+      "frequencyHz": 659.2551,
+      "amplitude": 0.032,
+      "pan": -0.10109579397950956,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.82,
+        0.14,
+        0.04
+      ]
+    },
+    {
+      "id": "note-0030",
+      "track": "order",
+      "part": "matrix-cyan-shimmer-arpeggio",
+      "frame": 4400,
+      "sample": 3520000,
+      "timeSeconds": 73.33333333333333,
+      "durationFrames": 24,
+      "durationSeconds": 0.4,
+      "frequencyHz": 523.2511,
+      "amplitude": 0.032,
+      "pan": 0.006052148499804605,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.82,
+        0.14,
+        0.04
+      ]
+    },
+    {
+      "id": "note-0031",
+      "track": "order",
+      "part": "matrix-cyan-shimmer-arpeggio",
+      "frame": 4430,
+      "sample": 3544000,
+      "timeSeconds": 73.83333333333333,
+      "durationFrames": 24,
+      "durationSeconds": 0.4,
+      "frequencyHz": 392,
+      "amplitude": 0.032,
+      "pan": 0.1108763989239743,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.82,
+        0.14,
+        0.04
+      ]
+    },
+    {
+      "id": "note-0032",
+      "track": "order",
+      "part": "matrix-cyan-shimmer-arpeggio",
+      "frame": 4460,
+      "sample": 3568000,
+      "timeSeconds": 74.33333333333333,
+      "durationFrames": 24,
+      "durationSeconds": 0.4,
+      "frequencyHz": 329.6276,
+      "amplitude": 0.032,
+      "pan": 0.17313021220652142,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.82,
+        0.14,
+        0.04
+      ]
+    },
+    {
+      "id": "note-0033",
+      "track": "order",
+      "part": "matrix-cyan-shimmer-arpeggio",
+      "frame": 4490,
+      "sample": 3592000,
+      "timeSeconds": 74.83333333333333,
+      "durationFrames": 24,
+      "durationSeconds": 0.4,
+      "frequencyHz": 392,
+      "amplitude": 0.032,
+      "pan": 0.16891154904160502,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.82,
+        0.14,
+        0.04
+      ]
+    },
+    {
+      "id": "note-0034",
+      "track": "order",
+      "part": "matrix-cyan-shimmer-arpeggio",
+      "frame": 4520,
+      "sample": 3616000,
+      "timeSeconds": 75.33333333333333,
+      "durationFrames": 24,
+      "durationSeconds": 0.4,
+      "frequencyHz": 261.6256,
+      "amplitude": 0.032,
+      "pan": 0.0998401439879463,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.82,
+        0.14,
+        0.04
+      ]
+    },
+    {
+      "id": "note-0035",
+      "track": "order",
+      "part": "matrix-cyan-shimmer-arpeggio",
+      "frame": 4550,
+      "sample": 3640000,
+      "timeSeconds": 75.83333333333333,
+      "durationFrames": 24,
+      "durationSeconds": 0.4,
+      "frequencyHz": 392,
+      "amplitude": 0.032,
+      "pan": -0.007564383489391343,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.82,
+        0.14,
+        0.04
+      ]
+    },
+    {
+      "id": "note-0036",
+      "track": "order",
+      "part": "matrix-cyan-shimmer-arpeggio",
+      "frame": 4580,
+      "sample": 3664000,
+      "timeSeconds": 76.33333333333333,
+      "durationFrames": 24,
+      "durationSeconds": 0.4,
+      "frequencyHz": 523.2511,
+      "amplitude": 0.032,
+      "pan": -0.11206460387364725,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.82,
+        0.14,
+        0.04
+      ]
+    },
+    {
+      "id": "note-0037",
+      "track": "order",
+      "part": "matrix-cyan-shimmer-arpeggio",
+      "frame": 4610,
+      "sample": 3688000,
+      "timeSeconds": 76.83333333333333,
+      "durationFrames": 24,
+      "durationSeconds": 0.4,
+      "frequencyHz": 659.2551,
+      "amplitude": 0.032,
+      "pan": -0.17353818178663197,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.82,
+        0.14,
+        0.04
+      ]
+    },
+    {
+      "id": "note-0038",
+      "track": "order",
+      "part": "matrix-cyan-shimmer-arpeggio",
+      "frame": 4640,
+      "sample": 3712000,
+      "timeSeconds": 77.33333333333333,
+      "durationFrames": 24,
+      "durationSeconds": 0.4,
+      "frequencyHz": 523.2511,
+      "amplitude": 0.032,
+      "pan": -0.16838264537849942,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.82,
+        0.14,
+        0.04
+      ]
+    },
+    {
+      "id": "note-0039",
+      "track": "order",
+      "part": "matrix-cyan-shimmer-arpeggio",
+      "frame": 4670,
+      "sample": 3736000,
+      "timeSeconds": 77.83333333333333,
+      "durationFrames": 24,
+      "durationSeconds": 0.4,
+      "frequencyHz": 392,
+      "amplitude": 0.032,
+      "pan": -0.09857743698976336,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.82,
+        0.14,
+        0.04
+      ]
+    },
+    {
+      "id": "note-0040",
+      "track": "order",
+      "part": "matrix-cyan-shimmer-arpeggio",
+      "frame": 4700,
+      "sample": 3760000,
+      "timeSeconds": 78.33333333333333,
+      "durationFrames": 24,
+      "durationSeconds": 0.4,
+      "frequencyHz": 329.6276,
+      "amplitude": 0.032,
+      "pan": 0.00907608380522602,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.82,
+        0.14,
+        0.04
+      ]
+    },
+    {
+      "id": "note-0041",
+      "track": "order",
+      "part": "matrix-cyan-shimmer-arpeggio",
+      "frame": 4730,
+      "sample": 3784000,
+      "timeSeconds": 78.83333333333333,
+      "durationFrames": 24,
+      "durationSeconds": 0.4,
+      "frequencyHz": 392,
+      "amplitude": 0.032,
+      "pan": 0.11324488775450198,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.82,
+        0.14,
+        0.04
+      ]
+    },
+    {
+      "id": "note-0042",
+      "track": "order",
+      "part": "matrix-cyan-shimmer-arpeggio",
+      "frame": 4760,
+      "sample": 3808000,
+      "timeSeconds": 79.33333333333333,
+      "durationFrames": 24,
+      "durationSeconds": 0.4,
+      "frequencyHz": 261.6256,
+      "amplitude": 0.032,
+      "pan": 0.17393388515749258,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.82,
+        0.14,
+        0.04
+      ]
+    },
+    {
+      "id": "note-0043",
+      "track": "order",
+      "part": "matrix-cyan-shimmer-arpeggio",
+      "frame": 4790,
+      "sample": 3832000,
+      "timeSeconds": 79.83333333333333,
+      "durationFrames": 24,
+      "durationSeconds": 0.4,
+      "frequencyHz": 392,
+      "amplitude": 0.032,
+      "pan": 0.16784183991521964,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.82,
+        0.14,
+        0.04
+      ]
+    },
+    {
+      "id": "note-0044",
+      "track": "order",
+      "part": "matrix-cyan-shimmer-arpeggio",
+      "frame": 4820,
+      "sample": 3856000,
+      "timeSeconds": 80.33333333333333,
+      "durationFrames": 24,
+      "durationSeconds": 0.4,
+      "frequencyHz": 523.2511,
+      "amplitude": 0.032,
+      "pan": 0.09730776223695108,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.82,
+        0.14,
+        0.04
+      ]
+    },
+    {
+      "id": "note-0045",
+      "track": "order",
+      "part": "matrix-cyan-shimmer-arpeggio",
+      "frame": 4850,
+      "sample": 3880000,
+      "timeSeconds": 80.83333333333333,
+      "durationFrames": 24,
+      "durationSeconds": 0.4,
+      "frequencyHz": 659.2551,
+      "amplitude": 0.032,
+      "pan": -0.010587142595709526,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.82,
+        0.14,
+        0.04
+      ]
+    },
+    {
+      "id": "note-0046",
+      "track": "order",
+      "part": "matrix-cyan-shimmer-arpeggio",
+      "frame": 4880,
+      "sample": 3904000,
+      "timeSeconds": 81.33333333333333,
+      "durationFrames": 24,
+      "durationSeconds": 0.4,
+      "frequencyHz": 523.2511,
+      "amplitude": 0.032,
+      "pan": -0.11441716714046433,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.82,
+        0.14,
+        0.04
+      ]
+    },
+    {
+      "id": "note-0047",
+      "track": "order",
+      "part": "matrix-cyan-shimmer-arpeggio",
+      "frame": 4910,
+      "sample": 3928000,
+      "timeSeconds": 81.83333333333333,
+      "durationFrames": 24,
+      "durationSeconds": 0.4,
+      "frequencyHz": 392,
+      "amplitude": 0.032,
+      "pan": -0.17431729434957943,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.82,
+        0.14,
+        0.04
+      ]
+    },
+    {
+      "id": "note-0048",
+      "track": "order",
+      "part": "matrix-cyan-shimmer-arpeggio",
+      "frame": 4940,
+      "sample": 3952000,
+      "timeSeconds": 82.33333333333333,
+      "durationFrames": 24,
+      "durationSeconds": 0.4,
+      "frequencyHz": 329.6276,
+      "amplitude": 0.032,
+      "pan": -0.16728917087754885,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.82,
+        0.14,
+        0.04
+      ]
+    },
+    {
+      "id": "note-0049",
+      "track": "order",
+      "part": "matrix-cyan-shimmer-arpeggio",
+      "frame": 4970,
+      "sample": 3976000,
+      "timeSeconds": 82.83333333333333,
+      "durationFrames": 24,
+      "durationSeconds": 0.4,
+      "frequencyHz": 392,
+      "amplitude": 0.032,
+      "pan": -0.09603120947400384,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.82,
+        0.14,
+        0.04
+      ]
+    },
+    {
+      "id": "note-0050",
+      "track": "order",
+      "part": "matrix-cyan-shimmer-arpeggio",
+      "frame": 5000,
+      "sample": 4000000,
+      "timeSeconds": 83.33333333333333,
+      "durationFrames": 24,
+      "durationSeconds": 0.4,
+      "frequencyHz": 261.6256,
+      "amplitude": 0.032,
+      "pan": 0.012097453054585485,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.82,
+        0.14,
+        0.04
+      ]
+    },
+    {
+      "id": "note-0051",
+      "track": "order",
+      "part": "matrix-cyan-shimmer-arpeggio",
+      "frame": 5030,
+      "sample": 4024000,
+      "timeSeconds": 83.83333333333333,
+      "durationFrames": 24,
+      "durationSeconds": 0.4,
+      "frequencyHz": 392,
+      "amplitude": 0.032,
+      "pan": 0.11558135917124422,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.82,
+        0.14,
+        0.04
+      ]
+    },
+    {
+      "id": "note-0052",
+      "track": "order",
+      "part": "matrix-cyan-shimmer-arpeggio",
+      "frame": 5060,
+      "sample": 4048000,
+      "timeSeconds": 84.33333333333333,
+      "durationFrames": 24,
+      "durationSeconds": 0.4,
+      "frequencyHz": 523.2511,
+      "amplitude": 0.032,
+      "pan": 0.17468838226235872,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.82,
+        0.14,
+        0.04
+      ]
+    },
+    {
+      "id": "note-0053",
+      "track": "order",
+      "part": "matrix-cyan-shimmer-arpeggio",
+      "frame": 5090,
+      "sample": 4072000,
+      "timeSeconds": 84.83333333333333,
+      "durationFrames": 24,
+      "durationSeconds": 0.4,
+      "frequencyHz": 659.2551,
+      "amplitude": 0.032,
+      "pan": 0.16672467732982482,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.82,
+        0.14,
+        0.04
+      ]
+    },
+    {
+      "id": "note-0054",
+      "track": "order",
+      "part": "matrix-cyan-shimmer-arpeggio",
+      "frame": 5120,
+      "sample": 4096000,
+      "timeSeconds": 85.33333333333333,
+      "durationFrames": 24,
+      "durationSeconds": 0.4,
+      "frequencyHz": 523.2511,
+      "amplitude": 0.032,
+      "pan": 0.09474786893157322,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.82,
+        0.14,
+        0.04
+      ]
+    },
+    {
+      "id": "note-0055",
+      "track": "order",
+      "part": "matrix-cyan-shimmer-arpeggio",
+      "frame": 5150,
+      "sample": 4120000,
+      "timeSeconds": 85.83333333333333,
+      "durationFrames": 24,
+      "durationSeconds": 0.4,
+      "frequencyHz": 392,
+      "amplitude": 0.032,
+      "pan": -0.01360690842849445,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.82,
+        0.14,
+        0.04
+      ]
+    },
+    {
+      "id": "note-0056",
+      "track": "order",
+      "part": "matrix-cyan-shimmer-arpeggio",
+      "frame": 5180,
+      "sample": 4144000,
+      "timeSeconds": 86.33333333333333,
+      "durationFrames": 24,
+      "durationSeconds": 0.4,
+      "frequencyHz": 329.6276,
+      "amplitude": 0.032,
+      "pan": -0.11673738155818866,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.82,
+        0.14,
+        0.04
+      ]
+    },
+    {
+      "id": "note-0057",
+      "track": "order",
+      "part": "matrix-cyan-shimmer-arpeggio",
+      "frame": 5210,
+      "sample": 4168000,
+      "timeSeconds": 86.83333333333333,
+      "durationFrames": 24,
+      "durationSeconds": 0.4,
+      "frequencyHz": 392,
+      "amplitude": 0.032,
+      "pan": -0.17504712266620195,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.82,
+        0.14,
+        0.04
+      ]
+    },
+    {
+      "id": "note-0058",
+      "track": "order",
+      "part": "matrix-cyan-shimmer-arpeggio",
+      "frame": 5240,
+      "sample": 4192000,
+      "timeSeconds": 87.33333333333333,
+      "durationFrames": 24,
+      "durationSeconds": 0.4,
+      "frequencyHz": 261.6256,
+      "amplitude": 0.032,
+      "pan": -0.16614839917217686,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.82,
+        0.14,
+        0.04
+      ]
+    },
+    {
+      "id": "note-0059",
+      "track": "order",
+      "part": "matrix-cyan-shimmer-arpeggio",
+      "frame": 5270,
+      "sample": 4216000,
+      "timeSeconds": 87.83333333333333,
+      "durationFrames": 24,
+      "durationSeconds": 0.4,
+      "frequencyHz": 392,
+      "amplitude": 0.032,
+      "pan": -0.09345783132009179,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.82,
+        0.14,
+        0.04
+      ]
+    },
+    {
+      "id": "note-0060",
+      "track": "order",
+      "part": "matrix-cyan-shimmer-arpeggio",
+      "frame": 5300,
+      "sample": 4240000,
+      "timeSeconds": 88.33333333333333,
+      "durationFrames": 24,
+      "durationSeconds": 0.4,
+      "frequencyHz": 523.2511,
+      "amplitude": 0.032,
+      "pan": 0.015115402024514429,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.82,
+        0.14,
+        0.04
+      ]
+    },
+    {
+      "id": "note-0061",
+      "track": "order",
+      "part": "matrix-cyan-shimmer-arpeggio",
+      "frame": 5330,
+      "sample": 4264000,
+      "timeSeconds": 88.83333333333333,
+      "durationFrames": 24,
+      "durationSeconds": 0.4,
+      "frequencyHz": 659.2551,
+      "amplitude": 0.032,
+      "pan": 0.11788515259010197,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.82,
+        0.14,
+        0.04
+      ]
+    },
+    {
+      "id": "note-0062",
+      "track": "order",
+      "part": "matrix-cyan-shimmer-arpeggio",
+      "frame": 5360,
+      "sample": 4288000,
+      "timeSeconds": 89.33333333333333,
+      "durationFrames": 24,
+      "durationSeconds": 0.4,
+      "frequencyHz": 523.2511,
+      "amplitude": 0.032,
+      "pan": 0.17539349020424078,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.82,
+        0.14,
+        0.04
+      ]
+    },
+    {
+      "id": "note-0063",
+      "track": "order",
+      "part": "matrix-cyan-shimmer-arpeggio",
+      "frame": 5390,
+      "sample": 4312000,
+      "timeSeconds": 89.83333333333333,
+      "durationFrames": 10,
+      "durationSeconds": 0.16666666666666666,
+      "frequencyHz": 392,
+      "amplitude": 0.032,
+      "pan": 0.1655603771377074,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.82,
+        0.14,
+        0.04
+      ]
+    },
+    {
+      "id": "note-0064",
+      "track": "order",
+      "part": "tunnel-minimal-rising-motif",
+      "frame": 5400,
+      "sample": 4320000,
+      "timeSeconds": 90,
+      "durationFrames": 50,
+      "durationSeconds": 0.8333333333333334,
+      "frequencyHz": 261.6256,
+      "amplitude": 0.039,
+      "pan": 0,
+      "waveform": "sine",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0065",
+      "track": "order",
+      "part": "tunnel-minimal-rising-motif",
+      "frame": 5460,
+      "sample": 4368000,
+      "timeSeconds": 91,
+      "durationFrames": 50,
+      "durationSeconds": 0.8333333333333334,
+      "frequencyHz": 293.6648,
+      "amplitude": 0.039,
+      "pan": 0.07810835950126521,
+      "waveform": "sine",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0066",
+      "track": "order",
+      "part": "tunnel-minimal-rising-motif",
+      "frame": 5520,
+      "sample": 4416000,
+      "timeSeconds": 92,
+      "durationFrames": 50,
+      "durationSeconds": 0.8333333333333334,
+      "frequencyHz": 329.6276,
+      "amplitude": 0.039,
+      "pan": 0.13633728351189808,
+      "waveform": "sine",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0067",
+      "track": "order",
+      "part": "tunnel-minimal-rising-motif",
+      "frame": 5580,
+      "sample": 4464000,
+      "timeSeconds": 93,
+      "durationFrames": 50,
+      "durationSeconds": 0.8333333333333334,
+      "frequencyHz": 392,
+      "amplitude": 0.039,
+      "pan": 0.15986687124343615,
+      "waveform": "sine",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0068",
+      "track": "order",
+      "part": "tunnel-minimal-rising-motif",
+      "frame": 5640,
+      "sample": 4512000,
+      "timeSeconds": 94,
+      "durationFrames": 50,
+      "durationSeconds": 0.8333333333333334,
+      "frequencyHz": 440,
+      "amplitude": 0.039,
+      "pan": 0.14270858415254073,
+      "waveform": "sine",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0069",
+      "track": "order",
+      "part": "tunnel-minimal-rising-motif",
+      "frame": 5700,
+      "sample": 4560000,
+      "timeSeconds": 95,
+      "durationFrames": 50,
+      "durationSeconds": 0.8333333333333334,
+      "frequencyHz": 261.6256,
+      "amplitude": 0.039,
+      "pan": 0.08922939478262672,
+      "waveform": "sine",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0070",
+      "track": "order",
+      "part": "tunnel-minimal-rising-motif",
+      "frame": 5760,
+      "sample": 4608000,
+      "timeSeconds": 96,
+      "durationFrames": 50,
+      "durationSeconds": 0.8333333333333334,
+      "frequencyHz": 293.6648,
+      "amplitude": 0.039,
+      "pan": 0.01304034428164306,
+      "waveform": "sine",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0071",
+      "track": "order",
+      "part": "tunnel-minimal-rising-motif",
+      "frame": 5820,
+      "sample": 4656000,
+      "timeSeconds": 97,
+      "durationFrames": 50,
+      "durationSeconds": 0.8333333333333334,
+      "frequencyHz": 329.6276,
+      "amplitude": 0.039,
+      "pan": -0.0664676170833994,
+      "waveform": "sine",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0072",
+      "track": "order",
+      "part": "tunnel-minimal-rising-motif",
+      "frame": 5880,
+      "sample": 4704000,
+      "timeSeconds": 98,
+      "durationFrames": 50,
+      "durationSeconds": 0.8333333333333334,
+      "frequencyHz": 392,
+      "amplitude": 0.039,
+      "pan": -0.1290588397733185,
+      "waveform": "sine",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0073",
+      "track": "order",
+      "part": "tunnel-minimal-rising-motif",
+      "frame": 5940,
+      "sample": 4752000,
+      "timeSeconds": 99,
+      "durationFrames": 50,
+      "durationSeconds": 0.8333333333333334,
+      "frequencyHz": 440,
+      "amplitude": 0.039,
+      "pan": -0.1588031700671941,
+      "waveform": "sine",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0074",
+      "track": "order",
+      "part": "tunnel-minimal-rising-motif",
+      "frame": 6000,
+      "sample": 4800000,
+      "timeSeconds": 100,
+      "durationFrames": 50,
+      "durationSeconds": 0.8333333333333334,
+      "frequencyHz": 523.2512,
+      "amplitude": 0.039,
+      "pan": -0.1481303491724372,
+      "waveform": "sine",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0075",
+      "track": "order",
+      "part": "tunnel-minimal-rising-motif",
+      "frame": 6060,
+      "sample": 4848000,
+      "timeSeconds": 101,
+      "durationFrames": 50,
+      "durationSeconds": 0.8333333333333334,
+      "frequencyHz": 587.3296,
+      "amplitude": 0.039,
+      "pan": -0.09975672724458966,
+      "waveform": "sine",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0076",
+      "track": "order",
+      "part": "tunnel-minimal-rising-motif",
+      "frame": 6120,
+      "sample": 4896000,
+      "timeSeconds": 102,
+      "durationFrames": 50,
+      "durationSeconds": 0.8333333333333334,
+      "frequencyHz": 659.2552,
+      "amplitude": 0.039,
+      "pan": -0.02599392243442467,
+      "waveform": "sine",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0077",
+      "track": "order",
+      "part": "tunnel-minimal-rising-motif",
+      "frame": 6180,
+      "sample": 4944000,
+      "timeSeconds": 103,
+      "durationFrames": 50,
+      "durationSeconds": 0.8333333333333334,
+      "frequencyHz": 784,
+      "amplitude": 0.039,
+      "pan": 0.05438462117096204,
+      "waveform": "sine",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0078",
+      "track": "order",
+      "part": "tunnel-minimal-rising-motif",
+      "frame": 6240,
+      "sample": 4992000,
+      "timeSeconds": 104,
+      "durationFrames": 50,
+      "durationSeconds": 0.8333333333333334,
+      "frequencyHz": 880,
+      "amplitude": 0.039,
+      "pan": 0.1209216812891287,
+      "waveform": "sine",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0079",
+      "track": "order",
+      "part": "tunnel-minimal-rising-motif",
+      "frame": 6300,
+      "sample": 5040000,
+      "timeSeconds": 105,
+      "durationFrames": 50,
+      "durationSeconds": 0.8333333333333334,
+      "frequencyHz": 523.2512,
+      "amplitude": 0.039,
+      "pan": 0.156682845229792,
+      "waveform": "sine",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0080",
+      "track": "order",
+      "part": "tunnel-minimal-rising-motif",
+      "frame": 6360,
+      "sample": 5088000,
+      "timeSeconds": 106,
+      "durationFrames": 50,
+      "durationSeconds": 0.8333333333333334,
+      "frequencyHz": 587.3296,
+      "amplitude": 0.039,
+      "pan": 0.15256650394409188,
+      "waveform": "sine",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0081",
+      "track": "order",
+      "part": "tunnel-minimal-rising-motif",
+      "frame": 6420,
+      "sample": 5136000,
+      "timeSeconds": 107,
+      "durationFrames": 50,
+      "durationSeconds": 0.8333333333333334,
+      "frequencyHz": 659.2552,
+      "amplitude": 0.039,
+      "pan": 0.1096203115060481,
+      "waveform": "sine",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0082",
+      "track": "order",
+      "part": "tunnel-minimal-rising-motif",
+      "frame": 6480,
+      "sample": 5184000,
+      "timeSeconds": 108,
+      "durationFrames": 50,
+      "durationSeconds": 0.8333333333333334,
+      "frequencyHz": 784,
+      "amplitude": 0.039,
+      "pan": 0.03877454564254781,
+      "waveform": "sine",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0083",
+      "track": "order",
+      "part": "tunnel-minimal-rising-motif",
+      "frame": 6540,
+      "sample": 5232000,
+      "timeSeconds": 109,
+      "durationFrames": 50,
+      "durationSeconds": 0.8333333333333334,
+      "frequencyHz": 880,
+      "amplitude": 0.039,
+      "pan": -0.04193976801406191,
+      "waveform": "sine",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0084",
+      "track": "order",
+      "part": "tunnel-minimal-rising-motif",
+      "frame": 6600,
+      "sample": 5280000,
+      "timeSeconds": 110,
+      "durationFrames": 50,
+      "durationSeconds": 0.8333333333333334,
+      "frequencyHz": 523.2512,
+      "amplitude": 0.039,
+      "pan": -0.11197995001496677,
+      "waveform": "sine",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0085",
+      "track": "order",
+      "part": "tunnel-minimal-rising-motif",
+      "frame": 6660,
+      "sample": 5328000,
+      "timeSeconds": 111,
+      "durationFrames": 40,
+      "durationSeconds": 0.6666666666666666,
+      "frequencyHz": 587.3296,
+      "amplitude": 0.039,
+      "pan": -0.15352000466995425,
+      "waveform": "sine",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0086",
+      "track": "order",
+      "part": "c-major-imitative-bass-subject",
+      "frame": 6700,
+      "sample": 5360000,
+      "timeSeconds": 111.66666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 130.8128,
+      "amplitude": 0.052,
+      "pan": -0.22,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0275",
+      "track": "order",
+      "part": "counterpoint-underlay-c-major",
+      "frame": 6700,
+      "sample": 5360000,
+      "timeSeconds": 111.66666666666667,
+      "durationFrames": 480,
+      "durationSeconds": 8,
+      "frequencyHz": 130.8128,
+      "amplitude": 0.01404,
+      "pan": -0.14750000000000002,
+      "waveform": "soft-sine-pad",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0276",
+      "track": "order",
+      "part": "counterpoint-underlay-c-major",
+      "frame": 6700,
+      "sample": 5360000,
+      "timeSeconds": 111.66666666666667,
+      "durationFrames": 480,
+      "durationSeconds": 8,
+      "frequencyHz": 164.8138,
+      "amplitude": 0.013,
+      "pan": -0.10250000000000001,
+      "waveform": "soft-sine-pad",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0277",
+      "track": "order",
+      "part": "counterpoint-underlay-c-major",
+      "frame": 6700,
+      "sample": 5360000,
+      "timeSeconds": 111.66666666666667,
+      "durationFrames": 480,
+      "durationSeconds": 8,
+      "frequencyHz": 196,
+      "amplitude": 0.013,
+      "pan": -0.0575,
+      "waveform": "soft-sine-pad",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0278",
+      "track": "order",
+      "part": "counterpoint-underlay-c-major",
+      "frame": 6700,
+      "sample": 5360000,
+      "timeSeconds": 111.66666666666667,
+      "durationFrames": 480,
+      "durationSeconds": 8,
+      "frequencyHz": 261.6256,
+      "amplitude": 0.013,
+      "pan": -0.012499999999999997,
+      "waveform": "soft-sine-pad",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0087",
+      "track": "order",
+      "part": "c-major-imitative-bass-subject",
+      "frame": 6730,
+      "sample": 5384000,
+      "timeSeconds": 112.16666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 146.8324,
+      "amplitude": 0.052,
+      "pan": -0.22,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0088",
+      "track": "order",
+      "part": "c-major-imitative-bass-subject",
+      "frame": 6760,
+      "sample": 5408000,
+      "timeSeconds": 112.66666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 164.8138,
+      "amplitude": 0.052,
+      "pan": -0.22,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0089",
+      "track": "order",
+      "part": "c-major-imitative-bass-subject",
+      "frame": 6790,
+      "sample": 5432000,
+      "timeSeconds": 113.16666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 195.9977,
+      "amplitude": 0.052,
+      "pan": -0.22,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0090",
+      "track": "order",
+      "part": "c-major-imitative-bass-subject",
+      "frame": 6820,
+      "sample": 5456000,
+      "timeSeconds": 113.66666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 174.6141,
+      "amplitude": 0.052,
+      "pan": -0.22,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0134",
+      "track": "order",
+      "part": "c-major-imitative-tenor-dominant-answer",
+      "frame": 6820,
+      "sample": 5456000,
+      "timeSeconds": 113.66666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 195.9977,
+      "amplitude": 0.048,
+      "pan": 0.18,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0091",
+      "track": "order",
+      "part": "c-major-imitative-bass-subject",
+      "frame": 6850,
+      "sample": 5480000,
+      "timeSeconds": 114.16666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 164.8138,
+      "amplitude": 0.052,
+      "pan": -0.22,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0135",
+      "track": "order",
+      "part": "c-major-imitative-tenor-dominant-answer",
+      "frame": 6850,
+      "sample": 5480000,
+      "timeSeconds": 114.16666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 220,
+      "amplitude": 0.048,
+      "pan": 0.18,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0092",
+      "track": "order",
+      "part": "c-major-imitative-bass-subject",
+      "frame": 6880,
+      "sample": 5504000,
+      "timeSeconds": 114.66666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 146.8324,
+      "amplitude": 0.052,
+      "pan": -0.22,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0136",
+      "track": "order",
+      "part": "c-major-imitative-tenor-dominant-answer",
+      "frame": 6880,
+      "sample": 5504000,
+      "timeSeconds": 114.66666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 246.9417,
+      "amplitude": 0.048,
+      "pan": 0.18,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0093",
+      "track": "order",
+      "part": "c-major-imitative-bass-subject",
+      "frame": 6910,
+      "sample": 5528000,
+      "timeSeconds": 115.16666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 195.9977,
+      "amplitude": 0.052,
+      "pan": -0.22,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0137",
+      "track": "order",
+      "part": "c-major-imitative-tenor-dominant-answer",
+      "frame": 6910,
+      "sample": 5528000,
+      "timeSeconds": 115.16666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 293.6648,
+      "amplitude": 0.048,
+      "pan": 0.18,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0094",
+      "track": "order",
+      "part": "c-major-imitative-bass-subject",
+      "frame": 6940,
+      "sample": 5552000,
+      "timeSeconds": 115.66666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 261.6256,
+      "amplitude": 0.052,
+      "pan": -0.22,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0138",
+      "track": "order",
+      "part": "c-major-imitative-tenor-dominant-answer",
+      "frame": 6940,
+      "sample": 5552000,
+      "timeSeconds": 115.66666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 261.6256,
+      "amplitude": 0.048,
+      "pan": 0.18,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0182",
+      "track": "order",
+      "part": "c-major-imitative-alto-subject-octave",
+      "frame": 6940,
+      "sample": 5552000,
+      "timeSeconds": 115.66666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 261.6256,
+      "amplitude": 0.044,
+      "pan": -0.08,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0095",
+      "track": "order",
+      "part": "c-major-imitative-bass-subject",
+      "frame": 6970,
+      "sample": 5576000,
+      "timeSeconds": 116.16666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 246.9417,
+      "amplitude": 0.052,
+      "pan": -0.22,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0139",
+      "track": "order",
+      "part": "c-major-imitative-tenor-dominant-answer",
+      "frame": 6970,
+      "sample": 5576000,
+      "timeSeconds": 116.16666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 246.9417,
+      "amplitude": 0.048,
+      "pan": 0.18,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0183",
+      "track": "order",
+      "part": "c-major-imitative-alto-subject-octave",
+      "frame": 6970,
+      "sample": 5576000,
+      "timeSeconds": 116.16666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 293.6648,
+      "amplitude": 0.044,
+      "pan": -0.08,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0140",
+      "track": "order",
+      "part": "c-major-imitative-tenor-dominant-answer",
+      "frame": 7000,
+      "sample": 5600000,
+      "timeSeconds": 116.66666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 220,
+      "amplitude": 0.048,
+      "pan": 0.18,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0096",
+      "track": "order",
+      "part": "c-major-imitative-bass-subject",
+      "frame": 7000,
+      "sample": 5600000,
+      "timeSeconds": 116.66666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 261.6256,
+      "amplitude": 0.052,
+      "pan": -0.22,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0184",
+      "track": "order",
+      "part": "c-major-imitative-alto-subject-octave",
+      "frame": 7000,
+      "sample": 5600000,
+      "timeSeconds": 116.66666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 329.6276,
+      "amplitude": 0.044,
+      "pan": -0.08,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0097",
+      "track": "order",
+      "part": "c-major-imitative-bass-subject",
+      "frame": 7030,
+      "sample": 5624000,
+      "timeSeconds": 117.16666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 293.6648,
+      "amplitude": 0.052,
+      "pan": -0.22,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0141",
+      "track": "order",
+      "part": "c-major-imitative-tenor-dominant-answer",
+      "frame": 7030,
+      "sample": 5624000,
+      "timeSeconds": 117.16666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 293.6648,
+      "amplitude": 0.048,
+      "pan": 0.18,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0185",
+      "track": "order",
+      "part": "c-major-imitative-alto-subject-octave",
+      "frame": 7030,
+      "sample": 5624000,
+      "timeSeconds": 117.16666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 391.9955,
+      "amplitude": 0.044,
+      "pan": -0.08,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0098",
+      "track": "order",
+      "part": "c-major-imitative-bass-subject",
+      "frame": 7060,
+      "sample": 5648000,
+      "timeSeconds": 117.66666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 195.9977,
+      "amplitude": 0.052,
+      "pan": -0.22,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0186",
+      "track": "order",
+      "part": "c-major-imitative-alto-subject-octave",
+      "frame": 7060,
+      "sample": 5648000,
+      "timeSeconds": 117.66666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 349.2283,
+      "amplitude": 0.044,
+      "pan": -0.08,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0142",
+      "track": "order",
+      "part": "c-major-imitative-tenor-dominant-answer",
+      "frame": 7060,
+      "sample": 5648000,
+      "timeSeconds": 117.66666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 391.9955,
+      "amplitude": 0.048,
+      "pan": 0.18,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0230",
+      "track": "order",
+      "part": "c-major-imitative-soprano-dominant-answer",
+      "frame": 7060,
+      "sample": 5648000,
+      "timeSeconds": 117.66666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 391.9955,
+      "amplitude": 0.04,
+      "pan": 0.12,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0099",
+      "track": "order",
+      "part": "c-major-imitative-bass-subject",
+      "frame": 7090,
+      "sample": 5672000,
+      "timeSeconds": 118.16666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 220,
+      "amplitude": 0.052,
+      "pan": -0.22,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0187",
+      "track": "order",
+      "part": "c-major-imitative-alto-subject-octave",
+      "frame": 7090,
+      "sample": 5672000,
+      "timeSeconds": 118.16666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 329.6276,
+      "amplitude": 0.044,
+      "pan": -0.08,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0143",
+      "track": "order",
+      "part": "c-major-imitative-tenor-dominant-answer",
+      "frame": 7090,
+      "sample": 5672000,
+      "timeSeconds": 118.16666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 349.2283,
+      "amplitude": 0.048,
+      "pan": 0.18,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0231",
+      "track": "order",
+      "part": "c-major-imitative-soprano-dominant-answer",
+      "frame": 7090,
+      "sample": 5672000,
+      "timeSeconds": 118.16666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 440.0001,
+      "amplitude": 0.04,
+      "pan": 0.12,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0100",
+      "track": "order",
+      "part": "c-major-imitative-bass-subject",
+      "frame": 7120,
+      "sample": 5696000,
+      "timeSeconds": 118.66666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 246.9417,
+      "amplitude": 0.052,
+      "pan": -0.22,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0188",
+      "track": "order",
+      "part": "c-major-imitative-alto-subject-octave",
+      "frame": 7120,
+      "sample": 5696000,
+      "timeSeconds": 118.66666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 293.6648,
+      "amplitude": 0.044,
+      "pan": -0.08,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0144",
+      "track": "order",
+      "part": "c-major-imitative-tenor-dominant-answer",
+      "frame": 7120,
+      "sample": 5696000,
+      "timeSeconds": 118.66666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 391.9955,
+      "amplitude": 0.048,
+      "pan": 0.18,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0232",
+      "track": "order",
+      "part": "c-major-imitative-soprano-dominant-answer",
+      "frame": 7120,
+      "sample": 5696000,
+      "timeSeconds": 118.66666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 493.8834,
+      "amplitude": 0.04,
+      "pan": 0.12,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0101",
+      "track": "order",
+      "part": "c-major-imitative-bass-subject",
+      "frame": 7150,
+      "sample": 5720000,
+      "timeSeconds": 119.16666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 293.6648,
+      "amplitude": 0.052,
+      "pan": -0.22,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0189",
+      "track": "order",
+      "part": "c-major-imitative-alto-subject-octave",
+      "frame": 7150,
+      "sample": 5720000,
+      "timeSeconds": 119.16666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 391.9955,
+      "amplitude": 0.044,
+      "pan": -0.08,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0145",
+      "track": "order",
+      "part": "c-major-imitative-tenor-dominant-answer",
+      "frame": 7150,
+      "sample": 5720000,
+      "timeSeconds": 119.16666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 440.0001,
+      "amplitude": 0.048,
+      "pan": 0.18,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0233",
+      "track": "order",
+      "part": "c-major-imitative-soprano-dominant-answer",
+      "frame": 7150,
+      "sample": 5720000,
+      "timeSeconds": 119.16666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 587.3296,
+      "amplitude": 0.04,
+      "pan": 0.12,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0279",
+      "track": "order",
+      "part": "counterpoint-underlay-f-major",
+      "frame": 7180,
+      "sample": 5744000,
+      "timeSeconds": 119.66666666666667,
+      "durationFrames": 480,
+      "durationSeconds": 8,
+      "frequencyHz": 174.6141,
+      "amplitude": 0.012960000000000001,
+      "pan": 0.012499999999999997,
+      "waveform": "soft-sine-pad",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0280",
+      "track": "order",
+      "part": "counterpoint-underlay-f-major",
+      "frame": 7180,
+      "sample": 5744000,
+      "timeSeconds": 119.66666666666667,
+      "durationFrames": 480,
+      "durationSeconds": 8,
+      "frequencyHz": 220,
+      "amplitude": 0.012,
+      "pan": 0.0575,
+      "waveform": "soft-sine-pad",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0102",
+      "track": "order",
+      "part": "c-major-imitative-bass-subject",
+      "frame": 7180,
+      "sample": 5744000,
+      "timeSeconds": 119.66666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 261.6256,
+      "amplitude": 0.052,
+      "pan": -0.22,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0281",
+      "track": "order",
+      "part": "counterpoint-underlay-f-major",
+      "frame": 7180,
+      "sample": 5744000,
+      "timeSeconds": 119.66666666666667,
+      "durationFrames": 480,
+      "durationSeconds": 8,
+      "frequencyHz": 261.6256,
+      "amplitude": 0.012,
+      "pan": 0.10250000000000001,
+      "waveform": "soft-sine-pad",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0146",
+      "track": "order",
+      "part": "c-major-imitative-tenor-dominant-answer",
+      "frame": 7180,
+      "sample": 5744000,
+      "timeSeconds": 119.66666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 293.6648,
+      "amplitude": 0.048,
+      "pan": 0.18,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0282",
+      "track": "order",
+      "part": "counterpoint-underlay-f-major",
+      "frame": 7180,
+      "sample": 5744000,
+      "timeSeconds": 119.66666666666667,
+      "durationFrames": 480,
+      "durationSeconds": 8,
+      "frequencyHz": 349.2282,
+      "amplitude": 0.012,
+      "pan": 0.14750000000000002,
+      "waveform": "soft-sine-pad",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0190",
+      "track": "order",
+      "part": "c-major-imitative-alto-subject-octave",
+      "frame": 7180,
+      "sample": 5744000,
+      "timeSeconds": 119.66666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 523.2512,
+      "amplitude": 0.044,
+      "pan": -0.08,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0234",
+      "track": "order",
+      "part": "c-major-imitative-soprano-dominant-answer",
+      "frame": 7180,
+      "sample": 5744000,
+      "timeSeconds": 119.66666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 523.2512,
+      "amplitude": 0.04,
+      "pan": 0.12,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0103",
+      "track": "order",
+      "part": "c-major-imitative-bass-subject",
+      "frame": 7210,
+      "sample": 5768000,
+      "timeSeconds": 120.16666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 246.9417,
+      "amplitude": 0.052,
+      "pan": -0.22,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0147",
+      "track": "order",
+      "part": "c-major-imitative-tenor-dominant-answer",
+      "frame": 7210,
+      "sample": 5768000,
+      "timeSeconds": 120.16666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 329.6276,
+      "amplitude": 0.048,
+      "pan": 0.18,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0191",
+      "track": "order",
+      "part": "c-major-imitative-alto-subject-octave",
+      "frame": 7210,
+      "sample": 5768000,
+      "timeSeconds": 120.16666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 493.8834,
+      "amplitude": 0.044,
+      "pan": -0.08,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0235",
+      "track": "order",
+      "part": "c-major-imitative-soprano-dominant-answer",
+      "frame": 7210,
+      "sample": 5768000,
+      "timeSeconds": 120.16666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 493.8834,
+      "amplitude": 0.04,
+      "pan": 0.12,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0104",
+      "track": "order",
+      "part": "c-major-imitative-bass-subject",
+      "frame": 7240,
+      "sample": 5792000,
+      "timeSeconds": 120.66666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 220,
+      "amplitude": 0.052,
+      "pan": -0.22,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0148",
+      "track": "order",
+      "part": "c-major-imitative-tenor-dominant-answer",
+      "frame": 7240,
+      "sample": 5792000,
+      "timeSeconds": 120.66666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 349.2283,
+      "amplitude": 0.048,
+      "pan": 0.18,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0236",
+      "track": "order",
+      "part": "c-major-imitative-soprano-dominant-answer",
+      "frame": 7240,
+      "sample": 5792000,
+      "timeSeconds": 120.66666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 440.0001,
+      "amplitude": 0.04,
+      "pan": 0.12,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0192",
+      "track": "order",
+      "part": "c-major-imitative-alto-subject-octave",
+      "frame": 7240,
+      "sample": 5792000,
+      "timeSeconds": 120.66666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 523.2512,
+      "amplitude": 0.044,
+      "pan": -0.08,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0105",
+      "track": "order",
+      "part": "c-major-imitative-bass-subject",
+      "frame": 7270,
+      "sample": 5816000,
+      "timeSeconds": 121.16666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 293.6648,
+      "amplitude": 0.052,
+      "pan": -0.22,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0149",
+      "track": "order",
+      "part": "c-major-imitative-tenor-dominant-answer",
+      "frame": 7270,
+      "sample": 5816000,
+      "timeSeconds": 121.16666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 440.0001,
+      "amplitude": 0.048,
+      "pan": 0.18,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0193",
+      "track": "order",
+      "part": "c-major-imitative-alto-subject-octave",
+      "frame": 7270,
+      "sample": 5816000,
+      "timeSeconds": 121.16666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 587.3296,
+      "amplitude": 0.044,
+      "pan": -0.08,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0237",
+      "track": "order",
+      "part": "c-major-imitative-soprano-dominant-answer",
+      "frame": 7270,
+      "sample": 5816000,
+      "timeSeconds": 121.16666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 587.3296,
+      "amplitude": 0.04,
+      "pan": 0.12,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0106",
+      "track": "order",
+      "part": "c-major-imitative-bass-subject",
+      "frame": 7300,
+      "sample": 5840000,
+      "timeSeconds": 121.66666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 391.9955,
+      "amplitude": 0.052,
+      "pan": -0.22,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0150",
+      "track": "order",
+      "part": "c-major-imitative-tenor-dominant-answer",
+      "frame": 7300,
+      "sample": 5840000,
+      "timeSeconds": 121.66666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 391.9955,
+      "amplitude": 0.048,
+      "pan": 0.18,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0194",
+      "track": "order",
+      "part": "c-major-imitative-alto-subject-octave",
+      "frame": 7300,
+      "sample": 5840000,
+      "timeSeconds": 121.66666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 391.9955,
+      "amplitude": 0.044,
+      "pan": -0.08,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0238",
+      "track": "order",
+      "part": "c-major-imitative-soprano-dominant-answer",
+      "frame": 7300,
+      "sample": 5840000,
+      "timeSeconds": 121.66666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 783.991,
+      "amplitude": 0.04,
+      "pan": 0.12,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0107",
+      "track": "order",
+      "part": "c-major-imitative-bass-subject",
+      "frame": 7330,
+      "sample": 5864000,
+      "timeSeconds": 122.16666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 349.2283,
+      "amplitude": 0.052,
+      "pan": -0.22,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0151",
+      "track": "order",
+      "part": "c-major-imitative-tenor-dominant-answer",
+      "frame": 7330,
+      "sample": 5864000,
+      "timeSeconds": 122.16666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 349.2283,
+      "amplitude": 0.048,
+      "pan": 0.18,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0195",
+      "track": "order",
+      "part": "c-major-imitative-alto-subject-octave",
+      "frame": 7330,
+      "sample": 5864000,
+      "timeSeconds": 122.16666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 440.0001,
+      "amplitude": 0.044,
+      "pan": -0.08,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0239",
+      "track": "order",
+      "part": "c-major-imitative-soprano-dominant-answer",
+      "frame": 7330,
+      "sample": 5864000,
+      "timeSeconds": 122.16666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 698.4566,
+      "amplitude": 0.04,
+      "pan": 0.12,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0152",
+      "track": "order",
+      "part": "c-major-imitative-tenor-dominant-answer",
+      "frame": 7360,
+      "sample": 5888000,
+      "timeSeconds": 122.66666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 329.6276,
+      "amplitude": 0.048,
+      "pan": 0.18,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0108",
+      "track": "order",
+      "part": "c-major-imitative-bass-subject",
+      "frame": 7360,
+      "sample": 5888000,
+      "timeSeconds": 122.66666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 391.9955,
+      "amplitude": 0.052,
+      "pan": -0.22,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0196",
+      "track": "order",
+      "part": "c-major-imitative-alto-subject-octave",
+      "frame": 7360,
+      "sample": 5888000,
+      "timeSeconds": 122.66666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 493.8834,
+      "amplitude": 0.044,
+      "pan": -0.08,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0240",
+      "track": "order",
+      "part": "c-major-imitative-soprano-dominant-answer",
+      "frame": 7360,
+      "sample": 5888000,
+      "timeSeconds": 122.66666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 783.991,
+      "amplitude": 0.04,
+      "pan": 0.12,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0109",
+      "track": "order",
+      "part": "c-major-imitative-bass-subject",
+      "frame": 7390,
+      "sample": 5912000,
+      "timeSeconds": 123.16666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 440.0001,
+      "amplitude": 0.052,
+      "pan": -0.22,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0153",
+      "track": "order",
+      "part": "c-major-imitative-tenor-dominant-answer",
+      "frame": 7390,
+      "sample": 5912000,
+      "timeSeconds": 123.16666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 440.0001,
+      "amplitude": 0.048,
+      "pan": 0.18,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0197",
+      "track": "order",
+      "part": "c-major-imitative-alto-subject-octave",
+      "frame": 7390,
+      "sample": 5912000,
+      "timeSeconds": 123.16666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 587.3296,
+      "amplitude": 0.044,
+      "pan": -0.08,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0241",
+      "track": "order",
+      "part": "c-major-imitative-soprano-dominant-answer",
+      "frame": 7390,
+      "sample": 5912000,
+      "timeSeconds": 123.16666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 880.0001,
+      "amplitude": 0.04,
+      "pan": 0.12,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0110",
+      "track": "order",
+      "part": "c-major-imitative-bass-subject",
+      "frame": 7420,
+      "sample": 5936000,
+      "timeSeconds": 123.66666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 261.6256,
+      "amplitude": 0.052,
+      "pan": -0.22,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0198",
+      "track": "order",
+      "part": "c-major-imitative-alto-subject-octave",
+      "frame": 7420,
+      "sample": 5936000,
+      "timeSeconds": 123.66666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 523.2512,
+      "amplitude": 0.044,
+      "pan": -0.08,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0154",
+      "track": "order",
+      "part": "c-major-imitative-tenor-dominant-answer",
+      "frame": 7420,
+      "sample": 5936000,
+      "timeSeconds": 123.66666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 587.3296,
+      "amplitude": 0.048,
+      "pan": 0.18,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0242",
+      "track": "order",
+      "part": "c-major-imitative-soprano-dominant-answer",
+      "frame": 7420,
+      "sample": 5936000,
+      "timeSeconds": 123.66666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 587.3296,
+      "amplitude": 0.04,
+      "pan": 0.12,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0111",
+      "track": "order",
+      "part": "c-major-imitative-bass-subject",
+      "frame": 7450,
+      "sample": 5960000,
+      "timeSeconds": 124.16666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 293.6648,
+      "amplitude": 0.052,
+      "pan": -0.22,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0199",
+      "track": "order",
+      "part": "c-major-imitative-alto-subject-octave",
+      "frame": 7450,
+      "sample": 5960000,
+      "timeSeconds": 124.16666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 493.8834,
+      "amplitude": 0.044,
+      "pan": -0.08,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0155",
+      "track": "order",
+      "part": "c-major-imitative-tenor-dominant-answer",
+      "frame": 7450,
+      "sample": 5960000,
+      "timeSeconds": 124.16666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 523.2512,
+      "amplitude": 0.048,
+      "pan": 0.18,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0243",
+      "track": "order",
+      "part": "c-major-imitative-soprano-dominant-answer",
+      "frame": 7450,
+      "sample": 5960000,
+      "timeSeconds": 124.16666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 659.2552,
+      "amplitude": 0.04,
+      "pan": 0.12,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0112",
+      "track": "order",
+      "part": "c-major-imitative-bass-subject",
+      "frame": 7480,
+      "sample": 5984000,
+      "timeSeconds": 124.66666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 329.6276,
+      "amplitude": 0.052,
+      "pan": -0.22,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0200",
+      "track": "order",
+      "part": "c-major-imitative-alto-subject-octave",
+      "frame": 7480,
+      "sample": 5984000,
+      "timeSeconds": 124.66666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 440.0001,
+      "amplitude": 0.044,
+      "pan": -0.08,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0156",
+      "track": "order",
+      "part": "c-major-imitative-tenor-dominant-answer",
+      "frame": 7480,
+      "sample": 5984000,
+      "timeSeconds": 124.66666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 587.3296,
+      "amplitude": 0.048,
+      "pan": 0.18,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0244",
+      "track": "order",
+      "part": "c-major-imitative-soprano-dominant-answer",
+      "frame": 7480,
+      "sample": 5984000,
+      "timeSeconds": 124.66666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 698.4566,
+      "amplitude": 0.04,
+      "pan": 0.12,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0113",
+      "track": "order",
+      "part": "c-major-imitative-bass-subject",
+      "frame": 7510,
+      "sample": 6008000,
+      "timeSeconds": 125.16666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 391.9955,
+      "amplitude": 0.052,
+      "pan": -0.22,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0201",
+      "track": "order",
+      "part": "c-major-imitative-alto-subject-octave",
+      "frame": 7510,
+      "sample": 6008000,
+      "timeSeconds": 125.16666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 587.3296,
+      "amplitude": 0.044,
+      "pan": -0.08,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0157",
+      "track": "order",
+      "part": "c-major-imitative-tenor-dominant-answer",
+      "frame": 7510,
+      "sample": 6008000,
+      "timeSeconds": 125.16666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 659.2552,
+      "amplitude": 0.048,
+      "pan": 0.18,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0245",
+      "track": "order",
+      "part": "c-major-imitative-soprano-dominant-answer",
+      "frame": 7510,
+      "sample": 6008000,
+      "timeSeconds": 125.16666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 880.0001,
+      "amplitude": 0.04,
+      "pan": 0.12,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0114",
+      "track": "order",
+      "part": "c-major-imitative-bass-subject",
+      "frame": 7540,
+      "sample": 6032000,
+      "timeSeconds": 125.66666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 349.2283,
+      "amplitude": 0.052,
+      "pan": -0.22,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0158",
+      "track": "order",
+      "part": "c-major-imitative-tenor-dominant-answer",
+      "frame": 7540,
+      "sample": 6032000,
+      "timeSeconds": 125.66666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 391.9955,
+      "amplitude": 0.048,
+      "pan": 0.18,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0202",
+      "track": "order",
+      "part": "c-major-imitative-alto-subject-octave",
+      "frame": 7540,
+      "sample": 6032000,
+      "timeSeconds": 125.66666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 783.991,
+      "amplitude": 0.044,
+      "pan": -0.08,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0246",
+      "track": "order",
+      "part": "c-major-imitative-soprano-dominant-answer",
+      "frame": 7540,
+      "sample": 6032000,
+      "timeSeconds": 125.66666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 783.991,
+      "amplitude": 0.04,
+      "pan": 0.12,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0115",
+      "track": "order",
+      "part": "c-major-imitative-bass-subject",
+      "frame": 7570,
+      "sample": 6056000,
+      "timeSeconds": 126.16666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 329.6276,
+      "amplitude": 0.052,
+      "pan": -0.22,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0159",
+      "track": "order",
+      "part": "c-major-imitative-tenor-dominant-answer",
+      "frame": 7570,
+      "sample": 6056000,
+      "timeSeconds": 126.16666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 440.0001,
+      "amplitude": 0.048,
+      "pan": 0.18,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0203",
+      "track": "order",
+      "part": "c-major-imitative-alto-subject-octave",
+      "frame": 7570,
+      "sample": 6056000,
+      "timeSeconds": 126.16666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 698.4566,
+      "amplitude": 0.044,
+      "pan": -0.08,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0247",
+      "track": "order",
+      "part": "c-major-imitative-soprano-dominant-answer",
+      "frame": 7570,
+      "sample": 6056000,
+      "timeSeconds": 126.16666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 698.4566,
+      "amplitude": 0.04,
+      "pan": 0.12,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0116",
+      "track": "order",
+      "part": "c-major-imitative-bass-subject",
+      "frame": 7600,
+      "sample": 6080000,
+      "timeSeconds": 126.66666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 293.6648,
+      "amplitude": 0.052,
+      "pan": -0.22,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0160",
+      "track": "order",
+      "part": "c-major-imitative-tenor-dominant-answer",
+      "frame": 7600,
+      "sample": 6080000,
+      "timeSeconds": 126.66666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 493.8834,
+      "amplitude": 0.048,
+      "pan": 0.18,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0248",
+      "track": "order",
+      "part": "c-major-imitative-soprano-dominant-answer",
+      "frame": 7600,
+      "sample": 6080000,
+      "timeSeconds": 126.66666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 659.2552,
+      "amplitude": 0.04,
+      "pan": 0.12,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0204",
+      "track": "order",
+      "part": "c-major-imitative-alto-subject-octave",
+      "frame": 7600,
+      "sample": 6080000,
+      "timeSeconds": 126.66666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 783.991,
+      "amplitude": 0.044,
+      "pan": -0.08,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0117",
+      "track": "order",
+      "part": "c-major-imitative-bass-subject",
+      "frame": 7630,
+      "sample": 6104000,
+      "timeSeconds": 127.16666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 391.9955,
+      "amplitude": 0.052,
+      "pan": -0.22,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0161",
+      "track": "order",
+      "part": "c-major-imitative-tenor-dominant-answer",
+      "frame": 7630,
+      "sample": 6104000,
+      "timeSeconds": 127.16666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 587.3296,
+      "amplitude": 0.048,
+      "pan": 0.18,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0205",
+      "track": "order",
+      "part": "c-major-imitative-alto-subject-octave",
+      "frame": 7630,
+      "sample": 6104000,
+      "timeSeconds": 127.16666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 880.0001,
+      "amplitude": 0.044,
+      "pan": -0.08,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0249",
+      "track": "order",
+      "part": "c-major-imitative-soprano-dominant-answer",
+      "frame": 7630,
+      "sample": 6104000,
+      "timeSeconds": 127.16666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 880.0001,
+      "amplitude": 0.04,
+      "pan": 0.12,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0283",
+      "track": "order",
+      "part": "counterpoint-underlay-g-major",
+      "frame": 7660,
+      "sample": 6128000,
+      "timeSeconds": 127.66666666666667,
+      "durationFrames": 480,
+      "durationSeconds": 8,
+      "frequencyHz": 196,
+      "amplitude": 0.012960000000000001,
+      "pan": -0.10750000000000001,
+      "waveform": "soft-sine-pad",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0284",
+      "track": "order",
+      "part": "counterpoint-underlay-g-major",
+      "frame": 7660,
+      "sample": 6128000,
+      "timeSeconds": 127.66666666666667,
+      "durationFrames": 480,
+      "durationSeconds": 8,
+      "frequencyHz": 246.9417,
+      "amplitude": 0.012,
+      "pan": -0.0625,
+      "waveform": "soft-sine-pad",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0285",
+      "track": "order",
+      "part": "counterpoint-underlay-g-major",
+      "frame": 7660,
+      "sample": 6128000,
+      "timeSeconds": 127.66666666666667,
+      "durationFrames": 480,
+      "durationSeconds": 8,
+      "frequencyHz": 293.6648,
+      "amplitude": 0.012,
+      "pan": -0.0175,
+      "waveform": "soft-sine-pad",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0286",
+      "track": "order",
+      "part": "counterpoint-underlay-g-major",
+      "frame": 7660,
+      "sample": 6128000,
+      "timeSeconds": 127.66666666666667,
+      "durationFrames": 480,
+      "durationSeconds": 8,
+      "frequencyHz": 392,
+      "amplitude": 0.012,
+      "pan": 0.027500000000000004,
+      "waveform": "soft-sine-pad",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0118",
+      "track": "order",
+      "part": "c-major-imitative-bass-subject",
+      "frame": 7660,
+      "sample": 6128000,
+      "timeSeconds": 127.66666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 523.2512,
+      "amplitude": 0.052,
+      "pan": -0.22,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0162",
+      "track": "order",
+      "part": "c-major-imitative-tenor-dominant-answer",
+      "frame": 7660,
+      "sample": 6128000,
+      "timeSeconds": 127.66666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 523.2512,
+      "amplitude": 0.048,
+      "pan": 0.18,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0206",
+      "track": "order",
+      "part": "c-major-imitative-alto-subject-octave",
+      "frame": 7660,
+      "sample": 6128000,
+      "timeSeconds": 127.66666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 523.2512,
+      "amplitude": 0.044,
+      "pan": -0.08,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0250",
+      "track": "order",
+      "part": "c-major-imitative-soprano-dominant-answer",
+      "frame": 7660,
+      "sample": 6128000,
+      "timeSeconds": 127.66666666666667,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 1174.6592,
+      "amplitude": 0.04,
+      "pan": 0.12,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0119",
+      "track": "order",
+      "part": "c-major-imitative-bass-subject",
+      "frame": 7690,
+      "sample": 6152000,
+      "timeSeconds": 128.16666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 493.8834,
+      "amplitude": 0.052,
+      "pan": -0.22,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0163",
+      "track": "order",
+      "part": "c-major-imitative-tenor-dominant-answer",
+      "frame": 7690,
+      "sample": 6152000,
+      "timeSeconds": 128.16666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 493.8834,
+      "amplitude": 0.048,
+      "pan": 0.18,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0207",
+      "track": "order",
+      "part": "c-major-imitative-alto-subject-octave",
+      "frame": 7690,
+      "sample": 6152000,
+      "timeSeconds": 128.16666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 587.3296,
+      "amplitude": 0.044,
+      "pan": -0.08,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0251",
+      "track": "order",
+      "part": "c-major-imitative-soprano-dominant-answer",
+      "frame": 7690,
+      "sample": 6152000,
+      "timeSeconds": 128.16666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 1046.5024,
+      "amplitude": 0.04,
+      "pan": 0.12,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0164",
+      "track": "order",
+      "part": "c-major-imitative-tenor-dominant-answer",
+      "frame": 7720,
+      "sample": 6176000,
+      "timeSeconds": 128.66666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 440.0001,
+      "amplitude": 0.048,
+      "pan": 0.18,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0120",
+      "track": "order",
+      "part": "c-major-imitative-bass-subject",
+      "frame": 7720,
+      "sample": 6176000,
+      "timeSeconds": 128.66666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 523.2512,
+      "amplitude": 0.052,
+      "pan": -0.22,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0208",
+      "track": "order",
+      "part": "c-major-imitative-alto-subject-octave",
+      "frame": 7720,
+      "sample": 6176000,
+      "timeSeconds": 128.66666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 659.2552,
+      "amplitude": 0.044,
+      "pan": -0.08,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0252",
+      "track": "order",
+      "part": "c-major-imitative-soprano-dominant-answer",
+      "frame": 7720,
+      "sample": 6176000,
+      "timeSeconds": 128.66666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 1174.6592,
+      "amplitude": 0.04,
+      "pan": 0.12,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0121",
+      "track": "order",
+      "part": "c-major-imitative-bass-subject",
+      "frame": 7750,
+      "sample": 6200000,
+      "timeSeconds": 129.16666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 587.3296,
+      "amplitude": 0.052,
+      "pan": -0.22,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0165",
+      "track": "order",
+      "part": "c-major-imitative-tenor-dominant-answer",
+      "frame": 7750,
+      "sample": 6200000,
+      "timeSeconds": 129.16666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 587.3296,
+      "amplitude": 0.048,
+      "pan": 0.18,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0209",
+      "track": "order",
+      "part": "c-major-imitative-alto-subject-octave",
+      "frame": 7750,
+      "sample": 6200000,
+      "timeSeconds": 129.16666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 783.991,
+      "amplitude": 0.044,
+      "pan": -0.08,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0253",
+      "track": "order",
+      "part": "c-major-imitative-soprano-dominant-answer",
+      "frame": 7750,
+      "sample": 6200000,
+      "timeSeconds": 129.16666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 1318.5104,
+      "amplitude": 0.04,
+      "pan": 0.12,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0122",
+      "track": "order",
+      "part": "c-major-imitative-bass-subject",
+      "frame": 7780,
+      "sample": 6224000,
+      "timeSeconds": 129.66666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 130.8128,
+      "amplitude": 0.052,
+      "pan": -0.22,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0210",
+      "track": "order",
+      "part": "c-major-imitative-alto-subject-octave",
+      "frame": 7780,
+      "sample": 6224000,
+      "timeSeconds": 129.66666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 698.4566,
+      "amplitude": 0.044,
+      "pan": -0.08,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0166",
+      "track": "order",
+      "part": "c-major-imitative-tenor-dominant-answer",
+      "frame": 7780,
+      "sample": 6224000,
+      "timeSeconds": 129.66666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 783.991,
+      "amplitude": 0.048,
+      "pan": 0.18,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0254",
+      "track": "order",
+      "part": "c-major-imitative-soprano-dominant-answer",
+      "frame": 7780,
+      "sample": 6224000,
+      "timeSeconds": 129.66666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 783.991,
+      "amplitude": 0.04,
+      "pan": 0.12,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0123",
+      "track": "order",
+      "part": "c-major-imitative-bass-subject",
+      "frame": 7810,
+      "sample": 6248000,
+      "timeSeconds": 130.16666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 146.8324,
+      "amplitude": 0.052,
+      "pan": -0.22,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0211",
+      "track": "order",
+      "part": "c-major-imitative-alto-subject-octave",
+      "frame": 7810,
+      "sample": 6248000,
+      "timeSeconds": 130.16666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 659.2552,
+      "amplitude": 0.044,
+      "pan": -0.08,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0167",
+      "track": "order",
+      "part": "c-major-imitative-tenor-dominant-answer",
+      "frame": 7810,
+      "sample": 6248000,
+      "timeSeconds": 130.16666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 698.4566,
+      "amplitude": 0.048,
+      "pan": 0.18,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0255",
+      "track": "order",
+      "part": "c-major-imitative-soprano-dominant-answer",
+      "frame": 7810,
+      "sample": 6248000,
+      "timeSeconds": 130.16666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 880.0001,
+      "amplitude": 0.04,
+      "pan": 0.12,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0124",
+      "track": "order",
+      "part": "c-major-imitative-bass-subject",
+      "frame": 7840,
+      "sample": 6272000,
+      "timeSeconds": 130.66666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 164.8138,
+      "amplitude": 0.052,
+      "pan": -0.22,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0212",
+      "track": "order",
+      "part": "c-major-imitative-alto-subject-octave",
+      "frame": 7840,
+      "sample": 6272000,
+      "timeSeconds": 130.66666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 587.3296,
+      "amplitude": 0.044,
+      "pan": -0.08,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0168",
+      "track": "order",
+      "part": "c-major-imitative-tenor-dominant-answer",
+      "frame": 7840,
+      "sample": 6272000,
+      "timeSeconds": 130.66666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 783.991,
+      "amplitude": 0.048,
+      "pan": 0.18,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0256",
+      "track": "order",
+      "part": "c-major-imitative-soprano-dominant-answer",
+      "frame": 7840,
+      "sample": 6272000,
+      "timeSeconds": 130.66666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 987.7667,
+      "amplitude": 0.04,
+      "pan": 0.12,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0125",
+      "track": "order",
+      "part": "c-major-imitative-bass-subject",
+      "frame": 7870,
+      "sample": 6296000,
+      "timeSeconds": 131.16666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 195.9977,
+      "amplitude": 0.052,
+      "pan": -0.22,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0213",
+      "track": "order",
+      "part": "c-major-imitative-alto-subject-octave",
+      "frame": 7870,
+      "sample": 6296000,
+      "timeSeconds": 131.16666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 783.991,
+      "amplitude": 0.044,
+      "pan": -0.08,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0169",
+      "track": "order",
+      "part": "c-major-imitative-tenor-dominant-answer",
+      "frame": 7870,
+      "sample": 6296000,
+      "timeSeconds": 131.16666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 880.0001,
+      "amplitude": 0.048,
+      "pan": 0.18,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0257",
+      "track": "order",
+      "part": "c-major-imitative-soprano-dominant-answer",
+      "frame": 7870,
+      "sample": 6296000,
+      "timeSeconds": 131.16666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 1174.6592,
+      "amplitude": 0.04,
+      "pan": 0.12,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0126",
+      "track": "order",
+      "part": "c-major-imitative-bass-subject",
+      "frame": 7900,
+      "sample": 6320000,
+      "timeSeconds": 131.66666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 174.6141,
+      "amplitude": 0.052,
+      "pan": -0.22,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0170",
+      "track": "order",
+      "part": "c-major-imitative-tenor-dominant-answer",
+      "frame": 7900,
+      "sample": 6320000,
+      "timeSeconds": 131.66666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 195.9977,
+      "amplitude": 0.048,
+      "pan": 0.18,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0214",
+      "track": "order",
+      "part": "c-major-imitative-alto-subject-octave",
+      "frame": 7900,
+      "sample": 6320000,
+      "timeSeconds": 131.66666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 1046.5024,
+      "amplitude": 0.044,
+      "pan": -0.08,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0258",
+      "track": "order",
+      "part": "c-major-imitative-soprano-dominant-answer",
+      "frame": 7900,
+      "sample": 6320000,
+      "timeSeconds": 131.66666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 1046.5024,
+      "amplitude": 0.04,
+      "pan": 0.12,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0127",
+      "track": "order",
+      "part": "c-major-imitative-bass-subject",
+      "frame": 7930,
+      "sample": 6344000,
+      "timeSeconds": 132.16666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 195.9977,
+      "amplitude": 0.052,
+      "pan": -0.22,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0171",
+      "track": "order",
+      "part": "c-major-imitative-tenor-dominant-answer",
+      "frame": 7930,
+      "sample": 6344000,
+      "timeSeconds": 132.16666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 220,
+      "amplitude": 0.048,
+      "pan": 0.18,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0215",
+      "track": "order",
+      "part": "c-major-imitative-alto-subject-octave",
+      "frame": 7930,
+      "sample": 6344000,
+      "timeSeconds": 132.16666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 987.7667,
+      "amplitude": 0.044,
+      "pan": -0.08,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0259",
+      "track": "order",
+      "part": "c-major-imitative-soprano-dominant-answer",
+      "frame": 7930,
+      "sample": 6344000,
+      "timeSeconds": 132.16666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 987.7667,
+      "amplitude": 0.04,
+      "pan": 0.12,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0128",
+      "track": "order",
+      "part": "c-major-imitative-bass-subject",
+      "frame": 7960,
+      "sample": 6368000,
+      "timeSeconds": 132.66666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 220,
+      "amplitude": 0.052,
+      "pan": -0.22,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0172",
+      "track": "order",
+      "part": "c-major-imitative-tenor-dominant-answer",
+      "frame": 7960,
+      "sample": 6368000,
+      "timeSeconds": 132.66666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 246.9417,
+      "amplitude": 0.048,
+      "pan": 0.18,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0260",
+      "track": "order",
+      "part": "c-major-imitative-soprano-dominant-answer",
+      "frame": 7960,
+      "sample": 6368000,
+      "timeSeconds": 132.66666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 880.0001,
+      "amplitude": 0.04,
+      "pan": 0.12,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0216",
+      "track": "order",
+      "part": "c-major-imitative-alto-subject-octave",
+      "frame": 7960,
+      "sample": 6368000,
+      "timeSeconds": 132.66666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 1046.5024,
+      "amplitude": 0.044,
+      "pan": -0.08,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0129",
+      "track": "order",
+      "part": "c-major-imitative-bass-subject",
+      "frame": 7990,
+      "sample": 6392000,
+      "timeSeconds": 133.16666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 261.6256,
+      "amplitude": 0.052,
+      "pan": -0.22,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0173",
+      "track": "order",
+      "part": "c-major-imitative-tenor-dominant-answer",
+      "frame": 7990,
+      "sample": 6392000,
+      "timeSeconds": 133.16666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 293.6648,
+      "amplitude": 0.048,
+      "pan": 0.18,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0217",
+      "track": "order",
+      "part": "c-major-imitative-alto-subject-octave",
+      "frame": 7990,
+      "sample": 6392000,
+      "timeSeconds": 133.16666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 1174.6592,
+      "amplitude": 0.044,
+      "pan": -0.08,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0261",
+      "track": "order",
+      "part": "c-major-imitative-soprano-dominant-answer",
+      "frame": 7990,
+      "sample": 6392000,
+      "timeSeconds": 133.16666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 1174.6592,
+      "amplitude": 0.04,
+      "pan": 0.12,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0130",
+      "track": "order",
+      "part": "c-major-imitative-bass-subject",
+      "frame": 8020,
+      "sample": 6416000,
+      "timeSeconds": 133.66666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 195.9977,
+      "amplitude": 0.052,
+      "pan": -0.22,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0174",
+      "track": "order",
+      "part": "c-major-imitative-tenor-dominant-answer",
+      "frame": 8020,
+      "sample": 6416000,
+      "timeSeconds": 133.66666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 261.6256,
+      "amplitude": 0.048,
+      "pan": 0.18,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0218",
+      "track": "order",
+      "part": "c-major-imitative-alto-subject-octave",
+      "frame": 8020,
+      "sample": 6416000,
+      "timeSeconds": 133.66666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 261.6256,
+      "amplitude": 0.044,
+      "pan": -0.08,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0262",
+      "track": "order",
+      "part": "c-major-imitative-soprano-dominant-answer",
+      "frame": 8020,
+      "sample": 6416000,
+      "timeSeconds": 133.66666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 1567.982,
+      "amplitude": 0.04,
+      "pan": 0.12,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0131",
+      "track": "order",
+      "part": "c-major-imitative-bass-subject",
+      "frame": 8050,
+      "sample": 6440000,
+      "timeSeconds": 134.16666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 174.6141,
+      "amplitude": 0.052,
+      "pan": -0.22,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0175",
+      "track": "order",
+      "part": "c-major-imitative-tenor-dominant-answer",
+      "frame": 8050,
+      "sample": 6440000,
+      "timeSeconds": 134.16666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 293.6648,
+      "amplitude": 0.048,
+      "pan": 0.18,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0219",
+      "track": "order",
+      "part": "c-major-imitative-alto-subject-octave",
+      "frame": 8050,
+      "sample": 6440000,
+      "timeSeconds": 134.16666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 293.6648,
+      "amplitude": 0.044,
+      "pan": -0.08,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0263",
+      "track": "order",
+      "part": "c-major-imitative-soprano-dominant-answer",
+      "frame": 8050,
+      "sample": 6440000,
+      "timeSeconds": 134.16666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 1396.9131,
+      "amplitude": 0.04,
+      "pan": 0.12,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0132",
+      "track": "order",
+      "part": "c-major-imitative-bass-subject",
+      "frame": 8080,
+      "sample": 6464000,
+      "timeSeconds": 134.66666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 164.8138,
+      "amplitude": 0.052,
+      "pan": -0.22,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0176",
+      "track": "order",
+      "part": "c-major-imitative-tenor-dominant-answer",
+      "frame": 8080,
+      "sample": 6464000,
+      "timeSeconds": 134.66666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 329.6276,
+      "amplitude": 0.048,
+      "pan": 0.18,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0220",
+      "track": "order",
+      "part": "c-major-imitative-alto-subject-octave",
+      "frame": 8080,
+      "sample": 6464000,
+      "timeSeconds": 134.66666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 329.6276,
+      "amplitude": 0.044,
+      "pan": -0.08,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0264",
+      "track": "order",
+      "part": "c-major-imitative-soprano-dominant-answer",
+      "frame": 8080,
+      "sample": 6464000,
+      "timeSeconds": 134.66666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 1567.982,
+      "amplitude": 0.04,
+      "pan": 0.12,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0133",
+      "track": "order",
+      "part": "c-major-imitative-bass-subject",
+      "frame": 8110,
+      "sample": 6488000,
+      "timeSeconds": 135.16666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 130.8128,
+      "amplitude": 0.052,
+      "pan": -0.22,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0177",
+      "track": "order",
+      "part": "c-major-imitative-tenor-dominant-answer",
+      "frame": 8110,
+      "sample": 6488000,
+      "timeSeconds": 135.16666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 391.9955,
+      "amplitude": 0.048,
+      "pan": 0.18,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0221",
+      "track": "order",
+      "part": "c-major-imitative-alto-subject-octave",
+      "frame": 8110,
+      "sample": 6488000,
+      "timeSeconds": 135.16666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 391.9955,
+      "amplitude": 0.044,
+      "pan": -0.08,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0265",
+      "track": "order",
+      "part": "c-major-imitative-soprano-dominant-answer",
+      "frame": 8110,
+      "sample": 6488000,
+      "timeSeconds": 135.16666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 1760.0002,
+      "amplitude": 0.04,
+      "pan": 0.12,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0287",
+      "track": "order",
+      "part": "counterpoint-underlay-c-major-return",
+      "frame": 8140,
+      "sample": 6512000,
+      "timeSeconds": 135.66666666666666,
+      "durationFrames": 260,
+      "durationSeconds": 4.333333333333333,
+      "frequencyHz": 130.8128,
+      "amplitude": 0.01404,
+      "pan": -0.027500000000000004,
+      "waveform": "soft-sine-pad",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0288",
+      "track": "order",
+      "part": "counterpoint-underlay-c-major-return",
+      "frame": 8140,
+      "sample": 6512000,
+      "timeSeconds": 135.66666666666666,
+      "durationFrames": 260,
+      "durationSeconds": 4.333333333333333,
+      "frequencyHz": 164.8138,
+      "amplitude": 0.013,
+      "pan": 0.0175,
+      "waveform": "soft-sine-pad",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0289",
+      "track": "order",
+      "part": "counterpoint-underlay-c-major-return",
+      "frame": 8140,
+      "sample": 6512000,
+      "timeSeconds": 135.66666666666666,
+      "durationFrames": 260,
+      "durationSeconds": 4.333333333333333,
+      "frequencyHz": 196,
+      "amplitude": 0.013,
+      "pan": 0.0625,
+      "waveform": "soft-sine-pad",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0290",
+      "track": "order",
+      "part": "counterpoint-underlay-c-major-return",
+      "frame": 8140,
+      "sample": 6512000,
+      "timeSeconds": 135.66666666666666,
+      "durationFrames": 260,
+      "durationSeconds": 4.333333333333333,
+      "frequencyHz": 261.6256,
+      "amplitude": 0.013,
+      "pan": 0.10750000000000001,
+      "waveform": "soft-sine-pad",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0178",
+      "track": "order",
+      "part": "c-major-imitative-tenor-dominant-answer",
+      "frame": 8140,
+      "sample": 6512000,
+      "timeSeconds": 135.66666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 293.6648,
+      "amplitude": 0.048,
+      "pan": 0.18,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0222",
+      "track": "order",
+      "part": "c-major-imitative-alto-subject-octave",
+      "frame": 8140,
+      "sample": 6512000,
+      "timeSeconds": 135.66666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 349.2283,
+      "amplitude": 0.044,
+      "pan": -0.08,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0266",
+      "track": "order",
+      "part": "c-major-imitative-soprano-dominant-answer",
+      "frame": 8140,
+      "sample": 6512000,
+      "timeSeconds": 135.66666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 391.9955,
+      "amplitude": 0.04,
+      "pan": 0.12,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0179",
+      "track": "order",
+      "part": "c-major-imitative-tenor-dominant-answer",
+      "frame": 8170,
+      "sample": 6536000,
+      "timeSeconds": 136.16666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 261.6256,
+      "amplitude": 0.048,
+      "pan": 0.18,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0223",
+      "track": "order",
+      "part": "c-major-imitative-alto-subject-octave",
+      "frame": 8170,
+      "sample": 6536000,
+      "timeSeconds": 136.16666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 391.9955,
+      "amplitude": 0.044,
+      "pan": -0.08,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0267",
+      "track": "order",
+      "part": "c-major-imitative-soprano-dominant-answer",
+      "frame": 8170,
+      "sample": 6536000,
+      "timeSeconds": 136.16666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 440.0001,
+      "amplitude": 0.04,
+      "pan": 0.12,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0180",
+      "track": "order",
+      "part": "c-major-imitative-tenor-dominant-answer",
+      "frame": 8200,
+      "sample": 6560000,
+      "timeSeconds": 136.66666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 246.9417,
+      "amplitude": 0.048,
+      "pan": 0.18,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0224",
+      "track": "order",
+      "part": "c-major-imitative-alto-subject-octave",
+      "frame": 8200,
+      "sample": 6560000,
+      "timeSeconds": 136.66666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 440.0001,
+      "amplitude": 0.044,
+      "pan": -0.08,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0268",
+      "track": "order",
+      "part": "c-major-imitative-soprano-dominant-answer",
+      "frame": 8200,
+      "sample": 6560000,
+      "timeSeconds": 136.66666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 493.8834,
+      "amplitude": 0.04,
+      "pan": 0.12,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0181",
+      "track": "order",
+      "part": "c-major-imitative-tenor-dominant-answer",
+      "frame": 8230,
+      "sample": 6584000,
+      "timeSeconds": 137.16666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 195.9977,
+      "amplitude": 0.048,
+      "pan": 0.18,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0225",
+      "track": "order",
+      "part": "c-major-imitative-alto-subject-octave",
+      "frame": 8230,
+      "sample": 6584000,
+      "timeSeconds": 137.16666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 523.2512,
+      "amplitude": 0.044,
+      "pan": -0.08,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0269",
+      "track": "order",
+      "part": "c-major-imitative-soprano-dominant-answer",
+      "frame": 8230,
+      "sample": 6584000,
+      "timeSeconds": 137.16666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 587.3296,
+      "amplitude": 0.04,
+      "pan": 0.12,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0226",
+      "track": "order",
+      "part": "c-major-imitative-alto-subject-octave",
+      "frame": 8260,
+      "sample": 6608000,
+      "timeSeconds": 137.66666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 391.9955,
+      "amplitude": 0.044,
+      "pan": -0.08,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0270",
+      "track": "order",
+      "part": "c-major-imitative-soprano-dominant-answer",
+      "frame": 8260,
+      "sample": 6608000,
+      "timeSeconds": 137.66666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 523.2512,
+      "amplitude": 0.04,
+      "pan": 0.12,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0227",
+      "track": "order",
+      "part": "c-major-imitative-alto-subject-octave",
+      "frame": 8290,
+      "sample": 6632000,
+      "timeSeconds": 138.16666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 349.2283,
+      "amplitude": 0.044,
+      "pan": -0.08,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0271",
+      "track": "order",
+      "part": "c-major-imitative-soprano-dominant-answer",
+      "frame": 8290,
+      "sample": 6632000,
+      "timeSeconds": 138.16666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 587.3296,
+      "amplitude": 0.04,
+      "pan": 0.12,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0228",
+      "track": "order",
+      "part": "c-major-imitative-alto-subject-octave",
+      "frame": 8320,
+      "sample": 6656000,
+      "timeSeconds": 138.66666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 329.6276,
+      "amplitude": 0.044,
+      "pan": -0.08,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0272",
+      "track": "order",
+      "part": "c-major-imitative-soprano-dominant-answer",
+      "frame": 8320,
+      "sample": 6656000,
+      "timeSeconds": 138.66666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 659.2552,
+      "amplitude": 0.04,
+      "pan": 0.12,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0229",
+      "track": "order",
+      "part": "c-major-imitative-alto-subject-octave",
+      "frame": 8350,
+      "sample": 6680000,
+      "timeSeconds": 139.16666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 261.6256,
+      "amplitude": 0.044,
+      "pan": -0.08,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0273",
+      "track": "order",
+      "part": "c-major-imitative-soprano-dominant-answer",
+      "frame": 8350,
+      "sample": 6680000,
+      "timeSeconds": 139.16666666666666,
+      "durationFrames": 28,
+      "durationSeconds": 0.4666666666666667,
+      "frequencyHz": 783.991,
+      "amplitude": 0.04,
+      "pan": 0.12,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0274",
+      "track": "order",
+      "part": "c-major-imitative-soprano-dominant-answer",
+      "frame": 8380,
+      "sample": 6704000,
+      "timeSeconds": 139.66666666666666,
+      "durationFrames": 20,
+      "durationSeconds": 0.3333333333333333,
+      "frequencyHz": 587.3296,
+      "amplitude": 0.04,
+      "pan": 0.12,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.78,
+        0.17,
+        0.05
+      ],
+      "echoDelayFrames": 54,
+      "echoGain": 0.16
+    },
+    {
+      "id": "note-0291",
+      "track": "order",
+      "part": "golden-sustained-resolution-chord",
+      "frame": 8400,
+      "sample": 6720000,
+      "timeSeconds": 140,
+      "durationFrames": 600,
+      "durationSeconds": 10,
+      "frequencyHz": 130.8128,
+      "amplitude": 0.012,
+      "pan": -0.0825,
+      "waveform": "soft-sine-pad",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0292",
+      "track": "order",
+      "part": "golden-sustained-resolution-chord",
+      "frame": 8400,
+      "sample": 6720000,
+      "timeSeconds": 140,
+      "durationFrames": 600,
+      "durationSeconds": 10,
+      "frequencyHz": 164.8138,
+      "amplitude": 0.012,
+      "pan": -0.0275,
+      "waveform": "soft-sine-pad",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0293",
+      "track": "order",
+      "part": "golden-sustained-resolution-chord",
+      "frame": 8400,
+      "sample": 6720000,
+      "timeSeconds": 140,
+      "durationFrames": 600,
+      "durationSeconds": 10,
+      "frequencyHz": 196,
+      "amplitude": 0.012,
+      "pan": 0.0275,
+      "waveform": "soft-sine-pad",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0294",
+      "track": "order",
+      "part": "golden-sustained-resolution-chord",
+      "frame": 8400,
+      "sample": 6720000,
+      "timeSeconds": 140,
+      "durationFrames": 600,
+      "durationSeconds": 10,
+      "frequencyHz": 261.6256,
+      "amplitude": 0.012,
+      "pan": 0.0825,
+      "waveform": "soft-sine-pad",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0307",
+      "track": "order",
+      "part": "final-resolution-phrase",
+      "frame": 8400,
+      "sample": 6720000,
+      "timeSeconds": 140,
+      "durationFrames": 210,
+      "durationSeconds": 3.5,
+      "frequencyHz": 392,
+      "amplitude": 0.027,
+      "pan": 0,
+      "waveform": "sine",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0308",
+      "track": "order",
+      "part": "final-resolution-phrase",
+      "frame": 8700,
+      "sample": 6960000,
+      "timeSeconds": 145,
+      "durationFrames": 210,
+      "durationSeconds": 3.5,
+      "frequencyHz": 440,
+      "amplitude": 0.027,
+      "pan": 0.07912616063657676,
+      "waveform": "sine",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0295",
+      "track": "order",
+      "part": "golden-sustained-resolution-chord",
+      "frame": 9000,
+      "sample": 7200000,
+      "timeSeconds": 150,
+      "durationFrames": 600,
+      "durationSeconds": 10,
+      "frequencyHz": 174.6141,
+      "amplitude": 0.012,
+      "pan": -0.0825,
+      "waveform": "soft-sine-pad",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0296",
+      "track": "order",
+      "part": "golden-sustained-resolution-chord",
+      "frame": 9000,
+      "sample": 7200000,
+      "timeSeconds": 150,
+      "durationFrames": 600,
+      "durationSeconds": 10,
+      "frequencyHz": 220,
+      "amplitude": 0.012,
+      "pan": -0.0275,
+      "waveform": "soft-sine-pad",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0297",
+      "track": "order",
+      "part": "golden-sustained-resolution-chord",
+      "frame": 9000,
+      "sample": 7200000,
+      "timeSeconds": 150,
+      "durationFrames": 600,
+      "durationSeconds": 10,
+      "frequencyHz": 261.6256,
+      "amplitude": 0.012,
+      "pan": 0.0275,
+      "waveform": "soft-sine-pad",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0298",
+      "track": "order",
+      "part": "golden-sustained-resolution-chord",
+      "frame": 9000,
+      "sample": 7200000,
+      "timeSeconds": 150,
+      "durationFrames": 600,
+      "durationSeconds": 10,
+      "frequencyHz": 349.2282,
+      "amplitude": 0.012,
+      "pan": 0.0825,
+      "waveform": "soft-sine-pad",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0309",
+      "track": "order",
+      "part": "final-resolution-phrase",
+      "frame": 9000,
+      "sample": 7200000,
+      "timeSeconds": 150,
+      "durationFrames": 210,
+      "durationSeconds": 3.5,
+      "frequencyHz": 392,
+      "amplitude": 0.027,
+      "pan": 0.11897500178300237,
+      "waveform": "sine",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0310",
+      "track": "order",
+      "part": "final-resolution-phrase",
+      "frame": 9300,
+      "sample": 7440000,
+      "timeSeconds": 155,
+      "durationFrames": 210,
+      "durationSeconds": 3.5,
+      "frequencyHz": 329.6276,
+      "amplitude": 0.027,
+      "pan": 0.09976601529344196,
+      "waveform": "sine",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0299",
+      "track": "order",
+      "part": "golden-sustained-resolution-chord",
+      "frame": 9600,
+      "sample": 7680000,
+      "timeSeconds": 160,
+      "durationFrames": 600,
+      "durationSeconds": 10,
+      "frequencyHz": 196,
+      "amplitude": 0.012,
+      "pan": -0.0825,
+      "waveform": "soft-sine-pad",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0300",
+      "track": "order",
+      "part": "golden-sustained-resolution-chord",
+      "frame": 9600,
+      "sample": 7680000,
+      "timeSeconds": 160,
+      "durationFrames": 600,
+      "durationSeconds": 10,
+      "frequencyHz": 246.9417,
+      "amplitude": 0.012,
+      "pan": -0.0275,
+      "waveform": "soft-sine-pad",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0301",
+      "track": "order",
+      "part": "golden-sustained-resolution-chord",
+      "frame": 9600,
+      "sample": 7680000,
+      "timeSeconds": 160,
+      "durationFrames": 600,
+      "durationSeconds": 10,
+      "frequencyHz": 293.6648,
+      "amplitude": 0.012,
+      "pan": 0.0275,
+      "waveform": "soft-sine-pad",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0311",
+      "track": "order",
+      "part": "final-resolution-phrase",
+      "frame": 9600,
+      "sample": 7680000,
+      "timeSeconds": 160,
+      "durationFrames": 210,
+      "durationSeconds": 3.5,
+      "frequencyHz": 293.6648,
+      "amplitude": 0.027,
+      "pan": 0.031034321959333297,
+      "waveform": "sine",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0302",
+      "track": "order",
+      "part": "golden-sustained-resolution-chord",
+      "frame": 9600,
+      "sample": 7680000,
+      "timeSeconds": 160,
+      "durationFrames": 600,
+      "durationSeconds": 10,
+      "frequencyHz": 392,
+      "amplitude": 0.012,
+      "pan": 0.0825,
+      "waveform": "soft-sine-pad",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0312",
+      "track": "order",
+      "part": "final-resolution-phrase",
+      "frame": 9900,
+      "sample": 7920000,
+      "timeSeconds": 165,
+      "durationFrames": 210,
+      "durationSeconds": 3.5,
+      "frequencyHz": 261.6256,
+      "amplitude": 0.027,
+      "pan": -0.053102453195382246,
+      "waveform": "sine",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0303",
+      "track": "order",
+      "part": "golden-sustained-resolution-chord",
+      "frame": 10200,
+      "sample": 8160000,
+      "timeSeconds": 170,
+      "durationFrames": 600,
+      "durationSeconds": 10,
+      "frequencyHz": 130.8128,
+      "amplitude": 0.012,
+      "pan": -0.0825,
+      "waveform": "soft-sine-pad",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0304",
+      "track": "order",
+      "part": "golden-sustained-resolution-chord",
+      "frame": 10200,
+      "sample": 8160000,
+      "timeSeconds": 170,
+      "durationFrames": 600,
+      "durationSeconds": 10,
+      "frequencyHz": 164.8138,
+      "amplitude": 0.012,
+      "pan": -0.0275,
+      "waveform": "soft-sine-pad",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0305",
+      "track": "order",
+      "part": "golden-sustained-resolution-chord",
+      "frame": 10200,
+      "sample": 8160000,
+      "timeSeconds": 170,
+      "durationFrames": 600,
+      "durationSeconds": 10,
+      "frequencyHz": 196,
+      "amplitude": 0.012,
+      "pan": 0.0275,
+      "waveform": "soft-sine-pad",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0306",
+      "track": "order",
+      "part": "golden-sustained-resolution-chord",
+      "frame": 10200,
+      "sample": 8160000,
+      "timeSeconds": 170,
+      "durationFrames": 600,
+      "durationSeconds": 10,
+      "frequencyHz": 261.6256,
+      "amplitude": 0.012,
+      "pan": 0.0825,
+      "waveform": "soft-sine-pad",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0313",
+      "track": "order",
+      "part": "final-resolution-phrase",
+      "frame": 10200,
+      "sample": 8160000,
+      "timeSeconds": 170,
+      "durationFrames": 360,
+      "durationSeconds": 6,
+      "frequencyHz": 261.6256,
+      "amplitude": 0.033,
+      "pan": -0.11087977904678255,
+      "waveform": "sine",
+      "partials": [
+        1
+      ]
+    },
+    {
+      "id": "note-0314",
+      "track": "order",
+      "part": "final-hook-stereo-pulse-left",
+      "frame": 10550,
+      "sample": 8440000,
+      "timeSeconds": 175.83333333333334,
+      "durationFrames": 84,
+      "durationSeconds": 1.4,
+      "frequencyHz": 523.2511,
+      "amplitude": 0.026,
+      "pan": -0.48,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.9,
+        0.1
+      ]
+    },
+    {
+      "id": "note-0315",
+      "track": "order",
+      "part": "final-hook-stereo-pulse-right",
+      "frame": 10580,
+      "sample": 8464000,
+      "timeSeconds": 176.33333333333334,
+      "durationFrames": 84,
+      "durationSeconds": 1.4,
+      "frequencyHz": 659.2551,
+      "amplitude": 0.022,
+      "pan": 0.48,
+      "waveform": "soft-organ-sine",
+      "partials": [
+        0.9,
+        0.1
+      ]
+    }
+  ]
+}

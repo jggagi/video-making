@@ -1,0 +1,339 @@
+{
+  "checkedAt": "2026-10-12T00:41:12.648Z",
+  "film": "狂人日记-男声配音版-v2-1080p.mp4",
+  "sha256": "7d709339a515cb45d01bfabfd82f7101045e40658b1be79565e851b40303681c",
+  "sizeBytes": 57635815,
+  "provider": "Bailian",
+  "model": "cosyvoice-v3-flash",
+  "voice": "longsanshu_v3",
+  "sourceVoiceManifest": {
+    "path": "public/madman/voice-v2/manifest.json",
+    "sha256": "abb23cdc81bf5f925b353c49fa30c9174d4238432684d0d48edb9496506f4bf9"
+  },
+  "mixManifest": {
+    "path": "public/madman/audio/voiced-v2-manifest.json",
+    "sha256": "fc812d5f14779d2025bd424e715f853eec2bf513d1e54153dfc15f82e27b9481"
+  },
+  "sourceTimeline": {
+    "sha256": "447c3cd9915091a8c759a74bce7b4e9832016633a7ad7cfc4c4fe51f6652b605",
+    "frames": 2160,
+    "durationSeconds": 90
+  },
+  "timeline": {
+    "path": "src/madman/voiced-timeline.json",
+    "sha256": "025165c0d0d7fccfa40ef797469ff35ac3caac2fe2c2b3ea7f20451081848b39",
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "frames": 2192,
+    "durationSeconds": 91.33333333333333,
+    "shotCount": 8,
+    "shotsContinuousAndInBounds": true,
+    "sourceShotIDsAssetsAndTextUnchanged": true,
+    "cueCount": 11,
+    "cuesOrderedAndNonoverlapping": true
+  },
+  "voiceCoverage": {
+    "allSpeechStartsOnCaptionStart": true,
+    "everyCueFullyCoveredByCaptionAndShot": true,
+    "cues": [
+      {
+        "id": "moon-1",
+        "shotId": "moon",
+        "captionStartFrame": 168,
+        "captionEndFrame": 378,
+        "speechStartFrame": 168,
+        "speechStartSample": 336000,
+        "speechEndSampleExclusive": 497344,
+        "captionCoversSpeech": true,
+        "shotCoversSpeech": true,
+        "voiceSha256": "dc472ad47562cee1bfe63b4fcc765c11f491a470bafbbe30d19d8d4cd3528efb"
+      },
+      {
+        "id": "watch-1",
+        "shotId": "watch",
+        "captionStartFrame": 432,
+        "captionEndFrame": 540,
+        "speechStartFrame": 432,
+        "speechStartSample": 864000,
+        "speechEndSampleExclusive": 1021310,
+        "captionCoversSpeech": true,
+        "shotCoversSpeech": true,
+        "voiceSha256": "e6c34b9c01019bb34cdb73a4d5f74f3aa6eece096b14d19b575f245d52f832c8"
+      },
+      {
+        "id": "watch-2",
+        "shotId": "watch",
+        "captionStartFrame": 552,
+        "captionEndFrame": 672,
+        "speechStartFrame": 552,
+        "speechStartSample": 1104000,
+        "speechEndSampleExclusive": 1301648,
+        "captionCoversSpeech": true,
+        "shotCoversSpeech": true,
+        "voiceSha256": "d1fe5fa5d99bd0e79f13920ee7060b13237eb2994d846cbd1c3ce279eec0300b"
+      },
+      {
+        "id": "history-1",
+        "shotId": "history",
+        "captionStartFrame": 716,
+        "captionEndFrame": 862,
+        "speechStartFrame": 716,
+        "speechStartSample": 1432000,
+        "speechEndSampleExclusive": 1633680,
+        "captionCoversSpeech": true,
+        "shotCoversSpeech": true,
+        "voiceSha256": "00ca1e3d8e97840e625c92dbdb5eff98de124097448261ac354f3988add7004b"
+      },
+      {
+        "id": "history-2",
+        "shotId": "history",
+        "captionStartFrame": 870,
+        "captionEndFrame": 1008,
+        "speechStartFrame": 870,
+        "speechStartSample": 1740000,
+        "speechEndSampleExclusive": 1998152,
+        "captionCoversSpeech": true,
+        "shotCoversSpeech": true,
+        "voiceSha256": "0ba0a6e79bd78b0873d1869773d07eed2cb1796d3bcf34cc885ae4121f4c3a75"
+      },
+      {
+        "id": "history-3",
+        "shotId": "history",
+        "captionStartFrame": 1016,
+        "captionEndFrame": 1142,
+        "speechStartFrame": 1016,
+        "speechStartSample": 2032000,
+        "speechEndSampleExclusive": 2177210,
+        "captionCoversSpeech": true,
+        "shotCoversSpeech": true,
+        "voiceSha256": "6035e73f3bb451ff705b09e8571cee22121e73dec3cbb862e44545eb1b628069"
+      },
+      {
+        "id": "question-1",
+        "shotId": "question",
+        "captionStartFrame": 1200,
+        "captionEndFrame": 1420,
+        "speechStartFrame": 1200,
+        "speechStartSample": 2400000,
+        "speechEndSampleExclusive": 2521008,
+        "captionCoversSpeech": true,
+        "shotCoversSpeech": true,
+        "voiceSha256": "20f28a2233f0e16e0b21b80fc34af5a23c00730691c652c6f1fe7f48a73d5c62"
+      },
+      {
+        "id": "complicity-1",
+        "shotId": "complicity",
+        "captionStartFrame": 1472,
+        "captionEndFrame": 1600,
+        "speechStartFrame": 1472,
+        "speechStartSample": 2944000,
+        "speechEndSampleExclusive": 3081142,
+        "captionCoversSpeech": true,
+        "shotCoversSpeech": true,
+        "voiceSha256": "54d8ec84b5eddc0037620da2dea39b1b644301973018e9a62499e214131dbbc4"
+      },
+      {
+        "id": "complicity-2",
+        "shotId": "complicity",
+        "captionStartFrame": 1608,
+        "captionEndFrame": 1736,
+        "speechStartFrame": 1608,
+        "speechStartSample": 3216000,
+        "speechEndSampleExclusive": 3429782,
+        "captionCoversSpeech": true,
+        "shotCoversSpeech": true,
+        "voiceSha256": "361e0276856b4626a616335807a8515e0180005442654ce4e90c505b70f115ee"
+      },
+      {
+        "id": "children-1",
+        "shotId": "children",
+        "captionStartFrame": 1786,
+        "captionEndFrame": 2000,
+        "speechStartFrame": 1786,
+        "speechStartSample": 3572000,
+        "speechEndSampleExclusive": 3769648,
+        "captionCoversSpeech": true,
+        "shotCoversSpeech": true,
+        "voiceSha256": "aea6544c5c92be7edd7a88acc6db66812e037a22ff248517b9e33cf8531d89d1"
+      },
+      {
+        "id": "plea-1",
+        "shotId": "plea",
+        "captionStartFrame": 2034,
+        "captionEndFrame": 2184,
+        "speechStartFrame": 2034,
+        "speechStartSample": 4068000,
+        "speechEndSampleExclusive": 4148672,
+        "captionCoversSpeech": true,
+        "shotCoversSpeech": true,
+        "voiceSha256": "5489b211ea52d8d178dd218f0b5f569ac4b7c04f334acee139d7e26b1d64ab67"
+      }
+    ]
+  },
+  "mixedWav": {
+    "path": "public/madman/audio/voiced-v2.wav",
+    "sha256": "f9f4d8a624113b04904df26e1e897d937b67da081b1dbe07b1bbab9a61ba00e7",
+    "codec": "pcm_s16le",
+    "sampleRateHz": 48000,
+    "channels": 2,
+    "bitDepth": 16,
+    "durationSeconds": 91.333333,
+    "peakDbfs": -4.145559,
+    "rmsDbfs": -26.558471
+  },
+  "video": {
+    "codec": "h264",
+    "width": 1920,
+    "height": 1080,
+    "frameRate": "24/1",
+    "frames": 2192,
+    "streamDurationSeconds": 91.333333,
+    "containerDurationSeconds": 91.349,
+    "pixelFormat": "yuv420p",
+    "colorSpace": "bt709",
+    "colorRange": "tv",
+    "fastStart": true,
+    "fullDecode": "passed; video and audio, no errors"
+  },
+  "encodedAudio": {
+    "codec": "aac",
+    "sampleRateHz": 48000,
+    "channels": 2,
+    "durationSeconds": 91.349,
+    "peakDbfs": -4.187614,
+    "rmsDbfs": -26.592627
+  },
+  "finalFrames": {
+    "extracted": true,
+    "inspected": true,
+    "files": [
+      {
+        "name": "title",
+        "frame": 104,
+        "path": "out/madman/final-voice-v2-title.png",
+        "sha256": "dd48bd4e6668648562730e7f3a6ad103c354a041c377edd2229d5cd45d46380d",
+        "inspected": true
+      },
+      {
+        "name": "moon",
+        "frame": 334,
+        "path": "out/madman/final-voice-v2-moon.png",
+        "sha256": "cece9a25a197ea3aed8517ef389b8a4ddaafb79dfd6ce1fb46088cdb9f7bc636",
+        "inspected": true
+      },
+      {
+        "name": "watch",
+        "frame": 615,
+        "path": "out/madman/final-voice-v2-watch.png",
+        "sha256": "5929559d8ce29254de4150487070a7cca9ba0563a2ffe1621d4f32cc3b0f22ac",
+        "inspected": true
+      },
+      {
+        "name": "history",
+        "frame": 1030,
+        "path": "out/madman/final-voice-v2-history.png",
+        "sha256": "f3a413becf944e23b184e8c85dccf71c34cc1c0a6c20890ffd850ae10f33e2c5",
+        "inspected": true
+      },
+      {
+        "name": "question",
+        "frame": 1367,
+        "path": "out/madman/final-voice-v2-question.png",
+        "sha256": "10120be2844bbe0b6861bb9d8399c53e9ff013c32d28ce3c5d907e00cf4cd03d",
+        "inspected": true
+      },
+      {
+        "name": "complicity",
+        "frame": 1673,
+        "path": "out/madman/final-voice-v2-complicity.png",
+        "sha256": "4881f1a0a964d65bd5fcd17b1b033fef7a8a2ac963e253489aae2caa065ef8a1",
+        "inspected": true
+      },
+      {
+        "name": "children",
+        "frame": 1950,
+        "path": "out/madman/final-voice-v2-children.png",
+        "sha256": "cea9d48001b107fa660aa158868f8fd851ef17f575fbcb3368b19f44988e8e8a",
+        "inspected": true
+      },
+      {
+        "name": "plea",
+        "frame": 2145,
+        "path": "out/madman/final-voice-v2-plea.png",
+        "sha256": "148e23c38cdde7d4c711c928dc35e53cbdc5380a673dc24b34a0d5d2efd83c62",
+        "inspected": true
+      },
+      {
+        "name": "history-third-cue-plus-1-2s",
+        "frame": 1045,
+        "path": "out/madman/final-voice-v2-history-third-cue-plus-1-2s.png",
+        "sha256": "c11b796d08547ffb1b9d421785d0a2a786c39aa95d643294cf239a393a954f6a",
+        "inspected": true
+      },
+      {
+        "name": "lastframe",
+        "frame": 2191,
+        "path": "out/madman/final-voice-v2-lastframe.png",
+        "sha256": "fd83c053626a6a2c5afbc4c7834ea97dd02680b0b93fb23bbb89be7ad9fd86ff",
+        "inspected": true
+      },
+      {
+        "name": "history-reveal-complete",
+        "frame": 1076,
+        "path": "out/madman/final-voice-v2-history-reveal-complete.png",
+        "inspected": true
+      }
+    ]
+  },
+  "browserPlayback": {
+    "sample": {
+      "durationSeconds": 11.008,
+      "ended": true,
+      "error": null,
+      "replayStarted": true
+    },
+    "fullFilm": {
+      "durationSeconds": 91.349,
+      "playbackStarted": true,
+      "readyState": 4,
+      "seekChecks": [
+        {
+          "requestedSeconds": 6,
+          "observedSeconds": 6.158237,
+          "paused": false,
+          "error": null
+        },
+        {
+          "requestedSeconds": 48.333333333333336,
+          "observedSeconds": 48.569981,
+          "paused": false,
+          "error": null
+        },
+        {
+          "requestedSeconds": 84.33333333333333,
+          "observedSeconds": 84.707003,
+          "paused": false,
+          "error": null
+        }
+      ],
+      "endState": {
+        "currentTime": 91.349,
+        "ended": true,
+        "paused": true,
+        "error": null
+      }
+    },
+    "preview": "player-voice-v2-preview.png",
+    "returnedToOpening": true
+  },
+  "finalSamplesInspected": true,
+  "humanListening": false,
+  "spokenTextVerification": {
+    "path": "out/madman/voice-v2-spoken-check.json",
+    "sha256": "7db82dcf3b5f7ba71f90180fe19987e8ede8c3df19eab7e16c510ec8b4d987ce",
+    "normalizedWordsMatch": true,
+    "humanListeningReview": false
+  },
+  "codeCheck": "TypeScript and preparation/synthesis/render/validation syntax checks passed"
+}

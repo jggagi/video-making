@@ -1,0 +1,20 @@
+export const clamp = (x: number, lo = 0, hi = 1) => Math.max(lo, Math.min(hi, x));
+export const mix = (a: number, b: number, t: number) => a + (b - a) * t;
+export const smooth = (x: number) => {const t = clamp(x); return t * t * (3 - 2 * t);};
+export const fade = (frame: number, from: number, duration = 30) => smooth((frame - from) / duration);
+export const seeded = (i: number) => {const x = Math.sin(i * 127.1 + 311.7) * 43758.5453123; return x - Math.floor(x);};
+export type Point = {x: number; y: number; z: number};
+export const manifold = (frame: number, count = 120): Point[] => Array.from({length: count}, (_, i) => {
+  const u = i / count * Math.PI * 2;
+  const v = u * 3;
+  const a = frame * 0.0025;
+  const raw = [(2 + 0.65 * Math.cos(v)) * Math.cos(u * 2), (2 + 0.65 * Math.cos(v)) * Math.sin(u * 2), 0.92 * Math.sin(v), 0.7 * Math.cos(u * 5)];
+  const x4 = raw[0] * Math.cos(a) - raw[3] * Math.sin(a);
+  const w4 = raw[0] * Math.sin(a) + raw[3] * Math.cos(a);
+  const k4 = 4.8 / (4.8 - w4);
+  const x = x4 * k4;
+  const y = raw[1] * k4 * Math.cos(a * 0.63) - raw[2] * k4 * Math.sin(a * 0.63);
+  const z = raw[1] * k4 * Math.sin(a * 0.63) + raw[2] * k4 * Math.cos(a * 0.63);
+  const k = 7 / (7 - z);
+  return {x: x * k, y: y * k, z};
+});

@@ -1,0 +1,102 @@
+{
+  "movie": "out/madman/狂人日记-字缝加强样片-v3-1080p.mp4",
+  "sha256": "c84c2e803089c3a91c05cbbd586e62be8ff4ee41cd70844d736784c5073236a1",
+  "dimensions": [
+    1920,
+    1080
+  ],
+  "fps": 24,
+  "frames": 480,
+  "videoDurationSeconds": 20,
+  "containerDurationSeconds": 20.011,
+  "colorSpace": "bt709",
+  "colorRange": "tv",
+  "audio": {
+    "codec": "aac",
+    "sampleRateHz": 48000,
+    "channels": 2,
+    "peakDbfs": -4.472254566373348
+  },
+  "sourceTextExact": true,
+  "sourceVoiceHashesMatch": true,
+  "newCloudCalls": 0,
+  "designedPcmSilence": {
+    "startSeconds": 12.75,
+    "endSeconds": 14,
+    "peakLinear": 0
+  },
+  "fullDecode": true,
+  "fastStart": true,
+  "extractedFrames": [
+    [
+      "opening",
+      40
+    ],
+    [
+      "print",
+      216
+    ],
+    [
+      "pause",
+      310
+    ],
+    [
+      "crack",
+      364
+    ],
+    [
+      "reveal",
+      420
+    ],
+    [
+      "ending",
+      479
+    ]
+  ],
+  "extractedFramesVisuallyReviewed": true,
+  "playerVerification": {
+    "url": "http://127.0.0.1:8031/madman-history-watch.html",
+    "tabId": "3",
+    "sampleStarted": {
+      "currentTime": 0.114743,
+      "paused": false,
+      "readyState": 4,
+      "error": null
+    },
+    "sampleEnded": {
+      "currentTime": 20.011,
+      "ended": true,
+      "paused": true,
+      "error": null
+    },
+    "originalStarted": {
+      "currentTime": 29.120254,
+      "paused": false,
+      "readyState": 4,
+      "error": null
+    },
+    "originalStopped": {
+      "currentTime": 48.333333,
+      "paused": true,
+      "error": null
+    },
+    "interlock": {
+      "sampleTime": 0.251792,
+      "samplePaused": false,
+      "originalTime": 29.25854,
+      "originalPaused": true,
+      "errors": null
+    },
+    "reloadedPreview": {
+      "bothPaused": true,
+      "sampleTime": 0,
+      "originalTime": 0,
+      "bothReadyState": 4,
+      "errors": null,
+      "screenshot": "out/madman/player-history-v3-preview.png"
+    },
+    "vttHttpStatus": 200
+  },
+  "humanListeningReview": false,
+  "originalFullMovieSha256": "7d709339a515cb45d01bfabfd82f7101045e40658b1be79565e851b40303681c"
+}

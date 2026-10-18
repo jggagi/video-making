@@ -1,0 +1,41 @@
+{
+  "name": "si-eternity",
+  "version": "1.0.0",
+  "private": true,
+  "description": "一眼万年 (One Blink, Ten Millennia) — deterministic procedural Remotion film",
+  "scripts": {
+    "start": "remotion studio src/index.ts --port=3106",
+    "typecheck": "tsc --noEmit",
+    "check": "node scripts/check.mjs",
+    "stills": "node scripts/render.mjs stills",
+    "sample": "node scripts/render.mjs sample",
+    "render": "node scripts/render.mjs voiced",
+    "render:silent": "node scripts/render.mjs video",
+    "voice:plan": "node scripts/voiceover.mjs plan",
+    "voice:sample": "node scripts/voiceover.mjs sample",
+    "voice:generate": "node scripts/voiceover.mjs all",
+    "music": "node scripts/audio.mjs score",
+    "mix": "node scripts/audio.mjs mix --edition audio-v3 --stems-edition audio-v2",
+    "titles": "node scripts/render.mjs titles",
+    "preview:opening": "node scripts/render.mjs opening-voiced",
+    "preview:ending": "node scripts/render.mjs ending-voiced",
+    "sample:voiced": "node scripts/render.mjs sample-voiced",
+    "render:voiced": "node scripts/render.mjs voiced",
+    "portrait:stills": "node scripts/render-portrait.mjs stills",
+    "portrait:preview": "node scripts/render-portrait.mjs preview",
+    "portrait:render": "node scripts/render-portrait.mjs video"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.534",
+    "@remotion/cli": "4.0.534",
+    "@remotion/renderer": "4.0.534",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "remotion": "4.0.534"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.0",
+    "@types/react-dom": "19.1.0",
+    "typescript": "5.9.3"
+  }
+}

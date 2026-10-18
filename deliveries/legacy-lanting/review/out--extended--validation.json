@@ -1,0 +1,323 @@
+{
+  "createdAt": "2026-10-11T13:36:50.101Z",
+  "fps": 24,
+  "frames": 4535,
+  "seconds": 188.95833333333334,
+  "scenes": 17,
+  "cues": 26,
+  "fullTextMatches": true,
+  "continuousTimeline": true,
+  "allCueSamplesFit": true,
+  "cueSampleChecks": [
+    {
+      "sceneId": "date",
+      "cueIndex": 1,
+      "samples": 142063,
+      "durationFrames": 153
+    },
+    {
+      "sceneId": "date",
+      "cueIndex": 2,
+      "samples": 111928,
+      "durationFrames": 122
+    },
+    {
+      "sceneId": "grove",
+      "cueIndex": 1,
+      "samples": 148520,
+      "durationFrames": 159
+    },
+    {
+      "sceneId": "grove",
+      "cueIndex": 2,
+      "samples": 51659,
+      "durationFrames": 62
+    },
+    {
+      "sceneId": "water",
+      "cueIndex": 1,
+      "samples": 86099,
+      "durationFrames": 97
+    },
+    {
+      "sceneId": "cups",
+      "cueIndex": 1,
+      "samples": 111928,
+      "durationFrames": 122
+    },
+    {
+      "sceneId": "poems",
+      "cueIndex": 1,
+      "samples": 159283,
+      "durationFrames": 170
+    },
+    {
+      "sceneId": "breeze",
+      "cueIndex": 1,
+      "samples": 92556,
+      "durationFrames": 103
+    },
+    {
+      "sceneId": "joy",
+      "cueIndex": 1,
+      "samples": 187265,
+      "durationFrames": 198
+    },
+    {
+      "sceneId": "joy",
+      "cueIndex": 2,
+      "samples": 111928,
+      "durationFrames": 122
+    },
+    {
+      "sceneId": "life",
+      "cueIndex": 1,
+      "samples": 133453,
+      "durationFrames": 144
+    },
+    {
+      "sceneId": "life",
+      "cueIndex": 2,
+      "samples": 135605,
+      "durationFrames": 146
+    },
+    {
+      "sceneId": "contentment",
+      "cueIndex": 1,
+      "samples": 142063,
+      "durationFrames": 153
+    },
+    {
+      "sceneId": "contentment",
+      "cueIndex": 2,
+      "samples": 129148,
+      "durationFrames": 140
+    },
+    {
+      "sceneId": "change",
+      "cueIndex": 1,
+      "samples": 150673,
+      "durationFrames": 161
+    },
+    {
+      "sceneId": "traces",
+      "cueIndex": 1,
+      "samples": 124843,
+      "durationFrames": 135
+    },
+    {
+      "sceneId": "traces",
+      "cueIndex": 2,
+      "samples": 62422,
+      "durationFrames": 73
+    },
+    {
+      "sceneId": "mortality",
+      "cueIndex": 1,
+      "samples": 157051,
+      "durationFrames": 168
+    },
+    {
+      "sceneId": "mortality",
+      "cueIndex": 2,
+      "samples": 42028,
+      "durationFrames": 53
+    },
+    {
+      "sceneId": "reading",
+      "cueIndex": 1,
+      "samples": 196866,
+      "durationFrames": 207
+    },
+    {
+      "sceneId": "reading",
+      "cueIndex": 2,
+      "samples": 42028,
+      "durationFrames": 53
+    },
+    {
+      "sceneId": "judgment",
+      "cueIndex": 1,
+      "samples": 121659,
+      "durationFrames": 132
+    },
+    {
+      "sceneId": "time",
+      "cueIndex": 1,
+      "samples": 128295,
+      "durationFrames": 139
+    },
+    {
+      "sceneId": "record",
+      "cueIndex": 1,
+      "samples": 194654,
+      "durationFrames": 205
+    },
+    {
+      "sceneId": "record",
+      "cueIndex": 2,
+      "samples": 53088,
+      "durationFrames": 64
+    },
+    {
+      "sceneId": "future",
+      "cueIndex": 1,
+      "samples": 103963,
+      "durationFrames": 114
+    }
+  ],
+  "model": "cosyvoice-v3-flash",
+  "voice": "longsanshu_v3",
+  "sampleRate": 24000,
+  "soundtrackChannels": 2,
+  "voicePeakTarget": 0.62,
+  "maxAppliedVoiceGain": 1.4865120362917978,
+  "measuredVoicePeak": 0.62,
+  "soundtrackPeakDbfs": -3.726043740611305,
+  "music": "Original locally synthesized sparse string tones, wind and water",
+  "loudness": {
+    "integratedLufs": -18.3,
+    "loudnessRangeLu": 9.5,
+    "truePeakDbfs": -3.1
+  },
+  "typecheckPassed": true,
+  "media": [
+    {
+      "file": "out/extended/兰亭集序-展厅增强版-4K.mp4",
+      "width": 3840,
+      "height": 2160,
+      "frames": 4535,
+      "fps": 24,
+      "seconds": 188.971,
+      "bytes": 781248818,
+      "sha256": "24fdd06c726cbfede58d4755c348b4b8400808aff6b737407d83a403e1a21c78",
+      "fullDecodePassed": true,
+      "fastStart": true,
+      "audio": {
+        "codec": "aac",
+        "sampleRate": 48000,
+        "channels": 2
+      }
+    },
+    {
+      "file": "out/extended/兰亭集序-展厅增强版-1080p.mp4",
+      "width": 1920,
+      "height": 1080,
+      "frames": 4535,
+      "fps": 24,
+      "seconds": 188.971,
+      "bytes": 183109096,
+      "sha256": "2713a7cd2a0bd049476cbe8a561c22995027b24e3041cfcc8902966b70c13ff8",
+      "fullDecodePassed": true,
+      "fastStart": true,
+      "audio": {
+        "codec": "aac",
+        "sampleRate": 48000,
+        "channels": 2
+      }
+    }
+  ],
+  "previewFrames": [
+    [
+      "title",
+      284
+    ],
+    [
+      "date",
+      536
+    ],
+    [
+      "grove",
+      808
+    ],
+    [
+      "water",
+      976
+    ],
+    [
+      "cups",
+      1127
+    ],
+    [
+      "poems",
+      1319
+    ],
+    [
+      "breeze",
+      1477
+    ],
+    [
+      "joy",
+      1772
+    ],
+    [
+      "life",
+      2107
+    ],
+    [
+      "contentment",
+      2435
+    ],
+    [
+      "change",
+      2669
+    ],
+    [
+      "traces",
+      2900
+    ],
+    [
+      "mortality",
+      3153
+    ],
+    [
+      "reading",
+      3438
+    ],
+    [
+      "judgment",
+      3642
+    ],
+    [
+      "time",
+      3815
+    ],
+    [
+      "record",
+      4084
+    ],
+    [
+      "future",
+      4277
+    ],
+    [
+      "end",
+      4475
+    ],
+    [
+      "final",
+      4534
+    ]
+  ],
+  "newArtwork": 6,
+  "newTransparentSprites": 1,
+  "notHistoricalHandwriting": true,
+  "artworkNativeSize": "1672x941 backgrounds, raster upscaled in 4K; text, handwriting outlines, shaders rendered at target resolution",
+  "onsiteScreenAndAudioAudition": false,
+  "browserPreview": {
+    "samplePlaybackStarted": true,
+    "sampleSeekSeconds": [
+      7.008256,
+      13.013211
+    ],
+    "fullMoviePlaybackStarted": true,
+    "fullMovieSeekSeconds": 78.0152,
+    "fullMovieDurationSeconds": 188.971,
+    "videoWidth": 1920,
+    "videoHeight": 1080,
+    "readyState": 4,
+    "loopTogglePassed": true,
+    "mediaError": null
+  },
+  "visualReview": "Representative rendered images and final MP4 frames inspected; native browser playback and seek observed; onsite screen and audio audition pending"
+}

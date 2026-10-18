@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "voice-03",
+  "spokenText": "在计算的尺度里，一瞬足以成为永恒。",
+  "sourcePath": "public/audio-v2/voice-03.wav",
+  "sourceSha256": "fa905fb3b932760719eba75c85a7faed25f4768acbed382e3dbf8505fd061f00",
+  "cacheKey": "519bb27f424db627454601ba56d9c0e7ab643687498022b6f6cc648a4b084556",
+  "parameters": {
+    "sampleRate": 48000,
+    "channels": 1,
+    "format": "pcm_s16le",
+    "targetNonSilentRmsDbfs": -20.0,
+    "nonSilentFloorDbfs": -60.0,
+    "maxGainDb": 6.0,
+    "peakCeilingDbfs": -3.0,
+    "atempoMax": 1.18
+  },
+  "actualStartSeconds": 24.24,
+  "deadlineSeconds": 29.82,
+  "atempo": 1.0,
+  "sampleRate": 48000,
+  "channels": 1,
+  "sampleCount": 177050,
+  "durationSeconds": 3.6885416666666666,
+  "processedSha256": "16e96c896ad5f7b3347c338f9c967d081831120388cc7966fefd92a40a8044dc",
+  "normalization": {
+    "nonSilentFloorDbfs": -60.0,
+    "nonSilentSampleCount": 121933.0,
+    "nonSilentRmsBeforeDbfs": -22.87688370087977,
+    "targetRmsDbfs": -20.0,
+    "appliedGainDb": 0.304813892995395,
+    "nonSilentRmsAfterDbfs": -22.572069980724162,
+    "peakBeforeDbfs": -3.304813892995395,
+    "peakAfterDbfs": -2.9999995180030155,
+    "pcm16PeakDbfs": -3.0003622493859567,
+    "tempoFactor": 1.0,
+    "sampleCount": 177050.0
+  }
+}

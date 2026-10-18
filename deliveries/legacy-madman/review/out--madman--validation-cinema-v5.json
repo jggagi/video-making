@@ -1,0 +1,399 @@
+{
+  "checkedAt": "2026-10-12T09:17:48.102Z",
+  "film": "狂人日记-心理悬疑版-v5-1080p.mp4",
+  "sha256": "671923eda74aab3b09ab723cbb182ebee877eaa286ac49e406ce45dfb721bc7e",
+  "sizeBytes": 34979820,
+  "sourceIntegrity": {
+    "source": "https://zh.wikisource.org/zh-hans/狂人日記",
+    "sourcePlan": {
+      "path": "public/madman/voice-v5/plan.json",
+      "sha256": "bcc144d868ca821e9cf4508ec207800d9f18cec444bca49dff310e11696d65b9"
+    },
+    "sourceVoiceManifest": {
+      "path": "public/madman/voice-v5/manifest.json",
+      "sha256": "f639cd8b92ad644c85932240ef2ccc1257289a2c1cc53a5f4d704096154c6a64"
+    },
+    "editPlan": {
+      "path": "src/madman/suspense-v5-edit.json",
+      "sha256": "826a82e212d85cc12ad8f666186edc54f47a70c97d2f61c385f7bacd874e9b1b"
+    },
+    "mixManifest": {
+      "path": "public/madman/audio/suspense-v5-manifest.json",
+      "sha256": "ab58d61942e975f3313ff1cb2d529f4560f98b4794069e7ef81b5402a4c4f5ff"
+    },
+    "timeline": {
+      "path": "src/madman/suspense-v5-timeline.json",
+      "sha256": "2963c115dc5264df29482cdc802b5dd65e511cbf15fc822288ad53e771038c9c"
+    },
+    "originalCueHashesMatchManifest": true,
+    "allOriginalCueTextAndOrderPreserved": true,
+    "earlierMoviesUnchanged": {
+      "狂人日记-男声配音版-v2-1080p.mp4": "7d709339a515cb45d01bfabfd82f7101045e40658b1be79565e851b40303681c",
+      "狂人日记-字缝加强样片-v3-1080p.mp4": "c84c2e803089c3a91c05cbbd586e62be8ff4ee41cd70844d736784c5073236a1",
+      "狂人日记-节奏意象加强版-v4-1080p.mp4": "795871b25d54bd7e266842904dfa10247de69603e8035bb0e72e5d9455ab3cfa"
+    }
+  },
+  "timeline": {
+    "path": "src/madman/suspense-v5-timeline.json",
+    "sha256": "2963c115dc5264df29482cdc802b5dd65e511cbf15fc822288ad53e771038c9c",
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "frames": 4770,
+    "durationSeconds": 198.75,
+    "shotCount": 15,
+    "shotsContinuousAndInBounds": true,
+    "cueCount": 23,
+    "sourceCharacters": 553,
+    "captions": {
+      "rows": 38,
+      "exactSourceConcatenation": true,
+      "vttMatches": true
+    }
+  },
+  "subtitles": {
+    "vtt": {
+      "path": "out/madman/狂人日记-心理悬疑版-v5.vtt",
+      "sha256": "3ec94d3daebe2dd875f535d0d9d47721f5d25a37d0184e0f3c4dad1b23f87885",
+      "rowCount": 38
+    },
+    "srt": {
+      "path": "out/madman/狂人日记-心理悬疑版-v5.srt",
+      "sha256": "a6e3bb9a10954738c546e0e25583bce68d03df0550b9ea24e6ba7e4ed42fe3c1"
+    }
+  },
+  "generatedImages": {
+    "source": "AI generated for this adaptation",
+    "files": [
+      {
+        "file": "public/madman/cinema-v5/courtyard.png",
+        "width": 1672,
+        "height": 941,
+        "sha256": "9c7418af2f17434efa780e39bc9d44ecfa2cc0d47a78a877d7fa8be1a4b8e681"
+      },
+      {
+        "file": "public/madman/cinema-v5/street.png",
+        "width": 1672,
+        "height": 941,
+        "sha256": "617178a9b340f6df7831cd7ae95ef3e6eb7e7029a3c77d8cd6ec2486a2ecf375"
+      },
+      {
+        "file": "public/madman/cinema-v5/lock.png",
+        "width": 1672,
+        "height": 941,
+        "sha256": "10c2558f024d06808371d094f464e0289d40cf8e080e6d8b6602c5012b75b79c"
+      },
+      {
+        "file": "public/madman/cinema-v5/study.png",
+        "width": 1672,
+        "height": 941,
+        "sha256": "306ac90b310ae0c74bb5eef5ce5e44212d72a4ad64a16a4d6c88b6e56f5d4083"
+      },
+      {
+        "file": "public/madman/cinema-v5/meal.png",
+        "width": 1672,
+        "height": 941,
+        "sha256": "8e6e7c417b580954871d3a7ba2279868151233cd2c10431c18ebb9caa3e75955"
+      },
+      {
+        "file": "public/madman/cinema-v5/consult.png",
+        "width": 1672,
+        "height": 941,
+        "sha256": "f80dd556928f377afc62018deb91cd17c4a765e98c3ace296c3e2d34a735db0c"
+      },
+      {
+        "file": "public/madman/cinema-v5/aside.png",
+        "width": 1672,
+        "height": 941,
+        "sha256": "5ac69e68b2607cd96c79c85a19410e33eeb05e0696a14220d123a7555a7e8221"
+      },
+      {
+        "file": "public/madman/cinema-v5/onlookers.png",
+        "width": 1672,
+        "height": 941,
+        "sha256": "739e4e602f247e981803881194a2f5c439223fb470c5275cebb580acdd3c4f6e"
+      },
+      {
+        "file": "public/madman/cinema-v5/beams.png",
+        "width": 1672,
+        "height": 941,
+        "sha256": "d7682e4219071f9cb7b88068dc1e9b94e998187096c4485b3fd90cceb2b5f92e"
+      },
+      {
+        "file": "public/madman/cinema-v5/children.png",
+        "width": 1672,
+        "height": 941,
+        "sha256": "1cf1b8b65a227e91f9750b3cacfa77728618cdadd0cd9637219b923b845e56fd"
+      }
+    ]
+  },
+  "assetManifest": {
+    "path": "public/madman/cinema-v5/asset-manifest.json",
+    "sha256": "b883702040d820b1ac8ae2affb5364c1d0ab71726d81f1d59401ac2d74fc7371"
+  },
+  "audioPreparation": {
+    "cloudCalls": 0,
+    "humanListeningReview": false,
+    "finalSilenceSeconds": 2,
+    "sourceNarrationRecords": 23
+  },
+  "mixedAudio": {
+    "path": "public/madman/audio/suspense-v5.wav",
+    "sha256": "27afcbf6fd14ba06042bc988a40248d4a5b1844b088fc2729a7a1005932ef307",
+    "codec": "pcm_s16le",
+    "sampleRateHz": 48000,
+    "channels": 2,
+    "durationSeconds": 198.75,
+    "finalTwoSecondsPcmZero": true
+  },
+  "video": {
+    "codec": "h264",
+    "width": 1920,
+    "height": 1080,
+    "frameRate": "24/1",
+    "frames": 4770,
+    "streamDurationSeconds": 198.75,
+    "containerDurationSeconds": 198.763,
+    "pixelFormat": "yuv420p",
+    "colorSpace": "bt709",
+    "colorPrimaries": "bt709",
+    "colorTransfer": "bt709",
+    "colorRange": "tv",
+    "fastStart": true,
+    "fullDecode": "passed; video and audio, no errors"
+  },
+  "audio": {
+    "codec": "aac",
+    "sampleRateHz": 48000,
+    "channels": 2,
+    "peakDbfs": -5.972690001747003,
+    "rmsDbfs": -26.634620779102157,
+    "noClipping": true
+  },
+  "diagnosisSample": {
+    "file": "cinema-v5-diagnosis-sample.mp4",
+    "fromFrame": 2196,
+    "toFrameExclusive": 2964,
+    "frames": 768,
+    "durationSeconds": 32,
+    "fullDecode": "passed; video and audio, no errors"
+  },
+  "finalFrames": {
+    "extracted": true,
+    "inspected": true,
+    "files": [
+      {
+        "name": "mid-title",
+        "frame": 47,
+        "path": "out/madman/final-v5-mid-title.png",
+        "sha256": "d6efce8afeef2e7cfd49ba1bace65c6d8f6e47a5635a75972029aad0c3b86e1e",
+        "inspected": false
+      },
+      {
+        "name": "mid-moon",
+        "frame": 272,
+        "path": "out/madman/final-v5-mid-moon.png",
+        "sha256": "ee5a7764ebeebe3f4e68f129e0a8bd34d890808f17a69805a5986207cdfb639e",
+        "inspected": false
+      },
+      {
+        "name": "mid-street",
+        "frame": 782,
+        "path": "out/madman/final-v5-mid-street.png",
+        "sha256": "b6f8b94b3eee7c3e480ac7024bcb5fd82e6b87bbace2714935306ced38a11681",
+        "inspected": false
+      },
+      {
+        "name": "mid-door",
+        "frame": 1238,
+        "path": "out/madman/final-v5-mid-door.png",
+        "sha256": "edc130b9b11f5d179873304b8451a0560230473b314457be4e4c97da071e172c",
+        "inspected": false
+      },
+      {
+        "name": "mid-history",
+        "frame": 1622,
+        "path": "out/madman/final-v5-mid-history.png",
+        "sha256": "3e502442416798628938a4e37fb9c4ff0af24d1e831634d7bb6a7662898bbb0f",
+        "inspected": false
+      },
+      {
+        "name": "mid-meal",
+        "frame": 2039,
+        "path": "out/madman/final-v5-mid-meal.png",
+        "sha256": "cc5497d331a1db2e6cd1969c51e1250cefdb833c14499d807713a390fedee04e",
+        "inspected": false
+      },
+      {
+        "name": "mid-consult",
+        "frame": 2462,
+        "path": "out/madman/final-v5-mid-consult.png",
+        "sha256": "f38cb3dc61eb97a45e7fa6ae7abdaf48827a3575416f09010a67ba47e340b1e7",
+        "inspected": false
+      },
+      {
+        "name": "mid-aside",
+        "frame": 2846,
+        "path": "out/madman/final-v5-mid-aside.png",
+        "sha256": "ae02b69df35b4d1159358a1d59aa4503e5b8024765b774f05ec25544a4814960",
+        "inspected": false
+      },
+      {
+        "name": "mid-question",
+        "frame": 3032,
+        "path": "out/madman/final-v5-mid-question.png",
+        "sha256": "9b742a6c127244f06ebb683c898508ea159899e41ca1a7bffd8f1b4bc3d324d5",
+        "inspected": false
+      },
+      {
+        "name": "mid-named",
+        "frame": 3260,
+        "path": "out/madman/final-v5-mid-named.png",
+        "sha256": "d6273378692f305671b2219c39279facf215a8dc00aabaef34313c23331cfe9e",
+        "inspected": false
+      },
+      {
+        "name": "mid-beams",
+        "frame": 3599,
+        "path": "out/madman/final-v5-mid-beams.png",
+        "sha256": "f0b50db5a1d7741c1a1001ab7624cc730939a8b9a8fe5160e5436650397d08ef",
+        "inspected": false
+      },
+      {
+        "name": "mid-self",
+        "frame": 3905,
+        "path": "out/madman/final-v5-mid-self.png",
+        "sha256": "acd40a0e987e0f9aea635f24affef13189d00afca2d2efcf12c36355e1eb8e86",
+        "inspected": false
+      },
+      {
+        "name": "mid-children",
+        "frame": 4172,
+        "path": "out/madman/final-v5-mid-children.png",
+        "sha256": "0772f383416d4cc3749f289a2cccf28db6932d5ae32aedf544cfeb85632201d4",
+        "inspected": false
+      },
+      {
+        "name": "mid-epilogue",
+        "frame": 4445,
+        "path": "out/madman/final-v5-mid-epilogue.png",
+        "sha256": "5b760ad8faaa81301cd33ec78172e132c8725aacebd2b5fafff33a66a128f36f",
+        "inspected": false
+      },
+      {
+        "name": "mid-ending",
+        "frame": 4673,
+        "path": "out/madman/final-v5-mid-ending.png",
+        "sha256": "a7030a94053184d300d349e9153b9f2dd6e9cdbd92a7d9a5fb0d57f0e3f6904d",
+        "inspected": false
+      },
+      {
+        "name": "dog",
+        "frame": 304,
+        "path": "out/madman/final-v5-dog.png",
+        "sha256": "f95312cae6d95b0c3e120fbd2d6b20bd2241e8ebdba6e4afcbad256e677ebc40",
+        "inspected": false
+      },
+      {
+        "name": "smile",
+        "frame": 985,
+        "path": "out/madman/final-v5-smile.png",
+        "sha256": "2fa562ad4b3d1faeb7d4fdd683c7c7f827d5cc9425fb5cac411255ba746fd7d4",
+        "inspected": false
+      },
+      {
+        "name": "history-reveal",
+        "frame": 1823,
+        "path": "out/madman/final-v5-history-reveal.png",
+        "sha256": "3ac7fa6f6a7886ecfb5ee79c9e3d3fbee845d2610d7f8d058da6090f2dd8ef06",
+        "inspected": false
+      },
+      {
+        "name": "doctor-pulse",
+        "frame": 2492,
+        "path": "out/madman/final-v5-doctor-pulse.png",
+        "sha256": "f38cb3dc61eb97a45e7fa6ae7abdaf48827a3575416f09010a67ba47e340b1e7",
+        "inspected": false
+      },
+      {
+        "name": "beams-before-false",
+        "frame": 3609,
+        "path": "out/madman/final-v5-beams-before-false.png",
+        "sha256": "31d54ded03d78cdb52e332ef7b800f7b8025e7481673a58e0f0b740b1429fb76",
+        "inspected": false
+      },
+      {
+        "name": "beams-reset-after-false",
+        "frame": 3611,
+        "path": "out/madman/final-v5-beams-reset-after-false.png",
+        "sha256": "a15465fae835959a7ab642b45829a254ac57ed93a189a757d13b3b55f4232775",
+        "inspected": false
+      },
+      {
+        "name": "epilogue-quote-end",
+        "frame": 4485,
+        "path": "out/madman/final-v5-epilogue-quote-end.png",
+        "sha256": "5155ba5087cf5f3b58b0cf1f4fc1d1e4df747a2a86fc304cdc8ed2c208a42008",
+        "inspected": false
+      },
+      {
+        "name": "ending-last",
+        "frame": 4769,
+        "path": "out/madman/final-v5-ending-last.png",
+        "sha256": "5d27085db13b8fdb72cd0c905d9e14197bdfb1f9e070b2d73ece21f79ff3235c",
+        "inspected": false
+      }
+    ],
+    "reviewCoverage": "Seven representative final-film frames, alongside prior scene stills and all ten raw assets; not every extracted frame.",
+    "reviewedFiles": [
+      {
+        "path": "out/madman/final-v5-mid-title.png",
+        "sha256": "d6efce8afeef2e7cfd49ba1bace65c6d8f6e47a5635a75972029aad0c3b86e1e"
+      },
+      {
+        "path": "out/madman/final-v5-history-reveal.png",
+        "sha256": "3ac7fa6f6a7886ecfb5ee79c9e3d3fbee845d2610d7f8d058da6090f2dd8ef06"
+      },
+      {
+        "path": "out/madman/final-v5-doctor-pulse.png",
+        "sha256": "f38cb3dc61eb97a45e7fa6ae7abdaf48827a3575416f09010a67ba47e340b1e7"
+      },
+      {
+        "path": "out/madman/final-v5-onlookers.png",
+        "sha256": "b3388a72973509525a9102d1d9509ca87ca984cd74d6cb542a2a4f7ec499db73"
+      },
+      {
+        "path": "out/madman/final-v5-beams-reset-after-false.png",
+        "sha256": "a15465fae835959a7ab642b45829a254ac57ed93a189a757d13b3b55f4232775"
+      },
+      {
+        "path": "out/madman/final-v5-epilogue-quote-end.png",
+        "sha256": "5155ba5087cf5f3b58b0cf1f4fc1d1e4df747a2a86fc304cdc8ed2c208a42008"
+      },
+      {
+        "path": "out/madman/final-v5-ending-last.png",
+        "sha256": "5d27085db13b8fdb72cd0c905d9e14197bdfb1f9e070b2d73ece21f79ff3235c"
+      }
+    ]
+  },
+  "browserPlayback": "unverified; root reported local browser security policy rejected playback automation",
+  "humanListening": "not performed; automated transcription is separate from human listening",
+  "spokenTextCheck": {
+    "path": "out/madman/voice-v5-asr-check.json",
+    "sha256": "faa577164f5e34779ae98f14893a4c04eba1f24e96cb29b0c75c01c649c997b3",
+    "provider": "Bailian",
+    "calls": 1,
+    "exactNormalizedMatch": false,
+    "characterEditOperations": 13,
+    "rootReviewedDifferences": true,
+    "humanListening": false,
+    "note": "Homophones and number representation, three colloquial er additions, and me/ma remain separately recorded; not accepted as a literal listening match."
+  },
+  "player": {
+    "path": "madman-watch.html",
+    "sha256": "6dedac1659ba9d223f4b955fc7182a399eef80549f8a736be55f9e9fd1674d70",
+    "versionedPath": "madman-v5-watch.html",
+    "embeddedChapterIndexVerified": true,
+    "browserPlaybackVerified": false
+  }
+}

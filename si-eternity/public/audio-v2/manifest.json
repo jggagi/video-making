@@ -1,0 +1,111 @@
+{
+  "title": "The Half-Second Eternity — procedural score v1",
+  "seed": 421980160,
+  "architecture": "Original D-minor/B-flat/F/C layered sine-and-partial synth pads, gentle arpeggios, a low sub-heartbeat, deterministic stereo multitap, and independent synthesized glass/transition/gear/impact design.",
+  "arrangement": [
+    {
+      "from_seconds": 0,
+      "to_seconds": 30,
+      "description": "Slow spacious laboratory suspense; warm low pads and a delicate opening glass ping."
+    },
+    {
+      "from_seconds": 30,
+      "to_seconds": 75,
+      "description": "Search pulse and restrained arpeggiated complexity; transition cues at 30 and 75 seconds."
+    },
+    {
+      "from_seconds": 75,
+      "to_seconds": 120,
+      "description": "Rising harmonic brightness and arpeggios, then a soft harmonic resolution from 117 to 120 seconds."
+    },
+    {
+      "from_seconds": 120,
+      "to_seconds": 155,
+      "description": "Contrasting digital pulse with a slow quiet sub-heartbeat and soft mechanical gear ticks."
+    },
+    {
+      "from_seconds": 155,
+      "to_seconds": 160,
+      "description": "Pullback to near silence before the exact 160-second event."
+    },
+    {
+      "from_seconds": 160,
+      "to_seconds": 175,
+      "description": "Restrained glass-crystal strike and magnetic bloom at exactly 160 seconds, followed by a warm D-minor hover."
+    },
+    {
+      "from_seconds": 175,
+      "to_seconds": 180,
+      "description": "Gentle fade reaches digital silence by 179.8 seconds."
+    }
+  ],
+  "events": [
+    {
+      "time_seconds": 0.72,
+      "stem": "sound_design",
+      "event": "delicate glass droplet ping"
+    },
+    {
+      "time_seconds": 30,
+      "stem": "sound_design",
+      "event": "brief digital transition"
+    },
+    {
+      "time_seconds": 75,
+      "stem": "sound_design",
+      "event": "rising projection transition"
+    },
+    {
+      "time_seconds": 120,
+      "stem": "sound_design",
+      "event": "soft gear ticks begin"
+    },
+    {
+      "time_seconds": 160,
+      "stem": "both",
+      "event": "restrained crystal impact and magnetic bloom"
+    },
+    {
+      "time_seconds": 179.8,
+      "stem": "both",
+      "event": "fade reaches zero"
+    }
+  ],
+  "format": {
+    "sample_rate_hz": 48000,
+    "channels": 2,
+    "duration_seconds": 180,
+    "stereo_sample_frames": 8640000,
+    "sample_encoding": "PCM signed 16-bit little-endian",
+    "peak_ceiling_dbfs": -6,
+    "music_loudness_hint": "approximately -27 LUFS before the final mix; RMS is reported separately and is not LUFS"
+  },
+  "stems": {
+    "music": {
+      "path": "public/audio-v2/ambient-score.wav",
+      "duration_seconds": 180,
+      "sample_frames": 8640000,
+      "channels": 2,
+      "sample_rate_hz": 48000,
+      "encoding": "PCM signed 16-bit little-endian",
+      "sample_peak_dbfs": -15.656,
+      "integrated_rms_dbfs_not_lufs": -28.443,
+      "sha256": "2547f5e912a134c1449064954abc79fb2bdbd9108073697401e5be66fc24e74e",
+      "peak_guard_chunks": 0,
+      "pcm_sha256": "2db793ea6f0033e9beb982e4bb3c31c8225d147915d7ffbb97f6bf9319d42da7"
+    },
+    "sound_design": {
+      "path": "public/audio-v2/sound-design.wav",
+      "duration_seconds": 180,
+      "sample_frames": 8640000,
+      "channels": 2,
+      "sample_rate_hz": 48000,
+      "encoding": "PCM signed 16-bit little-endian",
+      "sample_peak_dbfs": -17.717,
+      "integrated_rms_dbfs_not_lufs": -49.25,
+      "sha256": "7185cfb631b170bae9a2db44d8b45b7e26ffbc777a29c9998c1f0c66b2070928",
+      "peak_guard_chunks": 0,
+      "pcm_sha256": "41142268939c4ae36d0fe7c06a748a30ad4d19c1de8f2f50f381a1a36c66c83d"
+    }
+  }
+}

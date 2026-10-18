@@ -1,0 +1,24 @@
+node_modules/
+out/
+.DS_Store
+*.log
+
+# Finished media and source archives are retained in this repository's Releases.
+*.mp4
+*.mov
+*.webm
+*.zip
+
+# Rebuildable output and local state.
+**/bundle*/
+**/.remotion/
+**/__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Upload receipts are verified locally; the portable catalog is versioned.
+archive/upload-receipt*.json

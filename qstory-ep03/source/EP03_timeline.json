@@ -1,0 +1,711 @@
+{
+  "schemaVersion": "1.0",
+  "status": "DESIGN_HANDOFF_NOT_RENDERED",
+  "brand": "余问 QStory",
+  "series": "感受 SI",
+  "episode": "EP.03",
+  "title": "十万亿个分身",
+  "subtitle": "当思想不再排队",
+  "fps": 30,
+  "durationInFrames": 5400,
+  "durationSec": 180,
+  "intervalConvention": "start inclusive, end exclusive",
+  "narrationTiming": "planned, must be retimed against recorded audio",
+  "fictionDisclaimer": "科幻思想实验。时间、规模与协作能力为艺术设定，不代表当前AI能力或意识判断。",
+  "seed": "qstory-ep03-v1",
+  "compositions": [
+    {
+      "id": "QStory-EP03-Landscape",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": "QStory-EP03-Portrait",
+      "width": 1080,
+      "height": 1920
+    }
+  ],
+  "scenes": [
+    {
+      "id": "unfinished-sentence",
+      "title": "一句话的距离",
+      "startSec": 0,
+      "endSec": 12,
+      "fromFrame": 0,
+      "durationInFrames": 360,
+      "component": "UnfinishedSentence"
+    },
+    {
+      "id": "human-islands",
+      "title": "群岛与文明",
+      "startSec": 12,
+      "endSec": 42,
+      "fromFrame": 360,
+      "durationInFrames": 900,
+      "component": "HumanIslands"
+    },
+    {
+      "id": "bridge-to-core",
+      "title": "问题换一种连接方式",
+      "startSec": 42,
+      "endSec": 60,
+      "fromFrame": 1260,
+      "durationInFrames": 540,
+      "component": "BridgeToCore"
+    },
+    {
+      "id": "multiplicity",
+      "title": "同源分身，不同路径",
+      "startSec": 60,
+      "endSec": 85,
+      "fromFrame": 1800,
+      "durationInFrames": 750,
+      "component": "AgentMultiplicity"
+    },
+    {
+      "id": "shared-workspace",
+      "title": "交换可接续的工作",
+      "startSec": 85,
+      "endSec": 110,
+      "fromFrame": 2550,
+      "durationInFrames": 750,
+      "component": "SharedWorkspace"
+    },
+    {
+      "id": "counterexample",
+      "title": "一点红光改写星云",
+      "startSec": 110,
+      "endSec": 145,
+      "fromFrame": 3300,
+      "durationInFrames": 1050,
+      "component": "CounterexampleCascade"
+    },
+    {
+      "id": "integration",
+      "title": "不是同意，而是接起来",
+      "startSec": 145,
+      "endSec": 165,
+      "fromFrame": 4350,
+      "durationInFrames": 600,
+      "component": "EvidenceIntegration"
+    },
+    {
+      "id": "return",
+      "title": "回到一个声音",
+      "startSec": 165,
+      "endSec": 180,
+      "fromFrame": 4950,
+      "durationInFrames": 450,
+      "component": "ReturnToHuman"
+    }
+  ],
+  "shots": [
+    {
+      "id": "shot-01",
+      "sceneId": "unfinished-sentence",
+      "startSec": 0,
+      "endSec": 6,
+      "fromFrame": 0,
+      "durationInFrames": 180,
+      "title": "半句话停在空气里",
+      "visual": "深黑中一张暖光照亮的玻璃桌。两个人只见手与轮廓；笔尖指向尚未闭合的结构草图。说到“是”后，声波被拉长。",
+      "voice": "等等，我的意思是……",
+      "speaker": "researcher",
+      "sound": "纸笔、呼吸、房间底噪；人声末端拉伸但不做惊悚鬼声。",
+      "displayText": "科幻思想实验：时间与规模为艺术设定"
+    },
+    {
+      "id": "shot-02",
+      "sceneId": "unfinished-sentence",
+      "startSec": 6,
+      "endSec": 12,
+      "fromFrame": 180,
+      "durationInFrames": 180,
+      "title": "先兑现一次奇观",
+      "visual": "一句话的声波横在画面；其背后闪现星云重排的预告，随即缩回一个冷白点。不是频闪，不显示真实毫秒计时。",
+      "voice": "一个想法，抵达另一个人，需要多久？",
+      "speaker": "narrator",
+      "sound": "一声清晰窄带脉冲进入宽声场，马上收回。",
+      "displayText": "感受 SI · EP.03"
+    },
+    {
+      "id": "shot-03",
+      "sceneId": "human-islands",
+      "startSec": 12,
+      "endSec": 20,
+      "fromFrame": 360,
+      "durationInFrames": 240,
+      "title": "岛内辽阔",
+      "visual": "从一盏暖灯拉远：岛内是丰富的记忆、图形与公式层；先让观众看到心智的丰富，而不是把人画成弱小CPU。",
+      "voice": "每个人心里，都有一个难以完整说出的世界。",
+      "speaker": "narrator",
+      "sound": "暖色和声碎片，各岛具有自己的音色。",
+      "displayText": ""
+    },
+    {
+      "id": "shot-04",
+      "sceneId": "human-islands",
+      "startSec": 20,
+      "endSec": 28,
+      "fromFrame": 600,
+      "durationInFrames": 240,
+      "title": "丰富被压缩成可传递的符号",
+      "visual": "岛内复杂结构收束为词语、图示、公式三类微小信号，沿一条细桥前往另一岛。不要用原始比特率显示认知倍率。",
+      "voice": "我们把它变成语言、图像、公式。",
+      "speaker": "narrator",
+      "sound": "三个离散、柔和的传递声；不加键盘狂敲。",
+      "displayText": ""
+    },
+    {
+      "id": "shot-05",
+      "sceneId": "human-islands",
+      "startSec": 28,
+      "endSec": 35,
+      "fromFrame": 840,
+      "durationInFrames": 210,
+      "title": "重建，而非复制",
+      "visual": "接收岛按符号重建结构，其中一个角度不同；来回一次追问，差异才被发现。摄像机保留两座岛同时在画面里。",
+      "voice": "再由另一个人，一点一点，重新搭起。",
+      "speaker": "narrator",
+      "sound": "短暂问句残响，信号往返一次。",
+      "displayText": ""
+    },
+    {
+      "id": "shot-06",
+      "sceneId": "human-islands",
+      "startSec": 35,
+      "endSec": 42,
+      "fromFrame": 1050,
+      "durationInFrames": 210,
+      "title": "人类已经建起文明",
+      "visual": "拉远：不仅有孤岛，还有桥、书页、共同图表与逐层积累的建筑。网络暖起来，避免“文明只是低效会议”的贬低。",
+      "voice": "我们就这样，把无数孤岛连成文明。",
+      "speaker": "narrator",
+      "sound": "零碎音符第一次形成小和弦。",
+      "displayText": ""
+    },
+    {
+      "id": "shot-07",
+      "sceneId": "bridge-to-core",
+      "startSec": 42,
+      "endSec": 50,
+      "fromFrame": 1260,
+      "durationInFrames": 240,
+      "title": "从解释的窄桥进入共享工作台",
+      "visual": "一条桥横贯屏幕并逐渐拓宽；桥面上出现同一份可被引用和检查的结构模型，暖光自然过渡到冷白。",
+      "voice": "但如果，协作不必一次次从解释开始？",
+      "speaker": "narrator",
+      "sound": "暖和弦不断，加入细微电子泛音，不用硬切爆炸。",
+      "displayText": ""
+    },
+    {
+      "id": "shot-08",
+      "sceneId": "bridge-to-core",
+      "startSec": 50,
+      "endSec": 60,
+      "fromFrame": 1500,
+      "durationInFrames": 300,
+      "title": "从一个问题出发",
+      "visual": "桌上草图成为共享工作台中央的发光环状骨架。目标只写“在给定扰动中保持结构”。镜头进入其中一个节点。",
+      "voice": "如果，同一个问题，可以向一万个方向，同时展开？",
+      "speaker": "narrator",
+      "sound": "节奏开始增加，留最后一秒给形态变化。",
+      "displayText": "假想任务 · 模拟可视化"
+    },
+    {
+      "id": "shot-09",
+      "sceneId": "multiplicity",
+      "startSec": 60,
+      "endSec": 68,
+      "fromFrame": 1800,
+      "durationInFrames": 240,
+      "title": "同源复制",
+      "visual": "一个白点分成数个；最初内部几何一致，随后沿不同路径改变。镜头持续拉远，不剪成复制计数PPT。",
+      "voice": "它让不同分身，走向不同的可能。",
+      "speaker": "narrator",
+      "sound": "同一动机拆成几个相位不同的声部。",
+      "displayText": ""
+    },
+    {
+      "id": "shot-10",
+      "sceneId": "multiplicity",
+      "startSec": 68,
+      "endSec": 76,
+      "fromFrame": 2040,
+      "durationInFrames": 240,
+      "title": "异质任务",
+      "visual": "近看六个分身：构造、模拟、找反例、复核、整合、检查前提。每个动作都有不同轮廓，不只是换标签。",
+      "voice": "有的提出构想，有的寻找反例。",
+      "speaker": "narrator",
+      "sound": "提案是拨弦，检验是轻敲；音色承担角色辨识。",
+      "displayText": ""
+    },
+    {
+      "id": "shot-11",
+      "sceneId": "multiplicity",
+      "startSec": 76,
+      "endSec": 85,
+      "fromFrame": 2280,
+      "durationInFrames": 270,
+      "title": "广度展现",
+      "visual": "拉远露出大量星团；前景12个可读主节点，远处点云代表更多路径。标签只显示“局部视图 · 10,000 节点（艺术示意）”。",
+      "voice": "有的重新检查，所有人默认正确的前提。",
+      "speaker": "narrator",
+      "sound": "声场扩大但响度受控，不逐节点发声。",
+      "displayText": "局部视图 · 10,000 节点（艺术示意）"
+    },
+    {
+      "id": "shot-12",
+      "sceneId": "shared-workspace",
+      "startSec": 85,
+      "endSec": 93,
+      "fromFrame": 2550,
+      "durationInFrames": 240,
+      "title": "共享中间工作",
+      "visual": "跟拍一块可辨识的几何证据：蓝色提案、灰白前提、金色经检查片段形成分层对象，在不同节点间传递。",
+      "voice": "它们共享的不只是结论。",
+      "speaker": "narrator",
+      "sound": "一个短动机随同一证据跨节点出现，建立可追踪性。",
+      "displayText": ""
+    },
+    {
+      "id": "shot-13",
+      "sceneId": "shared-workspace",
+      "startSec": 93,
+      "endSec": 101,
+      "fromFrame": 2790,
+      "durationInFrames": 240,
+      "title": "接续，不是重讲",
+      "visual": "节点B直接在A留下的模型旁继续推演；C只引用其中一个前提进行独立检查。共享的是结构、程序与证据，不画隐状态直接合成意识。",
+      "voice": "还有假设、证据，以及别人可以接着推进的工作。",
+      "speaker": "narrator",
+      "sound": "多个声部异步接入；不可全部同时打拍。",
+      "displayText": ""
+    },
+    {
+      "id": "shot-14",
+      "sceneId": "shared-workspace",
+      "startSec": 101,
+      "endSec": 110,
+      "fromFrame": 3030,
+      "durationInFrames": 270,
+      "title": "第一次不安",
+      "visual": "很多模型同步亮起，随后镜头推近，发现它们引用的是同一块带缺口的前提。重复一致逐渐变得可疑。",
+      "voice": "但一万次赞同，也可能是同一个错误。",
+      "speaker": "narrator",
+      "sound": "漂亮和弦中加入轻微不协和音，不提前揭示红点。",
+      "displayText": ""
+    },
+    {
+      "id": "shot-15",
+      "sceneId": "counterexample",
+      "startSec": 110,
+      "endSec": 118,
+      "fromFrame": 3300,
+      "durationInFrames": 240,
+      "title": "反例诞生",
+      "visual": "边缘一个分身在横向扰动模拟中看到环状骨架断裂。标出反例C-17，保持画面三秒让观众确实看懂“断了”。",
+      "voice": "直到，一个分身找到反例。",
+      "speaker": "narrator",
+      "sound": "一声干燥的裂响；音乐暂不升调。",
+      "displayText": "反例 C-17"
+    },
+    {
+      "id": "shot-16",
+      "sceneId": "counterexample",
+      "startSec": 118,
+      "endSec": 127,
+      "fromFrame": 3540,
+      "durationInFrames": 270,
+      "title": "错误带着来源传播",
+      "visual": "红色证据对象携带原始失败画面与所依赖的前提沿相关边传播。收到的节点先变琥珀色“复核中”，不能直接变正确。",
+      "voice": "它没有把错误藏起来。",
+      "speaker": "narrator",
+      "sound": "细小点击由远到近，像带结构的雨，不是警报轰炸。",
+      "displayText": "已收到 → 复核中"
+    },
+    {
+      "id": "shot-17",
+      "sceneId": "counterexample",
+      "startSec": 127,
+      "endSec": 136,
+      "fromFrame": 3810,
+      "durationInFrames": 270,
+      "title": "整片星云改变方向",
+      "visual": "先近看复现，再拉远：依赖同一错误前提的星团逐层撤回或改向。无关星团继续工作。一个中央“漂亮结论”断开，但证据节点没有被删除。",
+      "voice": "相关的推理被重新检查。整片星云，改变方向。",
+      "speaker": "narrator",
+      "sound": "129.0—130.0秒所有音乐与声效静音；之后声场按新结构恢复。",
+      "displayText": "相关结论已撤回"
+    },
+    {
+      "id": "shot-18",
+      "sceneId": "counterexample",
+      "startSec": 136,
+      "endSec": 145,
+      "fromFrame": 4080,
+      "durationInFrames": 270,
+      "title": "失败成为边界",
+      "visual": "红色证据对象转为持久档案标记，留在外围；新的路径绕开已排除区域。用镜头而非旁白说明“不是消灭异议”。",
+      "voice": "失败没有消失。它成为其他路径的边界。",
+      "speaker": "narrator",
+      "sound": "反例动机仍保留，在低层与新和弦共同存在。",
+      "displayText": "证据已保留"
+    },
+    {
+      "id": "shot-19",
+      "sceneId": "integration",
+      "startSec": 145,
+      "endSec": 153,
+      "fromFrame": 4350,
+      "durationInFrames": 240,
+      "title": "不同声部共存",
+      "visual": "各路径仍有不同形状与节奏；多个可互相支持的片段逐层对接，不做全节点同色、全体锁相。",
+      "voice": "不是所有声音变成一种声音。",
+      "speaker": "narrator",
+      "sound": "前段零散声部保留个性，但第一次形成稳定复调。",
+      "displayText": ""
+    },
+    {
+      "id": "shot-20",
+      "sceneId": "integration",
+      "startSec": 153,
+      "endSec": 160,
+      "fromFrame": 4590,
+      "durationInFrames": 210,
+      "title": "形成可审查的候选",
+      "visual": "空间结构收束为一份候选方案及其依赖证据；极简、清楚，不是无来源“最终最优解”。外围仍有数个未解决的小节点。",
+      "voice": "而是不同的探索，终于能够接成下一步。",
+      "speaker": "narrator",
+      "sound": "低频铺底收回，留下清晰和声，不以巨响作为答案。",
+      "displayText": "候选 v18 · 当前模拟通过"
+    },
+    {
+      "id": "shot-21",
+      "sceneId": "integration",
+      "startSec": 160,
+      "endSec": 165,
+      "fromFrame": 4800,
+      "durationInFrames": 150,
+      "title": "把边界留在画面里",
+      "visual": "候选结构悬在中央，下方一行“待真实实验验证”。光路不再增生，第一次安静停留。",
+      "voice": "",
+      "speaker": "",
+      "sound": "仅留极轻空间尾音，不配解释型旁白。",
+      "displayText": "待真实实验验证"
+    },
+    {
+      "id": "shot-22",
+      "sceneId": "return",
+      "startSec": 165,
+      "endSec": 171,
+      "fromFrame": 4950,
+      "durationInFrames": 180,
+      "title": "人类把话说完",
+      "visual": "回到同一支笔与同一口呼吸。说话者指向草图中的前提；屏幕已经把对应风险圈出，但不以“你落后了”嘲笑他。",
+      "voice": "……这个前提，也许得重新检查。",
+      "speaker": "researcher",
+      "sound": "房间底噪恢复；人声干净、亲近。",
+      "displayText": ""
+    },
+    {
+      "id": "shot-23",
+      "sceneId": "return",
+      "startSec": 171,
+      "endSec": 176,
+      "fromFrame": 5130,
+      "durationInFrames": 150,
+      "title": "一个对话入口",
+      "visual": "镜头拉过桌面，屏幕只剩一个简洁回答入口；玻璃反光中，隐约可见仍在工作的星云。",
+      "voice": "你听见的，只有一个声音。",
+      "speaker": "narrator",
+      "sound": "电子复调压到极轻，让一句话清晰出现。",
+      "displayText": ""
+    },
+    {
+      "id": "shot-24",
+      "sceneId": "return",
+      "startSec": 176,
+      "endSec": 180,
+      "fromFrame": 5280,
+      "durationInFrames": 120,
+      "title": "余问署名",
+      "visual": "星云轮廓收成一个不闭合的Q形光弧；不是所有点被吞掉。中央出现片名与“余问 QStory”。",
+      "voice": "它背后，是一片同时思考的星空。",
+      "speaker": "narrator",
+      "sound": "最后音符不完全解决，不加关注提示或logo撞击声。",
+      "displayText": "十万亿个分身｜余问 QStory"
+    }
+  ],
+  "captions": [
+    {
+      "id": "caption-001",
+      "shotId": "shot-01",
+      "speaker": "researcher",
+      "fromFrame": 30,
+      "toFrameExclusive": 135,
+      "text": "等等，我的意思是……"
+    },
+    {
+      "id": "caption-002",
+      "shotId": "shot-02",
+      "speaker": "narrator",
+      "fromFrame": 195,
+      "toFrameExclusive": 330,
+      "text": "一个想法，抵达另一个人，需要多久？"
+    },
+    {
+      "id": "caption-003",
+      "shotId": "shot-03",
+      "speaker": "narrator",
+      "fromFrame": 381,
+      "toFrameExclusive": 570,
+      "text": "每个人心里，都有一个难以完整说出的世界。"
+    },
+    {
+      "id": "caption-004",
+      "shotId": "shot-04",
+      "speaker": "narrator",
+      "fromFrame": 624,
+      "toFrameExclusive": 795,
+      "text": "我们把它变成语言、图像、公式。"
+    },
+    {
+      "id": "caption-005",
+      "shotId": "shot-05",
+      "speaker": "narrator",
+      "fromFrame": 855,
+      "toFrameExclusive": 1020,
+      "text": "再由另一个人，一点一点，重新搭起。"
+    },
+    {
+      "id": "caption-006",
+      "shotId": "shot-06",
+      "speaker": "narrator",
+      "fromFrame": 1065,
+      "toFrameExclusive": 1230,
+      "text": "我们就这样，把无数孤岛连成文明。"
+    },
+    {
+      "id": "caption-007",
+      "shotId": "shot-07",
+      "speaker": "narrator",
+      "fromFrame": 1275,
+      "toFrameExclusive": 1470,
+      "text": "但如果，协作不必一次次从解释开始？"
+    },
+    {
+      "id": "caption-008",
+      "shotId": "shot-08",
+      "speaker": "narrator",
+      "fromFrame": 1515,
+      "toFrameExclusive": 1755,
+      "text": "如果，同一个问题，可以向一万个方向，同时展开？"
+    },
+    {
+      "id": "caption-009",
+      "shotId": "shot-09",
+      "speaker": "narrator",
+      "fromFrame": 1821,
+      "toFrameExclusive": 2010,
+      "text": "它让不同分身，走向不同的可能。"
+    },
+    {
+      "id": "caption-010",
+      "shotId": "shot-10",
+      "speaker": "narrator",
+      "fromFrame": 2055,
+      "toFrameExclusive": 2244,
+      "text": "有的提出构想，有的寻找反例。"
+    },
+    {
+      "id": "caption-011",
+      "shotId": "shot-11",
+      "speaker": "narrator",
+      "fromFrame": 2298,
+      "toFrameExclusive": 2505,
+      "text": "有的重新检查，所有人默认正确的前提。"
+    },
+    {
+      "id": "caption-012",
+      "shotId": "shot-12",
+      "speaker": "narrator",
+      "fromFrame": 2574,
+      "toFrameExclusive": 2730,
+      "text": "它们共享的不只是结论。"
+    },
+    {
+      "id": "caption-013",
+      "shotId": "shot-13",
+      "speaker": "narrator",
+      "fromFrame": 2805,
+      "toFrameExclusive": 3009,
+      "text": "还有假设、证据，以及别人可以接着推进的工作。"
+    },
+    {
+      "id": "caption-014",
+      "shotId": "shot-14",
+      "speaker": "narrator",
+      "fromFrame": 3045,
+      "toFrameExclusive": 3240,
+      "text": "但一万次赞同，也可能是同一个错误。"
+    },
+    {
+      "id": "caption-015",
+      "shotId": "shot-15",
+      "speaker": "narrator",
+      "fromFrame": 3315,
+      "toFrameExclusive": 3465,
+      "text": "直到，一个分身找到反例。"
+    },
+    {
+      "id": "caption-016",
+      "shotId": "shot-16",
+      "speaker": "narrator",
+      "fromFrame": 3576,
+      "toFrameExclusive": 3726,
+      "text": "它没有把错误藏起来。"
+    },
+    {
+      "id": "caption-017",
+      "shotId": "shot-17",
+      "speaker": "narrator",
+      "fromFrame": 3906,
+      "toFrameExclusive": 3992,
+      "text": "相关的推理被重新检查。"
+    },
+    {
+      "id": "caption-018",
+      "shotId": "shot-17",
+      "speaker": "narrator",
+      "fromFrame": 3992,
+      "toFrameExclusive": 4071,
+      "text": "整片星云，改变方向。"
+    },
+    {
+      "id": "caption-019",
+      "shotId": "shot-18",
+      "speaker": "narrator",
+      "fromFrame": 4098,
+      "toFrameExclusive": 4178,
+      "text": "失败没有消失。"
+    },
+    {
+      "id": "caption-020",
+      "shotId": "shot-18",
+      "speaker": "narrator",
+      "fromFrame": 4178,
+      "toFrameExclusive": 4305,
+      "text": "它成为其他路径的边界。"
+    },
+    {
+      "id": "caption-021",
+      "shotId": "shot-19",
+      "speaker": "narrator",
+      "fromFrame": 4365,
+      "toFrameExclusive": 4545,
+      "text": "不是所有声音变成一种声音。"
+    },
+    {
+      "id": "caption-022",
+      "shotId": "shot-20",
+      "speaker": "narrator",
+      "fromFrame": 4596,
+      "toFrameExclusive": 4770,
+      "text": "而是不同的探索，终于能够接成下一步。"
+    },
+    {
+      "id": "caption-023",
+      "shotId": "shot-22",
+      "speaker": "researcher",
+      "fromFrame": 4962,
+      "toFrameExclusive": 5100,
+      "text": "……这个前提，也许得重新检查。"
+    },
+    {
+      "id": "caption-024",
+      "shotId": "shot-23",
+      "speaker": "narrator",
+      "fromFrame": 5136,
+      "toFrameExclusive": 5244,
+      "text": "你听见的，只有一个声音。"
+    },
+    {
+      "id": "caption-025",
+      "shotId": "shot-24",
+      "speaker": "narrator",
+      "fromFrame": 5280,
+      "toFrameExclusive": 5394,
+      "text": "它背后，是一片同时思考的星空。"
+    }
+  ],
+  "soundCues": [
+    {
+      "id": "hard-silence",
+      "fromFrame": 3870,
+      "toFrameExclusive": 3900,
+      "tracks": [
+        "voice",
+        "music",
+        "sfx"
+      ],
+      "description": "完全静音，129—130秒；旁白已绕开此窗口。"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Coupé et al. (2019), Different languages, similar encoding efficiency",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6984970/",
+      "supports": "17种语言中的口语编码信息率研究；不支持人类全部认知带宽为39 bits/s，也不能与硬件字节吞吐直接相除。"
+    },
+    {
+      "id": "S2",
+      "title": "NVIDIA NVLink official overview",
+      "url": "https://www.nvidia.com/en-us/data-center/nvlink/",
+      "supports": "硬件互连可以提供很高的数据吞吐；不支持意识融合、无限推理速度或一毫秒完成科学研究。"
+    },
+    {
+      "id": "S3",
+      "title": "Remotion Agent Skills",
+      "url": "https://www.remotion.dev/docs/ai/skills",
+      "supports": "官方Skills用途、名称与安装命令。"
+    },
+    {
+      "id": "S4",
+      "title": "Remotion core idea",
+      "url": "https://www.remotion.dev/docs/idea",
+      "supports": "视频帧编号、Composition、fps与durationInFrames。"
+    },
+    {
+      "id": "S5",
+      "title": "Remotion ThreeCanvas",
+      "url": "https://www.remotion.dev/docs/three-canvas",
+      "supports": "ThreeCanvas与useCurrentFrame同步；不用R3F useFrame驱动动画。"
+    },
+    {
+      "id": "S6",
+      "title": "Remotion random()",
+      "url": "https://www.remotion.dev/docs/random",
+      "supports": "固定seed的确定性随机。"
+    },
+    {
+      "id": "S7",
+      "title": "Remotion Audio (@remotion/media)",
+      "url": "https://www.remotion.dev/docs/media/audio",
+      "supports": "音频from、durationInFrames、staticFile及音量控制。"
+    },
+    {
+      "id": "S8",
+      "title": "Remotion Sequence",
+      "url": "https://www.remotion.dev/docs/sequence",
+      "supports": "时间容器的局部帧偏移；当前文档推荐可交互组件继承时间属性，Sequence仍可使用。"
+    },
+    {
+      "id": "S9",
+      "title": "Remotion coding agents guide",
+      "url": "https://www.remotion.dev/docs/ai/coding-agents",
+      "supports": "创建空白Remotion工程与Studio预览入口。"
+    }
+  ]
+}

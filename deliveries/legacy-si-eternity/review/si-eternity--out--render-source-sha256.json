@@ -1,0 +1,19 @@
+{
+  "package-lock.json": "48dc5aa2722d00ca17a05bdf2fe72d5edea46260a35e1f3ac65ec62ce8d00e5f",
+  "package.json": "aa21d4835343149c110a9504701236fcf5c9cfee27f21158f5f85a5930bb6f6c",
+  "scripts/check.mjs": "67a8cea7f73cb2a1e27a2fbad2f9f4eff447fec49de4a1c991c6ca5bcbfa57b7",
+  "scripts/render.mjs": "f07aa3dae750e079fb0329ca23dae3fad14b92b2158143d9a8285c1b451d0b48",
+  "src/MainComposition.tsx": "c5d9627cf77e1fc0920b5b068d86739c0e2190793003ac03576a9b4b03fd6b8d",
+  "src/Root.tsx": "88e500cd0a672d420cd770ca710bba95bd5e4a0da24e57496f90c8c4f8a79d21",
+  "src/components/Act1Speed.tsx": "1cb54f5f9ea0caadbffc66ec1a1b8beb44e1134f1b8af3c868bc67770784b729",
+  "src/components/Act2BreadthMCTS.tsx": "c289c1e3844ef40c6b62fb44ab6a97876ec34494270338f2b1251f6079340d64",
+  "src/components/Act3DepthManifold.tsx": "c836fa837555ae5ff3aad0f02bd600927ad1fb75107554a1036002199c704155",
+  "src/components/Act4SplitWorld.tsx": "02ee8843b0ec4ace8a9d0eeee3820a548883460a8101f15f95c4ca4fa1936383",
+  "src/components/GlobalHUD.tsx": "94126c62188649bf25c98c3ca022c29978d6b3cf7b99972feff96263213a6659",
+  "src/components/Visuals.tsx": "afb24913ab7875523b88bdbefbc7afeea891466daa127002b8ca1b1acbce12d3",
+  "src/index.ts": "5462d3268136731ce43bfd7c5072ea1ba48b51fec94fa30076f5044f4b39e4a2",
+  "src/lib/math.ts": "235dfd05bea0145094a770d578d9cdbadaf5a7253eaeb7458b9c2ceaa8340119",
+  "src/lib/theme.ts": "a18ac2316ada8d7c650304439ecaab48292ee3e0f6e4222660fda5fd9cc3c197",
+  "src/lib/timeline.ts": "0328a9dc543acf7bf95de2f74643ee833d4eb49b0d9dccb4188796433ead0866",
+  "tsconfig.json": "522ac46763476439555ea8ebe67a503254cc22cc4799c22c6163fa9172949625"
+}

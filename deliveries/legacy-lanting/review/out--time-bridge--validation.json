@@ -1,0 +1,389 @@
+{
+  "createdAt": "2026-10-11T14:16:34.340Z",
+  "edition": "古今回望版",
+  "fps": 24,
+  "frames": 4535,
+  "seconds": 188.95833333333334,
+  "scenes": 17,
+  "cues": 26,
+  "fullTextMatches": true,
+  "continuousTimeline": true,
+  "allCueSamplesFit": true,
+  "cueSampleChecks": [
+    {
+      "sceneId": "date",
+      "cueIndex": 1,
+      "samples": 142063,
+      "durationFrames": 153
+    },
+    {
+      "sceneId": "date",
+      "cueIndex": 2,
+      "samples": 111928,
+      "durationFrames": 122
+    },
+    {
+      "sceneId": "grove",
+      "cueIndex": 1,
+      "samples": 148520,
+      "durationFrames": 159
+    },
+    {
+      "sceneId": "grove",
+      "cueIndex": 2,
+      "samples": 51659,
+      "durationFrames": 62
+    },
+    {
+      "sceneId": "water",
+      "cueIndex": 1,
+      "samples": 86099,
+      "durationFrames": 97
+    },
+    {
+      "sceneId": "cups",
+      "cueIndex": 1,
+      "samples": 111928,
+      "durationFrames": 122
+    },
+    {
+      "sceneId": "poems",
+      "cueIndex": 1,
+      "samples": 159283,
+      "durationFrames": 170
+    },
+    {
+      "sceneId": "breeze",
+      "cueIndex": 1,
+      "samples": 92556,
+      "durationFrames": 103
+    },
+    {
+      "sceneId": "joy",
+      "cueIndex": 1,
+      "samples": 187265,
+      "durationFrames": 198
+    },
+    {
+      "sceneId": "joy",
+      "cueIndex": 2,
+      "samples": 111928,
+      "durationFrames": 122
+    },
+    {
+      "sceneId": "life",
+      "cueIndex": 1,
+      "samples": 133453,
+      "durationFrames": 144
+    },
+    {
+      "sceneId": "life",
+      "cueIndex": 2,
+      "samples": 135605,
+      "durationFrames": 146
+    },
+    {
+      "sceneId": "contentment",
+      "cueIndex": 1,
+      "samples": 142063,
+      "durationFrames": 153
+    },
+    {
+      "sceneId": "contentment",
+      "cueIndex": 2,
+      "samples": 129148,
+      "durationFrames": 140
+    },
+    {
+      "sceneId": "change",
+      "cueIndex": 1,
+      "samples": 150673,
+      "durationFrames": 161
+    },
+    {
+      "sceneId": "traces",
+      "cueIndex": 1,
+      "samples": 124843,
+      "durationFrames": 135
+    },
+    {
+      "sceneId": "traces",
+      "cueIndex": 2,
+      "samples": 62422,
+      "durationFrames": 73
+    },
+    {
+      "sceneId": "mortality",
+      "cueIndex": 1,
+      "samples": 157051,
+      "durationFrames": 168
+    },
+    {
+      "sceneId": "mortality",
+      "cueIndex": 2,
+      "samples": 42028,
+      "durationFrames": 53
+    },
+    {
+      "sceneId": "reading",
+      "cueIndex": 1,
+      "samples": 196866,
+      "durationFrames": 207
+    },
+    {
+      "sceneId": "reading",
+      "cueIndex": 2,
+      "samples": 42028,
+      "durationFrames": 53
+    },
+    {
+      "sceneId": "judgment",
+      "cueIndex": 1,
+      "samples": 121659,
+      "durationFrames": 132
+    },
+    {
+      "sceneId": "time",
+      "cueIndex": 1,
+      "samples": 128295,
+      "durationFrames": 139
+    },
+    {
+      "sceneId": "record",
+      "cueIndex": 1,
+      "samples": 194654,
+      "durationFrames": 205
+    },
+    {
+      "sceneId": "record",
+      "cueIndex": 2,
+      "samples": 53088,
+      "durationFrames": 64
+    },
+    {
+      "sceneId": "future",
+      "cueIndex": 1,
+      "samples": 103963,
+      "durationFrames": 114
+    }
+  ],
+  "model": "cosyvoice-v3-flash",
+  "voice": "longsanshu_v3",
+  "sampleRate": 24000,
+  "soundtrackChannels": 2,
+  "voicePeakTarget": 0.62,
+  "maxAppliedVoiceGain": 1.4865120362917978,
+  "measuredVoicePeak": 0.62,
+  "soundtrackPeakDbfs": -3.726043740611305,
+  "music": "Original locally synthesized sparse string tones, wind and water",
+  "loudness": {
+    "integratedLufs": -18.3,
+    "loudnessRangeLu": 9.5,
+    "truePeakDbfs": -3.1
+  },
+  "typecheckPassed": true,
+  "media": [
+    {
+      "file": "out/time-bridge/兰亭集序-古今回望版-4K.mp4",
+      "width": 3840,
+      "height": 2160,
+      "frames": 4535,
+      "fps": 24,
+      "seconds": 188.971,
+      "bytes": 770129376,
+      "sha256": "8e41a82c51e45b7a0fd8e7692daf189e2174667d9f04e92be68fa94d55a6b188",
+      "fullDecodePassed": true,
+      "fastStart": true,
+      "audio": {
+        "codec": "aac",
+        "sampleRate": 48000,
+        "channels": 2
+      }
+    },
+    {
+      "file": "out/time-bridge/兰亭集序-古今回望版-1080p.mp4",
+      "width": 1920,
+      "height": 1080,
+      "frames": 4535,
+      "fps": 24,
+      "seconds": 188.971,
+      "bytes": 182675421,
+      "sha256": "c448d04264628266a7080b62264d552571f3813078380eac3b666b21d43533d4",
+      "fullDecodePassed": true,
+      "fastStart": true,
+      "audio": {
+        "codec": "aac",
+        "sampleRate": 48000,
+        "channels": 2
+      }
+    }
+  ],
+  "previewFrames": [
+    [
+      "title",
+      284
+    ],
+    [
+      "date",
+      536
+    ],
+    [
+      "grove",
+      808
+    ],
+    [
+      "water",
+      976
+    ],
+    [
+      "cups",
+      1127
+    ],
+    [
+      "poems",
+      1319
+    ],
+    [
+      "breeze",
+      1477
+    ],
+    [
+      "joy",
+      1772
+    ],
+    [
+      "life",
+      2107
+    ],
+    [
+      "contentment",
+      2435
+    ],
+    [
+      "change",
+      2669
+    ],
+    [
+      "traces",
+      2900
+    ],
+    [
+      "mortality",
+      3153
+    ],
+    [
+      "reading",
+      3438
+    ],
+    [
+      "judgment",
+      3642
+    ],
+    [
+      "time",
+      3815
+    ],
+    [
+      "record",
+      4084
+    ],
+    [
+      "future",
+      4277
+    ],
+    [
+      "end",
+      4475
+    ],
+    [
+      "final",
+      4534
+    ],
+    [
+      "time-ancient",
+      3713
+    ],
+    [
+      "time-empty",
+      3759
+    ],
+    [
+      "time-modern",
+      3826
+    ]
+  ],
+  "newArtwork": 7,
+  "newTransparentSprites": 1,
+  "timeBridge": {
+    "edition": "古今回望版",
+    "changedShots": [
+      "time",
+      "future"
+    ],
+    "quote": "后之视今，亦犹今之视昔，悲夫！",
+    "unchangedSourceSha256": {
+      "src/extended/timeline.json": "622467404dc09dd2e454df15b03dbfa3be83b5547c09bbd30e86528b2de77f64",
+      "public/extended/audio/soundtrack.wav": "bc94a6234ef6b286b673f6cea170b7eb7efb406e8aaafd7bfd78da97c9cd3e48"
+    },
+    "retainedPriorMedia": [
+      {
+        "file": "out/extended/兰亭集序-展厅增强版-4K.mp4",
+        "sha256": "24fdd06c726cbfede58d4755c348b4b8400808aff6b737407d83a403e1a21c78"
+      },
+      {
+        "file": "out/extended/兰亭集序-展厅增强版-1080p.mp4",
+        "sha256": "2713a7cd2a0bd049476cbe8a561c22995027b24e3041cfcc8902966b70c13ff8"
+      }
+    ],
+    "visitorArtwork": {
+      "file": "public/extended/modern-visitors.png",
+      "sha256": "12ea510e9bb3e8feba29d4d941dbedc2b89bf2189ffd53ed4e4ced6f03380201",
+      "generator": "built-in image_gen",
+      "promptSet": "out/time-bridge/art-prompts.json"
+    },
+    "timeShotOpacity": {
+      "emptyFade": [
+        30,
+        64
+      ],
+      "emptyHold": [
+        64,
+        78
+      ],
+      "modernFade": [
+        78,
+        114
+      ]
+    },
+    "narrationAndTimelineUnchanged": true,
+    "stages": [
+      "ancient gathering",
+      "empty garden",
+      "modern visitors"
+    ],
+    "modernCompleteAtFrame": 3803
+  },
+  "notHistoricalHandwriting": true,
+  "artworkNativeSize": "1672x941 backgrounds, raster upscaled in 4K; text, handwriting outlines, shaders rendered at target resolution",
+  "onsiteScreenAndAudioAudition": false,
+  "browserPlayback": {
+    "url": "http://127.0.0.1:8031/time-bridge-watch.html",
+    "tested": [
+      {
+        "button": "古今回望",
+        "currentTime": 153.045029
+      },
+      {
+        "button": "后之览者",
+        "currentTime": 173.713919
+      }
+    ],
+    "paused": false,
+    "readyState": 4,
+    "width": 1920,
+    "height": 1080,
+    "duration": 188.971,
+    "error": null,
+    "scope": "Chapter seeking and video playback, not onsite audition"
+  }
+}

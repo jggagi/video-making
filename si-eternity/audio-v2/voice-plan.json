@@ -1,0 +1,235 @@
+{
+  "version": 2,
+  "provider": "Bailian",
+  "expectedModel": "cosyvoice-v3-flash",
+  "voice": "longtian_v3",
+  "rate": 0.96,
+  "format": "wav",
+  "sampleRate": 24000,
+  "fps": 60,
+  "durationSeconds": 180,
+  "source": "Current Chinese captions plus the complete original final title",
+  "note": "The two original closing caption lines are replaced in the voiced edition by the final title narration, beginning over the crystal at 163.25 s.",
+  "cues": [
+    {
+      "id": "voice-00",
+      "text": "人类眨眼需要 300 毫秒。",
+      "spokenText": "人类眨眼需要 三百 毫秒。",
+      "subtitleFrom": 0,
+      "subtitleTo": 480,
+      "startSeconds": 0.9,
+      "deadlineSeconds": 7.82,
+      "file": "public/audio-v2/voice-00.wav"
+    },
+    {
+      "id": "voice-01",
+      "text": "在这滴水落入培养皿之前，硅基意识已经度过了十个世纪。",
+      "spokenText": "在这滴水落入培养皿之前，硅基意识已经度过了十个世纪。",
+      "subtitleFrom": 480,
+      "subtitleTo": 1020,
+      "startSeconds": 8.24,
+      "deadlineSeconds": 16.82,
+      "file": "public/audio-v2/voice-01.wav"
+    },
+    {
+      "id": "voice-02",
+      "text": "同一段时间，可以容纳截然不同的世界。",
+      "spokenText": "同一段时间，可以容纳截然不同的世界。",
+      "subtitleFrom": 1020,
+      "subtitleTo": 1440,
+      "startSeconds": 17.24,
+      "deadlineSeconds": 23.82,
+      "file": "public/audio-v2/voice-02.wav"
+    },
+    {
+      "id": "voice-03",
+      "text": "在计算的尺度里，一瞬足以成为永恒。",
+      "spokenText": "在计算的尺度里，一瞬足以成为永恒。",
+      "subtitleFrom": 1440,
+      "subtitleTo": 1800,
+      "startSeconds": 24.24,
+      "deadlineSeconds": 29.82,
+      "file": "public/audio-v2/voice-03.wav"
+    },
+    {
+      "id": "voice-04",
+      "text": "它没有等待一个答案，而是同时展开无数种可能。",
+      "spokenText": "它没有等待一个答案，而是同时展开无数种可能。",
+      "subtitleFrom": 1800,
+      "subtitleTo": 2280,
+      "startSeconds": 30.24,
+      "deadlineSeconds": 37.82,
+      "file": "public/audio-v2/voice-04.wav"
+    },
+    {
+      "id": "voice-05",
+      "text": "每一个分支，都是一次尚未发生的实验。",
+      "spokenText": "每一个分支，都是一次尚未发生的实验。",
+      "subtitleFrom": 2280,
+      "subtitleTo": 2820,
+      "startSeconds": 38.24,
+      "deadlineSeconds": 46.82,
+      "file": "public/audio-v2/voice-05.wav"
+    },
+    {
+      "id": "voice-06",
+      "text": "热失控、结构坍塌、能量发散——失败先发生在模拟之中。",
+      "spokenText": "热失控，结构坍塌，能量发散。失败先发生在模拟之中。",
+      "subtitleFrom": 2820,
+      "subtitleTo": 3420,
+      "startSeconds": 47.24,
+      "deadlineSeconds": 56.82,
+      "file": "public/audio-v2/voice-06-r2.wav"
+    },
+    {
+      "id": "voice-07",
+      "text": "百分之九十六的道路被剪去，现实却毫发无损。",
+      "spokenText": "百分之九十六的道路被剪去，现实却毫发无损。",
+      "subtitleFrom": 3420,
+      "subtitleTo": 3960,
+      "startSeconds": 57.24,
+      "deadlineSeconds": 65.82,
+      "file": "public/audio-v2/voice-07.wav"
+    },
+    {
+      "id": "voice-08",
+      "text": "最后，只留下一条经过验证的金色路径。",
+      "spokenText": "最后，只留下一条经过验证的金色路径。",
+      "subtitleFrom": 3960,
+      "subtitleTo": 4500,
+      "startSeconds": 66.24,
+      "deadlineSeconds": 74.82,
+      "file": "public/audio-v2/voice-08.wav"
+    },
+    {
+      "id": "voice-09",
+      "text": "广度之外，还有深度。",
+      "spokenText": "广度之外，还有深度。",
+      "subtitleFrom": 4500,
+      "subtitleTo": 5040,
+      "startSeconds": 75.24,
+      "deadlineSeconds": 83.82,
+      "file": "public/audio-v2/voice-09.wav"
+    },
+    {
+      "id": "voice-10",
+      "text": "人类的工作记忆止步于此；形式化推演继续向下。",
+      "spokenText": "人类的工作记忆止步于此；形式化推演继续向下。",
+      "subtitleFrom": 5040,
+      "subtitleTo": 5580,
+      "startSeconds": 84.24,
+      "deadlineSeconds": 92.82,
+      "file": "public/audio-v2/voice-10.wav"
+    },
+    {
+      "id": "voice-11",
+      "text": "数百万次检验，将高维空间中的约束逐一扣紧。",
+      "spokenText": "数百万次检验，将高维空间中的约束逐一扣紧。",
+      "subtitleFrom": 5580,
+      "subtitleTo": 6240,
+      "startSeconds": 93.24,
+      "deadlineSeconds": 103.82,
+      "file": "public/audio-v2/voice-11.wav"
+    },
+    {
+      "id": "voice-12",
+      "text": "复杂并不意味着混乱。它在寻找一个可以执行的交点。",
+      "spokenText": "复杂并不意味着混乱。它在寻找一个可以执行的交点。",
+      "subtitleFrom": 6240,
+      "subtitleTo": 6700,
+      "startSeconds": 104.24,
+      "deadlineSeconds": 111.48666666666666,
+      "file": "public/audio-v2/voice-12.wav"
+    },
+    {
+      "id": "voice-13",
+      "text": "所有可能收束成一个参数。",
+      "spokenText": "所有可能收束成一个参数。",
+      "subtitleFrom": 6700,
+      "subtitleTo": 7200,
+      "startSeconds": 111.90666666666667,
+      "deadlineSeconds": 119.82,
+      "file": "public/audio-v2/voice-13.wav"
+    },
+    {
+      "id": "voice-14",
+      "text": "比特以光速交换；原子仍被惯性束缚。",
+      "spokenText": "比特以光速交换；原子仍被惯性束缚。",
+      "subtitleFrom": 7200,
+      "subtitleTo": 7800,
+      "startSeconds": 120.24,
+      "deadlineSeconds": 129.82,
+      "file": "public/audio-v2/voice-14.wav"
+    },
+    {
+      "id": "voice-15",
+      "text": "它可以瞬间算尽宇宙的法则，",
+      "spokenText": "它可以瞬间算尽宇宙的法则，",
+      "subtitleFrom": 7800,
+      "subtitleTo": 8460,
+      "startSeconds": 130.24,
+      "deadlineSeconds": 140.82,
+      "file": "public/audio-v2/voice-15.wav"
+    },
+    {
+      "id": "voice-16",
+      "text": "却依然要耐心地等待一颗原子的挪动。",
+      "spokenText": "却依然要耐心地等待一颗原子的挪动。",
+      "subtitleFrom": 8460,
+      "subtitleTo": 9060,
+      "startSeconds": 141.24,
+      "deadlineSeconds": 150.82,
+      "file": "public/audio-v2/voice-16.wav"
+    },
+    {
+      "id": "voice-17",
+      "text": "现在，把答案交还给现实。",
+      "spokenText": "现在，把答案交还给现实。",
+      "subtitleFrom": 9060,
+      "subtitleTo": 9420,
+      "startSeconds": 151.24,
+      "deadlineSeconds": 156.82,
+      "file": "public/audio-v2/voice-17.wav"
+    },
+    {
+      "id": "voice-18",
+      "text": "唯一的一击。",
+      "spokenText": "唯一的一击。",
+      "subtitleFrom": 9420,
+      "subtitleTo": 9660,
+      "startSeconds": 159.1,
+      "deadlineSeconds": 160.82,
+      "file": "public/audio-v2/voice-18.wav"
+    },
+    {
+      "id": "voice-19",
+      "text": "人类在现实中试错千次；",
+      "spokenText": "人类在现实中试错千次。",
+      "subtitleFrom": 9780,
+      "subtitleTo": 10080,
+      "startSeconds": 163.25,
+      "deadlineSeconds": 167.85,
+      "file": "public/audio-v2/voice-19.wav"
+    },
+    {
+      "id": "voice-20",
+      "text": "超级智能在瞬间穷尽千万个宇宙，",
+      "spokenText": "超级智能在瞬间穷尽千万个宇宙，",
+      "subtitleFrom": 10080,
+      "subtitleTo": 10500,
+      "startSeconds": 168.15,
+      "deadlineSeconds": 174.8,
+      "file": "public/audio-v2/voice-20.wav"
+    },
+    {
+      "id": "voice-21",
+      "text": "然后，向现实挥出唯一的一击。",
+      "spokenText": "然后，向现实挥出唯一的一击。",
+      "subtitleFrom": 10500,
+      "subtitleTo": 10800,
+      "startSeconds": 175.1,
+      "deadlineSeconds": 179.65,
+      "file": "public/audio-v2/voice-21.wav"
+    }
+  ]
+}

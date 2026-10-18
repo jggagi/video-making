@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "voice-21",
+  "spokenText": "人类眨眼一瞬，硅基已历万年。",
+  "sourcePath": "public/audio-v3/voice-21.wav",
+  "sourceSha256": "3f17f4bf1e1a51bbf97edd46899dcfa99bc6e357cf97ee39e5617841584baff4",
+  "cacheKey": "8b8f16dc6d8358f6285b6487703f88aac5060de290b15cf0ee84f5d875365e82",
+  "parameters": {
+    "sampleRate": 48000,
+    "channels": 1,
+    "format": "pcm_s16le",
+    "targetNonSilentRmsDbfs": -20.0,
+    "nonSilentFloorDbfs": -60.0,
+    "maxGainDb": 6.0,
+    "peakCeilingDbfs": -3.0,
+    "atempoMax": 1.18
+  },
+  "actualStartSeconds": 175.1,
+  "deadlineSeconds": 179.65,
+  "atempo": 1.0,
+  "sampleRate": 48000,
+  "channels": 1,
+  "sampleCount": 169180,
+  "durationSeconds": 3.524583333333333,
+  "processedSha256": "847db4b0789b8772cc4b8e87d3b8861d1018c82005436995d6c509cfff6d80b8",
+  "normalization": {
+    "nonSilentFloorDbfs": -60.0,
+    "nonSilentSampleCount": 113306.0,
+    "nonSilentRmsBeforeDbfs": -23.590568961703294,
+    "targetRmsDbfs": -20.0,
+    "appliedGainDb": 2.2066103095910834,
+    "nonSilentRmsAfterDbfs": -21.383958370040173,
+    "peakBeforeDbfs": -5.206610309591083,
+    "peakAfterDbfs": -3.0000002493010487,
+    "pcm16PeakDbfs": -3.0003622493859567,
+    "tempoFactor": 1.0,
+    "sampleCount": 169180.0
+  }
+}

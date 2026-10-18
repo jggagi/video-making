@@ -1,0 +1,21 @@
+# 余问 QStory EP.03：十万亿个分身
+
+这是历史归档，保留原时长、画幅与版本；不声称符合后续两分钟规格。
+
+[完整 Release 与全部下载](https://github.com/jggagi/video-making/releases/tag/archive-qstory-ep03-v1) · [B站横屏](B站/README.md) · [小红书竖屏](小红书/README.md)
+
+源码位置：`qstory-ep03`。成片在 GitHub Releases；本机原始路径、SHA-256、实测规格见 [archive.json](archive.json)。
+
+## 工程归档
+
+| 文件 | 规格 | 大小 |
+| --- | --- | --- |
+| [QStory-EP03-editable-project.zip](https://github.com/jggagi/video-making/releases/download/archive-qstory-ep03-v1/qstory-ep03--qstory-ep03--out--QStory-EP03-editable-project--bd1b5427badd.zip) | 可编辑工程 / 历史快照 | 180.9 MiB |
+
+## 样片与历史草稿
+
+这些文件仅作制作过程记录，不能视为最终成片。
+
+| 文件 | 规格 | 大小 |
+| --- | --- | --- |
+| [climax-preview-1080p.mp4](https://github.com/jggagi/video-making/releases/download/archive-qstory-ep03-v1/qstory-ep03--qstory-ep03--out--climax-preview-1080p--3afe6e2eea20.mp4) | 1920×1080，35.000秒 | 6.6 MiB |

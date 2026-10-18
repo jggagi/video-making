@@ -1,0 +1,161 @@
+{
+  "url": "http://127.0.0.1:8031/madman-watch.html",
+  "tabId": "2",
+  "started": {
+    "duration": 79.019,
+    "currentTime": 0.185359,
+    "paused": false,
+    "readyState": 4,
+    "error": null
+  },
+  "continuousPlayEnded": {
+    "duration": 79.019,
+    "currentTime": 79.019,
+    "paused": true,
+    "ended": true,
+    "readyState": 4,
+    "error": null
+  },
+  "chapterSeeks": [
+    {
+      "chapter": "题名",
+      "expectedSeconds": 0,
+      "playback": {
+        "currentTime": 0.174257,
+        "error": null,
+        "paused": false,
+        "readyState": 4
+      },
+      "active": [
+        {
+          "text": "00:00题名",
+          "time": 0
+        }
+      ]
+    },
+    {
+      "chapter": "月光",
+      "expectedSeconds": 5,
+      "playback": {
+        "currentTime": 5.237415,
+        "error": null,
+        "paused": false,
+        "readyState": 4
+      },
+      "active": [
+        {
+          "text": "00:05月光",
+          "time": 5
+        }
+      ]
+    },
+    {
+      "chapter": "目光",
+      "expectedSeconds": 13,
+      "playback": {
+        "currentTime": 13.354175,
+        "error": null,
+        "paused": false,
+        "readyState": 4
+      },
+      "active": [
+        {
+          "text": "00:13目光",
+          "time": 13
+        }
+      ]
+    },
+    {
+      "chapter": "字缝",
+      "expectedSeconds": 24,
+      "playback": {
+        "currentTime": 24.32086,
+        "error": null,
+        "paused": false,
+        "readyState": 4
+      },
+      "active": [
+        {
+          "text": "00:24字缝",
+          "time": 24
+        }
+      ]
+    },
+    {
+      "chapter": "质问",
+      "expectedSeconds": 44,
+      "playback": {
+        "currentTime": 44.237313,
+        "error": null,
+        "paused": false,
+        "readyState": 4
+      },
+      "active": [
+        {
+          "text": "00:44质问",
+          "time": 44
+        }
+      ]
+    },
+    {
+      "chapter": "自省",
+      "expectedSeconds": 52,
+      "playback": {
+        "currentTime": 52.147405,
+        "error": null,
+        "paused": false,
+        "readyState": 4
+      },
+      "active": [
+        {
+          "text": "00:52自省",
+          "time": 52
+        }
+      ]
+    },
+    {
+      "chapter": "孩子",
+      "expectedSeconds": 63,
+      "playback": {
+        "currentTime": 63.327457,
+        "error": null,
+        "paused": false,
+        "readyState": 4
+      },
+      "active": [
+        {
+          "text": "01:03孩子",
+          "time": 63
+        }
+      ]
+    },
+    {
+      "chapter": "呼喊",
+      "expectedSeconds": 72,
+      "playback": {
+        "currentTime": 72.181207,
+        "error": null,
+        "paused": false,
+        "readyState": 4
+      },
+      "active": [
+        {
+          "text": "01:12呼喊",
+          "time": 72
+        }
+      ]
+    }
+  ],
+  "restoredState": [
+    {
+      "currentSrc": "http://127.0.0.1:8031/out/madman/%E7%8B%82%E4%BA%BA%E6%97%A5%E8%AE%B0-%E8%8A%82%E5%A5%8F%E6%84%8F%E8%B1%A1%E5%8A%A0%E5%BC%BA%E7%89%88-v4-1080p.mp4",
+      "currentTime": 0,
+      "duration": 79.019,
+      "error": null,
+      "paused": true,
+      "readyState": 4
+    }
+  ],
+  "screenshot": "out/madman/player-full-v4-preview.png",
+  "humanListening": false
+}

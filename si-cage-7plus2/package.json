@@ -1,0 +1,49 @@
+{
+  "name": "si-cage-7plus2",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "EP.02 — 7±2 的囚笼 / The Cage of 7±2",
+  "scripts": {
+    "start": "remotion studio src/index.ts --port=3107",
+    "audio": "node generate-audio-ep2.js",
+    "typecheck": "tsc --noEmit",
+    "check": "node scripts/check.mjs",
+    "captions": "node scripts/export-captions.mjs --voiced --chinese",
+    "stills": "node scripts/render.mjs stills",
+    "preview:overload": "node scripts/render.mjs overload",
+    "preview:manifold": "node scripts/render.mjs manifold",
+    "render": "node scripts/render.mjs video",
+    "render:4k": "node scripts/render.mjs video",
+    "render:score": "node scripts/render.mjs score",
+    "voice:plan": "node scripts/voiceover-ep2.mjs plan",
+    "voice:sample": "node scripts/voiceover-ep2.mjs sample",
+    "voice:generate": "node scripts/voiceover-ep2.mjs all",
+    "voice:mix": "python3 scripts/mix-voiceover.py",
+    "render:voiced": "node scripts/render.mjs video",
+    "render:legacy:voiced": "node scripts/mux-voiced.mjs",
+    "validate:4k": "python3 scripts/validate-uhd.py",
+    "xhs:audio": "python3 scripts/mix-xhs.py",
+    "xhs:captions": "node scripts/render-xhs.mjs captions",
+    "xhs:stills": "node scripts/render-xhs.mjs stills",
+    "xhs:cover": "node scripts/render-xhs.mjs cover",
+    "xhs:preview": "node scripts/render-xhs.mjs preview",
+    "xhs:render": "node scripts/render-xhs.mjs video",
+    "xhs:publish-file": "node scripts/render-xhs.mjs publish",
+    "xhs:validate": "python3 scripts/validate-xhs.py",
+    "xhs:package": "python3 scripts/package-xhs.py --xhs"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.534",
+    "@remotion/cli": "4.0.534",
+    "@remotion/renderer": "4.0.534",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "remotion": "4.0.534"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.0",
+    "@types/react-dom": "19.1.0",
+    "typescript": "5.9.3"
+  }
+}

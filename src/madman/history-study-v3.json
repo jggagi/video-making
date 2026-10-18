@@ -1,0 +1,23 @@
+{
+  "fps": 24,
+  "width": 1920,
+  "height": 1080,
+  "durationInFrames": 480,
+  "edition": "字缝加强样片 v3 · 原文节选",
+  "sourceTimeline": "src/madman/voiced-timeline.json",
+  "sourceShotId": "history",
+  "audioFile": "madman/audio/history-study-v3.wav",
+  "cues": [
+    {"id": "history-1", "from": 24, "captionEnd": 136, "text": "我翻开历史一查，这历史没有年代，", "audioFile": "public/madman/voice-v2/history-1.wav", "peakTarget": 0.53},
+    {"id": "history-2", "from": 148, "captionEnd": 292, "text": "歪歪斜斜的每叶上都写着“仁义道德”几个字。", "audioFile": "public/madman/voice-v2/history-2.wav", "peakTarget": 0.56},
+    {"id": "history-3", "from": 336, "captionEnd": 470, "text": "满本都写着两个字是“吃人”！", "audioFile": "public/madman/voice-v2/history-3.wav", "peakTarget": 0.60, "pauseInsert": {"atSeconds": 1.8, "durationSeconds": 0.45}}
+  ],
+  "captions": [
+    {"from": 24, "end": 136, "text": "我翻开历史一查，这历史没有年代，"},
+    {"from": 148, "end": 292, "text": "歪歪斜斜的每叶上都写着“仁义道德”几个字。"},
+    {"from": 336, "end": 392, "text": "满本都写着两个字是"},
+    {"from": 392, "end": 470, "text": "“吃人”！"}
+  ],
+  "visual": {"pageTurnEnd": 34, "printFocusStart": 150, "printFocusEnd": 236, "crackStart": 350, "crackEnd": 398, "wordRevealStart": 392, "wordRevealEnd": 408},
+  "sound": {"seed": 1296122929, "silenceStartSeconds": 12.75, "silenceEndSeconds": 14, "backgroundFadeStartSeconds": 12.35, "backgroundReturnSeconds": 17.6}
+}

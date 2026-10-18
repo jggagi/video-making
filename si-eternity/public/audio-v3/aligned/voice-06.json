@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "voice-06",
+  "spokenText": "热失控，结构坍塌，能量发散。失败先发生在模拟之中。",
+  "sourcePath": "public/audio-v2/voice-06-r2.wav",
+  "sourceSha256": "dea250c26bbc1992f194b4c942a12accc3aa9402e120bb60a8b1fe21ea3738c6",
+  "cacheKey": "5c9028961df50676a73be5fa867324f69e587f0fd29cfb8779a03a092dd6e97c",
+  "parameters": {
+    "sampleRate": 48000,
+    "channels": 1,
+    "format": "pcm_s16le",
+    "targetNonSilentRmsDbfs": -20.0,
+    "nonSilentFloorDbfs": -60.0,
+    "maxGainDb": 6.0,
+    "peakCeilingDbfs": -3.0,
+    "atempoMax": 1.18
+  },
+  "actualStartSeconds": 47.24,
+  "deadlineSeconds": 56.82,
+  "atempo": 1.0,
+  "sampleRate": 48000,
+  "channels": 1,
+  "sampleCount": 342296,
+  "durationSeconds": 7.131166666666667,
+  "processedSha256": "4c11371514cd92a11076ec559f7dcb5ed48c3482317b29de057d6adfc7d63757",
+  "normalization": {
+    "nonSilentFloorDbfs": -60.0,
+    "nonSilentSampleCount": 175987.0,
+    "nonSilentRmsBeforeDbfs": -22.49729383588125,
+    "targetRmsDbfs": -20.0,
+    "appliedGainDb": 1.842190055983247,
+    "nonSilentRmsAfterDbfs": -20.655103449241533,
+    "peakBeforeDbfs": -4.842190055983247,
+    "peakAfterDbfs": -3.0000002493010487,
+    "pcm16PeakDbfs": -3.0003622493859567,
+    "tempoFactor": 1.0,
+    "sampleCount": 342296.0
+  }
+}

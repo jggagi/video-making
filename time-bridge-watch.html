@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>兰亭集序 · 古今回望版</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#101b17;color:#ede4ce;font-family:"Songti SC",serif}main{width:min(1440px,94vw);margin:4vh auto}header,footer{display:flex;align-items:center;justify-content:space-between;gap:24px}header{margin-bottom:18px}h1{font-weight:400;letter-spacing:.2em;font-size:26px;margin:0}small,p{color:#b4b9a6}video{width:100%;display:block;background:#0b130e;max-height:80vh;box-shadow:0 24px 80px #0006}footer{margin-top:20px;font-size:15px}p{line-height:1.9;margin:0}a,button{color:#e9d7af;background:transparent;border:1px solid #68725a;padding:8px 14px;text-decoration:none;font:inherit;cursor:pointer}nav{display:flex;gap:10px;flex-wrap:wrap}label{display:flex;align-items:center;gap:7px}@media(max-width:700px){header,footer{display:block}nav{margin-top:18px}small{display:block;margin-top:10px}}
+</style>
+<main>
+<header><h1>兰亭集序</h1><small>古今回望版 · 原文全文 · 03:09</small></header>
+<video id="film" controls playsinline preload="metadata" poster="out/time-bridge/final-time-modern.png" src="out/time-bridge/兰亭集序-古今回望版-1080p.mp4"></video>
+<footer><p>后之视今，亦犹今之视昔。<br>古人渐隐 · 山水仍在 · 游客显现</p><nav><button id="time">古今回望</button><button id="future">后之览者</button><label><input type="checkbox" id="loop">循环播放</label><button id="full">全屏</button><a href="out/time-bridge/兰亭集序-古今回望版-4K.mp4" download>保存 4K</a><a href="extended-watch.html">上一版</a></nav></footer>
+</main>
+<script>const film=document.getElementById('film');document.getElementById('loop').addEventListener('change',e=>film.loop=e.target.checked);document.getElementById('full').addEventListener('click',()=>film.requestFullscreen());for(const[id,t]of[['time',152.958333],['future',173.708333]])document.getElementById(id).addEventListener('click',()=>{film.currentTime=t;film.play()});</script>
+</html>

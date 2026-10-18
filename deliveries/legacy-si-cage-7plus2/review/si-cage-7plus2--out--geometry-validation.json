@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "act3": {
+    "sweptVertices": 204000,
+    "x": [
+      847.934,
+      1381.61
+    ],
+    "y": [
+      287.088,
+      796.042
+    ],
+    "labelsWithinSafeBox": true
+  },
+  "act4": {
+    "sweptVertices": 192000,
+    "x": [
+      970.69,
+      1349.881
+    ],
+    "y": [
+      261.397,
+      614.293
+    ]
+  },
+  "minimumDivisors": {
+    "fourDimensional": 2.059106,
+    "perspective": 4.291768
+  },
+  "method": "Read-only numeric sweep of every visible manifold frame, with conservative label extents; root also inspected representative renders."
+}

@@ -1,0 +1,519 @@
+{
+  "fps": 24,
+  "width": 1920,
+  "height": 1080,
+  "audioFile": "madman/audio/suspense-v5.wav",
+  "durationInFrames": 4770,
+  "shots": [
+    {
+      "id": "title",
+      "section": "",
+      "from": 0,
+      "duration": 96,
+      "cues": []
+    },
+    {
+      "id": "moon",
+      "section": "一",
+      "from": 96,
+      "duration": 354,
+      "cues": [
+        {
+          "id": "moon",
+          "text": "今天晚上，很好的月光。",
+          "from": 18,
+          "audioFrames": 81,
+          "duration": 89
+        },
+        {
+          "id": "dog",
+          "text": "然而须十分小心。不然，那赵家的狗，何以看我两眼呢？",
+          "from": 135,
+          "audioFrames": 182,
+          "duration": 190
+        }
+      ]
+    },
+    {
+      "id": "street",
+      "section": "二",
+      "from": 450,
+      "duration": 666,
+      "cues": [
+        {
+          "id": "zhao",
+          "text": "早上小心出门，赵贵翁的眼色便怪：似乎怕我，似乎想害我。",
+          "from": 16,
+          "audioFrames": 220,
+          "duration": 228
+        },
+        {
+          "id": "whisper",
+          "text": "还有七八个人，交头接耳的议论我。又怕我看见。",
+          "from": 262,
+          "audioFrames": 148,
+          "duration": 156
+        },
+        {
+          "id": "smile",
+          "text": "其中最凶的一个人，张着嘴，对我笑了一笑；我便从头直冷到脚跟。",
+          "from": 436,
+          "audioFrames": 198,
+          "duration": 206
+        }
+      ]
+    },
+    {
+      "id": "door",
+      "section": "三",
+      "from": 1116,
+      "duration": 246,
+      "cues": [
+        {
+          "id": "lock",
+          "text": "陈老五赶上前，硬把我拖回家中了。进了书房，便反扣上门，宛然是关了一只鸡鸭。",
+          "from": 12,
+          "audioFrames": 192,
+          "duration": 200
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "section": "三",
+      "from": 1362,
+      "duration": 522,
+      "cues": [
+        {
+          "id": "history-a",
+          "text": "我翻开历史一查，这历史没有年代，",
+          "from": 14,
+          "audioFrames": 101,
+          "duration": 109
+        },
+        {
+          "id": "history-b",
+          "text": "歪歪斜斜的每叶上都写着“仁义道德”几个字。",
+          "from": 136,
+          "audioFrames": 130,
+          "duration": 138
+        },
+        {
+          "id": "history-c",
+          "text": "我横竖睡不着，仔细看了半夜，才从字缝里看出字来，满本都写着两个字是“吃人”！",
+          "from": 287,
+          "audioFrames": 194,
+          "duration": 202
+        }
+      ]
+    },
+    {
+      "id": "meal",
+      "section": "四",
+      "from": 1884,
+      "duration": 312,
+      "cues": [
+        {
+          "id": "fish",
+          "text": "陈老五送进饭来，一碗菜，一碗蒸鱼；这鱼的眼睛，白而且硬，张着嘴，同那一伙想吃人的人一样。",
+          "from": 14,
+          "audioFrames": 263,
+          "duration": 271
+        }
+      ]
+    },
+    {
+      "id": "consult",
+      "section": "四",
+      "from": 2196,
+      "duration": 534,
+      "cues": [
+        {
+          "id": "brother",
+          "text": "大哥说：“今天请何先生来，给你诊一诊。”我说：“可以！”",
+          "from": 14,
+          "audioFrames": 150,
+          "duration": 158
+        },
+        {
+          "id": "doctor",
+          "text": "老头子坐着，闭了眼睛，摸了好一会，呆了好一会；便张开他鬼眼睛说：“不要乱想。静静的养几天，就好了。”",
+          "from": 197,
+          "audioFrames": 297,
+          "duration": 305
+        }
+      ]
+    },
+    {
+      "id": "aside",
+      "section": "四",
+      "from": 2730,
+      "duration": 234,
+      "cues": [
+        {
+          "id": "aside",
+          "text": "老头子跨出门，走不多远，便低声对大哥说道，“赶紧吃罢！”大哥点点头。",
+          "from": 17,
+          "audioFrames": 168,
+          "duration": 176
+        }
+      ]
+    },
+    {
+      "id": "question",
+      "section": "八",
+      "from": 2964,
+      "duration": 138,
+      "cues": [
+        {
+          "id": "question",
+          "text": "从来如此，便对么？",
+          "from": 19,
+          "audioFrames": 61,
+          "duration": 69
+        }
+      ]
+    },
+    {
+      "id": "named",
+      "section": "十",
+      "from": 3102,
+      "duration": 318,
+      "cues": [
+        {
+          "id": "madman-name",
+          "text": "“都出去！疯子有什么好看！”",
+          "from": 12,
+          "audioFrames": 61,
+          "duration": 69
+        },
+        {
+          "id": "label",
+          "text": "他们岂但不肯改，而且早已布置；预备下一个疯子的名目罩上我。",
+          "from": 100,
+          "audioFrames": 184,
+          "duration": 192
+        }
+      ]
+    },
+    {
+      "id": "beams",
+      "section": "十",
+      "from": 3420,
+      "duration": 360,
+      "cues": [
+        {
+          "id": "beams",
+          "text": "横梁和椽子都在头上发抖；抖了一会，就大起来，堆在我身上。",
+          "from": 12,
+          "audioFrames": 150,
+          "duration": 158
+        },
+        {
+          "id": "false-weight",
+          "text": "我晓得他的沉重是假的，便挣扎出来，出了一身汗。",
+          "from": 190,
+          "audioFrames": 117,
+          "duration": 125
+        }
+      ]
+    },
+    {
+      "id": "self",
+      "section": "十二",
+      "from": 3780,
+      "duration": 252,
+      "cues": [
+        {
+          "id": "self-a",
+          "text": "四千年来时时吃人的地方，",
+          "from": 14,
+          "audioFrames": 69,
+          "duration": 77
+        },
+        {
+          "id": "self-b",
+          "text": "今天才明白，我也在其中混了多年；",
+          "from": 108,
+          "audioFrames": 107,
+          "duration": 115
+        }
+      ]
+    },
+    {
+      "id": "children",
+      "section": "十三",
+      "from": 4032,
+      "duration": 282,
+      "cues": [
+        {
+          "id": "children",
+          "text": "没有吃过人的孩子，或者还有？",
+          "from": 24,
+          "audioFrames": 99,
+          "duration": 107
+        },
+        {
+          "id": "plea",
+          "text": "救救孩子……",
+          "from": 179,
+          "audioFrames": 41,
+          "duration": 49
+        }
+      ]
+    },
+    {
+      "id": "epilogue",
+      "section": "小序 · 兄长转述",
+      "from": 4314,
+      "duration": 264,
+      "cues": [
+        {
+          "id": "cured",
+          "text": "劳君远道来视，然已早愈，赴某地候补矣。",
+          "from": 48,
+          "audioFrames": 124,
+          "duration": 132
+        }
+      ]
+    },
+    {
+      "id": "ending",
+      "section": "改编设问",
+      "from": 4578,
+      "duration": 192,
+      "cues": []
+    }
+  ],
+  "captions": [
+    {
+      "from": 114,
+      "duration": 89,
+      "text": "今天晚上，很好的月光。",
+      "cueId": "moon"
+    },
+    {
+      "from": 231,
+      "duration": 119,
+      "text": "然而须十分小心。不然，那赵家的狗，",
+      "cueId": "dog"
+    },
+    {
+      "from": 350,
+      "duration": 71,
+      "text": "何以看我两眼呢？",
+      "cueId": "dog"
+    },
+    {
+      "from": 466,
+      "duration": 167,
+      "text": "早上小心出门，赵贵翁的眼色便怪：似乎怕我，",
+      "cueId": "zhao"
+    },
+    {
+      "from": 633,
+      "duration": 61,
+      "text": "似乎想害我。",
+      "cueId": "zhao"
+    },
+    {
+      "from": 712,
+      "duration": 156,
+      "text": "还有七八个人，交头接耳的议论我。又怕我看见。",
+      "cueId": "whisper"
+    },
+    {
+      "from": 886,
+      "duration": 127,
+      "text": "其中最凶的一个人，张着嘴，对我笑了一笑；",
+      "cueId": "smile"
+    },
+    {
+      "from": 1013,
+      "duration": 79,
+      "text": "我便从头直冷到脚跟。",
+      "cueId": "smile"
+    },
+    {
+      "from": 1128,
+      "duration": 107,
+      "text": "陈老五赶上前，硬把我拖回家中了。进了书房，",
+      "cueId": "lock"
+    },
+    {
+      "from": 1235,
+      "duration": 93,
+      "text": "便反扣上门，宛然是关了一只鸡鸭。",
+      "cueId": "lock"
+    },
+    {
+      "from": 1376,
+      "duration": 109,
+      "text": "我翻开历史一查，这历史没有年代，",
+      "cueId": "history-a"
+    },
+    {
+      "from": 1498,
+      "duration": 138,
+      "text": "歪歪斜斜的每叶上都写着“仁义道德”几个字。",
+      "cueId": "history-b"
+    },
+    {
+      "from": 1649,
+      "duration": 72,
+      "text": "我横竖睡不着，仔细看了半夜，",
+      "cueId": "history-c"
+    },
+    {
+      "from": 1721,
+      "duration": 55,
+      "text": "才从字缝里看出字来，",
+      "cueId": "history-c"
+    },
+    {
+      "from": 1776,
+      "duration": 75,
+      "text": "满本都写着两个字是“吃人”！",
+      "cueId": "history-c"
+    },
+    {
+      "from": 1898,
+      "duration": 99,
+      "text": "陈老五送进饭来，一碗菜，一碗蒸鱼；",
+      "cueId": "fish"
+    },
+    {
+      "from": 1997,
+      "duration": 85,
+      "text": "这鱼的眼睛，白而且硬，张着嘴，",
+      "cueId": "fish"
+    },
+    {
+      "from": 2082,
+      "duration": 87,
+      "text": "同那一伙想吃人的人一样。",
+      "cueId": "fish"
+    },
+    {
+      "from": 2210,
+      "duration": 114,
+      "text": "大哥说：“今天请何先生来，给你诊一诊。",
+      "cueId": "brother"
+    },
+    {
+      "from": 2324,
+      "duration": 44,
+      "text": "”我说：“可以！”",
+      "cueId": "brother"
+    },
+    {
+      "from": 2393,
+      "duration": 104,
+      "text": "老头子坐着，闭了眼睛，摸了好一会，",
+      "cueId": "doctor"
+    },
+    {
+      "from": 2497,
+      "duration": 124,
+      "text": "呆了好一会；便张开他鬼眼睛说：“不要乱想。",
+      "cueId": "doctor"
+    },
+    {
+      "from": 2621,
+      "duration": 77,
+      "text": "静静的养几天，就好了。”",
+      "cueId": "doctor"
+    },
+    {
+      "from": 2747,
+      "duration": 110,
+      "text": "老头子跨出门，走不多远，便低声对大哥说道，",
+      "cueId": "aside"
+    },
+    {
+      "from": 2857,
+      "duration": 66,
+      "text": "“赶紧吃罢！”大哥点点头。",
+      "cueId": "aside"
+    },
+    {
+      "from": 2983,
+      "duration": 69,
+      "text": "从来如此，便对么？",
+      "cueId": "question"
+    },
+    {
+      "from": 3114,
+      "duration": 69,
+      "text": "“都出去！疯子有什么好看！”",
+      "cueId": "madman-name"
+    },
+    {
+      "from": 3202,
+      "duration": 92,
+      "text": "他们岂但不肯改，而且早已布置；",
+      "cueId": "label"
+    },
+    {
+      "from": 3294,
+      "duration": 100,
+      "text": "预备下一个疯子的名目罩上我。",
+      "cueId": "label"
+    },
+    {
+      "from": 3432,
+      "duration": 115,
+      "text": "横梁和椽子都在头上发抖；抖了一会，就大起来，",
+      "cueId": "beams"
+    },
+    {
+      "from": 3547,
+      "duration": 43,
+      "text": "堆在我身上。",
+      "cueId": "beams"
+    },
+    {
+      "from": 3610,
+      "duration": 85,
+      "text": "我晓得他的沉重是假的，便挣扎出来，",
+      "cueId": "false-weight"
+    },
+    {
+      "from": 3695,
+      "duration": 40,
+      "text": "出了一身汗。",
+      "cueId": "false-weight"
+    },
+    {
+      "from": 3794,
+      "duration": 77,
+      "text": "四千年来时时吃人的地方，",
+      "cueId": "self-a"
+    },
+    {
+      "from": 3888,
+      "duration": 115,
+      "text": "今天才明白，我也在其中混了多年；",
+      "cueId": "self-b"
+    },
+    {
+      "from": 4056,
+      "duration": 107,
+      "text": "没有吃过人的孩子，或者还有？",
+      "cueId": "children"
+    },
+    {
+      "from": 4211,
+      "duration": 49,
+      "text": "救救孩子……",
+      "cueId": "plea"
+    },
+    {
+      "from": 4362,
+      "duration": 132,
+      "text": "劳君远道来视，然已早愈，赴某地候补矣。",
+      "cueId": "cured"
+    }
+  ],
+  "source": "https://zh.wikisource.org/zh-hans/狂人日記"
+}

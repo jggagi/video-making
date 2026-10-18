@@ -1,0 +1,42 @@
+{
+  "edition": "古今回望版",
+  "changedShots": [
+    "time",
+    "future"
+  ],
+  "quote": "后之视今，亦犹今之视昔，悲夫！",
+  "unchangedSourceSha256": {
+    "src/extended/timeline.json": "622467404dc09dd2e454df15b03dbfa3be83b5547c09bbd30e86528b2de77f64",
+    "public/extended/audio/soundtrack.wav": "bc94a6234ef6b286b673f6cea170b7eb7efb406e8aaafd7bfd78da97c9cd3e48"
+  },
+  "retainedPriorMedia": [
+    {
+      "file": "out/extended/兰亭集序-展厅增强版-4K.mp4",
+      "sha256": "24fdd06c726cbfede58d4755c348b4b8400808aff6b737407d83a403e1a21c78"
+    },
+    {
+      "file": "out/extended/兰亭集序-展厅增强版-1080p.mp4",
+      "sha256": "2713a7cd2a0bd049476cbe8a561c22995027b24e3041cfcc8902966b70c13ff8"
+    }
+  ],
+  "visitorArtwork": {
+    "file": "public/extended/modern-visitors.png",
+    "sha256": "12ea510e9bb3e8feba29d4d941dbedc2b89bf2189ffd53ed4e4ced6f03380201",
+    "generator": "built-in image_gen",
+    "promptSet": "out/time-bridge/art-prompts.json"
+  },
+  "timeShotOpacity": {
+    "emptyFade": [
+      30,
+      64
+    ],
+    "emptyHold": [
+      64,
+      78
+    ],
+    "modernFade": [
+      78,
+      114
+    ]
+  }
+}

@@ -1,0 +1,292 @@
+Validated: 8 scenes, 24 shots, 25 planned subtitle cues, 313 Chinese spoken characters.
+288 metadata checks passed.
+Not tested: React implementation, Studio preview, media assets, recorded audio, GPU rendering or final export.
+
+PASS: 180 seconds at 30 fps = 5400 frames
+PASS: scenes unique ID: unfinished-sentence
+PASS: scenes no gap/overlap: unfinished-sentence
+PASS: scenes positive duration: unfinished-sentence
+PASS: scenes start time agrees: unfinished-sentence
+PASS: scenes end time agrees: unfinished-sentence
+PASS: scenes unique ID: human-islands
+PASS: scenes no gap/overlap: human-islands
+PASS: scenes positive duration: human-islands
+PASS: scenes start time agrees: human-islands
+PASS: scenes end time agrees: human-islands
+PASS: scenes unique ID: bridge-to-core
+PASS: scenes no gap/overlap: bridge-to-core
+PASS: scenes positive duration: bridge-to-core
+PASS: scenes start time agrees: bridge-to-core
+PASS: scenes end time agrees: bridge-to-core
+PASS: scenes unique ID: multiplicity
+PASS: scenes no gap/overlap: multiplicity
+PASS: scenes positive duration: multiplicity
+PASS: scenes start time agrees: multiplicity
+PASS: scenes end time agrees: multiplicity
+PASS: scenes unique ID: shared-workspace
+PASS: scenes no gap/overlap: shared-workspace
+PASS: scenes positive duration: shared-workspace
+PASS: scenes start time agrees: shared-workspace
+PASS: scenes end time agrees: shared-workspace
+PASS: scenes unique ID: counterexample
+PASS: scenes no gap/overlap: counterexample
+PASS: scenes positive duration: counterexample
+PASS: scenes start time agrees: counterexample
+PASS: scenes end time agrees: counterexample
+PASS: scenes unique ID: integration
+PASS: scenes no gap/overlap: integration
+PASS: scenes positive duration: integration
+PASS: scenes start time agrees: integration
+PASS: scenes end time agrees: integration
+PASS: scenes unique ID: return
+PASS: scenes no gap/overlap: return
+PASS: scenes positive duration: return
+PASS: scenes start time agrees: return
+PASS: scenes end time agrees: return
+PASS: scenes covers exactly the full film
+PASS: shots unique ID: shot-01
+PASS: shots no gap/overlap: shot-01
+PASS: shots positive duration: shot-01
+PASS: shots start time agrees: shot-01
+PASS: shots end time agrees: shot-01
+PASS: shots unique ID: shot-02
+PASS: shots no gap/overlap: shot-02
+PASS: shots positive duration: shot-02
+PASS: shots start time agrees: shot-02
+PASS: shots end time agrees: shot-02
+PASS: shots unique ID: shot-03
+PASS: shots no gap/overlap: shot-03
+PASS: shots positive duration: shot-03
+PASS: shots start time agrees: shot-03
+PASS: shots end time agrees: shot-03
+PASS: shots unique ID: shot-04
+PASS: shots no gap/overlap: shot-04
+PASS: shots positive duration: shot-04
+PASS: shots start time agrees: shot-04
+PASS: shots end time agrees: shot-04
+PASS: shots unique ID: shot-05
+PASS: shots no gap/overlap: shot-05
+PASS: shots positive duration: shot-05
+PASS: shots start time agrees: shot-05
+PASS: shots end time agrees: shot-05
+PASS: shots unique ID: shot-06
+PASS: shots no gap/overlap: shot-06
+PASS: shots positive duration: shot-06
+PASS: shots start time agrees: shot-06
+PASS: shots end time agrees: shot-06
+PASS: shots unique ID: shot-07
+PASS: shots no gap/overlap: shot-07
+PASS: shots positive duration: shot-07
+PASS: shots start time agrees: shot-07
+PASS: shots end time agrees: shot-07
+PASS: shots unique ID: shot-08
+PASS: shots no gap/overlap: shot-08
+PASS: shots positive duration: shot-08
+PASS: shots start time agrees: shot-08
+PASS: shots end time agrees: shot-08
+PASS: shots unique ID: shot-09
+PASS: shots no gap/overlap: shot-09
+PASS: shots positive duration: shot-09
+PASS: shots start time agrees: shot-09
+PASS: shots end time agrees: shot-09
+PASS: shots unique ID: shot-10
+PASS: shots no gap/overlap: shot-10
+PASS: shots positive duration: shot-10
+PASS: shots start time agrees: shot-10
+PASS: shots end time agrees: shot-10
+PASS: shots unique ID: shot-11
+PASS: shots no gap/overlap: shot-11
+PASS: shots positive duration: shot-11
+PASS: shots start time agrees: shot-11
+PASS: shots end time agrees: shot-11
+PASS: shots unique ID: shot-12
+PASS: shots no gap/overlap: shot-12
+PASS: shots positive duration: shot-12
+PASS: shots start time agrees: shot-12
+PASS: shots end time agrees: shot-12
+PASS: shots unique ID: shot-13
+PASS: shots no gap/overlap: shot-13
+PASS: shots positive duration: shot-13
+PASS: shots start time agrees: shot-13
+PASS: shots end time agrees: shot-13
+PASS: shots unique ID: shot-14
+PASS: shots no gap/overlap: shot-14
+PASS: shots positive duration: shot-14
+PASS: shots start time agrees: shot-14
+PASS: shots end time agrees: shot-14
+PASS: shots unique ID: shot-15
+PASS: shots no gap/overlap: shot-15
+PASS: shots positive duration: shot-15
+PASS: shots start time agrees: shot-15
+PASS: shots end time agrees: shot-15
+PASS: shots unique ID: shot-16
+PASS: shots no gap/overlap: shot-16
+PASS: shots positive duration: shot-16
+PASS: shots start time agrees: shot-16
+PASS: shots end time agrees: shot-16
+PASS: shots unique ID: shot-17
+PASS: shots no gap/overlap: shot-17
+PASS: shots positive duration: shot-17
+PASS: shots start time agrees: shot-17
+PASS: shots end time agrees: shot-17
+PASS: shots unique ID: shot-18
+PASS: shots no gap/overlap: shot-18
+PASS: shots positive duration: shot-18
+PASS: shots start time agrees: shot-18
+PASS: shots end time agrees: shot-18
+PASS: shots unique ID: shot-19
+PASS: shots no gap/overlap: shot-19
+PASS: shots positive duration: shot-19
+PASS: shots start time agrees: shot-19
+PASS: shots end time agrees: shot-19
+PASS: shots unique ID: shot-20
+PASS: shots no gap/overlap: shot-20
+PASS: shots positive duration: shot-20
+PASS: shots start time agrees: shot-20
+PASS: shots end time agrees: shot-20
+PASS: shots unique ID: shot-21
+PASS: shots no gap/overlap: shot-21
+PASS: shots positive duration: shot-21
+PASS: shots start time agrees: shot-21
+PASS: shots end time agrees: shot-21
+PASS: shots unique ID: shot-22
+PASS: shots no gap/overlap: shot-22
+PASS: shots positive duration: shot-22
+PASS: shots start time agrees: shot-22
+PASS: shots end time agrees: shot-22
+PASS: shots unique ID: shot-23
+PASS: shots no gap/overlap: shot-23
+PASS: shots positive duration: shot-23
+PASS: shots start time agrees: shot-23
+PASS: shots end time agrees: shot-23
+PASS: shots unique ID: shot-24
+PASS: shots no gap/overlap: shot-24
+PASS: shots positive duration: shot-24
+PASS: shots start time agrees: shot-24
+PASS: shots end time agrees: shot-24
+PASS: shots covers exactly the full film
+PASS: shot within scene: shot-01
+PASS: shot within scene: shot-02
+PASS: shot within scene: shot-03
+PASS: shot within scene: shot-04
+PASS: shot within scene: shot-05
+PASS: shot within scene: shot-06
+PASS: shot within scene: shot-07
+PASS: shot within scene: shot-08
+PASS: shot within scene: shot-09
+PASS: shot within scene: shot-10
+PASS: shot within scene: shot-11
+PASS: shot within scene: shot-12
+PASS: shot within scene: shot-13
+PASS: shot within scene: shot-14
+PASS: shot within scene: shot-15
+PASS: shot within scene: shot-16
+PASS: shot within scene: shot-17
+PASS: shot within scene: shot-18
+PASS: shot within scene: shot-19
+PASS: shot within scene: shot-20
+PASS: shot within scene: shot-21
+PASS: shot within scene: shot-22
+PASS: shot within scene: shot-23
+PASS: shot within scene: shot-24
+PASS: caption ordered and in range: caption-001
+PASS: caption within shot: caption-001
+PASS: voice does not overlap silence: caption-001
+PASS: caption ordered and in range: caption-002
+PASS: caption within shot: caption-002
+PASS: voice does not overlap silence: caption-002
+PASS: caption ordered and in range: caption-003
+PASS: caption within shot: caption-003
+PASS: voice does not overlap silence: caption-003
+PASS: caption ordered and in range: caption-004
+PASS: caption within shot: caption-004
+PASS: voice does not overlap silence: caption-004
+PASS: caption ordered and in range: caption-005
+PASS: caption within shot: caption-005
+PASS: voice does not overlap silence: caption-005
+PASS: caption ordered and in range: caption-006
+PASS: caption within shot: caption-006
+PASS: voice does not overlap silence: caption-006
+PASS: caption ordered and in range: caption-007
+PASS: caption within shot: caption-007
+PASS: voice does not overlap silence: caption-007
+PASS: caption ordered and in range: caption-008
+PASS: caption within shot: caption-008
+PASS: voice does not overlap silence: caption-008
+PASS: caption ordered and in range: caption-009
+PASS: caption within shot: caption-009
+PASS: voice does not overlap silence: caption-009
+PASS: caption ordered and in range: caption-010
+PASS: caption within shot: caption-010
+PASS: voice does not overlap silence: caption-010
+PASS: caption ordered and in range: caption-011
+PASS: caption within shot: caption-011
+PASS: voice does not overlap silence: caption-011
+PASS: caption ordered and in range: caption-012
+PASS: caption within shot: caption-012
+PASS: voice does not overlap silence: caption-012
+PASS: caption ordered and in range: caption-013
+PASS: caption within shot: caption-013
+PASS: voice does not overlap silence: caption-013
+PASS: caption ordered and in range: caption-014
+PASS: caption within shot: caption-014
+PASS: voice does not overlap silence: caption-014
+PASS: caption ordered and in range: caption-015
+PASS: caption within shot: caption-015
+PASS: voice does not overlap silence: caption-015
+PASS: caption ordered and in range: caption-016
+PASS: caption within shot: caption-016
+PASS: voice does not overlap silence: caption-016
+PASS: caption ordered and in range: caption-017
+PASS: caption within shot: caption-017
+PASS: voice does not overlap silence: caption-017
+PASS: caption ordered and in range: caption-018
+PASS: caption within shot: caption-018
+PASS: voice does not overlap silence: caption-018
+PASS: caption ordered and in range: caption-019
+PASS: caption within shot: caption-019
+PASS: voice does not overlap silence: caption-019
+PASS: caption ordered and in range: caption-020
+PASS: caption within shot: caption-020
+PASS: voice does not overlap silence: caption-020
+PASS: caption ordered and in range: caption-021
+PASS: caption within shot: caption-021
+PASS: voice does not overlap silence: caption-021
+PASS: caption ordered and in range: caption-022
+PASS: caption within shot: caption-022
+PASS: voice does not overlap silence: caption-022
+PASS: caption ordered and in range: caption-023
+PASS: caption within shot: caption-023
+PASS: voice does not overlap silence: caption-023
+PASS: caption ordered and in range: caption-024
+PASS: caption within shot: caption-024
+PASS: voice does not overlap silence: caption-024
+PASS: caption ordered and in range: caption-025
+PASS: caption within shot: caption-025
+PASS: voice does not overlap silence: caption-025
+PASS: caption text matches narration: shot-01
+PASS: caption text matches narration: shot-02
+PASS: caption text matches narration: shot-03
+PASS: caption text matches narration: shot-04
+PASS: caption text matches narration: shot-05
+PASS: caption text matches narration: shot-06
+PASS: caption text matches narration: shot-07
+PASS: caption text matches narration: shot-08
+PASS: caption text matches narration: shot-09
+PASS: caption text matches narration: shot-10
+PASS: caption text matches narration: shot-11
+PASS: caption text matches narration: shot-12
+PASS: caption text matches narration: shot-13
+PASS: caption text matches narration: shot-14
+PASS: caption text matches narration: shot-15
+PASS: caption text matches narration: shot-16
+PASS: caption text matches narration: shot-17
+PASS: caption text matches narration: shot-18
+PASS: caption text matches narration: shot-19
+PASS: caption text matches narration: shot-20
+PASS: caption text matches narration: shot-21
+PASS: caption text matches narration: shot-22
+PASS: caption text matches narration: shot-23
+PASS: caption text matches narration: shot-24
+PASS: SRT cue count agrees with timeline
+PASS: delivery state does not imply a rendered film

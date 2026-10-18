@@ -1,0 +1,12 @@
+{
+  "provider": "Bailian",
+  "requestedModel": "active Profile ASR default",
+  "reportedModel": null,
+  "expectedText": "热失控、结构坍塌、能量发散——失败先发生在模拟之中。数百万次检验，将高维空间中的约束逐一扣紧。复杂并不意味着混乱。它在寻找一个可以执行的交点。",
+  "transcripts": [
+    {
+      "path": "",
+      "text": "热失控、结构坍塌、能量发散，马尔文失败先发生在模拟之中。\n数百万次检验，将高维空间中的约束逐一扣紧。\n复杂并不意味着混乱，它在寻找一个可以执行的焦点。"
+    }
+  ]
+}

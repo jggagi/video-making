@@ -1,0 +1,13 @@
+# 兰亭集序 · B站
+
+按画幅分类归档，不表示已经发布到平台账号。
+
+| 文件 | 规格 | 大小 |
+| --- | --- | --- |
+| [兰亭集序-展厅增强版-1080p.mp4](https://github.com/jggagi/video-making/releases/download/archive-lanting-v1/lanting--out--extended------1080p--2713a7cd2a0b.mp4) | 1920×1080，188.958秒 | 174.6 MiB |
+| [兰亭集序-展厅增强版-4K.mp4](https://github.com/jggagi/video-making/releases/download/archive-lanting-v1/lanting--out--extended------4K--24fdd06c726c.mp4) | 3840×2160，188.958秒 | 745.1 MiB |
+| [兰亭集序-博物馆版-1080p.mp4](https://github.com/jggagi/video-making/releases/download/archive-lanting-v1/lanting--out--museum------1080p--76cfb10b2e73.mp4) | 1920×1080，166.208秒 | 137.1 MiB |
+| [兰亭集序-博物馆版-4K.mp4](https://github.com/jggagi/video-making/releases/download/archive-lanting-v1/lanting--out--museum------4K--2471e8382db5.mp4) | 3840×2160，166.208秒 | 600.5 MiB |
+| [兰亭集序-古今回望版-1080p.mp4](https://github.com/jggagi/video-making/releases/download/archive-lanting-v1/lanting--out--time-bridge------1080p--c448d0426462.mp4) | 1920×1080，188.958秒 | 174.2 MiB |
+| [兰亭集序-古今回望版-4K.mp4](https://github.com/jggagi/video-making/releases/download/archive-lanting-v1/lanting--out--time-bridge------4K--8e41a82c51e4.mp4) | 3840×2160，188.958秒 | 734.5 MiB |
+| [兰亭集序.mp4](https://github.com/jggagi/video-making/releases/download/archive-lanting-v1/lanting--out--bebefa8d5043.mp4) | 1920×1080，152.208秒 | 193.2 MiB |

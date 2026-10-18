@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "voice-17",
+  "spokenText": "现在，把答案交还给现实。",
+  "sourcePath": "public/audio-v2/voice-17.wav",
+  "sourceSha256": "76404a73a4860e0a07104d0a6e64d312f985dfcd0746e8fdbb6ca20bb7e97656",
+  "cacheKey": "019736fd9ff43810e047030dd26601fb09156a376ed9bd1f4d5c8b8f67013c5d",
+  "parameters": {
+    "sampleRate": 48000,
+    "channels": 1,
+    "format": "pcm_s16le",
+    "targetNonSilentRmsDbfs": -20.0,
+    "nonSilentFloorDbfs": -60.0,
+    "maxGainDb": 6.0,
+    "peakCeilingDbfs": -3.0,
+    "atempoMax": 1.18
+  },
+  "actualStartSeconds": 151.24,
+  "deadlineSeconds": 156.82,
+  "atempo": 1.0,
+  "sampleRate": 48000,
+  "channels": 1,
+  "sampleCount": 121968,
+  "durationSeconds": 2.541,
+  "processedSha256": "541ae67a920e0963e654a94aa3556e90ddd9dca5486126baaf3704560d34bc3c",
+  "normalization": {
+    "nonSilentFloorDbfs": -60.0,
+    "nonSilentSampleCount": 79227.0,
+    "nonSilentRmsBeforeDbfs": -21.910315112548883,
+    "targetRmsDbfs": -20.0,
+    "appliedGainDb": -0.018165929491595414,
+    "nonSilentRmsAfterDbfs": -21.92848085955406,
+    "peakBeforeDbfs": -2.9818340705084045,
+    "peakAfterDbfs": -3.0000002493010487,
+    "pcm16PeakDbfs": -3.0003622493859567,
+    "tempoFactor": 1.0,
+    "sampleCount": 121968.0
+  }
+}

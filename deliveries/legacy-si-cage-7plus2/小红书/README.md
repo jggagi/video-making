@@ -1,0 +1,8 @@
+# 7±2 的囚笼 · 小红书
+
+按画幅分类归档，不表示已经发布到平台账号。
+
+| 文件 | 规格 | 大小 |
+| --- | --- | --- |
+| [cage-of-seven-plus-two-xhs-v1-1080x1920.mp4](https://github.com/jggagi/video-making/releases/download/archive-si-cage-7plus2-v1/si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-xhs-v1-1080x1920--7f73b80017c8.mp4) | 1080×1920，60.000秒 | 14.0 MiB |
+| [cage-of-seven-plus-two-xhs-v1-4k.mp4](https://github.com/jggagi/video-making/releases/download/archive-si-cage-7plus2-v1/si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-xhs-v1-4k--113910360392.mp4) | 2160×3840，60.000秒 | 43.4 MiB |

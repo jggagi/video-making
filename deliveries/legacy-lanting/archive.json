@@ -1,0 +1,180 @@
+{
+  "id": "lanting",
+  "title": "兰亭集序",
+  "release_tag": "archive-lanting-v1",
+  "historical": true,
+  "project_path": ".",
+  "delivery_directory": "deliveries/legacy-lanting",
+  "assets": [
+    {
+      "path": "out/extended/motion-sample.mp4",
+      "name": "lanting--out--extended--motion-sample--cd7323ea1a8a.mp4",
+      "bytes": 32651926,
+      "sha256": "cd7323ea1a8a64d709ceaf296a20d42ee046efa66be41bfdc87f9f07a5d21941",
+      "kind": "video",
+      "platform": "预览",
+      "measurements": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "24/1",
+        "frames": "497",
+        "video_duration_seconds": 20.708333,
+        "container_duration_seconds": 20.715
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/archive-lanting-v1/lanting--out--extended--motion-sample--cd7323ea1a8a.mp4"
+    },
+    {
+      "path": "out/extended/兰亭集序-展厅增强版-1080p.mp4",
+      "name": "lanting--out--extended------1080p--2713a7cd2a0b.mp4",
+      "bytes": 183109096,
+      "sha256": "2713a7cd2a0bd049476cbe8a561c22995027b24e3041cfcc8902966b70c13ff8",
+      "kind": "video",
+      "platform": "B站",
+      "measurements": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "24/1",
+        "frames": "4535",
+        "video_duration_seconds": 188.958333,
+        "container_duration_seconds": 188.971
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/archive-lanting-v1/lanting--out--extended------1080p--2713a7cd2a0b.mp4"
+    },
+    {
+      "path": "out/extended/兰亭集序-展厅增强版-4K.mp4",
+      "name": "lanting--out--extended------4K--24fdd06c726c.mp4",
+      "bytes": 781248818,
+      "sha256": "24fdd06c726cbfede58d4755c348b4b8400808aff6b737407d83a403e1a21c78",
+      "kind": "video",
+      "platform": "B站",
+      "measurements": {
+        "width": 3840,
+        "height": 2160,
+        "fps": "24/1",
+        "frames": "4535",
+        "video_duration_seconds": 188.958333,
+        "container_duration_seconds": 188.971
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/archive-lanting-v1/lanting--out--extended------4K--24fdd06c726c.mp4"
+    },
+    {
+      "path": "out/museum/motion-sample.mp4",
+      "name": "lanting--out--museum--motion-sample--6aad0a44824a.mp4",
+      "bytes": 39923300,
+      "sha256": "6aad0a44824a7a185a629e7497f8b3d275ebc1fe8d77b39f2647b1f09fa389cd",
+      "kind": "video",
+      "platform": "预览",
+      "measurements": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "24/1",
+        "frames": "646",
+        "video_duration_seconds": 26.916667,
+        "container_duration_seconds": 26.923
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/archive-lanting-v1/lanting--out--museum--motion-sample--6aad0a44824a.mp4"
+    },
+    {
+      "path": "out/museum/兰亭集序-博物馆版-1080p.mp4",
+      "name": "lanting--out--museum------1080p--76cfb10b2e73.mp4",
+      "bytes": 143791306,
+      "sha256": "76cfb10b2e73050786170a350ec972af6331823d6a8af47215af60d067818d36",
+      "kind": "video",
+      "platform": "B站",
+      "measurements": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "24/1",
+        "frames": "3989",
+        "video_duration_seconds": 166.208333,
+        "container_duration_seconds": 166.229
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/archive-lanting-v1/lanting--out--museum------1080p--76cfb10b2e73.mp4"
+    },
+    {
+      "path": "out/museum/兰亭集序-博物馆版-4K.mp4",
+      "name": "lanting--out--museum------4K--2471e8382db5.mp4",
+      "bytes": 629677206,
+      "sha256": "2471e8382db5674898443cdc4800c43182e8a436a1bb591ae19b0e54b51aa19d",
+      "kind": "video",
+      "platform": "B站",
+      "measurements": {
+        "width": 3840,
+        "height": 2160,
+        "fps": "24/1",
+        "frames": "3989",
+        "video_duration_seconds": 166.208333,
+        "container_duration_seconds": 166.229
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/archive-lanting-v1/lanting--out--museum------4K--2471e8382db5.mp4"
+    },
+    {
+      "path": "out/time-bridge/兰亭集序-古今回望版-1080p.mp4",
+      "name": "lanting--out--time-bridge------1080p--c448d0426462.mp4",
+      "bytes": 182675421,
+      "sha256": "c448d04264628266a7080b62264d552571f3813078380eac3b666b21d43533d4",
+      "kind": "video",
+      "platform": "B站",
+      "measurements": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "24/1",
+        "frames": "4535",
+        "video_duration_seconds": 188.958333,
+        "container_duration_seconds": 188.971
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/archive-lanting-v1/lanting--out--time-bridge------1080p--c448d0426462.mp4"
+    },
+    {
+      "path": "out/time-bridge/兰亭集序-古今回望版-4K.mp4",
+      "name": "lanting--out--time-bridge------4K--8e41a82c51e4.mp4",
+      "bytes": 770129376,
+      "sha256": "8e41a82c51e45b7a0fd8e7692daf189e2174667d9f04e92be68fa94d55a6b188",
+      "kind": "video",
+      "platform": "B站",
+      "measurements": {
+        "width": 3840,
+        "height": 2160,
+        "fps": "24/1",
+        "frames": "4535",
+        "video_duration_seconds": 188.958333,
+        "container_duration_seconds": 188.971
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/archive-lanting-v1/lanting--out--time-bridge------4K--8e41a82c51e4.mp4"
+    },
+    {
+      "path": "out/time-bridge/古今回望-点睛片段.mp4",
+      "name": "lanting--out--time-bridge--5791311c7d53.mp4",
+      "bytes": 15108514,
+      "sha256": "5791311c7d53bce1e7ab007a22958ccfe8c4a0a098e25af0cb0cd13b67c1c0c3",
+      "kind": "video",
+      "platform": "预览",
+      "measurements": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "24/1",
+        "frames": "211",
+        "video_duration_seconds": 8.791667,
+        "container_duration_seconds": 8.811
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/archive-lanting-v1/lanting--out--time-bridge--5791311c7d53.mp4"
+    },
+    {
+      "path": "out/兰亭集序.mp4",
+      "name": "lanting--out--bebefa8d5043.mp4",
+      "bytes": 202565502,
+      "sha256": "bebefa8d50433498743e9fbf40e53efa855912eb3775e817e8de65cb8022b2c6",
+      "kind": "video",
+      "platform": "B站",
+      "measurements": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "24/1",
+        "frames": "3653",
+        "video_duration_seconds": 152.208333,
+        "container_duration_seconds": 152.213
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/archive-lanting-v1/lanting--out--bebefa8d5043.mp4"
+    }
+  ]
+}

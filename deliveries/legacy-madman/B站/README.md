@@ -1,0 +1,10 @@
+# 狂人日记 · B站
+
+按画幅分类归档，不表示已经发布到平台账号。
+
+| 文件 | 规格 | 大小 |
+| --- | --- | --- |
+| [狂人日记-心理悬疑版-v5-1080p.mp4](https://github.com/jggagi/video-making/releases/download/archive-madman-v1/madman--out--madman------v5-1080p--671923eda74a.mp4) | 1920×1080，198.750秒 | 33.4 MiB |
+| [狂人日记-木刻意象版-v1-1080p.mp4](https://github.com/jggagi/video-making/releases/download/archive-madman-v1/madman--out--madman------v1-1080p--56e7dfb8b8dd.mp4) | 1920×1080，90.000秒 | 54.8 MiB |
+| [狂人日记-男声配音版-v2-1080p.mp4](https://github.com/jggagi/video-making/releases/download/archive-madman-v1/madman--out--madman------v2-1080p--7d709339a515.mp4) | 1920×1080，91.333秒 | 55.0 MiB |
+| [狂人日记-节奏意象加强版-v4-1080p.mp4](https://github.com/jggagi/video-making/releases/download/archive-madman-v1/madman--out--madman------v4-1080p--795871b25d54.mp4) | 1920×1080，79.000秒 | 42.0 MiB |

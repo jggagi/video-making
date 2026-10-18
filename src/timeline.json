@@ -1,0 +1,412 @@
+{
+  "fps": 24,
+  "durationInFrames": 3653,
+  "shots": [
+    {
+      "id": "title",
+      "kind": "title",
+      "from": 0,
+      "duration": 120,
+      "image": "landscape",
+      "chapter": "",
+      "hero": [],
+      "mood": "joy",
+      "text": "",
+      "cues": []
+    },
+    {
+      "id": "date",
+      "image": "landscape",
+      "chapter": "兰亭 · 雅集",
+      "hero": [
+        "暮春之初"
+      ],
+      "mood": "joy",
+      "text": "永和九年，岁在癸丑，暮春之初，会于会稽山阴之兰亭，修禊事也。",
+      "kind": "scene",
+      "from": 120,
+      "duration": 258,
+      "cues": [
+        {
+          "text": "永和九年，岁在癸丑，暮春之初，",
+          "from": 18,
+          "duration": 112
+        },
+        {
+          "text": "会于会稽山阴之兰亭，修禊事也。",
+          "from": 130,
+          "duration": 128
+        }
+      ]
+    },
+    {
+      "id": "grove",
+      "image": "gathering",
+      "chapter": "兰亭 · 雅集",
+      "hero": [
+        "群贤毕至",
+        "少长咸集"
+      ],
+      "mood": "joy",
+      "text": "群贤毕至，少长咸集。此地有崇山峻岭，茂林修竹。",
+      "kind": "scene",
+      "from": 378,
+      "duration": 206,
+      "cues": [
+        {
+          "text": "群贤毕至，少长咸集。此地有崇山峻岭，",
+          "from": 18,
+          "duration": 126
+        },
+        {
+          "text": "茂林修竹。",
+          "from": 144,
+          "duration": 62
+        }
+      ]
+    },
+    {
+      "id": "water",
+      "image": "stream",
+      "chapter": "兰亭 · 雅集",
+      "hero": [
+        "清流激湍"
+      ],
+      "mood": "joy",
+      "text": "又有清流激湍，映带左右。",
+      "kind": "scene",
+      "from": 584,
+      "duration": 126,
+      "cues": [
+        {
+          "text": "又有清流激湍，映带左右。",
+          "from": 18,
+          "duration": 108
+        }
+      ]
+    },
+    {
+      "id": "cups",
+      "image": "gathering",
+      "chapter": "兰亭 · 雅集",
+      "hero": [
+        "流觞曲水"
+      ],
+      "mood": "joy",
+      "text": "引以为流觞曲水，列坐其次。",
+      "kind": "scene",
+      "from": 710,
+      "duration": 130,
+      "cues": [
+        {
+          "text": "引以为流觞曲水，列坐其次。",
+          "from": 18,
+          "duration": 112
+        }
+      ]
+    },
+    {
+      "id": "poems",
+      "image": "gathering",
+      "chapter": "兰亭 · 雅集",
+      "hero": [
+        "一觞一咏"
+      ],
+      "mood": "joy",
+      "text": "虽无丝竹管弦之盛，一觞一咏，亦足以畅叙幽情。",
+      "kind": "scene",
+      "from": 840,
+      "duration": 187,
+      "cues": [
+        {
+          "text": "虽无丝竹管弦之盛，一觞一咏，亦足以畅叙幽情。",
+          "from": 18,
+          "duration": 169
+        }
+      ]
+    },
+    {
+      "id": "breeze",
+      "image": "landscape",
+      "chapter": "兰亭 · 雅集",
+      "hero": [
+        "天朗气清",
+        "惠风和畅"
+      ],
+      "mood": "joy",
+      "text": "是日也，天朗气清，惠风和畅。",
+      "kind": "scene",
+      "from": 1027,
+      "duration": 145,
+      "cues": [
+        {
+          "text": "是日也，天朗气清，惠风和畅。",
+          "from": 18,
+          "duration": 127
+        }
+      ]
+    },
+    {
+      "id": "joy",
+      "image": "landscape",
+      "chapter": "兰亭 · 雅集",
+      "hero": [
+        "信可乐也"
+      ],
+      "mood": "joy",
+      "text": "仰观宇宙之大，俯察品类之盛，所以游目骋怀，足以极视听之娱，信可乐也。",
+      "kind": "scene",
+      "from": 1172,
+      "duration": 271,
+      "cues": [
+        {
+          "text": "仰观宇宙之大，俯察品类之盛，所以游目骋怀，",
+          "from": 18,
+          "duration": 142
+        },
+        {
+          "text": "足以极视听之娱，信可乐也。",
+          "from": 160,
+          "duration": 111
+        }
+      ]
+    },
+    {
+      "id": "life",
+      "image": "study",
+      "chapter": "俯仰 · 一世",
+      "hero": [
+        "俯仰一世"
+      ],
+      "mood": "turn",
+      "text": "夫人之相与，俯仰一世，或取诸怀抱，悟言一室之内；或因寄所托，放浪形骸之外。",
+      "kind": "scene",
+      "from": 1443,
+      "duration": 293,
+      "cues": [
+        {
+          "text": "夫人之相与，俯仰一世，或取诸怀抱，",
+          "from": 18,
+          "duration": 115
+        },
+        {
+          "text": "悟言一室之内；或因寄所托，放浪形骸之外。",
+          "from": 133,
+          "duration": 160
+        }
+      ]
+    },
+    {
+      "id": "contentment",
+      "image": "gathering",
+      "chapter": "俯仰 · 一世",
+      "hero": [],
+      "mood": "turn",
+      "text": "虽趣舍万殊，静躁不同，当其欣于所遇，暂得于己，快然自足，不知老之将至。",
+      "kind": "scene",
+      "from": 1736,
+      "duration": 282,
+      "cues": [
+        {
+          "text": "虽趣舍万殊，静躁不同，当其欣于所遇，",
+          "from": 18,
+          "duration": 128
+        },
+        {
+          "text": "暂得于己，快然自足，不知老之将至。",
+          "from": 146,
+          "duration": 136
+        }
+      ]
+    },
+    {
+      "id": "change",
+      "image": "stream",
+      "chapter": "俯仰 · 一世",
+      "hero": [
+        "情随事迁"
+      ],
+      "mood": "turn",
+      "text": "及其所之既倦，情随事迁，感慨系之矣。",
+      "kind": "scene",
+      "from": 2018,
+      "duration": 171,
+      "cues": [
+        {
+          "text": "及其所之既倦，情随事迁，感慨系之矣。",
+          "from": 18,
+          "duration": 153
+        }
+      ]
+    },
+    {
+      "id": "traces",
+      "image": "landscape",
+      "chapter": "俯仰 · 一世",
+      "hero": [
+        "已为陈迹"
+      ],
+      "mood": "turn",
+      "text": "向之所欣，俯仰之间，已为陈迹，犹不能不以之兴怀。",
+      "kind": "scene",
+      "from": 2189,
+      "duration": 210,
+      "cues": [
+        {
+          "text": "向之所欣，俯仰之间，已为陈迹，",
+          "from": 18,
+          "duration": 108
+        },
+        {
+          "text": "犹不能不以之兴怀。",
+          "from": 126,
+          "duration": 84
+        }
+      ]
+    },
+    {
+      "id": "mortality",
+      "image": "stream",
+      "chapter": "俯仰 · 一世",
+      "hero": [
+        "死生亦大矣"
+      ],
+      "mood": "reflect",
+      "text": "况修短随化，终期于尽。古人云：“死生亦大矣。”岂不痛哉！",
+      "kind": "scene",
+      "from": 2399,
+      "duration": 223,
+      "cues": [
+        {
+          "text": "况修短随化，终期于尽。古人云：“死生亦大矣。”",
+          "from": 18,
+          "duration": 142
+        },
+        {
+          "text": "岂不痛哉！",
+          "from": 160,
+          "duration": 63
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "image": "study",
+      "chapter": "后之 · 览者",
+      "hero": [],
+      "mood": "reflect",
+      "text": "每览昔人兴感之由，若合一契，未尝不临文嗟悼，不能喻之于怀。",
+      "kind": "scene",
+      "from": 2622,
+      "duration": 232,
+      "cues": [
+        {
+          "text": "每览昔人兴感之由，若合一契，未尝不临文嗟悼，",
+          "from": 18,
+          "duration": 142
+        },
+        {
+          "text": "不能喻之于怀。",
+          "from": 160,
+          "duration": 72
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "image": "study",
+      "chapter": "后之 · 览者",
+      "hero": [],
+      "mood": "reflect",
+      "text": "固知一死生为虚诞，齐彭殇为妄作。",
+      "kind": "scene",
+      "from": 2854,
+      "duration": 147,
+      "cues": [
+        {
+          "text": "固知一死生为虚诞，齐彭殇为妄作。",
+          "from": 18,
+          "duration": 129
+        }
+      ]
+    },
+    {
+      "id": "time",
+      "image": "landscape",
+      "chapter": "后之 · 览者",
+      "hero": [
+        "后之视今",
+        "今之视昔"
+      ],
+      "mood": "reflect",
+      "text": "后之视今，亦犹今之视昔，悲夫！",
+      "kind": "scene",
+      "from": 3001,
+      "duration": 146,
+      "cues": [
+        {
+          "text": "后之视今，亦犹今之视昔，悲夫！",
+          "from": 18,
+          "duration": 128
+        }
+      ]
+    },
+    {
+      "id": "record",
+      "image": "study",
+      "chapter": "后之 · 览者",
+      "hero": [
+        "录其所述"
+      ],
+      "mood": "reflect",
+      "text": "故列叙时人，录其所述，虽世殊事异，所以兴怀，其致一也。",
+      "kind": "scene",
+      "from": 3147,
+      "duration": 234,
+      "cues": [
+        {
+          "text": "故列叙时人，录其所述，虽世殊事异，所以兴怀，",
+          "from": 18,
+          "duration": 155
+        },
+        {
+          "text": "其致一也。",
+          "from": 173,
+          "duration": 61
+        }
+      ]
+    },
+    {
+      "id": "future",
+      "image": "landscape",
+      "chapter": "后之 · 览者",
+      "hero": [
+        "亦将有感于斯文"
+      ],
+      "mood": "reflect",
+      "text": "后之览者，亦将有感于斯文。",
+      "kind": "scene",
+      "from": 3381,
+      "duration": 128,
+      "cues": [
+        {
+          "text": "后之览者，亦将有感于斯文。",
+          "from": 18,
+          "duration": 110
+        }
+      ]
+    },
+    {
+      "id": "end",
+      "kind": "end",
+      "from": 3509,
+      "duration": 144,
+      "image": "landscape",
+      "chapter": "",
+      "hero": [],
+      "mood": "reflect",
+      "text": "",
+      "cues": []
+    }
+  ]
+}

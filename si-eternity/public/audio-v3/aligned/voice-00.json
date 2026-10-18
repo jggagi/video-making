@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "voice-00",
+  "spokenText": "人类眨眼需要 三百 毫秒。",
+  "sourcePath": "public/audio-v2/voice-00.wav",
+  "sourceSha256": "7db73315975c5f94e24f806c1f062bed48d09e88858550254c8546b0ad6edf0f",
+  "cacheKey": "2cc0c0d7276611bc43fce4b44a3c9edd075c7e71d8b1ed5cbf3ebd0735090a7f",
+  "parameters": {
+    "sampleRate": 48000,
+    "channels": 1,
+    "format": "pcm_s16le",
+    "targetNonSilentRmsDbfs": -20.0,
+    "nonSilentFloorDbfs": -60.0,
+    "maxGainDb": 6.0,
+    "peakCeilingDbfs": -3.0,
+    "atempoMax": 1.18
+  },
+  "actualStartSeconds": 0.9,
+  "deadlineSeconds": 7.82,
+  "atempo": 1.0,
+  "sampleRate": 48000,
+  "channels": 1,
+  "sampleCount": 106230,
+  "durationSeconds": 2.213125,
+  "processedSha256": "490ddfcc6dc43d3dee428df9c98b80f093af81e5e3cf6814906d313e0a46fc48",
+  "normalization": {
+    "nonSilentFloorDbfs": -60.0,
+    "nonSilentSampleCount": 82895.0,
+    "nonSilentRmsBeforeDbfs": -20.46942020292455,
+    "targetRmsDbfs": -20.0,
+    "appliedGainDb": -0.10712897917575684,
+    "nonSilentRmsAfterDbfs": -20.576548714475706,
+    "peakBeforeDbfs": -2.892871020824243,
+    "peakAfterDbfs": -3.0000002493010487,
+    "pcm16PeakDbfs": -3.0003622493859567,
+    "tempoFactor": 1.0,
+    "sampleCount": 106230.0
+  }
+}

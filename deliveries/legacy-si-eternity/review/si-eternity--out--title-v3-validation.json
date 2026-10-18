@@ -1,0 +1,165 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "videoFrames": 10800,
+  "containerSeconds": 180.011,
+  "videoCodec": "h264",
+  "audioCodec": "aac",
+  "audioRate": 48000,
+  "audioChannels": 2,
+  "strictFullAvDecodePassed": true,
+  "masterSampleFrames": 8640000,
+  "decodedAacFrames": 8640512,
+  "aacPaddingFrames": 512,
+  "audioZeroLagCorrelationToMaster": 0.9999447238351669,
+  "decodedSamplePeakDbfs": -1.4280954579748268,
+  "encodedAudioIntegratedLufs": -18.15,
+  "encodedAudioTruePeakDbtp": -1.43,
+  "fastStart": true,
+  "containerBoxes": [
+    {
+      "type": "ftyp",
+      "offset": 0,
+      "bytes": 32
+    },
+    {
+      "type": "moov",
+      "offset": 32,
+      "bytes": 287215
+    },
+    {
+      "type": "free",
+      "offset": 287247,
+      "bytes": 8
+    },
+    {
+      "type": "mdat",
+      "offset": 287255,
+      "bytes": 81918773
+    }
+  ],
+  "sourceSnapshotUnchanged": true,
+  "oldV1Unchanged": true,
+  "oldV2Unchanged": true,
+  "previewMetrics": {
+    "opening-title-v3.mp4": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 60,
+      "videoFrames": 480,
+      "containerSeconds": 8.0,
+      "videoCodec": "h264",
+      "audioCodec": "aac",
+      "audioRate": 48000,
+      "audioChannels": 2
+    },
+    "ending-title-v3.mp4": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 60,
+      "videoFrames": 360,
+      "containerSeconds": 6.016,
+      "videoCodec": "h264",
+      "audioCodec": "aac",
+      "audioRate": 48000,
+      "audioChannels": 2
+    }
+  },
+  "extractedVideoFrames": [
+    60,
+    120,
+    240,
+    360,
+    9600,
+    10200,
+    10490,
+    10500,
+    10560,
+    10650,
+    10799
+  ],
+  "extractedVideoFrameFiles": [
+    {
+      "frame": 60,
+      "file": "v3-encoded-01.png"
+    },
+    {
+      "frame": 120,
+      "file": "v3-encoded-02.png"
+    },
+    {
+      "frame": 240,
+      "file": "v3-encoded-03.png"
+    },
+    {
+      "frame": 360,
+      "file": "v3-encoded-04.png"
+    },
+    {
+      "frame": 9600,
+      "file": "v3-encoded-05.png"
+    },
+    {
+      "frame": 10200,
+      "file": "v3-encoded-06.png"
+    },
+    {
+      "frame": 10490,
+      "file": "v3-encoded-07.png"
+    },
+    {
+      "frame": 10500,
+      "file": "v3-encoded-08.png"
+    },
+    {
+      "frame": 10560,
+      "file": "v3-encoded-09.png"
+    },
+    {
+      "frame": 10650,
+      "file": "v3-encoded-10.png"
+    },
+    {
+      "frame": 10799,
+      "file": "v3-encoded-11.png"
+    }
+  ],
+  "continuousHumanListeningComplete": false,
+  "visualInspectionCompleted": true,
+  "artifacts": {
+    "one-blink-ten-millennia-v3.mp4": {
+      "bytes": 82206028,
+      "sha256": "4ef2326bf22b443c58e6d9eff8379ac73ac450d0bb37c711853c1db4ba722e31"
+    },
+    "opening-title-v3.mp4": {
+      "bytes": 1694030,
+      "sha256": "b0889c91e7cace659c562dd4e1d71ca646493c9827559a6f435b4c6b2d9d8dc7"
+    },
+    "ending-title-v3.mp4": {
+      "bytes": 664599,
+      "sha256": "9fa8d3d800ccdec845a042a2e52a5a90e86ee82e9a3b07da124531518bc325d1"
+    }
+  },
+  "projectTitle": "一眼万年 (ONE BLINK, TEN MILLENNIA)",
+  "typecheckPassed": true,
+  "sourceModelChecksPassed": true,
+  "visualInspectionScope": "Codex representative encoded-frame inspection only; not continuous human playback.",
+  "visuallyInspectedEncodedFrames": [
+    120,
+    10200,
+    10650,
+    10799
+  ],
+  "hudEndpoint": {
+    "frame": 10200,
+    "physicalMilliseconds": 500,
+    "displayedSubjectiveTime": "10,000.0 YEARS"
+  },
+  "newVoiceCues": 2,
+  "reusedVoiceCues": 20,
+  "reusedScoreAndSfx": true,
+  "asrReview": "audio-v3/asr-revisions-review.json",
+  "asrDifference": "一万年 transcribed as 1万年; the new closing quote matches literally.",
+  "packagingManifest": "out/package-v3-manifest.json"
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "voice-12",
+  "spokenText": "复杂并不意味着混乱。它在寻找一个可以执行的交点。",
+  "sourcePath": "public/audio-v2/voice-12.wav",
+  "sourceSha256": "94edf13f00b3f4296ebb215ce732c80201fd6a26593faaf9d315b7580e8c5bcc",
+  "cacheKey": "f6dc99ffa8965c09298b32078595c90c3fb1edd592d8d3d29c88d61413ac2e4e",
+  "parameters": {
+    "sampleRate": 48000,
+    "channels": 1,
+    "format": "pcm_s16le",
+    "targetNonSilentRmsDbfs": -20.0,
+    "nonSilentFloorDbfs": -60.0,
+    "maxGainDb": 6.0,
+    "peakCeilingDbfs": -3.0,
+    "atempoMax": 1.18
+  },
+  "actualStartSeconds": 104.24,
+  "deadlineSeconds": 111.48666666666666,
+  "atempo": 1.0,
+  "sampleRate": 48000,
+  "channels": 1,
+  "sampleCount": 236066,
+  "durationSeconds": 4.918041666666666,
+  "processedSha256": "3f4823e5950a2e69454c939363264d777f368c3ff625162b4aa2aee809bc2c5a",
+  "normalization": {
+    "nonSilentFloorDbfs": -60.0,
+    "nonSilentSampleCount": 168310.0,
+    "nonSilentRmsBeforeDbfs": -22.668314690316084,
+    "targetRmsDbfs": -20.0,
+    "appliedGainDb": 1.144541480475338,
+    "nonSilentRmsAfterDbfs": -21.523773824498367,
+    "peakBeforeDbfs": -4.144541480475338,
+    "peakAfterDbfs": -3.0000002493010487,
+    "pcm16PeakDbfs": -3.0003622493859567,
+    "tempoFactor": 1.0,
+    "sampleCount": 236066.0
+  }
+}

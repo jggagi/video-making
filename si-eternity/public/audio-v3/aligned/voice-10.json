@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "voice-10",
+  "spokenText": "人类的工作记忆止步于此；形式化推演继续向下。",
+  "sourcePath": "public/audio-v2/voice-10.wav",
+  "sourceSha256": "13955c1d31622cfc2daee5c984a6555bf5a1970db7996be6f14535ee343fb7f6",
+  "cacheKey": "a0d33c6d5cf84b6277ceec04e2e048085d4d3049fa55b25f7942edb59ed21fb1",
+  "parameters": {
+    "sampleRate": 48000,
+    "channels": 1,
+    "format": "pcm_s16le",
+    "targetNonSilentRmsDbfs": -20.0,
+    "nonSilentFloorDbfs": -60.0,
+    "maxGainDb": 6.0,
+    "peakCeilingDbfs": -3.0,
+    "atempoMax": 1.18
+  },
+  "actualStartSeconds": 84.24,
+  "deadlineSeconds": 92.82,
+  "atempo": 1.0,
+  "sampleRate": 48000,
+  "channels": 1,
+  "sampleCount": 283278,
+  "durationSeconds": 5.901625,
+  "processedSha256": "83d46643c0c8946e50a87351b20ba72a78efea7aba866d0fc1ed3b5d9186106f",
+  "normalization": {
+    "nonSilentFloorDbfs": -60.0,
+    "nonSilentSampleCount": 166674.0,
+    "nonSilentRmsBeforeDbfs": -22.58241994639302,
+    "targetRmsDbfs": -20.0,
+    "appliedGainDb": 0.7230755163950475,
+    "nonSilentRmsAfterDbfs": -21.85934438345894,
+    "peakBeforeDbfs": -3.723075516395047,
+    "peakAfterDbfs": -3.0000002493010487,
+    "pcm16PeakDbfs": -3.0003622493859567,
+    "tempoFactor": 1.0,
+    "sampleCount": 283278.0
+  }
+}

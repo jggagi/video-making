@@ -1,0 +1,6 @@
+node_modules/
+out/
+public/audio/*.wav
+public/audio-voiced-v2/**/*.wav
+public/audio-voiced-v2/*.wav
+__pycache__/

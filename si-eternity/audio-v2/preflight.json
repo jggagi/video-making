@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-16",
+  "cliBefore": "2.2.1",
+  "cliNow": "2.3.0",
+  "skillVersion": "2.3.0",
+  "userApprovedUpgrade": true,
+  "provider": "Bailian",
+  "resolvedDefaultTtsModel": "cosyvoice-v3-flash",
+  "voice": "longtian_v3",
+  "rate": 0.96,
+  "format": "PCM16 mono 24000Hz",
+  "pricingSource": "https://help.aliyun.com/zh/model-studio/cosyvoice-v3-flash",
+  "publishedCnyPer10000Characters": 1,
+  "actualBillVerified": false
+}

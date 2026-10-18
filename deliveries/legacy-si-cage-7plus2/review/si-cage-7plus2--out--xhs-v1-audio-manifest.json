@@ -1,0 +1,486 @@
+{
+  "edition": "EP02 Xiaohongshu local-only 60 second PCM mix v1",
+  "generatorVersion": 1,
+  "planSha256": "ec27e7d0c5db6951f262dd8447ba83391b5f06d8790526a1c026f31374f53544",
+  "format": {
+    "fps": 60,
+    "sampleRate": 48000,
+    "channels": 2,
+    "bitsPerSample": 16,
+    "durationFrames": 3600,
+    "sampleFrames": 2880000,
+    "durationSeconds": 60.0
+  },
+  "inputs": {
+    "sourceStems": {
+      "overload": {
+        "path": "public/audio/overload.wav",
+        "sha256": "a3ea17d6faac2906df1d1b45875e5ee55e3e230bedcf110eb83b029438436a0e"
+      },
+      "order": {
+        "path": "public/audio/order.wav",
+        "sha256": "834f4e66c81cf1106116862741f47284c03013eac3a6e7752c89d19c91c88d07"
+      },
+      "atmosphere": {
+        "path": "public/audio/atmosphere.wav",
+        "sha256": "252e453dc18995afedef37ffa9f904d56ac0c87a5b1670615abbb6c56609491d"
+      }
+    },
+    "voicedV2MixManifest": {
+      "path": "out/voiced-v2-mix-manifest.json",
+      "sha256": "a586eac681c92bcc694092f0335b51db87cbbb3a528a1e59ba8535060badd1cc"
+    }
+  },
+  "cues": [
+    {
+      "id": "voice-03",
+      "file": "public/audio-voiced-v2/aligned/voice-03.wav",
+      "alignedSha256": "0d6edd0466f81a57c9a66b908bab9ac3e50c5ea9da86c8130b97524e046cf125",
+      "sourceFile": "public/audio-voiced-v2/voice-03.wav",
+      "sourceSha256": "fadec2550a7fbd898b14a8b661b6c8f78d186b89052cc92eaa1b9f0cb5955e9b",
+      "startFrame": 66,
+      "endFrame": 312,
+      "startSample": 52800,
+      "endSample": 249522,
+      "sampleFrames": 196722,
+      "atempo": 1,
+      "inputChannels": 1,
+      "outputChannels": 2,
+      "channelMapping": "L=mono,R=mono; unity",
+      "pcmPayloadSha256": "762c3061f6abbb517cfe020038b67fa555dec2fb26832d9c0c9214e92e928d22",
+      "stereoPayloadSha256": "8c6a313d9768dc931cf4c5eb744a23ba65a8ebe390ccb87e11c28a522776db47"
+    },
+    {
+      "id": "voice-02",
+      "file": "public/audio-voiced-v2/aligned/voice-02.wav",
+      "alignedSha256": "cc264b435187611d874f2a7f10d31465b5dc6d341d2c6ec2835d2bff50696e50",
+      "sourceFile": "public/audio-voiced-v2/voice-02.wav",
+      "sourceSha256": "1da36f9aa6a56093b6fe8d4f646686855dd648fbf250421903269753382928c5",
+      "startFrame": 342,
+      "endFrame": 569,
+      "startSample": 273600,
+      "endSample": 454584,
+      "sampleFrames": 180984,
+      "atempo": 1,
+      "inputChannels": 1,
+      "outputChannels": 2,
+      "channelMapping": "L=mono,R=mono; unity",
+      "pcmPayloadSha256": "81d298d99ed8a03efb49c2d9148df64c6f3ce5ae1db7029599fa6364b4b400ee",
+      "stereoPayloadSha256": "1c41d013ca866027532c94f3d4b5d4e48c4a0be5547c007ace1f1895736c019c"
+    },
+    {
+      "id": "voice-05",
+      "file": "public/audio-voiced-v2/aligned/voice-05.wav",
+      "alignedSha256": "fcc62eaacbfaf42cc92dcb31d4fb9404aa146ffd0bfd4f9b3dfdcf79fc143fd5",
+      "sourceFile": "public/audio-voiced-v2/voice-05.wav",
+      "sourceSha256": "2d7883dcec86051362df3e71b4fdd96c37ef39c56f3b90d6a67e51662547452d",
+      "startFrame": 620,
+      "endFrame": 1029,
+      "startSample": 496000,
+      "endSample": 822558,
+      "sampleFrames": 326558,
+      "atempo": 1,
+      "inputChannels": 1,
+      "outputChannels": 2,
+      "channelMapping": "L=mono,R=mono; unity",
+      "pcmPayloadSha256": "8198a78f1e453fb5da5d70a7e602b623bd02d84f314815c48709219ec13db197",
+      "stereoPayloadSha256": "d9fafc41c0fb9b3a079a6eca6994acbb81074738bb36d781f757e9258e597ae7"
+    },
+    {
+      "id": "voice-06",
+      "file": "public/audio-voiced-v2/aligned/voice-06.wav",
+      "alignedSha256": "ff8589f7bcc528d5782a3e39723b355e0806d9bf2d13d1cbf6a629ba586d18f9",
+      "sourceFile": "public/audio-voiced-v2/voice-06.wav",
+      "sourceSha256": "d0190e3ffc2fb1e7706950d674feaf78d4d379ba4bb8440aa0dd55aed9e4b993",
+      "startFrame": 1044,
+      "endFrame": 1285,
+      "startSample": 835200,
+      "endSample": 1027986,
+      "sampleFrames": 192786,
+      "atempo": 1,
+      "inputChannels": 1,
+      "outputChannels": 2,
+      "channelMapping": "L=mono,R=mono; unity",
+      "pcmPayloadSha256": "2c09e1c1cf8078612e97e6ca02a14d0d67d1c23183e726874130b86c3815b86b",
+      "stereoPayloadSha256": "1b580bdf815d3457cd61e1e7176a80c28962cf87c09fce9a0adc26b24844fd93"
+    },
+    {
+      "id": "voice-07",
+      "file": "public/audio-voiced-v2/aligned/voice-07.wav",
+      "alignedSha256": "aa861b0c5e6c766657d10d773a67710b7fbe49ba2bece49adcf2bb522746fa82",
+      "sourceFile": "public/audio-voiced-v2/voice-07.wav",
+      "sourceSha256": "2ef540d7805b2c83d81dcb1c4a87973543d7f770b1b92991843b132674e7d85c",
+      "startFrame": 1330,
+      "endFrame": 1616,
+      "startSample": 1064000,
+      "endSample": 1292196,
+      "sampleFrames": 228196,
+      "atempo": 1,
+      "inputChannels": 1,
+      "outputChannels": 2,
+      "channelMapping": "L=mono,R=mono; unity",
+      "pcmPayloadSha256": "dcb86db0ad981a1e50ef028523162e3f3c196e44cf3020ce47287d011a8c4985",
+      "stereoPayloadSha256": "225c4274e5fbdf1183a90d27eff720d0f0905cc3f3135ab7779be1b06d86863e"
+    },
+    {
+      "id": "voice-11",
+      "file": "public/audio-voiced-v2/aligned/voice-11.wav",
+      "alignedSha256": "5ef677bf22105698dc3e4144e89bf9be599cc2b7585f2533336a660373925dad",
+      "sourceFile": "public/audio-voiced-v2/voice-11.wav",
+      "sourceSha256": "c07d7abb516df3f644757d94ad7c21dd8d08ad02f795a9162f37a9610902c58c",
+      "startFrame": 1720,
+      "endFrame": 1932,
+      "startSample": 1376000,
+      "endSample": 1545180,
+      "sampleFrames": 169180,
+      "atempo": 1,
+      "inputChannels": 1,
+      "outputChannels": 2,
+      "channelMapping": "L=mono,R=mono; unity",
+      "pcmPayloadSha256": "f03c6bba1ba35fce743ef805ceb8ce7274ba81083c3726f2bb92044da412ea21",
+      "stereoPayloadSha256": "ef36e3eea59011af9d826347d1315652b5afb4b463e044f8ede412d314514f94"
+    },
+    {
+      "id": "voice-12",
+      "file": "public/audio-voiced-v2/aligned/voice-12.wav",
+      "alignedSha256": "efd19b6296fe4056afcffb33d122fd90dab6996b5c9cc2ed8016aeb5901cf288",
+      "sourceFile": "public/audio-voiced-v2/voice-12.wav",
+      "sourceSha256": "e9c79927e3eaca2514c4e4b6ce8c1606a97e6ae135a6296aa1faac0458866a20",
+      "startFrame": 1948,
+      "endFrame": 2101,
+      "startSample": 1558400,
+      "endSample": 1680368,
+      "sampleFrames": 121968,
+      "atempo": 1,
+      "inputChannels": 1,
+      "outputChannels": 2,
+      "channelMapping": "L=mono,R=mono; unity",
+      "pcmPayloadSha256": "7276fb52b4aaec5d5a27471a8b3ad6e6d5dcf750940dbc97ada392f30cfc939e",
+      "stereoPayloadSha256": "3802e239c08314c17f62be67fe9c2e45859a317b1326b235f7915d4b28e63122"
+    },
+    {
+      "id": "voice-13",
+      "file": "public/audio-voiced-v2/aligned/voice-13.wav",
+      "alignedSha256": "908b7d0d92342e18d5cf8630151c6400515dc5eb144bda8d65c1bbd6a0f24582",
+      "sourceFile": "public/audio-voiced-v2/voice-13.wav",
+      "sourceSha256": "c8652258e0414be5b4b8f9d211085f437d1be35e1a2bf2e73e2e19f5008ff8c5",
+      "startFrame": 2240,
+      "endFrame": 2496,
+      "startSample": 1792000,
+      "endSample": 1996590,
+      "sampleFrames": 204590,
+      "atempo": 1,
+      "inputChannels": 1,
+      "outputChannels": 2,
+      "channelMapping": "L=mono,R=mono; unity",
+      "pcmPayloadSha256": "4f7fb98c5fd1d97e005b29bc872d0b286f1e473f6c7f33ecfc62711edc8a1f6c",
+      "stereoPayloadSha256": "11233244d496b888fccefffead4ca12d9179ce5bff941c2017e0da39b7d2dc4c"
+    },
+    {
+      "id": "voice-14",
+      "file": "public/audio-voiced-v2/aligned/voice-14.wav",
+      "alignedSha256": "e31f62fa17d66ad1e05eed3ae0491533a0aeb596253beb1acc4f9c3ad957cbcd",
+      "sourceFile": "public/audio-voiced-v2/voice-14.wav",
+      "sourceSha256": "11b947595c4b93cb32ba03b0ab611db95bf466216cc9586ee7384e8c9e20a4f7",
+      "startFrame": 2514,
+      "endFrame": 2844,
+      "startSample": 2011200,
+      "endSample": 2274806,
+      "sampleFrames": 263606,
+      "atempo": 1,
+      "inputChannels": 1,
+      "outputChannels": 2,
+      "channelMapping": "L=mono,R=mono; unity",
+      "pcmPayloadSha256": "aa494bc835d4f7b622eb97b6d69649530522f57dcda2ca4c0ef2164e61a8ce09",
+      "stereoPayloadSha256": "e4d5387d108d312e60b5b7b776adca4902c71cfdfb58ac45b4c4adf3aa2a8038"
+    },
+    {
+      "id": "voice-quote",
+      "file": "public/audio-voiced-v2/aligned/voice-quote.wav",
+      "alignedSha256": "f68c870d18ac9a0e05d2a0673473cbb826f57fe877a00f1a65ca97226dd19710",
+      "sourceFile": "public/audio-voiced-v2/voice-quote.wav",
+      "sourceSha256": "77b13ee915e344ab90bb7500e3d6f0256f4e2de6d18130b0c0e6894fb7ce794c",
+      "startFrame": 2880,
+      "endFrame": 3318,
+      "startSample": 2304000,
+      "endSample": 2654164,
+      "sampleFrames": 350164,
+      "atempo": 1,
+      "inputChannels": 1,
+      "outputChannels": 2,
+      "channelMapping": "L=mono,R=mono; unity",
+      "pcmPayloadSha256": "4b27fad67a6065f47500feb67ecc418d1367544b26d9a787fd311ba6ab2bbc4d",
+      "stereoPayloadSha256": "a4d63ee035a0598230b0428bc11b5fdd860015004e98eee4cc4c6aae994a8ba2"
+    },
+    {
+      "id": "voice-15",
+      "file": "public/audio-voiced-v2/aligned/voice-15.wav",
+      "alignedSha256": "4a072d302dfc0aed987c37072c80cde0e3300315ed3bb9078c26fa943064d73b",
+      "sourceFile": "public/audio-voiced-v2/voice-15.wav",
+      "sourceSha256": "b97dccde73abd484f61d6098a96e3d512e3d936922c7f424b48a8e09d7f1b5c9",
+      "startFrame": 3400,
+      "endFrame": 3563,
+      "startSample": 2720000,
+      "endSample": 2849836,
+      "sampleFrames": 129836,
+      "atempo": 1,
+      "inputChannels": 1,
+      "outputChannels": 2,
+      "channelMapping": "L=mono,R=mono; unity",
+      "pcmPayloadSha256": "0dda38a0c9b989e810d8866f773bd379eaadb00d26e2e609577f3b8fd2ed33e6",
+      "stereoPayloadSha256": "4eb53ad0aa0d88c7dcba60053cf77275089d562a797b0ed6d26e5d1bffaf0541"
+    }
+  ],
+  "outputs": {
+    "overload": {
+      "path": "public/audio-xhs-v1/overload.wav",
+      "sha256": "8972a800687b8c0775753d5959287f22ed78cd486e791ae3176d1aafb4ba87e6"
+    },
+    "narration": {
+      "path": "public/audio-xhs-v1/narration.wav",
+      "sha256": "405214244e208187d27f90ecdf95b8c61e5e98d354be9e492e9c46303fd6392c"
+    },
+    "score": {
+      "path": "public/audio-xhs-v1/score.wav",
+      "sha256": "8ed1e90c4670687e91d09e2cbc92120eef966a3a57f35c21bd556c5f778dd7a9"
+    },
+    "soundtrack": {
+      "path": "public/audio-xhs-v1/soundtrack.wav",
+      "sha256": "f1dbf5423b1de259cf2d5b1058ecfdaf083befcc419b3c1846fd236267eb385b"
+    }
+  },
+  "validation": {
+    "noiseSampleCopy": true,
+    "quietFrameRange": [
+      48,
+      66
+    ],
+    "samplePeakDbfs": -2.900957699744444,
+    "integratedLufs": -19.48,
+    "truePeakDbtp": -2.52,
+    "ffmpegMeasurement": "ffmpeg loudnorm input_i/input_tp analysis; output files are unprocessed PCM",
+    "narrationSamplePeak": 0.70794677734375,
+    "soundtrackSamplePeak": 0.716064453125,
+    "soundtrackSamplePeakBelow0_9": true
+  },
+  "provenance": {
+    "musicEdits": [
+      {
+        "destinationFrameRange": [
+          66,
+          1320
+        ],
+        "sourceFrameRange": [
+          1800,
+          3054
+        ],
+        "sampleFrames": 1003200,
+        "sameSpeed": true
+      },
+      {
+        "destinationFrameRange": [
+          1320,
+          1680
+        ],
+        "sourceFrameRange": [
+          3800,
+          4160
+        ],
+        "sampleFrames": 288000,
+        "sameSpeed": true
+      },
+      {
+        "destinationFrameRange": [
+          1680,
+          2220
+        ],
+        "sourceFrameRange": [
+          6700,
+          7240
+        ],
+        "sampleFrames": 432000,
+        "sameSpeed": true
+      },
+      {
+        "destinationFrameRange": [
+          2220,
+          3600
+        ],
+        "sourceFrameRange": [
+          8400,
+          9780
+        ],
+        "sampleFrames": 1104000,
+        "sameSpeed": true
+      }
+    ],
+    "atmosphere": {
+      "sourcePath": "public/audio/atmosphere.wav",
+      "sourceFrameRange": [
+        1800,
+        5334
+      ],
+      "destinationFrameRange": [
+        66,
+        3600
+      ],
+      "gain": 0.45
+    },
+    "ducking": {
+      "tracks": [
+        "music",
+        "atmosphere"
+      ],
+      "attenuationDb": -8.0,
+      "leadMilliseconds": 150,
+      "attackMilliseconds": 90,
+      "releaseMilliseconds": 350,
+      "envelope": "linear amplitude ramp begins at cue start minus lead; hold spans full cue; release follows cue"
+    },
+    "fades": {
+      "shortFadeMilliseconds": 15,
+      "cuts": [
+        1320,
+        2220
+      ],
+      "manifoldEntryFrame": 1680,
+      "manifoldEntryPreserved": true,
+      "finalFadeMilliseconds": 600
+    },
+    "overload": {
+      "toneLayers": [
+        {
+          "index": 0,
+          "frequencyHz": 220,
+          "startFrame": 0,
+          "startSample": 0,
+          "amplitude": 0.025,
+          "pan": 0.0,
+          "attackMilliseconds": 35,
+          "stopFrame": 36
+        },
+        {
+          "index": 1,
+          "frequencyHz": 440,
+          "startFrame": 4,
+          "startSample": 3200,
+          "amplitude": 0.017677669529663688,
+          "pan": 0.10748384228160571,
+          "attackMilliseconds": 35,
+          "stopFrame": 36
+        },
+        {
+          "index": 2,
+          "frequencyHz": 660,
+          "startFrame": 8,
+          "startSample": 6400,
+          "amplitude": 0.014433756729740645,
+          "pan": 0.09558785666833038,
+          "attackMilliseconds": 35,
+          "stopFrame": 36
+        },
+        {
+          "index": 3,
+          "frequencyHz": 880,
+          "startFrame": 12,
+          "startSample": 9600,
+          "amplitude": 0.0125,
+          "pan": -0.022475359625148378,
+          "attackMilliseconds": 35,
+          "stopFrame": 36
+        },
+        {
+          "index": 4,
+          "frequencyHz": 1100,
+          "startFrame": 16,
+          "startSample": 12800,
+          "amplitude": 0.011180339887498949,
+          "pan": -0.115575711668798,
+          "attackMilliseconds": 35,
+          "stopFrame": 36
+        },
+        {
+          "index": 5,
+          "frequencyHz": 1320,
+          "startFrame": 20,
+          "startSample": 16000,
+          "amplitude": 0.010206207261596576,
+          "pan": -0.08030878287315135,
+          "attackMilliseconds": 35,
+          "stopFrame": 36
+        },
+        {
+          "index": 6,
+          "frequencyHz": 1540,
+          "startFrame": 24,
+          "startSample": 19200,
+          "amplitude": 0.00944911182523068,
+          "pan": 0.04415526126868616,
+          "attackMilliseconds": 35,
+          "stopFrame": 36
+        },
+        {
+          "index": 7,
+          "frequencyHz": 1760,
+          "startFrame": 28,
+          "startSample": 22400,
+          "amplitude": 0.008838834764831844,
+          "pan": 0.11957707376887207,
+          "attackMilliseconds": 35,
+          "stopFrame": 36
+        },
+        {
+          "index": 8,
+          "frequencyHz": 1980,
+          "startFrame": 32,
+          "startSample": 25600,
+          "amplitude": 0.008333333333333333,
+          "pan": 0.06218738471051702,
+          "attackMilliseconds": 35,
+          "stopFrame": 36
+        }
+      ],
+      "noiseCopy": {
+        "sourcePath": "public/audio/overload.wav",
+        "sourceFrameRange": [
+          1200,
+          1212
+        ],
+        "destinationFrameRange": [
+          36,
+          48
+        ],
+        "sourcePcmSha256": "9d6ade279df3bd8fa32e6fdd7d3722f3e63081111f0f043d088169271b75d485",
+        "destinationPcmSha256": "9d6ade279df3bd8fa32e6fdd7d3722f3e63081111f0f043d088169271b75d485",
+        "exactPayloadCopy": true
+      },
+      "toneSamplePeak": 0.052978515625
+    },
+    "noisePayloadSha256": "9d6ade279df3bd8fa32e6fdd7d3722f3e63081111f0f043d088169271b75d485",
+    "clipSamplesPreserved": true,
+    "clipSampleFramesPerChannel": {
+      "voice-03": 196722,
+      "voice-02": 180984,
+      "voice-05": 326558,
+      "voice-06": 192786,
+      "voice-07": 228196,
+      "voice-11": 169180,
+      "voice-12": 121968,
+      "voice-13": 204590,
+      "voice-14": 263606,
+      "voice-quote": 350164,
+      "voice-15": 129836
+    },
+    "atempo": 1,
+    "planSha256": "ec27e7d0c5db6951f262dd8447ba83391b5f06d8790526a1c026f31374f53544",
+    "sourceInputStemsSha256": {
+      "overload": "a3ea17d6faac2906df1d1b45875e5ee55e3e230bedcf110eb83b029438436a0e",
+      "order": "834f4e66c81cf1106116862741f47284c03013eac3a6e7752c89d19c91c88d07",
+      "atmosphere": "252e453dc18995afedef37ffa9f904d56ac0c87a5b1670615abbb6c56609491d"
+    }
+  },
+  "cloud": {
+    "providerCalls": 0,
+    "asrUploads": 0
+  }
+}

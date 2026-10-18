@@ -1,0 +1,108 @@
+{
+  "commonPrompt": "Photorealistic cinematic16:9 period film still, modest Chinese county town1918, early Republican cotton clothes/wood/plaster/stone, restrained psychological suspense, slate blue-grey/dim amber, natural skin/textures, no modern objects/gore/monsters/readable invented text/watermark/letterbox.",
+  "promptRecord": "Production specifications reconstructed from the image-generation requests. Exact raw requests remain in the task tool-call history.",
+  "referenceIdentity": "study -> consult -> aside/onlookers",
+  "generation": "10 native AI stills, edited into cuts and frame-driven camera motion in Remotion",
+  "assets": [
+    {
+      "asset": "study",
+      "file": "public/madman/cinema-v5/study.png",
+      "tool": "built-in image_gen",
+      "productionPrompt": "35-year-old gaunt Chinese scholar, unkempt short black hair and charcoal changshan; seated left, open stitched book right, oil lamp, lattice moonlight, tired attentive expression; 50mm anamorphic, readable skin and shadow.",
+      "nativeWidth": 1672,
+      "nativeHeight": 941,
+      "source": "AI generated for this adaptation",
+      "sha256": "306ac90b310ae0c74bb5eef5ce5e44212d72a4ad64a16a4d6c88b6e56f5d4083"
+    },
+    {
+      "asset": "courtyard",
+      "file": "public/madman/cinema-v5/courtyard.png",
+      "tool": "built-in image_gen",
+      "productionPrompt": "POV from dark wooden doorway across wet-stone courtyard, old plaster walls/tiled eaves, full moon upper middle; one ordinary tan village dog looks back, no snarling; cold blue-grey with tiny warm lamp.",
+      "nativeWidth": 1672,
+      "nativeHeight": 941,
+      "source": "AI generated for this adaptation",
+      "sha256": "9c7418af2f17434efa780e39bc9d44ecfa2cc0d47a78a877d7fa8be1a4b8e681"
+    },
+    {
+      "asset": "street",
+      "file": "public/madman/cinema-v5/street.png",
+      "tool": "built-in image_gen",
+      "productionPrompt": "POV narrow county lane; seven ordinary townspeople, elderly Zhao foreground left looks back, two men right whisper with a faint smile; four out-of-focus figures; ambiguous ordinary conversation.",
+      "nativeWidth": 1672,
+      "nativeHeight": 941,
+      "source": "AI generated for this adaptation",
+      "sha256": "617178a9b340f6df7831cd7ae95ef3e6eb7e7029a3c77d8cd6ec2486a2ecf375"
+    },
+    {
+      "asset": "lock",
+      "file": "public/madman/cinema-v5/lock.png",
+      "tool": "built-in image_gen",
+      "productionPrompt": "Outside of closed study door; realistic grey-sleeved hand touches rough horizontal wooden crossbar in its supports; seam of amber light,85mm shallow focus; domestic restraint, no chains.",
+      "nativeWidth": 1672,
+      "nativeHeight": 941,
+      "source": "AI generated for this adaptation",
+      "sha256": "10c2558f024d06808371d094f464e0289d40cf8e080e6d8b6602c5012b75b79c"
+    },
+    {
+      "asset": "meal",
+      "file": "public/madman/cinema-v5/meal.png",
+      "tool": "built-in image_gen",
+      "productionPrompt": "Whole ordinarily steamed fish with opaque white eye and open mouth on porcelain plate; vegetable bowl, bamboo chopsticks; table-height85mm, cold window light and faint steam; edible fish, no human meat.",
+      "nativeWidth": 1672,
+      "nativeHeight": 941,
+      "source": "AI generated for this adaptation",
+      "sha256": "8e6e7c417b580954871d3a7ba2279868151233cd2c10431c18ebb9caa3e75955"
+    },
+    {
+      "asset": "consult",
+      "file": "public/madman/cinema-v5/consult.png",
+      "tool": "built-in image_gen",
+      "productionPrompt": "Use study identity/room reference; same scholar left offers forearm palm-up; elderly doctor right in round wire glasses gently rests two fingers at wrist, eyes closed; concerned clean-shaven43-year-old brother in brown changshan behind; plausible anatomy, normal traditional diagnosis.",
+      "nativeWidth": 1672,
+      "nativeHeight": 941,
+      "source": "AI generated for this adaptation",
+      "sha256": "f80dd556928f377afc62018deb91cd17c4a765e98c3ace296c3e2d34a735db0c"
+    },
+    {
+      "asset": "beams",
+      "file": "public/madman/cinema-v5/beams.png",
+      "tool": "built-in image_gen",
+      "productionPrompt": "Seated scholar's upward POV at intact timber beam and rafters; moonlight and dust, lattice window edge lower right; strong but plausible perspective, no collapse, no creature.",
+      "nativeWidth": 1672,
+      "nativeHeight": 941,
+      "source": "AI generated for this adaptation",
+      "sha256": "d7682e4219071f9cb7b88068dc1e9b94e998187096c4485b3fd90cceb2b5f92e"
+    },
+    {
+      "asset": "aside",
+      "file": "public/madman/cinema-v5/aside.png",
+      "tool": "built-in image_gen",
+      "productionPrompt": "Use consult identities; doctor and brown-clad brother outside open study door in grey courtyard; quiet conversation, almost nod, neither looks at camera; blurred near door edge, no overt plotting.",
+      "nativeWidth": 1672,
+      "nativeHeight": 941,
+      "source": "AI generated for this adaptation",
+      "sha256": "5ac69e68b2607cd96c79c85a19410e33eeb05e0696a14220d123a7555a7e8221"
+    },
+    {
+      "asset": "children",
+      "file": "public/madman/cinema-v5/children.png",
+      "tool": "built-in image_gen",
+      "productionPrompt": "POV from dark doorway toward open outer gate at misty dawn; one8-year-old boy in grey-blue cotton stands still far threshold, small questioning figure, no rescue gesture or adult.",
+      "nativeWidth": 1672,
+      "nativeHeight": 941,
+      "source": "AI generated for this adaptation",
+      "sha256": "1cf1b8b65a227e91f9750b3cacfa77728618cdadd0cd9637219b923b845e56fd"
+    },
+    {
+      "asset": "onlookers",
+      "file": "public/madman/cinema-v5/onlookers.png",
+      "tool": "built-in image_gen",
+      "productionPrompt": "Use consult brother identity; study POV past blurred scholar shoulder; brother at doorway raises one open hand to dismiss four ordinary curious townspeople; protective/frustrated, cool exterior and warm interior.",
+      "nativeWidth": 1672,
+      "nativeHeight": 941,
+      "source": "AI generated for this adaptation",
+      "sha256": "739e4e602f247e981803881194a2f5c439223fb470c5275cebb580acdd3c4f6e"
+    }
+  ]
+}

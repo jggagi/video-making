@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "voice-07",
+  "spokenText": "百分之九十六的道路被剪去，现实却毫发无损。",
+  "sourcePath": "public/audio-v2/voice-07.wav",
+  "sourceSha256": "7529799c0f474ad8209ad34643eaf41a0bd5a51f8f3c29caadedf5a06f5bce98",
+  "cacheKey": "6a990684aded5ac71ace0c8fc78284f6ca595078c00d16afa66e2aec047ab023",
+  "parameters": {
+    "sampleRate": 48000,
+    "channels": 1,
+    "format": "pcm_s16le",
+    "targetNonSilentRmsDbfs": -20.0,
+    "nonSilentFloorDbfs": -60.0,
+    "maxGainDb": 6.0,
+    "peakCeilingDbfs": -3.0,
+    "atempoMax": 1.18
+  },
+  "actualStartSeconds": 57.24,
+  "deadlineSeconds": 65.82,
+  "atempo": 1.0,
+  "sampleRate": 48000,
+  "channels": 1,
+  "sampleCount": 208524,
+  "durationSeconds": 4.34425,
+  "processedSha256": "b7f924f0bda3071908ee419f8b1cf674d3498b06c5caa8a3d3657b022ffa7df3",
+  "normalization": {
+    "nonSilentFloorDbfs": -60.0,
+    "nonSilentSampleCount": 153721.0,
+    "nonSilentRmsBeforeDbfs": -25.453440153461152,
+    "targetRmsDbfs": -20.0,
+    "appliedGainDb": 0.9254228264150353,
+    "nonSilentRmsAfterDbfs": -24.528017031507716,
+    "peakBeforeDbfs": -3.925422826415035,
+    "peakAfterDbfs": -2.9999995180030155,
+    "pcm16PeakDbfs": -3.0003622493859567,
+    "tempoFactor": 1.0,
+    "sampleCount": 208524.0
+  }
+}

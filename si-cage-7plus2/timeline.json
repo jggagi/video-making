@@ -1,0 +1,22 @@
+{
+  "fps": 60,
+  "durationInFrames": 10800,
+  "width": 3840,
+  "height": 2160,
+  "logicalWidth": 1920,
+  "logicalHeight": 1080,
+  "renderScale": 2,
+  "sampleRate": 48000,
+  "actStarts": [0, 2700, 5400, 8400],
+  "actDurations": [2700, 2700, 3000, 2400],
+  "chunkFrames": [0, 120, 240, 360, 480, 600, 720, 840, 960],
+  "overloadFrame": 1200,
+  "noiseDurationFrames": 12,
+  "silenceUntilFrame": 1800,
+  "matrixFrame": 3800,
+  "manifoldFrame": 6700,
+  "oracleFrame": 8400,
+  "endingFrame": 10000,
+  "hookFrame": 10550,
+  "harmonicsHz": [220, 440, 660, 880, 1100, 1320, 1540, 1760, 1980]
+}

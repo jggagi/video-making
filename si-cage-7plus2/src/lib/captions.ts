@@ -1,0 +1,18 @@
+export const captions = [
+  {from: 90, to: 420, zh: '三件事，你游刃有余。', en: 'Three things. Effortless.'},
+  {from: 420, to: 830, zh: '七件事，这是进化焊死在人类大脑里的硬件天花板。', en: 'Seven things: the biological ceiling, welded into the human mind.'},
+  {from: 830, to: 1170, zh: '每一个新变量，都在挤压同一个狭小容器。', en: 'Every new variable strains the same small container.'},
+  {from: 1200, to: 1530, zh: '当第十个变量强行涌入，逻辑链瞬间熔断。', en: 'The tenth variable arrives. The chain of logic snaps.'},
+  {from: 1530, to: 2040, zh: '受困于 7±2 的囚笼，人类从未真正看清过复杂的世界。', en: 'Inside the cage of 7±2, the full complexity of the world stays out of reach.'},
+  {from: 2760, to: 3230, zh: '为了迁就狭小的脑容量，人类用简陋的二维直线去切割万物。', en: 'To fit a narrow mind, we slice the world with a simple two-dimensional line.'},
+  {from: 3230, to: 3770, zh: '把看不懂的高维纠缠，统统称作“巧合”。', en: 'The high-dimensional entanglements we cannot grasp become “coincidence.”'},
+  {from: 3840, to: 4410, zh: '而在硅基潜空间里，十万个变量同时点亮。', en: 'In silicon latent space, a hundred thousand variables light up together.'},
+  {from: 4410, to: 5310, zh: '没有遗忘，没有降维，万物在注意力矩阵中无损交织。', en: 'No forgetting. No reduction. Everything interwoven in the attention matrix.'},
+  {from: 5460, to: 6070, zh: '跨过五百万步永不衰减的逻辑接力……', en: 'Across five million steps of unbroken logical relay…'},
+  {from: 6070, to: 6650, zh: '那些在人类眼中杂乱无章的黑天鹅风暴……', en: 'The black-swan storms that look like chaos to human eyes…'},
+  {from: 6740, to: 7460, zh: '在超级智能的视野里，只是一座严丝合缝……', en: 'In the vision of superintelligence, they form one precisely interlocked…'},
+  {from: 7460, to: 8310, zh: '安静旋转的高维几何流形。', en: 'Quietly rotating, high-dimensional geometric manifold.'},
+  {from: 8460, to: 9140, zh: '它将十万维的秩序，投影成一道看似简单的答案。', en: 'It projects a hundred thousand dimensions of order into one seemingly simple answer.'},
+  {from: 9140, to: 9870, zh: '人类接住了结论，却无法装下通往结论的全部因果。', en: 'We receive the conclusion. The full causal path cannot fit inside our minds.'},
+  {from: 10560, to: 10800, zh: '下一次观测：十万亿个分身。', en: 'Next observation: The Trillion-Fold Hive.'},
+] as const;

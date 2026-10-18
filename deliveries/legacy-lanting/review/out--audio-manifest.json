@@ -1,0 +1,17 @@
+{
+  "voice": "macOS Tingting (Chinese (China mainland))",
+  "speechRate": 135,
+  "rate": 22050,
+  "seconds": 152.20833333333334,
+  "clips": 26,
+  "captionCharacters": 324,
+  "spokenHomophones": [
+    "会稽→快稽",
+    "修禊→修细",
+    "少长咸集→绍掌咸集",
+    "夫人→扶人",
+    "悟言→晤言",
+    "趣舍→取舍",
+    "悲夫→悲福"
+  ]
+}

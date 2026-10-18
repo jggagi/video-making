@@ -1,0 +1,28 @@
+# 一眼万年
+
+这是历史归档，保留原时长、画幅与版本；不声称符合后续两分钟规格。
+
+[完整 Release 与全部下载](https://github.com/jggagi/video-making/releases/tag/archive-si-eternity-v1) · [B站横屏](B站/README.md) · [小红书竖屏](小红书/README.md)
+
+源码位置：`si-eternity`。成片在 GitHub Releases；本机原始路径、SHA-256、实测规格见 [archive.json](archive.json)。
+
+## 工程归档
+
+| 文件 | 规格 | 大小 |
+| --- | --- | --- |
+| [one-blink-ten-millennia-portrait-v4-project.zip](https://github.com/jggagi/video-making/releases/download/archive-si-eternity-v1/si-eternity--si-eternity--out--one-blink-ten-millennia-portrait-v4-project--2b5fb5db3a7c.zip) | 可编辑工程 / 历史快照 | 72.2 MiB |
+| [one-blink-ten-millennia-v3-project.zip](https://github.com/jggagi/video-making/releases/download/archive-si-eternity-v1/si-eternity--si-eternity--out--one-blink-ten-millennia-v3-project--37cbbf6ef57b.zip) | 可编辑工程 / 历史快照 | 72.1 MiB |
+| [si-eternity-project.zip](https://github.com/jggagi/video-making/releases/download/archive-si-eternity-v1/si-eternity--si-eternity--out--si-eternity-project--0e0fb5f66293.zip) | 可编辑工程 / 历史快照 | 0.1 MiB |
+| [si-eternity-voiced-v2-project.zip](https://github.com/jggagi/video-making/releases/download/archive-si-eternity-v1/si-eternity--si-eternity--out--si-eternity-voiced-v2-project--9fbb512a4c96.zip) | 可编辑工程 / 历史快照 | 83.5 MiB |
+
+## 样片与历史草稿
+
+这些文件仅作制作过程记录，不能视为最终成片。
+
+| 文件 | 规格 | 大小 |
+| --- | --- | --- |
+| [ending-title-v3.mp4](https://github.com/jggagi/video-making/releases/download/archive-si-eternity-v1/si-eternity--si-eternity--out--ending-title-v3--9fa8d3d800cc.mp4) | 1920×1080，6.000秒 | 0.6 MiB |
+| [one-shot-preview-voiced-v2.mp4](https://github.com/jggagi/video-making/releases/download/archive-si-eternity-v1/si-eternity--si-eternity--out--one-shot-preview-voiced-v2--3bf2661c6ff0.mp4) | 1920×1080，8.000秒 | 1.5 MiB |
+| [one-shot-preview.mp4](https://github.com/jggagi/video-making/releases/download/archive-si-eternity-v1/si-eternity--si-eternity--out--one-shot-preview--64a401cda13e.mp4) | 1920×1080，8.000秒 | 1.2 MiB |
+| [opening-title-v3.mp4](https://github.com/jggagi/video-making/releases/download/archive-si-eternity-v1/si-eternity--si-eternity--out--opening-title-v3--b0889c91e7ca.mp4) | 1920×1080，8.000秒 | 1.6 MiB |
+| [portrait-layout-preview-v4.mp4](https://github.com/jggagi/video-making/releases/download/archive-si-eternity-v1/si-eternity--si-eternity--out--portrait-layout-preview-v4--6866a7bb540e.mp4) | 1080×1920，12.000秒 | 2.0 MiB |

@@ -1,0 +1,23 @@
+{
+  "edition": "EP02 Xiaohongshu portrait short v1",
+  "archive": "/Users/guoq/Documents/ChatGPT/video/si-cage-7plus2/out/cage-of-seven-plus-two-xhs-v1-project.zip",
+  "files": 184,
+  "sha256": "fa7e7a4b60b64f01db7ca985584a099176f95f79040d0e4ef0a71613dfb0dfcd",
+  "archiveFileLedger": "source-file-hashes.json",
+  "verifiedCrcAndAllFileHashes": true,
+  "fullMoviesIncluded": false,
+  "compactPreviewFiles": [
+    "out/xhs-v1-opening-preview.mp4"
+  ],
+  "oldVoicedV2MasterIncludedForStudioCompositions": true,
+  "humanAcceptance": {
+    "automatedLocalChecks": "PASS",
+    "humanListening": "PENDING",
+    "continuousVisualReview": "PENDING",
+    "actualPlatformUpload": "PENDING",
+    "asr": "NOT_PERFORMED",
+    "cloudServices": "NOT_USED"
+  },
+  "historyArchivesIncluded": false,
+  "credentialsIncluded": false
+}

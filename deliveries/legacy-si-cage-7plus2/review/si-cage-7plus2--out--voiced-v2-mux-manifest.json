@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "sourceVideo": "out/cage-of-seven-plus-two-1080p.mp4",
+  "output": "out/cage-of-seven-plus-two-voiced-v2-1080p.mp4",
+  "videoStreamHash": "SHA256=468ce96133f582c5cd3607f9788d8127303d05eb5b9893183cc9d6a4d312d774",
+  "videoStreamPreserved": true,
+  "sha256": "f6f7b34821e573223f27d5a66ff08dda01e550364a0fef0e502f1a551252d25b"
+}

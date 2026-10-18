@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101216">
+  <title>狂人日记 · 心理悬疑版</title>
+  <style>
+    :root{color-scheme:dark;--paper:#e7e1d5;--muted:#a8a8a2;--dim:#737982;--line:#383d42;--red:#ad5349;--ink:#101216;--panel:#181b20}
+    *{box-sizing:border-box}
+    body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 49% -17%,#292c30 0,var(--ink) 58%);color:var(--paper);font-family:"PingFang SC",system-ui,sans-serif}
+    main{width:min(1160px,100% - 40px);margin:0 auto;padding:38px 0 46px}
+    header{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-bottom:19px}
+    .eyebrow{font-size:10px;letter-spacing:3px;color:var(--muted);margin-bottom:10px}
+    h1{font:600 clamp(27px,4.6vw,39px)/1.2 "Songti SC","STSong",serif;letter-spacing:4px;margin:0}
+    .spec{font-size:11px;letter-spacing:1.5px;line-height:1.9;color:var(--muted);text-align:right;white-space:nowrap}
+    .stage{position:relative;background:#07090b;border:1px solid #3b4045;box-shadow:0 20px 64px #0008;overflow:hidden}
+    video{display:block;width:100%;aspect-ratio:16/9;background:#07090b;object-fit:contain}
+    #bigPlay{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:76px;height:76px;border:1px solid #d7d0c2;background:#111820d9;color:#f1ebdf;border-radius:50%;font-size:27px;padding:0 0 0 4px;cursor:pointer;box-shadow:0 5px 30px #0008;transition:opacity .18s,transform .18s}
+    #bigPlay:hover{transform:translate(-50%,-50%) scale(1.06);background:#293038}
+    #bigPlay[hidden]{display:none}
+    .toolbar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:13px 0 7px}
+    button{appearance:none;border:1px solid #555b60;background:#20242a;color:var(--paper);font:inherit;font-size:12px;letter-spacing:1px;padding:10px 13px;cursor:pointer;transition:background .15s,border-color .15s,color .15s}
+    button:hover:not(:disabled){background:#30353a;border-color:#858b8c}
+    button:disabled{opacity:.48;cursor:wait}
+    button.primary{background:#813c36;border-color:#a14e46}button.primary:hover{background:#9a4a42}
+    #clock{font-variant-numeric:tabular-nums;color:#c2bcaf;font-size:12px;letter-spacing:1px;margin-left:auto}
+    nav[aria-label="影片章节"]{display:grid;grid-template-columns:repeat(10,minmax(0,1fr));margin:18px 0 22px;border-bottom:1px solid var(--line)}
+    nav[aria-label="影片章节"] button{border:0;border-bottom:2px solid transparent;background:transparent;color:var(--muted);text-align:left;padding:11px 7px 14px;min-width:0;line-height:1.45}
+    nav[aria-label="影片章节"] button:hover:not(:disabled),nav[aria-label="影片章节"] button.active{color:var(--paper);border-bottom-color:var(--red);background:#ffffff06}
+    nav[aria-label="影片章节"] small{display:block;color:var(--dim);font-size:10px;letter-spacing:.5px;margin-bottom:6px;font-variant-numeric:tabular-nums}
+    #status{min-height:21px;color:#c58a7f;font-size:12px;line-height:1.7}
+    .note{border-left:2px solid #5e5049;padding:9px 13px;margin-top:18px;color:#aaa99f;font-size:11px;line-height:1.9}
+    footer{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap;border-top:1px solid var(--line);margin-top:24px;padding-top:17px;color:var(--dim);font-size:11px;line-height:1.9}
+    .links{display:flex;gap:17px;flex-wrap:wrap}a{color:#d6d0c3;text-decoration:none;border-bottom:1px solid #686961;padding-bottom:2px}a:hover{color:#fff}
+    @media(max-width:820px){nav[aria-label="影片章节"]{grid-template-columns:repeat(5,minmax(0,1fr))}}
+    @media(max-width:600px){main{width:min(100% - 24px,1160px);padding-top:24px}header{display:block}.spec{text-align:left;margin-top:10px}h1{letter-spacing:2px}nav[aria-label="影片章节"]{grid-template-columns:repeat(2,minmax(0,1fr));margin-top:12px}nav[aria-label="影片章节"] button{padding:9px 8px 11px}.toolbar{gap:8px}#clock{width:100%;margin:1px 0 0}#bigPlay{width:58px;height:58px;font-size:22px}footer{display:block}.links{margin-top:10px}}
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div>
+        <div class="eyebrow">鲁迅 · 1918 / CINEMATIC ADAPTATION</div>
+        <h1>狂人日记 · 心理悬疑版</h1>
+      </div>
+      <div class="spec">03:18 · 原文节选 · 百炼合成男声<br>1920 × 1080 · v5</div>
+    </header>
+
+    <section aria-label="狂人日记心理悬疑版影片播放器">
+      <div class="stage">
+        <video id="film" controls preload="metadata" playsinline poster="out/madman/still-v5-mid-title.png" aria-label="狂人日记心理悬疑版，原文节选，百炼合成男声">
+          <source src="out/madman/狂人日记-心理悬疑版-v5-1080p.mp4" type="video/mp4">
+          <track kind="subtitles" src="out/madman/狂人日记-心理悬疑版-v5.vtt" srclang="zh" label="中文原文">
+        </video>
+        <button id="bigPlay" type="button" aria-label="播放影片">▶</button>
+      </div>
+      <div class="toolbar">
+        <button id="replay" class="primary" type="button">从头播放</button>
+        <span id="clock" aria-live="off">00:00 / --:--</span>
+      </div>
+      <nav id="chapters" aria-label="影片章节">
+        <button data-time="4"><small>00:04</small>月光</button>
+        <button data-time="18.75"><small>00:19</small>街上</button>
+        <button data-time="46.5"><small>00:47</small>反锁</button>
+        <button data-time="56.75"><small>00:57</small>字缝</button>
+        <button data-time="78.5"><small>01:19</small>蒸鱼</button>
+        <button data-time="91.5"><small>01:32</small>诊治</button>
+        <button data-time="129.25"><small>02:09</small>疯子</button>
+        <button data-time="142.5"><small>02:23</small>横梁</button>
+        <button data-time="168"><small>02:48</small>孩子</button>
+        <button data-time="179.75"><small>03:00</small>小序</button>
+      </nav>
+      <div id="status" role="status" aria-live="polite"></div>
+      <div class="note">鲁迅原文节选与改编画面 · AI 生成画面 · 百炼合成男声。心理悬疑呈现保留多种解释，不对人物作诊断。</div>
+    </section>
+
+    <footer>
+      <span>原文节选 · AI 生成画面 · 百炼合成男声</span>
+      <nav class="links" aria-label="相关内容">
+        <a href="https://zh.wikisource.org/zh-hans/狂人日記" target="_blank" rel="noreferrer">查看《狂人日记》原文</a>
+        <a href="madman-v4-watch.html">节奏与意象加强版 v4</a>
+        <a href="out/madman/狂人日记-心理悬疑版-v5-1080p.mp4" download>下载 v5 成片</a>
+      </nav>
+    </footer>
+  </main>
+  <script>
+    const film = document.getElementById('film');
+    const bigPlay = document.getElementById('bigPlay');
+    const replay = document.getElementById('replay');
+    const chapterButtons = [...document.querySelectorAll('#chapters button[data-time]')];
+    const clock = document.getElementById('clock');
+    const status = document.getElementById('status');
+    const durationSeconds = 198.75;
+    const chapters = chapterButtons.map((button) => ({seconds: Number(button.dataset.time), button}));
+
+    const formatTime = (value) => {
+      const seconds = Math.max(0, Math.floor(Number.isFinite(value) ? value : 0));
+      return `${String(Math.floor(seconds / 60)).padStart(2, '0')}:${String(seconds % 60).padStart(2, '0')}`;
+    };
+    const updateProgress = () => {
+      const duration = durationSeconds || film.duration || 0;
+      clock.textContent = `${formatTime(film.currentTime)} / ${duration ? formatTime(duration) : '--:--'}`;
+      let activeIndex = -1;
+      chapters.forEach((chapter, index) => {
+        if (film.currentTime >= chapter.seconds) activeIndex = index;
+      });
+      chapterButtons.forEach((button, index) => {
+        const active = index === activeIndex;
+        button.classList.toggle('active', active);
+        button.setAttribute('aria-current', active ? 'true' : 'false');
+      });
+    };
+    const playFilm = () => film.play().catch(() => {
+      status.textContent = '影片尚未载入，请确认 v5 成片已导出。';
+    });
+
+    updateProgress();
+
+    bigPlay.addEventListener('click', playFilm);
+    replay.addEventListener('click', () => {
+      film.currentTime = 0;
+      status.textContent = '';
+      playFilm();
+    });
+    chapterButtons.forEach((button) => button.addEventListener('click', () => {
+      const chapter = chapters.find((item) => item.button === button);
+      if (!chapter) return;
+      film.currentTime = chapter.seconds;
+      status.textContent = '';
+      playFilm();
+    }));
+    film.addEventListener('play', () => { bigPlay.hidden = true; });
+    film.addEventListener('pause', () => { bigPlay.hidden = false; });
+    film.addEventListener('timeupdate', updateProgress);
+    film.addEventListener('seeked', updateProgress);
+    film.addEventListener('loadedmetadata', updateProgress);
+    film.addEventListener('durationchange', updateProgress);
+    film.addEventListener('ended', updateProgress);
+    film.addEventListener('error', () => {
+      status.textContent = '影片尚未载入，请确认 v5 成片已导出，或下载后播放。';
+    });
+  </script>
+</body>
+</html>

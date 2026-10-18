@@ -1,0 +1,13 @@
+{
+  "provider": "Bailian",
+  "requestedModel": "active Profile ASR default",
+  "reportedModel": null,
+  "expectedText": "热失控，结构坍塌，能量发散。失败先发生在模拟之中。",
+  "transcripts": [
+    {
+      "path": "",
+      "text": "热失控、结构坍塌、能量发散。\n失败先发生在模拟之中。"
+    }
+  ],
+  "sourceCue": "voice-06-r2"
+}

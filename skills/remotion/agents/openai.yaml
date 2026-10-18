@@ -1,0 +1,4 @@
+interface:
+  display_name: "Remotion"
+  short_description: "用 Remotion 制作和改进视频，组织内容、素材、声音、动画与成片验收"
+  default_prompt: "使用 $remotion 根据我的内容与播放场景制作或改进视频，并交付可修改工程和成片。"

@@ -1,0 +1,47 @@
+{
+  "purpose": "Museum v2 assets, imagegen original paintings and compositing layers",
+  "prompts": [
+    {
+      "id": "stream-clean",
+      "ref": "stream",
+      "transparent": false,
+      "prompt": "Use case: historical-scene. Production asset for an animated Chinese mineral-pigment and ink painting film about the public-domain Lanting Ji Xu, Eastern Jin China in 353 CE. Match the refined muted jade-green, blue-green, warm ivory, ochre, aged silk texture, natural light and meticulous brushwork of the provided reference paintings. This is artistic scenery, not a photograph, not an archaeological claim. No writing, logos, border, instruments, night, autumn or fantasy. High detail. Edit target: reference stream painting. Remove ONLY the floating lacquer ear cup and its immediate cup-specific reflection/shadow. Replace that small region with convincingly continuous rippling water. Preserve every rock, bamboo leaf, bank, background, camera angle, palette and all other water detail. Full frame 16:9. No cup or boat anywhere. Intended as background beneath an independently animated cup."
+    },
+    {
+      "id": "gathering-clean",
+      "ref": "gathering",
+      "transparent": false,
+      "prompt": "Use case: historical-scene. Production asset for an animated Chinese mineral-pigment and ink painting film about the public-domain Lanting Ji Xu, Eastern Jin China in 353 CE. Match the refined muted jade-green, blue-green, warm ivory, ochre, aged silk texture, natural light and meticulous brushwork of the provided reference paintings. This is artistic scenery, not a photograph, not an archaeological claim. No writing, logos, border, instruments, night, autumn or fantasy. High detail. Edit target: reference gathering painting. Remove ONLY the small floating ear cup in the stream. Preserve the seated scholars, their faces, the grove, robes, water and composition exactly. Seamlessly paint flowing water over the cup. Full frame 16:9."
+    },
+    {
+      "id": "gathering-empty",
+      "ref": "gathering",
+      "transparent": false,
+      "prompt": "Use case: historical-scene. Production asset for an animated Chinese mineral-pigment and ink painting film about the public-domain Lanting Ji Xu, Eastern Jin China in 353 CE. Match the refined muted jade-green, blue-green, warm ivory, ochre, aged silk texture, natural light and meticulous brushwork of the provided reference paintings. This is artistic scenery, not a photograph, not an archaeological claim. No writing, logos, border, instruments, night, autumn or fantasy. High detail. Edit target: reference gathering painting. Remove all human figures, their mats, vessels and the floating cup, while keeping the exact stream course, viewpoint, stones, spring vegetation and daylight. Restore the natural mossy stones and grass where the people were. Same season and exact setting, empty and still; no ruins, graves, dead bamboo or ominous sky. This represents poetic recollection of a gathering now past, not a literal disaster. Full frame 16:9."
+    },
+    {
+      "id": "ear-cup",
+      "ref": "stream",
+      "transparent": true,
+      "prompt": "Use case: historical-scene. Production asset for an animated Chinese mineral-pigment and ink painting film about the public-domain Lanting Ji Xu, Eastern Jin China in 353 CE. Match the refined muted jade-green, blue-green, warm ivory, ochre, aged silk texture, natural light and meticulous brushwork of the provided reference paintings. This is artistic scenery, not a photograph, not an archaeological claim. No writing, logos, border, instruments, night, autumn or fantasy. High detail. Create a transparent cutout animation layer based on the shallow dark red-brown lacquer ear cup in the reference. One oval bowl with two small wing handles, same above-water 3/4 camera angle as the reference, facing same direction, elegant fine brush rendering, visible lacquer interior and rim. Entire vessel isolated with real transparent alpha, no water, no cast shadow, no painted background, no writing. Centered, generous transparent margin, width about 65% of canvas. Maintain ancient plain form, not a golden goblet."
+    },
+    {
+      "id": "bamboo",
+      "ref": "landscape",
+      "transparent": true,
+      "prompt": "Use case: historical-scene. Production asset for an animated Chinese mineral-pigment and ink painting film about the public-domain Lanting Ji Xu, Eastern Jin China in 353 CE. Match the refined muted jade-green, blue-green, warm ivory, ochre, aged silk texture, natural light and meticulous brushwork of the provided reference paintings. This is artistic scenery, not a photograph, not an archaeological claim. No writing, logos, border, instruments, night, autumn or fantasy. High detail. Create one isolated foreground bamboo bough as a transparent animation layer, in the reference painting's style. A slender branch enters from UPPER RIGHT corner, arches diagonally down and left, with several branching twigs and about 25 delicate tapered jade and ink-green leaves. Clear air between leaves, asymmetrical graceful natural brushwork. Strong visible silhouette, varied dark/light leaves, not a dense tree. Entire background genuinely transparent alpha. No trunk cut at center, no pot, no text, no border."
+    },
+    {
+      "id": "paper",
+      "ref": "study",
+      "transparent": false,
+      "prompt": "Use case: historical-scene. Production asset for an animated Chinese mineral-pigment and ink painting film about the public-domain Lanting Ji Xu, Eastern Jin China in 353 CE. Match the refined muted jade-green, blue-green, warm ivory, ochre, aged silk texture, natural light and meticulous brushwork of the provided reference paintings. This is artistic scenery, not a photograph, not an archaeological claim. No writing, logos, border, instruments, night, autumn or fantasy. High detail. Create a NEW 16:9 close-up film plate inspired by the reference study, high detail, camera looking nearly straight down (slightly oblique) at a large clean ivory writing-paper sheet filling almost the entire image. Very fine absorbent paper fibers, subtle uneven warm tone, soft daylight from upper left, small simple dark ink stone on the far right edge and a narrow strip of dark timber table on far bottom and right edges. The middle 80% of the paper is entirely blank and unobstructed for later animated authentic Chinese glyph strokes. No brush or hand, no ink lettering, no seals, no fake calligraphy, no ornamented border. Quiet elegant museum presentation, horizontal paper, not crumpled."
+    },
+    {
+      "id": "bamboo-v2",
+      "ref": "landscape",
+      "transparent": true,
+      "prompt": "Create ONE isolated foreground BAMBOO branch cutout for an Eastern Jin spring landscape animation, inspired by the brushwork and mineral green palette of the attached painting. Botanically recognizable bamboo: thin jointed twigs and clusters of narrow pointed lanceolate bamboo leaves, each leaf at least 9 times longer than its width, gracefully swept along diagonal from top-right corner toward left. It must look like 修竹 bamboo, not willow, not broad-leaved tree, not oleander, not fern. Sparse elegant ink-wash silhouette with a few translucent mineral green leaves; crisp painted edges. Composition extends from upper right edge diagonally left across upper half, with lower half entirely empty. TRUE transparent background everywhere outside the leaves and stems: no haze, no wash backdrop, no glow, no ground, no shadows, no gray/black fill, no ambient vignette. No text, no seal, no people. A single clean animation layer, 3:2 horizontal canvas."
+    }
+  ]
+}

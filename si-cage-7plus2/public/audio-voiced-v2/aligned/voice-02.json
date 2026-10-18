@@ -1,0 +1,15 @@
+{
+  "id": "voice-02",
+  "file": "public/audio-voiced-v2/aligned/voice-02.wav",
+  "sampleRate": 48000,
+  "channels": 1,
+  "bitsPerSample": 16,
+  "originalDurationSeconds": 3.7705,
+  "actualDurationSeconds": 3.7705,
+  "atempo": 1.0,
+  "gain": 1.4230135850018053,
+  "gainDb": 3.0641809231636703,
+  "nonsilentRmsBeforeGainDbfs": -23.6585917234474,
+  "samplePeakBeforeGain": 0.49749755859375,
+  "sha256": "cc264b435187611d874f2a7f10d31465b5dc6d341d2c6ec2835d2bff50696e50"
+}

@@ -1,0 +1,438 @@
+{
+  "fps": 24,
+  "durationInFrames": 4535,
+  "shots": [
+    {
+      "id": "title",
+      "kind": "title",
+      "from": 0,
+      "duration": 312,
+      "image": "landscape",
+      "chapter": "",
+      "hero": [],
+      "mood": "joy",
+      "text": "",
+      "cues": []
+    },
+    {
+      "id": "date",
+      "image": "landscape",
+      "chapter": "兰亭 · 雅集",
+      "hero": [
+        "暮春之初"
+      ],
+      "mood": "joy",
+      "text": "永和九年，岁在癸丑，暮春之初，会于会稽山阴之兰亭，修禊事也。",
+      "kind": "scene",
+      "from": 312,
+      "duration": 311,
+      "cues": [
+        {
+          "text": "永和九年，岁在癸丑，暮春之初，",
+          "from": 18,
+          "duration": 153,
+          "sourceAudio": "out/extended/speech/cue-1db94f67f4f99972097d5e62a9df573948cc1e129c40d5b621e2700ec1cf0132.wav"
+        },
+        {
+          "text": "会于会稽山阴之兰亭，修禊事也。",
+          "from": 171,
+          "duration": 122,
+          "sourceAudio": "out/extended/speech/cue-5ea5655bfdea6d6a2706ed2fa15720e26d760a321879bef3f34ba2078d61362b.wav"
+        }
+      ]
+    },
+    {
+      "id": "grove",
+      "image": "gathering",
+      "chapter": "兰亭 · 雅集",
+      "hero": [
+        "群贤毕至",
+        "少长咸集"
+      ],
+      "mood": "joy",
+      "text": "群贤毕至，少长咸集。此地有崇山峻岭，茂林修竹。",
+      "kind": "scene",
+      "from": 623,
+      "duration": 257,
+      "cues": [
+        {
+          "text": "群贤毕至，少长咸集。此地有崇山峻岭，",
+          "from": 18,
+          "duration": 159,
+          "sourceAudio": "out/extended/speech/cue-9e9d9ba1f76ad1e2440574c26de6fe20af8e52bf0f26aa56ebcf3f42e7a72fee.wav"
+        },
+        {
+          "text": "茂林修竹。",
+          "from": 177,
+          "duration": 62,
+          "sourceAudio": "out/extended/speech/cue-94631f211a187b2b15513234d44111ff6cfeb07b1e00a3de1a4ddc5da3c9b5e6.wav"
+        }
+      ]
+    },
+    {
+      "id": "water",
+      "image": "stream",
+      "chapter": "兰亭 · 雅集",
+      "hero": [
+        "清流激湍"
+      ],
+      "mood": "joy",
+      "text": "又有清流激湍，映带左右。",
+      "kind": "scene",
+      "from": 880,
+      "duration": 133,
+      "cues": [
+        {
+          "text": "又有清流激湍，映带左右。",
+          "from": 18,
+          "duration": 97,
+          "sourceAudio": "out/extended/speech/cue-d86c75476195e260ea205cabfa04833d10bb2b05ad76e45d739c65f4338eab2e.wav"
+        }
+      ]
+    },
+    {
+      "id": "cups",
+      "image": "gathering",
+      "chapter": "兰亭 · 雅集",
+      "hero": [
+        "流觞曲水"
+      ],
+      "mood": "joy",
+      "text": "引以为流觞曲水，列坐其次。",
+      "kind": "scene",
+      "from": 1013,
+      "duration": 158,
+      "cues": [
+        {
+          "text": "引以为流觞曲水，列坐其次。",
+          "from": 18,
+          "duration": 122,
+          "sourceAudio": "out/extended/speech/cue-f53c1985179b48af649a90019e034892255724dbbfaf858e4002f37b2827adfd.wav"
+        }
+      ]
+    },
+    {
+      "id": "poems",
+      "image": "gathering",
+      "chapter": "兰亭 · 雅集",
+      "hero": [
+        "一觞一咏"
+      ],
+      "mood": "joy",
+      "text": "虽无丝竹管弦之盛，一觞一咏，亦足以畅叙幽情。",
+      "kind": "scene",
+      "from": 1171,
+      "duration": 206,
+      "cues": [
+        {
+          "text": "虽无丝竹管弦之盛，一觞一咏，亦足以畅叙幽情。",
+          "from": 18,
+          "duration": 170,
+          "sourceAudio": "out/extended/speech/cue-c319783d0389242431f7a97f0fd7594d5261896ba402de1a505823f73dc4e743.wav"
+        }
+      ]
+    },
+    {
+      "id": "breeze",
+      "image": "landscape",
+      "chapter": "兰亭 · 雅集",
+      "hero": [
+        "天朗气清",
+        "惠风和畅"
+      ],
+      "mood": "joy",
+      "text": "是日也，天朗气清，惠风和畅。",
+      "kind": "scene",
+      "from": 1377,
+      "duration": 139,
+      "cues": [
+        {
+          "text": "是日也，天朗气清，惠风和畅。",
+          "from": 18,
+          "duration": 103,
+          "sourceAudio": "out/extended/speech/cue-cb1763681be6ecf3c3311e0ef129b305d7bb6f17c3da4eb0ab1657e8707a56d8.wav"
+        }
+      ]
+    },
+    {
+      "id": "joy",
+      "image": "landscape",
+      "chapter": "兰亭 · 雅集",
+      "hero": [
+        "信可乐也"
+      ],
+      "mood": "joy",
+      "text": "仰观宇宙之大，俯察品类之盛，所以游目骋怀，足以极视听之娱，信可乐也。",
+      "kind": "scene",
+      "from": 1516,
+      "duration": 356,
+      "cues": [
+        {
+          "text": "仰观宇宙之大，俯察品类之盛，所以游目骋怀，",
+          "from": 18,
+          "duration": 198,
+          "sourceAudio": "out/extended/speech/cue-5e6cce0ba02fa480cc0bb46e6c21e9976110148e001e2ab589bdd2347a6b507f.wav"
+        },
+        {
+          "text": "足以极视听之娱，信可乐也。",
+          "from": 216,
+          "duration": 122,
+          "sourceAudio": "out/extended/speech/cue-4ee253534ea6b6e8273fb32ce96928631316aca604f20da7fff8be54b46580eb.wav"
+        }
+      ]
+    },
+    {
+      "id": "life",
+      "image": "study",
+      "chapter": "俯仰 · 一世",
+      "hero": [
+        "俯仰一世"
+      ],
+      "mood": "turn",
+      "text": "夫人之相与，俯仰一世，或取诸怀抱，悟言一室之内；或因寄所托，放浪形骸之外。",
+      "kind": "scene",
+      "from": 1872,
+      "duration": 326,
+      "cues": [
+        {
+          "text": "夫人之相与，俯仰一世，或取诸怀抱，",
+          "from": 18,
+          "duration": 144,
+          "sourceAudio": "out/extended/speech/cue-86e32ff444ec65306bcec000a6d7c9a0f9e03da3d084d5759cb3285d4e6d7ae6.wav"
+        },
+        {
+          "text": "悟言一室之内；或因寄所托，放浪形骸之外。",
+          "from": 162,
+          "duration": 146,
+          "sourceAudio": "out/extended/speech/cue-f2db27fb7b95dd114873181a729f2682af152b0bef8cec701884d748630559f1.wav"
+        }
+      ]
+    },
+    {
+      "id": "contentment",
+      "image": "gathering",
+      "chapter": "俯仰 · 一世",
+      "hero": [],
+      "mood": "turn",
+      "text": "虽趣舍万殊，静躁不同，当其欣于所遇，暂得于己，快然自足，不知老之将至。",
+      "kind": "scene",
+      "from": 2198,
+      "duration": 329,
+      "cues": [
+        {
+          "text": "虽趣舍万殊，静躁不同，当其欣于所遇，",
+          "from": 18,
+          "duration": 153,
+          "sourceAudio": "out/extended/speech/cue-52da61367670d521bba4a833c2d690fed1245bb297fabc135174ef2d048afa39.wav"
+        },
+        {
+          "text": "暂得于己，快然自足，不知老之将至。",
+          "from": 171,
+          "duration": 140,
+          "sourceAudio": "out/extended/speech/cue-607be72c2f974ada99fa25fdcdc64f13301a9fa3bddec72cd64d1db141159ce1.wav"
+        }
+      ]
+    },
+    {
+      "id": "change",
+      "image": "stream",
+      "chapter": "俯仰 · 一世",
+      "hero": [
+        "情随事迁"
+      ],
+      "mood": "turn",
+      "text": "及其所之既倦，情随事迁，感慨系之矣。",
+      "kind": "scene",
+      "from": 2527,
+      "duration": 197,
+      "cues": [
+        {
+          "text": "及其所之既倦，情随事迁，感慨系之矣。",
+          "from": 18,
+          "duration": 161,
+          "sourceAudio": "out/extended/speech/cue-7eb22e70f30ee763e55f28e5ae165da39864e268e46a94d0d44816df3cda4552.wav"
+        }
+      ]
+    },
+    {
+      "id": "traces",
+      "image": "landscape",
+      "chapter": "俯仰 · 一世",
+      "hero": [
+        "已为陈迹"
+      ],
+      "mood": "turn",
+      "text": "向之所欣，俯仰之间，已为陈迹，犹不能不以之兴怀。",
+      "kind": "scene",
+      "from": 2724,
+      "duration": 244,
+      "cues": [
+        {
+          "text": "向之所欣，俯仰之间，已为陈迹，",
+          "from": 18,
+          "duration": 135,
+          "sourceAudio": "out/extended/speech/cue-3be48ce191e42431031eb1b6647980db5f36f62ad6434fd693bbee1f1d671ad6.wav"
+        },
+        {
+          "text": "犹不能不以之兴怀。",
+          "from": 153,
+          "duration": 73,
+          "sourceAudio": "out/extended/speech/cue-67b7ca461daaa072a516bc9f2965f28af641aee74008d603a74005d84d86a52d.wav"
+        }
+      ]
+    },
+    {
+      "id": "mortality",
+      "image": "stream",
+      "chapter": "俯仰 · 一世",
+      "hero": [
+        "死生亦大矣"
+      ],
+      "mood": "reflect",
+      "text": "况修短随化，终期于尽。古人云：“死生亦大矣。”岂不痛哉！",
+      "kind": "scene",
+      "from": 2968,
+      "duration": 257,
+      "cues": [
+        {
+          "text": "况修短随化，终期于尽。古人云：“死生亦大矣。”",
+          "from": 18,
+          "duration": 168,
+          "sourceAudio": "out/extended/speech/cue-8ed3f96f05194f51f7694d371db2df939dc72bff68d69d4e191527166bde6adc.wav"
+        },
+        {
+          "text": "岂不痛哉！",
+          "from": 186,
+          "duration": 53,
+          "sourceAudio": "out/extended/speech/cue-e3e0987600c589014ecf6f3fb7b97cfec03102c70003b455de0c63f5ccee4f08.wav"
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "image": "study",
+      "chapter": "后之 · 览者",
+      "hero": [],
+      "mood": "reflect",
+      "text": "每览昔人兴感之由，若合一契，未尝不临文嗟悼，不能喻之于怀。",
+      "kind": "scene",
+      "from": 3225,
+      "duration": 296,
+      "cues": [
+        {
+          "text": "每览昔人兴感之由，若合一契，未尝不临文嗟悼，",
+          "from": 18,
+          "duration": 207,
+          "sourceAudio": "out/extended/speech/cue-ccda476b7e77f1c0d2a2c0a92fbb236971e94c723fd9153bf13dd9588f9afd6f.wav"
+        },
+        {
+          "text": "不能喻之于怀。",
+          "from": 225,
+          "duration": 53,
+          "sourceAudio": "out/extended/speech/cue-c2ad1e51bbb4c47a9de5ed5fd4dd0f03624913c1d49398bcfd0a06baeddd98cd.wav"
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "image": "study",
+      "chapter": "后之 · 览者",
+      "hero": [],
+      "mood": "reflect",
+      "text": "固知一死生为虚诞，齐彭殇为妄作。",
+      "kind": "scene",
+      "from": 3521,
+      "duration": 168,
+      "cues": [
+        {
+          "text": "固知一死生为虚诞，齐彭殇为妄作。",
+          "from": 18,
+          "duration": 132,
+          "sourceAudio": "out/extended/speech/cue-6fa76ce37382853cf71cf9c3ff70ddd86d1c411519b44f235c5b93fb1d841286.wav"
+        }
+      ]
+    },
+    {
+      "id": "time",
+      "image": "landscape",
+      "chapter": "后之 · 览者",
+      "hero": [
+        "后之视今",
+        "今之视昔"
+      ],
+      "mood": "reflect",
+      "text": "后之视今，亦犹今之视昔，悲夫！",
+      "kind": "scene",
+      "from": 3689,
+      "duration": 175,
+      "cues": [
+        {
+          "text": "后之视今，亦犹今之视昔，悲夫！",
+          "from": 18,
+          "duration": 139,
+          "sourceAudio": "out/extended/speech/cue-7d22cb354b1024f2cb16ae7368680717c62845efb118ca99bab4395c4e2ac36f.wav"
+        }
+      ]
+    },
+    {
+      "id": "record",
+      "image": "study",
+      "chapter": "后之 · 览者",
+      "hero": [
+        "录其所述"
+      ],
+      "mood": "reflect",
+      "text": "故列叙时人，录其所述，虽世殊事异，所以兴怀，其致一也。",
+      "kind": "scene",
+      "from": 3864,
+      "duration": 305,
+      "cues": [
+        {
+          "text": "故列叙时人，录其所述，虽世殊事异，所以兴怀，",
+          "from": 18,
+          "duration": 205,
+          "sourceAudio": "out/extended/speech/cue-303fec880a8b2a560805ad56a9e336b743d509b12572c9706bbfc81bd1da8e61.wav"
+        },
+        {
+          "text": "其致一也。",
+          "from": 223,
+          "duration": 64,
+          "sourceAudio": "out/extended/speech/cue-6dd33e2eb4c5d29ff35e5182ab7cd1df15ade049e957e715c3952cb6999531e4.wav"
+        }
+      ]
+    },
+    {
+      "id": "future",
+      "image": "landscape",
+      "chapter": "后之 · 览者",
+      "hero": [
+        "亦将有感于斯文"
+      ],
+      "mood": "reflect",
+      "text": "后之览者，亦将有感于斯文。",
+      "kind": "scene",
+      "from": 4169,
+      "duration": 150,
+      "cues": [
+        {
+          "text": "后之览者，亦将有感于斯文。",
+          "from": 18,
+          "duration": 114,
+          "sourceAudio": "out/extended/speech/cue-a3dfd11f85be4c0fe4f5e1a89b9f1b5198895ae24acfb1b704087cebf62f71aa.wav"
+        }
+      ]
+    },
+    {
+      "id": "end",
+      "kind": "end",
+      "from": 4319,
+      "duration": 216,
+      "image": "landscape",
+      "chapter": "",
+      "hero": [],
+      "mood": "reflect",
+      "text": "",
+      "cues": []
+    }
+  ]
+}

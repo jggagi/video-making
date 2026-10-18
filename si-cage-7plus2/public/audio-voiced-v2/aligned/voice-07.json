@@ -1,0 +1,15 @@
+{
+  "id": "voice-07",
+  "file": "public/audio-voiced-v2/aligned/voice-07.wav",
+  "sampleRate": 48000,
+  "channels": 1,
+  "bitsPerSample": 16,
+  "originalDurationSeconds": 4.754083333333333,
+  "actualDurationSeconds": 4.754083333333333,
+  "atempo": 1.0,
+  "gain": 1.4809734079864294,
+  "gainDb": 3.410945210013106,
+  "nonsilentRmsBeforeGainDbfs": -24.264430967635832,
+  "samplePeakBeforeGain": 0.47802734375,
+  "sha256": "aa861b0c5e6c766657d10d773a67710b7fbe49ba2bece49adcf2bb522746fa82"
+}

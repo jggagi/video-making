@@ -1,0 +1,15 @@
+{
+  "provider": "Bailian",
+  "cliVersion": "2.3.1",
+  "skillVersion": "2.3.1",
+  "npmLatestAtPreflight": "2.3.1",
+  "upgradedFrom": "2.3.0",
+  "upgradeApprovedByUser": true,
+  "effectiveTtsModel": "cosyvoice-v3-flash",
+  "voice": "longtian_v3",
+  "catalogDescription": "龙天 / 磁性理智男 / 中文英文",
+  "authenticationConfigured": true,
+  "networkSynthesisVerified": true,
+  "successfulSampleId": "voice-quote",
+  "sampleDurationSeconds": 7.295
+}

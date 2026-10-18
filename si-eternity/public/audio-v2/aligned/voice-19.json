@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "voice-19",
+  "spokenText": "人类在现实中试错千次。",
+  "sourcePath": "public/audio-v2/voice-19.wav",
+  "sourceSha256": "e6339c9bed2ea3a59971db21d2957b65bf9a427a5dc6ba5916b8b19b308e3aae",
+  "cacheKey": "d8ea4a40fa17564e957fcfc77f58055f33c3cfdff0918ddbb1c777ba27d509d5",
+  "parameters": {
+    "sampleRate": 48000,
+    "channels": 1,
+    "format": "pcm_s16le",
+    "targetNonSilentRmsDbfs": -20.0,
+    "nonSilentFloorDbfs": -60.0,
+    "maxGainDb": 6.0,
+    "peakCeilingDbfs": -3.0,
+    "atempoMax": 1.18
+  },
+  "actualStartSeconds": 163.25,
+  "deadlineSeconds": 167.85,
+  "atempo": 1.0,
+  "sampleRate": 48000,
+  "channels": 1,
+  "sampleCount": 141640,
+  "durationSeconds": 2.950833333333333,
+  "processedSha256": "f49dab004df51ad2355e7bff183f2e6bea9ad33944846aba88ce5c28d4ce5c5a",
+  "normalization": {
+    "nonSilentFloorDbfs": -60.0,
+    "nonSilentSampleCount": 110487.0,
+    "nonSilentRmsBeforeDbfs": -20.411294601318282,
+    "targetRmsDbfs": -20.0,
+    "appliedGainDb": 0.41129460131828544,
+    "nonSilentRmsAfterDbfs": -20.000000517719382,
+    "peakBeforeDbfs": -4.230379719397262,
+    "peakAfterDbfs": -3.8190853627732264,
+    "pcm16PeakDbfs": -3.819234033041231,
+    "tempoFactor": 1.0,
+    "sampleCount": 141640.0
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "id": "si-eternity",
+  "title": "一眼万年",
+  "release_tag": "archive-si-eternity-v1",
+  "historical": true,
+  "project_path": "si-eternity",
+  "delivery_directory": "deliveries/legacy-si-eternity",
+  "assets": [
+    {
+      "path": "si-eternity/out/ending-title-v3.mp4",
+      "name": "si-eternity--si-eternity--out--ending-title-v3--9fa8d3d800cc.mp4",
+      "bytes": 664599,
+      "sha256": "9fa8d3d800ccdec845a042a2e52a5a90e86ee82e9a3b07da124531518bc325d1",
+      "kind": "video",
+      "platform": "预览",
+      "measurements": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "60/1",
+        "frames": "360",
+        "video_duration_seconds": 6.0,
+        "container_duration_seconds": 6.016
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-eternity-v1/si-eternity--si-eternity--out--ending-title-v3--9fa8d3d800cc.mp4"
+    },
+    {
+      "path": "si-eternity/out/one-blink-ten-millennia-portrait-v4-project.zip",
+      "name": "si-eternity--si-eternity--out--one-blink-ten-millennia-portrait-v4-project--2b5fb5db3a7c.zip",
+      "bytes": 75673043,
+      "sha256": "2b5fb5db3a7c1a94a33e8d0f33db2110a3ef663c155f26fceefc06f5b73775e8",
+      "kind": "project",
+      "platform": "工程",
+      "measurements": {},
+      "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-eternity-v1/si-eternity--si-eternity--out--one-blink-ten-millennia-portrait-v4-project--2b5fb5db3a7c.zip"
+    },
+    {
+      "path": "si-eternity/out/one-blink-ten-millennia-portrait-v4.mp4",
+      "name": "si-eternity--si-eternity--out--one-blink-ten-millennia-portrait-v4--94da6f6fb30c.mp4",
+      "bytes": 64272277,
+      "sha256": "94da6f6fb30ce1cc8e555a0068b559d21bed894e14150743cf33591f974e629a",
+      "kind": "video",
+      "platform": "小红书",
+      "measurements": {
+        "width": 1080,
+        "height": 1920,
+        "fps": "60/1",
+        "frames": "10800",
+        "video_duration_seconds": 180.0,
+        "container_duration_seconds": 180.011
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-eternity-v1/si-eternity--si-eternity--out--one-blink-ten-millennia-portrait-v4--94da6f6fb30c.mp4"
+    },
+    {
+      "path": "si-eternity/out/one-blink-ten-millennia-v3-project.zip",
+      "name": "si-eternity--si-eternity--out--one-blink-ten-millennia-v3-project--37cbbf6ef57b.zip",
+      "bytes": 75642473,
+      "sha256": "37cbbf6ef57bd0fba204c062a1ce833f027d9ccee4962d59f87e5fa56cb6e6f2",
+      "kind": "project",
+      "platform": "工程",
+      "measurements": {},
+      "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-eternity-v1/si-eternity--si-eternity--out--one-blink-ten-millennia-v3-project--37cbbf6ef57b.zip"
+    },
+    {
+      "path": "si-eternity/out/one-blink-ten-millennia-v3.mp4",
+      "name": "si-eternity--si-eternity--out--one-blink-ten-millennia-v3--4ef2326bf22b.mp4",
+      "bytes": 82206028,
+      "sha256": "4ef2326bf22b443c58e6d9eff8379ac73ac450d0bb37c711853c1db4ba722e31",
+      "kind": "video",
+      "platform": "B站",
+      "measurements": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "60/1",
+        "frames": "10800",
+        "video_duration_seconds": 180.0,
+        "container_duration_seconds": 180.011
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-eternity-v1/si-eternity--si-eternity--out--one-blink-ten-millennia-v3--4ef2326bf22b.mp4"
+    },
+    {
+      "path": "si-eternity/out/one-shot-preview-voiced-v2.mp4",
+      "name": "si-eternity--si-eternity--out--one-shot-preview-voiced-v2--3bf2661c6ff0.mp4",
+      "bytes": 1541541,
+      "sha256": "3bf2661c6ff0162e84ebaf47099cf9c83c5d25eade87ee56485e4c61e8684a9f",
+      "kind": "video",
+      "platform": "预览",
+      "measurements": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "60/1",
+        "frames": "480",
+        "video_duration_seconds": 8.0,
+        "container_duration_seconds": 8.0
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-eternity-v1/si-eternity--si-eternity--out--one-shot-preview-voiced-v2--3bf2661c6ff0.mp4"
+    },
+    {
+      "path": "si-eternity/out/one-shot-preview.mp4",
+      "name": "si-eternity--si-eternity--out--one-shot-preview--64a401cda13e.mp4",
+      "bytes": 1261813,
+      "sha256": "64a401cda13e6a61a9b8bd2a39fb678000cc1d6faee3ab4406a00aae6003a256",
+      "kind": "video",
+      "platform": "预览",
+      "measurements": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "60/1",
+        "frames": "480",
+        "video_duration_seconds": 8.0,
+        "container_duration_seconds": 8.0
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-eternity-v1/si-eternity--si-eternity--out--one-shot-preview--64a401cda13e.mp4"
+    },
+    {
+      "path": "si-eternity/out/opening-title-v3.mp4",
+      "name": "si-eternity--si-eternity--out--opening-title-v3--b0889c91e7ca.mp4",
+      "bytes": 1694030,
+      "sha256": "b0889c91e7cace659c562dd4e1d71ca646493c9827559a6f435b4c6b2d9d8dc7",
+      "kind": "video",
+      "platform": "预览",
+      "measurements": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "60/1",
+        "frames": "480",
+        "video_duration_seconds": 8.0,
+        "container_duration_seconds": 8.0
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-eternity-v1/si-eternity--si-eternity--out--opening-title-v3--b0889c91e7ca.mp4"
+    },
+    {
+      "path": "si-eternity/out/portrait-layout-preview-v4.mp4",
+      "name": "si-eternity--si-eternity--out--portrait-layout-preview-v4--6866a7bb540e.mp4",
+      "bytes": 2047684,
+      "sha256": "6866a7bb540e3fd1b548047b7b1132923ae1eb3412c125f7a1b5aa36a70826c6",
+      "kind": "video",
+      "platform": "预览",
+      "measurements": {
+        "width": 1080,
+        "height": 1920,
+        "fps": "60/1",
+        "frames": "720",
+        "video_duration_seconds": 12.0,
+        "container_duration_seconds": 12.011
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-eternity-v1/si-eternity--si-eternity--out--portrait-layout-preview-v4--6866a7bb540e.mp4"
+    },
+    {
+      "path": "si-eternity/out/si-eternity-project.zip",
+      "name": "si-eternity--si-eternity--out--si-eternity-project--0e0fb5f66293.zip",
+      "bytes": 75411,
+      "sha256": "0e0fb5f6629335cff03fa6166513085e3ab5c7b8062040d02ccc57e3431e5ea7",
+      "kind": "project",
+      "platform": "工程",
+      "measurements": {},
+      "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-eternity-v1/si-eternity--si-eternity--out--si-eternity-project--0e0fb5f66293.zip"
+    },
+    {
+      "path": "si-eternity/out/si-eternity-voiced-v2-project.zip",
+      "name": "si-eternity--si-eternity--out--si-eternity-voiced-v2-project--9fbb512a4c96.zip",
+      "bytes": 87576477,
+      "sha256": "9fbb512a4c9600232b2b44078665ed8197037685ff0c3673c3cb59f4ecb60b69",
+      "kind": "project",
+      "platform": "工程",
+      "measurements": {},
+      "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-eternity-v1/si-eternity--si-eternity--out--si-eternity-voiced-v2-project--9fbb512a4c96.zip"
+    },
+    {
+      "path": "si-eternity/out/the-half-second-eternity-voiced-v2.mp4",
+      "name": "si-eternity--si-eternity--out--the-half-second-eternity-voiced-v2--cfe44315e6cb.mp4",
+      "bytes": 81031943,
+      "sha256": "cfe44315e6cbc55b17d316c2e56f9ee78411f56a42bea07240c1a4b4a8c3e957",
+      "kind": "video",
+      "platform": "B站",
+      "measurements": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "60/1",
+        "frames": "10800",
+        "video_duration_seconds": 180.0,
+        "container_duration_seconds": 180.011
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-eternity-v1/si-eternity--si-eternity--out--the-half-second-eternity-voiced-v2--cfe44315e6cb.mp4"
+    },
+    {
+      "path": "si-eternity/out/the-half-second-eternity.mp4",
+      "name": "si-eternity--si-eternity--out--the-half-second-eternity--5b4fa1a41cec.mp4",
+      "bytes": 76671341,
+      "sha256": "5b4fa1a41cecf13c779eed6b60fdb9eb54aa4c3f5940d25881f5ae45a9378f88",
+      "kind": "video",
+      "platform": "B站",
+      "measurements": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "60/1",
+        "frames": "10800",
+        "video_duration_seconds": 180.0,
+        "container_duration_seconds": 180.0
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-eternity-v1/si-eternity--si-eternity--out--the-half-second-eternity--5b4fa1a41cec.mp4"
+    }
+  ]
+}

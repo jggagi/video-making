@@ -1,0 +1,70 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "videoFrames": 10800,
+  "containerSeconds": 180.011,
+  "videoCodec": "h264",
+  "audioCodec": "aac",
+  "audioRate": 48000,
+  "audioChannels": 2,
+  "strictFullAvDecodePassed": true,
+  "masterSampleFrames": 8640000,
+  "decodedAacFrames": 8640512,
+  "aacPaddingFrames": 512,
+  "audioZeroLagCorrelationToMaster": 0.9999442221748456,
+  "decodedSamplePeakDbfs": -1.453980617051346,
+  "encodedAudioIntegratedLufs": -18.16,
+  "encodedAudioTruePeakDbtp": -1.45,
+  "fastStart": true,
+  "containerBoxes": [
+    {
+      "type": "ftyp",
+      "offset": 0,
+      "bytes": 32
+    },
+    {
+      "type": "moov",
+      "offset": 32,
+      "bytes": 287317
+    },
+    {
+      "type": "free",
+      "offset": 287349,
+      "bytes": 8
+    },
+    {
+      "type": "mdat",
+      "offset": 287357,
+      "bytes": 80744586
+    }
+  ],
+  "sourceSnapshotUnchanged": true,
+  "originalSilentFilmUnchanged": true,
+  "extractedVideoFrames": [
+    9599,
+    9600,
+    9816,
+    10200,
+    10799
+  ],
+  "continuousHumanListeningComplete": false,
+  "artifacts": {
+    "the-half-second-eternity-voiced-v2.mp4": {
+      "bytes": 81031943,
+      "sha256": "cfe44315e6cbc55b17d316c2e56f9ee78411f56a42bea07240c1a4b4a8c3e957"
+    },
+    "one-shot-preview-voiced-v2.mp4": {
+      "bytes": 1541541,
+      "sha256": "3bf2661c6ff0162e84ebaf47099cf9c83c5d25eade87ee56485e4c61e8684a9f"
+    },
+    "si-eternity-voiced-v2-project.zip": {
+      "bytes": 87576477,
+      "sha256": "9fbb512a4c9600232b2b44078665ed8197037685ff0c3673c3cb59f4ecb60b69"
+    }
+  },
+  "agentInspectedEncodedFrames": [
+    10200,
+    10799
+  ]
+}

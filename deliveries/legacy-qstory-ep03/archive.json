@@ -1,0 +1,54 @@
+{
+  "id": "qstory-ep03",
+  "title": "余问 QStory EP.03：十万亿个分身",
+  "release_tag": "archive-qstory-ep03-v1",
+  "historical": true,
+  "project_path": "qstory-ep03",
+  "delivery_directory": "deliveries/legacy-qstory-ep03",
+  "assets": [
+    {
+      "path": "qstory-ep03/out/QStory-EP03-editable-project.zip",
+      "name": "qstory-ep03--qstory-ep03--out--QStory-EP03-editable-project--bd1b5427badd.zip",
+      "bytes": 189725333,
+      "sha256": "bd1b5427badd054179d642b2ee86b5d8c2af91eefe83df62ed75fd83af995665",
+      "kind": "project",
+      "platform": "工程",
+      "measurements": {},
+      "download_url": "https://github.com/jggagi/video-making/releases/download/archive-qstory-ep03-v1/qstory-ep03--qstory-ep03--out--QStory-EP03-editable-project--bd1b5427badd.zip"
+    },
+    {
+      "path": "qstory-ep03/out/QStory-EP03-十万亿个分身-4K.mp4",
+      "name": "qstory-ep03--qstory-ep03--out--QStory-EP03---4K--088a33698608.mp4",
+      "bytes": 128286647,
+      "sha256": "088a3369860885d9bbfc3516336799856e260582619565cf13b28296fd8efcf4",
+      "kind": "video",
+      "platform": "B站",
+      "measurements": {
+        "width": 3840,
+        "height": 2160,
+        "fps": "30/1",
+        "frames": "5400",
+        "video_duration_seconds": 180.0,
+        "container_duration_seconds": 180.011
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/archive-qstory-ep03-v1/qstory-ep03--qstory-ep03--out--QStory-EP03---4K--088a33698608.mp4"
+    },
+    {
+      "path": "qstory-ep03/out/climax-preview-1080p.mp4",
+      "name": "qstory-ep03--qstory-ep03--out--climax-preview-1080p--3afe6e2eea20.mp4",
+      "bytes": 6970661,
+      "sha256": "3afe6e2eea201ccbe5f448fcae326c3e52a70777727101e85d3501462f16fde6",
+      "kind": "video",
+      "platform": "预览",
+      "measurements": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "30/1",
+        "frames": "1050",
+        "video_duration_seconds": 35.0,
+        "container_duration_seconds": 35.008
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/archive-qstory-ep03-v1/qstory-ep03--qstory-ep03--out--climax-preview-1080p--3afe6e2eea20.mp4"
+    }
+  ]
+}

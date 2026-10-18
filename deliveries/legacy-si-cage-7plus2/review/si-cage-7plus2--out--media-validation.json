@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "exports": {
+    "overload-preview.mp4": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 60,
+      "videoFrames": 270,
+      "videoDurationSeconds": 4.5,
+      "audioPresentedDurationSeconds": 4.5,
+      "containerDurationSeconds": 4.5,
+      "fullStrictDecode": "PASS",
+      "sha256": "3fddab14745cc1db7bef0dca96e0501a97517b58fc96afa9dc670698cfdcfe63"
+    },
+    "manifold-preview.mp4": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 60,
+      "videoFrames": 600,
+      "videoDurationSeconds": 10.0,
+      "audioPresentedDurationSeconds": 10.005,
+      "containerDurationSeconds": 10.005,
+      "fullStrictDecode": "PASS",
+      "sha256": "18558cd06c4b300eb1dbd5fae5d4160805aa15cc9579b81986f872a2c8b1b593"
+    },
+    "cage-of-seven-plus-two-1080p.mp4": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 60,
+      "videoFrames": 10800,
+      "videoDurationSeconds": 180.0,
+      "audioPresentedDurationSeconds": 180.011,
+      "containerDurationSeconds": 180.011,
+      "fullStrictDecode": "PASS",
+      "sha256": "e08c1bc00614201f57b1b1a7c6143d82a1ec9e64958fff69f21cb387e52f6cbb"
+    }
+  },
+  "encodedOverloadLevels": {
+    "nineLayerRms": 0.020775968811963294,
+    "noiseRms": 0.21349504381878176,
+    "postCutRms": 0.0
+  },
+  "masterIntegratedLufs": -29.2,
+  "masterTruePeakDbtp": -2.5,
+  "pcmFrameTiming": "PCM synthesis changes at exact sample 960000; AAC is lossy and may smear transient edges slightly.",
+  "humanListening": "pending",
+  "finalDevicePlayback": "pending"
+}

@@ -1,0 +1,187 @@
+{
+  "fps": 24,
+  "width": 1920,
+  "height": 1080,
+  "durationInFrames": 2192,
+  "edition": "原文节选 · 男声配音版 v2",
+  "source": "https://zh.wikisource.org/zh-hans/狂人日記",
+  "shots": [
+    {
+      "id": "title",
+      "from": 0,
+      "duration": 144,
+      "section": "题名",
+      "asset": "moon",
+      "cues": []
+    },
+    {
+      "id": "moon",
+      "from": 144,
+      "duration": 264,
+      "section": "一",
+      "asset": "moon",
+      "cues": [
+        {
+          "from": 24,
+          "duration": 210,
+          "text": "今天晚上，很好的月光。",
+          "audioFile": "public/madman/voice-v2/moon-1.wav",
+          "audioDurationSeconds": 3.3613333333333335,
+          "audioStartFrame": 168,
+          "audioDurationFrames": 81
+        }
+      ]
+    },
+    {
+      "id": "watch",
+      "from": 408,
+      "duration": 288,
+      "section": "二",
+      "asset": "crowd",
+      "cues": [
+        {
+          "from": 24,
+          "duration": 108,
+          "text": "今天全没月光，我知道不妙。",
+          "audioFile": "public/madman/voice-v2/watch-1.wav",
+          "audioDurationSeconds": 3.2772916666666667,
+          "audioStartFrame": 432,
+          "audioDurationFrames": 79
+        },
+        {
+          "from": 144,
+          "duration": 120,
+          "text": "似乎怕我，似乎想害我。",
+          "audioFile": "public/madman/voice-v2/watch-2.wav",
+          "audioDurationSeconds": 4.117666666666667,
+          "audioStartFrame": 552,
+          "audioDurationFrames": 99
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "from": 696,
+      "duration": 464,
+      "section": "三",
+      "asset": "typeset",
+      "cues": [
+        {
+          "from": 20,
+          "duration": 146,
+          "text": "我翻开历史一查，这历史没有年代，",
+          "audioFile": "public/madman/voice-v2/history-1.wav",
+          "audioDurationSeconds": 4.201666666666667,
+          "audioStartFrame": 716,
+          "audioDurationFrames": 101
+        },
+        {
+          "from": 174,
+          "duration": 138,
+          "text": "歪歪斜斜的每叶上都写着“仁义道德”几个字。",
+          "audioFile": "public/madman/voice-v2/history-2.wav",
+          "audioDurationSeconds": 5.378166666666667,
+          "audioStartFrame": 870,
+          "audioDurationFrames": 130
+        },
+        {
+          "from": 320,
+          "duration": 126,
+          "text": "满本都写着两个字是“吃人”！",
+          "audioFile": "public/madman/voice-v2/history-3.wav",
+          "audioDurationSeconds": 3.0252083333333335,
+          "audioStartFrame": 1016,
+          "audioDurationFrames": 73
+        }
+      ]
+    },
+    {
+      "id": "question",
+      "from": 1160,
+      "duration": 288,
+      "section": "八",
+      "asset": "crowd",
+      "cues": [
+        {
+          "from": 40,
+          "duration": 220,
+          "text": "从来如此，便对么？",
+          "audioFile": "public/madman/voice-v2/question-1.wav",
+          "audioDurationSeconds": 2.521,
+          "audioStartFrame": 1200,
+          "audioDurationFrames": 61
+        }
+      ]
+    },
+    {
+      "id": "complicity",
+      "from": 1448,
+      "duration": 312,
+      "section": "十二",
+      "asset": "typeset",
+      "cues": [
+        {
+          "from": 24,
+          "duration": 128,
+          "text": "四千年来时时吃人的地方，",
+          "audioFile": "public/madman/voice-v2/complicity-1.wav",
+          "audioDurationSeconds": 2.857125,
+          "audioStartFrame": 1472,
+          "audioDurationFrames": 69
+        },
+        {
+          "from": 160,
+          "duration": 128,
+          "text": "今天才明白，我也在其中混了多年；",
+          "audioFile": "public/madman/voice-v2/complicity-2.wav",
+          "audioDurationSeconds": 4.453791666666667,
+          "audioStartFrame": 1608,
+          "audioDurationFrames": 107
+        }
+      ]
+    },
+    {
+      "id": "children",
+      "from": 1760,
+      "duration": 264,
+      "section": "十三",
+      "asset": "child",
+      "cues": [
+        {
+          "from": 26,
+          "duration": 214,
+          "text": "没有吃过人的孩子，或者还有？",
+          "audioFile": "public/madman/voice-v2/children-1.wav",
+          "audioDurationSeconds": 4.117666666666667,
+          "audioStartFrame": 1786,
+          "audioDurationFrames": 99
+        }
+      ]
+    },
+    {
+      "id": "plea",
+      "from": 2024,
+      "duration": 168,
+      "section": "十三",
+      "asset": "child",
+      "cues": [
+        {
+          "from": 10,
+          "duration": 150,
+          "text": "救救孩子……",
+          "audioFile": "public/madman/voice-v2/plea-1.wav",
+          "audioDurationSeconds": 1.6806666666666668,
+          "audioStartFrame": 2034,
+          "audioDurationFrames": 41
+        }
+      ]
+    }
+  ],
+  "audioFile": "public/madman/audio/voiced-v2.wav",
+  "audio": {
+    "sampleRateHz": 48000,
+    "channels": 2,
+    "bitDepth": 16,
+    "codec": "pcm_s16le"
+  }
+}

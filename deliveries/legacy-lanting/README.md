@@ -1,0 +1,17 @@
+# 兰亭集序
+
+这是历史归档，保留原时长、画幅与版本；不声称符合后续两分钟规格。
+
+[完整 Release 与全部下载](https://github.com/jggagi/video-making/releases/tag/archive-lanting-v1) · [B站横屏](B站/README.md) · [小红书竖屏](小红书/README.md)
+
+源码位置：`.`。成片在 GitHub Releases；本机原始路径、SHA-256、实测规格见 [archive.json](archive.json)。
+
+## 样片与历史草稿
+
+这些文件仅作制作过程记录，不能视为最终成片。
+
+| 文件 | 规格 | 大小 |
+| --- | --- | --- |
+| [motion-sample.mp4](https://github.com/jggagi/video-making/releases/download/archive-lanting-v1/lanting--out--extended--motion-sample--cd7323ea1a8a.mp4) | 1920×1080，20.708秒 | 31.1 MiB |
+| [motion-sample.mp4](https://github.com/jggagi/video-making/releases/download/archive-lanting-v1/lanting--out--museum--motion-sample--6aad0a44824a.mp4) | 1920×1080，26.917秒 | 38.1 MiB |
+| [古今回望-点睛片段.mp4](https://github.com/jggagi/video-making/releases/download/archive-lanting-v1/lanting--out--time-bridge--5791311c7d53.mp4) | 1920×1080，8.792秒 | 14.4 MiB |

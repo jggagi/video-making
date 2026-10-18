@@ -1,0 +1,501 @@
+{
+  "checkedAt": "2026-10-12T06:19:34.484Z",
+  "film": "狂人日记-节奏意象加强版-v4-1080p.mp4",
+  "sha256": "795871b25d54bd7e266842904dfa10247de69603e8035bb0e72e5d9455ab3cfa",
+  "sizeBytes": 44037667,
+  "sourceIntegrity": {
+    "source": "https://zh.wikisource.org/zh-hans/狂人日記",
+    "sourceTimeline": {
+      "path": "src/madman/voiced-timeline.json",
+      "sha256": "025165c0d0d7fccfa40ef797469ff35ac3caac2fe2c2b3ea7f20451081848b39"
+    },
+    "providerVoiceManifest": {
+      "path": "public/madman/voice-v2/manifest.json",
+      "sha256": "abb23cdc81bf5f925b353c49fa30c9174d4238432684d0d48edb9496506f4bf9"
+    },
+    "fullV4AudioManifest": {
+      "path": "public/madman/audio/full-v4-manifest.json",
+      "sha256": "43e0dea1aecc5ede76b7743665ae0eecf03ed316e8c692383e3e1cba9fc11543"
+    },
+    "originalVoiceCuesMatchManifest": true,
+    "originalVoiceCues": [
+      {
+        "id": "moon-1",
+        "shotId": "moon",
+        "cueIndex": 0,
+        "fromFrame": 144,
+        "text": "今天晚上，很好的月光。",
+        "audioPath": "public/madman/voice-v2/moon-1.wav",
+        "sha256": "dc472ad47562cee1bfe63b4fcc765c11f491a470bafbbe30d19d8d4cd3528efb"
+      },
+      {
+        "id": "watch-1",
+        "shotId": "watch",
+        "cueIndex": 0,
+        "fromFrame": 336,
+        "text": "今天全没月光，我知道不妙。",
+        "audioPath": "public/madman/voice-v2/watch-1.wav",
+        "sha256": "e6c34b9c01019bb34cdb73a4d5f74f3aa6eece096b14d19b575f245d52f832c8"
+      },
+      {
+        "id": "watch-2",
+        "shotId": "watch",
+        "cueIndex": 1,
+        "fromFrame": 444,
+        "text": "似乎怕我，似乎想害我。",
+        "audioPath": "public/madman/voice-v2/watch-2.wav",
+        "sha256": "d1fe5fa5d99bd0e79f13920ee7060b13237eb2994d846cbd1c3ce279eec0300b"
+      },
+      {
+        "id": "history-1",
+        "shotId": "history",
+        "cueIndex": 0,
+        "fromFrame": 600,
+        "text": "我翻开历史一查，这历史没有年代，",
+        "audioPath": "public/madman/voice-v2/history-1.wav",
+        "sha256": "00ca1e3d8e97840e625c92dbdb5eff98de124097448261ac354f3988add7004b"
+      },
+      {
+        "id": "history-2",
+        "shotId": "history",
+        "cueIndex": 1,
+        "fromFrame": 724,
+        "text": "歪歪斜斜的每叶上都写着“仁义道德”几个字。",
+        "audioPath": "public/madman/voice-v2/history-2.wav",
+        "sha256": "0ba0a6e79bd78b0873d1869773d07eed2cb1796d3bcf34cc885ae4121f4c3a75"
+      },
+      {
+        "id": "history-3",
+        "shotId": "history",
+        "cueIndex": 2,
+        "fromFrame": 912,
+        "text": "满本都写着两个字是“吃人”！",
+        "audioPath": "public/madman/voice-v2/history-3.wav",
+        "sha256": "6035e73f3bb451ff705b09e8571cee22121e73dec3cbb862e44545eb1b628069"
+      },
+      {
+        "id": "question-1",
+        "shotId": "question",
+        "cueIndex": 0,
+        "fromFrame": 1076,
+        "text": "从来如此，便对么？",
+        "audioPath": "public/madman/voice-v2/question-1.wav",
+        "sha256": "20f28a2233f0e16e0b21b80fc34af5a23c00730691c652c6f1fe7f48a73d5c62"
+      },
+      {
+        "id": "complicity-1",
+        "shotId": "complicity",
+        "cueIndex": 0,
+        "fromFrame": 1272,
+        "text": "四千年来时时吃人的地方，",
+        "audioPath": "public/madman/voice-v2/complicity-1.wav",
+        "sha256": "54d8ec84b5eddc0037620da2dea39b1b644301973018e9a62499e214131dbbc4"
+      },
+      {
+        "id": "complicity-2",
+        "shotId": "complicity",
+        "cueIndex": 1,
+        "fromFrame": 1380,
+        "text": "今天才明白，我也在其中混了多年；",
+        "audioPath": "public/madman/voice-v2/complicity-2.wav",
+        "sha256": "361e0276856b4626a616335807a8515e0180005442654ce4e90c505b70f115ee"
+      },
+      {
+        "id": "children-1",
+        "shotId": "children",
+        "cueIndex": 0,
+        "fromFrame": 1536,
+        "text": "没有吃过人的孩子，或者还有？",
+        "audioPath": "public/madman/voice-v2/children-1.wav",
+        "sha256": "aea6544c5c92be7edd7a88acc6db66812e037a22ff248517b9e33cf8531d89d1"
+      },
+      {
+        "id": "plea-1",
+        "shotId": "plea",
+        "cueIndex": 0,
+        "fromFrame": 1740,
+        "text": "救救孩子……",
+        "audioPath": "public/madman/voice-v2/plea-1.wav",
+        "sha256": "5489b211ea52d8d178dd218f0b5f569ac4b7c04f334acee139d7e26b1d64ab67"
+      }
+    ],
+    "earlierMoviesUnchanged": {
+      "狂人日记-男声配音版-v2-1080p.mp4": "7d709339a515cb45d01bfabfd82f7101045e40658b1be79565e851b40303681c",
+      "狂人日记-字缝加强样片-v3-1080p.mp4": "c84c2e803089c3a91c05cbbd586e62be8ff4ee41cd70844d736784c5073236a1"
+    }
+  },
+  "audioPreparation": {
+    "provider": "Bailian",
+    "model": "cosyvoice-v3-flash",
+    "voice": "longsanshu_v3",
+    "newCloudCalls": 0,
+    "mixedWav": {
+      "path": "public/madman/audio/full-v4.wav",
+      "sha256": "8ba626b0c093b11258fc450a38abccd957c4a40200a5de9b72c53e7acedba682",
+      "sampleRateHz": 48000,
+      "channels": 2,
+      "bitDepth": 16,
+      "durationSeconds": 79
+    },
+    "historyReuse": {
+      "sourcePath": "public/madman/audio/history-study-v3.wav",
+      "sourceWavSha256": "c683cbe1c367bc5e9bda838073c47ea138962d89830e79ce86fb66d1b3766f9a",
+      "sourcePcmSha256": "7d092642fba873f89ca40ed739005b5fc28ef4b11109fb560ab783b18afc0543",
+      "embeddedPcmSha256": "7d092642fba873f89ca40ed739005b5fc28ef4b11109fb560ab783b18afc0543",
+      "pcmByteIdentical": true,
+      "fromFrame": 576,
+      "toFrame": 1056,
+      "reusedVoiceCues": [
+        {
+          "id": "history-1",
+          "text": "我翻开历史一查，这历史没有年代，",
+          "sha256": "00ca1e3d8e97840e625c92dbdb5eff98de124097448261ac354f3988add7004b"
+        },
+        {
+          "id": "history-2",
+          "text": "歪歪斜斜的每叶上都写着“仁义道德”几个字。",
+          "sha256": "0ba0a6e79bd78b0873d1869773d07eed2cb1796d3bcf34cc885ae4121f4c3a75"
+        },
+        {
+          "id": "history-3",
+          "text": "满本都写着两个字是“吃人”！",
+          "sha256": "6035e73f3bb451ff705b09e8571cee22121e73dec3cbb862e44545eb1b628069"
+        }
+      ]
+    }
+  },
+  "timeline": {
+    "path": "src/madman/full-v4-timeline.json",
+    "sha256": "15124ae7f6b66ed1ddbea91beca4285315523647a616502484d1dce6e9914b99",
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "frames": 1896,
+    "durationSeconds": 79,
+    "shotCount": 8,
+    "shotsContinuousAndInBounds": true,
+    "cueCount": 11,
+    "originalCueTextAndOrderPreserved": true,
+    "captionCount": 12,
+    "captionCharacters": 143,
+    "captionsMatchOriginalTextAndVtt": true
+  },
+  "video": {
+    "codec": "h264",
+    "width": 1920,
+    "height": 1080,
+    "frameRate": "24/1",
+    "frames": 1896,
+    "streamDurationSeconds": 79,
+    "containerDurationSeconds": 79.019,
+    "pixelFormat": "yuv420p",
+    "colorSpace": "bt709",
+    "colorPrimaries": "bt709",
+    "colorTransfer": "bt709",
+    "colorRange": "tv",
+    "fastStart": true,
+    "fullDecode": "passed; video and audio, no errors"
+  },
+  "audio": {
+    "codec": "aac",
+    "sampleRateHz": 48000,
+    "channels": 2,
+    "durationSeconds": 79.019,
+    "peakDbfs": -4.472254566373348,
+    "rmsDbfs": -27.277991973401225,
+    "noClipping": true
+  },
+  "finalFrames": {
+    "extracted": true,
+    "inspected": true,
+    "files": [
+      {
+        "name": "title",
+        "frame": 85,
+        "path": "out/madman/final-v4-title.png",
+        "sha256": "399e7eabb34c842295b5199b3a8e740b604d844592ef7371b8eb74f9750629dd",
+        "inspected": true
+      },
+      {
+        "name": "moon",
+        "frame": 228,
+        "path": "out/madman/final-v4-moon.png",
+        "sha256": "c6a4b7c7a061678afd914c013ee202dd29846ddd595b82eaadc2d0167cacd4d7",
+        "inspected": true
+      },
+      {
+        "name": "watch",
+        "frame": 384,
+        "path": "out/madman/final-v4-watch.png",
+        "sha256": "2b0db781f1a9f25153b5c9c70c5293f33b69297790fe85ae1b72c855d14c67e7",
+        "inspected": true
+      },
+      {
+        "name": "watch-left",
+        "frame": 480,
+        "path": "out/madman/final-v4-watch-left.png",
+        "sha256": "769434d36a0fc2f9e8125942a49dcb78b2f951a85a8e35f884449e5990611075",
+        "inspected": true
+      },
+      {
+        "name": "watch-right",
+        "frame": 540,
+        "path": "out/madman/final-v4-watch-right.png",
+        "sha256": "95660a760161909f5e19e97ff4e102804f6a6d144bbdf8d7c88f78bb4ae6076d",
+        "inspected": true
+      },
+      {
+        "name": "history",
+        "frame": 792,
+        "path": "out/madman/final-v4-history.png",
+        "sha256": "6d87eead281249afa6a8d5d959c696f2efb077df6b511c6a177c73a9afd634c3",
+        "inspected": true
+      },
+      {
+        "name": "history-reveal",
+        "frame": 996,
+        "path": "out/madman/final-v4-history-reveal.png",
+        "sha256": "10c2956552d561fdc82c7f41a5c2883a5fa5cee63e94be05124f6d2c118e84d5",
+        "inspected": true
+      },
+      {
+        "name": "question",
+        "frame": 1152,
+        "path": "out/madman/final-v4-question.png",
+        "sha256": "ff8588b71815b702a91020358a86e6b123f0ffa9ab929f4439d18b532226fe83",
+        "inspected": true
+      },
+      {
+        "name": "complicity",
+        "frame": 1440,
+        "path": "out/madman/final-v4-complicity.png",
+        "sha256": "6fb06816c0df9aa7455bc4cb247c1360b3e08571a436d06d13983206ee4b3b93",
+        "inspected": true
+      },
+      {
+        "name": "children",
+        "frame": 1656,
+        "path": "out/madman/final-v4-children.png",
+        "sha256": "4dcf5b8b0551ac4bb2fd02a07ea236e7bbef9d93d63409abe02c75ed23b6077b",
+        "inspected": true
+      },
+      {
+        "name": "plea",
+        "frame": 1824,
+        "path": "out/madman/final-v4-plea.png",
+        "sha256": "9babeb9eaafa9b4376c0ec83bb6e4a5cb2d90852f33760d121f368696a65c0ab",
+        "inspected": true
+      },
+      {
+        "name": "ending",
+        "frame": 1895,
+        "path": "out/madman/final-v4-ending.png",
+        "sha256": "0661bc782cfad6a92e2582593e7d591cf2ad3e98ec463fe28a7231992032063d",
+        "inspected": true
+      },
+      {
+        "name": "complicity-complete",
+        "frame": 1488,
+        "path": "out/madman/final-v4-complicity-complete.png",
+        "sha256": "e6468c03ff6832462c6d0dd39c53fef886e82cba41e3210ab51260e6f85fd9a8",
+        "inspected": true
+      }
+    ]
+  },
+  "browserPlayback": {
+    "url": "http://127.0.0.1:8031/madman-watch.html",
+    "tabId": "2",
+    "started": {
+      "duration": 79.019,
+      "currentTime": 0.185359,
+      "paused": false,
+      "readyState": 4,
+      "error": null
+    },
+    "continuousPlayEnded": {
+      "duration": 79.019,
+      "currentTime": 79.019,
+      "paused": true,
+      "ended": true,
+      "readyState": 4,
+      "error": null
+    },
+    "chapterSeeks": [
+      {
+        "chapter": "题名",
+        "expectedSeconds": 0,
+        "playback": {
+          "currentTime": 0.174257,
+          "error": null,
+          "paused": false,
+          "readyState": 4
+        },
+        "active": [
+          {
+            "text": "00:00题名",
+            "time": 0
+          }
+        ]
+      },
+      {
+        "chapter": "月光",
+        "expectedSeconds": 5,
+        "playback": {
+          "currentTime": 5.237415,
+          "error": null,
+          "paused": false,
+          "readyState": 4
+        },
+        "active": [
+          {
+            "text": "00:05月光",
+            "time": 5
+          }
+        ]
+      },
+      {
+        "chapter": "目光",
+        "expectedSeconds": 13,
+        "playback": {
+          "currentTime": 13.354175,
+          "error": null,
+          "paused": false,
+          "readyState": 4
+        },
+        "active": [
+          {
+            "text": "00:13目光",
+            "time": 13
+          }
+        ]
+      },
+      {
+        "chapter": "字缝",
+        "expectedSeconds": 24,
+        "playback": {
+          "currentTime": 24.32086,
+          "error": null,
+          "paused": false,
+          "readyState": 4
+        },
+        "active": [
+          {
+            "text": "00:24字缝",
+            "time": 24
+          }
+        ]
+      },
+      {
+        "chapter": "质问",
+        "expectedSeconds": 44,
+        "playback": {
+          "currentTime": 44.237313,
+          "error": null,
+          "paused": false,
+          "readyState": 4
+        },
+        "active": [
+          {
+            "text": "00:44质问",
+            "time": 44
+          }
+        ]
+      },
+      {
+        "chapter": "自省",
+        "expectedSeconds": 52,
+        "playback": {
+          "currentTime": 52.147405,
+          "error": null,
+          "paused": false,
+          "readyState": 4
+        },
+        "active": [
+          {
+            "text": "00:52自省",
+            "time": 52
+          }
+        ]
+      },
+      {
+        "chapter": "孩子",
+        "expectedSeconds": 63,
+        "playback": {
+          "currentTime": 63.327457,
+          "error": null,
+          "paused": false,
+          "readyState": 4
+        },
+        "active": [
+          {
+            "text": "01:03孩子",
+            "time": 63
+          }
+        ]
+      },
+      {
+        "chapter": "呼喊",
+        "expectedSeconds": 72,
+        "playback": {
+          "currentTime": 72.181207,
+          "error": null,
+          "paused": false,
+          "readyState": 4
+        },
+        "active": [
+          {
+            "text": "01:12呼喊",
+            "time": 72
+          }
+        ]
+      }
+    ],
+    "restoredState": [
+      {
+        "currentSrc": "http://127.0.0.1:8031/out/madman/%E7%8B%82%E4%BA%BA%E6%97%A5%E8%AE%B0-%E8%8A%82%E5%A5%8F%E6%84%8F%E8%B1%A1%E5%8A%A0%E5%BC%BA%E7%89%88-v4-1080p.mp4",
+        "currentTime": 0,
+        "duration": 79.019,
+        "error": null,
+        "paused": true,
+        "readyState": 4
+      }
+    ],
+    "screenshot": "out/madman/player-full-v4-preview.png",
+    "humanListening": false
+  },
+  "humanListening": "Not performed; actual playback, source hashes and decode checks are recorded separately.",
+  "transitionSample": {
+    "path": "out/madman/full-v4-transition-sample.mp4",
+    "frameRange": [
+      528,
+      623
+    ],
+    "durationSeconds": 4,
+    "actualPlayerDurationSeconds": 4.011,
+    "replayStarted": {
+      "currentTime": 0.075416,
+      "paused": false,
+      "readyState": 4,
+      "error": null
+    },
+    "ended": {
+      "currentTime": 4.011,
+      "paused": true,
+      "ended": true,
+      "error": null
+    },
+    "midpointFrame": 54,
+    "midpointFile": "out/madman/full-v4-transition-midpoint.png",
+    "midpointVisuallyReviewed": true
+  },
+  "codeChecks": {
+    "typeScript": "passed",
+    "scriptSyntax": "passed",
+    "playerInlineScriptSyntax": "passed"
+  },
+  "subtitleHttp": {
+    "status": 200,
+    "contentType": "text/vtt; charset=utf-8",
+    "bytes": 820
+  }
+}

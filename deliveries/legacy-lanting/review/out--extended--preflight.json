@@ -1,0 +1,182 @@
+{
+  "fps": 24,
+  "frames": 4535,
+  "seconds": 188.95833333333334,
+  "scenes": 17,
+  "cues": 26,
+  "fullTextMatches": true,
+  "continuousTimeline": true,
+  "allCueSamplesFit": true,
+  "cueSampleChecks": [
+    {
+      "sceneId": "date",
+      "cueIndex": 1,
+      "samples": 142063,
+      "durationFrames": 153
+    },
+    {
+      "sceneId": "date",
+      "cueIndex": 2,
+      "samples": 111928,
+      "durationFrames": 122
+    },
+    {
+      "sceneId": "grove",
+      "cueIndex": 1,
+      "samples": 148520,
+      "durationFrames": 159
+    },
+    {
+      "sceneId": "grove",
+      "cueIndex": 2,
+      "samples": 51659,
+      "durationFrames": 62
+    },
+    {
+      "sceneId": "water",
+      "cueIndex": 1,
+      "samples": 86099,
+      "durationFrames": 97
+    },
+    {
+      "sceneId": "cups",
+      "cueIndex": 1,
+      "samples": 111928,
+      "durationFrames": 122
+    },
+    {
+      "sceneId": "poems",
+      "cueIndex": 1,
+      "samples": 159283,
+      "durationFrames": 170
+    },
+    {
+      "sceneId": "breeze",
+      "cueIndex": 1,
+      "samples": 92556,
+      "durationFrames": 103
+    },
+    {
+      "sceneId": "joy",
+      "cueIndex": 1,
+      "samples": 187265,
+      "durationFrames": 198
+    },
+    {
+      "sceneId": "joy",
+      "cueIndex": 2,
+      "samples": 111928,
+      "durationFrames": 122
+    },
+    {
+      "sceneId": "life",
+      "cueIndex": 1,
+      "samples": 133453,
+      "durationFrames": 144
+    },
+    {
+      "sceneId": "life",
+      "cueIndex": 2,
+      "samples": 135605,
+      "durationFrames": 146
+    },
+    {
+      "sceneId": "contentment",
+      "cueIndex": 1,
+      "samples": 142063,
+      "durationFrames": 153
+    },
+    {
+      "sceneId": "contentment",
+      "cueIndex": 2,
+      "samples": 129148,
+      "durationFrames": 140
+    },
+    {
+      "sceneId": "change",
+      "cueIndex": 1,
+      "samples": 150673,
+      "durationFrames": 161
+    },
+    {
+      "sceneId": "traces",
+      "cueIndex": 1,
+      "samples": 124843,
+      "durationFrames": 135
+    },
+    {
+      "sceneId": "traces",
+      "cueIndex": 2,
+      "samples": 62422,
+      "durationFrames": 73
+    },
+    {
+      "sceneId": "mortality",
+      "cueIndex": 1,
+      "samples": 157051,
+      "durationFrames": 168
+    },
+    {
+      "sceneId": "mortality",
+      "cueIndex": 2,
+      "samples": 42028,
+      "durationFrames": 53
+    },
+    {
+      "sceneId": "reading",
+      "cueIndex": 1,
+      "samples": 196866,
+      "durationFrames": 207
+    },
+    {
+      "sceneId": "reading",
+      "cueIndex": 2,
+      "samples": 42028,
+      "durationFrames": 53
+    },
+    {
+      "sceneId": "judgment",
+      "cueIndex": 1,
+      "samples": 121659,
+      "durationFrames": 132
+    },
+    {
+      "sceneId": "time",
+      "cueIndex": 1,
+      "samples": 128295,
+      "durationFrames": 139
+    },
+    {
+      "sceneId": "record",
+      "cueIndex": 1,
+      "samples": 194654,
+      "durationFrames": 205
+    },
+    {
+      "sceneId": "record",
+      "cueIndex": 2,
+      "samples": 53088,
+      "durationFrames": 64
+    },
+    {
+      "sceneId": "future",
+      "cueIndex": 1,
+      "samples": 103963,
+      "durationFrames": 114
+    }
+  ],
+  "model": "cosyvoice-v3-flash",
+  "voice": "longsanshu_v3",
+  "sampleRate": 24000,
+  "soundtrackChannels": 2,
+  "voicePeakTarget": 0.62,
+  "maxAppliedVoiceGain": 1.4865120362917978,
+  "measuredVoicePeak": 0.62,
+  "soundtrackPeakDbfs": -3.726043740611305,
+  "music": "Original locally synthesized sparse string tones, wind and water",
+  "loudness": {
+    "integratedLufs": -18.3,
+    "loudnessRangeLu": 9.5,
+    "truePeakDbfs": -3.1
+  }
+}

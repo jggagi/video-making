@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "voice-15",
+  "spokenText": "它可以瞬间算尽宇宙的法则，",
+  "sourcePath": "public/audio-v2/voice-15.wav",
+  "sourceSha256": "ae350dba2b8e49aebc39ddfb3f485c791c06d898743f8851d79c778a4b739156",
+  "cacheKey": "410a2733a92cf904d57e0c828dbbcfb729b8268c2858f0eb9f4c001813f592a0",
+  "parameters": {
+    "sampleRate": 48000,
+    "channels": 1,
+    "format": "pcm_s16le",
+    "targetNonSilentRmsDbfs": -20.0,
+    "nonSilentFloorDbfs": -60.0,
+    "maxGainDb": 6.0,
+    "peakCeilingDbfs": -3.0,
+    "atempoMax": 1.18
+  },
+  "actualStartSeconds": 130.24,
+  "deadlineSeconds": 140.82,
+  "atempo": 1.0,
+  "sampleRate": 48000,
+  "channels": 1,
+  "sampleCount": 133770,
+  "durationSeconds": 2.786875,
+  "processedSha256": "8c34573361cd39502b29fff0feabcf7344ff61b7eb0780bab1aac4b660cf5042",
+  "normalization": {
+    "nonSilentFloorDbfs": -60.0,
+    "nonSilentSampleCount": 108200.0,
+    "nonSilentRmsBeforeDbfs": -22.995907041701003,
+    "targetRmsDbfs": -20.0,
+    "appliedGainDb": 1.6700448063946922,
+    "nonSilentRmsAfterDbfs": -21.32586187623128,
+    "peakBeforeDbfs": -4.670044806394692,
+    "peakAfterDbfs": -3.0000002493010487,
+    "pcm16PeakDbfs": -3.0003622493859567,
+    "tempoFactor": 1.0,
+    "sampleCount": 133770.0
+  }
+}

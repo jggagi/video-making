@@ -1,0 +1,9 @@
+# 一眼万年 · B站
+
+按画幅分类归档，不表示已经发布到平台账号。
+
+| 文件 | 规格 | 大小 |
+| --- | --- | --- |
+| [one-blink-ten-millennia-v3.mp4](https://github.com/jggagi/video-making/releases/download/archive-si-eternity-v1/si-eternity--si-eternity--out--one-blink-ten-millennia-v3--4ef2326bf22b.mp4) | 1920×1080，180.000秒 | 78.4 MiB |
+| [the-half-second-eternity-voiced-v2.mp4](https://github.com/jggagi/video-making/releases/download/archive-si-eternity-v1/si-eternity--si-eternity--out--the-half-second-eternity-voiced-v2--cfe44315e6cb.mp4) | 1920×1080，180.000秒 | 77.3 MiB |
+| [the-half-second-eternity.mp4](https://github.com/jggagi/video-making/releases/download/archive-si-eternity-v1/si-eternity--si-eternity--out--the-half-second-eternity--5b4fa1a41cec.mp4) | 1920×1080，180.000秒 | 73.1 MiB |

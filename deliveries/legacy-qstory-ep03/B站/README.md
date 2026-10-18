@@ -1,0 +1,7 @@
+# 余问 QStory EP.03：十万亿个分身 · B站
+
+按画幅分类归档，不表示已经发布到平台账号。
+
+| 文件 | 规格 | 大小 |
+| --- | --- | --- |
+| [QStory-EP03-十万亿个分身-4K.mp4](https://github.com/jggagi/video-making/releases/download/archive-qstory-ep03-v1/qstory-ep03--qstory-ep03--out--QStory-EP03---4K--088a33698608.mp4) | 3840×2160，180.000秒 | 122.3 MiB |

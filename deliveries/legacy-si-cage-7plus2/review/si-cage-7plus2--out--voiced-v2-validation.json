@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "ttsClips": 17,
+  "ttsNewSuccessfulCalls": 17,
+  "ttsFailedCalls": 0,
+  "providerUsageAndBill": "not reported",
+  "originalSamplesRetained": true,
+  "allCuesFitWithoutSpeedChange": true,
+  "sourceStemsUnchanged": true,
+  "overloadSamplesUnchanged": true,
+  "postNoiseDigitalSilenceFrames": [
+    1212,
+    1242
+  ],
+  "narrationSourceDurationSeconds": 76.80329166666667,
+  "masterSampleFrames": 8640000,
+  "masterSeconds": 180,
+  "integratedLufs": -21.1,
+  "truePeakDbtp": -2.5,
+  "videoFrames": 10800,
+  "videoDurationSeconds": 180.0,
+  "audioPresentedDurationSeconds": 180.0,
+  "containerDurationSeconds": 180.0,
+  "videoStreamPreserved": true,
+  "strictCompleteDecode": "PASS",
+  "sha256": "f6f7b34821e573223f27d5a66ff08dda01e550364a0fef0e502f1a551252d25b",
+  "humanListening": "pending",
+  "asr": "Skipped by explicit user choice: local checks only; no ASR audio upload."
+}

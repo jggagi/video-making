@@ -1,0 +1,271 @@
+{
+  "model": "cosyvoice-v3-flash",
+  "voice": "longsanshu_v3",
+  "format": "wav",
+  "sampleRate": 24000,
+  "requests": 26,
+  "maxParallelRequests": 2,
+  "providerCallsMade": 0,
+  "cues": [
+    {
+      "sceneId": "date",
+      "cueIndex": 1,
+      "rate": 0.82,
+      "text": "永和九年，岁在癸丑，暮春之初，",
+      "contentHash": "1db94f67f4f99972097d5e62a9df573948cc1e129c40d5b621e2700ec1cf0132",
+      "ssmlPath": "out/extended/scripts/cue-1db94f67f4f99972097d5e62a9df573948cc1e129c40d5b621e2700ec1cf0132.ssml",
+      "outputPath": "out/extended/speech/cue-1db94f67f4f99972097d5e62a9df573948cc1e129c40d5b621e2700ec1cf0132.wav",
+      "cached": false
+    },
+    {
+      "sceneId": "date",
+      "cueIndex": 2,
+      "rate": 0.82,
+      "text": "会于会稽山阴之兰亭，修禊事也。",
+      "contentHash": "5ea5655bfdea6d6a2706ed2fa15720e26d760a321879bef3f34ba2078d61362b",
+      "ssmlPath": "out/extended/scripts/cue-5ea5655bfdea6d6a2706ed2fa15720e26d760a321879bef3f34ba2078d61362b.ssml",
+      "outputPath": "out/extended/speech/cue-5ea5655bfdea6d6a2706ed2fa15720e26d760a321879bef3f34ba2078d61362b.wav",
+      "cached": false
+    },
+    {
+      "sceneId": "grove",
+      "cueIndex": 1,
+      "rate": 0.82,
+      "text": "群贤毕至，少长咸集。此地有崇山峻岭，",
+      "contentHash": "9e9d9ba1f76ad1e2440574c26de6fe20af8e52bf0f26aa56ebcf3f42e7a72fee",
+      "ssmlPath": "out/extended/scripts/cue-9e9d9ba1f76ad1e2440574c26de6fe20af8e52bf0f26aa56ebcf3f42e7a72fee.ssml",
+      "outputPath": "out/extended/speech/cue-9e9d9ba1f76ad1e2440574c26de6fe20af8e52bf0f26aa56ebcf3f42e7a72fee.wav",
+      "cached": false
+    },
+    {
+      "sceneId": "grove",
+      "cueIndex": 2,
+      "rate": 0.82,
+      "text": "茂林修竹。",
+      "contentHash": "94631f211a187b2b15513234d44111ff6cfeb07b1e00a3de1a4ddc5da3c9b5e6",
+      "ssmlPath": "out/extended/scripts/cue-94631f211a187b2b15513234d44111ff6cfeb07b1e00a3de1a4ddc5da3c9b5e6.ssml",
+      "outputPath": "out/extended/speech/cue-94631f211a187b2b15513234d44111ff6cfeb07b1e00a3de1a4ddc5da3c9b5e6.wav",
+      "cached": false
+    },
+    {
+      "sceneId": "water",
+      "cueIndex": 1,
+      "rate": 0.82,
+      "text": "又有清流激湍，映带左右。",
+      "contentHash": "d86c75476195e260ea205cabfa04833d10bb2b05ad76e45d739c65f4338eab2e",
+      "ssmlPath": "out/extended/scripts/cue-d86c75476195e260ea205cabfa04833d10bb2b05ad76e45d739c65f4338eab2e.ssml",
+      "outputPath": "out/extended/speech/cue-d86c75476195e260ea205cabfa04833d10bb2b05ad76e45d739c65f4338eab2e.wav",
+      "cached": false
+    },
+    {
+      "sceneId": "cups",
+      "cueIndex": 1,
+      "rate": 0.82,
+      "text": "引以为流觞曲水，列坐其次。",
+      "contentHash": "f53c1985179b48af649a90019e034892255724dbbfaf858e4002f37b2827adfd",
+      "ssmlPath": "out/extended/scripts/cue-f53c1985179b48af649a90019e034892255724dbbfaf858e4002f37b2827adfd.ssml",
+      "outputPath": "out/extended/speech/cue-f53c1985179b48af649a90019e034892255724dbbfaf858e4002f37b2827adfd.wav",
+      "cached": false
+    },
+    {
+      "sceneId": "poems",
+      "cueIndex": 1,
+      "rate": 0.82,
+      "text": "虽无丝竹管弦之盛，一觞一咏，亦足以畅叙幽情。",
+      "contentHash": "c319783d0389242431f7a97f0fd7594d5261896ba402de1a505823f73dc4e743",
+      "ssmlPath": "out/extended/scripts/cue-c319783d0389242431f7a97f0fd7594d5261896ba402de1a505823f73dc4e743.ssml",
+      "outputPath": "out/extended/speech/cue-c319783d0389242431f7a97f0fd7594d5261896ba402de1a505823f73dc4e743.wav",
+      "cached": false
+    },
+    {
+      "sceneId": "breeze",
+      "cueIndex": 1,
+      "rate": 0.82,
+      "text": "是日也，天朗气清，惠风和畅。",
+      "contentHash": "cb1763681be6ecf3c3311e0ef129b305d7bb6f17c3da4eb0ab1657e8707a56d8",
+      "ssmlPath": "out/extended/scripts/cue-cb1763681be6ecf3c3311e0ef129b305d7bb6f17c3da4eb0ab1657e8707a56d8.ssml",
+      "outputPath": "out/extended/speech/cue-cb1763681be6ecf3c3311e0ef129b305d7bb6f17c3da4eb0ab1657e8707a56d8.wav",
+      "cached": false
+    },
+    {
+      "sceneId": "joy",
+      "cueIndex": 1,
+      "rate": 0.82,
+      "text": "仰观宇宙之大，俯察品类之盛，所以游目骋怀，",
+      "contentHash": "5e6cce0ba02fa480cc0bb46e6c21e9976110148e001e2ab589bdd2347a6b507f",
+      "ssmlPath": "out/extended/scripts/cue-5e6cce0ba02fa480cc0bb46e6c21e9976110148e001e2ab589bdd2347a6b507f.ssml",
+      "outputPath": "out/extended/speech/cue-5e6cce0ba02fa480cc0bb46e6c21e9976110148e001e2ab589bdd2347a6b507f.wav",
+      "cached": false
+    },
+    {
+      "sceneId": "joy",
+      "cueIndex": 2,
+      "rate": 0.82,
+      "text": "足以极视听之娱，信可乐也。",
+      "contentHash": "4ee253534ea6b6e8273fb32ce96928631316aca604f20da7fff8be54b46580eb",
+      "ssmlPath": "out/extended/scripts/cue-4ee253534ea6b6e8273fb32ce96928631316aca604f20da7fff8be54b46580eb.ssml",
+      "outputPath": "out/extended/speech/cue-4ee253534ea6b6e8273fb32ce96928631316aca604f20da7fff8be54b46580eb.wav",
+      "cached": false
+    },
+    {
+      "sceneId": "life",
+      "cueIndex": 1,
+      "rate": 0.82,
+      "text": "夫人之相与，俯仰一世，或取诸怀抱，",
+      "contentHash": "86e32ff444ec65306bcec000a6d7c9a0f9e03da3d084d5759cb3285d4e6d7ae6",
+      "ssmlPath": "out/extended/scripts/cue-86e32ff444ec65306bcec000a6d7c9a0f9e03da3d084d5759cb3285d4e6d7ae6.ssml",
+      "outputPath": "out/extended/speech/cue-86e32ff444ec65306bcec000a6d7c9a0f9e03da3d084d5759cb3285d4e6d7ae6.wav",
+      "cached": false
+    },
+    {
+      "sceneId": "life",
+      "cueIndex": 2,
+      "rate": 0.82,
+      "text": "悟言一室之内；或因寄所托，放浪形骸之外。",
+      "contentHash": "f2db27fb7b95dd114873181a729f2682af152b0bef8cec701884d748630559f1",
+      "ssmlPath": "out/extended/scripts/cue-f2db27fb7b95dd114873181a729f2682af152b0bef8cec701884d748630559f1.ssml",
+      "outputPath": "out/extended/speech/cue-f2db27fb7b95dd114873181a729f2682af152b0bef8cec701884d748630559f1.wav",
+      "cached": false
+    },
+    {
+      "sceneId": "contentment",
+      "cueIndex": 1,
+      "rate": 0.82,
+      "text": "虽趣舍万殊，静躁不同，当其欣于所遇，",
+      "contentHash": "52da61367670d521bba4a833c2d690fed1245bb297fabc135174ef2d048afa39",
+      "ssmlPath": "out/extended/scripts/cue-52da61367670d521bba4a833c2d690fed1245bb297fabc135174ef2d048afa39.ssml",
+      "outputPath": "out/extended/speech/cue-52da61367670d521bba4a833c2d690fed1245bb297fabc135174ef2d048afa39.wav",
+      "cached": false
+    },
+    {
+      "sceneId": "contentment",
+      "cueIndex": 2,
+      "rate": 0.82,
+      "text": "暂得于己，快然自足，不知老之将至。",
+      "contentHash": "607be72c2f974ada99fa25fdcdc64f13301a9fa3bddec72cd64d1db141159ce1",
+      "ssmlPath": "out/extended/scripts/cue-607be72c2f974ada99fa25fdcdc64f13301a9fa3bddec72cd64d1db141159ce1.ssml",
+      "outputPath": "out/extended/speech/cue-607be72c2f974ada99fa25fdcdc64f13301a9fa3bddec72cd64d1db141159ce1.wav",
+      "cached": false
+    },
+    {
+      "sceneId": "change",
+      "cueIndex": 1,
+      "rate": 0.82,
+      "text": "及其所之既倦，情随事迁，感慨系之矣。",
+      "contentHash": "7eb22e70f30ee763e55f28e5ae165da39864e268e46a94d0d44816df3cda4552",
+      "ssmlPath": "out/extended/scripts/cue-7eb22e70f30ee763e55f28e5ae165da39864e268e46a94d0d44816df3cda4552.ssml",
+      "outputPath": "out/extended/speech/cue-7eb22e70f30ee763e55f28e5ae165da39864e268e46a94d0d44816df3cda4552.wav",
+      "cached": false
+    },
+    {
+      "sceneId": "traces",
+      "cueIndex": 1,
+      "rate": 0.82,
+      "text": "向之所欣，俯仰之间，已为陈迹，",
+      "contentHash": "3be48ce191e42431031eb1b6647980db5f36f62ad6434fd693bbee1f1d671ad6",
+      "ssmlPath": "out/extended/scripts/cue-3be48ce191e42431031eb1b6647980db5f36f62ad6434fd693bbee1f1d671ad6.ssml",
+      "outputPath": "out/extended/speech/cue-3be48ce191e42431031eb1b6647980db5f36f62ad6434fd693bbee1f1d671ad6.wav",
+      "cached": false
+    },
+    {
+      "sceneId": "traces",
+      "cueIndex": 2,
+      "rate": 0.82,
+      "text": "犹不能不以之兴怀。",
+      "contentHash": "67b7ca461daaa072a516bc9f2965f28af641aee74008d603a74005d84d86a52d",
+      "ssmlPath": "out/extended/scripts/cue-67b7ca461daaa072a516bc9f2965f28af641aee74008d603a74005d84d86a52d.ssml",
+      "outputPath": "out/extended/speech/cue-67b7ca461daaa072a516bc9f2965f28af641aee74008d603a74005d84d86a52d.wav",
+      "cached": false
+    },
+    {
+      "sceneId": "mortality",
+      "cueIndex": 1,
+      "rate": 0.78,
+      "text": "况修短随化，终期于尽。古人云：“死生亦大矣。”",
+      "contentHash": "8ed3f96f05194f51f7694d371db2df939dc72bff68d69d4e191527166bde6adc",
+      "ssmlPath": "out/extended/scripts/cue-8ed3f96f05194f51f7694d371db2df939dc72bff68d69d4e191527166bde6adc.ssml",
+      "outputPath": "out/extended/speech/cue-8ed3f96f05194f51f7694d371db2df939dc72bff68d69d4e191527166bde6adc.wav",
+      "cached": false
+    },
+    {
+      "sceneId": "mortality",
+      "cueIndex": 2,
+      "rate": 0.78,
+      "text": "岂不痛哉！",
+      "contentHash": "e3e0987600c589014ecf6f3fb7b97cfec03102c70003b455de0c63f5ccee4f08",
+      "ssmlPath": "out/extended/scripts/cue-e3e0987600c589014ecf6f3fb7b97cfec03102c70003b455de0c63f5ccee4f08.ssml",
+      "outputPath": "out/extended/speech/cue-e3e0987600c589014ecf6f3fb7b97cfec03102c70003b455de0c63f5ccee4f08.wav",
+      "cached": false
+    },
+    {
+      "sceneId": "reading",
+      "cueIndex": 1,
+      "rate": 0.78,
+      "text": "每览昔人兴感之由，若合一契，未尝不临文嗟悼，",
+      "contentHash": "ccda476b7e77f1c0d2a2c0a92fbb236971e94c723fd9153bf13dd9588f9afd6f",
+      "ssmlPath": "out/extended/scripts/cue-ccda476b7e77f1c0d2a2c0a92fbb236971e94c723fd9153bf13dd9588f9afd6f.ssml",
+      "outputPath": "out/extended/speech/cue-ccda476b7e77f1c0d2a2c0a92fbb236971e94c723fd9153bf13dd9588f9afd6f.wav",
+      "cached": false
+    },
+    {
+      "sceneId": "reading",
+      "cueIndex": 2,
+      "rate": 0.78,
+      "text": "不能喻之于怀。",
+      "contentHash": "c2ad1e51bbb4c47a9de5ed5fd4dd0f03624913c1d49398bcfd0a06baeddd98cd",
+      "ssmlPath": "out/extended/scripts/cue-c2ad1e51bbb4c47a9de5ed5fd4dd0f03624913c1d49398bcfd0a06baeddd98cd.ssml",
+      "outputPath": "out/extended/speech/cue-c2ad1e51bbb4c47a9de5ed5fd4dd0f03624913c1d49398bcfd0a06baeddd98cd.wav",
+      "cached": false
+    },
+    {
+      "sceneId": "judgment",
+      "cueIndex": 1,
+      "rate": 0.78,
+      "text": "固知一死生为虚诞，齐彭殇为妄作。",
+      "contentHash": "6fa76ce37382853cf71cf9c3ff70ddd86d1c411519b44f235c5b93fb1d841286",
+      "ssmlPath": "out/extended/scripts/cue-6fa76ce37382853cf71cf9c3ff70ddd86d1c411519b44f235c5b93fb1d841286.ssml",
+      "outputPath": "out/extended/speech/cue-6fa76ce37382853cf71cf9c3ff70ddd86d1c411519b44f235c5b93fb1d841286.wav",
+      "cached": false
+    },
+    {
+      "sceneId": "time",
+      "cueIndex": 1,
+      "rate": 0.78,
+      "text": "后之视今，亦犹今之视昔，悲夫！",
+      "contentHash": "7d22cb354b1024f2cb16ae7368680717c62845efb118ca99bab4395c4e2ac36f",
+      "ssmlPath": "out/extended/scripts/cue-7d22cb354b1024f2cb16ae7368680717c62845efb118ca99bab4395c4e2ac36f.ssml",
+      "outputPath": "out/extended/speech/cue-7d22cb354b1024f2cb16ae7368680717c62845efb118ca99bab4395c4e2ac36f.wav",
+      "cached": false
+    },
+    {
+      "sceneId": "record",
+      "cueIndex": 1,
+      "rate": 0.78,
+      "text": "故列叙时人，录其所述，虽世殊事异，所以兴怀，",
+      "contentHash": "303fec880a8b2a560805ad56a9e336b743d509b12572c9706bbfc81bd1da8e61",
+      "ssmlPath": "out/extended/scripts/cue-303fec880a8b2a560805ad56a9e336b743d509b12572c9706bbfc81bd1da8e61.ssml",
+      "outputPath": "out/extended/speech/cue-303fec880a8b2a560805ad56a9e336b743d509b12572c9706bbfc81bd1da8e61.wav",
+      "cached": false
+    },
+    {
+      "sceneId": "record",
+      "cueIndex": 2,
+      "rate": 0.78,
+      "text": "其致一也。",
+      "contentHash": "6dd33e2eb4c5d29ff35e5182ab7cd1df15ade049e957e715c3952cb6999531e4",
+      "ssmlPath": "out/extended/scripts/cue-6dd33e2eb4c5d29ff35e5182ab7cd1df15ade049e957e715c3952cb6999531e4.ssml",
+      "outputPath": "out/extended/speech/cue-6dd33e2eb4c5d29ff35e5182ab7cd1df15ade049e957e715c3952cb6999531e4.wav",
+      "cached": false
+    },
+    {
+      "sceneId": "future",
+      "cueIndex": 1,
+      "rate": 0.78,
+      "text": "后之览者，亦将有感于斯文。",
+      "contentHash": "a3dfd11f85be4c0fe4f5e1a89b9f1b5198895ae24acfb1b704087cebf62f71aa",
+      "ssmlPath": "out/extended/scripts/cue-a3dfd11f85be4c0fe4f5e1a89b9f1b5198895ae24acfb1b704087cebf62f71aa.ssml",
+      "outputPath": "out/extended/speech/cue-a3dfd11f85be4c0fe4f5e1a89b9f1b5198895ae24acfb1b704087cebf62f71aa.wav",
+      "cached": false
+    }
+  ]
+}

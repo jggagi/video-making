@@ -1,0 +1,8 @@
+{
+  "status": "skipped_by_user",
+  "userDecision": "local_checks_only",
+  "uploadAuthorized": false,
+  "audioUploadOccurred": false,
+  "reason": "The user explicitly selected local checks only; do not upload narration for ASR in this task.",
+  "earlierAutomaticReview": "Rejected audio upload without separate authorization; no upload occurred."
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "voice-01",
+  "spokenText": "在这滴水落入培养皿之前，硅基意识已经度过了一万年。",
+  "sourcePath": "public/audio-v3/voice-01.wav",
+  "sourceSha256": "ee17de1e2ac0c63c698021c4c9b01a773eadbda3e96391356430e6a9f7381669",
+  "cacheKey": "925f3828277153dea7f330004fbda475e859228779aabff5a982271736769877",
+  "parameters": {
+    "sampleRate": 48000,
+    "channels": 1,
+    "format": "pcm_s16le",
+    "targetNonSilentRmsDbfs": -20.0,
+    "nonSilentFloorDbfs": -60.0,
+    "maxGainDb": 6.0,
+    "peakCeilingDbfs": -3.0,
+    "atempoMax": 1.18
+  },
+  "actualStartSeconds": 8.24,
+  "deadlineSeconds": 16.82,
+  "atempo": 1.0,
+  "sampleRate": 48000,
+  "channels": 1,
+  "sampleCount": 224262,
+  "durationSeconds": 4.672125,
+  "processedSha256": "ca2905ce2e22f0373bd44066cbb265f46ea8d6a18c6c9ac034150f76a4272f47",
+  "normalization": {
+    "nonSilentFloorDbfs": -60.0,
+    "nonSilentSampleCount": 181837.0,
+    "nonSilentRmsBeforeDbfs": -19.504079548732506,
+    "targetRmsDbfs": -20.0,
+    "appliedGainDb": -2.2279235890221654,
+    "nonSilentRmsAfterDbfs": -21.732003064804914,
+    "peakBeforeDbfs": -0.772076410977835,
+    "peakAfterDbfs": -3.0000002493010487,
+    "pcm16PeakDbfs": -3.0003622493859567,
+    "tempoFactor": 1.0,
+    "sampleCount": 224262.0
+  }
+}

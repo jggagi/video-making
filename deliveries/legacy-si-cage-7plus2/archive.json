@@ -1,0 +1,230 @@
+{
+  "id": "si-cage-7plus2",
+  "title": "7±2 的囚笼",
+  "release_tag": "archive-si-cage-7plus2-v1",
+  "historical": true,
+  "project_path": "si-cage-7plus2",
+  "delivery_directory": "deliveries/legacy-si-cage-7plus2",
+  "assets": [
+    {
+      "path": "si-cage-7plus2/out/cage-of-seven-plus-two-1080p.mp4",
+      "name": "si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-1080p--e08c1bc00614.mp4",
+      "bytes": 92645526,
+      "sha256": "e08c1bc00614201f57b1b1a7c6143d82a1ec9e64958fff69f21cb387e52f6cbb",
+      "kind": "video",
+      "platform": "B站",
+      "measurements": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "60/1",
+        "frames": "10800",
+        "video_duration_seconds": 180.0,
+        "container_duration_seconds": 180.011
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-cage-7plus2-v1/si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-1080p--e08c1bc00614.mp4"
+    },
+    {
+      "path": "si-cage-7plus2/out/cage-of-seven-plus-two-project.zip",
+      "name": "si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-project--abee5facd7f5.zip",
+      "bytes": 56088342,
+      "sha256": "abee5facd7f53e4772e3a00ac0455c22bbe6925ba029f45c825bbc4997e87c97",
+      "kind": "project",
+      "platform": "工程",
+      "measurements": {},
+      "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-cage-7plus2-v1/si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-project--abee5facd7f5.zip"
+    },
+    {
+      "path": "si-cage-7plus2/out/cage-of-seven-plus-two-uhd-v3-4k.mp4",
+      "name": "si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-uhd-v3-4k--73195073e6fa.mp4",
+      "bytes": 247421265,
+      "sha256": "73195073e6fa96e2cdc90dec0cbf6690bee965d8ba2de0e0fc575cdd4f18bb86",
+      "kind": "video",
+      "platform": "B站",
+      "measurements": {
+        "width": 3840,
+        "height": 2160,
+        "fps": "60/1",
+        "frames": "10800",
+        "video_duration_seconds": 180.0,
+        "container_duration_seconds": 180.011
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-cage-7plus2-v1/si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-uhd-v3-4k--73195073e6fa.mp4"
+    },
+    {
+      "path": "si-cage-7plus2/out/cage-of-seven-plus-two-uhd-v3-project.zip",
+      "name": "si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-uhd-v3-project--47ca71206ff7.zip",
+      "bytes": 158641462,
+      "sha256": "47ca71206ff750b052d3b93ccb25bd84e9920855041c718d34ea359dcdbaac89",
+      "kind": "project",
+      "platform": "工程",
+      "measurements": {},
+      "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-cage-7plus2-v1/si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-uhd-v3-project--47ca71206ff7.zip"
+    },
+    {
+      "path": "si-cage-7plus2/out/cage-of-seven-plus-two-voiced-v2-1080p.mp4",
+      "name": "si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-voiced-v2-1080p--f6f7b34821e5.mp4",
+      "bytes": 92669296,
+      "sha256": "f6f7b34821e573223f27d5a66ff08dda01e550364a0fef0e502f1a551252d25b",
+      "kind": "video",
+      "platform": "B站",
+      "measurements": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "60/1",
+        "frames": "10800",
+        "video_duration_seconds": 180.0,
+        "container_duration_seconds": 180.0
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-cage-7plus2-v1/si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-voiced-v2-1080p--f6f7b34821e5.mp4"
+    },
+    {
+      "path": "si-cage-7plus2/out/cage-of-seven-plus-two-voiced-v2-project.zip",
+      "name": "si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-voiced-v2-project--ed88cb3991e6.zip",
+      "bytes": 106106724,
+      "sha256": "ed88cb3991e6f73d662161c00b775c977a3b935588be619237b9948d4514e07e",
+      "kind": "project",
+      "platform": "工程",
+      "measurements": {},
+      "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-cage-7plus2-v1/si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-voiced-v2-project--ed88cb3991e6.zip"
+    },
+    {
+      "path": "si-cage-7plus2/out/cage-of-seven-plus-two-xhs-v1-1080x1920.mp4",
+      "name": "si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-xhs-v1-1080x1920--7f73b80017c8.mp4",
+      "bytes": 14667073,
+      "sha256": "7f73b80017c81f25bbbf4bd873906d6e3c183e238ce8acce3c6ebf43b67b7d33",
+      "kind": "video",
+      "platform": "小红书",
+      "measurements": {
+        "width": 1080,
+        "height": 1920,
+        "fps": "60/1",
+        "frames": "3600",
+        "video_duration_seconds": 60.0,
+        "container_duration_seconds": 60.011
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-cage-7plus2-v1/si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-xhs-v1-1080x1920--7f73b80017c8.mp4"
+    },
+    {
+      "path": "si-cage-7plus2/out/cage-of-seven-plus-two-xhs-v1-4k.mp4",
+      "name": "si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-xhs-v1-4k--113910360392.mp4",
+      "bytes": 45456126,
+      "sha256": "113910360392d5a3c858ec07bb2c03d0b35b79ef61bdb75e162c54ba082c16bc",
+      "kind": "video",
+      "platform": "小红书",
+      "measurements": {
+        "width": 2160,
+        "height": 3840,
+        "fps": "60/1",
+        "frames": "3600",
+        "video_duration_seconds": 60.0,
+        "container_duration_seconds": 60.011
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-cage-7plus2-v1/si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-xhs-v1-4k--113910360392.mp4"
+    },
+    {
+      "path": "si-cage-7plus2/out/cage-of-seven-plus-two-xhs-v1-project.zip",
+      "name": "si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-xhs-v1-project--fa7e7a4b60b6.zip",
+      "bytes": 162236563,
+      "sha256": "fa7e7a4b60b64f01db7ca985584a099176f95f79040d0e4ef0a71613dfb0dfcd",
+      "kind": "project",
+      "platform": "工程",
+      "measurements": {},
+      "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-cage-7plus2-v1/si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-xhs-v1-project--fa7e7a4b60b6.zip"
+    },
+    {
+      "path": "si-cage-7plus2/out/manifold-preview.mp4",
+      "name": "si-cage-7plus2--si-cage-7plus2--out--manifold-preview--18558cd06c4b.mp4",
+      "bytes": 6007369,
+      "sha256": "18558cd06c4b300eb1dbd5fae5d4160805aa15cc9579b81986f872a2c8b1b593",
+      "kind": "video",
+      "platform": "预览",
+      "measurements": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "60/1",
+        "frames": "600",
+        "video_duration_seconds": 10.0,
+        "container_duration_seconds": 10.005
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-cage-7plus2-v1/si-cage-7plus2--si-cage-7plus2--out--manifold-preview--18558cd06c4b.mp4"
+    },
+    {
+      "path": "si-cage-7plus2/out/overload-preview.mp4",
+      "name": "si-cage-7plus2--si-cage-7plus2--out--overload-preview--3fddab14745c.mp4",
+      "bytes": 3111703,
+      "sha256": "3fddab14745cc1db7bef0dca96e0501a97517b58fc96afa9dc670698cfdcfe63",
+      "kind": "video",
+      "platform": "预览",
+      "measurements": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "60/1",
+        "frames": "270",
+        "video_duration_seconds": 4.5,
+        "container_duration_seconds": 4.5
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-cage-7plus2-v1/si-cage-7plus2--si-cage-7plus2--out--overload-preview--3fddab14745c.mp4"
+    },
+    {
+      "path": "si-cage-7plus2/out/uhd-v3-overload-preview.mp4",
+      "name": "si-cage-7plus2--si-cage-7plus2--out--uhd-v3-overload-preview--276b3af0ef64.mp4",
+      "bytes": 8623466,
+      "sha256": "276b3af0ef64a9ed71725ef31739e7a4d8d611a6dc0cc1b153da9b4c2414ff51",
+      "kind": "video",
+      "platform": "预览",
+      "measurements": {
+        "width": 3840,
+        "height": 2160,
+        "fps": "60/1",
+        "frames": "270",
+        "video_duration_seconds": 4.5,
+        "container_duration_seconds": 4.501
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-cage-7plus2-v1/si-cage-7plus2--si-cage-7plus2--out--uhd-v3-overload-preview--276b3af0ef64.mp4"
+    },
+    {
+      "path": "si-cage-7plus2/out/uhd-v3-source-before.zip",
+      "name": "si-cage-7plus2--si-cage-7plus2--out--uhd-v3-source-before--c9c8a667c4eb.zip",
+      "bytes": 85080,
+      "sha256": "c9c8a667c4ebfface068c45213edd959b99a713b9048c6ee99eefc4cf09fee71",
+      "kind": "project",
+      "platform": "工程",
+      "measurements": {},
+      "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-cage-7plus2-v1/si-cage-7plus2--si-cage-7plus2--out--uhd-v3-source-before--c9c8a667c4eb.zip"
+    },
+    {
+      "path": "si-cage-7plus2/out/voiced-v2-opening-preview.mp4",
+      "name": "si-cage-7plus2--si-cage-7plus2--out--voiced-v2-opening-preview--3a8406a2bcb9.mp4",
+      "bytes": 9177857,
+      "sha256": "3a8406a2bcb91f87bd6860b74006b8c1ba971a4c2e438452bb4bd1f68fb5de78",
+      "kind": "video",
+      "platform": "预览",
+      "measurements": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "60/1",
+        "frames": "2160",
+        "video_duration_seconds": 36.0,
+        "container_duration_seconds": 36.0
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-cage-7plus2-v1/si-cage-7plus2--si-cage-7plus2--out--voiced-v2-opening-preview--3a8406a2bcb9.mp4"
+    },
+    {
+      "path": "si-cage-7plus2/out/xhs-v1-opening-preview.mp4",
+      "name": "si-cage-7plus2--si-cage-7plus2--out--xhs-v1-opening-preview--a7f45013ee1f.mp4",
+      "bytes": 1650431,
+      "sha256": "a7f45013ee1ff4827c43af62e176f0f4bf45a5d4101ab70bba045eb8bef3c0db",
+      "kind": "video",
+      "platform": "预览",
+      "measurements": {
+        "width": 2160,
+        "height": 3840,
+        "fps": "60/1",
+        "frames": "360",
+        "video_duration_seconds": 6.0,
+        "container_duration_seconds": 6.016
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/archive-si-cage-7plus2-v1/si-cage-7plus2--si-cage-7plus2--out--xhs-v1-opening-preview--a7f45013ee1f.mp4"
+    }
+  ]
+}

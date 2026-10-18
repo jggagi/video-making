@@ -1,0 +1,125 @@
+{
+  "createdAt": "2026-10-11T12:48:36.315Z",
+  "fps": 24,
+  "frames": 3989,
+  "seconds": 166.20833333333334,
+  "cues": 26,
+  "scenes": 17,
+  "fullTextMatches": true,
+  "continuousTimeline": true,
+  "audioPeakDb": -3.1611048234607733,
+  "voice": "macOS Tingting, local synthesis",
+  "music": "Original locally synthesized sparse string tones, wind and water",
+  "typecheckPassed": true,
+  "media": [
+    {
+      "file": "out/museum/兰亭集序-博物馆版-4K.mp4",
+      "width": 3840,
+      "height": 2160,
+      "fps": 24,
+      "frames": 3989,
+      "duration": 166.229,
+      "size": 629677206,
+      "codec": "h264",
+      "audio": {
+        "codec": "aac",
+        "sampleRate": 48000,
+        "channels": 2
+      },
+      "fastStart": true,
+      "fullDecodePassed": true,
+      "sha256": "2471e8382db5674898443cdc4800c43182e8a436a1bb591ae19b0e54b51aa19d"
+    },
+    {
+      "file": "out/museum/兰亭集序-博物馆版-1080p.mp4",
+      "width": 1920,
+      "height": 1080,
+      "fps": 24,
+      "frames": 3989,
+      "duration": 166.229,
+      "size": 143791306,
+      "codec": "h264",
+      "audio": {
+        "codec": "aac",
+        "sampleRate": 48000,
+        "channels": 2
+      },
+      "fastStart": true,
+      "fullDecodePassed": true,
+      "sha256": "76cfb10b2e73050786170a350ec972af6331823d6a8af47215af60d067818d36"
+    }
+  ],
+  "previewFrames": [
+    [
+      "title-writing",
+      90
+    ],
+    [
+      "title",
+      300
+    ],
+    [
+      "grove",
+      773
+    ],
+    [
+      "water-a",
+      864
+    ],
+    [
+      "water-b",
+      919
+    ],
+    [
+      "cups-a",
+      974
+    ],
+    [
+      "cups-b",
+      1053
+    ],
+    [
+      "poems",
+      1239
+    ],
+    [
+      "breeze",
+      1362
+    ],
+    [
+      "traces-before",
+      2461
+    ],
+    [
+      "traces-after",
+      2598
+    ],
+    [
+      "mortality",
+      2736
+    ],
+    [
+      "judgment",
+      3193
+    ],
+    [
+      "record",
+      3590
+    ],
+    [
+      "future",
+      3706
+    ],
+    [
+      "end",
+      3859
+    ],
+    [
+      "final",
+      3988
+    ]
+  ],
+  "visualReview": "Representative rendered frames and motion sample reviewed; installation viewing distance and audio listening not tested on site",
+  "notHistoricalHandwriting": true,
+  "artworkNativeSize": "Background paintings approximately 1672×941; upscaled in 4K composition"
+}

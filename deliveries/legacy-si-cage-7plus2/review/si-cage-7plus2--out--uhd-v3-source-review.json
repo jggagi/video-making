@@ -1,0 +1,75 @@
+{
+  "status": "PASS",
+  "modifiedBaselineFiles": [
+    "src/MainComposition.tsx",
+    "src/Root.tsx",
+    "src/components/Visuals.tsx",
+    "src/components/Act4OracleProjection.tsx",
+    "src/components/Act1BiologicalOverload.tsx",
+    "src/components/Act3DeepCoTManifold.tsx",
+    "src/components/Act2LinearVsMatrix.tsx",
+    "src/components/GlobalHUD.tsx",
+    "src/lib/theme.ts",
+    "scripts/package.py",
+    "scripts/render.mjs",
+    "scripts/mux-voiced.mjs",
+    "scripts/export-captions.mjs",
+    "scripts/check.mjs",
+    "timeline.json",
+    "package.json",
+    "README.md",
+    "VOICED-V2.md"
+  ],
+  "unchangedBaselineFiles": [
+    "src/index.ts",
+    "src/lib/math.ts",
+    "src/lib/captions.ts",
+    "scripts/validate-voiced.py",
+    "scripts/check-voice-content.mjs",
+    "scripts/validate-audio.py",
+    "scripts/voiceover-ep2.mjs",
+    "scripts/mix-voiceover.py",
+    "scripts/validate-media.py",
+    "package-lock.json",
+    "public/audio-voiced-v2/soundtrack.wav"
+  ],
+  "intentionalNewFiles": [
+    "scripts/validate-uhd.py",
+    "UHD-V3.md"
+  ],
+  "reviewedSourceFrames": [
+    1080,
+    2100,
+    3300,
+    4600,
+    7200,
+    9000,
+    10200,
+    10799
+  ],
+  "review": "Model inspected native UHD stills, displayed at a reduced size by the viewer. Main Chinese titles/captions are legible and within canvas; cyan/gold accents retain sharp cores with broad glows. Act1 label spacing was increased after initial review.",
+  "humanFullViewing": "pending",
+  "humanListening": "pending",
+  "target4kDisplayPlayback": "pending",
+  "historicalFilesPreserved": true,
+  "additionalDocumentationUpdates": [
+    "VALIDATION.md"
+  ],
+  "reviewedEncodedFrames": [
+    0,
+    1080,
+    1199,
+    1200,
+    1230,
+    2100,
+    3300,
+    4600,
+    6000,
+    7200,
+    9000,
+    10200,
+    10799
+  ],
+  "encodedFrameReview": "Model inspected the complete 13-frame contact sheet and enlarged overload/manifold images extracted from the actual MP4. No obvious layout clipping or missing Chinese glyphs were observed in these samples. This is not continuous human playback acceptance.",
+  "finalMovieSha256": "73195073e6fa96e2cdc90dec0cbf6690bee965d8ba2de0e0fc575cdd4f18bb86"
+}

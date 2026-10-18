@@ -1,0 +1,15 @@
+{
+  "id": "voice-09",
+  "file": "public/audio-voiced-v2/aligned/voice-09.wav",
+  "sampleRate": 48000,
+  "channels": 1,
+  "bitsPerSample": 16,
+  "originalDurationSeconds": 3.7705,
+  "actualDurationSeconds": 3.7705,
+  "atempo": 1.0,
+  "gain": 1.2247488233303117,
+  "gainDb": 1.760940617657821,
+  "nonsilentRmsBeforeGainDbfs": -23.29730775737158,
+  "samplePeakBeforeGain": 0.578033447265625,
+  "sha256": "bfb4a56b5ccdf133835e895536743bf0b20c7e5637add2bc946feffcb8902716"
+}

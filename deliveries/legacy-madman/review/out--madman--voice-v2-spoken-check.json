@@ -1,0 +1,13 @@
+{
+  "recognizedText": "今天晚上，很好的月光。\n今天全没月光，我知道不妙，似乎怕我，似乎想害我。\n我翻开历史一查，这历史没有年代，歪歪斜斜的每页上都写着“仁义道德”几个字。\n满本都写着两个字，是“吃人”！\n从来如此，便对吗？\n4000年来时时吃人的地方，今天才明白，我也在其中混了多年。\n没有吃过人的孩子。\n或者还有，救救孩子！",
+  "model": "CLI default; not reported in plain-text result",
+  "source": "Generated public narration clips concatenated for automatic transcription",
+  "humanListeningReview": false,
+  "expectedText": "今天晚上，很好的月光。今天全没月光，我知道不妙。似乎怕我，似乎想害我。我翻开历史一查，这历史没有年代，歪歪斜斜的每叶上都写着“仁义道德”几个字。满本都写着两个字是“吃人”！从来如此，便对么？四千年来时时吃人的地方，今天才明白，我也在其中混了多年；没有吃过人的孩子，或者还有？救救孩子……",
+  "normalizations": [
+    "每页 -> 每叶 (same pronunciation)",
+    "对吗 -> 对么 (ASR question particle spelling)",
+    "4000 -> 四千"
+  ],
+  "normalizedWordsMatch": true
+}

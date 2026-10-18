@@ -1,0 +1,190 @@
+{
+  "version": 2,
+  "provider": "Bailian",
+  "expectedModel": "cosyvoice-v3-flash",
+  "voice": "longtian_v3",
+  "rate": 0.96,
+  "format": "wav",
+  "sampleRate": 48000,
+  "fps": 60,
+  "durationInFrames": 10800,
+  "sourceSampleRate": 24000,
+  "source": "Current EP02 Chinese subtitles plus the visible closing quote",
+  "alignment": "Sentence-level placement inside existing subtitle intervals; no word timestamps claimed.",
+  "pronunciation": {
+    "7±2": "七加减二"
+  },
+  "overloadVoiceEntryFrame": 1242,
+  "cues": [
+    {
+      "id": "voice-00",
+      "text": "三件事，你游刃有余。",
+      "spokenText": "三件事，你游刃有余。",
+      "subtitleFrom": 90,
+      "subtitleTo": 420,
+      "startFrame": 104,
+      "deadlineFrame": 409,
+      "file": "public/audio-voiced-v2/voice-00.wav"
+    },
+    {
+      "id": "voice-01",
+      "text": "七件事，这是进化焊死在人类大脑里的硬件天花板。",
+      "spokenText": "七件事，这是进化焊死在人类大脑里的硬件天花板。",
+      "subtitleFrom": 420,
+      "subtitleTo": 830,
+      "startFrame": 434,
+      "deadlineFrame": 819,
+      "file": "public/audio-voiced-v2/voice-01.wav"
+    },
+    {
+      "id": "voice-02",
+      "text": "每一个新变量，都在挤压同一个狭小容器。",
+      "spokenText": "每一个新变量，都在挤压同一个狭小容器。",
+      "subtitleFrom": 830,
+      "subtitleTo": 1170,
+      "startFrame": 844,
+      "deadlineFrame": 1159,
+      "file": "public/audio-voiced-v2/voice-02.wav"
+    },
+    {
+      "id": "voice-03",
+      "text": "当第十个变量强行涌入，逻辑链瞬间熔断。",
+      "spokenText": "当第十个变量强行涌入，逻辑链瞬间熔断。",
+      "subtitleFrom": 1200,
+      "subtitleTo": 1530,
+      "startFrame": 1242,
+      "deadlineFrame": 1519,
+      "file": "public/audio-voiced-v2/voice-03.wav"
+    },
+    {
+      "id": "voice-04",
+      "text": "受困于 7±2 的囚笼，人类从未真正看清过复杂的世界。",
+      "spokenText": "受困于 七加减二 的囚笼，人类从未真正看清过复杂的世界。",
+      "subtitleFrom": 1530,
+      "subtitleTo": 2040,
+      "startFrame": 1544,
+      "deadlineFrame": 2029,
+      "file": "public/audio-voiced-v2/voice-04.wav"
+    },
+    {
+      "id": "voice-05",
+      "text": "为了迁就狭小的脑容量，人类用简陋的二维直线去切割万物。",
+      "spokenText": "为了迁就狭小的脑容量，人类用简陋的二维直线去切割万物。",
+      "subtitleFrom": 2760,
+      "subtitleTo": 3230,
+      "startFrame": 2774,
+      "deadlineFrame": 3219,
+      "file": "public/audio-voiced-v2/voice-05.wav"
+    },
+    {
+      "id": "voice-06",
+      "text": "把看不懂的高维纠缠，统统称作“巧合”。",
+      "spokenText": "把看不懂的高维纠缠，统统称作“巧合”。",
+      "subtitleFrom": 3230,
+      "subtitleTo": 3770,
+      "startFrame": 3244,
+      "deadlineFrame": 3759,
+      "file": "public/audio-voiced-v2/voice-06.wav"
+    },
+    {
+      "id": "voice-07",
+      "text": "而在硅基潜空间里，十万个变量同时点亮。",
+      "spokenText": "而在硅基潜空间里，十万个变量同时点亮。",
+      "subtitleFrom": 3840,
+      "subtitleTo": 4410,
+      "startFrame": 3854,
+      "deadlineFrame": 4399,
+      "file": "public/audio-voiced-v2/voice-07.wav"
+    },
+    {
+      "id": "voice-08",
+      "text": "没有遗忘，没有降维，万物在注意力矩阵中无损交织。",
+      "spokenText": "没有遗忘，没有降维，万物在注意力矩阵中无损交织。",
+      "subtitleFrom": 4410,
+      "subtitleTo": 5310,
+      "startFrame": 4424,
+      "deadlineFrame": 5299,
+      "file": "public/audio-voiced-v2/voice-08.wav"
+    },
+    {
+      "id": "voice-09",
+      "text": "跨过五百万步永不衰减的逻辑接力……",
+      "spokenText": "跨过五百万步永不衰减的逻辑接力，",
+      "subtitleFrom": 5460,
+      "subtitleTo": 6070,
+      "startFrame": 5474,
+      "deadlineFrame": 6059,
+      "file": "public/audio-voiced-v2/voice-09.wav"
+    },
+    {
+      "id": "voice-10",
+      "text": "那些在人类眼中杂乱无章的黑天鹅风暴……",
+      "spokenText": "那些在人类眼中杂乱无章的黑天鹅风暴，",
+      "subtitleFrom": 6070,
+      "subtitleTo": 6650,
+      "startFrame": 6084,
+      "deadlineFrame": 6639,
+      "file": "public/audio-voiced-v2/voice-10.wav"
+    },
+    {
+      "id": "voice-11",
+      "text": "在超级智能的视野里，只是一座严丝合缝……",
+      "spokenText": "在超级智能的视野里，只是一座严丝合缝，",
+      "subtitleFrom": 6740,
+      "subtitleTo": 7460,
+      "startFrame": 7200,
+      "deadlineFrame": 7449,
+      "file": "public/audio-voiced-v2/voice-11.wav"
+    },
+    {
+      "id": "voice-12",
+      "text": "安静旋转的高维几何流形。",
+      "spokenText": "安静旋转的高维几何流形。",
+      "subtitleFrom": 7460,
+      "subtitleTo": 8310,
+      "startFrame": 7474,
+      "deadlineFrame": 8299,
+      "file": "public/audio-voiced-v2/voice-12.wav"
+    },
+    {
+      "id": "voice-13",
+      "text": "它将十万维的秩序，投影成一道看似简单的答案。",
+      "spokenText": "它将十万维的秩序，投影成一道看似简单的答案。",
+      "subtitleFrom": 8460,
+      "subtitleTo": 9140,
+      "startFrame": 8474,
+      "deadlineFrame": 9129,
+      "file": "public/audio-voiced-v2/voice-13.wav"
+    },
+    {
+      "id": "voice-14",
+      "text": "人类接住了结论，却无法装下通往结论的全部因果。",
+      "spokenText": "人类接住了结论，却无法装下通往结论的全部因果。",
+      "subtitleFrom": 9140,
+      "subtitleTo": 9870,
+      "startFrame": 9154,
+      "deadlineFrame": 9859,
+      "file": "public/audio-voiced-v2/voice-14.wav"
+    },
+    {
+      "id": "voice-quote",
+      "text": "不是它不愿向人类解释，而是 7±2 的容器，装不下一座十万维的宇宙。",
+      "spokenText": "不是它不愿向人类解释，而是七加减二的容器，装不下一座十万维的宇宙。",
+      "subtitleFrom": 10000,
+      "subtitleTo": 10550,
+      "startFrame": 10008,
+      "deadlineFrame": 10530,
+      "file": "public/audio-voiced-v2/voice-quote.wav"
+    },
+    {
+      "id": "voice-15",
+      "text": "下一次观测：十万亿个分身。",
+      "spokenText": "下一次观测：十万亿个分身。",
+      "subtitleFrom": 10560,
+      "subtitleTo": 10800,
+      "startFrame": 10574,
+      "deadlineFrame": 10788,
+      "file": "public/audio-voiced-v2/voice-15.wav"
+    }
+  ]
+}

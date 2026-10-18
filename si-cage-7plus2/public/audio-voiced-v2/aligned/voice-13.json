@@ -1,0 +1,15 @@
+{
+  "id": "voice-13",
+  "file": "public/audio-voiced-v2/aligned/voice-13.wav",
+  "sampleRate": 48000,
+  "channels": 1,
+  "bitsPerSample": 16,
+  "originalDurationSeconds": 4.262291666666667,
+  "actualDurationSeconds": 4.262291666666667,
+  "atempo": 1.0,
+  "gain": 1.2932304305217657,
+  "gainDb": 2.233518305616768,
+  "nonsilentRmsBeforeGainDbfs": -22.78179962251981,
+  "samplePeakBeforeGain": 0.54742431640625,
+  "sha256": "908b7d0d92342e18d5cf8630151c6400515dc5eb144bda8d65c1bbd6a0f24582"
+}

@@ -1,0 +1,21 @@
+{
+  "fps":24,"width":1920,"height":1080,
+  "audioFile":"madman/audio/suspense-v5.wav",
+  "shots":[
+    {"id":"title","section":"","lead":0,"gap":0,"tail":4,"cueIds":[]},
+    {"id":"moon","section":"一","lead":0.75,"gap":1.15,"tail":1,"cueIds":["moon","dog"]},
+    {"id":"street","section":"二","lead":0.65,"gap":0.75,"tail":0.9,"cueIds":["zhao","whisper","smile"]},
+    {"id":"door","section":"三","lead":0.5,"gap":0,"tail":1.25,"cueIds":["lock"]},
+    {"id":"history","section":"三","lead":0.6,"gap":0.55,"tail":1.3,"cueIds":["history-a","history-b","history-c"]},
+    {"id":"meal","section":"四","lead":0.6,"gap":0,"tail":1,"cueIds":["fish"]},
+    {"id":"consult","section":"四","lead":0.6,"gap":1.05,"tail":1.15,"cueIds":["brother","doctor"]},
+    {"id":"aside","section":"四","lead":0.7,"gap":0,"tail":1.6,"cueIds":["aside"]},
+    {"id":"question","section":"八","lead":0.8,"gap":0,"tail":2,"cueIds":["question"]},
+    {"id":"named","section":"十","lead":0.5,"gap":0.8,"tail":1.1,"cueIds":["madman-name","label"]},
+    {"id":"beams","section":"十","lead":0.5,"gap":0.85,"tail":1.7,"cueIds":["beams","false-weight"]},
+    {"id":"self","section":"十二","lead":0.6,"gap":0.7,"tail":1.2,"cueIds":["self-a","self-b"]},
+    {"id":"children","section":"十三","lead":1,"gap":2,"tail":2.2,"cueIds":["children","plea"]},
+    {"id":"epilogue","section":"小序 · 兄长转述","lead":2,"gap":0,"tail":3.3,"cueIds":["cured"]},
+    {"id":"ending","section":"改编设问","lead":0,"gap":0,"tail":8,"cueIds":[]}
+  ]
+}

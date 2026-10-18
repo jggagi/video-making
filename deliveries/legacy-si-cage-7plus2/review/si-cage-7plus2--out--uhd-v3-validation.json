@@ -1,0 +1,681 @@
+{
+  "status": "PASS",
+  "edition": "EP02 native 4K UHD Chinese-first voiced v3",
+  "results": {
+    "nativeUhdProbe": "PASS",
+    "timelineChangesLimitedToGeometry": "PASS",
+    "strictFullMovieDecode": "PASS",
+    "representativeFrameExtractionInSameDecodePass": "PASS",
+    "sourceStills": "PASS",
+    "optionalOverloadPreview": "PASS",
+    "localOnlyAsrChoice": "PASS",
+    "encodedAudioMatchesCachedMix": "PASS"
+  },
+  "probe": {
+    "path": "out/cage-of-seven-plus-two-uhd-v3-4k.mp4",
+    "width": 3840,
+    "height": 2160,
+    "rFrameRate": "60/1",
+    "avgFrameRate": "60/1",
+    "videoFrames": 10800,
+    "videoDurationSeconds": 180.0,
+    "audioCodec": "aac",
+    "audioSampleRate": 48000,
+    "audioChannels": 2,
+    "audioPresentedDurationSeconds": 180.011,
+    "containerDurationSeconds": 180.011,
+    "containerPaddingSeconds": 0.01099999999999568,
+    "sha256": "73195073e6fa96e2cdc90dec0cbf6690bee965d8ba2de0e0fc575cdd4f18bb86"
+  },
+  "timeline": {
+    "status": "PASS",
+    "baselineTimelineSha256": "db5b0771cdfd72edae287bbb3b34f6146738885f55434649e56e130c3642eca1",
+    "currentTimelineSha256": "30bb98bdbe8dec676dc22fc01b0ffab2f325cb42f7f328e3b758d657527c30d0",
+    "baselineDimensions": {
+      "width": 1920,
+      "height": 1080
+    },
+    "currentDimensions": {
+      "width": 3840,
+      "height": 2160
+    },
+    "logicalDimensions": {
+      "width": 1920,
+      "height": 1080
+    },
+    "renderScale": 2,
+    "changedTimelineFields": [
+      "width",
+      "height",
+      "logicalWidth",
+      "logicalHeight",
+      "renderScale"
+    ],
+    "temporalAndAudioFieldsUnchanged": true
+  },
+  "representativeFrames": {
+    "decodeAndAudioPass": "PASS",
+    "sourceFrames": [
+      0,
+      1080,
+      1199,
+      1200,
+      1230,
+      2100,
+      3300,
+      4600,
+      6000,
+      7200,
+      9000,
+      10200,
+      10799
+    ],
+    "extracted": [
+      {
+        "sourceFrame": 0,
+        "path": "out/uhd-v3-final-frame-01.png",
+        "width": 3840,
+        "height": 2160,
+        "sha256": "0d4639905c371d0d95705f8023b7d75917f3815e0ac9751cc569cbb6ae164587"
+      },
+      {
+        "sourceFrame": 1080,
+        "path": "out/uhd-v3-final-frame-02.png",
+        "width": 3840,
+        "height": 2160,
+        "sha256": "2c4132297487ef69fee0bde0795bbc086946d9577dddfd5228e253d659e1bd83"
+      },
+      {
+        "sourceFrame": 1199,
+        "path": "out/uhd-v3-final-frame-03.png",
+        "width": 3840,
+        "height": 2160,
+        "sha256": "8fa5941d6b50528926eb515f845ad7c0d0f6e755d3e691d823a32a16db5f7849"
+      },
+      {
+        "sourceFrame": 1200,
+        "path": "out/uhd-v3-final-frame-04.png",
+        "width": 3840,
+        "height": 2160,
+        "sha256": "60faa649f45d14da0d81915b38825a652f8d42e7154233264ab7aa6eb2ea3c04"
+      },
+      {
+        "sourceFrame": 1230,
+        "path": "out/uhd-v3-final-frame-05.png",
+        "width": 3840,
+        "height": 2160,
+        "sha256": "aec7cd641acdfbb808659bc03a83ab0688169fe0d63fe6a15b75a3b111138fb5"
+      },
+      {
+        "sourceFrame": 2100,
+        "path": "out/uhd-v3-final-frame-06.png",
+        "width": 3840,
+        "height": 2160,
+        "sha256": "fde5d53be380097e985a3a9f3b9882897672f2f2af06989c5a14263073b7b921"
+      },
+      {
+        "sourceFrame": 3300,
+        "path": "out/uhd-v3-final-frame-07.png",
+        "width": 3840,
+        "height": 2160,
+        "sha256": "28e82797ded4a1be9f5875459a678831ed009bb1eb3a892a9f514cb805bc68e8"
+      },
+      {
+        "sourceFrame": 4600,
+        "path": "out/uhd-v3-final-frame-08.png",
+        "width": 3840,
+        "height": 2160,
+        "sha256": "99e9009b30751b281eb4b9c2ce4b057eb1a358035dd8be37c911638a30f668ab"
+      },
+      {
+        "sourceFrame": 6000,
+        "path": "out/uhd-v3-final-frame-09.png",
+        "width": 3840,
+        "height": 2160,
+        "sha256": "59ac75b9876b2c533c13a74176d93178e44e1b2975b7031a63917273ab3366f3"
+      },
+      {
+        "sourceFrame": 7200,
+        "path": "out/uhd-v3-final-frame-10.png",
+        "width": 3840,
+        "height": 2160,
+        "sha256": "cde1eb9f7a222441775e6ef5df80257bf61d014b0489cf86f526ff4cc9e26ac6"
+      },
+      {
+        "sourceFrame": 9000,
+        "path": "out/uhd-v3-final-frame-11.png",
+        "width": 3840,
+        "height": 2160,
+        "sha256": "8be5198476524c4473cca0a95ba301cd110a0c925d10f05c032e43b1ea97c5aa"
+      },
+      {
+        "sourceFrame": 10200,
+        "path": "out/uhd-v3-final-frame-12.png",
+        "width": 3840,
+        "height": 2160,
+        "sha256": "2fb1373773d4cf3ba1f4a82b83c82bfaab003bd1ae844af03e17b96e25383076"
+      },
+      {
+        "sourceFrame": 10799,
+        "path": "out/uhd-v3-final-frame-13.png",
+        "width": 3840,
+        "height": 2160,
+        "sha256": "02a2e26c6b88556d6b84d932e59750c6dda8083ff7a1dd50ef99b864d7416439"
+      }
+    ]
+  },
+  "sourceStills": [
+    {
+      "path": "out/uhd-v3-frame-00000.png",
+      "width": 3840,
+      "height": 2160,
+      "sha256": "cb2c2a23df05ede6ee63784b59ac602bcf42c540ff520a1a0217cb4f319dc453"
+    },
+    {
+      "path": "out/uhd-v3-frame-01080.png",
+      "width": 3840,
+      "height": 2160,
+      "sha256": "4fc46ff7a9f400c083dc9d7251f3f8688cc8688e72ddfa60b5a7567c41686e24"
+    },
+    {
+      "path": "out/uhd-v3-frame-01199.png",
+      "width": 3840,
+      "height": 2160,
+      "sha256": "100e59aa516101018b5e1e99e497921058f680260eb18aefd5e51c132b2ab64c"
+    },
+    {
+      "path": "out/uhd-v3-frame-01200.png",
+      "width": 3840,
+      "height": 2160,
+      "sha256": "4549d3be80d39c0e9df9fe46ad51e912bd38dba1b16a152c3955259f1a657773"
+    },
+    {
+      "path": "out/uhd-v3-frame-02100.png",
+      "width": 3840,
+      "height": 2160,
+      "sha256": "e39ef25726a92cd370d0a57b275a44199766e2646c6cf8668dfdff51b040c42a"
+    },
+    {
+      "path": "out/uhd-v3-frame-03300.png",
+      "width": 3840,
+      "height": 2160,
+      "sha256": "bfcd9ecba22b0ecd040c802930d7c313f7374f0bf9d2026f354c4aa741c44cc1"
+    },
+    {
+      "path": "out/uhd-v3-frame-04600.png",
+      "width": 3840,
+      "height": 2160,
+      "sha256": "d7815ce57511845a13d64b78871c9f074ffb835d495d0b2651d79f7990298038"
+    },
+    {
+      "path": "out/uhd-v3-frame-06000.png",
+      "width": 3840,
+      "height": 2160,
+      "sha256": "5306fceed0e9afa358d1a1055d5eb965cefe0046eccd5d3df4437cab2d3c1694"
+    },
+    {
+      "path": "out/uhd-v3-frame-07200.png",
+      "width": 3840,
+      "height": 2160,
+      "sha256": "06cbf1bc0be93b181fcb7af3d7bc12116e1ca46280ba15c3083cdc79c7bf5081"
+    },
+    {
+      "path": "out/uhd-v3-frame-09000.png",
+      "width": 3840,
+      "height": 2160,
+      "sha256": "e1ace6bb60e66d59eeb1477b5cdfd1a1f5971e98b6afdad833f2ae0a91136f27"
+    },
+    {
+      "path": "out/uhd-v3-frame-10200.png",
+      "width": 3840,
+      "height": 2160,
+      "sha256": "30d63ccc12bb88a419e1e6c9d204697c62e6d2fc1f474712970fafb3dbdb0723"
+    },
+    {
+      "path": "out/uhd-v3-frame-10799.png",
+      "width": 3840,
+      "height": 2160,
+      "sha256": "8ac6f5734295872d8f2610b67d01a0e1f74ee7c74e67c19af4309f5326201571"
+    }
+  ],
+  "optionalOverloadPreview": {
+    "path": "out/uhd-v3-overload-preview.mp4",
+    "width": 3840,
+    "height": 2160,
+    "rFrameRate": "60/1",
+    "avgFrameRate": "60/1",
+    "videoFrames": 270,
+    "videoDurationSeconds": 4.5,
+    "audioCodec": "aac",
+    "audioSampleRate": 48000,
+    "audioChannels": 2,
+    "audioPresentedDurationSeconds": 4.501,
+    "containerDurationSeconds": 4.501,
+    "containerPaddingSeconds": 0.001000000000000334,
+    "sha256": "276b3af0ef64a9ed71725ef31739e7a4d8d611a6dc0cc1b153da9b4c2414ff51",
+    "fullStrictDecode": "PASS"
+  },
+  "sourceHashes": {
+    "baselineTimelineSha256": "db5b0771cdfd72edae287bbb3b34f6146738885f55434649e56e130c3642eca1",
+    "currentTimelineSha256": "30bb98bdbe8dec676dc22fc01b0ffab2f325cb42f7f328e3b758d657527c30d0",
+    "sourceSnapshotZipSha256": "c9c8a667c4ebfface068c45213edd959b99a713b9048c6ee99eefc4cf09fee71",
+    "currentRenderSources": {
+      "README.md": "a42bc3553fb7edf345f2132a2a564e959882c16b796f64c14e6e106a242a41b4",
+      "VOICED-V2.md": "a0e826dba99a1817ea991a0d1933b170c7d4ab48d52c5283b035eadb82f4209f",
+      "package.json": "11a372e8e9787263428fe91368003b297d2b999c0500f4c0601f7de7c157b205",
+      "scripts/check-voice-content.mjs": "1bb7a8071e4f7110c6bb7f2aafb41f9d572f1aeb85a73c062efd169654374993",
+      "scripts/check.mjs": "89b4cce3d3ddfa7b739751f6aa76c7df459e3fc037bb0f641921d940b53b0d55",
+      "scripts/export-captions.mjs": "7804f9316f107d475b86034a6cc95d2fec07ef165c499588da3ec9b6cdd46bdf",
+      "scripts/mix-voiceover.py": "bc418b957caa056d10994a1c692dc339c257bbe7dda9b97d3ee19b2e6103a829",
+      "scripts/mux-voiced.mjs": "2409d01e48bc623ce10a6650bb899f6db5ca2484484f5aed7ec96394341ca8bc",
+      "scripts/package.py": "b7aa9921c0956c6bbde92e00229a775331f95adf4f065095107779ef5cf8d8eb",
+      "scripts/render.mjs": "c30fbb76d7455be7449c5d97146d1241b3b99f7309656ae5e347c86c39c61669",
+      "scripts/validate-audio.py": "f08c719ba35f0cee9088ab41e8e7dfb230f696f36d10d61b2c5f502a59ef673e",
+      "scripts/validate-media.py": "5c71593dc97d1e885bd6bfe0137d25f7adfe7b51b9cfb55a1b96bdd4e4c05cf8",
+      "scripts/validate-voiced.py": "95a6a219b765dca5137f850a2c4eb3c810e176164488d867b8a0c80246cf9110",
+      "scripts/voiceover-ep2.mjs": "f3805894419af588f4c1bced21e5553dd3f19c373c866cdc3536c21ebe8cf737",
+      "src/MainComposition.tsx": "e05fd6e7bd09ce2f99c180a1e936136d997155a868c7c3eab8ce58b6064f7c31",
+      "src/Root.tsx": "fdd3d4cbb8f47a455c419c1f0712f69539533af39202693e55625f5cd4b1886f",
+      "src/components/Act1BiologicalOverload.tsx": "343e3976d699fafc7b78089d7afa1a8c7b8e81474159a0cd7210ea57b8ed9a45",
+      "src/components/Act2LinearVsMatrix.tsx": "42522f8a4bf0a1795d63ab1d6387c7f91c84bc0e1fc4eaf48f13a41ccab5d2ee",
+      "src/components/Act3DeepCoTManifold.tsx": "7b0e7779c1f3741918e058af8577b8ee294436a1297c80c9711b45d37d3d47af",
+      "src/components/Act4OracleProjection.tsx": "c7a832487cd646e315dea366c5a344f0d6112a21bdd0b468f4455d75fedb62d0",
+      "src/components/GlobalHUD.tsx": "e0e358e0616a3a0dc406c42e645caa654c9a62be09e351e3f2b32f1b66d37b84",
+      "src/components/Visuals.tsx": "f9c8856a43e5969de3a9b0a332d86fc6bc014e676f91a10e92cf4855c87725f3",
+      "src/index.ts": "f9bc4e836a064aca9c58a681e1dc779b62a4d82894450e8e15d5cdd05840e36e",
+      "src/lib/captions.ts": "2e19a9e80f541b854bdbd2bf4257fb5f7b2a40445c31601925bca232f316177a",
+      "src/lib/math.ts": "f172f1e7db1c6e4683fdf40ea2e3671cf1cfca3baaa652a5428881b575eb74fb",
+      "src/lib/theme.ts": "2c07b51ea95ba7ad2154f834374fc190e9009a24d3b87b523d75f6f63a00e6ce",
+      "timeline.json": "30bb98bdbe8dec676dc22fc01b0ffab2f325cb42f7f328e3b758d657527c30d0"
+    },
+    "validatorScriptSha256": "829de9d7b81c6f4b568a694d0187e1c59b47426d124149ec619e3f47c4deef7c",
+    "finalMovieSha256": "73195073e6fa96e2cdc90dec0cbf6690bee965d8ba2de0e0fc575cdd4f18bb86",
+    "audio": {
+      "baselinePcmMasterSha256": "f7df2b03a6f7767449dafdc8ba7ac405628fe4ea42bced50a00f597bcc7a4aef",
+      "mixManifestPcmMasterSha256": "f7df2b03a6f7767449dafdc8ba7ac405628fe4ea42bced50a00f597bcc7a4aef",
+      "currentPcmMasterSha256": "f7df2b03a6f7767449dafdc8ba7ac405628fe4ea42bced50a00f597bcc7a4aef",
+      "voicePlanSha256": "8ede8d1830cd4652eb53030fdae81f4961faf25e478202671099d2d82fce0212",
+      "voiceManifestSha256": "be7d1c695978a1f3199a63c48ac3c8d6f2146ea13c37aad4a0442f9af6cfc476",
+      "sourceStemSha256": {
+        "overload": "a3ea17d6faac2906df1d1b45875e5ee55e3e230bedcf110eb83b029438436a0e",
+        "order": "834f4e66c81cf1106116862741f47284c03013eac3a6e7752c89d19c91c88d07",
+        "atmosphere": "252e453dc18995afedef37ffa9f904d56ac0c87a5b1670615abbb6c56609491d"
+      }
+    }
+  },
+  "audioExactReuseStatus": {
+    "status": "PASS",
+    "pcmMaster": {
+      "path": "public/audio-voiced-v2/soundtrack.wav",
+      "sha256": "f7df2b03a6f7767449dafdc8ba7ac405628fe4ea42bced50a00f597bcc7a4aef",
+      "expectedSha256": "f7df2b03a6f7767449dafdc8ba7ac405628fe4ea42bced50a00f597bcc7a4aef",
+      "matchesPreUhdReceipt": true,
+      "matchesMixManifest": true
+    },
+    "sourceStemsVerified": 3,
+    "cachedVoiceSourceClipsVerified": 17,
+    "alignedVoiceClipsVerified": 17,
+    "rawVoiceCacheFilesVerified": 17,
+    "audioAssetsVerified": 58,
+    "assets": [
+      {
+        "path": "audio-voiced-v2/voice-manifest.json",
+        "category": "voice-manifest",
+        "sha256": "be7d1c695978a1f3199a63c48ac3c8d6f2146ea13c37aad4a0442f9af6cfc476"
+      },
+      {
+        "path": "audio-voiced-v2/voice-plan.json",
+        "category": "voice-plan",
+        "sha256": "8ede8d1830cd4652eb53030fdae81f4961faf25e478202671099d2d82fce0212"
+      },
+      {
+        "path": "public/audio/overload.wav",
+        "category": "source-stem:overload",
+        "sha256": "a3ea17d6faac2906df1d1b45875e5ee55e3e230bedcf110eb83b029438436a0e"
+      },
+      {
+        "path": "public/audio/order.wav",
+        "category": "source-stem:order",
+        "sha256": "834f4e66c81cf1106116862741f47284c03013eac3a6e7752c89d19c91c88d07"
+      },
+      {
+        "path": "public/audio/atmosphere.wav",
+        "category": "source-stem:atmosphere",
+        "sha256": "252e453dc18995afedef37ffa9f904d56ac0c87a5b1670615abbb6c56609491d"
+      },
+      {
+        "path": "public/audio-voiced-v2/voice-00.wav",
+        "category": "voice-source:voice-00",
+        "sha256": "4cb45fdd88aa9ba92980195ef0470b28710d37d6d268d5e2a92df9a686b5cb60"
+      },
+      {
+        "path": "public/audio-voiced-v2/aligned/voice-00.wav",
+        "category": "voice-aligned:voice-00",
+        "sha256": "e18e0231f66dd0771b7cf239a22feab3f2022b6c7d4ce2871134bb27a904ddcc"
+      },
+      {
+        "path": "public/audio-voiced-v2/raw/voice-00.wav",
+        "category": "voice-raw:voice-00",
+        "sha256": "c495ba242589c4d988e84ad61ea64bea8ae2be5932e83a3902b2f4b5c0638ab0"
+      },
+      {
+        "path": "public/audio-voiced-v2/voice-01.wav",
+        "category": "voice-source:voice-01",
+        "sha256": "aa6dd79b50715534dce967f67fc31908bddcf50bac1b1864cba9f5886dfc82be"
+      },
+      {
+        "path": "public/audio-voiced-v2/aligned/voice-01.wav",
+        "category": "voice-aligned:voice-01",
+        "sha256": "57c7ac5bd9611ee1b1863889d6a09e349442612597529a2503648db76744f050"
+      },
+      {
+        "path": "public/audio-voiced-v2/raw/voice-01.wav",
+        "category": "voice-raw:voice-01",
+        "sha256": "d18ac34550437d6b79bae76f9602fd01e9a157c3e4a035757fa7a4adb171d08c"
+      },
+      {
+        "path": "public/audio-voiced-v2/voice-02.wav",
+        "category": "voice-source:voice-02",
+        "sha256": "1da36f9aa6a56093b6fe8d4f646686855dd648fbf250421903269753382928c5"
+      },
+      {
+        "path": "public/audio-voiced-v2/aligned/voice-02.wav",
+        "category": "voice-aligned:voice-02",
+        "sha256": "cc264b435187611d874f2a7f10d31465b5dc6d341d2c6ec2835d2bff50696e50"
+      },
+      {
+        "path": "public/audio-voiced-v2/raw/voice-02.wav",
+        "category": "voice-raw:voice-02",
+        "sha256": "25fd18cc3ae8e4b5ab301a5425b7e4a77afb07a42d0a1c36075cf79453087a4c"
+      },
+      {
+        "path": "public/audio-voiced-v2/voice-03.wav",
+        "category": "voice-source:voice-03",
+        "sha256": "fadec2550a7fbd898b14a8b661b6c8f78d186b89052cc92eaa1b9f0cb5955e9b"
+      },
+      {
+        "path": "public/audio-voiced-v2/aligned/voice-03.wav",
+        "category": "voice-aligned:voice-03",
+        "sha256": "0d6edd0466f81a57c9a66b908bab9ac3e50c5ea9da86c8130b97524e046cf125"
+      },
+      {
+        "path": "public/audio-voiced-v2/raw/voice-03.wav",
+        "category": "voice-raw:voice-03",
+        "sha256": "c90ca7750e05aca91efb9c230ef0407bf49f0dc3251cd4708f2651489a6965fd"
+      },
+      {
+        "path": "public/audio-voiced-v2/voice-04.wav",
+        "category": "voice-source:voice-04",
+        "sha256": "2a019fb3ab8c5265590aaa92806da665f106d5eecf362ec24fcb1f91982a0c5e"
+      },
+      {
+        "path": "public/audio-voiced-v2/aligned/voice-04.wav",
+        "category": "voice-aligned:voice-04",
+        "sha256": "95a9d022a6aee4014b03ad6093be07ab842d3461bc897898126de0f3404fafc8"
+      },
+      {
+        "path": "public/audio-voiced-v2/raw/voice-04.wav",
+        "category": "voice-raw:voice-04",
+        "sha256": "55e71c2e6e55ecd4ce3c1d70f806b8350bb56eab6e3b1b0675ee99c648110a3f"
+      },
+      {
+        "path": "public/audio-voiced-v2/voice-05.wav",
+        "category": "voice-source:voice-05",
+        "sha256": "2d7883dcec86051362df3e71b4fdd96c37ef39c56f3b90d6a67e51662547452d"
+      },
+      {
+        "path": "public/audio-voiced-v2/aligned/voice-05.wav",
+        "category": "voice-aligned:voice-05",
+        "sha256": "fcc62eaacbfaf42cc92dcb31d4fb9404aa146ffd0bfd4f9b3dfdcf79fc143fd5"
+      },
+      {
+        "path": "public/audio-voiced-v2/raw/voice-05.wav",
+        "category": "voice-raw:voice-05",
+        "sha256": "28ca94bf1ffe6992d73cf9b14377ad0ef375657736057cbf6a4face43e98fc2c"
+      },
+      {
+        "path": "public/audio-voiced-v2/voice-06.wav",
+        "category": "voice-source:voice-06",
+        "sha256": "d0190e3ffc2fb1e7706950d674feaf78d4d379ba4bb8440aa0dd55aed9e4b993"
+      },
+      {
+        "path": "public/audio-voiced-v2/aligned/voice-06.wav",
+        "category": "voice-aligned:voice-06",
+        "sha256": "ff8589f7bcc528d5782a3e39723b355e0806d9bf2d13d1cbf6a629ba586d18f9"
+      },
+      {
+        "path": "public/audio-voiced-v2/raw/voice-06.wav",
+        "category": "voice-raw:voice-06",
+        "sha256": "42afa8fa0bee02f4823b90592bae09e5ec95b2e80f6231d9a8a858c7dff83dbe"
+      },
+      {
+        "path": "public/audio-voiced-v2/voice-07.wav",
+        "category": "voice-source:voice-07",
+        "sha256": "2ef540d7805b2c83d81dcb1c4a87973543d7f770b1b92991843b132674e7d85c"
+      },
+      {
+        "path": "public/audio-voiced-v2/aligned/voice-07.wav",
+        "category": "voice-aligned:voice-07",
+        "sha256": "aa861b0c5e6c766657d10d773a67710b7fbe49ba2bece49adcf2bb522746fa82"
+      },
+      {
+        "path": "public/audio-voiced-v2/raw/voice-07.wav",
+        "category": "voice-raw:voice-07",
+        "sha256": "8b0d62f7184999fb69b904b48bb632c047968c6a5695bff9919aad58ecbf97a2"
+      },
+      {
+        "path": "public/audio-voiced-v2/voice-08.wav",
+        "category": "voice-source:voice-08",
+        "sha256": "07e63212ae1a5031cac5dcd5a0235bcbba6ad5a9faf49b3a13a6394896ab2fae"
+      },
+      {
+        "path": "public/audio-voiced-v2/aligned/voice-08.wav",
+        "category": "voice-aligned:voice-08",
+        "sha256": "61e9faab32ec11017abd406246c13c9e7a3985d10911a540eabcb21817b3103f"
+      },
+      {
+        "path": "public/audio-voiced-v2/raw/voice-08.wav",
+        "category": "voice-raw:voice-08",
+        "sha256": "995c72962d56f12935bd6455e219ad2fdb7b11331c1df37d0f32010c24dc481c"
+      },
+      {
+        "path": "public/audio-voiced-v2/voice-09.wav",
+        "category": "voice-source:voice-09",
+        "sha256": "4017602595ae7a0741dc3a7646f50bbb05c2c348e2f7ba1b475a43357cbfb24b"
+      },
+      {
+        "path": "public/audio-voiced-v2/aligned/voice-09.wav",
+        "category": "voice-aligned:voice-09",
+        "sha256": "bfb4a56b5ccdf133835e895536743bf0b20c7e5637add2bc946feffcb8902716"
+      },
+      {
+        "path": "public/audio-voiced-v2/raw/voice-09.wav",
+        "category": "voice-raw:voice-09",
+        "sha256": "8a90e6ddf2ac7950ddd4f323e499fbdfb5128bca4358b905c80e8d68c26618cb"
+      },
+      {
+        "path": "public/audio-voiced-v2/voice-10.wav",
+        "category": "voice-source:voice-10",
+        "sha256": "28ad7804673cbf8cc60df7efc9d8a9312f238f4153d694511d386b5e1492abeb"
+      },
+      {
+        "path": "public/audio-voiced-v2/aligned/voice-10.wav",
+        "category": "voice-aligned:voice-10",
+        "sha256": "5ca35a7b4ac5c133d709ed3145ee115da769419452c5186521988b392365a7b1"
+      },
+      {
+        "path": "public/audio-voiced-v2/raw/voice-10.wav",
+        "category": "voice-raw:voice-10",
+        "sha256": "cfd7c48e6da2726dbac5847d4c595cf70d3aabcdef6bb125bfb9c0d21cc59094"
+      },
+      {
+        "path": "public/audio-voiced-v2/voice-11.wav",
+        "category": "voice-source:voice-11",
+        "sha256": "c07d7abb516df3f644757d94ad7c21dd8d08ad02f795a9162f37a9610902c58c"
+      },
+      {
+        "path": "public/audio-voiced-v2/aligned/voice-11.wav",
+        "category": "voice-aligned:voice-11",
+        "sha256": "5ef677bf22105698dc3e4144e89bf9be599cc2b7585f2533336a660373925dad"
+      },
+      {
+        "path": "public/audio-voiced-v2/raw/voice-11.wav",
+        "category": "voice-raw:voice-11",
+        "sha256": "3464e47d579340696d644e5ac2ef042b331152869192ba035069ca51364242c0"
+      },
+      {
+        "path": "public/audio-voiced-v2/voice-12.wav",
+        "category": "voice-source:voice-12",
+        "sha256": "e9c79927e3eaca2514c4e4b6ce8c1606a97e6ae135a6296aa1faac0458866a20"
+      },
+      {
+        "path": "public/audio-voiced-v2/aligned/voice-12.wav",
+        "category": "voice-aligned:voice-12",
+        "sha256": "efd19b6296fe4056afcffb33d122fd90dab6996b5c9cc2ed8016aeb5901cf288"
+      },
+      {
+        "path": "public/audio-voiced-v2/raw/voice-12.wav",
+        "category": "voice-raw:voice-12",
+        "sha256": "9a2605d9de8346a40feb547128b092049449604314dfc3bec88927e1e6c3ef04"
+      },
+      {
+        "path": "public/audio-voiced-v2/voice-13.wav",
+        "category": "voice-source:voice-13",
+        "sha256": "c8652258e0414be5b4b8f9d211085f437d1be35e1a2bf2e73e2e19f5008ff8c5"
+      },
+      {
+        "path": "public/audio-voiced-v2/aligned/voice-13.wav",
+        "category": "voice-aligned:voice-13",
+        "sha256": "908b7d0d92342e18d5cf8630151c6400515dc5eb144bda8d65c1bbd6a0f24582"
+      },
+      {
+        "path": "public/audio-voiced-v2/raw/voice-13.wav",
+        "category": "voice-raw:voice-13",
+        "sha256": "475ec135cebe509a0053f51f09d89bd36015cb983a339564b4dc4da05198ba83"
+      },
+      {
+        "path": "public/audio-voiced-v2/voice-14.wav",
+        "category": "voice-source:voice-14",
+        "sha256": "11b947595c4b93cb32ba03b0ab611db95bf466216cc9586ee7384e8c9e20a4f7"
+      },
+      {
+        "path": "public/audio-voiced-v2/aligned/voice-14.wav",
+        "category": "voice-aligned:voice-14",
+        "sha256": "e31f62fa17d66ad1e05eed3ae0491533a0aeb596253beb1acc4f9c3ad957cbcd"
+      },
+      {
+        "path": "public/audio-voiced-v2/raw/voice-14.wav",
+        "category": "voice-raw:voice-14",
+        "sha256": "2148e9ebee3cbdc4f0729dfe19d8070e8c5554e48307b92a4170a7640251cb00"
+      },
+      {
+        "path": "public/audio-voiced-v2/voice-quote.wav",
+        "category": "voice-source:voice-quote",
+        "sha256": "77b13ee915e344ab90bb7500e3d6f0256f4e2de6d18130b0c0e6894fb7ce794c"
+      },
+      {
+        "path": "public/audio-voiced-v2/aligned/voice-quote.wav",
+        "category": "voice-aligned:voice-quote",
+        "sha256": "f68c870d18ac9a0e05d2a0673473cbb826f57fe877a00f1a65ca97226dd19710"
+      },
+      {
+        "path": "public/audio-voiced-v2/raw/voice-quote.wav",
+        "category": "voice-raw:voice-quote",
+        "sha256": "659b1194ca70aad6e3de9e8027ae6e8aecda891ed2013ed677f929e271c4d088"
+      },
+      {
+        "path": "public/audio-voiced-v2/voice-15.wav",
+        "category": "voice-source:voice-15",
+        "sha256": "b97dccde73abd484f61d6098a96e3d512e3d936922c7f424b48a8e09d7f1b5c9"
+      },
+      {
+        "path": "public/audio-voiced-v2/aligned/voice-15.wav",
+        "category": "voice-aligned:voice-15",
+        "sha256": "4a072d302dfc0aed987c37072c80cde0e3300315ed3bb9078c26fa943064d73b"
+      },
+      {
+        "path": "public/audio-voiced-v2/raw/voice-15.wav",
+        "category": "voice-raw:voice-15",
+        "sha256": "d29f4a7d61ee02a41c0081e49a747f9f6161a3daeb3a458615b789d3b0506658"
+      },
+      {
+        "path": "public/audio-voiced-v2/narration.wav",
+        "category": "narration-mix",
+        "sha256": "3684c619aa785a9946fa7b2661b613c5150b4fa4c1e11283f017b3414536779a"
+      },
+      {
+        "path": "public/audio-voiced-v2/soundtrack.wav",
+        "category": "pcm-master",
+        "sha256": "f7df2b03a6f7767449dafdc8ba7ac405628fe4ea42bced50a00f597bcc7a4aef"
+      }
+    ],
+    "note": "Exact PCM and cached-source identity checked by streamed SHA-256; loudness was not recomputed."
+  },
+  "encodedAudioComparison": {
+    "status": "PASS",
+    "comparisonSampleRate": 8000,
+    "measurements": [
+      {
+        "window": "whole-film",
+        "fromSeconds": 0,
+        "toSeconds": 180,
+        "correlation": 0.9999306448454884,
+        "rmsGainRatio": 0.9985689808222346,
+        "normalizedRmsError": 0.011855784571159834
+      },
+      {
+        "window": "act-1",
+        "fromSeconds": 0,
+        "toSeconds": 45,
+        "correlation": 0.999849123867724,
+        "rmsGainRatio": 0.9986320278305947,
+        "normalizedRmsError": 0.01741294988531267
+      },
+      {
+        "window": "act-2",
+        "fromSeconds": 45,
+        "toSeconds": 90,
+        "correlation": 0.9999650584736107,
+        "rmsGainRatio": 0.998637835752694,
+        "normalizedRmsError": 0.008464239600755407
+      },
+      {
+        "window": "act-3",
+        "fromSeconds": 90,
+        "toSeconds": 140,
+        "correlation": 0.9999656139255695,
+        "rmsGainRatio": 0.9986143677194993,
+        "normalizedRmsError": 0.008402192140645956
+      },
+      {
+        "window": "act-4",
+        "fromSeconds": 140,
+        "toSeconds": 180,
+        "correlation": 0.9999600052626172,
+        "rmsGainRatio": 0.9983681277882177,
+        "normalizedRmsError": 0.009084159239024593
+      }
+    ],
+    "note": "Decoded mono AAC versus PCM reference at matching times; allows lossy encoding error. This is not pronunciation or human listening acceptance."
+  },
+  "encodedTiming": {
+    "pcmMasterSeconds": 180.0,
+    "videoFrames": 10800,
+    "videoFps": 60,
+    "videoDurationSeconds": 180.0,
+    "aacPresentedDurationSeconds": 180.011,
+    "containerDurationSeconds": 180.011,
+    "containerPaddingSeconds": 0.01099999999999568,
+    "maximumAllowedPaddingSeconds": 0.05,
+    "note": "AAC/container presentation timing is recorded separately from the exact 180 s PCM master."
+  },
+  "asr": {
+    "status": "PASS",
+    "userDecision": "local_checks_only",
+    "uploadAuthorized": false,
+    "audioUploadOccurred": false
+  },
+  "humanListening": "pending",
+  "manualVisualAcceptance": "pending",
+  "note": "Local media/hash checks only. This report does not claim human listening or visual acceptance."
+}

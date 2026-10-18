@@ -1,0 +1,29 @@
+# 7±2 的囚笼
+
+这是历史归档，保留原时长、画幅与版本；不声称符合后续两分钟规格。
+
+[完整 Release 与全部下载](https://github.com/jggagi/video-making/releases/tag/archive-si-cage-7plus2-v1) · [B站横屏](B站/README.md) · [小红书竖屏](小红书/README.md)
+
+源码位置：`si-cage-7plus2`。成片在 GitHub Releases；本机原始路径、SHA-256、实测规格见 [archive.json](archive.json)。
+
+## 工程归档
+
+| 文件 | 规格 | 大小 |
+| --- | --- | --- |
+| [cage-of-seven-plus-two-project.zip](https://github.com/jggagi/video-making/releases/download/archive-si-cage-7plus2-v1/si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-project--abee5facd7f5.zip) | 可编辑工程 / 历史快照 | 53.5 MiB |
+| [cage-of-seven-plus-two-uhd-v3-project.zip](https://github.com/jggagi/video-making/releases/download/archive-si-cage-7plus2-v1/si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-uhd-v3-project--47ca71206ff7.zip) | 可编辑工程 / 历史快照 | 151.3 MiB |
+| [cage-of-seven-plus-two-voiced-v2-project.zip](https://github.com/jggagi/video-making/releases/download/archive-si-cage-7plus2-v1/si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-voiced-v2-project--ed88cb3991e6.zip) | 可编辑工程 / 历史快照 | 101.2 MiB |
+| [cage-of-seven-plus-two-xhs-v1-project.zip](https://github.com/jggagi/video-making/releases/download/archive-si-cage-7plus2-v1/si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-xhs-v1-project--fa7e7a4b60b6.zip) | 可编辑工程 / 历史快照 | 154.7 MiB |
+| [uhd-v3-source-before.zip](https://github.com/jggagi/video-making/releases/download/archive-si-cage-7plus2-v1/si-cage-7plus2--si-cage-7plus2--out--uhd-v3-source-before--c9c8a667c4eb.zip) | 可编辑工程 / 历史快照 | 0.1 MiB |
+
+## 样片与历史草稿
+
+这些文件仅作制作过程记录，不能视为最终成片。
+
+| 文件 | 规格 | 大小 |
+| --- | --- | --- |
+| [manifold-preview.mp4](https://github.com/jggagi/video-making/releases/download/archive-si-cage-7plus2-v1/si-cage-7plus2--si-cage-7plus2--out--manifold-preview--18558cd06c4b.mp4) | 1920×1080，10.000秒 | 5.7 MiB |
+| [overload-preview.mp4](https://github.com/jggagi/video-making/releases/download/archive-si-cage-7plus2-v1/si-cage-7plus2--si-cage-7plus2--out--overload-preview--3fddab14745c.mp4) | 1920×1080，4.500秒 | 3.0 MiB |
+| [uhd-v3-overload-preview.mp4](https://github.com/jggagi/video-making/releases/download/archive-si-cage-7plus2-v1/si-cage-7plus2--si-cage-7plus2--out--uhd-v3-overload-preview--276b3af0ef64.mp4) | 3840×2160，4.500秒 | 8.2 MiB |
+| [voiced-v2-opening-preview.mp4](https://github.com/jggagi/video-making/releases/download/archive-si-cage-7plus2-v1/si-cage-7plus2--si-cage-7plus2--out--voiced-v2-opening-preview--3a8406a2bcb9.mp4) | 1920×1080，36.000秒 | 8.8 MiB |
+| [xhs-v1-opening-preview.mp4](https://github.com/jggagi/video-making/releases/download/archive-si-cage-7plus2-v1/si-cage-7plus2--si-cage-7plus2--out--xhs-v1-opening-preview--a7f45013ee1f.mp4) | 2160×3840，6.000秒 | 1.6 MiB |

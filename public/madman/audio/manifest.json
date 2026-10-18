@@ -1,0 +1,14 @@
+{
+  "source": "procedural local synthesis",
+  "speech": "none",
+  "sampleRateHz": 48000,
+  "channels": 2,
+  "bitDepth": 16,
+  "codec": "pcm_s16le",
+  "durationSeconds": 90,
+  "durationFrames": 2160,
+  "peakLinear": 0.18002269673024013,
+  "peakDbfs": -14.893454737567255,
+  "seed": 1296122957,
+  "cues": 11
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "voice-11",
+  "spokenText": "数百万次检验，将高维空间中的约束逐一扣紧。",
+  "sourcePath": "public/audio-v2/voice-11.wav",
+  "sourceSha256": "181a7c7315e1ca6479cae1379828f6ffe760fbb39c7c0587929d4199b5b2b86e",
+  "cacheKey": "9874f067c2ee923f01b9949308db3ab31b6839c571d5ade7bf9afd8e9c5d9142",
+  "parameters": {
+    "sampleRate": 48000,
+    "channels": 1,
+    "format": "pcm_s16le",
+    "targetNonSilentRmsDbfs": -20.0,
+    "nonSilentFloorDbfs": -60.0,
+    "maxGainDb": 6.0,
+    "peakCeilingDbfs": -3.0,
+    "atempoMax": 1.18
+  },
+  "actualStartSeconds": 93.24,
+  "deadlineSeconds": 103.82,
+  "atempo": 1.0,
+  "sampleRate": 48000,
+  "channels": 1,
+  "sampleCount": 232132,
+  "durationSeconds": 4.836083333333334,
+  "processedSha256": "ff463226a5bda9d8aecf52f20f56263111cffd83132a51b4600c37284be36378",
+  "normalization": {
+    "nonSilentFloorDbfs": -60.0,
+    "nonSilentSampleCount": 163947.0,
+    "nonSilentRmsBeforeDbfs": -24.003849265317903,
+    "targetRmsDbfs": -20.0,
+    "appliedGainDb": 1.0055515550146186,
+    "nonSilentRmsAfterDbfs": -22.99829667471029,
+    "peakBeforeDbfs": -4.005551555014618,
+    "peakAfterDbfs": -2.9999995180030155,
+    "pcm16PeakDbfs": -3.0003622493859567,
+    "tempoFactor": 1.0,
+    "sampleCount": 232132.0
+  }
+}

@@ -3,8 +3,10 @@
 from __future__ import annotations
 
 import argparse
+from fractions import Fraction
 import hashlib
 import json
+import math
 from pathlib import Path
 import re
 import shutil
@@ -24,6 +26,9 @@ HISTORICAL = (
     ("qstory-ep03", "余问 QStory EP.03：十万亿个分身", ["qstory-ep03/out"], "qstory-ep03"),
 )
 PREVIEW = re.compile(r"sample|preview|draft|opening-title|ending-title|样片|点睛片段", re.I)
+DEFAULT_DURATION_SECONDS = 120
+PCM_SAMPLE_RATE = 48_000
+SUPPORTED_FPS = {24, 25, 30, 50, 60}
 
 
 def _inside(root: Path, path: Path) -> bool:
@@ -38,6 +43,41 @@ def _release_tag(slug: str) -> str:
     ascii_slug = re.sub(r"[^A-Za-z0-9-]+", "-", slug).strip("-").lower()[:64] or "work"
     slug_hash = hashlib.sha256(slug.encode("utf-8")).hexdigest()[:12]
     return f"film-{ascii_slug}-{slug_hash}"
+
+
+def _duration_fraction(value: object, manifest_path: Path) -> Fraction:
+    if isinstance(value, bool) or not isinstance(value, (int, float)):
+        raise ValueError(
+            f"duration_seconds must be a finite positive JSON number: {manifest_path}"
+        )
+    if isinstance(value, float) and not math.isfinite(value):
+        raise ValueError(
+            f"duration_seconds must be a finite positive JSON number: {manifest_path}"
+        )
+    try:
+        duration = Fraction(str(value))
+    except (ValueError, ZeroDivisionError):
+        raise ValueError(
+            f"duration_seconds must be a finite positive JSON number: {manifest_path}"
+        ) from None
+    if duration <= 0:
+        raise ValueError(f"duration_seconds must be positive: {manifest_path}")
+    sample_count = duration * PCM_SAMPLE_RATE
+    if sample_count.denominator != 1:
+        raise ValueError(
+            f"duration_seconds times 48000 must be an integer PCM sample count: {manifest_path}"
+        )
+    return duration
+
+
+def _duration_number(duration: Fraction) -> int | float:
+    if duration.denominator == 1:
+        return duration.numerator
+    return float(duration)
+
+
+def _format_seconds(value: int | float) -> str:
+    return format(value, "g")
 
 
 def _validate_manifest_slug(directory: Path, manifest: dict, manifest_path: Path) -> str:
@@ -181,8 +221,10 @@ def discover(root: Path) -> list[dict]:
             if directory.is_symlink():
                 raise ValueError(f"New delivery directory must not be a symlink: {directory}")
             manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
-            if manifest.get("schema_version") != 1 or manifest.get("duration_seconds") != 120:
-                raise ValueError(f"New delivery must use schema1/120 seconds: {manifest_path}")
+            if manifest.get("schema_version") != 1:
+                raise ValueError(f"New delivery must use schema1: {manifest_path}")
+            duration_value = manifest.get("duration_seconds", DEFAULT_DURATION_SECONDS)
+            duration = _duration_fraction(duration_value, manifest_path)
             slug = _validate_manifest_slug(directory, manifest, manifest_path)
             final_output_paths = _validate_final_outputs(root, directory, manifest, manifest_path)
             files = sorted(path for path in directory.rglob("*") if path.is_file()
@@ -191,6 +233,7 @@ def discover(root: Path) -> list[dict]:
                                        for part in path.relative_to(directory).parts[:-1]))
             works.append({"id": slug, "title": manifest["title"], "files": files,
                           "release_tag": _release_tag(slug), "historical": False,
+                          "duration_seconds": _duration_number(duration),
                           "project_path": (directory / "project").relative_to(root).as_posix(),
                           "delivery_directory": directory.relative_to(root).as_posix(),
                           "final_output_paths": final_output_paths})
@@ -235,12 +278,18 @@ def make_asset(root: Path, work: dict, path: Path) -> dict:
         expected_size = (3840, 2160) if final_platform == "B站" else (1080, 1920)
         if (measurements["width"], measurements["height"]) != expected_size:
             raise ValueError(f"New platform output has wrong dimensions: {relative}")
-        from fractions import Fraction
-        fps = Fraction(measurements["fps"])
-        if fps not in {24, 25, 30, 50, 60} or measurements["frames"] != str(120 * int(fps)):
-            raise ValueError(f"New platform output must contain exactly120 seconds of frames: {relative}")
-        if abs(measurements["video_duration_seconds"] - 120) > 1 / float(fps):
-            raise ValueError(f"New platform output is not120 seconds: {relative}")
+        try:
+            fps = Fraction(measurements["fps"])
+        except (KeyError, ValueError, ZeroDivisionError):
+            raise ValueError(f"New platform output has an invalid frame rate: {relative}") from None
+        duration = Fraction(str(work["duration_seconds"]))
+        frame_count = duration * fps
+        if (fps.denominator != 1 or fps.numerator not in SUPPORTED_FPS
+                or frame_count.denominator != 1
+                or measurements["frames"] != str(frame_count.numerator)):
+            raise ValueError(f"New platform output must contain exactly {work['duration_seconds']} seconds of frames: {relative}")
+        if abs(measurements["video_duration_seconds"] - float(duration)) > 1 / float(fps):
+            raise ValueError(f"New platform output duration must be within one frame of {work['duration_seconds']} seconds: {relative}")
     return {"path": relative, "name": name, "bytes": size, "sha256": digest,
             "kind": kind, "platform": platform, "measurements": measurements,
             "download_url": f"https://github.com/{REPOSITORY}/releases/download/{quote(work['release_tag'], safe='')}/{quote(name, safe='')}"}
@@ -260,8 +309,9 @@ def write_work(root: Path, work: dict, assets: list[dict]) -> None:
     delivery = root / work["delivery_directory"]
     delivery.mkdir(parents=True, exist_ok=True)
     release = f"https://github.com/{REPOSITORY}/releases/tag/{quote(work['release_tag'], safe='')}"
-    historical = ("这是历史归档，保留原时长、画幅与版本；不声称符合后续两分钟规格。\n"
-                  if work["historical"] else "两版制作目标均为120秒，验收状态见本作品 review/。\n")
+    historical = ("这是历史归档，保留原时长、画幅与版本；不声称符合后续新作品的时长规格。\n"
+                  if work["historical"] else
+                  f"两版制作目标均为{_format_seconds(work['duration_seconds'])}秒，验收状态见本作品 review/。\n")
     text = f"# {work['title']}\n\n{historical}\n"
     text += f"[完整 Release 与全部下载]({release}) · [B站横屏](B站/README.md) · [小红书竖屏](小红书/README.md)\n\n"
     text += f"源码位置：`{work['project_path']}`。成片在 GitHub Releases；本机原始路径、SHA-256、实测规格见 [archive.json](archive.json)。\n\n"

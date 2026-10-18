@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate both technical media outputs in a 120-second delivery folder."""
+"""Validate technical media outputs and optional source checks in a delivery folder."""
 
 from __future__ import annotations
 
@@ -9,7 +9,9 @@ from fractions import Fraction
 import hashlib
 import json
 import math
+import os
 from pathlib import Path, PurePosixPath, PureWindowsPath
+import re
 import shutil
 import struct
 import subprocess
@@ -24,8 +26,19 @@ OUTPUTS = {
     "xiaohongshu": (1080, 1920),
 }
 AUDIO_MODES = {"narrated", "provided", "silent"}
-DURATION = 120.0
-CONTAINER_TOLERANCE = 0.05
+DEFAULT_DURATION = 120
+CONTAINER_TOLERANCE = Fraction(1, 20)
+PRUNED_DIRECTORIES = {
+    ".git", "node_modules", "out", "review", ".remotion", "dist", "build",
+    "coverage", ".venv", "venv", ".cache", "__pycache__",
+}
+SOURCE_EXTENSIONS = {".ts", ".tsx", ".json"}
+SOURCE_TYPO_PATTERNS = (
+    (re.compile(r"\bCASUAL[\s_-]+(?:DEPTH|GRAPH|CHAIN|REASONING|INFERENCE|MODEL)\b", re.I),
+     "CAUSAL DEPTH/GRAPH/CHAIN/REASONING/INFERENCE/MODEL"),
+    (re.compile(r"\b(?:MANIFLOD|MANFIOLD|MANIFOD)\b", re.I), "MANIFOLD"),
+    (re.compile(r"\bTELEMETERY\b", re.I), "TELEMETRY"),
+)
 
 
 def parse_args() -> argparse.Namespace:
@@ -34,7 +47,19 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument("film_dir", type=Path)
     parser.add_argument(
+        "--scan-source",
+        action="store_true",
+        help="Scan source files for a short list of known token typos.",
+    )
+    mode = parser.add_mutually_exclusive_group()
+    mode.add_argument(
+        "--source-only",
+        action="store_true",
+        help="Run only the source scan; media validation is not run.",
+    )
+    mode.add_argument(
         "--skip-decode",
+        dest="skip_decode",
         action="store_true",
         help="Skip full FFmpeg decode; this always produces INCOMPLETE and exits nonzero.",
     )
@@ -151,17 +176,26 @@ def inspect_mp4_atoms(path: Path) -> dict[str, Any]:
 
 def validate_manifest(
     root: Path, manifest: dict[str, Any], checks: dict[str, str], failures: list[str]
-) -> tuple[int | None, int | None, str | None]:
+) -> tuple[int | None, int | None, str | None, Fraction | None, int | float | None]:
     version = manifest.get("schema_version")
     add_check(checks, failures, "schema_version", plain_int(version) and version == 1,
               "delivery.json schema_version must be 1")
     title = manifest.get("title")
     add_check(checks, failures, "title", isinstance(title, str) and bool(title.strip()),
               "delivery.json title must be non-empty text")
-    duration = manifest.get("duration_seconds")
-    add_check(checks, failures, "duration_seconds",
-              plain_int(duration) and duration == 120,
-              "delivery.json duration_seconds must be exactly 120")
+    duration_value = manifest.get("duration_seconds", DEFAULT_DURATION)
+    duration_valid = (isinstance(duration_value, (int, float))
+                      and not isinstance(duration_value, bool)
+                      and (not isinstance(duration_value, float)
+                           or math.isfinite(duration_value)))
+    try:
+        duration = Fraction(str(duration_value)) if duration_valid else None
+    except (ValueError, ZeroDivisionError, OverflowError):
+        duration = None
+    duration_valid = duration is not None and duration > 0
+    add_check(checks, failures, "duration_seconds", duration_valid,
+              "delivery.json duration_seconds must be a finite positive JSON number"
+              " (or be omitted to use 120 seconds)")
 
     slug = manifest.get("slug")
     safe_slug = isinstance(slug, str) and bool(slug) and slug not in {".", ".."}
@@ -177,11 +211,19 @@ def validate_manifest(
     fps = raw_fps if plain_int(raw_fps) and raw_fps in FPS_CHOICES else None
     add_check(checks, failures, "fps", fps is not None,
               "delivery.json fps must be one of 24, 25, 30, 50, or 60")
-    expected_frames = 120 * fps if fps is not None else None
+    frame_aligned = (duration is not None and fps is not None
+                     and (duration * fps).denominator == 1)
+    add_check(checks, failures, "duration_frame_alignment", frame_aligned,
+              "delivery.json duration_seconds times fps must be an integer frame count"
+              " and fps must be supported")
+    sample_aligned = duration is not None and (duration * 48_000).denominator == 1
+    add_check(checks, failures, "duration_sample_alignment", sample_aligned,
+              "delivery.json duration_seconds times 48000 must be an integer sample count")
+    expected_frames = int(duration * fps) if frame_aligned else None
     frames = manifest.get("total_frames")
     add_check(checks, failures, "total_frames",
               expected_frames is not None and plain_int(frames) and frames == expected_frames,
-              "delivery.json total_frames must equal 120 times its supported fps")
+              "delivery.json total_frames must equal duration_seconds times its supported fps")
 
     audio = manifest.get("audio")
     audio_mode = audio.get("mode") if isinstance(audio, dict) else None
@@ -243,7 +285,9 @@ def validate_manifest(
             add_check(checks, failures, f"{key}_manifest_dimensions", valid,
                       f"delivery.json outputs.{key} dimensions must be {width}x{height}")
 
-    return fps, expected_frames, audio_mode if valid_audio_mode else None
+    validated_duration = duration if duration_valid else None
+    reported_duration = duration_value if duration_valid else None
+    return fps, expected_frames, audio_mode if valid_audio_mode else None, validated_duration, reported_duration
 
 
 def validate_media(
@@ -252,6 +296,8 @@ def validate_media(
     root: Path,
     fps: int | None,
     total_frames: int | None,
+    target_duration: Fraction | None,
+    target_duration_seconds: int | float | None,
     audio_mode: str | None,
     ffprobe: str | None,
     ffmpeg: str | None,
@@ -268,7 +314,12 @@ def validate_media(
         "checks": checks,
         "failures": failures,
     }
-    check = lambda name, passed, message: add_check(checks, failures, name, passed, message)
+
+    def check(name: str, passed: bool, message: str) -> None:
+        add_check(checks, failures, name, passed, message)
+
+    duration_label = (f"{target_duration_seconds} seconds"
+                      if target_duration_seconds is not None else "a valid target duration")
 
     if not isinstance(config, dict):
         check("manifest_entry", False, f"{key}: output entry must be an object")
@@ -365,11 +416,15 @@ def validate_media(
             except (TypeError, ValueError, OverflowError):
                 counted_frames = None
             check("counted_frames", total_frames is not None and counted_frames == total_frames,
-                  f"{key}: counted frame count must equal 120 times manifest fps")
-            duration_ok = (fps is not None and video_duration is not None
-                           and abs(video_duration - DURATION) <= 1.0 / fps + 1e-9)
+                  f"{key}: counted frame count must equal duration_seconds times manifest fps")
+            measured_video_duration = (Fraction(str(video_duration))
+                                       if video_duration is not None else None)
+            duration_ok = (fps is not None and target_duration is not None
+                           and measured_video_duration is not None
+                           and abs(measured_video_duration - target_duration)
+                           <= Fraction(1, fps) + Fraction(1, 1_000_000_000))
             check("video_duration", duration_ok,
-                  f"{key}: video duration must be 120 seconds within one frame")
+                  f"{key}: video duration must match {duration_label} within one frame")
         else:
             video_duration = None
 
@@ -400,9 +455,14 @@ def validate_media(
                       f"{key}: audio sample rate must be 48 kHz")
                 check("audio_channels", audio.get("channels") == 2,
                       f"{key}: audio must be stereo")
-                check("audio_duration", audio_duration is not None
-                      and abs(audio_duration - DURATION) <= CONTAINER_TOLERANCE,
-                      f"{key}: audio duration must be within 0.05 seconds of 120 seconds")
+                measured_audio_duration = (Fraction(str(audio_duration))
+                                           if audio_duration is not None else None)
+                check("audio_duration", target_duration is not None
+                      and measured_audio_duration is not None
+                      and abs(measured_audio_duration - target_duration)
+                      <= CONTAINER_TOLERANCE,
+                      f"{key}: audio duration must be within 0.05 seconds"
+                      f" of {duration_label}")
         else:
             check("audio_mode", False, f"{key}: manifest audio mode is invalid")
 
@@ -415,9 +475,13 @@ def validate_media(
             "duration_seconds": container_duration,
             "padding_vs_video_seconds": padding,
         }
-        check("container_duration", container_duration is not None
-              and abs(container_duration - DURATION) <= CONTAINER_TOLERANCE,
-              f"{key}: container duration must be within 0.05 seconds of 120 seconds")
+        measured_container_duration = (Fraction(str(container_duration))
+                                       if container_duration is not None else None)
+        check("container_duration", target_duration is not None
+              and measured_container_duration is not None
+              and abs(measured_container_duration - target_duration) <= CONTAINER_TOLERANCE,
+              f"{key}: container duration must be within 0.05 seconds"
+              f" of {duration_label}")
 
     try:
         atoms = inspect_mp4_atoms(path)
@@ -448,6 +512,84 @@ def validate_media(
         result["status"] = "FAIL"
     elif skip_decode:
         result["status"] = "INCOMPLETE"
+    return result
+
+
+def scan_source(root: Path) -> dict[str, Any]:
+    """Read supported source files and report only matched tokens, never source lines."""
+    resolved_root = root.resolve(strict=True)
+    files_scanned = 0
+    matches: list[dict[str, Any]] = []
+    read_errors: list[dict[str, str]] = []
+
+    def record_walk_error(exc: OSError) -> None:
+        error_path = Path(exc.filename) if exc.filename else resolved_root
+        try:
+            relative = error_path.relative_to(resolved_root).as_posix() or "."
+        except ValueError:
+            relative = "."
+        message = os.strerror(exc.errno) if exc.errno is not None else "directory read failed"
+        read_errors.append({"file": relative, "error": message})
+
+    for directory, directory_names, file_names in os.walk(
+        resolved_root, topdown=True, followlinks=False, onerror=record_walk_error
+    ):
+        parent = Path(directory)
+        directory_names[:] = [
+            name for name in directory_names
+            if name.lower() not in PRUNED_DIRECTORIES
+            and not name.lower().startswith("bundle")
+            and not (parent / name).is_symlink()
+        ]
+        for name in file_names:
+            path = parent / name
+            if path.suffix.lower() not in SOURCE_EXTENSIONS or path.is_symlink():
+                continue
+            try:
+                resolved_path = path.resolve(strict=True)
+                resolved_path.relative_to(resolved_root)
+            except (OSError, RuntimeError, ValueError):
+                continue
+
+            relative = path.relative_to(resolved_root).as_posix()
+            files_scanned += 1
+            try:
+                contents = path.read_text(encoding="utf-8", errors="strict")
+            except UnicodeDecodeError:
+                read_errors.append({"file": relative, "error": "invalid UTF-8"})
+                continue
+            except OSError as exc:
+                message = os.strerror(exc.errno) if exc.errno is not None else "file read failed"
+                read_errors.append({"file": relative, "error": message})
+                continue
+
+            for line_number, line in enumerate(contents.splitlines(), start=1):
+                line_matches: list[tuple[int, dict[str, Any]]] = []
+                for pattern, replacement in SOURCE_TYPO_PATTERNS:
+                    for match in pattern.finditer(line):
+                        token = match.group(0)
+                        suggestion = replacement
+                        if replacement.startswith("CAUSAL "):
+                            suggestion = "CAUSAL" + token[6:]
+                        line_matches.append((match.start(), {
+                            "file": relative,
+                            "line": line_number,
+                            "matched_token": token,
+                            "suggestion": suggestion,
+                        }))
+                matches.extend(item for _, item in sorted(line_matches, key=lambda value: value[0]))
+
+    status = "FAIL" if matches else (
+        "INCOMPLETE" if read_errors or files_scanned == 0 else "PASS"
+    )
+    result: dict[str, Any] = {
+        "status": status,
+        "files_scanned": files_scanned,
+        "matches": matches,
+        "read_errors": read_errors,
+    }
+    if files_scanned == 0:
+        result["incomplete_reason"] = "no source files were found"
     return result
 
 
@@ -485,7 +627,20 @@ def save_report(root: Path, report: dict[str, Any]) -> Path:
     raise OSError("could not allocate a unique validation report filename")
 
 
-def validate(film_dir: Path, skip_decode: bool) -> int:
+def source_scan_failures(source_scan: dict[str, Any]) -> list[str]:
+    return [
+        f"source typo {item['matched_token']!r} in {item['file']}:{item['line']}; "
+        f"suggestion: {item['suggestion']}"
+        for item in source_scan["matches"]
+    ]
+
+
+def validate(
+    film_dir: Path,
+    skip_decode: bool,
+    scan_source_enabled: bool = False,
+    source_only: bool = False,
+) -> int:
     try:
         root = film_dir.expanduser().resolve(strict=True)
     except OSError as exc:
@@ -494,6 +649,33 @@ def validate(film_dir: Path, skip_decode: bool) -> int:
     if not root.is_dir():
         print(f"validate_delivery.py: error: not a directory: {root}", file=sys.stderr)
         return 2
+
+    if source_only:
+        source_scan = scan_source(root)
+        failures = source_scan_failures(source_scan)
+        report = {
+            "schema_version": 1,
+            "generated_at_utc": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+            "scope": "source-only",
+            "status": "INCOMPLETE",
+            "media_validation": "NOT_RUN",
+            "source_scan": source_scan,
+            "checks": {},
+            "outputs": {},
+            "failures": failures,
+        }
+        try:
+            report_path = save_report(root, report)
+        except OSError as exc:
+            print(f"validate_delivery.py: error: cannot write report: {exc}", file=sys.stderr)
+            return 2
+        print("Media validation: NOT RUN (source-only mode).")
+        print(f"Source scan status: {source_scan['status']}")
+        print("Validation status: INCOMPLETE")
+        print(f"Report: {report_path.relative_to(root).as_posix()}")
+        for failure in failures:
+            print(f"- {failure}", file=sys.stderr)
+        return 0 if source_scan["status"] == "PASS" else 1
 
     checks: dict[str, str] = {}
     failures: list[str] = []
@@ -508,6 +690,12 @@ def validate(film_dir: Path, skip_decode: bool) -> int:
         except OSError:
             pass
 
+    target_duration: Fraction | None = None
+    target_duration_seconds: int | float | None = None
+    source_scan = scan_source(root) if scan_source_enabled else None
+    if source_scan is not None:
+        failures.extend(source_scan_failures(source_scan))
+
     if manifest is None:
         for key in OUTPUTS:
             output_reports[key] = {
@@ -517,23 +705,27 @@ def validate(film_dir: Path, skip_decode: bool) -> int:
             }
             failures.append(f"{key}: cannot validate output without valid delivery.json")
     else:
-        fps, total_frames, audio_mode = validate_manifest(root, manifest, checks, failures)
+        (fps, total_frames, audio_mode, target_duration,
+         target_duration_seconds) = validate_manifest(root, manifest, checks, failures)
         output_entries = manifest.get("outputs")
         output_entries = output_entries if isinstance(output_entries, dict) else {}
         ffprobe = shutil.which("ffprobe")
         ffmpeg = shutil.which("ffmpeg")
         for key in OUTPUTS:
             output_reports[key] = validate_media(
-                key, output_entries.get(key), root, fps, total_frames, audio_mode,
-                ffprobe, ffmpeg, skip_decode,
+                key, output_entries.get(key), root, fps, total_frames, target_duration,
+                target_duration_seconds, audio_mode, ffprobe, ffmpeg, skip_decode,
             )
             failures.extend(output_reports[key]["failures"])
 
-    status = "INCOMPLETE" if skip_decode else ("FAIL" if failures else "PASS")
+    scan_incomplete = source_scan is not None and source_scan["status"] == "INCOMPLETE"
+    status = ("INCOMPLETE" if skip_decode else
+              "FAIL" if failures else "INCOMPLETE" if scan_incomplete else "PASS")
     report = {
         "schema_version": 1,
         "generated_at_utc": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "status": status,
+        "target_duration_seconds": target_duration_seconds,
         "manifest_sha256": manifest_hash,
         "checks": checks,
         "outputs": output_reports,
@@ -544,6 +736,8 @@ def validate(film_dir: Path, skip_decode: bool) -> int:
             "target_device_playback": "pending",
         },
     }
+    if source_scan is not None:
+        report["source_scan"] = source_scan
     try:
         report_path = save_report(root, report)
     except OSError as exc:
@@ -551,6 +745,8 @@ def validate(film_dir: Path, skip_decode: bool) -> int:
         return 2
     print(f"Validation status: {status}")
     print(f"Report: {report_path.relative_to(root).as_posix()}")
+    if source_scan is not None:
+        print(f"Source scan status: {source_scan['status']}")
     for failure in failures:
         print(f"- {failure}", file=sys.stderr)
     return 0 if status == "PASS" else 1
@@ -558,7 +754,7 @@ def validate(film_dir: Path, skip_decode: bool) -> int:
 
 def main() -> int:
     args = parse_args()
-    return validate(args.film_dir, args.skip_decode)
+    return validate(args.film_dir, args.skip_decode, args.scan_source, args.source_only)
 
 
 if __name__ == "__main__":

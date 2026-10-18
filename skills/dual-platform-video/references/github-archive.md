@@ -9,14 +9,14 @@ Q 本地 Mac 的现有仓库位于 `/Users/guoq/Documents/ChatGPT/video`。先�
 
 - Git 保存 `skills/`、可编辑源码、原始剧本/改编稿、锁文件、本地创作素材、字幕、精简 QA 和作品索引。
 - 成片 MP4/MOV/WEBM 与工程 ZIP 保存到**同一仓库的 Releases**。每部作品/版本一个独立 tag；`deliveries/<作品版本>/B站/` 和 `小红书/` 的索引提供对应下载链接。本机视频仍留在原交付目录。
-- 历史作品使用 `deliveries/legacy-<作品>/`，记录原版实际参数，不能为套用新技能擅自改成120秒或伪造不存在的竖屏版。
+- 历史作品使用 `deliveries/legacy-<作品>/`，记录原版实际参数，不能为套用新技能擅自改成当前目标时长或伪造不存在的竖屏版。
 - `archive/catalog.json` 记录每个资产的原路径、Release 文件名、字节数、SHA-256、实测画面参数与下载 URL。所有可恢复文件均保留原来的工程相对路径。
 - 作品和平台的索引 README、`archive.json`、总清单由脚本生成；创作说明写在 `project/brief.md`，人工验收写在 `review/acceptance.md`，不要把手写内容放入生成索引。归档器保留并单列工程内的视频素材，不能将背景片段误列为最终平台成片。
 
 ## 每次完成作品后
 
 1. 完成原有技术检查，保留人工/真机待验收状态。把新作的 `delivery.json`、源码、素材及 QA 一起归档，不能只上传视频。
-2. 在仓库根运行 `python3 scripts/build-archive-catalog.py`，检查作品/平台归类、源文件哈希和待上传集合。生成的历史索引不改动原始媒体；新作的两个视频必须已达到120秒规格。
+2. 在仓库根运行 `python3 scripts/build-archive-catalog.py`，检查作品/平台归类、源文件哈希和待上传集合。生成的历史索引不改动原始媒体；新作两个视频必须达到 `delivery.json.duration_seconds` 中同一个 `T`（缺省 120 秒）及对应帧数，不能在归档时另套固定时长。
 3. 用本技能的 `scripts/upload_releases.py --catalog <仓库>/archive/catalog.json --root <仓库>` 做只读本地预检。默认不联网上传；它会检查文件与清单是否匹配。
 4. 检查变更范围，按本作品、技能及清单的具体路径提交；排除凭据、依赖、bundle、日志与无关并行修改。正常 push 到该仓库，不 force、不重写旧历史。确认远端含本次 commit。
 5. 用相同 uploader 加 `--apply --target <已push的完整commit SHA>` 上传。先创建 draft Release，再逐文件上传并核对远端大小及 SHA-256 digest，全部通过后公开该 Release。不得在上传不完整时声称归档完成。

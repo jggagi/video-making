@@ -4,8 +4,11 @@
 from __future__ import annotations
 
 import argparse
+from decimal import Decimal
+from fractions import Fraction
 import hashlib
 import json
+import math
 import os
 from pathlib import Path, PureWindowsPath
 import sys
@@ -14,6 +17,8 @@ import unicodedata
 
 FPS_CHOICES = (24, 25, 30, 50, 60)
 AUDIO_MODES = ("narrated", "provided", "silent")
+DEFAULT_DURATION_SECONDS = 120
+PCM_SAMPLE_RATE = 48_000
 
 
 class InputError(ValueError):
@@ -22,13 +27,17 @@ class InputError(ValueError):
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Initialize a fresh 120-second B站 and 小红书 delivery folder."
+        description="Initialize a fresh B站 and 小红书 delivery folder."
     )
     parser.add_argument("--output-root", required=True, type=Path)
     parser.add_argument("--slug", required=True)
     parser.add_argument("--title", required=True)
     parser.add_argument("--script", required=True, type=Path)
     parser.add_argument("--fps", type=int, choices=FPS_CHOICES, default=60)
+    parser.add_argument(
+        "--duration-seconds", type=float, default=DEFAULT_DURATION_SECONDS,
+        help="target duration in seconds (default: 120)",
+    )
     parser.add_argument(
         "--audio-mode", choices=AUDIO_MODES, default="narrated"
     )
@@ -62,16 +71,53 @@ def read_script(path: Path) -> bytes:
     return source_bytes
 
 
+def target_duration(value: object, fps: int) -> tuple[Fraction, int]:
+    """Validate T against the video-frame and PCM sample grids."""
+    if isinstance(value, bool) or not isinstance(value, (int, float)):
+        raise InputError("--duration-seconds must be a finite positive number.")
+    if (isinstance(value, float) and not math.isfinite(value)) or value <= 0:
+        raise InputError("--duration-seconds must be a finite positive number.")
+    try:
+        duration = Fraction(str(value))
+    except (ValueError, ZeroDivisionError):
+        raise InputError("--duration-seconds must be a finite positive number.") from None
+    frame_count = duration * fps
+    sample_count = duration * PCM_SAMPLE_RATE
+    if frame_count.denominator != 1:
+        raise InputError("duration_seconds times --fps must be an integer frame count.")
+    if sample_count.denominator != 1:
+        raise InputError("duration_seconds times 48000 must be an integer PCM sample count.")
+    return duration, int(frame_count)
+
+
+def duration_value(duration: Fraction) -> int | float:
+    if duration.denominator == 1:
+        return duration.numerator
+    return float(duration)
+
+
+def duration_label(value: int | float) -> str:
+    """Return a compact decimal label for output filenames."""
+    label = format(Decimal(str(value)), "f")
+    if "." in label:
+        label = label.rstrip("0").rstrip(".")
+    return label
+
+
 def build_manifest(
-    *, slug: str, title: str, fps: int, audio_mode: str, script_bytes: bytes
+    *, slug: str, title: str, fps: int, audio_mode: str, script_bytes: bytes,
+    duration_seconds: int | float = DEFAULT_DURATION_SECONDS,
 ) -> dict:
+    duration, total_frames = target_duration(duration_seconds, fps)
+    normalized_duration = duration_value(duration)
+    label = duration_label(duration_seconds)
     return {
         "schema_version": 1,
         "title": title,
         "slug": slug,
-        "duration_seconds": 120,
+        "duration_seconds": normalized_duration,
         "fps": fps,
-        "total_frames": 120 * fps,
+        "total_frames": total_frames,
         "script": {
             "path": "source/script.md",
             "sha256": hashlib.sha256(script_bytes).hexdigest(),
@@ -82,12 +128,12 @@ def build_manifest(
         },
         "outputs": {
             "bilibili": {
-                "path": f"B站/{slug}-bilibili-120s-4k.mp4",
+                "path": f"B站/{slug}-bilibili-{label}s-4k.mp4",
                 "width": 3840,
                 "height": 2160,
             },
             "xiaohongshu": {
-                "path": f"小红书/{slug}-xiaohongshu-120s-portrait.mp4",
+                "path": f"小红书/{slug}-xiaohongshu-{label}s-portrait.mp4",
                 "width": 1080,
                 "height": 1920,
             },
@@ -129,6 +175,9 @@ def create_delivery(args: argparse.Namespace) -> Path:
         raise InputError(f"--fps must be one of {', '.join(map(str, FPS_CHOICES))}.")
     if args.audio_mode not in AUDIO_MODES:
         raise InputError(f"--audio-mode must be one of {', '.join(AUDIO_MODES)}.")
+    duration_seconds = getattr(args, "duration_seconds", DEFAULT_DURATION_SECONDS)
+    # Reject invalid timing before reading or creating any delivery files.
+    target_duration(duration_seconds, args.fps)
 
     # Read and validate every user-controlled input before creating directories.
     script_bytes = read_script(args.script)
@@ -138,6 +187,7 @@ def create_delivery(args: argparse.Namespace) -> Path:
         fps=args.fps,
         audio_mode=args.audio_mode,
         script_bytes=script_bytes,
+        duration_seconds=duration_seconds,
     )
     manifest_bytes = (
         json.dumps(manifest, ensure_ascii=False, indent=2) + "\n"

@@ -4,7 +4,6 @@ import importlib.util
 import io
 import json
 from pathlib import Path
-import re
 import sys
 import tempfile
 import unittest
@@ -24,17 +23,27 @@ def fake_probe(path):
         width, height = 1080, 1920
     else:
         width, height = 640, 360
+    duration = 120
+    fps = 60
+    for ancestor in path.parents:
+        manifest_path = ancestor / 'delivery.json'
+        if manifest_path.is_file():
+            manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
+            duration = manifest.get('duration_seconds', 120)
+            fps = manifest.get('fps', 60)
+            break
     return {
         'width': width,
         'height': height,
-        'fps': '60/1',
-        'frames': '7200',
-        'video_duration_seconds': 120.0,
-        'container_duration_seconds': 120.011,
+        'fps': f'{fps}/1',
+        'frames': str(int(duration * fps)),
+        'video_duration_seconds': float(duration),
+        'container_duration_seconds': float(duration) + 0.011,
     }
 
 
-def create_work(root, directory_name='森林 时间 🌲-v01', manifest_slug=None, include_xhs=True):
+def create_work(root, directory_name='森林 时间 🌲-v01', manifest_slug=None,
+                include_xhs=True, duration=120, include_duration=True):
     delivery = root / 'deliveries' / directory_name
     (delivery / 'B站').mkdir(parents=True)
     (delivery / '小红书').mkdir()
@@ -46,7 +55,6 @@ def create_work(root, directory_name='森林 时间 🌲-v01', manifest_slug=Non
     (delivery / 'project' / 'editable.zip').write_bytes(b'zip-data')
     manifest = {
         'schema_version': 1,
-        'duration_seconds': 120,
         'slug': manifest_slug if manifest_slug is not None else directory_name,
         'title': '森林 时间 🌲',
         'outputs': {
@@ -54,6 +62,8 @@ def create_work(root, directory_name='森林 时间 🌲-v01', manifest_slug=Non
             'xiaohongshu': {'path': '小红书/final.mp4'},
         },
     }
+    if include_duration:
+        manifest['duration_seconds'] = duration
     (delivery / 'delivery.json').write_text(json.dumps(manifest, ensure_ascii=False), encoding='utf-8')
     return delivery
 
@@ -181,6 +191,78 @@ class ArchiveCatalogTests(unittest.TestCase):
             manifest_path.write_text(json.dumps(manifest), encoding='utf-8')
             with self.assertRaisesRegex(ValueError, 'directly inside B站'):
                 mod.discover(root)
+
+    def test_180_second_delivery_is_indexed_with_exact_frame_counts(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            delivery = create_work(root, duration=180)
+            work = mod.discover(root)[0]
+            self.assertEqual(work['duration_seconds'], 180)
+            with patch.object(mod, 'probe', side_effect=fake_probe):
+                assets = [mod.make_asset(root, work, path) for path in work['files']]
+            finals = [asset for asset in assets if asset['platform'] in {'B站', '小红书'}]
+            self.assertEqual(len(finals), 2)
+            self.assertTrue(all(asset['measurements']['frames'] == '10800' for asset in finals))
+            with patch.object(mod, 'probe', side_effect=fake_probe):
+                self.run_main(root)
+            readme = (delivery / 'README.md').read_text(encoding='utf-8')
+            record = json.loads((delivery / 'archive.json').read_text(encoding='utf-8'))
+            self.assertIn('两版制作目标均为180秒', readme)
+            self.assertEqual(record['duration_seconds'], 180)
+
+    def test_fractional_duration_and_missing_duration_default(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            fractional = create_work(root, directory_name='fractional-v01', duration=120.5)
+            work = mod.discover(root)[0]
+            self.assertEqual(work['duration_seconds'], 120.5)
+            with patch.object(mod, 'probe', side_effect=fake_probe):
+                final_assets = [mod.make_asset(root, work, path) for path in work['files']
+                                if path.name == 'final.mp4']
+            self.assertTrue(all(asset['measurements']['frames'] == '7230' for asset in final_assets))
+
+            defaulted = create_work(root, directory_name='missing-duration-v01', include_duration=False)
+            default_work = next(item for item in mod.discover(root) if item['id'] == 'missing-duration-v01')
+            self.assertEqual(default_work['duration_seconds'], 120)
+            with patch.object(mod, 'probe', side_effect=fake_probe):
+                self.run_main(root)
+            record = json.loads((defaulted / 'archive.json').read_text(encoding='utf-8'))
+            self.assertEqual(record['duration_seconds'], 120)
+            self.assertIn('120.5秒', (fractional / 'README.md').read_text(encoding='utf-8'))
+
+    def test_invalid_manifest_durations_stop_before_archive_writes(self):
+        invalid = (True, '120', None, float('nan'), float('inf'), 0, -1, 0.00001)
+        for duration in invalid:
+            with self.subTest(duration=duration), tempfile.TemporaryDirectory() as tmp:
+                root = Path(tmp)
+                delivery = create_work(root, duration=duration)
+                with self.assertRaises(ValueError):
+                    mod.discover(root)
+                self.assertFalse((root / 'archive' / 'catalog.json').exists())
+                self.assertFalse((delivery / 'archive.json').exists())
+
+    def test_final_frame_count_must_match_manifest_duration(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            create_work(root, duration=180)
+            work = mod.discover(root)[0]
+            final = next(path for path in work['files'] if path.parent.name == 'B站')
+            with patch.object(mod, 'probe', return_value={
+                'width': 3840, 'height': 2160, 'fps': '60/1', 'frames': '7200',
+                'video_duration_seconds': 120.0, 'container_duration_seconds': 120.011,
+            }):
+                with self.assertRaisesRegex(ValueError, 'exactly 180 seconds'):
+                    mod.make_asset(root, work, final)
+
+    def test_historical_work_keeps_its_existing_identity_and_duration(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / 'out').mkdir()
+            (root / 'out' / 'original.mp4').write_bytes(b'historical')
+            work = mod.discover(root)[0]
+            self.assertEqual(work['id'], 'lanting')
+            self.assertTrue(work['historical'])
+            self.assertNotIn('duration_seconds', work)
 
 
 if __name__ == '__main__':

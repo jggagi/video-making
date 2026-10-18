@@ -26,7 +26,7 @@ Q 本地 Mac 的现有仓库位于 `/Users/guoq/Documents/ChatGPT/video`。先�
 
 ## final 本地与GitHub双份留存
 
-更新总目录后，在本机运行 `python3 scripts/build-final-library.py`。脚本从正式平台成片生成本地APFS克隆、`final/index.json`、`final/README.md` 和兼容现有上传器的 `final/backup-catalog.json`，排除样片、工程素材和ZIP。保留原路径和所有正式历史版本；目标内容不同则停止，不覆盖。APFS克隆与原件在同一块盘上，云端备份需要单独完成。
+以下命令均从已核验远端为 `jggagi/video-making` 的仓库根目录执行。`scripts/build-final-library.py` 和 `scripts/fetch-archive-assets.py` 属于仓库脚本，不在安装的技能目录内；先确认这些文件存在。本机更新总目录后运行 `python3 scripts/build-final-library.py`。脚本从正式平台成片生成本地APFS克隆、`final/index.json`、`final/README.md` 和兼容现有上传器的 `final/backup-catalog.json`，排除样片、工程素材和ZIP。保留原路径和所有正式历史版本；目标内容不同则停止，不覆盖。APFS克隆与原件在同一块盘上，云端备份需要单独完成。其他机器遵守其当前存储规则，不照搬本机APFS操作。
 
 先对final备份清单运行上传器默认dry-run。将源码、清单、索引提交并push后，执行：
 
@@ -37,5 +37,7 @@ python3 skills/dual-platform-video/scripts/upload_releases.py --catalog final/ba
 为final使用单独receipt，避免与同commit的作品归档记录互相替代。每个 `final-*` Release仅含该作品正式平台视频；未来作品新增对应备份，已存在且匹配的资产直接跳过，上传失败可重跑，不删除或覆盖旧资产。
 
 公开后逐项核对远端大小、SHA-256 digest与完整资产集合，保存 `final/backup-verification.json`，记录当前backup catalog散列、Release及资产身份。清单变化后，旧记录不能代表新增影片已经备份。只有本地final文件和当前云端final资产都匹配，才宣布双份留存完成。单独恢复final目录可运行 `python3 scripts/fetch-archive-assets.py --catalog final/backup-catalog.json --download`，下载器保留目录结构并验证散列。
+
+每次新增final备份后，从本次新增成片中选择一份做真实恢复抽测：把仅含该文件的备份清单放进隔离临时目录，使用恢复器的 `--root <临时根目录> --catalog <抽测清单> --download` 下载，核对恢复后的相对路径、字节数与SHA-256；再执行一次，确认匹配文件被跳过。记录抽测文件身份、结果和范围并清理本次临时数据，不覆盖正式输出，也不把单份抽测表述为全部影片均已下载恢复。
 
 用户以后调用本技能制作新片时，继续执行此同步约定。没有新作品产生时不创建后台任务、定时器或无关提交。上传失败时保留本地交付与可续传状态，明确报告实际剩余项。

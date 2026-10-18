@@ -8,7 +8,8 @@
     "measured output hashes and byte sizes",
     "measured AAC metrics",
     "QA evidence links and statuses",
-    "production status"
+    "production status",
+    "verified archive status and evidence links"
   ],
   "media_reencoded_after_validation": false
 }

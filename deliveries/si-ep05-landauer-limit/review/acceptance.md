@@ -1,6 +1,6 @@
 # EP05 《兰道尔极限》验收记录
 
-本地成片与自动技术验收完成。作品/独立final的GitHub归档正在执行，完成后另记归档证据。连续人工听看、专名与单位发音及实际手机App播放仍待确认。
+本地成片与自动技术验收完成；作品Release、本地final库及独立final Release均已归档并核验。本次新增横屏成片已实际下载恢复、核对哈希并重跑确认可跳过。连续人工听看、专名与单位发音及实际手机App播放仍待确认。
 
 ## 最终媒体
 
@@ -57,4 +57,12 @@
 
 ## 归档
 
-本地final库已通过APFS克隆新增两份EP05电影，并独立核对源文件与克隆SHA-256；旧27份保留。见`local-final-library.json`。GitHub作品/独立final备份正在执行；待按当前清单核对全部远端大小/SHA-256，并对本次新增影片抽测恢复后补记完成证据。可编辑工程、原稿、校订稿、缓存、母带、时间轴和精简QA保留在本仓库；可重建音轨stem保留本机并可由源码重建。本次不额外制作工程ZIP。
+本地final库已通过APFS克隆新增两份EP05电影，并独立核对源文件与克隆SHA-256；旧27份保留。见`local-final-library.json`。
+
+源码提交`c20169db65f659b0a4b5f8165c0ed247ac1ddad3`已推送后执行两套独立上传：作品Release的全部103个资源/9部作品核验完成，其中EP05为2份正式成片和12段审看样片；独立final Release的全部29份正式成片/9部作品核验完成，其中EP05为2份。两套上传使用不同receipt，既有匹配资源跳过，无覆盖。作品地址：[film-si-ep05-landauer-limit-0028c8c759f4](https://github.com/jggagi/video-making/releases/tag/film-si-ep05-landauer-limit-0028c8c759f4)；final地址：[final-si-ep05-landauer-limit-0028c8c759f4](https://github.com/jggagi/video-making/releases/tag/final-si-ep05-landauer-limit-0028c8c759f4)。
+
+`archive-verification.json`保留本次EP05资源的远端字节数、SHA-256、URL及上传回执摘要。根目录`final/backup-verification.json`独立新鲜读取9个已发布Release，核对全部29份本地/远端大小与SHA-256，并绑定当前`final/backup-catalog.json`哈希`d38bf1cb148d6b441b6adbccb8f3eac317e36ac544608e443114bd1b8a2c9239`。
+
+`final-restore-probe.json`记录一次新增EP05横屏成片的真实恢复：下载到独占AgentDev临时目录，173,518,083字节与SHA-256均匹配；第二次运行显示`1 already verified, 0 downloaded`，文件inode和mtime未变；只清理本次临时目录。该抽测范围为一份新成片，不宣称完整恢复29份。
+
+可编辑工程、原稿、校订稿、缓存、母带、时间轴和精简QA保留在本仓库；可重建音轨stem保留本机并可由源码重建。本次不额外制作工程ZIP。

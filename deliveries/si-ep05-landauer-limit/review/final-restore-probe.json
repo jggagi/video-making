@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "verified_at_utc": "2026-10-18T14:54:22.371485+00:00",
+  "source_commit": "c20169db65f659b0a4b5f8165c0ed247ac1ddad3",
+  "catalog_path": "final/backup-catalog.json",
+  "catalog_sha256": "d38bf1cb148d6b441b6adbccb8f3eac317e36ac544608e443114bd1b8a2c9239",
+  "scope": "One newly backed-up EP05 landscape final; not a full 29-file restore.",
+  "asset": {
+    "path": "final/si-ep05-landauer-limit/B站/si-ep05-landauer-limit-bilibili-120s-4k.mp4",
+    "name": "final--si-ep05-landauer-limit--deliveries--si-ep05-landauer-limit--B---si-ep05-landauer-limit-bilibili-120s-4k--2a5e6b526773.mp4",
+    "bytes": 173518083,
+    "sha256": "2a5e6b526773da3e6401dba4c73c30a93b746347207557eacd4b5253d6852473",
+    "kind": "video",
+    "platform": "B站",
+    "measurements": {
+      "width": 3840,
+      "height": 2160,
+      "fps": "60/1",
+      "frames": "7200",
+      "video_duration_seconds": 120.0,
+      "container_duration_seconds": 120.0
+    },
+    "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep05-landauer-limit-0028c8c759f4/final--si-ep05-landauer-limit--deliveries--si-ep05-landauer-limit--B---si-ep05-landauer-limit-bilibili-120s-4k--2a5e6b526773.mp4"
+  },
+  "method": "Existing fetch-archive-assets.py with one-asset subset catalog and an empty unique verified AgentDev scratch root; independent downloaded-file SHA-256 and size; second invocation rechecks and skips without inode or mtime change.",
+  "first_fetch_stdout": "Restored: final/si-ep05-landauer-limit/B站/si-ep05-landauer-limit-bilibili-120s-4k.mp4 (173,518,083 bytes)\nRestore complete: 0 already verified, 1 downloaded",
+  "second_fetch_stdout": "Restore complete: 1 already verified, 0 downloaded",
+  "idempotent_skip": true,
+  "temporary_root_removed": true
+}

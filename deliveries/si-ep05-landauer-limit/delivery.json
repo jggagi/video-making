@@ -71,5 +71,15 @@
     "shared_audio_evidence": "review/shared-audio-correlation.json",
     "representative_evidence": "review/representative-review.json"
   },
-  "production_status": "final_media_validated"
+  "production_status": "final_media_validated",
+  "archive": {
+    "status": "COMPLETE",
+    "source_commit": "c20169db65f659b0a4b5f8165c0ed247ac1ddad3",
+    "film_release_url": "https://github.com/jggagi/video-making/releases/tag/film-si-ep05-landauer-limit-0028c8c759f4",
+    "final_release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep05-landauer-limit-0028c8c759f4",
+    "evidence": "review/archive-verification.json",
+    "local_final": "verified_apfs_clones",
+    "remote_size_and_sha256": "PASS",
+    "restore_probe": "PASS_one_new_landscape_final"
+  }
 }

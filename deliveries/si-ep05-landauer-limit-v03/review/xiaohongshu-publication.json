@@ -1,0 +1,92 @@
+{
+  "platform": "小红书",
+  "status": "SUBMITTED_PENDING_REVIEW",
+  "account_display_name": "余问 QStory",
+  "authorization_summary": "User explicitly requested publishing the current EP05 v03 repaired portrait film to 小红书; authorization includes upload and final publish.",
+  "video_path": "小红书/si-ep05-landauer-limit-v03-xiaohongshu-120s-portrait.mp4",
+  "video_sha256": "ab2765c6fb0220216ae6418f65df0dcb0a03a7b989780a41cde806ffda4594b9",
+  "video_size_bytes": 202164075,
+  "duration_seconds": 120,
+  "copy_file": "review/xiaohongshu-post-draft.md",
+  "title": "每一次遗忘，都留下余温｜兰道尔极限",
+  "cover_path": "review/xiaohongshu-cover-3x4.jpg",
+  "cover_sha256": "605ef8b65dccdd0b215019107719b34335e320aae7c4636e31b0d30a89a384de",
+  "cover_source_frame": 1500,
+  "cover_crop_xywh": [
+    0,
+    960,
+    2160,
+    2880
+  ],
+  "linked_topics": [
+    "兰道尔极限",
+    "物理学",
+    "科学科普",
+    "人工智能",
+    "费米悖论"
+  ],
+  "content_declaration": "笔记含AI合成内容",
+  "visibility": "公开可见",
+  "scheduled": false,
+  "scheduled_at": null,
+  "prepared": true,
+  "submission_attempted": true,
+  "attempt_started_at_utc": "2026-10-19T15:08:09.321014+00:00",
+  "final_action_actor": "Codex browser automation",
+  "submission_method": "Visible platform Publish control via supported browser UI",
+  "submission_verified": true,
+  "publication_verified": false,
+  "public_visibility_verified": false,
+  "review_status": "审核中",
+  "checked_at_utc": "2026-10-19T15:08:51.809361+00:00",
+  "platform_display_time": "2026-10-19 23:08",
+  "platform_display_time_timezone": "not stated in page; preserved verbatim",
+  "manager_url": "https://creator.xiaohongshu.com/new/note-manager",
+  "note_id": null,
+  "public_note_url": null,
+  "verification": "One visible Publish click dispatched; editor reset to upload screen with published=true. Creator manager increased from 6 to 7 entries and shows exact title, matching cover, 02:00 duration, 2026-10-19 23:08 and 审核中 status.",
+  "evidence_paths": [
+    "/private/tmp/ep05-v03-xhs-private-aCsHOC/pre-submit-settings.png",
+    "/private/tmp/ep05-v03-xhs-private-aCsHOC/submitted-manager.png"
+  ],
+  "blocker": null,
+  "remaining": "Platform moderation and public visibility are pending. No follow-up automation created; do not resubmit.",
+  "body": "遗忘，从来不是免费的。\n\n把一个未知比特不可逆地重置，热力学给出了最低耗散代价。在室温下，这个下限约为 2.87×10⁻²¹ 焦耳。微不足道，却无法忽略。\n\n当思考的尺度扩展到一颗行星，瓶颈或许不仅是供电，还有散热。从芯片上的余温，走向深空中的散热翼。\n\n物理边界是真实的；片中的行星热景与运算趋势为艺术示意，并非气候或技术预测。结尾的费米悖论解释是未经证实的假说。兰道尔下限针对不可逆擦除，不等于每次逻辑运算都有同样热耗。\n\n余问 QStory · 感受 SI EP.05《兰道尔极限》\n画面为程序化科学可视化，旁白使用 AI 合成。",
+  "duplicate_check": {
+    "checked_at_utc": "2026-10-19T15:05:31.360498+00:00",
+    "manager_total_observed": 6,
+    "matching_ep05_note_found": false,
+    "scope": "All six current management entries inspected; no EP05 title/cover match."
+  },
+  "limitations": [
+    "Continuous human listening and phone-app playback remain pending; publication does not retroactively mark them complete."
+  ],
+  "private_evidence_note": "Screenshots stay outside repository. Do not archive account screenshots, login information or QR codes.",
+  "cover_crop_description": "Source frame 1500 cropped [0,960,2160,2880], selected 3:4 at 100% in the platform editor. Main title fully visible; final cover quality assessment passed.",
+  "readback": {
+    "exact_title": true,
+    "body_matches_prepared_copy": true,
+    "linked_topic_markers_observed": 5,
+    "media_preview_duration_seconds": 120,
+    "media_preview_dimensions": [
+      2160,
+      3840
+    ],
+    "media_preview_ready_state": 4,
+    "media_preview_error": null,
+    "cover_quality_feedback": "封面效果评估通过，未发现封面质量问题",
+    "all_three_checkboxes_unchecked": "PK cover off, originality checkbox off, scheduled publishing off",
+    "no_location_people_ads_added": true
+  },
+  "observed_duration": "02:00",
+  "attempt_history": [
+    {
+      "attempt_started_at_utc": "2026-10-19T15:08:09.321014+00:00",
+      "submission_attempted": true,
+      "actor": "Codex browser automation",
+      "method": "Single click on visible Publish control via supported browser UI",
+      "outcome": "SUBMITTED_PENDING_REVIEW",
+      "verified_at_utc": "2026-10-19T15:08:51.809361+00:00"
+    }
+  ]
+}

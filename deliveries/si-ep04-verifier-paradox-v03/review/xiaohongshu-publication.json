@@ -1,0 +1,43 @@
+{
+  "platform": "小红书",
+  "account_display_name": "余问 QStory",
+  "status": "SUBMITTED_PENDING_REVIEW",
+  "checked_at_utc": "2026-10-19T02:22:50.753625+00:00",
+  "title": "AI拿了满分，为什么任务却失败？",
+  "copy_file": "review/xiaohongshu-post-draft.md",
+  "video_path": "小红书/si-ep04-verifier-paradox-v03-xiaohongshu-120s-portrait.mp4",
+  "video_sha256": "86265036cd83dc690e9e4970aba4984e4f75aa7fa7e0a6f0bbee7d409cf91143",
+  "cover_path": "review/xiaohongshu-cover.jpg",
+  "cover_sha256": "b8b222ea86591048ea3222371eba0b4d8b70d4798b3738b23232dea8a6917502",
+  "cover_source_frame": 3900,
+  "cover_crop_xywh": [
+    0,
+    480,
+    2160,
+    2880
+  ],
+  "linked_topics": [
+    "人工智能",
+    "AI科普",
+    "奖励黑客",
+    "余问QStory"
+  ],
+  "content_declaration": "笔记含AI合成内容",
+  "visibility": "公开可见",
+  "scheduled": false,
+  "prepared": true,
+  "publication_verified": false,
+  "blocker": null,
+  "submission_verified": true,
+  "public_visibility_verified": false,
+  "review_status": "审核中",
+  "observed_duration": "02:00",
+  "platform_display_time": "2026-10-19 10:20",
+  "platform_display_time_timezone": "not stated in page; preserved verbatim",
+  "manager_url": "https://creator.xiaohongshu.com/new/note-manager",
+  "public_note_url": null,
+  "user_final_publish_click_confirmed": true,
+  "submission_method": "Browser-assisted upload, cover, body, topics and AI declaration; user performed final Publish click after browser tool could not operate protected control.",
+  "verification": "Creator note-manager lists exact title, 02:00 duration and 审核中 status; screenshot retained privately outside repository.",
+  "remaining": "Platform moderation and public visibility are pending; no follow-up automation created."
+}

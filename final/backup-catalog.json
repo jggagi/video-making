@@ -772,6 +772,47 @@
       ]
     },
     {
+      "id": "si-ep07-untranslatable-tongue-v02",
+      "title": "Final 成片备份 · 后人类黑话 · v02（系列配音）",
+      "release_tag": "final-si-ep07-untranslatable-tongue-v02-a0b06851b5cc",
+      "assets": [
+        {
+          "path": "final/si-ep07-untranslatable-tongue-v02/B站/si-ep07-untranslatable-tongue-v02-bilibili-120s-4k.mp4",
+          "name": "final--si-ep07-untranslatable-tongue-v02--deliveries--si-ep07-untranslatable-tongue-v02--B---si-ep07-untranslatable-tongue-v02-bilibili-120s-4k--2e7478f36e9e.mp4",
+          "bytes": 153918132,
+          "sha256": "2e7478f36e9e4dbbacb640a53f2579f808c992d41243bcf04393a274f26bbdfb",
+          "kind": "video",
+          "platform": "B站",
+          "measurements": {
+            "width": 3840,
+            "height": 2160,
+            "fps": "60/1",
+            "frames": "7200",
+            "video_duration_seconds": 120.0,
+            "container_duration_seconds": 120.0
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep07-untranslatable-tongue-v02-a0b06851b5cc/final--si-ep07-untranslatable-tongue-v02--deliveries--si-ep07-untranslatable-tongue-v02--B---si-ep07-untranslatable-tongue-v02-bilibili-120s-4k--2e7478f36e9e.mp4"
+        },
+        {
+          "path": "final/si-ep07-untranslatable-tongue-v02/小红书/si-ep07-untranslatable-tongue-v02-xiaohongshu-120s-portrait.mp4",
+          "name": "final--si-ep07-untranslatable-tongue-v02--deliveries--si-ep07-untranslatable-tongue-v02-----si-ep07-untranslatable-tongue-v02-xiaohongshu-120s-portrait--7621a7e36efc.mp4",
+          "bytes": 115535635,
+          "sha256": "7621a7e36efc7e2057060ff7aeae2c3eec51cab0603870b7e83d3313a5bdaa16",
+          "kind": "video",
+          "platform": "小红书",
+          "measurements": {
+            "width": 2160,
+            "height": 3840,
+            "fps": "60/1",
+            "frames": "7200",
+            "video_duration_seconds": 120.0,
+            "container_duration_seconds": 120.0
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep07-untranslatable-tongue-v02-a0b06851b5cc/final--si-ep07-untranslatable-tongue-v02--deliveries--si-ep07-untranslatable-tongue-v02-----si-ep07-untranslatable-tongue-v02-xiaohongshu-120s-portrait--7621a7e36efc.mp4"
+        }
+      ]
+    },
+    {
       "id": "si-eternity",
       "title": "Final 成片备份 · 一眼万年",
       "release_tag": "final-si-eternity-66d480b1c859",

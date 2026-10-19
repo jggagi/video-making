@@ -1,0 +1,57 @@
+{
+  "shared_by": [
+    "PortraitVertical",
+    "Landscape4K"
+  ],
+  "generation": "Code-only SVG geometry, deterministic frames; no external AI visual assets",
+  "assets": [
+    {
+      "id": "font-pingfang-sc",
+      "provider": "local macOS system font",
+      "path": "/System/Library/AssetsV2/com_apple_MobileAsset_Font8/86ba2c91f017a3749571a82f2c6d890ac7ffb2fb.asset/AssetData/PingFang.ttc",
+      "sha256": "9ff3ce9439fe285cdabb46f9ceb46b1ac58f1ca07e6f4a764e8286db621a0af9",
+      "distribution": "Host prerequisite; not copied into public repository"
+    },
+    {
+      "id": "master-pcm",
+      "path": "public/audio/master.wav",
+      "status": "generated_series_voice_measured",
+      "provider": "Aliyun Bailian longtian_v3 / cosyvoice-v3-flash plus existing procedural score and SFX",
+      "cache_key": "shared_no_platform_duplicates",
+      "sha256": "6ace22a02071f065d80d5579fa09603dc4db025c29b18d3316426739b0fcc5cc",
+      "samples_per_channel": 5760000,
+      "sample_rate": 48000,
+      "channels": 2
+    },
+    {
+      "id": "caption-patch-portrait",
+      "path": "public/patches/portrait-caption-patch.mp4",
+      "sha256": "f536407623d3d5ce0a5780593249f65a3679d1111d31194018d2d7e026688dc8",
+      "bytes": 1804197,
+      "dimensions": [
+        2160,
+        360
+      ],
+      "frames": 7200,
+      "fps": 60,
+      "source_y": 2700,
+      "provider": "deterministic local SVG/DOM native-scale caption-band render",
+      "audio_streams": 0
+    },
+    {
+      "id": "caption-patch-landscape",
+      "path": "public/patches/landscape-caption-patch.mp4",
+      "sha256": "9c347ff9b021fb8df62a6a0379ff4c9f8e46a458e5882ce7fb1c70ae433700b2",
+      "bytes": 5764887,
+      "dimensions": [
+        3840,
+        360
+      ],
+      "frames": 7200,
+      "fps": 60,
+      "source_y": 1800,
+      "provider": "deterministic local SVG/DOM native-scale caption-band render",
+      "audio_streams": 0
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "work": "si-ep07-untranslatable-tongue-v02",
+  "intent": "replace_existing_video",
+  "authorization": "Original direct 发到小红书 plus current correction 要用这个系列一致的配音",
+  "target_account_name": "余问 QStory",
+  "note_id": "6ad64b3e000000002601481a",
+  "edit_url": "https://creator.xiaohongshu.com/publish/update?id=6ad64b3e000000002601481a&noteType=video",
+  "observed_at_utc": "2026-10-19T17:57:32.332314+00:00",
+  "current_note_visibility": "仅自己可见",
+  "visibility_changed_by_agent": false,
+  "replacement_control_observed": "重新上传 in existing note editor",
+  "visibility_decision": "No reply to optional visibility question yet. Preserve current 仅自己可见 when saving the requested voice correction; do not restore public without user selection.",
+  "video": {
+    "path": "小红书/si-ep07-untranslatable-tongue-v02-xiaohongshu-120s-portrait.mp4",
+    "sha256": "7621a7e36efc7e2057060ff7aeae2c3eec51cab0603870b7e83d3313a5bdaa16",
+    "bytes": 115535635,
+    "seconds": 120,
+    "width": 2160,
+    "height": 3840,
+    "fps": 60
+  },
+  "status": "existing_note_video_revision_submitted_under_review_private",
+  "submission_attempted": true,
+  "submission_verified": true,
+  "publication_verified": false,
+  "public_visibility_verified": false,
+  "evidence_private": "/private/tmp/ep07-v02-update-submitted.png",
+  "cover": {
+    "path": "小红书/cover-frame-99.5s.png",
+    "source": "v02 actual final frame5970",
+    "sha256": "03a5fe4b0529b73bc6f8eee241c82ce6944259d791ceedacb5e46f81b00095a3"
+  },
+  "visibility_change_authorized": false,
+  "prepared_at_utc": "2026-10-19T17:56:56.251465+00:00",
+  "settings_readback": {
+    "title": "当AI说黑话，人类成了宠物",
+    "copy": "Original supplied text plus science-fiction label retained; publication-content.json",
+    "topics": [
+      "超级智能",
+      "人工智能",
+      "细思极恐",
+      "科幻美学",
+      "数字艺术",
+      "一眼万年"
+    ],
+    "AI_statement": "笔记含AI合成内容",
+    "PK_cover": false,
+    "original_declaration": false,
+    "visibility": "仅自己可见",
+    "schedule": "no scheduling control selected",
+    "cover": "actual v02 frame5970; preview reviewed",
+    "filename_observed": "si-ep07-untranslatable-tongue-v02-xiaohongshu-120s-portrait.mp4"
+  },
+  "attempt_started_at_utc": "2026-10-19T17:57:09.520992+00:00",
+  "result": {
+    "manager_status": "审核中",
+    "visibility": "仅自己可见",
+    "total_notes_before": 8,
+    "total_notes_after": 8,
+    "duplicate_created": false,
+    "note_creation_time_display": "2026-10-20 00:54",
+    "platform_file_hash_verified": false
+  }
+}

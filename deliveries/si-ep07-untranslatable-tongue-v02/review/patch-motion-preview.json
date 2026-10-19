@@ -1,0 +1,59 @@
+{
+  "samples": [
+    {
+      "path": "review/caption-revision-portrait-570-749.mp4",
+      "sha256": "d89687a7b2819cf1f9a6365c85fff1b10e1f4d3ed05a19eff1cfae25c4597022",
+      "strict_decode": 0,
+      "streams": [
+        {
+          "codec_type": "video",
+          "width": 2160,
+          "height": 3840,
+          "r_frame_rate": "60/1",
+          "nb_frames": "180",
+          "duration": "3.000000",
+          "sample_rate": null,
+          "channels": null
+        },
+        {
+          "codec_type": "audio",
+          "width": null,
+          "height": null,
+          "r_frame_rate": "0/0",
+          "nb_frames": "142",
+          "duration": "3.000000",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ]
+    },
+    {
+      "path": "review/caption-revision-landscape-6270-6449.mp4",
+      "sha256": "f56ea56456b2cc51b85c867eb7bc1fec1e0bdb77e9da2ead0a1619758bdec29f",
+      "strict_decode": 0,
+      "streams": [
+        {
+          "codec_type": "video",
+          "width": 3840,
+          "height": 2160,
+          "r_frame_rate": "60/1",
+          "nb_frames": "180",
+          "duration": "3.000000",
+          "sample_rate": null,
+          "channels": null
+        },
+        {
+          "codec_type": "audio",
+          "width": null,
+          "height": null,
+          "r_frame_rate": "0/0",
+          "nb_frames": "142",
+          "duration": "3.000000",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ]
+    }
+  ],
+  "model_observation": "Actual encoded portrait frames at10.0/12.0s and landscape106.0s, plus native portrait seam crop inspected. Captions legible; no obvious seam or displacement in inspected evidence. No claim of continuous human listening or final movie acceptance."
+}

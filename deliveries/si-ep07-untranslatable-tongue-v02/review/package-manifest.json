@@ -1,0 +1,1261 @@
+{
+  "archive": {
+    "crc_status": "PASS",
+    "member_count": 200,
+    "path": "si-ep07-untranslatable-tongue-v02-project.zip",
+    "sha256": "8fdeebdddf1b664619145fa0dcd394f2e1ce6716f101d5018b8a6ec571ce1b7f",
+    "size_bytes": 73479641
+  },
+  "exclusions": {
+    "counts_by_reason": {
+      "account_state_record": 1,
+      "dependency_runtime_or_transient_directory": 1,
+      "hidden_or_local_configuration": 1,
+      "large_or_frame_qa_image": 5,
+      "local_authorization_record": 1,
+      "raw_preview_or_non_pcm_audio": 11,
+      "rendered_movie": 8,
+      "runtime_log_or_temporary_file": 14,
+      "symlink_not_followed": 1
+    },
+    "items": [
+      {
+        "path": ".gitignore",
+        "reason": "hidden_or_local_configuration"
+      },
+      {
+        "path": "B站/si-ep07-untranslatable-tongue-v02-bilibili-120s-4k.mp4",
+        "reason": "rendered_movie"
+      },
+      {
+        "path": "project/audio-authorization.json",
+        "reason": "local_authorization_record"
+      },
+      {
+        "path": "project/node_modules",
+        "reason": "symlink_not_followed"
+      },
+      {
+        "path": "project/public/audio/tts-input/Q98-cf68f18a718d.txt",
+        "reason": "raw_preview_or_non_pcm_audio"
+      },
+      {
+        "path": "project/public/audio/tts-input/S01-51f77c619fec.txt",
+        "reason": "raw_preview_or_non_pcm_audio"
+      },
+      {
+        "path": "project/public/audio/tts-input/S02-6495ca9458c5.txt",
+        "reason": "raw_preview_or_non_pcm_audio"
+      },
+      {
+        "path": "project/public/audio/tts-input/S03-78a0033d4a43.txt",
+        "reason": "raw_preview_or_non_pcm_audio"
+      },
+      {
+        "path": "project/public/audio/tts-input/S04-0e4e79eeaf3a.txt",
+        "reason": "raw_preview_or_non_pcm_audio"
+      },
+      {
+        "path": "project/public/audio/tts-input/S05-8de6c0853c1f.txt",
+        "reason": "raw_preview_or_non_pcm_audio"
+      },
+      {
+        "path": "project/public/audio/tts-input/S06-59186f56eb5c.txt",
+        "reason": "raw_preview_or_non_pcm_audio"
+      },
+      {
+        "path": "project/public/audio/tts-input/S07-2ae2877828de.txt",
+        "reason": "raw_preview_or_non_pcm_audio"
+      },
+      {
+        "path": "project/public/audio/tts-input/S08-a3253444b150.txt",
+        "reason": "raw_preview_or_non_pcm_audio"
+      },
+      {
+        "path": "project/public/audio/tts-input/S09-da591f320558.txt",
+        "reason": "raw_preview_or_non_pcm_audio"
+      },
+      {
+        "path": "project/public/audio/tts-input/S10-505a22f26273.txt",
+        "reason": "raw_preview_or_non_pcm_audio"
+      },
+      {
+        "path": "project/public/patches/landscape-caption-patch.mp4",
+        "reason": "rendered_movie"
+      },
+      {
+        "path": "project/public/patches/portrait-caption-patch.mp4",
+        "reason": "rendered_movie"
+      },
+      {
+        "path": "project/scripts/__pycache__",
+        "reason": "dependency_runtime_or_transient_directory"
+      },
+      {
+        "path": "review/audio-mix-final.log",
+        "reason": "runtime_log_or_temporary_file"
+      },
+      {
+        "path": "review/audio-mix.log",
+        "reason": "runtime_log_or_temporary_file"
+      },
+      {
+        "path": "review/caption-revision-landscape-6270-6449.mp4",
+        "reason": "rendered_movie"
+      },
+      {
+        "path": "review/caption-revision-portrait-570-749.mp4",
+        "reason": "rendered_movie"
+      },
+      {
+        "path": "review/composition-landscape.log",
+        "reason": "runtime_log_or_temporary_file"
+      },
+      {
+        "path": "review/composition-portrait.log",
+        "reason": "runtime_log_or_temporary_file"
+      },
+      {
+        "path": "review/final-media-collection.log",
+        "reason": "runtime_log_or_temporary_file"
+      },
+      {
+        "path": "review/final-validation.log",
+        "reason": "runtime_log_or_temporary_file"
+      },
+      {
+        "path": "review/patch-preview-landscape.log",
+        "reason": "runtime_log_or_temporary_file"
+      },
+      {
+        "path": "review/patch-preview-portrait.log",
+        "reason": "runtime_log_or_temporary_file"
+      },
+      {
+        "path": "review/patch-previews/caption-patch-landscape-6270-6449.mp4",
+        "reason": "rendered_movie"
+      },
+      {
+        "path": "review/patch-previews/caption-patch-portrait-570-749.mp4",
+        "reason": "rendered_movie"
+      },
+      {
+        "path": "review/patch-previews/portrait-seam-native.png",
+        "reason": "large_or_frame_qa_image"
+      },
+      {
+        "path": "review/patch-render-landscape.log",
+        "reason": "runtime_log_or_temporary_file"
+      },
+      {
+        "path": "review/patch-render-portrait.log",
+        "reason": "runtime_log_or_temporary_file"
+      },
+      {
+        "path": "review/patch-stills/caption-patch-landscape-6600.png",
+        "reason": "large_or_frame_qa_image"
+      },
+      {
+        "path": "review/patch-stills/caption-patch-portrait-960.png",
+        "reason": "large_or_frame_qa_image"
+      },
+      {
+        "path": "review/patch-stills/caption-source-landscape-6600.png",
+        "reason": "large_or_frame_qa_image"
+      },
+      {
+        "path": "review/patch-stills/caption-source-portrait-960.png",
+        "reason": "large_or_frame_qa_image"
+      },
+      {
+        "path": "review/scan-landscape.log",
+        "reason": "runtime_log_or_temporary_file"
+      },
+      {
+        "path": "review/scan-portrait.log",
+        "reason": "runtime_log_or_temporary_file"
+      },
+      {
+        "path": "review/synthesis-remaining.log",
+        "reason": "runtime_log_or_temporary_file"
+      },
+      {
+        "path": "review/synthesis.log",
+        "reason": "runtime_log_or_temporary_file"
+      },
+      {
+        "path": "小红书/publication-record.json",
+        "reason": "account_state_record"
+      },
+      {
+        "path": "小红书/si-ep07-untranslatable-tongue-v02-xiaohongshu-120s-portrait.mp4",
+        "reason": "rendered_movie"
+      }
+    ],
+    "rules": [
+      "Do not follow symlinks; exclude node_modules, .git, .remotion, bundles, logs, and hidden local configuration.",
+      "Exclude rendered movies and video evidence, local speech previews, Python caches, and runtime logs.",
+      "Include compact review JSON/Markdown/CSV up to 2 MiB and review JPEGs up to 1 MiB; omit frame PNGs and larger temporary QA.",
+      "Exclude the local account publication record and audio authorization record."
+    ]
+  },
+  "files": [
+    {
+      "path": "B站/captions.srt",
+      "sha256": "9848490c09c2e1b81cf8c71588d41b2275e94b542ee610f4f77912b4cfbfe953",
+      "size_bytes": 1958
+    },
+    {
+      "path": "delivery.json",
+      "sha256": "83618c744aa89908e09e9e140f8db387f731e8daa831d70ca0a3d81b9fc98a9c",
+      "size_bytes": 1181
+    },
+    {
+      "path": "project/README.md",
+      "sha256": "0cdaf1908af25f694b8b205924d784bb7f3a337d9188385e1dc19a15bd4b6b66",
+      "size_bytes": 2055
+    },
+    {
+      "path": "project/adapted-script.md",
+      "sha256": "a2342f2b6a3411b75e78c77fcd4617ee53d08ed192077541a4815f890457a4c1",
+      "size_bytes": 1312
+    },
+    {
+      "path": "project/assets-manifest.json",
+      "sha256": "0d21fabcda695ecf02b872387a949733c0997189c9cddc3070d889ae4bd5b0e0",
+      "size_bytes": 1923
+    },
+    {
+      "path": "project/audio-timing.json",
+      "sha256": "989e8e0314d5c908d8cd1cd497009402d6134d83c76aa2c266eb8ce7ec648b42",
+      "size_bytes": 39222
+    },
+    {
+      "path": "project/brief.md",
+      "sha256": "b795e44202a8c087696853c94d75902285d462d64f0698807838658886ac5672",
+      "size_bytes": 1658
+    },
+    {
+      "path": "project/layout-contract.json",
+      "sha256": "77c660e6ff52318c458088b929af1c714afebab9aaa845bafff123a75835df80",
+      "size_bytes": 501
+    },
+    {
+      "path": "project/package-lock.json",
+      "sha256": "d060dd7ac28dc33862e05ae80e9a94af1c733c32e0b5fdce093677bedd7608bd",
+      "size_bytes": 142077
+    },
+    {
+      "path": "project/package.json",
+      "sha256": "a1843ef03097dc372a194ca7995c337c360a039bb81c003237cc6f1666883eb5",
+      "size_bytes": 963
+    },
+    {
+      "path": "project/public/audio/canonical/Q98-cf68f18a718d.wav",
+      "sha256": "e144e608d77d2f121d77fd065e720ae3fa72051918aebaebb4cf7b4c50f55fe6",
+      "size_bytes": 80684
+    },
+    {
+      "path": "project/public/audio/canonical/S01-51f77c619fec.wav",
+      "sha256": "2f6ecc8c2af405be6d2d09dd696918ba299a584d2b53f4ca2fe8ef0d0be6f558",
+      "size_bytes": 303404
+    },
+    {
+      "path": "project/public/audio/canonical/S02-6495ca9458c5.wav",
+      "sha256": "f0dc68f41ad6529e2b4129cd668ae739146b60ecdda5b35e0bbe33108604a1d5",
+      "size_bytes": 506924
+    },
+    {
+      "path": "project/public/audio/canonical/S03-78a0033d4a43.wav",
+      "sha256": "bc8f351be4d421252730b5f6b25d5d0f8fe40908a7ae2d1455399033372419db",
+      "size_bytes": 299564
+    },
+    {
+      "path": "project/public/audio/canonical/S04-0e4e79eeaf3a.wav",
+      "sha256": "03e685412c431aa058da4b7f5b8c4ffec394597e764bef74dd391f344a2c024c",
+      "size_bytes": 265004
+    },
+    {
+      "path": "project/public/audio/canonical/S05-8de6c0853c1f.wav",
+      "sha256": "0b72a8fc65fc7c1ed1c34fb991178c046a45ad9d85acb4fe5cf69f8aadcdd947",
+      "size_bytes": 499244
+    },
+    {
+      "path": "project/public/audio/canonical/S06-59186f56eb5c.wav",
+      "sha256": "caa0de96b6e655622fa1b4553679179761fb89af1120eafd33745808cec30777",
+      "size_bytes": 576044
+    },
+    {
+      "path": "project/public/audio/canonical/S07-2ae2877828de.wav",
+      "sha256": "ce601ba609c9a87e887b35abf4ca05a0e30dc9d6229dfec8768e0a8320ca41b4",
+      "size_bytes": 330284
+    },
+    {
+      "path": "project/public/audio/canonical/S08-a3253444b150.wav",
+      "sha256": "efeebfccfede5b541681e70bbaa1112c9caa01dcb96d9ab1ce4ccc55651ca5df",
+      "size_bytes": 457004
+    },
+    {
+      "path": "project/public/audio/canonical/S09-da591f320558.wav",
+      "sha256": "7008fc19316dcee0ab6fa0ec41b94a0620bde1d15487f1fd696b75f3abff5b01",
+      "size_bytes": 303404
+    },
+    {
+      "path": "project/public/audio/canonical/S10-505a22f26273.wav",
+      "sha256": "c125a3c3934bb1e6b6181730d02fa6d165775027cf717f178dd37d62a4b4c3f5",
+      "size_bytes": 268844
+    },
+    {
+      "path": "project/public/audio/cues/Q98-cf68f18a718d.wav",
+      "sha256": "4e4433e5a13cb6cd6d0d23e23c9b74541d5d2149348ad09160898fb35cc2b6eb",
+      "size_bytes": 161358
+    },
+    {
+      "path": "project/public/audio/cues/S01-51f77c619fec.wav",
+      "sha256": "7357f348e9bc377511f70d5e6a003e5c058af09e8ba60eb7d3ed2d0d99499bb6",
+      "size_bytes": 606798
+    },
+    {
+      "path": "project/public/audio/cues/S02-6495ca9458c5.wav",
+      "sha256": "e9efaaa68a04d7ffe117e54ded0e857fb024ca00d60e2575542ec6c7bbf5aa2c",
+      "size_bytes": 1013838
+    },
+    {
+      "path": "project/public/audio/cues/S03-78a0033d4a43.wav",
+      "sha256": "0e01fed769d041d899dd5436ad1c3030ca7bd429f9f576a50d12a004ae7d7a57",
+      "size_bytes": 599118
+    },
+    {
+      "path": "project/public/audio/cues/S04-0e4e79eeaf3a.wav",
+      "sha256": "46e4ea9e7798a3fb629f3a15bfc428dec736dc2135a38483e7fe5500677089f1",
+      "size_bytes": 529998
+    },
+    {
+      "path": "project/public/audio/cues/S05-8de6c0853c1f.wav",
+      "sha256": "561b21662f93f482fe1eb96cd42d9cd18d73f4274c149a71920d85e6f822763e",
+      "size_bytes": 998478
+    },
+    {
+      "path": "project/public/audio/cues/S06-59186f56eb5c.wav",
+      "sha256": "961a93b0afc3ee2ee2c0c69ddd16db0455f37d360cd699bb042127d93a7c56cb",
+      "size_bytes": 1152078
+    },
+    {
+      "path": "project/public/audio/cues/S07-2ae2877828de.wav",
+      "sha256": "beb8c81855ab01296f24795afed24231157c97c12ee6e1239f058bd1b1635994",
+      "size_bytes": 660558
+    },
+    {
+      "path": "project/public/audio/cues/S08-a3253444b150.wav",
+      "sha256": "9bc558a567d7d3293ebfcbdb708e8eab33c6899de5584049c229fe4d0c51bc5c",
+      "size_bytes": 913998
+    },
+    {
+      "path": "project/public/audio/cues/S09-da591f320558.wav",
+      "sha256": "287881d3fc95459b0a9b20535e30be62df29f5584e3f95043d438cee30a0819a",
+      "size_bytes": 606798
+    },
+    {
+      "path": "project/public/audio/cues/S10-505a22f26273.wav",
+      "sha256": "6604190db7b3404da2efcc07b0c2ff0df9e309697d1648724c1633c32249e2bc",
+      "size_bytes": 537678
+    },
+    {
+      "path": "project/public/audio/master.wav",
+      "sha256": "6ace22a02071f065d80d5579fa09603dc4db025c29b18d3316426739b0fcc5cc",
+      "size_bytes": 23040044
+    },
+    {
+      "path": "project/public/audio/music.wav",
+      "sha256": "41400911d085a9eefc813ade2c45188dbe61c38b671c29e39b097d2617f372ba",
+      "size_bytes": 23040044
+    },
+    {
+      "path": "project/public/audio/narration.wav",
+      "sha256": "9e27fd9c415f4e9f2804fc114d6018b0ab6b44c1af7be7b39e63ce7ade3b857a",
+      "size_bytes": 23040044
+    },
+    {
+      "path": "project/public/audio/premaster.wav",
+      "sha256": "9f4222c49329229f176742ae5aa286755b44814681c57a98095be9d565a653db",
+      "size_bytes": 23040044
+    },
+    {
+      "path": "project/public/audio/provider-manifest.json",
+      "sha256": "81284226b571dc7c9ff413d2f7fc70d5635fd70b02c9820c53cbfe45e7951949",
+      "size_bytes": 17470
+    },
+    {
+      "path": "project/public/audio/raw/Q98-cf68f18a718d.wav",
+      "sha256": "c393195e2b098e46ffc2ef5fee81595f7d51ca54edf4276351a995286ef03811",
+      "size_bytes": 80684
+    },
+    {
+      "path": "project/public/audio/raw/S01-51f77c619fec.wav",
+      "sha256": "c705b21506a0cf1b360a5d682633e44cd1d3a8b5c8e6e97eaedcf8c5ac5df31c",
+      "size_bytes": 303404
+    },
+    {
+      "path": "project/public/audio/raw/S02-6495ca9458c5.wav",
+      "sha256": "0e1796a19692112a15b377ed26898bca3198aac6a003ce8a3d8bbc27cdcbefe7",
+      "size_bytes": 506924
+    },
+    {
+      "path": "project/public/audio/raw/S03-78a0033d4a43.wav",
+      "sha256": "5167e6fd673ee7c84938fc63fe98b8c19df9ca1e45b51943e8eb17303f7986d0",
+      "size_bytes": 299564
+    },
+    {
+      "path": "project/public/audio/raw/S04-0e4e79eeaf3a.wav",
+      "sha256": "7388cbfaa03f807fed66afd7dcc92b007cffc3f60986130d6725996b2599c91a",
+      "size_bytes": 265004
+    },
+    {
+      "path": "project/public/audio/raw/S05-8de6c0853c1f.wav",
+      "sha256": "90cc343037189b76dd43ec94042a1754395cf9feb53d0b85dd4fa7e1ad2a2b49",
+      "size_bytes": 499244
+    },
+    {
+      "path": "project/public/audio/raw/S06-59186f56eb5c.wav",
+      "sha256": "e51493032fa44b6a4cbc3be3e772efbb0df1af008cb42ee831e477a8bab79a57",
+      "size_bytes": 576044
+    },
+    {
+      "path": "project/public/audio/raw/S07-2ae2877828de.wav",
+      "sha256": "e794f3baa6e5d7574bb9e00bde5dd6be64cbd00a9ec942f3e48d0b0d9d257c7c",
+      "size_bytes": 330284
+    },
+    {
+      "path": "project/public/audio/raw/S08-a3253444b150.wav",
+      "sha256": "1616180411dd874996894dce1eaf0d0e96556e3a1c41b6b9c81c7367aed830a3",
+      "size_bytes": 457004
+    },
+    {
+      "path": "project/public/audio/raw/S09-da591f320558.wav",
+      "sha256": "eab6bfbf551c64e44885b9b5510564c448d8e711d754a7cbef74bebb0d65a9cd",
+      "size_bytes": 303404
+    },
+    {
+      "path": "project/public/audio/raw/S10-505a22f26273.wav",
+      "sha256": "1220373061c314153366253e1bd70af96a2946467f9f725bf4f84968f5bf3f65",
+      "size_bytes": 268844
+    },
+    {
+      "path": "project/public/audio/sfx.wav",
+      "sha256": "d56d35d5d359c3928c3d7e8340cb37bd3c608531f086eacc9f0616e285490ddc",
+      "size_bytes": 23040044
+    },
+    {
+      "path": "project/scientific-notes.md",
+      "sha256": "028ede5238f9a854483cec14436243c184610c7a2f25c700336212753d48be94",
+      "size_bytes": 1132
+    },
+    {
+      "path": "project/scripts/build_audio.py",
+      "sha256": "8443ec566bd46d60fc11d4a120081eb31a9d20cccf945ef23dca976a76c3b35f",
+      "size_bytes": 58355
+    },
+    {
+      "path": "project/scripts/collect_portrait_qa.py",
+      "sha256": "b18c41076b9c3d3cfdc633c0907d93c3929fb2358d0bd59c905cb7f8d97a8ca7",
+      "size_bytes": 1671
+    },
+    {
+      "path": "project/scripts/collect_qa.py",
+      "sha256": "a2f28640c945baa76cef9680f7bba951703ddd21ef0607e47da995c4e0535d3b",
+      "size_bytes": 25219
+    },
+    {
+      "path": "project/scripts/compose_revision.py",
+      "sha256": "62a529b04605821c5c5e303581c377dc97288a0addd43f8c6fc648bd66d93306",
+      "size_bytes": 20969
+    },
+    {
+      "path": "project/scripts/extract_flag_roi_evidence.py",
+      "sha256": "614678f80e38ff83b4484d1d634ed6f7588baf204b5b0b8d9c0db4344253d3ae",
+      "size_bytes": 2845
+    },
+    {
+      "path": "project/scripts/package_project.py",
+      "sha256": "e35c793888083a612a0b5fd3b0ee78d0ae7201c9c82aab3f9c15670f241291da",
+      "size_bytes": 35609
+    },
+    {
+      "path": "project/scripts/render.mjs",
+      "sha256": "488a7805106f69ca720b339a7d002af063ab6ee80c272e274a17e5b0ba5bce5a",
+      "size_bytes": 3932
+    },
+    {
+      "path": "project/scripts/render_caption_patch.mjs",
+      "sha256": "f60596ffca2f896cc785912796a677ae91937e4b5e1bc5822cfe9022423312f7",
+      "size_bytes": 8604
+    },
+    {
+      "path": "project/scripts/synthesize.py",
+      "sha256": "7198f7e7e35e1a9d623e275123343b30d4574cbb6a180652e681ef9c6626bbfe",
+      "size_bytes": 18797
+    },
+    {
+      "path": "project/scripts/synthesize_local.py",
+      "sha256": "3b83d1fcc850e60ba16cec0503b4ba5a839da83f1fd1ba2f68f89aa4018ae092",
+      "size_bytes": 20306
+    },
+    {
+      "path": "project/scripts/verify_project.py",
+      "sha256": "f58cfcfcd71f5f3bf27290b02688cb75dfaafa74e9352b6d84eda27d09859480",
+      "size_bytes": 2249
+    },
+    {
+      "path": "project/segments.json",
+      "sha256": "83a561c31b2eab1169160f0832209cf5383731f2695c340b91e3637fdf21cc86",
+      "size_bytes": 9331
+    },
+    {
+      "path": "project/sfx_events.json",
+      "sha256": "aae5a957e27519ea0431f55ea4a3d2085b25f43f35a7d3c43d6749b2b3a1c3f5",
+      "size_bytes": 1140
+    },
+    {
+      "path": "project/src/CanvasWorld.tsx",
+      "sha256": "578b395195d357631030a423b4081dd90e53e7f8b1ee10a659ec497f1fb64b27",
+      "size_bytes": 25651
+    },
+    {
+      "path": "project/src/CaptionPatch.tsx",
+      "sha256": "5263309495e6c1d726fe22bdd666f5d1edc5e07dcb2ca0ebd517cfaefaf59fa7",
+      "size_bytes": 1161
+    },
+    {
+      "path": "project/src/Film.tsx",
+      "sha256": "f9b29c2e773b538476785d36d7d5b84e35b3fe98b3a8281c1f65bda990c07c00",
+      "size_bytes": 7974
+    },
+    {
+      "path": "project/src/Root.tsx",
+      "sha256": "1f63f6be18f8ba84676ae3f23daea3e1bf4d28a368eb2b48965d0c8dd1797ea4",
+      "size_bytes": 826
+    },
+    {
+      "path": "project/src/index.ts",
+      "sha256": "a58f804bf74bab68b4549aa5c715eb4a89ec5835206d198fc79b462b4fc71ef9",
+      "size_bytes": 89
+    },
+    {
+      "path": "project/timeline.json",
+      "sha256": "24b4e2a7338e817cb08929bc19d2a112644cd042336289910a401803b9f3dade",
+      "size_bytes": 1645
+    },
+    {
+      "path": "project/tsconfig.json",
+      "sha256": "522ac46763476439555ea8ebe67a503254cc22cc4799c22c6163fa9172949625",
+      "size_bytes": 315
+    },
+    {
+      "path": "review/acceptance.md",
+      "sha256": "bf4392a7684249646f707c5ce615ace0ee4a3f3ec8e91ccdcc0666d6b73f985e",
+      "size_bytes": 1929
+    },
+    {
+      "path": "review/audio-audit-before-mix.json",
+      "sha256": "3206f7ee153cd54b0540dd0e3f765b07bdec5884a2e1587607d7fbdacd68e08a",
+      "size_bytes": 16205
+    },
+    {
+      "path": "review/audio-audit-final.json",
+      "sha256": "80fe6d7a2f81727f1cf3c12e2b028d23b7e21cf9dc09b9f2783dd64f5f860fcc",
+      "size_bytes": 16537
+    },
+    {
+      "path": "review/bailian-preflight.json",
+      "sha256": "694cdfaf91aeed88c3625a076595d63fccf86eea5c4ef5ac82fbc84ce5dea703",
+      "size_bytes": 370
+    },
+    {
+      "path": "review/composition-landscape.json",
+      "sha256": "f004a349e84b51c8d53f422a531e7d7658a32ff52c462d2eb27cafff78e6d01e",
+      "size_bytes": 1340
+    },
+    {
+      "path": "review/composition-portrait.json",
+      "sha256": "92da9290efede1241ea14527ea69ef1323e16aa4cfba12f72ee8b8908be6c84d",
+      "size_bytes": 1353
+    },
+    {
+      "path": "review/final-media-evidence.json",
+      "sha256": "7534b06464eccdad5ad22f29a36f20b00bd978c4636e1a5f9989fd7da6fa62e5",
+      "size_bytes": 50949
+    },
+    {
+      "path": "review/final-media-evidence/landscape/frames/frame-0120.jpg",
+      "sha256": "e96506011df5d869c4ccc5a02d2119234b7ed1597c4f51315760b730feadd355",
+      "size_bytes": 16289
+    },
+    {
+      "path": "review/final-media-evidence/landscape/frames/frame-0360.jpg",
+      "sha256": "2bd98e69da7bb7a02343b7739d8c58ced417fcbdc5b350cbb09d5d2dba5e2261",
+      "size_bytes": 24562
+    },
+    {
+      "path": "review/final-media-evidence/landscape/frames/frame-0960.jpg",
+      "sha256": "db9a2c6bb6f51b9686f3e04be069288b0ab9e971a3985d2d36bc067a4b50834a",
+      "size_bytes": 20770
+    },
+    {
+      "path": "review/final-media-evidence/landscape/frames/frame-1500.jpg",
+      "sha256": "b876ea63daacafd6c958d0a66134f140708e00750825aed4a3293c7038edf8d2",
+      "size_bytes": 19113
+    },
+    {
+      "path": "review/final-media-evidence/landscape/frames/frame-2099.jpg",
+      "sha256": "ba473ec751b7360207f328393004be7b4a392de21c80f5cfe6e5081a9a229b33",
+      "size_bytes": 15044
+    },
+    {
+      "path": "review/final-media-evidence/landscape/frames/frame-2100.jpg",
+      "sha256": "9e8ac8898d6f8b27c63c3f909c97d5fefd1fef3235454929ccd0f98f79a734aa",
+      "size_bytes": 20872
+    },
+    {
+      "path": "review/final-media-evidence/landscape/frames/frame-2250.jpg",
+      "sha256": "c45ff23ff90e0f7b5048a32b1b3ee25e72e5fb26b8f2c9a39c4efc12d494ee6d",
+      "size_bytes": 19185
+    },
+    {
+      "path": "review/final-media-evidence/landscape/frames/frame-3000.jpg",
+      "sha256": "f9f8ff634435b8e2d79e2da0730ba00582563caaa61dc3d04ec5ebc3749ee009",
+      "size_bytes": 20235
+    },
+    {
+      "path": "review/final-media-evidence/landscape/frames/frame-3899.jpg",
+      "sha256": "06e52a93f7007e1862f89ffffa75dc69f567fa98efc4a11fe31b34e1779e0717",
+      "size_bytes": 32285
+    },
+    {
+      "path": "review/final-media-evidence/landscape/frames/frame-3900.jpg",
+      "sha256": "0630dd8fcd8aff0dbe81a288c1f25f5e6be04e5dd04946403be833871c2e4ae7",
+      "size_bytes": 32504
+    },
+    {
+      "path": "review/final-media-evidence/landscape/frames/frame-4800.jpg",
+      "sha256": "da035e42b14a062acb2e5a0398f8dc3f82172434ae75c3a8948bdfd2b8f054e4",
+      "size_bytes": 31497
+    },
+    {
+      "path": "review/final-media-evidence/landscape/frames/frame-5879.jpg",
+      "sha256": "040a8c28e59eadc731cec0109a23d123e37954cc23e8665ac44694c8a44d63f8",
+      "size_bytes": 13305
+    },
+    {
+      "path": "review/final-media-evidence/landscape/frames/frame-5880.jpg",
+      "sha256": "ac0c7a6cdf2f92954c4c5a8addbf04565f95d7151668866a994c13d795dcd718",
+      "size_bytes": 13301
+    },
+    {
+      "path": "review/final-media-evidence/landscape/frames/frame-5909.jpg",
+      "sha256": "f7b479e971916bf9e2419d1972587d53a858371a8dbb7a30cfa924f415439ffd",
+      "size_bytes": 13179
+    },
+    {
+      "path": "review/final-media-evidence/landscape/frames/frame-5910.jpg",
+      "sha256": "2b04bf0c43823eb1e1b639223f1cd9a4e70ec5cd4c6f8e3d29a5a47c3234253c",
+      "size_bytes": 14655
+    },
+    {
+      "path": "review/final-media-evidence/landscape/frames/frame-6000.jpg",
+      "sha256": "fbe028c66c0c25c7d1c50b2f125a4a3a2448aa5f662efe201504d2e537e9f510",
+      "size_bytes": 14380
+    },
+    {
+      "path": "review/final-media-evidence/landscape/frames/frame-6600.jpg",
+      "sha256": "ddcb7531403486035d21c719223e88533c466fc8e64234da5ffd047819cc7fc9",
+      "size_bytes": 20267
+    },
+    {
+      "path": "review/final-media-evidence/landscape/frames/frame-7100.jpg",
+      "sha256": "d6c0b8141c7b0f8a0f5a364344fc6875353a57f7f82d1a0d69b5a91c5e60b762",
+      "size_bytes": 18883
+    },
+    {
+      "path": "review/final-media-evidence/landscape/frames/frame-7199.jpg",
+      "sha256": "1575636424d9071be1946251fa41cab7dffc266eea0fc58db67916c3481cc7e4",
+      "size_bytes": 16581
+    },
+    {
+      "path": "review/final-media-evidence/landscape/landscape-contact-sheet.jpg",
+      "sha256": "60345f9dd0c65d1342f36e51ff93103f58cf976b0802d0ed6fb0f7665ac3c4ef",
+      "size_bytes": 425052
+    },
+    {
+      "path": "review/final-media-evidence/landscape/landscape-pair-contact-sheet.jpg",
+      "sha256": "ce339df290b90bb07025cd4c577ae66c868d02940107dd4e0a9ca7f6ecc12e51",
+      "size_bytes": 792077
+    },
+    {
+      "path": "review/final-media-evidence/landscape/pair-roi/frame-0360.jpg",
+      "sha256": "e05d93ac48b5cfb9bc0e8460ba22aec1a737a2bb38d06743a9a11592d9e8916f",
+      "size_bytes": 37095
+    },
+    {
+      "path": "review/final-media-evidence/landscape/pair-roi/frame-0510.jpg",
+      "sha256": "be16519bcad42c76b8b1534275d64b25d82d3db81c67353c232bd8ee5044fdb4",
+      "size_bytes": 38554
+    },
+    {
+      "path": "review/final-media-evidence/landscape/pair-roi/frame-0720.jpg",
+      "sha256": "074b9637320a3adddaf5cbcfd74a16f690f78eab697b4323c9ecd179e26ed307",
+      "size_bytes": 34728
+    },
+    {
+      "path": "review/final-media-evidence/landscape/pair-roi/frame-0870.jpg",
+      "sha256": "04a5b10ea1c705a7c9f1ddaf4ca37793f5402880d675baa7d644636d7b875e70",
+      "size_bytes": 33992
+    },
+    {
+      "path": "review/final-media-evidence/landscape/pair-roi/frame-1440.jpg",
+      "sha256": "2abb2fc7286e320e4b341c5baef12f9c0a19731713665347eaefd344d38ff72a",
+      "size_bytes": 22165
+    },
+    {
+      "path": "review/final-media-evidence/landscape/pair-roi/frame-1590.jpg",
+      "sha256": "fd0a4403784f4b086b9a01f2ce4f81fc43bc1d4c58b0547fd387ccc4922c03ee",
+      "size_bytes": 22267
+    },
+    {
+      "path": "review/final-media-evidence/landscape/pair-roi/frame-1920.jpg",
+      "sha256": "57fd37664bbdc5aa459f2adf9651c7f4218157b0344e47d649b22ffa838cebae",
+      "size_bytes": 14930
+    },
+    {
+      "path": "review/final-media-evidence/landscape/pair-roi/frame-2070.jpg",
+      "sha256": "e194ccd98325b9a2b959029b1522c52351c0ea2e4ae7b0d82d5ca69a8bd0a3d5",
+      "size_bytes": 14939
+    },
+    {
+      "path": "review/final-media-evidence/landscape/pair-roi/frame-2580.jpg",
+      "sha256": "90fe5b52c434b8269bd7a1e900bb3446148575a4192a719a460a646e2b588605",
+      "size_bytes": 24531
+    },
+    {
+      "path": "review/final-media-evidence/landscape/pair-roi/frame-2730.jpg",
+      "sha256": "f19284052d4271fefb2b72490ced3bd0e0bd9cf72bd6a9943a5c7126a2e6137c",
+      "size_bytes": 23795
+    },
+    {
+      "path": "review/final-media-evidence/landscape/pair-roi/frame-3060.jpg",
+      "sha256": "6853bdba0a29e2ad0085bc48e4a9ac9c41b0765df0fd16577b38008735bc3d5e",
+      "size_bytes": 23339
+    },
+    {
+      "path": "review/final-media-evidence/landscape/pair-roi/frame-3210.jpg",
+      "sha256": "d65265e49765e5ba1c44162c74a837ecb085532000e7097ef6c450c50fdaca48",
+      "size_bytes": 23567
+    },
+    {
+      "path": "review/final-media-evidence/landscape/pair-roi/frame-3720.jpg",
+      "sha256": "3d85240469eeff7f84c59008745e4cefc9bfbb85b3b788ad63e7d48046606540",
+      "size_bytes": 53018
+    },
+    {
+      "path": "review/final-media-evidence/landscape/pair-roi/frame-3870.jpg",
+      "sha256": "21c0471f965229b51c5353c6bc8397a7b5f9e844e86c063667f96c69036c6e2e",
+      "size_bytes": 52808
+    },
+    {
+      "path": "review/final-media-evidence/landscape/pair-roi/frame-4380.jpg",
+      "sha256": "e20b4f031561840b3090273af99d0b137e969dd0031f5f9b33d5ded1eff66e1a",
+      "size_bytes": 50613
+    },
+    {
+      "path": "review/final-media-evidence/landscape/pair-roi/frame-4530.jpg",
+      "sha256": "ddcdf3bd06854d85170fa8a9ac7c0fb29400aca42c389adc1af9420b4d4c4959",
+      "size_bytes": 50135
+    },
+    {
+      "path": "review/final-media-evidence/landscape/pair-roi/frame-4980.jpg",
+      "sha256": "5c910657d00ebdcbefd7fe5153ddd04ac47a6e5f8fc8e14b1b035042f112883f",
+      "size_bytes": 49397
+    },
+    {
+      "path": "review/final-media-evidence/landscape/pair-roi/frame-5130.jpg",
+      "sha256": "7db08a5bb71138fcb7aeb4532fec5b1191be4f2eb03bd32d1abe2b1a46eee84a",
+      "size_bytes": 50407
+    },
+    {
+      "path": "review/final-media-evidence/landscape/pair-roi/frame-5520.jpg",
+      "sha256": "2909af22bf410047106160c4ad758bdba9be1d4b8c032dd46e077ac6cdf86a1c",
+      "size_bytes": 14821
+    },
+    {
+      "path": "review/final-media-evidence/landscape/pair-roi/frame-5670.jpg",
+      "sha256": "e95b7bef55d7143da6cb32ca4f209dd83bbc0f761047ddfa0e7bbd9a9581a441",
+      "size_bytes": 14578
+    },
+    {
+      "path": "review/final-media-evidence/landscape/pair-roi/frame-6000.jpg",
+      "sha256": "975a037538ac7b7f6e604c68a5f455264719188ef7ddc3f7a5f8c358d3ecb5a1",
+      "size_bytes": 17344
+    },
+    {
+      "path": "review/final-media-evidence/landscape/pair-roi/frame-6150.jpg",
+      "sha256": "653202f11a77c207391cc5bd57d545c91e7db0d0aa161c4af9535f0a3c03e170",
+      "size_bytes": 17080
+    },
+    {
+      "path": "review/final-media-evidence/landscape/pair-roi/frame-6480.jpg",
+      "sha256": "b9e413a72ef9af4499debf01c59f8ed0761cb62ed171b6097878d2920c367425",
+      "size_bytes": 25072
+    },
+    {
+      "path": "review/final-media-evidence/landscape/pair-roi/frame-6630.jpg",
+      "sha256": "5fee5d9ccad9889bff9213e1471cb29787ed2d19ad87a6544309f4a714a4d3bd",
+      "size_bytes": 24448
+    },
+    {
+      "path": "review/final-media-evidence/landscape/pair-roi/frame-6960.jpg",
+      "sha256": "d9e8f101ee111a3f939e3493011e338a7415e097e1e84acc7ac1b6cbce96a3bc",
+      "size_bytes": 26062
+    },
+    {
+      "path": "review/final-media-evidence/landscape/pair-roi/frame-7110.jpg",
+      "sha256": "5a43d67e776a635ea91fdc6b495c552a5166bdf8c7f66730377cd1149d2ff8a7",
+      "size_bytes": 24113
+    },
+    {
+      "path": "review/final-media-evidence/portrait/frames/frame-0120.jpg",
+      "sha256": "893717e69301cfabf13ad4fb9b4680d993134d4e5208844ad0cd1a238f5575f1",
+      "size_bytes": 20191
+    },
+    {
+      "path": "review/final-media-evidence/portrait/frames/frame-0360.jpg",
+      "sha256": "f5dc298ffa4d206584607651e464562c8bff65a6fde67538760ffb92b9658b50",
+      "size_bytes": 27325
+    },
+    {
+      "path": "review/final-media-evidence/portrait/frames/frame-0960.jpg",
+      "sha256": "65d2321375cd8fe5a6e45f1ceef3335dc33fcbce7e51c9c0d7043aad876bc7e6",
+      "size_bytes": 24295
+    },
+    {
+      "path": "review/final-media-evidence/portrait/frames/frame-1500.jpg",
+      "sha256": "c05650da1fc43d14448ed6e91e12b455f5666ca372080a7b1748ec73f3b35d45",
+      "size_bytes": 21501
+    },
+    {
+      "path": "review/final-media-evidence/portrait/frames/frame-2099.jpg",
+      "sha256": "9286f989e984615b83a72cd6fc86619075dfd5c98dc4156ffdd64571bac3301b",
+      "size_bytes": 17077
+    },
+    {
+      "path": "review/final-media-evidence/portrait/frames/frame-2100.jpg",
+      "sha256": "3bbcab4de8b2be11ebe54a03d30113521ab3b7b723a80abbc0677ccedf9bf5b5",
+      "size_bytes": 20419
+    },
+    {
+      "path": "review/final-media-evidence/portrait/frames/frame-2250.jpg",
+      "sha256": "24a6d5daf6569cb69fff2d0e1d8c66e0229e917afad10fea1649758d2ff93053",
+      "size_bytes": 17626
+    },
+    {
+      "path": "review/final-media-evidence/portrait/frames/frame-3000.jpg",
+      "sha256": "58998ea9e214f36cb92c37b8b01fb99825a5f0188031f8e647383f49b9a7ae97",
+      "size_bytes": 20124
+    },
+    {
+      "path": "review/final-media-evidence/portrait/frames/frame-3899.jpg",
+      "sha256": "b041884a0f9583941095d866939826576fff3899d7c0caaaa755a9cb78259c6c",
+      "size_bytes": 31865
+    },
+    {
+      "path": "review/final-media-evidence/portrait/frames/frame-3900.jpg",
+      "sha256": "b792994cf89afca92d3f4551705e6b9576973e926dd6c3ac04ddd435d09c2bb2",
+      "size_bytes": 32481
+    },
+    {
+      "path": "review/final-media-evidence/portrait/frames/frame-4800.jpg",
+      "sha256": "8e8eb72668868e2d999280a65841322499029374cd08b01a4774e09e9e28a2e2",
+      "size_bytes": 31604
+    },
+    {
+      "path": "review/final-media-evidence/portrait/frames/frame-5879.jpg",
+      "sha256": "a0e2dfdbb7e6cffd2107f00d3d2371be8f9412e463c8271334111422029a8ed6",
+      "size_bytes": 14830
+    },
+    {
+      "path": "review/final-media-evidence/portrait/frames/frame-5880.jpg",
+      "sha256": "826eef8ccd31f4bdb90e14bf1ec4070eefe22e998ce9de22c2eb46fc7b21833c",
+      "size_bytes": 14818
+    },
+    {
+      "path": "review/final-media-evidence/portrait/frames/frame-5909.jpg",
+      "sha256": "32bf96a97f44e0fc416801001e213526bb77a3f17f85945c40dec179f125e377",
+      "size_bytes": 14794
+    },
+    {
+      "path": "review/final-media-evidence/portrait/frames/frame-5910.jpg",
+      "sha256": "8b6f05aeb4126581450ca467391d13f32ee50f3527bd6da8b9bd1ebcc7846233",
+      "size_bytes": 16379
+    },
+    {
+      "path": "review/final-media-evidence/portrait/frames/frame-6000.jpg",
+      "sha256": "9df2a3bb403ce114ebbe41a2540325027e9ce4dd61c7ede848b30fa6d570e0af",
+      "size_bytes": 16226
+    },
+    {
+      "path": "review/final-media-evidence/portrait/frames/frame-6600.jpg",
+      "sha256": "545f6de8843dd2a7f387ababdba23feff56a3dbe32feaee2ad2076b23f02e2a5",
+      "size_bytes": 20471
+    },
+    {
+      "path": "review/final-media-evidence/portrait/frames/frame-7100.jpg",
+      "sha256": "506a51972fdfad935e356c46524a496f9533b5a160653076e12ccd80e00720d5",
+      "size_bytes": 20495
+    },
+    {
+      "path": "review/final-media-evidence/portrait/frames/frame-7199.jpg",
+      "sha256": "f8bf9227831bc02a41d8493e66713775d545a0df6f6674cecd244e7207734216",
+      "size_bytes": 17912
+    },
+    {
+      "path": "review/final-media-evidence/portrait/pair-roi/frame-0360.jpg",
+      "sha256": "cb5efbb977b5bdf8ca870cc843d0d839c749b24796ee164a866845a6e0b271e7",
+      "size_bytes": 30375
+    },
+    {
+      "path": "review/final-media-evidence/portrait/pair-roi/frame-0510.jpg",
+      "sha256": "c112244607c5c49724d5e312056ef463e2199ccfc7aa083ab6a5a07895fc4556",
+      "size_bytes": 31125
+    },
+    {
+      "path": "review/final-media-evidence/portrait/pair-roi/frame-0720.jpg",
+      "sha256": "e7531350ac3a0015cfeecdeb26532c0d63fb7ab68bad09a70148c83671e18082",
+      "size_bytes": 29164
+    },
+    {
+      "path": "review/final-media-evidence/portrait/pair-roi/frame-0870.jpg",
+      "sha256": "f4d63495451074729d2240c70c74c0ed31697019f333a01149e1cb3f51c95d7d",
+      "size_bytes": 28692
+    },
+    {
+      "path": "review/final-media-evidence/portrait/pair-roi/frame-1440.jpg",
+      "sha256": "1be704dae1c4bf0e48a00c3fde2cde3690cf0f72a8d4cac49c88a1d1af630250",
+      "size_bytes": 16559
+    },
+    {
+      "path": "review/final-media-evidence/portrait/pair-roi/frame-1590.jpg",
+      "sha256": "976d16440940a0a652a9342e19722238aaf9823af82dd62e95efd06912d29755",
+      "size_bytes": 16755
+    },
+    {
+      "path": "review/final-media-evidence/portrait/pair-roi/frame-1920.jpg",
+      "sha256": "25a16b73a0ae0cc05fa2705cbe91144de89cbda6183c532658d983911a47d393",
+      "size_bytes": 9485
+    },
+    {
+      "path": "review/final-media-evidence/portrait/pair-roi/frame-2070.jpg",
+      "sha256": "429cfc1de766aeecbf7d10c2dd5e984b8091870e564b07f8c201fe635670b019",
+      "size_bytes": 9857
+    },
+    {
+      "path": "review/final-media-evidence/portrait/pair-roi/frame-2580.jpg",
+      "sha256": "8db371e8c6553abf2d6d167f8f4991d217594fc8de1b96a15da89e979bdf6a5a",
+      "size_bytes": 18950
+    },
+    {
+      "path": "review/final-media-evidence/portrait/pair-roi/frame-2730.jpg",
+      "sha256": "b6ef9a856e7a779e5687ec210e67cff8b16d218487141d22ba1e4ad5a243d7eb",
+      "size_bytes": 18239
+    },
+    {
+      "path": "review/final-media-evidence/portrait/pair-roi/frame-3060.jpg",
+      "sha256": "b4f14ac7872f19b1a9c508d82a45d9a8896bb73e7aee845136731747fc4eb604",
+      "size_bytes": 17823
+    },
+    {
+      "path": "review/final-media-evidence/portrait/pair-roi/frame-3210.jpg",
+      "sha256": "01acb1e4592464c06328954583b21ec5ce56704a2c3c6421ff0cc3da2ece024a",
+      "size_bytes": 17700
+    },
+    {
+      "path": "review/final-media-evidence/portrait/pair-roi/frame-3720.jpg",
+      "sha256": "0c09a2b6e4004148a9a9b7d7d2cdf7d4ce3f7aeda0568ecaaa2724d3c156390b",
+      "size_bytes": 43137
+    },
+    {
+      "path": "review/final-media-evidence/portrait/pair-roi/frame-3870.jpg",
+      "sha256": "a9ed0065292b53b3af8a8a454775318e7592f6ecebb2d7be759757a1210b70b8",
+      "size_bytes": 43009
+    },
+    {
+      "path": "review/final-media-evidence/portrait/pair-roi/frame-4380.jpg",
+      "sha256": "129f6c3f242354ae4eea9a1c8cb9587f27e9604a61baa1f669d40fecdc3d656f",
+      "size_bytes": 41873
+    },
+    {
+      "path": "review/final-media-evidence/portrait/pair-roi/frame-4530.jpg",
+      "sha256": "90b3d70c6b28326676b7ed1e473ad510a31f9a83b4e4d9d672932cdb9ca96048",
+      "size_bytes": 41569
+    },
+    {
+      "path": "review/final-media-evidence/portrait/pair-roi/frame-4980.jpg",
+      "sha256": "ecbd9d4ffa853dc9795da5cc887a7bc2e7e9f14871b12219dc1acbddef9b0e3a",
+      "size_bytes": 40896
+    },
+    {
+      "path": "review/final-media-evidence/portrait/pair-roi/frame-5130.jpg",
+      "sha256": "c8caf5941b65d35f75007759aeafc7ada93cb6f3eea3a20033f97de98a1cfcce",
+      "size_bytes": 41811
+    },
+    {
+      "path": "review/final-media-evidence/portrait/pair-roi/frame-5520.jpg",
+      "sha256": "c3b63e067a204475012f80d31c3fba7bf7c44902ea1e585a9fd7bd5f00192f3f",
+      "size_bytes": 10716
+    },
+    {
+      "path": "review/final-media-evidence/portrait/pair-roi/frame-5670.jpg",
+      "sha256": "fa01b6bd677dadcfbf02debabf6b965ea5b7c00141d1ac2705351bdfb4f7aba4",
+      "size_bytes": 10528
+    },
+    {
+      "path": "review/final-media-evidence/portrait/pair-roi/frame-6000.jpg",
+      "sha256": "d12ac8ebcaad9e326d6dfc90b5414fa6afb07fc30762eb1b4e0661401435d129",
+      "size_bytes": 12539
+    },
+    {
+      "path": "review/final-media-evidence/portrait/pair-roi/frame-6150.jpg",
+      "sha256": "9dcdf76690e9c8b6d9578bfc9a151d87997af317be89d7efc75db99729b9d3bd",
+      "size_bytes": 12183
+    },
+    {
+      "path": "review/final-media-evidence/portrait/pair-roi/frame-6480.jpg",
+      "sha256": "b0091397867760b407acca6c19556dcfa430477e357bc92cf644b8a27f2cd5d3",
+      "size_bytes": 22388
+    },
+    {
+      "path": "review/final-media-evidence/portrait/pair-roi/frame-6630.jpg",
+      "sha256": "eddbf56ca005d7fea7461b699fb0fe31c09512dac616f5661d6f9b52ace1737e",
+      "size_bytes": 21933
+    },
+    {
+      "path": "review/final-media-evidence/portrait/pair-roi/frame-6960.jpg",
+      "sha256": "0e27a7a9f4b5963959c56340c54e7fd99bb4283bcf6d34f4b279d84e936daaf8",
+      "size_bytes": 20398
+    },
+    {
+      "path": "review/final-media-evidence/portrait/pair-roi/frame-7110.jpg",
+      "sha256": "b3b4e87d2d75cf36e12f1af571fe761bbc6da2a7c021921f7a5fad6e56f604ae",
+      "size_bytes": 19138
+    },
+    {
+      "path": "review/final-media-evidence/portrait/portrait-contact-sheet.jpg",
+      "sha256": "34b300f7e877f93f335f13358440e64c979b5305b1481dbb43be5df0799373e7",
+      "size_bytes": 435557
+    },
+    {
+      "path": "review/final-media-evidence/portrait/portrait-pair-contact-sheet.jpg",
+      "sha256": "3192179aaf739dd85196de18e35bed4d16f8ada63c6c65d5d608d9ca9cda57b8",
+      "size_bytes": 667123
+    },
+    {
+      "path": "review/media-validation-20261019T175449.370711Z.json",
+      "sha256": "78a529dc002d0364a3f5dfd6363d97cc6fc092c25d24e97149b1e55cfbff8468",
+      "size_bytes": 5365
+    },
+    {
+      "path": "review/patch-motion-preview.json",
+      "sha256": "22144ac75196bac79022787f568b8355e92fd281bd67b26c048fa4ab42792c2a",
+      "size_bytes": 1761
+    },
+    {
+      "path": "review/patch-previews/landscape-composite-01.jpg",
+      "sha256": "aac553123e829fc2799189cb5d43215f8a72c9c266d28f26f0a8453c336ee4a4",
+      "size_bytes": 12311
+    },
+    {
+      "path": "review/patch-previews/landscape-composite-02.jpg",
+      "sha256": "e209c8accc353d21da7d3dc497843cc75ebd4b326e2207a888c4ab470c03d049",
+      "size_bytes": 24806
+    },
+    {
+      "path": "review/patch-previews/landscape-composite-03.jpg",
+      "sha256": "ae4ebcae536b9798be770f5ee0afe3fe94e32669e71172ffeb2aa8e2f5aeebe2",
+      "size_bytes": 24790
+    },
+    {
+      "path": "review/patch-previews/landscape-composite-04.jpg",
+      "sha256": "541bd4c517877f7aabeffe774157384a93284a2ff2d13a0f1b9ddc3eb587db7d",
+      "size_bytes": 20234
+    },
+    {
+      "path": "review/patch-previews/portrait-composite-01.jpg",
+      "sha256": "a6f0442de5ce2abfff368ec09d345fb0bef7728f730b942d597ad45f26460c66",
+      "size_bytes": 19763
+    },
+    {
+      "path": "review/patch-previews/portrait-composite-02.jpg",
+      "sha256": "40552065d877e18ed2770056ee8857223c7c884677a82a3e80302a6c803170aa",
+      "size_bytes": 31757
+    },
+    {
+      "path": "review/patch-previews/portrait-composite-03.jpg",
+      "sha256": "8979526dfb8a554212948838c436368c826520b427dbfe0960cd15936e1185b7",
+      "size_bytes": 31556
+    },
+    {
+      "path": "review/patch-previews/portrait-composite-04.jpg",
+      "sha256": "a95a19cb7d46e1fa9ec8d40e92f75a27a7b46b2a1e25ea9c2bfde168ef7952c5",
+      "size_bytes": 25614
+    },
+    {
+      "path": "review/patch-source-comparison.json",
+      "sha256": "30cf289d3301183222cab420d351f4e75180a7670720a57f2346358c2087957e",
+      "size_bytes": 1592
+    },
+    {
+      "path": "review/patch-stills/patch-vs-full-landscape-6600.jpg",
+      "sha256": "d451beac2c23cde27b82a5e6b9867a35715aac621a713492bcc97766abf40a6d",
+      "size_bytes": 77463
+    },
+    {
+      "path": "review/patch-stills/patch-vs-full-portrait-960.jpg",
+      "sha256": "46fdecd442cce6afaa999c394a9b7d627cd0c7cef8cff18eb19e8a03e0043e0f",
+      "size_bytes": 92942
+    },
+    {
+      "path": "review/project-verification.json",
+      "sha256": "44b9288c7f1a8f143cfc7684d5d73860dc7bc3a279e13c6dd0313c766ef13b32",
+      "size_bytes": 469
+    },
+    {
+      "path": "review/render-configuration.json",
+      "sha256": "3f9cde657754236852d28a38a29892251bf79e8e95de2148862549d633501079",
+      "size_bytes": 1853
+    },
+    {
+      "path": "review/revision.json",
+      "sha256": "f6d6cd6ee373f90e4d9bd1852ed2fd3165d7e10b246e53973416ef3e2945b552",
+      "size_bytes": 1404
+    },
+    {
+      "path": "review/series-voice-identity.json",
+      "sha256": "8bc998c4d98518298d0e1cdb5e844634a36baad94d421bb3bfe0e8b4c33d7ac6",
+      "size_bytes": 1215
+    },
+    {
+      "path": "review/visual-qc-bilibili/metrics.csv",
+      "sha256": "58bb57f00efe706984378d82e0e3656b7b0070a94095cfb2fce340bf14d5cc4c",
+      "size_bytes": 461837
+    },
+    {
+      "path": "review/visual-qc-bilibili/report.json",
+      "sha256": "a82146e255305236523feb183ccde3174ba8aa4b604791961b6e45ee9b45dd60",
+      "size_bytes": 3679
+    },
+    {
+      "path": "review/visual-qc-bilibili/suspicious-contact.jpg",
+      "sha256": "9787cd1a1edfb60e4f0fe8444b452f2090708669659c0acedd15a0d333ceb542",
+      "size_bytes": 3316
+    },
+    {
+      "path": "review/visual-qc-xiaohongshu/metrics.csv",
+      "sha256": "c4efdd64d6e4367331a8545b2b90ba59e96f9f9778be42ce4bcccfdb152159f1",
+      "size_bytes": 461804
+    },
+    {
+      "path": "review/visual-qc-xiaohongshu/report.json",
+      "sha256": "da64bcb76a6b2853b2175f99e66d125634cbee2fc1c182b359530e033ffbb863",
+      "size_bytes": 3721
+    },
+    {
+      "path": "review/visual-qc-xiaohongshu/suspicious-contact.jpg",
+      "sha256": "9787cd1a1edfb60e4f0fe8444b452f2090708669659c0acedd15a0d333ceb542",
+      "size_bytes": 3316
+    },
+    {
+      "path": "source/script.md",
+      "sha256": "f293789134bce76e1c552471c3e9ac6716a07441ee7e04bd10fb94637f931bbc",
+      "size_bytes": 20754
+    },
+    {
+      "path": "小红书/captions.srt",
+      "sha256": "9848490c09c2e1b81cf8c71588d41b2275e94b542ee610f4f77912b4cfbfe953",
+      "size_bytes": 1958
+    },
+    {
+      "path": "小红书/cover-frame-99.5s.png",
+      "sha256": "03a5fe4b0529b73bc6f8eee241c82ce6944259d791ceedacb5e46f81b00095a3",
+      "size_bytes": 1475520
+    },
+    {
+      "path": "小红书/publication-content.json",
+      "sha256": "099b417c5448571c4cef9f5ec2b86056df17beab97171694b3a9eea92d18733c",
+      "size_bytes": 2136
+    },
+    {
+      "path": "小红书/publication-copy.md",
+      "sha256": "477c1787893e42ec35dcc00b9df1e679f304c72ddda0c38bf373db7c380bc444",
+      "size_bytes": 1959
+    },
+    {
+      "path": "PACKAGE-MANIFEST.json",
+      "sha256": "76c734ad6e64bc5bd0aba143085d44e7a201ffa8bb93886eae09006d57eb84d0",
+      "size_bytes": 39513
+    }
+  ],
+  "notes": [
+    "Every listed archive member has a byte size and SHA-256; PACKAGE-MANIFEST.json is included in that list.",
+    "The ZIP SHA-256 binds the entire compressed archive.",
+    "This is an editable-source package; media rendering and publication acceptance are separate gates."
+  ],
+  "project": {
+    "audio": {
+      "master.wav": {
+        "channels": 2,
+        "compression_type": "NONE",
+        "sample_rate": 48000,
+        "sample_width_bytes": 2,
+        "samples_per_channel": 5760000
+      },
+      "music.wav": {
+        "channels": 2,
+        "compression_type": "NONE",
+        "sample_rate": 48000,
+        "sample_width_bytes": 2,
+        "samples_per_channel": 5760000
+      },
+      "narration.wav": {
+        "channels": 2,
+        "compression_type": "NONE",
+        "sample_rate": 48000,
+        "sample_width_bytes": 2,
+        "samples_per_channel": 5760000
+      },
+      "premaster.wav": {
+        "channels": 2,
+        "compression_type": "NONE",
+        "sample_rate": 48000,
+        "sample_width_bytes": 2,
+        "samples_per_channel": 5760000
+      },
+      "sfx.wav": {
+        "channels": 2,
+        "compression_type": "NONE",
+        "sample_rate": 48000,
+        "sample_width_bytes": 2,
+        "samples_per_channel": 5760000
+      }
+    },
+    "duration_seconds": 120,
+    "fps": 60,
+    "slug": "si-ep07-untranslatable-tongue-v02",
+    "source_script": {
+      "expected_sha256": "f293789134bce76e1c552471c3e9ac6716a07441ee7e04bd10fb94637f931bbc",
+      "matches": true,
+      "measured_sha256": "f293789134bce76e1c552471c3e9ac6716a07441ee7e04bd10fb94637f931bbc",
+      "path": "source/script.md",
+      "size_bytes": 20754
+    },
+    "title": "后人类黑话 · v02（系列配音）",
+    "total_frames": 7200
+  },
+  "schema_version": 1
+}

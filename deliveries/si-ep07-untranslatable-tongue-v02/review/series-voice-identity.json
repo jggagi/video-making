@@ -1,0 +1,25 @@
+{
+  "request": "要用这个系列一致的配音",
+  "confirmed_provider": "Aliyun Bailian",
+  "model_selection": "active profile default",
+  "effective_model_recorded": "cosyvoice-v3-flash",
+  "voice_id": "longtian_v3",
+  "rate": 1.0,
+  "style_controls": "none explicitly recorded in reference settings/scripts",
+  "reference_evidence": [
+    {
+      "path": "deliveries/si-ep06-sovereign-crystal/project/public/audio/provider-manifest.json",
+      "sha256": "6bdef9afcbcd89699d45a1f23d0732f4b95d8a79f0ea16d095a41055ae94643d"
+    },
+    {
+      "path": "deliveries/si-ep05-landauer-limit-v03/project/public/audio/cache-manifest.json",
+      "sha256": "8f146dd959e693dcc7158eceb2c8d77bd129a26b3a009f5e8e3bd99ff8a2a01e"
+    },
+    {
+      "path": "deliveries/si-ep04-self-deceiving-god/project/public/audio/provider-manifest.json",
+      "sha256": "1b37e5b1b6f04518a41e112f69a6ec340d178e2261bd5850ac3ea08d634d2d5a"
+    }
+  ],
+  "worker_verification": "EP06 10/10 cues+raw, EP05 10/10 cues+raw, EP04 11/11 cues+10 raw matched; remaining EP04 cue was documented reuse",
+  "effective_EP07_identity": "All11 CLI responses confirmed cosyvoice-v3-flash and longtian_v3; settings rate1.0. Every cue retained with hash."
+}

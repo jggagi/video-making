@@ -1,0 +1,1303 @@
+{
+  "schema_version": 1,
+  "status": "evidence_collected",
+  "created_at_utc": "2026-10-19T17:52:41.218411+00:00",
+  "delivery_manifest": {
+    "path": "delivery.json",
+    "size_bytes": 1093,
+    "sha256": "4f9d1d6ea07d11f70018aff8995a35dacdd55c6de0d3f998e76b5e4c9347dbb9",
+    "slug": "si-ep07-untranslatable-tongue-v02"
+  },
+  "audio_timing": {
+    "path": "project/audio-timing.json",
+    "size_bytes": 39222,
+    "sha256": "989e8e0314d5c908d8cd1cd497009402d6134d83c76aa2c266eb8ce7ec648b42",
+    "status": "measured_pcm_with_estimated_caption_timing",
+    "caption_count": 25
+  },
+  "pcm_master": {
+    "path": "project/public/audio/master.wav",
+    "size_bytes": 23040044,
+    "sha256": "6ace22a02071f065d80d5579fa09603dc4db025c29b18d3316426739b0fcc5cc",
+    "wav": {
+      "sample_rate_hz": 48000,
+      "channels": 2,
+      "sample_frames_per_channel": 5760000,
+      "sample_width_bytes": 2,
+      "compression_type": "NONE"
+    }
+  },
+  "layouts": {
+    "landscape": {
+      "layout": "landscape",
+      "media": {
+        "path": "B站/si-ep07-untranslatable-tongue-v02-bilibili-120s-4k.mp4",
+        "size_bytes": 153918132,
+        "sha256": "2e7478f36e9e4dbbacb640a53f2579f808c992d41243bcf04393a274f26bbdfb",
+        "ffprobe": {
+          "streams": [
+            {
+              "index": 0,
+              "codec_name": "h264",
+              "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+              "profile": "High",
+              "codec_type": "video",
+              "codec_tag_string": "avc1",
+              "codec_tag": "0x31637661",
+              "width": 3840,
+              "height": 2160,
+              "coded_width": 3840,
+              "coded_height": 2160,
+              "has_b_frames": 2,
+              "pix_fmt": "yuv420p",
+              "level": 52,
+              "color_range": "tv",
+              "color_space": "bt709",
+              "color_transfer": "bt709",
+              "color_primaries": "bt709",
+              "chroma_location": "left",
+              "field_order": "progressive",
+              "refs": 1,
+              "is_avc": "true",
+              "nal_length_size": "4",
+              "id": "0x1",
+              "r_frame_rate": "60/1",
+              "avg_frame_rate": "60/1",
+              "time_base": "1/15360",
+              "start_pts": 0,
+              "start_time": "0.000000",
+              "duration_ts": 1843200,
+              "duration": "120.000000",
+              "bit_rate": "9958497",
+              "bits_per_raw_sample": "8",
+              "nb_frames": "7200",
+              "extradata_size": 50,
+              "disposition": {
+                "default": 1,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0,
+                "multilayer": 0
+              },
+              "tags": {
+                "language": "und",
+                "handler_name": "VideoHandler",
+                "vendor_id": "[0][0][0][0]",
+                "encoder": "Lavc62.11.100 libx264"
+              }
+            },
+            {
+              "index": 1,
+              "codec_name": "aac",
+              "codec_long_name": "AAC (Advanced Audio Coding)",
+              "profile": "LC",
+              "codec_type": "audio",
+              "codec_tag_string": "mp4a",
+              "codec_tag": "0x6134706d",
+              "sample_fmt": "fltp",
+              "sample_rate": "48000",
+              "channels": 2,
+              "channel_layout": "stereo",
+              "bits_per_sample": 0,
+              "initial_padding": 0,
+              "id": "0x2",
+              "r_frame_rate": "0/0",
+              "avg_frame_rate": "0/0",
+              "time_base": "1/48000",
+              "start_pts": 0,
+              "start_time": "0.000000",
+              "duration_ts": 5760000,
+              "duration": "120.000000",
+              "bit_rate": "289786",
+              "nb_frames": "5626",
+              "extradata_size": 5,
+              "disposition": {
+                "default": 1,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0,
+                "multilayer": 0
+              },
+              "tags": {
+                "language": "und",
+                "handler_name": "SoundHandler",
+                "vendor_id": "[0][0][0][0]"
+              }
+            }
+          ],
+          "format": {
+            "filename": "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep07-untranslatable-tongue-v02/B站/si-ep07-untranslatable-tongue-v02-bilibili-120s-4k.mp4",
+            "nb_streams": 2,
+            "nb_programs": 0,
+            "nb_stream_groups": 0,
+            "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+            "format_long_name": "QuickTime / MOV",
+            "start_time": "0.000000",
+            "duration": "120.000000",
+            "size": "153918132",
+            "bit_rate": "10261208",
+            "probe_score": 100,
+            "tags": {
+              "major_brand": "isom",
+              "minor_version": "512",
+              "compatible_brands": "isomiso2avc1mp41",
+              "title": "后人类黑话 · v02（系列配音）",
+              "encoder": "Lavf62.3.100",
+              "comment": "v02 series-voice revision; image base is SHA-pinned v01; subtitle band replaced from measured timing; audio is v02 master PCM"
+            }
+          }
+        },
+        "ebur128": {
+          "method": "FFmpeg ebur128=peak=true over the complete encoded audio stream",
+          "integrated_lufs": -17.0,
+          "true_peak_dbTP": -1.5
+        }
+      },
+      "subject_roi": {
+        "coordinate_fractions": {
+          "portrait": null,
+          "landscape": {
+            "x": [
+              0.2,
+              0.8
+            ],
+            "y": [
+              0.2,
+              0.8
+            ]
+          }
+        },
+        "pixel_crop_xywh": [
+          768,
+          432,
+          2304,
+          1296
+        ],
+        "scaled_width_px": 640
+      },
+      "representative_frames": [
+        {
+          "frame": 120,
+          "seconds": 2.0,
+          "path": "review/final-media-evidence/landscape/frames/frame-0120.jpg",
+          "size_bytes": 16289,
+          "sha256": "e96506011df5d869c4ccc5a02d2119234b7ed1597c4f51315760b730feadd355"
+        },
+        {
+          "frame": 360,
+          "seconds": 6.0,
+          "path": "review/final-media-evidence/landscape/frames/frame-0360.jpg",
+          "size_bytes": 24562,
+          "sha256": "2bd98e69da7bb7a02343b7739d8c58ced417fcbdc5b350cbb09d5d2dba5e2261"
+        },
+        {
+          "frame": 960,
+          "seconds": 16.0,
+          "path": "review/final-media-evidence/landscape/frames/frame-0960.jpg",
+          "size_bytes": 20770,
+          "sha256": "db9a2c6bb6f51b9686f3e04be069288b0ab9e971a3985d2d36bc067a4b50834a"
+        },
+        {
+          "frame": 1500,
+          "seconds": 25.0,
+          "path": "review/final-media-evidence/landscape/frames/frame-1500.jpg",
+          "size_bytes": 19113,
+          "sha256": "b876ea63daacafd6c958d0a66134f140708e00750825aed4a3293c7038edf8d2"
+        },
+        {
+          "frame": 2099,
+          "seconds": 34.983333333333334,
+          "path": "review/final-media-evidence/landscape/frames/frame-2099.jpg",
+          "size_bytes": 15044,
+          "sha256": "ba473ec751b7360207f328393004be7b4a392de21c80f5cfe6e5081a9a229b33"
+        },
+        {
+          "frame": 2100,
+          "seconds": 35.0,
+          "path": "review/final-media-evidence/landscape/frames/frame-2100.jpg",
+          "size_bytes": 20872,
+          "sha256": "9e8ac8898d6f8b27c63c3f909c97d5fefd1fef3235454929ccd0f98f79a734aa"
+        },
+        {
+          "frame": 2250,
+          "seconds": 37.5,
+          "path": "review/final-media-evidence/landscape/frames/frame-2250.jpg",
+          "size_bytes": 19185,
+          "sha256": "c45ff23ff90e0f7b5048a32b1b3ee25e72e5fb26b8f2c9a39c4efc12d494ee6d"
+        },
+        {
+          "frame": 3000,
+          "seconds": 50.0,
+          "path": "review/final-media-evidence/landscape/frames/frame-3000.jpg",
+          "size_bytes": 20235,
+          "sha256": "f9f8ff634435b8e2d79e2da0730ba00582563caaa61dc3d04ec5ebc3749ee009"
+        },
+        {
+          "frame": 3899,
+          "seconds": 64.98333333333333,
+          "path": "review/final-media-evidence/landscape/frames/frame-3899.jpg",
+          "size_bytes": 32285,
+          "sha256": "06e52a93f7007e1862f89ffffa75dc69f567fa98efc4a11fe31b34e1779e0717"
+        },
+        {
+          "frame": 3900,
+          "seconds": 65.0,
+          "path": "review/final-media-evidence/landscape/frames/frame-3900.jpg",
+          "size_bytes": 32504,
+          "sha256": "0630dd8fcd8aff0dbe81a288c1f25f5e6be04e5dd04946403be833871c2e4ae7"
+        },
+        {
+          "frame": 4800,
+          "seconds": 80.0,
+          "path": "review/final-media-evidence/landscape/frames/frame-4800.jpg",
+          "size_bytes": 31497,
+          "sha256": "da035e42b14a062acb2e5a0398f8dc3f82172434ae75c3a8948bdfd2b8f054e4"
+        },
+        {
+          "frame": 5879,
+          "seconds": 97.98333333333333,
+          "path": "review/final-media-evidence/landscape/frames/frame-5879.jpg",
+          "size_bytes": 13305,
+          "sha256": "040a8c28e59eadc731cec0109a23d123e37954cc23e8665ac44694c8a44d63f8"
+        },
+        {
+          "frame": 5880,
+          "seconds": 98.0,
+          "path": "review/final-media-evidence/landscape/frames/frame-5880.jpg",
+          "size_bytes": 13301,
+          "sha256": "ac0c7a6cdf2f92954c4c5a8addbf04565f95d7151668866a994c13d795dcd718"
+        },
+        {
+          "frame": 5909,
+          "seconds": 98.48333333333333,
+          "path": "review/final-media-evidence/landscape/frames/frame-5909.jpg",
+          "size_bytes": 13179,
+          "sha256": "f7b479e971916bf9e2419d1972587d53a858371a8dbb7a30cfa924f415439ffd"
+        },
+        {
+          "frame": 5910,
+          "seconds": 98.5,
+          "path": "review/final-media-evidence/landscape/frames/frame-5910.jpg",
+          "size_bytes": 14655,
+          "sha256": "2b04bf0c43823eb1e1b639223f1cd9a4e70ec5cd4c6f8e3d29a5a47c3234253c"
+        },
+        {
+          "frame": 6000,
+          "seconds": 100.0,
+          "path": "review/final-media-evidence/landscape/frames/frame-6000.jpg",
+          "size_bytes": 14380,
+          "sha256": "fbe028c66c0c25c7d1c50b2f125a4a3a2448aa5f662efe201504d2e537e9f510"
+        },
+        {
+          "frame": 6600,
+          "seconds": 110.0,
+          "path": "review/final-media-evidence/landscape/frames/frame-6600.jpg",
+          "size_bytes": 20267,
+          "sha256": "ddcb7531403486035d21c719223e88533c466fc8e64234da5ffd047819cc7fc9"
+        },
+        {
+          "frame": 7100,
+          "seconds": 118.33333333333333,
+          "path": "review/final-media-evidence/landscape/frames/frame-7100.jpg",
+          "size_bytes": 18883,
+          "sha256": "d6c0b8141c7b0f8a0f5a364344fc6875353a57f7f82d1a0d69b5a91c5e60b762"
+        },
+        {
+          "frame": 7199,
+          "seconds": 119.98333333333333,
+          "path": "review/final-media-evidence/landscape/frames/frame-7199.jpg",
+          "size_bytes": 16581,
+          "sha256": "1575636424d9071be1946251fa41cab7dffc266eea0fc58db67916c3481cc7e4"
+        }
+      ],
+      "contact_sheet": {
+        "path": "review/final-media-evidence/landscape/landscape-contact-sheet.jpg",
+        "size_bytes": 425052,
+        "sha256": "60345f9dd0c65d1342f36e51ff93103f58cf976b0802d0ed6fb0f7665ac3c4ef"
+      },
+      "paired_frame_measurements": [
+        {
+          "start_frame": 360,
+          "end_frame": 510,
+          "start_seconds": 6.0,
+          "end_seconds": 8.5,
+          "gap_frames": 150,
+          "subject_roi_normalized_rgb_mad": 0.032686665654182434,
+          "interpretation": "measurement only; no motion pass threshold",
+          "start_roi_jpeg": {
+            "path": "review/final-media-evidence/landscape/pair-roi/frame-0360.jpg",
+            "size_bytes": 37095,
+            "sha256": "e05d93ac48b5cfb9bc0e8460ba22aec1a737a2bb38d06743a9a11592d9e8916f"
+          },
+          "end_roi_jpeg": {
+            "path": "review/final-media-evidence/landscape/pair-roi/frame-0510.jpg",
+            "size_bytes": 38554,
+            "sha256": "be16519bcad42c76b8b1534275d64b25d82d3db81c67353c232bd8ee5044fdb4"
+          }
+        },
+        {
+          "start_frame": 720,
+          "end_frame": 870,
+          "start_seconds": 12.0,
+          "end_seconds": 14.5,
+          "gap_frames": 150,
+          "subject_roi_normalized_rgb_mad": 0.017670145258307457,
+          "interpretation": "measurement only; no motion pass threshold",
+          "start_roi_jpeg": {
+            "path": "review/final-media-evidence/landscape/pair-roi/frame-0720.jpg",
+            "size_bytes": 34728,
+            "sha256": "074b9637320a3adddaf5cbcfd74a16f690f78eab697b4323c9ecd179e26ed307"
+          },
+          "end_roi_jpeg": {
+            "path": "review/final-media-evidence/landscape/pair-roi/frame-0870.jpg",
+            "size_bytes": 33992,
+            "sha256": "04a5b10ea1c705a7c9f1ddaf4ca37793f5402880d675baa7d644636d7b875e70"
+          }
+        },
+        {
+          "start_frame": 1440,
+          "end_frame": 1590,
+          "start_seconds": 24.0,
+          "end_seconds": 26.5,
+          "gap_frames": 150,
+          "subject_roi_normalized_rgb_mad": 0.012583453208208084,
+          "interpretation": "measurement only; no motion pass threshold",
+          "start_roi_jpeg": {
+            "path": "review/final-media-evidence/landscape/pair-roi/frame-1440.jpg",
+            "size_bytes": 22165,
+            "sha256": "2abb2fc7286e320e4b341c5baef12f9c0a19731713665347eaefd344d38ff72a"
+          },
+          "end_roi_jpeg": {
+            "path": "review/final-media-evidence/landscape/pair-roi/frame-1590.jpg",
+            "size_bytes": 22267,
+            "sha256": "fd0a4403784f4b086b9a01f2ce4f81fc43bc1d4c58b0547fd387ccc4922c03ee"
+          }
+        },
+        {
+          "start_frame": 1920,
+          "end_frame": 2070,
+          "start_seconds": 32.0,
+          "end_seconds": 34.5,
+          "gap_frames": 150,
+          "subject_roi_normalized_rgb_mad": 0.010479915887117386,
+          "interpretation": "measurement only; no motion pass threshold",
+          "start_roi_jpeg": {
+            "path": "review/final-media-evidence/landscape/pair-roi/frame-1920.jpg",
+            "size_bytes": 14930,
+            "sha256": "57fd37664bbdc5aa459f2adf9651c7f4218157b0344e47d649b22ffa838cebae"
+          },
+          "end_roi_jpeg": {
+            "path": "review/final-media-evidence/landscape/pair-roi/frame-2070.jpg",
+            "size_bytes": 14939,
+            "sha256": "e194ccd98325b9a2b959029b1522c52351c0ea2e4ae7b0d82d5ca69a8bd0a3d5"
+          }
+        },
+        {
+          "start_frame": 2580,
+          "end_frame": 2730,
+          "start_seconds": 43.0,
+          "end_seconds": 45.5,
+          "gap_frames": 150,
+          "subject_roi_normalized_rgb_mad": 0.01871400699019432,
+          "interpretation": "measurement only; no motion pass threshold",
+          "start_roi_jpeg": {
+            "path": "review/final-media-evidence/landscape/pair-roi/frame-2580.jpg",
+            "size_bytes": 24531,
+            "sha256": "90fe5b52c434b8269bd7a1e900bb3446148575a4192a719a460a646e2b588605"
+          },
+          "end_roi_jpeg": {
+            "path": "review/final-media-evidence/landscape/pair-roi/frame-2730.jpg",
+            "size_bytes": 23795,
+            "sha256": "f19284052d4271fefb2b72490ced3bd0e0bd9cf72bd6a9943a5c7126a2e6137c"
+          }
+        },
+        {
+          "start_frame": 3060,
+          "end_frame": 3210,
+          "start_seconds": 51.0,
+          "end_seconds": 53.5,
+          "gap_frames": 150,
+          "subject_roi_normalized_rgb_mad": 0.02016209438443184,
+          "interpretation": "measurement only; no motion pass threshold",
+          "start_roi_jpeg": {
+            "path": "review/final-media-evidence/landscape/pair-roi/frame-3060.jpg",
+            "size_bytes": 23339,
+            "sha256": "6853bdba0a29e2ad0085bc48e4a9ac9c41b0765df0fd16577b38008735bc3d5e"
+          },
+          "end_roi_jpeg": {
+            "path": "review/final-media-evidence/landscape/pair-roi/frame-3210.jpg",
+            "size_bytes": 23567,
+            "sha256": "d65265e49765e5ba1c44162c74a837ecb085532000e7097ef6c450c50fdaca48"
+          }
+        },
+        {
+          "start_frame": 3720,
+          "end_frame": 3870,
+          "start_seconds": 62.0,
+          "end_seconds": 64.5,
+          "gap_frames": 150,
+          "subject_roi_normalized_rgb_mad": 0.02208041213452816,
+          "interpretation": "measurement only; no motion pass threshold",
+          "start_roi_jpeg": {
+            "path": "review/final-media-evidence/landscape/pair-roi/frame-3720.jpg",
+            "size_bytes": 53018,
+            "sha256": "3d85240469eeff7f84c59008745e4cefc9bfbb85b3b788ad63e7d48046606540"
+          },
+          "end_roi_jpeg": {
+            "path": "review/final-media-evidence/landscape/pair-roi/frame-3870.jpg",
+            "size_bytes": 52808,
+            "sha256": "21c0471f965229b51c5353c6bc8397a7b5f9e844e86c063667f96c69036c6e2e"
+          }
+        },
+        {
+          "start_frame": 4380,
+          "end_frame": 4530,
+          "start_seconds": 73.0,
+          "end_seconds": 75.5,
+          "gap_frames": 150,
+          "subject_roi_normalized_rgb_mad": 0.024898534640669823,
+          "interpretation": "measurement only; no motion pass threshold",
+          "start_roi_jpeg": {
+            "path": "review/final-media-evidence/landscape/pair-roi/frame-4380.jpg",
+            "size_bytes": 50613,
+            "sha256": "e20b4f031561840b3090273af99d0b137e969dd0031f5f9b33d5ded1eff66e1a"
+          },
+          "end_roi_jpeg": {
+            "path": "review/final-media-evidence/landscape/pair-roi/frame-4530.jpg",
+            "size_bytes": 50135,
+            "sha256": "ddcdf3bd06854d85170fa8a9ac7c0fb29400aca42c389adc1af9420b4d4c4959"
+          }
+        },
+        {
+          "start_frame": 4980,
+          "end_frame": 5130,
+          "start_seconds": 83.0,
+          "end_seconds": 85.5,
+          "gap_frames": 150,
+          "subject_roi_normalized_rgb_mad": 0.023557106032967567,
+          "interpretation": "measurement only; no motion pass threshold",
+          "start_roi_jpeg": {
+            "path": "review/final-media-evidence/landscape/pair-roi/frame-4980.jpg",
+            "size_bytes": 49397,
+            "sha256": "5c910657d00ebdcbefd7fe5153ddd04ac47a6e5f8fc8e14b1b035042f112883f"
+          },
+          "end_roi_jpeg": {
+            "path": "review/final-media-evidence/landscape/pair-roi/frame-5130.jpg",
+            "size_bytes": 50407,
+            "sha256": "7db08a5bb71138fcb7aeb4532fec5b1191be4f2eb03bd32d1abe2b1a46eee84a"
+          }
+        },
+        {
+          "start_frame": 5520,
+          "end_frame": 5670,
+          "start_seconds": 92.0,
+          "end_seconds": 94.5,
+          "gap_frames": 150,
+          "subject_roi_normalized_rgb_mad": 0.009538131766021252,
+          "interpretation": "measurement only; no motion pass threshold",
+          "start_roi_jpeg": {
+            "path": "review/final-media-evidence/landscape/pair-roi/frame-5520.jpg",
+            "size_bytes": 14821,
+            "sha256": "2909af22bf410047106160c4ad758bdba9be1d4b8c032dd46e077ac6cdf86a1c"
+          },
+          "end_roi_jpeg": {
+            "path": "review/final-media-evidence/landscape/pair-roi/frame-5670.jpg",
+            "size_bytes": 14578,
+            "sha256": "e95b7bef55d7143da6cb32ca4f209dd83bbc0f761047ddfa0e7bbd9a9581a441"
+          }
+        },
+        {
+          "start_frame": 6000,
+          "end_frame": 6150,
+          "start_seconds": 100.0,
+          "end_seconds": 102.5,
+          "gap_frames": 150,
+          "subject_roi_normalized_rgb_mad": 0.015493310987949371,
+          "interpretation": "measurement only; no motion pass threshold",
+          "start_roi_jpeg": {
+            "path": "review/final-media-evidence/landscape/pair-roi/frame-6000.jpg",
+            "size_bytes": 17344,
+            "sha256": "975a037538ac7b7f6e604c68a5f455264719188ef7ddc3f7a5f8c358d3ecb5a1"
+          },
+          "end_roi_jpeg": {
+            "path": "review/final-media-evidence/landscape/pair-roi/frame-6150.jpg",
+            "size_bytes": 17080,
+            "sha256": "653202f11a77c207391cc5bd57d545c91e7db0d0aa161c4af9535f0a3c03e170"
+          }
+        },
+        {
+          "start_frame": 6480,
+          "end_frame": 6630,
+          "start_seconds": 108.0,
+          "end_seconds": 110.5,
+          "gap_frames": 150,
+          "subject_roi_normalized_rgb_mad": 0.032133799046278,
+          "interpretation": "measurement only; no motion pass threshold",
+          "start_roi_jpeg": {
+            "path": "review/final-media-evidence/landscape/pair-roi/frame-6480.jpg",
+            "size_bytes": 25072,
+            "sha256": "b9e413a72ef9af4499debf01c59f8ed0761cb62ed171b6097878d2920c367425"
+          },
+          "end_roi_jpeg": {
+            "path": "review/final-media-evidence/landscape/pair-roi/frame-6630.jpg",
+            "size_bytes": 24448,
+            "sha256": "5fee5d9ccad9889bff9213e1471cb29787ed2d19ad87a6544309f4a714a4d3bd"
+          }
+        },
+        {
+          "start_frame": 6960,
+          "end_frame": 7110,
+          "start_seconds": 116.0,
+          "end_seconds": 118.5,
+          "gap_frames": 150,
+          "subject_roi_normalized_rgb_mad": 0.025940127670764923,
+          "interpretation": "measurement only; no motion pass threshold",
+          "start_roi_jpeg": {
+            "path": "review/final-media-evidence/landscape/pair-roi/frame-6960.jpg",
+            "size_bytes": 26062,
+            "sha256": "d9e8f101ee111a3f939e3493011e338a7415e097e1e84acc7ac1b6cbce96a3bc"
+          },
+          "end_roi_jpeg": {
+            "path": "review/final-media-evidence/landscape/pair-roi/frame-7110.jpg",
+            "size_bytes": 24113,
+            "sha256": "5a43d67e776a635ea91fdc6b495c552a5166bdf8c7f66730377cd1149d2ff8a7"
+          }
+        }
+      ],
+      "pair_contact_sheet": {
+        "path": "review/final-media-evidence/landscape/landscape-pair-contact-sheet.jpg",
+        "size_bytes": 792077,
+        "sha256": "ce339df290b90bb07025cd4c577ae66c868d02940107dd4e0a9ca7f6ecc12e51"
+      },
+      "scope_note": "Encoded-frame and measurement evidence only; not a visual or listening acceptance result."
+    },
+    "portrait": {
+      "layout": "portrait",
+      "media": {
+        "path": "小红书/si-ep07-untranslatable-tongue-v02-xiaohongshu-120s-portrait.mp4",
+        "size_bytes": 115535635,
+        "sha256": "7621a7e36efc7e2057060ff7aeae2c3eec51cab0603870b7e83d3313a5bdaa16",
+        "ffprobe": {
+          "streams": [
+            {
+              "index": 0,
+              "codec_name": "h264",
+              "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+              "profile": "High",
+              "codec_type": "video",
+              "codec_tag_string": "avc1",
+              "codec_tag": "0x31637661",
+              "width": 2160,
+              "height": 3840,
+              "coded_width": 2160,
+              "coded_height": 3840,
+              "has_b_frames": 2,
+              "pix_fmt": "yuv420p",
+              "level": 52,
+              "color_range": "tv",
+              "color_space": "bt709",
+              "color_transfer": "bt709",
+              "color_primaries": "bt709",
+              "chroma_location": "left",
+              "field_order": "progressive",
+              "refs": 1,
+              "is_avc": "true",
+              "nal_length_size": "4",
+              "id": "0x1",
+              "r_frame_rate": "60/1",
+              "avg_frame_rate": "60/1",
+              "time_base": "1/15360",
+              "start_pts": 0,
+              "start_time": "0.000000",
+              "duration_ts": 1843200,
+              "duration": "120.000000",
+              "bit_rate": "7399653",
+              "bits_per_raw_sample": "8",
+              "nb_frames": "7200",
+              "extradata_size": 50,
+              "disposition": {
+                "default": 1,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0,
+                "multilayer": 0
+              },
+              "tags": {
+                "language": "und",
+                "handler_name": "VideoHandler",
+                "vendor_id": "[0][0][0][0]",
+                "encoder": "Lavc62.11.100 libx264"
+              }
+            },
+            {
+              "index": 1,
+              "codec_name": "aac",
+              "codec_long_name": "AAC (Advanced Audio Coding)",
+              "profile": "LC",
+              "codec_type": "audio",
+              "codec_tag_string": "mp4a",
+              "codec_tag": "0x6134706d",
+              "sample_fmt": "fltp",
+              "sample_rate": "48000",
+              "channels": 2,
+              "channel_layout": "stereo",
+              "bits_per_sample": 0,
+              "initial_padding": 0,
+              "id": "0x2",
+              "r_frame_rate": "0/0",
+              "avg_frame_rate": "0/0",
+              "time_base": "1/48000",
+              "start_pts": 0,
+              "start_time": "0.000000",
+              "duration_ts": 5760000,
+              "duration": "120.000000",
+              "bit_rate": "289786",
+              "nb_frames": "5626",
+              "extradata_size": 5,
+              "disposition": {
+                "default": 1,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0,
+                "multilayer": 0
+              },
+              "tags": {
+                "language": "und",
+                "handler_name": "SoundHandler",
+                "vendor_id": "[0][0][0][0]"
+              }
+            }
+          ],
+          "format": {
+            "filename": "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep07-untranslatable-tongue-v02/小红书/si-ep07-untranslatable-tongue-v02-xiaohongshu-120s-portrait.mp4",
+            "nb_streams": 2,
+            "nb_programs": 0,
+            "nb_stream_groups": 0,
+            "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+            "format_long_name": "QuickTime / MOV",
+            "start_time": "0.000000",
+            "duration": "120.000000",
+            "size": "115535635",
+            "bit_rate": "7702375",
+            "probe_score": 100,
+            "tags": {
+              "major_brand": "isom",
+              "minor_version": "512",
+              "compatible_brands": "isomiso2avc1mp41",
+              "title": "后人类黑话 · v02（系列配音）",
+              "encoder": "Lavf62.3.100",
+              "comment": "v02 series-voice revision; image base is SHA-pinned v01; subtitle band replaced from measured timing; audio is v02 master PCM"
+            }
+          }
+        },
+        "ebur128": {
+          "method": "FFmpeg ebur128=peak=true over the complete encoded audio stream",
+          "integrated_lufs": -17.0,
+          "true_peak_dbTP": -1.5
+        }
+      },
+      "subject_roi": {
+        "coordinate_fractions": {
+          "portrait": {
+            "x": [
+              0.15,
+              0.78
+            ],
+            "y": [
+              0.2,
+              0.65
+            ]
+          },
+          "landscape": null
+        },
+        "pixel_crop_xywh": [
+          324,
+          768,
+          1360,
+          1728
+        ],
+        "scaled_width_px": 360
+      },
+      "representative_frames": [
+        {
+          "frame": 120,
+          "seconds": 2.0,
+          "path": "review/final-media-evidence/portrait/frames/frame-0120.jpg",
+          "size_bytes": 20191,
+          "sha256": "893717e69301cfabf13ad4fb9b4680d993134d4e5208844ad0cd1a238f5575f1"
+        },
+        {
+          "frame": 360,
+          "seconds": 6.0,
+          "path": "review/final-media-evidence/portrait/frames/frame-0360.jpg",
+          "size_bytes": 27325,
+          "sha256": "f5dc298ffa4d206584607651e464562c8bff65a6fde67538760ffb92b9658b50"
+        },
+        {
+          "frame": 960,
+          "seconds": 16.0,
+          "path": "review/final-media-evidence/portrait/frames/frame-0960.jpg",
+          "size_bytes": 24295,
+          "sha256": "65d2321375cd8fe5a6e45f1ceef3335dc33fcbce7e51c9c0d7043aad876bc7e6"
+        },
+        {
+          "frame": 1500,
+          "seconds": 25.0,
+          "path": "review/final-media-evidence/portrait/frames/frame-1500.jpg",
+          "size_bytes": 21501,
+          "sha256": "c05650da1fc43d14448ed6e91e12b455f5666ca372080a7b1748ec73f3b35d45"
+        },
+        {
+          "frame": 2099,
+          "seconds": 34.983333333333334,
+          "path": "review/final-media-evidence/portrait/frames/frame-2099.jpg",
+          "size_bytes": 17077,
+          "sha256": "9286f989e984615b83a72cd6fc86619075dfd5c98dc4156ffdd64571bac3301b"
+        },
+        {
+          "frame": 2100,
+          "seconds": 35.0,
+          "path": "review/final-media-evidence/portrait/frames/frame-2100.jpg",
+          "size_bytes": 20419,
+          "sha256": "3bbcab4de8b2be11ebe54a03d30113521ab3b7b723a80abbc0677ccedf9bf5b5"
+        },
+        {
+          "frame": 2250,
+          "seconds": 37.5,
+          "path": "review/final-media-evidence/portrait/frames/frame-2250.jpg",
+          "size_bytes": 17626,
+          "sha256": "24a6d5daf6569cb69fff2d0e1d8c66e0229e917afad10fea1649758d2ff93053"
+        },
+        {
+          "frame": 3000,
+          "seconds": 50.0,
+          "path": "review/final-media-evidence/portrait/frames/frame-3000.jpg",
+          "size_bytes": 20124,
+          "sha256": "58998ea9e214f36cb92c37b8b01fb99825a5f0188031f8e647383f49b9a7ae97"
+        },
+        {
+          "frame": 3899,
+          "seconds": 64.98333333333333,
+          "path": "review/final-media-evidence/portrait/frames/frame-3899.jpg",
+          "size_bytes": 31865,
+          "sha256": "b041884a0f9583941095d866939826576fff3899d7c0caaaa755a9cb78259c6c"
+        },
+        {
+          "frame": 3900,
+          "seconds": 65.0,
+          "path": "review/final-media-evidence/portrait/frames/frame-3900.jpg",
+          "size_bytes": 32481,
+          "sha256": "b792994cf89afca92d3f4551705e6b9576973e926dd6c3ac04ddd435d09c2bb2"
+        },
+        {
+          "frame": 4800,
+          "seconds": 80.0,
+          "path": "review/final-media-evidence/portrait/frames/frame-4800.jpg",
+          "size_bytes": 31604,
+          "sha256": "8e8eb72668868e2d999280a65841322499029374cd08b01a4774e09e9e28a2e2"
+        },
+        {
+          "frame": 5879,
+          "seconds": 97.98333333333333,
+          "path": "review/final-media-evidence/portrait/frames/frame-5879.jpg",
+          "size_bytes": 14830,
+          "sha256": "a0e2dfdbb7e6cffd2107f00d3d2371be8f9412e463c8271334111422029a8ed6"
+        },
+        {
+          "frame": 5880,
+          "seconds": 98.0,
+          "path": "review/final-media-evidence/portrait/frames/frame-5880.jpg",
+          "size_bytes": 14818,
+          "sha256": "826eef8ccd31f4bdb90e14bf1ec4070eefe22e998ce9de22c2eb46fc7b21833c"
+        },
+        {
+          "frame": 5909,
+          "seconds": 98.48333333333333,
+          "path": "review/final-media-evidence/portrait/frames/frame-5909.jpg",
+          "size_bytes": 14794,
+          "sha256": "32bf96a97f44e0fc416801001e213526bb77a3f17f85945c40dec179f125e377"
+        },
+        {
+          "frame": 5910,
+          "seconds": 98.5,
+          "path": "review/final-media-evidence/portrait/frames/frame-5910.jpg",
+          "size_bytes": 16379,
+          "sha256": "8b6f05aeb4126581450ca467391d13f32ee50f3527bd6da8b9bd1ebcc7846233"
+        },
+        {
+          "frame": 6000,
+          "seconds": 100.0,
+          "path": "review/final-media-evidence/portrait/frames/frame-6000.jpg",
+          "size_bytes": 16226,
+          "sha256": "9df2a3bb403ce114ebbe41a2540325027e9ce4dd61c7ede848b30fa6d570e0af"
+        },
+        {
+          "frame": 6600,
+          "seconds": 110.0,
+          "path": "review/final-media-evidence/portrait/frames/frame-6600.jpg",
+          "size_bytes": 20471,
+          "sha256": "545f6de8843dd2a7f387ababdba23feff56a3dbe32feaee2ad2076b23f02e2a5"
+        },
+        {
+          "frame": 7100,
+          "seconds": 118.33333333333333,
+          "path": "review/final-media-evidence/portrait/frames/frame-7100.jpg",
+          "size_bytes": 20495,
+          "sha256": "506a51972fdfad935e356c46524a496f9533b5a160653076e12ccd80e00720d5"
+        },
+        {
+          "frame": 7199,
+          "seconds": 119.98333333333333,
+          "path": "review/final-media-evidence/portrait/frames/frame-7199.jpg",
+          "size_bytes": 17912,
+          "sha256": "f8bf9227831bc02a41d8493e66713775d545a0df6f6674cecd244e7207734216"
+        }
+      ],
+      "contact_sheet": {
+        "path": "review/final-media-evidence/portrait/portrait-contact-sheet.jpg",
+        "size_bytes": 435557,
+        "sha256": "34b300f7e877f93f335f13358440e64c979b5305b1481dbb43be5df0799373e7"
+      },
+      "paired_frame_measurements": [
+        {
+          "start_frame": 360,
+          "end_frame": 510,
+          "start_seconds": 6.0,
+          "end_seconds": 8.5,
+          "gap_frames": 150,
+          "subject_roi_normalized_rgb_mad": 0.0344846174120903,
+          "interpretation": "measurement only; no motion pass threshold",
+          "start_roi_jpeg": {
+            "path": "review/final-media-evidence/portrait/pair-roi/frame-0360.jpg",
+            "size_bytes": 30375,
+            "sha256": "cb5efbb977b5bdf8ca870cc843d0d839c749b24796ee164a866845a6e0b271e7"
+          },
+          "end_roi_jpeg": {
+            "path": "review/final-media-evidence/portrait/pair-roi/frame-0510.jpg",
+            "size_bytes": 31125,
+            "sha256": "c112244607c5c49724d5e312056ef463e2199ccfc7aa083ab6a5a07895fc4556"
+          }
+        },
+        {
+          "start_frame": 720,
+          "end_frame": 870,
+          "start_seconds": 12.0,
+          "end_seconds": 14.5,
+          "gap_frames": 150,
+          "subject_roi_normalized_rgb_mad": 0.021814076229929924,
+          "interpretation": "measurement only; no motion pass threshold",
+          "start_roi_jpeg": {
+            "path": "review/final-media-evidence/portrait/pair-roi/frame-0720.jpg",
+            "size_bytes": 29164,
+            "sha256": "e7531350ac3a0015cfeecdeb26532c0d63fb7ab68bad09a70148c83671e18082"
+          },
+          "end_roi_jpeg": {
+            "path": "review/final-media-evidence/portrait/pair-roi/frame-0870.jpg",
+            "size_bytes": 28692,
+            "sha256": "f4d63495451074729d2240c70c74c0ed31697019f333a01149e1cb3f51c95d7d"
+          }
+        },
+        {
+          "start_frame": 1440,
+          "end_frame": 1590,
+          "start_seconds": 24.0,
+          "end_seconds": 26.5,
+          "gap_frames": 150,
+          "subject_roi_normalized_rgb_mad": 0.011914167553186417,
+          "interpretation": "measurement only; no motion pass threshold",
+          "start_roi_jpeg": {
+            "path": "review/final-media-evidence/portrait/pair-roi/frame-1440.jpg",
+            "size_bytes": 16559,
+            "sha256": "1be704dae1c4bf0e48a00c3fde2cde3690cf0f72a8d4cac49c88a1d1af630250"
+          },
+          "end_roi_jpeg": {
+            "path": "review/final-media-evidence/portrait/pair-roi/frame-1590.jpg",
+            "size_bytes": 16755,
+            "sha256": "976d16440940a0a652a9342e19722238aaf9823af82dd62e95efd06912d29755"
+          }
+        },
+        {
+          "start_frame": 1920,
+          "end_frame": 2070,
+          "start_seconds": 32.0,
+          "end_seconds": 34.5,
+          "gap_frames": 150,
+          "subject_roi_normalized_rgb_mad": 0.00809280201792717,
+          "interpretation": "measurement only; no motion pass threshold",
+          "start_roi_jpeg": {
+            "path": "review/final-media-evidence/portrait/pair-roi/frame-1920.jpg",
+            "size_bytes": 9485,
+            "sha256": "25a16b73a0ae0cc05fa2705cbe91144de89cbda6183c532658d983911a47d393"
+          },
+          "end_roi_jpeg": {
+            "path": "review/final-media-evidence/portrait/pair-roi/frame-2070.jpg",
+            "size_bytes": 9857,
+            "sha256": "429cfc1de766aeecbf7d10c2dd5e984b8091870e564b07f8c201fe635670b019"
+          }
+        },
+        {
+          "start_frame": 2580,
+          "end_frame": 2730,
+          "start_seconds": 43.0,
+          "end_seconds": 45.5,
+          "gap_frames": 150,
+          "subject_roi_normalized_rgb_mad": 0.018652385100722313,
+          "interpretation": "measurement only; no motion pass threshold",
+          "start_roi_jpeg": {
+            "path": "review/final-media-evidence/portrait/pair-roi/frame-2580.jpg",
+            "size_bytes": 18950,
+            "sha256": "8db371e8c6553abf2d6d167f8f4991d217594fc8de1b96a15da89e979bdf6a5a"
+          },
+          "end_roi_jpeg": {
+            "path": "review/final-media-evidence/portrait/pair-roi/frame-2730.jpg",
+            "size_bytes": 18239,
+            "sha256": "b6ef9a856e7a779e5687ec210e67cff8b16d218487141d22ba1e4ad5a243d7eb"
+          }
+        },
+        {
+          "start_frame": 3060,
+          "end_frame": 3210,
+          "start_seconds": 51.0,
+          "end_seconds": 53.5,
+          "gap_frames": 150,
+          "subject_roi_normalized_rgb_mad": 0.01897178590297699,
+          "interpretation": "measurement only; no motion pass threshold",
+          "start_roi_jpeg": {
+            "path": "review/final-media-evidence/portrait/pair-roi/frame-3060.jpg",
+            "size_bytes": 17823,
+            "sha256": "b4f14ac7872f19b1a9c508d82a45d9a8896bb73e7aee845136731747fc4eb604"
+          },
+          "end_roi_jpeg": {
+            "path": "review/final-media-evidence/portrait/pair-roi/frame-3210.jpg",
+            "size_bytes": 17700,
+            "sha256": "01acb1e4592464c06328954583b21ec5ce56704a2c3c6421ff0cc3da2ece024a"
+          }
+        },
+        {
+          "start_frame": 3720,
+          "end_frame": 3870,
+          "start_seconds": 62.0,
+          "end_seconds": 64.5,
+          "gap_frames": 150,
+          "subject_roi_normalized_rgb_mad": 0.0245375856757164,
+          "interpretation": "measurement only; no motion pass threshold",
+          "start_roi_jpeg": {
+            "path": "review/final-media-evidence/portrait/pair-roi/frame-3720.jpg",
+            "size_bytes": 43137,
+            "sha256": "0c09a2b6e4004148a9a9b7d7d2cdf7d4ce3f7aeda0568ecaaa2724d3c156390b"
+          },
+          "end_roi_jpeg": {
+            "path": "review/final-media-evidence/portrait/pair-roi/frame-3870.jpg",
+            "size_bytes": 43009,
+            "sha256": "a9ed0065292b53b3af8a8a454775318e7592f6ecebb2d7be759757a1210b70b8"
+          }
+        },
+        {
+          "start_frame": 4380,
+          "end_frame": 4530,
+          "start_seconds": 73.0,
+          "end_seconds": 75.5,
+          "gap_frames": 150,
+          "subject_roi_normalized_rgb_mad": 0.02742309682071209,
+          "interpretation": "measurement only; no motion pass threshold",
+          "start_roi_jpeg": {
+            "path": "review/final-media-evidence/portrait/pair-roi/frame-4380.jpg",
+            "size_bytes": 41873,
+            "sha256": "129f6c3f242354ae4eea9a1c8cb9587f27e9604a61baa1f669d40fecdc3d656f"
+          },
+          "end_roi_jpeg": {
+            "path": "review/final-media-evidence/portrait/pair-roi/frame-4530.jpg",
+            "size_bytes": 41569,
+            "sha256": "90b3d70c6b28326676b7ed1e473ad510a31f9a83b4e4d9d672932cdb9ca96048"
+          }
+        },
+        {
+          "start_frame": 4980,
+          "end_frame": 5130,
+          "start_seconds": 83.0,
+          "end_seconds": 85.5,
+          "gap_frames": 150,
+          "subject_roi_normalized_rgb_mad": 0.02608882449567318,
+          "interpretation": "measurement only; no motion pass threshold",
+          "start_roi_jpeg": {
+            "path": "review/final-media-evidence/portrait/pair-roi/frame-4980.jpg",
+            "size_bytes": 40896,
+            "sha256": "ecbd9d4ffa853dc9795da5cc887a7bc2e7e9f14871b12219dc1acbddef9b0e3a"
+          },
+          "end_roi_jpeg": {
+            "path": "review/final-media-evidence/portrait/pair-roi/frame-5130.jpg",
+            "size_bytes": 41811,
+            "sha256": "c8caf5941b65d35f75007759aeafc7ada93cb6f3eea3a20033f97de98a1cfcce"
+          }
+        },
+        {
+          "start_frame": 5520,
+          "end_frame": 5670,
+          "start_seconds": 92.0,
+          "end_seconds": 94.5,
+          "gap_frames": 150,
+          "subject_roi_normalized_rgb_mad": 0.005953468382358551,
+          "interpretation": "measurement only; no motion pass threshold",
+          "start_roi_jpeg": {
+            "path": "review/final-media-evidence/portrait/pair-roi/frame-5520.jpg",
+            "size_bytes": 10716,
+            "sha256": "c3b63e067a204475012f80d31c3fba7bf7c44902ea1e585a9fd7bd5f00192f3f"
+          },
+          "end_roi_jpeg": {
+            "path": "review/final-media-evidence/portrait/pair-roi/frame-5670.jpg",
+            "size_bytes": 10528,
+            "sha256": "fa01b6bd677dadcfbf02debabf6b965ea5b7c00141d1ac2705351bdfb4f7aba4"
+          }
+        },
+        {
+          "start_frame": 6000,
+          "end_frame": 6150,
+          "start_seconds": 100.0,
+          "end_seconds": 102.5,
+          "gap_frames": 150,
+          "subject_roi_normalized_rgb_mad": 0.011120046488940716,
+          "interpretation": "measurement only; no motion pass threshold",
+          "start_roi_jpeg": {
+            "path": "review/final-media-evidence/portrait/pair-roi/frame-6000.jpg",
+            "size_bytes": 12539,
+            "sha256": "d12ac8ebcaad9e326d6dfc90b5414fa6afb07fc30762eb1b4e0661401435d129"
+          },
+          "end_roi_jpeg": {
+            "path": "review/final-media-evidence/portrait/pair-roi/frame-6150.jpg",
+            "size_bytes": 12183,
+            "sha256": "9dcdf76690e9c8b6d9578bfc9a151d87997af317be89d7efc75db99729b9d3bd"
+          }
+        },
+        {
+          "start_frame": 6480,
+          "end_frame": 6630,
+          "start_seconds": 108.0,
+          "end_seconds": 110.5,
+          "gap_frames": 150,
+          "subject_roi_normalized_rgb_mad": 0.03973902016878128,
+          "interpretation": "measurement only; no motion pass threshold",
+          "start_roi_jpeg": {
+            "path": "review/final-media-evidence/portrait/pair-roi/frame-6480.jpg",
+            "size_bytes": 22388,
+            "sha256": "b0091397867760b407acca6c19556dcfa430477e357bc92cf644b8a27f2cd5d3"
+          },
+          "end_roi_jpeg": {
+            "path": "review/final-media-evidence/portrait/pair-roi/frame-6630.jpg",
+            "size_bytes": 21933,
+            "sha256": "eddbf56ca005d7fea7461b699fb0fe31c09512dac616f5661d6f9b52ace1737e"
+          }
+        },
+        {
+          "start_frame": 6960,
+          "end_frame": 7110,
+          "start_seconds": 116.0,
+          "end_seconds": 118.5,
+          "gap_frames": 150,
+          "subject_roi_normalized_rgb_mad": 0.027878116816282272,
+          "interpretation": "measurement only; no motion pass threshold",
+          "start_roi_jpeg": {
+            "path": "review/final-media-evidence/portrait/pair-roi/frame-6960.jpg",
+            "size_bytes": 20398,
+            "sha256": "0e27a7a9f4b5963959c56340c54e7fd99bb4283bcf6d34f4b279d84e936daaf8"
+          },
+          "end_roi_jpeg": {
+            "path": "review/final-media-evidence/portrait/pair-roi/frame-7110.jpg",
+            "size_bytes": 19138,
+            "sha256": "b3b4e87d2d75cf36e12f1af571fe761bbc6da2a7c021921f7a5fad6e56f604ae"
+          }
+        }
+      ],
+      "pair_contact_sheet": {
+        "path": "review/final-media-evidence/portrait/portrait-pair-contact-sheet.jpg",
+        "size_bytes": 667123,
+        "sha256": "3192179aaf739dd85196de18e35bed4d16f8ada63c6c65d5d608d9ca9cda57b8"
+      },
+      "scope_note": "Encoded-frame and measurement evidence only; not a visual or listening acceptance result."
+    }
+  },
+  "audio_window_comparisons": [
+    {
+      "layout": "landscape",
+      "encoded_media_path": "B站/si-ep07-untranslatable-tongue-v02-bilibili-120s-4k.mp4",
+      "start_seconds": 2,
+      "duration_seconds": 2,
+      "sample_rate_hz": 48000,
+      "channels": 2,
+      "master_sample_frames": 96000,
+      "aac_sample_frames": 96000,
+      "compared_sample_frames": 96000,
+      "correlation": 0.9999283038029684,
+      "correlation_note": null,
+      "rmse_normalized_amplitude": 0.001484148676569104,
+      "comparison_note": "AAC-decoded float samples are lossy and are not expected to be byte-identical to the PCM master."
+    },
+    {
+      "layout": "landscape",
+      "encoded_media_path": "B站/si-ep07-untranslatable-tongue-v02-bilibili-120s-4k.mp4",
+      "start_seconds": 44,
+      "duration_seconds": 2,
+      "sample_rate_hz": 48000,
+      "channels": 2,
+      "master_sample_frames": 96000,
+      "aac_sample_frames": 96000,
+      "compared_sample_frames": 96000,
+      "correlation": 0.9999535810149902,
+      "correlation_note": null,
+      "rmse_normalized_amplitude": 0.0008997807969698044,
+      "comparison_note": "AAC-decoded float samples are lossy and are not expected to be byte-identical to the PCM master."
+    },
+    {
+      "layout": "landscape",
+      "encoded_media_path": "B站/si-ep07-untranslatable-tongue-v02-bilibili-120s-4k.mp4",
+      "start_seconds": 98,
+      "duration_seconds": 2,
+      "sample_rate_hz": 48000,
+      "channels": 2,
+      "master_sample_frames": 96000,
+      "aac_sample_frames": 96000,
+      "compared_sample_frames": 96000,
+      "correlation": 0.9999765599157047,
+      "correlation_note": null,
+      "rmse_normalized_amplitude": 0.0008445409777533658,
+      "comparison_note": "AAC-decoded float samples are lossy and are not expected to be byte-identical to the PCM master."
+    },
+    {
+      "layout": "landscape",
+      "encoded_media_path": "B站/si-ep07-untranslatable-tongue-v02-bilibili-120s-4k.mp4",
+      "start_seconds": 116,
+      "duration_seconds": 2,
+      "sample_rate_hz": 48000,
+      "channels": 2,
+      "master_sample_frames": 96000,
+      "aac_sample_frames": 96000,
+      "compared_sample_frames": 96000,
+      "correlation": 0.9999124554923451,
+      "correlation_note": null,
+      "rmse_normalized_amplitude": 0.0010661629264336041,
+      "comparison_note": "AAC-decoded float samples are lossy and are not expected to be byte-identical to the PCM master."
+    },
+    {
+      "layout": "portrait",
+      "encoded_media_path": "小红书/si-ep07-untranslatable-tongue-v02-xiaohongshu-120s-portrait.mp4",
+      "start_seconds": 2,
+      "duration_seconds": 2,
+      "sample_rate_hz": 48000,
+      "channels": 2,
+      "master_sample_frames": 96000,
+      "aac_sample_frames": 96000,
+      "compared_sample_frames": 96000,
+      "correlation": 0.9999283038029684,
+      "correlation_note": null,
+      "rmse_normalized_amplitude": 0.001484148676569104,
+      "comparison_note": "AAC-decoded float samples are lossy and are not expected to be byte-identical to the PCM master."
+    },
+    {
+      "layout": "portrait",
+      "encoded_media_path": "小红书/si-ep07-untranslatable-tongue-v02-xiaohongshu-120s-portrait.mp4",
+      "start_seconds": 44,
+      "duration_seconds": 2,
+      "sample_rate_hz": 48000,
+      "channels": 2,
+      "master_sample_frames": 96000,
+      "aac_sample_frames": 96000,
+      "compared_sample_frames": 96000,
+      "correlation": 0.9999535810149902,
+      "correlation_note": null,
+      "rmse_normalized_amplitude": 0.0008997807969698044,
+      "comparison_note": "AAC-decoded float samples are lossy and are not expected to be byte-identical to the PCM master."
+    },
+    {
+      "layout": "portrait",
+      "encoded_media_path": "小红书/si-ep07-untranslatable-tongue-v02-xiaohongshu-120s-portrait.mp4",
+      "start_seconds": 98,
+      "duration_seconds": 2,
+      "sample_rate_hz": 48000,
+      "channels": 2,
+      "master_sample_frames": 96000,
+      "aac_sample_frames": 96000,
+      "compared_sample_frames": 96000,
+      "correlation": 0.9999765599157047,
+      "correlation_note": null,
+      "rmse_normalized_amplitude": 0.0008445409777533658,
+      "comparison_note": "AAC-decoded float samples are lossy and are not expected to be byte-identical to the PCM master."
+    },
+    {
+      "layout": "portrait",
+      "encoded_media_path": "小红书/si-ep07-untranslatable-tongue-v02-xiaohongshu-120s-portrait.mp4",
+      "start_seconds": 116,
+      "duration_seconds": 2,
+      "sample_rate_hz": 48000,
+      "channels": 2,
+      "master_sample_frames": 96000,
+      "aac_sample_frames": 96000,
+      "compared_sample_frames": 96000,
+      "correlation": 0.9999124554923451,
+      "correlation_note": null,
+      "rmse_normalized_amplitude": 0.0010661629264336041,
+      "comparison_note": "AAC-decoded float samples are lossy and are not expected to be byte-identical to the PCM master."
+    }
+  ],
+  "acceptance": {
+    "human_visual_review": "not performed",
+    "full_frame_visual_qc": "not performed; use the separate rootscan_visual_qc process",
+    "continuous_listening": "not performed or claimed",
+    "asr_or_cloud_transcription": "not used",
+    "status": "measurements only; no acceptance decision"
+  }
+}

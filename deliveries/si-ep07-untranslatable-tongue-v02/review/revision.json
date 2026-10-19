@@ -1,0 +1,28 @@
+{
+  "revision": "v02",
+  "request": "要用这个系列一致的配音",
+  "previous_delivery": "si-ep07-untranslatable-tongue",
+  "original_script_unchanged": true,
+  "picture_design": "reuse existing EP07 design; re-time captions from new measured PCM if needed",
+  "status": "final_media_QA_passed_publication_and_archive_in_progress",
+  "old_publication": "Existing note retained and edited in place; no deletion or new note created",
+  "series_voice": {
+    "provider": "Aliyun Bailian",
+    "effective_model": "cosyvoice-v3-flash",
+    "voice": "longtian_v3",
+    "rate": 1.0,
+    "segments": 11
+  },
+  "master_sha256": "6ace22a02071f065d80d5579fa09603dc4db025c29b18d3316426739b0fcc5cc",
+  "audio_revision": {
+    "S02": "startFrame660→600, original text/rate retained",
+    "Q98": "first retained nonzero sample at frame5910; RMS threshold170samples later; no nonzero speech cropped"
+  },
+  "picture_provenance": {
+    "base_delivery": "si-ep07-untranslatable-tongue",
+    "base_portrait_sha256": "8bf20c0583cc289fbb5f43391d6c9a0ebaa9e01b641d7b37b0df9e0e03708852",
+    "base_landscape_sha256": "4ff0e36dbd83474ff8af2524d32d5ae9a7d2c4d4e0e8040282ee1cfdee52accb",
+    "plan": "full native4K source picture reused; subtitle band re-rendered at native scale and composited, followed by full final decode/visual QC"
+  },
+  "final_validation": "review/media-validation-20261019T175449.370711Z.json"
+}

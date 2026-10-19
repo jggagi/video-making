@@ -3098,6 +3098,177 @@
           "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep07-untranslatable-tongue-1dd8685e0b06/si-ep07-untranslatable-tongue--deliveries--si-ep07-untranslatable-tongue-----si-ep07-untranslatable-tongue-xiaohongshu-120s-portrait--8bf20c0583cc.mp4"
         }
       ]
+    },
+    {
+      "id": "si-ep07-untranslatable-tongue-v02",
+      "title": "后人类黑话 · v02（系列配音）",
+      "release_tag": "film-si-ep07-untranslatable-tongue-v02-a0b06851b5cc",
+      "historical": false,
+      "duration_seconds": 120,
+      "project_path": "deliveries/si-ep07-untranslatable-tongue-v02/project",
+      "delivery_directory": "deliveries/si-ep07-untranslatable-tongue-v02",
+      "final_output_paths": {
+        "B站": "deliveries/si-ep07-untranslatable-tongue-v02/B站/si-ep07-untranslatable-tongue-v02-bilibili-120s-4k.mp4",
+        "小红书": "deliveries/si-ep07-untranslatable-tongue-v02/小红书/si-ep07-untranslatable-tongue-v02-xiaohongshu-120s-portrait.mp4"
+      },
+      "final_output_dimensions": {
+        "B站": [
+          3840,
+          2160
+        ],
+        "小红书": [
+          2160,
+          3840
+        ]
+      },
+      "assets": [
+        {
+          "path": "deliveries/si-ep07-untranslatable-tongue-v02/B站/si-ep07-untranslatable-tongue-v02-bilibili-120s-4k.mp4",
+          "name": "si-ep07-untranslatable-tongue-v02--deliveries--si-ep07-untranslatable-tongue-v02--B---si-ep07-untranslatable-tongue-v02-bilibili-120s-4k--2e7478f36e9e.mp4",
+          "bytes": 153918132,
+          "sha256": "2e7478f36e9e4dbbacb640a53f2579f808c992d41243bcf04393a274f26bbdfb",
+          "kind": "video",
+          "platform": "B站",
+          "measurements": {
+            "width": 3840,
+            "height": 2160,
+            "fps": "60/1",
+            "frames": "7200",
+            "video_duration_seconds": 120.0,
+            "container_duration_seconds": 120.0
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep07-untranslatable-tongue-v02-a0b06851b5cc/si-ep07-untranslatable-tongue-v02--deliveries--si-ep07-untranslatable-tongue-v02--B---si-ep07-untranslatable-tongue-v02-bilibili-120s-4k--2e7478f36e9e.mp4"
+        },
+        {
+          "path": "deliveries/si-ep07-untranslatable-tongue-v02/project/public/patches/landscape-caption-patch.mp4",
+          "name": "si-ep07-untranslatable-tongue-v02--deliveries--si-ep07-untranslatable-tongue-v02--project--public--patches--landscape-caption-patch--9c347ff9b021.mp4",
+          "bytes": 5764887,
+          "sha256": "9c347ff9b021fb8df62a6a0379ff4c9f8e46a458e5882ce7fb1c70ae433700b2",
+          "kind": "video",
+          "platform": "工程",
+          "measurements": {
+            "width": 3840,
+            "height": 360,
+            "fps": "60/1",
+            "frames": "7200",
+            "video_duration_seconds": 120.0,
+            "container_duration_seconds": 120.0
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep07-untranslatable-tongue-v02-a0b06851b5cc/si-ep07-untranslatable-tongue-v02--deliveries--si-ep07-untranslatable-tongue-v02--project--public--patches--landscape-caption-patch--9c347ff9b021.mp4"
+        },
+        {
+          "path": "deliveries/si-ep07-untranslatable-tongue-v02/project/public/patches/portrait-caption-patch.mp4",
+          "name": "si-ep07-untranslatable-tongue-v02--deliveries--si-ep07-untranslatable-tongue-v02--project--public--patches--portrait-caption-patch--f536407623d3.mp4",
+          "bytes": 1804197,
+          "sha256": "f536407623d3d5ce0a5780593249f65a3679d1111d31194018d2d7e026688dc8",
+          "kind": "video",
+          "platform": "工程",
+          "measurements": {
+            "width": 2160,
+            "height": 360,
+            "fps": "60/1",
+            "frames": "7200",
+            "video_duration_seconds": 120.0,
+            "container_duration_seconds": 120.0
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep07-untranslatable-tongue-v02-a0b06851b5cc/si-ep07-untranslatable-tongue-v02--deliveries--si-ep07-untranslatable-tongue-v02--project--public--patches--portrait-caption-patch--f536407623d3.mp4"
+        },
+        {
+          "path": "deliveries/si-ep07-untranslatable-tongue-v02/review/caption-revision-landscape-6270-6449.mp4",
+          "name": "si-ep07-untranslatable-tongue-v02--deliveries--si-ep07-untranslatable-tongue-v02--review--caption-revision-landscape-6270-6449--f56ea56456b2.mp4",
+          "bytes": 3672626,
+          "sha256": "f56ea56456b2cc51b85c867eb7bc1fec1e0bdb77e9da2ead0a1619758bdec29f",
+          "kind": "video",
+          "platform": "预览",
+          "measurements": {
+            "width": 3840,
+            "height": 2160,
+            "fps": "60/1",
+            "frames": "180",
+            "video_duration_seconds": 3.0,
+            "container_duration_seconds": 3.0
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep07-untranslatable-tongue-v02-a0b06851b5cc/si-ep07-untranslatable-tongue-v02--deliveries--si-ep07-untranslatable-tongue-v02--review--caption-revision-landscape-6270-6449--f56ea56456b2.mp4"
+        },
+        {
+          "path": "deliveries/si-ep07-untranslatable-tongue-v02/review/caption-revision-portrait-570-749.mp4",
+          "name": "si-ep07-untranslatable-tongue-v02--deliveries--si-ep07-untranslatable-tongue-v02--review--caption-revision-portrait-570-749--d89687a7b281.mp4",
+          "bytes": 4734373,
+          "sha256": "d89687a7b2819cf1f9a6365c85fff1b10e1f4d3ed05a19eff1cfae25c4597022",
+          "kind": "video",
+          "platform": "预览",
+          "measurements": {
+            "width": 2160,
+            "height": 3840,
+            "fps": "60/1",
+            "frames": "180",
+            "video_duration_seconds": 3.0,
+            "container_duration_seconds": 3.0
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep07-untranslatable-tongue-v02-a0b06851b5cc/si-ep07-untranslatable-tongue-v02--deliveries--si-ep07-untranslatable-tongue-v02--review--caption-revision-portrait-570-749--d89687a7b281.mp4"
+        },
+        {
+          "path": "deliveries/si-ep07-untranslatable-tongue-v02/review/patch-previews/caption-patch-landscape-6270-6449.mp4",
+          "name": "si-ep07-untranslatable-tongue-v02--deliveries--si-ep07-untranslatable-tongue-v02--review--patch-previews--caption-patch-landscape-6270-6449--3c1b28092c56.mp4",
+          "bytes": 109022,
+          "sha256": "3c1b28092c560f1021a8cc4dbeb730fa0ba10645d8f4438eb76d02633de14129",
+          "kind": "video",
+          "platform": "预览",
+          "measurements": {
+            "width": 3840,
+            "height": 360,
+            "fps": "60/1",
+            "frames": "180",
+            "video_duration_seconds": 3.0,
+            "container_duration_seconds": 3.0
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep07-untranslatable-tongue-v02-a0b06851b5cc/si-ep07-untranslatable-tongue-v02--deliveries--si-ep07-untranslatable-tongue-v02--review--patch-previews--caption-patch-landscape-6270-6449--3c1b28092c56.mp4"
+        },
+        {
+          "path": "deliveries/si-ep07-untranslatable-tongue-v02/review/patch-previews/caption-patch-portrait-570-749.mp4",
+          "name": "si-ep07-untranslatable-tongue-v02--deliveries--si-ep07-untranslatable-tongue-v02--review--patch-previews--caption-patch-portrait-570-749--db67e5532844.mp4",
+          "bytes": 69152,
+          "sha256": "db67e5532844acf46f3be3422ecebe1c03f4710f1a1a95dd509161b4fc5e3937",
+          "kind": "video",
+          "platform": "预览",
+          "measurements": {
+            "width": 2160,
+            "height": 360,
+            "fps": "60/1",
+            "frames": "180",
+            "video_duration_seconds": 3.0,
+            "container_duration_seconds": 3.0
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep07-untranslatable-tongue-v02-a0b06851b5cc/si-ep07-untranslatable-tongue-v02--deliveries--si-ep07-untranslatable-tongue-v02--review--patch-previews--caption-patch-portrait-570-749--db67e5532844.mp4"
+        },
+        {
+          "path": "deliveries/si-ep07-untranslatable-tongue-v02/si-ep07-untranslatable-tongue-v02-project.zip",
+          "name": "si-ep07-untranslatable-tongue-v02--deliveries--si-ep07-untranslatable-tongue-v02--si-ep07-untranslatable-tongue-v02-project--8fdeebdddf1b.zip",
+          "bytes": 73479641,
+          "sha256": "8fdeebdddf1b664619145fa0dcd394f2e1ce6716f101d5018b8a6ec571ce1b7f",
+          "kind": "project",
+          "platform": "工程",
+          "measurements": {},
+          "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep07-untranslatable-tongue-v02-a0b06851b5cc/si-ep07-untranslatable-tongue-v02--deliveries--si-ep07-untranslatable-tongue-v02--si-ep07-untranslatable-tongue-v02-project--8fdeebdddf1b.zip"
+        },
+        {
+          "path": "deliveries/si-ep07-untranslatable-tongue-v02/小红书/si-ep07-untranslatable-tongue-v02-xiaohongshu-120s-portrait.mp4",
+          "name": "si-ep07-untranslatable-tongue-v02--deliveries--si-ep07-untranslatable-tongue-v02-----si-ep07-untranslatable-tongue-v02-xiaohongshu-120s-portrait--7621a7e36efc.mp4",
+          "bytes": 115535635,
+          "sha256": "7621a7e36efc7e2057060ff7aeae2c3eec51cab0603870b7e83d3313a5bdaa16",
+          "kind": "video",
+          "platform": "小红书",
+          "measurements": {
+            "width": 2160,
+            "height": 3840,
+            "fps": "60/1",
+            "frames": "7200",
+            "video_duration_seconds": 120.0,
+            "container_duration_seconds": 120.0
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep07-untranslatable-tongue-v02-a0b06851b5cc/si-ep07-untranslatable-tongue-v02--deliveries--si-ep07-untranslatable-tongue-v02-----si-ep07-untranslatable-tongue-v02-xiaohongshu-120s-portrait--7621a7e36efc.mp4"
+        }
+      ]
     }
   ]
 }

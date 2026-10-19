@@ -1,0 +1,42 @@
+{
+  "status": "composed",
+  "master": {
+    "path": "project/public/audio/master.wav",
+    "sample_rate_hz": 48000,
+    "channels": 2,
+    "sample_frames_per_channel": 5760000,
+    "sample_width_bytes": 2,
+    "compression_type": "NONE",
+    "size_bytes": 23040044,
+    "sha256": "6ace22a02071f065d80d5579fa09603dc4db025c29b18d3316426739b0fcc5cc"
+  },
+  "outputs": [
+    {
+      "layout": "portrait",
+      "output": "小红书/si-ep07-untranslatable-tongue-v02-xiaohongshu-120s-portrait.mp4",
+      "state": "new formal file published atomically",
+      "sha256": "7621a7e36efc7e2057060ff7aeae2c3eec51cab0603870b7e83d3313a5bdaa16",
+      "size_bytes": 115535635,
+      "base_sha256": "8bf20c0583cc289fbb5f43391d6c9a0ebaa9e01b641d7b37b0df9e0e03708852",
+      "patch_sha256": "f536407623d3d5ce0a5780593249f65a3679d1111d31194018d2d7e026688dc8",
+      "video": {
+        "width": 2160,
+        "height": 3840,
+        "fps": "60/1",
+        "frames": 7200,
+        "duration_seconds": 120.0,
+        "pixel_format": "yuv420p",
+        "color_range": "tv",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709",
+        "color_space": "bt709"
+      },
+      "audio": {
+        "sample_rate_hz": 48000,
+        "channels": 2,
+        "codec": "aac",
+        "source": "v02 shared master.wav; v01 base audio is not mapped"
+      }
+    }
+  ]
+}

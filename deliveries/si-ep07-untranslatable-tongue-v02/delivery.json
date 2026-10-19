@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "title": "后人类黑话 · v02（系列配音）",
+  "slug": "si-ep07-untranslatable-tongue-v02",
+  "duration_seconds": 120,
+  "fps": 60,
+  "total_frames": 7200,
+  "script": {
+    "path": "source/script.md",
+    "sha256": "f293789134bce76e1c552471c3e9ac6716a07441ee7e04bd10fb94637f931bbc"
+  },
+  "audio": {
+    "mode": "narrated",
+    "master": "project/public/audio/master.wav"
+  },
+  "outputs": {
+    "bilibili": {
+      "path": "B站/si-ep07-untranslatable-tongue-v02-bilibili-120s-4k.mp4",
+      "width": 3840,
+      "height": 2160
+    },
+    "xiaohongshu": {
+      "path": "小红书/si-ep07-untranslatable-tongue-v02-xiaohongshu-120s-portrait.mp4",
+      "width": 2160,
+      "height": 3840
+    }
+  },
+  "qa": {
+    "automated": "PASS",
+    "representative_frames": "model-reviewed; mobile-scale, scene pairs, native dark crops and caption seams checked",
+    "continuous_human_review": "not performed",
+    "target_device_playback": "not performed"
+  },
+  "visual_qc": {
+    "required": true,
+    "reports": {
+      "bilibili": "review/visual-qc-bilibili/report.json",
+      "xiaohongshu": "review/visual-qc-xiaohongshu/report.json"
+    }
+  }
+}

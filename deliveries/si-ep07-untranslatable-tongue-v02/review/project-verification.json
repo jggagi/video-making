@@ -1,0 +1,17 @@
+{
+  "original_script_hash": true,
+  "native_dual_4k": true,
+  "exact_timeline": true,
+  "all_original_tts_segments": true,
+  "all_measured_cues": true,
+  "captions_present": true,
+  "mobile_caption_line_lengths": true,
+  "mobile_caption_line_counts": true,
+  "caption_bounds": true,
+  "visual_gate_required": true,
+  "no_real_time_random": true,
+  "fiction_mark_visible": true,
+  "pcm_master_exact": true,
+  "exact_half_second_absolute_silence": true,
+  "errors": []
+}

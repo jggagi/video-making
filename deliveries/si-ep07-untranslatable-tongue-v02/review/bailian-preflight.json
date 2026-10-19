@@ -1,0 +1,10 @@
+{
+  "skill_version": "2.4.0",
+  "installed_cli": "2.4.0",
+  "npm_latest": "2.4.0",
+  "upgrade_performed": false,
+  "requested_voice": "longtian_v3",
+  "reference_episode": "EP06 base andv02 matched successful manifests",
+  "provider_selection": "Current user request for series-consistent voice, continuing verified Bailian series workflow",
+  "ASR_authorized": false
+}

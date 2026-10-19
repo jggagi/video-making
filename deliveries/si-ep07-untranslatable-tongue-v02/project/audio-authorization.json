@@ -1,0 +1,15 @@
+{
+  "provider": "Aliyun Bailian",
+  "scope": "EP07 ten original tts_phonetic_text segments and Q98 quote only",
+  "authorized": true,
+  "source": "direct user reply in current chat",
+  "settings": {
+    "model_selection": "active profile default",
+    "voice": "longtian_v3",
+    "rate": 1.0
+  },
+  "current_user_instruction": "要用这个系列一致的配音",
+  "interpretation": "User selected continuation of the series voice, verified in EP06 successful manifests: Aliyun Bailian/cosyvoice-v3-flash/longtian_v3/rate1.0. This current request authorizes EP07 supplied narration only; no ASR or unrelated cloud materials.",
+  "reference": "../si-ep06-sovereign-crystal/project/public/audio/provider-manifest.json",
+  "cost_scope": "11 supplied short narration segments, same series provider/settings; shared once across both platforms"
+}

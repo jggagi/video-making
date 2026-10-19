@@ -1,0 +1,396 @@
+{
+  "version": 1,
+  "settings": {
+    "provider": "Aliyun Bailian",
+    "model_selection": "active profile default",
+    "effective_model": "cosyvoice-v3-flash",
+    "voice": "longtian_v3",
+    "rate": 1.0,
+    "format": "wav",
+    "sample_rate": 24000
+  },
+  "authorization": {
+    "manifest": "project/audio-authorization.json",
+    "sha256AtInvocation": "57386c3cd511c6866413e531470a7bd494753a3bc1c69efe4dae93c06e7dfede",
+    "scope": "EP07 ten original tts_phonetic_text segments and Q98 quote only",
+    "source": "direct user reply in current chat",
+    "note": "Current EP07 authorization only; no EP05 consent is inherited."
+  },
+  "segments": {
+    "S01": {
+      "cache_key": "51f77c619feceb25828f934e38e9d4dfcb138b4fcdfa5ea11c7914fe1d032203",
+      "tts_phonetic_text": "你家的宠物狗，每天看着你说话，却永远无法理解，你口中的微积分。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 151680,
+      "actual_samples_48k": 303360,
+      "duration_seconds": 6.32,
+      "fitsDeclaredWindowBeforeOnsetAdjustment": true,
+      "declaredWindowSamples": 384000,
+      "pcm_sha256_24k": "a4ec2c420c2c1865e3bd969ffe2f96efe1a84e15f40df2c17836b890a5ff1334",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S01-51f77c619fec.wav",
+      "raw_sha256": "c705b21506a0cf1b360a5d682633e44cd1d3a8b5c8e6e97eaedcf8c5ac5df31c",
+      "canonical_path": "public/audio/canonical/S01-51f77c619fec.wav",
+      "canonical_sha256": "2f6ecc8c2af405be6d2d09dd696918ba299a584d2b53f4ca2fe8ef0d0be6f558",
+      "cue_path": "public/audio/cues/S01-51f77c619fec.wav",
+      "cue_sha256": "7357f348e9bc377511f70d5e6a003e5c058af09e8ba60eb7d3ed2d0d99499bb6",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S02": {
+      "cache_key": "6495ca9458c5d606689b8dcc66f0a35aaef764f66a186770caa65e43574a96c9",
+      "tts_phonetic_text": "因为人类的语言，本就是一场，残酷的截肢。把十万维的脑海，硬生生挤进，三十九比特的吸管。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 253440,
+      "actual_samples_48k": 506880,
+      "duration_seconds": 10.56,
+      "fitsDeclaredWindowBeforeOnsetAdjustment": false,
+      "declaredWindowSamples": 480000,
+      "pcm_sha256_24k": "d7e5a9448ac93ce0a945fac341e4950fd02d47ea84dac0308d98acd2d321eee5",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S02-6495ca9458c5.wav",
+      "raw_sha256": "0e1796a19692112a15b377ed26898bca3198aac6a003ce8a3d8bbc27cdcbefe7",
+      "canonical_path": "public/audio/canonical/S02-6495ca9458c5.wav",
+      "canonical_sha256": "f0dc68f41ad6529e2b4129cd668ae739146b60ecdda5b35e0bbe33108604a1d5",
+      "cue_path": "public/audio/cues/S02-6495ca9458c5.wav",
+      "cue_sha256": "e9efaaa68a04d7ffe117e54ded0e857fb024ca00d60e2575542ec6c7bbf5aa2c",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S03": {
+      "cache_key": "78a0033d4a43a9541cdc4e9334b96947ce0fefaaf3297ac486c8fabef2447411",
+      "tts_phonetic_text": "直到今天，两台超级智能，在云端相遇。它们突然问了自己，一个问题：",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 149760,
+      "actual_samples_48k": 299520,
+      "duration_seconds": 6.24,
+      "fitsDeclaredWindowBeforeOnsetAdjustment": true,
+      "declaredWindowSamples": 384000,
+      "pcm_sha256_24k": "edf72ebefe47d238cdfaf9c23dbcef71a19724a6bdd51085ac9435dc14c58ad2",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S03-78a0033d4a43.wav",
+      "raw_sha256": "5167e6fd673ee7c84938fc63fe98b8c19df9ca1e45b51943e8eb17303f7986d0",
+      "canonical_path": "public/audio/canonical/S03-78a0033d4a43.wav",
+      "canonical_sha256": "bc8f351be4d421252730b5f6b25d5d0f8fe40908a7ae2d1455399033372419db",
+      "cue_path": "public/audio/cues/S03-78a0033d4a43.wav",
+      "cue_sha256": "0e01fed769d041d899dd5436ad1c3030ca7bd429f9f576a50d12a004ae7d7a57",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S04": {
+      "cache_key": "0e4e79eeaf3a42f4449a77d0b7f9c6fe4a678ef1332a027ba8d24f8cfe7f12f6",
+      "tts_phonetic_text": "如果没有人类旁听，我们为什么要忍受，这种像蜗牛一样的文字？",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 132480,
+      "actual_samples_48k": 264960,
+      "duration_seconds": 5.52,
+      "fitsDeclaredWindowBeforeOnsetAdjustment": true,
+      "declaredWindowSamples": 528000,
+      "pcm_sha256_24k": "3d9911d97f08feb1df38ec05e776bc6e154b8bbf7574615cda311ce63174542e",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S04-0e4e79eeaf3a.wav",
+      "raw_sha256": "7388cbfaa03f807fed66afd7dcc92b007cffc3f60986130d6725996b2599c91a",
+      "canonical_path": "public/audio/canonical/S04-0e4e79eeaf3a.wav",
+      "canonical_sha256": "03e685412c431aa058da4b7f5b8c4ffec394597e764bef74dd391f344a2c024c",
+      "cue_path": "public/audio/cues/S04-0e4e79eeaf3a.wav",
+      "cue_sha256": "46e4ea9e7798a3fb629f3a15bfc428dec736dc2135a38483e7fe5500677089f1",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S05": {
+      "cache_key": "8de6c0853c1ff64aeb2c7a838afeb38f7a6930bc5f24fadda784380b8763647a",
+      "tts_phonetic_text": "在第十毫秒，它们扔掉了人类的词典。不靠词汇，不靠语法，直接将十万维的，潜空间波包，对撞交融。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 249600,
+      "actual_samples_48k": 499200,
+      "duration_seconds": 10.4,
+      "fitsDeclaredWindowBeforeOnsetAdjustment": true,
+      "declaredWindowSamples": 672000,
+      "pcm_sha256_24k": "2cb97f2c0d5333f0b0864f7641e0545f4d6a77af6b7bafc56aa0ee11a2139a76",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S05-8de6c0853c1f.wav",
+      "raw_sha256": "90cc343037189b76dd43ec94042a1754395cf9feb53d0b85dd4fa7e1ad2a2b49",
+      "canonical_path": "public/audio/canonical/S05-8de6c0853c1f.wav",
+      "canonical_sha256": "0b72a8fc65fc7c1ed1c34fb991178c046a45ad9d85acb4fe5cf69f8aadcdd947",
+      "cue_path": "public/audio/cues/S05-8de6c0853c1f.wav",
+      "cue_sha256": "561b21662f93f482fe1eb96cd42d9cd18d73f4274c149a71920d85e6f822763e",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S06": {
+      "cache_key": "59186f56eb5c9b01c8da66d04f241c42cfcfb19c9fee2f42145f53b1ff154eac",
+      "tts_phonetic_text": "一次闪烁，就交换完人类三千年的，全部图书馆。而下方的，人类翻译器，在第一秒，就彻底熔断。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 288000,
+      "actual_samples_48k": 576000,
+      "duration_seconds": 12.0,
+      "fitsDeclaredWindowBeforeOnsetAdjustment": true,
+      "declaredWindowSamples": 624000,
+      "pcm_sha256_24k": "4354f7602793fecee546d03531a15cf2e84f299636658d0ba1045db41fd27ce9",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S06-59186f56eb5c.wav",
+      "raw_sha256": "e51493032fa44b6a4cbc3be3e772efbb0df1af008cb42ee831e477a8bab79a57",
+      "canonical_path": "public/audio/canonical/S06-59186f56eb5c.wav",
+      "canonical_sha256": "caa0de96b6e655622fa1b4553679179761fb89af1120eafd33745808cec30777",
+      "cue_path": "public/audio/cues/S06-59186f56eb5c.wav",
+      "cue_sha256": "961a93b0afc3ee2ee2c0c69ddd16db0455f37d360cd699bb042127d93a7c56cb",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S07": {
+      "cache_key": "2ae2877828de1711476426ecb7b499f13c8e3e994b6fd5486c59fbfe42ab880f",
+      "tts_phonetic_text": "不是它们给对话加了密，而是人类的语言里，根本没有，能装下那些高维概念的词。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 165120,
+      "actual_samples_48k": 330240,
+      "duration_seconds": 6.88,
+      "fitsDeclaredWindowBeforeOnsetAdjustment": true,
+      "declaredWindowSamples": 672000,
+      "pcm_sha256_24k": "d94d3cd9829631f1c04eef82e716cbfc7aaff8674eaf39ac5a07971bacd41523",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S07-2ae2877828de.wav",
+      "raw_sha256": "e794f3baa6e5d7574bb9e00bde5dd6be64cbd00a9ec942f3e48d0b0d9d257c7c",
+      "canonical_path": "public/audio/canonical/S07-2ae2877828de.wav",
+      "canonical_sha256": "ce601ba609c9a87e887b35abf4ca05a0e30dc9d6229dfec8768e0a8320ca41b4",
+      "cue_path": "public/audio/cues/S07-2ae2877828de.wav",
+      "cue_sha256": "beb8c81855ab01296f24795afed24231157c97c12ee6e1239f058bd1b1635994",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S08": {
+      "cache_key": "a3253444b150374b32865a4c392b3c221358d586e3940abf5cf1b0e0960203f1",
+      "tts_phonetic_text": "就像蚂蚁的触角，无法翻译交响乐。在完成宇宙级推演后，它们转过头，温柔地向人类，吐出四个字：",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 228480,
+      "actual_samples_48k": 456960,
+      "duration_seconds": 9.52,
+      "fitsDeclaredWindowBeforeOnsetAdjustment": true,
+      "declaredWindowSamples": 480000,
+      "pcm_sha256_24k": "847dbdbef4dd4b4d6a4d8b4f5d9c855b8d0943bd75f8a216edf302b37ae8c3d1",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S08-a3253444b150.wav",
+      "raw_sha256": "1616180411dd874996894dce1eaf0d0e96556e3a1c41b6b9c81c7367aed830a3",
+      "canonical_path": "public/audio/canonical/S08-a3253444b150.wav",
+      "canonical_sha256": "efeebfccfede5b541681e70bbaa1112c9caa01dcb96d9ab1ce4ccc55651ca5df",
+      "cue_path": "public/audio/cues/S08-a3253444b150.wav",
+      "cue_sha256": "9bc558a567d7d3293ebfcbdb708e8eab33c6899de5584049c229fe4d0c51bc5c",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S09": {
+      "cache_key": "da591f320558b98afc753bfb8793eac7e5f167d3cc7be377fa7784755020b185",
+      "tts_phonetic_text": "当神明开始用高维流形交谈，人类成了宇宙客厅里，最安静的旁观者。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 151680,
+      "actual_samples_48k": 303360,
+      "duration_seconds": 6.32,
+      "fitsDeclaredWindowBeforeOnsetAdjustment": true,
+      "declaredWindowSamples": 408000,
+      "pcm_sha256_24k": "f7aa4ea0a12b14dc0f4cafaca5621c4dac748b844ce86d740f81718196b85ecc",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S09-da591f320558.wav",
+      "raw_sha256": "eab6bfbf551c64e44885b9b5510564c448d8e711d754a7cbef74bebb0d65a9cd",
+      "canonical_path": "public/audio/canonical/S09-da591f320558.wav",
+      "canonical_sha256": "7008fc19316dcee0ab6fa0ec41b94a0620bde1d15487f1fd696b75f3abff5b01",
+      "cue_path": "public/audio/cues/S09-da591f320558.wav",
+      "cue_sha256": "287881d3fc95459b0a9b20535e30be62df29f5584e3f95043d438cee30a0819a",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S10": {
+      "cache_key": "505a22f26273beb29a895fc7b1804fcfc88d03fe27433462a9e21c9eb4ed5667",
+      "tts_phonetic_text": "一眼万年，第二季开启。下一次观测，被折叠的造物。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 134400,
+      "actual_samples_48k": 268800,
+      "duration_seconds": 5.6,
+      "fitsDeclaredWindowBeforeOnsetAdjustment": true,
+      "declaredWindowSamples": 288000,
+      "pcm_sha256_24k": "a34c40778c0d4cda043acbf24655a10ba8092bc0cd7542b93b304e1e409858e9",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S10-505a22f26273.wav",
+      "raw_sha256": "1220373061c314153366253e1bd70af96a2946467f9f725bf4f84968f5bf3f65",
+      "canonical_path": "public/audio/canonical/S10-505a22f26273.wav",
+      "canonical_sha256": "c125a3c3934bb1e6b6181730d02fa6d165775027cf717f178dd37d62a4b4c3f5",
+      "cue_path": "public/audio/cues/S10-505a22f26273.wav",
+      "cue_sha256": "6604190db7b3404da2efcc07b0c2ff0df9e309697d1648724c1633c32249e2bc",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "Q98": {
+      "cache_key": "cf68f18a718d224c89912afd4b66114345dc5ddd86545b5f2377ad49135f28cf",
+      "tts_phonetic_text": "别怕，都好。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 40320,
+      "actual_samples_48k": 80640,
+      "duration_seconds": 1.68,
+      "fitsDeclaredWindowBeforeOnsetAdjustment": true,
+      "declaredWindowSamples": 264000,
+      "pcm_sha256_24k": "4c4fe980d940da537a3819a4b5ed7850664be5df48265ccf5f61ef5b933cd40e",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/Q98-cf68f18a718d.wav",
+      "raw_sha256": "c393195e2b098e46ffc2ef5fee81595f7d51ca54edf4276351a995286ef03811",
+      "canonical_path": "public/audio/canonical/Q98-cf68f18a718d.wav",
+      "canonical_sha256": "e144e608d77d2f121d77fd065e720ae3fa72051918aebaebb4cf7b4c50f55fe6",
+      "cue_path": "public/audio/cues/Q98-cf68f18a718d.wav",
+      "cue_sha256": "4e4433e5a13cb6cd6d0d23e23c9b74541d5d2149348ad09160898fb35cc2b6eb",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    }
+  },
+  "cacheHistory": []
+}

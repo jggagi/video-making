@@ -1,0 +1,40 @@
+{
+  "scope": "native still patch compared to matching crop of full Film source; complete encoded movie acceptance remains separate",
+  "measurements": [
+    {
+      "layout": "portrait",
+      "frame": 960,
+      "shape": [
+        360,
+        2160,
+        3
+      ],
+      "exact_equal": false,
+      "mean_abs_8bit": 0.06619984567901234,
+      "max_abs_8bit": 7,
+      "top16_mean_abs_8bit": 0.027623456790123457,
+      "bottom16_mean_abs_8bit": 0.0,
+      "percent_pixels_any_channel_gt2": 0.004243827160493827,
+      "patch_sha256": "5fcbcc5fdd040df045a2aed673146cec717505bb2c934e5c4c69ef045030c207",
+      "source_sha256": "ac6363b8764d6f6cc0710d831b09d0d6b9e68f748d3b479f9ed85077595516b3"
+    },
+    {
+      "layout": "landscape",
+      "frame": 6600,
+      "shape": [
+        360,
+        3840,
+        3
+      ],
+      "exact_equal": false,
+      "mean_abs_8bit": 0.09901258680555555,
+      "max_abs_8bit": 14,
+      "top16_mean_abs_8bit": 0.12486436631944445,
+      "bottom16_mean_abs_8bit": 0.03203125,
+      "percent_pixels_any_channel_gt2": 0.0018807870370370371,
+      "patch_sha256": "1fcb21b7cac6fa46f6aecc060566f07e12dc0df72deefb29f8d8a5bfaba7d954",
+      "source_sha256": "3b963e2ed92978d8e263dfdb42a06b237a32370b936cf3ba48132374cbf17d99"
+    }
+  ],
+  "root_model_observation": "Viewed both native comparison images: same text, geometry and background. Not bit-identical; tiny raster/color differences mean0.066/0.099 on8-bit scale, >2channel-difference pixels below0.005%. No apparent displacement or clipped glyph in these stills; motion/final checks remain required."
+}

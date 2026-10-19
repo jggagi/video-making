@@ -1,0 +1,39 @@
+{
+  "method": "native-scale caption-band render over SHA-pinned native4K v01 image base; complete v02 final re-encoded H264CRF16 fast, yuv420p BT709tv, AAC320k48k stereo from revised shared PCM only",
+  "capture": {
+    "browser": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+    "remotion": "4.0.534",
+    "image_format": "png",
+    "concurrency": 1,
+    "portrait_patch": [
+      2160,
+      360,
+      0,
+      2700
+    ],
+    "landscape_patch": [
+      3840,
+      360,
+      0,
+      1800
+    ]
+  },
+  "source_sha256": {
+    "project/src/Film.tsx": "f9b29c2e773b538476785d36d7d5b84e35b3fe98b3a8281c1f65bda990c07c00",
+    "project/src/CanvasWorld.tsx": "578b395195d357631030a423b4081dd90e53e7f8b1ee10a659ec497f1fb64b27",
+    "project/src/Root.tsx": "1f63f6be18f8ba84676ae3f23daea3e1bf4d28a368eb2b48965d0c8dd1797ea4",
+    "project/src/CaptionPatch.tsx": "5263309495e6c1d726fe22bdd666f5d1edc5e07dcb2ca0ebd517cfaefaf59fa7",
+    "project/scripts/render_caption_patch.mjs": "f60596ffca2f896cc785912796a677ae91937e4b5e1bc5822cfe9022423312f7",
+    "project/scripts/compose_revision.py": "62a529b04605821c5c5e303581c377dc97288a0addd43f8c6fc648bd66d93306",
+    "project/audio-timing.json": "989e8e0314d5c908d8cd1cd497009402d6134d83c76aa2c266eb8ce7ec648b42",
+    "project/segments.json": "83a561c31b2eab1169160f0832209cf5383731f2695c340b91e3637fdf21cc86",
+    "project/public/audio/master.wav": "6ace22a02071f065d80d5579fa09603dc4db025c29b18d3316426739b0fcc5cc"
+  },
+  "full_scene_components_unchanged": {
+    "project/src/Film.tsx": true,
+    "project/src/CanvasWorld.tsx": true
+  },
+  "preflight_proof": "patch-source-comparison.json and patch-motion-preview.json",
+  "human_acceptance": "unassessed",
+  "compose_execution": "independent selected layout preflight; one full4K encoder while other7200-frame subtitle-strip renderer runs"
+}

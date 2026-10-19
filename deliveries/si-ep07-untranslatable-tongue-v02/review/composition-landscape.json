@@ -1,0 +1,42 @@
+{
+  "status": "composed",
+  "master": {
+    "path": "project/public/audio/master.wav",
+    "sample_rate_hz": 48000,
+    "channels": 2,
+    "sample_frames_per_channel": 5760000,
+    "sample_width_bytes": 2,
+    "compression_type": "NONE",
+    "size_bytes": 23040044,
+    "sha256": "6ace22a02071f065d80d5579fa09603dc4db025c29b18d3316426739b0fcc5cc"
+  },
+  "outputs": [
+    {
+      "layout": "landscape",
+      "output": "B站/si-ep07-untranslatable-tongue-v02-bilibili-120s-4k.mp4",
+      "state": "new formal file published atomically",
+      "sha256": "2e7478f36e9e4dbbacb640a53f2579f808c992d41243bcf04393a274f26bbdfb",
+      "size_bytes": 153918132,
+      "base_sha256": "4ff0e36dbd83474ff8af2524d32d5ae9a7d2c4d4e0e8040282ee1cfdee52accb",
+      "patch_sha256": "9c347ff9b021fb8df62a6a0379ff4c9f8e46a458e5882ce7fb1c70ae433700b2",
+      "video": {
+        "width": 3840,
+        "height": 2160,
+        "fps": "60/1",
+        "frames": 7200,
+        "duration_seconds": 120.0,
+        "pixel_format": "yuv420p",
+        "color_range": "tv",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709",
+        "color_space": "bt709"
+      },
+      "audio": {
+        "sample_rate_hz": 48000,
+        "channels": 2,
+        "codec": "aac",
+        "source": "v02 shared master.wav; v01 base audio is not mapped"
+      }
+    }
+  ]
+}

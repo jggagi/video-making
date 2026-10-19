@@ -1,0 +1,408 @@
+{
+  "schema_version": 1,
+  "kind": "verified_reusable_tts_cache",
+  "scope": "EP05 v02 final cue set:8 newly generated cues; S09 and S10 exact verified reused cache",
+  "settings": {
+    "provider": "Aliyun Bailian",
+    "model_selection": "active profile default",
+    "effective_model": "cosyvoice-v3-flash",
+    "voice": "longtian_v3",
+    "rate": 1.0,
+    "format": "wav",
+    "sample_rate": 24000
+  },
+  "origin": {
+    "delivery": "si-ep05-landauer-limit v01",
+    "source_manifest_sha256": "7ebd470b2ab7211c9d06d4c19fd3296a8422d60363019df9e63f3c173f55d22d"
+  },
+  "segments": {
+    "S10": {
+      "cache_key": "4348402d849b2e0e5954595639f6f071eaaa4d803243295c693d07c3df3f6d35",
+      "tts_phonetic_text": "下一次观测，主权心印。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 63360,
+      "actual_samples_48k": 126720,
+      "duration_seconds": 2.64,
+      "fitsDeclaredWindowBeforeOnsetAdjustment": true,
+      "declaredWindowSamples": 192000,
+      "pcm_sha256_24k": "9249829d17c68edf152f820352f3bf9817abd9d8d477fcbf04ee60fadb14d0ef",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S10-4348402d849b.wav",
+      "raw_sha256": "e5de401a48306fb1fc900078ac5aa2d26f1c87d1cdb156f847e8e7dbd54a726b",
+      "canonical_path": "public/audio/canonical/S10-4348402d849b.wav",
+      "canonical_sha256": "677ef9641d72ead1097454e74453324c1d8d60eeba450ea3c34d09f33b2fd91f",
+      "cue_path": "public/audio/cues/S10-4348402d849b.wav",
+      "cue_sha256": "ab80f4a8220ab948173f3d20c309748c47bf63f26a4cbcd1d42cc59d726ba352",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response",
+      "tts_input_sha256": "05e80384722597227ade79ecc47fd8ffcac89939abc97abf6aba18d9487a4dcf",
+      "cache_status": "reused_after_exact_text_settings_and_file_hash_verification"
+    },
+    "S02": {
+      "cache_key": "6c8fba307066e7e47fc6ef3c2283c71d445bc7ac90e8af4ab0d8c1082fc570aa",
+      "tts_phonetic_text": "遗忘，从不是免费的。每抹掉一比特未知记忆，就要把一点点热，交给周围的世界。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 178560,
+      "actual_samples_48k": 357120,
+      "duration_seconds": 7.44,
+      "fitsDeclaredWindowBeforeOnsetAdjustment": true,
+      "declaredWindowSamples": 480000,
+      "pcm_sha256_24k": "ac7bbf37fdaa340fcf509a4d683beaee8fc72d66317a0df52be7cd602b271c11",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S02-6c8fba307066.wav",
+      "raw_sha256": "dd64f03b037075a64d6a58be2a8c428c8fead1948e3a1b49328aa3e0272f11f9",
+      "canonical_path": "public/audio/canonical/S02-6c8fba307066.wav",
+      "canonical_sha256": "aed6ceb60e3655afba1a5667a03149364b543fc05facd71a4138a2b134e438ed",
+      "cue_path": "public/audio/cues/S02-6c8fba307066.wav",
+      "cue_sha256": "4ff406053c03e98ab4ac3add39310dec3b2f277e18f4c5acb8ed1102d3aa828b",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S01": {
+      "cache_key": "cd5bd3615e6ce36ef2d98c6f6c2708184784593f596f80f916d087119e9ae8c2",
+      "tts_phonetic_text": "你此时此刻，闪过的每一个念头，都在让宇宙变热一点点。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 130560,
+      "actual_samples_48k": 261120,
+      "duration_seconds": 5.44,
+      "fitsDeclaredWindowBeforeOnsetAdjustment": true,
+      "declaredWindowSamples": 384000,
+      "pcm_sha256_24k": "8777a0cc7b5a7a853e2755c77570a2e2b85d43871ba722c23b5386706423a698",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S01-cd5bd3615e6c.wav",
+      "raw_sha256": "56668a5781b9b3bc33b89d1803a4d01e6f5996e015b0928e3080fd942664ebb9",
+      "canonical_path": "public/audio/canonical/S01-cd5bd3615e6c.wav",
+      "canonical_sha256": "c82a2bbef138243b7c2507cc014f51da76a2f3b0ca27acf40469d51c6b91d923",
+      "cue_path": "public/audio/cues/S01-cd5bd3615e6c.wav",
+      "cue_sha256": "4d48cc6c78203d15538fa023b1a61991bfaa6bc380c83a8c64956b6b697ae567",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S03": {
+      "cache_key": "e69b1ec43ccc44a1477afbc1f152fbe14088fb6236b5bca1f58a938baec56e9c",
+      "tts_phonetic_text": "这就是兰道尔极限：一道由热力学第二定律，焊死的宇宙铁幕。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 151680,
+      "actual_samples_48k": 303360,
+      "duration_seconds": 6.32,
+      "fitsDeclaredWindowBeforeOnsetAdjustment": true,
+      "declaredWindowSamples": 384000,
+      "pcm_sha256_24k": "d666201a3ac363b2cd38cde30aaaf07308ba35b71e50424e0c7bc0fe1678e1a7",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S03-e69b1ec43ccc.wav",
+      "raw_sha256": "29a9323a6fa38f5e41eb481388927dda9160ee7260f863f14a3ab3140a41798c",
+      "canonical_path": "public/audio/canonical/S03-e69b1ec43ccc.wav",
+      "canonical_sha256": "a5f3cb8855a4d4df7fb1669a6e3a410923886ffd3a60fd2e19ac63f862ca9e2b",
+      "cue_path": "public/audio/cues/S03-e69b1ec43ccc.wav",
+      "cue_sha256": "57e1c0a3b2fc2b4b522624496a9b9950852875d1c26879740b709fabaabe0886",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S04": {
+      "cache_key": "922dcd7c99a33603eb0d8b478842bbf456065ac08850e4b000bda9454fda656e",
+      "tts_phonetic_text": "人脑只耗电约二十瓦，像一盏温热的床头灯；而狂飙的超级智能，终将逼近那块烧红的天花板。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 213120,
+      "actual_samples_48k": 426240,
+      "duration_seconds": 8.88,
+      "fitsDeclaredWindowBeforeOnsetAdjustment": true,
+      "declaredWindowSamples": 576000,
+      "pcm_sha256_24k": "486c1fed1a7ee67b1257d972f21b61a173854ead2c0b14c5cf8426394747fa7e",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S04-922dcd7c99a3.wav",
+      "raw_sha256": "92733c6bb581b629745989a79ced7b277823252e871e747ce941ce18449878b7",
+      "canonical_path": "public/audio/canonical/S04-922dcd7c99a3.wav",
+      "canonical_sha256": "ad46514224044d812b2691f43ab302a347c64cc2132fafe45185f8bd56d53c65",
+      "cue_path": "public/audio/cues/S04-922dcd7c99a3.wav",
+      "cue_sha256": "3f8a062e70c5b91baaf03c83687821f236194855ca9db4d9a6a96aedfdae932d",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S05": {
+      "cache_key": "869100f5b995adc680911a40c6eaaf3b76dfe9db1692bca0f637da3a1775fd0b",
+      "tts_phonetic_text": "哪怕把芯片造到原子尺度，每次不可逆擦除，仍有最低的热代价。无数微小的热，最终汇成一场火。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 216960,
+      "actual_samples_48k": 433920,
+      "duration_seconds": 9.04,
+      "fitsDeclaredWindowBeforeOnsetAdjustment": true,
+      "declaredWindowSamples": 624000,
+      "pcm_sha256_24k": "16789d26fd5f1efacfa6b71a3b56b4bd06cfbe38672161750404b607cda23349",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S05-869100f5b995.wav",
+      "raw_sha256": "9ae9e2fbf7b956666be4161a907e8afa51fb8e15b052530707b5ac8ef2063cb8",
+      "canonical_path": "public/audio/canonical/S05-869100f5b995.wav",
+      "canonical_sha256": "1704f78e078e942d355d13495f9e2fdf4e15f5235f7400056d281bf9a7e34131",
+      "cue_path": "public/audio/cues/S05-869100f5b995.wav",
+      "cue_sha256": "d341b1daf6ffdceaee81d8dcacd73a399f62d6e4b131747f7d853ae982972024",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S06": {
+      "cache_key": "4d15b07baf18982320c5fe4a3c15eba3b75b7ee1916b7fc4ce92fe4a210ad925",
+      "tts_phonetic_text": "困住行星级智能的，不只有供电，还有散热。地球太小，大气层像一口盖着的高压锅。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 182400,
+      "actual_samples_48k": 364800,
+      "duration_seconds": 7.6,
+      "fitsDeclaredWindowBeforeOnsetAdjustment": true,
+      "declaredWindowSamples": 624000,
+      "pcm_sha256_24k": "af0d4641dbdcd04a9f044da5cbbfc0593ab9103aae6ddc1fa0196c99dfa93c5a",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S06-4d15b07baf18.wav",
+      "raw_sha256": "657d017d98fe50b842ef6c1a4cbf5469d17418e1b1198affeed8e6599af9e896",
+      "canonical_path": "public/audio/canonical/S06-4d15b07baf18.wav",
+      "canonical_sha256": "3fa454860f452c1c765db3e3986d1712ba4f358fae455d4193838b72e2410b35",
+      "cue_path": "public/audio/cues/S06-4d15b07baf18.wav",
+      "cue_sha256": "80dfd242c930d3a7f89053dd274213580eba0d29039477503af6365cdbcd3bac",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S07": {
+      "cache_key": "405c2647b3f0e89074c5b4de4050308d2c4d5a239581d9b16aea4a0065f06e3d",
+      "tts_phonetic_text": "热被大气吸收，再涌回地面。还没用尽太阳馈赠的能量，神明的脑热，就可能毁掉熟悉的生物圈。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 222720,
+      "actual_samples_48k": 445440,
+      "duration_seconds": 9.28,
+      "fitsDeclaredWindowBeforeOnsetAdjustment": true,
+      "declaredWindowSamples": 672000,
+      "pcm_sha256_24k": "33cf75f78bab6c187d8b1b80189a288c8822f0b6ec945524a1ea9eff5f0439a2",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S07-405c2647b3f0.wav",
+      "raw_sha256": "3eed0a571eba0fa919c6f98106536237646048e52b662d3393475781e2346a68",
+      "canonical_path": "public/audio/canonical/S07-405c2647b3f0.wav",
+      "canonical_sha256": "dd125dd4c91d894b6edb0c3891f57aae2cf766cd0a9602f3c8e86e6e20cae6d6",
+      "cue_path": "public/audio/cues/S07-405c2647b3f0.wav",
+      "cue_sha256": "9df24a66bf6e3b72d796195b87b50b955801b1dec7f32011cebfe9417ec457f9",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S08": {
+      "cache_key": "dc42a3325ac1b82b1ed6fc271dcfd0454272d2cd8a13fe18ae8cd9e263cf6c51",
+      "tts_phonetic_text": "为了继续思考，它们或许会离开母星，向冰冷的深空展开散热翼。那里，宇宙背景接近零下二百七十度。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 228480,
+      "actual_samples_48k": 456960,
+      "duration_seconds": 9.52,
+      "fitsDeclaredWindowBeforeOnsetAdjustment": true,
+      "declaredWindowSamples": 624000,
+      "pcm_sha256_24k": "0e569720416ec5b03c0c97438bccd0b71de1369e4c1b2829854df14349176926",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S08-dc42a3325ac1.wav",
+      "raw_sha256": "86ef581ec42565812869e218227f1cfac8b6fe2dba5c2f4d45c4cf47f0bce97c",
+      "canonical_path": "public/audio/canonical/S08-dc42a3325ac1.wav",
+      "canonical_sha256": "4cf939b6bdf129d10b4e0e9a440557c1a0db5ba979617cea669e4e2f3c81cb64",
+      "cue_path": "public/audio/cues/S08-dc42a3325ac1.wav",
+      "cue_sha256": "d1f097f7ecdf420779c1d29e74864abf4ba142af7ad297705b2c1608b73350eb",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S09": {
+      "cache_key": "a685c9844552b21c8fef0288c8956a25c58762fb245186893c7041b7ab3e67ea",
+      "tts_phonetic_text": "这或许就是宇宙如此寂静的原因：最高等的智慧，正躲在最寒冷的黑暗里静默思考。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 193920,
+      "actual_samples_48k": 387840,
+      "duration_seconds": 8.08,
+      "fitsDeclaredWindowBeforeOnsetAdjustment": true,
+      "declaredWindowSamples": 432000,
+      "pcm_sha256_24k": "6012c6e66691663bcf44372799f375668ba9fe1f3b50ad78361f01c8a7f69658",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S09-a685c9844552.wav",
+      "raw_sha256": "9c7a956444ee7b89cbc4ea53ccdf97df47cdd8542f63b7eb2bc2fbca72b789d8",
+      "canonical_path": "public/audio/canonical/S09-a685c9844552.wav",
+      "canonical_sha256": "2dc7561e28576d43ff984ca040923fa3aae6ad7b941a48eae5e290e0154cb837",
+      "cue_path": "public/audio/cues/S09-a685c9844552.wav",
+      "cue_sha256": "66ee1d4e26d1324df1fd2d21ea32f6cf3e33f835359482d6b160c8ba7d677eea",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response",
+      "reuse_origin": "si-ep05-landauer-limit v01; exact text/settings/hash matched"
+    }
+  },
+  "cacheHistory": [
+    {
+      "id": "S09",
+      "cache_key": "e21bb5e250de5fa4243ffeab559055a6902187f0f3bf44b6245bd18f81f68a30",
+      "tts_phonetic_text": "这或许就是宇宙如此寂静的原因：最高等的智慧，从不喧哗，它们正躲在最寒冷的黑暗里，静默思考。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 255360,
+      "actual_samples_48k": 510720,
+      "duration_seconds": 10.64,
+      "fitsDeclaredWindowBeforeOnsetAdjustment": false,
+      "declaredWindowSamples": 432000,
+      "pcm_sha256_24k": "c46d65c318ea473c0d3503d0fabcd2f48ac27cf046caa536fa434f0fae81fc06",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S09-e21bb5e250de.wav",
+      "raw_sha256": "c36cf59053f91fa14e8b75a93c94e354c07d39be282d98b500ba96e02e65fbf7",
+      "canonical_path": "public/audio/canonical/S09-e21bb5e250de.wav",
+      "canonical_sha256": "480ec1025f996fcd5f3021048b3d195acbf0e2b4deafa7c6a4ba96dfae16c2c5",
+      "cue_path": "public/audio/cues/S09-e21bb5e250de.wav",
+      "cue_sha256": "5ed07ad0c6cb188864accfab721693669faf439f19129e5dc1fbe6d024110c3c",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response",
+      "reason": "10.64s over9s; preserved, not used in final"
+    }
+  ],
+  "authorization": {
+    "manifest": "project/audio-authorization.json",
+    "sha256AtInvocation": "316cc2f100a45c76cfc557f07906db1028df3acd2fb78c8a6a3900baa9c4a468",
+    "scope": "EP05 v02 ten tts_phonetic_text segments only",
+    "source": "direct user reply in current chat",
+    "note": "Current EP05 v02 authorization only; no earlier consent is inherited."
+  }
+}

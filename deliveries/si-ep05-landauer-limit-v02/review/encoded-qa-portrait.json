@@ -1,0 +1,545 @@
+{
+  "schema_version": 1,
+  "status": "evidence_collected",
+  "layout": "portrait",
+  "media_path": "小红书/si-ep05-landauer-limit-v02-xiaohongshu-120s-portrait.mp4",
+  "expected": {
+    "width": 2160,
+    "height": 3840,
+    "fps": 60,
+    "duration_seconds": 120,
+    "total_frames": 7200
+  },
+  "ffprobe": {
+    "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+    "container_duration_seconds": 120.0,
+    "video_duration_seconds": 120.0,
+    "audio_duration_seconds": 120.0,
+    "video": {
+      "codec_name": "h264",
+      "width": 2160,
+      "height": 3840,
+      "avg_frame_rate": "60/1",
+      "r_frame_rate": "60/1",
+      "nb_frames": "7200",
+      "pix_fmt": "yuv420p",
+      "color_space": "bt709",
+      "color_primaries": "bt709",
+      "color_transfer": "bt709"
+    },
+    "audio": {
+      "codec_name": "aac",
+      "sample_rate": "48000",
+      "channels": 2,
+      "channel_layout": "stereo",
+      "duration": "120.000000"
+    },
+    "metadata_checks": {
+      "dimensions": true,
+      "fps_60": true,
+      "frame_count_7200": true,
+      "pixel_format_yuv420p": true,
+      "colorspace_bt709": true,
+      "color_primaries_bt709": true,
+      "color_transfer_bt709": true,
+      "audio_aac": true,
+      "audio_48khz": true,
+      "audio_stereo": true,
+      "video_duration_exact_120s": true,
+      "audio_duration_within_50ms_of_120s": true,
+      "container_duration_within_50ms_of_120s": true
+    }
+  },
+  "encoded_audio_loudness": {
+    "measurement": "FFmpeg ebur128=peak=true on the encoded MP4 audio stream",
+    "integrated_lufs": -17.0,
+    "true_peak_dbTP": -1.7
+  },
+  "aac_packet_sha256": {
+    "algorithm": "sha256",
+    "value": "90d5a8c8ccdf59bb20de79be4ece7d5c31b6424cf0d73fbe40da6a026d919e6b"
+  },
+  "representative_frames": {
+    "method": "selected frames decoded from the final encoded MP4 as lossless native-resolution PNGs inside temporary storage",
+    "frame_indexes": [
+      0,
+      120,
+      659,
+      660,
+      899,
+      900,
+      959,
+      1260,
+      1350,
+      1500,
+      2190,
+      2200,
+      2800,
+      3000,
+      3040,
+      3780,
+      3900,
+      4800,
+      5399,
+      5400,
+      5424,
+      5425,
+      5790,
+      6240,
+      6480,
+      6899,
+      6900,
+      6989,
+      6990,
+      7019,
+      7020,
+      7199
+    ],
+    "contact_sheet_path": "review/encoded-portrait-contact-sheet.jpg",
+    "contact_tile_width_px": 360,
+    "full_native_frame_paths": [
+      "review/encoded-portrait-native-frame-0000.png",
+      "review/encoded-portrait-native-frame-1500.png",
+      "review/encoded-portrait-native-frame-5400.png",
+      "review/encoded-portrait-native-frame-7199.png"
+    ],
+    "native_frame_metadata": [
+      {
+        "frame_index": 0,
+        "native_dimensions": [
+          2160,
+          3840
+        ],
+        "sha256": "433760fc376920ff83823f83c67c12d19e2941f975f9a95c7b7c1c2e55f0a1f1",
+        "retained": true,
+        "path": "review/encoded-portrait-native-frame-0000.png"
+      },
+      {
+        "frame_index": 120,
+        "native_dimensions": [
+          2160,
+          3840
+        ],
+        "sha256": "ea501bc8cd1232b8611b1f1223e8d4e89d87dc2ddd504c936d495d891b775159",
+        "retained": false
+      },
+      {
+        "frame_index": 659,
+        "native_dimensions": [
+          2160,
+          3840
+        ],
+        "sha256": "b89bbad6c987976daff6af236243184f19a6ab465fafdaaf71d6cdf1ca0ab6ad",
+        "retained": false
+      },
+      {
+        "frame_index": 660,
+        "native_dimensions": [
+          2160,
+          3840
+        ],
+        "sha256": "6b713cc7d0bf2ca3082b22fddc1370e1d99b7c872ab4fd2ca59b8bad2a9836e1",
+        "retained": false
+      },
+      {
+        "frame_index": 899,
+        "native_dimensions": [
+          2160,
+          3840
+        ],
+        "sha256": "0df47a01f55f299b2b8ef094b44c88ec77f93a0d77a518ab7e276053fa45410d",
+        "retained": false
+      },
+      {
+        "frame_index": 900,
+        "native_dimensions": [
+          2160,
+          3840
+        ],
+        "sha256": "e8005d10486ddda367e11a8fc773f134f89612e606943f7064781fe818f739c5",
+        "retained": false
+      },
+      {
+        "frame_index": 959,
+        "native_dimensions": [
+          2160,
+          3840
+        ],
+        "sha256": "f7439bc48a7689c5cdc207e9c5e286b2b00a266b5995b1457c3380ab2b4e8f2e",
+        "retained": false
+      },
+      {
+        "frame_index": 1260,
+        "native_dimensions": [
+          2160,
+          3840
+        ],
+        "sha256": "791cbbc7d9f7ee64d3e3c0258049b5a08023872356eac02c433cdc4babf0a1ac",
+        "retained": false
+      },
+      {
+        "frame_index": 1350,
+        "native_dimensions": [
+          2160,
+          3840
+        ],
+        "sha256": "a534ae2e429dd1601b23215b51b73238a25400690e805b75aa74c225f3298c54",
+        "retained": false
+      },
+      {
+        "frame_index": 1500,
+        "native_dimensions": [
+          2160,
+          3840
+        ],
+        "sha256": "597c30337b980e38d0368c3a515e7fa338cebda6109d08931f4f316766a2c8db",
+        "retained": true,
+        "path": "review/encoded-portrait-native-frame-1500.png"
+      },
+      {
+        "frame_index": 2190,
+        "native_dimensions": [
+          2160,
+          3840
+        ],
+        "sha256": "4f14f5db60b7dd703bee1a76b641d0d3a4c565050d06cf6ac8362a0e87bc8c32",
+        "retained": false
+      },
+      {
+        "frame_index": 2200,
+        "native_dimensions": [
+          2160,
+          3840
+        ],
+        "sha256": "2b4dad1da1af2054966e645c36b7d5be91004ed841d25db7503f85e3b2096c2f",
+        "retained": false
+      },
+      {
+        "frame_index": 2800,
+        "native_dimensions": [
+          2160,
+          3840
+        ],
+        "sha256": "5d8f1303a96392a179a4d89090cf4eea0131468a8de5b98f1615f4ec1aa47cd7",
+        "retained": false
+      },
+      {
+        "frame_index": 3000,
+        "native_dimensions": [
+          2160,
+          3840
+        ],
+        "sha256": "39e8bd1b4db1ecfed4b8af109e9489fc833e702bb4638440c95a861e05668b24",
+        "retained": false
+      },
+      {
+        "frame_index": 3040,
+        "native_dimensions": [
+          2160,
+          3840
+        ],
+        "sha256": "3b5a2e01d787b2526e034b7a60eba353a7884571d31b6ef2af23da57939a32a5",
+        "retained": false
+      },
+      {
+        "frame_index": 3780,
+        "native_dimensions": [
+          2160,
+          3840
+        ],
+        "sha256": "9fe8d21137f7063524a82edee2b23152c3eab7cf6ed735b4c60f4136953baa7d",
+        "retained": false
+      },
+      {
+        "frame_index": 3900,
+        "native_dimensions": [
+          2160,
+          3840
+        ],
+        "sha256": "ae1d0cd512d984e3918b7f2258e81535331b5378425d57ef1e00e855e63703cb",
+        "retained": false
+      },
+      {
+        "frame_index": 4800,
+        "native_dimensions": [
+          2160,
+          3840
+        ],
+        "sha256": "c2a8aa9d23dd1624d41b2006288d85d04281e8c3534b4da4f98745053cc214e3",
+        "retained": false
+      },
+      {
+        "frame_index": 5399,
+        "native_dimensions": [
+          2160,
+          3840
+        ],
+        "sha256": "f38e0a32fca55323509cfcb278ba83e1bdd79e24c93f5769a5ec527ab2e5badb",
+        "retained": false
+      },
+      {
+        "frame_index": 5400,
+        "native_dimensions": [
+          2160,
+          3840
+        ],
+        "sha256": "411075e497fbbf2193e246b692c8f8cb2842f793cfdeb080c03966d4a5e4c692",
+        "retained": true,
+        "path": "review/encoded-portrait-native-frame-5400.png"
+      },
+      {
+        "frame_index": 5424,
+        "native_dimensions": [
+          2160,
+          3840
+        ],
+        "sha256": "c2f13bed72d900d0ab5132074fe02ec2d227663ae69b058859a7c57e83680ca0",
+        "retained": false
+      },
+      {
+        "frame_index": 5425,
+        "native_dimensions": [
+          2160,
+          3840
+        ],
+        "sha256": "d28e885a6169e688b75e6d60ccd018b290c31e06dd1f684704454a0e6b630ebc",
+        "retained": false
+      },
+      {
+        "frame_index": 5790,
+        "native_dimensions": [
+          2160,
+          3840
+        ],
+        "sha256": "a8114181cc9f31aa09770df6ba6f0015d77b688e97718ac9ab339cef83bc6dee",
+        "retained": false
+      },
+      {
+        "frame_index": 6240,
+        "native_dimensions": [
+          2160,
+          3840
+        ],
+        "sha256": "efe1897417ac1583074b264e08e24094548860baad11057a34ba7af0e40efc52",
+        "retained": false
+      },
+      {
+        "frame_index": 6480,
+        "native_dimensions": [
+          2160,
+          3840
+        ],
+        "sha256": "c8f8305247340a99bf6a75550015089a83d8a258ba8574ce5e077a744088c87c",
+        "retained": false
+      },
+      {
+        "frame_index": 6899,
+        "native_dimensions": [
+          2160,
+          3840
+        ],
+        "sha256": "134002fc5d6126403f83d3b3d7a2109b09171493712191fb8aa8327c8002ef92",
+        "retained": false
+      },
+      {
+        "frame_index": 6900,
+        "native_dimensions": [
+          2160,
+          3840
+        ],
+        "sha256": "0e6d85b0b434cc957e14cb9e803c3d626491445420a58b838bbc1a8db078ee85",
+        "retained": false
+      },
+      {
+        "frame_index": 6989,
+        "native_dimensions": [
+          2160,
+          3840
+        ],
+        "sha256": "790b04da18be2e2ce99fe461610df94e9b3e2ff6188c4544625983c8101864c8",
+        "retained": false
+      },
+      {
+        "frame_index": 6990,
+        "native_dimensions": [
+          2160,
+          3840
+        ],
+        "sha256": "28e9c62740275a3f5dccfcff68d0a7bdebe279317497cb7537662cf09e099623",
+        "retained": false
+      },
+      {
+        "frame_index": 7019,
+        "native_dimensions": [
+          2160,
+          3840
+        ],
+        "sha256": "e6c0dcc4d220103933357015f06f97c9080eee0b9b3d7c0f7f79d6e5ff909ef1",
+        "retained": false
+      },
+      {
+        "frame_index": 7020,
+        "native_dimensions": [
+          2160,
+          3840
+        ],
+        "sha256": "7f82d48b5fc1da70956b8a9d3d15ef9dccb4323f200390786cacd318630dc179",
+        "retained": false
+      },
+      {
+        "frame_index": 7199,
+        "native_dimensions": [
+          2160,
+          3840
+        ],
+        "sha256": "109db8a3741a5f7e4897785e06b40222f7c9a87ccfb2535c4a3e5f45a64f7297",
+        "retained": true,
+        "path": "review/encoded-portrait-native-frame-7199.png"
+      }
+    ],
+    "retention_mode": "compact",
+    "source_media_sha256": "cd8839587847091e689efcecc4d8b6da55e6e04ba752f5223c788829e4407806",
+    "retention_limitation": "All listed frames were decoded to full native-resolution PNGs. Compact mode retains only frames 0, 1500, 5400, and 7199; the other decoded frames are deleted with temporary storage and can be reconstructed from the final MP4 identified by source_media_sha256 and their recorded frame indexes."
+  },
+  "motion_heuristic": {
+    "method": "mean absolute difference between Pillow FIND_EDGES grayscale crops from the final MP4",
+    "logical_roi_xywh": [
+      65,
+      445,
+      835,
+      830
+    ],
+    "native_roi_xywh": [
+      130,
+      890,
+      1670,
+      1660
+    ],
+    "pairs": [
+      {
+        "start_frame": 180,
+        "end_frame": 330,
+        "start_seconds": 3.0,
+        "end_seconds": 5.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 13.568877751572327
+      },
+      {
+        "start_frame": 840,
+        "end_frame": 990,
+        "start_seconds": 14.0,
+        "end_seconds": 16.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 14.944983294025157
+      },
+      {
+        "start_frame": 1380,
+        "end_frame": 1530,
+        "start_seconds": 23.0,
+        "end_seconds": 25.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 10.571088836477987
+      },
+      {
+        "start_frame": 1920,
+        "end_frame": 2070,
+        "start_seconds": 32.0,
+        "end_seconds": 34.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 7.448864976415094
+      },
+      {
+        "start_frame": 2700,
+        "end_frame": 2850,
+        "start_seconds": 45.0,
+        "end_seconds": 47.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 15.954486045597484
+      },
+      {
+        "start_frame": 3120,
+        "end_frame": 3270,
+        "start_seconds": 52.0,
+        "end_seconds": 54.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 15.560684453616352
+      },
+      {
+        "start_frame": 3720,
+        "end_frame": 3870,
+        "start_seconds": 62.0,
+        "end_seconds": 64.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 5.544145538522012
+      },
+      {
+        "start_frame": 4560,
+        "end_frame": 4710,
+        "start_seconds": 76.0,
+        "end_seconds": 78.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 7.9156127161949685
+      },
+      {
+        "start_frame": 5460,
+        "end_frame": 5610,
+        "start_seconds": 91.0,
+        "end_seconds": 93.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 1.9957743710691824
+      },
+      {
+        "start_frame": 6060,
+        "end_frame": 6210,
+        "start_seconds": 101.0,
+        "end_seconds": 103.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 8.673774076257862
+      },
+      {
+        "start_frame": 6420,
+        "end_frame": 6570,
+        "start_seconds": 107.0,
+        "end_seconds": 109.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 12.614153400157234
+      },
+      {
+        "start_frame": 6960,
+        "end_frame": 7110,
+        "start_seconds": 116.0,
+        "end_seconds": 118.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 21.63017639544025
+      }
+    ],
+    "pair_contact_sheet_path": "review/encoded-portrait-pair-contact-sheet.jpg",
+    "limitation": "Nonzero edge differences are evidence of pixel changes only; they do not prove meaningful continuous motion or satisfy human motion review."
+  },
+  "native_frame_metadata": {
+    "width": 2160,
+    "height": 3840,
+    "frame_count_reported": "7200"
+  },
+  "acceptance_status": "NOT_EVALUATED",
+  "created_at_utc": "2026-10-19T11:06:09.797072+00:00",
+  "shared_aac_identity": {
+    "same_aac_packet_sha256": true,
+    "landscape_sha256": "90d5a8c8ccdf59bb20de79be4ece7d5c31b6424cf0d73fbe40da6a026d919e6b",
+    "portrait_sha256": "90d5a8c8ccdf59bb20de79be4ece7d5c31b6424cf0d73fbe40da6a026d919e6b"
+  },
+  "shared_pcm_master": {
+    "path": "project/public/audio/master.wav",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples_per_channel": 5760000,
+    "sample_width_bytes": 2,
+    "sha256": "735889a409be2642551a01d752591d1527d274aa94f341d07352c60d331de150",
+    "expected": {
+      "sample_rate": 48000,
+      "channels": 2,
+      "samples_per_channel": 5760000
+    },
+    "metadata_matches_expected": true
+  }
+}

@@ -1,0 +1,408 @@
+{
+  "version": 1,
+  "durationSeconds": 120,
+  "fps": 60,
+  "sampleRate": 48000,
+  "samplesPerFrame": 800,
+  "samplesPerChannel": 5760000,
+  "channels": 2,
+  "blockSamples": 24000,
+  "scoreDesign": {
+    "description": "Low-register warm amber drone resolves to a cool, stable harmonic bed at frame 5400; all oscillators remain below 400 Hz.",
+    "speechDuckTargetDb": -9.0,
+    "attackSeconds": 0.035,
+    "releaseSeconds": 0.18,
+    "activePcmBounds": "measured narration active bounds with exponential attack/release"
+  },
+  "sfxDesign": "Eleven fixed-frame cues; the 2200-frame compute-wall rise transitions to its brickwall at frame 2600 then rings for 20 frames; the 6990-frame synthetic precursor leads the 7020-frame heartbeat by 500 ms; two-pole 850 Hz low-pass reduces SFX energy in the 1-4 kHz speech band.",
+  "sfxOnsets": [
+    {
+      "id": "thought_thermal_spark",
+      "authoredId": "thought_thermal_spark",
+      "frame": 120,
+      "sampleIndex": 96000,
+      "durationSeconds": 0.9,
+      "frequencyHz": null,
+      "description": "贴近耳边的微弱神经火花，随后留下一口温热的气息。",
+      "spectralDesign": "two-pole 850 Hz low-pass; voice-critical 1-4 kHz band reduced"
+    },
+    {
+      "id": "memory_erasure_heat",
+      "authoredId": "memory_erasure_heat",
+      "frame": 900,
+      "sampleIndex": 720000,
+      "durationSeconds": 1.5,
+      "frequencyHz": null,
+      "description": "短促的记忆擦除重击，热纹向周围扩散。",
+      "spectralDesign": "two-pole 850 Hz low-pass; voice-critical 1-4 kHz band reduced"
+    },
+    {
+      "id": "thermodynamic_seal",
+      "authoredId": "thermodynamic_seal",
+      "frame": 1350,
+      "sampleIndex": 1080000,
+      "durationSeconds": 1.8,
+      "frequencyHz": 40.0,
+      "description": "低沉金属焊合声，像一道无法穿越的热力学边界。",
+      "spectralDesign": "two-pole 850 Hz low-pass; voice-critical 1-4 kHz band reduced"
+    },
+    {
+      "id": "compute_wall_approach",
+      "authoredId": "compute_wall_approach",
+      "frame": 2200,
+      "sampleIndex": 1760000,
+      "durationSeconds": 7.0,
+      "frequencyHz": null,
+      "description": "由暖光推向红热上限的加速音墙。",
+      "spectralDesign": "two-pole 850 Hz low-pass; voice-critical 1-4 kHz band reduced"
+    },
+    {
+      "id": "irreversible_heat_accumulation",
+      "authoredId": "irreversible_heat_accumulation",
+      "frame": 3000,
+      "sampleIndex": 2400000,
+      "durationSeconds": 2.5,
+      "frequencyHz": null,
+      "description": "细小不可逆擦除的热量逐渐堆积成压迫性的热床。",
+      "spectralDesign": "two-pole 850 Hz low-pass; voice-critical 1-4 kHz band reduced"
+    },
+    {
+      "id": "planetary_pressure",
+      "authoredId": "planetary_pressure",
+      "frame": 3780,
+      "sampleIndex": 3024000,
+      "durationSeconds": 1.8,
+      "frequencyHz": null,
+      "description": "地球大气像盖住的高压锅一样收紧。",
+      "spectralDesign": "two-pole 850 Hz low-pass; voice-critical 1-4 kHz band reduced"
+    },
+    {
+      "id": "returning_heat_alarm",
+      "authoredId": "returning_heat_alarm",
+      "frame": 4800,
+      "sampleIndex": 3840000,
+      "durationSeconds": 2.0,
+      "frequencyHz": null,
+      "description": "热被吸收后涌回地面的克制警报。",
+      "spectralDesign": "two-pole 850 Hz low-pass; voice-critical 1-4 kHz band reduced"
+    },
+    {
+      "id": "deep_space_crystal_chime",
+      "authoredId": "deep_space_crystal_chime",
+      "frame": 5425,
+      "sampleIndex": 4340000,
+      "durationSeconds": 2.4,
+      "frequencyHz": null,
+      "description": "5400帧切断背景后，先留25帧数字真空，再响起冰冷晶体音。",
+      "spectralDesign": "two-pole 850 Hz low-pass; voice-critical 1-4 kHz band reduced"
+    },
+    {
+      "id": "silent_hypothesis_harmonic",
+      "authoredId": "silent_hypothesis_harmonic",
+      "frame": 6480,
+      "sampleIndex": 5184000,
+      "durationSeconds": 5.5,
+      "frequencyHz": null,
+      "description": "空灵而克制的深空和弦，支撑明确标注为假说的引句。",
+      "spectralDesign": "two-pole 850 Hz low-pass; voice-critical 1-4 kHz band reduced"
+    },
+    {
+      "id": "synthetic_pulse_precursor",
+      "authoredId": "synthetic_pulse_precursor",
+      "frame": 6990,
+      "sampleIndex": 5592000,
+      "durationSeconds": 0.35,
+      "frequencyHz": null,
+      "description": "合成脉冲先于7020帧的人类心跳30帧，即500毫秒。",
+      "spectralDesign": "two-pole 850 Hz low-pass; voice-critical 1-4 kHz band reduced"
+    },
+    {
+      "id": "human_heartbeat_key",
+      "authoredId": "human_heartbeat_key",
+      "frame": 7020,
+      "sampleIndex": 5616000,
+      "durationSeconds": 2.0,
+      "frequencyHz": null,
+      "description": "人类尺度的心跳与金色意象落点。",
+      "spectralDesign": "two-pole 850 Hz low-pass; voice-critical 1-4 kHz band reduced"
+    }
+  ],
+  "thermalNoise": {
+    "noise": "Seeded Brownian-style two-stage low-pass noise with a power-law rising amplitude envelope",
+    "startFrame": 1800,
+    "startSample": 1440000,
+    "cutFrame": 5400,
+    "cutSample": 4320000,
+    "preCutFadeSamples": 240,
+    "exactZeroFromSample": 4320000,
+    "pressureEnvelope": "0.10 + 0.90 × progress^1.6, progress from frame 1800 to 5399",
+    "measuredRmsWindows": [
+      {
+        "startFrame": 1800,
+        "endFrameExclusive": 2400,
+        "rms": 0.0007411610118633669,
+        "rmsDbfs": -62.601748688788305
+      },
+      {
+        "startFrame": 2400,
+        "endFrameExclusive": 3000,
+        "rms": 0.0012174888656173708,
+        "rmsDbfs": -58.29070003755275
+      },
+      {
+        "startFrame": 3000,
+        "endFrameExclusive": 3600,
+        "rms": 0.00202068239715052,
+        "rmsDbfs": -53.89003883611937
+      },
+      {
+        "startFrame": 3600,
+        "endFrameExclusive": 4200,
+        "rms": 0.0029737038126269387,
+        "rmsDbfs": -50.53404580671544
+      },
+      {
+        "startFrame": 4200,
+        "endFrameExclusive": 4800,
+        "rms": 0.004125907127207116,
+        "rmsDbfs": -47.689611041534704
+      },
+      {
+        "startFrame": 4800,
+        "endFrameExclusive": 5400,
+        "rms": 0.005454705180696518,
+        "rmsDbfs": -45.264574349200224
+      }
+    ]
+  },
+  "loudnormTarget": {
+    "integratedLUFS": -17.0,
+    "truePeakDBTP": -1.8,
+    "acceptanceLUFS": [
+      -18.0,
+      -16.0
+    ],
+    "acceptanceTruePeakDBTP": -1.0,
+    "passes": 2
+  },
+  "sourceHashes": {
+    "buildAudioPy": "6572d47d82e91a64431909ab09ddc7a69527cf81492d492d06f38a576fee02e0",
+    "scriptMd": "c7a9909d69e98bac2566ef1cf5730874acd2a20a33b9ee3db50d392ab7385adc",
+    "segmentsJson": "c627af81c077bd857219d7c84770a494bb48d96807ae8d6041db42eb1a5fc9db",
+    "eventsJson": "d5c82858d1f476b9a2e56a67f70e2d57cd8673c63c0864f173cf1c1357e6476f",
+    "eventSpec": "ab03e290743d2a230ecb89ca27a66b13bef8ea4e1938bf4b131f784fb3ce46e9",
+    "cacheManifest": "8f146dd959e693dcc7158eceb2c8d77bd129a26b3a009f5e8e3bd99ff8a2a01e",
+    "cueWavs": [
+      {
+        "id": "S01",
+        "path": "project/public/audio/cues/S01-cd5bd3615e6c.wav",
+        "sha256": "4d48cc6c78203d15538fa023b1a61991bfaa6bc380c83a8c64956b6b697ae567",
+        "samplesAt48k": 261120
+      },
+      {
+        "id": "S02",
+        "path": "project/public/audio/cues/S02-6c8fba307066.wav",
+        "sha256": "4ff406053c03e98ab4ac3add39310dec3b2f277e18f4c5acb8ed1102d3aa828b",
+        "samplesAt48k": 357120
+      },
+      {
+        "id": "S03",
+        "path": "project/public/audio/cues/S03-e69b1ec43ccc.wav",
+        "sha256": "57e1c0a3b2fc2b4b522624496a9b9950852875d1c26879740b709fabaabe0886",
+        "samplesAt48k": 303360
+      },
+      {
+        "id": "S04",
+        "path": "project/public/audio/cues/S04-922dcd7c99a3.wav",
+        "sha256": "3f8a062e70c5b91baaf03c83687821f236194855ca9db4d9a6a96aedfdae932d",
+        "samplesAt48k": 426240
+      },
+      {
+        "id": "S05",
+        "path": "project/public/audio/cues/S05-869100f5b995.wav",
+        "sha256": "d341b1daf6ffdceaee81d8dcacd73a399f62d6e4b131747f7d853ae982972024",
+        "samplesAt48k": 433920
+      },
+      {
+        "id": "S06",
+        "path": "project/public/audio/cues/S06-4d15b07baf18.wav",
+        "sha256": "80dfd242c930d3a7f89053dd274213580eba0d29039477503af6365cdbcd3bac",
+        "samplesAt48k": 364800
+      },
+      {
+        "id": "S07",
+        "path": "project/public/audio/cues/S07-405c2647b3f0.wav",
+        "sha256": "9df24a66bf6e3b72d796195b87b50b955801b1dec7f32011cebfe9417ec457f9",
+        "samplesAt48k": 445440
+      },
+      {
+        "id": "S08",
+        "path": "project/public/audio/cues/S08-dc42a3325ac1.wav",
+        "sha256": "d1f097f7ecdf420779c1d29e74864abf4ba142af7ad297705b2c1608b73350eb",
+        "samplesAt48k": 456960
+      },
+      {
+        "id": "S09",
+        "path": "project/public/audio/cues/S09-a685c9844552.wav",
+        "sha256": "66ee1d4e26d1324df1fd2d21ea32f6cf3e33f835359482d6b160c8ba7d677eea",
+        "samplesAt48k": 387840
+      },
+      {
+        "id": "S10",
+        "path": "project/public/audio/cues/S10-4348402d849b.wav",
+        "sha256": "ab80f4a8220ab948173f3d20c309748c47bf63f26a4cbcd1d42cc59d726ba352",
+        "samplesAt48k": 126720
+      }
+    ]
+  },
+  "outputs": {
+    "narration": {
+      "file": "project/public/audio/narration.wav",
+      "sha256": "593ec7b34b9148090a434e630c307a7c7fafe059e0230d2b2a9c2a16f0ac6478",
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleWidthBytes": 2,
+      "samplesPerChannel": 5760000,
+      "durationSeconds": 120.0
+    },
+    "score": {
+      "file": "project/public/audio/score.wav",
+      "sha256": "dead03a52cf8978557c9eeed00262749fcf129e32d8a7545a4c07c40765d438a",
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleWidthBytes": 2,
+      "samplesPerChannel": 5760000,
+      "durationSeconds": 120.0,
+      "design": {
+        "description": "Low-register warm amber drone resolves to a cool, stable harmonic bed at frame 5400; all oscillators remain below 400 Hz.",
+        "speechDuckTargetDb": -9.0,
+        "attackSeconds": 0.035,
+        "releaseSeconds": 0.18,
+        "activePcmBounds": "measured narration active bounds with exponential attack/release"
+      }
+    },
+    "sfx": {
+      "file": "project/public/audio/sfx.wav",
+      "sha256": "04d269f5cd6220311d972dd1fbf2b35810a30ed96d28d985600201e6365c12ce",
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleWidthBytes": 2,
+      "samplesPerChannel": 5760000,
+      "durationSeconds": 120.0,
+      "design": "Eleven fixed-frame cues; the 2200-frame compute-wall rise transitions to its brickwall at frame 2600 then rings for 20 frames; the 6990-frame synthetic precursor leads the 7020-frame heartbeat by 500 ms; two-pole 850 Hz low-pass reduces SFX energy in the 1-4 kHz speech band."
+    },
+    "thermal": {
+      "file": "project/public/audio/thermal.wav",
+      "sha256": "6ea221ca0f0c7682ddc82e42d5662970d19a8b7e5eb987bae409e50eb5b3e056",
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleWidthBytes": 2,
+      "samplesPerChannel": 5760000,
+      "durationSeconds": 120.0,
+      "design": {
+        "noise": "Seeded Brownian-style two-stage low-pass noise with a power-law rising amplitude envelope",
+        "startFrame": 1800,
+        "startSample": 1440000,
+        "cutFrame": 5400,
+        "cutSample": 4320000,
+        "preCutFadeSamples": 240,
+        "exactZeroFromSample": 4320000,
+        "pressureEnvelope": "0.10 + 0.90 × progress^1.6, progress from frame 1800 to 5399",
+        "measuredRmsWindows": [
+          {
+            "startFrame": 1800,
+            "endFrameExclusive": 2400,
+            "rms": 0.0007411610118633669,
+            "rmsDbfs": -62.601748688788305
+          },
+          {
+            "startFrame": 2400,
+            "endFrameExclusive": 3000,
+            "rms": 0.0012174888656173708,
+            "rmsDbfs": -58.29070003755275
+          },
+          {
+            "startFrame": 3000,
+            "endFrameExclusive": 3600,
+            "rms": 0.00202068239715052,
+            "rmsDbfs": -53.89003883611937
+          },
+          {
+            "startFrame": 3600,
+            "endFrameExclusive": 4200,
+            "rms": 0.0029737038126269387,
+            "rmsDbfs": -50.53404580671544
+          },
+          {
+            "startFrame": 4200,
+            "endFrameExclusive": 4800,
+            "rms": 0.004125907127207116,
+            "rmsDbfs": -47.689611041534704
+          },
+          {
+            "startFrame": 4800,
+            "endFrameExclusive": 5400,
+            "rms": 0.005454705180696518,
+            "rmsDbfs": -45.264574349200224
+          }
+        ]
+      }
+    },
+    "master": {
+      "file": "project/public/audio/master.wav",
+      "sha256": "735889a409be2642551a01d752591d1527d274aa94f341d07352c60d331de150",
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleWidthBytes": 2,
+      "samplesPerChannel": 5760000,
+      "durationSeconds": 120.0,
+      "strictDecode": "passed",
+      "loudnormFirstPass": {
+        "input_i": "-20.75",
+        "input_tp": "-0.15",
+        "input_lra": "12.60",
+        "input_thresh": "-31.02",
+        "output_i": "-16.87",
+        "output_tp": "-1.80",
+        "output_lra": "9.90",
+        "output_thresh": "-27.07",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.13"
+      },
+      "loudnormSecondPass": {
+        "input_i": "-20.75",
+        "input_tp": "-0.15",
+        "input_lra": "12.60",
+        "input_thresh": "-31.02",
+        "output_i": "-16.98",
+        "output_tp": "-1.80",
+        "output_lra": "9.90",
+        "output_thresh": "-27.17",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.02"
+      },
+      "ebur128Final": {
+        "integratedLUFS": -17.0,
+        "truePeakDBTP": -1.8
+      },
+      "loudnormTarget": {
+        "integratedLUFS": -17.0,
+        "truePeakDBTP": -1.8,
+        "acceptanceLUFS": [
+          -18.0,
+          -16.0
+        ],
+        "acceptanceTruePeakDBTP": -1.0,
+        "passes": 2
+      },
+      "exactVacuum": {
+        "startFrame": 5400,
+        "endFrameExclusive": 5425,
+        "startSample": 4320000,
+        "endSampleExclusive": 4340000,
+        "postLoudnormPcmZeroEnforcement": true
+      },
+      "latencyNote": "FFmpeg loudnorm true-peak processing is delay compensated; output is trimmed to exactly 5,760,000 samples per channel."
+    }
+  }
+}

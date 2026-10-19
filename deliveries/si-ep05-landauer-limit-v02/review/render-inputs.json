@@ -1,0 +1,17 @@
+{
+  "stage": "final_render_inputs_frozen",
+  "inputs": {
+    "project/src/Film.tsx": "260bef6fb9cf8d23445ee78863184253bb1d080ecd9ac62ab6370ca3edfa6218",
+    "project/src/CanvasWorld.tsx": "ce26e69000ee970cc29bdc8381e37e5a5d80939f70c368c3858280cd715cca7e",
+    "project/src/physics.ts": "c57ea243ff4124c0fe77efc61891a15a2554c28fb55d473251f6b43885b192b1",
+    "project/audio-timing.json": "6a60d1b6868135b6dd8caf2cb36d000b1d5e30d41b197654d1ba27179607a9e0",
+    "project/public/audio/master.wav": "735889a409be2642551a01d752591d1527d274aa94f341d07352c60d331de150",
+    "project/segments.json": "c627af81c077bd857219d7c84770a494bb48d96807ae8d6041db42eb1a5fc9db"
+  },
+  "timing": {
+    "fps": 60,
+    "total_frames": 7200,
+    "samples_per_channel": 5760000
+  },
+  "note": "Snapshot identifies actual rendering inputs. Final film hashes and validation reports are recorded after both exports finish."
+}

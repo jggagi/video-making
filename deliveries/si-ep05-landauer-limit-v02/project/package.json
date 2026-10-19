@@ -1,0 +1,30 @@
+{
+  "name": "si-ep05-landauer-limit-v02",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "EP05 v02: visceral thermodynamic claustrophobia, 120s60 native dual4K",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "stills": "node scripts/render.mjs stills",
+    "render:landscape": "node scripts/render.mjs video landscape",
+    "render:portrait": "node scripts/render.mjs video portrait",
+    "verify": "python3 scripts/verify_project.py",
+    "audio:mix": "python3 scripts/build_audio.py --mix",
+    "audio:sync": "python3 scripts/sync_audio.py",
+    "qa": "python3 scripts/collect_qa.py"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.534",
+    "@remotion/cli": "4.0.534",
+    "@remotion/renderer": "4.0.534",
+    "remotion": "4.0.534",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.0",
+    "@types/react-dom": "19.1.0",
+    "typescript": "5.9.3"
+  }
+}

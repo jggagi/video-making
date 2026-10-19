@@ -1,0 +1,54 @@
+{
+  "logical_canvas": {
+    "landscape": [
+      1920,
+      1080
+    ],
+    "portrait": [
+      1080,
+      1920
+    ]
+  },
+  "portrait": {
+    "safe": {
+      "top": 153.6,
+      "right": 928.8,
+      "bottom": 1497.6
+    },
+    "hud": {
+      "x": 62,
+      "y": 173,
+      "w": 840,
+      "h": 116,
+      "fontSize": 30
+    },
+    "plot": {
+      "x": 65,
+      "y": 445,
+      "w": 835,
+      "h": 830
+    },
+    "subtitles": {
+      "x": 63,
+      "y": 1346,
+      "w": 840,
+      "h": 138,
+      "fontSize": 43,
+      "maxLines": 2,
+      "maxChineseCharsPerLine": 14
+    },
+    "subtitle_anchor_from_bottom_fraction": 0.26
+  },
+  "landscape": {
+    "plot": {
+      "x": 76,
+      "y": 245,
+      "w": 1768,
+      "h": 640
+    }
+  },
+  "notes": [
+    "EP05 v02 uses native landscape/portrait logical canvases with the standard 9:16 safe bounds.",
+    "Portrait subtitles stay in the 24%-28% from-bottom reading band; the scene layout is subject to later visual implementation review."
+  ]
+}

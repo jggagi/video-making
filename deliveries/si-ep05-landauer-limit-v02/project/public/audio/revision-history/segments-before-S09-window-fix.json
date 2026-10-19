@@ -1,0 +1,209 @@
+{
+  "fps": 60,
+  "duration_seconds": 120,
+  "sample_rate": 48000,
+  "samples_per_frame": 800,
+  "total_frames": 7200,
+  "caption_constraints": {
+    "max_lines": 2,
+    "max_chinese_chars_per_line": 14,
+    "measurement": "Chinese Han characters per subtitle line; punctuation does not count"
+  },
+  "tts_settings_preview": {
+    "provider": "Aliyun Bailian",
+    "model_selection": "active profile default",
+    "effective_model": "cosyvoice-v3-flash",
+    "voice": "longtian_v3",
+    "rate": 1.0,
+    "format": "wav",
+    "sample_rate": 24000
+  },
+  "status": "pending_text_preview_and_pcm_timing",
+  "segments": [
+    {
+      "id": "S01",
+      "startFrame": 120,
+      "endFrame": 600,
+      "original_script": "你此时此刻闪过的每一个念头，\n都在让宇宙变热一点点。",
+      "display_subtitle": "你此时此刻闪过的每一个念头，\n都在让宇宙变热一点点。",
+      "tts_phonetic_text": "你此时此刻，闪过的每一个念头，都在让宇宙变热一点点。",
+      "original_script_sha256": "af9d80a3c0edb61e2c35ab739cfce94f9797d6bd9fd23f821b7d919e3530c37f",
+      "display_subtitle_sha256": "af9d80a3c0edb61e2c35ab739cfce94f9797d6bd9fd23f821b7d919e3530c37f",
+      "tts_input_sha256": "3e716ffa1d472e19f60422e8c3046434f7a0309fd2bf4a7295cd48f2490cd759",
+      "tts_cache_key": "cd5bd3615e6ce36ef2d98c6f6c2708184784593f596f80f916d087119e9ae8c2",
+      "chunks": [
+        "你此时此刻闪过的每一个念头，",
+        "都在让宇宙变热一点点。"
+      ],
+      "editorial_note": "保留原句的观感和宇宙尺度；TTS 标点仅用于口播停顿。"
+    },
+    {
+      "id": "S02",
+      "startFrame": 660,
+      "endFrame": 1260,
+      "original_script": "因为在物理学眼里，“遗忘”从不是免费的。\n每抹掉一比特旧记忆，就像用铁锤在原子间砸出一团火。",
+      "display_subtitle": "遗忘，从不是免费的。\n每抹掉一比特未知记忆，\n就要把一点点热，交给周围的世界。",
+      "tts_phonetic_text": "遗忘，从不是免费的。每抹掉一比特未知记忆，就要把一点点热，交给周围的世界。",
+      "original_script_sha256": "d41aceab8fc9a1251dc4d8929f3997e248349fe1d4b98b6aaba4c8294d95e249",
+      "display_subtitle_sha256": "6effb95c0fdd00feadd5c5c5167404f1fb5652abdca24c6973f239e7ce2093c7",
+      "tts_input_sha256": "bcd0cbf582fbd55c7d366f5cd4887002691811d3fbacbbe45ad8fb82d0595ea3",
+      "tts_cache_key": "6c8fba307066e7e47fc6ef3c2283c71d445bc7ac90e8af4ab0d8c1082fc570aa",
+      "chunks": [
+        "遗忘，从不是免费的。",
+        "每抹掉一比特未知记忆，",
+        "就要把一点点热，交给周围的世界。"
+      ],
+      "editorial_note": "把擦除与热量代价说清楚；不沿用“铁锤砸出一团火”的比喻。"
+    },
+    {
+      "id": "S03",
+      "startFrame": 1320,
+      "endFrame": 1800,
+      "original_script": "这就是兰道尔极限：\n一道由热力学第二定律焊死的宇宙铁幕。",
+      "display_subtitle": "这就是兰道尔极限：\n一道由热力学第二定律，\n焊死的宇宙铁幕。",
+      "tts_phonetic_text": "这就是兰道尔极限：一道由热力学第二定律，焊死的宇宙铁幕。",
+      "original_script_sha256": "d83d21cabbbe98c86d0f59603c0b7b469b7a0c3ac3525c00a5007e05625950ae",
+      "display_subtitle_sha256": "18e6be9e430702a7a86407cc95fa43c5b7ecef3edad52f89741c512cacb9e4aa",
+      "tts_input_sha256": "f2b85528a8cdd7e752b2189677b12ea0ea36a2b07c1d6f23057b3eb37ab6c1d7",
+      "tts_cache_key": "e69b1ec43ccc44a1477afbc1f152fbe14088fb6236b5bca1f58a938baec56e9c",
+      "chunks": [
+        "这就是兰道尔极限：",
+        "一道由热力学第二定律，",
+        "焊死的宇宙铁幕。"
+      ],
+      "editorial_note": "保留铁幕意象，标明其来源是热力学第二定律。"
+    },
+    {
+      "id": "S04",
+      "startFrame": 1860,
+      "endFrame": 2580,
+      "original_script": "人类大脑只耗电二十瓦，像一盏温热的床头灯；\n而当超级智能以万亿倍的速度狂飙，它撞上了那块烧红的天花板。",
+      "display_subtitle": "人脑只耗电约二十瓦，\n像一盏温热的床头灯；\n而狂飙的超级智能，\n终将逼近那块烧红的天花板。",
+      "tts_phonetic_text": "人脑只耗电约二十瓦，像一盏温热的床头灯；而狂飙的超级智能，终将逼近那块烧红的天花板。",
+      "original_script_sha256": "5435704a29ef346aabca3806378d18ab85bc085ccb014a42030bad606ac2a468",
+      "display_subtitle_sha256": "ccba101ca6ea0b9f7d42294b2988f7293c684c11170b141f48aacfc9a30eb527",
+      "tts_input_sha256": "ac799d33efccf322cf836b84321aff4f720f65e9099453a5d91631552cafdde1",
+      "tts_cache_key": "922dcd7c99a33603eb0d8b478842bbf456065ac08850e4b000bda9454fda656e",
+      "chunks": [
+        "人脑只耗电约二十瓦，",
+        "像一盏温热的床头灯；",
+        "而狂飙的超级智能，",
+        "终将逼近那块烧红的天花板。"
+      ],
+      "editorial_note": "人脑耗电量约二十瓦；旁白不用阿拉伯数字。"
+    },
+    {
+      "id": "S05",
+      "startFrame": 2700,
+      "endFrame": 3480,
+      "original_script": "哪怕把芯片造到一颗原子的极致，\n每一次逻辑推演，依然在疯狂喷涌无法消灭的废热。",
+      "display_subtitle": "累计热量的比喻：\n哪怕把芯片造到原子尺度，\n每次不可逆擦除，\n仍有最低的热代价。无数微小的热，\n最终汇成一场火。",
+      "tts_phonetic_text": "哪怕把芯片造到原子尺度，每次不可逆擦除，仍有最低的热代价。无数微小的热，最终汇成一场火。",
+      "original_script_sha256": "6933a2fc4c70bb9d241ed4d93811cbc094b1451e68ac7e0f452166957e16abbf",
+      "display_subtitle_sha256": "b024b42caaac664fc369dc02437261b891c1fcdea3bd77dbd94c06e069d3b2b8",
+      "tts_input_sha256": "060a3a568a5ea446736912bd89381c9812a12b9b24c243dc38315cb552f33706",
+      "tts_cache_key": "869100f5b995adc680911a40c6eaaf3b76dfe9db1692bca0f637da3a1775fd0b",
+      "chunks": [
+        "哪怕把芯片造到原子尺度，",
+        "每次不可逆擦除，",
+        "仍有最低的热代价。无数微小的热，",
+        "最终汇成一场火。"
+      ],
+      "editorial_note": "“无数微小的热，最终汇成一场火”是累计热量的画面比喻，不表示真实燃烧。",
+      "display_only_prefix": "累计热量的比喻："
+    },
+    {
+      "id": "S06",
+      "startFrame": 3660,
+      "endFrame": 4440,
+      "original_script": "真正锁死超级智能的，从来不是缺电，而是散热。\n地球的表面积太小，大气层像一口盖死的高压锅。",
+      "display_subtitle": "困住行星级智能的，不只有供电，\n还有散热。地球太小，\n大气层像一口盖着的高压锅。",
+      "tts_phonetic_text": "困住行星级智能的，不只有供电，还有散热。地球太小，大气层像一口盖着的高压锅。",
+      "original_script_sha256": "9822e707045ce064ea9c67b84c3cedcacdb4bc392bb84defb80b78eeb3f3ece4",
+      "display_subtitle_sha256": "0369508997e79ddc2ca82b09566a9a8ecf1243de81b2fbcc4b175b4d2939791e",
+      "tts_input_sha256": "fe6a95eeba60e848a62a6498bc1410a0cfa3761f180d8d687f98672959c70f10",
+      "tts_cache_key": "4d15b07baf18982320c5fe4a3c15eba3b75b7ee1916b7fc4ce92fe4a210ad925",
+      "chunks": [
+        "困住行星级智能的，不只有供电，",
+        "还有散热。地球太小，",
+        "大气层像一口盖着的高压锅。"
+      ],
+      "editorial_note": "把供电与散热区分，并以锅盖意象呈现行星散热约束。"
+    },
+    {
+      "id": "S07",
+      "startFrame": 4500,
+      "endFrame": 5340,
+      "original_script": "散不出去的红外辐射在天空下疯狂反弹。\n在耗尽太阳能量之前，神明的脑热，就会先一步煮沸整座生物圈。",
+      "display_subtitle": "热被大气吸收，再涌回地面。\n还没用尽太阳馈赠的能量，\n神明的脑热，\n就可能毁掉熟悉的生物圈。",
+      "tts_phonetic_text": "热被大气吸收，再涌回地面。还没用尽太阳馈赠的能量，神明的脑热，就可能毁掉熟悉的生物圈。",
+      "original_script_sha256": "23efcee3293b2af59c28c6394d9a3b70464bd3fa5e67e19d0a08742b5fa39ddd",
+      "display_subtitle_sha256": "2217a37cf90b99904cbbb0815ed5aa03fb8e4e048d2b5f7f2383b21e420d0886",
+      "tts_input_sha256": "e66666e106dc2d5bbdde626f92839ac4d39f4a44711b8442ddd8c7ad755b52a8",
+      "tts_cache_key": "405c2647b3f0e89074c5b4de4050308d2c4d5a239581d9b16aea4a0065f06e3d",
+      "chunks": [
+        "热被大气吸收，再涌回地面。",
+        "还没用尽太阳馈赠的能量，",
+        "神明的脑热，",
+        "就可能毁掉熟悉的生物圈。"
+      ],
+      "editorial_note": "描述大气吸热和回辐射的可能风险，不把推测写成确定结局。"
+    },
+    {
+      "id": "S08",
+      "startFrame": 5460,
+      "endFrame": 6240,
+      "original_script": "为了活下去，超级智能唯一的宿命，\n就是逃离温暖的母星，潜入零下 270 度的冰冷深空。",
+      "display_subtitle": "为了继续思考，\n它们或许会离开母星，\n向冰冷的深空展开散热翼。那里，\n宇宙背景接近零下二百七十度。",
+      "tts_phonetic_text": "为了继续思考，它们或许会离开母星，向冰冷的深空展开散热翼。那里，宇宙背景接近零下二百七十度。",
+      "original_script_sha256": "aca7d17ad6d623e93f2bb5deb89d598e0181f7ff642b32f3ef087a88256ab0b5",
+      "display_subtitle_sha256": "7ce2d2b4af7fe581c0add38cf1fdca3608d9a5f2431aadbc11c076a9c0df7d74",
+      "tts_input_sha256": "1ace5f99d8f1b80ee69759bd0dd93f030542d3b34788714dac12fcb4bf17fbeb",
+      "tts_cache_key": "dc42a3325ac1b82b1ed6fc271dcfd0454272d2cd8a13fe18ae8cd9e263cf6c51",
+      "chunks": [
+        "为了继续思考，",
+        "它们或许会离开母星，",
+        "向冰冷的深空展开散热翼。那里，",
+        "宇宙背景接近零下二百七十度。"
+      ],
+      "editorial_note": "将宇宙背景温度与设备工作温度区分；使用已展开的中文叙述。"
+    },
+    {
+      "id": "S09",
+      "startFrame": 6360,
+      "endFrame": 6900,
+      "original_script": "“这或许就是宇宙如此寂静的原因：\n最高等的智慧从不喧哗，它们正躲在最寒冷的黑暗里静默思考。”",
+      "display_subtitle": "一种未经证实的费米悖论假说：\n这或许就是宇宙如此寂静的原因：\n最高等的智慧从不喧哗，\n它们正躲在最寒冷的黑暗里静默\n思考。",
+      "tts_phonetic_text": "这或许就是宇宙如此寂静的原因：最高等的智慧，从不喧哗，它们正躲在最寒冷的黑暗里，静默思考。",
+      "original_script_sha256": "71dc50c5a49fac4f99c0bec0c102253378c23b88203741c331a92ae68bdef857",
+      "display_subtitle_sha256": "49d29b111edc62499e2c924a9328670ff9a62d4e17fd119d00aeb4b7fb96b35c",
+      "tts_input_sha256": "7a5dfe03ad62e9ecdc33e5fc60f22eecd96345b563c5cf093f4b2f39f2720add",
+      "tts_cache_key": "e21bb5e250de5fa4243ffeab559055a6902187f0f3bf44b6245bd18f81f68a30",
+      "chunks": [
+        "这或许就是宇宙如此寂静的原因：",
+        "最高等的智慧从不喧哗，",
+        "它们正躲在最寒冷的黑暗里静默",
+        "思考。"
+      ],
+      "display_only_prefix": "一种未经证实的费米悖论假说：",
+      "editorial_note": "显示-only 前缀明确这是未经证实的假说；前缀不朗读。"
+    },
+    {
+      "id": "S10",
+      "startFrame": 6960,
+      "endFrame": 7200,
+      "original_script": "下一次观测：主权心印。\n[EP.06 当算法比你更懂你]",
+      "display_subtitle": "下一次观测：主权心印。\n[EP.06 当算法比你更懂你]",
+      "tts_phonetic_text": "下一次观测，主权心印。",
+      "original_script_sha256": "ba494341f615eceabb20251decea8a23ece429c6445ca66690b9ae3e267c16a1",
+      "display_subtitle_sha256": "ba494341f615eceabb20251decea8a23ece429c6445ca66690b9ae3e267c16a1",
+      "tts_input_sha256": "05e80384722597227ade79ecc47fd8ffcac89939abc97abf6aba18d9487a4dcf",
+      "tts_cache_key": "4348402d849b2e0e5954595639f6f071eaaa4d803243295c693d07c3df3f6d35",
+      "chunks": [
+        "下一次观测：主权心印。"
+      ],
+      "display_only_suffix": "[EP.06 当算法比你更懂你]",
+      "editorial_note": "保留下一集预告；方括号内的集名只显示、不朗读。"
+    }
+  ]
+}

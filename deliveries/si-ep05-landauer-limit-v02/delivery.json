@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "title": "兰道尔极限｜窒息与冷寂 · EP.05 v02",
+  "slug": "si-ep05-landauer-limit-v02",
+  "duration_seconds": 120,
+  "fps": 60,
+  "total_frames": 7200,
+  "script": {
+    "path": "source/script.md",
+    "sha256": "c7a9909d69e98bac2566ef1cf5730874acd2a20a33b9ee3db50d392ab7385adc"
+  },
+  "audio": {
+    "mode": "narrated",
+    "master": "project/public/audio/master.wav",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples_per_channel": 5760000,
+    "sha256": "735889a409be2642551a01d752591d1527d274aa94f341d07352c60d331de150",
+    "pcm_metrics": {
+      "lufs": -17.0,
+      "true_peak_dbtp": -1.8
+    },
+    "final_aac": {
+      "codec": "aac",
+      "sample_rate": 48000,
+      "channels": 2,
+      "lufs": -17.0,
+      "true_peak_dbtp": -1.7,
+      "packet_sha256": "90d5a8c8ccdf59bb20de79be4ece7d5c31b6424cf0d73fbe40da6a026d919e6b"
+    }
+  },
+  "outputs": {
+    "bilibili": {
+      "path": "B站/si-ep05-landauer-limit-v02-bilibili-120s-4k.mp4",
+      "width": 3840,
+      "height": 2160,
+      "file_size_bytes": 254711520,
+      "sha256": "354e60f2c607b9dd6613d4a813702e6ea884e92ad3f44a6e92c9ff1eb34a890b",
+      "audio": {
+        "codec": "aac",
+        "sample_rate": 48000,
+        "channels": 2,
+        "lufs": -17.0,
+        "true_peak_dbtp": -1.7
+      }
+    },
+    "xiaohongshu": {
+      "path": "小红书/si-ep05-landauer-limit-v02-xiaohongshu-120s-portrait.mp4",
+      "width": 2160,
+      "height": 3840,
+      "file_size_bytes": 222442539,
+      "sha256": "cd8839587847091e689efcecc4d8b6da55e6e04ba752f5223c788829e4407806",
+      "audio": {
+        "codec": "aac",
+        "sample_rate": 48000,
+        "channels": 2,
+        "lufs": -17.0,
+        "true_peak_dbtp": -1.7
+      }
+    }
+  },
+  "qa": {
+    "automated": "PASS",
+    "representative_frames": "encoded_samples_reviewed",
+    "continuous_human_review": "pending",
+    "target_device_playback": "pending",
+    "automated_evidence": "review/media-validation-20261019T110451.169065Z.json",
+    "local_browser": "PASS",
+    "local_browser_evidence": "review/browser-player-qa.json",
+    "shared_audio_waveform": "PASS",
+    "shared_audio_evidence": "review/shared-audio-correlation.json",
+    "representative_evidence": "review/representative-review.json"
+  },
+  "production_status": "final_media_validated_archive_pending"
+}

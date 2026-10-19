@@ -1,0 +1,107 @@
+{
+  "status": "PASS",
+  "source_sha256": "c57ea243ff4124c0fe77efc61891a15a2554c28fb55d473251f6b43885b192b1",
+  "spectral_exitance": [
+    {
+      "T": 300,
+      "integral_W_m2": 459.30037304696293,
+      "sigmaT4_W_m2": 459.300327939,
+      "relative_error": 9.821016933031501e-8
+    },
+    {
+      "T": 330,
+      "integral_W_m2": 672.4616761790043,
+      "sigmaT4_W_m2": 672.4616101354899,
+      "relative_error": 9.82115757608426e-8
+    },
+    {
+      "T": 348,
+      "integral_W_m2": 831.6273335032084,
+      "sigmaT4_W_m2": 831.627251827261,
+      "relative_error": 9.82122065895652e-8
+    }
+  ],
+  "murray_branch_conservation": [
+    {
+      "level": 1,
+      "parent_radius_m": 0.03,
+      "child_radius_m": 0.023811015779522993,
+      "cubic_ratio": 1.0000000000000002
+    },
+    {
+      "level": 2,
+      "parent_radius_m": 0.023811015779522993,
+      "child_radius_m": 0.0188988157484231,
+      "cubic_ratio": 1.0000000000000004
+    },
+    {
+      "level": 3,
+      "parent_radius_m": 0.0188988157484231,
+      "child_radius_m": 0.015000000000000003,
+      "cubic_ratio": 1.0000000000000002
+    },
+    {
+      "level": 4,
+      "parent_radius_m": 0.015000000000000003,
+      "child_radius_m": 0.0119055078897615,
+      "cubic_ratio": 1.0000000000000004
+    },
+    {
+      "level": 5,
+      "parent_radius_m": 0.011905507889761498,
+      "child_radius_m": 0.00944940787421155,
+      "cubic_ratio": 1
+    },
+    {
+      "level": 6,
+      "parent_radius_m": 0.009449407874211552,
+      "child_radius_m": 0.007500000000000003,
+      "cubic_ratio": 1.0000000000000002
+    },
+    {
+      "level": 7,
+      "parent_radius_m": 0.007500000000000003,
+      "child_radius_m": 0.005952753944880751,
+      "cubic_ratio": 1.0000000000000002
+    }
+  ],
+  "independent_equilibrium_comparison": [
+    {
+      "frame": 3600,
+      "authored_scenario_T": 300,
+      "compute_W": 15000000000000000,
+      "comparison_equilibrium_T": 296.57139214427315,
+      "relative_residual": -2.344586765664998e-16
+    },
+    {
+      "frame": 3900,
+      "authored_scenario_T": 303.5592621419004,
+      "compute_W": 15000000000000000,
+      "comparison_equilibrium_T": 296.57139214427315,
+      "relative_residual": -2.344586765664998e-16
+    },
+    {
+      "frame": 4800,
+      "authored_scenario_T": 335.57926583873393,
+      "compute_W": 15000000000000000,
+      "comparison_equilibrium_T": 296.57139214427315,
+      "relative_residual": -2.344586765664998e-16
+    },
+    {
+      "frame": 5399,
+      "authored_scenario_T": 348,
+      "compute_W": 15000000000000000,
+      "comparison_equilibrium_T": 296.57139214427315,
+      "relative_residual": -2.344586765664998e-16
+    }
+  ],
+  "temperature_montage_is_not_this_equilibrium": true,
+  "landauer": {
+    "warm_J": 2.870978885078724e-21,
+    "cold_J": 2.6078058206131743e-23,
+    "ideal_ratio": 110.09174311926606,
+    "trillion_erasures_at_300K_nJ": 2.870978885078724
+  },
+  "model_boundaries": "../project/scientific-notes.md",
+  "failures": []
+}

@@ -1,0 +1,465 @@
+{
+  "schema_version": 1,
+  "status": "representative_observations_recorded",
+  "generated_at_utc": "2026-10-19T11:12:19Z",
+  "delivery_slug": "si-ep05-landauer-limit-v02",
+  "review_basis": {
+    "reviewed_material": [
+      "Final encoded 32-frame contact sheets and compact native-resolution samples for both layouts.",
+      "Final encoded 12-pair motion contact sheets and the 91.0–93.5 second cold-scene detail crops.",
+      "CanvasWorld.tsx cold-scene motion functions and the final mobile-scale portrait sheets."
+    ],
+    "findings_reference": "review/acceptance.md (final encoded image comparison findings)",
+    "review_kind": "Root and independent model-assisted representative-frame observation; not a human continuous-review claim."
+  },
+  "final_media": {
+    "validation_report": "review/media-validation-20261019T110451.169065Z.json",
+    "validation_report_generated_at_utc": "2026-10-19T11:04:51.166449Z",
+    "validation_status": "PASS",
+    "manifest_sha256": "fe2fdf50dd44fd03fe739b2a7dbd3994adc9d8008904731260d3723bfdd87b33",
+    "layouts": {
+      "landscape": {
+        "media": {
+          "path": "B站/si-ep05-landauer-limit-v02-bilibili-120s-4k.mp4",
+          "file_size_bytes": 254711520,
+          "sha256": "354e60f2c607b9dd6613d4a813702e6ea884e92ad3f44a6e92c9ff1eb34a890b",
+          "dimensions_px": [
+            3840,
+            2160
+          ],
+          "fps": 60,
+          "duration_seconds": 120,
+          "total_frames": 7200,
+          "encoded_qa_report": "review/encoded-qa-landscape.json",
+          "contact_sheet": "review/encoded-landscape-contact-sheet.jpg",
+          "pair_contact_sheet": "review/encoded-landscape-pair-contact-sheet.jpg"
+        },
+        "representative_frames": {
+          "count": 32,
+          "frame_indexes": [
+            0,
+            120,
+            659,
+            660,
+            899,
+            900,
+            959,
+            1260,
+            1350,
+            1500,
+            2190,
+            2200,
+            2800,
+            3000,
+            3040,
+            3780,
+            3900,
+            4800,
+            5399,
+            5400,
+            5424,
+            5425,
+            5790,
+            6240,
+            6480,
+            6899,
+            6900,
+            6989,
+            6990,
+            7019,
+            7020,
+            7199
+          ],
+          "selection_method": "selected frames decoded from the final encoded MP4 as lossless native-resolution PNGs inside temporary storage",
+          "retained_full_resolution_examples": [
+            "review/encoded-landscape-native-frame-0000.png",
+            "review/encoded-landscape-native-frame-1500.png",
+            "review/encoded-landscape-native-frame-5400.png",
+            "review/encoded-landscape-native-frame-7199.png"
+          ]
+        },
+        "motion_pairs": {
+          "count": 12,
+          "roi_logical_xywh": [
+            76,
+            245,
+            1768,
+            640
+          ],
+          "roi_native_xywh": [
+            152,
+            490,
+            3536,
+            1280
+          ],
+          "method": "mean absolute difference between Pillow FIND_EDGES grayscale crops from the final MP4",
+          "pairs": [
+            {
+              "start_frame": 180,
+              "end_frame": 330,
+              "start_seconds": 3.0,
+              "end_seconds": 5.5,
+              "pair_gap_frames": 150,
+              "edge_difference_mean": 17.65142780172414
+            },
+            {
+              "start_frame": 840,
+              "end_frame": 990,
+              "start_seconds": 14.0,
+              "end_seconds": 16.5,
+              "pair_gap_frames": 150,
+              "edge_difference_mean": 17.247555226293102
+            },
+            {
+              "start_frame": 1380,
+              "end_frame": 1530,
+              "start_seconds": 23.0,
+              "end_seconds": 25.5,
+              "pair_gap_frames": 150,
+              "edge_difference_mean": 11.757058189655172
+            },
+            {
+              "start_frame": 1920,
+              "end_frame": 2070,
+              "start_seconds": 32.0,
+              "end_seconds": 34.5,
+              "pair_gap_frames": 150,
+              "edge_difference_mean": 8.768958782327585
+            },
+            {
+              "start_frame": 2700,
+              "end_frame": 2850,
+              "start_seconds": 45.0,
+              "end_seconds": 47.5,
+              "pair_gap_frames": 150,
+              "edge_difference_mean": 16.299663254310346
+            },
+            {
+              "start_frame": 3120,
+              "end_frame": 3270,
+              "start_seconds": 52.0,
+              "end_seconds": 54.5,
+              "pair_gap_frames": 150,
+              "edge_difference_mean": 15.146666217672413
+            },
+            {
+              "start_frame": 3720,
+              "end_frame": 3870,
+              "start_seconds": 62.0,
+              "end_seconds": 64.5,
+              "pair_gap_frames": 150,
+              "edge_difference_mean": 4.813335129310345
+            },
+            {
+              "start_frame": 4560,
+              "end_frame": 4710,
+              "start_seconds": 76.0,
+              "end_seconds": 78.5,
+              "pair_gap_frames": 150,
+              "edge_difference_mean": 6.96610317887931
+            },
+            {
+              "start_frame": 5460,
+              "end_frame": 5610,
+              "start_seconds": 91.0,
+              "end_seconds": 93.5,
+              "pair_gap_frames": 150,
+              "edge_difference_mean": 1.4828327047413794
+            },
+            {
+              "start_frame": 6060,
+              "end_frame": 6210,
+              "start_seconds": 101.0,
+              "end_seconds": 103.5,
+              "pair_gap_frames": 150,
+              "edge_difference_mean": 9.929222790948275
+            },
+            {
+              "start_frame": 6420,
+              "end_frame": 6570,
+              "start_seconds": 107.0,
+              "end_seconds": 109.5,
+              "pair_gap_frames": 150,
+              "edge_difference_mean": 7.212594288793103
+            },
+            {
+              "start_frame": 6960,
+              "end_frame": 7110,
+              "start_seconds": 116.0,
+              "end_seconds": 118.5,
+              "pair_gap_frames": 150,
+              "edge_difference_mean": 18.528071120689656
+            }
+          ],
+          "edge_difference_range": [
+            1.4828327047413794,
+            18.528071120689656
+          ],
+          "heuristic_limitation": "Nonzero edge differences are evidence of pixel changes only; they do not prove meaningful continuous motion or satisfy human motion review."
+        }
+      },
+      "portrait": {
+        "media": {
+          "path": "小红书/si-ep05-landauer-limit-v02-xiaohongshu-120s-portrait.mp4",
+          "file_size_bytes": 222442539,
+          "sha256": "cd8839587847091e689efcecc4d8b6da55e6e04ba752f5223c788829e4407806",
+          "dimensions_px": [
+            2160,
+            3840
+          ],
+          "fps": 60,
+          "duration_seconds": 120,
+          "total_frames": 7200,
+          "encoded_qa_report": "review/encoded-qa-portrait.json",
+          "contact_sheet": "review/encoded-portrait-contact-sheet.jpg",
+          "pair_contact_sheet": "review/encoded-portrait-pair-contact-sheet.jpg"
+        },
+        "representative_frames": {
+          "count": 32,
+          "frame_indexes": [
+            0,
+            120,
+            659,
+            660,
+            899,
+            900,
+            959,
+            1260,
+            1350,
+            1500,
+            2190,
+            2200,
+            2800,
+            3000,
+            3040,
+            3780,
+            3900,
+            4800,
+            5399,
+            5400,
+            5424,
+            5425,
+            5790,
+            6240,
+            6480,
+            6899,
+            6900,
+            6989,
+            6990,
+            7019,
+            7020,
+            7199
+          ],
+          "selection_method": "selected frames decoded from the final encoded MP4 as lossless native-resolution PNGs inside temporary storage",
+          "retained_full_resolution_examples": [
+            "review/encoded-portrait-native-frame-0000.png",
+            "review/encoded-portrait-native-frame-1500.png",
+            "review/encoded-portrait-native-frame-5400.png",
+            "review/encoded-portrait-native-frame-7199.png"
+          ]
+        },
+        "motion_pairs": {
+          "count": 12,
+          "roi_logical_xywh": [
+            65,
+            445,
+            835,
+            830
+          ],
+          "roi_native_xywh": [
+            130,
+            890,
+            1670,
+            1660
+          ],
+          "method": "mean absolute difference between Pillow FIND_EDGES grayscale crops from the final MP4",
+          "pairs": [
+            {
+              "start_frame": 180,
+              "end_frame": 330,
+              "start_seconds": 3.0,
+              "end_seconds": 5.5,
+              "pair_gap_frames": 150,
+              "edge_difference_mean": 13.568877751572327
+            },
+            {
+              "start_frame": 840,
+              "end_frame": 990,
+              "start_seconds": 14.0,
+              "end_seconds": 16.5,
+              "pair_gap_frames": 150,
+              "edge_difference_mean": 14.944983294025157
+            },
+            {
+              "start_frame": 1380,
+              "end_frame": 1530,
+              "start_seconds": 23.0,
+              "end_seconds": 25.5,
+              "pair_gap_frames": 150,
+              "edge_difference_mean": 10.571088836477987
+            },
+            {
+              "start_frame": 1920,
+              "end_frame": 2070,
+              "start_seconds": 32.0,
+              "end_seconds": 34.5,
+              "pair_gap_frames": 150,
+              "edge_difference_mean": 7.448864976415094
+            },
+            {
+              "start_frame": 2700,
+              "end_frame": 2850,
+              "start_seconds": 45.0,
+              "end_seconds": 47.5,
+              "pair_gap_frames": 150,
+              "edge_difference_mean": 15.954486045597484
+            },
+            {
+              "start_frame": 3120,
+              "end_frame": 3270,
+              "start_seconds": 52.0,
+              "end_seconds": 54.5,
+              "pair_gap_frames": 150,
+              "edge_difference_mean": 15.560684453616352
+            },
+            {
+              "start_frame": 3720,
+              "end_frame": 3870,
+              "start_seconds": 62.0,
+              "end_seconds": 64.5,
+              "pair_gap_frames": 150,
+              "edge_difference_mean": 5.544145538522012
+            },
+            {
+              "start_frame": 4560,
+              "end_frame": 4710,
+              "start_seconds": 76.0,
+              "end_seconds": 78.5,
+              "pair_gap_frames": 150,
+              "edge_difference_mean": 7.9156127161949685
+            },
+            {
+              "start_frame": 5460,
+              "end_frame": 5610,
+              "start_seconds": 91.0,
+              "end_seconds": 93.5,
+              "pair_gap_frames": 150,
+              "edge_difference_mean": 1.9957743710691824
+            },
+            {
+              "start_frame": 6060,
+              "end_frame": 6210,
+              "start_seconds": 101.0,
+              "end_seconds": 103.5,
+              "pair_gap_frames": 150,
+              "edge_difference_mean": 8.673774076257862
+            },
+            {
+              "start_frame": 6420,
+              "end_frame": 6570,
+              "start_seconds": 107.0,
+              "end_seconds": 109.5,
+              "pair_gap_frames": 150,
+              "edge_difference_mean": 12.614153400157234
+            },
+            {
+              "start_frame": 6960,
+              "end_frame": 7110,
+              "start_seconds": 116.0,
+              "end_seconds": 118.5,
+              "pair_gap_frames": 150,
+              "edge_difference_mean": 21.63017639544025
+            }
+          ],
+          "edge_difference_range": [
+            1.9957743710691824,
+            21.63017639544025
+          ],
+          "heuristic_limitation": "Nonzero edge differences are evidence of pixel changes only; they do not prove meaningful continuous motion or satisfy human motion review."
+        }
+      }
+    }
+  },
+  "image_review_observations": {
+    "actionable_frame_issues": {
+      "status": "none_observed_in_representative_review",
+      "categories": [
+        "clipping",
+        "overlap",
+        "missing_or_corrupt_glyphs",
+        "science_label_errors"
+      ],
+      "scope": "Finding covers the selected representative images and reviewed detail sheets only."
+    },
+    "portrait_at_360px_wide": {
+      "major_captions": "readable in the reviewed overview sheets",
+      "small_hud_and_telemetry": "not reliably readable at this thumbnail size; enlarge for inspection",
+      "evidence": [
+        "review/encoded-portrait-mobile-sheet-1.jpg",
+        "review/encoded-portrait-mobile-sheet-2.jpg",
+        "review/encoded-portrait-mobile-sheet-3.jpg",
+        "review/encoded-portrait-mobile-sheet-4.jpg",
+        "review/encoded-portrait-mobile-sheet-5.jpg",
+        "review/encoded-portrait-mobile-sheet-6.jpg"
+      ]
+    },
+    "native_dark_amber_glow": {
+      "observation": "Mild quantization/contour is visible in the native dark amber glow.",
+      "severity": "mild_observation",
+      "evidence": [
+        "review/encoded-landscape-dark-crops.png",
+        "review/encoded-portrait-dark-crops.png"
+      ],
+      "limitation": "A small image review does not establish how the gradient appears on a calibrated large display."
+    },
+    "cold_scene_motion_pair": {
+      "time_seconds": [
+        91.0,
+        93.5
+      ],
+      "frame_indexes": [
+        5460,
+        5610
+      ],
+      "edge_difference_mean": {
+        "landscape": 1.4828327047413794,
+        "portrait": 1.9957743710691824
+      },
+      "observed_change": "Across the sampled pair, the red Earth glow shrinks away while the gold radiator wing opens outward from the central cyan hub; the star field also shifts slightly.",
+      "interpretation": "The low edge-difference means reflect that most of the measured region is dark, not an absent-motion interval. The paired images show visible object change.",
+      "evidence_images": [
+        "review/encoded-landscape-cold-motion-detail.jpg",
+        "review/encoded-portrait-cold-motion-detail.jpg"
+      ],
+      "source_motion": {
+        "path": "project/src/CanvasWorld.tsx",
+        "supporting_lines": [
+          88,
+          90,
+          92,
+          105
+        ],
+        "details": "The starfield positions vary with frame; radiator deployment uses a smooth progress function and its orbit varies with sin(t/500); Earth radius follows a squared fade from 210 logical px in landscape (150 px portrait) to zero by frame 5610."
+      },
+      "scope_limit": "This is one 2.5-second pair and a source-function inspection, not continuous human viewing or proof of motion quality at every frame."
+    }
+  },
+  "technical_and_acceptance_state": {
+    "strict_encoded_media_validation": "PASS",
+    "representative_image_observation": "recorded",
+    "automated_desktop_browser_playback": {
+      "status": "PASS",
+      "evidence": "review/browser-player-qa.json",
+      "limitation": "Muted automated desktop playback; no listening or pronunciation judgment and no phone-app acceptance."
+    },
+    "human_continuous_visual_review": "pending",
+    "human_aural_review_and_pronunciation": "pending",
+    "target_device_or_platform_app_playback": "pending",
+    "overall_acceptance": "NOT_EVALUATED"
+  },
+  "limitations": [
+    "Representative stills and sparse 2.5-second pair samples do not substitute for continuous human viewing.",
+    "Procedural source functions support the described motion behavior but do not prove human-perceived smoothness at every point.",
+    "Automated muted browser playback does not establish audio quality, pronunciation, or target-device playback."
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "status": "encoded_preview_pairs_collected",
+  "audio_working_master_sha256": "35a428b845be548e5ca2a89684b39b57271699bdb0250640a73f7d1bfa2693a6",
+  "pairs": [
+    {
+      "clip": "motion-landscape-2160-2339.mp4",
+      "pair_seconds": [
+        0,
+        2.5
+      ],
+      "central_roi_mean_abs_rgb_delta": [
+        2.4214222873900293,
+        2.765909090909091,
+        2.8610703812316713
+      ]
+    },
+    {
+      "clip": "motion-landscape-4740-4919.mp4",
+      "pair_seconds": [
+        0,
+        2.5
+      ],
+      "central_roi_mean_abs_rgb_delta": [
+        6.338856304985337,
+        3.605410557184751,
+        3.7044721407624635
+      ]
+    },
+    {
+      "clip": "motion-landscape-5340-5519.mp4",
+      "pair_seconds": [
+        0,
+        2.5
+      ],
+      "central_roi_mean_abs_rgb_delta": [
+        62.87387096774194,
+        13.648885630498533,
+        14.17258064516129
+      ]
+    },
+    {
+      "clip": "motion-landscape-6360-6539.mp4",
+      "pair_seconds": [
+        0,
+        2.5
+      ],
+      "central_roi_mean_abs_rgb_delta": [
+        5.231686217008797,
+        5.785234604105572,
+        5.710117302052786
+      ]
+    },
+    {
+      "clip": "motion-landscape-6960-7139.mp4",
+      "pair_seconds": [
+        0,
+        2.5
+      ],
+      "central_roi_mean_abs_rgb_delta": [
+        8.677214076246335,
+        8.45,
+        7.64258064516129
+      ]
+    },
+    {
+      "clip": "motion-landscape-810-989.mp4",
+      "pair_seconds": [
+        0,
+        2.5
+      ],
+      "central_roi_mean_abs_rgb_delta": [
+        16.229780058651027,
+        11.250439882697947,
+        7.749325513196481
+      ]
+    }
+  ],
+  "limitations": [
+    "3s reduced-resolution preliminary movies, not final exports",
+    "Sound master later corrects inherited42Hzseal to40Hz; all frame/sample anchors unchanged",
+    "Frame pairs are model-aided spatial checks, not continuous human viewing/listening"
+  ],
+  "portrait_previews": [
+    "motion-portrait-4740-4919.mp4",
+    "motion-portrait-5340-5519.mp4"
+  ],
+  "portrait_preview_master_sha256": "735889a409be2642551a01d752591d1527d274aa94f341d07352c60d331de150",
+  "model_observation": "Heat chamber particles/piston and expanding shockwave change position. Thermal rays move between surface and atmosphere. Transition removes the red enclosure and shrinks the planet. Radiator branches continue orbiting behind the quote; prediction waves and lock rotate at the end.",
+  "experience_status": "Model-assisted source/encoded-preview observations only; actual audience response and continuous human listening remain pending."
+}

@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "validated_input_snapshot": "review/validated-manifest-input.json",
+  "snapshot_sha256": "fe2fdf50dd44fd03fe739b2a7dbd3994adc9d8008904731260d3723bfdd87b33",
+  "strict_media_report": "review/media-validation-20261019T110451.169065Z.json",
+  "render_inputs_sha256": "767982093a4bbef8a973d4fa9ddb5dd2fea10a9ef385a334f4c57ca46e527a62",
+  "render_inputs_unchanged": true,
+  "current_media_spec_matches_validated_input": true,
+  "media_reencoded_after_validation": false,
+  "later_metadata_additions": [
+    "measured AAC metrics",
+    "QA evidence paths/status",
+    "production/archive metadata"
+  ]
+}

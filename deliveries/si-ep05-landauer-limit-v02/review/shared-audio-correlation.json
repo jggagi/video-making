@@ -1,0 +1,564 @@
+{
+  "status": "PASS",
+  "method": "Decode only stream 0:a:0 from each final MP4 to 48 kHz stereo signed PCM16, then compare against shared master.wav at identical sample offsets. No video decode, ASR, resampling beyond ffmpeg output conversion, time shift, or correlation-based alignment is used.",
+  "thresholds": {
+    "zero_offset_pearson_minimum": 0.98,
+    "absolute_rms_gain_db_maximum": 0.5
+  },
+  "windows_seconds": [
+    [
+      0.0,
+      5.0
+    ],
+    [
+      14.9,
+      17.4
+    ],
+    [
+      48.0,
+      51.0
+    ],
+    [
+      80.0,
+      83.0
+    ],
+    [
+      89.9,
+      90.3
+    ],
+    [
+      116.0,
+      120.0
+    ]
+  ],
+  "expected_audio": {
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples_per_channel": 5760000
+  },
+  "inputs": {
+    "master": {
+      "path": "project/public/audio/master.wav",
+      "present": true,
+      "size_bytes": 23040044,
+      "sha256": "735889a409be2642551a01d752591d1527d274aa94f341d07352c60d331de150",
+      "manifest_sha256_matches": true
+    },
+    "bilibili": {
+      "path": "B站/si-ep05-landauer-limit-v02-bilibili-120s-4k.mp4",
+      "present": true,
+      "size_bytes": 254711520,
+      "sha256": "354e60f2c607b9dd6613d4a813702e6ea884e92ad3f44a6e92c9ff1eb34a890b"
+    },
+    "xiaohongshu": {
+      "path": "小红书/si-ep05-landauer-limit-v02-xiaohongshu-120s-portrait.mp4",
+      "present": true,
+      "size_bytes": 222442539,
+      "sha256": "cd8839587847091e689efcecc4d8b6da55e6e04ba752f5223c788829e4407806"
+    }
+  },
+  "tracks": [
+    {
+      "platform": "bilibili",
+      "path": "B站/si-ep05-landauer-limit-v02-bilibili-120s-4k.mp4",
+      "sha256": "354e60f2c607b9dd6613d4a813702e6ea884e92ad3f44a6e92c9ff1eb34a890b",
+      "size_bytes": 254711520,
+      "decoded_sample_count_per_channel": 5760000,
+      "master_sample_count_per_channel": 5760000,
+      "codec_padding_samples_after_master": 0,
+      "trimmed_only_for_comparison_samples": 0,
+      "decoder_priming_handling": "ffmpeg decoded the selected AAC stream and applied available skip-sample/gapless metadata; comparison is at zero offset with no correlation-based alignment",
+      "windows": [
+        {
+          "start_seconds": 0.0,
+          "end_seconds": 5.0,
+          "start_sample": 0,
+          "end_sample_exclusive": 240000,
+          "status": "PASS",
+          "criteria": {
+            "pearson_minimum": 0.98,
+            "absolute_rms_gain_db_maximum": 0.5
+          },
+          "channels": [
+            {
+              "channel": "left",
+              "samples": 240000,
+              "pearson_zero_offset": 0.9999692846900354,
+              "cosine_zero_offset": 0.9999692749623655,
+              "rms_gain_db": -0.007872644313774881,
+              "regression_gain": 0.9990635225567537,
+              "regression_gain_db": -0.008137950819283538,
+              "master_rms_pcm16": 3408.920723313074,
+              "decoded_rms_pcm16": 3405.8323739450975,
+              "correlation_pass": true,
+              "gain_pass": true
+            },
+            {
+              "channel": "right",
+              "samples": 240000,
+              "pearson_zero_offset": 0.9999715637679727,
+              "cosine_zero_offset": 0.9999715524686313,
+              "rms_gain_db": -0.010344490773215038,
+              "regression_gain": 0.9987815271816157,
+              "regression_gain_db": -0.01058997353594051,
+              "master_rms_pcm16": 3570.801581128762,
+              "decoded_rms_pcm16": 3566.551453797842,
+              "correlation_pass": true,
+              "gain_pass": true
+            }
+          ]
+        },
+        {
+          "start_seconds": 14.9,
+          "end_seconds": 17.4,
+          "start_sample": 715200,
+          "end_sample_exclusive": 835200,
+          "status": "PASS",
+          "criteria": {
+            "pearson_minimum": 0.98,
+            "absolute_rms_gain_db_maximum": 0.5
+          },
+          "channels": [
+            {
+              "channel": "left",
+              "samples": 120000,
+              "pearson_zero_offset": 0.9999865649173378,
+              "cosine_zero_offset": 0.9999865554193843,
+              "rms_gain_db": -0.0078109073216347195,
+              "regression_gain": 0.9990878852012118,
+              "regression_gain_db": -0.007926143805817163,
+              "master_rms_pcm16": 5431.813038065651,
+              "decoded_rms_pcm16": 5426.9306001113555,
+              "correlation_pass": true,
+              "gain_pass": true
+            },
+            {
+              "channel": "right",
+              "samples": 120000,
+              "pearson_zero_offset": 0.9999858582799414,
+              "cosine_zero_offset": 0.9999858534818956,
+              "rms_gain_db": -0.0029741190281368153,
+              "regression_gain": 0.9996436389361839,
+              "regression_gain_db": -0.003095864527166835,
+              "master_rms_pcm16": 5300.743328913094,
+              "decoded_rms_pcm16": 5298.928622127307,
+              "correlation_pass": true,
+              "gain_pass": true
+            }
+          ]
+        },
+        {
+          "start_seconds": 48.0,
+          "end_seconds": 51.0,
+          "start_sample": 2304000,
+          "end_sample_exclusive": 2448000,
+          "status": "PASS",
+          "criteria": {
+            "pearson_minimum": 0.98,
+            "absolute_rms_gain_db_maximum": 0.5
+          },
+          "channels": [
+            {
+              "channel": "left",
+              "samples": 144000,
+              "pearson_zero_offset": 0.999959806052178,
+              "cosine_zero_offset": 0.9999598084074566,
+              "rms_gain_db": -0.013069930328822522,
+              "regression_gain": 0.998457218669061,
+              "regression_gain_db": -0.013410775985667747,
+              "master_rms_pcm16": 3642.981486904724,
+              "decoded_rms_pcm16": 3637.50390068233,
+              "correlation_pass": true,
+              "gain_pass": true
+            },
+            {
+              "channel": "right",
+              "samples": 144000,
+              "pearson_zero_offset": 0.9999557589640213,
+              "cosine_zero_offset": 0.9999557580998751,
+              "rms_gain_db": -0.007213797575670089,
+              "regression_gain": 0.9991267353351463,
+              "regression_gain_db": -0.007588394324502035,
+              "master_rms_pcm16": 3458.784085494416,
+              "decoded_rms_pcm16": 3455.91269165574,
+              "correlation_pass": true,
+              "gain_pass": true
+            }
+          ]
+        },
+        {
+          "start_seconds": 80.0,
+          "end_seconds": 83.0,
+          "start_sample": 3840000,
+          "end_sample_exclusive": 3984000,
+          "status": "PASS",
+          "criteria": {
+            "pearson_minimum": 0.98,
+            "absolute_rms_gain_db_maximum": 0.5
+          },
+          "channels": [
+            {
+              "channel": "left",
+              "samples": 144000,
+              "pearson_zero_offset": 0.9999579872830389,
+              "cosine_zero_offset": 0.9999579765115377,
+              "rms_gain_db": -0.012405693459014563,
+              "regression_gain": 0.9985307723041337,
+              "regression_gain_db": -0.01277093362317338,
+              "master_rms_pcm16": 5566.144774213118,
+              "decoded_rms_pcm16": 5558.200556614399,
+              "correlation_pass": true,
+              "gain_pass": true
+            },
+            {
+              "channel": "right",
+              "samples": 144000,
+              "pearson_zero_offset": 0.9999521757847335,
+              "cosine_zero_offset": 0.9999521372252955,
+              "rms_gain_db": -0.009513322373776443,
+              "regression_gain": 0.9988583424180415,
+              "regression_gain_db": -0.009921976589545235,
+              "master_rms_pcm16": 5223.67548093467,
+              "decoded_rms_pcm16": 5217.957321185684,
+              "correlation_pass": true,
+              "gain_pass": true
+            }
+          ]
+        },
+        {
+          "start_seconds": 89.9,
+          "end_seconds": 90.3,
+          "start_sample": 4315200,
+          "end_sample_exclusive": 4334400,
+          "status": "PASS",
+          "criteria": {
+            "pearson_minimum": 0.98,
+            "absolute_rms_gain_db_maximum": 0.5
+          },
+          "channels": [
+            {
+              "channel": "left",
+              "samples": 19200,
+              "pearson_zero_offset": 0.9999391690183242,
+              "cosine_zero_offset": 0.9999391590057958,
+              "rms_gain_db": -0.026743528170141362,
+              "regression_gain": 0.99686808848037,
+              "regression_gain_db": -0.027246126350268567,
+              "master_rms_pcm16": 1244.6879987236427,
+              "decoded_rms_pcm16": 1240.8615448718147,
+              "correlation_pass": true,
+              "gain_pass": true
+            },
+            {
+              "channel": "right",
+              "samples": 19200,
+              "pearson_zero_offset": 0.9998606377379587,
+              "cosine_zero_offset": 0.9998598748561217,
+              "rms_gain_db": -0.01832618445616238,
+              "regression_gain": 0.9977840658058261,
+              "regression_gain_db": -0.01926871685353562,
+              "master_rms_pcm16": 944.5627584694942,
+              "decoded_rms_pcm16": 942.5719453641192,
+              "correlation_pass": true,
+              "gain_pass": true
+            }
+          ]
+        },
+        {
+          "start_seconds": 116.0,
+          "end_seconds": 120.0,
+          "start_sample": 5568000,
+          "end_sample_exclusive": 5760000,
+          "status": "PASS",
+          "criteria": {
+            "pearson_minimum": 0.98,
+            "absolute_rms_gain_db_maximum": 0.5
+          },
+          "channels": [
+            {
+              "channel": "left",
+              "samples": 192000,
+              "pearson_zero_offset": 0.9999593140533605,
+              "cosine_zero_offset": 0.999959306275099,
+              "rms_gain_db": -0.012043696100891394,
+              "regression_gain": 0.9985738048345617,
+              "regression_gain_db": -0.012396615908937366,
+              "master_rms_pcm16": 3074.968097027085,
+              "decoded_rms_pcm16": 3070.707356980398,
+              "correlation_pass": true,
+              "gain_pass": true
+            },
+            {
+              "channel": "right",
+              "samples": 192000,
+              "pearson_zero_offset": 0.9999570372969405,
+              "cosine_zero_offset": 0.9999570332424677,
+              "rms_gain_db": -0.004499072306629741,
+              "regression_gain": 0.9994392593926794,
+              "regression_gain_db": -0.004871897093727449,
+              "master_rms_pcm16": 2957.5360144441815,
+              "decoded_rms_pcm16": 2956.0044818784386,
+              "correlation_pass": true,
+              "gain_pass": true
+            }
+          ]
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "platform": "xiaohongshu",
+      "path": "小红书/si-ep05-landauer-limit-v02-xiaohongshu-120s-portrait.mp4",
+      "sha256": "cd8839587847091e689efcecc4d8b6da55e6e04ba752f5223c788829e4407806",
+      "size_bytes": 222442539,
+      "decoded_sample_count_per_channel": 5760000,
+      "master_sample_count_per_channel": 5760000,
+      "codec_padding_samples_after_master": 0,
+      "trimmed_only_for_comparison_samples": 0,
+      "decoder_priming_handling": "ffmpeg decoded the selected AAC stream and applied available skip-sample/gapless metadata; comparison is at zero offset with no correlation-based alignment",
+      "windows": [
+        {
+          "start_seconds": 0.0,
+          "end_seconds": 5.0,
+          "start_sample": 0,
+          "end_sample_exclusive": 240000,
+          "status": "PASS",
+          "criteria": {
+            "pearson_minimum": 0.98,
+            "absolute_rms_gain_db_maximum": 0.5
+          },
+          "channels": [
+            {
+              "channel": "left",
+              "samples": 240000,
+              "pearson_zero_offset": 0.9999692846900354,
+              "cosine_zero_offset": 0.9999692749623655,
+              "rms_gain_db": -0.007872644313774881,
+              "regression_gain": 0.9990635225567537,
+              "regression_gain_db": -0.008137950819283538,
+              "master_rms_pcm16": 3408.920723313074,
+              "decoded_rms_pcm16": 3405.8323739450975,
+              "correlation_pass": true,
+              "gain_pass": true
+            },
+            {
+              "channel": "right",
+              "samples": 240000,
+              "pearson_zero_offset": 0.9999715637679727,
+              "cosine_zero_offset": 0.9999715524686313,
+              "rms_gain_db": -0.010344490773215038,
+              "regression_gain": 0.9987815271816157,
+              "regression_gain_db": -0.01058997353594051,
+              "master_rms_pcm16": 3570.801581128762,
+              "decoded_rms_pcm16": 3566.551453797842,
+              "correlation_pass": true,
+              "gain_pass": true
+            }
+          ]
+        },
+        {
+          "start_seconds": 14.9,
+          "end_seconds": 17.4,
+          "start_sample": 715200,
+          "end_sample_exclusive": 835200,
+          "status": "PASS",
+          "criteria": {
+            "pearson_minimum": 0.98,
+            "absolute_rms_gain_db_maximum": 0.5
+          },
+          "channels": [
+            {
+              "channel": "left",
+              "samples": 120000,
+              "pearson_zero_offset": 0.9999865649173378,
+              "cosine_zero_offset": 0.9999865554193843,
+              "rms_gain_db": -0.0078109073216347195,
+              "regression_gain": 0.9990878852012118,
+              "regression_gain_db": -0.007926143805817163,
+              "master_rms_pcm16": 5431.813038065651,
+              "decoded_rms_pcm16": 5426.9306001113555,
+              "correlation_pass": true,
+              "gain_pass": true
+            },
+            {
+              "channel": "right",
+              "samples": 120000,
+              "pearson_zero_offset": 0.9999858582799414,
+              "cosine_zero_offset": 0.9999858534818956,
+              "rms_gain_db": -0.0029741190281368153,
+              "regression_gain": 0.9996436389361839,
+              "regression_gain_db": -0.003095864527166835,
+              "master_rms_pcm16": 5300.743328913094,
+              "decoded_rms_pcm16": 5298.928622127307,
+              "correlation_pass": true,
+              "gain_pass": true
+            }
+          ]
+        },
+        {
+          "start_seconds": 48.0,
+          "end_seconds": 51.0,
+          "start_sample": 2304000,
+          "end_sample_exclusive": 2448000,
+          "status": "PASS",
+          "criteria": {
+            "pearson_minimum": 0.98,
+            "absolute_rms_gain_db_maximum": 0.5
+          },
+          "channels": [
+            {
+              "channel": "left",
+              "samples": 144000,
+              "pearson_zero_offset": 0.999959806052178,
+              "cosine_zero_offset": 0.9999598084074566,
+              "rms_gain_db": -0.013069930328822522,
+              "regression_gain": 0.998457218669061,
+              "regression_gain_db": -0.013410775985667747,
+              "master_rms_pcm16": 3642.981486904724,
+              "decoded_rms_pcm16": 3637.50390068233,
+              "correlation_pass": true,
+              "gain_pass": true
+            },
+            {
+              "channel": "right",
+              "samples": 144000,
+              "pearson_zero_offset": 0.9999557589640213,
+              "cosine_zero_offset": 0.9999557580998751,
+              "rms_gain_db": -0.007213797575670089,
+              "regression_gain": 0.9991267353351463,
+              "regression_gain_db": -0.007588394324502035,
+              "master_rms_pcm16": 3458.784085494416,
+              "decoded_rms_pcm16": 3455.91269165574,
+              "correlation_pass": true,
+              "gain_pass": true
+            }
+          ]
+        },
+        {
+          "start_seconds": 80.0,
+          "end_seconds": 83.0,
+          "start_sample": 3840000,
+          "end_sample_exclusive": 3984000,
+          "status": "PASS",
+          "criteria": {
+            "pearson_minimum": 0.98,
+            "absolute_rms_gain_db_maximum": 0.5
+          },
+          "channels": [
+            {
+              "channel": "left",
+              "samples": 144000,
+              "pearson_zero_offset": 0.9999579872830389,
+              "cosine_zero_offset": 0.9999579765115377,
+              "rms_gain_db": -0.012405693459014563,
+              "regression_gain": 0.9985307723041337,
+              "regression_gain_db": -0.01277093362317338,
+              "master_rms_pcm16": 5566.144774213118,
+              "decoded_rms_pcm16": 5558.200556614399,
+              "correlation_pass": true,
+              "gain_pass": true
+            },
+            {
+              "channel": "right",
+              "samples": 144000,
+              "pearson_zero_offset": 0.9999521757847335,
+              "cosine_zero_offset": 0.9999521372252955,
+              "rms_gain_db": -0.009513322373776443,
+              "regression_gain": 0.9988583424180415,
+              "regression_gain_db": -0.009921976589545235,
+              "master_rms_pcm16": 5223.67548093467,
+              "decoded_rms_pcm16": 5217.957321185684,
+              "correlation_pass": true,
+              "gain_pass": true
+            }
+          ]
+        },
+        {
+          "start_seconds": 89.9,
+          "end_seconds": 90.3,
+          "start_sample": 4315200,
+          "end_sample_exclusive": 4334400,
+          "status": "PASS",
+          "criteria": {
+            "pearson_minimum": 0.98,
+            "absolute_rms_gain_db_maximum": 0.5
+          },
+          "channels": [
+            {
+              "channel": "left",
+              "samples": 19200,
+              "pearson_zero_offset": 0.9999391690183242,
+              "cosine_zero_offset": 0.9999391590057958,
+              "rms_gain_db": -0.026743528170141362,
+              "regression_gain": 0.99686808848037,
+              "regression_gain_db": -0.027246126350268567,
+              "master_rms_pcm16": 1244.6879987236427,
+              "decoded_rms_pcm16": 1240.8615448718147,
+              "correlation_pass": true,
+              "gain_pass": true
+            },
+            {
+              "channel": "right",
+              "samples": 19200,
+              "pearson_zero_offset": 0.9998606377379587,
+              "cosine_zero_offset": 0.9998598748561217,
+              "rms_gain_db": -0.01832618445616238,
+              "regression_gain": 0.9977840658058261,
+              "regression_gain_db": -0.01926871685353562,
+              "master_rms_pcm16": 944.5627584694942,
+              "decoded_rms_pcm16": 942.5719453641192,
+              "correlation_pass": true,
+              "gain_pass": true
+            }
+          ]
+        },
+        {
+          "start_seconds": 116.0,
+          "end_seconds": 120.0,
+          "start_sample": 5568000,
+          "end_sample_exclusive": 5760000,
+          "status": "PASS",
+          "criteria": {
+            "pearson_minimum": 0.98,
+            "absolute_rms_gain_db_maximum": 0.5
+          },
+          "channels": [
+            {
+              "channel": "left",
+              "samples": 192000,
+              "pearson_zero_offset": 0.9999593140533605,
+              "cosine_zero_offset": 0.999959306275099,
+              "rms_gain_db": -0.012043696100891394,
+              "regression_gain": 0.9985738048345617,
+              "regression_gain_db": -0.012396615908937366,
+              "master_rms_pcm16": 3074.968097027085,
+              "decoded_rms_pcm16": 3070.707356980398,
+              "correlation_pass": true,
+              "gain_pass": true
+            },
+            {
+              "channel": "right",
+              "samples": 192000,
+              "pearson_zero_offset": 0.9999570372969405,
+              "cosine_zero_offset": 0.9999570332424677,
+              "rms_gain_db": -0.004499072306629741,
+              "regression_gain": 0.9994392593926794,
+              "regression_gain_db": -0.004871897093727449,
+              "master_rms_pcm16": 2957.5360144441815,
+              "decoded_rms_pcm16": 2956.0044818784386,
+              "correlation_pass": true,
+              "gain_pass": true
+            }
+          ]
+        }
+      ],
+      "status": "PASS"
+    }
+  ],
+  "limitations": [
+    "AAC is lossy; correlation and level checks measure decoded waveform similarity, not perceptual equivalence or listener acceptance.",
+    "No offset search is performed. A failed zero-offset window requires review rather than automatic alignment.",
+    "Decoded samples beyond the shared master are recorded as codec padding and excluded only from comparison; source media is not modified."
+  ],
+  "ffmpeg": "/opt/homebrew/bin/ffmpeg"
+}

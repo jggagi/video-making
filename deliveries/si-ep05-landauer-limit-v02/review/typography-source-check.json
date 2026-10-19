@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "required_terms": {
+    "LANDAUER": {
+      "present": true
+    },
+    "BOLTZMANN": {
+      "present": true
+    },
+    "RADIATIVE": {
+      "present": true
+    },
+    "ATMOSPHERE": {
+      "present": true
+    },
+    "BIOSPHERE": {
+      "present": true
+    }
+  },
+  "limitations": "Exact source term presence and banned runtime clock call scan only; final encoded screenshots checked separately."
+}

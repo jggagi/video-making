@@ -13,3 +13,5 @@
 完整证据见final-media-evidence.json、visual-qc-*/report.json、media-validation-20261019T175449.370711Z.json、patch-source-comparison.json、patch-motion-preview.json。
 
 人工连续听看、真实手机App播放和观众反馈未执行。小红书原笔记已提交视频修订，管理页显示审核中、仅自己可见，笔记数仍为8；归档状态另见publication-record.json和archive-verification.json。
+
+本地final两份APFS克隆完成；GitHub作品Release全部9项、独立final Release两份成片大小与SHA-256匹配。当前final清单17个Release/45份文件全部核验；新版竖屏实际下载恢复与第二次匹配跳过通过，临时恢复数据已清理。这是单文件恢复抽测，不代表全部45份均下载恢复。源码提交6937cd8646c4ac60a289d3f84550708af2d80aa4。

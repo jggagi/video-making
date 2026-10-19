@@ -4,7 +4,7 @@
   "previous_delivery": "si-ep07-untranslatable-tongue",
   "original_script_unchanged": true,
   "picture_design": "reuse existing EP07 design; re-time captions from new measured PCM if needed",
-  "status": "final_media_QA_passed_publication_and_archive_in_progress",
+  "status": "complete_technical_checks_and_backups; existing_note_revision_under_review_private",
   "old_publication": "Existing note retained and edited in place; no deletion or new note created",
   "series_voice": {
     "provider": "Aliyun Bailian",
@@ -24,5 +24,6 @@
     "base_landscape_sha256": "4ff0e36dbd83474ff8af2524d32d5ae9a7d2c4d4e0e8040282ee1cfdee52accb",
     "plan": "full native4K source picture reused; subtitle band re-rendered at native scale and composited, followed by full final decode/visual QC"
   },
-  "final_validation": "review/media-validation-20261019T175449.370711Z.json"
+  "final_validation": "review/media-validation-20261019T175449.370711Z.json",
+  "archive_verification": "review/archive-verification.json"
 }

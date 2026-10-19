@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
   "status": "COMPLETE",
-  "verified_at_utc": "2026-10-19T17:12:57.039356+00:00",
+  "verified_at_utc": "2026-10-19T18:02:17.721881+00:00",
   "repository": "jggagi/video-making",
-  "source_commit": "725b151902a2bc43e7ea317fb85fc6a79cfb8b66",
+  "source_commit": "6937cd8646c4ac60a289d3f84550708af2d80aa4",
   "catalog_path": "final/backup-catalog.json",
-  "catalog_sha256": "a2d2474c2d71824e97791457bde39e5d95de038fa8f6ee09aa81568872d8c1a7",
-  "upload_receipt_sha256": "8408755e5f824b38ce32915aff966860415fb3d4e979af69c8b5cadc7f65880b",
+  "catalog_sha256": "049ad260d23b6631e2e2dae31402b527f8ae4659bd39adef4416c6f76cb551d7",
+  "upload_receipt_sha256": "070848dc50c3c24ed37b749ad3bf9447170fb327c4a8233abd1cabe4ac67bf99",
   "verification_method": "Fresh published GitHub Release API inventory plus all local final file hashes; every remote size, SHA-256 digest and URL matched the current catalog.",
-  "verified_releases": 16,
-  "verified_files": 43,
-  "verified_bytes": 7583203798,
+  "verified_releases": 17,
+  "verified_files": 45,
+  "verified_bytes": 7852657565,
   "works": [
     {
       "id": "lanting",
@@ -553,6 +553,36 @@
       ]
     },
     {
+      "id": "si-ep07-untranslatable-tongue-v02",
+      "title": "Final 成片备份 · 后人类黑话 · v02（系列配音）",
+      "release_tag": "final-si-ep07-untranslatable-tongue-v02-a0b06851b5cc",
+      "release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep07-untranslatable-tongue-v02-a0b06851b5cc",
+      "release_target": "6937cd8646c4ac60a289d3f84550708af2d80aa4",
+      "release_draft": false,
+      "assets": [
+        {
+          "path": "final/si-ep07-untranslatable-tongue-v02/B站/si-ep07-untranslatable-tongue-v02-bilibili-120s-4k.mp4",
+          "name": "final--si-ep07-untranslatable-tongue-v02--deliveries--si-ep07-untranslatable-tongue-v02--B---si-ep07-untranslatable-tongue-v02-bilibili-120s-4k--2e7478f36e9e.mp4",
+          "bytes": 153918132,
+          "sha256": "2e7478f36e9e4dbbacb640a53f2579f808c992d41243bcf04393a274f26bbdfb",
+          "github_digest": "sha256:2e7478f36e9e4dbbacb640a53f2579f808c992d41243bcf04393a274f26bbdfb",
+          "github_asset_id": 657015285,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep07-untranslatable-tongue-v02-a0b06851b5cc/final--si-ep07-untranslatable-tongue-v02--deliveries--si-ep07-untranslatable-tongue-v02--B---si-ep07-untranslatable-tongue-v02-bilibili-120s-4k--2e7478f36e9e.mp4",
+          "local_and_remote_match": true
+        },
+        {
+          "path": "final/si-ep07-untranslatable-tongue-v02/小红书/si-ep07-untranslatable-tongue-v02-xiaohongshu-120s-portrait.mp4",
+          "name": "final--si-ep07-untranslatable-tongue-v02--deliveries--si-ep07-untranslatable-tongue-v02-----si-ep07-untranslatable-tongue-v02-xiaohongshu-120s-portrait--7621a7e36efc.mp4",
+          "bytes": 115535635,
+          "sha256": "7621a7e36efc7e2057060ff7aeae2c3eec51cab0603870b7e83d3313a5bdaa16",
+          "github_digest": "sha256:7621a7e36efc7e2057060ff7aeae2c3eec51cab0603870b7e83d3313a5bdaa16",
+          "github_asset_id": 657015868,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep07-untranslatable-tongue-v02-a0b06851b5cc/final--si-ep07-untranslatable-tongue-v02--deliveries--si-ep07-untranslatable-tongue-v02-----si-ep07-untranslatable-tongue-v02-xiaohongshu-120s-portrait--7621a7e36efc.mp4",
+          "local_and_remote_match": true
+        }
+      ]
+    },
+    {
       "id": "si-eternity",
       "title": "Final 成片备份 · 一眼万年",
       "release_tag": "final-si-eternity-66d480b1c859",
@@ -605,11 +635,11 @@
   ],
   "restore_probe": {
     "status": "PASS",
-    "verified_at_utc": "2026-10-19T17:14:17.546628+00:00",
-    "scope": "One newly added EP07 portrait final downloaded from GitHub into isolated temporary root, exact restored relative path/size/hash checked; second restore skipped it. Not a full restore of all43 files.",
-    "path": "final/si-ep07-untranslatable-tongue/小红书/si-ep07-untranslatable-tongue-xiaohongshu-120s-portrait.mp4",
-    "bytes": 109913039,
-    "sha256": "8bf20c0583cc289fbb5f43391d6c9a0ebaa9e01b641d7b37b0df9e0e03708852",
+    "verified_at_utc": "2026-10-19T18:02:42.057942+00:00",
+    "scope": "One newly added EP07 v02 portrait final downloaded from GitHub into isolated temporary root; restored relative path, size and SHA-256 checked. Repeat restore skipped the matching file. Not a full download restore of all45 files.",
+    "path": "final/si-ep07-untranslatable-tongue-v02/小红书/si-ep07-untranslatable-tongue-v02-xiaohongshu-120s-portrait.mp4",
+    "bytes": 115535635,
+    "sha256": "7621a7e36efc7e2057060ff7aeae2c3eec51cab0603870b7e83d3313a5bdaa16",
     "first_run": {
       "downloaded": 1,
       "already_verified": 0

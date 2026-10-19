@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
   "status": "COMPLETE",
-  "verified_at_utc": "2026-10-19T03:56:23.652323+00:00",
+  "verified_at_utc": "2026-10-19T07:15:30.030986+00:00",
   "repository": "jggagi/video-making",
-  "source_commit": "728b8bad00bea3e65288891c7058474172dcd70d",
+  "source_commit": "4853d60c1733baa1d8be7475e9f91f66bad80b5a",
   "catalog_path": "final/backup-catalog.json",
-  "catalog_sha256": "c809ad0eca2816f3b28ecef9fbf63e4976879f28af1b1395a17410efa420e7c1",
-  "upload_receipt_sha256": "7239c3b58532c4b1005593eca3d9ee6690c06e3ccbc454c549df7f01e5d5030e",
+  "catalog_sha256": "2cb8c83d112149f103d82e74ab247bc9ddbe80a35980a0b6d7efcb33aa309c8f",
+  "upload_receipt_sha256": "f65550a007c49d29da6255f15f0020a0db831671d96f5bfa56ba1bc858041166",
   "verification_method": "Fresh published GitHub Release API inventory plus all local final file hashes; every remote size, SHA-256 digest and URL matched the current catalog.",
-  "verified_releases": 11,
-  "verified_files": 33,
-  "verified_bytes": 5725870900,
+  "verified_releases": 12,
+  "verified_files": 35,
+  "verified_bytes": 5906820746,
   "works": [
     {
       "id": "lanting",
@@ -403,6 +403,36 @@
       ]
     },
     {
+      "id": "si-ep06-sovereign-crystal-v02",
+      "title": "Final 成片备份 · 主权心印｜THE SOVEREIGN SOUL CRYSTAL · EP.06 · v02",
+      "release_tag": "final-si-ep06-sovereign-crystal-v02-269fc619d08f",
+      "release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep06-sovereign-crystal-v02-269fc619d08f",
+      "release_target": "4853d60c1733baa1d8be7475e9f91f66bad80b5a",
+      "release_draft": false,
+      "assets": [
+        {
+          "path": "final/si-ep06-sovereign-crystal-v02/B站/si-ep06-sovereign-crystal-v02-bilibili-120s-4k.mp4",
+          "name": "final--si-ep06-sovereign-crystal-v02--deliveries--si-ep06-sovereign-crystal-v02--B---si-ep06-sovereign-crystal-v02-bilibili-120s-4k--5d57f695c0d4.mp4",
+          "bytes": 115813246,
+          "sha256": "5d57f695c0d430005e5528cb0cd2c2d48a19104ff5ef8a2d0f5399999987816c",
+          "github_digest": "sha256:5d57f695c0d430005e5528cb0cd2c2d48a19104ff5ef8a2d0f5399999987816c",
+          "github_asset_id": 655527612,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep06-sovereign-crystal-v02-269fc619d08f/final--si-ep06-sovereign-crystal-v02--deliveries--si-ep06-sovereign-crystal-v02--B---si-ep06-sovereign-crystal-v02-bilibili-120s-4k--5d57f695c0d4.mp4",
+          "local_and_remote_match": true
+        },
+        {
+          "path": "final/si-ep06-sovereign-crystal-v02/小红书/si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait.mp4",
+          "name": "final--si-ep06-sovereign-crystal-v02--deliveries--si-ep06-sovereign-crystal-v02-----si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait--1fbe8b12d420.mp4",
+          "bytes": 65136600,
+          "sha256": "1fbe8b12d420772f817fa22e3b06ee6e78388673ea725cf9b408187dc70a9361",
+          "github_digest": "sha256:1fbe8b12d420772f817fa22e3b06ee6e78388673ea725cf9b408187dc70a9361",
+          "github_asset_id": 655527983,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep06-sovereign-crystal-v02-269fc619d08f/final--si-ep06-sovereign-crystal-v02--deliveries--si-ep06-sovereign-crystal-v02-----si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait--1fbe8b12d420.mp4",
+          "local_and_remote_match": true
+        }
+      ]
+    },
+    {
       "id": "si-eternity",
       "title": "Final 成片备份 · 一眼万年",
       "release_tag": "final-si-eternity-66d480b1c859",
@@ -455,14 +485,20 @@
   ],
   "restore_probe": {
     "status": "PASS",
-    "evidence": "deliveries/si-ep06-sovereign-crystal/review/final-restore-probe.json",
+    "checked_at_utc": "2026-10-19T07:16:12.117645+00:00",
+    "scope": "One newly backed-up v02 landscape final, actual remote download and repeated idempotent skip. Other final assets were inventory/hash verified, not all downloaded.",
+    "source_commit": "4853d60c1733baa1d8be7475e9f91f66bad80b5a",
+    "catalog_sha256": "2cb8c83d112149f103d82e74ab247bc9ddbe80a35980a0b6d7efcb33aa309c8f",
     "asset": {
-      "path": "final/si-ep06-sovereign-crystal/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
-      "bytes": 162732424,
-      "sha256": "b1ef98636d1072853461fdc7032b94959c94634206632aa316188bd7aee13f8d",
-      "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep06-sovereign-crystal-17a9981f3b94/final--si-ep06-sovereign-crystal--deliveries--si-ep06-sovereign-crystal--B---si-ep06-sovereign-crystal-bilibili-120s-4k--b1ef98636d10.mp4"
+      "path": "final/si-ep06-sovereign-crystal-v02/B站/si-ep06-sovereign-crystal-v02-bilibili-120s-4k.mp4",
+      "bytes": 115813246,
+      "sha256": "5d57f695c0d430005e5528cb0cd2c2d48a19104ff5ef8a2d0f5399999987816c",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep06-sovereign-crystal-v02-269fc619d08f/final--si-ep06-sovereign-crystal-v02--deliveries--si-ep06-sovereign-crystal-v02--B---si-ep06-sovereign-crystal-v02-bilibili-120s-4k--5d57f695c0d4.mp4"
     },
-    "scope": "One newly backed-up EP06 landscape final, actual remote download and repeated idempotent skip.",
-    "repeat_skip": "PASS"
+    "first_run": "Restored: final/si-ep06-sovereign-crystal-v02/B站/si-ep06-sovereign-crystal-v02-bilibili-120s-4k.mp4 (115,813,246 bytes)\nRestore complete: 0 already verified, 1 downloaded",
+    "repeat_run": "Restore complete: 1 already verified, 0 downloaded",
+    "temporary_restore_location": "isolated /private/tmp/ep06-v02-final-probe.* directory, removed after verification",
+    "verified_size_and_sha256": true,
+    "evidence": "deliveries/si-ep06-sovereign-crystal-v02/review/final-restore-probe.json"
   }
 }

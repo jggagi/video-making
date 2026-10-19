@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-10-19T07:16:12.117645+00:00",
+  "scope": "One newly backed-up v02 landscape final, actual remote download and repeated idempotent skip. Other final assets were inventory/hash verified, not all downloaded.",
+  "source_commit": "4853d60c1733baa1d8be7475e9f91f66bad80b5a",
+  "catalog_sha256": "2cb8c83d112149f103d82e74ab247bc9ddbe80a35980a0b6d7efcb33aa309c8f",
+  "asset": {
+    "path": "final/si-ep06-sovereign-crystal-v02/B站/si-ep06-sovereign-crystal-v02-bilibili-120s-4k.mp4",
+    "bytes": 115813246,
+    "sha256": "5d57f695c0d430005e5528cb0cd2c2d48a19104ff5ef8a2d0f5399999987816c",
+    "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep06-sovereign-crystal-v02-269fc619d08f/final--si-ep06-sovereign-crystal-v02--deliveries--si-ep06-sovereign-crystal-v02--B---si-ep06-sovereign-crystal-v02-bilibili-120s-4k--5d57f695c0d4.mp4"
+  },
+  "first_run": "Restored: final/si-ep06-sovereign-crystal-v02/B站/si-ep06-sovereign-crystal-v02-bilibili-120s-4k.mp4 (115,813,246 bytes)\nRestore complete: 0 already verified, 1 downloaded",
+  "repeat_run": "Restore complete: 1 already verified, 0 downloaded",
+  "temporary_restore_location": "isolated /private/tmp/ep06-v02-final-probe.* directory, removed after verification",
+  "verified_size_and_sha256": true
+}

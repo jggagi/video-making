@@ -19,3 +19,4 @@
 - [兰道尔极限｜稳定画面与氛围音乐 · EP.05 v03](si-ep05-landauer-limit-v03/README.md)：6 个视频/工程资产。
 - [主权心印｜THE SOVEREIGN SOUL CRYSTAL · EP.06](si-ep06-sovereign-crystal/README.md)：9 个视频/工程资产。
 - [主权心印｜THE SOVEREIGN SOUL CRYSTAL · EP.06 · v02](si-ep06-sovereign-crystal-v02/README.md)：27 个视频/工程资产。
+- [后人类黑话](si-ep07-untranslatable-tongue/README.md)：6 个视频/工程资产。

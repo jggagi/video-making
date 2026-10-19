@@ -1,0 +1,121 @@
+{
+  "id": "si-ep07-untranslatable-tongue",
+  "title": "后人类黑话",
+  "release_tag": "film-si-ep07-untranslatable-tongue-1dd8685e0b06",
+  "historical": false,
+  "duration_seconds": 120,
+  "project_path": "deliveries/si-ep07-untranslatable-tongue/project",
+  "delivery_directory": "deliveries/si-ep07-untranslatable-tongue",
+  "final_output_paths": {
+    "B站": "deliveries/si-ep07-untranslatable-tongue/B站/si-ep07-untranslatable-tongue-bilibili-120s-4k.mp4",
+    "小红书": "deliveries/si-ep07-untranslatable-tongue/小红书/si-ep07-untranslatable-tongue-xiaohongshu-120s-portrait.mp4"
+  },
+  "final_output_dimensions": {
+    "B站": [
+      3840,
+      2160
+    ],
+    "小红书": [
+      2160,
+      3840
+    ]
+  },
+  "assets": [
+    {
+      "path": "deliveries/si-ep07-untranslatable-tongue/B站/si-ep07-untranslatable-tongue-bilibili-120s-4k.mp4",
+      "name": "si-ep07-untranslatable-tongue--deliveries--si-ep07-untranslatable-tongue--B---si-ep07-untranslatable-tongue-bilibili-120s-4k--4ff0e36dbd83.mp4",
+      "bytes": 140747756,
+      "sha256": "4ff0e36dbd83474ff8af2524d32d5ae9a7d2c4d4e0e8040282ee1cfdee52accb",
+      "kind": "video",
+      "platform": "B站",
+      "measurements": {
+        "width": 3840,
+        "height": 2160,
+        "fps": "60/1",
+        "frames": "7200",
+        "video_duration_seconds": 120.0,
+        "container_duration_seconds": 120.0
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep07-untranslatable-tongue-1dd8685e0b06/si-ep07-untranslatable-tongue--deliveries--si-ep07-untranslatable-tongue--B---si-ep07-untranslatable-tongue-bilibili-120s-4k--4ff0e36dbd83.mp4"
+    },
+    {
+      "path": "deliveries/si-ep07-untranslatable-tongue/review/motion-portrait-2040-2279.mp4",
+      "name": "si-ep07-untranslatable-tongue--deliveries--si-ep07-untranslatable-tongue--review--motion-portrait-2040-2279--326b428434ac.mp4",
+      "bytes": 2420939,
+      "sha256": "326b428434acae30b556e7e8dfc475762868c5f52b57beab06253c91a56ba26e",
+      "kind": "video",
+      "platform": "预览",
+      "measurements": {
+        "width": 2160,
+        "height": 3840,
+        "fps": "60/1",
+        "frames": "240",
+        "video_duration_seconds": 4.0,
+        "container_duration_seconds": 4.0
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep07-untranslatable-tongue-1dd8685e0b06/si-ep07-untranslatable-tongue--deliveries--si-ep07-untranslatable-tongue--review--motion-portrait-2040-2279--326b428434ac.mp4"
+    },
+    {
+      "path": "deliveries/si-ep07-untranslatable-tongue/review/motion-portrait-3840-4019.mp4",
+      "name": "si-ep07-untranslatable-tongue--deliveries--si-ep07-untranslatable-tongue--review--motion-portrait-3840-4019--31f27c5063b4.mp4",
+      "bytes": 5014141,
+      "sha256": "31f27c5063b47430afb127797e470a3cd35654c35ea443b9586727bc60f4423c",
+      "kind": "video",
+      "platform": "预览",
+      "measurements": {
+        "width": 2160,
+        "height": 3840,
+        "fps": "60/1",
+        "frames": "180",
+        "video_duration_seconds": 3.0,
+        "container_duration_seconds": 3.008
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep07-untranslatable-tongue-1dd8685e0b06/si-ep07-untranslatable-tongue--deliveries--si-ep07-untranslatable-tongue--review--motion-portrait-3840-4019--31f27c5063b4.mp4"
+    },
+    {
+      "path": "deliveries/si-ep07-untranslatable-tongue/review/motion-portrait-5820-6059.mp4",
+      "name": "si-ep07-untranslatable-tongue--deliveries--si-ep07-untranslatable-tongue--review--motion-portrait-5820-6059--e35daf5ddb53.mp4",
+      "bytes": 1260289,
+      "sha256": "e35daf5ddb53f168b8945227eb2f00cab798c142f71caf230f9917cb3915372d",
+      "kind": "video",
+      "platform": "预览",
+      "measurements": {
+        "width": 2160,
+        "height": 3840,
+        "fps": "60/1",
+        "frames": "240",
+        "video_duration_seconds": 4.0,
+        "container_duration_seconds": 4.011
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep07-untranslatable-tongue-1dd8685e0b06/si-ep07-untranslatable-tongue--deliveries--si-ep07-untranslatable-tongue--review--motion-portrait-5820-6059--e35daf5ddb53.mp4"
+    },
+    {
+      "path": "deliveries/si-ep07-untranslatable-tongue/si-ep07-untranslatable-tongue-project.zip",
+      "name": "si-ep07-untranslatable-tongue--deliveries--si-ep07-untranslatable-tongue--si-ep07-untranslatable-tongue-project--c187ac07f2ce.zip",
+      "bytes": 77224577,
+      "sha256": "c187ac07f2ce535987102facb5c4ca4f633ce90233320092bf882222007c9956",
+      "kind": "project",
+      "platform": "工程",
+      "measurements": {},
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep07-untranslatable-tongue-1dd8685e0b06/si-ep07-untranslatable-tongue--deliveries--si-ep07-untranslatable-tongue--si-ep07-untranslatable-tongue-project--c187ac07f2ce.zip"
+    },
+    {
+      "path": "deliveries/si-ep07-untranslatable-tongue/小红书/si-ep07-untranslatable-tongue-xiaohongshu-120s-portrait.mp4",
+      "name": "si-ep07-untranslatable-tongue--deliveries--si-ep07-untranslatable-tongue-----si-ep07-untranslatable-tongue-xiaohongshu-120s-portrait--8bf20c0583cc.mp4",
+      "bytes": 109913039,
+      "sha256": "8bf20c0583cc289fbb5f43391d6c9a0ebaa9e01b641d7b37b0df9e0e03708852",
+      "kind": "video",
+      "platform": "小红书",
+      "measurements": {
+        "width": 2160,
+        "height": 3840,
+        "fps": "60/1",
+        "frames": "7200",
+        "video_duration_seconds": 120.0,
+        "container_duration_seconds": 120.0
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep07-untranslatable-tongue-1dd8685e0b06/si-ep07-untranslatable-tongue--deliveries--si-ep07-untranslatable-tongue-----si-ep07-untranslatable-tongue-xiaohongshu-120s-portrait--8bf20c0583cc.mp4"
+    }
+  ],
+  "generated_by": "scripts/build-archive-catalog.py"
+}

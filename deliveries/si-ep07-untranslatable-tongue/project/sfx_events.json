@@ -1,0 +1,64 @@
+{
+  "fps": 60,
+  "sampleRate": 48000,
+  "samplesPerFrame": 800,
+  "events": [
+    {
+      "id": "curious-tilt",
+      "frame": 120,
+      "sampleIndex": 96000
+    },
+    {
+      "id": "compression",
+      "frame": 900,
+      "sampleIndex": 720000
+    },
+    {
+      "id": "dual-sonar",
+      "frame": 1350,
+      "sampleIndex": 1080000
+    },
+    {
+      "id": "protocol-switch",
+      "frame": 2100,
+      "sampleIndex": 1680000
+    },
+    {
+      "id": "aurora",
+      "frame": 2760,
+      "sampleIndex": 2208000
+    },
+    {
+      "id": "decoder-short",
+      "frame": 3900,
+      "sampleIndex": 3120000
+    },
+    {
+      "id": "alien-choir",
+      "frame": 4680,
+      "sampleIndex": 3744000
+    },
+    {
+      "id": "absolute-silence",
+      "frame": 5880,
+      "sampleIndex": 4704000,
+      "endFrame": 5910,
+      "endSampleExclusive": 4728000
+    },
+    {
+      "id": "gentle-chime",
+      "frame": 5910,
+      "sampleIndex": 4728000
+    },
+    {
+      "id": "cosmic-cello",
+      "frame": 6480,
+      "sampleIndex": 5184000
+    },
+    {
+      "id": "folding-matter",
+      "frame": 7020,
+      "sampleIndex": 5616000
+    }
+  ]
+}

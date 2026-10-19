@@ -1,0 +1,30 @@
+{
+  "portrait": {
+    "logical_canvas": [
+      1080,
+      1920
+    ],
+    "native_canvas": [
+      2160,
+      3840
+    ],
+    "safe_bounds": [
+      54,
+      173,
+      910,
+      1490
+    ],
+    "subtitle_top": 1380,
+    "subtitle_font": 43,
+    "phone_effective_font": 14.333333333333334,
+    "max_chinese_characters_per_line": 14,
+    "max_lines": 2
+  },
+  "landscape": {
+    "native_canvas": [
+      3840,
+      2160
+    ]
+  },
+  "label": "科幻思想实验 · 画面参数为叙事设定"
+}

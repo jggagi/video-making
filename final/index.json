@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "generated_by": "scripts/build-final-library.py",
-  "total_files": 41,
-  "logical_bytes": 7332543003,
+  "total_files": 43,
+  "logical_bytes": 7583203798,
   "files": [
     {
       "source_path": "out/extended/兰亭集序-展厅增强版-1080p.mp4",
@@ -556,6 +556,36 @@
       "backup_release_tag": "final-si-ep06-sovereign-crystal-v02-269fc619d08f",
       "backup_release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep06-sovereign-crystal-v02-269fc619d08f",
       "backup_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep06-sovereign-crystal-v02-269fc619d08f/final--si-ep06-sovereign-crystal-v02--deliveries--si-ep06-sovereign-crystal-v02-----si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait--1fbe8b12d420.mp4",
+      "materialization": "APFS clonefile for new files; existing independent matches are retained",
+      "verification": "SHA-256 matches archive catalog; stable stat and inode checks passed"
+    },
+    {
+      "source_path": "deliveries/si-ep07-untranslatable-tongue/B站/si-ep07-untranslatable-tongue-bilibili-120s-4k.mp4",
+      "final_path": "final/si-ep07-untranslatable-tongue/B站/si-ep07-untranslatable-tongue-bilibili-120s-4k.mp4",
+      "work_id": "si-ep07-untranslatable-tongue",
+      "title": "后人类黑话",
+      "platform": "B站",
+      "bytes": 140747756,
+      "sha256": "4ff0e36dbd83474ff8af2524d32d5ae9a7d2c4d4e0e8040282ee1cfdee52accb",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep07-untranslatable-tongue-1dd8685e0b06/si-ep07-untranslatable-tongue--deliveries--si-ep07-untranslatable-tongue--B---si-ep07-untranslatable-tongue-bilibili-120s-4k--4ff0e36dbd83.mp4",
+      "backup_release_tag": "final-si-ep07-untranslatable-tongue-1dd8685e0b06",
+      "backup_release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep07-untranslatable-tongue-1dd8685e0b06",
+      "backup_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep07-untranslatable-tongue-1dd8685e0b06/final--si-ep07-untranslatable-tongue--deliveries--si-ep07-untranslatable-tongue--B---si-ep07-untranslatable-tongue-bilibili-120s-4k--4ff0e36dbd83.mp4",
+      "materialization": "APFS clonefile for new files; existing independent matches are retained",
+      "verification": "SHA-256 matches archive catalog; stable stat and inode checks passed"
+    },
+    {
+      "source_path": "deliveries/si-ep07-untranslatable-tongue/小红书/si-ep07-untranslatable-tongue-xiaohongshu-120s-portrait.mp4",
+      "final_path": "final/si-ep07-untranslatable-tongue/小红书/si-ep07-untranslatable-tongue-xiaohongshu-120s-portrait.mp4",
+      "work_id": "si-ep07-untranslatable-tongue",
+      "title": "后人类黑话",
+      "platform": "小红书",
+      "bytes": 109913039,
+      "sha256": "8bf20c0583cc289fbb5f43391d6c9a0ebaa9e01b641d7b37b0df9e0e03708852",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep07-untranslatable-tongue-1dd8685e0b06/si-ep07-untranslatable-tongue--deliveries--si-ep07-untranslatable-tongue-----si-ep07-untranslatable-tongue-xiaohongshu-120s-portrait--8bf20c0583cc.mp4",
+      "backup_release_tag": "final-si-ep07-untranslatable-tongue-1dd8685e0b06",
+      "backup_release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep07-untranslatable-tongue-1dd8685e0b06",
+      "backup_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep07-untranslatable-tongue-1dd8685e0b06/final--si-ep07-untranslatable-tongue--deliveries--si-ep07-untranslatable-tongue-----si-ep07-untranslatable-tongue-xiaohongshu-120s-portrait--8bf20c0583cc.mp4",
       "materialization": "APFS clonefile for new files; existing independent matches are retained",
       "verification": "SHA-256 matches archive catalog; stable stat and inode checks passed"
     },

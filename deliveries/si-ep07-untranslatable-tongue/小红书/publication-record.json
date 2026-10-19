@@ -1,0 +1,64 @@
+{
+  "work": "si-ep07-untranslatable-tongue",
+  "intent": "publish",
+  "authorization": "Direct user message: 发到小红书",
+  "target_account_name": "余问 QStory",
+  "account_observed_at_utc": "2026-10-19T16:12:40.919261+00:00",
+  "duplicate_check": {
+    "observed_total_notes": 7,
+    "matching_EP07_found": false,
+    "scope": "current note manager all7 entries"
+  },
+  "video": {
+    "path": "小红书/si-ep07-untranslatable-tongue-xiaohongshu-120s-portrait.mp4",
+    "bytes": 109913039,
+    "sha256": "8bf20c0583cc289fbb5f43391d6c9a0ebaa9e01b641d7b37b0df9e0e03708852",
+    "duration_seconds": 120,
+    "width": 2160,
+    "height": 3840,
+    "fps": 60
+  },
+  "status": "submitted_under_review",
+  "submission_attempted": true,
+  "submission_verified": true,
+  "publication_verified": false,
+  "public_visibility_verified": false,
+  "note_id": null,
+  "note_url": null,
+  "final_settings": {
+    "title": "当AI说黑话，人类成了宠物",
+    "body_source": "小红书/publication-content.json",
+    "body_preserves_original": true,
+    "topics_linked": [
+      "超级智能",
+      "人工智能",
+      "细思极恐",
+      "科幻美学",
+      "数字艺术",
+      "一眼万年"
+    ],
+    "cover": {
+      "path": "小红书/cover-frame-99.5s.png",
+      "sha256": "002d1d6e319b2fcc8d66bd7979ee394a4f8f7bf5def7335a1d87994e165819bd",
+      "source_final_frame": 5970,
+      "preview_checked": true,
+      "crop": "platform retained full portrait in current preview"
+    },
+    "content_declaration": "笔记含AI合成内容",
+    "fiction_label": "continuous video label and body prefix",
+    "visibility": "公开可见",
+    "scheduled": false,
+    "unrelated_activity": "auto-linked activity cancelled"
+  },
+  "pre_submit_readback_at_utc": "2026-10-19T16:54:10.278679+00:00",
+  "attempt_started_at_utc": "2026-10-19T16:54:21.877Z",
+  "platform_status": "审核中",
+  "platform_display_time": "2026-10-20 00:54",
+  "platform_display_timezone": "unspecified",
+  "verified_at_utc": "2026-10-19T16:54:45.126244+00:00",
+  "evidence": {
+    "success_page": "/private/tmp/ep07-submit-success.png",
+    "manager": "/private/tmp/ep07-published.png",
+    "public_git": "compact record only; private account screenshots excluded"
+  }
+}

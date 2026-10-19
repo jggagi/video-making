@@ -1,0 +1,628 @@
+{
+  "created_at_utc": "2026-10-19T16:46:55.563906+00:00",
+  "scope": "Encoded portrait measurements and representative/paired-frame evidence, not human listening or device acceptance",
+  "portrait": {
+    "layout": "portrait",
+    "media": {
+      "path": "小红书/si-ep07-untranslatable-tongue-xiaohongshu-120s-portrait.mp4",
+      "size_bytes": 109913039,
+      "sha256": "8bf20c0583cc289fbb5f43391d6c9a0ebaa9e01b641d7b37b0df9e0e03708852",
+      "ffprobe": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+            "profile": "High",
+            "codec_type": "video",
+            "codec_tag_string": "avc1",
+            "codec_tag": "0x31637661",
+            "width": 2160,
+            "height": 3840,
+            "coded_width": 2160,
+            "coded_height": 3840,
+            "has_b_frames": 2,
+            "pix_fmt": "yuv420p",
+            "level": 52,
+            "color_range": "tv",
+            "color_space": "bt709",
+            "color_transfer": "bt709",
+            "color_primaries": "bt709",
+            "chroma_location": "left",
+            "field_order": "progressive",
+            "refs": 1,
+            "is_avc": "true",
+            "nal_length_size": "4",
+            "id": "0x1",
+            "r_frame_rate": "60/1",
+            "avg_frame_rate": "60/1",
+            "time_base": "1/90000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 10800000,
+            "duration": "120.000000",
+            "bit_rate": "6997163",
+            "bits_per_raw_sample": "8",
+            "nb_frames": "7200",
+            "extradata_size": 50,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "VideoHandler",
+              "vendor_id": "[0][0][0][0]"
+            }
+          },
+          {
+            "index": 1,
+            "codec_name": "aac",
+            "codec_long_name": "AAC (Advanced Audio Coding)",
+            "profile": "LC",
+            "codec_type": "audio",
+            "codec_tag_string": "mp4a",
+            "codec_tag": "0x6134706d",
+            "sample_fmt": "fltp",
+            "sample_rate": "48000",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 0,
+            "id": "0x2",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/48000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 5760000,
+            "duration": "120.000000",
+            "bit_rate": "317375",
+            "nb_frames": "5627",
+            "extradata_size": 2,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "SoundHandler",
+              "vendor_id": "[0][0][0][0]"
+            }
+          }
+        ],
+        "format": {
+          "filename": "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep07-untranslatable-tongue/小红书/si-ep07-untranslatable-tongue-xiaohongshu-120s-portrait.mp4",
+          "nb_streams": 2,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "format_long_name": "QuickTime / MOV",
+          "start_time": "0.000000",
+          "duration": "120.000000",
+          "size": "109913039",
+          "bit_rate": "7327535",
+          "probe_score": 100,
+          "tags": {
+            "major_brand": "isom",
+            "minor_version": "512",
+            "compatible_brands": "isomiso2avc1mp41",
+            "title": "后人类黑话",
+            "encoder": "Lavf61.7.100",
+            "comment": "Made with Remotion 4.0.534; Science fiction thought experiment. Imagined semantic telemetry; not measurements of human or AI capabilities. Shared 120.00s / 48kHz stereo PCM. 7200 frames, 60fps."
+          }
+        }
+      },
+      "ebur128": {
+        "method": "FFmpeg ebur128=peak=true over the complete encoded audio stream",
+        "integrated_lufs": -17.0,
+        "true_peak_dbTP": -1.5
+      }
+    },
+    "subject_roi": {
+      "coordinate_fractions": {
+        "portrait": {
+          "x": [
+            0.15,
+            0.78
+          ],
+          "y": [
+            0.2,
+            0.65
+          ]
+        },
+        "landscape": null
+      },
+      "pixel_crop_xywh": [
+        324,
+        768,
+        1360,
+        1728
+      ],
+      "scaled_width_px": 360
+    },
+    "representative_frames": [
+      {
+        "frame": 120,
+        "seconds": 2.0,
+        "path": "review/portrait-prepublication-evidence-r02/portrait/frames/frame-0120.jpg",
+        "size_bytes": 20188,
+        "sha256": "da6b233ca5c2ce44d0ab9d2fb5510dad58e117f50c135cacf405cc2995eddfeb"
+      },
+      {
+        "frame": 360,
+        "seconds": 6.0,
+        "path": "review/portrait-prepublication-evidence-r02/portrait/frames/frame-0360.jpg",
+        "size_bytes": 27341,
+        "sha256": "57ec5cebf7a7a0af085a93b98a55b2157f814fb15b67eb06d5bdb9eed34f9d54"
+      },
+      {
+        "frame": 960,
+        "seconds": 16.0,
+        "path": "review/portrait-prepublication-evidence-r02/portrait/frames/frame-0960.jpg",
+        "size_bytes": 24292,
+        "sha256": "c6a223404b7e1f663623e1b1582fee470ccc3b6320bc0f244682842f9076fc6f"
+      },
+      {
+        "frame": 1500,
+        "seconds": 25.0,
+        "path": "review/portrait-prepublication-evidence-r02/portrait/frames/frame-1500.jpg",
+        "size_bytes": 21477,
+        "sha256": "0137ee634af8f619d0be3c5b287b581c0e885e29d472d7452903f24bffb28549"
+      },
+      {
+        "frame": 2099,
+        "seconds": 34.983333333333334,
+        "path": "review/portrait-prepublication-evidence-r02/portrait/frames/frame-2099.jpg",
+        "size_bytes": 17086,
+        "sha256": "343980b8fcfe6bae54bf0abb488e7c9fab39c83a480d58488c1469d799f92cfc"
+      },
+      {
+        "frame": 2100,
+        "seconds": 35.0,
+        "path": "review/portrait-prepublication-evidence-r02/portrait/frames/frame-2100.jpg",
+        "size_bytes": 20439,
+        "sha256": "5892a86ae9f066204e92b66af659b00c9bfcfa6840235c304edc342b3063ac81"
+      },
+      {
+        "frame": 2250,
+        "seconds": 37.5,
+        "path": "review/portrait-prepublication-evidence-r02/portrait/frames/frame-2250.jpg",
+        "size_bytes": 17622,
+        "sha256": "b32bb59ca9d269e8cfba4c4241b2dc7659e308bebbdcac10dd4dddef6512fed0"
+      },
+      {
+        "frame": 3000,
+        "seconds": 50.0,
+        "path": "review/portrait-prepublication-evidence-r02/portrait/frames/frame-3000.jpg",
+        "size_bytes": 20144,
+        "sha256": "057afc7bc45df92f197cb2bbba3c5e7ee8d263c25b18848f254e8a0ca08ec292"
+      },
+      {
+        "frame": 3899,
+        "seconds": 64.98333333333333,
+        "path": "review/portrait-prepublication-evidence-r02/portrait/frames/frame-3899.jpg",
+        "size_bytes": 32051,
+        "sha256": "140d5d789e548679ba349015dcdecbcebce8182186fb247fd207291ec19efcb0"
+      },
+      {
+        "frame": 3900,
+        "seconds": 65.0,
+        "path": "review/portrait-prepublication-evidence-r02/portrait/frames/frame-3900.jpg",
+        "size_bytes": 32695,
+        "sha256": "61f06f958fc32c61310af75f0044d6f4a5a146144b775c72cc6f33a29ac6748d"
+      },
+      {
+        "frame": 4800,
+        "seconds": 80.0,
+        "path": "review/portrait-prepublication-evidence-r02/portrait/frames/frame-4800.jpg",
+        "size_bytes": 31649,
+        "sha256": "a9d9eef3cd4efc6cd88858c5a3263d7594c41a1a4059ab4f122914e38b261020"
+      },
+      {
+        "frame": 5879,
+        "seconds": 97.98333333333333,
+        "path": "review/portrait-prepublication-evidence-r02/portrait/frames/frame-5879.jpg",
+        "size_bytes": 14833,
+        "sha256": "44f6eb261b928e084015616452b9a22ac516e3687add91d7152824eb7452e7ce"
+      },
+      {
+        "frame": 5880,
+        "seconds": 98.0,
+        "path": "review/portrait-prepublication-evidence-r02/portrait/frames/frame-5880.jpg",
+        "size_bytes": 14832,
+        "sha256": "9bddda9f44ec76450112aa0b645133a68d991e63bd807151972c6dc1542f611f"
+      },
+      {
+        "frame": 5909,
+        "seconds": 98.48333333333333,
+        "path": "review/portrait-prepublication-evidence-r02/portrait/frames/frame-5909.jpg",
+        "size_bytes": 14806,
+        "sha256": "0ccb3241c345014a2fc5d9cc1449840f040e467f14fc11a3cec1953f88a51f32"
+      },
+      {
+        "frame": 5910,
+        "seconds": 98.5,
+        "path": "review/portrait-prepublication-evidence-r02/portrait/frames/frame-5910.jpg",
+        "size_bytes": 16385,
+        "sha256": "a02ff3bc0ae749b24272ff0702577cc64ba5ed86393aeb34e304d176d959814b"
+      },
+      {
+        "frame": 6000,
+        "seconds": 100.0,
+        "path": "review/portrait-prepublication-evidence-r02/portrait/frames/frame-6000.jpg",
+        "size_bytes": 16238,
+        "sha256": "c2765eba05364276fdd10362e16ba3c61113e8c22c7d05658a8038248b6c4e94"
+      },
+      {
+        "frame": 6600,
+        "seconds": 110.0,
+        "path": "review/portrait-prepublication-evidence-r02/portrait/frames/frame-6600.jpg",
+        "size_bytes": 20467,
+        "sha256": "5b6e99eafa80c02bc34d4f81a35fe88391e74b4edd5634e73fcb36822a098138"
+      },
+      {
+        "frame": 7100,
+        "seconds": 118.33333333333333,
+        "path": "review/portrait-prepublication-evidence-r02/portrait/frames/frame-7100.jpg",
+        "size_bytes": 20513,
+        "sha256": "a2c7d47fa6b41d8c2604f753906db0c38f4787a1ae4577a92540515c9fc37033"
+      },
+      {
+        "frame": 7199,
+        "seconds": 119.98333333333333,
+        "path": "review/portrait-prepublication-evidence-r02/portrait/frames/frame-7199.jpg",
+        "size_bytes": 17929,
+        "sha256": "e628daa25239062616d957bdb4920f73df9dace3a88ef0cec44e5f60cfa9ddd2"
+      }
+    ],
+    "contact_sheet": {
+      "path": "review/portrait-prepublication-evidence-r02/portrait/portrait-contact-sheet.jpg",
+      "size_bytes": 435484,
+      "sha256": "127d8ca036ff62c792be942124c25a08cb698a75aee7607e23a15c21dea87a4d"
+    },
+    "paired_frame_measurements": [
+      {
+        "start_frame": 360,
+        "end_frame": 510,
+        "start_seconds": 6.0,
+        "end_seconds": 8.5,
+        "gap_frames": 150,
+        "subject_roi_normalized_rgb_mad": 0.03442088142037392,
+        "interpretation": "measurement only; no motion pass threshold",
+        "start_roi_jpeg": {
+          "path": "review/portrait-prepublication-evidence-r02/portrait/pair-roi/frame-0360.jpg",
+          "size_bytes": 30479,
+          "sha256": "978195dbe86670eb2761af94e367aca4d8c9edf242f19a4c5b9ee90f6251af1b"
+        },
+        "end_roi_jpeg": {
+          "path": "review/portrait-prepublication-evidence-r02/portrait/pair-roi/frame-0510.jpg",
+          "size_bytes": 31211,
+          "sha256": "1256ba91b19c1b02a5f5f4182bf07c2dec29f5298ff30c0b4ff95a21216e30e4"
+        }
+      },
+      {
+        "start_frame": 720,
+        "end_frame": 870,
+        "start_seconds": 12.0,
+        "end_seconds": 14.5,
+        "gap_frames": 150,
+        "subject_roi_normalized_rgb_mad": 0.021756000816822052,
+        "interpretation": "measurement only; no motion pass threshold",
+        "start_roi_jpeg": {
+          "path": "review/portrait-prepublication-evidence-r02/portrait/pair-roi/frame-0720.jpg",
+          "size_bytes": 29257,
+          "sha256": "f06a77f65203d07fe6f5945375f4c5ec21dd7e2315ed00b7d078e22f10f668a6"
+        },
+        "end_roi_jpeg": {
+          "path": "review/portrait-prepublication-evidence-r02/portrait/pair-roi/frame-0870.jpg",
+          "size_bytes": 28806,
+          "sha256": "871fd429a7b5687a2cb7dd9e141a3ef6d7328f018a34724408fc410ab7e854db"
+        }
+      },
+      {
+        "start_frame": 1440,
+        "end_frame": 1590,
+        "start_seconds": 24.0,
+        "end_seconds": 26.5,
+        "gap_frames": 150,
+        "subject_roi_normalized_rgb_mad": 0.011876056902110577,
+        "interpretation": "measurement only; no motion pass threshold",
+        "start_roi_jpeg": {
+          "path": "review/portrait-prepublication-evidence-r02/portrait/pair-roi/frame-1440.jpg",
+          "size_bytes": 16608,
+          "sha256": "8923c8bb6edb9c230311a1984b3d6adf88877953eafd1c425424eae7cd8b18b5"
+        },
+        "end_roi_jpeg": {
+          "path": "review/portrait-prepublication-evidence-r02/portrait/pair-roi/frame-1590.jpg",
+          "size_bytes": 16785,
+          "sha256": "a0fa47c13792ace4a786d7f3bd412e357a01c3fe5a6d8a2101f87a0b61b870d9"
+        }
+      },
+      {
+        "start_frame": 1920,
+        "end_frame": 2070,
+        "start_seconds": 32.0,
+        "end_seconds": 34.5,
+        "gap_frames": 150,
+        "subject_roi_normalized_rgb_mad": 0.008068208582699299,
+        "interpretation": "measurement only; no motion pass threshold",
+        "start_roi_jpeg": {
+          "path": "review/portrait-prepublication-evidence-r02/portrait/pair-roi/frame-1920.jpg",
+          "size_bytes": 9503,
+          "sha256": "fad43fbd8f32bf1158411647df270ac807ebde1c611e1153d71924458a9302a3"
+        },
+        "end_roi_jpeg": {
+          "path": "review/portrait-prepublication-evidence-r02/portrait/pair-roi/frame-2070.jpg",
+          "size_bytes": 9867,
+          "sha256": "ed042eee4c80a88f4023e0af7e3317cd3d9734134202034652daed01b2f332bc"
+        }
+      },
+      {
+        "start_frame": 2580,
+        "end_frame": 2730,
+        "start_seconds": 43.0,
+        "end_seconds": 45.5,
+        "gap_frames": 150,
+        "subject_roi_normalized_rgb_mad": 0.01861666887998581,
+        "interpretation": "measurement only; no motion pass threshold",
+        "start_roi_jpeg": {
+          "path": "review/portrait-prepublication-evidence-r02/portrait/pair-roi/frame-2580.jpg",
+          "size_bytes": 18919,
+          "sha256": "9bfa195100f76cfc2a14dc8a35af54b5d8b834507d85f13c9facb3974e034574"
+        },
+        "end_roi_jpeg": {
+          "path": "review/portrait-prepublication-evidence-r02/portrait/pair-roi/frame-2730.jpg",
+          "size_bytes": 18263,
+          "sha256": "5f49f4468c171ff41e22c27b2203a674b9599ca6de322df2980924e11166a31a"
+        }
+      },
+      {
+        "start_frame": 3060,
+        "end_frame": 3210,
+        "start_seconds": 51.0,
+        "end_seconds": 53.5,
+        "gap_frames": 150,
+        "subject_roi_normalized_rgb_mad": 0.018979474902153015,
+        "interpretation": "measurement only; no motion pass threshold",
+        "start_roi_jpeg": {
+          "path": "review/portrait-prepublication-evidence-r02/portrait/pair-roi/frame-3060.jpg",
+          "size_bytes": 17837,
+          "sha256": "f71fad2bdb37a144b239ab7fc31df652274792d4365a3a9fe0bc09b178e1a08e"
+        },
+        "end_roi_jpeg": {
+          "path": "review/portrait-prepublication-evidence-r02/portrait/pair-roi/frame-3210.jpg",
+          "size_bytes": 17704,
+          "sha256": "cc5c2e94bf0782e764288e80870029f4d41c3932db8c8c855263a6979243d958"
+        }
+      },
+      {
+        "start_frame": 3720,
+        "end_frame": 3870,
+        "start_seconds": 62.0,
+        "end_seconds": 64.5,
+        "gap_frames": 150,
+        "subject_roi_normalized_rgb_mad": 0.02446845732629299,
+        "interpretation": "measurement only; no motion pass threshold",
+        "start_roi_jpeg": {
+          "path": "review/portrait-prepublication-evidence-r02/portrait/pair-roi/frame-3720.jpg",
+          "size_bytes": 43229,
+          "sha256": "2fd1755748c55347a384f7c876c89c044a2ead1c23632eae9c4eaafe30b67ff8"
+        },
+        "end_roi_jpeg": {
+          "path": "review/portrait-prepublication-evidence-r02/portrait/pair-roi/frame-3870.jpg",
+          "size_bytes": 43096,
+          "sha256": "f5e1c32426b7219ba88c0e2b306912c9bb5e09231db4231391ce36512eef6f90"
+        }
+      },
+      {
+        "start_frame": 4380,
+        "end_frame": 4530,
+        "start_seconds": 73.0,
+        "end_seconds": 75.5,
+        "gap_frames": 150,
+        "subject_roi_normalized_rgb_mad": 0.02738911099731922,
+        "interpretation": "measurement only; no motion pass threshold",
+        "start_roi_jpeg": {
+          "path": "review/portrait-prepublication-evidence-r02/portrait/pair-roi/frame-4380.jpg",
+          "size_bytes": 41943,
+          "sha256": "51101435f01188934dda81db3f15f0b4b938aed40b0236d086166c98583c86a6"
+        },
+        "end_roi_jpeg": {
+          "path": "review/portrait-prepublication-evidence-r02/portrait/pair-roi/frame-4530.jpg",
+          "size_bytes": 41602,
+          "sha256": "70066d572894753c4022c2d5637ae1ef9295fe6e7a38162ef22e12a5157167c5"
+        }
+      },
+      {
+        "start_frame": 4980,
+        "end_frame": 5130,
+        "start_seconds": 83.0,
+        "end_seconds": 85.5,
+        "gap_frames": 150,
+        "subject_roi_normalized_rgb_mad": 0.02602619305253029,
+        "interpretation": "measurement only; no motion pass threshold",
+        "start_roi_jpeg": {
+          "path": "review/portrait-prepublication-evidence-r02/portrait/pair-roi/frame-4980.jpg",
+          "size_bytes": 40949,
+          "sha256": "69e739a20ad20d2bd06cee2e432fd6fbac64a22473c2d059ec66910a1af8d639"
+        },
+        "end_roi_jpeg": {
+          "path": "review/portrait-prepublication-evidence-r02/portrait/pair-roi/frame-5130.jpg",
+          "size_bytes": 41891,
+          "sha256": "ff05c7185f11386c0292d057d26b02978aabb2231b2df00de7e1f2debe5514ef"
+        }
+      },
+      {
+        "start_frame": 5520,
+        "end_frame": 5670,
+        "start_seconds": 92.0,
+        "end_seconds": 94.5,
+        "gap_frames": 150,
+        "subject_roi_normalized_rgb_mad": 0.005885745864361525,
+        "interpretation": "measurement only; no motion pass threshold",
+        "start_roi_jpeg": {
+          "path": "review/portrait-prepublication-evidence-r02/portrait/pair-roi/frame-5520.jpg",
+          "size_bytes": 10713,
+          "sha256": "1570a3032b56290b6ef73acc6b76965e22a0221905284fad21dbe1d7b49413dc"
+        },
+        "end_roi_jpeg": {
+          "path": "review/portrait-prepublication-evidence-r02/portrait/pair-roi/frame-5670.jpg",
+          "size_bytes": 10546,
+          "sha256": "9e6ecf75ced43d7dbee58d17564d1a17d4013a455dc083165d5c56f293cf0f80"
+        }
+      },
+      {
+        "start_frame": 6000,
+        "end_frame": 6150,
+        "start_seconds": 100.0,
+        "end_seconds": 102.5,
+        "gap_frames": 150,
+        "subject_roi_normalized_rgb_mad": 0.011112157255411148,
+        "interpretation": "measurement only; no motion pass threshold",
+        "start_roi_jpeg": {
+          "path": "review/portrait-prepublication-evidence-r02/portrait/pair-roi/frame-6000.jpg",
+          "size_bytes": 12559,
+          "sha256": "7fda88bd2299a6fe6f580ac4d4c2a5d9683a996aca34752bfb88b2d49d760914"
+        },
+        "end_roi_jpeg": {
+          "path": "review/portrait-prepublication-evidence-r02/portrait/pair-roi/frame-6150.jpg",
+          "size_bytes": 12169,
+          "sha256": "f1140d31a9bcb7778254c94e316e8160e8eb1574f63e7ca185696c8e067dbaa6"
+        }
+      },
+      {
+        "start_frame": 6480,
+        "end_frame": 6630,
+        "start_seconds": 108.0,
+        "end_seconds": 110.5,
+        "gap_frames": 150,
+        "subject_roi_normalized_rgb_mad": 0.03972884267568588,
+        "interpretation": "measurement only; no motion pass threshold",
+        "start_roi_jpeg": {
+          "path": "review/portrait-prepublication-evidence-r02/portrait/pair-roi/frame-6480.jpg",
+          "size_bytes": 22446,
+          "sha256": "216e38612382b676ec307a2e6ad591983d9b36a7ef69cae889baa9b6c6dabdd8"
+        },
+        "end_roi_jpeg": {
+          "path": "review/portrait-prepublication-evidence-r02/portrait/pair-roi/frame-6630.jpg",
+          "size_bytes": 21990,
+          "sha256": "340cefc992113d43cbf35250ab06c209e06cf8f7083ca1cb025a96e869fa9deb"
+        }
+      },
+      {
+        "start_frame": 6960,
+        "end_frame": 7110,
+        "start_seconds": 116.0,
+        "end_seconds": 118.5,
+        "gap_frames": 150,
+        "subject_roi_normalized_rgb_mad": 0.027843987569212914,
+        "interpretation": "measurement only; no motion pass threshold",
+        "start_roi_jpeg": {
+          "path": "review/portrait-prepublication-evidence-r02/portrait/pair-roi/frame-6960.jpg",
+          "size_bytes": 20443,
+          "sha256": "2c18462064ad60ab40e666bf497a230cf985613f5b604bdd6536b27d14978f61"
+        },
+        "end_roi_jpeg": {
+          "path": "review/portrait-prepublication-evidence-r02/portrait/pair-roi/frame-7110.jpg",
+          "size_bytes": 19158,
+          "sha256": "955f922e186c39dda9e3a6ef9c9dcad654086869b74be9daf56119e79ccadb47"
+        }
+      }
+    ],
+    "pair_contact_sheet": {
+      "path": "review/portrait-prepublication-evidence-r02/portrait/portrait-pair-contact-sheet.jpg",
+      "size_bytes": 667173,
+      "sha256": "b3446d552b0c990cf79dc19e06b9f8a864a48d36c163ae30031e845e0380e241"
+    },
+    "scope_note": "Encoded-frame and measurement evidence only; not a visual or listening acceptance result."
+  },
+  "audio_window_comparisons": [
+    {
+      "start_seconds": 2,
+      "duration_seconds": 2,
+      "sample_rate_hz": 48000,
+      "channels": 2,
+      "master_sample_frames": 96000,
+      "aac_sample_frames": 96000,
+      "compared_sample_frames": 96000,
+      "correlation": 0.9999628633159465,
+      "correlation_note": null,
+      "rmse_normalized_amplitude": 0.0010973790367625157,
+      "comparison_note": "AAC-decoded float samples are lossy and are not expected to be byte-identical to the PCM master."
+    },
+    {
+      "start_seconds": 44,
+      "duration_seconds": 2,
+      "sample_rate_hz": 48000,
+      "channels": 2,
+      "master_sample_frames": 96000,
+      "aac_sample_frames": 96000,
+      "compared_sample_frames": 96000,
+      "correlation": 0.9999713867342993,
+      "correlation_note": null,
+      "rmse_normalized_amplitude": 0.0009033750193575984,
+      "comparison_note": "AAC-decoded float samples are lossy and are not expected to be byte-identical to the PCM master."
+    },
+    {
+      "start_seconds": 98,
+      "duration_seconds": 2,
+      "sample_rate_hz": 48000,
+      "channels": 2,
+      "master_sample_frames": 96000,
+      "aac_sample_frames": 96000,
+      "compared_sample_frames": 96000,
+      "correlation": 0.9999391564367424,
+      "correlation_note": null,
+      "rmse_normalized_amplitude": 0.0011055561612993787,
+      "comparison_note": "AAC-decoded float samples are lossy and are not expected to be byte-identical to the PCM master."
+    },
+    {
+      "start_seconds": 116,
+      "duration_seconds": 2,
+      "sample_rate_hz": 48000,
+      "channels": 2,
+      "master_sample_frames": 96000,
+      "aac_sample_frames": 96000,
+      "compared_sample_frames": 96000,
+      "correlation": 0.9999440370649263,
+      "correlation_note": null,
+      "rmse_normalized_amplitude": 0.0010585541824958324,
+      "comparison_note": "AAC-decoded float samples are lossy and are not expected to be byte-identical to the PCM master."
+    }
+  ]
+}

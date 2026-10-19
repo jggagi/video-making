@@ -1,0 +1,35 @@
+{
+  "recorded_at_utc": "2026-10-19T16:25:03.166253+00:00",
+  "remotion_version": "4.0.534",
+  "browser_executable": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+  "installed_browser_version": "155.0.8059.84",
+  "browser_version_source": "Installed application Info.plist read during capture; separate runtime handshake not retained",
+  "image_format": "png",
+  "concurrency": 1,
+  "native_compositions": {
+    "PortraitVertical": [
+      2160,
+      3840
+    ],
+    "Landscape4K": [
+      3840,
+      2160
+    ]
+  },
+  "fps": 60,
+  "frames": 7200,
+  "pixel_format": "yuv420p",
+  "color_space": "bt709",
+  "codec": "h264",
+  "crf": 17,
+  "x264_preset": "fast",
+  "source_sha256": {
+    "project/src/CanvasWorld.tsx": "578b395195d357631030a423b4081dd90e53e7f8b1ee10a659ec497f1fb64b27",
+    "project/src/Film.tsx": "f9b29c2e773b538476785d36d7d5b84e35b3fe98b3a8281c1f65bda990c07c00",
+    "project/src/Root.tsx": "0cd05e686377be400705dc792b42c852b8749eaa63af6a23fea7df6d6a03d7f4",
+    "project/src/index.ts": "a58f804bf74bab68b4549aa5c715eb4a89ec5835206d198fc79b462b4fc71ef9"
+  },
+  "master_sha256": "891ecc11039381ca9898351083f5d72b4540a8dccf5d3314fea3fea974098c60",
+  "font_readiness": "document.fonts.ready gate; SVG/DOM directly computed from global frame",
+  "visual_qc": "Final encoded all-frame screening is mandatory and still pending."
+}

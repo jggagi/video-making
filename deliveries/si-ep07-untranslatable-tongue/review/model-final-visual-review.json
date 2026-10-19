@@ -1,0 +1,31 @@
+{
+  "reviewer": "root model",
+  "created_at_utc": "2026-10-19T17:04:56.898440+00:00",
+  "media_sha256": {
+    "landscape": "4ff0e36dbd83474ff8af2524d32d5ae9a7d2c4d4e0e8040282ee1cfdee52accb",
+    "portrait": "8bf20c0583cc289fbb5f43391d6c9a0ebaa9e01b641d7b37b0df9e0e03708852"
+  },
+  "scope": "Actual encoded representative frames, subject-only motion pairs and native glow crops; no continuous human playback or phone App acceptance",
+  "portrait": "19-frame evidence plus 13 subject pairs reviewed at mobile width. Critical quote, terminal and captions clear in checked frames. Full904 flagged ROI review recorded separately.",
+  "landscape": "19-frame contact and all13 subject ROI pairs inspected. Captions clear of translator/quote in checked frames; subject shape and position change across2.5s pairs. Native99.5s crop inspected at original resolution.",
+  "gradient_observation": "8-bit glow gradients show mild color stepping at native inspection; no severe macroblocking or isolated flash observed in inspected evidence. Not a claim of perfect gradients.",
+  "landscape_scan_scope": "Continuous7200-frame isolated full-frame jump detector only. No stable-template ROI declared because backdrop/labels change; optional ROI detector not required.",
+  "evidence": [
+    {
+      "path": "review/final-media-evidence/landscape/landscape-contact-sheet.jpg",
+      "sha256": "caae29b14c2040713d8a0d60c7f7862c94c2c45217ed5b124858e8846c8b85df"
+    },
+    {
+      "path": "review/final-media-evidence/landscape/landscape-pair-contact-sheet.jpg",
+      "sha256": "91ce8dbc5f1f908926dd3e487caa63f17bc49772039d2f3b101655db034a8daa"
+    },
+    {
+      "path": "review/encoded-landscape-native-dark-glow.png",
+      "sha256": "d2bf0ba3002538fc0fbaff81e6f97e50aabdcbde8ce5eff764475aa6912e2819"
+    },
+    {
+      "path": "review/encoded-native-dark-glow.png",
+      "sha256": "a70c7972583a52a9c9a74e7b8cfbc31817a7f7206c5b85068fc465ed2ab62227"
+    }
+  ]
+}

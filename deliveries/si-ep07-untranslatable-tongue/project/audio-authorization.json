@@ -1,0 +1,13 @@
+{
+  "provider": "macOS Speech (local)",
+  "authorized_scope": "Generate this episode narration locally under current make-and-publish instruction",
+  "implementation_choice": {
+    "chosen_by": "root",
+    "voice_requested": "Tingting",
+    "rate_requested_wpm": 210
+  },
+  "user_selected_voice": false,
+  "cloud_upload_authorized": false,
+  "text_stays_local": true,
+  "source": "User requested the episode and then explicitly requested publication to Xiaohongshu; provider unspecified. Root announced local Chinese narration before proceeding."
+}

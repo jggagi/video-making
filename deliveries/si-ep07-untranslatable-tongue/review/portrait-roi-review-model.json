@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "review_kind": "portrait_flagged_roi_visual_observation",
+  "media_sha256": "8bf20c0583cc289fbb5f43391d6c9a0ebaa9e01b641d7b37b0df9e0e03708852",
+  "index_path": "review/visual-qc-xiaohongshu/roi-review/index.json",
+  "review_scope": {
+    "roi_pixels_at_360x640": [19, 98, 286, 20],
+    "reference_frame": 356,
+    "flagged_frames_reviewed": {
+      "first": 357,
+      "last": 1260,
+      "count": 904,
+      "coverage": "Every indexed ROI was visually inspected across all eight contact sheets."
+    },
+    "sheet_coverage": [
+      {"sheet": "all-flagged-rois-01.png", "first_frame": 357, "last_frame": 484, "count": 128},
+      {"sheet": "all-flagged-rois-02.png", "first_frame": 485, "last_frame": 612, "count": 128},
+      {"sheet": "all-flagged-rois-03.png", "first_frame": 613, "last_frame": 740, "count": 128},
+      {"sheet": "all-flagged-rois-04.png", "first_frame": 741, "last_frame": 868, "count": 128},
+      {"sheet": "all-flagged-rois-05.png", "first_frame": 869, "last_frame": 996, "count": 128},
+      {"sheet": "all-flagged-rois-06.png", "first_frame": 997, "last_frame": 1124, "count": 128},
+      {"sheet": "all-flagged-rois-07.png", "first_frame": 1125, "last_frame": 1252, "count": 128},
+      {"sheet": "all-flagged-rois-08.png", "first_frame": 1253, "last_frame": 1260, "count": 8}
+    ],
+    "full_frame_boundary_contact_inspected": {
+      "path": "review/visual-qc-xiaohongshu/roi-review/full-frame-boundary-contact.jpg",
+      "ordered_frames": [356, 357, 600, 900, 1258, 1259, 1260, 1261],
+      "coverage_note": "Eight representative full-frame stills only; this is not a full-frame scan or playback review."
+    },
+    "original_scan_summary_from_root": {
+      "flagged_roi_count": 904,
+      "stable_roi_template_outlier_count": 903,
+      "consecutive_count": 1,
+      "isolated_full_frame_jump_count": 0,
+      "independently_recomputed": false
+    }
+  },
+  "observations": {
+    "label_text_observed": "科幻思想实验 · 画面参数为叙事设定",
+    "label_integrity": "Across the reviewed crops, the amber label appears consistently placed and legible. I did not identify a definite missing, duplicated, or visibly corrupted glyph in any frame.",
+    "background_variation": "The dark field behind and around the label changes visibly across the flagged interval: cyan/blue and violet glow, moving mesh or streak detail, and changing star/light patterns appear in the same narrow band. The ROI contains both the label and this changing background, so it is not a text-only stable region. This observation does not establish that any automated flag is false.",
+    "notable_frame": {
+      "frame": 1260,
+      "observation": "The ROI background changes sharply at the end of the flagged range while the label remains readable. In the supplied full-frame boundary contact, this coincides with the opening funnel image giving way to the two-core title-stage image at frames 1260–1261.",
+      "interpretation": "Visible scene transition; no definite label defect observed. Root should make any QC disposition."
+    },
+    "anomalous_label_frames": [],
+    "source_boundary_observations": {
+      "film_source": "project/src/Film.tsx",
+      "disclaimer_literal_line": 15,
+      "portrait_label_layout_line": 75,
+      "layering": "Film renders CanvasWorld first, then the fixed disclaimer as a positioned DOM text overlay. The source therefore places the label above the animated SVG background; changing background pixels beneath the label are expected to affect this ROI.",
+      "opening_transition_source": "project/src/CanvasWorld.tsx lines 355–356 switch from OpeningWorld to the title-stage core scene at frame 1260, consistent with the supplied boundary contact. Source inspection explains the expected transition but does not substitute for rendered-media review."
+    }
+  },
+  "limitations": [
+    "This review covers only the 904 indexed 286-by-20-pixel ROIs and the eight supplied full-frame stills; it does not inspect every full frame or evaluate playback.",
+    "At the contact-sheet scale, the first glyph sits close to the ROI's left edge and some fine edge detail is difficult to judge. No definite glyph loss was visible, but subpixel or single-frame rendering defects cannot be ruled out from these sheets.",
+    "HUD, subtitles, safe zones outside this ROI, audio, and overall visual quality were not reviewed here."
+  ],
+  "qc_disposition": "observations_only_no_flags_removed_no_thresholds_changed_no_final_acceptance_decision"
+}

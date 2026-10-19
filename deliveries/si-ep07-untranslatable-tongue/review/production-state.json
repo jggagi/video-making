@@ -1,0 +1,125 @@
+{
+  "status": "LOCAL_FINAL_READY_REMOTE_BACKUP_PENDING",
+  "updated_at_utc": "2026-10-19T17:06:20.471385+00:00",
+  "user_decisions": {
+    "script": "original retained; continuous science-fiction label",
+    "audio_provider": "Local macOS Speech chosen and announced by root under make-and-publish scope; not user-selected voice"
+  },
+  "completed": {
+    "original_script_preserved": true,
+    "native_compositions": [
+      {
+        "id": "PortraitVertical",
+        "width": 2160,
+        "height": 3840
+      },
+      {
+        "id": "Landscape4K",
+        "width": 3840,
+        "height": 2160
+      }
+    ],
+    "typecheck": "PASS",
+    "source_scan": "PASS",
+    "original_caption_group_text_and_limits": "PASS",
+    "native_silent_preview": {
+      "path": "review/motion-portrait-2040-2279.mp4",
+      "sha256": "326b428434acae30b556e7e8dfc475762868c5f52b57beab06253c91a56ba26e",
+      "width": 2160,
+      "height": 3840,
+      "fps": 60,
+      "frames": 240,
+      "seconds": 4,
+      "strict_decode": "PASS",
+      "audio_streams": 0
+    },
+    "source_stills": {
+      "portrait_frames": [
+        360,
+        960,
+        1500,
+        2460,
+        3900,
+        4800,
+        5970,
+        6600,
+        7100
+      ],
+      "landscape_frames": [
+        360,
+        2460,
+        3900,
+        5970,
+        6600,
+        7100
+      ]
+    },
+    "measured_local_narration_segments": 11,
+    "master": {
+      "seconds": 120,
+      "sample_rate": 48000,
+      "channels": 2,
+      "samples_per_channel": 5760000,
+      "integrated_lufs": -17.0,
+      "true_peak_dbtp": -1.6,
+      "silence_frames": [
+        5880,
+        5910
+      ],
+      "exact_zero": true
+    },
+    "portrait_final": {
+      "path": "小红书/si-ep07-untranslatable-tongue-xiaohongshu-120s-portrait.mp4",
+      "sha256": "8bf20c0583cc289fbb5f43391d6c9a0ebaa9e01b641d7b37b0df9e0e03708852",
+      "frames": 7200,
+      "seconds": 120,
+      "visual_scan_all_frames": true,
+      "reviewed_flags": 904,
+      "isolated_frame_jump_flags": 0
+    },
+    "xiaohongshu_submission": "submitted; current manager status 审核中; public visibility unverified",
+    "native_final_exports": true,
+    "final_media_validation": {
+      "status": "PASS",
+      "report": "review/media-validation-20261019T170605.613017Z.json",
+      "full_strict_decode_both": true,
+      "both_7200frames": true,
+      "visual_reports": "PASS including all904 reviewed portrait ROI flags"
+    },
+    "landscape_final": {
+      "path": "B站/si-ep07-untranslatable-tongue-bilibili-120s-4k.mp4",
+      "sha256": "4ff0e36dbd83474ff8af2524d32d5ae9a7d2c4d4e0e8040282ee1cfdee52accb",
+      "bytes": 140747756,
+      "frames": 7200,
+      "seconds": 120,
+      "visual_scan_all_frames": true,
+      "flagged_frames": 0
+    },
+    "project_package": {
+      "path": "si-ep07-untranslatable-tongue-project.zip",
+      "sha256": "c187ac07f2ce535987102facb5c4ca4f633ce90233320092bf882222007c9956",
+      "snapshot": "technical-QA state before archive completion",
+      "member_readback": "PASS"
+    },
+    "local_final_library": "2 new verified APFS clones; all41 prior files preserved"
+  },
+  "not_completed": [
+    "human_listening",
+    "device_app_playback",
+    "github_source_push",
+    "film_release",
+    "verified_final_backup"
+  ],
+  "source_sha256": {
+    "project/src/CanvasWorld.tsx": "578b395195d357631030a423b4081dd90e53e7f8b1ee10a659ec497f1fb64b27",
+    "project/src/Film.tsx": "7b2ddac33393080d5316f716197d5a7a7149e7779125418e8b14ff479631d379",
+    "project/src/Root.tsx": "0cd05e686377be400705dc792b42c852b8749eaa63af6a23fea7df6d6a03d7f4",
+    "project/src/index.ts": "a58f804bf74bab68b4549aa5c715eb4a89ec5835206d198fc79b462b4fc71ef9",
+    "project/scripts/build_audio.py": "e75c2c8668c0748d79ca018ce12669700e6f5903a65f32dab5e1bc2c3dfe3d1c",
+    "project/scripts/synthesize.py": "5b4a8897b3fcf8e8ebe3db63be97898de5ca49de6b976289fcfe46e4f8dde2ae",
+    "project/scripts/verify_project.py": "f58cfcfcd71f5f3bf27290b02688cb75dfaafa74e9352b6d84eda27d09859480",
+    "project/segments.json": "5862be698e8c3d0af1c1e748ba3c284d1eda5dd0a2a3644a3faab1bb152a3dce",
+    "project/audio-timing.json": "40b05314b3f12fea77ee91ac904be0161ac9eec120f1a0d83e8ce702eec337a0",
+    "project/sfx_events.json": "aae5a957e27519ea0431f55ea4a3d2085b25f43f35a7d3c43d6749b2b3a1c3f5"
+  }
+}

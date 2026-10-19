@@ -1,0 +1,48 @@
+{
+  "fps": 60,
+  "total_frames": 7200,
+  "event_source": "sfx_events.json",
+  "acts": [
+    {
+      "startFrame": 0,
+      "endFrame": 1800,
+      "title": "语言的截肢",
+      "action": "从歪头的小狗到被吸管削成文字的星云",
+      "sound": "warm pulse / metallic squeeze",
+      "portrait": "原生上下空间层级，所有关键元素避开平台遮挡",
+      "landscape": "原生横向空间对比，事件时刻相同"
+    },
+    {
+      "startFrame": 1800,
+      "endFrame": 3600,
+      "title": "词典叛变",
+      "action": "2100帧文字碎裂，双核改用波包交融",
+      "sound": "glass snap / full-spectrum FM",
+      "portrait": "原生上下空间层级，所有关键元素避开平台遮挡",
+      "landscape": "原生横向空间对比，事件时刻相同"
+    },
+    {
+      "startFrame": 3600,
+      "endFrame": 5400,
+      "title": "翻译器熔断",
+      "action": "金色环面继续演化，下方人类终端崩溃",
+      "sound": "mechanical clatter / short circuit",
+      "portrait": "原生上下空间层级，所有关键元素避开平台遮挡",
+      "landscape": "原生横向空间对比，事件时刻相同"
+    },
+    {
+      "startFrame": 5400,
+      "endFrame": 7200,
+      "title": "温柔的局外人",
+      "action": "98秒半秒静音，四字安抚，退远成孤独旁观者",
+      "sound": "silence / chime / mournful score",
+      "portrait": "原生上下空间层级，所有关键元素避开平台遮挡",
+      "landscape": "原生横向空间对比，事件时刻相同"
+    }
+  ],
+  "silence": [
+    5880,
+    5910
+  ],
+  "protocol_switch_frame": 2100
+}

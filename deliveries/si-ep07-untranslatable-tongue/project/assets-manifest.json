@@ -1,0 +1,27 @@
+{
+  "shared_by": [
+    "PortraitVertical",
+    "Landscape4K"
+  ],
+  "generation": "Code-only SVG geometry, deterministic frames; no external AI visual assets",
+  "assets": [
+    {
+      "id": "font-pingfang-sc",
+      "provider": "local macOS system font",
+      "path": "/System/Library/AssetsV2/com_apple_MobileAsset_Font8/86ba2c91f017a3749571a82f2c6d890ac7ffb2fb.asset/AssetData/PingFang.ttc",
+      "sha256": "9ff3ce9439fe285cdabb46f9ceb46b1ac58f1ca07e6f4a764e8286db621a0af9",
+      "distribution": "Host prerequisite; not copied into public repository"
+    },
+    {
+      "id": "master-pcm",
+      "path": "public/audio/master.wav",
+      "status": "generated_local_measured",
+      "cache_key": "shared_no_platform_duplicates",
+      "sha256": "891ecc11039381ca9898351083f5d72b4540a8dccf5d3314fea3fea974098c60",
+      "provider": "macOS Speech plus deterministic procedural score and SFX",
+      "samples_per_channel": 5760000,
+      "sample_rate": 48000,
+      "channels": 2
+    }
+  ]
+}

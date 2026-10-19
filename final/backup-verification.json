@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
   "status": "COMPLETE",
-  "verified_at_utc": "2026-10-19T12:58:47.013815+00:00",
+  "verified_at_utc": "2026-10-19T17:12:57.039356+00:00",
   "repository": "jggagi/video-making",
-  "source_commit": "2e75313dc97b412bce3d5f2d0b7493ca5a4158f5",
+  "source_commit": "725b151902a2bc43e7ea317fb85fc6a79cfb8b66",
   "catalog_path": "final/backup-catalog.json",
-  "catalog_sha256": "dfbe69fecfecf0d8dc6fa92b85860b8ea21cabf46da0ff91596fb592e2f1ba26",
-  "upload_receipt_sha256": "3d65c85f5f695d77b6326809705609f6f3f9eba83a4d63b9506d188b519e8eed",
+  "catalog_sha256": "a2d2474c2d71824e97791457bde39e5d95de038fa8f6ee09aa81568872d8c1a7",
+  "upload_receipt_sha256": "8408755e5f824b38ce32915aff966860415fb3d4e979af69c8b5cadc7f65880b",
   "verification_method": "Fresh published GitHub Release API inventory plus all local final file hashes; every remote size, SHA-256 digest and URL matched the current catalog.",
-  "verified_releases": 15,
-  "verified_files": 41,
-  "verified_bytes": 7332543003,
+  "verified_releases": 16,
+  "verified_files": 43,
+  "verified_bytes": 7583203798,
   "works": [
     {
       "id": "lanting",
@@ -523,6 +523,36 @@
       ]
     },
     {
+      "id": "si-ep07-untranslatable-tongue",
+      "title": "Final 成片备份 · 后人类黑话",
+      "release_tag": "final-si-ep07-untranslatable-tongue-1dd8685e0b06",
+      "release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep07-untranslatable-tongue-1dd8685e0b06",
+      "release_target": "725b151902a2bc43e7ea317fb85fc6a79cfb8b66",
+      "release_draft": false,
+      "assets": [
+        {
+          "path": "final/si-ep07-untranslatable-tongue/B站/si-ep07-untranslatable-tongue-bilibili-120s-4k.mp4",
+          "name": "final--si-ep07-untranslatable-tongue--deliveries--si-ep07-untranslatable-tongue--B---si-ep07-untranslatable-tongue-bilibili-120s-4k--4ff0e36dbd83.mp4",
+          "bytes": 140747756,
+          "sha256": "4ff0e36dbd83474ff8af2524d32d5ae9a7d2c4d4e0e8040282ee1cfdee52accb",
+          "github_digest": "sha256:4ff0e36dbd83474ff8af2524d32d5ae9a7d2c4d4e0e8040282ee1cfdee52accb",
+          "github_asset_id": 656893491,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep07-untranslatable-tongue-1dd8685e0b06/final--si-ep07-untranslatable-tongue--deliveries--si-ep07-untranslatable-tongue--B---si-ep07-untranslatable-tongue-bilibili-120s-4k--4ff0e36dbd83.mp4",
+          "local_and_remote_match": true
+        },
+        {
+          "path": "final/si-ep07-untranslatable-tongue/小红书/si-ep07-untranslatable-tongue-xiaohongshu-120s-portrait.mp4",
+          "name": "final--si-ep07-untranslatable-tongue--deliveries--si-ep07-untranslatable-tongue-----si-ep07-untranslatable-tongue-xiaohongshu-120s-portrait--8bf20c0583cc.mp4",
+          "bytes": 109913039,
+          "sha256": "8bf20c0583cc289fbb5f43391d6c9a0ebaa9e01b641d7b37b0df9e0e03708852",
+          "github_digest": "sha256:8bf20c0583cc289fbb5f43391d6c9a0ebaa9e01b641d7b37b0df9e0e03708852",
+          "github_asset_id": 656894106,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep07-untranslatable-tongue-1dd8685e0b06/final--si-ep07-untranslatable-tongue--deliveries--si-ep07-untranslatable-tongue-----si-ep07-untranslatable-tongue-xiaohongshu-120s-portrait--8bf20c0583cc.mp4",
+          "local_and_remote_match": true
+        }
+      ]
+    },
+    {
       "id": "si-eternity",
       "title": "Final 成片备份 · 一眼万年",
       "release_tag": "final-si-eternity-66d480b1c859",
@@ -575,27 +605,19 @@
   ],
   "restore_probe": {
     "status": "PASS",
-    "evidence": "deliveries/si-ep05-landauer-limit-v03/review/final-restore-probe.json",
-    "scope": {
-      "work_id": "si-ep05-landauer-limit-v03",
-      "platform": "小红书",
-      "asset_path": "final/si-ep05-landauer-limit-v03/小红书/si-ep05-landauer-limit-v03-xiaohongshu-120s-portrait.mp4",
-      "asset_count": 1
+    "verified_at_utc": "2026-10-19T17:14:17.546628+00:00",
+    "scope": "One newly added EP07 portrait final downloaded from GitHub into isolated temporary root, exact restored relative path/size/hash checked; second restore skipped it. Not a full restore of all43 files.",
+    "path": "final/si-ep07-untranslatable-tongue/小红书/si-ep07-untranslatable-tongue-xiaohongshu-120s-portrait.mp4",
+    "bytes": 109913039,
+    "sha256": "8bf20c0583cc289fbb5f43391d6c9a0ebaa9e01b641d7b37b0df9e0e03708852",
+    "first_run": {
+      "downloaded": 1,
+      "already_verified": 0
     },
-    "asset": {
-      "bytes": 202164075,
-      "sha256": "ab2765c6fb0220216ae6418f65df0dcb0a03a7b989780a41cde806ffda4594b9"
+    "second_run": {
+      "downloaded": 0,
+      "already_verified": 1
     },
-    "first_restore": "downloaded_and_size_sha256_verified",
-    "repeat_restore": "skipped_verified_existing_file",
-    "repeat_invariants": {
-      "path_unchanged": true,
-      "inode_unchanged": true,
-      "mtime_ns_unchanged": true,
-      "size_sha256_still_match": true
-    },
-    "temporary_tree": "removed",
-    "verified_at_utc": "2026-10-19T13:00:07.754609+00:00",
-    "limits": "One new portrait asset downloaded twice (second verified/skip); all41inventory checks are separate."
+    "temporary_data_cleaned": true
   }
 }

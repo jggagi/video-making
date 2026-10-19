@@ -1,6 +1,6 @@
 {
-  "status": "LOCAL_FINAL_READY_REMOTE_BACKUP_PENDING",
-  "updated_at_utc": "2026-10-19T17:06:20.471385+00:00",
+  "status": "DELIVERED_XIAOHONGSHU_SUBMITTED_UNDER_REVIEW",
+  "updated_at_utc": "2026-10-19T17:14:30.411084+00:00",
   "user_decisions": {
     "script": "original retained; continuous science-fiction label",
     "audio_provider": "Local macOS Speech chosen and announced by root under make-and-publish scope; not user-selected voice"
@@ -101,14 +101,16 @@
       "snapshot": "technical-QA state before archive completion",
       "member_readback": "PASS"
     },
-    "local_final_library": "2 new verified APFS clones; all41 prior files preserved"
+    "local_final_library": "2 new verified APFS clones; all41 prior files preserved",
+    "github_source_push": "725b151902a2bc43e7ea317fb85fc6a79cfb8b66",
+    "film_release": "6/6 remote assets size/SHA256 verified and published",
+    "verified_final_backup": "2 EP07 assets /43 total final assets matched current catalog and published releases",
+    "real_restore_probe": "EP07 portrait downloaded; size/SHA256 matched; second run skipped; temporary data removed"
   },
   "not_completed": [
     "human_listening",
     "device_app_playback",
-    "github_source_push",
-    "film_release",
-    "verified_final_backup"
+    "public_xiaohongshu_visibility"
   ],
   "source_sha256": {
     "project/src/CanvasWorld.tsx": "578b395195d357631030a423b4081dd90e53e7f8b1ee10a659ec497f1fb64b27",

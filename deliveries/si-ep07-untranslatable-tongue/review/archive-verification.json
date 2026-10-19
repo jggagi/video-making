@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "verified_at_utc": "2026-10-19T17:11:56.730561+00:00",
+  "repository": "jggagi/video-making",
+  "source_commit": "725b151902a2bc43e7ea317fb85fc6a79cfb8b66",
+  "archive_catalog_sha256": "54eb462dbde4fbf27ca50484609be9fe3372cb5737f53d37752147911d216034",
+  "film_release": {
+    "id": "si-ep07-untranslatable-tongue",
+    "title": "后人类黑话",
+    "release_tag": "film-si-ep07-untranslatable-tongue-1dd8685e0b06",
+    "release_url": "https://github.com/jggagi/video-making/releases/tag/film-si-ep07-untranslatable-tongue-1dd8685e0b06",
+    "assets": [
+      {
+        "name": "si-ep07-untranslatable-tongue--deliveries--si-ep07-untranslatable-tongue--B---si-ep07-untranslatable-tongue-bilibili-120s-4k--4ff0e36dbd83.mp4",
+        "bytes": 140747756,
+        "digest": "sha256:4ff0e36dbd83474ff8af2524d32d5ae9a7d2c4d4e0e8040282ee1cfdee52accb",
+        "kind": "video",
+        "platform": "B站",
+        "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep07-untranslatable-tongue-1dd8685e0b06/si-ep07-untranslatable-tongue--deliveries--si-ep07-untranslatable-tongue--B---si-ep07-untranslatable-tongue-bilibili-120s-4k--4ff0e36dbd83.mp4",
+        "browser_download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep07-untranslatable-tongue-1dd8685e0b06/si-ep07-untranslatable-tongue--deliveries--si-ep07-untranslatable-tongue--B---si-ep07-untranslatable-tongue-bilibili-120s-4k--4ff0e36dbd83.mp4",
+        "id": 656889309
+      },
+      {
+        "name": "si-ep07-untranslatable-tongue--deliveries--si-ep07-untranslatable-tongue--review--motion-portrait-2040-2279--326b428434ac.mp4",
+        "bytes": 2420939,
+        "digest": "sha256:326b428434acae30b556e7e8dfc475762868c5f52b57beab06253c91a56ba26e",
+        "kind": "video",
+        "platform": "预览",
+        "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep07-untranslatable-tongue-1dd8685e0b06/si-ep07-untranslatable-tongue--deliveries--si-ep07-untranslatable-tongue--review--motion-portrait-2040-2279--326b428434ac.mp4",
+        "browser_download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep07-untranslatable-tongue-1dd8685e0b06/si-ep07-untranslatable-tongue--deliveries--si-ep07-untranslatable-tongue--review--motion-portrait-2040-2279--326b428434ac.mp4",
+        "id": 656889991
+      },
+      {
+        "name": "si-ep07-untranslatable-tongue--deliveries--si-ep07-untranslatable-tongue--review--motion-portrait-3840-4019--31f27c5063b4.mp4",
+        "bytes": 5014141,
+        "digest": "sha256:31f27c5063b47430afb127797e470a3cd35654c35ea443b9586727bc60f4423c",
+        "kind": "video",
+        "platform": "预览",
+        "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep07-untranslatable-tongue-1dd8685e0b06/si-ep07-untranslatable-tongue--deliveries--si-ep07-untranslatable-tongue--review--motion-portrait-3840-4019--31f27c5063b4.mp4",
+        "browser_download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep07-untranslatable-tongue-1dd8685e0b06/si-ep07-untranslatable-tongue--deliveries--si-ep07-untranslatable-tongue--review--motion-portrait-3840-4019--31f27c5063b4.mp4",
+        "id": 656890088
+      },
+      {
+        "name": "si-ep07-untranslatable-tongue--deliveries--si-ep07-untranslatable-tongue--review--motion-portrait-5820-6059--e35daf5ddb53.mp4",
+        "bytes": 1260289,
+        "digest": "sha256:e35daf5ddb53f168b8945227eb2f00cab798c142f71caf230f9917cb3915372d",
+        "kind": "video",
+        "platform": "预览",
+        "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep07-untranslatable-tongue-1dd8685e0b06/si-ep07-untranslatable-tongue--deliveries--si-ep07-untranslatable-tongue--review--motion-portrait-5820-6059--e35daf5ddb53.mp4",
+        "browser_download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep07-untranslatable-tongue-1dd8685e0b06/si-ep07-untranslatable-tongue--deliveries--si-ep07-untranslatable-tongue--review--motion-portrait-5820-6059--e35daf5ddb53.mp4",
+        "id": 656890174
+      },
+      {
+        "name": "si-ep07-untranslatable-tongue--deliveries--si-ep07-untranslatable-tongue--si-ep07-untranslatable-tongue-project--c187ac07f2ce.zip",
+        "bytes": 77224577,
+        "digest": "sha256:c187ac07f2ce535987102facb5c4ca4f633ce90233320092bf882222007c9956",
+        "kind": "project",
+        "platform": "工程",
+        "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep07-untranslatable-tongue-1dd8685e0b06/si-ep07-untranslatable-tongue--deliveries--si-ep07-untranslatable-tongue--si-ep07-untranslatable-tongue-project--c187ac07f2ce.zip",
+        "browser_download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep07-untranslatable-tongue-1dd8685e0b06/si-ep07-untranslatable-tongue--deliveries--si-ep07-untranslatable-tongue--si-ep07-untranslatable-tongue-project--c187ac07f2ce.zip",
+        "id": 656890247
+      },
+      {
+        "name": "si-ep07-untranslatable-tongue--deliveries--si-ep07-untranslatable-tongue-----si-ep07-untranslatable-tongue-xiaohongshu-120s-portrait--8bf20c0583cc.mp4",
+        "bytes": 109913039,
+        "digest": "sha256:8bf20c0583cc289fbb5f43391d6c9a0ebaa9e01b641d7b37b0df9e0e03708852",
+        "kind": "video",
+        "platform": "小红书",
+        "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep07-untranslatable-tongue-1dd8685e0b06/si-ep07-untranslatable-tongue--deliveries--si-ep07-untranslatable-tongue-----si-ep07-untranslatable-tongue-xiaohongshu-120s-portrait--8bf20c0583cc.mp4",
+        "browser_download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep07-untranslatable-tongue-1dd8685e0b06/si-ep07-untranslatable-tongue--deliveries--si-ep07-untranslatable-tongue-----si-ep07-untranslatable-tongue-xiaohongshu-120s-portrait--8bf20c0583cc.mp4",
+        "id": 656890787
+      }
+    ],
+    "release_draft": false
+  },
+  "film_remote_size_and_sha256": "PASS for all6 expected assets; published release inventory verified by uploader",
+  "final_backup": {
+    "status": "PASS",
+    "report": "final/backup-verification.json",
+    "catalog_sha256": "a2d2474c2d71824e97791457bde39e5d95de038fa8f6ee09aa81568872d8c1a7",
+    "release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep07-untranslatable-tongue-1dd8685e0b06",
+    "expected_EP07_assets": 2,
+    "all_final_assets_verified": 43
+  },
+  "restore_probe": {
+    "status": "PASS",
+    "verified_at_utc": "2026-10-19T17:14:17.546628+00:00",
+    "scope": "One newly added EP07 portrait final downloaded from GitHub into isolated temporary root, exact restored relative path/size/hash checked; second restore skipped it. Not a full restore of all43 files.",
+    "path": "final/si-ep07-untranslatable-tongue/小红书/si-ep07-untranslatable-tongue-xiaohongshu-120s-portrait.mp4",
+    "bytes": 109913039,
+    "sha256": "8bf20c0583cc289fbb5f43391d6c9a0ebaa9e01b641d7b37b0df9e0e03708852",
+    "first_run": {
+      "downloaded": 1,
+      "already_verified": 0
+    },
+    "second_run": {
+      "downloaded": 0,
+      "already_verified": 1
+    },
+    "temporary_data_cleaned": true
+  },
+  "local_final": "2 verified APFS clones; all41 previous final files retained"
+}

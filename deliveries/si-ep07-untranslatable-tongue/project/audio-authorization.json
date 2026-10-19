@@ -8,6 +8,7 @@
   },
   "user_selected_voice": false,
   "cloud_upload_authorized": false,
-  "text_stays_local": true,
-  "source": "User requested the episode and then explicitly requested publication to Xiaohongshu; provider unspecified. Root announced local Chinese narration before proceeding."
+  "source": "User requested the episode and then explicitly requested publication to Xiaohongshu; provider unspecified. Root announced local Chinese narration before proceeding.",
+  "text_stays_local_during_synthesis": true,
+  "separate_delivery_authority": "Source script and project are archived to the user-designated GitHub repository under AGENTS.md; local-only scope here refers to speech generation, not the separately authorized publication/archive."
 }

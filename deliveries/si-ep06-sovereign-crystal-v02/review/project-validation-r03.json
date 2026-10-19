@@ -1,0 +1,114 @@
+{
+  "status": "PASS",
+  "scope": "authored source, measured PCM timing, captions and master identity; this report does not validate rendered media or human acceptance",
+  "inputs": {
+    "delivery_json_sha256": "29deee69de175cb7ce98b1b13bcb0c3863f3fee9402e6ced2f4211d8dad321d4",
+    "segments_json_sha256": "7e097ac3ddb4234c17bee8b8b68ccaef0a11a2d34d72f40c5540e81b64100e21",
+    "timeline_json_sha256": "5eaff1b0f050104aaf3f8f3a0d9a3110cbf738f534d0964c58022ca721601bd1",
+    "audio_timing_json_sha256": "8bd6441f471a3bec62925ebe2dc23ad97c7d0a4979a788ba256150016e01da0a"
+  },
+  "checks": [
+    {
+      "name": "manifest_120s_60fps_7200frames",
+      "pass": true,
+      "details": [
+        120,
+        60,
+        7200
+      ]
+    },
+    {
+      "name": "authored_segments_timing_header",
+      "pass": true
+    },
+    {
+      "name": "timeline_contiguous_120s_coverage",
+      "pass": true,
+      "details": "9 motion-noted scenes cover frames 0–7199"
+    },
+    {
+      "name": "measured_audio_timing_header",
+      "pass": true
+    },
+    {
+      "name": "original_script_hash",
+      "pass": true,
+      "details": {
+        "path": "source/script.md",
+        "sha256": "beb0a6136fec18991c6281d1151b458dc45cd0ece3b96b9afbac59711d71878b"
+      }
+    },
+    {
+      "name": "ten_authored_and_measured_segments",
+      "pass": true
+    },
+    {
+      "name": "source_and_measured_segment_frames_match",
+      "pass": true,
+      "details": "all ten measured spans match authored frames"
+    },
+    {
+      "name": "measured_caption_frame_order_and_layout",
+      "pass": true,
+      "details": "19 captions are ordered and within layout limits"
+    },
+    {
+      "name": "authored_20_frame_absolute_silence_metadata",
+      "pass": true,
+      "details": {
+        "startFrame": 5740,
+        "endFrameExclusive": 5760,
+        "startSample": 4592000,
+        "endSampleExclusive": 4608000,
+        "samplesZeroInAllStemsAndMaster": true
+      }
+    },
+    {
+      "name": "s08_voice_ends_before_silence",
+      "pass": true
+    },
+    {
+      "name": "sfx_events_share_60fps_48khz_clock",
+      "pass": true
+    },
+    {
+      "name": "frame_deterministic_source",
+      "pass": true,
+      "details": {
+        "files": [
+          "src/Film.tsx",
+          "src/HumanScenes.tsx",
+          "src/MirrorScene.tsx",
+          "src/Objects.tsx",
+          "src/Root.tsx",
+          "src/Stage.tsx",
+          "src/index.ts",
+          "src/math.ts"
+        ]
+      }
+    },
+    {
+      "name": "shared_pcm_master_s08_silence_exact_zero",
+      "pass": true,
+      "details": {
+        "start_sample": 4592000,
+        "end_sample_exclusive": 4608000
+      }
+    },
+    {
+      "name": "shared_pcm_master_exact_format_and_manifest_hash",
+      "pass": true,
+      "details": {
+        "path": "project/public/audio/master.wav",
+        "exists": true,
+        "sample_rate": 48000,
+        "channels": 2,
+        "sample_width_bytes": 2,
+        "samples_per_channel": 5760000,
+        "sha256": "2bc17a49a3555abfef6ee70b1445e6939bc0d66ad9946a1d296ce6ce1c63aab1",
+        "s08_silence_window_zero": true
+      }
+    }
+  ],
+  "failures": []
+}

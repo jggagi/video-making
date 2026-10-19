@@ -1,0 +1,24 @@
+{
+  "method": "ffmpeg -map 0:a:0 -c:a copy -f hash -hash sha256 -",
+  "hash_algorithm": "SHA-256 over copied AAC packets",
+  "tracks": [
+    {
+      "layout": "landscape",
+      "path": "B站/si-ep06-sovereign-crystal-v02-bilibili-120s-4k.mp4",
+      "movie_sha256": "5d57f695c0d430005e5528cb0cd2c2d48a19104ff5ef8a2d0f5399999987816c",
+      "aac_packet_sha256": "dd34191c5621cb61fa203accf3310c82a6db8e6b03b134f2abe40117baf3cbc0",
+      "movie_bytes": 115813246
+    },
+    {
+      "layout": "portrait",
+      "path": "小红书/si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait.mp4",
+      "movie_sha256": "1fbe8b12d420772f817fa22e3b06ee6e78388673ea725cf9b408187dc70a9361",
+      "aac_packet_sha256": "dd34191c5621cb61fa203accf3310c82a6db8e6b03b134f2abe40117baf3cbc0",
+      "movie_bytes": 65136600
+    }
+  ],
+  "comparison": {
+    "aac_packet_hashes_equal": true,
+    "shared_audio_payload_confirmed": true
+  }
+}

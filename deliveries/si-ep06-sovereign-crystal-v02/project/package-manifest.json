@@ -1,0 +1,1783 @@
+{
+  "archive": {
+    "crc_status": "PASS",
+    "member_count": 349,
+    "path": "si-ep06-sovereign-crystal-v02-editable-project.zip",
+    "sha256": "8feccac3392c8fcafb341d328ec1953bd881d57bb376227317a535148137e206",
+    "size_bytes": 63779096
+  },
+  "files": [
+    {
+      "path": "B站/captions.srt",
+      "sha256": "a303c20925533b5b36c40018c444f72db8ba62190471ba94ee930a718821269c",
+      "size_bytes": 1694
+    },
+    {
+      "path": "delivery.json",
+      "sha256": "29deee69de175cb7ce98b1b13bcb0c3863f3fee9402e6ced2f4211d8dad321d4",
+      "size_bytes": 2768
+    },
+    {
+      "path": "project/README.md",
+      "sha256": "889935cc0fc37529e12f1fa49c9907da647ee7bccd9dfc6c1d5f376fa0077a15",
+      "size_bytes": 2642
+    },
+    {
+      "path": "project/adapted-script.md",
+      "sha256": "7c07a999b577efa954cc8b7033f56e17c7926de0cad0da3c1a4379615ba9e241",
+      "size_bytes": 1424
+    },
+    {
+      "path": "project/assets-manifest.json",
+      "sha256": "95abf9dd12f2a7352c92772cbe2f4bf72648e64066cfe11fc8b7158d45b1fdfb",
+      "size_bytes": 814
+    },
+    {
+      "path": "project/audio-timing.json",
+      "sha256": "8bd6441f471a3bec62925ebe2dc23ad97c7d0a4979a788ba256150016e01da0a",
+      "size_bytes": 19199
+    },
+    {
+      "path": "project/brief.md",
+      "sha256": "2a607cebdb7038751fd8cbce40e4149c3542b68cc7ccaf094f8715b17317bcc9",
+      "size_bytes": 1855
+    },
+    {
+      "path": "project/package-lock.json",
+      "sha256": "357f1b6f6ccc2e458f3e58e6c0a624aabe36ae6a6fffdb3ed3de10c65bf9b073",
+      "size_bytes": 157409
+    },
+    {
+      "path": "project/package.json",
+      "sha256": "e5c710b184f96f4479f1f96e854d9633f0592d7e29729d4b53e9f1150f2663f0",
+      "size_bytes": 954
+    },
+    {
+      "path": "project/public/audio/canonical/S01-b1fc326f42cc.wav",
+      "sha256": "519aab2448e9ce7d9628ca08a0f9ee0f0abc236918395c9eafe13035f3926bd0",
+      "size_bytes": 238124
+    },
+    {
+      "path": "project/public/audio/canonical/S02-b93ed27947da.wav",
+      "sha256": "68622f8add8222e58eb8bf202b66e8cab24c242ef228efaa038394f2cda10b93",
+      "size_bytes": 391724
+    },
+    {
+      "path": "project/public/audio/canonical/S03-d64ac9e857ea.wav",
+      "sha256": "a3e038b2f762cd50dab103e19285031e8388d1a90efdb60d6f440f4b04c54b51",
+      "size_bytes": 380204
+    },
+    {
+      "path": "project/public/audio/canonical/S04-db0bbf50d6c4.wav",
+      "sha256": "ea595aa4452aa3812fc1b23ed81c6ff648faeb39eb8b88979d2fba150145fabb",
+      "size_bytes": 433964
+    },
+    {
+      "path": "project/public/audio/canonical/S05-ebd1049377f5.wav",
+      "sha256": "0d4beb6c03574460f4a2a5300a17a907285be50419ff2048f3cc028fc3505341",
+      "size_bytes": 468524
+    },
+    {
+      "path": "project/public/audio/canonical/S06-36ae6d6deb91.wav",
+      "sha256": "6aa21dc6113639acd550fee05c42eefdb984db84c7bb58c05d4441e6d4bf1889",
+      "size_bytes": 441644
+    },
+    {
+      "path": "project/public/audio/canonical/S07-2f554db126b3.wav",
+      "sha256": "c7f49f39cb1c61cb3d1b9956befba968caa9a1af728beebb1a2531d519589ba4",
+      "size_bytes": 599084
+    },
+    {
+      "path": "project/public/audio/canonical/S08-11319b9b3514.wav",
+      "sha256": "d4235d288309080938ae81d406a93c48cb5f512fdf1a5b1004c62da66f691aa3",
+      "size_bytes": 226604
+    },
+    {
+      "path": "project/public/audio/canonical/S09-e00ca7688088.wav",
+      "sha256": "a15e77defff4a88012ac16bade7ca037adc03d55234cbe6eac9f134065844ae9",
+      "size_bytes": 549164
+    },
+    {
+      "path": "project/public/audio/canonical/S10-760faa068053.wav",
+      "sha256": "ac3eab52d4f31dd1710275b72c695ebd3acf157d24d76683f8395e1802e45678",
+      "size_bytes": 149804
+    },
+    {
+      "path": "project/public/audio/cues/S01-b1fc326f42cc.wav",
+      "sha256": "bb4311ed47e5969a4172f346722ef09b719318eddbe44137c75498050e543cb5",
+      "size_bytes": 476238
+    },
+    {
+      "path": "project/public/audio/cues/S02-b93ed27947da.wav",
+      "sha256": "3c94e735c1a036aa4051ea6b148538b18bc548ba5d0678e07322025a5e3e7fa6",
+      "size_bytes": 783438
+    },
+    {
+      "path": "project/public/audio/cues/S03-d64ac9e857ea.wav",
+      "sha256": "44dec8468e33cc0c0999bd9d6932ee6a3bf1f1947350e37d523b55725737677e",
+      "size_bytes": 760398
+    },
+    {
+      "path": "project/public/audio/cues/S04-db0bbf50d6c4.wav",
+      "sha256": "a0a89355b7e52619ec7d90eaee5cb4b0813aabce37e9ec0551c5b05ecba110cb",
+      "size_bytes": 867918
+    },
+    {
+      "path": "project/public/audio/cues/S05-ebd1049377f5.wav",
+      "sha256": "da7af0bde4f6f5cca4eda19c6e1f9834c2368664eaaf1004591429096a4080b3",
+      "size_bytes": 937038
+    },
+    {
+      "path": "project/public/audio/cues/S06-36ae6d6deb91.wav",
+      "sha256": "42b72340bbce1f296c25a6395a69d202d1ad49080a8d854bc65e7b64f4f0d462",
+      "size_bytes": 883278
+    },
+    {
+      "path": "project/public/audio/cues/S07-2f554db126b3.wav",
+      "sha256": "ae2f651e67347234d4fc7a0201b9d1a23253ba9d36f831f82a6f6080072a0aa8",
+      "size_bytes": 1198158
+    },
+    {
+      "path": "project/public/audio/cues/S08-11319b9b3514.wav",
+      "sha256": "f854844d4ad40fd88ed685ac71607029799b889f5ce428de23d90e97c12be786",
+      "size_bytes": 453198
+    },
+    {
+      "path": "project/public/audio/cues/S09-e00ca7688088.wav",
+      "sha256": "392df452c7ea76ce499f12f5ae0d3b99743e411f2f56a69b4ef3a490c4ee0350",
+      "size_bytes": 1098318
+    },
+    {
+      "path": "project/public/audio/cues/S10-760faa068053.wav",
+      "sha256": "d7cbec09bfcd4263261c0332bd1582f57d2e6af988c2baf347798c36b917cda4",
+      "size_bytes": 299598
+    },
+    {
+      "path": "project/public/audio/master.wav",
+      "sha256": "2bc17a49a3555abfef6ee70b1445e6939bc0d66ad9946a1d296ce6ce1c63aab1",
+      "size_bytes": 23040044
+    },
+    {
+      "path": "project/public/audio/mix-manifest.json",
+      "sha256": "a1b0f1f45583d6b60e4ca5da3b33730310bb4e46ec3e8ed2d5e756ab0863c4ad",
+      "size_bytes": 10055
+    },
+    {
+      "path": "project/public/audio/mix-settings.json",
+      "sha256": "b098af4abc6e4dc2b8ee7ca578ccb4f905bd38dd0905544930d93fd73aefd119",
+      "size_bytes": 11211
+    },
+    {
+      "path": "project/public/audio/narration.wav",
+      "sha256": "264dd6d3720c507f6a8a369a8b51db68f8e51a3f2a42244b9438f56c897c33e9",
+      "size_bytes": 23040044
+    },
+    {
+      "path": "project/public/audio/provider-manifest.json",
+      "sha256": "6bdef9afcbcd89699d45a1f23d0732f4b95d8a79f0ea16d095a41055ae94643d",
+      "size_bytes": 15968
+    },
+    {
+      "path": "project/public/audio/raw/S01-b1fc326f42cc.wav",
+      "sha256": "c0b6a326d7b6043ffe2636ff3ba009243a267f9bb91e7a0bf2d1487e41f3f112",
+      "size_bytes": 238124
+    },
+    {
+      "path": "project/public/audio/raw/S02-b93ed27947da.wav",
+      "sha256": "c7a7d3008ce515f7967f156a019864ca59849ee964d51cf3b8276cb19f32cbd8",
+      "size_bytes": 391724
+    },
+    {
+      "path": "project/public/audio/raw/S03-d64ac9e857ea.wav",
+      "sha256": "f0e71bb50dec89539793e119a318a3056de7347e7ca6aa4a542ae64c03cfc065",
+      "size_bytes": 380204
+    },
+    {
+      "path": "project/public/audio/raw/S04-db0bbf50d6c4.wav",
+      "sha256": "6decf067aee2fa4d5ad962d074c09747897b8b2b95b14d7618f156a263bc6549",
+      "size_bytes": 433964
+    },
+    {
+      "path": "project/public/audio/raw/S05-ebd1049377f5.wav",
+      "sha256": "1f4249bce1cec3d046c26e53c287185472ff9dcd9e1c42fc7fb7b7152ee2189e",
+      "size_bytes": 468524
+    },
+    {
+      "path": "project/public/audio/raw/S06-36ae6d6deb91.wav",
+      "sha256": "5a75f909b3ca878d88c443da41abf4ae3648df73fc8bbb00cba34ae07a34836f",
+      "size_bytes": 441644
+    },
+    {
+      "path": "project/public/audio/raw/S07-2f554db126b3.wav",
+      "sha256": "121ba63d9e518f7d87a7329d58515eb8d38fb49513f1e76ec46669fcb09b4e1c",
+      "size_bytes": 599084
+    },
+    {
+      "path": "project/public/audio/raw/S08-11319b9b3514.wav",
+      "sha256": "07f413910749e5daa1b3198056fad1c7e72bcbbc61e0fb09766c7e3bb1b7d5f2",
+      "size_bytes": 226604
+    },
+    {
+      "path": "project/public/audio/raw/S09-e00ca7688088.wav",
+      "sha256": "8cdd626fef64e4003005642d93fdadc86b6b082c5b99f5f2130e6854e2bfc96e",
+      "size_bytes": 549164
+    },
+    {
+      "path": "project/public/audio/raw/S10-760faa068053.wav",
+      "sha256": "07f17f4c448752ece4fe172b673fb9695f60d7ad1bf610df6ebc3e30e467266b",
+      "size_bytes": 149804
+    },
+    {
+      "path": "project/public/audio/score.wav",
+      "sha256": "0088a05c6f5735038ba10fab2228bed0f7a16b746aad980c92966acb04222db3",
+      "size_bytes": 23040044
+    },
+    {
+      "path": "project/public/audio/sfx.wav",
+      "sha256": "82ac33987a82515247d80079008869c9c1f2ac98b8c95fe0bbff975aea037d57",
+      "size_bytes": 23040044
+    },
+    {
+      "path": "project/public/audio/tts-input/S01-b1fc326f42cc.txt",
+      "sha256": "070d8eebbe5f3802c4c2fd98410921b79b6f7ae519423fcf47a2c087fc0915ff",
+      "size_bytes": 75
+    },
+    {
+      "path": "project/public/audio/tts-input/S02-b93ed27947da.txt",
+      "sha256": "e6632abf19b5285e74bb6abad0261d5b85b83083180b6ca431f27962d1f85e6b",
+      "size_bytes": 123
+    },
+    {
+      "path": "project/public/audio/tts-input/S03-d64ac9e857ea.txt",
+      "sha256": "db5875d917333e378717d8a940d609d7a68ed5eda33fe2ffdfee4de950d6b1ba",
+      "size_bytes": 108
+    },
+    {
+      "path": "project/public/audio/tts-input/S04-db0bbf50d6c4.txt",
+      "sha256": "75446c5f1711aea799b4477db100267148ad45d0440393336d8f862a277e586a",
+      "size_bytes": 129
+    },
+    {
+      "path": "project/public/audio/tts-input/S05-ebd1049377f5.txt",
+      "sha256": "0337d333c0c97a516fc67a0644fbe8263d93e1adef2f16d34312e9a7a2cc2322",
+      "size_bytes": 120
+    },
+    {
+      "path": "project/public/audio/tts-input/S06-36ae6d6deb91.txt",
+      "sha256": "3c63295dde8c5f088f5644eb921621ac429554ff962499cc0e124e3ccfa7c560",
+      "size_bytes": 126
+    },
+    {
+      "path": "project/public/audio/tts-input/S07-2f554db126b3.txt",
+      "sha256": "5c0199040cf1d12e0848840f23ea4a57e012b84e72666e1c51c98ca0d6cbb5a7",
+      "size_bytes": 111
+    },
+    {
+      "path": "project/public/audio/tts-input/S08-11319b9b3514.txt",
+      "sha256": "fbe6e05b78bedda1160aba8bb6cdaca4f5f5b1deb2ec46634a76f0854ae5a977",
+      "size_bytes": 54
+    },
+    {
+      "path": "project/public/audio/tts-input/S09-e00ca7688088.txt",
+      "sha256": "ffcf8f7ca59de73a7b3ef70a690c17123eae38c33f08976b98b59d99acf16660",
+      "size_bytes": 162
+    },
+    {
+      "path": "project/public/audio/tts-input/S10-760faa068053.txt",
+      "sha256": "50d234538c2b49f6dc0c980836e08c97f487081793f08ab2e05bbf75bdc103d8",
+      "size_bytes": 42
+    },
+    {
+      "path": "project/scientific-notes.md",
+      "sha256": "bdcf31834f9198923e66945fe22e0abaeefb28d4cea279a4b5d7effd6163bb0a",
+      "size_bytes": 4167
+    },
+    {
+      "path": "project/scripts/capture_motion.py",
+      "sha256": "970fc59d1a1043a49b2bf940a8a15ebc2ef4660e358311122b74465aaf51d325",
+      "size_bytes": 19297
+    },
+    {
+      "path": "project/scripts/collect_qa.py",
+      "sha256": "88f2fa6b56ae428ec3907ad7877b84a0b078eaf6f9df9380d123634dc22601e8",
+      "size_bytes": 13125
+    },
+    {
+      "path": "project/scripts/finalize_metadata.py",
+      "sha256": "cce6414a4aac551b418ca3256dddd3150eaa0facb84e6e0c91f03dd0ee71a86e",
+      "size_bytes": 6646
+    },
+    {
+      "path": "project/scripts/package_project.py",
+      "sha256": "fcec3f5733b09aa2db4054ea8413858f91fe7c4659d68e944ae1b9ab1d89b686",
+      "size_bytes": 30617
+    },
+    {
+      "path": "project/scripts/render.mjs",
+      "sha256": "52eaddb1c1c432349ab0ebdfe5e279e04d718a3f6ee633d2204c98818db11414",
+      "size_bytes": 11909
+    },
+    {
+      "path": "project/scripts/serve-preview.py",
+      "sha256": "e77deedd23fc76f8454993e20d603cb8d1c562f4b8064cd9ff8df283d55741e9",
+      "size_bytes": 2275
+    },
+    {
+      "path": "project/scripts/verify_project.py",
+      "sha256": "d96df53ad1871bfd7d4ef2cf4322b66aad26f66e53634f18c91add57cf7aa3d9",
+      "size_bytes": 15511
+    },
+    {
+      "path": "project/scripts/verify_shared_audio.py",
+      "sha256": "135ab3fe234599b9f9ca58b7d33cd95a949c3e6436de101619fdf72bcb416651",
+      "size_bytes": 14270
+    },
+    {
+      "path": "project/segments.json",
+      "sha256": "7e097ac3ddb4234c17bee8b8b68ccaef0a11a2d34d72f40c5540e81b64100e21",
+      "size_bytes": 7664
+    },
+    {
+      "path": "project/sfx_events.json",
+      "sha256": "b12fcecde88b7089dc7ec9c122438a56493dc76f3b234e0f51dc6b9e185cea95",
+      "size_bytes": 1593
+    },
+    {
+      "path": "project/src/Film.tsx",
+      "sha256": "8f36bcecfa0770d9925d1d8c12eea90b7d34d4c46e0521278fe4538049428c09",
+      "size_bytes": 10329
+    },
+    {
+      "path": "project/src/HumanScenes.tsx",
+      "sha256": "d6f958d86c1509200c5af6d0ce733017843d649c00253ff442d408d6ea24646a",
+      "size_bytes": 14634
+    },
+    {
+      "path": "project/src/MirrorScene.tsx",
+      "sha256": "2082ab6ea0eee853ac43edc2b6a461b16833b5c656ce52649d87b23cc3775ee0",
+      "size_bytes": 4475
+    },
+    {
+      "path": "project/src/Objects.tsx",
+      "sha256": "62d7559c953973d9a2fbae1cbdf3ffeb69144477924ed3e2821b7e9bef25e021",
+      "size_bytes": 11038
+    },
+    {
+      "path": "project/src/Root.tsx",
+      "sha256": "d0bf4eca8967937aaeb9fa0d33d1c843a050545f8a0433638a37ef24404598f5",
+      "size_bytes": 450
+    },
+    {
+      "path": "project/src/Stage.tsx",
+      "sha256": "e31a28cfb150ffa9986132cced10159805a47718067dc542aae1d7149a58b0aa",
+      "size_bytes": 3416
+    },
+    {
+      "path": "project/src/index.ts",
+      "sha256": "2e0e358282a1b998a65387c653b97c2bb2eb7aae94cf200fc0b8d919f7be73a6",
+      "size_bytes": 88
+    },
+    {
+      "path": "project/src/math.ts",
+      "sha256": "5a7720b5301c296219c76cd3f2801a7655047f3c29ab15caed3330aed0bc8b8d",
+      "size_bytes": 15510
+    },
+    {
+      "path": "project/telemetry-lexicon.json",
+      "sha256": "902149ae41682ddb539feda6bbbab2e321f76296422ed1100723bf3bafea8212",
+      "size_bytes": 437
+    },
+    {
+      "path": "project/timeline.json",
+      "sha256": "5eaff1b0f050104aaf3f8f3a0d9a3110cbf738f534d0964c58022ca721601bd1",
+      "size_bytes": 3862
+    },
+    {
+      "path": "project/tsconfig.json",
+      "sha256": "522ac46763476439555ea8ebe67a503254cc22cc4799c22c6163fa9172949625",
+      "size_bytes": 315
+    },
+    {
+      "path": "review/acceptance.md",
+      "sha256": "20c4c26ee77089c2839fc890e6428a183a798b13aff401aaddb1e1ea6b7a6198",
+      "size_bytes": 3614
+    },
+    {
+      "path": "review/audio-metrics.json",
+      "sha256": "8cfd4fe2eeefcf15de41cdf492922ff8ac93eaaf0166c584ecf2f46c3031051e",
+      "size_bytes": 1413
+    },
+    {
+      "path": "review/boundary-frames/landscape-00000.jpg",
+      "sha256": "815f77515c812967de77a47ef8d8a4752469afdf8073275bfc1cb8ac27a1e4db",
+      "size_bytes": 9053
+    },
+    {
+      "path": "review/boundary-frames/landscape-01800.jpg",
+      "sha256": "97b9c5dd812315e0e0aa7bc7209cad9ec4da32063226564e64c62f11560bb71e",
+      "size_bytes": 7479
+    },
+    {
+      "path": "review/boundary-frames/landscape-03600.jpg",
+      "sha256": "daaca552a9087b75faf8df9826622c49ac19bb01f6af8ed2158f250a8ca446a5",
+      "size_bytes": 5105
+    },
+    {
+      "path": "review/boundary-frames/landscape-05400.jpg",
+      "sha256": "5c2ad4656348fa137bd887659295ad1d9933c6f4bfe21fd8eee5776eb5e6f524",
+      "size_bytes": 7299
+    },
+    {
+      "path": "review/boundary-frames/landscape-06245.jpg",
+      "sha256": "ff61d9f7fdcca32ac5232ac4e26d777879b04b215a2727ada4589428384703fe",
+      "size_bytes": 12331
+    },
+    {
+      "path": "review/boundary-frames/landscape-06900.jpg",
+      "sha256": "3a066eea276ec1fa5aab40dd59fd00f632867eac25a5c6af8107e070fd85b922",
+      "size_bytes": 5178
+    },
+    {
+      "path": "review/boundary-frames/landscape.json",
+      "sha256": "841b495a07c8e49444f5dfa010e696aee0562f7c6024f207fdda1e0b86f18227",
+      "size_bytes": 677
+    },
+    {
+      "path": "review/boundary-frames/portrait-00000.jpg",
+      "sha256": "6aff816b773ade4ff9b6e5a22730e931e0ca85f4b7d472057c15d38237088044",
+      "size_bytes": 20534
+    },
+    {
+      "path": "review/boundary-frames/portrait-00330.jpg",
+      "sha256": "3c48b7f854fad43c44e51065c65bfdc7a0429a24e91f01e51b454725e32046dc",
+      "size_bytes": 22166
+    },
+    {
+      "path": "review/boundary-frames/portrait-00840.jpg",
+      "sha256": "548ed91ec798ea24c00a031d3d3e13a924b5fe5b9347dbbfdf6aca83adbb61ed",
+      "size_bytes": 25014
+    },
+    {
+      "path": "review/boundary-frames/portrait-01800.jpg",
+      "sha256": "830cfedb3dacb6d9e95bafa7cd1ec0ac840f5c1bbb955dbe0a084c5aec302c39",
+      "size_bytes": 17679
+    },
+    {
+      "path": "review/boundary-frames/portrait-03600.jpg",
+      "sha256": "118ed9ff5ea890e7bd1777424338fc1b59d91a46293819e31d3edec80cf825f8",
+      "size_bytes": 13073
+    },
+    {
+      "path": "review/boundary-frames/portrait-05400.jpg",
+      "sha256": "7549043da2de2bc97b8aa37e03fed3f4c2cab3b297e819ddabde57563090b27b",
+      "size_bytes": 14255
+    },
+    {
+      "path": "review/boundary-frames/portrait-06245.jpg",
+      "sha256": "c500849f9abc09298c31e7b727fafc7a7ef7267231d080254d2dd8209acb008e",
+      "size_bytes": 30492
+    },
+    {
+      "path": "review/boundary-frames/portrait-06900.jpg",
+      "sha256": "ccd718eb9db33e72a6f4ba66e904cad24106033c375466aa9fd295b67628f204",
+      "size_bytes": 8713
+    },
+    {
+      "path": "review/boundary-frames/portrait.json",
+      "sha256": "c0c15f663b30fed50234d9cc93588acecb9c9e725356c902bffe85ea9ccc2e21",
+      "size_bytes": 2272
+    },
+    {
+      "path": "review/browser-player-qa.json",
+      "sha256": "1d88269c18831ddb730ff4e5579b4f1f5dad3568a4d6660c894292fcb368f77e",
+      "size_bytes": 1464
+    },
+    {
+      "path": "review/camera-regression-controlled.json",
+      "sha256": "36f99b152dbdb63221a6eb4b1692d3840144b705e598d166f951928e6940d509",
+      "size_bytes": 2809
+    },
+    {
+      "path": "review/camera-regression.json",
+      "sha256": "2c92b1d47ac218826406f494ee1e803d70ad3f8dd254d5a7a0710a5be883e198",
+      "size_bytes": 798
+    },
+    {
+      "path": "review/camera-regression/README.md",
+      "sha256": "07abb18fdc512ca98f297d084b8128a3a8a57a64b8104339983e919143c7604e",
+      "size_bytes": 769
+    },
+    {
+      "path": "review/camera-regression/landscape-camera-control.jpg",
+      "sha256": "52ab9a642ff0e28e4434da04563876688ce80fa8b291cbfd561c8b0675daf1df",
+      "size_bytes": 45046
+    },
+    {
+      "path": "review/camera-regression/portrait-camera-control.jpg",
+      "sha256": "49de4127b5e35af133958bb56f22182591cd8a1f8f70c02481841065dba5562a",
+      "size_bytes": 94984
+    },
+    {
+      "path": "review/encoded-frames/landscape-r02/landscape-contact-sheet.jpg",
+      "sha256": "b032ed8def1da89fd2f108df4cb543b909ea2ef95f7754cf28c632a8cbb2e659",
+      "size_bytes": 146658
+    },
+    {
+      "path": "review/encoded-frames/landscape-r02/phone-360px/phone-00.jpg",
+      "sha256": "5c273e8e381c6c1d096b5ef2becbaffcbfe57d47c118406f818b9a54fc405526",
+      "size_bytes": 9571
+    },
+    {
+      "path": "review/encoded-frames/landscape-r02/phone-360px/phone-01.jpg",
+      "sha256": "5316e492e882b1d6e3eec61778efb722bd15d4b7b60eefc90f3855d015e22c48",
+      "size_bytes": 9454
+    },
+    {
+      "path": "review/encoded-frames/landscape-r02/phone-360px/phone-02.jpg",
+      "sha256": "a699cac4980f07307de7aafa81f15239a8fd6e0d994cd7153895031825ba8460",
+      "size_bytes": 11242
+    },
+    {
+      "path": "review/encoded-frames/landscape-r02/phone-360px/phone-03.jpg",
+      "sha256": "5a36d5c85264e5389b26c4c058090b256dd80401d2bc40854721b4ac1da6c81b",
+      "size_bytes": 11394
+    },
+    {
+      "path": "review/encoded-frames/landscape-r02/phone-360px/phone-04.jpg",
+      "sha256": "ddc0fa814b6c586d959d8015dea43ae148d0dedd4405e188dd8cd7fd1df56771",
+      "size_bytes": 10803
+    },
+    {
+      "path": "review/encoded-frames/landscape-r02/phone-360px/phone-05.jpg",
+      "sha256": "17c04232a364b6c6e35d50ddbb8d721204850c0e0eef513dcc92fddc0ee0c82d",
+      "size_bytes": 8565
+    },
+    {
+      "path": "review/encoded-frames/landscape-r02/phone-360px/phone-06.jpg",
+      "sha256": "31c4f4b7399034bcf4ba91343e19bbd16763938fea62ba184d73bb9f47c08491",
+      "size_bytes": 6538
+    },
+    {
+      "path": "review/encoded-frames/landscape-r02/phone-360px/phone-07.jpg",
+      "sha256": "b566964a1ac01f4ec05af470d297f5ae01a2a6da63fd500405e4cdb9811b61b3",
+      "size_bytes": 10563
+    },
+    {
+      "path": "review/encoded-frames/landscape-r02/phone-360px/phone-08.jpg",
+      "sha256": "8174a076ff7e995c271900685b4411c43a853abfc311b61a315cfaea3fb3fee1",
+      "size_bytes": 11570
+    },
+    {
+      "path": "review/encoded-frames/landscape-r02/phone-360px/phone-09.jpg",
+      "sha256": "8eb1e1a671888b8047be591716da4fc32fdfcf69224eed17a7c309bd2a55b4bb",
+      "size_bytes": 12081
+    },
+    {
+      "path": "review/encoded-frames/landscape-r02/phone-360px/phone-10.jpg",
+      "sha256": "4857125a6d560c1c1c6b0ce30f5336bf8ae1f358bf413ed9965d4b8ec00c3a33",
+      "size_bytes": 12294
+    },
+    {
+      "path": "review/encoded-frames/landscape-r02/phone-360px/phone-11.jpg",
+      "sha256": "3fcefbadfdc778f9602df9a8df58a31a1d56408d6a11eaf7f17eb154758338a7",
+      "size_bytes": 9183
+    },
+    {
+      "path": "review/encoded-frames/landscape-r02/phone-360px/phone-12.jpg",
+      "sha256": "1340d47c310b56cb87d26b9d7da3d974299e55e1a45e8b87b367f251dfedf1f5",
+      "size_bytes": 868
+    },
+    {
+      "path": "review/encoded-frames/landscape/landscape-contact-sheet.jpg",
+      "sha256": "b032ed8def1da89fd2f108df4cb543b909ea2ef95f7754cf28c632a8cbb2e659",
+      "size_bytes": 146658
+    },
+    {
+      "path": "review/encoded-frames/landscape/phone-360px/phone-00.jpg",
+      "sha256": "5c273e8e381c6c1d096b5ef2becbaffcbfe57d47c118406f818b9a54fc405526",
+      "size_bytes": 9571
+    },
+    {
+      "path": "review/encoded-frames/landscape/phone-360px/phone-01.jpg",
+      "sha256": "5316e492e882b1d6e3eec61778efb722bd15d4b7b60eefc90f3855d015e22c48",
+      "size_bytes": 9454
+    },
+    {
+      "path": "review/encoded-frames/landscape/phone-360px/phone-02.jpg",
+      "sha256": "a699cac4980f07307de7aafa81f15239a8fd6e0d994cd7153895031825ba8460",
+      "size_bytes": 11242
+    },
+    {
+      "path": "review/encoded-frames/landscape/phone-360px/phone-03.jpg",
+      "sha256": "5a36d5c85264e5389b26c4c058090b256dd80401d2bc40854721b4ac1da6c81b",
+      "size_bytes": 11394
+    },
+    {
+      "path": "review/encoded-frames/landscape/phone-360px/phone-04.jpg",
+      "sha256": "ddc0fa814b6c586d959d8015dea43ae148d0dedd4405e188dd8cd7fd1df56771",
+      "size_bytes": 10803
+    },
+    {
+      "path": "review/encoded-frames/landscape/phone-360px/phone-05.jpg",
+      "sha256": "17c04232a364b6c6e35d50ddbb8d721204850c0e0eef513dcc92fddc0ee0c82d",
+      "size_bytes": 8565
+    },
+    {
+      "path": "review/encoded-frames/landscape/phone-360px/phone-06.jpg",
+      "sha256": "31c4f4b7399034bcf4ba91343e19bbd16763938fea62ba184d73bb9f47c08491",
+      "size_bytes": 6538
+    },
+    {
+      "path": "review/encoded-frames/landscape/phone-360px/phone-07.jpg",
+      "sha256": "b566964a1ac01f4ec05af470d297f5ae01a2a6da63fd500405e4cdb9811b61b3",
+      "size_bytes": 10563
+    },
+    {
+      "path": "review/encoded-frames/landscape/phone-360px/phone-08.jpg",
+      "sha256": "8174a076ff7e995c271900685b4411c43a853abfc311b61a315cfaea3fb3fee1",
+      "size_bytes": 11570
+    },
+    {
+      "path": "review/encoded-frames/landscape/phone-360px/phone-09.jpg",
+      "sha256": "8eb1e1a671888b8047be591716da4fc32fdfcf69224eed17a7c309bd2a55b4bb",
+      "size_bytes": 12081
+    },
+    {
+      "path": "review/encoded-frames/landscape/phone-360px/phone-10.jpg",
+      "sha256": "4857125a6d560c1c1c6b0ce30f5336bf8ae1f358bf413ed9965d4b8ec00c3a33",
+      "size_bytes": 12294
+    },
+    {
+      "path": "review/encoded-frames/landscape/phone-360px/phone-11.jpg",
+      "sha256": "3fcefbadfdc778f9602df9a8df58a31a1d56408d6a11eaf7f17eb154758338a7",
+      "size_bytes": 9183
+    },
+    {
+      "path": "review/encoded-frames/landscape/phone-360px/phone-12.jpg",
+      "sha256": "1340d47c310b56cb87d26b9d7da3d974299e55e1a45e8b87b367f251dfedf1f5",
+      "size_bytes": 868
+    },
+    {
+      "path": "review/encoded-frames/portrait-r02/phone-360px/phone-00.jpg",
+      "sha256": "adfec63d0474cc19df5eda24bd5c83fd0fbb1328601a744f2a355f2452d62c48",
+      "size_bytes": 22191
+    },
+    {
+      "path": "review/encoded-frames/portrait-r02/phone-360px/phone-01.jpg",
+      "sha256": "a7bc654f7535c19eca7756c9e217397c01190451c14e97a8896cc70dd0e0bf06",
+      "size_bytes": 23909
+    },
+    {
+      "path": "review/encoded-frames/portrait-r02/phone-360px/phone-02.jpg",
+      "sha256": "18e52efe0676274f7dac69c2888484ca93149bd742228fbae7a91939ec2e2fba",
+      "size_bytes": 26694
+    },
+    {
+      "path": "review/encoded-frames/portrait-r02/phone-360px/phone-03.jpg",
+      "sha256": "a80a25b42218dff59fde220c7484d3ee58d447898a8ccde12f5dbbaaf5af64b5",
+      "size_bytes": 27551
+    },
+    {
+      "path": "review/encoded-frames/portrait-r02/phone-360px/phone-04.jpg",
+      "sha256": "bff980e555cf072e5b4aab1746c406b67370fa972b6896ccfa2fafb1a750f17e",
+      "size_bytes": 27484
+    },
+    {
+      "path": "review/encoded-frames/portrait-r02/phone-360px/phone-05.jpg",
+      "sha256": "e3950bd07f2df7b0d1aba6d8b719b70071f99bd8f6b75f69701cb2858192066c",
+      "size_bytes": 22142
+    },
+    {
+      "path": "review/encoded-frames/portrait-r02/phone-360px/phone-06.jpg",
+      "sha256": "611d3bba02ebb85a26344eb6e60a34aacdeec79e44324e3b60e0e146082c5f30",
+      "size_bytes": 17715
+    },
+    {
+      "path": "review/encoded-frames/portrait-r02/phone-360px/phone-07.jpg",
+      "sha256": "3fcecc3eeeaf0924b16dd12af6a86b3732c514a3cdeb1e9a71267a56021ce824",
+      "size_bytes": 23075
+    },
+    {
+      "path": "review/encoded-frames/portrait-r02/phone-360px/phone-08.jpg",
+      "sha256": "632b9710e7ab571a0db95d4e077d0caec6b34f942eeed097279992c3ce9c9302",
+      "size_bytes": 24411
+    },
+    {
+      "path": "review/encoded-frames/portrait-r02/phone-360px/phone-09.jpg",
+      "sha256": "580e053128d39e094b049535ab877125cec997f9ca707c445f618db512f52561",
+      "size_bytes": 25484
+    },
+    {
+      "path": "review/encoded-frames/portrait-r02/phone-360px/phone-10.jpg",
+      "sha256": "5aa47c61a993ec746ff7760721d744b1e3d4602aefe5dff0cfa8aff1adad94da",
+      "size_bytes": 30473
+    },
+    {
+      "path": "review/encoded-frames/portrait-r02/phone-360px/phone-11.jpg",
+      "sha256": "557240153b8cd02ac532239512e1662452095c5f090f5a78c22b03d74beb717f",
+      "size_bytes": 24100
+    },
+    {
+      "path": "review/encoded-frames/portrait-r02/phone-360px/phone-12.jpg",
+      "sha256": "5fd8e1e9911f6c3aac7b4a9096434ad5ed16d1cd328d877eaea04d4f9f107326",
+      "size_bytes": 2279
+    },
+    {
+      "path": "review/encoded-frames/portrait-r02/portrait-contact-sheet.jpg",
+      "sha256": "8222a37616efffe49b48f40f32f239d83a7ba2a16c328c483fe788a6caab44a2",
+      "size_bytes": 340452
+    },
+    {
+      "path": "review/encoded-frames/portrait/phone-360px/phone-00.jpg",
+      "sha256": "545acd7399fca4749aa0cf02da3cb38e3b737fe0b4917af4a85ad64572f257b5",
+      "size_bytes": 22039
+    },
+    {
+      "path": "review/encoded-frames/portrait/phone-360px/phone-01.jpg",
+      "sha256": "34344b648c01cb033c957724c52ae41a235c358716d9ca51d1d2aa97910fc65c",
+      "size_bytes": 23954
+    },
+    {
+      "path": "review/encoded-frames/portrait/phone-360px/phone-02.jpg",
+      "sha256": "eccd4c1f82896e62602233eaf73265befc6a22d6c7e83325c030adbe2b1f7eb2",
+      "size_bytes": 26712
+    },
+    {
+      "path": "review/encoded-frames/portrait/phone-360px/phone-03.jpg",
+      "sha256": "04cd08ad7cd76cca6320b78ae2a0fab44f53ea3e96c598244ed92c7954647b12",
+      "size_bytes": 27529
+    },
+    {
+      "path": "review/encoded-frames/portrait/phone-360px/phone-04.jpg",
+      "sha256": "c1667e72f6a0f7848b074d5e44b78c81899243a3d277dda5e21fbde8d8a5662f",
+      "size_bytes": 27448
+    },
+    {
+      "path": "review/encoded-frames/portrait/phone-360px/phone-05.jpg",
+      "sha256": "9dddeb56b58498dd1f9569d411b055127371e95f1da5186607aa00ebed349611",
+      "size_bytes": 22158
+    },
+    {
+      "path": "review/encoded-frames/portrait/phone-360px/phone-06.jpg",
+      "sha256": "ce20984e1004ea3bcad8483780f2c84df2045f13e5ea021b668be7c2ef19518a",
+      "size_bytes": 17727
+    },
+    {
+      "path": "review/encoded-frames/portrait/phone-360px/phone-07.jpg",
+      "sha256": "f31e6a737d5c012e7c38df43fa07c2dbf5df996096897e01223b23a4d05038b8",
+      "size_bytes": 23130
+    },
+    {
+      "path": "review/encoded-frames/portrait/phone-360px/phone-08.jpg",
+      "sha256": "c364cb38e2a9d64dd63a130b0ef714e40f3dcac071fd44a0e0f986635c302ba8",
+      "size_bytes": 24406
+    },
+    {
+      "path": "review/encoded-frames/portrait/phone-360px/phone-09.jpg",
+      "sha256": "90dcad4e67bfd7335f632e665034ebbe02b8dd1c2efea761a4993e02d4cb99a3",
+      "size_bytes": 25484
+    },
+    {
+      "path": "review/encoded-frames/portrait/phone-360px/phone-10.jpg",
+      "sha256": "8cbeeef0fe4adc5e89594ae2d817dcf667024ab691e78c0384b766aaa2f3843a",
+      "size_bytes": 30503
+    },
+    {
+      "path": "review/encoded-frames/portrait/phone-360px/phone-11.jpg",
+      "sha256": "1ed255b28a1a8e7f5419f722fd60701f29bcab7d366af3754b1ff989f3b9fe91",
+      "size_bytes": 24127
+    },
+    {
+      "path": "review/encoded-frames/portrait/phone-360px/phone-12.jpg",
+      "sha256": "332c0b7a0d965a00a005d921957142597dc68b31914beffd74ac4aaaee39d75e",
+      "size_bytes": 2280
+    },
+    {
+      "path": "review/encoded-frames/portrait/portrait-contact-sheet.jpg",
+      "sha256": "2954c20382232cf05d7c7079807a89776ea12bbf03a20ab47440d0598e4ddeac",
+      "size_bytes": 340708
+    },
+    {
+      "path": "review/encoded-qa-summary-r02.json",
+      "sha256": "95511745b55c523f494e98f86349f46f3c97c3bcc1414b6f848c3d2d14fb78ee",
+      "size_bytes": 15976
+    },
+    {
+      "path": "review/encoded-qa-summary.json",
+      "sha256": "6f17c3184f814efabb84c189363cc6ea15b012b65a4550626232e9c968d79949",
+      "size_bytes": 15760
+    },
+    {
+      "path": "review/iterations/landscape-first-pass/render-settings.json",
+      "sha256": "d196e1432eeb3ee9d7c4855c7068f88681fca0996432e87a9108b25f4a008538",
+      "size_bytes": 2450
+    },
+    {
+      "path": "review/iterations/portrait-first-pass/audio-metrics.json",
+      "sha256": "f47dcb543f042d1edc96b66713689aebf1b946ace92bdded93a4fa2a06c3b5f6",
+      "size_bytes": 878
+    },
+    {
+      "path": "review/media-validation-20261019T053037.988483Z.json",
+      "sha256": "4b17f466a015d7773ff9af67cd6784dfb8010b8842730ab2ef5609dd3c9a1186",
+      "size_bytes": 327
+    },
+    {
+      "path": "review/media-validation-20261019T054407.600741Z.json",
+      "sha256": "9a3dbb4923c30c9c1227a9f7967be7627736c97f09994c9eeadb9054530d965c",
+      "size_bytes": 327
+    },
+    {
+      "path": "review/media-validation-20261019T064155.024828Z.json",
+      "sha256": "93f9075c70757a0c43ce92d55b7f21c097b5853690619902268f9024d3ab50d6",
+      "size_bytes": 4659
+    },
+    {
+      "path": "review/media-validation-20261019T065943.319808Z.json",
+      "sha256": "138ca64621101cc1b80009021339d73ea7c3d022e0e3f71eb14c728b1dd9635f",
+      "size_bytes": 4659
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/landscape/contact-sheets/page-01.jpg",
+      "sha256": "1651618678b823478cc197fd989cc701d0573be9f6f35e1241b4aa967e88354b",
+      "size_bytes": 63900
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/landscape/contact-sheets/page-02.jpg",
+      "sha256": "a4a63f8594d188df12e7ebf8b13a42082e153a7eed0e27ddc5cd44aad560ff24",
+      "size_bytes": 66122
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/landscape/contact-sheets/page-03.jpg",
+      "sha256": "0d7b04aa027470b018c5e99a9d77102ba06390580133c0fc2b2f3d9e40d85006",
+      "size_bytes": 42065
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/landscape/contact-sheets/page-04.jpg",
+      "sha256": "0483171a09496df4a57c31d147d569023a06c508a14f351af6c181af7dc0f956",
+      "size_bytes": 78584
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/landscape/contact-sheets/page-05.jpg",
+      "sha256": "62466dfa7ea73aba1c1bdaab4861cb7cd6723fd0b6bd55bf1d584e68f7c3f617",
+      "size_bytes": 34521
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/landscape/frames/frame-00180.jpg",
+      "sha256": "256b7524d1a7fdd5c9f9bf3b92ebded567e015e83431e72fe1f1587e808e1fab",
+      "size_bytes": 10084
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/landscape/frames/frame-00330.jpg",
+      "sha256": "eb634b325ce9b2791d0b3e85a8616fa5910088e1dab5dba39b890c6fd0144426",
+      "size_bytes": 9575
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/landscape/frames/frame-00690.jpg",
+      "sha256": "078e7be54e425da129f141a6400d4b44d9b219e3b1514816ec374a47914ad4d5",
+      "size_bytes": 9586
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/landscape/frames/frame-00840.jpg",
+      "sha256": "ce3fff118ecd9f12fca51e2d4f77c0631793c1cfb81bce620d9de461c6c2670a",
+      "size_bytes": 9489
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/landscape/frames/frame-01020.jpg",
+      "sha256": "a4920921fd07f081521b7852b509b5a2a7a8c2397be875898cb843737f598499",
+      "size_bytes": 9498
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/landscape/frames/frame-01170.jpg",
+      "sha256": "ae4ebe45d72f6001c29515aa88fec89c0b410bb0158a8bd3be83a164df1b2daa",
+      "size_bytes": 8450
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/landscape/frames/frame-01350.jpg",
+      "sha256": "e3b4a6b36a7a2aaa8bb38807373cc07e86e86e5eeb8184d1c885596c9344e545",
+      "size_bytes": 11325
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/landscape/frames/frame-01500.jpg",
+      "sha256": "a699cac4980f07307de7aafa81f15239a8fd6e0d994cd7153895031825ba8460",
+      "size_bytes": 11242
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/landscape/frames/frame-02010.jpg",
+      "sha256": "3417a2e11352703e0b38cecf0055e9f666293c63987f8b11c45de46e7ff28013",
+      "size_bytes": 12174
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/landscape/frames/frame-02160.jpg",
+      "sha256": "62332ad504dfc8a69b71a7c29cc525210e6c0329d172e30523d140e73746ac3c",
+      "size_bytes": 11393
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/landscape/frames/frame-02370.jpg",
+      "sha256": "aef7a41d2fad76f6c6a53d618fa2f2aa8abc6dd68be091fe1709aad9b7c6adca",
+      "size_bytes": 9202
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/landscape/frames/frame-02520.jpg",
+      "sha256": "f9aba91f67d395ea24ab2c3cc0a52994ffe57307281584a299a61b845c32f51b",
+      "size_bytes": 8338
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/landscape/frames/frame-02820.jpg",
+      "sha256": "b3539801124adf130bafbe66c9b949f5b03e0ed4c118e8f905aef9019104e99d",
+      "size_bytes": 10424
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/landscape/frames/frame-02970.jpg",
+      "sha256": "dfaf6eebe9612e1097694aaf17c0558155a93e7fd07e8ff7a6a768327b71fa10",
+      "size_bytes": 10616
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/landscape/frames/frame-03270.jpg",
+      "sha256": "3fe8e2d076006ab38aa4b2bbb8cd183b3bc4783ee841b2eda75029ba494fc31f",
+      "size_bytes": 9697
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/landscape/frames/frame-03420.jpg",
+      "sha256": "c7129b95ce42427404c0eae75d7c245bc468562a82ad3fb5e2e3f993390d646e",
+      "size_bytes": 9568
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/landscape/frames/frame-03780.jpg",
+      "sha256": "3f482aa9d710c14d22504da5f793c1cbb1a859b6ee2a6c613029ddb8634c8ad3",
+      "size_bytes": 8428
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/landscape/frames/frame-03930.jpg",
+      "sha256": "c95b3e723b0055a9a6bdd4c602ffa93c71737e84a78d0e693d49d2543d43d2ab",
+      "size_bytes": 8575
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/landscape/frames/frame-04200.jpg",
+      "sha256": "fa09f87ba7c024ad8c722a9ad6905dfa9b14a2593d3bdd69ff3c04db31347c46",
+      "size_bytes": 5230
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/landscape/frames/frame-04350.jpg",
+      "sha256": "bfa327bb9ee35f80ed223a5161854ba4bd88cc2e6da9760b437ec5bb3b6bf579",
+      "size_bytes": 5277
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/landscape/frames/frame-04590.jpg",
+      "sha256": "7b2fc931fc44b89ff4280bb3dc758f0f1151cb7f1f653f9c47e3c24d96346b05",
+      "size_bytes": 6081
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/landscape/frames/frame-04740.jpg",
+      "sha256": "94388b258212a664460584bfd1da6d86eb0dc60197a8c51062ba0921f336cf5e",
+      "size_bytes": 6144
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/landscape/frames/frame-05100.jpg",
+      "sha256": "3765987cf0fdd584ff50b581a3fdf8c3ab4355ec064834db19e824b0e28a326f",
+      "size_bytes": 6565
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/landscape/frames/frame-05250.jpg",
+      "sha256": "6ca55f0607e83b7c2a045294e8284e6981e0ec5ddc05509f573ca799eb131177",
+      "size_bytes": 5442
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/landscape/frames/frame-05460.jpg",
+      "sha256": "f9981d110ca05317e2419e39e5ae0b83ef4223f52509267293a39f29ea548349",
+      "size_bytes": 13698
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/landscape/frames/frame-05610.jpg",
+      "sha256": "bbe69a41b497dd06a74cf1efc7e6ac969812cb9b6f0c5a0b391eda443ace8af6",
+      "size_bytes": 13578
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/landscape/frames/frame-05820.jpg",
+      "sha256": "f7ad1c893e30edf990a3397a2906560be341946ba240636589cdffa08636f43d",
+      "size_bytes": 11949
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/landscape/frames/frame-05970.jpg",
+      "sha256": "1e6496f8ceb221b0e1650a3bdc5d1ce2dbd686cc9c82c1d9d1bfcbe65f910c96",
+      "size_bytes": 11292
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/landscape/frames/frame-06090.jpg",
+      "sha256": "1854a4a3d090015ac729a58ee93efda2bc1b78a3cdd67f6a9813ad31e501bc36",
+      "size_bytes": 12156
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/landscape/frames/frame-06240.jpg",
+      "sha256": "3caa20dd3177cfe889681bb950a978a7d563d99e3302878e7ea9a575d62cc5f8",
+      "size_bytes": 12090
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/landscape/frames/frame-06390.jpg",
+      "sha256": "eb173e89ca623e58c8ce03a3777d7faf4e64792b2aedb793d34dc50ec98711b4",
+      "size_bytes": 12337
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/landscape/frames/frame-06540.jpg",
+      "sha256": "7909b192924e238ed66b97e58f749cef6d4f70deb7576ffc7a194d47111e0dc9",
+      "size_bytes": 11822
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/landscape/frames/frame-06660.jpg",
+      "sha256": "43478fa3cf69b87fb3a34a6fd2b492e8ddde5dedb35b13712f2ce49948bed54c",
+      "size_bytes": 11656
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/landscape/frames/frame-06810.jpg",
+      "sha256": "0a8de03e8deba119fb0ae5aacd30bfee15a33f4c3b39e8d36c19fe6d3fd855d2",
+      "size_bytes": 10715
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/landscape/frames/frame-06960.jpg",
+      "sha256": "2a21ac3f7e9143e48e1cd88ca056df73aac8199f4ba2bfb04cfbb10ffb8ad3a0",
+      "size_bytes": 10425
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/landscape/frames/frame-07110.jpg",
+      "sha256": "c4370da1c96cef7232f03448be78c5eb26bf88534483937c4265f739f5682aa6",
+      "size_bytes": 9120
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/motion-evidence.json",
+      "sha256": "3d0aef417fcd7abd470a652976cb645faa14fc4760ed5979751d51c8c84b0329",
+      "size_bytes": 51418
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/portrait/contact-sheets/page-01.jpg",
+      "sha256": "baa607a8ec85327374a6f35570291df40c87cc0a43f0ccfcd1f496f9a0edd7cd",
+      "size_bytes": 163152
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/portrait/contact-sheets/page-02.jpg",
+      "sha256": "40e46d07274fa3223fcb76d4d981aa312ba95f84b4645828861d79d781a3d31d",
+      "size_bytes": 167903
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/portrait/contact-sheets/page-03.jpg",
+      "sha256": "3df3f8495e4edfc0ea2e7b5f589c588495829c250b9b5b1ce356cf0a57be26c8",
+      "size_bytes": 112516
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/portrait/contact-sheets/page-04.jpg",
+      "sha256": "97ef8c65ba12bd8e5487d5c070dac7aeb8d9554c5330b2b1822c413980c85070",
+      "size_bytes": 188827
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/portrait/contact-sheets/page-05.jpg",
+      "sha256": "3d81663faae54b23c0877cc7615838aa44f39dace4a6abe4514088850b0f60b5",
+      "size_bytes": 87836
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/portrait/frames/frame-00180.jpg",
+      "sha256": "33ffe351e094bfeadba51e8f6e8b26c89f785215ab60608ba52774038dc809ed",
+      "size_bytes": 23251
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/portrait/frames/frame-00330.jpg",
+      "sha256": "3c48b7f854fad43c44e51065c65bfdc7a0429a24e91f01e51b454725e32046dc",
+      "size_bytes": 22166
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/portrait/frames/frame-00690.jpg",
+      "sha256": "28d6503b04ea4309d81ac0211538d0b6de95f9fab54a293950256823c9a4839c",
+      "size_bytes": 24924
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/portrait/frames/frame-00840.jpg",
+      "sha256": "548ed91ec798ea24c00a031d3d3e13a924b5fe5b9347dbbfdf6aca83adbb61ed",
+      "size_bytes": 25014
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/portrait/frames/frame-01020.jpg",
+      "sha256": "eaff38e65b90d0e5244fc7048596f8dd7f43a6cbada8a525060a8e8b08055520",
+      "size_bytes": 23903
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/portrait/frames/frame-01170.jpg",
+      "sha256": "703bc52038b64e34afc3839afb9e8cceb637ec7d17eedb3bf8a61cb180236155",
+      "size_bytes": 20695
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/portrait/frames/frame-01350.jpg",
+      "sha256": "8d972a10f06abb673a60551f017d83e29beb3359d84f0188ec6ee6ebe1a07d40",
+      "size_bytes": 26758
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/portrait/frames/frame-01500.jpg",
+      "sha256": "18e52efe0676274f7dac69c2888484ca93149bd742228fbae7a91939ec2e2fba",
+      "size_bytes": 26694
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/portrait/frames/frame-02010.jpg",
+      "sha256": "b90292dda796f2785e235478d1abb7876f2cf88f367612e73f5bab736a86a23e",
+      "size_bytes": 29488
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/portrait/frames/frame-02160.jpg",
+      "sha256": "dfdee1dea9040bfafc2bf1d4a37ab9960ee7504a25cee84cd967b43ed7394c2a",
+      "size_bytes": 27677
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/portrait/frames/frame-02370.jpg",
+      "sha256": "413c424f7951d93da86d852ea222fb2d1c62da401d6cc5779cf50aa3f55322dd",
+      "size_bytes": 22583
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/portrait/frames/frame-02520.jpg",
+      "sha256": "770d5ffd77e5223a19ce5bf025a340a82ba261a357669cd3703d0da932655757",
+      "size_bytes": 19061
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/portrait/frames/frame-02820.jpg",
+      "sha256": "8a96abd107cc0f9343c0c5f22553386d63dea68fc0de40d2f13f4a0286088fdc",
+      "size_bytes": 26323
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/portrait/frames/frame-02970.jpg",
+      "sha256": "a9f61e76a0a9daf97370988630cffe7d7323344d39e03340946a0ab78ffddc9a",
+      "size_bytes": 27098
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/portrait/frames/frame-03270.jpg",
+      "sha256": "66fbf917e39da58c9b7ad4ccb08617853c6b5a2bfe52df9c787913b68132a727",
+      "size_bytes": 23392
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/portrait/frames/frame-03420.jpg",
+      "sha256": "7b8b93292e48a57c0a9c12b3d389ea84407acfb9355dd677ae69567a717e3a39",
+      "size_bytes": 23104
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/portrait/frames/frame-03780.jpg",
+      "sha256": "dec823a0541e0f541044d82b61dfa981571247f6ec174986a290e8e8a8ef5637",
+      "size_bytes": 21885
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/portrait/frames/frame-03930.jpg",
+      "sha256": "a9028618c5e50256b577d3196ee30a2601124e0f83275d9d25cb18b43fbe2ef4",
+      "size_bytes": 21998
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/portrait/frames/frame-04200.jpg",
+      "sha256": "d5b68d7c2a477447d7c51ba3fd011c2458a9a65be8d84ba271abab3f3b3d9a4b",
+      "size_bytes": 13040
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/portrait/frames/frame-04350.jpg",
+      "sha256": "cc42c6e66aecf61dc740f1de6fd2f5ec3b5c3d67023e0aa650a20b628d9e4b2a",
+      "size_bytes": 13114
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/portrait/frames/frame-04590.jpg",
+      "sha256": "78cbc3b33e898bb8ce6e3a3a7b867d90c102a466d2600149677a5a7ee552e5f0",
+      "size_bytes": 16078
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/portrait/frames/frame-04740.jpg",
+      "sha256": "aa4d68c6953f2ff5f7aef8f225c120aced427ddc62dd2d185ad5c7a076d37d0c",
+      "size_bytes": 16092
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/portrait/frames/frame-05100.jpg",
+      "sha256": "6cc24192a6d291a2a3c69add89882e9233720bee4d75483740e42e4ad5dd8dd6",
+      "size_bytes": 17733
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/portrait/frames/frame-05250.jpg",
+      "sha256": "fbda41fd7f1b85b3a766952dec631a5c3ef727afdce7cecf2de7fbde04eeed9c",
+      "size_bytes": 13437
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/portrait/frames/frame-05460.jpg",
+      "sha256": "6a217144acff3adde4425b372f681e5a3181ce64286e93c6d21a50cff065b114",
+      "size_bytes": 27969
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/portrait/frames/frame-05610.jpg",
+      "sha256": "5cdd95e13022aaf9b019c9ad58d49a13a972f58471659907f4bc165dc79ce51f",
+      "size_bytes": 28584
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/portrait/frames/frame-05820.jpg",
+      "sha256": "70d348402fb1cb8d81b639d87facf7b7695945f5128684d9c5fec8e8f10876c6",
+      "size_bytes": 25598
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/portrait/frames/frame-05970.jpg",
+      "sha256": "bc8e0d013daf591a5362e5f3afc656c6be686bf431178f669f096a094a18fcb4",
+      "size_bytes": 24470
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/portrait/frames/frame-06090.jpg",
+      "sha256": "90519bc10c12f80fdf3fa85d9745b9431c9aaf17a668f0ad18009fe1898f29f4",
+      "size_bytes": 30162
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/portrait/frames/frame-06240.jpg",
+      "sha256": "a9a63e7402d2b5cc3c865581faa2835f77eef033a1740c6701f57a2fda6be026",
+      "size_bytes": 30010
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/portrait/frames/frame-06390.jpg",
+      "sha256": "e285471bd3a80c1db473cd8abc1fb02f5270c1f8b50706978e525936b6c8d3a2",
+      "size_bytes": 30399
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/portrait/frames/frame-06540.jpg",
+      "sha256": "9ad57b4b361f56aa8efa2112f3d5b13a51209c1c6079bd3e5222e37f4ac1c143",
+      "size_bytes": 28707
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/portrait/frames/frame-06660.jpg",
+      "sha256": "ffb015b152765d9d2234468b3b38fda187977126dbe1ebd35f4aca3169bd6c4b",
+      "size_bytes": 28576
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/portrait/frames/frame-06810.jpg",
+      "sha256": "21e1b0aa06d3c686081a6b9e9cf643be67e2bd6947ea611078622a8050569b7c",
+      "size_bytes": 26296
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/portrait/frames/frame-06960.jpg",
+      "sha256": "796f82b53e4bd1c97799d1db8e1a1a2b29ba22c1aa5c58972cfc405dd2221353",
+      "size_bytes": 24864
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x1fbe8b12d4-r01/portrait/frames/frame-07110.jpg",
+      "sha256": "cb3332486075053b8d930f061ee5b494a7bf091218836366adc16e30e2c06984",
+      "size_bytes": 24121
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/landscape/contact-sheets/page-01.jpg",
+      "sha256": "1651618678b823478cc197fd989cc701d0573be9f6f35e1241b4aa967e88354b",
+      "size_bytes": 63900
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/landscape/contact-sheets/page-02.jpg",
+      "sha256": "a4a63f8594d188df12e7ebf8b13a42082e153a7eed0e27ddc5cd44aad560ff24",
+      "size_bytes": 66122
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/landscape/contact-sheets/page-03.jpg",
+      "sha256": "0d7b04aa027470b018c5e99a9d77102ba06390580133c0fc2b2f3d9e40d85006",
+      "size_bytes": 42065
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/landscape/contact-sheets/page-04.jpg",
+      "sha256": "0483171a09496df4a57c31d147d569023a06c508a14f351af6c181af7dc0f956",
+      "size_bytes": 78584
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/landscape/contact-sheets/page-05.jpg",
+      "sha256": "62466dfa7ea73aba1c1bdaab4861cb7cd6723fd0b6bd55bf1d584e68f7c3f617",
+      "size_bytes": 34521
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/landscape/frames/frame-00180.jpg",
+      "sha256": "256b7524d1a7fdd5c9f9bf3b92ebded567e015e83431e72fe1f1587e808e1fab",
+      "size_bytes": 10084
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/landscape/frames/frame-00330.jpg",
+      "sha256": "eb634b325ce9b2791d0b3e85a8616fa5910088e1dab5dba39b890c6fd0144426",
+      "size_bytes": 9575
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/landscape/frames/frame-00690.jpg",
+      "sha256": "078e7be54e425da129f141a6400d4b44d9b219e3b1514816ec374a47914ad4d5",
+      "size_bytes": 9586
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/landscape/frames/frame-00840.jpg",
+      "sha256": "ce3fff118ecd9f12fca51e2d4f77c0631793c1cfb81bce620d9de461c6c2670a",
+      "size_bytes": 9489
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/landscape/frames/frame-01020.jpg",
+      "sha256": "a4920921fd07f081521b7852b509b5a2a7a8c2397be875898cb843737f598499",
+      "size_bytes": 9498
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/landscape/frames/frame-01170.jpg",
+      "sha256": "ae4ebe45d72f6001c29515aa88fec89c0b410bb0158a8bd3be83a164df1b2daa",
+      "size_bytes": 8450
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/landscape/frames/frame-01350.jpg",
+      "sha256": "e3b4a6b36a7a2aaa8bb38807373cc07e86e86e5eeb8184d1c885596c9344e545",
+      "size_bytes": 11325
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/landscape/frames/frame-01500.jpg",
+      "sha256": "a699cac4980f07307de7aafa81f15239a8fd6e0d994cd7153895031825ba8460",
+      "size_bytes": 11242
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/landscape/frames/frame-02010.jpg",
+      "sha256": "3417a2e11352703e0b38cecf0055e9f666293c63987f8b11c45de46e7ff28013",
+      "size_bytes": 12174
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/landscape/frames/frame-02160.jpg",
+      "sha256": "62332ad504dfc8a69b71a7c29cc525210e6c0329d172e30523d140e73746ac3c",
+      "size_bytes": 11393
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/landscape/frames/frame-02370.jpg",
+      "sha256": "aef7a41d2fad76f6c6a53d618fa2f2aa8abc6dd68be091fe1709aad9b7c6adca",
+      "size_bytes": 9202
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/landscape/frames/frame-02520.jpg",
+      "sha256": "f9aba91f67d395ea24ab2c3cc0a52994ffe57307281584a299a61b845c32f51b",
+      "size_bytes": 8338
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/landscape/frames/frame-02820.jpg",
+      "sha256": "b3539801124adf130bafbe66c9b949f5b03e0ed4c118e8f905aef9019104e99d",
+      "size_bytes": 10424
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/landscape/frames/frame-02970.jpg",
+      "sha256": "dfaf6eebe9612e1097694aaf17c0558155a93e7fd07e8ff7a6a768327b71fa10",
+      "size_bytes": 10616
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/landscape/frames/frame-03270.jpg",
+      "sha256": "3fe8e2d076006ab38aa4b2bbb8cd183b3bc4783ee841b2eda75029ba494fc31f",
+      "size_bytes": 9697
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/landscape/frames/frame-03420.jpg",
+      "sha256": "c7129b95ce42427404c0eae75d7c245bc468562a82ad3fb5e2e3f993390d646e",
+      "size_bytes": 9568
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/landscape/frames/frame-03780.jpg",
+      "sha256": "3f482aa9d710c14d22504da5f793c1cbb1a859b6ee2a6c613029ddb8634c8ad3",
+      "size_bytes": 8428
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/landscape/frames/frame-03930.jpg",
+      "sha256": "c95b3e723b0055a9a6bdd4c602ffa93c71737e84a78d0e693d49d2543d43d2ab",
+      "size_bytes": 8575
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/landscape/frames/frame-04200.jpg",
+      "sha256": "fa09f87ba7c024ad8c722a9ad6905dfa9b14a2593d3bdd69ff3c04db31347c46",
+      "size_bytes": 5230
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/landscape/frames/frame-04350.jpg",
+      "sha256": "bfa327bb9ee35f80ed223a5161854ba4bd88cc2e6da9760b437ec5bb3b6bf579",
+      "size_bytes": 5277
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/landscape/frames/frame-04590.jpg",
+      "sha256": "7b2fc931fc44b89ff4280bb3dc758f0f1151cb7f1f653f9c47e3c24d96346b05",
+      "size_bytes": 6081
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/landscape/frames/frame-04740.jpg",
+      "sha256": "94388b258212a664460584bfd1da6d86eb0dc60197a8c51062ba0921f336cf5e",
+      "size_bytes": 6144
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/landscape/frames/frame-05100.jpg",
+      "sha256": "3765987cf0fdd584ff50b581a3fdf8c3ab4355ec064834db19e824b0e28a326f",
+      "size_bytes": 6565
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/landscape/frames/frame-05250.jpg",
+      "sha256": "6ca55f0607e83b7c2a045294e8284e6981e0ec5ddc05509f573ca799eb131177",
+      "size_bytes": 5442
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/landscape/frames/frame-05460.jpg",
+      "sha256": "f9981d110ca05317e2419e39e5ae0b83ef4223f52509267293a39f29ea548349",
+      "size_bytes": 13698
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/landscape/frames/frame-05610.jpg",
+      "sha256": "bbe69a41b497dd06a74cf1efc7e6ac969812cb9b6f0c5a0b391eda443ace8af6",
+      "size_bytes": 13578
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/landscape/frames/frame-05820.jpg",
+      "sha256": "f7ad1c893e30edf990a3397a2906560be341946ba240636589cdffa08636f43d",
+      "size_bytes": 11949
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/landscape/frames/frame-05970.jpg",
+      "sha256": "1e6496f8ceb221b0e1650a3bdc5d1ce2dbd686cc9c82c1d9d1bfcbe65f910c96",
+      "size_bytes": 11292
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/landscape/frames/frame-06090.jpg",
+      "sha256": "1854a4a3d090015ac729a58ee93efda2bc1b78a3cdd67f6a9813ad31e501bc36",
+      "size_bytes": 12156
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/landscape/frames/frame-06240.jpg",
+      "sha256": "3caa20dd3177cfe889681bb950a978a7d563d99e3302878e7ea9a575d62cc5f8",
+      "size_bytes": 12090
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/landscape/frames/frame-06390.jpg",
+      "sha256": "eb173e89ca623e58c8ce03a3777d7faf4e64792b2aedb793d34dc50ec98711b4",
+      "size_bytes": 12337
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/landscape/frames/frame-06540.jpg",
+      "sha256": "7909b192924e238ed66b97e58f749cef6d4f70deb7576ffc7a194d47111e0dc9",
+      "size_bytes": 11822
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/landscape/frames/frame-06660.jpg",
+      "sha256": "43478fa3cf69b87fb3a34a6fd2b492e8ddde5dedb35b13712f2ce49948bed54c",
+      "size_bytes": 11656
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/landscape/frames/frame-06810.jpg",
+      "sha256": "0a8de03e8deba119fb0ae5aacd30bfee15a33f4c3b39e8d36c19fe6d3fd855d2",
+      "size_bytes": 10715
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/landscape/frames/frame-06960.jpg",
+      "sha256": "2a21ac3f7e9143e48e1cd88ca056df73aac8199f4ba2bfb04cfbb10ffb8ad3a0",
+      "size_bytes": 10425
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/landscape/frames/frame-07110.jpg",
+      "sha256": "c4370da1c96cef7232f03448be78c5eb26bf88534483937c4265f739f5682aa6",
+      "size_bytes": 9120
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/motion-evidence.json",
+      "sha256": "c926209a31f2e7528609f0212db8ccf86c1589d8c32baba9cd8119f197c8c946",
+      "size_bytes": 51417
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/portrait/contact-sheets/page-01.jpg",
+      "sha256": "a96a7b98bb3dc64dfb29ef0842dd28bb41b46d97382071ae9799c7f90182a953",
+      "size_bytes": 162823
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/portrait/contact-sheets/page-02.jpg",
+      "sha256": "e1651739230b1e039164c7fe21ec3d74af509ce3ce2bf83af854fa682541bced",
+      "size_bytes": 167955
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/portrait/contact-sheets/page-03.jpg",
+      "sha256": "171c187c94ec009a126e2a424f4ebd35da758ed86bfa111f0d24f7b8019526c7",
+      "size_bytes": 112445
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/portrait/contact-sheets/page-04.jpg",
+      "sha256": "7447b427981808a479aac6f187a3559614cc170ded190acb7822a40ceb79f8f3",
+      "size_bytes": 188642
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/portrait/contact-sheets/page-05.jpg",
+      "sha256": "8316b59b2834c2a5c59281cb23f38bf9a0e834d81da14ba07d734ae900c9a265",
+      "size_bytes": 87906
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/portrait/frames/frame-00180.jpg",
+      "sha256": "80ded4634e5286921e6ad9d5c671ac1b42b570598d46f3b448067a497ee5c14b",
+      "size_bytes": 23276
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/portrait/frames/frame-00330.jpg",
+      "sha256": "263d242bb29fe639f4190de645ec18f33846b5420f6aa8ede257a95f8b5128b6",
+      "size_bytes": 22029
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/portrait/frames/frame-00690.jpg",
+      "sha256": "3a65916e3905b4a215b79da288df5ec6f843f1e125c7bc0f1f808ee681325e5f",
+      "size_bytes": 24904
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/portrait/frames/frame-00840.jpg",
+      "sha256": "33223905a80ba1b0e539dad1f01f7f8f5c22cb26d7e50dbd76f4ed1ecd2a176a",
+      "size_bytes": 24857
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/portrait/frames/frame-01020.jpg",
+      "sha256": "822b5a608e1ec781ba19965fbae57c03b81d77804b0ad88cdb8e81bc39e22491",
+      "size_bytes": 23883
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/portrait/frames/frame-01170.jpg",
+      "sha256": "2be3db7168c96d66cc8a113965f390cd0de58b8c3ce8be52c23945814901afe2",
+      "size_bytes": 20497
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/portrait/frames/frame-01350.jpg",
+      "sha256": "91ce415c8c280773e892074f2b17e66fb004bd35752ecd7fe8d6bcddd7fdeb93",
+      "size_bytes": 26813
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/portrait/frames/frame-01500.jpg",
+      "sha256": "eccd4c1f82896e62602233eaf73265befc6a22d6c7e83325c030adbe2b1f7eb2",
+      "size_bytes": 26712
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/portrait/frames/frame-02010.jpg",
+      "sha256": "fe9a538c4e3a45a691a24d1dc28dae09337d426fffa8b647e58e7b65da6b0e83",
+      "size_bytes": 29480
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/portrait/frames/frame-02160.jpg",
+      "sha256": "e990abd97f77c6d987a2a8d7e583e45d0307e824643575ebbcec99d344ff7929",
+      "size_bytes": 27700
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/portrait/frames/frame-02370.jpg",
+      "sha256": "340077a88062cea5b34a847bb839a1b43c76cd2a0f4246e93d63d4972772d044",
+      "size_bytes": 22620
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/portrait/frames/frame-02520.jpg",
+      "sha256": "dba6cca2e7ce1ce11f50b55717710ad42285ee3df4413f25c4ca0ef1f34777c9",
+      "size_bytes": 19095
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/portrait/frames/frame-02820.jpg",
+      "sha256": "4ca84d8a490e28e7a5147bbcf6a5f6d97cacf35629736a3152a9143cbfeafd3f",
+      "size_bytes": 26295
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/portrait/frames/frame-02970.jpg",
+      "sha256": "b6d0ed58eea2541ae64f5fd82ff8ed2f34712598c8a2d7b1f76674da37fc987d",
+      "size_bytes": 27089
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/portrait/frames/frame-03270.jpg",
+      "sha256": "eaf63ec9896b3c513fd19243f76311a70b9a9be19d9cb6d3fcfce4536674f386",
+      "size_bytes": 23341
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/portrait/frames/frame-03420.jpg",
+      "sha256": "d6706762ac25eea7e9bb7eacfa25abb1baf41a9b00c0b60f52c8ca3889bd5ec6",
+      "size_bytes": 23100
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/portrait/frames/frame-03780.jpg",
+      "sha256": "1ae3b4ce9db9647f25ad350d2f13e4eacfcd112eae91ba81d3da26394a0cfe16",
+      "size_bytes": 21897
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/portrait/frames/frame-03930.jpg",
+      "sha256": "e6abb78772d2c350288dfb435f887eb0caf9c781dbca78ecf25fb3e22f69f089",
+      "size_bytes": 21973
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/portrait/frames/frame-04200.jpg",
+      "sha256": "9426f889f5690e3ba05d2baf99cbb04d4a86f2deb4006f9711f379f0967cc147",
+      "size_bytes": 13055
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/portrait/frames/frame-04350.jpg",
+      "sha256": "2f86cb1736357baa4af550c2fba2121202cdc8b890648209f7de4011d220481d",
+      "size_bytes": 13113
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/portrait/frames/frame-04590.jpg",
+      "sha256": "3e0e756404f0e7850cc091afa61e4130b3c7b61440962a1a7067a364100cf85b",
+      "size_bytes": 16091
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/portrait/frames/frame-04740.jpg",
+      "sha256": "4545e4881504dfdecfbf68ef51a2fae0fb2fcbe534631723f67dd151a7700664",
+      "size_bytes": 16098
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/portrait/frames/frame-05100.jpg",
+      "sha256": "01287af40071e9e331c0b7444980038b99771a059ddcaa5ec149655633a71efd",
+      "size_bytes": 17705
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/portrait/frames/frame-05250.jpg",
+      "sha256": "d2bba9b50b72d6ca81aae58cbb107d8da666afa4ed6e66e67e9f8a507c29d977",
+      "size_bytes": 13430
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/portrait/frames/frame-05460.jpg",
+      "sha256": "f571deff86930426bdb85e05c8554daa2c88fdfc60e4686d134243a134cebc07",
+      "size_bytes": 27956
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/portrait/frames/frame-05610.jpg",
+      "sha256": "50a123f9db5ddd5863f8192ed52dd877d355e960d47ac029255fe924d7a11411",
+      "size_bytes": 28544
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/portrait/frames/frame-05820.jpg",
+      "sha256": "2d789520902deb2067e3129824eb47b6552bedc45e347b041f2b62727ab741ff",
+      "size_bytes": 25635
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/portrait/frames/frame-05970.jpg",
+      "sha256": "7fbaecaf3316b1826b1125e761fb8d8a93462c8940b7e2784d063f12abe374a3",
+      "size_bytes": 24458
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/portrait/frames/frame-06090.jpg",
+      "sha256": "fde62cfdb2908ab060267e58f787c17916772d3461d2ae562f235cc40a5402a1",
+      "size_bytes": 30115
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/portrait/frames/frame-06240.jpg",
+      "sha256": "65242ce5509ece9d7f62b48a1a5e5047c5ba79d89baee038bb97502eb78a43cc",
+      "size_bytes": 29992
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/portrait/frames/frame-06390.jpg",
+      "sha256": "9d5a4722dfdc972961218a23a778a40461c08fc6d009b14f2c07955a013aa8d4",
+      "size_bytes": 30349
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/portrait/frames/frame-06540.jpg",
+      "sha256": "7a7630fc9cb15c3ea4c9dd65a3a6e874592b07fa9eb542a650c378f5e44c9dcb",
+      "size_bytes": 28729
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/portrait/frames/frame-06660.jpg",
+      "sha256": "479f1fd02b0c2bb0e8592e4821daad781bbf34b697501789084b334d8a8839b6",
+      "size_bytes": 28595
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/portrait/frames/frame-06810.jpg",
+      "sha256": "b82c48f1e6d8b9110b4dc48beef4c2a7fae975b9cbe7624c650dd85d3e4df373",
+      "size_bytes": 26283
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/portrait/frames/frame-06960.jpg",
+      "sha256": "a3d894e92e7847a7f516d03e474834f88264d168448e3a31817944d94a8c5b97",
+      "size_bytes": 24914
+    },
+    {
+      "path": "review/motion-evidence-b5d57f695c0-x6adc8b844c-r01/portrait/frames/frame-07110.jpg",
+      "sha256": "3d9e2c13329acde1fe7be6a720992932412c745653395aadda2fff7e962ba282",
+      "size_bytes": 24130
+    },
+    {
+      "path": "review/native-camera-comparison.json",
+      "sha256": "6312de1e624358fe1183d4ad9aa03c07dde9cb3c501e0edbb9d5f06b576440d7",
+      "size_bytes": 958
+    },
+    {
+      "path": "review/preservation.json",
+      "sha256": "fc9b7b3340fa83510c95983a2e7a334f8976db65ef6adfec9142c5fc56e313c6",
+      "size_bytes": 2306
+    },
+    {
+      "path": "review/project-validation-r02.json",
+      "sha256": "96e6bd270062df970238ebc8233e1a764d8e8b23f7318a9646cc4a34f440ba85",
+      "size_bytes": 3146
+    },
+    {
+      "path": "review/project-validation-r03.json",
+      "sha256": "93953d4b66a3ee821dc43e5d1ea6efcb86b07f24ae771914dcf025ba79aaef6c",
+      "size_bytes": 3146
+    },
+    {
+      "path": "review/project-validation.json",
+      "sha256": "9697b3dff11d10d5127dce44420eae35472af12f2a0e8108ec4ac27c2e354dfe",
+      "size_bytes": 2914
+    },
+    {
+      "path": "review/render-revisions.md",
+      "sha256": "ac47ed9a3e3cb1ce9706c79228eb9199e0bff723d8ccc2ff6696106ad4daf0cb",
+      "size_bytes": 2174
+    },
+    {
+      "path": "review/render-settings.json",
+      "sha256": "49bdaf3b528946d5325ca06f4b478dc4fd563c0538794d14cc62a5cf4d4da9e2",
+      "size_bytes": 8593
+    },
+    {
+      "path": "review/shared-aac-packets.json",
+      "sha256": "5843c88269a44a29882dbe45ec55a4519c5c35d16802d2c4a6d9b929e35aa416",
+      "size_bytes": 919
+    },
+    {
+      "path": "review/shared-audio-correlation-r02.json",
+      "sha256": "0a24a561b6756eaa7dde985212b2b123dcf7aabcf6e8f6df8166148fdc94468a",
+      "size_bytes": 33401
+    },
+    {
+      "path": "review/shared-audio-correlation.json",
+      "sha256": "5663763ca3ff0cd846e4a8463e4a543b9fa1c332eeffe5615f70e786359e23d1",
+      "size_bytes": 33401
+    },
+    {
+      "path": "review/source-review.md",
+      "sha256": "2938d77d132ae0008068b62cd64eedf36fbb6569595ec8afc5fbc9af4e8e725d",
+      "size_bytes": 2471
+    },
+    {
+      "path": "review/tooling-notes.md",
+      "sha256": "3cffbf18c9ebc4aa91fc71a9f2cd8347950846541150ee7771f6947f6054eb34",
+      "size_bytes": 4469
+    },
+    {
+      "path": "review/validation-provenance.json",
+      "sha256": "d59d51eb3df843fd846c86a23a6b959dae8bd8990f05a79e80c15829829cce9f",
+      "size_bytes": 2874
+    },
+    {
+      "path": "source/script.md",
+      "sha256": "beb0a6136fec18991c6281d1151b458dc45cd0ece3b96b9afbac59711d71878b",
+      "size_bytes": 21417
+    },
+    {
+      "path": "watch.html",
+      "sha256": "0d0ac0c45dbb64fbac68718282a10e038b515fcb067856136fad56ebb01ffdb0",
+      "size_bytes": 2895
+    },
+    {
+      "path": "小红书/captions.srt",
+      "sha256": "a303c20925533b5b36c40018c444f72db8ba62190471ba94ee930a718821269c",
+      "size_bytes": 1694
+    }
+  ],
+  "notes": [
+    "Project font assets are retained when present; referenced native system fonts remain external.",
+    "project/package-lock.json is preserved for reproducible dependency installation.",
+    "Available shared PCM, narration, cue, and mix-stem audio files under project/public are retained.",
+    "Rendered platform movies, dependency trees, bundles, logs, audio authorization, and local credentials are excluded."
+  ],
+  "project": {
+    "duration_seconds": 120,
+    "fps": 60,
+    "layouts": {
+      "bilibili": {
+        "height": 2160,
+        "width": 3840
+      },
+      "xiaohongshu": {
+        "height": 3840,
+        "width": 2160
+      }
+    },
+    "shared_audio": {
+      "channels": 2,
+      "compression_type": "NONE",
+      "sample_rate": 48000,
+      "sample_width_bytes": 2,
+      "samples_per_channel": 5760000,
+      "status": "present_and_shape_checked"
+    },
+    "slug": "si-ep06-sovereign-crystal-v02",
+    "title": "主权心印｜THE SOVEREIGN SOUL CRYSTAL · EP.06 · v02",
+    "total_frames": 7200
+  },
+  "schema_version": 1
+}

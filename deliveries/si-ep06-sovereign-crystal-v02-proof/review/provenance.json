@@ -1,0 +1,21 @@
+{
+  "checkedAtUtc": "2026-10-19T04:57:22.126957+00:00",
+  "originalMathUnchanged": true,
+  "originalAudioUnchanged": true,
+  "originalCaptionsUnchanged": true,
+  "inputWindow": {
+    "startOriginalFrame": 5280,
+    "endOriginalFrameExclusive": 6000,
+    "closureOriginalFrame": 5760,
+    "closureProofFrame": 480
+  },
+  "sourceSha256": {
+    "src/Objects.tsx": "4d9f9f99b39cb0ecbcabc88d26cb38035523451a719a130abe85031fc94b0337",
+    "src/Root.tsx": "63c12d0abe017cc810daff782866b43afd5d2f4689454def4a8bb820c051e7da",
+    "src/Stage.tsx": "f3dcca9572dea46c0a679c8181b6dd9d0e3de2312cf3a6fbc5458f1d2e57362b",
+    "src/VisualProof.tsx": "d1a16a89fc96fd7951960ca466146e2582be8cec0f46372d3efc430c1b62725a",
+    "src/index.ts": "2e0e358282a1b998a65387c653b97c2bb2eb7aae94cf200fc0b8d919f7be73a6",
+    "src/math.ts": "5a7720b5301c296219c76cd3f2801a7655047f3c29ab15caed3330aed0bc8b8d"
+  },
+  "packageLockSha256": "122a3fdeb72821c93b65536a272232f30c8101289c725afc788f5975336179cf"
+}

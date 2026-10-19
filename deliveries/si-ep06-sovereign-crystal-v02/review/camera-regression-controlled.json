@@ -1,0 +1,46 @@
+{
+  "status": "review_evidence",
+  "method": "SSIM on grayscale subject ROI after sigma1.5 blur to reduce different-resolution rasterization/antialiasing differences. Compare a sequential scene-cut sample with a freshly initialized native still downsample.",
+  "initial_raw_ssim_threshold_not_met": "Raw SSIM compared native4K downsample to low-resolution WebGL/JPEG, so antialiasing and codec differences prevented the proposed .985 threshold. Retained raw report; geometric comparison uses a blurred control plus visual inspection, not a relaxed raw threshold.",
+  "model_visual_review": "Fixed preview matches fresh still subject position, facet orientation, scale and plinth ellipse in both layouts. Initial export differs in camera pose.",
+  "results": [
+    {
+      "layout": "landscape",
+      "global_frame": 5760,
+      "initial_full_export_subject_ssim": 0.537695,
+      "fixed_sequential_preview_subject_ssim": 0.995279,
+      "subject_roi": "crop=576:396:640:144"
+    },
+    {
+      "layout": "portrait",
+      "global_frame": 5760,
+      "initial_full_export_subject_ssim": 0.470514,
+      "fixed_sequential_preview_subject_ssim": 0.995345,
+      "subject_roi": "crop=546:344:72:448"
+    }
+  ],
+  "input_hashes": {
+    "review/camera-regression/portrait-initial-5760.png": "b8a30235ec0b2033a3273ee57acd53bbef2f783158c2e796ac4b30054cd5b661",
+    "review/camera-regression/landscape-fresh-5760.png": "6de0edab20287bff0bc67c575160609c1205d6472a8323105238424f4e7381e8",
+    "review/camera-regression/landscape-initial-5760.png": "bd1fb8daab85469067b82298fdda4d0d2f7cb8ecc88f94a5b9a153063a649e2b",
+    "review/camera-regression/portrait-sequential-5760.png": "f0288b0ad84a159675da938f1e11eab5b5e20bf0e785efa8219667ef05cd6097",
+    "review/camera-regression/landscape-sequential-5760.png": "dbcaba602e2f9b0c854a69b8db3b33be513201e9089a5ab7b1594ca7492beed1",
+    "review/camera-regression/portrait-fresh-5760.png": "d2092eb0817265c046ff00c12c82a06e021a6fcf56ec45d62385624fa2f7c042"
+  },
+  "retained_initial_outputs": [
+    {
+      "path": "review/iterations/landscape-first-pass/si-ep06-sovereign-crystal-v02-bilibili-120s-4k.mp4",
+      "sha256": "8d060aa062889023ae87c9c807a2ab42f8f37f71bf39f5dd3081de4a3500a79a",
+      "classification": "preview_initial_camera_pass"
+    },
+    {
+      "path": "review/iterations/portrait-first-pass/si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait.mp4",
+      "sha256": "3057ed76eb800412be8b6e8c55e422dc0180ff1f8fda496086d43b1222ad926d",
+      "classification": "preview_initial_camera_pass"
+    }
+  ],
+  "preview_hashes": {
+    "review/previews/landscape-5280-5879.mp4": "67b2292155b62f734f77ef27779a2bb8bf3e58a5f0d36b5fdcf9b157cfde0f55",
+    "review/previews/portrait-5280-5879.mp4": "5ab6266dc21c75b6e03a80b79e72ab954b505fee2a5bd2b6fddad841087a9106"
+  }
+}

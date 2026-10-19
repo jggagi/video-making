@@ -1,0 +1,84 @@
+{
+  "status": "PASS",
+  "manifest_sha256": "29deee69de175cb7ce98b1b13bcb0c3863f3fee9402e6ced2f4211d8dad321d4",
+  "outputs": [
+    {
+      "layout": "landscape",
+      "path": "B站/si-ep06-sovereign-crystal-v02-bilibili-120s-4k.mp4",
+      "bytes": 115813246,
+      "sha256": "5d57f695c0d430005e5528cb0cd2c2d48a19104ff5ef8a2d0f5399999987816c",
+      "video_and_audio_checks": {
+        "dimensions": true,
+        "fps_60": true,
+        "frames_7200": true,
+        "video_h264": true,
+        "pixel_format_yuv420p": true,
+        "bt709_color_metadata": true,
+        "audio_aac_48k_stereo": true,
+        "video_duration_120s": true,
+        "audio_duration_within_50ms": true,
+        "container_duration_within_50ms": true
+      },
+      "shared_audio_status": "PASS",
+      "strict_full_decode": {
+        "pass": true,
+        "method": "ffmpeg -xerror -err_detect explode full-file demux and audio/video decode to null"
+      },
+      "mp4_faststart": {
+        "pass": true,
+        "method": "top-level MP4 moov atom precedes mdat"
+      }
+    },
+    {
+      "layout": "portrait",
+      "path": "小红书/si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait.mp4",
+      "bytes": 65136600,
+      "sha256": "1fbe8b12d420772f817fa22e3b06ee6e78388673ea725cf9b408187dc70a9361",
+      "video_and_audio_checks": {
+        "dimensions": true,
+        "fps_60": true,
+        "frames_7200": true,
+        "video_h264": true,
+        "pixel_format_yuv420p": true,
+        "bt709_color_metadata": true,
+        "audio_aac_48k_stereo": true,
+        "video_duration_120s": true,
+        "audio_duration_within_50ms": true,
+        "container_duration_within_50ms": true
+      },
+      "shared_audio_status": "PASS",
+      "strict_full_decode": {
+        "pass": true,
+        "method": "ffmpeg -xerror -err_detect explode full-file demux and audio/video decode to null"
+      },
+      "mp4_faststart": {
+        "pass": true,
+        "method": "top-level MP4 moov atom precedes mdat"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "path": "review/project-validation-r03.json",
+      "sha256": "93953d4b66a3ee821dc43e5d1ea6efcb86b07f24ae771914dcf025ba79aaef6c"
+    },
+    {
+      "path": "review/encoded-qa-summary-r02.json",
+      "sha256": "95511745b55c523f494e98f86349f46f3c97c3bcc1414b6f848c3d2d14fb78ee"
+    },
+    {
+      "path": "review/shared-audio-correlation-r02.json",
+      "sha256": "0a24a561b6756eaa7dde985212b2b123dcf7aabcf6e8f6df8166148fdc94468a"
+    }
+  ],
+  "human_acceptance": {
+    "visual_style_proof": "user_approved_12_second_proof",
+    "continuous_120_second_visual_review": "pending",
+    "continuous_viewing_and_listening": "pending",
+    "phone_and_platform_playback": "pending"
+  },
+  "limitations": [
+    "This report binds automated technical evidence only.",
+    "It does not change delivery.json or label human acceptance complete."
+  ]
+}

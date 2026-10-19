@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>主权心印 · EP.06 · v02</title>
+<style>
+:root{color-scheme:dark;font-family:"PingFang SC",sans-serif;background:#0b1017;color:#e8e3d8}*{box-sizing:border-box}body{margin:0;padding:28px 5vw}header,nav,main,footer{max-width:1440px;margin:auto}header{display:flex;justify-content:space-between;align-items:end;margin-bottom:24px}h1{font:400 clamp(26px,4vw,46px) "Songti SC",serif;letter-spacing:4px;margin:8px 0}p,footer{color:#a7afae;font-size:14px;line-height:1.8}nav{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:20px}button{font:inherit;background:transparent;color:#bdc4c0;border:1px solid #384047;border-radius:5px;padding:10px 16px;cursor:pointer}button[aria-pressed=true]{border-color:#c9af77;color:#e4ce9c}video{display:block;width:100%;max-height:75vh;background:#070b10;object-fit:contain;border:1px solid #252d34;border-radius:5px}footer{padding-top:16px}a{color:#cfbb8f}#state{min-height:1.8em}
+</style>
+<header><div><p>一眼万年 / 第一季收官</p><h1>主权心印</h1></div><p>v02 · 120 秒 · 原生 4K · 60 fps</p></header>
+<nav aria-label="选择画幅">
+<button data-layout="landscape" aria-pressed="true">B站 · 横屏</button>
+<button data-layout="portrait" aria-pressed="false">小红书 · 竖屏</button>
+</nav>
+<main><video id="film" controls playsinline preload="metadata" aria-label="主权心印 v02 成片"></video><p id="state" role="status">正在读取视频…</p></main>
+<footer>沿用现有文本、字幕与配音。<a id="download" download>下载当前 4K 成片</a> · <a href="review/approved-proof-preview.mp4">已认可的 12 秒视觉样片</a></footer>
+<script>
+const sources={landscape:'B站/si-ep06-sovereign-crystal-v02-bilibili-120s-4k.mp4',portrait:'小红书/si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait.mp4'};
+const film=document.querySelector('#film'),state=document.querySelector('#state'),download=document.querySelector('#download');
+let seekTo=0;
+function choose(layout){seekTo=Number.isFinite(film.currentTime)?film.currentTime:0;film.pause();film.src=sources[layout];download.href=sources[layout];document.querySelectorAll('[data-layout]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.layout===layout)));state.textContent='正在读取视频…';film.load();}
+document.querySelectorAll('[data-layout]').forEach(button=>button.addEventListener('click',()=>choose(button.dataset.layout)));
+film.addEventListener('loadedmetadata',()=>{film.currentTime=Math.min(seekTo,Math.max(0,film.duration-.1));state.textContent=`${film.videoWidth} × ${film.videoHeight} · ${film.duration.toFixed(3)} 秒`;});
+film.addEventListener('error',()=>{state.textContent='视频尚未就绪，请等待渲染完成后刷新。';});
+choose('landscape');
+</script>
+</html>

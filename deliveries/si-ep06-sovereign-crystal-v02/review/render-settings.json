@@ -1,0 +1,248 @@
+{
+  "recorded_at_utc": "2026-10-19T06:46:28.312516+00:00",
+  "source_frozen_for_full_render": true,
+  "sources": [
+    {
+      "path": "project/audio-timing.json",
+      "sha256": "8bd6441f471a3bec62925ebe2dc23ad97c7d0a4979a788ba256150016e01da0a"
+    },
+    {
+      "path": "project/package-lock.json",
+      "sha256": "357f1b6f6ccc2e458f3e58e6c0a624aabe36ae6a6fffdb3ed3de10c65bf9b073"
+    },
+    {
+      "path": "project/package.json",
+      "sha256": "e5c710b184f96f4479f1f96e854d9633f0592d7e29729d4b53e9f1150f2663f0"
+    },
+    {
+      "path": "project/src/Film.tsx",
+      "sha256": "8f36bcecfa0770d9925d1d8c12eea90b7d34d4c46e0521278fe4538049428c09"
+    },
+    {
+      "path": "project/src/HumanScenes.tsx",
+      "sha256": "d6f958d86c1509200c5af6d0ce733017843d649c00253ff442d408d6ea24646a"
+    },
+    {
+      "path": "project/src/MirrorScene.tsx",
+      "sha256": "2082ab6ea0eee853ac43edc2b6a461b16833b5c656ce52649d87b23cc3775ee0"
+    },
+    {
+      "path": "project/src/Objects.tsx",
+      "sha256": "62d7559c953973d9a2fbae1cbdf3ffeb69144477924ed3e2821b7e9bef25e021"
+    },
+    {
+      "path": "project/src/Root.tsx",
+      "sha256": "d0bf4eca8967937aaeb9fa0d33d1c843a050545f8a0433638a37ef24404598f5"
+    },
+    {
+      "path": "project/src/Stage.tsx",
+      "sha256": "e31a28cfb150ffa9986132cced10159805a47718067dc542aae1d7149a58b0aa"
+    },
+    {
+      "path": "project/src/index.ts",
+      "sha256": "2e0e358282a1b998a65387c653b97c2bb2eb7aae94cf200fc0b8d919f7be73a6"
+    },
+    {
+      "path": "project/src/math.ts",
+      "sha256": "5a7720b5301c296219c76cd3f2801a7655047f3c29ab15caed3330aed0bc8b8d"
+    },
+    {
+      "path": "project/timeline.json",
+      "sha256": "5eaff1b0f050104aaf3f8f3a0d9a3110cbf738f534d0964c58022ca721601bd1"
+    },
+    {
+      "path": "project/scripts/render.mjs",
+      "sha256": "52eaddb1c1c432349ab0ebdfe5e279e04d718a3f6ee633d2204c98818db11414"
+    }
+  ],
+  "tools": {
+    "node": "v24.21.0",
+    "chrome": "155.0.8059.84",
+    "remotion": "4.0.534"
+  },
+  "render": {
+    "native_layouts": [
+      [
+        3840,
+        2160
+      ],
+      [
+        2160,
+        3840
+      ]
+    ],
+    "fps": 60,
+    "duration_frames": 7200,
+    "gl": "angle",
+    "concurrency": 2,
+    "intermediate_image": "jpeg",
+    "jpeg_quality": 94,
+    "codec": "h264",
+    "pixel_format": "yuv420p",
+    "color_space": "bt709",
+    "crf": 17,
+    "x264_preset": "fast",
+    "audio_codec": "aac",
+    "audio_bitrate": "320k",
+    "audio_sample_rate": 48000,
+    "spatial_motion": "deterministic frame-derived",
+    "preview_scale": "1/3 only; full exports scale1"
+  },
+  "retained_initial_outputs": [
+    {
+      "path": "review/iterations/landscape-first-pass/si-ep06-sovereign-crystal-v02-bilibili-120s-4k.mp4",
+      "sha256": "8d060aa062889023ae87c9c807a2ab42f8f37f71bf39f5dd3081de4a3500a79a",
+      "classification": "preview_initial_camera_pass"
+    },
+    {
+      "path": "review/iterations/portrait-first-pass/si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait.mp4",
+      "sha256": "3057ed76eb800412be8b6e8c55e422dc0180ff1f8fda496086d43b1222ad926d",
+      "classification": "preview_initial_camera_pass"
+    },
+    {
+      "path": "review/iterations/portrait-before-note-clearance/si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait.mp4",
+      "sha256": "6adc8b844c7fbac5b10cacd716fd517246809aaaca5eb0c7179b820d2bc2ede0",
+      "classification": "preview_note_clearance_iteration"
+    }
+  ],
+  "camera_control": "Full position/FOV/lookAt/projection set in layout effect before Remotion manual frame advance.",
+  "memory_preflight": "memory_pressure -Q reported41 percent systemwide free before choosing2worker slots; fullmovies remain serial.",
+  "render_batches": [
+    {
+      "layouts": [
+        "landscape"
+      ],
+      "sources": [
+        {
+          "path": "project/audio-timing.json",
+          "sha256": "8bd6441f471a3bec62925ebe2dc23ad97c7d0a4979a788ba256150016e01da0a"
+        },
+        {
+          "path": "project/package-lock.json",
+          "sha256": "357f1b6f6ccc2e458f3e58e6c0a624aabe36ae6a6fffdb3ed3de10c65bf9b073"
+        },
+        {
+          "path": "project/package.json",
+          "sha256": "e5c710b184f96f4479f1f96e854d9633f0592d7e29729d4b53e9f1150f2663f0"
+        },
+        {
+          "path": "project/src/Film.tsx",
+          "sha256": "b3bb75adb5201ab489462ecd472d0f317e21a8bb40724ad16650dc8d73ff11b2"
+        },
+        {
+          "path": "project/src/HumanScenes.tsx",
+          "sha256": "d6f958d86c1509200c5af6d0ce733017843d649c00253ff442d408d6ea24646a"
+        },
+        {
+          "path": "project/src/MirrorScene.tsx",
+          "sha256": "2082ab6ea0eee853ac43edc2b6a461b16833b5c656ce52649d87b23cc3775ee0"
+        },
+        {
+          "path": "project/src/Objects.tsx",
+          "sha256": "62d7559c953973d9a2fbae1cbdf3ffeb69144477924ed3e2821b7e9bef25e021"
+        },
+        {
+          "path": "project/src/Root.tsx",
+          "sha256": "d0bf4eca8967937aaeb9fa0d33d1c843a050545f8a0433638a37ef24404598f5"
+        },
+        {
+          "path": "project/src/Stage.tsx",
+          "sha256": "e31a28cfb150ffa9986132cced10159805a47718067dc542aae1d7149a58b0aa"
+        },
+        {
+          "path": "project/src/index.ts",
+          "sha256": "2e0e358282a1b998a65387c653b97c2bb2eb7aae94cf200fc0b8d919f7be73a6"
+        },
+        {
+          "path": "project/src/math.ts",
+          "sha256": "5a7720b5301c296219c76cd3f2801a7655047f3c29ab15caed3330aed0bc8b8d"
+        },
+        {
+          "path": "project/timeline.json",
+          "sha256": "5eaff1b0f050104aaf3f8f3a0d9a3110cbf738f534d0964c58022ca721601bd1"
+        },
+        {
+          "path": "project/scripts/render.mjs",
+          "sha256": "52eaddb1c1c432349ab0ebdfe5e279e04d718a3f6ee633d2204c98818db11414"
+        }
+      ],
+      "output_sha256": "5d57f695c0d430005e5528cb0cd2c2d48a19104ff5ef8a2d0f5399999987816c",
+      "concurrency": 2
+    },
+    {
+      "layouts": [
+        "portrait"
+      ],
+      "sources": [
+        {
+          "path": "project/audio-timing.json",
+          "sha256": "8bd6441f471a3bec62925ebe2dc23ad97c7d0a4979a788ba256150016e01da0a"
+        },
+        {
+          "path": "project/package-lock.json",
+          "sha256": "357f1b6f6ccc2e458f3e58e6c0a624aabe36ae6a6fffdb3ed3de10c65bf9b073"
+        },
+        {
+          "path": "project/package.json",
+          "sha256": "e5c710b184f96f4479f1f96e854d9633f0592d7e29729d4b53e9f1150f2663f0"
+        },
+        {
+          "path": "project/src/Film.tsx",
+          "sha256": "8f36bcecfa0770d9925d1d8c12eea90b7d34d4c46e0521278fe4538049428c09"
+        },
+        {
+          "path": "project/src/HumanScenes.tsx",
+          "sha256": "d6f958d86c1509200c5af6d0ce733017843d649c00253ff442d408d6ea24646a"
+        },
+        {
+          "path": "project/src/MirrorScene.tsx",
+          "sha256": "2082ab6ea0eee853ac43edc2b6a461b16833b5c656ce52649d87b23cc3775ee0"
+        },
+        {
+          "path": "project/src/Objects.tsx",
+          "sha256": "62d7559c953973d9a2fbae1cbdf3ffeb69144477924ed3e2821b7e9bef25e021"
+        },
+        {
+          "path": "project/src/Root.tsx",
+          "sha256": "d0bf4eca8967937aaeb9fa0d33d1c843a050545f8a0433638a37ef24404598f5"
+        },
+        {
+          "path": "project/src/Stage.tsx",
+          "sha256": "e31a28cfb150ffa9986132cced10159805a47718067dc542aae1d7149a58b0aa"
+        },
+        {
+          "path": "project/src/index.ts",
+          "sha256": "2e0e358282a1b998a65387c653b97c2bb2eb7aae94cf200fc0b8d919f7be73a6"
+        },
+        {
+          "path": "project/src/math.ts",
+          "sha256": "5a7720b5301c296219c76cd3f2801a7655047f3c29ab15caed3330aed0bc8b8d"
+        },
+        {
+          "path": "project/timeline.json",
+          "sha256": "5eaff1b0f050104aaf3f8f3a0d9a3110cbf738f534d0964c58022ca721601bd1"
+        },
+        {
+          "path": "project/scripts/render.mjs",
+          "sha256": "52eaddb1c1c432349ab0ebdfe5e279e04d718a3f6ee633d2204c98818db11414"
+        }
+      ],
+      "concurrency": 2,
+      "note": "Only portrait Act0 qualifier y1274→1320 changed; layout extremes0/330/840 reviewed before export."
+    }
+  ],
+  "final_outputs": [
+    {
+      "layout": "landscape",
+      "path": "B站/si-ep06-sovereign-crystal-v02-bilibili-120s-4k.mp4",
+      "bytes": 115813246,
+      "sha256": "5d57f695c0d430005e5528cb0cd2c2d48a19104ff5ef8a2d0f5399999987816c"
+    },
+    {
+      "layout": "portrait",
+      "path": "小红书/si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait.mp4",
+      "bytes": 65136600,
+      "sha256": "1fbe8b12d420772f817fa22e3b06ee6e78388673ea725cf9b408187dc70a9361"
+    }
+  ]
+}

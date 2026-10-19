@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "method": "Same native resolution final encoded MP4 frame vs fresh still physical-subject grayscale SSIM; no blur/downsampling.",
+  "results": [
+    {
+      "layout": "landscape",
+      "frame": 5760,
+      "subject_roi": "crop=1728:1188:1920:432",
+      "ssim": 0.992986,
+      "threshold": 0.99,
+      "pass": true,
+      "media_sha256": "5d57f695c0d430005e5528cb0cd2c2d48a19104ff5ef8a2d0f5399999987816c",
+      "encoded_frame": "review/native-inspection/landscape-5760.png",
+      "still": "review/stills/landscape-5760-r03.png"
+    },
+    {
+      "layout": "portrait",
+      "frame": 5760,
+      "subject_roi": "crop=1638:1032:216:1344",
+      "ssim": 0.99462,
+      "threshold": 0.99,
+      "pass": true,
+      "media_sha256": "1fbe8b12d420772f817fa22e3b06ee6e78388673ea725cf9b408187dc70a9361",
+      "encoded_frame": "review/native-inspection/portrait-5760.png",
+      "still": "review/stills/portrait-5760-r03.png"
+    }
+  ]
+}

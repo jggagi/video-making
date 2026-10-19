@@ -1,0 +1,543 @@
+{
+  "durationSeconds": 120,
+  "fps": 60,
+  "sampleRate": 48000,
+  "samplesPerFrame": 800,
+  "samplesPerChannel": 5760000,
+  "segments": [
+    {
+      "id": "S01",
+      "declaredStartFrame": 120,
+      "declaredEndFrame": 600,
+      "voiceStartSample": 96000,
+      "voiceEndSampleExclusive": 312843,
+      "cueStartSample": 85577,
+      "cueEndSampleExclusive": 323657,
+      "cueSamplesAt48k": 238080,
+      "measuredActiveSamples": 216843,
+      "onsetOffsetSamplesInCue": 10423,
+      "activeEndOffsetSamplesInCueExclusive": 227266,
+      "placement": "measured active PCM onset aligned to declared startFrame; source cue rate and samples preserved",
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 87,
+        "windowSamples": 240
+      },
+      "cueFile": "project/public/audio/cues/S01-b1fc326f42cc.wav",
+      "cueSha256": "bb4311ed47e5969a4172f346722ef09b719318eddbe44137c75498050e543cb5",
+      "cuePcmSha256": "d8c50beffb4125e02c30437651795123e629df089323d4f382d76c03b0039a08"
+    },
+    {
+      "id": "S02",
+      "declaredStartFrame": 660,
+      "declaredEndFrame": 1260,
+      "voiceStartSample": 528000,
+      "voiceEndSampleExclusive": 899915,
+      "cueStartSample": 517238,
+      "cueEndSampleExclusive": 908918,
+      "cueSamplesAt48k": 391680,
+      "measuredActiveSamples": 371915,
+      "onsetOffsetSamplesInCue": 10762,
+      "activeEndOffsetSamplesInCueExclusive": 382677,
+      "placement": "measured active PCM onset aligned to declared startFrame; source cue rate and samples preserved",
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 95,
+        "windowSamples": 240
+      },
+      "cueFile": "project/public/audio/cues/S02-b93ed27947da.wav",
+      "cueSha256": "3c94e735c1a036aa4051ea6b148538b18bc548ba5d0678e07322025a5e3e7fa6",
+      "cuePcmSha256": "d859c9b2987334a9300387c9a7e3eb3205bba7d93ec6b9cdfa5835d4ec98e2e9"
+    },
+    {
+      "id": "S03",
+      "declaredStartFrame": 1320,
+      "declaredEndFrame": 1800,
+      "voiceStartSample": 1056000,
+      "voiceEndSampleExclusive": 1416092,
+      "cueStartSample": 1045950,
+      "cueEndSampleExclusive": 1426110,
+      "cueSamplesAt48k": 380160,
+      "measuredActiveSamples": 360092,
+      "onsetOffsetSamplesInCue": 10050,
+      "activeEndOffsetSamplesInCueExclusive": 370142,
+      "placement": "measured active PCM onset aligned to declared startFrame; source cue rate and samples preserved",
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 79,
+        "windowSamples": 240
+      },
+      "cueFile": "project/public/audio/cues/S03-d64ac9e857ea.wav",
+      "cueSha256": "44dec8468e33cc0c0999bd9d6932ee6a3bf1f1947350e37d523b55725737677e",
+      "cuePcmSha256": "3e8854ef3fd330cb2be86205ff76887ee1bfb91acbc5ef531c2c4422c4f0562a"
+    },
+    {
+      "id": "S04",
+      "declaredStartFrame": 1860,
+      "declaredEndFrame": 2580,
+      "voiceStartSample": 1488000,
+      "voiceEndSampleExclusive": 1904678,
+      "cueStartSample": 1477899,
+      "cueEndSampleExclusive": 1911819,
+      "cueSamplesAt48k": 433920,
+      "measuredActiveSamples": 416678,
+      "onsetOffsetSamplesInCue": 10101,
+      "activeEndOffsetSamplesInCueExclusive": 426779,
+      "placement": "measured active PCM onset aligned to declared startFrame; source cue rate and samples preserved",
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 72,
+        "windowSamples": 240
+      },
+      "cueFile": "project/public/audio/cues/S04-db0bbf50d6c4.wav",
+      "cueSha256": "a0a89355b7e52619ec7d90eaee5cb4b0813aabce37e9ec0551c5b05ecba110cb",
+      "cuePcmSha256": "d781383e283d6ea9eaf19a1b72c86fad0cfcb80a81a724b6f3bbb0f4fd17df63"
+    },
+    {
+      "id": "S05",
+      "declaredStartFrame": 2700,
+      "declaredEndFrame": 3480,
+      "voiceStartSample": 2160000,
+      "voiceEndSampleExclusive": 2613172,
+      "cueStartSample": 2150540,
+      "cueEndSampleExclusive": 2619020,
+      "cueSamplesAt48k": 468480,
+      "measuredActiveSamples": 453172,
+      "onsetOffsetSamplesInCue": 9460,
+      "activeEndOffsetSamplesInCueExclusive": 462632,
+      "placement": "measured active PCM onset aligned to declared startFrame; source cue rate and samples preserved",
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 92,
+        "windowSamples": 240
+      },
+      "cueFile": "project/public/audio/cues/S05-ebd1049377f5.wav",
+      "cueSha256": "da7af0bde4f6f5cca4eda19c6e1f9834c2368664eaaf1004591429096a4080b3",
+      "cuePcmSha256": "51acb5cdeadfab89f2484ccee14bab3c9c844aab45a92ecfe453fe7bdc301502"
+    },
+    {
+      "id": "S06",
+      "declaredStartFrame": 3660,
+      "declaredEndFrame": 4440,
+      "voiceStartSample": 2928000,
+      "voiceEndSampleExclusive": 3346372,
+      "cueStartSample": 2915758,
+      "cueEndSampleExclusive": 3357358,
+      "cueSamplesAt48k": 441600,
+      "measuredActiveSamples": 418372,
+      "onsetOffsetSamplesInCue": 12242,
+      "activeEndOffsetSamplesInCueExclusive": 430614,
+      "placement": "measured active PCM onset aligned to declared startFrame; source cue rate and samples preserved",
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 102,
+        "windowSamples": 240
+      },
+      "cueFile": "project/public/audio/cues/S06-36ae6d6deb91.wav",
+      "cueSha256": "42b72340bbce1f296c25a6395a69d202d1ad49080a8d854bc65e7b64f4f0d462",
+      "cuePcmSha256": "2658205cd9ed8c7892d1df986047261e43ce36715a4c8ed97ad2c68e09e2f280"
+    },
+    {
+      "id": "S07",
+      "declaredStartFrame": 4500,
+      "declaredEndFrame": 5340,
+      "voiceStartSample": 3600000,
+      "voiceEndSampleExclusive": 4179827,
+      "cueStartSample": 3590356,
+      "cueEndSampleExclusive": 4189396,
+      "cueSamplesAt48k": 599040,
+      "measuredActiveSamples": 579827,
+      "onsetOffsetSamplesInCue": 9644,
+      "activeEndOffsetSamplesInCueExclusive": 589471,
+      "placement": "measured active PCM onset aligned to declared startFrame; source cue rate and samples preserved",
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 73,
+        "windowSamples": 240
+      },
+      "cueFile": "project/public/audio/cues/S07-2f554db126b3.wav",
+      "cueSha256": "ae2f651e67347234d4fc7a0201b9d1a23253ba9d36f831f82a6f6080072a0aa8",
+      "cuePcmSha256": "ca6f5e0382b28ba1c8f244c0d3fba7cd213c4528eeb1343cc54e84dfb9595ee1"
+    },
+    {
+      "id": "S08",
+      "declaredStartFrame": 5430,
+      "declaredEndFrame": 5740,
+      "voiceStartSample": 4344000,
+      "voiceEndSampleExclusive": 4551407,
+      "cueStartSample": 4335623,
+      "cueEndSampleExclusive": 4562183,
+      "cueSamplesAt48k": 226560,
+      "measuredActiveSamples": 207407,
+      "onsetOffsetSamplesInCue": 8377,
+      "activeEndOffsetSamplesInCueExclusive": 215784,
+      "placement": "measured active PCM onset aligned to declared startFrame; source cue rate and samples preserved",
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 79,
+        "windowSamples": 240
+      },
+      "cueFile": "project/public/audio/cues/S08-11319b9b3514.wav",
+      "cueSha256": "f854844d4ad40fd88ed685ac71607029799b889f5ce428de23d90e97c12be786",
+      "cuePcmSha256": "e38bfea2fdfa6dd406207fcd22e895995acc7ef5c51b53aba24725a836c6cbce"
+    },
+    {
+      "id": "S09",
+      "declaredStartFrame": 6020,
+      "declaredEndFrame": 6930,
+      "voiceStartSample": 4816000,
+      "voiceEndSampleExclusive": 5346343,
+      "cueStartSample": 4806464,
+      "cueEndSampleExclusive": 5355584,
+      "cueSamplesAt48k": 549120,
+      "measuredActiveSamples": 530343,
+      "onsetOffsetSamplesInCue": 9536,
+      "activeEndOffsetSamplesInCueExclusive": 539879,
+      "placement": "measured active PCM onset aligned to declared startFrame; source cue rate and samples preserved",
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 89,
+        "windowSamples": 240
+      },
+      "cueFile": "project/public/audio/cues/S09-e00ca7688088.wav",
+      "cueSha256": "392df452c7ea76ce499f12f5ae0d3b99743e411f2f56a69b4ef3a490c4ee0350",
+      "cuePcmSha256": "8af9c83397dd131dcd7499a381632ff6d4f65ce641a1515aae2bf2a8ceba044f"
+    },
+    {
+      "id": "S10",
+      "declaredStartFrame": 6960,
+      "declaredEndFrame": 7198,
+      "voiceStartSample": 5568000,
+      "voiceEndSampleExclusive": 5695651,
+      "cueStartSample": 5557868,
+      "cueEndSampleExclusive": 5707628,
+      "cueSamplesAt48k": 149760,
+      "measuredActiveSamples": 127651,
+      "onsetOffsetSamplesInCue": 10132,
+      "activeEndOffsetSamplesInCueExclusive": 137783,
+      "placement": "measured active PCM onset aligned to declared startFrame; source cue rate and samples preserved",
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 69,
+        "windowSamples": 240
+      },
+      "cueFile": "project/public/audio/cues/S10-760faa068053.wav",
+      "cueSha256": "d7cbec09bfcd4263261c0332bd1582f57d2e6af988c2baf347798c36b917cda4",
+      "cuePcmSha256": "8dbd07b4f4b6779035308aa6c5bb76a1bbdeeca29257dc9370eade76d1b79ff8"
+    }
+  ],
+  "captionTimingMethod": "Subtitle units are divided proportionally across each segment's measured active PCM sample span. Editorial display-only prefix/suffix units are included but are not narrated. Frame boundaries are derived from sample counts and rounded once at shared cue edges. This is estimated phrase timing, not ASR or word alignment.",
+  "sfxEvents": [
+    {
+      "id": "cyan-pre-echo",
+      "frame": 102,
+      "sampleIndex": 81600,
+      "durationSeconds": 0.42,
+      "description": "synthetic heartbeat 300ms before human",
+      "kind": "cyan",
+      "silentMarker": false
+    },
+    {
+      "id": "human-heartbeat",
+      "frame": 120,
+      "sampleIndex": 96000,
+      "durationSeconds": 0.78,
+      "description": "intimate double heartbeat 60BPM",
+      "kind": "heartbeat",
+      "silentMarker": false
+    },
+    {
+      "id": "rp-lock",
+      "frame": 870,
+      "sampleIndex": 696000,
+      "durationSeconds": 0.72,
+      "description": "cyan lock 30f before amber pulse",
+      "kind": "lock",
+      "silentMarker": false
+    },
+    {
+      "id": "amber-awareness",
+      "frame": 900,
+      "sampleIndex": 720000,
+      "durationSeconds": 1.25,
+      "description": "EEG voltage sweep and amber pulse",
+      "kind": "amber",
+      "silentMarker": false
+    },
+    {
+      "id": "glass-window",
+      "frame": 1350,
+      "sampleIndex": 1080000,
+      "durationSeconds": 1.6,
+      "description": "40Hz bass and glass shimmer",
+      "kind": "glass40",
+      "silentMarker": false
+    },
+    {
+      "id": "data-convergence",
+      "frame": 2100,
+      "sampleIndex": 1680000,
+      "durationSeconds": 2.0,
+      "description": "streams converge into harmonic hum",
+      "kind": "converge",
+      "silentMarker": false
+    },
+    {
+      "id": "trajectory-lock",
+      "frame": 3120,
+      "sampleIndex": 2496000,
+      "durationSeconds": 0.82,
+      "description": "synthetic trajectory lock chime",
+      "kind": "lock",
+      "silentMarker": false
+    },
+    {
+      "id": "reward-warp",
+      "frame": 3840,
+      "sampleIndex": 3072000,
+      "durationSeconds": 1.8,
+      "description": "magenta stereo chord",
+      "kind": "magenta",
+      "silentMarker": false
+    },
+    {
+      "id": "gentle-prison",
+      "frame": 4800,
+      "sampleIndex": 3840000,
+      "durationSeconds": 2.2,
+      "description": "metal resonance under music box",
+      "kind": "metalbox",
+      "silentMarker": false
+    },
+    {
+      "id": "absolute-silence",
+      "frame": 5740,
+      "sampleIndex": 4592000,
+      "durationSeconds": 0.0,
+      "description": "20 frame total-master silence immediately before seal",
+      "kind": "silence",
+      "silentMarker": true
+    },
+    {
+      "id": "vault-seal",
+      "frame": 5760,
+      "sampleIndex": 4608000,
+      "durationSeconds": 1.7,
+      "description": "golden vault lock and shockwave",
+      "kind": "vault",
+      "silentMarker": false
+    },
+    {
+      "id": "sovereign-chord",
+      "frame": 6480,
+      "sampleIndex": 5184000,
+      "durationSeconds": 7.2,
+      "description": "organ and warm bowed-string synthesis",
+      "kind": "catharsis",
+      "silentMarker": false
+    },
+    {
+      "id": "final-heartbeat",
+      "frame": 7020,
+      "sampleIndex": 5616000,
+      "durationSeconds": 2.0,
+      "description": "cosmic resonance and solitary warm heartbeat",
+      "kind": "warm_heartbeat",
+      "silentMarker": false
+    }
+  ],
+  "absoluteSilence": {
+    "startFrame": 5740,
+    "endFrameExclusive": 5760,
+    "startSample": 4592000,
+    "endSampleExclusive": 4608000,
+    "samplesZeroInAllStemsAndMaster": true
+  },
+  "sourceHashes": {
+    "adaptedScriptMd": "7c07a999b577efa954cc8b7033f56e17c7926de0cad0da3c1a4379615ba9e241",
+    "segmentsJson": "7e097ac3ddb4234c17bee8b8b68ccaef0a11a2d34d72f40c5540e81b64100e21",
+    "eventsJson": "b12fcecde88b7089dc7ec9c122438a56493dc76f3b234e0f51dc6b9e185cea95",
+    "eventRenderProfiles": "75da56704b73b0abfa985d1636ec913461cc3229eb3d0220968c59a8820f85db",
+    "normalizedEvents": "e7953214905e99aed006e214967c74afb262cb7a0682a368afec5caefa89b844",
+    "providerManifest": "6bdef9afcbcd89699d45a1f23d0732f4b95d8a79f0ea16d095a41055ae94643d",
+    "cueWavs": [
+      {
+        "id": "S01",
+        "path": "project/public/audio/cues/S01-b1fc326f42cc.wav",
+        "sha256": "bb4311ed47e5969a4172f346722ef09b719318eddbe44137c75498050e543cb5",
+        "samplesAt48k": 238080
+      },
+      {
+        "id": "S02",
+        "path": "project/public/audio/cues/S02-b93ed27947da.wav",
+        "sha256": "3c94e735c1a036aa4051ea6b148538b18bc548ba5d0678e07322025a5e3e7fa6",
+        "samplesAt48k": 391680
+      },
+      {
+        "id": "S03",
+        "path": "project/public/audio/cues/S03-d64ac9e857ea.wav",
+        "sha256": "44dec8468e33cc0c0999bd9d6932ee6a3bf1f1947350e37d523b55725737677e",
+        "samplesAt48k": 380160
+      },
+      {
+        "id": "S04",
+        "path": "project/public/audio/cues/S04-db0bbf50d6c4.wav",
+        "sha256": "a0a89355b7e52619ec7d90eaee5cb4b0813aabce37e9ec0551c5b05ecba110cb",
+        "samplesAt48k": 433920
+      },
+      {
+        "id": "S05",
+        "path": "project/public/audio/cues/S05-ebd1049377f5.wav",
+        "sha256": "da7af0bde4f6f5cca4eda19c6e1f9834c2368664eaaf1004591429096a4080b3",
+        "samplesAt48k": 468480
+      },
+      {
+        "id": "S06",
+        "path": "project/public/audio/cues/S06-36ae6d6deb91.wav",
+        "sha256": "42b72340bbce1f296c25a6395a69d202d1ad49080a8d854bc65e7b64f4f0d462",
+        "samplesAt48k": 441600
+      },
+      {
+        "id": "S07",
+        "path": "project/public/audio/cues/S07-2f554db126b3.wav",
+        "sha256": "ae2f651e67347234d4fc7a0201b9d1a23253ba9d36f831f82a6f6080072a0aa8",
+        "samplesAt48k": 599040
+      },
+      {
+        "id": "S08",
+        "path": "project/public/audio/cues/S08-11319b9b3514.wav",
+        "sha256": "f854844d4ad40fd88ed685ac71607029799b889f5ce428de23d90e97c12be786",
+        "samplesAt48k": 226560
+      },
+      {
+        "id": "S09",
+        "path": "project/public/audio/cues/S09-e00ca7688088.wav",
+        "sha256": "392df452c7ea76ce499f12f5ae0d3b99743e411f2f56a69b4ef3a490c4ee0350",
+        "samplesAt48k": 549120
+      },
+      {
+        "id": "S10",
+        "path": "project/public/audio/cues/S10-760faa068053.wav",
+        "sha256": "d7cbec09bfcd4263261c0332bd1582f57d2e6af988c2baf347798c36b917cda4",
+        "samplesAt48k": 149760
+      }
+    ]
+  },
+  "status": "measured_pcm_with_estimated_phrase_timing",
+  "captions": [
+    {
+      "segmentId": "S01",
+      "startFrame": 120,
+      "endFrame": 293,
+      "text": "如果有一个存在，\n比你早半秒知道，"
+    },
+    {
+      "segmentId": "S01",
+      "startFrame": 293,
+      "endFrame": 392,
+      "text": "你下一句想说什么。"
+    },
+    {
+      "segmentId": "S02",
+      "startFrame": 660,
+      "endFrame": 921,
+      "text": "实验中，平均准备电位\n在动作前约550毫秒出现；"
+    },
+    {
+      "segmentId": "S02",
+      "startFrame": 921,
+      "endFrame": 1125,
+      "text": "主观意图报告，\n约在动作前200毫秒。"
+    },
+    {
+      "segmentId": "S03",
+      "startFrame": 1320,
+      "endFrame": 1616,
+      "text": "这350毫秒的间隙，令人不安。\n但它不等于读心，"
+    },
+    {
+      "segmentId": "S03",
+      "startFrame": 1616,
+      "endFrame": 1771,
+      "text": "更没有证明人生早已注定。"
+    },
+    {
+      "segmentId": "S04",
+      "startFrame": 1860,
+      "endFrame": 2126,
+      "text": "指尖的停顿，视线的游移，\n都可能成为预测线索。"
+    },
+    {
+      "segmentId": "S04",
+      "startFrame": 2126,
+      "endFrame": 2381,
+      "text": "看，这个数字镜像，\n只是延迟坐标重构的模拟。"
+    },
+    {
+      "segmentId": "S05",
+      "startFrame": 2700,
+      "endFrame": 2941,
+      "text": "在这个模拟系统里，\n轨迹误差逼近零。"
+    },
+    {
+      "segmentId": "S05",
+      "startFrame": 2941,
+      "endFrame": 3267,
+      "text": "但人不是洛伦兹方程，\n误差更不是自由意志的刻度。"
+    },
+    {
+      "segmentId": "S06",
+      "startFrame": 3660,
+      "endFrame": 3921,
+      "text": "算法能从行为推测偏好，\n再改变你看到的选项。"
+    },
+    {
+      "segmentId": "S06",
+      "startFrame": 3921,
+      "endFrame": 4183,
+      "text": "不用强迫，只需把某条路，\n铺得比别的路更顺。"
+    },
+    {
+      "segmentId": "S07",
+      "startFrame": 4500,
+      "endFrame": 4782,
+      "text": "最可怕的囚笼，\n从没有铁栏杆。"
+    },
+    {
+      "segmentId": "S07",
+      "startFrame": 4782,
+      "endFrame": 5225,
+      "text": "是当选择被悄悄塑形，\n你却看不见那只温柔的手。"
+    },
+    {
+      "segmentId": "S08",
+      "startFrame": 5430,
+      "endFrame": 5690,
+      "text": "主权心印。\n让本地守卫，替你守住边界。"
+    },
+    {
+      "segmentId": "S09",
+      "startFrame": 6020,
+      "endFrame": 6245,
+      "text": "把记忆锁进私密的圣殿，\n用你的硅基分身"
+    },
+    {
+      "segmentId": "S09",
+      "startFrame": 6245,
+      "endFrame": 6533,
+      "text": "去对抗全世界的算法。\n守住那百分之一的不可预测，"
+    },
+    {
+      "segmentId": "S09",
+      "startFrame": 6533,
+      "endFrame": 6683,
+      "text": "才守住了生而为人的自由。"
+    },
+    {
+      "segmentId": "S10",
+      "startFrame": 6960,
+      "endFrame": 7120,
+      "text": "一眼万年，第一季。\n观测完毕。"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "checkedAtUtc": "2026-10-19T04:55:56.947483+00:00",
+  "checks": {
+    "allThreeStillSpecsPass": true,
+    "audioSpecPass": true,
+    "fullDecodePass": true,
+    "videoSpecPass": true
+  },
+  "failures": [],
+  "files": {
+    "choice-4k.png": {
+      "bytes": 3492461,
+      "pass": true,
+      "path": "choice-4k.png",
+      "sha256": "8bee0a5e23848cbf49b1e04ee69aa8243755fdc97a972d8b00cffa9cc91ff83e",
+      "spec": {
+        "codec": "png",
+        "height": 2160,
+        "width": 3840
+      }
+    },
+    "coffee-4k.png": {
+      "bytes": 3446211,
+      "pass": true,
+      "path": "coffee-4k.png",
+      "sha256": "e84952cb184d196dd756d873f5bd5233dafa7582243182b74e6527aff0b8ef6b",
+      "spec": {
+        "codec": "png",
+        "height": 2160,
+        "width": 3840
+      }
+    },
+    "crystal-4k.png": {
+      "bytes": 3814461,
+      "pass": true,
+      "path": "crystal-4k.png",
+      "sha256": "9f7cfff44a7e10a96be9596a9f661463dcebee709a3e24aa8cc8ca0865034ec7",
+      "spec": {
+        "codec": "png",
+        "height": 2160,
+        "width": 3840
+      }
+    },
+    "crystal-proof-12s-1080p.mp4": {
+      "audioPass": true,
+      "bytes": 3588191,
+      "fullDecodePass": true,
+      "pass": true,
+      "path": "crystal-proof-12s-1080p.mp4",
+      "sha256": "0daa73b705aadd093aa292c7483da692cd2e5f72656e5a5bc5db04a1606ac26c",
+      "spec": {
+        "aacPaddingToleranceSeconds": 0.05,
+        "audio": {
+          "channelLayout": "stereo",
+          "channels": 2,
+          "codec": "aac",
+          "durationSeconds": 12.011,
+          "sampleRateHz": 48000
+        },
+        "containerDurationSeconds": 12.011,
+        "video": {
+          "averageFrameRate": "60/1",
+          "codec": "h264",
+          "durationSeconds": 12.0,
+          "frameRate": "60/1",
+          "frames": 720,
+          "height": 1080,
+          "width": 1920
+        }
+      },
+      "videoPass": true
+    }
+  },
+  "overallPass": true,
+  "schemaVersion": 1
+}

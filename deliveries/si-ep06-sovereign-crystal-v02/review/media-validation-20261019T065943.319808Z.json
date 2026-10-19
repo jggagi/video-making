@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-10-19T06:59:43.319542Z",
+  "status": "PASS",
+  "target_duration_seconds": 120,
+  "manifest_sha256": "107bfcf936b23b065444b3416b90a233499cd2e632715f996b5ad837a4791a0d",
+  "checks": {
+    "manifest": "PASS",
+    "schema_version": "PASS",
+    "title": "PASS",
+    "duration_seconds": "PASS",
+    "slug": "PASS",
+    "fps": "PASS",
+    "duration_frame_alignment": "PASS",
+    "duration_sample_alignment": "PASS",
+    "total_frames": "PASS",
+    "audio_mode": "PASS",
+    "audio_master": "PASS",
+    "script_path": "PASS",
+    "script_hash": "PASS",
+    "script_sha256": "beb0a6136fec18991c6281d1151b458dc45cd0ece3b96b9afbac59711d71878b",
+    "bilibili_manifest_dimensions": "PASS",
+    "xiaohongshu_manifest_dimensions": "PASS"
+  },
+  "outputs": {
+    "bilibili": {
+      "status": "PASS",
+      "path": "B站/si-ep06-sovereign-crystal-v02-bilibili-120s-4k.mp4",
+      "sha256": "5d57f695c0d430005e5528cb0cd2c2d48a19104ff5ef8a2d0f5399999987816c",
+      "measurements": {
+        "file_size_bytes": 115813246,
+        "video": {
+          "codec": "h264",
+          "pixel_format": "yuv420p",
+          "width": 3840,
+          "height": 2160,
+          "nominal_fps": "60/1",
+          "average_fps": "60/1",
+          "counted_frames": "7200",
+          "duration_seconds": 120.0
+        },
+        "audio_stream_count": 1,
+        "audio": {
+          "codec": "aac",
+          "sample_rate": 48000,
+          "channels": 2,
+          "duration_seconds": 120.0
+        },
+        "container": {
+          "duration_seconds": 120.0,
+          "padding_vs_video_seconds": 0.0
+        },
+        "mp4_atoms": {
+          "atom_types": [
+            "ftyp",
+            "moov",
+            "free",
+            "mdat"
+          ],
+          "moov_offset": 32,
+          "mdat_offset": 193250,
+          "moov_before_mdat": true
+        }
+      },
+      "checks": {
+        "manifest_dimensions": "PASS",
+        "media_file": "PASS",
+        "ffprobe": "PASS",
+        "video_stream_count": "PASS",
+        "dimensions": "PASS",
+        "codec": "PASS",
+        "pixel_format": "PASS",
+        "nominal_fps": "PASS",
+        "average_fps": "PASS",
+        "counted_frames": "PASS",
+        "video_duration": "PASS",
+        "audio_stream_count": "PASS",
+        "audio_codec": "PASS",
+        "audio_sample_rate": "PASS",
+        "audio_channels": "PASS",
+        "audio_duration": "PASS",
+        "container_duration": "PASS",
+        "moov_before_mdat": "PASS",
+        "strict_decode": "PASS"
+      },
+      "failures": []
+    },
+    "xiaohongshu": {
+      "status": "PASS",
+      "path": "小红书/si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait.mp4",
+      "sha256": "1fbe8b12d420772f817fa22e3b06ee6e78388673ea725cf9b408187dc70a9361",
+      "measurements": {
+        "file_size_bytes": 65136600,
+        "video": {
+          "codec": "h264",
+          "pixel_format": "yuv420p",
+          "width": 2160,
+          "height": 3840,
+          "nominal_fps": "60/1",
+          "average_fps": "60/1",
+          "counted_frames": "7200",
+          "duration_seconds": 120.0
+        },
+        "audio_stream_count": 1,
+        "audio": {
+          "codec": "aac",
+          "sample_rate": 48000,
+          "channels": 2,
+          "duration_seconds": 120.0
+        },
+        "container": {
+          "duration_seconds": 120.0,
+          "padding_vs_video_seconds": 0.0
+        },
+        "mp4_atoms": {
+          "atom_types": [
+            "ftyp",
+            "moov",
+            "free",
+            "mdat"
+          ],
+          "moov_offset": 32,
+          "mdat_offset": 192906,
+          "moov_before_mdat": true
+        }
+      },
+      "checks": {
+        "manifest_dimensions": "PASS",
+        "media_file": "PASS",
+        "ffprobe": "PASS",
+        "video_stream_count": "PASS",
+        "dimensions": "PASS",
+        "codec": "PASS",
+        "pixel_format": "PASS",
+        "nominal_fps": "PASS",
+        "average_fps": "PASS",
+        "counted_frames": "PASS",
+        "video_duration": "PASS",
+        "audio_stream_count": "PASS",
+        "audio_codec": "PASS",
+        "audio_sample_rate": "PASS",
+        "audio_channels": "PASS",
+        "audio_duration": "PASS",
+        "container_duration": "PASS",
+        "moov_before_mdat": "PASS",
+        "strict_decode": "PASS"
+      },
+      "failures": []
+    }
+  },
+  "failures": [],
+  "human_review": {
+    "representative_frames": "pending",
+    "continuous_human_review": "pending",
+    "target_device_playback": "pending"
+  },
+  "source_scan": {
+    "status": "PASS",
+    "files_scanned": 21,
+    "matches": [],
+    "read_errors": []
+  }
+}

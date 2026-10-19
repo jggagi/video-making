@@ -1,0 +1,1740 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-10-19T06:58:20.894920+00:00",
+  "delivery_manifest": "delivery.json",
+  "fps": "60",
+  "total_frames": 7200,
+  "pair_map": [
+    {
+      "scene": "coffee",
+      "start_frame": 180,
+      "end_frame": 330
+    },
+    {
+      "scene": "coffee",
+      "start_frame": 690,
+      "end_frame": 840
+    },
+    {
+      "scene": "coffee",
+      "start_frame": 1020,
+      "end_frame": 1170
+    },
+    {
+      "scene": "title",
+      "start_frame": 1350,
+      "end_frame": 1500
+    },
+    {
+      "scene": "mirror",
+      "start_frame": 2010,
+      "end_frame": 2160
+    },
+    {
+      "scene": "mirror",
+      "start_frame": 2370,
+      "end_frame": 2520
+    },
+    {
+      "scene": "mirror",
+      "start_frame": 2820,
+      "end_frame": 2970
+    },
+    {
+      "scene": "mirror",
+      "start_frame": 3270,
+      "end_frame": 3420
+    },
+    {
+      "scene": "choice",
+      "start_frame": 3780,
+      "end_frame": 3930
+    },
+    {
+      "scene": "choice",
+      "start_frame": 4200,
+      "end_frame": 4350
+    },
+    {
+      "scene": "choice",
+      "start_frame": 4590,
+      "end_frame": 4740
+    },
+    {
+      "scene": "choice",
+      "start_frame": 5100,
+      "end_frame": 5250
+    },
+    {
+      "scene": "crystal",
+      "start_frame": 5460,
+      "end_frame": 5610
+    },
+    {
+      "scene": "crystal",
+      "start_frame": 5820,
+      "end_frame": 5970
+    },
+    {
+      "scene": "crystal",
+      "start_frame": 6090,
+      "end_frame": 6240
+    },
+    {
+      "scene": "crystal",
+      "start_frame": 6390,
+      "end_frame": 6540
+    },
+    {
+      "scene": "crystal",
+      "start_frame": 6660,
+      "end_frame": 6810
+    },
+    {
+      "scene": "finale",
+      "start_frame": 6960,
+      "end_frame": 7110
+    }
+  ],
+  "layouts": {
+    "bilibili": {
+      "layout": "landscape",
+      "source_path": "B站/si-ep06-sovereign-crystal-v02-bilibili-120s-4k.mp4",
+      "source_sha256": "5d57f695c0d430005e5528cb0cd2c2d48a19104ff5ef8a2d0f5399999987816c",
+      "video": {
+        "width": 3840,
+        "height": 2160,
+        "fps": "60",
+        "duration_seconds": 120.0
+      },
+      "compact_frame_width": 360,
+      "frames": [
+        {
+          "frame": 180,
+          "time_seconds": 3.0,
+          "path": "landscape/frames/frame-00180.jpg",
+          "source_path": "B站/si-ep06-sovereign-crystal-v02-bilibili-120s-4k.mp4",
+          "source_sha256": "5d57f695c0d430005e5528cb0cd2c2d48a19104ff5ef8a2d0f5399999987816c"
+        },
+        {
+          "frame": 330,
+          "time_seconds": 5.5,
+          "path": "landscape/frames/frame-00330.jpg",
+          "source_path": "B站/si-ep06-sovereign-crystal-v02-bilibili-120s-4k.mp4",
+          "source_sha256": "5d57f695c0d430005e5528cb0cd2c2d48a19104ff5ef8a2d0f5399999987816c"
+        },
+        {
+          "frame": 690,
+          "time_seconds": 11.5,
+          "path": "landscape/frames/frame-00690.jpg",
+          "source_path": "B站/si-ep06-sovereign-crystal-v02-bilibili-120s-4k.mp4",
+          "source_sha256": "5d57f695c0d430005e5528cb0cd2c2d48a19104ff5ef8a2d0f5399999987816c"
+        },
+        {
+          "frame": 840,
+          "time_seconds": 14.0,
+          "path": "landscape/frames/frame-00840.jpg",
+          "source_path": "B站/si-ep06-sovereign-crystal-v02-bilibili-120s-4k.mp4",
+          "source_sha256": "5d57f695c0d430005e5528cb0cd2c2d48a19104ff5ef8a2d0f5399999987816c"
+        },
+        {
+          "frame": 1020,
+          "time_seconds": 17.0,
+          "path": "landscape/frames/frame-01020.jpg",
+          "source_path": "B站/si-ep06-sovereign-crystal-v02-bilibili-120s-4k.mp4",
+          "source_sha256": "5d57f695c0d430005e5528cb0cd2c2d48a19104ff5ef8a2d0f5399999987816c"
+        },
+        {
+          "frame": 1170,
+          "time_seconds": 19.5,
+          "path": "landscape/frames/frame-01170.jpg",
+          "source_path": "B站/si-ep06-sovereign-crystal-v02-bilibili-120s-4k.mp4",
+          "source_sha256": "5d57f695c0d430005e5528cb0cd2c2d48a19104ff5ef8a2d0f5399999987816c"
+        },
+        {
+          "frame": 1350,
+          "time_seconds": 22.5,
+          "path": "landscape/frames/frame-01350.jpg",
+          "source_path": "B站/si-ep06-sovereign-crystal-v02-bilibili-120s-4k.mp4",
+          "source_sha256": "5d57f695c0d430005e5528cb0cd2c2d48a19104ff5ef8a2d0f5399999987816c"
+        },
+        {
+          "frame": 1500,
+          "time_seconds": 25.0,
+          "path": "landscape/frames/frame-01500.jpg",
+          "source_path": "B站/si-ep06-sovereign-crystal-v02-bilibili-120s-4k.mp4",
+          "source_sha256": "5d57f695c0d430005e5528cb0cd2c2d48a19104ff5ef8a2d0f5399999987816c"
+        },
+        {
+          "frame": 2010,
+          "time_seconds": 33.5,
+          "path": "landscape/frames/frame-02010.jpg",
+          "source_path": "B站/si-ep06-sovereign-crystal-v02-bilibili-120s-4k.mp4",
+          "source_sha256": "5d57f695c0d430005e5528cb0cd2c2d48a19104ff5ef8a2d0f5399999987816c"
+        },
+        {
+          "frame": 2160,
+          "time_seconds": 36.0,
+          "path": "landscape/frames/frame-02160.jpg",
+          "source_path": "B站/si-ep06-sovereign-crystal-v02-bilibili-120s-4k.mp4",
+          "source_sha256": "5d57f695c0d430005e5528cb0cd2c2d48a19104ff5ef8a2d0f5399999987816c"
+        },
+        {
+          "frame": 2370,
+          "time_seconds": 39.5,
+          "path": "landscape/frames/frame-02370.jpg",
+          "source_path": "B站/si-ep06-sovereign-crystal-v02-bilibili-120s-4k.mp4",
+          "source_sha256": "5d57f695c0d430005e5528cb0cd2c2d48a19104ff5ef8a2d0f5399999987816c"
+        },
+        {
+          "frame": 2520,
+          "time_seconds": 42.0,
+          "path": "landscape/frames/frame-02520.jpg",
+          "source_path": "B站/si-ep06-sovereign-crystal-v02-bilibili-120s-4k.mp4",
+          "source_sha256": "5d57f695c0d430005e5528cb0cd2c2d48a19104ff5ef8a2d0f5399999987816c"
+        },
+        {
+          "frame": 2820,
+          "time_seconds": 47.0,
+          "path": "landscape/frames/frame-02820.jpg",
+          "source_path": "B站/si-ep06-sovereign-crystal-v02-bilibili-120s-4k.mp4",
+          "source_sha256": "5d57f695c0d430005e5528cb0cd2c2d48a19104ff5ef8a2d0f5399999987816c"
+        },
+        {
+          "frame": 2970,
+          "time_seconds": 49.5,
+          "path": "landscape/frames/frame-02970.jpg",
+          "source_path": "B站/si-ep06-sovereign-crystal-v02-bilibili-120s-4k.mp4",
+          "source_sha256": "5d57f695c0d430005e5528cb0cd2c2d48a19104ff5ef8a2d0f5399999987816c"
+        },
+        {
+          "frame": 3270,
+          "time_seconds": 54.5,
+          "path": "landscape/frames/frame-03270.jpg",
+          "source_path": "B站/si-ep06-sovereign-crystal-v02-bilibili-120s-4k.mp4",
+          "source_sha256": "5d57f695c0d430005e5528cb0cd2c2d48a19104ff5ef8a2d0f5399999987816c"
+        },
+        {
+          "frame": 3420,
+          "time_seconds": 57.0,
+          "path": "landscape/frames/frame-03420.jpg",
+          "source_path": "B站/si-ep06-sovereign-crystal-v02-bilibili-120s-4k.mp4",
+          "source_sha256": "5d57f695c0d430005e5528cb0cd2c2d48a19104ff5ef8a2d0f5399999987816c"
+        },
+        {
+          "frame": 3780,
+          "time_seconds": 63.0,
+          "path": "landscape/frames/frame-03780.jpg",
+          "source_path": "B站/si-ep06-sovereign-crystal-v02-bilibili-120s-4k.mp4",
+          "source_sha256": "5d57f695c0d430005e5528cb0cd2c2d48a19104ff5ef8a2d0f5399999987816c"
+        },
+        {
+          "frame": 3930,
+          "time_seconds": 65.5,
+          "path": "landscape/frames/frame-03930.jpg",
+          "source_path": "B站/si-ep06-sovereign-crystal-v02-bilibili-120s-4k.mp4",
+          "source_sha256": "5d57f695c0d430005e5528cb0cd2c2d48a19104ff5ef8a2d0f5399999987816c"
+        },
+        {
+          "frame": 4200,
+          "time_seconds": 70.0,
+          "path": "landscape/frames/frame-04200.jpg",
+          "source_path": "B站/si-ep06-sovereign-crystal-v02-bilibili-120s-4k.mp4",
+          "source_sha256": "5d57f695c0d430005e5528cb0cd2c2d48a19104ff5ef8a2d0f5399999987816c"
+        },
+        {
+          "frame": 4350,
+          "time_seconds": 72.5,
+          "path": "landscape/frames/frame-04350.jpg",
+          "source_path": "B站/si-ep06-sovereign-crystal-v02-bilibili-120s-4k.mp4",
+          "source_sha256": "5d57f695c0d430005e5528cb0cd2c2d48a19104ff5ef8a2d0f5399999987816c"
+        },
+        {
+          "frame": 4590,
+          "time_seconds": 76.5,
+          "path": "landscape/frames/frame-04590.jpg",
+          "source_path": "B站/si-ep06-sovereign-crystal-v02-bilibili-120s-4k.mp4",
+          "source_sha256": "5d57f695c0d430005e5528cb0cd2c2d48a19104ff5ef8a2d0f5399999987816c"
+        },
+        {
+          "frame": 4740,
+          "time_seconds": 79.0,
+          "path": "landscape/frames/frame-04740.jpg",
+          "source_path": "B站/si-ep06-sovereign-crystal-v02-bilibili-120s-4k.mp4",
+          "source_sha256": "5d57f695c0d430005e5528cb0cd2c2d48a19104ff5ef8a2d0f5399999987816c"
+        },
+        {
+          "frame": 5100,
+          "time_seconds": 85.0,
+          "path": "landscape/frames/frame-05100.jpg",
+          "source_path": "B站/si-ep06-sovereign-crystal-v02-bilibili-120s-4k.mp4",
+          "source_sha256": "5d57f695c0d430005e5528cb0cd2c2d48a19104ff5ef8a2d0f5399999987816c"
+        },
+        {
+          "frame": 5250,
+          "time_seconds": 87.5,
+          "path": "landscape/frames/frame-05250.jpg",
+          "source_path": "B站/si-ep06-sovereign-crystal-v02-bilibili-120s-4k.mp4",
+          "source_sha256": "5d57f695c0d430005e5528cb0cd2c2d48a19104ff5ef8a2d0f5399999987816c"
+        },
+        {
+          "frame": 5460,
+          "time_seconds": 91.0,
+          "path": "landscape/frames/frame-05460.jpg",
+          "source_path": "B站/si-ep06-sovereign-crystal-v02-bilibili-120s-4k.mp4",
+          "source_sha256": "5d57f695c0d430005e5528cb0cd2c2d48a19104ff5ef8a2d0f5399999987816c"
+        },
+        {
+          "frame": 5610,
+          "time_seconds": 93.5,
+          "path": "landscape/frames/frame-05610.jpg",
+          "source_path": "B站/si-ep06-sovereign-crystal-v02-bilibili-120s-4k.mp4",
+          "source_sha256": "5d57f695c0d430005e5528cb0cd2c2d48a19104ff5ef8a2d0f5399999987816c"
+        },
+        {
+          "frame": 5820,
+          "time_seconds": 97.0,
+          "path": "landscape/frames/frame-05820.jpg",
+          "source_path": "B站/si-ep06-sovereign-crystal-v02-bilibili-120s-4k.mp4",
+          "source_sha256": "5d57f695c0d430005e5528cb0cd2c2d48a19104ff5ef8a2d0f5399999987816c"
+        },
+        {
+          "frame": 5970,
+          "time_seconds": 99.5,
+          "path": "landscape/frames/frame-05970.jpg",
+          "source_path": "B站/si-ep06-sovereign-crystal-v02-bilibili-120s-4k.mp4",
+          "source_sha256": "5d57f695c0d430005e5528cb0cd2c2d48a19104ff5ef8a2d0f5399999987816c"
+        },
+        {
+          "frame": 6090,
+          "time_seconds": 101.5,
+          "path": "landscape/frames/frame-06090.jpg",
+          "source_path": "B站/si-ep06-sovereign-crystal-v02-bilibili-120s-4k.mp4",
+          "source_sha256": "5d57f695c0d430005e5528cb0cd2c2d48a19104ff5ef8a2d0f5399999987816c"
+        },
+        {
+          "frame": 6240,
+          "time_seconds": 104.0,
+          "path": "landscape/frames/frame-06240.jpg",
+          "source_path": "B站/si-ep06-sovereign-crystal-v02-bilibili-120s-4k.mp4",
+          "source_sha256": "5d57f695c0d430005e5528cb0cd2c2d48a19104ff5ef8a2d0f5399999987816c"
+        },
+        {
+          "frame": 6390,
+          "time_seconds": 106.5,
+          "path": "landscape/frames/frame-06390.jpg",
+          "source_path": "B站/si-ep06-sovereign-crystal-v02-bilibili-120s-4k.mp4",
+          "source_sha256": "5d57f695c0d430005e5528cb0cd2c2d48a19104ff5ef8a2d0f5399999987816c"
+        },
+        {
+          "frame": 6540,
+          "time_seconds": 109.0,
+          "path": "landscape/frames/frame-06540.jpg",
+          "source_path": "B站/si-ep06-sovereign-crystal-v02-bilibili-120s-4k.mp4",
+          "source_sha256": "5d57f695c0d430005e5528cb0cd2c2d48a19104ff5ef8a2d0f5399999987816c"
+        },
+        {
+          "frame": 6660,
+          "time_seconds": 111.0,
+          "path": "landscape/frames/frame-06660.jpg",
+          "source_path": "B站/si-ep06-sovereign-crystal-v02-bilibili-120s-4k.mp4",
+          "source_sha256": "5d57f695c0d430005e5528cb0cd2c2d48a19104ff5ef8a2d0f5399999987816c"
+        },
+        {
+          "frame": 6810,
+          "time_seconds": 113.5,
+          "path": "landscape/frames/frame-06810.jpg",
+          "source_path": "B站/si-ep06-sovereign-crystal-v02-bilibili-120s-4k.mp4",
+          "source_sha256": "5d57f695c0d430005e5528cb0cd2c2d48a19104ff5ef8a2d0f5399999987816c"
+        },
+        {
+          "frame": 6960,
+          "time_seconds": 116.0,
+          "path": "landscape/frames/frame-06960.jpg",
+          "source_path": "B站/si-ep06-sovereign-crystal-v02-bilibili-120s-4k.mp4",
+          "source_sha256": "5d57f695c0d430005e5528cb0cd2c2d48a19104ff5ef8a2d0f5399999987816c"
+        },
+        {
+          "frame": 7110,
+          "time_seconds": 118.5,
+          "path": "landscape/frames/frame-07110.jpg",
+          "source_path": "B站/si-ep06-sovereign-crystal-v02-bilibili-120s-4k.mp4",
+          "source_sha256": "5d57f695c0d430005e5528cb0cd2c2d48a19104ff5ef8a2d0f5399999987816c"
+        }
+      ],
+      "contact_sheets": [
+        {
+          "path": "landscape/contact-sheets/page-01.jpg",
+          "columns": 4,
+          "rows": 2,
+          "cells": [
+            {
+              "cell": 1,
+              "frame": 180,
+              "column": 1,
+              "row": 1,
+              "time_seconds": 3.0
+            },
+            {
+              "cell": 2,
+              "frame": 330,
+              "column": 2,
+              "row": 1,
+              "time_seconds": 5.5
+            },
+            {
+              "cell": 3,
+              "frame": 690,
+              "column": 3,
+              "row": 1,
+              "time_seconds": 11.5
+            },
+            {
+              "cell": 4,
+              "frame": 840,
+              "column": 4,
+              "row": 1,
+              "time_seconds": 14.0
+            },
+            {
+              "cell": 5,
+              "frame": 1020,
+              "column": 1,
+              "row": 2,
+              "time_seconds": 17.0
+            },
+            {
+              "cell": 6,
+              "frame": 1170,
+              "column": 2,
+              "row": 2,
+              "time_seconds": 19.5
+            },
+            {
+              "cell": 7,
+              "frame": 1350,
+              "column": 3,
+              "row": 2,
+              "time_seconds": 22.5
+            },
+            {
+              "cell": 8,
+              "frame": 1500,
+              "column": 4,
+              "row": 2,
+              "time_seconds": 25.0
+            }
+          ]
+        },
+        {
+          "path": "landscape/contact-sheets/page-02.jpg",
+          "columns": 4,
+          "rows": 2,
+          "cells": [
+            {
+              "cell": 1,
+              "frame": 2010,
+              "column": 1,
+              "row": 1,
+              "time_seconds": 33.5
+            },
+            {
+              "cell": 2,
+              "frame": 2160,
+              "column": 2,
+              "row": 1,
+              "time_seconds": 36.0
+            },
+            {
+              "cell": 3,
+              "frame": 2370,
+              "column": 3,
+              "row": 1,
+              "time_seconds": 39.5
+            },
+            {
+              "cell": 4,
+              "frame": 2520,
+              "column": 4,
+              "row": 1,
+              "time_seconds": 42.0
+            },
+            {
+              "cell": 5,
+              "frame": 2820,
+              "column": 1,
+              "row": 2,
+              "time_seconds": 47.0
+            },
+            {
+              "cell": 6,
+              "frame": 2970,
+              "column": 2,
+              "row": 2,
+              "time_seconds": 49.5
+            },
+            {
+              "cell": 7,
+              "frame": 3270,
+              "column": 3,
+              "row": 2,
+              "time_seconds": 54.5
+            },
+            {
+              "cell": 8,
+              "frame": 3420,
+              "column": 4,
+              "row": 2,
+              "time_seconds": 57.0
+            }
+          ]
+        },
+        {
+          "path": "landscape/contact-sheets/page-03.jpg",
+          "columns": 4,
+          "rows": 2,
+          "cells": [
+            {
+              "cell": 1,
+              "frame": 3780,
+              "column": 1,
+              "row": 1,
+              "time_seconds": 63.0
+            },
+            {
+              "cell": 2,
+              "frame": 3930,
+              "column": 2,
+              "row": 1,
+              "time_seconds": 65.5
+            },
+            {
+              "cell": 3,
+              "frame": 4200,
+              "column": 3,
+              "row": 1,
+              "time_seconds": 70.0
+            },
+            {
+              "cell": 4,
+              "frame": 4350,
+              "column": 4,
+              "row": 1,
+              "time_seconds": 72.5
+            },
+            {
+              "cell": 5,
+              "frame": 4590,
+              "column": 1,
+              "row": 2,
+              "time_seconds": 76.5
+            },
+            {
+              "cell": 6,
+              "frame": 4740,
+              "column": 2,
+              "row": 2,
+              "time_seconds": 79.0
+            },
+            {
+              "cell": 7,
+              "frame": 5100,
+              "column": 3,
+              "row": 2,
+              "time_seconds": 85.0
+            },
+            {
+              "cell": 8,
+              "frame": 5250,
+              "column": 4,
+              "row": 2,
+              "time_seconds": 87.5
+            }
+          ]
+        },
+        {
+          "path": "landscape/contact-sheets/page-04.jpg",
+          "columns": 4,
+          "rows": 2,
+          "cells": [
+            {
+              "cell": 1,
+              "frame": 5460,
+              "column": 1,
+              "row": 1,
+              "time_seconds": 91.0
+            },
+            {
+              "cell": 2,
+              "frame": 5610,
+              "column": 2,
+              "row": 1,
+              "time_seconds": 93.5
+            },
+            {
+              "cell": 3,
+              "frame": 5820,
+              "column": 3,
+              "row": 1,
+              "time_seconds": 97.0
+            },
+            {
+              "cell": 4,
+              "frame": 5970,
+              "column": 4,
+              "row": 1,
+              "time_seconds": 99.5
+            },
+            {
+              "cell": 5,
+              "frame": 6090,
+              "column": 1,
+              "row": 2,
+              "time_seconds": 101.5
+            },
+            {
+              "cell": 6,
+              "frame": 6240,
+              "column": 2,
+              "row": 2,
+              "time_seconds": 104.0
+            },
+            {
+              "cell": 7,
+              "frame": 6390,
+              "column": 3,
+              "row": 2,
+              "time_seconds": 106.5
+            },
+            {
+              "cell": 8,
+              "frame": 6540,
+              "column": 4,
+              "row": 2,
+              "time_seconds": 109.0
+            }
+          ]
+        },
+        {
+          "path": "landscape/contact-sheets/page-05.jpg",
+          "columns": 4,
+          "rows": 2,
+          "cells": [
+            {
+              "cell": 1,
+              "frame": 6660,
+              "column": 1,
+              "row": 1,
+              "time_seconds": 111.0
+            },
+            {
+              "cell": 2,
+              "frame": 6810,
+              "column": 2,
+              "row": 1,
+              "time_seconds": 113.5
+            },
+            {
+              "cell": 3,
+              "frame": 6960,
+              "column": 3,
+              "row": 1,
+              "time_seconds": 116.0
+            },
+            {
+              "cell": 4,
+              "frame": 7110,
+              "column": 4,
+              "row": 1,
+              "time_seconds": 118.5
+            }
+          ]
+        }
+      ]
+    },
+    "xiaohongshu": {
+      "layout": "portrait",
+      "source_path": "小红书/si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait.mp4",
+      "source_sha256": "1fbe8b12d420772f817fa22e3b06ee6e78388673ea725cf9b408187dc70a9361",
+      "video": {
+        "width": 2160,
+        "height": 3840,
+        "fps": "60",
+        "duration_seconds": 120.0
+      },
+      "compact_frame_width": 360,
+      "frames": [
+        {
+          "frame": 180,
+          "time_seconds": 3.0,
+          "path": "portrait/frames/frame-00180.jpg",
+          "source_path": "小红书/si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait.mp4",
+          "source_sha256": "1fbe8b12d420772f817fa22e3b06ee6e78388673ea725cf9b408187dc70a9361"
+        },
+        {
+          "frame": 330,
+          "time_seconds": 5.5,
+          "path": "portrait/frames/frame-00330.jpg",
+          "source_path": "小红书/si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait.mp4",
+          "source_sha256": "1fbe8b12d420772f817fa22e3b06ee6e78388673ea725cf9b408187dc70a9361"
+        },
+        {
+          "frame": 690,
+          "time_seconds": 11.5,
+          "path": "portrait/frames/frame-00690.jpg",
+          "source_path": "小红书/si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait.mp4",
+          "source_sha256": "1fbe8b12d420772f817fa22e3b06ee6e78388673ea725cf9b408187dc70a9361"
+        },
+        {
+          "frame": 840,
+          "time_seconds": 14.0,
+          "path": "portrait/frames/frame-00840.jpg",
+          "source_path": "小红书/si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait.mp4",
+          "source_sha256": "1fbe8b12d420772f817fa22e3b06ee6e78388673ea725cf9b408187dc70a9361"
+        },
+        {
+          "frame": 1020,
+          "time_seconds": 17.0,
+          "path": "portrait/frames/frame-01020.jpg",
+          "source_path": "小红书/si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait.mp4",
+          "source_sha256": "1fbe8b12d420772f817fa22e3b06ee6e78388673ea725cf9b408187dc70a9361"
+        },
+        {
+          "frame": 1170,
+          "time_seconds": 19.5,
+          "path": "portrait/frames/frame-01170.jpg",
+          "source_path": "小红书/si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait.mp4",
+          "source_sha256": "1fbe8b12d420772f817fa22e3b06ee6e78388673ea725cf9b408187dc70a9361"
+        },
+        {
+          "frame": 1350,
+          "time_seconds": 22.5,
+          "path": "portrait/frames/frame-01350.jpg",
+          "source_path": "小红书/si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait.mp4",
+          "source_sha256": "1fbe8b12d420772f817fa22e3b06ee6e78388673ea725cf9b408187dc70a9361"
+        },
+        {
+          "frame": 1500,
+          "time_seconds": 25.0,
+          "path": "portrait/frames/frame-01500.jpg",
+          "source_path": "小红书/si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait.mp4",
+          "source_sha256": "1fbe8b12d420772f817fa22e3b06ee6e78388673ea725cf9b408187dc70a9361"
+        },
+        {
+          "frame": 2010,
+          "time_seconds": 33.5,
+          "path": "portrait/frames/frame-02010.jpg",
+          "source_path": "小红书/si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait.mp4",
+          "source_sha256": "1fbe8b12d420772f817fa22e3b06ee6e78388673ea725cf9b408187dc70a9361"
+        },
+        {
+          "frame": 2160,
+          "time_seconds": 36.0,
+          "path": "portrait/frames/frame-02160.jpg",
+          "source_path": "小红书/si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait.mp4",
+          "source_sha256": "1fbe8b12d420772f817fa22e3b06ee6e78388673ea725cf9b408187dc70a9361"
+        },
+        {
+          "frame": 2370,
+          "time_seconds": 39.5,
+          "path": "portrait/frames/frame-02370.jpg",
+          "source_path": "小红书/si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait.mp4",
+          "source_sha256": "1fbe8b12d420772f817fa22e3b06ee6e78388673ea725cf9b408187dc70a9361"
+        },
+        {
+          "frame": 2520,
+          "time_seconds": 42.0,
+          "path": "portrait/frames/frame-02520.jpg",
+          "source_path": "小红书/si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait.mp4",
+          "source_sha256": "1fbe8b12d420772f817fa22e3b06ee6e78388673ea725cf9b408187dc70a9361"
+        },
+        {
+          "frame": 2820,
+          "time_seconds": 47.0,
+          "path": "portrait/frames/frame-02820.jpg",
+          "source_path": "小红书/si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait.mp4",
+          "source_sha256": "1fbe8b12d420772f817fa22e3b06ee6e78388673ea725cf9b408187dc70a9361"
+        },
+        {
+          "frame": 2970,
+          "time_seconds": 49.5,
+          "path": "portrait/frames/frame-02970.jpg",
+          "source_path": "小红书/si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait.mp4",
+          "source_sha256": "1fbe8b12d420772f817fa22e3b06ee6e78388673ea725cf9b408187dc70a9361"
+        },
+        {
+          "frame": 3270,
+          "time_seconds": 54.5,
+          "path": "portrait/frames/frame-03270.jpg",
+          "source_path": "小红书/si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait.mp4",
+          "source_sha256": "1fbe8b12d420772f817fa22e3b06ee6e78388673ea725cf9b408187dc70a9361"
+        },
+        {
+          "frame": 3420,
+          "time_seconds": 57.0,
+          "path": "portrait/frames/frame-03420.jpg",
+          "source_path": "小红书/si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait.mp4",
+          "source_sha256": "1fbe8b12d420772f817fa22e3b06ee6e78388673ea725cf9b408187dc70a9361"
+        },
+        {
+          "frame": 3780,
+          "time_seconds": 63.0,
+          "path": "portrait/frames/frame-03780.jpg",
+          "source_path": "小红书/si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait.mp4",
+          "source_sha256": "1fbe8b12d420772f817fa22e3b06ee6e78388673ea725cf9b408187dc70a9361"
+        },
+        {
+          "frame": 3930,
+          "time_seconds": 65.5,
+          "path": "portrait/frames/frame-03930.jpg",
+          "source_path": "小红书/si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait.mp4",
+          "source_sha256": "1fbe8b12d420772f817fa22e3b06ee6e78388673ea725cf9b408187dc70a9361"
+        },
+        {
+          "frame": 4200,
+          "time_seconds": 70.0,
+          "path": "portrait/frames/frame-04200.jpg",
+          "source_path": "小红书/si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait.mp4",
+          "source_sha256": "1fbe8b12d420772f817fa22e3b06ee6e78388673ea725cf9b408187dc70a9361"
+        },
+        {
+          "frame": 4350,
+          "time_seconds": 72.5,
+          "path": "portrait/frames/frame-04350.jpg",
+          "source_path": "小红书/si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait.mp4",
+          "source_sha256": "1fbe8b12d420772f817fa22e3b06ee6e78388673ea725cf9b408187dc70a9361"
+        },
+        {
+          "frame": 4590,
+          "time_seconds": 76.5,
+          "path": "portrait/frames/frame-04590.jpg",
+          "source_path": "小红书/si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait.mp4",
+          "source_sha256": "1fbe8b12d420772f817fa22e3b06ee6e78388673ea725cf9b408187dc70a9361"
+        },
+        {
+          "frame": 4740,
+          "time_seconds": 79.0,
+          "path": "portrait/frames/frame-04740.jpg",
+          "source_path": "小红书/si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait.mp4",
+          "source_sha256": "1fbe8b12d420772f817fa22e3b06ee6e78388673ea725cf9b408187dc70a9361"
+        },
+        {
+          "frame": 5100,
+          "time_seconds": 85.0,
+          "path": "portrait/frames/frame-05100.jpg",
+          "source_path": "小红书/si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait.mp4",
+          "source_sha256": "1fbe8b12d420772f817fa22e3b06ee6e78388673ea725cf9b408187dc70a9361"
+        },
+        {
+          "frame": 5250,
+          "time_seconds": 87.5,
+          "path": "portrait/frames/frame-05250.jpg",
+          "source_path": "小红书/si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait.mp4",
+          "source_sha256": "1fbe8b12d420772f817fa22e3b06ee6e78388673ea725cf9b408187dc70a9361"
+        },
+        {
+          "frame": 5460,
+          "time_seconds": 91.0,
+          "path": "portrait/frames/frame-05460.jpg",
+          "source_path": "小红书/si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait.mp4",
+          "source_sha256": "1fbe8b12d420772f817fa22e3b06ee6e78388673ea725cf9b408187dc70a9361"
+        },
+        {
+          "frame": 5610,
+          "time_seconds": 93.5,
+          "path": "portrait/frames/frame-05610.jpg",
+          "source_path": "小红书/si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait.mp4",
+          "source_sha256": "1fbe8b12d420772f817fa22e3b06ee6e78388673ea725cf9b408187dc70a9361"
+        },
+        {
+          "frame": 5820,
+          "time_seconds": 97.0,
+          "path": "portrait/frames/frame-05820.jpg",
+          "source_path": "小红书/si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait.mp4",
+          "source_sha256": "1fbe8b12d420772f817fa22e3b06ee6e78388673ea725cf9b408187dc70a9361"
+        },
+        {
+          "frame": 5970,
+          "time_seconds": 99.5,
+          "path": "portrait/frames/frame-05970.jpg",
+          "source_path": "小红书/si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait.mp4",
+          "source_sha256": "1fbe8b12d420772f817fa22e3b06ee6e78388673ea725cf9b408187dc70a9361"
+        },
+        {
+          "frame": 6090,
+          "time_seconds": 101.5,
+          "path": "portrait/frames/frame-06090.jpg",
+          "source_path": "小红书/si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait.mp4",
+          "source_sha256": "1fbe8b12d420772f817fa22e3b06ee6e78388673ea725cf9b408187dc70a9361"
+        },
+        {
+          "frame": 6240,
+          "time_seconds": 104.0,
+          "path": "portrait/frames/frame-06240.jpg",
+          "source_path": "小红书/si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait.mp4",
+          "source_sha256": "1fbe8b12d420772f817fa22e3b06ee6e78388673ea725cf9b408187dc70a9361"
+        },
+        {
+          "frame": 6390,
+          "time_seconds": 106.5,
+          "path": "portrait/frames/frame-06390.jpg",
+          "source_path": "小红书/si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait.mp4",
+          "source_sha256": "1fbe8b12d420772f817fa22e3b06ee6e78388673ea725cf9b408187dc70a9361"
+        },
+        {
+          "frame": 6540,
+          "time_seconds": 109.0,
+          "path": "portrait/frames/frame-06540.jpg",
+          "source_path": "小红书/si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait.mp4",
+          "source_sha256": "1fbe8b12d420772f817fa22e3b06ee6e78388673ea725cf9b408187dc70a9361"
+        },
+        {
+          "frame": 6660,
+          "time_seconds": 111.0,
+          "path": "portrait/frames/frame-06660.jpg",
+          "source_path": "小红书/si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait.mp4",
+          "source_sha256": "1fbe8b12d420772f817fa22e3b06ee6e78388673ea725cf9b408187dc70a9361"
+        },
+        {
+          "frame": 6810,
+          "time_seconds": 113.5,
+          "path": "portrait/frames/frame-06810.jpg",
+          "source_path": "小红书/si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait.mp4",
+          "source_sha256": "1fbe8b12d420772f817fa22e3b06ee6e78388673ea725cf9b408187dc70a9361"
+        },
+        {
+          "frame": 6960,
+          "time_seconds": 116.0,
+          "path": "portrait/frames/frame-06960.jpg",
+          "source_path": "小红书/si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait.mp4",
+          "source_sha256": "1fbe8b12d420772f817fa22e3b06ee6e78388673ea725cf9b408187dc70a9361"
+        },
+        {
+          "frame": 7110,
+          "time_seconds": 118.5,
+          "path": "portrait/frames/frame-07110.jpg",
+          "source_path": "小红书/si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait.mp4",
+          "source_sha256": "1fbe8b12d420772f817fa22e3b06ee6e78388673ea725cf9b408187dc70a9361"
+        }
+      ],
+      "contact_sheets": [
+        {
+          "path": "portrait/contact-sheets/page-01.jpg",
+          "columns": 2,
+          "rows": 4,
+          "cells": [
+            {
+              "cell": 1,
+              "frame": 180,
+              "column": 1,
+              "row": 1,
+              "time_seconds": 3.0
+            },
+            {
+              "cell": 2,
+              "frame": 330,
+              "column": 2,
+              "row": 1,
+              "time_seconds": 5.5
+            },
+            {
+              "cell": 3,
+              "frame": 690,
+              "column": 1,
+              "row": 2,
+              "time_seconds": 11.5
+            },
+            {
+              "cell": 4,
+              "frame": 840,
+              "column": 2,
+              "row": 2,
+              "time_seconds": 14.0
+            },
+            {
+              "cell": 5,
+              "frame": 1020,
+              "column": 1,
+              "row": 3,
+              "time_seconds": 17.0
+            },
+            {
+              "cell": 6,
+              "frame": 1170,
+              "column": 2,
+              "row": 3,
+              "time_seconds": 19.5
+            },
+            {
+              "cell": 7,
+              "frame": 1350,
+              "column": 1,
+              "row": 4,
+              "time_seconds": 22.5
+            },
+            {
+              "cell": 8,
+              "frame": 1500,
+              "column": 2,
+              "row": 4,
+              "time_seconds": 25.0
+            }
+          ]
+        },
+        {
+          "path": "portrait/contact-sheets/page-02.jpg",
+          "columns": 2,
+          "rows": 4,
+          "cells": [
+            {
+              "cell": 1,
+              "frame": 2010,
+              "column": 1,
+              "row": 1,
+              "time_seconds": 33.5
+            },
+            {
+              "cell": 2,
+              "frame": 2160,
+              "column": 2,
+              "row": 1,
+              "time_seconds": 36.0
+            },
+            {
+              "cell": 3,
+              "frame": 2370,
+              "column": 1,
+              "row": 2,
+              "time_seconds": 39.5
+            },
+            {
+              "cell": 4,
+              "frame": 2520,
+              "column": 2,
+              "row": 2,
+              "time_seconds": 42.0
+            },
+            {
+              "cell": 5,
+              "frame": 2820,
+              "column": 1,
+              "row": 3,
+              "time_seconds": 47.0
+            },
+            {
+              "cell": 6,
+              "frame": 2970,
+              "column": 2,
+              "row": 3,
+              "time_seconds": 49.5
+            },
+            {
+              "cell": 7,
+              "frame": 3270,
+              "column": 1,
+              "row": 4,
+              "time_seconds": 54.5
+            },
+            {
+              "cell": 8,
+              "frame": 3420,
+              "column": 2,
+              "row": 4,
+              "time_seconds": 57.0
+            }
+          ]
+        },
+        {
+          "path": "portrait/contact-sheets/page-03.jpg",
+          "columns": 2,
+          "rows": 4,
+          "cells": [
+            {
+              "cell": 1,
+              "frame": 3780,
+              "column": 1,
+              "row": 1,
+              "time_seconds": 63.0
+            },
+            {
+              "cell": 2,
+              "frame": 3930,
+              "column": 2,
+              "row": 1,
+              "time_seconds": 65.5
+            },
+            {
+              "cell": 3,
+              "frame": 4200,
+              "column": 1,
+              "row": 2,
+              "time_seconds": 70.0
+            },
+            {
+              "cell": 4,
+              "frame": 4350,
+              "column": 2,
+              "row": 2,
+              "time_seconds": 72.5
+            },
+            {
+              "cell": 5,
+              "frame": 4590,
+              "column": 1,
+              "row": 3,
+              "time_seconds": 76.5
+            },
+            {
+              "cell": 6,
+              "frame": 4740,
+              "column": 2,
+              "row": 3,
+              "time_seconds": 79.0
+            },
+            {
+              "cell": 7,
+              "frame": 5100,
+              "column": 1,
+              "row": 4,
+              "time_seconds": 85.0
+            },
+            {
+              "cell": 8,
+              "frame": 5250,
+              "column": 2,
+              "row": 4,
+              "time_seconds": 87.5
+            }
+          ]
+        },
+        {
+          "path": "portrait/contact-sheets/page-04.jpg",
+          "columns": 2,
+          "rows": 4,
+          "cells": [
+            {
+              "cell": 1,
+              "frame": 5460,
+              "column": 1,
+              "row": 1,
+              "time_seconds": 91.0
+            },
+            {
+              "cell": 2,
+              "frame": 5610,
+              "column": 2,
+              "row": 1,
+              "time_seconds": 93.5
+            },
+            {
+              "cell": 3,
+              "frame": 5820,
+              "column": 1,
+              "row": 2,
+              "time_seconds": 97.0
+            },
+            {
+              "cell": 4,
+              "frame": 5970,
+              "column": 2,
+              "row": 2,
+              "time_seconds": 99.5
+            },
+            {
+              "cell": 5,
+              "frame": 6090,
+              "column": 1,
+              "row": 3,
+              "time_seconds": 101.5
+            },
+            {
+              "cell": 6,
+              "frame": 6240,
+              "column": 2,
+              "row": 3,
+              "time_seconds": 104.0
+            },
+            {
+              "cell": 7,
+              "frame": 6390,
+              "column": 1,
+              "row": 4,
+              "time_seconds": 106.5
+            },
+            {
+              "cell": 8,
+              "frame": 6540,
+              "column": 2,
+              "row": 4,
+              "time_seconds": 109.0
+            }
+          ]
+        },
+        {
+          "path": "portrait/contact-sheets/page-05.jpg",
+          "columns": 2,
+          "rows": 4,
+          "cells": [
+            {
+              "cell": 1,
+              "frame": 6660,
+              "column": 1,
+              "row": 1,
+              "time_seconds": 111.0
+            },
+            {
+              "cell": 2,
+              "frame": 6810,
+              "column": 2,
+              "row": 1,
+              "time_seconds": 113.5
+            },
+            {
+              "cell": 3,
+              "frame": 6960,
+              "column": 1,
+              "row": 2,
+              "time_seconds": 116.0
+            },
+            {
+              "cell": 4,
+              "frame": 7110,
+              "column": 2,
+              "row": 2,
+              "time_seconds": 118.5
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "pairs": [
+    {
+      "scene": "coffee",
+      "start_frame": 180,
+      "end_frame": 330,
+      "start_time_seconds": 3.0,
+      "end_time_seconds": 5.5,
+      "layouts": {
+        "landscape": {
+          "roi_fraction": {
+            "x0": 0.5,
+            "y0": 0.24,
+            "x1": 0.95,
+            "y1": 0.78
+          },
+          "edge_difference_yavg": 8.1168,
+          "warning": null
+        },
+        "portrait": {
+          "roi_fraction": {
+            "x0": 0.1,
+            "y0": 0.35,
+            "x1": 0.86,
+            "y1": 0.62
+          },
+          "edge_difference_yavg": 6.1051,
+          "warning": null
+        }
+      }
+    },
+    {
+      "scene": "coffee",
+      "start_frame": 690,
+      "end_frame": 840,
+      "start_time_seconds": 11.5,
+      "end_time_seconds": 14.0,
+      "layouts": {
+        "landscape": {
+          "roi_fraction": {
+            "x0": 0.5,
+            "y0": 0.24,
+            "x1": 0.95,
+            "y1": 0.78
+          },
+          "edge_difference_yavg": 5.4562,
+          "warning": null
+        },
+        "portrait": {
+          "roi_fraction": {
+            "x0": 0.1,
+            "y0": 0.35,
+            "x1": 0.86,
+            "y1": 0.62
+          },
+          "edge_difference_yavg": 5.6874,
+          "warning": null
+        }
+      }
+    },
+    {
+      "scene": "coffee",
+      "start_frame": 1020,
+      "end_frame": 1170,
+      "start_time_seconds": 17.0,
+      "end_time_seconds": 19.5,
+      "layouts": {
+        "landscape": {
+          "roi_fraction": {
+            "x0": 0.5,
+            "y0": 0.24,
+            "x1": 0.95,
+            "y1": 0.78
+          },
+          "edge_difference_yavg": 6.4965,
+          "warning": null
+        },
+        "portrait": {
+          "roi_fraction": {
+            "x0": 0.1,
+            "y0": 0.35,
+            "x1": 0.86,
+            "y1": 0.62
+          },
+          "edge_difference_yavg": 6.4237,
+          "warning": null
+        }
+      }
+    },
+    {
+      "scene": "title",
+      "start_frame": 1350,
+      "end_frame": 1500,
+      "start_time_seconds": 22.5,
+      "end_time_seconds": 25.0,
+      "layouts": {
+        "landscape": {
+          "roi_fraction": {
+            "x0": 0.5,
+            "y0": 0.24,
+            "x1": 0.95,
+            "y1": 0.78
+          },
+          "edge_difference_yavg": 13.261,
+          "warning": null
+        },
+        "portrait": {
+          "roi_fraction": {
+            "x0": 0.1,
+            "y0": 0.35,
+            "x1": 0.86,
+            "y1": 0.62
+          },
+          "edge_difference_yavg": 1.5965,
+          "warning": null
+        }
+      }
+    },
+    {
+      "scene": "mirror",
+      "start_frame": 2010,
+      "end_frame": 2160,
+      "start_time_seconds": 33.5,
+      "end_time_seconds": 36.0,
+      "layouts": {
+        "landscape": {
+          "roi_fraction": {
+            "x0": 0.5,
+            "y0": 0.24,
+            "x1": 0.95,
+            "y1": 0.78
+          },
+          "edge_difference_yavg": 23.3509,
+          "warning": null
+        },
+        "portrait": {
+          "roi_fraction": {
+            "x0": 0.1,
+            "y0": 0.35,
+            "x1": 0.86,
+            "y1": 0.62
+          },
+          "edge_difference_yavg": 15.2338,
+          "warning": null
+        }
+      }
+    },
+    {
+      "scene": "mirror",
+      "start_frame": 2370,
+      "end_frame": 2520,
+      "start_time_seconds": 39.5,
+      "end_time_seconds": 42.0,
+      "layouts": {
+        "landscape": {
+          "roi_fraction": {
+            "x0": 0.5,
+            "y0": 0.24,
+            "x1": 0.95,
+            "y1": 0.78
+          },
+          "edge_difference_yavg": 12.3707,
+          "warning": null
+        },
+        "portrait": {
+          "roi_fraction": {
+            "x0": 0.1,
+            "y0": 0.35,
+            "x1": 0.86,
+            "y1": 0.62
+          },
+          "edge_difference_yavg": 6.5358,
+          "warning": null
+        }
+      }
+    },
+    {
+      "scene": "mirror",
+      "start_frame": 2820,
+      "end_frame": 2970,
+      "start_time_seconds": 47.0,
+      "end_time_seconds": 49.5,
+      "layouts": {
+        "landscape": {
+          "roi_fraction": {
+            "x0": 0.5,
+            "y0": 0.24,
+            "x1": 0.95,
+            "y1": 0.78
+          },
+          "edge_difference_yavg": 14.0862,
+          "warning": null
+        },
+        "portrait": {
+          "roi_fraction": {
+            "x0": 0.1,
+            "y0": 0.35,
+            "x1": 0.86,
+            "y1": 0.62
+          },
+          "edge_difference_yavg": 7.6703,
+          "warning": null
+        }
+      }
+    },
+    {
+      "scene": "mirror",
+      "start_frame": 3270,
+      "end_frame": 3420,
+      "start_time_seconds": 54.5,
+      "end_time_seconds": 57.0,
+      "layouts": {
+        "landscape": {
+          "roi_fraction": {
+            "x0": 0.5,
+            "y0": 0.24,
+            "x1": 0.95,
+            "y1": 0.78
+          },
+          "edge_difference_yavg": 15.174,
+          "warning": null
+        },
+        "portrait": {
+          "roi_fraction": {
+            "x0": 0.1,
+            "y0": 0.35,
+            "x1": 0.86,
+            "y1": 0.62
+          },
+          "edge_difference_yavg": 8.0025,
+          "warning": null
+        }
+      }
+    },
+    {
+      "scene": "choice",
+      "start_frame": 3780,
+      "end_frame": 3930,
+      "start_time_seconds": 63.0,
+      "end_time_seconds": 65.5,
+      "layouts": {
+        "landscape": {
+          "roi_fraction": {
+            "x0": 0.5,
+            "y0": 0.24,
+            "x1": 0.95,
+            "y1": 0.78
+          },
+          "edge_difference_yavg": 7.1859,
+          "warning": null
+        },
+        "portrait": {
+          "roi_fraction": {
+            "x0": 0.1,
+            "y0": 0.35,
+            "x1": 0.86,
+            "y1": 0.62
+          },
+          "edge_difference_yavg": 9.6319,
+          "warning": null
+        }
+      }
+    },
+    {
+      "scene": "choice",
+      "start_frame": 4200,
+      "end_frame": 4350,
+      "start_time_seconds": 70.0,
+      "end_time_seconds": 72.5,
+      "layouts": {
+        "landscape": {
+          "roi_fraction": {
+            "x0": 0.5,
+            "y0": 0.24,
+            "x1": 0.95,
+            "y1": 0.78
+          },
+          "edge_difference_yavg": 7.2758,
+          "warning": null
+        },
+        "portrait": {
+          "roi_fraction": {
+            "x0": 0.1,
+            "y0": 0.35,
+            "x1": 0.86,
+            "y1": 0.62
+          },
+          "edge_difference_yavg": 7.4029,
+          "warning": null
+        }
+      }
+    },
+    {
+      "scene": "choice",
+      "start_frame": 4590,
+      "end_frame": 4740,
+      "start_time_seconds": 76.5,
+      "end_time_seconds": 79.0,
+      "layouts": {
+        "landscape": {
+          "roi_fraction": {
+            "x0": 0.5,
+            "y0": 0.24,
+            "x1": 0.95,
+            "y1": 0.78
+          },
+          "edge_difference_yavg": 4.125,
+          "warning": null
+        },
+        "portrait": {
+          "roi_fraction": {
+            "x0": 0.1,
+            "y0": 0.35,
+            "x1": 0.86,
+            "y1": 0.62
+          },
+          "edge_difference_yavg": 3.3345,
+          "warning": null
+        }
+      }
+    },
+    {
+      "scene": "choice",
+      "start_frame": 5100,
+      "end_frame": 5250,
+      "start_time_seconds": 85.0,
+      "end_time_seconds": 87.5,
+      "layouts": {
+        "landscape": {
+          "roi_fraction": {
+            "x0": 0.5,
+            "y0": 0.24,
+            "x1": 0.95,
+            "y1": 0.78
+          },
+          "edge_difference_yavg": 2.5637,
+          "warning": null
+        },
+        "portrait": {
+          "roi_fraction": {
+            "x0": 0.1,
+            "y0": 0.35,
+            "x1": 0.86,
+            "y1": 0.62
+          },
+          "edge_difference_yavg": 1.2069,
+          "warning": null
+        }
+      }
+    },
+    {
+      "scene": "crystal",
+      "start_frame": 5460,
+      "end_frame": 5610,
+      "start_time_seconds": 91.0,
+      "end_time_seconds": 93.5,
+      "layouts": {
+        "landscape": {
+          "roi_fraction": {
+            "x0": 0.5,
+            "y0": 0.24,
+            "x1": 0.95,
+            "y1": 0.78
+          },
+          "edge_difference_yavg": 21.8961,
+          "warning": null
+        },
+        "portrait": {
+          "roi_fraction": {
+            "x0": 0.1,
+            "y0": 0.35,
+            "x1": 0.86,
+            "y1": 0.62
+          },
+          "edge_difference_yavg": 23.649,
+          "warning": null
+        }
+      }
+    },
+    {
+      "scene": "crystal",
+      "start_frame": 5820,
+      "end_frame": 5970,
+      "start_time_seconds": 97.0,
+      "end_time_seconds": 99.5,
+      "layouts": {
+        "landscape": {
+          "roi_fraction": {
+            "x0": 0.5,
+            "y0": 0.24,
+            "x1": 0.95,
+            "y1": 0.78
+          },
+          "edge_difference_yavg": 31.0543,
+          "warning": null
+        },
+        "portrait": {
+          "roi_fraction": {
+            "x0": 0.1,
+            "y0": 0.35,
+            "x1": 0.86,
+            "y1": 0.62
+          },
+          "edge_difference_yavg": 23.7677,
+          "warning": null
+        }
+      }
+    },
+    {
+      "scene": "crystal",
+      "start_frame": 6090,
+      "end_frame": 6240,
+      "start_time_seconds": 101.5,
+      "end_time_seconds": 104.0,
+      "layouts": {
+        "landscape": {
+          "roi_fraction": {
+            "x0": 0.5,
+            "y0": 0.24,
+            "x1": 0.95,
+            "y1": 0.78
+          },
+          "edge_difference_yavg": 18.9234,
+          "warning": null
+        },
+        "portrait": {
+          "roi_fraction": {
+            "x0": 0.1,
+            "y0": 0.35,
+            "x1": 0.86,
+            "y1": 0.62
+          },
+          "edge_difference_yavg": 10.5817,
+          "warning": null
+        }
+      }
+    },
+    {
+      "scene": "crystal",
+      "start_frame": 6390,
+      "end_frame": 6540,
+      "start_time_seconds": 106.5,
+      "end_time_seconds": 109.0,
+      "layouts": {
+        "landscape": {
+          "roi_fraction": {
+            "x0": 0.5,
+            "y0": 0.24,
+            "x1": 0.95,
+            "y1": 0.78
+          },
+          "edge_difference_yavg": 18.3985,
+          "warning": null
+        },
+        "portrait": {
+          "roi_fraction": {
+            "x0": 0.1,
+            "y0": 0.35,
+            "x1": 0.86,
+            "y1": 0.62
+          },
+          "edge_difference_yavg": 10.5768,
+          "warning": null
+        }
+      }
+    },
+    {
+      "scene": "crystal",
+      "start_frame": 6660,
+      "end_frame": 6810,
+      "start_time_seconds": 111.0,
+      "end_time_seconds": 113.5,
+      "layouts": {
+        "landscape": {
+          "roi_fraction": {
+            "x0": 0.5,
+            "y0": 0.24,
+            "x1": 0.95,
+            "y1": 0.78
+          },
+          "edge_difference_yavg": 18.2054,
+          "warning": null
+        },
+        "portrait": {
+          "roi_fraction": {
+            "x0": 0.1,
+            "y0": 0.35,
+            "x1": 0.86,
+            "y1": 0.62
+          },
+          "edge_difference_yavg": 11.1666,
+          "warning": null
+        }
+      }
+    },
+    {
+      "scene": "finale",
+      "start_frame": 6960,
+      "end_frame": 7110,
+      "start_time_seconds": 116.0,
+      "end_time_seconds": 118.5,
+      "layouts": {
+        "landscape": {
+          "roi_fraction": {
+            "x0": 0.5,
+            "y0": 0.24,
+            "x1": 0.95,
+            "y1": 0.78
+          },
+          "edge_difference_yavg": 19.0125,
+          "warning": null
+        },
+        "portrait": {
+          "roi_fraction": {
+            "x0": 0.1,
+            "y0": 0.45,
+            "x1": 0.86,
+            "y1": 0.62
+          },
+          "edge_difference_yavg": 7.2736,
+          "warning": null
+        }
+      }
+    }
+  ],
+  "interpretation": {
+    "edge_difference": "Heuristic edge-map pixel difference at the listed ROI; YAVG is 0-255.",
+    "threshold_warning": "Values below 0.5 are flagged for review, not treated as a motion pass/fail.",
+    "disclaimer": "These are source-review aids only. Visual review, continuous human review, and target-device playback remain required."
+  }
+}

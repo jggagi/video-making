@@ -1,0 +1,69 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-10-19T07:04:25.861925+00:00",
+  "scope": "Byte-identical script, accepted adaptation, captions, timing, mathematical model and shared audio; visual source is revised.",
+  "reference_work": "si-ep06-sovereign-crystal",
+  "files": [
+    {
+      "path": "source/script.md",
+      "sha256": "beb0a6136fec18991c6281d1151b458dc45cd0ece3b96b9afbac59711d71878b",
+      "matches_v01": true
+    },
+    {
+      "path": "project/adapted-script.md",
+      "sha256": "7c07a999b577efa954cc8b7033f56e17c7926de0cad0da3c1a4379615ba9e241",
+      "matches_v01": true
+    },
+    {
+      "path": "project/audio-timing.json",
+      "sha256": "8bd6441f471a3bec62925ebe2dc23ad97c7d0a4979a788ba256150016e01da0a",
+      "matches_v01": true
+    },
+    {
+      "path": "project/segments.json",
+      "sha256": "7e097ac3ddb4234c17bee8b8b68ccaef0a11a2d34d72f40c5540e81b64100e21",
+      "matches_v01": true
+    },
+    {
+      "path": "project/scientific-notes.md",
+      "sha256": "bdcf31834f9198923e66945fe22e0abaeefb28d4cea279a4b5d7effd6163bb0a",
+      "matches_v01": true
+    },
+    {
+      "path": "project/src/math.ts",
+      "sha256": "5a7720b5301c296219c76cd3f2801a7655047f3c29ab15caed3330aed0bc8b8d",
+      "matches_v01": true
+    },
+    {
+      "path": "project/public/audio/master.wav",
+      "sha256": "2bc17a49a3555abfef6ee70b1445e6939bc0d66ad9946a1d296ce6ce1c63aab1",
+      "matches_v01": true
+    },
+    {
+      "path": "project/public/audio/narration.wav",
+      "sha256": "264dd6d3720c507f6a8a369a8b51db68f8e51a3f2a42244b9438f56c897c33e9",
+      "matches_v01": true
+    },
+    {
+      "path": "project/public/audio/score.wav",
+      "sha256": "0088a05c6f5735038ba10fab2228bed0f7a16b746aad980c92966acb04222db3",
+      "matches_v01": true
+    },
+    {
+      "path": "project/public/audio/sfx.wav",
+      "sha256": "82ac33987a82515247d80079008869c9c1f2ac98b8c95fe0bbff975aea037d57",
+      "matches_v01": true
+    },
+    {
+      "path": "B站/captions.srt",
+      "sha256": "a303c20925533b5b36c40018c444f72db8ba62190471ba94ee930a718821269c",
+      "matches_v01": true
+    },
+    {
+      "path": "小红书/captions.srt",
+      "sha256": "a303c20925533b5b36c40018c444f72db8ba62190471ba94ee930a718821269c",
+      "matches_v01": true
+    }
+  ],
+  "new_cloud_generation_calls": 0
+}

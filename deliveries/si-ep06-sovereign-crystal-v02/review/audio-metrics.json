@@ -1,0 +1,25 @@
+{
+  "scope": "Actual final encoded AAC measurements; human listening separate",
+  "tracks": [
+    {
+      "layout": "landscape",
+      "path": "B站/si-ep06-sovereign-crystal-v02-bilibili-120s-4k.mp4",
+      "sha256": "5d57f695c0d430005e5528cb0cd2c2d48a19104ff5ef8a2d0f5399999987816c",
+      "integrated_lufs": -17.0,
+      "true_peak_dbtp": -1.5,
+      "true_peak_at_or_below_minus1": true,
+      "summary": "Integrated loudness:\n    I:         -17.0 LUFS\n    Threshold: -27.2 LUFS\n\n  Loudness range:\n    LRA:        11.2 LU\n    Threshold: -37.2 LUFS\n    LRA low:   -23.5 LUFS\n    LRA high:  -12.3 LUFS\n\n  True peak:\n    Peak:       -1.5 dBFS\n[out#0/null @ 0x7ac2c40300] video:0KiB audio:22500KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nsize=N/A time=00:02:00.00 bitrate=N/A speed= 208x elapsed=0:00:00.57"
+    },
+    {
+      "layout": "portrait",
+      "path": "小红书/si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait.mp4",
+      "sha256": "1fbe8b12d420772f817fa22e3b06ee6e78388673ea725cf9b408187dc70a9361",
+      "integrated_lufs": -17.0,
+      "true_peak_dbtp": -1.5,
+      "true_peak_at_or_below_minus1": true,
+      "loudness_range_lu": 11.2,
+      "measurement": "ffmpeg ebur128=peak=true, mapped AAC audio only",
+      "summary": "Integrated loudness: -17.0 LUFS; loudness range: 11.2 LU; true peak: -1.5 dBFS (true-peak enabled)."
+    }
+  ]
+}

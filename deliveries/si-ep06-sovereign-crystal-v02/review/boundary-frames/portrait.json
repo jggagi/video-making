@@ -1,0 +1,80 @@
+{
+  "layout": "portrait",
+  "source_path": "小红书/si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait.mp4",
+  "source_sha256": "1fbe8b12d420772f817fa22e3b06ee6e78388673ea725cf9b408187dc70a9361",
+  "capture_method": "FFmpeg input seek per requested frame with copy timestamps; scale=360:-2:flags=lanczos; no full-file decode",
+  "frames": [
+    {
+      "frame": 0,
+      "seconds": 0.0,
+      "path": "portrait-00000.jpg",
+      "width": 360,
+      "height": 640,
+      "bytes": 20534,
+      "sha256": "6aff816b773ade4ff9b6e5a22730e931e0ca85f4b7d472057c15d38237088044"
+    },
+    {
+      "frame": 330,
+      "seconds": 5.5,
+      "path": "portrait-00330.jpg",
+      "width": 360,
+      "height": 640,
+      "bytes": 22166,
+      "sha256": "3c48b7f854fad43c44e51065c65bfdc7a0429a24e91f01e51b454725e32046dc"
+    },
+    {
+      "frame": 840,
+      "seconds": 14.0,
+      "path": "portrait-00840.jpg",
+      "width": 360,
+      "height": 640,
+      "bytes": 25014,
+      "sha256": "548ed91ec798ea24c00a031d3d3e13a924b5fe5b9347dbbfdf6aca83adbb61ed"
+    },
+    {
+      "frame": 1800,
+      "seconds": 30.0,
+      "path": "portrait-01800.jpg",
+      "width": 360,
+      "height": 640,
+      "bytes": 17679,
+      "sha256": "830cfedb3dacb6d9e95bafa7cd1ec0ac840f5c1bbb955dbe0a084c5aec302c39"
+    },
+    {
+      "frame": 3600,
+      "seconds": 60.0,
+      "path": "portrait-03600.jpg",
+      "width": 360,
+      "height": 640,
+      "bytes": 13073,
+      "sha256": "118ed9ff5ea890e7bd1777424338fc1b59d91a46293819e31d3edec80cf825f8"
+    },
+    {
+      "frame": 5400,
+      "seconds": 90.0,
+      "path": "portrait-05400.jpg",
+      "width": 360,
+      "height": 640,
+      "bytes": 14255,
+      "sha256": "7549043da2de2bc97b8aa37e03fed3f4c2cab3b297e819ddabde57563090b27b"
+    },
+    {
+      "frame": 6245,
+      "seconds": 104.08333333333333,
+      "path": "portrait-06245.jpg",
+      "width": 360,
+      "height": 640,
+      "bytes": 30492,
+      "sha256": "c500849f9abc09298c31e7b727fafc7a7ef7267231d080254d2dd8209acb008e"
+    },
+    {
+      "frame": 6900,
+      "seconds": 115.0,
+      "path": "portrait-06900.jpg",
+      "width": 360,
+      "height": 640,
+      "bytes": 8713,
+      "sha256": "ccd718eb9db33e72a6f4ba66e904cad24106033c375466aa9fd295b67628f204"
+    }
+  ]
+}

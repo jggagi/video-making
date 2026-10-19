@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "generated_by": "scripts/build-final-library.py",
-  "total_files": 33,
-  "logical_bytes": 5725870900,
+  "total_files": 35,
+  "logical_bytes": 5906820746,
   "files": [
     {
       "source_path": "out/extended/兰亭集序-展厅增强版-1080p.mp4",
@@ -436,6 +436,36 @@
       "backup_release_tag": "final-si-ep06-sovereign-crystal-17a9981f3b94",
       "backup_release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep06-sovereign-crystal-17a9981f3b94",
       "backup_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep06-sovereign-crystal-17a9981f3b94/final--si-ep06-sovereign-crystal--deliveries--si-ep06-sovereign-crystal-----si-ep06-sovereign-crystal-xiaohongshu-120s-portrait--57d2303244f5.mp4",
+      "materialization": "APFS clonefile for new files; existing independent matches are retained",
+      "verification": "SHA-256 matches archive catalog; stable stat and inode checks passed"
+    },
+    {
+      "source_path": "deliveries/si-ep06-sovereign-crystal-v02/B站/si-ep06-sovereign-crystal-v02-bilibili-120s-4k.mp4",
+      "final_path": "final/si-ep06-sovereign-crystal-v02/B站/si-ep06-sovereign-crystal-v02-bilibili-120s-4k.mp4",
+      "work_id": "si-ep06-sovereign-crystal-v02",
+      "title": "主权心印｜THE SOVEREIGN SOUL CRYSTAL · EP.06 · v02",
+      "platform": "B站",
+      "bytes": 115813246,
+      "sha256": "5d57f695c0d430005e5528cb0cd2c2d48a19104ff5ef8a2d0f5399999987816c",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep06-sovereign-crystal-v02-269fc619d08f/si-ep06-sovereign-crystal-v02--deliveries--si-ep06-sovereign-crystal-v02--B---si-ep06-sovereign-crystal-v02-bilibili-120s-4k--5d57f695c0d4.mp4",
+      "backup_release_tag": "final-si-ep06-sovereign-crystal-v02-269fc619d08f",
+      "backup_release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep06-sovereign-crystal-v02-269fc619d08f",
+      "backup_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep06-sovereign-crystal-v02-269fc619d08f/final--si-ep06-sovereign-crystal-v02--deliveries--si-ep06-sovereign-crystal-v02--B---si-ep06-sovereign-crystal-v02-bilibili-120s-4k--5d57f695c0d4.mp4",
+      "materialization": "APFS clonefile for new files; existing independent matches are retained",
+      "verification": "SHA-256 matches archive catalog; stable stat and inode checks passed"
+    },
+    {
+      "source_path": "deliveries/si-ep06-sovereign-crystal-v02/小红书/si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait.mp4",
+      "final_path": "final/si-ep06-sovereign-crystal-v02/小红书/si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait.mp4",
+      "work_id": "si-ep06-sovereign-crystal-v02",
+      "title": "主权心印｜THE SOVEREIGN SOUL CRYSTAL · EP.06 · v02",
+      "platform": "小红书",
+      "bytes": 65136600,
+      "sha256": "1fbe8b12d420772f817fa22e3b06ee6e78388673ea725cf9b408187dc70a9361",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep06-sovereign-crystal-v02-269fc619d08f/si-ep06-sovereign-crystal-v02--deliveries--si-ep06-sovereign-crystal-v02-----si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait--1fbe8b12d420.mp4",
+      "backup_release_tag": "final-si-ep06-sovereign-crystal-v02-269fc619d08f",
+      "backup_release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep06-sovereign-crystal-v02-269fc619d08f",
+      "backup_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep06-sovereign-crystal-v02-269fc619d08f/final--si-ep06-sovereign-crystal-v02--deliveries--si-ep06-sovereign-crystal-v02-----si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait--1fbe8b12d420.mp4",
       "materialization": "APFS clonefile for new files; existing independent matches are retained",
       "verification": "SHA-256 matches archive catalog; stable stat and inode checks passed"
     },

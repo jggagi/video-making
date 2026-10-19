@@ -567,6 +567,47 @@
       ]
     },
     {
+      "id": "si-ep06-sovereign-crystal-v02",
+      "title": "Final 成片备份 · 主权心印｜THE SOVEREIGN SOUL CRYSTAL · EP.06 · v02",
+      "release_tag": "final-si-ep06-sovereign-crystal-v02-269fc619d08f",
+      "assets": [
+        {
+          "path": "final/si-ep06-sovereign-crystal-v02/B站/si-ep06-sovereign-crystal-v02-bilibili-120s-4k.mp4",
+          "name": "final--si-ep06-sovereign-crystal-v02--deliveries--si-ep06-sovereign-crystal-v02--B---si-ep06-sovereign-crystal-v02-bilibili-120s-4k--5d57f695c0d4.mp4",
+          "bytes": 115813246,
+          "sha256": "5d57f695c0d430005e5528cb0cd2c2d48a19104ff5ef8a2d0f5399999987816c",
+          "kind": "video",
+          "platform": "B站",
+          "measurements": {
+            "width": 3840,
+            "height": 2160,
+            "fps": "60/1",
+            "frames": "7200",
+            "video_duration_seconds": 120.0,
+            "container_duration_seconds": 120.0
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep06-sovereign-crystal-v02-269fc619d08f/final--si-ep06-sovereign-crystal-v02--deliveries--si-ep06-sovereign-crystal-v02--B---si-ep06-sovereign-crystal-v02-bilibili-120s-4k--5d57f695c0d4.mp4"
+        },
+        {
+          "path": "final/si-ep06-sovereign-crystal-v02/小红书/si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait.mp4",
+          "name": "final--si-ep06-sovereign-crystal-v02--deliveries--si-ep06-sovereign-crystal-v02-----si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait--1fbe8b12d420.mp4",
+          "bytes": 65136600,
+          "sha256": "1fbe8b12d420772f817fa22e3b06ee6e78388673ea725cf9b408187dc70a9361",
+          "kind": "video",
+          "platform": "小红书",
+          "measurements": {
+            "width": 2160,
+            "height": 3840,
+            "fps": "60/1",
+            "frames": "7200",
+            "video_duration_seconds": 120.0,
+            "container_duration_seconds": 120.0
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep06-sovereign-crystal-v02-269fc619d08f/final--si-ep06-sovereign-crystal-v02--deliveries--si-ep06-sovereign-crystal-v02-----si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait--1fbe8b12d420.mp4"
+        }
+      ]
+    },
+    {
       "id": "si-eternity",
       "title": "Final 成片备份 · 一眼万年",
       "release_tag": "final-si-eternity-66d480b1c859",

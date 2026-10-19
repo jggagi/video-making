@@ -1,0 +1,318 @@
+{
+  "version": 1,
+  "status": "built",
+  "inputSetSha256": "bd4e86d69a2293d778984cbb68e2dcbc8ee450e743f58daf19dab25cbd4369e1",
+  "sourceHashes": {
+    "adaptedScriptMd": "7c07a999b577efa954cc8b7033f56e17c7926de0cad0da3c1a4379615ba9e241",
+    "segmentsJson": "7e097ac3ddb4234c17bee8b8b68ccaef0a11a2d34d72f40c5540e81b64100e21",
+    "eventsJson": "b12fcecde88b7089dc7ec9c122438a56493dc76f3b234e0f51dc6b9e185cea95",
+    "eventRenderProfiles": "75da56704b73b0abfa985d1636ec913461cc3229eb3d0220968c59a8820f85db",
+    "normalizedEvents": "e7953214905e99aed006e214967c74afb262cb7a0682a368afec5caefa89b844",
+    "providerManifest": "6bdef9afcbcd89699d45a1f23d0732f4b95d8a79f0ea16d095a41055ae94643d",
+    "cueWavs": [
+      {
+        "id": "S01",
+        "path": "project/public/audio/cues/S01-b1fc326f42cc.wav",
+        "sha256": "bb4311ed47e5969a4172f346722ef09b719318eddbe44137c75498050e543cb5",
+        "samplesAt48k": 238080
+      },
+      {
+        "id": "S02",
+        "path": "project/public/audio/cues/S02-b93ed27947da.wav",
+        "sha256": "3c94e735c1a036aa4051ea6b148538b18bc548ba5d0678e07322025a5e3e7fa6",
+        "samplesAt48k": 391680
+      },
+      {
+        "id": "S03",
+        "path": "project/public/audio/cues/S03-d64ac9e857ea.wav",
+        "sha256": "44dec8468e33cc0c0999bd9d6932ee6a3bf1f1947350e37d523b55725737677e",
+        "samplesAt48k": 380160
+      },
+      {
+        "id": "S04",
+        "path": "project/public/audio/cues/S04-db0bbf50d6c4.wav",
+        "sha256": "a0a89355b7e52619ec7d90eaee5cb4b0813aabce37e9ec0551c5b05ecba110cb",
+        "samplesAt48k": 433920
+      },
+      {
+        "id": "S05",
+        "path": "project/public/audio/cues/S05-ebd1049377f5.wav",
+        "sha256": "da7af0bde4f6f5cca4eda19c6e1f9834c2368664eaaf1004591429096a4080b3",
+        "samplesAt48k": 468480
+      },
+      {
+        "id": "S06",
+        "path": "project/public/audio/cues/S06-36ae6d6deb91.wav",
+        "sha256": "42b72340bbce1f296c25a6395a69d202d1ad49080a8d854bc65e7b64f4f0d462",
+        "samplesAt48k": 441600
+      },
+      {
+        "id": "S07",
+        "path": "project/public/audio/cues/S07-2f554db126b3.wav",
+        "sha256": "ae2f651e67347234d4fc7a0201b9d1a23253ba9d36f831f82a6f6080072a0aa8",
+        "samplesAt48k": 599040
+      },
+      {
+        "id": "S08",
+        "path": "project/public/audio/cues/S08-11319b9b3514.wav",
+        "sha256": "f854844d4ad40fd88ed685ac71607029799b889f5ce428de23d90e97c12be786",
+        "samplesAt48k": 226560
+      },
+      {
+        "id": "S09",
+        "path": "project/public/audio/cues/S09-e00ca7688088.wav",
+        "sha256": "392df452c7ea76ce499f12f5ae0d3b99743e411f2f56a69b4ef3a490c4ee0350",
+        "samplesAt48k": 549120
+      },
+      {
+        "id": "S10",
+        "path": "project/public/audio/cues/S10-760faa068053.wav",
+        "sha256": "d7cbec09bfcd4263261c0332bd1582f57d2e6af988c2baf347798c36b917cda4",
+        "samplesAt48k": 149760
+      }
+    ]
+  },
+  "outputs": {
+    "narration": {
+      "file": "project/public/audio/narration.wav",
+      "sha256": "264dd6d3720c507f6a8a369a8b51db68f8e51a3f2a42244b9438f56c897c33e9",
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleWidthBytes": 2,
+      "samplesPerChannel": 5760000,
+      "durationSeconds": 120.0
+    },
+    "score": {
+      "file": "project/public/audio/score.wav",
+      "sha256": "0088a05c6f5735038ba10fab2228bed0f7a16b746aad980c92966acb04222db3",
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleWidthBytes": 2,
+      "samplesPerChannel": 5760000,
+      "durationSeconds": 120.0,
+      "design": {
+        "arc": "intimate heartbeat-colored warmth develops into a detuned predictive threat, opens into a magenta prism, then resolves to a major bowed/organ-like harmonic bed",
+        "silenceWindowFrames": [
+          5740,
+          5760
+        ],
+        "silenceWindowSamples": [
+          4592000,
+          4608000
+        ],
+        "stereo": "subtle deterministic level motion; no platform-specific processing"
+      }
+    },
+    "sfx": {
+      "file": "project/public/audio/sfx.wav",
+      "sha256": "82ac33987a82515247d80079008869c9c1f2ac98b8c95fe0bbff975aea037d57",
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleWidthBytes": 2,
+      "samplesPerChannel": 5760000,
+      "durationSeconds": 120.0,
+      "design": {
+        "synthesis": "deterministic per-event procedural oscillators/noise-free envelopes; authored event anchors are read from sfx_events.json",
+        "silenceWindowFrames": [
+          5740,
+          5760
+        ],
+        "silenceWindowSamples": [
+          4592000,
+          4608000
+        ],
+        "voiceBand": "crisp cyan/glass partials retained; master loudness/true-peak stage controls aggregate level"
+      }
+    },
+    "master": {
+      "file": "project/public/audio/master.wav",
+      "sha256": "2bc17a49a3555abfef6ee70b1445e6939bc0d66ad9946a1d296ce6ce1c63aab1",
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleWidthBytes": 2,
+      "samplesPerChannel": 5760000,
+      "durationSeconds": 120.0,
+      "strictDecode": "passed",
+      "loudnormFirstPass": {
+        "input_i": "-18.51",
+        "input_tp": "-1.85",
+        "input_lra": "15.30",
+        "input_thresh": "-29.53",
+        "output_i": "-17.06",
+        "output_tp": "-1.50",
+        "output_lra": "10.80",
+        "output_thresh": "-27.32",
+        "normalization_type": "dynamic",
+        "target_offset": "0.06"
+      },
+      "loudnormSecondPass": {
+        "input_i": "-18.51",
+        "input_tp": "-1.85",
+        "input_lra": "15.30",
+        "input_thresh": "-29.53",
+        "output_i": "-17.02",
+        "output_tp": "-1.50",
+        "output_lra": "10.80",
+        "output_thresh": "-27.27",
+        "normalization_type": "dynamic",
+        "target_offset": "0.02"
+      },
+      "ebur128Final": {
+        "integratedLUFS": -17.0,
+        "truePeakDBTP": -1.5
+      },
+      "loudnormTarget": {
+        "integratedLUFS": -17.0,
+        "truePeakDBTP": -1.5,
+        "acceptanceLUFS": [
+          -18.0,
+          -16.0
+        ],
+        "acceptanceTruePeakDBTP": -1.2,
+        "passes": 2
+      },
+      "limiter": {
+        "kind": "4x oversampled PCM-domain brickwall via 192 kHz resample + alimiter",
+        "limitLinear": 0.841395,
+        "targetDBTP": -1.5,
+        "makeupLevel": false,
+        "latencyCompensated": true
+      },
+      "silenceWindow": {
+        "startSample": 4592000,
+        "endSampleExclusive": 4608000,
+        "peakPcm16": 0,
+        "exactZero": true
+      },
+      "latencyNote": "The limiter latency flag and compensated resampling preserve the source timeline; final output is trimmed to exactly 5,760,000 samples per channel."
+    }
+  },
+  "eventOnsets": [
+    {
+      "id": "cyan-pre-echo",
+      "frame": 102,
+      "sampleIndex": 81600,
+      "durationSeconds": 0.42,
+      "description": "synthetic heartbeat 300ms before human",
+      "kind": "cyan",
+      "silentMarker": false
+    },
+    {
+      "id": "human-heartbeat",
+      "frame": 120,
+      "sampleIndex": 96000,
+      "durationSeconds": 0.78,
+      "description": "intimate double heartbeat 60BPM",
+      "kind": "heartbeat",
+      "silentMarker": false
+    },
+    {
+      "id": "rp-lock",
+      "frame": 870,
+      "sampleIndex": 696000,
+      "durationSeconds": 0.72,
+      "description": "cyan lock 30f before amber pulse",
+      "kind": "lock",
+      "silentMarker": false
+    },
+    {
+      "id": "amber-awareness",
+      "frame": 900,
+      "sampleIndex": 720000,
+      "durationSeconds": 1.25,
+      "description": "EEG voltage sweep and amber pulse",
+      "kind": "amber",
+      "silentMarker": false
+    },
+    {
+      "id": "glass-window",
+      "frame": 1350,
+      "sampleIndex": 1080000,
+      "durationSeconds": 1.6,
+      "description": "40Hz bass and glass shimmer",
+      "kind": "glass40",
+      "silentMarker": false
+    },
+    {
+      "id": "data-convergence",
+      "frame": 2100,
+      "sampleIndex": 1680000,
+      "durationSeconds": 2.0,
+      "description": "streams converge into harmonic hum",
+      "kind": "converge",
+      "silentMarker": false
+    },
+    {
+      "id": "trajectory-lock",
+      "frame": 3120,
+      "sampleIndex": 2496000,
+      "durationSeconds": 0.82,
+      "description": "synthetic trajectory lock chime",
+      "kind": "lock",
+      "silentMarker": false
+    },
+    {
+      "id": "reward-warp",
+      "frame": 3840,
+      "sampleIndex": 3072000,
+      "durationSeconds": 1.8,
+      "description": "magenta stereo chord",
+      "kind": "magenta",
+      "silentMarker": false
+    },
+    {
+      "id": "gentle-prison",
+      "frame": 4800,
+      "sampleIndex": 3840000,
+      "durationSeconds": 2.2,
+      "description": "metal resonance under music box",
+      "kind": "metalbox",
+      "silentMarker": false
+    },
+    {
+      "id": "absolute-silence",
+      "frame": 5740,
+      "sampleIndex": 4592000,
+      "durationSeconds": 0.0,
+      "description": "20 frame total-master silence immediately before seal",
+      "kind": "silence",
+      "silentMarker": true
+    },
+    {
+      "id": "vault-seal",
+      "frame": 5760,
+      "sampleIndex": 4608000,
+      "durationSeconds": 1.7,
+      "description": "golden vault lock and shockwave",
+      "kind": "vault",
+      "silentMarker": false
+    },
+    {
+      "id": "sovereign-chord",
+      "frame": 6480,
+      "sampleIndex": 5184000,
+      "durationSeconds": 7.2,
+      "description": "organ and warm bowed-string synthesis",
+      "kind": "catharsis",
+      "silentMarker": false
+    },
+    {
+      "id": "final-heartbeat",
+      "frame": 7020,
+      "sampleIndex": 5616000,
+      "durationSeconds": 2.0,
+      "description": "cosmic resonance and solitary warm heartbeat",
+      "kind": "warm_heartbeat",
+      "silentMarker": false
+    }
+  ],
+  "absoluteSilence": {
+    "startFrame": 5740,
+    "endFrameExclusive": 5760,
+    "startSample": 4592000,
+    "endSampleExclusive": 4608000,
+    "samplesZeroInAllStemsAndMaster": true
+  },
+  "mixSettings": "project/public/audio/mix-settings.json",
+  "audioTiming": "project/audio-timing.json"
+}

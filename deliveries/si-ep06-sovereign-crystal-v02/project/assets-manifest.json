@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "generation": "No new generation calls. All assets reused or procedural.",
+  "sharedBetweenPlatforms": true,
+  "assets": [
+    {
+      "id": "master",
+      "path": "public/audio/master.wav",
+      "sha256": "2bc17a49a3555abfef6ee70b1445e6939bc0d66ad9946a1d296ce6ce1c63aab1",
+      "source": "v01 shared exact120s 48kHz stereo PCM"
+    },
+    {
+      "id": "math",
+      "path": "src/math.ts",
+      "sha256": "5a7720b5301c296219c76cd3f2801a7655047f3c29ab15caed3330aed0bc8b8d",
+      "source": "v01 deterministic scientific toy models unchanged"
+    },
+    {
+      "id": "captions",
+      "path": "audio-timing.json",
+      "sha256": "8bd6441f471a3bec62925ebe2dc23ad97c7d0a4979a788ba256150016e01da0a",
+      "source": "v01 measured PCM / estimated phrase captions unchanged"
+    }
+  ]
+}

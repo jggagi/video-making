@@ -1,0 +1,26 @@
+{
+  "status": "FAIL",
+  "scope": "Compare physical-subject geometry at a global frame after a sequential scene cut with a freshly initialized still; PNG downsample and JPEG/H264 differences expected. Not human aesthetic acceptance.",
+  "results": [
+    {
+      "layout": "landscape",
+      "global_frame": 5760,
+      "sequential_preview_start_frame": 5280,
+      "local_frame": 480,
+      "physical_subject_roi_filter": "crop=576:396:640:144",
+      "ssim": 0.983672,
+      "threshold": 0.985,
+      "pass": false
+    },
+    {
+      "layout": "portrait",
+      "global_frame": 5760,
+      "sequential_preview_start_frame": 5280,
+      "local_frame": 480,
+      "physical_subject_roi_filter": "crop=546:344:72:448",
+      "ssim": 0.979988,
+      "threshold": 0.985,
+      "pass": false
+    }
+  ]
+}

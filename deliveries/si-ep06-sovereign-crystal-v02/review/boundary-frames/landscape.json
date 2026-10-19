@@ -1,0 +1,35 @@
+{
+  "source_sha256": "5d57f695c0d430005e5528cb0cd2c2d48a19104ff5ef8a2d0f5399999987816c",
+  "frames": [
+    {
+      "frame": 0,
+      "seconds": 0.0,
+      "path": "landscape-00000.jpg"
+    },
+    {
+      "frame": 1800,
+      "seconds": 30.0,
+      "path": "landscape-01800.jpg"
+    },
+    {
+      "frame": 3600,
+      "seconds": 60.0,
+      "path": "landscape-03600.jpg"
+    },
+    {
+      "frame": 5400,
+      "seconds": 90.0,
+      "path": "landscape-05400.jpg"
+    },
+    {
+      "frame": 6245,
+      "seconds": 104.08333333333333,
+      "path": "landscape-06245.jpg"
+    },
+    {
+      "frame": 6900,
+      "seconds": 115.0,
+      "path": "landscape-06900.jpg"
+    }
+  ]
+}

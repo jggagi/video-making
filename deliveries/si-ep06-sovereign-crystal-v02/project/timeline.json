@@ -1,0 +1,97 @@
+{
+  "fps": 60,
+  "total_frames": 7200,
+  "sharedState": true,
+  "scenes": [
+    {
+      "startFrame": 0,
+      "endFrame": 1260,
+      "title": "RP与超前影子",
+      "feeling": "不安",
+      "action": "咖啡前提前移动的影子，随后实体手靠近",
+      "motion": "投影领先30f；蒸汽、物件和相机持续演进",
+      "landscape": "横向主物与左侧短标题，章节内切换景别",
+      "portrait": "标题上置、3D主体居中、独立相机与比例；非横版裁切"
+    },
+    {
+      "startFrame": 1260,
+      "endFrame": 1800,
+      "title": "主权心印片名",
+      "feeling": "不安转为凝视",
+      "action": "闭合晶体映衬片名",
+      "motion": "镜头缓慢拉远；晶体与光线持续旋转",
+      "landscape": "横向主物与左侧短标题，章节内切换景别",
+      "portrait": "标题上置、3D主体居中、独立相机与比例；非横版裁切"
+    },
+    {
+      "startFrame": 1800,
+      "endFrame": 2700,
+      "title": "行为碎片与延迟重构",
+      "feeling": "被建模",
+      "action": "玻璃中的行为轨迹",
+      "motion": "同一延迟坐标的参考与合成重构，轨迹滚动",
+      "landscape": "横向主物与左侧短标题，章节内切换景别",
+      "portrait": "标题上置、3D主体居中、独立相机与比例；非横版裁切"
+    },
+    {
+      "startFrame": 2700,
+      "endFrame": 3600,
+      "title": "合成镜像贴合",
+      "feeling": "警惕误差被误读",
+      "action": "镜像逐渐贴近",
+      "motion": "合成误差收敛，镜头渐近；明确非人格重建",
+      "landscape": "横向主物与左侧短标题，章节内切换景别",
+      "portrait": "标题上置、3D主体居中、独立相机与比例；非横版裁切"
+    },
+    {
+      "startFrame": 3600,
+      "endFrame": 4500,
+      "title": "顺滑的路径",
+      "feeling": "温柔操控",
+      "action": "十条路与实体地形",
+      "motion": "玩具势场连续改变，金球沿积分路径移动",
+      "landscape": "横向主物与左侧短标题，章节内切换景别",
+      "portrait": "标题上置、3D主体居中、独立相机与比例；非横版裁切"
+    },
+    {
+      "startFrame": 4500,
+      "endFrame": 5400,
+      "title": "被塑形的选择",
+      "feeling": "认出隐藏之手",
+      "action": "温柔的塑形",
+      "motion": "坡度持续变化与路线偏转，展示可见后果",
+      "landscape": "横向主物与左侧短标题，章节内切换景别",
+      "portrait": "标题上置、3D主体居中、独立相机与比例；非横版裁切"
+    },
+    {
+      "startFrame": 5400,
+      "endFrame": 6300,
+      "title": "晶体闭合",
+      "feeling": "边界归还",
+      "action": "晶体闭合，核心留存",
+      "motion": "5760f闭合与原音效，外部光线按模型折向",
+      "landscape": "横向主物与左侧短标题，章节内切换景别",
+      "portrait": "标题上置、3D主体居中、独立相机与比例；非横版裁切"
+    },
+    {
+      "startFrame": 6300,
+      "endFrame": 6900,
+      "title": "诗意收官",
+      "feeling": "安宁",
+      "action": "把记忆锁进私密圣殿",
+      "motion": "晶面和核心继续旋转，诗意引句独立限定",
+      "landscape": "横向主物与左侧短标题，章节内切换景别",
+      "portrait": "标题上置、3D主体居中、独立相机与比例；非横版裁切"
+    },
+    {
+      "startFrame": 6900,
+      "endFrame": 7200,
+      "title": "六环回望",
+      "feeling": "完成与余温",
+      "action": "六环回望",
+      "motion": "六个实体金环与核心持续旋转，镜头拉远",
+      "landscape": "横向主物与左侧短标题，章节内切换景别",
+      "portrait": "标题上置、3D主体居中、独立相机与比例；非横版裁切"
+    }
+  ]
+}

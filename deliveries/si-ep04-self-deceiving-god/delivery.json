@@ -55,9 +55,23 @@
     "media_evidence": "review/final-qa.json",
     "native_dark_frames": "model_sampled_no_severe_banding_observed",
     "motion": "source_phase_functions_and_sampled_pairs_reviewed",
-    "local_final": "PASS"
+    "local_final": "PASS",
+    "validation_provenance": "review/validation-provenance.json"
   },
-  "production_status": "final_media_validated",
+  "production_status": "media_and_verified_archives_complete_human_device_pending",
   "scientific_notes": "project/scientific-notes.md",
-  "sfx_interpretation": "5820 begins30f silence;5850 impact;5868 collapse complete"
+  "sfx_interpretation": "5820 begins30f silence;5850 impact;5868 collapse complete",
+  "archive": {
+    "repository": "jggagi/video-making",
+    "source_commit": "f4f7c7e30f36b4081569ce81f0706c821f91ac73",
+    "source_push": "PASS",
+    "work_release": "https://github.com/jggagi/video-making/releases/tag/film-si-ep04-self-deceiving-god-bfac5c887fdd",
+    "work_release_verification": "COMPLETE",
+    "local_final": "PASS",
+    "github_final_release": "https://github.com/jggagi/video-making/releases/tag/final-si-ep04-self-deceiving-god-bfac5c887fdd",
+    "github_final_verification": "COMPLETE",
+    "backup_catalog_sha256": "e4ccad80d8ec89e25cdedb2a7b3429582b9f26ff41e15b8f0dca3ac7f6ec46ee",
+    "new_final_restore_probe": "PASS",
+    "restore_probe_scope": "one new portrait final movie downloaded, checked and re-run with verified skip"
+  }
 }

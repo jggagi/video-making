@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
   "status": "COMPLETE",
-  "verified_at_utc": "2026-10-19T11:17:31.839305+00:00",
+  "verified_at_utc": "2026-10-19T12:07:10.882133+00:00",
   "repository": "jggagi/video-making",
-  "source_commit": "67d8ed37c1dda3b591815f60d5e8fb6bbe24e5c8",
+  "source_commit": "f4f7c7e30f36b4081569ce81f0706c821f91ac73",
   "catalog_path": "final/backup-catalog.json",
-  "catalog_sha256": "ed8fcca53214bc4ea4d3914ee2aacc924960e87016d0f3489539dbe60892d9df",
-  "upload_receipt_sha256": "8d15888f5328a271da3ac291685e0bf272d0bddba4cb4c439291e726b3482709",
+  "catalog_sha256": "e4ccad80d8ec89e25cdedb2a7b3429582b9f26ff41e15b8f0dca3ac7f6ec46ee",
+  "upload_receipt_sha256": "b342692812431411d5317469013d956608f3e7981b97ca19dce1142d326d4c99",
   "verification_method": "Fresh published GitHub Release API inventory plus all local final file hashes; every remote size, SHA-256 digest and URL matched the current catalog.",
-  "verified_releases": 13,
-  "verified_files": 37,
-  "verified_bytes": 6383974805,
+  "verified_releases": 14,
+  "verified_files": 39,
+  "verified_bytes": 6943137816,
   "works": [
     {
       "id": "lanting",
@@ -248,6 +248,36 @@
           "github_digest": "sha256:54d248dab782e4bc89658a4354019ad58a7ec51577b8cd3a4db21eeeaf86f0eb",
           "github_asset_id": 652461336,
           "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep03-million-mind-v02-9517e8e05dfb/final--si-ep03-million-mind-v02--deliveries--si-ep03-million-mind-v02-----si-ep03-million-mind-v02-xiaohongshu-120s-portrait--54d248dab782.mp4",
+          "local_and_remote_match": true
+        }
+      ]
+    },
+    {
+      "id": "si-ep04-self-deceiving-god",
+      "title": "Final 成片备份 · 神也会自我欺骗",
+      "release_tag": "final-si-ep04-self-deceiving-god-bfac5c887fdd",
+      "release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep04-self-deceiving-god-bfac5c887fdd",
+      "release_target": "f4f7c7e30f36b4081569ce81f0706c821f91ac73",
+      "release_draft": false,
+      "assets": [
+        {
+          "path": "final/si-ep04-self-deceiving-god/B站/si-ep04-self-deceiving-god-bilibili-120s-4k.mp4",
+          "name": "final--si-ep04-self-deceiving-god--deliveries--si-ep04-self-deceiving-god--B---si-ep04-self-deceiving-god-bilibili-120s-4k--ff373b6c1db8.mp4",
+          "bytes": 291089318,
+          "sha256": "ff373b6c1db88b93dc94fe032526a64273044bbb268f4ee5b9461f1b01cdbef3",
+          "github_digest": "sha256:ff373b6c1db88b93dc94fe032526a64273044bbb268f4ee5b9461f1b01cdbef3",
+          "github_asset_id": 656159557,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep04-self-deceiving-god-bfac5c887fdd/final--si-ep04-self-deceiving-god--deliveries--si-ep04-self-deceiving-god--B---si-ep04-self-deceiving-god-bilibili-120s-4k--ff373b6c1db8.mp4",
+          "local_and_remote_match": true
+        },
+        {
+          "path": "final/si-ep04-self-deceiving-god/小红书/si-ep04-self-deceiving-god-xiaohongshu-120s-portrait.mp4",
+          "name": "final--si-ep04-self-deceiving-god--deliveries--si-ep04-self-deceiving-god-----si-ep04-self-deceiving-god-xiaohongshu-120s-portrait--c836ee94b7bc.mp4",
+          "bytes": 268073693,
+          "sha256": "c836ee94b7bc7c030797a639e0975f242740c265eb4fc740f690f4f910a49ed0",
+          "github_digest": "sha256:c836ee94b7bc7c030797a639e0975f242740c265eb4fc740f690f4f910a49ed0",
+          "github_asset_id": 656160679,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep04-self-deceiving-god-bfac5c887fdd/final--si-ep04-self-deceiving-god--deliveries--si-ep04-self-deceiving-god-----si-ep04-self-deceiving-god-xiaohongshu-120s-portrait--c836ee94b7bc.mp4",
           "local_and_remote_match": true
         }
       ]
@@ -515,14 +545,18 @@
   ],
   "restore_probe": {
     "status": "PASS",
-    "checked_at_utc": "2026-10-19T11:18:33.897811+00:00",
-    "scope": "One newly backed-up EP05 v02 landscape final was actually downloaded and hash-checked; repeat run skipped without inode or mtime change. Other final movies were inventory/hash verified, not all downloaded.",
-    "source_commit": "67d8ed37c1dda3b591815f60d5e8fb6bbe24e5c8",
-    "catalog_sha256": "ed8fcca53214bc4ea4d3914ee2aacc924960e87016d0f3489539dbe60892d9df",
-    "evidence": "deliveries/si-ep05-landauer-limit-v02/review/final-restore-probe.json",
-    "asset_path": "final/si-ep05-landauer-limit-v02/B站/si-ep05-landauer-limit-v02-bilibili-120s-4k.mp4",
-    "asset_bytes": 254711520,
-    "asset_sha256": "354e60f2c607b9dd6613d4a813702e6ea884e92ad3f44a6e92c9ff1eb34a890b",
-    "temporary_data_removed": true
+    "performed_at_utc": "2026-10-19T12:07:37.263980+00:00",
+    "catalog_sha256": "e4ccad80d8ec89e25cdedb2a7b3429582b9f26ff41e15b8f0dca3ac7f6ec46ee",
+    "source_commit": "f4f7c7e30f36b4081569ce81f0706c821f91ac73",
+    "release_tag": "final-si-ep04-self-deceiving-god-bfac5c887fdd",
+    "path": "final/si-ep04-self-deceiving-god/小红书/si-ep04-self-deceiving-god-xiaohongshu-120s-portrait.mp4",
+    "bytes": 268073693,
+    "sha256": "c836ee94b7bc7c030797a639e0975f242740c265eb4fc740f690f4f910a49ed0",
+    "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep04-self-deceiving-god-bfac5c887fdd/final--si-ep04-self-deceiving-god--deliveries--si-ep04-self-deceiving-god-----si-ep04-self-deceiving-god-xiaohongshu-120s-portrait--c836ee94b7bc.mp4",
+    "first_download_completed": true,
+    "restored_path_size_sha256_match": true,
+    "second_run_skipped_verified_file": true,
+    "scope": "One newly added final movie actually downloaded and restored; all other final assets received remote inventory/local hash verification, not full download restore.",
+    "temporary_restore_data_removed": true
   }
 }

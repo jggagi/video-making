@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "performed_at_utc": "2026-10-19T12:07:37.263980+00:00",
+  "catalog_sha256": "e4ccad80d8ec89e25cdedb2a7b3429582b9f26ff41e15b8f0dca3ac7f6ec46ee",
+  "source_commit": "f4f7c7e30f36b4081569ce81f0706c821f91ac73",
+  "release_tag": "final-si-ep04-self-deceiving-god-bfac5c887fdd",
+  "path": "final/si-ep04-self-deceiving-god/小红书/si-ep04-self-deceiving-god-xiaohongshu-120s-portrait.mp4",
+  "bytes": 268073693,
+  "sha256": "c836ee94b7bc7c030797a639e0975f242740c265eb4fc740f690f4f910a49ed0",
+  "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep04-self-deceiving-god-bfac5c887fdd/final--si-ep04-self-deceiving-god--deliveries--si-ep04-self-deceiving-god-----si-ep04-self-deceiving-god-xiaohongshu-120s-portrait--c836ee94b7bc.mp4",
+  "first_download_completed": true,
+  "restored_path_size_sha256_match": true,
+  "second_run_skipped_verified_file": true,
+  "scope": "One newly added final movie actually downloaded and restored; all other final assets received remote inventory/local hash verification, not full download restore.",
+  "temporary_restore_data_removed": true
+}

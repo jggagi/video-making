@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "audit": "original_brief_vs_current_source",
-  "status": "SOURCE_AND_AUTOMATED_MEDIA_VERIFIED_HUMAN_DEVICE_PENDING",
+  "status": "SOURCE_MEDIA_AND_ARCHIVES_COMPLETE_HUMAN_DEVICE_PENDING",
   "scope": {
     "brief": "source/script.md and attached original pasted brief",
     "evidence": "current project source, delivery manifest, and review records",
@@ -244,8 +244,8 @@
     },
     {
       "id": "archive_and_backup",
-      "status": "pending",
-      "note": "Complete after corrected media passes; update required local final and verified GitHub final backup evidence."
+      "status": "PASS",
+      "note": "Local APFS final clones, pushed source, published film/final Releases verified;39 final assets match current catalog and one new portrait movie actually restored."
     },
     {
       "id": "human_and_device_acceptance",

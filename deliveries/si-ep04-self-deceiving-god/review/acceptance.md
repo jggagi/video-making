@@ -65,7 +65,15 @@ PCM静音合同为逐样本绝对零。AAC为有损变换编码，完整解码�
 
 ## 留存状态
 
-本地final已通过APFS克隆及SHA-256/大小复核，见 `local-final-verification.json`；保留全部历史正式版本。源码push、作品Release、独立final Release与真实下载恢复抽测正在执行，完成后以实际证据更新。
+本地final已通过APFS克隆及SHA-256/大小复核，见 `local-final-verification.json`；保留全部历史正式版本。
+
+- [源码提交 f4f7c7e](https://github.com/jggagi/video-making/commit/f4f7c7e30f36b4081569ce81f0706c821f91ac73) 已push。
+- [作品Release](https://github.com/jggagi/video-making/releases/tag/film-si-ep04-self-deceiving-god-bfac5c887fdd)：两份正式成片与两段带声预览，四项均已上传并验证远端大小/SHA-256。
+- [独立final Release](https://github.com/jggagi/video-making/releases/tag/final-si-ep04-self-deceiving-god-bfac5c887fdd)：两份正式成片已验证；本次完整final清单14个Release/39个资产的远端与本地信息匹配。`final/backup-verification.json` 绑定当前清单SHA-256 `e4ccad80d8ec89e25cdedb2a7b3429582b9f26ff41e15b8f0dca3ac7f6ec46ee`。
+- 真实恢复抽测：从本次新final Release下载竖屏268,073,693字节文件，在隔离临时目录核对相对路径、大小和SHA-256；重复运行正确跳过匹配文件，临时下载已清理。见 `final-restore-probe.json`。该抽测只覆盖这一份新成片，不宣称39份全部下载恢复。
+- 四份本轮被替代的制作稿在新版双份备份及恢复通过后，逐项核验散列、属主与关闭状态并清理；正式历史版本未动，见 `draft-cache.json`。
+
+归档摘要见 `github-archive-verification.json`；严格验证输入与最终清单仅QA/留存元数据不同，见 `validation-provenance.json`。
 
 ## 人工与设备
 

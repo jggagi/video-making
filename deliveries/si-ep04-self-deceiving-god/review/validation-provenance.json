@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "validated_input_sha256": "58155743c21cbaa4883563787738d0945237bc8c0e660feaaaeb965b321ae1d9",
+  "current_manifest_sha256": "5fce235e6d78fd4f07c1f6673d382dc61407768390b09df89cadbc2d1fdf0bea",
+  "strict_report": "review/media-validation-20261019T115456.666100Z.json",
+  "changed_top_level_keys": [
+    "archive",
+    "production_status",
+    "qa"
+  ],
+  "technical_manifest_unchanged_after_validation": true,
+  "note": "Only QA/progress/archive identity metadata changed after strict validation; output SHA, size, paths, timing, dimensions and audio contract remain unchanged."
+}

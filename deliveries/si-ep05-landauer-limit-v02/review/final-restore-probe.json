@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "source_commit": "67d8ed37c1dda3b591815f60d5e8fb6bbe24e5c8",
+  "catalog_sha256": "ed8fcca53214bc4ea4d3914ee2aacc924960e87016d0f3489539dbe60892d9df",
+  "scope": {
+    "work_id": "si-ep05-landauer-limit-v02",
+    "platform": "B站",
+    "asset_path": "final/si-ep05-landauer-limit-v02/B站/si-ep05-landauer-limit-v02-bilibili-120s-4k.mp4",
+    "asset_count": 1
+  },
+  "asset": {
+    "bytes": 254711520,
+    "sha256": "354e60f2c607b9dd6613d4a813702e6ea884e92ad3f44a6e92c9ff1eb34a890b"
+  },
+  "first_restore": "downloaded_and_size_sha256_verified",
+  "repeat_restore": "skipped_verified_existing_file",
+  "repeat_invariants": {
+    "path_unchanged": true,
+    "inode_unchanged": true,
+    "mtime_ns_unchanged": true,
+    "size_sha256_still_match": true
+  },
+  "temporary_tree": "removed"
+}

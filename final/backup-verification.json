@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
   "status": "COMPLETE",
-  "verified_at_utc": "2026-10-19T07:15:30.030986+00:00",
+  "verified_at_utc": "2026-10-19T11:17:31.839305+00:00",
   "repository": "jggagi/video-making",
-  "source_commit": "4853d60c1733baa1d8be7475e9f91f66bad80b5a",
+  "source_commit": "67d8ed37c1dda3b591815f60d5e8fb6bbe24e5c8",
   "catalog_path": "final/backup-catalog.json",
-  "catalog_sha256": "2cb8c83d112149f103d82e74ab247bc9ddbe80a35980a0b6d7efcb33aa309c8f",
-  "upload_receipt_sha256": "f65550a007c49d29da6255f15f0020a0db831671d96f5bfa56ba1bc858041166",
+  "catalog_sha256": "ed8fcca53214bc4ea4d3914ee2aacc924960e87016d0f3489539dbe60892d9df",
+  "upload_receipt_sha256": "8d15888f5328a271da3ac291685e0bf272d0bddba4cb4c439291e726b3482709",
   "verification_method": "Fresh published GitHub Release API inventory plus all local final file hashes; every remote size, SHA-256 digest and URL matched the current catalog.",
-  "verified_releases": 12,
-  "verified_files": 35,
-  "verified_bytes": 5906820746,
+  "verified_releases": 13,
+  "verified_files": 37,
+  "verified_bytes": 6383974805,
   "works": [
     {
       "id": "lanting",
@@ -373,6 +373,36 @@
       ]
     },
     {
+      "id": "si-ep05-landauer-limit-v02",
+      "title": "Final 成片备份 · 兰道尔极限｜窒息与冷寂 · EP.05 v02",
+      "release_tag": "final-si-ep05-landauer-limit-v02-5b36c0d69bc3",
+      "release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep05-landauer-limit-v02-5b36c0d69bc3",
+      "release_target": "67d8ed37c1dda3b591815f60d5e8fb6bbe24e5c8",
+      "release_draft": false,
+      "assets": [
+        {
+          "path": "final/si-ep05-landauer-limit-v02/B站/si-ep05-landauer-limit-v02-bilibili-120s-4k.mp4",
+          "name": "final--si-ep05-landauer-limit-v02--deliveries--si-ep05-landauer-limit-v02--B---si-ep05-landauer-limit-v02-bilibili-120s-4k--354e60f2c607.mp4",
+          "bytes": 254711520,
+          "sha256": "354e60f2c607b9dd6613d4a813702e6ea884e92ad3f44a6e92c9ff1eb34a890b",
+          "github_digest": "sha256:354e60f2c607b9dd6613d4a813702e6ea884e92ad3f44a6e92c9ff1eb34a890b",
+          "github_asset_id": 656056726,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep05-landauer-limit-v02-5b36c0d69bc3/final--si-ep05-landauer-limit-v02--deliveries--si-ep05-landauer-limit-v02--B---si-ep05-landauer-limit-v02-bilibili-120s-4k--354e60f2c607.mp4",
+          "local_and_remote_match": true
+        },
+        {
+          "path": "final/si-ep05-landauer-limit-v02/小红书/si-ep05-landauer-limit-v02-xiaohongshu-120s-portrait.mp4",
+          "name": "final--si-ep05-landauer-limit-v02--deliveries--si-ep05-landauer-limit-v02-----si-ep05-landauer-limit-v02-xiaohongshu-120s-portrait--cd8839587847.mp4",
+          "bytes": 222442539,
+          "sha256": "cd8839587847091e689efcecc4d8b6da55e6e04ba752f5223c788829e4407806",
+          "github_digest": "sha256:cd8839587847091e689efcecc4d8b6da55e6e04ba752f5223c788829e4407806",
+          "github_asset_id": 656058070,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep05-landauer-limit-v02-5b36c0d69bc3/final--si-ep05-landauer-limit-v02--deliveries--si-ep05-landauer-limit-v02-----si-ep05-landauer-limit-v02-xiaohongshu-120s-portrait--cd8839587847.mp4",
+          "local_and_remote_match": true
+        }
+      ]
+    },
+    {
       "id": "si-ep06-sovereign-crystal",
       "title": "Final 成片备份 · 主权心印｜THE SOVEREIGN SOUL CRYSTAL · EP.06",
       "release_tag": "final-si-ep06-sovereign-crystal-17a9981f3b94",
@@ -485,20 +515,14 @@
   ],
   "restore_probe": {
     "status": "PASS",
-    "checked_at_utc": "2026-10-19T07:16:12.117645+00:00",
-    "scope": "One newly backed-up v02 landscape final, actual remote download and repeated idempotent skip. Other final assets were inventory/hash verified, not all downloaded.",
-    "source_commit": "4853d60c1733baa1d8be7475e9f91f66bad80b5a",
-    "catalog_sha256": "2cb8c83d112149f103d82e74ab247bc9ddbe80a35980a0b6d7efcb33aa309c8f",
-    "asset": {
-      "path": "final/si-ep06-sovereign-crystal-v02/B站/si-ep06-sovereign-crystal-v02-bilibili-120s-4k.mp4",
-      "bytes": 115813246,
-      "sha256": "5d57f695c0d430005e5528cb0cd2c2d48a19104ff5ef8a2d0f5399999987816c",
-      "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep06-sovereign-crystal-v02-269fc619d08f/final--si-ep06-sovereign-crystal-v02--deliveries--si-ep06-sovereign-crystal-v02--B---si-ep06-sovereign-crystal-v02-bilibili-120s-4k--5d57f695c0d4.mp4"
-    },
-    "first_run": "Restored: final/si-ep06-sovereign-crystal-v02/B站/si-ep06-sovereign-crystal-v02-bilibili-120s-4k.mp4 (115,813,246 bytes)\nRestore complete: 0 already verified, 1 downloaded",
-    "repeat_run": "Restore complete: 1 already verified, 0 downloaded",
-    "temporary_restore_location": "isolated /private/tmp/ep06-v02-final-probe.* directory, removed after verification",
-    "verified_size_and_sha256": true,
-    "evidence": "deliveries/si-ep06-sovereign-crystal-v02/review/final-restore-probe.json"
+    "checked_at_utc": "2026-10-19T11:18:33.897811+00:00",
+    "scope": "One newly backed-up EP05 v02 landscape final was actually downloaded and hash-checked; repeat run skipped without inode or mtime change. Other final movies were inventory/hash verified, not all downloaded.",
+    "source_commit": "67d8ed37c1dda3b591815f60d5e8fb6bbe24e5c8",
+    "catalog_sha256": "ed8fcca53214bc4ea4d3914ee2aacc924960e87016d0f3489539dbe60892d9df",
+    "evidence": "deliveries/si-ep05-landauer-limit-v02/review/final-restore-probe.json",
+    "asset_path": "final/si-ep05-landauer-limit-v02/B站/si-ep05-landauer-limit-v02-bilibili-120s-4k.mp4",
+    "asset_bytes": 254711520,
+    "asset_sha256": "354e60f2c607b9dd6613d4a813702e6ea884e92ad3f44a6e92c9ff1eb34a890b",
+    "temporary_data_removed": true
   }
 }

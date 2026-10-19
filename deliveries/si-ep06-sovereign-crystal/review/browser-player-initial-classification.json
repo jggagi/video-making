@@ -1,0 +1,586 @@
+{
+  "schema_version": 1,
+  "status": "FAIL",
+  "acceptance_status": "NOT_EVALUATED",
+  "method": "Muted playback and seeks in Google Chrome through an ephemeral loopback HTTP server with byte-range support.",
+  "results": [
+    {
+      "layout": "landscape",
+      "sourcePath": "/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+      "metadata": {
+        "width": 3840,
+        "height": 2160,
+        "duration": 120,
+        "currentSrc": "/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "error": null
+      },
+      "playback": {
+        "time": 0.706855,
+        "paused": false,
+        "totalFrames": 48,
+        "droppedFrames": 0
+      },
+      "seeks": [
+        {
+          "target": 16,
+          "time": 16,
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "target": 48,
+          "time": 48,
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "target": 80,
+          "time": 80,
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "target": 96.5,
+          "time": 96.5,
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "target": 118.5,
+          "time": 118.5,
+          "readyState": 4,
+          "error": null
+        }
+      ]
+    },
+    {
+      "layout": "portrait",
+      "sourcePath": "/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+      "metadata": {
+        "width": 2160,
+        "height": 3840,
+        "duration": 120,
+        "currentSrc": "/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+        "error": null
+      },
+      "playback": {
+        "time": 0.70441,
+        "paused": false,
+        "totalFrames": 262,
+        "droppedFrames": 0
+      },
+      "seeks": [
+        {
+          "target": 16,
+          "time": 16,
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "target": 48,
+          "time": 48,
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "target": 80,
+          "time": 80,
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "target": 96.5,
+          "time": 96.5,
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "target": 118.5,
+          "time": 118.5,
+          "readyState": 4,
+          "error": null
+        }
+      ]
+    }
+  ],
+  "local_server": {
+    "origin": "http://127.0.0.1:62243",
+    "served_watch_page": true,
+    "successful_media_range_requests": [
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=0-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=0-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=3014656-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=62291968-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=62619648-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=62947328-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=63340544-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=63733760-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=64126976-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=64454656-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=64716800-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=64978944-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=65241088-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=65634304-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=66027520-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=66289664-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=66748416-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=67141632-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=67534848-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=68059136-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=68386816-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=68714496-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=69042176-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=69369856-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=99155968-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=99483648-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=99876864-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=100204544-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=100532224-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=100859904-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=101253120-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=101777408-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=116588544-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=116981760-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=117309440-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=117637120-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=118226944-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=118751232-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=119078912-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=119406592-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=119734272-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=120029184-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=120487936-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=121077760-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=121438208-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=121831424-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=122159104-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=122552320-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=122880000-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=123207680-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=123535360-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=159121408-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=159514624-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=160038912-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=160366592-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=160694272-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=161153024-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=161579008-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=161972224-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=162332672-"
+      },
+      {
+        "path": "/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "range": "bytes=162725888-"
+      },
+      {
+        "path": "/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+        "range": "bytes=0-"
+      },
+      {
+        "path": "/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+        "range": "bytes=151060480-"
+      },
+      {
+        "path": "/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+        "range": "bytes=151453696-"
+      },
+      {
+        "path": "/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+        "range": "bytes=458752-"
+      },
+      {
+        "path": "/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+        "range": "bytes=57376768-"
+      },
+      {
+        "path": "/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+        "range": "bytes=57769984-"
+      },
+      {
+        "path": "/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+        "range": "bytes=58130432-"
+      },
+      {
+        "path": "/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+        "range": "bytes=58523648-"
+      },
+      {
+        "path": "/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+        "range": "bytes=58851328-"
+      },
+      {
+        "path": "/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+        "range": "bytes=59244544-"
+      },
+      {
+        "path": "/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+        "range": "bytes=59506688-"
+      },
+      {
+        "path": "/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+        "range": "bytes=59834368-"
+      },
+      {
+        "path": "/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+        "range": "bytes=60096512-"
+      },
+      {
+        "path": "/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+        "range": "bytes=60489728-"
+      },
+      {
+        "path": "/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+        "range": "bytes=61014016-"
+      },
+      {
+        "path": "/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+        "range": "bytes=61341696-"
+      },
+      {
+        "path": "/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+        "range": "bytes=61669376-"
+      },
+      {
+        "path": "/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+        "range": "bytes=89325568-"
+      },
+      {
+        "path": "/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+        "range": "bytes=89653248-"
+      },
+      {
+        "path": "/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+        "range": "bytes=89980928-"
+      },
+      {
+        "path": "/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+        "range": "bytes=90308608-"
+      },
+      {
+        "path": "/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+        "range": "bytes=90767360-"
+      },
+      {
+        "path": "/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+        "range": "bytes=91095040-"
+      },
+      {
+        "path": "/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+        "range": "bytes=103677952-"
+      },
+      {
+        "path": "/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+        "range": "bytes=103940096-"
+      },
+      {
+        "path": "/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+        "range": "bytes=104267776-"
+      },
+      {
+        "path": "/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+        "range": "bytes=104726528-"
+      },
+      {
+        "path": "/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+        "range": "bytes=105185280-"
+      },
+      {
+        "path": "/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+        "range": "bytes=106233856-"
+      },
+      {
+        "path": "/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+        "range": "bytes=106627072-"
+      },
+      {
+        "path": "/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+        "range": "bytes=107020288-"
+      },
+      {
+        "path": "/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+        "range": "bytes=107413504-"
+      },
+      {
+        "path": "/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+        "range": "bytes=107708416-"
+      },
+      {
+        "path": "/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+        "range": "bytes=108101632-"
+      },
+      {
+        "path": "/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+        "range": "bytes=108429312-"
+      },
+      {
+        "path": "/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+        "range": "bytes=108822528-"
+      },
+      {
+        "path": "/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+        "range": "bytes=109215744-"
+      },
+      {
+        "path": "/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+        "range": "bytes=109543424-"
+      },
+      {
+        "path": "/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+        "range": "bytes=109871104-"
+      },
+      {
+        "path": "/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+        "range": "bytes=151060480-"
+      },
+      {
+        "path": "/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+        "range": "bytes=151519232-"
+      },
+      {
+        "path": "/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+        "range": "bytes=151912448-"
+      },
+      {
+        "path": "/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+        "range": "bytes=152305664-"
+      },
+      {
+        "path": "/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+        "range": "bytes=152764416-"
+      },
+      {
+        "path": "/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+        "range": "bytes=153288704-"
+      },
+      {
+        "path": "/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+        "range": "bytes=153616384-"
+      },
+      {
+        "path": "/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+        "range": "bytes=153944064-"
+      },
+      {
+        "path": "/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+        "range": "bytes=154271744-"
+      },
+      {
+        "path": "/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+        "range": "bytes=154566656-"
+      },
+      {
+        "path": "/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+        "range": "bytes=154959872-"
+      },
+      {
+        "path": "/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+        "range": "bytes=155353088-"
+      },
+      {
+        "path": "/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+        "range": "bytes=155648000-"
+      },
+      {
+        "path": "/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+        "range": "bytes=155975680-"
+      },
+      {
+        "path": "/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+        "range": "bytes=156368896-"
+      },
+      {
+        "path": "/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+        "range": "bytes=156762112-"
+      },
+      {
+        "path": "/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+        "range": "bytes=157089792-"
+      }
+    ],
+    "failed_requests": []
+  },
+  "error": "GET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/B%E7%AB%99/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4: net::ERR_ABORTED\nGET http://127.0.0.1:62243/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4: net::ERR_ABORTED",
+  "limitations": [
+    "Playback was muted; this check makes no claim about listening, mix quality, or pronunciation.",
+    "Automated browser playback does not establish continuous human review, phone playback, or platform App acceptance."
+  ]
+}

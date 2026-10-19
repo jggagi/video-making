@@ -1,0 +1,11 @@
+{
+  "provider": "Aliyun Bailian",
+  "scope": "EP06 ten tts_phonetic_text segments only",
+  "authorized": true,
+  "source": "direct user reply in current chat",
+  "settings": {
+    "model_selection": "active profile default",
+    "voice": "longtian_v3",
+    "rate": 1.0
+  }
+}

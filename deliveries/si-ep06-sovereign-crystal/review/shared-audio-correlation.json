@@ -1,0 +1,1100 @@
+{
+  "status": "PASS",
+  "method": "Decode only stream 0:a:0 from each final MP4 to 48 kHz stereo signed PCM16, then compare against shared master.wav at identical sample offsets. No video decode, ASR, resampling beyond ffmpeg output conversion, time shift, or correlation-based alignment is used.",
+  "thresholds": {
+    "zero_offset_pearson_minimum": 0.98,
+    "absolute_rms_gain_db_maximum": 0.5
+  },
+  "event_comparison_windows": [
+    {
+      "event_id": "cyan-pre-echo",
+      "start_seconds": 1.7,
+      "end_seconds": 2.12
+    },
+    {
+      "event_id": "human-heartbeat",
+      "start_seconds": 2.0,
+      "end_seconds": 2.7800000000000002
+    },
+    {
+      "event_id": "rp-lock",
+      "start_seconds": 14.5,
+      "end_seconds": 15.22
+    },
+    {
+      "event_id": "amber-awareness",
+      "start_seconds": 15.0,
+      "end_seconds": 16.2
+    },
+    {
+      "event_id": "glass-window",
+      "start_seconds": 22.5,
+      "end_seconds": 23.7
+    },
+    {
+      "event_id": "data-convergence",
+      "start_seconds": 35.0,
+      "end_seconds": 36.2
+    },
+    {
+      "event_id": "trajectory-lock",
+      "start_seconds": 52.0,
+      "end_seconds": 52.82
+    },
+    {
+      "event_id": "reward-warp",
+      "start_seconds": 64.0,
+      "end_seconds": 65.2
+    },
+    {
+      "event_id": "gentle-prison",
+      "start_seconds": 80.0,
+      "end_seconds": 81.2
+    },
+    {
+      "event_id": "vault-seal",
+      "start_seconds": 96.0,
+      "end_seconds": 97.2
+    },
+    {
+      "event_id": "sovereign-chord",
+      "start_seconds": 108.0,
+      "end_seconds": 109.2
+    },
+    {
+      "event_id": "final-heartbeat",
+      "start_seconds": 117.0,
+      "end_seconds": 118.2
+    }
+  ],
+  "expected_audio": {
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples_per_channel": 5760000
+  },
+  "inputs": {
+    "master": {
+      "path": "project/public/audio/master.wav",
+      "present": true,
+      "size_bytes": 23040044,
+      "sha256": "2bc17a49a3555abfef6ee70b1445e6939bc0d66ad9946a1d296ce6ce1c63aab1",
+      "manifest_sha256_matches": true
+    },
+    "bilibili": {
+      "path": "B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+      "present": true,
+      "size_bytes": 162732424,
+      "sha256": "b1ef98636d1072853461fdc7032b94959c94634206632aa316188bd7aee13f8d"
+    },
+    "xiaohongshu": {
+      "path": "小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+      "present": true,
+      "size_bytes": 157289697,
+      "sha256": "57d2303244f5bdc85574a716a08582348b309caae69eb2518019ec9db27a5cb1"
+    }
+  },
+  "tracks": [
+    {
+      "platform": "bilibili",
+      "path": "B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+      "sha256": "b1ef98636d1072853461fdc7032b94959c94634206632aa316188bd7aee13f8d",
+      "size_bytes": 162732424,
+      "decoded_sample_count_per_channel": 5760000,
+      "master_sample_count_per_channel": 5760000,
+      "codec_padding_samples_after_master": 0,
+      "trimmed_only_for_comparison_samples": 0,
+      "decoder_priming_handling": "ffmpeg decoded the selected AAC stream and applied available skip-sample/gapless metadata; comparison is at zero offset with no correlation-based alignment",
+      "windows": [
+        {
+          "event_id": "cyan-pre-echo",
+          "start_seconds": 1.7,
+          "end_seconds": 2.12,
+          "start_sample": 81600,
+          "end_sample_exclusive": 101760,
+          "status": "PASS",
+          "criteria": {
+            "pearson_minimum": 0.98,
+            "absolute_rms_gain_db_maximum": 0.5
+          },
+          "channels": [
+            {
+              "channel": "left",
+              "samples": 20160,
+              "pearson_zero_offset": 0.9999873215738033,
+              "cosine_zero_offset": 0.9999873200126517,
+              "rms_gain_db": -0.007284847810807731,
+              "regression_gain": 0.9991486744124427,
+              "regression_gain_db": -0.007397669459214931,
+              "master_rms_pcm16": 6204.178733178486,
+              "decoded_rms_pcm16": 6198.977475516772,
+              "correlation_pass": true,
+              "gain_pass": true
+            },
+            {
+              "channel": "right",
+              "samples": 20160,
+              "pearson_zero_offset": 0.9999848778344846,
+              "cosine_zero_offset": 0.9999848564950767,
+              "rms_gain_db": -0.0014586312557002047,
+              "regression_gain": 0.9998156987075737,
+              "regression_gain_db": -0.0016009682209558362,
+              "master_rms_pcm16": 5651.905248142273,
+              "decoded_rms_pcm16": 5650.956197001228,
+              "correlation_pass": true,
+              "gain_pass": true
+            }
+          ]
+        },
+        {
+          "event_id": "human-heartbeat",
+          "start_seconds": 2.0,
+          "end_seconds": 2.7800000000000002,
+          "start_sample": 96000,
+          "end_sample_exclusive": 133440,
+          "status": "PASS",
+          "criteria": {
+            "pearson_minimum": 0.98,
+            "absolute_rms_gain_db_maximum": 0.5
+          },
+          "channels": [
+            {
+              "channel": "left",
+              "samples": 37440,
+              "pearson_zero_offset": 0.9999791887659305,
+              "cosine_zero_offset": 0.999979125967292,
+              "rms_gain_db": -0.006220618952586873,
+              "regression_gain": 0.9992635046273286,
+              "regression_gain_db": -0.006399474406989856,
+              "master_rms_pcm16": 5760.526920069751,
+              "decoded_rms_pcm16": 5756.40285037,
+              "correlation_pass": true,
+              "gain_pass": true
+            },
+            {
+              "channel": "right",
+              "samples": 37440,
+              "pearson_zero_offset": 0.9999788872920925,
+              "cosine_zero_offset": 0.9999788783927729,
+              "rms_gain_db": -0.008585740657294274,
+              "regression_gain": 0.9989909897636917,
+              "regression_gain_db": -0.008768576092086434,
+              "master_rms_pcm16": 5705.2601520635635,
+              "decoded_rms_pcm16": 5699.623460312352,
+              "correlation_pass": true,
+              "gain_pass": true
+            }
+          ]
+        },
+        {
+          "event_id": "rp-lock",
+          "start_seconds": 14.5,
+          "end_seconds": 15.22,
+          "start_sample": 696000,
+          "end_sample_exclusive": 730560,
+          "status": "PASS",
+          "criteria": {
+            "pearson_minimum": 0.98,
+            "absolute_rms_gain_db_maximum": 0.5
+          },
+          "channels": [
+            {
+              "channel": "left",
+              "samples": 34560,
+              "pearson_zero_offset": 0.9999872557446051,
+              "cosine_zero_offset": 0.9999872552592746,
+              "rms_gain_db": -0.0045485779178769305,
+              "regression_gain": 0.9994638366689683,
+              "regression_gain_db": -0.004658304438954907,
+              "master_rms_pcm16": 7294.831921196467,
+              "decoded_rms_pcm16": 7291.012804647563,
+              "correlation_pass": true,
+              "gain_pass": true
+            },
+            {
+              "channel": "right",
+              "samples": 34560,
+              "pearson_zero_offset": 0.9999851421837557,
+              "cosine_zero_offset": 0.9999851368420242,
+              "rms_gain_db": -0.006516140021580005,
+              "regression_gain": 0.999235627614257,
+              "regression_gain_db": -0.006641792909998669,
+              "master_rms_pcm16": 6560.644014201379,
+              "decoded_rms_pcm16": 6555.724075622786,
+              "correlation_pass": true,
+              "gain_pass": true
+            }
+          ]
+        },
+        {
+          "event_id": "amber-awareness",
+          "start_seconds": 15.0,
+          "end_seconds": 16.2,
+          "start_sample": 720000,
+          "end_sample_exclusive": 777600,
+          "status": "PASS",
+          "criteria": {
+            "pearson_minimum": 0.98,
+            "absolute_rms_gain_db_maximum": 0.5
+          },
+          "channels": [
+            {
+              "channel": "left",
+              "samples": 57600,
+              "pearson_zero_offset": 0.9999891811054424,
+              "cosine_zero_offset": 0.9999891737888336,
+              "rms_gain_db": -0.005428809928970255,
+              "regression_gain": 0.9993643828738389,
+              "regression_gain_db": -0.005522655543114766,
+              "master_rms_pcm16": 6606.598663757193,
+              "decoded_rms_pcm16": 6602.470731689199,
+              "correlation_pass": true,
+              "gain_pass": true
+            },
+            {
+              "channel": "right",
+              "samples": 57600,
+              "pearson_zero_offset": 0.9999873890598449,
+              "cosine_zero_offset": 0.9999873821888136,
+              "rms_gain_db": -0.008572476486477248,
+              "regression_gain": 0.9990009546383606,
+              "regression_gain_db": -0.00868193530069171,
+              "master_rms_pcm16": 6145.800704163384,
+              "decoded_rms_pcm16": 6139.738142426714,
+              "correlation_pass": true,
+              "gain_pass": true
+            }
+          ]
+        },
+        {
+          "event_id": "glass-window",
+          "start_seconds": 22.5,
+          "end_seconds": 23.7,
+          "start_sample": 1080000,
+          "end_sample_exclusive": 1137600,
+          "status": "PASS",
+          "criteria": {
+            "pearson_minimum": 0.98,
+            "absolute_rms_gain_db_maximum": 0.5
+          },
+          "channels": [
+            {
+              "channel": "left",
+              "samples": 57600,
+              "pearson_zero_offset": 0.9999860951030551,
+              "cosine_zero_offset": 0.9999860911247768,
+              "rms_gain_db": -0.006394482184107807,
+              "regression_gain": 0.9992502731373872,
+              "regression_gain_db": -0.006514487135606729,
+              "master_rms_pcm16": 7727.473066857652,
+              "decoded_rms_pcm16": 7721.78625680379,
+              "correlation_pass": true,
+              "gain_pass": true
+            },
+            {
+              "channel": "right",
+              "samples": 57600,
+              "pearson_zero_offset": 0.9999837695829111,
+              "cosine_zero_offset": 0.9999837687739506,
+              "rms_gain_db": -0.003912980923433588,
+              "regression_gain": 0.9995333116600623,
+              "regression_gain_db": -0.00405454959518695,
+              "master_rms_pcm16": 7134.553828853319,
+              "decoded_rms_pcm16": 7131.340446371118,
+              "correlation_pass": true,
+              "gain_pass": true
+            }
+          ]
+        },
+        {
+          "event_id": "data-convergence",
+          "start_seconds": 35.0,
+          "end_seconds": 36.2,
+          "start_sample": 1680000,
+          "end_sample_exclusive": 1737600,
+          "status": "PASS",
+          "criteria": {
+            "pearson_minimum": 0.98,
+            "absolute_rms_gain_db_maximum": 0.5
+          },
+          "channels": [
+            {
+              "channel": "left",
+              "samples": 57600,
+              "pearson_zero_offset": 0.9999843200358599,
+              "cosine_zero_offset": 0.999984276878424,
+              "rms_gain_db": -0.0063009881954048524,
+              "regression_gain": 0.9992594119792121,
+              "regression_gain_db": -0.0064350489701556395,
+              "master_rms_pcm16": 5240.615833746042,
+              "decoded_rms_pcm16": 5236.815522485505,
+              "correlation_pass": true,
+              "gain_pass": true
+            },
+            {
+              "channel": "right",
+              "samples": 57600,
+              "pearson_zero_offset": 0.9999844625486842,
+              "cosine_zero_offset": 0.9999844571401244,
+              "rms_gain_db": -0.008249590326797663,
+              "regression_gain": 0.9990352962206049,
+              "regression_gain_db": -0.008383354938826746,
+              "master_rms_pcm16": 5226.982124956814,
+              "decoded_rms_pcm16": 5222.020055184916,
+              "correlation_pass": true,
+              "gain_pass": true
+            }
+          ]
+        },
+        {
+          "event_id": "trajectory-lock",
+          "start_seconds": 52.0,
+          "end_seconds": 52.82,
+          "start_sample": 2496000,
+          "end_sample_exclusive": 2535360,
+          "status": "PASS",
+          "criteria": {
+            "pearson_minimum": 0.98,
+            "absolute_rms_gain_db_maximum": 0.5
+          },
+          "channels": [
+            {
+              "channel": "left",
+              "samples": 39360,
+              "pearson_zero_offset": 0.9999878523212842,
+              "cosine_zero_offset": 0.9999878523249764,
+              "rms_gain_db": -0.007609918043408513,
+              "regression_gain": 0.9991121234089794,
+              "regression_gain_db": -0.007715423760980352,
+              "master_rms_pcm16": 6507.123157062096,
+              "decoded_rms_pcm16": 6501.424605725887,
+              "correlation_pass": true,
+              "gain_pass": true
+            },
+            {
+              "channel": "right",
+              "samples": 39360,
+              "pearson_zero_offset": 0.999983087891531,
+              "cosine_zero_offset": 0.9999830434718086,
+              "rms_gain_db": -0.004069347107097267,
+              "regression_gain": 0.999514863823812,
+              "regression_gain_db": -0.004214861759446512,
+              "master_rms_pcm16": 5805.744033134551,
+              "decoded_rms_pcm16": 5803.02467389449,
+              "correlation_pass": true,
+              "gain_pass": true
+            }
+          ]
+        },
+        {
+          "event_id": "reward-warp",
+          "start_seconds": 64.0,
+          "end_seconds": 65.2,
+          "start_sample": 3072000,
+          "end_sample_exclusive": 3129600,
+          "status": "PASS",
+          "criteria": {
+            "pearson_minimum": 0.98,
+            "absolute_rms_gain_db_maximum": 0.5
+          },
+          "channels": [
+            {
+              "channel": "left",
+              "samples": 57600,
+              "pearson_zero_offset": 0.9999855397962785,
+              "cosine_zero_offset": 0.999985535472,
+              "rms_gain_db": -0.005729110215405982,
+              "regression_gain": 0.9993262913651233,
+              "regression_gain_db": -0.005853730926770143,
+              "master_rms_pcm16": 7137.645223895964,
+              "decoded_rms_pcm16": 7132.938869708128,
+              "correlation_pass": true,
+              "gain_pass": true
+            },
+            {
+              "channel": "right",
+              "samples": 57600,
+              "pearson_zero_offset": 0.9999872750722301,
+              "cosine_zero_offset": 0.9999872725097753,
+              "rms_gain_db": -0.005716888949818069,
+              "regression_gain": 0.9993294149018046,
+              "regression_gain_db": -0.005826581983798916,
+              "master_rms_pcm16": 7510.970928563245,
+              "decoded_rms_pcm16": 7506.028975505522,
+              "correlation_pass": true,
+              "gain_pass": true
+            }
+          ]
+        },
+        {
+          "event_id": "gentle-prison",
+          "start_seconds": 80.0,
+          "end_seconds": 81.2,
+          "start_sample": 3840000,
+          "end_sample_exclusive": 3897600,
+          "status": "PASS",
+          "criteria": {
+            "pearson_minimum": 0.98,
+            "absolute_rms_gain_db_maximum": 0.5
+          },
+          "channels": [
+            {
+              "channel": "left",
+              "samples": 57600,
+              "pearson_zero_offset": 0.9999527340275267,
+              "cosine_zero_offset": 0.9999527281099905,
+              "rms_gain_db": -0.014494903165480752,
+              "regression_gain": 0.9982855211550564,
+              "regression_gain_db": -0.01490455445968493,
+              "master_rms_pcm16": 4307.868045597642,
+              "decoded_rms_pcm16": 4300.685124743208,
+              "correlation_pass": true,
+              "gain_pass": true
+            },
+            {
+              "channel": "right",
+              "samples": 57600,
+              "pearson_zero_offset": 0.9999519048970302,
+              "cosine_zero_offset": 0.9999518957131437,
+              "rms_gain_db": -0.007166427640060176,
+              "regression_gain": 0.9991273510091709,
+              "regression_gain_db": -0.007583041975501287,
+              "master_rms_pcm16": 4197.986549693346,
+              "decoded_rms_pcm16": 4194.524364397506,
+              "correlation_pass": true,
+              "gain_pass": true
+            }
+          ]
+        },
+        {
+          "event_id": "vault-seal",
+          "start_seconds": 96.0,
+          "end_seconds": 97.2,
+          "start_sample": 4608000,
+          "end_sample_exclusive": 4665600,
+          "status": "PASS",
+          "criteria": {
+            "pearson_minimum": 0.98,
+            "absolute_rms_gain_db_maximum": 0.5
+          },
+          "channels": [
+            {
+              "channel": "left",
+              "samples": 57600,
+              "pearson_zero_offset": 0.9999800347292096,
+              "cosine_zero_offset": 0.9999800313220025,
+              "rms_gain_db": -0.00664460171264026,
+              "regression_gain": 0.9992152272723873,
+              "regression_gain_db": -0.006819125384932111,
+              "master_rms_pcm16": 5002.391796215808,
+              "decoded_rms_pcm16": 4998.566489650641,
+              "correlation_pass": true,
+              "gain_pass": true
+            },
+            {
+              "channel": "right",
+              "samples": 57600,
+              "pearson_zero_offset": 0.9999827919484342,
+              "cosine_zero_offset": 0.9999827914365803,
+              "rms_gain_db": -0.0071826930951269475,
+              "regression_gain": 0.9991561617369619,
+              "regression_gain_db": -0.007332580216290974,
+              "master_rms_pcm16": 5011.027577302495,
+              "decoded_rms_pcm16": 5006.88548053141,
+              "correlation_pass": true,
+              "gain_pass": true
+            }
+          ]
+        },
+        {
+          "event_id": "sovereign-chord",
+          "start_seconds": 108.0,
+          "end_seconds": 109.2,
+          "start_sample": 5184000,
+          "end_sample_exclusive": 5241600,
+          "status": "PASS",
+          "criteria": {
+            "pearson_minimum": 0.98,
+            "absolute_rms_gain_db_maximum": 0.5
+          },
+          "channels": [
+            {
+              "channel": "left",
+              "samples": 57600,
+              "pearson_zero_offset": 0.999990828845007,
+              "cosine_zero_offset": 0.9999908275837578,
+              "rms_gain_db": -0.007482054430960973,
+              "regression_gain": 0.9991298303753953,
+              "regression_gain_db": -0.007561487691500716,
+              "master_rms_pcm16": 8169.43091996158,
+              "decoded_rms_pcm16": 8162.396774853504,
+              "correlation_pass": true,
+              "gain_pass": true
+            },
+            {
+              "channel": "right",
+              "samples": 57600,
+              "pearson_zero_offset": 0.9999910138992048,
+              "cosine_zero_offset": 0.9999910131135622,
+              "rms_gain_db": -0.0070042975991010375,
+              "regression_gain": 0.9991849700459419,
+              "regression_gain_db": -0.007082146705718492,
+              "master_rms_pcm16": 7865.630816500078,
+              "decoded_rms_pcm16": 7859.290532000257,
+              "correlation_pass": true,
+              "gain_pass": true
+            }
+          ]
+        },
+        {
+          "event_id": "final-heartbeat",
+          "start_seconds": 117.0,
+          "end_seconds": 118.2,
+          "start_sample": 5616000,
+          "end_sample_exclusive": 5673600,
+          "status": "PASS",
+          "criteria": {
+            "pearson_minimum": 0.98,
+            "absolute_rms_gain_db_maximum": 0.5
+          },
+          "channels": [
+            {
+              "channel": "left",
+              "samples": 57600,
+              "pearson_zero_offset": 0.9999639060794667,
+              "cosine_zero_offset": 0.999963898808758,
+              "rms_gain_db": -0.0017276754254412544,
+              "regression_gain": 0.9997650991055348,
+              "regression_gain_db": -0.0020405629196190845,
+              "master_rms_pcm16": 3345.112247278462,
+              "decoded_rms_pcm16": 3344.446950603239,
+              "correlation_pass": true,
+              "gain_pass": true
+            },
+            {
+              "channel": "right",
+              "samples": 57600,
+              "pearson_zero_offset": 0.9999634450276967,
+              "cosine_zero_offset": 0.9999634014249692,
+              "rms_gain_db": -0.017933295427944525,
+              "regression_gain": 0.997901080926779,
+              "regression_gain_db": -0.01825013891862424,
+              "master_rms_pcm16": 3356.09221581833,
+              "decoded_rms_pcm16": 3349.170218507074,
+              "correlation_pass": true,
+              "gain_pass": true
+            }
+          ]
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "platform": "xiaohongshu",
+      "path": "小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+      "sha256": "57d2303244f5bdc85574a716a08582348b309caae69eb2518019ec9db27a5cb1",
+      "size_bytes": 157289697,
+      "decoded_sample_count_per_channel": 5760000,
+      "master_sample_count_per_channel": 5760000,
+      "codec_padding_samples_after_master": 0,
+      "trimmed_only_for_comparison_samples": 0,
+      "decoder_priming_handling": "ffmpeg decoded the selected AAC stream and applied available skip-sample/gapless metadata; comparison is at zero offset with no correlation-based alignment",
+      "windows": [
+        {
+          "event_id": "cyan-pre-echo",
+          "start_seconds": 1.7,
+          "end_seconds": 2.12,
+          "start_sample": 81600,
+          "end_sample_exclusive": 101760,
+          "status": "PASS",
+          "criteria": {
+            "pearson_minimum": 0.98,
+            "absolute_rms_gain_db_maximum": 0.5
+          },
+          "channels": [
+            {
+              "channel": "left",
+              "samples": 20160,
+              "pearson_zero_offset": 0.9999873215738033,
+              "cosine_zero_offset": 0.9999873200126517,
+              "rms_gain_db": -0.007284847810807731,
+              "regression_gain": 0.9991486744124427,
+              "regression_gain_db": -0.007397669459214931,
+              "master_rms_pcm16": 6204.178733178486,
+              "decoded_rms_pcm16": 6198.977475516772,
+              "correlation_pass": true,
+              "gain_pass": true
+            },
+            {
+              "channel": "right",
+              "samples": 20160,
+              "pearson_zero_offset": 0.9999848778344846,
+              "cosine_zero_offset": 0.9999848564950767,
+              "rms_gain_db": -0.0014586312557002047,
+              "regression_gain": 0.9998156987075737,
+              "regression_gain_db": -0.0016009682209558362,
+              "master_rms_pcm16": 5651.905248142273,
+              "decoded_rms_pcm16": 5650.956197001228,
+              "correlation_pass": true,
+              "gain_pass": true
+            }
+          ]
+        },
+        {
+          "event_id": "human-heartbeat",
+          "start_seconds": 2.0,
+          "end_seconds": 2.7800000000000002,
+          "start_sample": 96000,
+          "end_sample_exclusive": 133440,
+          "status": "PASS",
+          "criteria": {
+            "pearson_minimum": 0.98,
+            "absolute_rms_gain_db_maximum": 0.5
+          },
+          "channels": [
+            {
+              "channel": "left",
+              "samples": 37440,
+              "pearson_zero_offset": 0.9999791887659305,
+              "cosine_zero_offset": 0.999979125967292,
+              "rms_gain_db": -0.006220618952586873,
+              "regression_gain": 0.9992635046273286,
+              "regression_gain_db": -0.006399474406989856,
+              "master_rms_pcm16": 5760.526920069751,
+              "decoded_rms_pcm16": 5756.40285037,
+              "correlation_pass": true,
+              "gain_pass": true
+            },
+            {
+              "channel": "right",
+              "samples": 37440,
+              "pearson_zero_offset": 0.9999788872920925,
+              "cosine_zero_offset": 0.9999788783927729,
+              "rms_gain_db": -0.008585740657294274,
+              "regression_gain": 0.9989909897636917,
+              "regression_gain_db": -0.008768576092086434,
+              "master_rms_pcm16": 5705.2601520635635,
+              "decoded_rms_pcm16": 5699.623460312352,
+              "correlation_pass": true,
+              "gain_pass": true
+            }
+          ]
+        },
+        {
+          "event_id": "rp-lock",
+          "start_seconds": 14.5,
+          "end_seconds": 15.22,
+          "start_sample": 696000,
+          "end_sample_exclusive": 730560,
+          "status": "PASS",
+          "criteria": {
+            "pearson_minimum": 0.98,
+            "absolute_rms_gain_db_maximum": 0.5
+          },
+          "channels": [
+            {
+              "channel": "left",
+              "samples": 34560,
+              "pearson_zero_offset": 0.9999872557446051,
+              "cosine_zero_offset": 0.9999872552592746,
+              "rms_gain_db": -0.0045485779178769305,
+              "regression_gain": 0.9994638366689683,
+              "regression_gain_db": -0.004658304438954907,
+              "master_rms_pcm16": 7294.831921196467,
+              "decoded_rms_pcm16": 7291.012804647563,
+              "correlation_pass": true,
+              "gain_pass": true
+            },
+            {
+              "channel": "right",
+              "samples": 34560,
+              "pearson_zero_offset": 0.9999851421837557,
+              "cosine_zero_offset": 0.9999851368420242,
+              "rms_gain_db": -0.006516140021580005,
+              "regression_gain": 0.999235627614257,
+              "regression_gain_db": -0.006641792909998669,
+              "master_rms_pcm16": 6560.644014201379,
+              "decoded_rms_pcm16": 6555.724075622786,
+              "correlation_pass": true,
+              "gain_pass": true
+            }
+          ]
+        },
+        {
+          "event_id": "amber-awareness",
+          "start_seconds": 15.0,
+          "end_seconds": 16.2,
+          "start_sample": 720000,
+          "end_sample_exclusive": 777600,
+          "status": "PASS",
+          "criteria": {
+            "pearson_minimum": 0.98,
+            "absolute_rms_gain_db_maximum": 0.5
+          },
+          "channels": [
+            {
+              "channel": "left",
+              "samples": 57600,
+              "pearson_zero_offset": 0.9999891811054424,
+              "cosine_zero_offset": 0.9999891737888336,
+              "rms_gain_db": -0.005428809928970255,
+              "regression_gain": 0.9993643828738389,
+              "regression_gain_db": -0.005522655543114766,
+              "master_rms_pcm16": 6606.598663757193,
+              "decoded_rms_pcm16": 6602.470731689199,
+              "correlation_pass": true,
+              "gain_pass": true
+            },
+            {
+              "channel": "right",
+              "samples": 57600,
+              "pearson_zero_offset": 0.9999873890598449,
+              "cosine_zero_offset": 0.9999873821888136,
+              "rms_gain_db": -0.008572476486477248,
+              "regression_gain": 0.9990009546383606,
+              "regression_gain_db": -0.00868193530069171,
+              "master_rms_pcm16": 6145.800704163384,
+              "decoded_rms_pcm16": 6139.738142426714,
+              "correlation_pass": true,
+              "gain_pass": true
+            }
+          ]
+        },
+        {
+          "event_id": "glass-window",
+          "start_seconds": 22.5,
+          "end_seconds": 23.7,
+          "start_sample": 1080000,
+          "end_sample_exclusive": 1137600,
+          "status": "PASS",
+          "criteria": {
+            "pearson_minimum": 0.98,
+            "absolute_rms_gain_db_maximum": 0.5
+          },
+          "channels": [
+            {
+              "channel": "left",
+              "samples": 57600,
+              "pearson_zero_offset": 0.9999860951030551,
+              "cosine_zero_offset": 0.9999860911247768,
+              "rms_gain_db": -0.006394482184107807,
+              "regression_gain": 0.9992502731373872,
+              "regression_gain_db": -0.006514487135606729,
+              "master_rms_pcm16": 7727.473066857652,
+              "decoded_rms_pcm16": 7721.78625680379,
+              "correlation_pass": true,
+              "gain_pass": true
+            },
+            {
+              "channel": "right",
+              "samples": 57600,
+              "pearson_zero_offset": 0.9999837695829111,
+              "cosine_zero_offset": 0.9999837687739506,
+              "rms_gain_db": -0.003912980923433588,
+              "regression_gain": 0.9995333116600623,
+              "regression_gain_db": -0.00405454959518695,
+              "master_rms_pcm16": 7134.553828853319,
+              "decoded_rms_pcm16": 7131.340446371118,
+              "correlation_pass": true,
+              "gain_pass": true
+            }
+          ]
+        },
+        {
+          "event_id": "data-convergence",
+          "start_seconds": 35.0,
+          "end_seconds": 36.2,
+          "start_sample": 1680000,
+          "end_sample_exclusive": 1737600,
+          "status": "PASS",
+          "criteria": {
+            "pearson_minimum": 0.98,
+            "absolute_rms_gain_db_maximum": 0.5
+          },
+          "channels": [
+            {
+              "channel": "left",
+              "samples": 57600,
+              "pearson_zero_offset": 0.9999843200358599,
+              "cosine_zero_offset": 0.999984276878424,
+              "rms_gain_db": -0.0063009881954048524,
+              "regression_gain": 0.9992594119792121,
+              "regression_gain_db": -0.0064350489701556395,
+              "master_rms_pcm16": 5240.615833746042,
+              "decoded_rms_pcm16": 5236.815522485505,
+              "correlation_pass": true,
+              "gain_pass": true
+            },
+            {
+              "channel": "right",
+              "samples": 57600,
+              "pearson_zero_offset": 0.9999844625486842,
+              "cosine_zero_offset": 0.9999844571401244,
+              "rms_gain_db": -0.008249590326797663,
+              "regression_gain": 0.9990352962206049,
+              "regression_gain_db": -0.008383354938826746,
+              "master_rms_pcm16": 5226.982124956814,
+              "decoded_rms_pcm16": 5222.020055184916,
+              "correlation_pass": true,
+              "gain_pass": true
+            }
+          ]
+        },
+        {
+          "event_id": "trajectory-lock",
+          "start_seconds": 52.0,
+          "end_seconds": 52.82,
+          "start_sample": 2496000,
+          "end_sample_exclusive": 2535360,
+          "status": "PASS",
+          "criteria": {
+            "pearson_minimum": 0.98,
+            "absolute_rms_gain_db_maximum": 0.5
+          },
+          "channels": [
+            {
+              "channel": "left",
+              "samples": 39360,
+              "pearson_zero_offset": 0.9999878523212842,
+              "cosine_zero_offset": 0.9999878523249764,
+              "rms_gain_db": -0.007609918043408513,
+              "regression_gain": 0.9991121234089794,
+              "regression_gain_db": -0.007715423760980352,
+              "master_rms_pcm16": 6507.123157062096,
+              "decoded_rms_pcm16": 6501.424605725887,
+              "correlation_pass": true,
+              "gain_pass": true
+            },
+            {
+              "channel": "right",
+              "samples": 39360,
+              "pearson_zero_offset": 0.999983087891531,
+              "cosine_zero_offset": 0.9999830434718086,
+              "rms_gain_db": -0.004069347107097267,
+              "regression_gain": 0.999514863823812,
+              "regression_gain_db": -0.004214861759446512,
+              "master_rms_pcm16": 5805.744033134551,
+              "decoded_rms_pcm16": 5803.02467389449,
+              "correlation_pass": true,
+              "gain_pass": true
+            }
+          ]
+        },
+        {
+          "event_id": "reward-warp",
+          "start_seconds": 64.0,
+          "end_seconds": 65.2,
+          "start_sample": 3072000,
+          "end_sample_exclusive": 3129600,
+          "status": "PASS",
+          "criteria": {
+            "pearson_minimum": 0.98,
+            "absolute_rms_gain_db_maximum": 0.5
+          },
+          "channels": [
+            {
+              "channel": "left",
+              "samples": 57600,
+              "pearson_zero_offset": 0.9999855397962785,
+              "cosine_zero_offset": 0.999985535472,
+              "rms_gain_db": -0.005729110215405982,
+              "regression_gain": 0.9993262913651233,
+              "regression_gain_db": -0.005853730926770143,
+              "master_rms_pcm16": 7137.645223895964,
+              "decoded_rms_pcm16": 7132.938869708128,
+              "correlation_pass": true,
+              "gain_pass": true
+            },
+            {
+              "channel": "right",
+              "samples": 57600,
+              "pearson_zero_offset": 0.9999872750722301,
+              "cosine_zero_offset": 0.9999872725097753,
+              "rms_gain_db": -0.005716888949818069,
+              "regression_gain": 0.9993294149018046,
+              "regression_gain_db": -0.005826581983798916,
+              "master_rms_pcm16": 7510.970928563245,
+              "decoded_rms_pcm16": 7506.028975505522,
+              "correlation_pass": true,
+              "gain_pass": true
+            }
+          ]
+        },
+        {
+          "event_id": "gentle-prison",
+          "start_seconds": 80.0,
+          "end_seconds": 81.2,
+          "start_sample": 3840000,
+          "end_sample_exclusive": 3897600,
+          "status": "PASS",
+          "criteria": {
+            "pearson_minimum": 0.98,
+            "absolute_rms_gain_db_maximum": 0.5
+          },
+          "channels": [
+            {
+              "channel": "left",
+              "samples": 57600,
+              "pearson_zero_offset": 0.9999527340275267,
+              "cosine_zero_offset": 0.9999527281099905,
+              "rms_gain_db": -0.014494903165480752,
+              "regression_gain": 0.9982855211550564,
+              "regression_gain_db": -0.01490455445968493,
+              "master_rms_pcm16": 4307.868045597642,
+              "decoded_rms_pcm16": 4300.685124743208,
+              "correlation_pass": true,
+              "gain_pass": true
+            },
+            {
+              "channel": "right",
+              "samples": 57600,
+              "pearson_zero_offset": 0.9999519048970302,
+              "cosine_zero_offset": 0.9999518957131437,
+              "rms_gain_db": -0.007166427640060176,
+              "regression_gain": 0.9991273510091709,
+              "regression_gain_db": -0.007583041975501287,
+              "master_rms_pcm16": 4197.986549693346,
+              "decoded_rms_pcm16": 4194.524364397506,
+              "correlation_pass": true,
+              "gain_pass": true
+            }
+          ]
+        },
+        {
+          "event_id": "vault-seal",
+          "start_seconds": 96.0,
+          "end_seconds": 97.2,
+          "start_sample": 4608000,
+          "end_sample_exclusive": 4665600,
+          "status": "PASS",
+          "criteria": {
+            "pearson_minimum": 0.98,
+            "absolute_rms_gain_db_maximum": 0.5
+          },
+          "channels": [
+            {
+              "channel": "left",
+              "samples": 57600,
+              "pearson_zero_offset": 0.9999800347292096,
+              "cosine_zero_offset": 0.9999800313220025,
+              "rms_gain_db": -0.00664460171264026,
+              "regression_gain": 0.9992152272723873,
+              "regression_gain_db": -0.006819125384932111,
+              "master_rms_pcm16": 5002.391796215808,
+              "decoded_rms_pcm16": 4998.566489650641,
+              "correlation_pass": true,
+              "gain_pass": true
+            },
+            {
+              "channel": "right",
+              "samples": 57600,
+              "pearson_zero_offset": 0.9999827919484342,
+              "cosine_zero_offset": 0.9999827914365803,
+              "rms_gain_db": -0.0071826930951269475,
+              "regression_gain": 0.9991561617369619,
+              "regression_gain_db": -0.007332580216290974,
+              "master_rms_pcm16": 5011.027577302495,
+              "decoded_rms_pcm16": 5006.88548053141,
+              "correlation_pass": true,
+              "gain_pass": true
+            }
+          ]
+        },
+        {
+          "event_id": "sovereign-chord",
+          "start_seconds": 108.0,
+          "end_seconds": 109.2,
+          "start_sample": 5184000,
+          "end_sample_exclusive": 5241600,
+          "status": "PASS",
+          "criteria": {
+            "pearson_minimum": 0.98,
+            "absolute_rms_gain_db_maximum": 0.5
+          },
+          "channels": [
+            {
+              "channel": "left",
+              "samples": 57600,
+              "pearson_zero_offset": 0.999990828845007,
+              "cosine_zero_offset": 0.9999908275837578,
+              "rms_gain_db": -0.007482054430960973,
+              "regression_gain": 0.9991298303753953,
+              "regression_gain_db": -0.007561487691500716,
+              "master_rms_pcm16": 8169.43091996158,
+              "decoded_rms_pcm16": 8162.396774853504,
+              "correlation_pass": true,
+              "gain_pass": true
+            },
+            {
+              "channel": "right",
+              "samples": 57600,
+              "pearson_zero_offset": 0.9999910138992048,
+              "cosine_zero_offset": 0.9999910131135622,
+              "rms_gain_db": -0.0070042975991010375,
+              "regression_gain": 0.9991849700459419,
+              "regression_gain_db": -0.007082146705718492,
+              "master_rms_pcm16": 7865.630816500078,
+              "decoded_rms_pcm16": 7859.290532000257,
+              "correlation_pass": true,
+              "gain_pass": true
+            }
+          ]
+        },
+        {
+          "event_id": "final-heartbeat",
+          "start_seconds": 117.0,
+          "end_seconds": 118.2,
+          "start_sample": 5616000,
+          "end_sample_exclusive": 5673600,
+          "status": "PASS",
+          "criteria": {
+            "pearson_minimum": 0.98,
+            "absolute_rms_gain_db_maximum": 0.5
+          },
+          "channels": [
+            {
+              "channel": "left",
+              "samples": 57600,
+              "pearson_zero_offset": 0.9999639060794667,
+              "cosine_zero_offset": 0.999963898808758,
+              "rms_gain_db": -0.0017276754254412544,
+              "regression_gain": 0.9997650991055348,
+              "regression_gain_db": -0.0020405629196190845,
+              "master_rms_pcm16": 3345.112247278462,
+              "decoded_rms_pcm16": 3344.446950603239,
+              "correlation_pass": true,
+              "gain_pass": true
+            },
+            {
+              "channel": "right",
+              "samples": 57600,
+              "pearson_zero_offset": 0.9999634450276967,
+              "cosine_zero_offset": 0.9999634014249692,
+              "rms_gain_db": -0.017933295427944525,
+              "regression_gain": 0.997901080926779,
+              "regression_gain_db": -0.01825013891862424,
+              "master_rms_pcm16": 3356.09221581833,
+              "decoded_rms_pcm16": 3349.170218507074,
+              "correlation_pass": true,
+              "gain_pass": true
+            }
+          ]
+        }
+      ],
+      "status": "PASS"
+    }
+  ],
+  "absolute_silence": {
+    "start_frame": 5740,
+    "end_frame_exclusive": 5760,
+    "start_sample": 4592000,
+    "end_sample_exclusive": 4608000,
+    "peak_pcm16": 0,
+    "exact_zero": true
+  },
+  "limitations": [
+    "AAC is lossy; correlation and level checks measure decoded waveform similarity, not perceptual equivalence or listener acceptance.",
+    "No offset search is performed. A failed zero-offset window requires review rather than automatic alignment.",
+    "Decoded samples beyond the shared master are recorded as codec padding and excluded only from comparison; source media is not modified."
+  ],
+  "ffmpeg": "/opt/homebrew/bin/ffmpeg"
+}

@@ -1,0 +1,35 @@
+{
+  "status": "encoded_samples_reviewed",
+  "method": "Root model visual review of final encoded native frames, 360px portrait sheet and spatial pairs.",
+  "frame_indexes": [
+    0,
+    900,
+    1500,
+    2190,
+    3120,
+    3900,
+    4800,
+    5759,
+    5760,
+    5790,
+    6500,
+    7100,
+    7199
+  ],
+  "motion_pairs_per_layout": 32,
+  "observations": [
+    "0/900f咖啡、指尖与青色超前节点可辨；RP负向朝上，−550/W−200/M0标签无互相覆盖。",
+    "1500f动态片名在两画幅独立排版；棱镜几何持续向深处演进。",
+    "2190/3120f Lorenz与延迟坐标构成横向/上下对照，合成偏差收敛且明确不是人格/自由意志度量。",
+    "3900/4800f小球沿可见路线推进，隐藏势场升起，目标盆地可辨；为驱动流玩具模型。",
+    "5759/5760/5790f保管库状态从SEALING变为ACCESS DENIED，封闭几何与折向射线可辨。",
+    "6500f金色晶体与引句、诗意百分比提示和字幕互不遮挡；竖屏提示换为两行。",
+    "7100/7199f六集名与收官字样完整，金色环持续退远；最后一帧没有截掉文字。",
+    "原生4K的5790横帧和6500竖帧查看细线、字体和暗背景，所查样本未见严重色带；规则网格为有意绘制。",
+    "每版32组150帧间隔ROI对比已收集，覆盖长镜头；抽查配对显示节点、棱镜透视、轨迹、地形球体、晶体和六环空间变化。"
+  ],
+  "portrait_font_evidence": "layout-contract.json: subtitle14.33px, scientific boundary13px, HUD10px at360px.",
+  "limitations": [
+    "Representative frames are not continuous human viewing, listening, pronunciation or phone/App evidence."
+  ]
+}

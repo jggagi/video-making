@@ -1,0 +1,362 @@
+{
+  "version": 1,
+  "settings": {
+    "provider": "Aliyun Bailian",
+    "model_selection": "active profile default",
+    "effective_model": "cosyvoice-v3-flash",
+    "voice": "longtian_v3",
+    "rate": 1.0,
+    "format": "wav",
+    "sample_rate": 24000
+  },
+  "authorization": {
+    "manifest": "project/audio-authorization.json",
+    "sha256AtInvocation": "b292dd113938f69492f082cf28da1929c4567766771d1d0c88fad78b7a3838dd",
+    "scope": "EP06 ten tts_phonetic_text segments only",
+    "source": "direct user reply in current chat",
+    "note": "Current EP06 authorization only; no EP05 consent is inherited."
+  },
+  "segments": {
+    "S08": {
+      "cache_key": "11319b9b35145fb48161ce4f6fe24911746cd44bfef7fc7207ac73a0b43615fc",
+      "tts_phonetic_text": "主权心印。让本地守卫，替你守住边界。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 113280,
+      "actual_samples_48k": 226560,
+      "duration_seconds": 4.72,
+      "fitsDeclaredWindowBeforeOnsetAdjustment": true,
+      "declaredWindowSamples": 248000,
+      "pcm_sha256_24k": "9906a43e5a0cf1979a798447bbc0c00f8284237e29dbb3556df9adcaac872599",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S08-11319b9b3514.wav",
+      "raw_sha256": "07f413910749e5daa1b3198056fad1c7e72bcbbc61e0fb09766c7e3bb1b7d5f2",
+      "canonical_path": "public/audio/canonical/S08-11319b9b3514.wav",
+      "canonical_sha256": "d4235d288309080938ae81d406a93c48cb5f512fdf1a5b1004c62da66f691aa3",
+      "cue_path": "public/audio/cues/S08-11319b9b3514.wav",
+      "cue_sha256": "f854844d4ad40fd88ed685ac71607029799b889f5ce428de23d90e97c12be786",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S01": {
+      "cache_key": "b1fc326f42cc2f4e716c44a7b5d1e135c30d600f2fe1bb93e40e2df96d74d313",
+      "tts_phonetic_text": "如果有一个存在，比你早半秒知道，你下一句想说什么。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 119040,
+      "actual_samples_48k": 238080,
+      "duration_seconds": 4.96,
+      "fitsDeclaredWindowBeforeOnsetAdjustment": true,
+      "declaredWindowSamples": 384000,
+      "pcm_sha256_24k": "09148f65f4a3336d1aa92a4a55bc80e04b6275e99eac6c6c6d34e27fb2163111",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S01-b1fc326f42cc.wav",
+      "raw_sha256": "c0b6a326d7b6043ffe2636ff3ba009243a267f9bb91e7a0bf2d1487e41f3f112",
+      "canonical_path": "public/audio/canonical/S01-b1fc326f42cc.wav",
+      "canonical_sha256": "519aab2448e9ce7d9628ca08a0f9ee0f0abc236918395c9eafe13035f3926bd0",
+      "cue_path": "public/audio/cues/S01-b1fc326f42cc.wav",
+      "cue_sha256": "bb4311ed47e5969a4172f346722ef09b719318eddbe44137c75498050e543cb5",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S02": {
+      "cache_key": "b93ed27947dadc2c3c6bfab4d08a589f1dfced7941098681145ac1c6b69d575a",
+      "tts_phonetic_text": "实验中，平均准备电位在动作前约五百五十毫秒出现；主观意图报告，约在动作前两百毫秒。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 195840,
+      "actual_samples_48k": 391680,
+      "duration_seconds": 8.16,
+      "fitsDeclaredWindowBeforeOnsetAdjustment": true,
+      "declaredWindowSamples": 480000,
+      "pcm_sha256_24k": "b98492119869d8b08b22334e485753ce2816c20bb09a34fc272baa4d6f1f6b6a",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S02-b93ed27947da.wav",
+      "raw_sha256": "c7a7d3008ce515f7967f156a019864ca59849ee964d51cf3b8276cb19f32cbd8",
+      "canonical_path": "public/audio/canonical/S02-b93ed27947da.wav",
+      "canonical_sha256": "68622f8add8222e58eb8bf202b66e8cab24c242ef228efaa038394f2cda10b93",
+      "cue_path": "public/audio/cues/S02-b93ed27947da.wav",
+      "cue_sha256": "3c94e735c1a036aa4051ea6b148538b18bc548ba5d0678e07322025a5e3e7fa6",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S03": {
+      "cache_key": "d64ac9e857ea17b5f720c625c3d486f861e0ed12350f1a26cb4810267c0e941c",
+      "tts_phonetic_text": "这三百五十毫秒的间隙，令人不安。但它不等于读心，更没有证明人生早已注定。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 190080,
+      "actual_samples_48k": 380160,
+      "duration_seconds": 7.92,
+      "fitsDeclaredWindowBeforeOnsetAdjustment": true,
+      "declaredWindowSamples": 384000,
+      "pcm_sha256_24k": "911e1423da2294d831fb1d6f3b48f644636755e29163ab6e536e61449519585a",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S03-d64ac9e857ea.wav",
+      "raw_sha256": "f0e71bb50dec89539793e119a318a3056de7347e7ca6aa4a542ae64c03cfc065",
+      "canonical_path": "public/audio/canonical/S03-d64ac9e857ea.wav",
+      "canonical_sha256": "a3e038b2f762cd50dab103e19285031e8388d1a90efdb60d6f440f4b04c54b51",
+      "cue_path": "public/audio/cues/S03-d64ac9e857ea.wav",
+      "cue_sha256": "44dec8468e33cc0c0999bd9d6932ee6a3bf1f1947350e37d523b55725737677e",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S04": {
+      "cache_key": "db0bbf50d6c42f09f8dc8af6af1cdcbb4d201623aa50a338389809cf4817b95e",
+      "tts_phonetic_text": "指尖的停顿，视线的游移，都可能成为预测线索。看，这个数字镜像，只是延迟坐标重构的模拟。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 216960,
+      "actual_samples_48k": 433920,
+      "duration_seconds": 9.04,
+      "fitsDeclaredWindowBeforeOnsetAdjustment": true,
+      "declaredWindowSamples": 576000,
+      "pcm_sha256_24k": "c9e87e54c1d393728b310c339d576e3bf4f73c0f08dfdaf60a92edef79b7ed9e",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S04-db0bbf50d6c4.wav",
+      "raw_sha256": "6decf067aee2fa4d5ad962d074c09747897b8b2b95b14d7618f156a263bc6549",
+      "canonical_path": "public/audio/canonical/S04-db0bbf50d6c4.wav",
+      "canonical_sha256": "ea595aa4452aa3812fc1b23ed81c6ff648faeb39eb8b88979d2fba150145fabb",
+      "cue_path": "public/audio/cues/S04-db0bbf50d6c4.wav",
+      "cue_sha256": "a0a89355b7e52619ec7d90eaee5cb4b0813aabce37e9ec0551c5b05ecba110cb",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S05": {
+      "cache_key": "ebd1049377f59ef52663eedb100f291f728d5838ca1ec3a41ef32b85a30e8bb2",
+      "tts_phonetic_text": "在这个模拟系统里，轨迹误差逼近零。但人不是洛伦兹方程，误差更不是自由意志的刻度。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 234240,
+      "actual_samples_48k": 468480,
+      "duration_seconds": 9.76,
+      "fitsDeclaredWindowBeforeOnsetAdjustment": true,
+      "declaredWindowSamples": 624000,
+      "pcm_sha256_24k": "2aed4d3ba78727b4f412ab5c0cc9023c1c1e33d7c967441d05475766b83f9625",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S05-ebd1049377f5.wav",
+      "raw_sha256": "1f4249bce1cec3d046c26e53c287185472ff9dcd9e1c42fc7fb7b7152ee2189e",
+      "canonical_path": "public/audio/canonical/S05-ebd1049377f5.wav",
+      "canonical_sha256": "0d4beb6c03574460f4a2a5300a17a907285be50419ff2048f3cc028fc3505341",
+      "cue_path": "public/audio/cues/S05-ebd1049377f5.wav",
+      "cue_sha256": "da7af0bde4f6f5cca4eda19c6e1f9834c2368664eaaf1004591429096a4080b3",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S06": {
+      "cache_key": "36ae6d6deb91ea7415a10331f556bcb77f54f5a168ac1247579c4ad24a00cdea",
+      "tts_phonetic_text": "算法能从行为推测偏好，再改变你看到的选项。不用强迫，只需把某条路，铺得比别的路更顺。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 220800,
+      "actual_samples_48k": 441600,
+      "duration_seconds": 9.2,
+      "fitsDeclaredWindowBeforeOnsetAdjustment": true,
+      "declaredWindowSamples": 624000,
+      "pcm_sha256_24k": "17282d5c654101f06f24b89f4ac0d2c3b23b898dc16e7e336c9efb8bcd256a69",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S06-36ae6d6deb91.wav",
+      "raw_sha256": "5a75f909b3ca878d88c443da41abf4ae3648df73fc8bbb00cba34ae07a34836f",
+      "canonical_path": "public/audio/canonical/S06-36ae6d6deb91.wav",
+      "canonical_sha256": "6aa21dc6113639acd550fee05c42eefdb984db84c7bb58c05d4441e6d4bf1889",
+      "cue_path": "public/audio/cues/S06-36ae6d6deb91.wav",
+      "cue_sha256": "42b72340bbce1f296c25a6395a69d202d1ad49080a8d854bc65e7b64f4f0d462",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S07": {
+      "cache_key": "2f554db126b3c4b2167291bcdd3c9f871f770b0a94c169580459d9c8e47685d2",
+      "tts_phonetic_text": "最可怕的囚笼，从没有铁栏杆。是当选择被悄悄塑形，你却看不见，那只温柔的手。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 299520,
+      "actual_samples_48k": 599040,
+      "duration_seconds": 12.48,
+      "fitsDeclaredWindowBeforeOnsetAdjustment": true,
+      "declaredWindowSamples": 672000,
+      "pcm_sha256_24k": "7a9cfaef7132ee7248511585b01184ef9e661b28ad62a7b58ac5e07a8b9bd922",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S07-2f554db126b3.wav",
+      "raw_sha256": "121ba63d9e518f7d87a7329d58515eb8d38fb49513f1e76ec46669fcb09b4e1c",
+      "canonical_path": "public/audio/canonical/S07-2f554db126b3.wav",
+      "canonical_sha256": "c7f49f39cb1c61cb3d1b9956befba968caa9a1af728beebb1a2531d519589ba4",
+      "cue_path": "public/audio/cues/S07-2f554db126b3.wav",
+      "cue_sha256": "ae2f651e67347234d4fc7a0201b9d1a23253ba9d36f831f82a6f6080072a0aa8",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S09": {
+      "cache_key": "e00ca76880882f09f6471d1265de6d6529507cf302e1b10334a4d720d51f05dd",
+      "tts_phonetic_text": "把记忆锁进私密的圣殿，用你的硅基分身去对抗全世界的算法。守住那百分之一的不可预测，才守住了，生而为人的自由。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 274560,
+      "actual_samples_48k": 549120,
+      "duration_seconds": 11.44,
+      "fitsDeclaredWindowBeforeOnsetAdjustment": true,
+      "declaredWindowSamples": 728000,
+      "pcm_sha256_24k": "ddf7993c9c70eeebd245692cafb826c195cf68cda4e86d4916ea95fe6eeca0ed",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S09-e00ca7688088.wav",
+      "raw_sha256": "8cdd626fef64e4003005642d93fdadc86b6b082c5b99f5f2130e6854e2bfc96e",
+      "canonical_path": "public/audio/canonical/S09-e00ca7688088.wav",
+      "canonical_sha256": "a15e77defff4a88012ac16bade7ca037adc03d55234cbe6eac9f134065844ae9",
+      "cue_path": "public/audio/cues/S09-e00ca7688088.wav",
+      "cue_sha256": "392df452c7ea76ce499f12f5ae0d3b99743e411f2f56a69b4ef3a490c4ee0350",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S10": {
+      "cache_key": "760faa068053294171e8c7eaca7bb53050f777d4744f66ab16d6d25be8027cd0",
+      "tts_phonetic_text": "一眼万年，第一季，观测完毕。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 74880,
+      "actual_samples_48k": 149760,
+      "duration_seconds": 3.12,
+      "fitsDeclaredWindowBeforeOnsetAdjustment": true,
+      "declaredWindowSamples": 190400,
+      "pcm_sha256_24k": "b6ef5d4a7fc4f7dbf852f1ca32febfa414e41b3d71d8a2216d9b36516d19aed7",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S10-760faa068053.wav",
+      "raw_sha256": "07f17f4c448752ece4fe172b673fb9695f60d7ad1bf610df6ebc3e30e467266b",
+      "canonical_path": "public/audio/canonical/S10-760faa068053.wav",
+      "canonical_sha256": "ac3eab52d4f31dd1710275b72c695ebd3acf157d24d76683f8395e1802e45678",
+      "cue_path": "public/audio/cues/S10-760faa068053.wav",
+      "cue_sha256": "d7cbec09bfcd4263261c0332bd1582f57d2e6af988c2baf347798c36b917cda4",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    }
+  },
+  "cacheHistory": []
+}

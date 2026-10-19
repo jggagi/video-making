@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "title": "主权心印｜THE SOVEREIGN SOUL CRYSTAL · EP.06",
+  "slug": "si-ep06-sovereign-crystal",
+  "duration_seconds": 120,
+  "fps": 60,
+  "total_frames": 7200,
+  "script": {
+    "path": "source/script.md",
+    "sha256": "beb0a6136fec18991c6281d1151b458dc45cd0ece3b96b9afbac59711d71878b"
+  },
+  "audio": {
+    "mode": "narrated",
+    "master": "project/public/audio/master.wav",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples_per_channel": 5760000,
+    "sha256": "2bc17a49a3555abfef6ee70b1445e6939bc0d66ad9946a1d296ce6ce1c63aab1",
+    "pcm_metrics": {
+      "lufs": -17.0,
+      "true_peak_dbtp": -1.5
+    },
+    "final_aac": {
+      "codec": "aac",
+      "sample_rate": 48000,
+      "channels": 2,
+      "lufs": -17.0,
+      "true_peak_dbtp": -1.5,
+      "packet_sha256": "dd34191c5621cb61fa203accf3310c82a6db8e6b03b134f2abe40117baf3cbc0"
+    }
+  },
+  "outputs": {
+    "bilibili": {
+      "path": "B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+      "width": 3840,
+      "height": 2160,
+      "file_size_bytes": 162732424,
+      "sha256": "b1ef98636d1072853461fdc7032b94959c94634206632aa316188bd7aee13f8d",
+      "audio": {
+        "codec": "aac",
+        "sample_rate": 48000,
+        "channels": 2,
+        "lufs": -17.0,
+        "true_peak_dbtp": -1.5
+      }
+    },
+    "xiaohongshu": {
+      "path": "小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+      "width": 2160,
+      "height": 3840,
+      "file_size_bytes": 157289697,
+      "sha256": "57d2303244f5bdc85574a716a08582348b309caae69eb2518019ec9db27a5cb1",
+      "audio": {
+        "codec": "aac",
+        "sample_rate": 48000,
+        "channels": 2,
+        "lufs": -17.0,
+        "true_peak_dbtp": -1.5
+      }
+    }
+  },
+  "qa": {
+    "automated": "PASS",
+    "representative_frames": "encoded_samples_reviewed",
+    "continuous_human_review": "pending",
+    "target_device_playback": "pending",
+    "automated_evidence": "review/media-validation-20261019T034616.668408Z.json",
+    "representative_evidence": "review/representative-review.json",
+    "local_browser": "PASS",
+    "local_browser_evidence": "review/browser-player-qa.json",
+    "shared_audio_waveform": "PASS",
+    "shared_audio_evidence": "review/shared-audio-correlation.json"
+  },
+  "production_status": "final_media_validated"
+}

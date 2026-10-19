@@ -1,0 +1,101 @@
+{
+  "status": "PASS",
+  "source_sha256": "5a7720b5301c296219c76cd3f2801a7655047f3c29ab15caed3330aed0bc8b8d",
+  "checks": [
+    {
+      "name": "RP starts at -550ms, preserves negative-up convention",
+      "pass": true
+    },
+    {
+      "name": "Lorenz equilibria",
+      "pass": true,
+      "derivative_norms": [
+        0,
+        1.4210854715202004e-14,
+        1.4210854715202004e-14
+      ]
+    },
+    {
+      "name": "RK4 timestep convergence",
+      "pass": true,
+      "error": 7.811213134710454e-8
+    },
+    {
+      "name": "delay embedding samples same scalar trace",
+      "pass": true
+    },
+    {
+      "name": "synthetic reconstruction offset matches authored metric",
+      "pass": true,
+      "residual_percent": 0.001,
+      "offset": 0.0004687499999997095
+    },
+    {
+      "name": "finite Lorenz states across whole film",
+      "pass": true
+    },
+    {
+      "name": "closed geodesic manifold Euler characteristic and radius",
+      "pass": true,
+      "vertices": 162,
+      "edges": 480,
+      "faces": 320
+    },
+    {
+      "name": "driven attention reaches selected basin",
+      "pass": true,
+      "endpoints": [
+        {
+          "x": 2.4549798340246465,
+          "y": -3.7
+        },
+        {
+          "x": 2.4549798340246465,
+          "y": -3.7
+        },
+        {
+          "x": 2.4549798340246465,
+          "y": -3.7
+        },
+        {
+          "x": 2.4549798340246465,
+          "y": -3.7
+        },
+        {
+          "x": 2.4549798340246465,
+          "y": -3.7
+        },
+        {
+          "x": 2.4549798340246465,
+          "y": -3.7
+        },
+        {
+          "x": 2.4549798340246465,
+          "y": -3.7
+        },
+        {
+          "x": 2.4549798340246465,
+          "y": -3.7
+        },
+        {
+          "x": 2.4549798340246465,
+          "y": -3.7
+        },
+        {
+          "x": 2.4549798340246465,
+          "y": -3.7
+        }
+      ]
+    },
+    {
+      "name": "rays hit same unit boundary as crystal and deflect tangent",
+      "pass": true
+    },
+    {
+      "name": "Laplace inverse CDF with sensitivity1 epsilon1",
+      "pass": true
+    }
+  ],
+  "failures": [],
+  "boundary": "Synthetic simulations and design metaphors, not neuroscience prediction or deployed privacy guarantees."
+}

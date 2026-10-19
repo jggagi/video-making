@@ -1,0 +1,412 @@
+{
+  "schema_version": 1,
+  "status": "evidence_collected",
+  "layout": "portrait",
+  "media_path": "小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+  "expected": {
+    "width": 2160,
+    "height": 3840,
+    "fps": 60,
+    "duration_seconds": 120,
+    "total_frames": 7200
+  },
+  "ffprobe": {
+    "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+    "container_duration_seconds": 120.0,
+    "video_duration_seconds": 120.0,
+    "audio_duration_seconds": 120.0,
+    "video": {
+      "codec_name": "h264",
+      "width": 2160,
+      "height": 3840,
+      "avg_frame_rate": "60/1",
+      "r_frame_rate": "60/1",
+      "nb_frames": "7200",
+      "pix_fmt": "yuv420p",
+      "color_space": "bt709",
+      "color_primaries": "bt709",
+      "color_transfer": "bt709"
+    },
+    "audio": {
+      "codec_name": "aac",
+      "sample_rate": "48000",
+      "channels": 2,
+      "channel_layout": "stereo",
+      "duration": "120.000000"
+    },
+    "metadata_checks": {
+      "dimensions": true,
+      "fps_60": true,
+      "frame_count_7200": true,
+      "pixel_format_yuv420p": true,
+      "colorspace_bt709": true,
+      "color_primaries_bt709": true,
+      "color_transfer_bt709": true,
+      "audio_aac": true,
+      "audio_48khz": true,
+      "audio_stereo": true,
+      "video_duration_exact_120s": true,
+      "audio_duration_within_50ms_of_120s": true,
+      "container_duration_within_50ms_of_120s": true
+    }
+  },
+  "encoded_audio_loudness": {
+    "measurement": "FFmpeg ebur128=peak=true on the encoded MP4 audio stream",
+    "integrated_lufs": -17.0,
+    "true_peak_dbTP": -1.5
+  },
+  "aac_packet_sha256": {
+    "algorithm": "sha256",
+    "value": "dd34191c5621cb61fa203accf3310c82a6db8e6b03b134f2abe40117baf3cbc0"
+  },
+  "representative_frames": {
+    "method": "selected frames decoded from the final encoded MP4 with FFmpeg; lossless native-resolution PNGs",
+    "frame_indexes": [
+      0,
+      900,
+      1500,
+      2190,
+      3120,
+      3900,
+      4800,
+      5759,
+      5760,
+      5790,
+      6500,
+      7100,
+      7199
+    ],
+    "contact_sheet_path": "review/encoded-portrait-contact-sheet.jpg",
+    "contact_tile_width_px": 360,
+    "full_native_frame_paths": [
+      "review/encoded-portrait-native-frame-0000.png",
+      "review/encoded-portrait-native-frame-0900.png",
+      "review/encoded-portrait-native-frame-1500.png",
+      "review/encoded-portrait-native-frame-2190.png",
+      "review/encoded-portrait-native-frame-3120.png",
+      "review/encoded-portrait-native-frame-3900.png",
+      "review/encoded-portrait-native-frame-4800.png",
+      "review/encoded-portrait-native-frame-5759.png",
+      "review/encoded-portrait-native-frame-5760.png",
+      "review/encoded-portrait-native-frame-5790.png",
+      "review/encoded-portrait-native-frame-6500.png",
+      "review/encoded-portrait-native-frame-7100.png",
+      "review/encoded-portrait-native-frame-7199.png"
+    ]
+  },
+  "motion_heuristic": {
+    "method": "mean absolute difference between Pillow FIND_EDGES grayscale crops from the final encoded MP4; pairs are sampled within every timeline scene, inset 60 frames and advanced by 180 frames, with the configured ROI omitting HUD/subtitle bands",
+    "logical_roi_xywh": [
+      64,
+      500,
+      838,
+      780
+    ],
+    "native_roi_xywh": [
+      128,
+      1000,
+      1676,
+      1560
+    ],
+    "pairs": [
+      {
+        "start_frame": 60,
+        "end_frame": 210,
+        "start_seconds": 1.0,
+        "end_seconds": 3.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 2.8695024119127517
+      },
+      {
+        "start_frame": 240,
+        "end_frame": 390,
+        "start_seconds": 4.0,
+        "end_seconds": 6.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 1.4700922818791946
+      },
+      {
+        "start_frame": 420,
+        "end_frame": 570,
+        "start_seconds": 7.0,
+        "end_seconds": 9.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 1.3101667365771812
+      },
+      {
+        "start_frame": 600,
+        "end_frame": 750,
+        "start_seconds": 10.0,
+        "end_seconds": 12.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 1.7263763632550335
+      },
+      {
+        "start_frame": 780,
+        "end_frame": 930,
+        "start_seconds": 13.0,
+        "end_seconds": 15.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 1.1089135906040268
+      },
+      {
+        "start_frame": 960,
+        "end_frame": 1110,
+        "start_seconds": 16.0,
+        "end_seconds": 18.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 1.3810822147651007
+      },
+      {
+        "start_frame": 1320,
+        "end_frame": 1470,
+        "start_seconds": 22.0,
+        "end_seconds": 24.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 17.774638213087247
+      },
+      {
+        "start_frame": 1500,
+        "end_frame": 1650,
+        "start_seconds": 25.0,
+        "end_seconds": 27.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 19.080075503355705
+      },
+      {
+        "start_frame": 1860,
+        "end_frame": 2010,
+        "start_seconds": 31.0,
+        "end_seconds": 33.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 10.312261430369128
+      },
+      {
+        "start_frame": 2040,
+        "end_frame": 2190,
+        "start_seconds": 34.0,
+        "end_seconds": 36.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 9.409540163590604
+      },
+      {
+        "start_frame": 2220,
+        "end_frame": 2370,
+        "start_seconds": 37.0,
+        "end_seconds": 39.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 9.23902841862416
+      },
+      {
+        "start_frame": 2400,
+        "end_frame": 2550,
+        "start_seconds": 40.0,
+        "end_seconds": 42.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 9.037625838926175
+      },
+      {
+        "start_frame": 2760,
+        "end_frame": 2910,
+        "start_seconds": 46.0,
+        "end_seconds": 48.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 10.862106753355704
+      },
+      {
+        "start_frame": 2940,
+        "end_frame": 3090,
+        "start_seconds": 49.0,
+        "end_seconds": 51.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 9.163338926174497
+      },
+      {
+        "start_frame": 3120,
+        "end_frame": 3270,
+        "start_seconds": 52.0,
+        "end_seconds": 54.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 9.205182990771812
+      },
+      {
+        "start_frame": 3300,
+        "end_frame": 3450,
+        "start_seconds": 55.0,
+        "end_seconds": 57.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 9.222310192953021
+      },
+      {
+        "start_frame": 3660,
+        "end_frame": 3810,
+        "start_seconds": 61.0,
+        "end_seconds": 63.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 4.719646602348993
+      },
+      {
+        "start_frame": 3840,
+        "end_frame": 3990,
+        "start_seconds": 64.0,
+        "end_seconds": 66.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 3.6262557676174496
+      },
+      {
+        "start_frame": 4020,
+        "end_frame": 4170,
+        "start_seconds": 67.0,
+        "end_seconds": 69.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 4.378822357382551
+      },
+      {
+        "start_frame": 4200,
+        "end_frame": 4350,
+        "start_seconds": 70.0,
+        "end_seconds": 72.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 4.683782508389262
+      },
+      {
+        "start_frame": 4560,
+        "end_frame": 4710,
+        "start_seconds": 76.0,
+        "end_seconds": 78.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 4.2091809983221475
+      },
+      {
+        "start_frame": 4740,
+        "end_frame": 4890,
+        "start_seconds": 79.0,
+        "end_seconds": 81.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 4.843438024328859
+      },
+      {
+        "start_frame": 4920,
+        "end_frame": 5070,
+        "start_seconds": 82.0,
+        "end_seconds": 84.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 4.918970218120806
+      },
+      {
+        "start_frame": 5100,
+        "end_frame": 5250,
+        "start_seconds": 85.0,
+        "end_seconds": 87.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 4.342601719798657
+      },
+      {
+        "start_frame": 5460,
+        "end_frame": 5610,
+        "start_seconds": 91.0,
+        "end_seconds": 93.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 14.717575503355704
+      },
+      {
+        "start_frame": 5640,
+        "end_frame": 5790,
+        "start_seconds": 94.0,
+        "end_seconds": 96.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 24.33881082214765
+      },
+      {
+        "start_frame": 5820,
+        "end_frame": 5970,
+        "start_seconds": 97.0,
+        "end_seconds": 99.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 24.693676593959733
+      },
+      {
+        "start_frame": 6000,
+        "end_frame": 6150,
+        "start_seconds": 100.0,
+        "end_seconds": 102.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 25.65758441694631
+      },
+      {
+        "start_frame": 6360,
+        "end_frame": 6510,
+        "start_seconds": 106.0,
+        "end_seconds": 108.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 24.21009595218121
+      },
+      {
+        "start_frame": 6540,
+        "end_frame": 6690,
+        "start_seconds": 109.0,
+        "end_seconds": 111.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 20.84382864932886
+      },
+      {
+        "start_frame": 6720,
+        "end_frame": 6870,
+        "start_seconds": 112.0,
+        "end_seconds": 114.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 20.433415478187918
+      },
+      {
+        "start_frame": 6960,
+        "end_frame": 7110,
+        "start_seconds": 116.0,
+        "end_seconds": 118.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 15.32253827600671
+      }
+    ],
+    "pair_contact_sheet_path": "review/encoded-portrait-pair-contact-sheet.jpg",
+    "pair_gap_frames": 150,
+    "timeline_coverage": {
+      "scene_range_start_frame": 0,
+      "scene_range_end_frame_exclusive": 7200,
+      "first_pair_start_frame": 60,
+      "last_pair_end_frame": 7110,
+      "pair_count": 32,
+      "pair_gap_frames": 150,
+      "pair_start_stride_frames": 180,
+      "sampling": "for each timeline scene, start at scene.startFrame + 60 and advance 180 frames; keep pairs whose end frame is strictly before scene.endFrame"
+    },
+    "limitation": "Nonzero edge differences are a heuristic for pixel changes only; they do not prove meaningful motion, validate scene semantics, or satisfy human review."
+  },
+  "native_frame_metadata": {
+    "width": 2160,
+    "height": 3840,
+    "frame_count_reported": "7200"
+  },
+  "acceptance_status": "NOT_EVALUATED",
+  "created_at_utc": "2026-10-19T03:46:50.206774+00:00",
+  "shared_aac_identity": {
+    "same_aac_packet_sha256": true,
+    "landscape_sha256": "dd34191c5621cb61fa203accf3310c82a6db8e6b03b134f2abe40117baf3cbc0",
+    "portrait_sha256": "dd34191c5621cb61fa203accf3310c82a6db8e6b03b134f2abe40117baf3cbc0"
+  },
+  "shared_pcm_master": {
+    "path": "project/public/audio/master.wav",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples_per_channel": 5760000,
+    "sample_width_bytes": 2,
+    "compression_type": "NONE",
+    "sha256": "2bc17a49a3555abfef6ee70b1445e6939bc0d66ad9946a1d296ce6ce1c63aab1",
+    "expected": {
+      "sample_rate": 48000,
+      "channels": 2,
+      "samples_per_channel": 5760000,
+      "sample_width_bytes": 2,
+      "compression_type": "NONE"
+    },
+    "metadata_matches_expected": true
+  }
+}

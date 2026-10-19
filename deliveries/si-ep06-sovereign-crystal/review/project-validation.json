@@ -1,0 +1,67 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "120s / 7200 frames / 60fps",
+      "pass": true
+    },
+    {
+      "name": "original script preserved",
+      "pass": true
+    },
+    {
+      "name": "scene coverage without gaps",
+      "pass": true
+    },
+    {
+      "name": "each long hold has spatial motion design",
+      "pass": true
+    },
+    {
+      "name": "ten valid narration windows",
+      "pass": true
+    },
+    {
+      "name": "frame deterministic source",
+      "pass": true
+    },
+    {
+      "name": "visible scientific boundaries",
+      "pass": true
+    },
+    {
+      "name": "360px effective typography",
+      "pass": true
+    },
+    {
+      "name": "portrait complete subtitle safe bounds",
+      "pass": true
+    },
+    {
+      "name": "authored phrase length <=14 Chinese characters",
+      "pass": true
+    },
+    {
+      "name": "exact stereo PCM master",
+      "pass": true
+    },
+    {
+      "name": "ten measured PCM spans",
+      "pass": true
+    },
+    {
+      "name": "rendered captions max two lines /14 Chinese",
+      "pass": true
+    },
+    {
+      "name": "no overlapping captions",
+      "pass": true
+    },
+    {
+      "name": "S08 ends before dramatic silence",
+      "pass": true
+    }
+  ],
+  "failures": [],
+  "scope": "source and authored/measured timing, not media or human acceptance"
+}

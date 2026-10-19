@@ -1,0 +1,305 @@
+{
+  "status": "pcm_alignment_verified",
+  "durationSeconds": 120,
+  "samplesPerChannel": 5760000,
+  "stems": {
+    "narration": {
+      "samplesPerChannel": 5760000,
+      "sha256": "264dd6d3720c507f6a8a369a8b51db68f8e51a3f2a42244b9438f56c897c33e9",
+      "exactLength": true
+    },
+    "score": {
+      "samplesPerChannel": 5760000,
+      "sha256": "0088a05c6f5735038ba10fab2228bed0f7a16b746aad980c92966acb04222db3",
+      "exactLength": true
+    },
+    "sfx": {
+      "samplesPerChannel": 5760000,
+      "sha256": "82ac33987a82515247d80079008869c9c1f2ac98b8c95fe0bbff975aea037d57",
+      "exactLength": true
+    },
+    "master": {
+      "samplesPerChannel": 5760000,
+      "sha256": "2bc17a49a3555abfef6ee70b1445e6939bc0d66ad9946a1d296ce6ce1c63aab1",
+      "exactLength": true
+    }
+  },
+  "narrationSegments": [
+    {
+      "id": "S01",
+      "declaredStartFrame": 120,
+      "measuredVoiceStartSample": 96000,
+      "measuredVoiceEndSampleExclusive": 312843,
+      "measuredCueSamples": 238080,
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 87,
+        "windowSamples": 240
+      },
+      "cueSamplesCompared": 238080,
+      "cueSha256": "bb4311ed47e5969a4172f346722ef09b719318eddbe44137c75498050e543cb5",
+      "exactPcmMatch": true
+    },
+    {
+      "id": "S02",
+      "declaredStartFrame": 660,
+      "measuredVoiceStartSample": 528000,
+      "measuredVoiceEndSampleExclusive": 899915,
+      "measuredCueSamples": 391680,
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 95,
+        "windowSamples": 240
+      },
+      "cueSamplesCompared": 391680,
+      "cueSha256": "3c94e735c1a036aa4051ea6b148538b18bc548ba5d0678e07322025a5e3e7fa6",
+      "exactPcmMatch": true
+    },
+    {
+      "id": "S03",
+      "declaredStartFrame": 1320,
+      "measuredVoiceStartSample": 1056000,
+      "measuredVoiceEndSampleExclusive": 1416092,
+      "measuredCueSamples": 380160,
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 79,
+        "windowSamples": 240
+      },
+      "cueSamplesCompared": 380160,
+      "cueSha256": "44dec8468e33cc0c0999bd9d6932ee6a3bf1f1947350e37d523b55725737677e",
+      "exactPcmMatch": true
+    },
+    {
+      "id": "S04",
+      "declaredStartFrame": 1860,
+      "measuredVoiceStartSample": 1488000,
+      "measuredVoiceEndSampleExclusive": 1904678,
+      "measuredCueSamples": 433920,
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 72,
+        "windowSamples": 240
+      },
+      "cueSamplesCompared": 433920,
+      "cueSha256": "a0a89355b7e52619ec7d90eaee5cb4b0813aabce37e9ec0551c5b05ecba110cb",
+      "exactPcmMatch": true
+    },
+    {
+      "id": "S05",
+      "declaredStartFrame": 2700,
+      "measuredVoiceStartSample": 2160000,
+      "measuredVoiceEndSampleExclusive": 2613172,
+      "measuredCueSamples": 468480,
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 92,
+        "windowSamples": 240
+      },
+      "cueSamplesCompared": 468480,
+      "cueSha256": "da7af0bde4f6f5cca4eda19c6e1f9834c2368664eaaf1004591429096a4080b3",
+      "exactPcmMatch": true
+    },
+    {
+      "id": "S06",
+      "declaredStartFrame": 3660,
+      "measuredVoiceStartSample": 2928000,
+      "measuredVoiceEndSampleExclusive": 3346372,
+      "measuredCueSamples": 441600,
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 102,
+        "windowSamples": 240
+      },
+      "cueSamplesCompared": 441600,
+      "cueSha256": "42b72340bbce1f296c25a6395a69d202d1ad49080a8d854bc65e7b64f4f0d462",
+      "exactPcmMatch": true
+    },
+    {
+      "id": "S07",
+      "declaredStartFrame": 4500,
+      "measuredVoiceStartSample": 3600000,
+      "measuredVoiceEndSampleExclusive": 4179827,
+      "measuredCueSamples": 599040,
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 73,
+        "windowSamples": 240
+      },
+      "cueSamplesCompared": 599040,
+      "cueSha256": "ae2f651e67347234d4fc7a0201b9d1a23253ba9d36f831f82a6f6080072a0aa8",
+      "exactPcmMatch": true
+    },
+    {
+      "id": "S08",
+      "declaredStartFrame": 5430,
+      "measuredVoiceStartSample": 4344000,
+      "measuredVoiceEndSampleExclusive": 4551407,
+      "measuredCueSamples": 226560,
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 79,
+        "windowSamples": 240
+      },
+      "cueSamplesCompared": 226560,
+      "cueSha256": "f854844d4ad40fd88ed685ac71607029799b889f5ce428de23d90e97c12be786",
+      "exactPcmMatch": true
+    },
+    {
+      "id": "S09",
+      "declaredStartFrame": 6020,
+      "measuredVoiceStartSample": 4816000,
+      "measuredVoiceEndSampleExclusive": 5346343,
+      "measuredCueSamples": 549120,
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 89,
+        "windowSamples": 240
+      },
+      "cueSamplesCompared": 549120,
+      "cueSha256": "392df452c7ea76ce499f12f5ae0d3b99743e411f2f56a69b4ef3a490c4ee0350",
+      "exactPcmMatch": true
+    },
+    {
+      "id": "S10",
+      "declaredStartFrame": 6960,
+      "measuredVoiceStartSample": 5568000,
+      "measuredVoiceEndSampleExclusive": 5695651,
+      "measuredCueSamples": 149760,
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 69,
+        "windowSamples": 240
+      },
+      "cueSamplesCompared": 149760,
+      "cueSha256": "d7cbec09bfcd4263261c0332bd1582f57d2e6af988c2baf347798c36b917cda4",
+      "exactPcmMatch": true
+    }
+  ],
+  "sfxEventOnsets": [
+    {
+      "id": "cyan-pre-echo",
+      "frame": 102,
+      "sampleIndex": 81600,
+      "leftPcm16AtOnset": 1376,
+      "rightPcm16AtOnset": 1133,
+      "sampleAnchorExact": true
+    },
+    {
+      "id": "human-heartbeat",
+      "frame": 120,
+      "sampleIndex": 96000,
+      "leftPcm16AtOnset": 10466,
+      "rightPcm16AtOnset": 8786,
+      "sampleAnchorExact": true
+    },
+    {
+      "id": "rp-lock",
+      "frame": 870,
+      "sampleIndex": 696000,
+      "leftPcm16AtOnset": 1671,
+      "rightPcm16AtOnset": 1459,
+      "sampleAnchorExact": true
+    },
+    {
+      "id": "amber-awareness",
+      "frame": 900,
+      "sampleIndex": 720000,
+      "leftPcm16AtOnset": 12370,
+      "rightPcm16AtOnset": 10853,
+      "sampleAnchorExact": true
+    },
+    {
+      "id": "glass-window",
+      "frame": 1350,
+      "sampleIndex": 1080000,
+      "leftPcm16AtOnset": 1819,
+      "rightPcm16AtOnset": 1649,
+      "sampleAnchorExact": true
+    },
+    {
+      "id": "data-convergence",
+      "frame": 2100,
+      "sampleIndex": 1680000,
+      "leftPcm16AtOnset": 265,
+      "rightPcm16AtOnset": 253,
+      "sampleAnchorExact": true
+    },
+    {
+      "id": "trajectory-lock",
+      "frame": 3120,
+      "sampleIndex": 2496000,
+      "leftPcm16AtOnset": 1671,
+      "rightPcm16AtOnset": 1459,
+      "sampleAnchorExact": true
+    },
+    {
+      "id": "reward-warp",
+      "frame": 3840,
+      "sampleIndex": 3072000,
+      "leftPcm16AtOnset": 1720,
+      "rightPcm16AtOnset": 1740,
+      "sampleAnchorExact": true
+    },
+    {
+      "id": "gentle-prison",
+      "frame": 4800,
+      "sampleIndex": 3840000,
+      "leftPcm16AtOnset": 2009,
+      "rightPcm16AtOnset": 1905,
+      "sampleAnchorExact": true
+    },
+    {
+      "id": "vault-seal",
+      "frame": 5760,
+      "sampleIndex": 4608000,
+      "leftPcm16AtOnset": 2261,
+      "rightPcm16AtOnset": 2284,
+      "sampleAnchorExact": true
+    },
+    {
+      "id": "sovereign-chord",
+      "frame": 6480,
+      "sampleIndex": 5184000,
+      "leftPcm16AtOnset": 2409,
+      "rightPcm16AtOnset": 2362,
+      "sampleAnchorExact": true
+    },
+    {
+      "id": "final-heartbeat",
+      "frame": 7020,
+      "sampleIndex": 5616000,
+      "leftPcm16AtOnset": 1479,
+      "rightPcm16AtOnset": 1418,
+      "sampleAnchorExact": true
+    }
+  ],
+  "absoluteSilence": {
+    "startFrame": 5740,
+    "endFrameExclusive": 5760,
+    "startSample": 4592000,
+    "endSampleExclusive": 4608000,
+    "stems": {
+      "narration": {
+        "peakPcm16": 0,
+        "exactZero": true
+      },
+      "score": {
+        "peakPcm16": 0,
+        "exactZero": true
+      },
+      "sfx": {
+        "peakPcm16": 0,
+        "exactZero": true
+      },
+      "master": {
+        "peakPcm16": 0,
+        "exactZero": true
+      }
+    }
+  },
+  "limitations": [
+    "No ASR or pronunciation evaluation was performed.",
+    "PCM alignment evidence does not establish human listening or mix-quality acceptance."
+  ]
+}

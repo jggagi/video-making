@@ -1,0 +1,18 @@
+{
+  "fps":60,"sampleRate":48000,"samplesPerFrame":800,
+  "events":[
+    {"id":"cyan-pre-echo","frame":102,"sampleIndex":81600,"description":"synthetic heartbeat 300ms before human"},
+    {"id":"human-heartbeat","frame":120,"sampleIndex":96000,"description":"intimate double heartbeat 60BPM"},
+    {"id":"rp-lock","frame":870,"sampleIndex":696000,"description":"cyan lock 30f before amber pulse"},
+    {"id":"amber-awareness","frame":900,"sampleIndex":720000,"description":"EEG voltage sweep and amber pulse"},
+    {"id":"glass-window","frame":1350,"sampleIndex":1080000,"description":"40Hz bass and glass shimmer"},
+    {"id":"data-convergence","frame":2100,"sampleIndex":1680000,"description":"streams converge into harmonic hum"},
+    {"id":"trajectory-lock","frame":3120,"sampleIndex":2496000,"description":"synthetic trajectory lock chime"},
+    {"id":"reward-warp","frame":3840,"sampleIndex":3072000,"description":"magenta stereo chord"},
+    {"id":"gentle-prison","frame":4800,"sampleIndex":3840000,"description":"metal resonance under music box"},
+    {"id":"absolute-silence","frame":5740,"endFrame":5760,"sampleIndex":4592000,"endSampleExclusive":4608000,"description":"20 frame total-master silence immediately before seal"},
+    {"id":"vault-seal","frame":5760,"sampleIndex":4608000,"description":"golden vault lock and shockwave"},
+    {"id":"sovereign-chord","frame":6480,"sampleIndex":5184000,"description":"organ and warm bowed-string synthesis"},
+    {"id":"final-heartbeat","frame":7020,"sampleIndex":5616000,"description":"cosmic resonance and solitary warm heartbeat"}
+  ]
+}

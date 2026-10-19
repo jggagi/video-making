@@ -1,0 +1,97 @@
+{
+  "fps": 60,
+  "total_frames": 7200,
+  "sharedState": true,
+  "scenes": [
+    {
+      "startFrame": 0,
+      "endFrame": 1260,
+      "title": "RP与超前影子",
+      "feeling": "不安",
+      "action": "咖啡与指尖之前移动的青色影子；平均RP曲线",
+      "motion": "ghost phase+moving RP sweep",
+      "landscape": "native landscape composition",
+      "portrait": "native vertical reflow"
+    },
+    {
+      "startFrame": 1260,
+      "endFrame": 1800,
+      "title": "主权心印片名",
+      "feeling": "不安转为凝视",
+      "action": "网格折入旋转棱镜",
+      "motion": "tunnel perspective rotation",
+      "landscape": "native landscape composition",
+      "portrait": "native vertical reflow"
+    },
+    {
+      "startFrame": 1800,
+      "endFrame": 2700,
+      "title": "行为碎片与延迟重构",
+      "feeling": "被建模",
+      "action": "Lorenz与延迟嵌入，生活线索汇入",
+      "motion": "RK4 trails+camera",
+      "landscape": "native landscape composition",
+      "portrait": "native vertical reflow"
+    },
+    {
+      "startFrame": 2700,
+      "endFrame": 3600,
+      "title": "合成镜像贴合",
+      "feeling": "警惕误差被误读",
+      "action": "轨迹贴合但清楚标注不是人格",
+      "motion": "camera+trails",
+      "landscape": "native landscape composition",
+      "portrait": "native vertical reflow"
+    },
+    {
+      "startFrame": 3600,
+      "endFrame": 4500,
+      "title": "顺滑的路径",
+      "feeling": "温柔操控",
+      "action": "10条路径与双层奖励地形",
+      "motion": "continuous potential warp+ball",
+      "landscape": "native landscape composition",
+      "portrait": "native vertical reflow"
+    },
+    {
+      "startFrame": 4500,
+      "endFrame": 5400,
+      "title": "被塑形的选择",
+      "feeling": "认出隐藏之手",
+      "action": "9条路径变陡，1个盆地变深",
+      "motion": "gradient sphere integration",
+      "landscape": "native landscape composition",
+      "portrait": "native vertical reflow"
+    },
+    {
+      "startFrame": 5400,
+      "endFrame": 6300,
+      "title": "晶体闭合",
+      "feeling": "边界归还",
+      "action": "5760f封闭；射线折向；本地记忆不披露",
+      "motion": "rotating subdivided icosahedron",
+      "landscape": "native landscape composition",
+      "portrait": "native vertical reflow"
+    },
+    {
+      "startFrame": 6300,
+      "endFrame": 6900,
+      "title": "诗意收官",
+      "feeling": "安宁",
+      "action": "晶体内琥珀火花，外部数据绕行",
+      "motion": "core trajectory+shell rotation",
+      "landscape": "native landscape composition",
+      "portrait": "native vertical reflow"
+    },
+    {
+      "startFrame": 6900,
+      "endFrame": 7200,
+      "title": "六环回望",
+      "feeling": "完成与余温",
+      "action": "六集汇入一枚心印",
+      "motion": "rings perspective pullback",
+      "landscape": "native landscape composition",
+      "portrait": "native vertical reflow"
+    }
+  ]
+}

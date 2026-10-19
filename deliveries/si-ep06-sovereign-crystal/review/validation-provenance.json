@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "render_inputs_unchanged": true,
+  "no_media_reencoding_after_strict_decode": true,
+  "media": {
+    "bilibili": {
+      "path": "B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+      "sha256": "b1ef98636d1072853461fdc7032b94959c94634206632aa316188bd7aee13f8d",
+      "bytes": 162732424,
+      "strict_decode_report_sha256": "6c0d54fefc80097aac7d0e41c7840c1eecd465435478996d1609360d7a612f4c"
+    },
+    "xiaohongshu": {
+      "path": "小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+      "sha256": "57d2303244f5bdc85574a716a08582348b309caae69eb2518019ec9db27a5cb1",
+      "bytes": 157289697,
+      "strict_decode_report_sha256": "6c0d54fefc80097aac7d0e41c7840c1eecd465435478996d1609360d7a612f4c"
+    }
+  },
+  "manifest_update_scope": "Only hashes, measured metrics and QA metadata added after strict validation; outputs and render inputs unchanged.",
+  "human_and_device": "pending"
+}

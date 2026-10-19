@@ -1,0 +1,52 @@
+{
+  "logical_portrait": [
+    1080,
+    1920
+  ],
+  "native_portrait": [
+    2160,
+    3840
+  ],
+  "critical_bounds": [
+    64,
+    173,
+    902,
+    1496
+  ],
+  "exclusion": {
+    "top": 0.08,
+    "right": 0.14,
+    "bottom": 0.22
+  },
+  "hud": {
+    "x": 64,
+    "y": 173,
+    "width": 838,
+    "height": 116,
+    "fontSize": 30,
+    "mobile_effective": 10
+  },
+  "subtitle": {
+    "x": 64,
+    "y": 1383,
+    "width": 838,
+    "height": 113,
+    "fontSize": 43,
+    "mobile_effective": 14.333333333333334,
+    "max_chinese_characters_per_line": 14,
+    "max_lines": 2,
+    "lineHeight": 1.22
+  },
+  "qualifier": {
+    "x": 64,
+    "y": 1288,
+    "width": 838,
+    "fontSize": 39
+  },
+  "content": {
+    "x": 64,
+    "y": 480,
+    "width": 838,
+    "height": 780
+  }
+}

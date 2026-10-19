@@ -1915,6 +1915,177 @@
           "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep05-landauer-limit-0028c8c759f4/si-ep05-landauer-limit--deliveries--si-ep05-landauer-limit-----si-ep05-landauer-limit-xiaohongshu-120s-portrait--7a1d9822c94a.mp4"
         }
       ]
+    },
+    {
+      "id": "si-ep06-sovereign-crystal",
+      "title": "主权心印｜THE SOVEREIGN SOUL CRYSTAL · EP.06",
+      "release_tag": "film-si-ep06-sovereign-crystal-17a9981f3b94",
+      "historical": false,
+      "duration_seconds": 120,
+      "project_path": "deliveries/si-ep06-sovereign-crystal/project",
+      "delivery_directory": "deliveries/si-ep06-sovereign-crystal",
+      "final_output_paths": {
+        "B站": "deliveries/si-ep06-sovereign-crystal/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+        "小红书": "deliveries/si-ep06-sovereign-crystal/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4"
+      },
+      "final_output_dimensions": {
+        "B站": [
+          3840,
+          2160
+        ],
+        "小红书": [
+          2160,
+          3840
+        ]
+      },
+      "assets": [
+        {
+          "path": "deliveries/si-ep06-sovereign-crystal/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+          "name": "si-ep06-sovereign-crystal--deliveries--si-ep06-sovereign-crystal--B---si-ep06-sovereign-crystal-bilibili-120s-4k--b1ef98636d10.mp4",
+          "bytes": 162732424,
+          "sha256": "b1ef98636d1072853461fdc7032b94959c94634206632aa316188bd7aee13f8d",
+          "kind": "video",
+          "platform": "B站",
+          "measurements": {
+            "width": 3840,
+            "height": 2160,
+            "fps": "60/1",
+            "frames": "7200",
+            "video_duration_seconds": 120.0,
+            "container_duration_seconds": 120.0
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep06-sovereign-crystal-17a9981f3b94/si-ep06-sovereign-crystal--deliveries--si-ep06-sovereign-crystal--B---si-ep06-sovereign-crystal-bilibili-120s-4k--b1ef98636d10.mp4"
+        },
+        {
+          "path": "deliveries/si-ep06-sovereign-crystal/review/motion-portrait-2160-2339.mp4",
+          "name": "si-ep06-sovereign-crystal--deliveries--si-ep06-sovereign-crystal--review--motion-portrait-2160-2339--a5abe5301b30.mp4",
+          "bytes": 851095,
+          "sha256": "a5abe5301b30b711f96fe74a0d801d7fba6546574b6dc456a92f8b109f383327",
+          "kind": "video",
+          "platform": "预览",
+          "measurements": {
+            "width": 720,
+            "height": 1280,
+            "fps": "60/1",
+            "frames": "180",
+            "video_duration_seconds": 3.0,
+            "container_duration_seconds": 3.008
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep06-sovereign-crystal-17a9981f3b94/si-ep06-sovereign-crystal--deliveries--si-ep06-sovereign-crystal--review--motion-portrait-2160-2339--a5abe5301b30.mp4"
+        },
+        {
+          "path": "deliveries/si-ep06-sovereign-crystal/review/motion-portrait-4740-4919.mp4",
+          "name": "si-ep06-sovereign-crystal--deliveries--si-ep06-sovereign-crystal--review--motion-portrait-4740-4919--98f34fc20014.mp4",
+          "bytes": 466095,
+          "sha256": "98f34fc20014da985c36cff0e183882dbbb83fd40978f9bafa407adfa070d84f",
+          "kind": "video",
+          "platform": "预览",
+          "measurements": {
+            "width": 720,
+            "height": 1280,
+            "fps": "60/1",
+            "frames": "180",
+            "video_duration_seconds": 3.0,
+            "container_duration_seconds": 3.008
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep06-sovereign-crystal-17a9981f3b94/si-ep06-sovereign-crystal--deliveries--si-ep06-sovereign-crystal--review--motion-portrait-4740-4919--98f34fc20014.mp4"
+        },
+        {
+          "path": "deliveries/si-ep06-sovereign-crystal/review/motion-portrait-5700-5879.mp4",
+          "name": "si-ep06-sovereign-crystal--deliveries--si-ep06-sovereign-crystal--review--motion-portrait-5700-5879--3394e780b4ff.mp4",
+          "bytes": 1908583,
+          "sha256": "3394e780b4ff0101164d346bf31dbeb20187dc148612a38c1b6d188ba9a9eac8",
+          "kind": "video",
+          "platform": "预览",
+          "measurements": {
+            "width": 720,
+            "height": 1280,
+            "fps": "60/1",
+            "frames": "180",
+            "video_duration_seconds": 3.0,
+            "container_duration_seconds": 3.008
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep06-sovereign-crystal-17a9981f3b94/si-ep06-sovereign-crystal--deliveries--si-ep06-sovereign-crystal--review--motion-portrait-5700-5879--3394e780b4ff.mp4"
+        },
+        {
+          "path": "deliveries/si-ep06-sovereign-crystal/review/motion-portrait-6360-6539.mp4",
+          "name": "si-ep06-sovereign-crystal--deliveries--si-ep06-sovereign-crystal--review--motion-portrait-6360-6539--2d4cef78bb8e.mp4",
+          "bytes": 1696830,
+          "sha256": "2d4cef78bb8e546da9a282c3ac37655015cf3b94c09d620b97e54dd91e6a64ac",
+          "kind": "video",
+          "platform": "预览",
+          "measurements": {
+            "width": 720,
+            "height": 1280,
+            "fps": "60/1",
+            "frames": "180",
+            "video_duration_seconds": 3.0,
+            "container_duration_seconds": 3.008
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep06-sovereign-crystal-17a9981f3b94/si-ep06-sovereign-crystal--deliveries--si-ep06-sovereign-crystal--review--motion-portrait-6360-6539--2d4cef78bb8e.mp4"
+        },
+        {
+          "path": "deliveries/si-ep06-sovereign-crystal/review/motion-portrait-6960-7139.mp4",
+          "name": "si-ep06-sovereign-crystal--deliveries--si-ep06-sovereign-crystal--review--motion-portrait-6960-7139--f02184321779.mp4",
+          "bytes": 783493,
+          "sha256": "f0218432177945e1d81087524d24482ca437785c77ebbad253d918709d681098",
+          "kind": "video",
+          "platform": "预览",
+          "measurements": {
+            "width": 720,
+            "height": 1280,
+            "fps": "60/1",
+            "frames": "180",
+            "video_duration_seconds": 3.0,
+            "container_duration_seconds": 3.008
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep06-sovereign-crystal-17a9981f3b94/si-ep06-sovereign-crystal--deliveries--si-ep06-sovereign-crystal--review--motion-portrait-6960-7139--f02184321779.mp4"
+        },
+        {
+          "path": "deliveries/si-ep06-sovereign-crystal/review/motion-portrait-900-1079.mp4",
+          "name": "si-ep06-sovereign-crystal--deliveries--si-ep06-sovereign-crystal--review--motion-portrait-900-1079--0e102051a5e2.mp4",
+          "bytes": 438649,
+          "sha256": "0e102051a5e2c718e34e5933202320b9b8dee3cd2624be52b0d94857e32d75b1",
+          "kind": "video",
+          "platform": "预览",
+          "measurements": {
+            "width": 720,
+            "height": 1280,
+            "fps": "60/1",
+            "frames": "180",
+            "video_duration_seconds": 3.0,
+            "container_duration_seconds": 3.008
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep06-sovereign-crystal-17a9981f3b94/si-ep06-sovereign-crystal--deliveries--si-ep06-sovereign-crystal--review--motion-portrait-900-1079--0e102051a5e2.mp4"
+        },
+        {
+          "path": "deliveries/si-ep06-sovereign-crystal/si-ep06-sovereign-crystal-editable-project.zip",
+          "name": "si-ep06-sovereign-crystal--deliveries--si-ep06-sovereign-crystal--si-ep06-sovereign-crystal-editable-project--697c9da469cc.zip",
+          "bytes": 63798632,
+          "sha256": "697c9da469cc685e35fb496bed9c42c65c814513aec343bb904c4f6db0b6eb26",
+          "kind": "project",
+          "platform": "工程",
+          "measurements": {},
+          "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep06-sovereign-crystal-17a9981f3b94/si-ep06-sovereign-crystal--deliveries--si-ep06-sovereign-crystal--si-ep06-sovereign-crystal-editable-project--697c9da469cc.zip"
+        },
+        {
+          "path": "deliveries/si-ep06-sovereign-crystal/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+          "name": "si-ep06-sovereign-crystal--deliveries--si-ep06-sovereign-crystal-----si-ep06-sovereign-crystal-xiaohongshu-120s-portrait--57d2303244f5.mp4",
+          "bytes": 157289697,
+          "sha256": "57d2303244f5bdc85574a716a08582348b309caae69eb2518019ec9db27a5cb1",
+          "kind": "video",
+          "platform": "小红书",
+          "measurements": {
+            "width": 2160,
+            "height": 3840,
+            "fps": "60/1",
+            "frames": "7200",
+            "video_duration_seconds": 120.0,
+            "container_duration_seconds": 120.0
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep06-sovereign-crystal-17a9981f3b94/si-ep06-sovereign-crystal--deliveries--si-ep06-sovereign-crystal-----si-ep06-sovereign-crystal-xiaohongshu-120s-portrait--57d2303244f5.mp4"
+        }
+      ]
     }
   ]
 }

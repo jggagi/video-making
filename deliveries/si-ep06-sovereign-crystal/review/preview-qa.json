@@ -1,0 +1,42 @@
+{
+  "clips": [
+    {
+      "file": "motion-portrait-2160-2339.mp4",
+      "frames": "180",
+      "duration": "3.000000",
+      "audio": true
+    },
+    {
+      "file": "motion-portrait-4740-4919.mp4",
+      "frames": "180",
+      "duration": "3.000000",
+      "audio": true
+    },
+    {
+      "file": "motion-portrait-5700-5879.mp4",
+      "frames": "180",
+      "duration": "3.000000",
+      "audio": true
+    },
+    {
+      "file": "motion-portrait-6360-6539.mp4",
+      "frames": "180",
+      "duration": "3.000000",
+      "audio": true
+    },
+    {
+      "file": "motion-portrait-6960-7139.mp4",
+      "frames": "180",
+      "duration": "3.000000",
+      "audio": true
+    },
+    {
+      "file": "motion-portrait-900-1079.mp4",
+      "frames": "180",
+      "duration": "3.000000",
+      "audio": true
+    }
+  ],
+  "status": "clips_decoded",
+  "model_motion_review": "representative time samples; not continuous human viewing or listening"
+}

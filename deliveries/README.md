@@ -14,3 +14,4 @@
 - [神也会自我欺骗 · v2 机制图解版](si-ep04-verifier-paradox-v02/README.md)：15 个视频/工程资产。
 - [神也会自我欺骗 · v3 直观结尾版](si-ep04-verifier-paradox-v03/README.md)：5 个视频/工程资产。
 - [兰道尔极限｜THE LANDAUER LIMIT · EP.05](si-ep05-landauer-limit/README.md)：14 个视频/工程资产。
+- [主权心印｜THE SOVEREIGN SOUL CRYSTAL · EP.06](si-ep06-sovereign-crystal/README.md)：9 个视频/工程资产。

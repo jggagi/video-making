@@ -1,0 +1,3 @@
+# Native lossless QA frames stay local; compact contact sheets and reports are versioned.
+review/source-*.png
+review/encoded-*-native-frame-*.png

@@ -1,0 +1,3 @@
+interface:
+  display_name: "小红书视频发布"
+  short_description: "上传已完成的视频，整理封面文案与话题，并核对提交、审核和公开状态"

@@ -4,6 +4,7 @@
 从剧本到双平台短片的制作技能、可编辑工程与作品档案。
 
 - [剧本双平台短片 Skill](skills/dual-platform-video/SKILL.md)：新作默认两版均为 **120 秒、原生 4K**，B站 **3840×2160 横屏**，小红书 **2160×3840 竖屏**；共用素材、配音与时间轴，分别设计排版，减少重复生成消耗。
+- [小红书视频发布 Skill](skills/xiaohongshu-publish/SKILL.md)：接收已完成的视频，在用户要求发布时处理登录协助、封面文案、上传提交与状态核验；可独立使用，也可承接双平台制作流程。
 - [全部成片与工程下载](https://github.com/jggagi/video-making/releases)：每部作品独立 Release，包含完整成片、历史版本、样片与工程 ZIP。
 - [final 成片与备份目录](final/README.md)：本地保留全部正式成片，GitHub专用 `final-*` Releases 保存对应实际视频；按作品、版本和平台整理，排除样片、草稿和工程 ZIP。
 - [全部作品索引](deliveries/README.md)：包含历史作品与之后的新作，每次归档自动更新。

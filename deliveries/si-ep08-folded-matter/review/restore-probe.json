@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "verified_at_utc": "2026-10-19T18:11:16.331619+00:00",
+  "scope": "One newly added EP08 portrait final actually downloaded from GitHub into isolated validated AgentDev temporary storage; relative path, size and hash matched. Second run skipped it. This is not a download restore of all47 finals.",
+  "path": "final/si-ep08-folded-matter/小红书/si-ep08-folded-matter-xiaohongshu-120s-portrait.mp4",
+  "bytes": 169658525,
+  "sha256": "65c2f5d25ec86e72fbaedf4b619e8eb7c4d82c760c1c8ed829a7736650a1ff88",
+  "first_run": {
+    "already_verified": 0,
+    "downloaded": 1
+  },
+  "second_run": {
+    "already_verified": 1,
+    "downloaded": 0
+  },
+  "temporary_data_cleaned": true
+}

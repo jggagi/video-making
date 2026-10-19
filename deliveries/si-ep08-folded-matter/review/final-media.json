@@ -15,10 +15,16 @@
     }
   },
   "masterSHA256": "c8f5d0914e0b8ec621d6fbcd23114887b342dde1e5da9327eeff9cac3610735d",
-  "currentStage": "Strict decode, required full-stream visual screens, final audio measurements and model encoded-frame observations complete.",
-  "status": "LOCAL_TECHNICAL_COMPLETE_PENDING_ARCHIVE",
+  "currentStage": "Local technical QA, pushed source, published work/final releases, fresh remote verification and one new portrait restore probe complete.",
+  "status": "COMPLETE_BACKED_UP",
   "validationReport": "review/media-validation-20261019T175433.551609Z.json",
   "correlationReport": "review/shared-audio-correlation-r04.json",
   "finalManifestSHA256": "81f58e5f3c417baa92b3250c239fe3e27e77ba40b1559ab0d09af7c603c91f05",
-  "humanViewingListeningDevice": "NOT_RUN"
+  "humanViewingListeningDevice": "NOT_RUN",
+  "sourceCommit": "a707ebe84022da569707eaac9851be0cbd77b59c",
+  "archiveEvidence": [
+    "review/archive-verification.json",
+    "review/final-backup-verification.json",
+    "review/restore-probe.json"
+  ]
 }

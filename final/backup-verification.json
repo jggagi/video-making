@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
   "status": "COMPLETE",
-  "verified_at_utc": "2026-10-19T18:02:17.721881+00:00",
+  "verified_at_utc": "2026-10-19T18:10:51.406442+00:00",
   "repository": "jggagi/video-making",
-  "source_commit": "6937cd8646c4ac60a289d3f84550708af2d80aa4",
+  "source_commit": "a707ebe84022da569707eaac9851be0cbd77b59c",
   "catalog_path": "final/backup-catalog.json",
-  "catalog_sha256": "049ad260d23b6631e2e2dae31402b527f8ae4659bd39adef4416c6f76cb551d7",
-  "upload_receipt_sha256": "070848dc50c3c24ed37b749ad3bf9447170fb327c4a8233abd1cabe4ac67bf99",
+  "catalog_sha256": "ec1d50d9fd667753a6ae8b6b865eac6da27daca3887069aea52fcf7420252750",
+  "upload_receipt_sha256": "c51e608c48b628afaaedf0d7b6c8612a2b956951a26ebfa36e0b25819741daf2",
   "verification_method": "Fresh published GitHub Release API inventory plus all local final file hashes; every remote size, SHA-256 digest and URL matched the current catalog.",
-  "verified_releases": 17,
-  "verified_files": 45,
-  "verified_bytes": 7852657565,
+  "verified_releases": 18,
+  "verified_files": 47,
+  "verified_bytes": 8182150949,
   "works": [
     {
       "id": "lanting",
@@ -583,6 +583,36 @@
       ]
     },
     {
+      "id": "si-ep08-folded-matter",
+      "title": "Final 成片备份 · 被折叠的造物",
+      "release_tag": "final-si-ep08-folded-matter-fb067a56db5a",
+      "release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep08-folded-matter-fb067a56db5a",
+      "release_target": "a707ebe84022da569707eaac9851be0cbd77b59c",
+      "release_draft": false,
+      "assets": [
+        {
+          "path": "final/si-ep08-folded-matter/B站/si-ep08-folded-matter-bilibili-120s-4k.mp4",
+          "name": "final--si-ep08-folded-matter--deliveries--si-ep08-folded-matter--B---si-ep08-folded-matter-bilibili-120s-4k--2d408725eb21.mp4",
+          "bytes": 159834859,
+          "sha256": "2d408725eb215602f6bedfc78200037371320eb067e2a6adedcd2740a1bc0cea",
+          "github_digest": "sha256:2d408725eb215602f6bedfc78200037371320eb067e2a6adedcd2740a1bc0cea",
+          "github_asset_id": 657032032,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep08-folded-matter-fb067a56db5a/final--si-ep08-folded-matter--deliveries--si-ep08-folded-matter--B---si-ep08-folded-matter-bilibili-120s-4k--2d408725eb21.mp4",
+          "local_and_remote_match": true
+        },
+        {
+          "path": "final/si-ep08-folded-matter/小红书/si-ep08-folded-matter-xiaohongshu-120s-portrait.mp4",
+          "name": "final--si-ep08-folded-matter--deliveries--si-ep08-folded-matter-----si-ep08-folded-matter-xiaohongshu-120s-portrait--65c2f5d25ec8.mp4",
+          "bytes": 169658525,
+          "sha256": "65c2f5d25ec86e72fbaedf4b619e8eb7c4d82c760c1c8ed829a7736650a1ff88",
+          "github_digest": "sha256:65c2f5d25ec86e72fbaedf4b619e8eb7c4d82c760c1c8ed829a7736650a1ff88",
+          "github_asset_id": 657032611,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep08-folded-matter-fb067a56db5a/final--si-ep08-folded-matter--deliveries--si-ep08-folded-matter-----si-ep08-folded-matter-xiaohongshu-120s-portrait--65c2f5d25ec8.mp4",
+          "local_and_remote_match": true
+        }
+      ]
+    },
+    {
       "id": "si-eternity",
       "title": "Final 成片备份 · 一眼万年",
       "release_tag": "final-si-eternity-66d480b1c859",
@@ -635,18 +665,18 @@
   ],
   "restore_probe": {
     "status": "PASS",
-    "verified_at_utc": "2026-10-19T18:02:42.057942+00:00",
-    "scope": "One newly added EP07 v02 portrait final downloaded from GitHub into isolated temporary root; restored relative path, size and SHA-256 checked. Repeat restore skipped the matching file. Not a full download restore of all45 files.",
-    "path": "final/si-ep07-untranslatable-tongue-v02/小红书/si-ep07-untranslatable-tongue-v02-xiaohongshu-120s-portrait.mp4",
-    "bytes": 115535635,
-    "sha256": "7621a7e36efc7e2057060ff7aeae2c3eec51cab0603870b7e83d3313a5bdaa16",
+    "verified_at_utc": "2026-10-19T18:11:16.331619+00:00",
+    "scope": "One newly added EP08 portrait final actually downloaded from GitHub into isolated validated AgentDev temporary storage; relative path, size and hash matched. Second run skipped it. This is not a download restore of all47 finals.",
+    "path": "final/si-ep08-folded-matter/小红书/si-ep08-folded-matter-xiaohongshu-120s-portrait.mp4",
+    "bytes": 169658525,
+    "sha256": "65c2f5d25ec86e72fbaedf4b619e8eb7c4d82c760c1c8ed829a7736650a1ff88",
     "first_run": {
-      "downloaded": 1,
-      "already_verified": 0
+      "already_verified": 0,
+      "downloaded": 1
     },
     "second_run": {
-      "downloaded": 0,
-      "already_verified": 1
+      "already_verified": 1,
+      "downloaded": 0
     },
     "temporary_data_cleaned": true
   }

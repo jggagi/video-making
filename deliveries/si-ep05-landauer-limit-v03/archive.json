@@ -1,0 +1,128 @@
+{
+  "id": "si-ep05-landauer-limit-v03",
+  "title": "兰道尔极限｜稳定画面与氛围音乐 · EP.05 v03",
+  "release_tag": "film-si-ep05-landauer-limit-v03-2c74a5edf096",
+  "historical": false,
+  "duration_seconds": 120,
+  "project_path": "deliveries/si-ep05-landauer-limit-v03/project",
+  "delivery_directory": "deliveries/si-ep05-landauer-limit-v03",
+  "final_output_paths": {
+    "B站": "deliveries/si-ep05-landauer-limit-v03/B站/si-ep05-landauer-limit-v03-bilibili-120s-4k.mp4",
+    "小红书": "deliveries/si-ep05-landauer-limit-v03/小红书/si-ep05-landauer-limit-v03-xiaohongshu-120s-portrait.mp4"
+  },
+  "final_output_dimensions": {
+    "B站": [
+      3840,
+      2160
+    ],
+    "小红书": [
+      2160,
+      3840
+    ]
+  },
+  "assets": [
+    {
+      "path": "deliveries/si-ep05-landauer-limit-v03/B站/si-ep05-landauer-limit-v03-bilibili-120s-4k.mp4",
+      "name": "si-ep05-landauer-limit-v03--deliveries--si-ep05-landauer-limit-v03--B---si-ep05-landauer-limit-v03-bilibili-120s-4k--12c642ba64d5.mp4",
+      "bytes": 187241112,
+      "sha256": "12c642ba64d552b3839cf1cf2928d2cbff53a4549851fdf2797c2fc58e0c798a",
+      "kind": "video",
+      "platform": "B站",
+      "measurements": {
+        "width": 3840,
+        "height": 2160,
+        "fps": "60/1",
+        "frames": "7200",
+        "video_duration_seconds": 120.0,
+        "container_duration_seconds": 120.0
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep05-landauer-limit-v03-2c74a5edf096/si-ep05-landauer-limit-v03--deliveries--si-ep05-landauer-limit-v03--B---si-ep05-landauer-limit-v03-bilibili-120s-4k--12c642ba64d5.mp4"
+    },
+    {
+      "path": "deliveries/si-ep05-landauer-limit-v03/review/iterations/portrait-initial-capture/si-ep05-landauer-limit-v03-xiaohongshu-120s-portrait.mp4",
+      "name": "si-ep05-landauer-limit-v03--deliveries--si-ep05-landauer-limit-v03--review--iterations--portrait-initial-capture--si-ep05-landauer-limit-v03-xiaohongshu-120s-portrait--8a8d26cfb927.mp4",
+      "bytes": 168924095,
+      "sha256": "8a8d26cfb9274ce8a9ac3803ea8bf9aedfcdac72f83f4804c41e5f3d926529d5",
+      "kind": "video",
+      "platform": "预览",
+      "measurements": {
+        "width": 2160,
+        "height": 3840,
+        "fps": "60/1",
+        "frames": "7200",
+        "video_duration_seconds": 120.0,
+        "container_duration_seconds": 120.0
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep05-landauer-limit-v03-2c74a5edf096/si-ep05-landauer-limit-v03--deliveries--si-ep05-landauer-limit-v03--review--iterations--portrait-initial-capture--si-ep05-landauer-limit-v03-xiaohongshu-120s-portrait--8a8d26cfb927.mp4"
+    },
+    {
+      "path": "deliveries/si-ep05-landauer-limit-v03/review/native-proof-landscape-870-1019.mp4",
+      "name": "si-ep05-landauer-limit-v03--deliveries--si-ep05-landauer-limit-v03--review--native-proof-landscape-870-1019--5fcc23d0d91b.mp4",
+      "bytes": 4173255,
+      "sha256": "5fcc23d0d91bc8b7e8005cd87e352f47ea87e91ba494e1756097479e010a1ed7",
+      "kind": "video",
+      "platform": "预览",
+      "measurements": {
+        "width": 3840,
+        "height": 2160,
+        "fps": "60/1",
+        "frames": "150",
+        "video_duration_seconds": 2.5,
+        "container_duration_seconds": 2.517
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep05-landauer-limit-v03-2c74a5edf096/si-ep05-landauer-limit-v03--deliveries--si-ep05-landauer-limit-v03--review--native-proof-landscape-870-1019--5fcc23d0d91b.mp4"
+    },
+    {
+      "path": "deliveries/si-ep05-landauer-limit-v03/review/native-proof-portrait-870-1019.mp4",
+      "name": "si-ep05-landauer-limit-v03--deliveries--si-ep05-landauer-limit-v03--review--native-proof-portrait-870-1019--e362bef65430.mp4",
+      "bytes": 3729812,
+      "sha256": "e362bef654302548aee002825e7e591d70b2883ca89a52eb585421025c880ec7",
+      "kind": "video",
+      "platform": "预览",
+      "measurements": {
+        "width": 2160,
+        "height": 3840,
+        "fps": "60/1",
+        "frames": "150",
+        "video_duration_seconds": 2.5,
+        "container_duration_seconds": 2.517
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep05-landauer-limit-v03-2c74a5edf096/si-ep05-landauer-limit-v03--deliveries--si-ep05-landauer-limit-v03--review--native-proof-portrait-870-1019--e362bef65430.mp4"
+    },
+    {
+      "path": "deliveries/si-ep05-landauer-limit-v03/review/native-proof-portrait-870-929.mp4",
+      "name": "si-ep05-landauer-limit-v03--deliveries--si-ep05-landauer-limit-v03--review--native-proof-portrait-870-929--8db76868447c.mp4",
+      "bytes": 2617763,
+      "sha256": "8db76868447c8bb2f70f574b488a1f840e08cdaa22b3ea1157cc1081ec0bb0c2",
+      "kind": "video",
+      "platform": "预览",
+      "measurements": {
+        "width": 2160,
+        "height": 3840,
+        "fps": "60/1",
+        "frames": "60",
+        "video_duration_seconds": 1.0,
+        "container_duration_seconds": 1.003
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep05-landauer-limit-v03-2c74a5edf096/si-ep05-landauer-limit-v03--deliveries--si-ep05-landauer-limit-v03--review--native-proof-portrait-870-929--8db76868447c.mp4"
+    },
+    {
+      "path": "deliveries/si-ep05-landauer-limit-v03/小红书/si-ep05-landauer-limit-v03-xiaohongshu-120s-portrait.mp4",
+      "name": "si-ep05-landauer-limit-v03--deliveries--si-ep05-landauer-limit-v03-----si-ep05-landauer-limit-v03-xiaohongshu-120s-portrait--ab2765c6fb02.mp4",
+      "bytes": 202164075,
+      "sha256": "ab2765c6fb0220216ae6418f65df0dcb0a03a7b989780a41cde806ffda4594b9",
+      "kind": "video",
+      "platform": "小红书",
+      "measurements": {
+        "width": 2160,
+        "height": 3840,
+        "fps": "60/1",
+        "frames": "7200",
+        "video_duration_seconds": 120.0,
+        "container_duration_seconds": 120.0
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep05-landauer-limit-v03-2c74a5edf096/si-ep05-landauer-limit-v03--deliveries--si-ep05-landauer-limit-v03-----si-ep05-landauer-limit-v03-xiaohongshu-120s-portrait--ab2765c6fb02.mp4"
+    }
+  ],
+  "generated_by": "scripts/build-archive-catalog.py"
+}

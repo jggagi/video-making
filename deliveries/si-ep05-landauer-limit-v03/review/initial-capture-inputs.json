@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "status": "frozen_for_render",
+  "renderer": "Remotion4.0.534;project-local Chrome CPU raster flags;PNG intermediates;concurrency4",
+  "input_manifest": "review/rendered-manifest-input.json",
+  "inputs": [
+    {
+      "path": "project/audio-timing.json",
+      "bytes": 22721,
+      "sha256": "d4b5b2da0eae2b29bd6d681883a804a06af8ebbbea00b9eb28c3832427bd5ab7"
+    },
+    {
+      "path": "project/layout-contract.json",
+      "bytes": 998,
+      "sha256": "65084f71a2239075609109b12314473f9db8bb32253fca60ddce14ea8337b70c"
+    },
+    {
+      "path": "project/package-lock.json",
+      "bytes": 142071,
+      "sha256": "a1a79c2fe9aca9e6bfa10bfec6b731e146d74ee15268b0cd89b0e9a528cf4094"
+    },
+    {
+      "path": "project/package.json",
+      "bytes": 952,
+      "sha256": "d59e11aabf2f75cbe279fc3f2d2d132a9eacdc6629720e25fa06a0ed68d9d19c"
+    },
+    {
+      "path": "project/public/audio/master.wav",
+      "bytes": 23040044,
+      "sha256": "43bda3d78e143ccb6250b91ef1795067b88ae90b32366c7c56840e2e7390a29b"
+    },
+    {
+      "path": "project/scripts/chrome-stable.sh",
+      "bytes": 212,
+      "sha256": "66bd3c556b6acbb8f28f8b223fa748fc48cd3ca5ca221f3561848e1c4aafb6eb"
+    },
+    {
+      "path": "project/scripts/render.mjs",
+      "bytes": 4025,
+      "sha256": "561902713dee57daf40b2ba67ca2ec731361a63dc7c8dd40330bf4bae3418d62"
+    },
+    {
+      "path": "project/segments.json",
+      "bytes": 12724,
+      "sha256": "c627af81c077bd857219d7c84770a494bb48d96807ae8d6041db42eb1a5fc9db"
+    },
+    {
+      "path": "project/sfx_events.json",
+      "bytes": 2279,
+      "sha256": "d5c82858d1f476b9a2e56a67f70e2d57cd8673c63c0864f173cf1c1357e6476f"
+    },
+    {
+      "path": "project/src/CanvasWorld.tsx",
+      "bytes": 17865,
+      "sha256": "349ebd65249af48f36acbca2f60aa53774d8528959345749ddfc4325efd827c8"
+    },
+    {
+      "path": "project/src/Film.tsx",
+      "bytes": 7803,
+      "sha256": "260bef6fb9cf8d23445ee78863184253bb1d080ecd9ac62ab6370ca3edfa6218"
+    },
+    {
+      "path": "project/src/Root.tsx",
+      "bytes": 457,
+      "sha256": "8688d56eb986e804a576909d7f7fdbd4bc36b86b6fb96967fe663c266451a964"
+    },
+    {
+      "path": "project/src/index.ts",
+      "bytes": 88,
+      "sha256": "2e0e358282a1b998a65387c653b97c2bb2eb7aae94cf200fc0b8d919f7be73a6"
+    },
+    {
+      "path": "project/src/physics.ts",
+      "bytes": 4605,
+      "sha256": "c57ea243ff4124c0fe77efc61891a15a2554c28fb55d473251f6b43885b192b1"
+    },
+    {
+      "path": "project/timeline.json",
+      "bytes": 8724,
+      "sha256": "624c8dc90ba69afe1f38b4231b0167ee30cd1d9128d91bf98bcc65e8162e8272"
+    }
+  ],
+  "historical_source_snapshot": {
+    "project/src/Film.tsx": "review/revision-history/Film-before-paint-gate.tsx"
+  }
+}

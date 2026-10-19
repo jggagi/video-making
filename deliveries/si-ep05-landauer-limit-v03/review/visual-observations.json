@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "status": "both_editions_sample_observed",
+  "observers": [
+    "root",
+    "independent Luna worker"
+  ],
+  "portrait": {
+    "media_sha256": "ab2765c6fb0220216ae6418f65df0dcb0a03a7b989780a41cde806ffda4594b9",
+    "evidence": [
+      "review/encoded-portrait-contact-sheet.jpg",
+      "review/encoded-portrait-pair-contact-sheet.jpg",
+      "review/flicker-after-portrait/suspicious-top10.jpg",
+      "review/repaired-frame-neighbors.jpg"
+    ],
+    "sample_counts": {
+      "representative_frames": 32,
+      "motion_pairs": 12,
+      "repair_neighbor_unique_frames": 32
+    },
+    "observations": [
+      "No repeated tiles, obvious crop or subtitle covering key imagery in observed samples.",
+      "Visible change in all12pairs; some ring, thermal curve and branch changes are subtle.",
+      "360px preview: large titles, main imagery and Chinese captions identifiable; fine formulas/parameters/diagram labels too small to confirm.",
+      "11redrawn target±1neighbors show no isolated content shift or global single-frame color flash. Larger6992difference is localized to animated center."
+    ]
+  },
+  "landscape": {
+    "media_sha256": "12c642ba64d552b3839cf1cf2928d2cbff53a4549851fdf2797c2fc58e0c798a",
+    "observer": "root",
+    "evidence": [
+      "review/encoded-landscape-contact-sheet.jpg",
+      "review/encoded-landscape-pair-contact-sheet.jpg",
+      "review/flicker-after-landscape/suspicious-top10.jpg"
+    ],
+    "sample_counts": {
+      "representative_frames": 32,
+      "motion_pairs": 12
+    },
+    "observations": [
+      "No repeated-tile pattern, obvious clipping or subtitles over key imagery in samples.",
+      "12sampled motion pairs show particle, impact, thermal-ray, radiator and wave-geometry change; some are subtle.",
+      "Scientific qualifiers are visible in native/source sampling and larger contact view; fine HUD text is not established as readable at phone width.",
+      "Two raw scan flags2600/5400 retained; six neighbor frames and source show persistent authored palette/act transitions, no isolatedflash or repeatedtile."
+    ]
+  },
+  "limits": [
+    "Sampled model visual observation; not continuous human viewing.",
+    "No human listening, pronunciation judgment or phone/App playback acceptance.",
+    "Continuous7200frame region scanner is independent of sampled observations and is not a whole-picture perceptual proof."
+  ]
+}

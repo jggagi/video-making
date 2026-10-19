@@ -608,6 +608,47 @@
       ]
     },
     {
+      "id": "si-ep05-landauer-limit-v03",
+      "title": "Final 成片备份 · 兰道尔极限｜稳定画面与氛围音乐 · EP.05 v03",
+      "release_tag": "final-si-ep05-landauer-limit-v03-2c74a5edf096",
+      "assets": [
+        {
+          "path": "final/si-ep05-landauer-limit-v03/B站/si-ep05-landauer-limit-v03-bilibili-120s-4k.mp4",
+          "name": "final--si-ep05-landauer-limit-v03--deliveries--si-ep05-landauer-limit-v03--B---si-ep05-landauer-limit-v03-bilibili-120s-4k--12c642ba64d5.mp4",
+          "bytes": 187241112,
+          "sha256": "12c642ba64d552b3839cf1cf2928d2cbff53a4549851fdf2797c2fc58e0c798a",
+          "kind": "video",
+          "platform": "B站",
+          "measurements": {
+            "width": 3840,
+            "height": 2160,
+            "fps": "60/1",
+            "frames": "7200",
+            "video_duration_seconds": 120.0,
+            "container_duration_seconds": 120.0
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep05-landauer-limit-v03-2c74a5edf096/final--si-ep05-landauer-limit-v03--deliveries--si-ep05-landauer-limit-v03--B---si-ep05-landauer-limit-v03-bilibili-120s-4k--12c642ba64d5.mp4"
+        },
+        {
+          "path": "final/si-ep05-landauer-limit-v03/小红书/si-ep05-landauer-limit-v03-xiaohongshu-120s-portrait.mp4",
+          "name": "final--si-ep05-landauer-limit-v03--deliveries--si-ep05-landauer-limit-v03-----si-ep05-landauer-limit-v03-xiaohongshu-120s-portrait--ab2765c6fb02.mp4",
+          "bytes": 202164075,
+          "sha256": "ab2765c6fb0220216ae6418f65df0dcb0a03a7b989780a41cde806ffda4594b9",
+          "kind": "video",
+          "platform": "小红书",
+          "measurements": {
+            "width": 2160,
+            "height": 3840,
+            "fps": "60/1",
+            "frames": "7200",
+            "video_duration_seconds": 120.0,
+            "container_duration_seconds": 120.0
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep05-landauer-limit-v03-2c74a5edf096/final--si-ep05-landauer-limit-v03--deliveries--si-ep05-landauer-limit-v03-----si-ep05-landauer-limit-v03-xiaohongshu-120s-portrait--ab2765c6fb02.mp4"
+        }
+      ]
+    },
+    {
       "id": "si-ep06-sovereign-crystal",
       "title": "Final 成片备份 · 主权心印｜THE SOVEREIGN SOUL CRYSTAL · EP.06",
       "release_tag": "final-si-ep06-sovereign-crystal-17a9981f3b94",

@@ -1,0 +1,128 @@
+{
+  "status": "PASS",
+  "reference": "initial capture clean frame0 continuous decode",
+  "frames": [
+    {
+      "frame": 138,
+      "path": "project/frame-repairs/portrait/frame-000138.png",
+      "sha256": "3be970b5ed0535e8a5f7ce5caa1bcb1b39ecbc3cc5b331fdc5c094c07e68d6ff",
+      "native_dimensions": [
+        2160,
+        3840
+      ],
+      "watermark_mae_vs_clean_reference": 4.887443802183687,
+      "watermark_correlation": 0.9935318341368166
+    },
+    {
+      "frame": 142,
+      "path": "project/frame-repairs/portrait/frame-000142.png",
+      "sha256": "333730ea1776bddd14dd24c7fb4f025fb9800a3165dd9459cc468009fc9ea265",
+      "native_dimensions": [
+        2160,
+        3840
+      ],
+      "watermark_mae_vs_clean_reference": 4.881342324983944,
+      "watermark_correlation": 0.9935130000687064
+    },
+    {
+      "frame": 147,
+      "path": "project/frame-repairs/portrait/frame-000147.png",
+      "sha256": "7a49ebc62b9e89d94d234eaeccc32ce73b00beac55672120fdb3f4aab5ebc247",
+      "native_dimensions": [
+        2160,
+        3840
+      ],
+      "watermark_mae_vs_clean_reference": 4.889370584457289,
+      "watermark_correlation": 0.9935026302375367
+    },
+    {
+      "frame": 149,
+      "path": "project/frame-repairs/portrait/frame-000149.png",
+      "sha256": "b59cb8c3a2ba4b3935b6ca54ef95f36d867d30042518e4821ee9b01802d85397",
+      "native_dimensions": [
+        2160,
+        3840
+      ],
+      "watermark_mae_vs_clean_reference": 4.874919717405267,
+      "watermark_correlation": 0.9935017380516145
+    },
+    {
+      "frame": 153,
+      "path": "project/frame-repairs/portrait/frame-000153.png",
+      "sha256": "e510b452aa0d1f5aff3337ee972cf9fccdf9d43d0736272bccfe0ac99cc1dfc1",
+      "native_dimensions": [
+        2160,
+        3840
+      ],
+      "watermark_mae_vs_clean_reference": 4.880057803468208,
+      "watermark_correlation": 0.9934767060046109
+    },
+    {
+      "frame": 164,
+      "path": "project/frame-repairs/portrait/frame-000164.png",
+      "sha256": "c4a895deff8be7fe6731dc57f15b83017bb53bafc6c7c0ab10e82442f979bd5d",
+      "native_dimensions": [
+        2160,
+        3840
+      ],
+      "watermark_mae_vs_clean_reference": 4.8675337186897885,
+      "watermark_correlation": 0.9934347966717979
+    },
+    {
+      "frame": 3842,
+      "path": "project/frame-repairs/portrait/frame-003842.png",
+      "sha256": "67ddd5dad4b2b27fccbc504ae015da3544bf8ad67fbdd5f16ffb67baed1bc04d",
+      "native_dimensions": [
+        2160,
+        3840
+      ],
+      "watermark_mae_vs_clean_reference": 5.624598587026333,
+      "watermark_correlation": 0.9902160399401724
+    },
+    {
+      "frame": 3853,
+      "path": "project/frame-repairs/portrait/frame-003853.png",
+      "sha256": "8fdabf548af0732cc0ec72a1263c45cd2da90189449c1157abb74258f6d73294",
+      "native_dimensions": [
+        2160,
+        3840
+      ],
+      "watermark_mae_vs_clean_reference": 5.657675016056519,
+      "watermark_correlation": 0.9901270652104178
+    },
+    {
+      "frame": 3857,
+      "path": "project/frame-repairs/portrait/frame-003857.png",
+      "sha256": "2cb6d44cad2302cffcccf76c4f5119f07611c18b1512b1716ca0b9511df6cb57",
+      "native_dimensions": [
+        2160,
+        3840
+      ],
+      "watermark_mae_vs_clean_reference": 5.657032755298651,
+      "watermark_correlation": 0.990128647395095
+    },
+    {
+      "frame": 6928,
+      "path": "project/frame-repairs/portrait/frame-006928.png",
+      "sha256": "2d011c95c961556325a0db7a34db1d36f0ff0e3e94be504af0b2455b2ae7ea51",
+      "native_dimensions": [
+        2160,
+        3840
+      ],
+      "watermark_mae_vs_clean_reference": 4.986191393705845,
+      "watermark_correlation": 0.9934737563551925
+    },
+    {
+      "frame": 6992,
+      "path": "project/frame-repairs/portrait/frame-006992.png",
+      "sha256": "15a94fe28e21319cb85b5d09e1ea957e006c75961a380bfebc7ed80020d15cc9",
+      "native_dimensions": [
+        2160,
+        3840
+      ],
+      "watermark_mae_vs_clean_reference": 4.9804110468850356,
+      "watermark_correlation": 0.9934815556962445
+    }
+  ],
+  "note": "Native frames redrawn at exact original timeline indices; not neighbor duplication/interpolation."
+}

@@ -1,0 +1,236 @@
+{
+  "source": "deliveries/si-ep05-landauer-limit-v03/小红书/si-ep05-landauer-limit-v03-xiaohongshu-120s-portrait.mp4",
+  "decode": "single FFmpeg continuous decode from frame 0; no seek; select exact absolute frame indexes; 2 threads; scale 360x640; RGB24",
+  "target_frames": [
+    138,
+    142,
+    147,
+    149,
+    153,
+    164,
+    3842,
+    3853,
+    3857,
+    6928,
+    6992
+  ],
+  "distinct_decoded_frames": 32,
+  "decoded_frame_indexes": [
+    137,
+    138,
+    139,
+    141,
+    142,
+    143,
+    146,
+    147,
+    148,
+    149,
+    150,
+    152,
+    153,
+    154,
+    163,
+    164,
+    165,
+    3841,
+    3842,
+    3843,
+    3852,
+    3853,
+    3854,
+    3856,
+    3857,
+    3858,
+    6927,
+    6928,
+    6929,
+    6991,
+    6992,
+    6993
+  ],
+  "contact_sheet": "/private/tmp/ep05-repair-neighbors/triples-contact.jpg",
+  "metrics": [
+    {
+      "target_frame": 138,
+      "target_time_seconds": 2.3,
+      "neighbor_frames": [
+        137,
+        138,
+        139
+      ],
+      "mean_luma": {
+        "137": 18.2103,
+        "138": 18.2175,
+        "139": 18.2056
+      },
+      "prev_to_target_mean_abs_rgb_diff": 0.2642,
+      "target_to_next_mean_abs_rgb_diff": 0.2624
+    },
+    {
+      "target_frame": 142,
+      "target_time_seconds": 2.3666666666666667,
+      "neighbor_frames": [
+        141,
+        142,
+        143
+      ],
+      "mean_luma": {
+        "141": 18.2077,
+        "142": 18.2169,
+        "143": 18.2089
+      },
+      "prev_to_target_mean_abs_rgb_diff": 0.2644,
+      "target_to_next_mean_abs_rgb_diff": 0.258
+    },
+    {
+      "target_frame": 147,
+      "target_time_seconds": 2.45,
+      "neighbor_frames": [
+        146,
+        147,
+        148
+      ],
+      "mean_luma": {
+        "146": 18.2189,
+        "147": 18.2303,
+        "148": 18.2226
+      },
+      "prev_to_target_mean_abs_rgb_diff": 0.2811,
+      "target_to_next_mean_abs_rgb_diff": 0.2674
+    },
+    {
+      "target_frame": 149,
+      "target_time_seconds": 2.4833333333333334,
+      "neighbor_frames": [
+        148,
+        149,
+        150
+      ],
+      "mean_luma": {
+        "148": 18.2226,
+        "149": 18.2268,
+        "150": 18.2153
+      },
+      "prev_to_target_mean_abs_rgb_diff": 0.2684,
+      "target_to_next_mean_abs_rgb_diff": 0.272
+    },
+    {
+      "target_frame": 153,
+      "target_time_seconds": 2.55,
+      "neighbor_frames": [
+        152,
+        153,
+        154
+      ],
+      "mean_luma": {
+        "152": 18.2178,
+        "153": 18.229,
+        "154": 18.2209
+      },
+      "prev_to_target_mean_abs_rgb_diff": 0.2685,
+      "target_to_next_mean_abs_rgb_diff": 0.2655
+    },
+    {
+      "target_frame": 164,
+      "target_time_seconds": 2.7333333333333334,
+      "neighbor_frames": [
+        163,
+        164,
+        165
+      ],
+      "mean_luma": {
+        "163": 18.2216,
+        "164": 18.2294,
+        "165": 18.2183
+      },
+      "prev_to_target_mean_abs_rgb_diff": 0.2689,
+      "target_to_next_mean_abs_rgb_diff": 0.2637
+    },
+    {
+      "target_frame": 3842,
+      "target_time_seconds": 64.03333333333333,
+      "neighbor_frames": [
+        3841,
+        3842,
+        3843
+      ],
+      "mean_luma": {
+        "3841": 17.6625,
+        "3842": 17.6773,
+        "3843": 17.6626
+      },
+      "prev_to_target_mean_abs_rgb_diff": 0.2555,
+      "target_to_next_mean_abs_rgb_diff": 0.2467
+    },
+    {
+      "target_frame": 3853,
+      "target_time_seconds": 64.21666666666667,
+      "neighbor_frames": [
+        3852,
+        3853,
+        3854
+      ],
+      "mean_luma": {
+        "3852": 17.6814,
+        "3853": 17.7067,
+        "3854": 17.6852
+      },
+      "prev_to_target_mean_abs_rgb_diff": 0.2595,
+      "target_to_next_mean_abs_rgb_diff": 0.2523
+    },
+    {
+      "target_frame": 3857,
+      "target_time_seconds": 64.28333333333333,
+      "neighbor_frames": [
+        3856,
+        3857,
+        3858
+      ],
+      "mean_luma": {
+        "3856": 17.6866,
+        "3857": 17.6998,
+        "3858": 17.6835
+      },
+      "prev_to_target_mean_abs_rgb_diff": 0.2601,
+      "target_to_next_mean_abs_rgb_diff": 0.2442
+    },
+    {
+      "target_frame": 6928,
+      "target_time_seconds": 115.46666666666667,
+      "neighbor_frames": [
+        6927,
+        6928,
+        6929
+      ],
+      "mean_luma": {
+        "6927": 15.4873,
+        "6928": 15.426,
+        "6929": 15.3278
+      },
+      "prev_to_target_mean_abs_rgb_diff": 0.237,
+      "target_to_next_mean_abs_rgb_diff": 0.2096
+    },
+    {
+      "target_frame": 6992,
+      "target_time_seconds": 116.53333333333333,
+      "neighbor_frames": [
+        6991,
+        6992,
+        6993
+      ],
+      "mean_luma": {
+        "6991": 18.2979,
+        "6992": 18.3196,
+        "6993": 18.3107
+      },
+      "prev_to_target_mean_abs_rgb_diff": 1.9396,
+      "target_to_next_mean_abs_rgb_diff": 1.9595
+    }
+  ],
+  "metric_limit": "Whole-frame RGB/luma changes are descriptive; ordinary scene motion also changes them and they are not standalone artifact flags.",
+  "media": "小红书/si-ep05-landauer-limit-v03-xiaohongshu-120s-portrait.mp4",
+  "media_sha256": "ab2765c6fb0220216ae6418f65df0dcb0a03a7b989780a41cde806ffda4594b9",
+  "observation": "Independent Luna review of11 target±1 frame triplets and root check of6992: no isolated subtitle shift, missing overlay, frame misalignment or whole-frame color flash. Higher6992 difference localized to animated center.",
+  "limits": "32 unique downscaled frames, not continuous human viewing/listening/device acceptance."
+}

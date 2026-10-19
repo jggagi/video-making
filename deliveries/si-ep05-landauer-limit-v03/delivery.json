@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "title": "兰道尔极限｜稳定画面与氛围音乐 · EP.05 v03",
+  "slug": "si-ep05-landauer-limit-v03",
+  "duration_seconds": 120,
+  "fps": 60,
+  "total_frames": 7200,
+  "script": {
+    "path": "source/script.md",
+    "sha256": "c7a9909d69e98bac2566ef1cf5730874acd2a20a33b9ee3db50d392ab7385adc"
+  },
+  "audio": {
+    "mode": "narrated",
+    "master": "project/public/audio/master.wav",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples_per_channel": 5760000,
+    "sha256": "43bda3d78e143ccb6250b91ef1795067b88ae90b32366c7c56840e2e7390a29b",
+    "pcm_metrics": {
+      "lufs": -17.0,
+      "true_peak_dbtp": -1.8
+    }
+  },
+  "outputs": {
+    "bilibili": {
+      "path": "B站/si-ep05-landauer-limit-v03-bilibili-120s-4k.mp4",
+      "width": 3840,
+      "height": 2160,
+      "bytes": 187241112,
+      "sha256": "12c642ba64d552b3839cf1cf2928d2cbff53a4549851fdf2797c2fc58e0c798a",
+      "aac_metrics": {
+        "lufs": -17.0,
+        "true_peak_dbtp": -1.7
+      },
+      "aac_packet_sha256": "53f92a7fe50e82c950a5c60e0e79bbbdf488d23bd8233a798968ee20c9cef4a5",
+      "technical_status": "PASS",
+      "strict_validation_report": "review/media-validation-20261019T125004.201271Z.json"
+    },
+    "xiaohongshu": {
+      "path": "小红书/si-ep05-landauer-limit-v03-xiaohongshu-120s-portrait.mp4",
+      "width": 2160,
+      "height": 3840,
+      "bytes": 202164075,
+      "sha256": "ab2765c6fb0220216ae6418f65df0dcb0a03a7b989780a41cde806ffda4594b9",
+      "aac_metrics": {
+        "lufs": -17.0,
+        "true_peak_dbtp": -1.7
+      },
+      "aac_packet_sha256": "53f92a7fe50e82c950a5c60e0e79bbbdf488d23bd8233a798968ee20c9cef4a5",
+      "technical_status": "PASS",
+      "strict_validation_report": "review/media-validation-20261019T125004.201271Z.json"
+    }
+  },
+  "qa": {
+    "automated": "PASS",
+    "representative_frames": "model_observed_samples_both_editions",
+    "continuous_human_review": "pending",
+    "target_device_playback": "pending",
+    "strict_media_report": "review/media-validation-20261019T125004.201271Z.json",
+    "source_and_numerical_report": "review/project-check.json",
+    "representative_evidence": "review/visual-observations.json",
+    "temporal_screening": {
+      "portrait": {
+        "decoded_frames": 7200,
+        "flags": 0,
+        "report": "review/flicker-after-portrait/temporal-scan.json"
+      },
+      "landscape": {
+        "decoded_frames": 7200,
+        "flags": 2,
+        "reviewed_as_authored_transitions": [
+          2600,
+          5400
+        ],
+        "confirmed_repeated_tile_frames_in_review": 0,
+        "report": "review/flicker-after-landscape/temporal-scan.json",
+        "review": "review/landscape-transition-review.json"
+      }
+    },
+    "shared_audio": "PASS",
+    "shared_audio_report": "review/shared-audio-correlation.json",
+    "encoded_audio_details": "review/encoded-audio-details.json",
+    "browser_playback": "PASS_desktop_muted_samples",
+    "browser_report": "review/browser-player-qa.json",
+    "human_listening": "pending"
+  },
+  "production_status": "validated_archive_pending",
+  "revision": {
+    "based_on": "si-ep05-landauer-limit-v02",
+    "reason": "User reported flashing portrait video and requested atmospheric background music",
+    "preserves_previous_delivery": true,
+    "narration": "reuse exact10 existing cues;no new cloud calls",
+    "portrait_repair": "11same-index independentnative4K PNG overlays;CRF15 reencode;AACcopy hash-identical;inputretained",
+    "music": "Original deterministic local ambient score with narrative ducking;25framePCMzero preserved"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "builder": "scripts/build-final-library.py",
+  "builder_result": {
+    "total_files": 41,
+    "created": 2,
+    "skipped": 39
+  },
+  "method": "VerifiedAPFSclone builder then fresh byte-size/SHA256 of both new final paths; all41catalogassets passed uploader localdryrun",
+  "new_assets": [
+    {
+      "path": "final/si-ep05-landauer-limit-v03/B站/si-ep05-landauer-limit-v03-bilibili-120s-4k.mp4",
+      "platform": "B站",
+      "bytes": 187241112,
+      "sha256": "12c642ba64d552b3839cf1cf2928d2cbff53a4549851fdf2797c2fc58e0c798a",
+      "inode": 155635447
+    },
+    {
+      "path": "final/si-ep05-landauer-limit-v03/小红书/si-ep05-landauer-limit-v03-xiaohongshu-120s-portrait.mp4",
+      "platform": "小红书",
+      "bytes": 202164075,
+      "sha256": "ab2765c6fb0220216ae6418f65df0dcb0a03a7b989780a41cde806ffda4594b9",
+      "inode": 155635454
+    }
+  ],
+  "limits": "APFSclone is local retention on samevolume, independentcloudbackups separately required."
+}

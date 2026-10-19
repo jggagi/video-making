@@ -1,0 +1,14 @@
+{
+  "terms": [
+    "AMBIENT TEMP (T)",
+    "HEAT PER ERASED BIT",
+    "ACTIVE SI POWER",
+    "EARTH RADIATIVE CEILING",
+    "DEEP SPACE CMB",
+    "SEVERE HEAT SCENARIO",
+    "ATMOSPHERE",
+    "BIOSPHERE"
+  ],
+  "temperature_units": "K",
+  "notes": "Exact visible HUD terminology for EP05 v02."
+}

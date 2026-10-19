@@ -1,0 +1,9 @@
+{
+  "status": "user_reported_and_encoded_artifact_confirmed",
+  "report": "小红书版一闪一闪",
+  "followup_revision": "si-ep05-landauer-limit-v03",
+  "old_media_preserved": true,
+  "new_evidence": "deliveries/si-ep05-landauer-limit-v03/review/flicker-before/temporal-scan.json",
+  "findings": "Continuous decode of7200portraitframes flagged81watermarklayout outliers;top10inspected are repeatedtexttiles.160adjacent jumps include recoveryframes. Prior strictdecode andsparseframechecks didnotcapturethisvisualdefect.",
+  "original_human_acceptance_was": "pending"
+}

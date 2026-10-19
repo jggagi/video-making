@@ -1,0 +1,76 @@
+{
+  "test": "previously continuous-decoded landscape mosaic positive control",
+  "source_contact_sheet": "/private/tmp/ep05-flicker-diagnostic/landscape-frames-300-303-and-892-910.jpg",
+  "source_decode_evidence": "deliveries/si-ep05-landauer-limit-v03/review/flicker-before/frame-confirmation.json (continuous decode from file start; frame 894 hash matched fast-seek capture)",
+  "contact_crop": "6 columns x 4 rows; each cell 360x226 with 24px heading and 202px scaled frame; JPEG crop used for this metric spot check",
+  "watermark_logical_xywh": [
+    72,
+    43,
+    650,
+    28
+  ],
+  "watermark_scaled_xyxy": [
+    14,
+    8,
+    136,
+    13
+  ],
+  "template_frame": 300,
+  "clean_template_mae_rgb_median": 2.2827868852459017,
+  "clean_template_mae_rgb_mad": 0.22185792349726774,
+  "template_outlier_threshold_rgb_mae": 8.0,
+  "clean_adjacent_watermark_mae_rgb_median": 0.6540983606557377,
+  "clean_adjacent_watermark_mae_rgb_mad": 0.2240437158469945,
+  "temporal_outlier_threshold_rgb_mae": 8.0,
+  "frames_around_mosaic": {
+    "893": {
+      "watermark_mae_rgb": 2.0103825136612024,
+      "watermark_mae_luma": 1.4092921018600464,
+      "watermark_correlation": 0.9937262535095215,
+      "watermark_bright_pixels_gt160": 0,
+      "watermark_prev_mae_rgb": null
+    },
+    "894": {
+      "watermark_mae_rgb": 13.279234972677596,
+      "watermark_mae_luma": 13.045592308044434,
+      "watermark_correlation": 0.44563227891921997,
+      "watermark_bright_pixels_gt160": 0,
+      "watermark_prev_mae_rgb": null
+    },
+    "895": {
+      "watermark_mae_rgb": 2.1114754098360655,
+      "watermark_mae_luma": 1.8069343566894531,
+      "watermark_correlation": 0.989970862865448,
+      "watermark_bright_pixels_gt160": 0,
+      "watermark_prev_mae_rgb": null
+    }
+  },
+  "adjacent_mosaic_watermark_mae_rgb": {
+    "893_to_894": 13.32896174863388,
+    "894_to_895": 12.354644808743169
+  },
+  "frame894_detected_by_template_threshold": true,
+  "frame894_detected_by_adjacent_delta_threshold": true,
+  "clean_adjacent_control_frames": [
+    301,
+    302,
+    303,
+    893,
+    896,
+    897,
+    898,
+    899,
+    900,
+    901,
+    902,
+    903,
+    904,
+    905,
+    906,
+    907,
+    908,
+    909,
+    910
+  ],
+  "note": "Positive control is qualitative/calibration evidence from the existing verified contact sheet, not a full landscape scan. Native f894 PNG independently shows the tiled frame."
+}

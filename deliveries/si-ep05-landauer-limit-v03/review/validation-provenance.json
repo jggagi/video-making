@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "validated_input_snapshot": "review/validated-manifest-input.json",
+  "snapshot_sha256": "e3d3e3672595aef5b577c0e22ebffc92b3917a8268aef87691890f436e88ed81",
+  "strict_media_report": "review/media-validation-20261019T125004.201271Z.json",
+  "render_inputs_sha256": "756543f075ecfa22454115022a50d4409d4fa85767318ff0c0f1dd6226f6890e",
+  "render_inputs_unchanged": true,
+  "current_media_spec_matches_validated_input": true,
+  "media_reencoded_after_validation": false,
+  "capture_provenance": {
+    "landscape": "Full native capture from current frozen15inputs includingfonts+twoRAFgate",
+    "portrait": "Initial capture from initial-capture-inputs, then11native still overlays from current render-inputs. Gate changes readiness only;visual source/frame state retained. Input capture retained in review/iterations.",
+    "initial_inputs": "review/initial-capture-inputs.json",
+    "repair_report": "review/portrait-frame-repair.json"
+  },
+  "final_outputs": {
+    "bilibili": {
+      "path": "B站/si-ep05-landauer-limit-v03-bilibili-120s-4k.mp4",
+      "bytes": 187241112,
+      "sha256": "12c642ba64d552b3839cf1cf2928d2cbff53a4549851fdf2797c2fc58e0c798a"
+    },
+    "xiaohongshu": {
+      "path": "小红书/si-ep05-landauer-limit-v03-xiaohongshu-120s-portrait.mp4",
+      "bytes": 202164075,
+      "sha256": "ab2765c6fb0220216ae6418f65df0dcb0a03a7b989780a41cde806ffda4594b9"
+    }
+  },
+  "later_metadata_additions": [
+    "MeasuredAACmetrics",
+    "QAevidence paths/status",
+    "production/archive metadata"
+  ],
+  "limits": [
+    "Visual samples and region scans are not human continuous viewing, listening or device acceptance."
+  ]
+}

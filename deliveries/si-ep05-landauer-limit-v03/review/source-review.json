@@ -1,0 +1,24 @@
+{
+  "status": "PASS_scoped_static_review",
+  "scope": [
+    "project/src/Film.tsx",
+    "project/src/CanvasWorld.tsx",
+    "project/scripts/render.mjs",
+    "project/scripts/chrome-stable.sh",
+    "project/scripts/repair_frames.py"
+  ],
+  "reviewer": "independent Luna worker, integrated by root",
+  "findings": [],
+  "verified_in_source": [
+    "Absolute frame driven canvas; act boundaries1800/3600/5400 retained",
+    "Font readiness plus two RAF gate has idempotent release and cleanup",
+    "900-frame impact no longer periodically resets; smooth motion envelopes",
+    "Chrome wrapper preserves incoming parameters",
+    "Repair overlay zero-based frame fixture changes only selected frame; audio packet hashes preserved"
+  ],
+  "resource_note": "Native capture concurrency4 increases browser memory pressure relative to v02 concurrency2; static evidence does not establish this as the artifact cause. Heavy jobs capped at two.",
+  "limits": [
+    "Static review cannot establish full encoded-media or human playback acceptance.",
+    "Separate final-media continuous scans and strict validation required."
+  ]
+}

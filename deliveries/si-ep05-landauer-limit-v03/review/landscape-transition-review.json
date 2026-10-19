@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "media": "B站/si-ep05-landauer-limit-v03-bilibili-120s-4k.mp4",
+  "media_sha256": "12c642ba64d552b3839cf1cf2928d2cbff53a4549851fdf2797c2fc58e0c798a",
+  "method": "One continuous no-seek decode from0,threads2,selected6frames2599..2601/5399..5401 at960x540; Luna and root viewed triplets.",
+  "flagged_frames_unchanged": [
+    2600,
+    5400
+  ],
+  "findings": [
+    {
+      "frame": 2600,
+      "prev_target_mae_rgb": 12.65,
+      "target_next_mae_rgb": 0.34,
+      "interpretation": "Persistent authored hot palette begins f2600; CanvasWorld hot=f>=2600&&f<5400; f2601 staysred. No repeatedtile/isolatedflash."
+    },
+    {
+      "frame": 5400,
+      "prev_target_mae_rgb": 22.47,
+      "target_next_mae_rgb": 0.23,
+      "interpretation": "Authored chapter3to4/heattoCMB deep-space cut; f5401 remainscold. No repeatedtile/isolatedflash."
+    }
+  ],
+  "limits": "Six downscaled frames and matching source boundaries; not whole-film human viewing."
+}

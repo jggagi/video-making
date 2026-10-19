@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "checker": "EP05 v02 source and numerical verifier",
+  "source_script": {
+    "path": "source/script.md",
+    "sha256": "c7a9909d69e98bac2566ef1cf5730874acd2a20a33b9ee3db50d392ab7385adc",
+    "hash_matches": true
+  },
+  "output_files": {
+    "bilibili": {
+      "present": false,
+      "path": "B站/si-ep05-landauer-limit-v03-bilibili-120s-4k.mp4",
+      "expected_dimensions": {
+        "width": 3840,
+        "height": 2160
+      },
+      "size_bytes": null
+    },
+    "xiaohongshu": {
+      "present": false,
+      "path": "小红书/si-ep05-landauer-limit-v03-xiaohongshu-120s-portrait.mp4",
+      "expected_dimensions": {
+        "width": 2160,
+        "height": 3840
+      },
+      "size_bytes": null
+    }
+  },
+  "physics_numerics": {
+    "e300": 2.870978885078724e-21,
+    "eCmb": 2.6078058206131743e-23,
+    "ratio": 110.09174311926606,
+    "peakLambda": 9.6584,
+    "peakValue": 9.952489280714737,
+    "wienLambda": 9.659239849999999,
+    "potentialChecks": [
+      {
+        "x": -1,
+        "value": -1,
+        "derivative": -4.000000053405728e-06,
+        "curvature": 8.000001999963757,
+        "neighborsLower": false
+      },
+      {
+        "x": 1,
+        "value": -1,
+        "derivative": 4.000000053405728e-06,
+        "curvature": 8.00000200007478,
+        "neighborsLower": false
+      }
+    ],
+    "r300": 142906395323101140,
+    "r600": 2286502325169618200,
+    "radiatedRatio": 16,
+    "parent": 0.0123,
+    "child": 0.009762516469604427,
+    "murrayRatio": 1.0000000000000002,
+    "states": [
+      {
+        "frame": 0,
+        "temperature": 300,
+        "efficiency": 348313254826525660000,
+        "wasteHeat": 20,
+        "bitEnergy": 2.870978885078724e-21,
+        "year": 1946,
+        "absorbedSolar": 121484605597113810,
+        "outgoingRadiation": 142906395323101140,
+        "landauerOpsPerJ": 348313254826525660000
+      },
+      {
+        "frame": 3600,
+        "temperature": 300,
+        "efficiency": 348313254826525660000,
+        "wasteHeat": 15000000000000000,
+        "bitEnergy": 2.870978885078724e-21,
+        "year": 2080,
+        "absorbedSolar": 121484605597113810,
+        "outgoingRadiation": 142906395323101140,
+        "landauerOpsPerJ": 348313254826525660000
+      },
+      {
+        "frame": 5399,
+        "temperature": 348,
+        "efficiency": 300270047264246200000,
+        "wasteHeat": 15000000000000000,
+        "bitEnergy": 3.33033550669132e-21,
+        "year": 2080,
+        "absorbedSolar": 121484605597113810,
+        "outgoingRadiation": 258751944167726820,
+        "landauerOpsPerJ": 300270047264246200000
+      },
+      {
+        "frame": 5400,
+        "temperature": 2.725,
+        "efficiency": 3.834641337539732e+22,
+        "wasteHeat": 15000000000000000,
+        "bitEnergy": 2.6078058206131743e-23,
+        "year": 2080,
+        "absorbedSolar": 121484605597113810,
+        "outgoingRadiation": 972820406.9708699,
+        "landauerOpsPerJ": 3.834641337539732e+22
+      }
+    ]
+  },
+  "pcm_master": {
+    "path": "project/public/audio/master.wav",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples_per_channel": 5760000,
+    "sample_width_bytes": 2,
+    "sha256": "43bda3d78e143ccb6250b91ef1795067b88ae90b32366c7c56840e2e7390a29b"
+  },
+  "status": "FAIL",
+  "failures": [
+    "delivery slug must be si-ep05-landauer-limit-v02",
+    "delivery title must be '兰道尔极限｜窒息与冷寂 · EP.05 v02'",
+    "audio-timing.json captions must be an array"
+  ],
+  "incomplete": [
+    "missing final bilibili media: B站/si-ep05-landauer-limit-v03-bilibili-120s-4k.mp4",
+    "missing final xiaohongshu media: 小红书/si-ep05-landauer-limit-v03-xiaohongshu-120s-portrait.mp4"
+  ],
+  "limitations": [
+    "This verifier checks source, numerical formulas, layout bounds, timeline and PCM metadata only.",
+    "It does not decode or approve either final MP4, assess visual content, or claim human listening/device acceptance.",
+    "PNG frame capture and encoded AAC evidence are collected separately by collect_qa.py."
+  ]
+}

@@ -1,0 +1,325 @@
+{
+  "status": "pcm_alignment_verified",
+  "durationSeconds": 120,
+  "samplesPerChannel": 5760000,
+  "stems": {
+    "narration": {
+      "samplesPerChannel": 5760000,
+      "sha256": "593ec7b34b9148090a434e630c307a7c7fafe059e0230d2b2a9c2a16f0ac6478",
+      "exactLength": true
+    },
+    "score": {
+      "samplesPerChannel": 5760000,
+      "sha256": "ad12bbd0350f118bd80dcf077c1e8da776d97ffba173ea29bcd3e7d8c81c0380",
+      "exactLength": true
+    },
+    "sfx": {
+      "samplesPerChannel": 5760000,
+      "sha256": "04d269f5cd6220311d972dd1fbf2b35810a30ed96d28d985600201e6365c12ce",
+      "exactLength": true
+    },
+    "thermal": {
+      "samplesPerChannel": 5760000,
+      "sha256": "6ea221ca0f0c7682ddc82e42d5662970d19a8b7e5eb987bae409e50eb5b3e056",
+      "exactLength": true
+    },
+    "master": {
+      "samplesPerChannel": 5760000,
+      "sha256": "43bda3d78e143ccb6250b91ef1795067b88ae90b32366c7c56840e2e7390a29b",
+      "exactLength": true
+    }
+  },
+  "narrationSegments": [
+    {
+      "id": "S01",
+      "declaredStartFrame": 120,
+      "measuredVoiceStartSample": 105600,
+      "measuredVoiceEndSampleExclusive": 350993,
+      "measuredCueSamples": 261120,
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 84,
+        "windowSamples": 240
+      },
+      "cueSamplesCompared": 261120,
+      "cueSha256": "4d48cc6c78203d15538fa023b1a61991bfaa6bc380c83a8c64956b6b697ae567",
+      "exactPcmMatch": true
+    },
+    {
+      "id": "S02",
+      "declaredStartFrame": 660,
+      "measuredVoiceStartSample": 528000,
+      "measuredVoiceEndSampleExclusive": 865377,
+      "measuredCueSamples": 357120,
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 73,
+        "windowSamples": 240
+      },
+      "cueSamplesCompared": 357120,
+      "cueSha256": "4ff406053c03e98ab4ac3add39310dec3b2f277e18f4c5acb8ed1102d3aa828b",
+      "exactPcmMatch": true
+    },
+    {
+      "id": "S03",
+      "declaredStartFrame": 1320,
+      "measuredVoiceStartSample": 1056000,
+      "measuredVoiceEndSampleExclusive": 1342381,
+      "measuredCueSamples": 303360,
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 94,
+        "windowSamples": 240
+      },
+      "cueSamplesCompared": 303360,
+      "cueSha256": "57e1c0a3b2fc2b4b522624496a9b9950852875d1c26879740b709fabaabe0886",
+      "exactPcmMatch": true
+    },
+    {
+      "id": "S04",
+      "declaredStartFrame": 1860,
+      "measuredVoiceStartSample": 1488000,
+      "measuredVoiceEndSampleExclusive": 1895984,
+      "measuredCueSamples": 426240,
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 83,
+        "windowSamples": 240
+      },
+      "cueSamplesCompared": 426240,
+      "cueSha256": "3f8a062e70c5b91baaf03c83687821f236194855ca9db4d9a6a96aedfdae932d",
+      "exactPcmMatch": true
+    },
+    {
+      "id": "S05",
+      "declaredStartFrame": 2700,
+      "measuredVoiceStartSample": 2160000,
+      "measuredVoiceEndSampleExclusive": 2575747,
+      "measuredCueSamples": 433920,
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 92,
+        "windowSamples": 240
+      },
+      "cueSamplesCompared": 433920,
+      "cueSha256": "d341b1daf6ffdceaee81d8dcacd73a399f62d6e4b131747f7d853ae982972024",
+      "exactPcmMatch": true
+    },
+    {
+      "id": "S06",
+      "declaredStartFrame": 3660,
+      "measuredVoiceStartSample": 2928000,
+      "measuredVoiceEndSampleExclusive": 3271980,
+      "measuredCueSamples": 364800,
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 110,
+        "windowSamples": 240
+      },
+      "cueSamplesCompared": 364800,
+      "cueSha256": "80dfd242c930d3a7f89053dd274213580eba0d29039477503af6365cdbcd3bac",
+      "exactPcmMatch": true
+    },
+    {
+      "id": "S07",
+      "declaredStartFrame": 4500,
+      "measuredVoiceStartSample": 3600000,
+      "measuredVoiceEndSampleExclusive": 4023264,
+      "measuredCueSamples": 445440,
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 79,
+        "windowSamples": 240
+      },
+      "cueSamplesCompared": 445440,
+      "cueSha256": "9df24a66bf6e3b72d796195b87b50b955801b1dec7f32011cebfe9417ec457f9",
+      "exactPcmMatch": true
+    },
+    {
+      "id": "S08",
+      "declaredStartFrame": 5460,
+      "measuredVoiceStartSample": 4368000,
+      "measuredVoiceEndSampleExclusive": 4805363,
+      "measuredCueSamples": 456960,
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 78,
+        "windowSamples": 240
+      },
+      "cueSamplesCompared": 456960,
+      "cueSha256": "d1f097f7ecdf420779c1d29e74864abf4ba142af7ad297705b2c1608b73350eb",
+      "exactPcmMatch": true
+    },
+    {
+      "id": "S09",
+      "declaredStartFrame": 6360,
+      "measuredVoiceStartSample": 5088000,
+      "measuredVoiceEndSampleExclusive": 5456787,
+      "measuredCueSamples": 387840,
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 79,
+        "windowSamples": 240
+      },
+      "cueSamplesCompared": 387840,
+      "cueSha256": "66ee1d4e26d1324df1fd2d21ea32f6cf3e33f835359482d6b160c8ba7d677eea",
+      "exactPcmMatch": true
+    },
+    {
+      "id": "S10",
+      "declaredStartFrame": 6960,
+      "measuredVoiceStartSample": 5568000,
+      "measuredVoiceEndSampleExclusive": 5671935,
+      "measuredCueSamples": 126720,
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 82,
+        "windowSamples": 240
+      },
+      "cueSamplesCompared": 126720,
+      "cueSha256": "ab80f4a8220ab948173f3d20c309748c47bf63f26a4cbcd1d42cc59d726ba352",
+      "exactPcmMatch": true
+    }
+  ],
+  "sfxEventOnsets": [
+    {
+      "id": "thought_thermal_spark",
+      "frame": 120,
+      "sampleIndex": 96000,
+      "leftPcm16AtOnset": 102,
+      "rightPcm16AtOnset": 102,
+      "sampleAnchorExact": true
+    },
+    {
+      "id": "memory_erasure_heat",
+      "frame": 900,
+      "sampleIndex": 720000,
+      "leftPcm16AtOnset": 182,
+      "rightPcm16AtOnset": 182,
+      "sampleAnchorExact": true
+    },
+    {
+      "id": "thermodynamic_seal",
+      "frame": 1350,
+      "sampleIndex": 1080000,
+      "leftPcm16AtOnset": 163,
+      "rightPcm16AtOnset": 163,
+      "sampleAnchorExact": true
+    },
+    {
+      "id": "compute_wall_approach",
+      "frame": 2200,
+      "sampleIndex": 1760000,
+      "leftPcm16AtOnset": 5,
+      "rightPcm16AtOnset": 5,
+      "sampleAnchorExact": true
+    },
+    {
+      "id": "irreversible_heat_accumulation",
+      "frame": 3000,
+      "sampleIndex": 2400000,
+      "leftPcm16AtOnset": 27,
+      "rightPcm16AtOnset": 27,
+      "sampleAnchorExact": true
+    },
+    {
+      "id": "planetary_pressure",
+      "frame": 3780,
+      "sampleIndex": 3024000,
+      "leftPcm16AtOnset": 134,
+      "rightPcm16AtOnset": 134,
+      "sampleAnchorExact": true
+    },
+    {
+      "id": "returning_heat_alarm",
+      "frame": 4800,
+      "sampleIndex": 3840000,
+      "leftPcm16AtOnset": 33,
+      "rightPcm16AtOnset": 33,
+      "sampleAnchorExact": true
+    },
+    {
+      "id": "deep_space_crystal_chime",
+      "frame": 5425,
+      "sampleIndex": 4340000,
+      "leftPcm16AtOnset": 174,
+      "rightPcm16AtOnset": 174,
+      "sampleAnchorExact": true
+    },
+    {
+      "id": "silent_hypothesis_harmonic",
+      "frame": 6480,
+      "sampleIndex": 5184000,
+      "leftPcm16AtOnset": 17,
+      "rightPcm16AtOnset": 17,
+      "sampleAnchorExact": true
+    },
+    {
+      "id": "synthetic_pulse_precursor",
+      "frame": 6990,
+      "sampleIndex": 5592000,
+      "leftPcm16AtOnset": 18,
+      "rightPcm16AtOnset": 18,
+      "sampleAnchorExact": true
+    },
+    {
+      "id": "human_heartbeat_key",
+      "frame": 7020,
+      "sampleIndex": 5616000,
+      "leftPcm16AtOnset": 34,
+      "rightPcm16AtOnset": 34,
+      "sampleAnchorExact": true
+    }
+  ],
+  "masterLoudness": {
+    "integratedLUFS": -17.0,
+    "truePeakDBTP": -1.8,
+    "acceptanceLUFS": [
+      -18.0,
+      -16.0
+    ],
+    "acceptanceTruePeakDBTP": -1.0
+  },
+  "thermalCut": {
+    "frame": 5400,
+    "sample": 4320000,
+    "peakPcm16FromCut": 0,
+    "exactZero": true
+  },
+  "digitalVacuum": {
+    "narration": {
+      "startFrame": 5400,
+      "endFrameExclusive": 5425,
+      "peakPcm16": 0,
+      "exactZero": true
+    },
+    "score": {
+      "startFrame": 5400,
+      "endFrameExclusive": 5425,
+      "peakPcm16": 0,
+      "exactZero": true
+    },
+    "sfx": {
+      "startFrame": 5400,
+      "endFrameExclusive": 5425,
+      "peakPcm16": 0,
+      "exactZero": true
+    },
+    "thermal": {
+      "startFrame": 5400,
+      "endFrameExclusive": 5425,
+      "peakPcm16": 0,
+      "exactZero": true
+    },
+    "master": {
+      "startFrame": 5400,
+      "endFrameExclusive": 5425,
+      "peakPcm16": 0,
+      "exactZero": true
+    }
+  },
+  "limitations": [
+    "No ASR or pronunciation evaluation was performed.",
+    "PCM alignment evidence does not establish human listening or mix-quality acceptance."
+  ]
+}

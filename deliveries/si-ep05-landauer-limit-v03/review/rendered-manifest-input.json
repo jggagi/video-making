@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "title": "兰道尔极限｜稳定画面与氛围音乐 · EP.05 v03",
+  "slug": "si-ep05-landauer-limit-v03",
+  "duration_seconds": 120,
+  "fps": 60,
+  "total_frames": 7200,
+  "script": {
+    "path": "source/script.md",
+    "sha256": "c7a9909d69e98bac2566ef1cf5730874acd2a20a33b9ee3db50d392ab7385adc"
+  },
+  "audio": {
+    "mode": "narrated",
+    "master": "project/public/audio/master.wav",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples_per_channel": 5760000,
+    "sha256": "43bda3d78e143ccb6250b91ef1795067b88ae90b32366c7c56840e2e7390a29b",
+    "pcm_metrics": {
+      "lufs": -17.0,
+      "true_peak_dbtp": -1.8
+    }
+  },
+  "outputs": {
+    "bilibili": {
+      "path": "B站/si-ep05-landauer-limit-v03-bilibili-120s-4k.mp4",
+      "width": 3840,
+      "height": 2160
+    },
+    "xiaohongshu": {
+      "path": "小红书/si-ep05-landauer-limit-v03-xiaohongshu-120s-portrait.mp4",
+      "width": 2160,
+      "height": 3840
+    }
+  },
+  "qa": {
+    "automated": "pending",
+    "representative_frames": "pending",
+    "continuous_human_review": "pending",
+    "target_device_playback": "pending"
+  },
+  "production_status": "repair_in_progress",
+  "revision": {
+    "based_on": "si-ep05-landauer-limit-v02",
+    "reason": "User reported flashing portrait video and requested atmospheric background music",
+    "preserves_previous_delivery": true,
+    "narration": "reuse exact10 existing cues;no new cloud calls"
+  }
+}

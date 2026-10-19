@@ -1,0 +1,582 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-10-19T12:07:02.790949+00:00",
+  "media": "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep05-landauer-limit-v03/小红书/si-ep05-landauer-limit-v03-xiaohongshu-120s-portrait.mp4",
+  "media_size_bytes": 168924095,
+  "media_mtime_ns": 1792411577653113933,
+  "layout": "portrait",
+  "decode": {
+    "method": "continuous decode from file start; no seek; scaled RGB24 stream",
+    "ffmpeg_command": [
+      "/opt/homebrew/bin/ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-nostdin",
+      "-threads",
+      "2",
+      "-filter_threads",
+      "2",
+      "-noautorotate",
+      "-i",
+      "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep05-landauer-limit-v03/小红书/si-ep05-landauer-limit-v03-xiaohongshu-120s-portrait.mp4",
+      "-map",
+      "0:v:0",
+      "-an",
+      "-sn",
+      "-dn",
+      "-vf",
+      "scale=360:-2:flags=bilinear",
+      "-vsync",
+      "0",
+      "-pix_fmt",
+      "rgb24",
+      "-f",
+      "rawvideo",
+      "pipe:1"
+    ],
+    "threads": 2,
+    "scaled_size": [
+      360,
+      640
+    ],
+    "decoded_frames": 7200,
+    "expected_frames": 7200,
+    "frame_count_matches_expected": true,
+    "return_code": 0
+  },
+  "regions": {
+    "watermark_logical_xywh": [
+      65,
+      316,
+      520,
+      36
+    ],
+    "watermark_scaled_xyxy": [
+      22,
+      105,
+      195,
+      117
+    ],
+    "watermark_template": "first decoded frame ROI",
+    "watermark_bright_luma_threshold_exclusive": 160,
+    "portrait_safe_strip_logical_y_range": [
+      1600,
+      1900
+    ],
+    "portrait_safe_strip_bright_luma_threshold_exclusive": 100
+  },
+  "metric_summaries": {
+    "watermark_template_mae_rgb": {
+      "median": 0.86761,
+      "mad": 0.37082,
+      "threshold": 8.0
+    },
+    "watermark_consecutive_mae_rgb": {
+      "median": 0.04913,
+      "mad": 0.02183,
+      "threshold": 8.0
+    },
+    "portrait_safe_strip_bright_pixel_count_gt100": {
+      "median": 0.0,
+      "mad": 0.0,
+      "threshold": 50.0
+    }
+  },
+  "heuristic_thresholds": {
+    "template_or_temporal_outlier": "median + 8 * (1.4826 * MAD), with minimum RGB MAE threshold 8",
+    "low_correlation_and_changed": "correlation < 0.15 and template RGB MAE > 10",
+    "portrait_safe_strip": "median + 8 * (1.4826 * MAD), with minimum bright-pixel count threshold 50",
+    "scope_note": "conservative region-specific screening heuristics; not a whole-picture or perceptual pass"
+  },
+  "flagged_frame_count": 22,
+  "flagged_frames": [
+    {
+      "frame": 138,
+      "time_seconds": 2.3,
+      "flags": [
+        "watermark_template_outlier",
+        "watermark_low_correlation_and_changed",
+        "watermark_temporal_jump",
+        "portrait_safe_strip_bright_outlier"
+      ]
+    },
+    {
+      "frame": 139,
+      "time_seconds": 2.316667,
+      "flags": [
+        "watermark_temporal_jump"
+      ]
+    },
+    {
+      "frame": 142,
+      "time_seconds": 2.366667,
+      "flags": [
+        "watermark_template_outlier",
+        "watermark_low_correlation_and_changed",
+        "watermark_temporal_jump",
+        "portrait_safe_strip_bright_outlier"
+      ]
+    },
+    {
+      "frame": 143,
+      "time_seconds": 2.383333,
+      "flags": [
+        "watermark_temporal_jump"
+      ]
+    },
+    {
+      "frame": 147,
+      "time_seconds": 2.45,
+      "flags": [
+        "watermark_template_outlier",
+        "watermark_low_correlation_and_changed",
+        "watermark_temporal_jump",
+        "portrait_safe_strip_bright_outlier"
+      ]
+    },
+    {
+      "frame": 148,
+      "time_seconds": 2.466667,
+      "flags": [
+        "watermark_temporal_jump"
+      ]
+    },
+    {
+      "frame": 149,
+      "time_seconds": 2.483333,
+      "flags": [
+        "watermark_template_outlier",
+        "watermark_low_correlation_and_changed",
+        "watermark_temporal_jump",
+        "portrait_safe_strip_bright_outlier"
+      ]
+    },
+    {
+      "frame": 150,
+      "time_seconds": 2.5,
+      "flags": [
+        "watermark_temporal_jump"
+      ]
+    },
+    {
+      "frame": 153,
+      "time_seconds": 2.55,
+      "flags": [
+        "watermark_template_outlier",
+        "watermark_low_correlation_and_changed",
+        "watermark_temporal_jump",
+        "portrait_safe_strip_bright_outlier"
+      ]
+    },
+    {
+      "frame": 154,
+      "time_seconds": 2.566667,
+      "flags": [
+        "watermark_temporal_jump"
+      ]
+    },
+    {
+      "frame": 164,
+      "time_seconds": 2.733333,
+      "flags": [
+        "watermark_template_outlier",
+        "watermark_low_correlation_and_changed",
+        "watermark_temporal_jump",
+        "portrait_safe_strip_bright_outlier"
+      ]
+    },
+    {
+      "frame": 165,
+      "time_seconds": 2.75,
+      "flags": [
+        "watermark_temporal_jump"
+      ]
+    },
+    {
+      "frame": 3842,
+      "time_seconds": 64.033333,
+      "flags": [
+        "watermark_template_outlier",
+        "watermark_low_correlation_and_changed",
+        "watermark_temporal_jump",
+        "portrait_safe_strip_bright_outlier"
+      ]
+    },
+    {
+      "frame": 3843,
+      "time_seconds": 64.05,
+      "flags": [
+        "watermark_temporal_jump"
+      ]
+    },
+    {
+      "frame": 3853,
+      "time_seconds": 64.216667,
+      "flags": [
+        "watermark_template_outlier",
+        "watermark_low_correlation_and_changed",
+        "watermark_temporal_jump",
+        "portrait_safe_strip_bright_outlier"
+      ]
+    },
+    {
+      "frame": 3854,
+      "time_seconds": 64.233333,
+      "flags": [
+        "watermark_temporal_jump"
+      ]
+    },
+    {
+      "frame": 3857,
+      "time_seconds": 64.283333,
+      "flags": [
+        "watermark_template_outlier",
+        "watermark_low_correlation_and_changed",
+        "watermark_temporal_jump",
+        "portrait_safe_strip_bright_outlier"
+      ]
+    },
+    {
+      "frame": 3858,
+      "time_seconds": 64.3,
+      "flags": [
+        "watermark_temporal_jump"
+      ]
+    },
+    {
+      "frame": 6928,
+      "time_seconds": 115.466667,
+      "flags": [
+        "watermark_template_outlier",
+        "watermark_low_correlation_and_changed",
+        "watermark_temporal_jump"
+      ]
+    },
+    {
+      "frame": 6929,
+      "time_seconds": 115.483333,
+      "flags": [
+        "watermark_temporal_jump"
+      ]
+    },
+    {
+      "frame": 6992,
+      "time_seconds": 116.533333,
+      "flags": [
+        "watermark_template_outlier",
+        "watermark_low_correlation_and_changed",
+        "watermark_temporal_jump"
+      ]
+    },
+    {
+      "frame": 6993,
+      "time_seconds": 116.55,
+      "flags": [
+        "watermark_temporal_jump"
+      ]
+    }
+  ],
+  "top20_suspicious_frames": [
+    {
+      "frame": 164,
+      "time_seconds": 2.733333,
+      "score": 29.04991,
+      "flags": [
+        "watermark_template_outlier",
+        "watermark_low_correlation_and_changed",
+        "watermark_temporal_jump",
+        "portrait_safe_strip_bright_outlier"
+      ],
+      "watermark_mae_rgb": 20.82225,
+      "watermark_correlation": -0.0784,
+      "watermark_prev_mae_rgb": 20.96355,
+      "watermark_bright_pixels_gt160": 0,
+      "safe_strip_bright_pixels_gt100": 1215
+    },
+    {
+      "frame": 149,
+      "time_seconds": 2.483333,
+      "score": 28.76837,
+      "flags": [
+        "watermark_template_outlier",
+        "watermark_low_correlation_and_changed",
+        "watermark_temporal_jump",
+        "portrait_safe_strip_bright_outlier"
+      ],
+      "watermark_mae_rgb": 20.75963,
+      "watermark_correlation": -0.01001,
+      "watermark_prev_mae_rgb": 20.88696,
+      "watermark_bright_pixels_gt160": 0,
+      "safe_strip_bright_pixels_gt100": 1215
+    },
+    {
+      "frame": 153,
+      "time_seconds": 2.55,
+      "score": 28.75337,
+      "flags": [
+        "watermark_template_outlier",
+        "watermark_low_correlation_and_changed",
+        "watermark_temporal_jump",
+        "portrait_safe_strip_bright_outlier"
+      ],
+      "watermark_mae_rgb": 20.79399,
+      "watermark_correlation": -0.01517,
+      "watermark_prev_mae_rgb": 20.92871,
+      "watermark_bright_pixels_gt160": 0,
+      "safe_strip_bright_pixels_gt100": 1213
+    },
+    {
+      "frame": 3853,
+      "time_seconds": 64.216667,
+      "score": 28.69779,
+      "flags": [
+        "watermark_template_outlier",
+        "watermark_low_correlation_and_changed",
+        "watermark_temporal_jump",
+        "portrait_safe_strip_bright_outlier"
+      ],
+      "watermark_mae_rgb": 20.91362,
+      "watermark_correlation": 0.03067,
+      "watermark_prev_mae_rgb": 21.32466,
+      "watermark_bright_pixels_gt160": 0,
+      "safe_strip_bright_pixels_gt100": 1218
+    },
+    {
+      "frame": 138,
+      "time_seconds": 2.3,
+      "score": 28.68587,
+      "flags": [
+        "watermark_template_outlier",
+        "watermark_low_correlation_and_changed",
+        "watermark_temporal_jump",
+        "portrait_safe_strip_bright_outlier"
+      ],
+      "watermark_mae_rgb": 20.807,
+      "watermark_correlation": 0.03737,
+      "watermark_prev_mae_rgb": 20.96419,
+      "watermark_bright_pixels_gt160": 0,
+      "safe_strip_bright_pixels_gt100": 1220
+    },
+    {
+      "frame": 147,
+      "time_seconds": 2.45,
+      "score": 28.6308,
+      "flags": [
+        "watermark_template_outlier",
+        "watermark_low_correlation_and_changed",
+        "watermark_temporal_jump",
+        "portrait_safe_strip_bright_outlier"
+      ],
+      "watermark_mae_rgb": 20.77649,
+      "watermark_correlation": 0.02993,
+      "watermark_prev_mae_rgb": 20.9088,
+      "watermark_bright_pixels_gt160": 0,
+      "safe_strip_bright_pixels_gt100": 1216
+    },
+    {
+      "frame": 142,
+      "time_seconds": 2.366667,
+      "score": 28.60712,
+      "flags": [
+        "watermark_template_outlier",
+        "watermark_low_correlation_and_changed",
+        "watermark_temporal_jump",
+        "portrait_safe_strip_bright_outlier"
+      ],
+      "watermark_mae_rgb": 20.79351,
+      "watermark_correlation": 0.03155,
+      "watermark_prev_mae_rgb": 20.94204,
+      "watermark_bright_pixels_gt160": 0,
+      "safe_strip_bright_pixels_gt100": 1215
+    },
+    {
+      "frame": 3842,
+      "time_seconds": 64.033333,
+      "score": 28.60211,
+      "flags": [
+        "watermark_template_outlier",
+        "watermark_low_correlation_and_changed",
+        "watermark_temporal_jump",
+        "portrait_safe_strip_bright_outlier"
+      ],
+      "watermark_mae_rgb": 20.87412,
+      "watermark_correlation": 0.04356,
+      "watermark_prev_mae_rgb": 21.29464,
+      "watermark_bright_pixels_gt160": 0,
+      "safe_strip_bright_pixels_gt100": 1216
+    },
+    {
+      "frame": 3857,
+      "time_seconds": 64.283333,
+      "score": 28.48159,
+      "flags": [
+        "watermark_template_outlier",
+        "watermark_low_correlation_and_changed",
+        "watermark_temporal_jump",
+        "portrait_safe_strip_bright_outlier"
+      ],
+      "watermark_mae_rgb": 20.89515,
+      "watermark_correlation": 0.02956,
+      "watermark_prev_mae_rgb": 21.33622,
+      "watermark_bright_pixels_gt160": 0,
+      "safe_strip_bright_pixels_gt100": 1207
+    },
+    {
+      "frame": 6928,
+      "time_seconds": 115.466667,
+      "score": 5.22158,
+      "flags": [
+        "watermark_template_outlier",
+        "watermark_low_correlation_and_changed",
+        "watermark_temporal_jump"
+      ],
+      "watermark_mae_rgb": 18.92951,
+      "watermark_correlation": -0.2574,
+      "watermark_prev_mae_rgb": 18.60035,
+      "watermark_bright_pixels_gt160": 0,
+      "safe_strip_bright_pixels_gt100": 0
+    },
+    {
+      "frame": 6992,
+      "time_seconds": 116.533333,
+      "score": 5.14798,
+      "flags": [
+        "watermark_template_outlier",
+        "watermark_low_correlation_and_changed",
+        "watermark_temporal_jump"
+      ],
+      "watermark_mae_rgb": 18.93754,
+      "watermark_correlation": -0.2391,
+      "watermark_prev_mae_rgb": 18.58189,
+      "watermark_bright_pixels_gt160": 0,
+      "safe_strip_bright_pixels_gt100": 0
+    },
+    {
+      "frame": 3854,
+      "time_seconds": 64.233333,
+      "score": 1.26249,
+      "flags": [
+        "watermark_temporal_jump"
+      ],
+      "watermark_mae_rgb": 2.92983,
+      "watermark_correlation": 0.99959,
+      "watermark_prev_mae_rgb": 21.34345,
+      "watermark_bright_pixels_gt160": 0,
+      "safe_strip_bright_pixels_gt100": 0
+    },
+    {
+      "frame": 3858,
+      "time_seconds": 64.3,
+      "score": 1.26243,
+      "flags": [
+        "watermark_temporal_jump"
+      ],
+      "watermark_mae_rgb": 2.92341,
+      "watermark_correlation": 0.99956,
+      "watermark_prev_mae_rgb": 21.35067,
+      "watermark_bright_pixels_gt160": 0,
+      "safe_strip_bright_pixels_gt100": 0
+    },
+    {
+      "frame": 3843,
+      "time_seconds": 64.05,
+      "score": 1.26128,
+      "flags": [
+        "watermark_temporal_jump"
+      ],
+      "watermark_mae_rgb": 2.94252,
+      "watermark_correlation": 0.9996,
+      "watermark_prev_mae_rgb": 21.30218,
+      "watermark_bright_pixels_gt160": 0,
+      "safe_strip_bright_pixels_gt100": 0
+    },
+    {
+      "frame": 139,
+      "time_seconds": 2.316667,
+      "score": 1.07703,
+      "flags": [
+        "watermark_temporal_jump"
+      ],
+      "watermark_mae_rgb": 0.43899,
+      "watermark_correlation": 0.99979,
+      "watermark_prev_mae_rgb": 20.95536,
+      "watermark_bright_pixels_gt160": 0,
+      "safe_strip_bright_pixels_gt100": 0
+    },
+    {
+      "frame": 165,
+      "time_seconds": 2.75,
+      "score": 1.07699,
+      "flags": [
+        "watermark_temporal_jump"
+      ],
+      "watermark_mae_rgb": 0.43674,
+      "watermark_correlation": 0.99978,
+      "watermark_prev_mae_rgb": 20.95745,
+      "watermark_bright_pixels_gt160": 0,
+      "safe_strip_bright_pixels_gt100": 0
+    },
+    {
+      "frame": 143,
+      "time_seconds": 2.383333,
+      "score": 1.07555,
+      "flags": [
+        "watermark_temporal_jump"
+      ],
+      "watermark_mae_rgb": 0.43481,
+      "watermark_correlation": 0.99979,
+      "watermark_prev_mae_rgb": 20.93128,
+      "watermark_bright_pixels_gt160": 0,
+      "safe_strip_bright_pixels_gt100": 0
+    },
+    {
+      "frame": 154,
+      "time_seconds": 2.566667,
+      "score": 1.07516,
+      "flags": [
+        "watermark_temporal_jump"
+      ],
+      "watermark_mae_rgb": 0.43031,
+      "watermark_correlation": 0.9998,
+      "watermark_prev_mae_rgb": 20.92951,
+      "watermark_bright_pixels_gt160": 0,
+      "safe_strip_bright_pixels_gt100": 0
+    },
+    {
+      "frame": 148,
+      "time_seconds": 2.466667,
+      "score": 1.0749,
+      "flags": [
+        "watermark_temporal_jump"
+      ],
+      "watermark_mae_rgb": 0.44461,
+      "watermark_correlation": 0.9998,
+      "watermark_prev_mae_rgb": 20.90511,
+      "watermark_bright_pixels_gt160": 0,
+      "safe_strip_bright_pixels_gt100": 0
+    },
+    {
+      "frame": 150,
+      "time_seconds": 2.5,
+      "score": 1.074,
+      "flags": [
+        "watermark_temporal_jump"
+      ],
+      "watermark_mae_rgb": 0.44075,
+      "watermark_correlation": 0.9998,
+      "watermark_prev_mae_rgb": 20.89242,
+      "watermark_bright_pixels_gt160": 0,
+      "safe_strip_bright_pixels_gt100": 0
+    }
+  ],
+  "evidence_files": {
+    "per_frame_csv": "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep05-landauer-limit-v03/review/flicker-initial-portrait/temporal-scan.csv",
+    "top10_contact_sheet": "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep05-landauer-limit-v03/review/flicker-initial-portrait/suspicious-top10.jpg"
+  },
+  "interpretation_limit": "No flagged frames is not evidence that all flicker is absent. Motion outside the static watermark ROI and portrait bottom strip is not screened as a failure condition.",
+  "capture_status": "FAILED_visual_tile_artifacts",
+  "media_sha256": "8a8d26cfb9274ce8a9ac3803ea8bf9aedfcdac72f83f4804c41e5f3d926529d5",
+  "preserved_media_path": "review/iterations/portrait-initial-capture/si-ep05-landauer-limit-v03-xiaohongshu-120s-portrait.mp4",
+  "confirmed_template_outlier_count": 11
+}

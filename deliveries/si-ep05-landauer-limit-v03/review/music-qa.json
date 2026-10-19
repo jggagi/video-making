@@ -1,0 +1,211 @@
+{
+  "schema_version": 1,
+  "status": "score_signal_measurements_and_mix_preview_recorded",
+  "generated_at_utc": "2026-10-19T11:36:58Z",
+  "bindings": {
+    "delivery_slug": "si-ep05-landauer-limit-v03",
+    "score_design_version": "ep05-procedural-ambient-v03",
+    "mix_manifest": "project/public/audio/mix-manifest.json",
+    "mix_input_set_sha256": "1584d6286efcb9e2dfcbfa4e95a3de6900f0f6061ea506fae6f496400fd8da10",
+    "new_v03_score": {
+      "path": "project/public/audio/score.wav",
+      "sha256": "ad12bbd0350f118bd80dcf077c1e8da776d97ffba173ea29bcd3e7d8c81c0380"
+    },
+    "previous_v02_score": {
+      "path": "deliveries/si-ep05-landauer-limit-v02/project/public/audio/score.wav",
+      "sha256": "dead03a52cf8978557c9eeed00262749fcf129e32d8a7545a4c07c40765d438a"
+    },
+    "v03_master": {
+      "path": "project/public/audio/master.wav",
+      "sha256": "43bda3d78e143ccb6250b91ef1795067b88ae90b32366c7c56840e2e7390a29b"
+    }
+  },
+  "score_stem_integrity": {
+    "format": {
+      "sample_rate_hz": 48000,
+      "channels": 2,
+      "sample_width_bytes": 2,
+      "samples_per_channel": 5760000,
+      "compression": "NONE"
+    },
+    "expected_samples_per_channel": 5760000,
+    "sample_count_valid": true,
+    "exact_vacuum": {
+      "frame_start": 5400,
+      "frame_end_exclusive": 5425,
+      "sample_start": 4320000,
+      "sample_end_exclusive": 4340000,
+      "duration_seconds": 0.4166666666666667,
+      "nonzero_pcm_values": 0,
+      "exact_zero": true
+    }
+  },
+  "band_rms_comparison": {
+    "method": "Read 48 kHz stereo PCM16 score stems with wave; analyze each six-second window using a rectangular rFFT; Parseval-weighted one-sided spectral power averaged across channels.",
+    "bands_hz": {
+      "low_bass": "[0, 200)",
+      "midrange": "[220, 1200)"
+    },
+    "windows": [
+      {
+        "phase": "warm_chords",
+        "start_seconds": 12,
+        "end_seconds": 18,
+        "duration_seconds": 6,
+        "sample_rate_hz": 48000,
+        "samples_per_channel": 288000,
+        "fft_bin_spacing_hz": 0.16666666666666666,
+        "new_v03_score": {
+          "below_200_hz": {
+            "rms_full_scale": 0.009172471499007117,
+            "rms_dbfs": -40.75027258046873
+          },
+          "220_to_1200_hz": {
+            "rms_full_scale": 0.01620472675206862,
+            "rms_dbfs": -35.807165754923986
+          }
+        },
+        "previous_v02_score": {
+          "below_200_hz": {
+            "rms_full_scale": 0.013113489028947769,
+            "rms_dbfs": -37.64563485510392
+          },
+          "220_to_1200_hz": {
+            "rms_full_scale": 0.00010298111195991831,
+            "rms_dbfs": -79.7448484619742
+          }
+        },
+        "new_minus_previous_db": {
+          "below_200_hz": -3.1046377253648103,
+          "220_to_1200_hz": 43.937682707050215
+        }
+      },
+      {
+        "phase": "pressure_strings_and_pulse",
+        "start_seconds": 66,
+        "end_seconds": 72,
+        "duration_seconds": 6,
+        "sample_rate_hz": 48000,
+        "samples_per_channel": 288000,
+        "fft_bin_spacing_hz": 0.16666666666666666,
+        "new_v03_score": {
+          "below_200_hz": {
+            "rms_full_scale": 0.02600394022618176,
+            "rms_dbfs": -31.699216818402
+          },
+          "220_to_1200_hz": {
+            "rms_full_scale": 0.027791810474686266,
+            "rms_dbfs": -31.121663210868856
+          }
+        },
+        "previous_v02_score": {
+          "below_200_hz": {
+            "rms_full_scale": 0.035543299432071365,
+            "rms_dbfs": -28.98484519486207
+          },
+          "220_to_1200_hz": {
+            "rms_full_scale": 6.986906029502222e-05,
+            "rms_dbfs": -83.11430195513094
+          }
+        },
+        "new_minus_previous_db": {
+          "below_200_hz": -2.714371623539929,
+          "220_to_1200_hz": 51.99263874426208
+        }
+      },
+      {
+        "phase": "cold_pad_and_bells",
+        "start_seconds": 96,
+        "end_seconds": 102,
+        "duration_seconds": 6,
+        "sample_rate_hz": 48000,
+        "samples_per_channel": 288000,
+        "fft_bin_spacing_hz": 0.16666666666666666,
+        "new_v03_score": {
+          "below_200_hz": {
+            "rms_full_scale": 0.013502026258849631,
+            "rms_dbfs": -37.39202103453928
+          },
+          "220_to_1200_hz": {
+            "rms_full_scale": 0.020376743525762193,
+            "rms_dbfs": -33.81730441620459
+          }
+        },
+        "previous_v02_score": {
+          "below_200_hz": {
+            "rms_full_scale": 0.019590964708298658,
+            "rms_dbfs": -34.15888355455644
+          },
+          "220_to_1200_hz": {
+            "rms_full_scale": 0.0077040384977874864,
+            "rms_dbfs": -42.26563111337423
+          }
+        },
+        "new_minus_previous_db": {
+          "below_200_hz": -3.233137479982844,
+          "220_to_1200_hz": 8.448326697169641
+        }
+      }
+    ],
+    "interpretation_limit": "These are frequency-band level measurements only. They do not establish perceived phone-speaker audibility, timbre, musical quality, or listening acceptance."
+  },
+  "mix_preview": {
+    "path": "review/music-mix-preview.mp3",
+    "sha256": "0db7c91ce014fb5e1c4e46af85b8f4cd9c26e4ff92a55ca066d7f538e4168a9d",
+    "file_size_bytes": 289196,
+    "source_master_path": "project/public/audio/master.wav",
+    "source_master_sha256": "43bda3d78e143ccb6250b91ef1795067b88ae90b32366c7c56840e2e7390a29b",
+    "source_time_seconds": [
+      42,
+      54
+    ],
+    "format": {
+      "codec_name": "mp3",
+      "sample_rate": "48000",
+      "channels": 2,
+      "duration": "12.000000",
+      "bit_rate": "192000"
+    },
+    "ffmpeg_command": [
+      "/opt/homebrew/bin/ffmpeg",
+      "-nostdin",
+      "-hide_banner",
+      "-n",
+      "-ss",
+      "42.000",
+      "-i",
+      "deliveries/si-ep05-landauer-limit-v03/project/public/audio/master.wav",
+      "-t",
+      "12.000",
+      "-map",
+      "0:a:0",
+      "-vn",
+      "-c:a",
+      "libmp3lame",
+      "-b:a",
+      "192k",
+      "-write_xing",
+      "1",
+      "deliveries/si-ep05-landauer-limit-v03/review/music-mix-preview.mp3"
+    ],
+    "normalization_or_effects_applied": false,
+    "source_master_loudness": {
+      "integratedLUFS": -17.0,
+      "truePeakDBTP": -1.8
+    },
+    "limitations": [
+      "The preview was exported without normalization or effects.",
+      "No human listening or phone-speaker test was performed in this task."
+    ]
+  },
+  "acceptance_limits": {
+    "loudness_and_true_peak": {
+      "integrated_lufs": -17.0,
+      "true_peak_dbTP": -1.8,
+      "source": "bound mix-manifest.json measurements"
+    },
+    "phone_speaker_audibility": "pending human listening",
+    "music_mix_balance": "pending human listening",
+    "human_listening": "not performed"
+  }
+}

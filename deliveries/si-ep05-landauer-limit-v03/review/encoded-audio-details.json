@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "status": "encoded_audio_audited",
+  "durationSeconds": 120,
+  "sampleRateHz": 48000,
+  "channels": 2,
+  "samplesPerChannel": 5760000,
+  "bindings": {
+    "deliveryManifestSha256": "e3d3e3672595aef5b577c0e22ebffc92b3917a8268aef87691890f436e88ed81",
+    "pcmMaster": {
+      "path": "project/public/audio/master.wav",
+      "sha256": "43bda3d78e143ccb6250b91ef1795067b88ae90b32366c7c56840e2e7390a29b",
+      "sampleRateHz": 48000,
+      "channels": 2,
+      "samplesPerChannel": 5760000,
+      "durationSeconds": 120.0,
+      "digitalVacuum": {
+        "startFrame": 5400,
+        "endFrameExclusive": 5425,
+        "startSamplePerChannel": 4320000,
+        "endSamplePerChannelExclusive": 4340000,
+        "peakPcm16": 0,
+        "exactZero": true
+      }
+    }
+  },
+  "outputs": {
+    "bilibili": {
+      "path": "B站/si-ep05-landauer-limit-v03-bilibili-120s-4k.mp4",
+      "fileSha256": "12c642ba64d552b3839cf1cf2928d2cbff53a4549851fdf2797c2fc58e0c798a",
+      "video": {
+        "codec": "h264",
+        "width": 3840,
+        "height": 2160,
+        "duration": "120.000000",
+        "expectedDimensions": {
+          "width": 3840,
+          "height": 2160
+        },
+        "dimensionsValid": true
+      },
+      "audio": {
+        "codec": "aac",
+        "sampleRateHz": 48000,
+        "channels": 2,
+        "channelLayout": "stereo"
+      },
+      "aacPacketPayloadSha256": "53f92a7fe50e82c950a5c60e0e79bbbdf488d23bd8233a798968ee20c9cef4a5",
+      "decodedAudio": {
+        "decodedPcmSha256": "4e6ed1e792e6ce4237d3a303260ee7647ac36f47c41f4efb227797f98879a179",
+        "decodedSampleRateHz": 48000,
+        "decodedChannels": 2,
+        "decodedSamplesPerChannel": 5760000,
+        "exactSampleCount": true,
+        "digitalVacuumMeasurements": {
+          "aacDigitalZeroRequired": false,
+          "interpretation": "Measurement only; AAC pre-echo or ringing may produce nonzero decoded values around the PCM-master cut.",
+          "full25FrameGap": {
+            "startSamplePerChannel": 4320000,
+            "endSamplePerChannelExclusive": 4340000,
+            "sampleFrames": 20000,
+            "stereoPcmSamples": 40000,
+            "peakPcm16": 57,
+            "peakDbfs": -55.19150158574453,
+            "rmsPcm16": 1.185653828062812,
+            "rmsDbfs": -88.82984054269738,
+            "nonzeroPcmSampleValues": 2162
+          },
+          "interiorExcluding20msAtEachEdge": {
+            "startSamplePerChannel": 4320960,
+            "endSamplePerChannelExclusive": 4339040,
+            "sampleFrames": 18080,
+            "stereoPcmSamples": 36160,
+            "peakPcm16": 1,
+            "peakDbfs": -90.30899869919436,
+            "rmsPcm16": 0.10291653977515973,
+            "rmsDbfs": -110.05929517754139,
+            "nonzeroPcmSampleValues": 383
+          }
+        }
+      }
+    },
+    "xiaohongshu": {
+      "path": "小红书/si-ep05-landauer-limit-v03-xiaohongshu-120s-portrait.mp4",
+      "fileSha256": "ab2765c6fb0220216ae6418f65df0dcb0a03a7b989780a41cde806ffda4594b9",
+      "video": {
+        "codec": "h264",
+        "width": 2160,
+        "height": 3840,
+        "duration": "120.000000",
+        "expectedDimensions": {
+          "width": 2160,
+          "height": 3840
+        },
+        "dimensionsValid": true
+      },
+      "audio": {
+        "codec": "aac",
+        "sampleRateHz": 48000,
+        "channels": 2,
+        "channelLayout": "stereo"
+      },
+      "aacPacketPayloadSha256": "53f92a7fe50e82c950a5c60e0e79bbbdf488d23bd8233a798968ee20c9cef4a5",
+      "decodedAudio": {
+        "decodedPcmSha256": "4e6ed1e792e6ce4237d3a303260ee7647ac36f47c41f4efb227797f98879a179",
+        "decodedSampleRateHz": 48000,
+        "decodedChannels": 2,
+        "decodedSamplesPerChannel": 5760000,
+        "exactSampleCount": true,
+        "digitalVacuumMeasurements": {
+          "aacDigitalZeroRequired": false,
+          "interpretation": "Measurement only; AAC pre-echo or ringing may produce nonzero decoded values around the PCM-master cut.",
+          "full25FrameGap": {
+            "startSamplePerChannel": 4320000,
+            "endSamplePerChannelExclusive": 4340000,
+            "sampleFrames": 20000,
+            "stereoPcmSamples": 40000,
+            "peakPcm16": 57,
+            "peakDbfs": -55.19150158574453,
+            "rmsPcm16": 1.185653828062812,
+            "rmsDbfs": -88.82984054269738,
+            "nonzeroPcmSampleValues": 2162
+          },
+          "interiorExcluding20msAtEachEdge": {
+            "startSamplePerChannel": 4320960,
+            "endSamplePerChannelExclusive": 4339040,
+            "sampleFrames": 18080,
+            "stereoPcmSamples": 36160,
+            "peakPcm16": 1,
+            "peakDbfs": -90.30899869919436,
+            "rmsPcm16": 0.10291653977515973,
+            "rmsDbfs": -110.05929517754139,
+            "nonzeroPcmSampleValues": 383
+          }
+        }
+      }
+    }
+  },
+  "checks": {
+    "bilibiliDimensions": true,
+    "xiaohongshuDimensions": true,
+    "bothDecodedSampleCountsExact": true,
+    "decodedPcmStreamsIdentical": true,
+    "aacPacketPayloadHashesIdentical": true,
+    "pcmMasterDigitalVacuumExact": true
+  },
+  "limits": [
+    "AAC gap metrics are measurements only; no digital-zero threshold is asserted for decoded AAC.",
+    "This report does not establish human listening quality or target-device playback acceptance.",
+    "Integrated loudness and true peak are measured by collect_qa.py, not repeated here."
+  ]
+}

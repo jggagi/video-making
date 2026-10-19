@@ -1,0 +1,546 @@
+{
+  "schema_version": 1,
+  "status": "evidence_collected",
+  "layout": "landscape",
+  "media_path": "B站/si-ep05-landauer-limit-v03-bilibili-120s-4k.mp4",
+  "expected": {
+    "width": 3840,
+    "height": 2160,
+    "fps": 60,
+    "duration_seconds": 120,
+    "total_frames": 7200
+  },
+  "ffprobe": {
+    "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+    "container_duration_seconds": 120.0,
+    "video_duration_seconds": 120.0,
+    "audio_duration_seconds": 120.0,
+    "video": {
+      "codec_name": "h264",
+      "width": 3840,
+      "height": 2160,
+      "avg_frame_rate": "60/1",
+      "r_frame_rate": "60/1",
+      "nb_frames": "7200",
+      "pix_fmt": "yuv420p",
+      "color_space": "bt709",
+      "color_primaries": "bt709",
+      "color_transfer": "bt709"
+    },
+    "audio": {
+      "codec_name": "aac",
+      "sample_rate": "48000",
+      "channels": 2,
+      "channel_layout": "stereo",
+      "duration": "120.000000"
+    },
+    "metadata_checks": {
+      "dimensions": true,
+      "fps_60": true,
+      "frame_count_7200": true,
+      "pixel_format_yuv420p": true,
+      "colorspace_bt709": true,
+      "color_primaries_bt709": true,
+      "color_transfer_bt709": true,
+      "audio_aac": true,
+      "audio_48khz": true,
+      "audio_stereo": true,
+      "video_duration_exact_120s": true,
+      "audio_duration_within_50ms_of_120s": true,
+      "container_duration_within_50ms_of_120s": true
+    }
+  },
+  "encoded_audio_loudness": {
+    "measurement": "FFmpeg ebur128=peak=true on the encoded MP4 audio stream",
+    "integrated_lufs": -17.0,
+    "true_peak_dbTP": -1.7
+  },
+  "aac_packet_sha256": {
+    "algorithm": "sha256",
+    "value": "53f92a7fe50e82c950a5c60e0e79bbbdf488d23bd8233a798968ee20c9cef4a5"
+  },
+  "representative_frames": {
+    "method": "selected frames decoded from the final encoded MP4 as lossless native-resolution PNGs inside temporary storage",
+    "frame_indexes": [
+      0,
+      120,
+      659,
+      660,
+      899,
+      900,
+      959,
+      1260,
+      1350,
+      1500,
+      2190,
+      2200,
+      2800,
+      3000,
+      3040,
+      3780,
+      3900,
+      4800,
+      5399,
+      5400,
+      5424,
+      5425,
+      5790,
+      6240,
+      6480,
+      6899,
+      6900,
+      6989,
+      6990,
+      7019,
+      7020,
+      7199
+    ],
+    "contact_sheet_path": "review/encoded-landscape-contact-sheet.jpg",
+    "contact_tile_width_px": 480,
+    "full_native_frame_paths": [
+      "review/encoded-landscape-native-frame-0000.png",
+      "review/encoded-landscape-native-frame-1500.png",
+      "review/encoded-landscape-native-frame-5400.png",
+      "review/encoded-landscape-native-frame-7199.png"
+    ],
+    "native_frame_metadata": [
+      {
+        "frame_index": 0,
+        "native_dimensions": [
+          3840,
+          2160
+        ],
+        "sha256": "551bde2cc7ba6f7f227743cad2902b511872fb9f111dc3f3882ffb2115bff407",
+        "retained": true,
+        "path": "review/encoded-landscape-native-frame-0000.png"
+      },
+      {
+        "frame_index": 120,
+        "native_dimensions": [
+          3840,
+          2160
+        ],
+        "sha256": "b73d7683eedd06b4ca55bc05cdb04d4da8b90c6a4febfc2b22c7983601513663",
+        "retained": false
+      },
+      {
+        "frame_index": 659,
+        "native_dimensions": [
+          3840,
+          2160
+        ],
+        "sha256": "e21166345a858a66be9f79752586f6f8ebc24fbf3c5e1f619e30803d84297959",
+        "retained": false
+      },
+      {
+        "frame_index": 660,
+        "native_dimensions": [
+          3840,
+          2160
+        ],
+        "sha256": "9a6b2ac5fee27b7acc26a5240bffd35ff43eb916c6c6a5a4e3382e488b203421",
+        "retained": false
+      },
+      {
+        "frame_index": 899,
+        "native_dimensions": [
+          3840,
+          2160
+        ],
+        "sha256": "e01de44fae96a44d8b56bb49f14c25c5d1d46fdda6704810dcc69329b5f80173",
+        "retained": false
+      },
+      {
+        "frame_index": 900,
+        "native_dimensions": [
+          3840,
+          2160
+        ],
+        "sha256": "5aa9a99a8c8aa8a1503d078aa3782aeaffa8f1300081d9bf0f40b356c5980b0c",
+        "retained": false
+      },
+      {
+        "frame_index": 959,
+        "native_dimensions": [
+          3840,
+          2160
+        ],
+        "sha256": "f1999e9a84f994bf58adc69d753e6ce7a918905e45dbd0c46f92fc5a851cbbb5",
+        "retained": false
+      },
+      {
+        "frame_index": 1260,
+        "native_dimensions": [
+          3840,
+          2160
+        ],
+        "sha256": "76ab7baf780ea8ac8ab42359d50895ee4a2d1ce043e57a27a6c52cdeb75f310e",
+        "retained": false
+      },
+      {
+        "frame_index": 1350,
+        "native_dimensions": [
+          3840,
+          2160
+        ],
+        "sha256": "7741513dc5a3d5a4ce3d023983f28f2f8ef77704491864f75d6592cf3329cee1",
+        "retained": false
+      },
+      {
+        "frame_index": 1500,
+        "native_dimensions": [
+          3840,
+          2160
+        ],
+        "sha256": "568e92f1c36e1139a1aa3c7e79f21b8cd12ac2f527bb43518365e5ff3b31e268",
+        "retained": true,
+        "path": "review/encoded-landscape-native-frame-1500.png"
+      },
+      {
+        "frame_index": 2190,
+        "native_dimensions": [
+          3840,
+          2160
+        ],
+        "sha256": "7ab5173b925033046704d7fd6d8a235f4d1b0512f098a0da687576f2c154bf30",
+        "retained": false
+      },
+      {
+        "frame_index": 2200,
+        "native_dimensions": [
+          3840,
+          2160
+        ],
+        "sha256": "091827c1baa5e5cc0f2b186baa2683518ccea40e52b16ac03993bd4abcc49029",
+        "retained": false
+      },
+      {
+        "frame_index": 2800,
+        "native_dimensions": [
+          3840,
+          2160
+        ],
+        "sha256": "34936fb72f1fcb5af19ac57aa66e282e0093ea3cf9f61c4158678bb691aae8b8",
+        "retained": false
+      },
+      {
+        "frame_index": 3000,
+        "native_dimensions": [
+          3840,
+          2160
+        ],
+        "sha256": "4748631af2524fce77cb49f64a5d4de9e41e0f606bdc16d03d4cf26a11b861d6",
+        "retained": false
+      },
+      {
+        "frame_index": 3040,
+        "native_dimensions": [
+          3840,
+          2160
+        ],
+        "sha256": "7916c3faca637e171eab2084efb999b354190a5610531d8d248b0c9a1cfcc0c4",
+        "retained": false
+      },
+      {
+        "frame_index": 3780,
+        "native_dimensions": [
+          3840,
+          2160
+        ],
+        "sha256": "13266d6d98084b5da0435dfe4486fe506a96234b726d5f1f40c3f929101f7697",
+        "retained": false
+      },
+      {
+        "frame_index": 3900,
+        "native_dimensions": [
+          3840,
+          2160
+        ],
+        "sha256": "3055df2cc08b838f002bed5323baaade6c4af393ee599f8c90a2532efc457876",
+        "retained": false
+      },
+      {
+        "frame_index": 4800,
+        "native_dimensions": [
+          3840,
+          2160
+        ],
+        "sha256": "4f1b65bb34b48bf34e0de7505efe736a7e769d01ed6ccc345ee2a54ca9898173",
+        "retained": false
+      },
+      {
+        "frame_index": 5399,
+        "native_dimensions": [
+          3840,
+          2160
+        ],
+        "sha256": "7f80e56201c905ef9cf58a1b2c87fa7eef68835a3f5d5306d873d34033927feb",
+        "retained": false
+      },
+      {
+        "frame_index": 5400,
+        "native_dimensions": [
+          3840,
+          2160
+        ],
+        "sha256": "d0e8811111ade524ee336be7df723f7545112a14584292fa30d4d5c9460fede4",
+        "retained": true,
+        "path": "review/encoded-landscape-native-frame-5400.png"
+      },
+      {
+        "frame_index": 5424,
+        "native_dimensions": [
+          3840,
+          2160
+        ],
+        "sha256": "b9b172ec1aa5f9540f359c9cf30c0c234e6ca43b85f17fb2430ee4cd332439da",
+        "retained": false
+      },
+      {
+        "frame_index": 5425,
+        "native_dimensions": [
+          3840,
+          2160
+        ],
+        "sha256": "4af32e29b801f66559b06484b01f558bf1825a581eed102b98ad0bf3a2d57763",
+        "retained": false
+      },
+      {
+        "frame_index": 5790,
+        "native_dimensions": [
+          3840,
+          2160
+        ],
+        "sha256": "55993503a8d646d981d32d10f2d3b02cc9d8b35be23dd23ba2f03fb1421f7863",
+        "retained": false
+      },
+      {
+        "frame_index": 6240,
+        "native_dimensions": [
+          3840,
+          2160
+        ],
+        "sha256": "d55a9d9b421618a175e5ae387aa4bf2225e8ddad0b523f3c06fb8cec08277ba7",
+        "retained": false
+      },
+      {
+        "frame_index": 6480,
+        "native_dimensions": [
+          3840,
+          2160
+        ],
+        "sha256": "c603d3d5792d65c468e3562bc57a74e6bb068f5894523a5bb9689211a5d79b64",
+        "retained": false
+      },
+      {
+        "frame_index": 6899,
+        "native_dimensions": [
+          3840,
+          2160
+        ],
+        "sha256": "86492c509acb32ec180dc4cecf5cfe457cf3ec33e0e6a8ab290faf78d4a2a0db",
+        "retained": false
+      },
+      {
+        "frame_index": 6900,
+        "native_dimensions": [
+          3840,
+          2160
+        ],
+        "sha256": "f2e8a642ff7f44ed0ebaf3edecfd66cc5bbedfc236ec8610946aad0f53cf496d",
+        "retained": false
+      },
+      {
+        "frame_index": 6989,
+        "native_dimensions": [
+          3840,
+          2160
+        ],
+        "sha256": "66d9a05216efa3d37909ea4330bf53fbc0dd02eaf4e0cf7fe998bbd841935926",
+        "retained": false
+      },
+      {
+        "frame_index": 6990,
+        "native_dimensions": [
+          3840,
+          2160
+        ],
+        "sha256": "051a983547da86c5c462ecacb982fa47bdb43d0ca862c05451ccfdceb90dc5a1",
+        "retained": false
+      },
+      {
+        "frame_index": 7019,
+        "native_dimensions": [
+          3840,
+          2160
+        ],
+        "sha256": "72ccca2196c8482cee0bd21c4c4aa22b31bed387fa22e13dc4400d86007bca76",
+        "retained": false
+      },
+      {
+        "frame_index": 7020,
+        "native_dimensions": [
+          3840,
+          2160
+        ],
+        "sha256": "7758f89a4d4fa1e08e560ce2f82bd8491a2ec744aaf6e644482f57f47d7a5e78",
+        "retained": false
+      },
+      {
+        "frame_index": 7199,
+        "native_dimensions": [
+          3840,
+          2160
+        ],
+        "sha256": "13f6aecb7a64b460465aecb9abcfb75f23323389e8a9010512d837ce6ad6a8af",
+        "retained": true,
+        "path": "review/encoded-landscape-native-frame-7199.png"
+      }
+    ],
+    "retention_mode": "compact",
+    "source_media_sha256": "12c642ba64d552b3839cf1cf2928d2cbff53a4549851fdf2797c2fc58e0c798a",
+    "retention_limitation": "All listed frames were decoded to full native-resolution PNGs. Compact mode retains only frames 0, 1500, 5400, and 7199; the other decoded frames are deleted with temporary storage and can be reconstructed from the final MP4 identified by source_media_sha256 and their recorded frame indexes."
+  },
+  "motion_heuristic": {
+    "method": "mean absolute difference between Pillow FIND_EDGES grayscale crops from the final MP4",
+    "logical_roi_xywh": [
+      76,
+      245,
+      1768,
+      640
+    ],
+    "native_roi_xywh": [
+      152,
+      490,
+      3536,
+      1280
+    ],
+    "pairs": [
+      {
+        "start_frame": 180,
+        "end_frame": 330,
+        "start_seconds": 3.0,
+        "end_seconds": 5.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 5.592497306034483
+      },
+      {
+        "start_frame": 840,
+        "end_frame": 990,
+        "start_seconds": 14.0,
+        "end_seconds": 16.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 10.11701239224138
+      },
+      {
+        "start_frame": 1380,
+        "end_frame": 1530,
+        "start_seconds": 23.0,
+        "end_seconds": 25.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 11.481573275862068
+      },
+      {
+        "start_frame": 1920,
+        "end_frame": 2070,
+        "start_seconds": 32.0,
+        "end_seconds": 34.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 8.308445581896551
+      },
+      {
+        "start_frame": 2700,
+        "end_frame": 2850,
+        "start_seconds": 45.0,
+        "end_seconds": 47.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 15.511489762931035
+      },
+      {
+        "start_frame": 3120,
+        "end_frame": 3270,
+        "start_seconds": 52.0,
+        "end_seconds": 54.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 14.567726293103448
+      },
+      {
+        "start_frame": 3720,
+        "end_frame": 3870,
+        "start_seconds": 62.0,
+        "end_seconds": 64.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 4.308822737068965
+      },
+      {
+        "start_frame": 4560,
+        "end_frame": 4710,
+        "start_seconds": 76.0,
+        "end_seconds": 78.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 8.080098329741379
+      },
+      {
+        "start_frame": 5460,
+        "end_frame": 5610,
+        "start_seconds": 91.0,
+        "end_seconds": 93.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 1.4240571120689656
+      },
+      {
+        "start_frame": 6060,
+        "end_frame": 6210,
+        "start_seconds": 101.0,
+        "end_seconds": 103.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 9.791150323275861
+      },
+      {
+        "start_frame": 6420,
+        "end_frame": 6570,
+        "start_seconds": 107.0,
+        "end_seconds": 109.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 7.208856411637931
+      },
+      {
+        "start_frame": 6960,
+        "end_frame": 7110,
+        "start_seconds": 116.0,
+        "end_seconds": 118.5,
+        "pair_gap_frames": 150,
+        "edge_difference_mean": 18.46619073275862
+      }
+    ],
+    "pair_contact_sheet_path": "review/encoded-landscape-pair-contact-sheet.jpg",
+    "limitation": "Nonzero edge differences are evidence of pixel changes only; they do not prove meaningful continuous motion or satisfy human motion review."
+  },
+  "native_frame_metadata": {
+    "width": 3840,
+    "height": 2160,
+    "frame_count_reported": "7200"
+  },
+  "acceptance_status": "NOT_EVALUATED",
+  "created_at_utc": "2026-10-19T12:47:18.936944+00:00",
+  "shared_pcm_master": {
+    "path": "project/public/audio/master.wav",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples_per_channel": 5760000,
+    "sample_width_bytes": 2,
+    "sha256": "43bda3d78e143ccb6250b91ef1795067b88ae90b32366c7c56840e2e7390a29b",
+    "expected": {
+      "sample_rate": 48000,
+      "channels": 2,
+      "samples_per_channel": 5760000
+    },
+    "metadata_matches_expected": true
+  },
+  "media_sha256": "12c642ba64d552b3839cf1cf2928d2cbff53a4549851fdf2797c2fc58e0c798a",
+  "shared_aac_identity": {
+    "same_aac_packet_sha256": true,
+    "landscape_sha256": "53f92a7fe50e82c950a5c60e0e79bbbdf488d23bd8233a798968ee20c9cef4a5",
+    "portrait_sha256": "53f92a7fe50e82c950a5c60e0e79bbbdf488d23bd8233a798968ee20c9cef4a5"
+  }
+}

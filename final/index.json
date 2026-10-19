@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "generated_by": "scripts/build-final-library.py",
-  "total_files": 39,
-  "logical_bytes": 6943137816,
+  "total_files": 41,
+  "logical_bytes": 7332543003,
   "files": [
     {
       "source_path": "out/extended/兰亭集序-展厅增强版-1080p.mp4",
@@ -466,6 +466,36 @@
       "backup_release_tag": "final-si-ep05-landauer-limit-v02-5b36c0d69bc3",
       "backup_release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep05-landauer-limit-v02-5b36c0d69bc3",
       "backup_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep05-landauer-limit-v02-5b36c0d69bc3/final--si-ep05-landauer-limit-v02--deliveries--si-ep05-landauer-limit-v02-----si-ep05-landauer-limit-v02-xiaohongshu-120s-portrait--cd8839587847.mp4",
+      "materialization": "APFS clonefile for new files; existing independent matches are retained",
+      "verification": "SHA-256 matches archive catalog; stable stat and inode checks passed"
+    },
+    {
+      "source_path": "deliveries/si-ep05-landauer-limit-v03/B站/si-ep05-landauer-limit-v03-bilibili-120s-4k.mp4",
+      "final_path": "final/si-ep05-landauer-limit-v03/B站/si-ep05-landauer-limit-v03-bilibili-120s-4k.mp4",
+      "work_id": "si-ep05-landauer-limit-v03",
+      "title": "兰道尔极限｜稳定画面与氛围音乐 · EP.05 v03",
+      "platform": "B站",
+      "bytes": 187241112,
+      "sha256": "12c642ba64d552b3839cf1cf2928d2cbff53a4549851fdf2797c2fc58e0c798a",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep05-landauer-limit-v03-2c74a5edf096/si-ep05-landauer-limit-v03--deliveries--si-ep05-landauer-limit-v03--B---si-ep05-landauer-limit-v03-bilibili-120s-4k--12c642ba64d5.mp4",
+      "backup_release_tag": "final-si-ep05-landauer-limit-v03-2c74a5edf096",
+      "backup_release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep05-landauer-limit-v03-2c74a5edf096",
+      "backup_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep05-landauer-limit-v03-2c74a5edf096/final--si-ep05-landauer-limit-v03--deliveries--si-ep05-landauer-limit-v03--B---si-ep05-landauer-limit-v03-bilibili-120s-4k--12c642ba64d5.mp4",
+      "materialization": "APFS clonefile for new files; existing independent matches are retained",
+      "verification": "SHA-256 matches archive catalog; stable stat and inode checks passed"
+    },
+    {
+      "source_path": "deliveries/si-ep05-landauer-limit-v03/小红书/si-ep05-landauer-limit-v03-xiaohongshu-120s-portrait.mp4",
+      "final_path": "final/si-ep05-landauer-limit-v03/小红书/si-ep05-landauer-limit-v03-xiaohongshu-120s-portrait.mp4",
+      "work_id": "si-ep05-landauer-limit-v03",
+      "title": "兰道尔极限｜稳定画面与氛围音乐 · EP.05 v03",
+      "platform": "小红书",
+      "bytes": 202164075,
+      "sha256": "ab2765c6fb0220216ae6418f65df0dcb0a03a7b989780a41cde806ffda4594b9",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep05-landauer-limit-v03-2c74a5edf096/si-ep05-landauer-limit-v03--deliveries--si-ep05-landauer-limit-v03-----si-ep05-landauer-limit-v03-xiaohongshu-120s-portrait--ab2765c6fb02.mp4",
+      "backup_release_tag": "final-si-ep05-landauer-limit-v03-2c74a5edf096",
+      "backup_release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep05-landauer-limit-v03-2c74a5edf096",
+      "backup_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep05-landauer-limit-v03-2c74a5edf096/final--si-ep05-landauer-limit-v03--deliveries--si-ep05-landauer-limit-v03-----si-ep05-landauer-limit-v03-xiaohongshu-120s-portrait--ab2765c6fb02.mp4",
       "materialization": "APFS clonefile for new files; existing independent matches are retained",
       "verification": "SHA-256 matches archive catalog; stable stat and inode checks passed"
     },

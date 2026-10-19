@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-10-19T03:56:24.689413+00:00",
+  "scope": "One newly backed-up EP06 landscape final, actual remote download and repeated idempotent skip.",
+  "catalog_sha256": "c809ad0eca2816f3b28ecef9fbf63e4976879f28af1b1395a17410efa420e7c1",
+  "asset": {
+    "path": "final/si-ep06-sovereign-crystal/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+    "bytes": 162732424,
+    "sha256": "b1ef98636d1072853461fdc7032b94959c94634206632aa316188bd7aee13f8d",
+    "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep06-sovereign-crystal-17a9981f3b94/final--si-ep06-sovereign-crystal--deliveries--si-ep06-sovereign-crystal--B---si-ep06-sovereign-crystal-bilibili-120s-4k--b1ef98636d10.mp4"
+  },
+  "first_run": "Restored: final/si-ep06-sovereign-crystal/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4 (162,732,424 bytes)\nRestore complete: 0 already verified, 1 downloaded",
+  "repeat_run": "Restore complete: 1 already verified, 0 downloaded",
+  "temporary_restore_location": "isolated AgentDev TMPDIR subdirectory, removed after verification",
+  "verified_size_and_sha256": true
+}

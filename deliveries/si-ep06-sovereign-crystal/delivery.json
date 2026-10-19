@@ -71,5 +71,15 @@
     "shared_audio_waveform": "PASS",
     "shared_audio_evidence": "review/shared-audio-correlation.json"
   },
-  "production_status": "final_media_validated"
+  "production_status": "final_media_validated",
+  "archive": {
+    "status": "COMPLETE",
+    "source_commit": "728b8bad00bea3e65288891c7058474172dcd70d",
+    "film_release_url": "https://github.com/jggagi/video-making/releases/tag/film-si-ep06-sovereign-crystal-17a9981f3b94",
+    "final_release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep06-sovereign-crystal-17a9981f3b94",
+    "evidence": "review/archive-verification.json",
+    "local_final": "verified_apfs_clones",
+    "remote_size_and_sha256": "PASS",
+    "restore_probe": "PASS_one_new_landscape_final"
+  }
 }

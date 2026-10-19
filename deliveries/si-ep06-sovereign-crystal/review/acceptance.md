@@ -44,3 +44,12 @@ RP示意采用−550/−200/0ms，间隔350ms，不是精确读心证据。Loren
 - 每版32组150帧间隔ROI对比已收集，覆盖长镜头；抽查配对显示节点、棱镜透视、轨迹、地形球体、晶体和六环空间变化。
 
 人工完整听看、发音/情绪、真实手机和平台App验收继续pending。
+
+## 归档完成
+
+- 源码提交 `728b8bad00bea3e65288891c7058474172dcd70d` 已push。
+- [作品Release](https://github.com/jggagi/video-making/releases/tag/film-si-ep06-sovereign-crystal-17a9981f3b94) 9资产与[独立final Release](https://github.com/jggagi/video-making/releases/tag/final-si-ep06-sovereign-crystal-17a9981f3b94) 2资产，均以新的GitHub API集合核对远端大小、SHA-256及本地文件一致。
+- 当前全局final清单共33份正式视频、11个Release全部核验，证明绑定当前backup-catalog SHA-256。
+- 本次横版新final实际下载恢复，路径/大小/SHA-256匹配；重复执行已验证文件被跳过。范围仅这一份恢复抽测，不声称全部33份下载恢复。
+- 本地final为APFS克隆，原工程输出保留。工程ZIP保存发布前的技术验收快照；仓库此后追加远端归档证据，未改变电影或声音。
+- 人工完整听看与真实手机/App验收仍pending。

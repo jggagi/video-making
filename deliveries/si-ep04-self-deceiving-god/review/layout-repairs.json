@@ -1,0 +1,55 @@
+{
+  "status": "final_encoded_repairs_verified",
+  "fixes": [
+    {
+      "phase": "1800-2700 portrait",
+      "issue": "Probe caption collided with duplicated waiting telemetry",
+      "change": "Waiting telemetry moved to y1180 with32/40/30px font hierarchy; probe label remains at y1103.5/1136.5."
+    },
+    {
+      "phase": "6300-6930 landscape",
+      "issue": "Core touched closing title",
+      "change": "Camera-style settling reframe moves core/anchor to x1570 by6300; text remains centered."
+    },
+    {
+      "phase": "0-2880 both",
+      "issue": "Inactive right HUD was muted gray instead of specified cyan",
+      "change": "Use #06b6d4 until2880, then #d946ef."
+    },
+    {
+      "phase": "1200-1440 both",
+      "issue": "Required formal-reality boundary label absent from scene",
+      "change": "Added readable bilingual ceiling label before and across frame1260, above the title and inside safe zones."
+    }
+  ],
+  "shared_pcm_unchanged": true,
+  "master_sha256": "7d1796770c81984c9082d37dbd951100d124576901d4ad30ee536610f6154acb",
+  "bundle_race_observation": "Earlier portrait started before the new boundary-label source was bundled; actual encoded frame1260 revealed absence. Source is now frozen for both final renders.",
+  "landscape_encoded_observation": {
+    "status": "representative_repairs_confirmed",
+    "frames": [
+      1260,
+      6500
+    ],
+    "evidence": [
+      "review/encoded-boundary-landscape.jpg",
+      "review/encoded-repaired-quote.jpg"
+    ],
+    "note": "Actual final native MP4 frames contain ceiling label and separated quote/core; full strict decode pending."
+  },
+  "portrait_encoded_observation": {
+    "frames": [
+      1260,
+      2190
+    ],
+    "evidence": [
+      "review/encoded-boundary-portrait-360.jpg",
+      "review/encoded-repaired-wait-360.jpg"
+    ],
+    "status": "required_label_and_wait_clearance_confirmed"
+  },
+  "final_movie_hashes": {
+    "bilibili": "ff373b6c1db88b93dc94fe032526a64273044bbb268f4ee5b9461f1b01cdbef3",
+    "xiaohongshu": "c836ee94b7bc7c030797a639e0975f242740c265eb4fc740f690f4f910a49ed0"
+  }
+}

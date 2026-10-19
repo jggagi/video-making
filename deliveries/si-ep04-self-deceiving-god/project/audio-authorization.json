@@ -1,0 +1,28 @@
+{
+  "provider": "Aliyun Bailian",
+  "scope": "S01-S09 supplied TTS text; S08 split into two complete cues; S10 reused from prior EP04.",
+  "authorized": true,
+  "source": "Direct human authorization relayed by Sol/root in the current task turn.",
+  "authorized_at_utc": "2026-10-19T10:16:58Z",
+  "authorization_question": "是否允许把本片所给的 S01–S09 旁白文本发送给阿里云百炼，沿用 EP04 的 cosyvoice-v3-flash／longtian_v3 合成配音？可能产生计费；只发送本片文本，不上传其他文件，横竖版共用一次生成结果。",
+  "authorization_answer": "允许，按此范围生成",
+  "settings": {
+    "model_selection": "active profile default",
+    "expected_effective_model": "cosyvoice-v3-flash",
+    "voice": "longtian_v3",
+    "rate": 1.0,
+    "format": "wav",
+    "sample_rate": 24000,
+    "cli_version": "2.3.2"
+  },
+  "preflight_sample": {
+    "id": "S04",
+    "effective_model": "cosyvoice-v3-flash",
+    "effective_voice": "longtian_v3",
+    "raw_path": "public/audio/raw/S04-d208e18a5dc8.wav",
+    "raw_sha256": "54de249e52c24b32bbdbbc546fe2a958704b8fa3c3d9cf5e66002781372693d4",
+    "actual_samples_24k": 207360,
+    "duration_seconds": 8.64,
+    "wav_size_repair_verified": true
+  }
+}

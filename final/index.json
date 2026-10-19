@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "generated_by": "scripts/build-final-library.py",
-  "total_files": 37,
-  "logical_bytes": 6383974805,
+  "total_files": 39,
+  "logical_bytes": 6943137816,
   "files": [
     {
       "source_path": "out/extended/兰亭集序-展厅增强版-1080p.mp4",
@@ -286,6 +286,36 @@
       "backup_release_tag": "final-si-ep03-million-mind-v02-9517e8e05dfb",
       "backup_release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep03-million-mind-v02-9517e8e05dfb",
       "backup_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep03-million-mind-v02-9517e8e05dfb/final--si-ep03-million-mind-v02--deliveries--si-ep03-million-mind-v02-----si-ep03-million-mind-v02-xiaohongshu-120s-portrait--54d248dab782.mp4",
+      "materialization": "APFS clonefile for new files; existing independent matches are retained",
+      "verification": "SHA-256 matches archive catalog; stable stat and inode checks passed"
+    },
+    {
+      "source_path": "deliveries/si-ep04-self-deceiving-god/B站/si-ep04-self-deceiving-god-bilibili-120s-4k.mp4",
+      "final_path": "final/si-ep04-self-deceiving-god/B站/si-ep04-self-deceiving-god-bilibili-120s-4k.mp4",
+      "work_id": "si-ep04-self-deceiving-god",
+      "title": "神也会自我欺骗",
+      "platform": "B站",
+      "bytes": 291089318,
+      "sha256": "ff373b6c1db88b93dc94fe032526a64273044bbb268f4ee5b9461f1b01cdbef3",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep04-self-deceiving-god-bfac5c887fdd/si-ep04-self-deceiving-god--deliveries--si-ep04-self-deceiving-god--B---si-ep04-self-deceiving-god-bilibili-120s-4k--ff373b6c1db8.mp4",
+      "backup_release_tag": "final-si-ep04-self-deceiving-god-bfac5c887fdd",
+      "backup_release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep04-self-deceiving-god-bfac5c887fdd",
+      "backup_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep04-self-deceiving-god-bfac5c887fdd/final--si-ep04-self-deceiving-god--deliveries--si-ep04-self-deceiving-god--B---si-ep04-self-deceiving-god-bilibili-120s-4k--ff373b6c1db8.mp4",
+      "materialization": "APFS clonefile for new files; existing independent matches are retained",
+      "verification": "SHA-256 matches archive catalog; stable stat and inode checks passed"
+    },
+    {
+      "source_path": "deliveries/si-ep04-self-deceiving-god/小红书/si-ep04-self-deceiving-god-xiaohongshu-120s-portrait.mp4",
+      "final_path": "final/si-ep04-self-deceiving-god/小红书/si-ep04-self-deceiving-god-xiaohongshu-120s-portrait.mp4",
+      "work_id": "si-ep04-self-deceiving-god",
+      "title": "神也会自我欺骗",
+      "platform": "小红书",
+      "bytes": 268073693,
+      "sha256": "c836ee94b7bc7c030797a639e0975f242740c265eb4fc740f690f4f910a49ed0",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep04-self-deceiving-god-bfac5c887fdd/si-ep04-self-deceiving-god--deliveries--si-ep04-self-deceiving-god-----si-ep04-self-deceiving-god-xiaohongshu-120s-portrait--c836ee94b7bc.mp4",
+      "backup_release_tag": "final-si-ep04-self-deceiving-god-bfac5c887fdd",
+      "backup_release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep04-self-deceiving-god-bfac5c887fdd",
+      "backup_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep04-self-deceiving-god-bfac5c887fdd/final--si-ep04-self-deceiving-god--deliveries--si-ep04-self-deceiving-god-----si-ep04-self-deceiving-god-xiaohongshu-120s-portrait--c836ee94b7bc.mp4",
       "materialization": "APFS clonefile for new files; existing independent matches are retained",
       "verification": "SHA-256 matches archive catalog; stable stat and inode checks passed"
     },

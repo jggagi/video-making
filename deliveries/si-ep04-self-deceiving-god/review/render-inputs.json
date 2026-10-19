@@ -1,0 +1,50 @@
+{
+  "status": "final_render_inputs_unchanged_and_encoded_media_verified",
+  "note": "Portrait final bundle and final landscape rerender use these media source inputs. Layout repair drafts are separately retained until verification.",
+  "files": [
+    {
+      "path": "project/src/Cathedral.ts",
+      "sha256": "e393b97b563002274dc28822e83778ba8ed128893a6ec57cce452591800a3895",
+      "bytes": 22896
+    },
+    {
+      "path": "project/src/Film.tsx",
+      "sha256": "1c449ef99e5d9cdff9cffd87f1d9ebd9a9c01fb68030f15bdea08d855d9a19f7",
+      "bytes": 6763
+    },
+    {
+      "path": "project/src/Prelude.ts",
+      "sha256": "b8f567220ad9f3137ab4822722b3511c3fa18744eda45383df2157d84e2c2765",
+      "bytes": 25244
+    },
+    {
+      "path": "project/src/Root.tsx",
+      "sha256": "14c9886dd0ca500e779a4e4ee682cb21cfef28460c6e331762c0d662452ed84c",
+      "bytes": 448
+    },
+    {
+      "path": "project/src/World.tsx",
+      "sha256": "ec768a718cf2b62cb07f559c457c02be54ac2632bde977a60af7956cf9aaf1f0",
+      "bytes": 5089
+    },
+    {
+      "path": "project/src/index.ts",
+      "sha256": "2e0e358282a1b998a65387c653b97c2bb2eb7aae94cf200fc0b8d919f7be73a6",
+      "bytes": 88
+    },
+    {
+      "path": "project/audio-timing.json",
+      "sha256": "ff81c81f61bcd13152bac5a43b5723e7c18570e721eb59a46fc1434827589d8f",
+      "bytes": 19767
+    },
+    {
+      "path": "project/public/audio/master.wav",
+      "sha256": "7d1796770c81984c9082d37dbd951100d124576901d4ad30ee536610f6154acb",
+      "bytes": 23040044
+    }
+  ],
+  "outputs": {
+    "bilibili": "ff373b6c1db88b93dc94fe032526a64273044bbb268f4ee5b9461f1b01cdbef3",
+    "xiaohongshu": "c836ee94b7bc7c030797a639e0975f242740c265eb4fc740f690f4f910a49ed0"
+  }
+}

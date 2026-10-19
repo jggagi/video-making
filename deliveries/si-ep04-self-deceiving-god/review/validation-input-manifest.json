@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "title": "神也会自我欺骗",
+  "slug": "si-ep04-self-deceiving-god",
+  "duration_seconds": 120,
+  "fps": 60,
+  "total_frames": 7200,
+  "script": {
+    "path": "source/script.md",
+    "sha256": "de438976a57a67a09aacb658c5d57b8401a9d15e4eda53f0d166e05484757f4d"
+  },
+  "audio": {
+    "mode": "narrated",
+    "master": "project/public/audio/master.wav",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples_per_channel": 5760000,
+    "sha256": "7d1796770c81984c9082d37dbd951100d124576901d4ad30ee536610f6154acb",
+    "pcm_metrics": {
+      "lufs": -17.0,
+      "true_peak_dbtp": -1.8
+    }
+  },
+  "outputs": {
+    "bilibili": {
+      "path": "B站/si-ep04-self-deceiving-god-bilibili-120s-4k.mp4",
+      "width": 3840,
+      "height": 2160,
+      "bytes": 291089318,
+      "sha256": "ff373b6c1db88b93dc94fe032526a64273044bbb268f4ee5b9461f1b01cdbef3",
+      "fps": 60,
+      "total_frames": 7200,
+      "duration_seconds": 120
+    },
+    "xiaohongshu": {
+      "path": "小红书/si-ep04-self-deceiving-god-xiaohongshu-120s-portrait.mp4",
+      "width": 2160,
+      "height": 3840,
+      "bytes": 268073693,
+      "sha256": "c836ee94b7bc7c030797a639e0975f242740c265eb4fc740f690f4f910a49ed0",
+      "fps": 60,
+      "total_frames": 7200,
+      "duration_seconds": 120
+    }
+  },
+  "qa": {
+    "automated": "pending",
+    "representative_frames": "pending",
+    "continuous_human_review": "pending",
+    "target_device_playback": "pending",
+    "project": "PASS",
+    "human_listening": "pending"
+  },
+  "production_status": "rendered_pending_final_media_qa",
+  "scientific_notes": "project/scientific-notes.md",
+  "sfx_interpretation": "5820 begins30f silence;5850 impact;5868 collapse complete"
+}

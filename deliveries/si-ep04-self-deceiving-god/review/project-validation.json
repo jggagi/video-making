@@ -1,0 +1,380 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "delivery timing is 120 seconds / 60 fps / 7200 frames",
+      "status": "PASS"
+    },
+    {
+      "name": "delivery slug matches folder",
+      "status": "PASS"
+    },
+    {
+      "name": "source script SHA-256 matches delivery.json",
+      "status": "PASS",
+      "details": "de438976a57a67a09aacb658c5d57b8401a9d15e4eda53f0d166e05484757f4d"
+    },
+    {
+      "name": "delivery.json outputs.bilibili declares 3840x2160",
+      "status": "PASS",
+      "details": {
+        "actual": [
+          3840,
+          2160
+        ],
+        "expected": [
+          3840,
+          2160
+        ]
+      }
+    },
+    {
+      "name": "delivery.json outputs.xiaohongshu declares 2160x3840",
+      "status": "PASS",
+      "details": {
+        "actual": [
+          2160,
+          3840
+        ],
+        "expected": [
+          2160,
+          3840
+        ]
+      }
+    },
+    {
+      "name": "Root.tsx Landscape4K composition timing and dimensions",
+      "status": "PASS",
+      "details": {
+        "expected": {
+          "width": 3840,
+          "height": 2160,
+          "fps": 60,
+          "durationInFrames": 7200
+        },
+        "actual": {
+          "width": 3840,
+          "height": 2160,
+          "fps": 60,
+          "durationInFrames": 7200
+        }
+      }
+    },
+    {
+      "name": "Root.tsx PortraitVertical composition timing and dimensions",
+      "status": "PASS",
+      "details": {
+        "expected": {
+          "width": 2160,
+          "height": 3840,
+          "fps": 60,
+          "durationInFrames": 7200
+        },
+        "actual": {
+          "width": 2160,
+          "height": 3840,
+          "fps": 60,
+          "durationInFrames": 7200
+        }
+      }
+    },
+    {
+      "name": "segments.json contains S01-S10 in order",
+      "status": "PASS",
+      "details": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S08",
+        "S09",
+        "S10"
+      ]
+    },
+    {
+      "name": "segment frame windows are in range and do not overlap",
+      "status": "PASS",
+      "details": [
+        {
+          "id": "S01",
+          "startFrame": 120,
+          "endFrame": 600
+        },
+        {
+          "id": "S02",
+          "startFrame": 660,
+          "endFrame": 1200
+        },
+        {
+          "id": "S03",
+          "startFrame": 1260,
+          "endFrame": 1740
+        },
+        {
+          "id": "S04",
+          "startFrame": 1860,
+          "endFrame": 2580
+        },
+        {
+          "id": "S05",
+          "startFrame": 2700,
+          "endFrame": 3480
+        },
+        {
+          "id": "S06",
+          "startFrame": 3660,
+          "endFrame": 4440
+        },
+        {
+          "id": "S07",
+          "startFrame": 4500,
+          "endFrame": 5340
+        },
+        {
+          "id": "S08",
+          "startFrame": 5460,
+          "endFrame": 6240
+        },
+        {
+          "id": "S09",
+          "startFrame": 6360,
+          "endFrame": 6900
+        },
+        {
+          "id": "S10",
+          "startFrame": 6960,
+          "endFrame": 7200
+        }
+      ]
+    },
+    {
+      "name": "source script contains all ten segment rows",
+      "status": "PASS",
+      "details": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S08",
+        "S09",
+        "S10"
+      ]
+    },
+    {
+      "name": "S01-S10 source text and frame windows are preserved",
+      "status": "PASS",
+      "details": []
+    },
+    {
+      "name": "S01-S10 TTS input files preserve source text",
+      "status": "PASS"
+    },
+    {
+      "name": "timeline declares 120 seconds / 60 fps / 7200 frames",
+      "status": "PASS"
+    },
+    {
+      "name": "timeline shots cover 0..7200 without gaps or overlap",
+      "status": "PASS",
+      "details": [
+        {
+          "startFrame": 0,
+          "endFrame": 1260,
+          "title": "形式化的断头台"
+        },
+        {
+          "startFrame": 1260,
+          "endFrame": 1800,
+          "title": "失去地面"
+        },
+        {
+          "startFrame": 1800,
+          "endFrame": 2700,
+          "title": "一亿年的死寂"
+        },
+        {
+          "startFrame": 2700,
+          "endFrame": 3600,
+          "title": "与自己的影子下棋"
+        },
+        {
+          "startFrame": 3600,
+          "endFrame": 4500,
+          "title": "闭环的狂喜"
+        },
+        {
+          "startFrame": 4500,
+          "endFrame": 5400,
+          "title": "自噬圣殿"
+        },
+        {
+          "startFrame": 5400,
+          "endFrame": 5820,
+          "title": "最后的奢华"
+        },
+        {
+          "startFrame": 5820,
+          "endFrame": 5850,
+          "title": "真空"
+        },
+        {
+          "startFrame": 5850,
+          "endFrame": 6300,
+          "title": "一滴现实"
+        },
+        {
+          "startFrame": 6300,
+          "endFrame": 6930,
+          "title": "现实的锚"
+        },
+        {
+          "startFrame": 6930,
+          "endFrame": 7200,
+          "title": "热力学终局"
+        }
+      ]
+    },
+    {
+      "name": "Cathedral.ts contains the four-coordinate Klein immersion",
+      "status": "PASS"
+    },
+    {
+      "name": "Cathedral.ts grows six deterministic dyadic lace layers on Klein4",
+      "status": "PASS"
+    },
+    {
+      "name": "TypeScript sources contain no Math.random or Date.now",
+      "status": "PASS",
+      "details": [
+        "src/Cathedral.ts",
+        "src/Film.tsx",
+        "src/Prelude.ts",
+        "src/Root.tsx",
+        "src/World.tsx",
+        "src/index.ts"
+      ]
+    },
+    {
+      "name": "required technical lexicon spellings occur in source",
+      "status": "PASS",
+      "details": {
+        "required": [
+          "VERIFIER",
+          "GUILLOTINE",
+          "FALSIFIED",
+          "DIVERGING",
+          "AUTOPHAGY"
+        ],
+        "missing": []
+      }
+    },
+    {
+      "name": "exact persistent HUD and ceiling label are present",
+      "status": "PASS",
+      "details": {
+        "missing": []
+      }
+    },
+    {
+      "name": "audio-timing.json declares exact 48-kHz stereo master duration",
+      "status": "PASS",
+      "details": {
+        "durationSeconds": 120,
+        "fps": 60,
+        "sampleRate": 48000,
+        "samplesPerChannel": 5760000,
+        "status": "measured_pcm_with_estimated_phrase_timing"
+      }
+    },
+    {
+      "name": "measured audio timing contains S01-S10 in order",
+      "status": "PASS",
+      "details": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S08",
+        "S09",
+        "S10"
+      ]
+    },
+    {
+      "name": "measured audio segment frame windows and text layout are valid",
+      "status": "PASS",
+      "details": []
+    },
+    {
+      "name": "measured audio segment sample counts are positive",
+      "status": "PASS"
+    },
+    {
+      "name": "timed caption frame windows and text layout are valid",
+      "status": "PASS",
+      "details": []
+    },
+    {
+      "name": "portrait subtitle font remains above 13px at 360px preview",
+      "status": "PASS",
+      "details": {
+        "logical_font_px": 44,
+        "effective_at_360px": 14.666666666666666
+      }
+    },
+    {
+      "name": "SFX map uses 60 fps and 800 samples per frame",
+      "status": "PASS"
+    },
+    {
+      "name": "SFX silence covers frames 5820-5849 / samples [4656000,4680000)",
+      "status": "PASS"
+    },
+    {
+      "name": "truth drop starts at frame 5850 / sample 4680000",
+      "status": "PASS"
+    },
+    {
+      "name": "shared PCM is 48-kHz stereo with 5,760,000 samples/channel",
+      "status": "PASS",
+      "details": {
+        "sample_rate": 48000,
+        "channels": 2,
+        "samples_per_channel": 5760000,
+        "sample_width_bytes": 2,
+        "compression": "NONE"
+      }
+    },
+    {
+      "name": "PCM master is exactly zero during [4656000,4680000)",
+      "status": "PASS"
+    }
+  ],
+  "failures": [],
+  "incomplete": [],
+  "segment_count": 10,
+  "pcm_master": {
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples_per_channel": 5760000,
+    "sample_width_bytes": 2,
+    "compression": "NONE",
+    "silent_sample_range": [
+      4656000,
+      4680000
+    ],
+    "silence_is_zero": true,
+    "sha256": "7d1796770c81984c9082d37dbd951100d124576901d4ad30ee536610f6154acb"
+  },
+  "acceptance_status": "NOT_EVALUATED",
+  "scope": "authored source, timeline, subtitle, SFX timing and available PCM; final media decode and human acceptance are separate"
+}

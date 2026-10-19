@@ -1,0 +1,6 @@
+# Native preflight stills are rebuildable; compact previews and final encoded QA stay versioned.
+stills/
+
+# Local duplicate stdout captures; canonical reports remain versioned.
+collector-run.json
+source-check-run.json

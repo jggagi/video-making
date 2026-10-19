@@ -362,6 +362,47 @@
       ]
     },
     {
+      "id": "si-ep04-self-deceiving-god",
+      "title": "Final 成片备份 · 神也会自我欺骗",
+      "release_tag": "final-si-ep04-self-deceiving-god-bfac5c887fdd",
+      "assets": [
+        {
+          "path": "final/si-ep04-self-deceiving-god/B站/si-ep04-self-deceiving-god-bilibili-120s-4k.mp4",
+          "name": "final--si-ep04-self-deceiving-god--deliveries--si-ep04-self-deceiving-god--B---si-ep04-self-deceiving-god-bilibili-120s-4k--ff373b6c1db8.mp4",
+          "bytes": 291089318,
+          "sha256": "ff373b6c1db88b93dc94fe032526a64273044bbb268f4ee5b9461f1b01cdbef3",
+          "kind": "video",
+          "platform": "B站",
+          "measurements": {
+            "width": 3840,
+            "height": 2160,
+            "fps": "60/1",
+            "frames": "7200",
+            "video_duration_seconds": 120.0,
+            "container_duration_seconds": 120.0
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep04-self-deceiving-god-bfac5c887fdd/final--si-ep04-self-deceiving-god--deliveries--si-ep04-self-deceiving-god--B---si-ep04-self-deceiving-god-bilibili-120s-4k--ff373b6c1db8.mp4"
+        },
+        {
+          "path": "final/si-ep04-self-deceiving-god/小红书/si-ep04-self-deceiving-god-xiaohongshu-120s-portrait.mp4",
+          "name": "final--si-ep04-self-deceiving-god--deliveries--si-ep04-self-deceiving-god-----si-ep04-self-deceiving-god-xiaohongshu-120s-portrait--c836ee94b7bc.mp4",
+          "bytes": 268073693,
+          "sha256": "c836ee94b7bc7c030797a639e0975f242740c265eb4fc740f690f4f910a49ed0",
+          "kind": "video",
+          "platform": "小红书",
+          "measurements": {
+            "width": 2160,
+            "height": 3840,
+            "fps": "60/1",
+            "frames": "7200",
+            "video_duration_seconds": 120.0,
+            "container_duration_seconds": 120.0
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep04-self-deceiving-god-bfac5c887fdd/final--si-ep04-self-deceiving-god--deliveries--si-ep04-self-deceiving-god-----si-ep04-self-deceiving-god-xiaohongshu-120s-portrait--c836ee94b7bc.mp4"
+        }
+      ]
+    },
+    {
       "id": "si-ep04-verifier-paradox",
       "title": "Final 成片备份 · 神也会自我欺骗｜THE VERIFIER PARADOX · EP.04",
       "release_tag": "final-si-ep04-verifier-paradox-c7bcd4c3eca0",

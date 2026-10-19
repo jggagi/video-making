@@ -1,0 +1,32 @@
+{
+  "status": "verified_superseded_drafts_cached",
+  "cache_directory": "/Volumes/AgentDev/Scratch/tmp/ep04-superseded-layout-ppbk4a6w",
+  "records": [
+    {
+      "source": "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep04-self-deceiving-god/B站/si-ep04-self-deceiving-god-bilibili-120s-4k.mp4",
+      "cache": "/Volumes/AgentDev/Scratch/tmp/ep04-superseded-layout-ppbk4a6w/si-ep04-self-deceiving-god-bilibili-120s-4k.mp4",
+      "sha256": "5ea002b51646e06152ef67d99eb52adc2b6ab1c4112d6bc75120a36cc99ec7dd",
+      "bytes": 290445726
+    },
+    {
+      "source": "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep04-self-deceiving-god/小红书/si-ep04-self-deceiving-god-xiaohongshu-120s-portrait.mp4",
+      "cache": "/Volumes/AgentDev/Scratch/tmp/ep04-superseded-layout-ppbk4a6w/si-ep04-self-deceiving-god-xiaohongshu-120s-portrait.mp4",
+      "sha256": "ec71ecc72be48f379ab4386b47648b3f564675cda2fcd68e01e5dd925e956288",
+      "bytes": 270241086
+    },
+    {
+      "source": "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep04-self-deceiving-god/B站/si-ep04-self-deceiving-god-bilibili-120s-4k.mp4",
+      "cache": "/Volumes/AgentDev/Scratch/tmp/ep04-superseded-layout-ppbk4a6w/layout-repaired-before-boundary-bilibili.mp4",
+      "sha256": "f711a3c0564ae39e10f52d4afd20c215066e177c5dafe3aed1bd48d99f02cf99",
+      "bytes": 290579745,
+      "reason": "closed second landscape encode superseded by required boundary label"
+    },
+    {
+      "source": "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep04-self-deceiving-god/小红书/si-ep04-self-deceiving-god-xiaohongshu-120s-portrait.mp4",
+      "cache": "/Volumes/AgentDev/Scratch/tmp/ep04-superseded-layout-ppbk4a6w/layout-repaired-before-boundary-xiaohongshu.mp4",
+      "sha256": "26938fb6d1627a4484c9323026423750ab2fa6c759f7ec5a4b20de7f60a15c78",
+      "bytes": 265174040,
+      "reason": "encoded check found portrait bundle predated boundary label; full corrected rerender required"
+    }
+  ]
+}

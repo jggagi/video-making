@@ -1,0 +1,3 @@
+# Local dependency link or installation; restore from package-lock.json.
+/node_modules
+/.remotion/

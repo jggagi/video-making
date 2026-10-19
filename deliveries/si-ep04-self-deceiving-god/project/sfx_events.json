@@ -1,0 +1,80 @@
+{
+  "fps": 60,
+  "sample_rate": 48000,
+  "samples_per_frame": 800,
+  "interpretation": "5820 starts the requested 30-frame silence [5820,5850); drop/shatter at5850, 18-frame collapse thereafter. Narration S08 split at grammatical pause around this interval.",
+  "events": [
+    {
+      "id": "crystalline_ticks",
+      "frame": 120,
+      "sample": 96000,
+      "durationSeconds": 3
+    },
+    {
+      "id": "guillotine",
+      "frame": 900,
+      "sample": 720000,
+      "durationSeconds": 2
+    },
+    {
+      "id": "vacuum38",
+      "frame": 1260,
+      "sample": 1008000,
+      "durationSeconds": 5
+    },
+    {
+      "id": "amber_clock",
+      "frame": 2040,
+      "sample": 1632000,
+      "durationSeconds": 10
+    },
+    {
+      "id": "mirror_split",
+      "frame": 2880,
+      "sample": 2304000,
+      "durationSeconds": 4
+    },
+    {
+      "id": "shepard",
+      "frame": 3800,
+      "sample": 3040000,
+      "durationSeconds": 17
+    },
+    {
+      "id": "organ",
+      "frame": 4700,
+      "sample": 3760000,
+      "durationSeconds": 18
+    },
+    {
+      "id": "silence",
+      "frame": 5820,
+      "sample": 4656000,
+      "durationSeconds": 0.5
+    },
+    {
+      "id": "truth_drop",
+      "frame": 5850,
+      "sample": 4680000,
+      "durationSeconds": 0.3
+    },
+    {
+      "id": "glass_shatter",
+      "frame": 5850,
+      "sample": 4680000,
+      "durationSeconds": 5
+    },
+    {
+      "id": "cello",
+      "frame": 6500,
+      "sample": 5200000,
+      "durationSeconds": 6
+    },
+    {
+      "id": "thermal",
+      "frame": 7020,
+      "sample": 5616000,
+      "durationSeconds": 3
+    }
+  ]
+}

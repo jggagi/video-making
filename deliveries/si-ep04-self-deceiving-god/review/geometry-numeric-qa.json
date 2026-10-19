@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "method": "Execute transpiled authored klein4; compare glide seam and v-periodicity over 8833 parameter pairs",
+  "max_glide_seam_error": 3.941291737419306e-15,
+  "max_v_periodicity_error": 9.43689570931383e-16,
+  "limitations": "Numeric seam check plus source review, not a proof of all geometry or visual effectiveness",
+  "source_sha256": "e393b97b563002274dc28822e83778ba8ed128893a6ec57cce452591800a3895"
+}

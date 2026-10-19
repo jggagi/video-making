@@ -1,0 +1,395 @@
+{
+  "schema_version": 1,
+  "status": "FAIL",
+  "checks": [
+    {
+      "name": "delivery.json is readable",
+      "status": "PASS"
+    },
+    {
+      "name": "delivery.json timing is 120s / 60fps / 7200 frames",
+      "status": "PASS"
+    },
+    {
+      "name": "shared PCM master is available",
+      "status": "PASS",
+      "details": "project/public/audio/master.wav"
+    },
+    {
+      "name": "bilibili delivery.json dimensions match native target",
+      "status": "PASS",
+      "details": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "name": "bilibili final MP4 is present",
+      "status": "PASS",
+      "details": {
+        "path": "B站/si-ep04-self-deceiving-god-bilibili-120s-4k.mp4",
+        "bytes": 290445726
+      }
+    },
+    {
+      "name": "bilibili MP4 dimensions",
+      "status": "PASS",
+      "details": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "name": "bilibili MP4 frame rate",
+      "status": "PASS",
+      "details": 60.0
+    },
+    {
+      "name": "bilibili MP4 reports 7200 frames",
+      "status": "PASS",
+      "details": 7200
+    },
+    {
+      "name": "bilibili MP4 duration is 120 seconds",
+      "status": "PASS",
+      "details": 120.0
+    },
+    {
+      "name": "bilibili video stream duration is 120 seconds",
+      "status": "PASS",
+      "details": 120.0
+    },
+    {
+      "name": "bilibili MP4 has BT.709 color metadata",
+      "status": "PASS",
+      "details": {
+        "color_space": "bt709",
+        "color_transfer": "bt709",
+        "color_primaries": "bt709",
+        "color_range": "tv"
+      }
+    },
+    {
+      "name": "bilibili AAC is 48-kHz stereo",
+      "status": "PASS",
+      "details": {
+        "codec": "aac",
+        "sample_rate": 48000,
+        "channels": 2,
+        "duration": "120.000000"
+      }
+    },
+    {
+      "name": "bilibili AAC duration is 120 seconds",
+      "status": "PASS",
+      "details": 120.0
+    },
+    {
+      "name": "bilibili EBU R128 / true peak measurement",
+      "status": "PASS",
+      "details": {
+        "integrated_lufs": -17.0,
+        "true_peak_dBFS": -1.8,
+        "filter": "ebur128=peak=true"
+      }
+    },
+    {
+      "name": "bilibili AAC packet SHA-256",
+      "status": "PASS",
+      "details": "12ba0c2afb6ed31d0898457f3f95fbfd19c2a1817095f5ed7474ef913a3e6f15"
+    },
+    {
+      "name": "xiaohongshu delivery.json dimensions match native target",
+      "status": "PASS",
+      "details": [
+        2160,
+        3840
+      ]
+    },
+    {
+      "name": "xiaohongshu final MP4 is present",
+      "status": "PASS",
+      "details": {
+        "path": "小红书/si-ep04-self-deceiving-god-xiaohongshu-120s-portrait.mp4",
+        "bytes": 270241086
+      }
+    },
+    {
+      "name": "xiaohongshu MP4 dimensions",
+      "status": "PASS",
+      "details": [
+        2160,
+        3840
+      ]
+    },
+    {
+      "name": "xiaohongshu MP4 frame rate",
+      "status": "PASS",
+      "details": 60.0
+    },
+    {
+      "name": "xiaohongshu MP4 reports 7200 frames",
+      "status": "PASS",
+      "details": 7200
+    },
+    {
+      "name": "xiaohongshu MP4 duration is 120 seconds",
+      "status": "PASS",
+      "details": 120.0
+    },
+    {
+      "name": "xiaohongshu video stream duration is 120 seconds",
+      "status": "PASS",
+      "details": 120.0
+    },
+    {
+      "name": "xiaohongshu MP4 has BT.709 color metadata",
+      "status": "PASS",
+      "details": {
+        "color_space": "bt709",
+        "color_transfer": "bt709",
+        "color_primaries": "bt709",
+        "color_range": "tv"
+      }
+    },
+    {
+      "name": "xiaohongshu AAC is 48-kHz stereo",
+      "status": "PASS",
+      "details": {
+        "codec": "aac",
+        "sample_rate": 48000,
+        "channels": 2,
+        "duration": "120.000000"
+      }
+    },
+    {
+      "name": "xiaohongshu AAC duration is 120 seconds",
+      "status": "PASS",
+      "details": 120.0
+    },
+    {
+      "name": "xiaohongshu EBU R128 / true peak measurement",
+      "status": "PASS",
+      "details": {
+        "integrated_lufs": -17.0,
+        "true_peak_dBFS": -1.8,
+        "filter": "ebur128=peak=true"
+      }
+    },
+    {
+      "name": "xiaohongshu AAC packet SHA-256",
+      "status": "PASS",
+      "details": "12ba0c2afb6ed31d0898457f3f95fbfd19c2a1817095f5ed7474ef913a3e6f15"
+    },
+    {
+      "name": "bilibili representative frames and motion samples",
+      "status": "FAIL",
+      "details": "motion ROI byte count mismatch: expected 714240, got 80858880"
+    },
+    {
+      "name": "xiaohongshu representative frames and motion samples",
+      "status": "FAIL",
+      "details": "motion ROI byte count mismatch: expected 1118976, got 126678912"
+    },
+    {
+      "name": "both MP4s have identical encoded AAC packet SHA-256",
+      "status": "PASS",
+      "details": {
+        "bilibili": "12ba0c2afb6ed31d0898457f3f95fbfd19c2a1817095f5ed7474ef913a3e6f15",
+        "xiaohongshu": "12ba0c2afb6ed31d0898457f3f95fbfd19c2a1817095f5ed7474ef913a3e6f15"
+      }
+    },
+    {
+      "name": "shared PCM master format",
+      "status": "PASS",
+      "details": {
+        "sample_rate": 48000,
+        "channels": 2,
+        "samples_per_channel": 5760000,
+        "sample_width_bytes": 2,
+        "compression": "NONE",
+        "sha256": "7d1796770c81984c9082d37dbd951100d124576901d4ad30ee536610f6154acb"
+      }
+    },
+    {
+      "name": "bilibili AAC correlation windows",
+      "status": "PASS",
+      "details": {
+        "4-6s": {
+          "left": 0.9999708461871666,
+          "right": 0.9999707968587759
+        },
+        "60-62s": {
+          "left": 0.9999733104221167,
+          "right": 0.9999726016419295
+        },
+        "97-99s": {
+          "left": 0.9999825923256579,
+          "right": 0.9999825421872521
+        },
+        "117-119s": {
+          "left": 0.9999449789473667,
+          "right": 0.9999437874366511
+        }
+      }
+    },
+    {
+      "name": "xiaohongshu AAC correlation windows",
+      "status": "PASS",
+      "details": {
+        "4-6s": {
+          "left": 0.9999708461871666,
+          "right": 0.9999707968587759
+        },
+        "60-62s": {
+          "left": 0.9999733104221167,
+          "right": 0.9999726016419295
+        },
+        "97-99s": {
+          "left": 0.9999825923256579,
+          "right": 0.9999825421872521
+        },
+        "117-119s": {
+          "left": 0.9999449789473667,
+          "right": 0.9999437874366511
+        }
+      }
+    }
+  ],
+  "failures": [
+    "bilibili representative frames and motion samples",
+    "xiaohongshu representative frames and motion samples"
+  ],
+  "incomplete": [],
+  "outputs": {
+    "bilibili": {
+      "path": "B站/si-ep04-self-deceiving-god-bilibili-120s-4k.mp4",
+      "bytes": 290445726,
+      "sha256": "5ea002b51646e06152ef67d99eb52adc2b6ab1c4112d6bc75120a36cc99ec7dd",
+      "container": "mov,mp4,m4a,3gp,3g2,mj2",
+      "duration_seconds": 120.0,
+      "video_duration_seconds": 120.0,
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "average_fps": 60.0,
+      "reported_frames": "7200",
+      "pixel_format": "yuv420p",
+      "colors": {
+        "color_space": "bt709",
+        "color_transfer": "bt709",
+        "color_primaries": "bt709",
+        "color_range": "tv"
+      },
+      "audio": {
+        "codec": "aac",
+        "sample_rate": 48000,
+        "channels": 2,
+        "duration": "120.000000"
+      },
+      "loudness": {
+        "integrated_lufs": -17.0,
+        "true_peak_dBFS": -1.8,
+        "filter": "ebur128=peak=true"
+      }
+    },
+    "xiaohongshu": {
+      "path": "小红书/si-ep04-self-deceiving-god-xiaohongshu-120s-portrait.mp4",
+      "bytes": 270241086,
+      "sha256": "ec71ecc72be48f379ab4386b47648b3f564675cda2fcd68e01e5dd925e956288",
+      "container": "mov,mp4,m4a,3gp,3g2,mj2",
+      "duration_seconds": 120.0,
+      "video_duration_seconds": 120.0,
+      "dimensions": [
+        2160,
+        3840
+      ],
+      "average_fps": 60.0,
+      "reported_frames": "7200",
+      "pixel_format": "yuv420p",
+      "colors": {
+        "color_space": "bt709",
+        "color_transfer": "bt709",
+        "color_primaries": "bt709",
+        "color_range": "tv"
+      },
+      "audio": {
+        "codec": "aac",
+        "sample_rate": 48000,
+        "channels": 2,
+        "duration": "120.000000"
+      },
+      "loudness": {
+        "integrated_lufs": -17.0,
+        "true_peak_dBFS": -1.8,
+        "filter": "ebur128=peak=true"
+      }
+    }
+  },
+  "audio_comparison": {
+    "packet_hashes": {
+      "bilibili": "12ba0c2afb6ed31d0898457f3f95fbfd19c2a1817095f5ed7474ef913a3e6f15",
+      "xiaohongshu": "12ba0c2afb6ed31d0898457f3f95fbfd19c2a1817095f5ed7474ef913a3e6f15"
+    },
+    "pcm_correlations": {
+      "bilibili": {
+        "4-6s": {
+          "left": 0.9999708461871666,
+          "right": 0.9999707968587759
+        },
+        "60-62s": {
+          "left": 0.9999733104221167,
+          "right": 0.9999726016419295
+        },
+        "97-99s": {
+          "left": 0.9999825923256579,
+          "right": 0.9999825421872521
+        },
+        "117-119s": {
+          "left": 0.9999449789473667,
+          "right": 0.9999437874366511
+        }
+      },
+      "xiaohongshu": {
+        "4-6s": {
+          "left": 0.9999708461871666,
+          "right": 0.9999707968587759
+        },
+        "60-62s": {
+          "left": 0.9999733104221167,
+          "right": 0.9999726016419295
+        },
+        "97-99s": {
+          "left": 0.9999825923256579,
+          "right": 0.9999825421872521
+        },
+        "117-119s": {
+          "left": 0.9999449789473667,
+          "right": 0.9999437874366511
+        }
+      }
+    },
+    "correlation_windows_seconds": [
+      [
+        4,
+        6
+      ],
+      [
+        60,
+        62
+      ],
+      [
+        97,
+        99
+      ],
+      [
+        117,
+        119
+      ]
+    ],
+    "correlation_note": "Pearson values are measured evidence without an imposed pass threshold; timestamps were not shifted or guessed."
+  },
+  "acceptance_status": "NOT_EVALUATED",
+  "scope": "final MP4 probes, one EBU R128 measurement per output, representative frames, motion heuristic, packet hashes and PCM correlation; strict full decode and human review remain separate"
+}

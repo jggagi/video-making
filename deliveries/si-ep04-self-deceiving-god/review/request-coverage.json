@@ -1,0 +1,257 @@
+{
+  "schema_version": 1,
+  "audit": "original_brief_vs_current_source",
+  "status": "SOURCE_AND_AUTOMATED_MEDIA_VERIFIED_HUMAN_DEVICE_PENDING",
+  "scope": {
+    "brief": "source/script.md and attached original pasted brief",
+    "evidence": "current project source, delivery manifest, and review records",
+    "render_state": "Both final native renders completed and validated; actual encoded boundary labels and layout repairs reviewed."
+  },
+  "requirements": [
+    {
+      "id": "duration_and_native_compositions",
+      "original_spec": "Exactly 120.00 seconds, 60 fps, 7200 frames; Bilibili 3840x2160; Xiaohongshu 1080x1920 or 2160x3840.",
+      "status": "covered_in_manifest_source_validation",
+      "evidence": [
+        {
+          "path": "delivery.json",
+          "lines": "5-7,24-34"
+        },
+        {
+          "path": "review/project-validation.json",
+          "lines": "5-28"
+        }
+      ]
+    },
+    {
+      "id": "shared_audio_master",
+      "original_spec": "Shared stereo PCM master, 48000 Hz, 5760000 samples per channel; -18 to -16 LUFS and true peak <= -1.0 dBTP.",
+      "status": "source_and_encoded_audio_measured_PASS",
+      "evidence": [
+        {
+          "path": "delivery.json",
+          "lines": "12-22"
+        },
+        {
+          "path": "review/acceptance.md",
+          "lines": "9-12"
+        }
+      ],
+      "actual_source_measurement": {
+        "lufs": -17.0,
+        "true_peak_dbtp": -1.8
+      },
+      "pending": "Human listening remains pending."
+    },
+    {
+      "id": "portrait_safe_zones_and_caption_geometry",
+      "original_spec": "Keep top 8%, right 14%, bottom 22% clear; stack HUD at 9%-15%; captions 24%-28% from bottom, at most two lines and 14 Chinese characters per line, effective font >=13 px at 360 px preview.",
+      "status": "covered_in_source_and_project_validation",
+      "evidence": [
+        {
+          "path": "project/telemetry-lexicon.json",
+          "lines": "17-43"
+        },
+        {
+          "path": "project/src/Film.tsx",
+          "lines": "12,18,24,26,37-38"
+        },
+        {
+          "path": "review/acceptance.md",
+          "lines": "13,21"
+        }
+      ],
+      "source_values": {
+        "caption_effective_font_px_at_360": 14.67,
+        "hud_effective_font_px_at_360": 10.33,
+        "caption_max_lines": 2,
+        "caption_max_chinese_characters_per_line": 14
+      }
+    },
+    {
+      "id": "deterministic_continuous_motion",
+      "original_spec": "No Math.random() or Date.now(); frame-driven deterministic motion; no shot or title card static for more than 180 frames.",
+      "status": "covered_in_source_validation",
+      "evidence": [
+        {
+          "path": "project/brief.md",
+          "lines": "9"
+        },
+        {
+          "path": "project/timeline.json",
+          "lines": "5-115"
+        },
+        {
+          "path": "review/project-validation.json",
+          "lines": "1-28"
+        }
+      ]
+    },
+    {
+      "id": "persistent_hud_exact_strings",
+      "original_spec": "Preserve the exact three left-side act strings and exact right-side reward and distance strings.",
+      "status": "covered_in_source",
+      "evidence": [
+        {
+          "path": "project/telemetry-lexicon.json",
+          "lines": "2-15"
+        },
+        {
+          "path": "project/src/Film.tsx",
+          "lines": "5-18"
+        }
+      ]
+    },
+    {
+      "id": "ten_script_tracks_and_windows",
+      "original_spec": "Preserve S01-S10 original script, displayed subtitles, TTS phonetic text, and exact frame windows from the brief.",
+      "status": "covered_in_source_validation",
+      "evidence": [
+        {
+          "path": "project/segments.json",
+          "lines": "1-86"
+        },
+        {
+          "path": "review/acceptance.md",
+          "lines": "7,13"
+        }
+      ]
+    },
+    {
+      "id": "act1_formal_tower_and_boundary",
+      "original_spec": "Frames 0-1260: cyan lattice tower, emerald verifier plane, every 15 frames ten candidates with nine red failures and one gold survivor. At frame 1260, cross the labeled formalizable-reality ceiling and enter the void.",
+      "status": "covered_in_source",
+      "evidence": [
+        {
+          "path": "project/src/Prelude.ts",
+          "lines": "105-387"
+        },
+        {
+          "path": "project/src/Film.tsx",
+          "lines": "27-30"
+        }
+      ],
+      "boundary_label": {
+        "text": "[END OF FORMALIZABLE REALITY / 形式化温室边界]",
+        "source_path": "project/src/Film.tsx",
+        "source_lines": "27",
+        "visible_frames": "1200-1439"
+      }
+    },
+    {
+      "id": "act2_wait_and_split",
+      "original_spec": "Frames 1800-2700: tiny amber clinical-trial probe, ten-year wait dial, trapped cyan core. Frames 2700-3600: split at 2880 into generator and internal reward judge, figure-eight orbit and cyan-to-magenta reward beams.",
+      "status": "covered_in_source",
+      "evidence": [
+        {
+          "path": "project/src/Prelude.ts",
+          "lines": "412-664"
+        },
+        {
+          "path": "project/src/Film.tsx",
+          "lines": "32"
+        },
+        {
+          "path": "project/timeline.json",
+          "lines": "26-44"
+        }
+      ],
+      "time_values": "The 10,000,000-year live counter is an illustrative intermediate value; the full ten-year wait is labeled 100,000,000 subjective years (x10^7). This distinction and its rationale are documented in project/scientific-notes.md:8."
+    },
+    {
+      "id": "act3_klein_cathedral_and_physical_baseline",
+      "original_spec": "Frames 3600-5400: genuine 4D-projected Klein immersion with six recursive lace layers; split-screen physical baseline, zero displacement and damaged/toxic cell.",
+      "status": "covered_in_source_and_geometry_qa",
+      "evidence": [
+        {
+          "path": "project/src/Cathedral.ts",
+          "lines": "30-49,123-180"
+        },
+        {
+          "path": "project/src/World.tsx",
+          "lines": "11-23,43-50"
+        },
+        {
+          "path": "review/geometry-numeric-qa.json",
+          "lines": "1-20"
+        }
+      ]
+    },
+    {
+      "id": "act4_drop_silence_collapse_and_endings",
+      "original_spec": "Frames 5400-6300: return the amber probe and physical verdict; preserve 30-frame absolute silence, then drop/shatter and complete collapse within 18 frames. Frames 6300-6930: quote/title. Frames 6930-7200: Landauer cliffhanger.",
+      "status": "covered_with_documented_timing_interpretation",
+      "evidence": [
+        {
+          "path": "project/timeline.json",
+          "lines": "66-115"
+        },
+        {
+          "path": "project/sfx_events.json",
+          "lines": "5,50-65"
+        },
+        {
+          "path": "project/src/Film.tsx",
+          "lines": "34-36"
+        },
+        {
+          "path": "review/acceptance.md",
+          "lines": "10,33"
+        }
+      ],
+      "interpretation": "Silence is [5820,5850); impact begins at 5850 and collapse completes at 5868. This resolves the brief's conflicting arrival-at-5820 and silence-starting-at-5820 wording and is explicitly documented."
+    },
+    {
+      "id": "science_and_telemetry_qualifiers",
+      "original_spec": "Distinguish formal correctness from semantic truth; treat time, scores, parameters, energy and clinical outcome as illustrative; do not imply consciousness or that all self-play is harmful.",
+      "status": "covered_and_documented",
+      "evidence": [
+        {
+          "path": "project/scientific-notes.md",
+          "lines": "1-20"
+        },
+        {
+          "path": "project/src/Film.tsx",
+          "lines": "38"
+        },
+        {
+          "path": "review/acceptance.md",
+          "lines": "25-33"
+        }
+      ]
+    }
+  ],
+  "remaining_gates": [
+    {
+      "id": "corrected_final_renders",
+      "status": "PASS",
+      "note": "Final strict report and final-qa.json match current output hashes."
+    },
+    {
+      "id": "encoded_media_validation",
+      "status": "PASS",
+      "required": [
+        "strict full-file decode",
+        "ffprobe dimensions/fps/frame count/duration",
+        "encoded ebur128 LUFS and true peak",
+        "shared AAC packet hash and PCM correlation",
+        "representative native frames",
+        "360px portrait previews",
+        "motion-pair ROI comparisons",
+        "native dark-frame inspection"
+      ],
+      "note": "Final strict report and final-qa.json match current output hashes."
+    },
+    {
+      "id": "archive_and_backup",
+      "status": "pending",
+      "note": "Complete after corrected media passes; update required local final and verified GitHub final backup evidence."
+    },
+    {
+      "id": "human_and_device_acceptance",
+      "status": "pending",
+      "note": "Continuous human listening/viewing and target-device playback remain unperformed; no audience response is claimed."
+    }
+  ],
+  "prior_evidence_warning": "Earlier reports are historical draft evidence; current acceptance uses final-qa.json plus media-validation-20261019T115456.666100Z.json."
+}

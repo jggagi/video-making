@@ -1,0 +1,204 @@
+{
+  "version": 1,
+  "durationSeconds": 120,
+  "fps": 60,
+  "sampleRate": 48000,
+  "samplesPerFrame": 800,
+  "samplesPerChannel": 5760000,
+  "channels": 2,
+  "renderer": "deterministic local procedural score/SFX plus measured PCM narration",
+  "ducking": {
+    "ratio": {
+      "score": 5,
+      "sfx": 3
+    },
+    "attackMs": 20,
+    "releaseMs": 250
+  },
+  "voiceBandCarve": {
+    "bandsHz": [
+      1200,
+      2500,
+      3700
+    ],
+    "q": 0.75,
+    "gainDB": -4,
+    "appliedTo": [
+      "score",
+      "sfx"
+    ]
+  },
+  "loudness": {
+    "targetLUFS": -17,
+    "targetTruePeakDBTP": -1.8,
+    "acceptanceLUFS": [
+      -18,
+      -16
+    ],
+    "maximumTruePeakDBTP": -1.0,
+    "passes": 2
+  },
+  "oversampledLimiter": "aresample=192000, alimiter=limit=0.8128:level=false:latency=true, aresample=48000",
+  "absoluteSilence": {
+    "startFrame": 5820,
+    "endFrameExclusive": 5850,
+    "startSample": 4656000,
+    "endSampleExclusive": 4680000,
+    "allStemsExactZero": true
+  },
+  "outputs": {
+    "narration": {
+      "samplesPerChannel": 5760000,
+      "channels": 2,
+      "durationSeconds": 120.0,
+      "sha256": "5fc02d2401187475b6ec8327a4187a401d5f40e4f6dc70e3e962cdde4486b6bb",
+      "pcmSha256": "6e610268855d894615c67cfb34729624cd3d2876228f29e2ad5c057850c851f1",
+      "path": "project/public/audio/narration.wav"
+    },
+    "score": {
+      "samplesPerChannel": 5760000,
+      "channels": 2,
+      "durationSeconds": 120.0,
+      "sha256": "595b3030ac0b3a47ba5d10895d4d2a0ea667fc4e52615bedf477eca2014af3f4",
+      "pcmSha256": "436ce21132ede9da350d8ba734745c5ea0e0196c7f43f99b65ecba0c7884206f",
+      "path": "project/public/audio/score.wav"
+    },
+    "sfx": {
+      "samplesPerChannel": 5760000,
+      "channels": 2,
+      "durationSeconds": 120.0,
+      "sha256": "647f436ec24352e768452658465e63493cf5ad6af04cadf35af69d8826167a38",
+      "pcmSha256": "6a2eb5e34d44e1fe425f1548544b89f9c6d40ae0c76512225f0833a72771e448",
+      "path": "project/public/audio/sfx.wav"
+    },
+    "master": {
+      "samplesPerChannel": 5760000,
+      "channels": 2,
+      "durationSeconds": 120.0,
+      "sha256": "7d1796770c81984c9082d37dbd951100d124576901d4ad30ee536610f6154acb",
+      "pcmSha256": "800224ea33941f90680bbcea68bfd718baacbb585cc829f85d845d1a6285fcce",
+      "strictDecode": "passed",
+      "loudnormFirstPass": {
+        "input_i": "-22.10",
+        "input_tp": "-2.16",
+        "input_lra": "10.50",
+        "input_thresh": "-32.41",
+        "output_i": "-17.21",
+        "output_tp": "-1.80",
+        "output_lra": "8.00",
+        "output_thresh": "-27.37",
+        "normalization_type": "dynamic",
+        "target_offset": "0.21"
+      },
+      "loudnormSecondPass": {
+        "input_i": "-22.10",
+        "input_tp": "-2.16",
+        "input_lra": "10.50",
+        "input_thresh": "-32.41",
+        "output_i": "-17.05",
+        "output_tp": "-1.80",
+        "output_lra": "7.90",
+        "output_thresh": "-27.22",
+        "normalization_type": "dynamic",
+        "target_offset": "0.05"
+      },
+      "ebur128Final": {
+        "integratedLUFS": -17.0,
+        "truePeakDBTP": -1.8
+      },
+      "loudnormTarget": {
+        "integratedLUFS": -17.0,
+        "truePeakDBTP": -1.8,
+        "acceptanceTruePeakDBTP": -1.0,
+        "passes": 2
+      },
+      "oversampledLimiter": "aresample=192000, alimiter=limit=0.8128:level=false:latency=true, aresample=48000"
+    }
+  },
+  "captions": {
+    "count": 21,
+    "maxChineseCharsPerLine": 14,
+    "maxLines": 2,
+    "alignment": "estimated phrase timing"
+  },
+  "sourceEvents": {
+    "fps": 60,
+    "sample_rate": 48000,
+    "samples_per_frame": 800,
+    "interpretation": "5820 starts the requested 30-frame silence [5820,5850); drop/shatter at5850, 18-frame collapse thereafter. Narration S08 split at grammatical pause around this interval.",
+    "events": [
+      {
+        "id": "crystalline_ticks",
+        "frame": 120,
+        "sample": 96000,
+        "durationSeconds": 3
+      },
+      {
+        "id": "guillotine",
+        "frame": 900,
+        "sample": 720000,
+        "durationSeconds": 2
+      },
+      {
+        "id": "vacuum38",
+        "frame": 1260,
+        "sample": 1008000,
+        "durationSeconds": 5
+      },
+      {
+        "id": "amber_clock",
+        "frame": 2040,
+        "sample": 1632000,
+        "durationSeconds": 10
+      },
+      {
+        "id": "mirror_split",
+        "frame": 2880,
+        "sample": 2304000,
+        "durationSeconds": 4
+      },
+      {
+        "id": "shepard",
+        "frame": 3800,
+        "sample": 3040000,
+        "durationSeconds": 17
+      },
+      {
+        "id": "organ",
+        "frame": 4700,
+        "sample": 3760000,
+        "durationSeconds": 18
+      },
+      {
+        "id": "silence",
+        "frame": 5820,
+        "sample": 4656000,
+        "durationSeconds": 0.5
+      },
+      {
+        "id": "truth_drop",
+        "frame": 5850,
+        "sample": 4680000,
+        "durationSeconds": 0.3
+      },
+      {
+        "id": "glass_shatter",
+        "frame": 5850,
+        "sample": 4680000,
+        "durationSeconds": 5
+      },
+      {
+        "id": "cello",
+        "frame": 6500,
+        "sample": 5200000,
+        "durationSeconds": 6
+      },
+      {
+        "id": "thermal",
+        "frame": 7020,
+        "sample": 5616000,
+        "durationSeconds": 3
+      }
+    ]
+  }
+}

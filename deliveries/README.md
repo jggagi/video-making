@@ -10,6 +10,7 @@
 - [7±2 的囚笼](legacy-si-cage-7plus2/README.md)：15 个视频/工程资产。
 - [余问 QStory EP.03：十万亿个分身](legacy-qstory-ep03/README.md)：3 个视频/工程资产。
 - [百万分身｜THE MILLION-FOLD MIND · EP.03 第二版](si-ep03-million-mind-v02/README.md)：7 个视频/工程资产。
+- [神也会自我欺骗](si-ep04-self-deceiving-god/README.md)：4 个视频/工程资产。
 - [神也会自我欺骗｜THE VERIFIER PARADOX · EP.04](si-ep04-verifier-paradox/README.md)：16 个视频/工程资产。
 - [神也会自我欺骗 · v2 机制图解版](si-ep04-verifier-paradox-v02/README.md)：15 个视频/工程资产。
 - [神也会自我欺骗 · v3 直观结尾版](si-ep04-verifier-paradox-v03/README.md)：5 个视频/工程资产。

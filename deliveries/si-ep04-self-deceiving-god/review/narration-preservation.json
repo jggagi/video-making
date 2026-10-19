@@ -1,0 +1,73 @@
+{
+  "status": "PASS",
+  "method": "Independent direct PCM comparison of every scheduled full playback cue to both narration channels; all nonzero speech retained. S09 original and zero-only playback identities recorded separately.",
+  "cues": [
+    {
+      "id": "S01",
+      "samples": 261120,
+      "startSample": 96000,
+      "both_channels_byte_equal_cue": true
+    },
+    {
+      "id": "S02",
+      "samples": 414720,
+      "startSample": 528000,
+      "both_channels_byte_equal_cue": true
+    },
+    {
+      "id": "S03",
+      "samples": 261120,
+      "startSample": 1008000,
+      "both_channels_byte_equal_cue": true
+    },
+    {
+      "id": "S04",
+      "samples": 414720,
+      "startSample": 1488000,
+      "both_channels_byte_equal_cue": true
+    },
+    {
+      "id": "S05",
+      "samples": 460800,
+      "startSample": 2160000,
+      "both_channels_byte_equal_cue": true
+    },
+    {
+      "id": "S06",
+      "samples": 433920,
+      "startSample": 2928000,
+      "both_channels_byte_equal_cue": true
+    },
+    {
+      "id": "S07",
+      "samples": 403200,
+      "startSample": 3600000,
+      "both_channels_byte_equal_cue": true
+    },
+    {
+      "id": "S08a",
+      "samples": 176640,
+      "startSample": 4368000,
+      "both_channels_byte_equal_cue": true
+    },
+    {
+      "id": "S08b",
+      "samples": 199680,
+      "startSample": 4680000,
+      "both_channels_byte_equal_cue": true
+    },
+    {
+      "id": "S09",
+      "samples": 432000,
+      "startSample": 5088000,
+      "both_channels_byte_equal_cue": true
+    },
+    {
+      "id": "S10",
+      "samples": 119040,
+      "startSample": 5568000,
+      "both_channels_byte_equal_cue": true
+    }
+  ],
+  "limitations": "No human pronunciation or listening assessment"
+}

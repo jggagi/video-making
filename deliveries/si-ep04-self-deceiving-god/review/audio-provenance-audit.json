@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "performed_at_utc": "2026-10-19T11:32:31Z",
+  "scope": "Read-only local audio provenance, PCM dimensions, silence, subtitle identity, and scheduled narration cue preservation.",
+  "asset_manifest": {
+    "path": "project/assets-manifest.json",
+    "sha256": "458e3d858463af15b0656cf29fa9546c745613358f05d52dd067583c35776911",
+    "resources_listed": 51,
+    "resources_verified": 51,
+    "pcm_entries_checked": 26,
+    "missing_resources": [],
+    "hash_size_or_pcm_mismatches": []
+  },
+  "master": {
+    "path": "project/public/audio/master.wav",
+    "sha256": "7d1796770c81984c9082d37dbd951100d124576901d4ad30ee536610f6154acb",
+    "pcm_sha256": "800224ea33941f90680bbcea68bfd718baacbb585cc829f85d845d1a6285fcce",
+    "sample_rate": 48000,
+    "channels": 2,
+    "sample_format": "PCM16",
+    "samples_per_channel": 5760000,
+    "duration_seconds": 120.0,
+    "absolute_silence": {
+      "start_sample": 4656000,
+      "end_sample_exclusive": 4680000,
+      "peak_pcm16": 0
+    }
+  },
+  "subtitles": {
+    "bilibili": {
+      "path": "B站/captions.srt",
+      "sha256": "9ecf67889f93a592f57e2647a8f6388ca5a2647b2612811e1c1a59a7e492873c",
+      "bytes": 1803
+    },
+    "xiaohongshu": {
+      "path": "小红书/captions.srt",
+      "sha256": "9ecf67889f93a592f57e2647a8f6388ca5a2647b2612811e1c1a59a7e492873c",
+      "bytes": 1803
+    },
+    "byte_identical": true
+  },
+  "narration_preservation": {
+    "report_path": "review/narration-preservation.json",
+    "report_status": "PASS",
+    "scheduled_cue_parts": 11,
+    "direct_pcm_comparisons_passed": 11,
+    "both_narration_channels_byte_equal_to_cue": true,
+    "cue_parts": [
+      {"id": "S01", "samples": 261120, "start_sample": 96000, "both_channels_byte_equal": true},
+      {"id": "S02", "samples": 414720, "start_sample": 528000, "both_channels_byte_equal": true},
+      {"id": "S03", "samples": 261120, "start_sample": 1008000, "both_channels_byte_equal": true},
+      {"id": "S04", "samples": 414720, "start_sample": 1488000, "both_channels_byte_equal": true},
+      {"id": "S05", "samples": 460800, "start_sample": 2160000, "both_channels_byte_equal": true},
+      {"id": "S06", "samples": 433920, "start_sample": 2928000, "both_channels_byte_equal": true},
+      {"id": "S07", "samples": 403200, "start_sample": 3600000, "both_channels_byte_equal": true},
+      {"id": "S08a", "samples": 176640, "start_sample": 4368000, "both_channels_byte_equal": true},
+      {"id": "S08b", "samples": 199680, "start_sample": 4680000, "both_channels_byte_equal": true},
+      {"id": "S09", "samples": 432000, "start_sample": 5088000, "both_channels_byte_equal": true},
+      {"id": "S10", "samples": 119040, "start_sample": 5568000, "both_channels_byte_equal": true}
+    ]
+  },
+  "s09_playback_adjustment": {
+    "source_sha256": "ae93253a4e839a083ba36752e14252c74921dc727bb1b740f8a3a253007b22e0",
+    "playback_copy_sha256": "6e1555c415ad142fe31b82073cbe6a04f7775fc4ea140eabd0190b50d2552b6f",
+    "retained_pcm_sha256": "644db5f0b33abe70a6f67c4811def13c8d645a18e2762236aafdfa765e3da1a9",
+    "trimmed_leading_zero_samples": 9600,
+    "trimmed_trailing_zero_samples": 7680,
+    "retained_interior_byte_equal": true,
+    "source_cue_preserved": true
+  },
+  "limitations": [
+    "No human listening or pronunciation assessment was performed.",
+    "This audit does not assert final encoded video or platform playback acceptance."
+  ]
+}

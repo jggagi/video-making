@@ -1,0 +1,46 @@
+{
+  "required": [
+    "VERIFIER",
+    "GUILLOTINE",
+    "FALSIFIED",
+    "DIVERGING",
+    "AUTOPHAGY"
+  ],
+  "hud": [
+    "REALITY FEEDBACK LATENCY: 0.0001 MS (COMPILER VERIFIED)",
+    "PHYSICAL EXPERIMENT WAIT: 10.0 YEARS (SI SUBJECTIVE: 100,000,000 YEARS)",
+    "PHYSICAL VERDICT RECEIVED: [FALSIFIED BY 1 ATOM]",
+    "INTERNAL SELF-REWARD: +999,999.9% (EUPHORIA LOOP)",
+    "DISTANCE TO REALITY: DIVERGING TO INFINITY"
+  ],
+  "geometry": "Klein R4 glide identification; six dyadic lace layers",
+  "portrait": {
+    "safe_box_logical": [
+      0,
+      153.6,
+      928.8,
+      1497.6
+    ],
+    "hud_box": [
+      55,
+      174,
+      840,
+      108
+    ],
+    "subtitle_box": [
+      55,
+      1380,
+      840,
+      114
+    ],
+    "subtitle_font_px_360": 14.666666666666666,
+    "hud_font_px_360": 10.333333333333334,
+    "qualifier_box": [
+      55,
+      1328,
+      840,
+      48
+    ]
+  },
+  "boundary_label": "[END OF FORMALIZABLE REALITY / 形式化温室边界]"
+}

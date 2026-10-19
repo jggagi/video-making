@@ -1,0 +1,1138 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "delivery.json is readable",
+      "status": "PASS"
+    },
+    {
+      "name": "delivery.json timing is 120s / 60fps / 7200 frames",
+      "status": "PASS"
+    },
+    {
+      "name": "shared PCM master is available",
+      "status": "PASS",
+      "details": "project/public/audio/master.wav"
+    },
+    {
+      "name": "bilibili delivery.json dimensions match native target",
+      "status": "PASS",
+      "details": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "name": "bilibili final MP4 is present",
+      "status": "PASS",
+      "details": {
+        "path": "B站/si-ep04-self-deceiving-god-bilibili-120s-4k.mp4",
+        "bytes": 291089318
+      }
+    },
+    {
+      "name": "bilibili MP4 dimensions",
+      "status": "PASS",
+      "details": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "name": "bilibili MP4 frame rate",
+      "status": "PASS",
+      "details": 60.0
+    },
+    {
+      "name": "bilibili MP4 reports 7200 frames",
+      "status": "PASS",
+      "details": 7200
+    },
+    {
+      "name": "bilibili MP4 duration is 120 seconds",
+      "status": "PASS",
+      "details": 120.0
+    },
+    {
+      "name": "bilibili video stream duration is 120 seconds",
+      "status": "PASS",
+      "details": 120.0
+    },
+    {
+      "name": "bilibili MP4 has BT.709 color metadata",
+      "status": "PASS",
+      "details": {
+        "color_space": "bt709",
+        "color_transfer": "bt709",
+        "color_primaries": "bt709",
+        "color_range": "tv"
+      }
+    },
+    {
+      "name": "bilibili AAC is 48-kHz stereo",
+      "status": "PASS",
+      "details": {
+        "codec": "aac",
+        "sample_rate": 48000,
+        "channels": 2,
+        "duration": "120.000000"
+      }
+    },
+    {
+      "name": "bilibili AAC duration is 120 seconds",
+      "status": "PASS",
+      "details": 120.0
+    },
+    {
+      "name": "bilibili EBU R128 / true peak measurement",
+      "status": "PASS",
+      "details": {
+        "integrated_lufs": -17.0,
+        "true_peak_dBFS": -1.8,
+        "filter": "ebur128=peak=true"
+      }
+    },
+    {
+      "name": "bilibili encoded loudness and true peak meet delivery target",
+      "status": "PASS",
+      "details": {
+        "integrated_lufs": -17.0,
+        "true_peak_dBFS": -1.8,
+        "filter": "ebur128=peak=true",
+        "target_lufs": [
+          -18,
+          -16
+        ],
+        "maximum_true_peak_dbtp": -1
+      }
+    },
+    {
+      "name": "bilibili AAC packet SHA-256",
+      "status": "PASS",
+      "details": "12ba0c2afb6ed31d0898457f3f95fbfd19c2a1817095f5ed7474ef913a3e6f15"
+    },
+    {
+      "name": "xiaohongshu delivery.json dimensions match native target",
+      "status": "PASS",
+      "details": [
+        2160,
+        3840
+      ]
+    },
+    {
+      "name": "xiaohongshu final MP4 is present",
+      "status": "PASS",
+      "details": {
+        "path": "小红书/si-ep04-self-deceiving-god-xiaohongshu-120s-portrait.mp4",
+        "bytes": 268073693
+      }
+    },
+    {
+      "name": "xiaohongshu MP4 dimensions",
+      "status": "PASS",
+      "details": [
+        2160,
+        3840
+      ]
+    },
+    {
+      "name": "xiaohongshu MP4 frame rate",
+      "status": "PASS",
+      "details": 60.0
+    },
+    {
+      "name": "xiaohongshu MP4 reports 7200 frames",
+      "status": "PASS",
+      "details": 7200
+    },
+    {
+      "name": "xiaohongshu MP4 duration is 120 seconds",
+      "status": "PASS",
+      "details": 120.0
+    },
+    {
+      "name": "xiaohongshu video stream duration is 120 seconds",
+      "status": "PASS",
+      "details": 120.0
+    },
+    {
+      "name": "xiaohongshu MP4 has BT.709 color metadata",
+      "status": "PASS",
+      "details": {
+        "color_space": "bt709",
+        "color_transfer": "bt709",
+        "color_primaries": "bt709",
+        "color_range": "tv"
+      }
+    },
+    {
+      "name": "xiaohongshu AAC is 48-kHz stereo",
+      "status": "PASS",
+      "details": {
+        "codec": "aac",
+        "sample_rate": 48000,
+        "channels": 2,
+        "duration": "120.000000"
+      }
+    },
+    {
+      "name": "xiaohongshu AAC duration is 120 seconds",
+      "status": "PASS",
+      "details": 120.0
+    },
+    {
+      "name": "xiaohongshu EBU R128 / true peak measurement",
+      "status": "PASS",
+      "details": {
+        "integrated_lufs": -17.0,
+        "true_peak_dBFS": -1.8,
+        "filter": "ebur128=peak=true"
+      }
+    },
+    {
+      "name": "xiaohongshu encoded loudness and true peak meet delivery target",
+      "status": "PASS",
+      "details": {
+        "integrated_lufs": -17.0,
+        "true_peak_dBFS": -1.8,
+        "filter": "ebur128=peak=true",
+        "target_lufs": [
+          -18,
+          -16
+        ],
+        "maximum_true_peak_dbtp": -1
+      }
+    },
+    {
+      "name": "xiaohongshu AAC packet SHA-256",
+      "status": "PASS",
+      "details": "12ba0c2afb6ed31d0898457f3f95fbfd19c2a1817095f5ed7474ef913a3e6f15"
+    },
+    {
+      "name": "both MP4s have identical encoded AAC packet SHA-256",
+      "status": "PASS",
+      "details": {
+        "bilibili": "12ba0c2afb6ed31d0898457f3f95fbfd19c2a1817095f5ed7474ef913a3e6f15",
+        "xiaohongshu": "12ba0c2afb6ed31d0898457f3f95fbfd19c2a1817095f5ed7474ef913a3e6f15"
+      }
+    },
+    {
+      "name": "shared PCM master format",
+      "status": "PASS",
+      "details": {
+        "sample_rate": 48000,
+        "channels": 2,
+        "samples_per_channel": 5760000,
+        "sample_width_bytes": 2,
+        "compression": "NONE",
+        "sha256": "7d1796770c81984c9082d37dbd951100d124576901d4ad30ee536610f6154acb"
+      }
+    },
+    {
+      "name": "bilibili AAC correlation windows",
+      "status": "PASS",
+      "details": {
+        "4-6s": {
+          "left": 0.9999708461871666,
+          "right": 0.9999707968587759
+        },
+        "60-62s": {
+          "left": 0.9999733104221167,
+          "right": 0.9999726016419295
+        },
+        "97-99s": {
+          "left": 0.9999825923256579,
+          "right": 0.9999825421872521
+        },
+        "117-119s": {
+          "left": 0.9999449789473667,
+          "right": 0.9999437874366511
+        }
+      }
+    },
+    {
+      "name": "xiaohongshu AAC correlation windows",
+      "status": "PASS",
+      "details": {
+        "4-6s": {
+          "left": 0.9999708461871666,
+          "right": 0.9999707968587759
+        },
+        "60-62s": {
+          "left": 0.9999733104221167,
+          "right": 0.9999726016419295
+        },
+        "97-99s": {
+          "left": 0.9999825923256579,
+          "right": 0.9999825421872521
+        },
+        "117-119s": {
+          "left": 0.9999449789473667,
+          "right": 0.9999437874366511
+        }
+      }
+    }
+  ],
+  "failures": [],
+  "incomplete": [],
+  "outputs": {
+    "bilibili": {
+      "path": "B站/si-ep04-self-deceiving-god-bilibili-120s-4k.mp4",
+      "bytes": 291089318,
+      "sha256": "ff373b6c1db88b93dc94fe032526a64273044bbb268f4ee5b9461f1b01cdbef3",
+      "container": "mov,mp4,m4a,3gp,3g2,mj2",
+      "duration_seconds": 120.0,
+      "video_duration_seconds": 120.0,
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "average_fps": 60.0,
+      "reported_frames": "7200",
+      "pixel_format": "yuv420p",
+      "colors": {
+        "color_space": "bt709",
+        "color_transfer": "bt709",
+        "color_primaries": "bt709",
+        "color_range": "tv"
+      },
+      "audio": {
+        "codec": "aac",
+        "sample_rate": 48000,
+        "channels": 2,
+        "duration": "120.000000"
+      },
+      "loudness": {
+        "integrated_lufs": -17.0,
+        "true_peak_dBFS": -1.8,
+        "filter": "ebur128=peak=true"
+      },
+      "visual_evidence": {
+        "representative_frames": [
+          0,
+          120,
+          960,
+          1260,
+          1500,
+          2190,
+          3200,
+          3900,
+          4800,
+          5819,
+          5820,
+          5849,
+          5850,
+          5859,
+          5868,
+          6100,
+          6500,
+          7100,
+          7199
+        ],
+        "representative_dimensions": [
+          3840,
+          2160
+        ],
+        "contact_sheet": "review/final-qa/bilibili/contact.jpg",
+        "portrait_previews": 0,
+        "dark_native_pngs": [
+          "review/final-qa/bilibili/dark-native/frame-5819.png",
+          "review/final-qa/bilibili/dark-native/frame-5820.png",
+          "review/final-qa/bilibili/dark-native/frame-5849.png"
+        ],
+        "motion_roi_fraction": {
+          "x": 0.13,
+          "y": 0.4,
+          "w": 0.52,
+          "h": 0.29
+        },
+        "motion_roi_after_97_8_seconds": {
+          "x": 0.42,
+          "y": 0.5,
+          "w": 0.52,
+          "h": 0.29
+        },
+        "motion_roi_scaled_to": [
+          192,
+          60
+        ],
+        "motion_pairs": [
+          {
+            "shot": "shot-1",
+            "frames": [
+              60,
+              210
+            ],
+            "mean_absolute_edge_difference": 8.956076388888889,
+            "changed_edge_pixel_fraction": 0.15338541666666666,
+            "picture": "review/final-qa/bilibili/motion-pairs/pair-000.jpg"
+          },
+          {
+            "shot": "shot-1",
+            "frames": [
+              240,
+              390
+            ],
+            "mean_absolute_edge_difference": 9.497222222222222,
+            "changed_edge_pixel_fraction": 0.15772569444444445,
+            "picture": "review/final-qa/bilibili/motion-pairs/pair-001.jpg"
+          },
+          {
+            "shot": "shot-1",
+            "frames": [
+              420,
+              570
+            ],
+            "mean_absolute_edge_difference": 9.542881944444444,
+            "changed_edge_pixel_fraction": 0.16111111111111112,
+            "picture": "review/final-qa/bilibili/motion-pairs/pair-002.jpg"
+          },
+          {
+            "shot": "shot-1",
+            "frames": [
+              600,
+              750
+            ],
+            "mean_absolute_edge_difference": 8.98828125,
+            "changed_edge_pixel_fraction": 0.15824652777777778,
+            "picture": "review/final-qa/bilibili/motion-pairs/pair-003.jpg"
+          },
+          {
+            "shot": "shot-1",
+            "frames": [
+              780,
+              930
+            ],
+            "mean_absolute_edge_difference": 8.913541666666667,
+            "changed_edge_pixel_fraction": 0.15659722222222222,
+            "picture": "review/final-qa/bilibili/motion-pairs/pair-004.jpg"
+          },
+          {
+            "shot": "shot-1",
+            "frames": [
+              960,
+              1110
+            ],
+            "mean_absolute_edge_difference": 8.497309027777778,
+            "changed_edge_pixel_fraction": 0.15763888888888888,
+            "picture": "review/final-qa/bilibili/motion-pairs/pair-005.jpg"
+          },
+          {
+            "shot": "shot-2",
+            "frames": [
+              1320,
+              1470
+            ],
+            "mean_absolute_edge_difference": 23.070486111111112,
+            "changed_edge_pixel_fraction": 0.15269097222222222,
+            "picture": "review/final-qa/bilibili/motion-pairs/pair-006.jpg"
+          },
+          {
+            "shot": "shot-2",
+            "frames": [
+              1500,
+              1650
+            ],
+            "mean_absolute_edge_difference": 25.968923611111112,
+            "changed_edge_pixel_fraction": 0.15920138888888888,
+            "picture": "review/final-qa/bilibili/motion-pairs/pair-007.jpg"
+          },
+          {
+            "shot": "shot-3",
+            "frames": [
+              1860,
+              2010
+            ],
+            "mean_absolute_edge_difference": 0.2903645833333333,
+            "changed_edge_pixel_fraction": 0.008767361111111111,
+            "picture": "review/final-qa/bilibili/motion-pairs/pair-008.jpg"
+          },
+          {
+            "shot": "shot-3",
+            "frames": [
+              2040,
+              2190
+            ],
+            "mean_absolute_edge_difference": 0.7355034722222222,
+            "changed_edge_pixel_fraction": 0.01015625,
+            "picture": "review/final-qa/bilibili/motion-pairs/pair-009.jpg"
+          },
+          {
+            "shot": "shot-3",
+            "frames": [
+              2220,
+              2370
+            ],
+            "mean_absolute_edge_difference": 0.22925347222222223,
+            "changed_edge_pixel_fraction": 0.008246527777777778,
+            "picture": "review/final-qa/bilibili/motion-pairs/pair-010.jpg"
+          },
+          {
+            "shot": "shot-3",
+            "frames": [
+              2400,
+              2550
+            ],
+            "mean_absolute_edge_difference": 0.9360243055555556,
+            "changed_edge_pixel_fraction": 0.013194444444444444,
+            "picture": "review/final-qa/bilibili/motion-pairs/pair-011.jpg"
+          },
+          {
+            "shot": "shot-4",
+            "frames": [
+              2760,
+              2910
+            ],
+            "mean_absolute_edge_difference": 5.116319444444445,
+            "changed_edge_pixel_fraction": 0.029079861111111112,
+            "picture": "review/final-qa/bilibili/motion-pairs/pair-012.jpg"
+          },
+          {
+            "shot": "shot-4",
+            "frames": [
+              2940,
+              3090
+            ],
+            "mean_absolute_edge_difference": 5.595833333333333,
+            "changed_edge_pixel_fraction": 0.039496527777777776,
+            "picture": "review/final-qa/bilibili/motion-pairs/pair-013.jpg"
+          },
+          {
+            "shot": "shot-4",
+            "frames": [
+              3120,
+              3270
+            ],
+            "mean_absolute_edge_difference": 7.41171875,
+            "changed_edge_pixel_fraction": 0.05928819444444444,
+            "picture": "review/final-qa/bilibili/motion-pairs/pair-014.jpg"
+          },
+          {
+            "shot": "shot-4",
+            "frames": [
+              3300,
+              3450
+            ],
+            "mean_absolute_edge_difference": 7.854947916666666,
+            "changed_edge_pixel_fraction": 0.059895833333333336,
+            "picture": "review/final-qa/bilibili/motion-pairs/pair-015.jpg"
+          },
+          {
+            "shot": "shot-5",
+            "frames": [
+              3660,
+              3810
+            ],
+            "mean_absolute_edge_difference": 33.507725694444446,
+            "changed_edge_pixel_fraction": 0.37135416666666665,
+            "picture": "review/final-qa/bilibili/motion-pairs/pair-016.jpg"
+          },
+          {
+            "shot": "shot-5",
+            "frames": [
+              3840,
+              3990
+            ],
+            "mean_absolute_edge_difference": 31.886111111111113,
+            "changed_edge_pixel_fraction": 0.35946180555555557,
+            "picture": "review/final-qa/bilibili/motion-pairs/pair-017.jpg"
+          },
+          {
+            "shot": "shot-5",
+            "frames": [
+              4020,
+              4170
+            ],
+            "mean_absolute_edge_difference": 31.939583333333335,
+            "changed_edge_pixel_fraction": 0.36553819444444446,
+            "picture": "review/final-qa/bilibili/motion-pairs/pair-018.jpg"
+          },
+          {
+            "shot": "shot-5",
+            "frames": [
+              4200,
+              4350
+            ],
+            "mean_absolute_edge_difference": 35.29748263888889,
+            "changed_edge_pixel_fraction": 0.3873263888888889,
+            "picture": "review/final-qa/bilibili/motion-pairs/pair-019.jpg"
+          },
+          {
+            "shot": "shot-6",
+            "frames": [
+              4560,
+              4710
+            ],
+            "mean_absolute_edge_difference": 33.91267361111111,
+            "changed_edge_pixel_fraction": 0.34878472222222223,
+            "picture": "review/final-qa/bilibili/motion-pairs/pair-020.jpg"
+          },
+          {
+            "shot": "shot-6",
+            "frames": [
+              4740,
+              4890
+            ],
+            "mean_absolute_edge_difference": 32.523524305555554,
+            "changed_edge_pixel_fraction": 0.33914930555555556,
+            "picture": "review/final-qa/bilibili/motion-pairs/pair-021.jpg"
+          },
+          {
+            "shot": "shot-6",
+            "frames": [
+              4920,
+              5070
+            ],
+            "mean_absolute_edge_difference": 33.129947916666666,
+            "changed_edge_pixel_fraction": 0.35164930555555557,
+            "picture": "review/final-qa/bilibili/motion-pairs/pair-022.jpg"
+          },
+          {
+            "shot": "shot-6",
+            "frames": [
+              5100,
+              5250
+            ],
+            "mean_absolute_edge_difference": 29.512847222222224,
+            "changed_edge_pixel_fraction": 0.32144097222222223,
+            "picture": "review/final-qa/bilibili/motion-pairs/pair-023.jpg"
+          },
+          {
+            "shot": "shot-7",
+            "frames": [
+              5460,
+              5610
+            ],
+            "mean_absolute_edge_difference": 16.56857638888889,
+            "changed_edge_pixel_fraction": 0.20407986111111112,
+            "picture": "review/final-qa/bilibili/motion-pairs/pair-024.jpg"
+          },
+          {
+            "shot": "shot-7",
+            "frames": [
+              5640,
+              5790
+            ],
+            "mean_absolute_edge_difference": 15.7359375,
+            "changed_edge_pixel_fraction": 0.19852430555555556,
+            "picture": "review/final-qa/bilibili/motion-pairs/pair-025.jpg"
+          },
+          {
+            "shot": "shot-9",
+            "frames": [
+              5910,
+              6060
+            ],
+            "mean_absolute_edge_difference": 2.470138888888889,
+            "changed_edge_pixel_fraction": 0.016319444444444445,
+            "picture": "review/final-qa/bilibili/motion-pairs/pair-026.jpg"
+          },
+          {
+            "shot": "shot-9",
+            "frames": [
+              6090,
+              6240
+            ],
+            "mean_absolute_edge_difference": 2.528125,
+            "changed_edge_pixel_fraction": 0.016059027777777776,
+            "picture": "review/final-qa/bilibili/motion-pairs/pair-027.jpg"
+          },
+          {
+            "shot": "shot-10",
+            "frames": [
+              6360,
+              6510
+            ],
+            "mean_absolute_edge_difference": 4.414322916666666,
+            "changed_edge_pixel_fraction": 0.050694444444444445,
+            "picture": "review/final-qa/bilibili/motion-pairs/pair-028.jpg"
+          },
+          {
+            "shot": "shot-10",
+            "frames": [
+              6540,
+              6690
+            ],
+            "mean_absolute_edge_difference": 3.686545138888889,
+            "changed_edge_pixel_fraction": 0.049652777777777775,
+            "picture": "review/final-qa/bilibili/motion-pairs/pair-029.jpg"
+          },
+          {
+            "shot": "shot-10",
+            "frames": [
+              6720,
+              6870
+            ],
+            "mean_absolute_edge_difference": 1.3799479166666666,
+            "changed_edge_pixel_fraction": 0.028732638888888887,
+            "picture": "review/final-qa/bilibili/motion-pairs/pair-030.jpg"
+          }
+        ],
+        "motion_interpretation": "Grayscale edge-difference samples are a heuristic; they do not prove complete motion or human acceptance.",
+        "strict_full_decode": "delegated to the video skill validator"
+      }
+    },
+    "xiaohongshu": {
+      "path": "小红书/si-ep04-self-deceiving-god-xiaohongshu-120s-portrait.mp4",
+      "bytes": 268073693,
+      "sha256": "c836ee94b7bc7c030797a639e0975f242740c265eb4fc740f690f4f910a49ed0",
+      "container": "mov,mp4,m4a,3gp,3g2,mj2",
+      "duration_seconds": 120.0,
+      "video_duration_seconds": 120.0,
+      "dimensions": [
+        2160,
+        3840
+      ],
+      "average_fps": 60.0,
+      "reported_frames": "7200",
+      "pixel_format": "yuv420p",
+      "colors": {
+        "color_space": "bt709",
+        "color_transfer": "bt709",
+        "color_primaries": "bt709",
+        "color_range": "tv"
+      },
+      "audio": {
+        "codec": "aac",
+        "sample_rate": 48000,
+        "channels": 2,
+        "duration": "120.000000"
+      },
+      "loudness": {
+        "integrated_lufs": -17.0,
+        "true_peak_dBFS": -1.8,
+        "filter": "ebur128=peak=true"
+      },
+      "visual_evidence": {
+        "representative_frames": [
+          0,
+          120,
+          960,
+          1260,
+          1500,
+          2190,
+          3200,
+          3900,
+          4800,
+          5819,
+          5820,
+          5849,
+          5850,
+          5859,
+          5868,
+          6100,
+          6500,
+          7100,
+          7199
+        ],
+        "representative_dimensions": [
+          2160,
+          3840
+        ],
+        "contact_sheet": "review/final-qa/xiaohongshu/contact.jpg",
+        "portrait_previews": 19,
+        "dark_native_pngs": [
+          "review/final-qa/xiaohongshu/dark-native/frame-5819.png",
+          "review/final-qa/xiaohongshu/dark-native/frame-5820.png",
+          "review/final-qa/xiaohongshu/dark-native/frame-5849.png"
+        ],
+        "motion_roi_fraction": {
+          "x": 0.08,
+          "y": 0.24,
+          "w": 0.72,
+          "h": 0.2
+        },
+        "motion_roi_after_97_8_seconds": {
+          "x": 0.08,
+          "y": 0.44,
+          "w": 0.72,
+          "h": 0.2
+        },
+        "motion_roi_scaled_to": [
+          192,
+          94
+        ],
+        "motion_pairs": [
+          {
+            "shot": "shot-1",
+            "frames": [
+              60,
+              210
+            ],
+            "mean_absolute_edge_difference": 25.03197030141844,
+            "changed_edge_pixel_fraction": 0.24700797872340424,
+            "picture": "review/final-qa/xiaohongshu/motion-pairs/pair-000.jpg"
+          },
+          {
+            "shot": "shot-1",
+            "frames": [
+              240,
+              390
+            ],
+            "mean_absolute_edge_difference": 24.75953014184397,
+            "changed_edge_pixel_fraction": 0.2480607269503546,
+            "picture": "review/final-qa/xiaohongshu/motion-pairs/pair-001.jpg"
+          },
+          {
+            "shot": "shot-1",
+            "frames": [
+              420,
+              570
+            ],
+            "mean_absolute_edge_difference": 24.602726063829788,
+            "changed_edge_pixel_fraction": 0.24545656028368795,
+            "picture": "review/final-qa/xiaohongshu/motion-pairs/pair-002.jpg"
+          },
+          {
+            "shot": "shot-1",
+            "frames": [
+              600,
+              750
+            ],
+            "mean_absolute_edge_difference": 24.81216755319149,
+            "changed_edge_pixel_fraction": 0.24645390070921985,
+            "picture": "review/final-qa/xiaohongshu/motion-pairs/pair-003.jpg"
+          },
+          {
+            "shot": "shot-1",
+            "frames": [
+              780,
+              930
+            ],
+            "mean_absolute_edge_difference": 24.40170656028369,
+            "changed_edge_pixel_fraction": 0.24578900709219859,
+            "picture": "review/final-qa/xiaohongshu/motion-pairs/pair-004.jpg"
+          },
+          {
+            "shot": "shot-1",
+            "frames": [
+              960,
+              1110
+            ],
+            "mean_absolute_edge_difference": 24.72196365248227,
+            "changed_edge_pixel_fraction": 0.25398936170212766,
+            "picture": "review/final-qa/xiaohongshu/motion-pairs/pair-005.jpg"
+          },
+          {
+            "shot": "shot-2",
+            "frames": [
+              1320,
+              1470
+            ],
+            "mean_absolute_edge_difference": 17.51091533687943,
+            "changed_edge_pixel_fraction": 0.14544547872340424,
+            "picture": "review/final-qa/xiaohongshu/motion-pairs/pair-006.jpg"
+          },
+          {
+            "shot": "shot-2",
+            "frames": [
+              1500,
+              1650
+            ],
+            "mean_absolute_edge_difference": 16.26856161347518,
+            "changed_edge_pixel_fraction": 0.12294991134751773,
+            "picture": "review/final-qa/xiaohongshu/motion-pairs/pair-007.jpg"
+          },
+          {
+            "shot": "shot-3",
+            "frames": [
+              1860,
+              2010
+            ],
+            "mean_absolute_edge_difference": 0.9644281914893617,
+            "changed_edge_pixel_fraction": 0.020223847517730497,
+            "picture": "review/final-qa/xiaohongshu/motion-pairs/pair-008.jpg"
+          },
+          {
+            "shot": "shot-3",
+            "frames": [
+              2040,
+              2190
+            ],
+            "mean_absolute_edge_difference": 1.6858931737588652,
+            "changed_edge_pixel_fraction": 0.0199468085106383,
+            "picture": "review/final-qa/xiaohongshu/motion-pairs/pair-009.jpg"
+          },
+          {
+            "shot": "shot-3",
+            "frames": [
+              2220,
+              2370
+            ],
+            "mean_absolute_edge_difference": 1.430684840425532,
+            "changed_edge_pixel_fraction": 0.022717198581560284,
+            "picture": "review/final-qa/xiaohongshu/motion-pairs/pair-010.jpg"
+          },
+          {
+            "shot": "shot-3",
+            "frames": [
+              2400,
+              2550
+            ],
+            "mean_absolute_edge_difference": 1.7929964539007093,
+            "changed_edge_pixel_fraction": 0.022052304964539006,
+            "picture": "review/final-qa/xiaohongshu/motion-pairs/pair-011.jpg"
+          },
+          {
+            "shot": "shot-4",
+            "frames": [
+              2760,
+              2910
+            ],
+            "mean_absolute_edge_difference": 1.9156693262411348,
+            "changed_edge_pixel_fraction": 0.018506205673758866,
+            "picture": "review/final-qa/xiaohongshu/motion-pairs/pair-012.jpg"
+          },
+          {
+            "shot": "shot-4",
+            "frames": [
+              2940,
+              3090
+            ],
+            "mean_absolute_edge_difference": 6.745789007092198,
+            "changed_edge_pixel_fraction": 0.056072695035460994,
+            "picture": "review/final-qa/xiaohongshu/motion-pairs/pair-013.jpg"
+          },
+          {
+            "shot": "shot-4",
+            "frames": [
+              3120,
+              3270
+            ],
+            "mean_absolute_edge_difference": 9.801252216312056,
+            "changed_edge_pixel_fraction": 0.07829122340425532,
+            "picture": "review/final-qa/xiaohongshu/motion-pairs/pair-014.jpg"
+          },
+          {
+            "shot": "shot-4",
+            "frames": [
+              3300,
+              3450
+            ],
+            "mean_absolute_edge_difference": 8.962932180851064,
+            "changed_edge_pixel_fraction": 0.07169769503546099,
+            "picture": "review/final-qa/xiaohongshu/motion-pairs/pair-015.jpg"
+          },
+          {
+            "shot": "shot-5",
+            "frames": [
+              3660,
+              3810
+            ],
+            "mean_absolute_edge_difference": 25.45800088652482,
+            "changed_edge_pixel_fraction": 0.2898936170212766,
+            "picture": "review/final-qa/xiaohongshu/motion-pairs/pair-016.jpg"
+          },
+          {
+            "shot": "shot-5",
+            "frames": [
+              3840,
+              3990
+            ],
+            "mean_absolute_edge_difference": 25.452958776595743,
+            "changed_edge_pixel_fraction": 0.2795323581560284,
+            "picture": "review/final-qa/xiaohongshu/motion-pairs/pair-017.jpg"
+          },
+          {
+            "shot": "shot-5",
+            "frames": [
+              4020,
+              4170
+            ],
+            "mean_absolute_edge_difference": 26.53728945035461,
+            "changed_edge_pixel_fraction": 0.28728945035460995,
+            "picture": "review/final-qa/xiaohongshu/motion-pairs/pair-018.jpg"
+          },
+          {
+            "shot": "shot-5",
+            "frames": [
+              4200,
+              4350
+            ],
+            "mean_absolute_edge_difference": 28.839705230496453,
+            "changed_edge_pixel_fraction": 0.30562943262411346,
+            "picture": "review/final-qa/xiaohongshu/motion-pairs/pair-019.jpg"
+          },
+          {
+            "shot": "shot-6",
+            "frames": [
+              4560,
+              4710
+            ],
+            "mean_absolute_edge_difference": 33.07673980496454,
+            "changed_edge_pixel_fraction": 0.32707225177304966,
+            "picture": "review/final-qa/xiaohongshu/motion-pairs/pair-020.jpg"
+          },
+          {
+            "shot": "shot-6",
+            "frames": [
+              4740,
+              4890
+            ],
+            "mean_absolute_edge_difference": 31.02775930851064,
+            "changed_edge_pixel_fraction": 0.3065713652482269,
+            "picture": "review/final-qa/xiaohongshu/motion-pairs/pair-021.jpg"
+          },
+          {
+            "shot": "shot-6",
+            "frames": [
+              4920,
+              5070
+            ],
+            "mean_absolute_edge_difference": 28.12527703900709,
+            "changed_edge_pixel_fraction": 0.27842420212765956,
+            "picture": "review/final-qa/xiaohongshu/motion-pairs/pair-022.jpg"
+          },
+          {
+            "shot": "shot-6",
+            "frames": [
+              5100,
+              5250
+            ],
+            "mean_absolute_edge_difference": 24.9609375,
+            "changed_edge_pixel_fraction": 0.25587322695035464,
+            "picture": "review/final-qa/xiaohongshu/motion-pairs/pair-023.jpg"
+          },
+          {
+            "shot": "shot-7",
+            "frames": [
+              5460,
+              5610
+            ],
+            "mean_absolute_edge_difference": 24.29659796099291,
+            "changed_edge_pixel_fraction": 0.22972074468085107,
+            "picture": "review/final-qa/xiaohongshu/motion-pairs/pair-024.jpg"
+          },
+          {
+            "shot": "shot-7",
+            "frames": [
+              5640,
+              5790
+            ],
+            "mean_absolute_edge_difference": 23.44808289007092,
+            "changed_edge_pixel_fraction": 0.2258421985815603,
+            "picture": "review/final-qa/xiaohongshu/motion-pairs/pair-025.jpg"
+          },
+          {
+            "shot": "shot-9",
+            "frames": [
+              5910,
+              6060
+            ],
+            "mean_absolute_edge_difference": 1.5752992021276595,
+            "changed_edge_pixel_fraction": 0.020390070921985817,
+            "picture": "review/final-qa/xiaohongshu/motion-pairs/pair-026.jpg"
+          },
+          {
+            "shot": "shot-9",
+            "frames": [
+              6090,
+              6240
+            ],
+            "mean_absolute_edge_difference": 1.8766068262411348,
+            "changed_edge_pixel_fraction": 0.02166445035460993,
+            "picture": "review/final-qa/xiaohongshu/motion-pairs/pair-027.jpg"
+          },
+          {
+            "shot": "shot-10",
+            "frames": [
+              6360,
+              6510
+            ],
+            "mean_absolute_edge_difference": 3.0346852836879434,
+            "changed_edge_pixel_fraction": 0.030917553191489363,
+            "picture": "review/final-qa/xiaohongshu/motion-pairs/pair-028.jpg"
+          },
+          {
+            "shot": "shot-10",
+            "frames": [
+              6540,
+              6690
+            ],
+            "mean_absolute_edge_difference": 2.1361369680851063,
+            "changed_edge_pixel_fraction": 0.02521054964539007,
+            "picture": "review/final-qa/xiaohongshu/motion-pairs/pair-029.jpg"
+          },
+          {
+            "shot": "shot-10",
+            "frames": [
+              6720,
+              6870
+            ],
+            "mean_absolute_edge_difference": 1.6454454787234043,
+            "changed_edge_pixel_fraction": 0.022772606382978722,
+            "picture": "review/final-qa/xiaohongshu/motion-pairs/pair-030.jpg"
+          }
+        ],
+        "motion_interpretation": "Grayscale edge-difference samples are a heuristic; they do not prove complete motion or human acceptance.",
+        "strict_full_decode": "delegated to the video skill validator"
+      }
+    }
+  },
+  "audio_comparison": {
+    "packet_hashes": {
+      "bilibili": "12ba0c2afb6ed31d0898457f3f95fbfd19c2a1817095f5ed7474ef913a3e6f15",
+      "xiaohongshu": "12ba0c2afb6ed31d0898457f3f95fbfd19c2a1817095f5ed7474ef913a3e6f15"
+    },
+    "pcm_correlations": {
+      "bilibili": {
+        "4-6s": {
+          "left": 0.9999708461871666,
+          "right": 0.9999707968587759
+        },
+        "60-62s": {
+          "left": 0.9999733104221167,
+          "right": 0.9999726016419295
+        },
+        "97-99s": {
+          "left": 0.9999825923256579,
+          "right": 0.9999825421872521
+        },
+        "117-119s": {
+          "left": 0.9999449789473667,
+          "right": 0.9999437874366511
+        }
+      },
+      "xiaohongshu": {
+        "4-6s": {
+          "left": 0.9999708461871666,
+          "right": 0.9999707968587759
+        },
+        "60-62s": {
+          "left": 0.9999733104221167,
+          "right": 0.9999726016419295
+        },
+        "97-99s": {
+          "left": 0.9999825923256579,
+          "right": 0.9999825421872521
+        },
+        "117-119s": {
+          "left": 0.9999449789473667,
+          "right": 0.9999437874366511
+        }
+      }
+    },
+    "correlation_windows_seconds": [
+      [
+        4,
+        6
+      ],
+      [
+        60,
+        62
+      ],
+      [
+        97,
+        99
+      ],
+      [
+        117,
+        119
+      ]
+    ],
+    "correlation_note": "Pearson values are measured evidence without an imposed pass threshold; timestamps were not shifted or guessed."
+  },
+  "acceptance_status": "NOT_EVALUATED",
+  "scope": "final MP4 probes, one EBU R128 measurement per output, representative frames, motion heuristic, packet hashes and PCM correlation; strict full decode and human review remain separate"
+}

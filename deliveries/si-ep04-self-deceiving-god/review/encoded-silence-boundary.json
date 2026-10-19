@@ -1,0 +1,25 @@
+{
+  "scope": "encoded AAC silence-window measurement; PCM absolute-zero contract is verified separately",
+  "window_seconds": [
+    97,
+    97.5
+  ],
+  "decoded_samples_per_channel": 24000,
+  "peak_pcm16": 218,
+  "peak_dbfs": -43.53986882710227,
+  "nonzero_sample_range_per_channel": [
+    0,
+    23999
+  ],
+  "note": "AAC is lossy and transform windows can introduce boundary residue; do not claim encoded sample-exact silence.",
+  "measurement": "Full AAC decode, direct PCM indexing with no seek/time shift",
+  "encoded_video_sha256": "ff373b6c1db88b93dc94fe032526a64273044bbb268f4ee5b9461f1b01cdbef3",
+  "decoded_total_samples_per_channel": 5760000,
+  "peak_pcm16_per_100ms": [
+    50,
+    0,
+    0,
+    0,
+    218
+  ]
+}

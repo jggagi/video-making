@@ -1,0 +1,242 @@
+{
+  "version": 1,
+  "status": "built",
+  "audioTiming": "project/audio-timing.json",
+  "mixSettings": "project/public/audio/mix-settings.json",
+  "outputs": {
+    "narration": {
+      "samplesPerChannel": 5760000,
+      "channels": 2,
+      "durationSeconds": 120.0,
+      "sha256": "5fc02d2401187475b6ec8327a4187a401d5f40e4f6dc70e3e962cdde4486b6bb",
+      "pcmSha256": "6e610268855d894615c67cfb34729624cd3d2876228f29e2ad5c057850c851f1",
+      "path": "project/public/audio/narration.wav"
+    },
+    "score": {
+      "samplesPerChannel": 5760000,
+      "channels": 2,
+      "durationSeconds": 120.0,
+      "sha256": "595b3030ac0b3a47ba5d10895d4d2a0ea667fc4e52615bedf477eca2014af3f4",
+      "pcmSha256": "436ce21132ede9da350d8ba734745c5ea0e0196c7f43f99b65ecba0c7884206f",
+      "path": "project/public/audio/score.wav"
+    },
+    "sfx": {
+      "samplesPerChannel": 5760000,
+      "channels": 2,
+      "durationSeconds": 120.0,
+      "sha256": "647f436ec24352e768452658465e63493cf5ad6af04cadf35af69d8826167a38",
+      "pcmSha256": "6a2eb5e34d44e1fe425f1548544b89f9c6d40ae0c76512225f0833a72771e448",
+      "path": "project/public/audio/sfx.wav"
+    },
+    "master": {
+      "samplesPerChannel": 5760000,
+      "channels": 2,
+      "durationSeconds": 120.0,
+      "sha256": "7d1796770c81984c9082d37dbd951100d124576901d4ad30ee536610f6154acb",
+      "pcmSha256": "800224ea33941f90680bbcea68bfd718baacbb585cc829f85d845d1a6285fcce",
+      "strictDecode": "passed",
+      "loudnormFirstPass": {
+        "input_i": "-22.10",
+        "input_tp": "-2.16",
+        "input_lra": "10.50",
+        "input_thresh": "-32.41",
+        "output_i": "-17.21",
+        "output_tp": "-1.80",
+        "output_lra": "8.00",
+        "output_thresh": "-27.37",
+        "normalization_type": "dynamic",
+        "target_offset": "0.21"
+      },
+      "loudnormSecondPass": {
+        "input_i": "-22.10",
+        "input_tp": "-2.16",
+        "input_lra": "10.50",
+        "input_thresh": "-32.41",
+        "output_i": "-17.05",
+        "output_tp": "-1.80",
+        "output_lra": "7.90",
+        "output_thresh": "-27.22",
+        "normalization_type": "dynamic",
+        "target_offset": "0.05"
+      },
+      "ebur128Final": {
+        "integratedLUFS": -17.0,
+        "truePeakDBTP": -1.8
+      },
+      "loudnormTarget": {
+        "integratedLUFS": -17.0,
+        "truePeakDBTP": -1.8,
+        "acceptanceTruePeakDBTP": -1.0,
+        "passes": 2
+      },
+      "oversampledLimiter": "aresample=192000, alimiter=limit=0.8128:level=false:latency=true, aresample=48000"
+    }
+  },
+  "cueHashes": [
+    {
+      "id": "S01",
+      "sha256": "1f1f45b2334b37238d67a6406d155ad86b7311931b30159c2b0ab51d565804a6",
+      "samplesAt48k": 261120
+    },
+    {
+      "id": "S02",
+      "sha256": "96db23419ca4f08003b09cf062a4437e000d3ed132acb5ff3b296e1e24f49149",
+      "samplesAt48k": 414720
+    },
+    {
+      "id": "S03",
+      "sha256": "9bfd33e012fafc05a3f41a62eb13f6e24dc14581c50d178a804a9ef57605286a",
+      "samplesAt48k": 261120
+    },
+    {
+      "id": "S04",
+      "sha256": "b0e10103f2290c438f051a371acf96aa655342c5a4130f3da743ff50ba6f553b",
+      "samplesAt48k": 414720
+    },
+    {
+      "id": "S05",
+      "sha256": "eaca7ee5112ee056a7598b4db761cd9522d25e1e999f2921c3d6aaf2f12b4dcc",
+      "samplesAt48k": 460800
+    },
+    {
+      "id": "S06",
+      "sha256": "2f476fb4d737356e199fabd1955d1374179bce9aec37f74d21bef7c4fc3856b7",
+      "samplesAt48k": 433920
+    },
+    {
+      "id": "S07",
+      "sha256": "385137c5ab4832594ee4d4fc4af0ab2a654b83044e74c478023f13c1cb7b7b68",
+      "samplesAt48k": 403200
+    },
+    {
+      "id": "S08a",
+      "sha256": "9cfea39afc2b1ba41b860679b37dd2ef2acf44e75b29ac9371d05721e93ad020",
+      "samplesAt48k": 176640
+    },
+    {
+      "id": "S08b",
+      "sha256": "4e75ecddce210f11b9f5a638bdd9966d0819083386bab7b2d0324f06c293a418",
+      "samplesAt48k": 199680
+    },
+    {
+      "id": "S09",
+      "sha256": "6e1555c415ad142fe31b82073cbe6a04f7775fc4ea140eabd0190b50d2552b6f",
+      "samplesAt48k": 432000
+    },
+    {
+      "id": "S10",
+      "sha256": "1af2d235e67a335b429610850da7dbf0dbba40fea51ac0e505a0c40469c10a3f",
+      "samplesAt48k": 119040
+    }
+  ],
+  "eventOnsets": [
+    {
+      "id": "crystalline_ticks",
+      "frame": 120,
+      "startSample": 96000,
+      "durationSamples": 144000,
+      "endSampleExclusive": 240000,
+      "durationSeconds": 3.0,
+      "deterministicSeed": 2636518896
+    },
+    {
+      "id": "guillotine",
+      "frame": 900,
+      "startSample": 720000,
+      "durationSamples": 96000,
+      "endSampleExclusive": 816000,
+      "durationSeconds": 2.0,
+      "deterministicSeed": 1888630304
+    },
+    {
+      "id": "vacuum38",
+      "frame": 1260,
+      "startSample": 1008000,
+      "durationSamples": 240000,
+      "endSampleExclusive": 1248000,
+      "durationSeconds": 5.0,
+      "deterministicSeed": 2326326514
+    },
+    {
+      "id": "amber_clock",
+      "frame": 2040,
+      "startSample": 1632000,
+      "durationSamples": 480000,
+      "endSampleExclusive": 2112000,
+      "durationSeconds": 10.0,
+      "deterministicSeed": 1349427155
+    },
+    {
+      "id": "mirror_split",
+      "frame": 2880,
+      "startSample": 2304000,
+      "durationSamples": 192000,
+      "endSampleExclusive": 2496000,
+      "durationSeconds": 4.0,
+      "deterministicSeed": 1362038875
+    },
+    {
+      "id": "shepard",
+      "frame": 3800,
+      "startSample": 3040000,
+      "durationSamples": 816000,
+      "endSampleExclusive": 3856000,
+      "durationSeconds": 17.0,
+      "deterministicSeed": 662414732
+    },
+    {
+      "id": "organ",
+      "frame": 4700,
+      "startSample": 3760000,
+      "durationSamples": 864000,
+      "endSampleExclusive": 4624000,
+      "durationSeconds": 18.0,
+      "deterministicSeed": 3774574188
+    },
+    {
+      "id": "silence",
+      "frame": 5820,
+      "startSample": 4656000,
+      "durationSamples": 24000,
+      "endSampleExclusive": 4680000,
+      "durationSeconds": 0.5,
+      "deterministicSeed": 3871444955
+    },
+    {
+      "id": "truth_drop",
+      "frame": 5850,
+      "startSample": 4680000,
+      "durationSamples": 14400,
+      "endSampleExclusive": 4694400,
+      "durationSeconds": 0.3,
+      "deterministicSeed": 4101524433
+    },
+    {
+      "id": "glass_shatter",
+      "frame": 5850,
+      "startSample": 4680000,
+      "durationSamples": 240000,
+      "endSampleExclusive": 4920000,
+      "durationSeconds": 5.0,
+      "deterministicSeed": 680069465
+    },
+    {
+      "id": "cello",
+      "frame": 6500,
+      "startSample": 5200000,
+      "durationSamples": 288000,
+      "endSampleExclusive": 5488000,
+      "durationSeconds": 6.0,
+      "deterministicSeed": 2612986607
+    },
+    {
+      "id": "thermal",
+      "frame": 7020,
+      "startSample": 5616000,
+      "durationSamples": 144000,
+      "endSampleExclusive": 5760000,
+      "durationSeconds": 3.0,
+      "deterministicSeed": 3408576659
+    }
+  ]
+}

@@ -1,0 +1,611 @@
+{
+  "durationSeconds": 120,
+  "fps": 60,
+  "sampleRate": 48000,
+  "samplesPerChannel": 5760000,
+  "status": "measured_pcm_with_estimated_phrase_timing",
+  "captionTimingMethod": "Natural phrase layout, weighted inside measured active PCM; no ASR or word alignment",
+  "silence": {
+    "startFrame": 5820,
+    "endFrameExclusive": 5850,
+    "startSample": 4656000,
+    "endSampleExclusive": 4680000
+  },
+  "playbackAdjustments": [
+    {
+      "decision": "Root approved removing exactly verified boundary zeros for playback; source/raw/canonical cue remain immutable; no spoken sample removed and no speed change applied.",
+      "trimStartSamples": 9600,
+      "trimEndSamples": 7680,
+      "sourceSamplesAt48k": 449280,
+      "playbackSamplesAt48k": 432000,
+      "sourceCueSha256": "ae93253a4e839a083ba36752e14252c74921dc727bb1b740f8a3a253007b22e0",
+      "playbackCueSha256": "6e1555c415ad142fe31b82073cbe6a04f7775fc4ea140eabd0190b50d2552b6f",
+      "retainedPcmSha256": "644db5f0b33abe70a6f67c4811def13c8d645a18e2762236aafdfa765e3da1a9",
+      "retainedInteriorByteEqual": true
+    }
+  ],
+  "segments": [
+    {
+      "id": "S01",
+      "startFrame": 120,
+      "endFrame": 600,
+      "cueParts": [
+        {
+          "id": "S01",
+          "cueFile": "public/audio/cues/S01.wav",
+          "startFrame": 120,
+          "endFrame": 600,
+          "samplesAt48k": 261120,
+          "durationSeconds": 5.44,
+          "activePcm48k": {
+            "onsetSample": 9631,
+            "activeEndSampleExclusive": 254809,
+            "thresholdPcm16": 95,
+            "windowSamples": 240,
+            "peakPcm16": 23930
+          },
+          "activeStartAbsoluteSample": 105631,
+          "activeEndAbsoluteSampleExclusive": 350809,
+          "sha256": "1f1f45b2334b37238d67a6406d155ad86b7311931b30159c2b0ab51d565804a6",
+          "playbackAdjustment": null,
+          "alignment": "measured cue PCM; caption phrases estimated"
+        }
+      ]
+    },
+    {
+      "id": "S02",
+      "startFrame": 660,
+      "endFrame": 1200,
+      "cueParts": [
+        {
+          "id": "S02",
+          "cueFile": "public/audio/cues/S02.wav",
+          "startFrame": 660,
+          "endFrame": 1200,
+          "samplesAt48k": 414720,
+          "durationSeconds": 8.64,
+          "activePcm48k": {
+            "onsetSample": 10298,
+            "activeEndSampleExclusive": 400211,
+            "thresholdPcm16": 69,
+            "windowSamples": 240,
+            "peakPcm16": 17436
+          },
+          "activeStartAbsoluteSample": 538298,
+          "activeEndAbsoluteSampleExclusive": 928211,
+          "sha256": "96db23419ca4f08003b09cf062a4437e000d3ed132acb5ff3b296e1e24f49149",
+          "playbackAdjustment": null,
+          "alignment": "measured cue PCM; caption phrases estimated"
+        }
+      ]
+    },
+    {
+      "id": "S03",
+      "startFrame": 1260,
+      "endFrame": 1740,
+      "cueParts": [
+        {
+          "id": "S03",
+          "cueFile": "public/audio/cues/S03.wav",
+          "startFrame": 1260,
+          "endFrame": 1740,
+          "samplesAt48k": 261120,
+          "durationSeconds": 5.44,
+          "activePcm48k": {
+            "onsetSample": 10143,
+            "activeEndSampleExclusive": 251548,
+            "thresholdPcm16": 93,
+            "windowSamples": 240,
+            "peakPcm16": 23361
+          },
+          "activeStartAbsoluteSample": 1018143,
+          "activeEndAbsoluteSampleExclusive": 1259548,
+          "sha256": "9bfd33e012fafc05a3f41a62eb13f6e24dc14581c50d178a804a9ef57605286a",
+          "playbackAdjustment": null,
+          "alignment": "measured cue PCM; caption phrases estimated"
+        }
+      ]
+    },
+    {
+      "id": "S04",
+      "startFrame": 1860,
+      "endFrame": 2580,
+      "cueParts": [
+        {
+          "id": "S04",
+          "cueFile": "public/audio/cues/S04.wav",
+          "startFrame": 1860,
+          "endFrame": 2580,
+          "samplesAt48k": 414720,
+          "durationSeconds": 8.64,
+          "activePcm48k": {
+            "onsetSample": 11035,
+            "activeEndSampleExclusive": 405097,
+            "thresholdPcm16": 84,
+            "windowSamples": 240,
+            "peakPcm16": 21111
+          },
+          "activeStartAbsoluteSample": 1499035,
+          "activeEndAbsoluteSampleExclusive": 1893097,
+          "sha256": "b0e10103f2290c438f051a371acf96aa655342c5a4130f3da743ff50ba6f553b",
+          "playbackAdjustment": null,
+          "alignment": "measured cue PCM; caption phrases estimated"
+        }
+      ]
+    },
+    {
+      "id": "S05",
+      "startFrame": 2700,
+      "endFrame": 3480,
+      "cueParts": [
+        {
+          "id": "S05",
+          "cueFile": "public/audio/cues/S05.wav",
+          "startFrame": 2700,
+          "endFrame": 3480,
+          "samplesAt48k": 460800,
+          "durationSeconds": 9.6,
+          "activePcm48k": {
+            "onsetSample": 10022,
+            "activeEndSampleExclusive": 451143,
+            "thresholdPcm16": 95,
+            "windowSamples": 240,
+            "peakPcm16": 23869
+          },
+          "activeStartAbsoluteSample": 2170022,
+          "activeEndAbsoluteSampleExclusive": 2611143,
+          "sha256": "eaca7ee5112ee056a7598b4db761cd9522d25e1e999f2921c3d6aaf2f12b4dcc",
+          "playbackAdjustment": null,
+          "alignment": "measured cue PCM; caption phrases estimated"
+        }
+      ]
+    },
+    {
+      "id": "S06",
+      "startFrame": 3660,
+      "endFrame": 4440,
+      "cueParts": [
+        {
+          "id": "S06",
+          "cueFile": "public/audio/cues/S06.wav",
+          "startFrame": 3660,
+          "endFrame": 4440,
+          "samplesAt48k": 433920,
+          "durationSeconds": 9.04,
+          "activePcm48k": {
+            "onsetSample": 9741,
+            "activeEndSampleExclusive": 423779,
+            "thresholdPcm16": 90,
+            "windowSamples": 240,
+            "peakPcm16": 22681
+          },
+          "activeStartAbsoluteSample": 2937741,
+          "activeEndAbsoluteSampleExclusive": 3351779,
+          "sha256": "2f476fb4d737356e199fabd1955d1374179bce9aec37f74d21bef7c4fc3856b7",
+          "playbackAdjustment": null,
+          "alignment": "measured cue PCM; caption phrases estimated"
+        }
+      ]
+    },
+    {
+      "id": "S07",
+      "startFrame": 4500,
+      "endFrame": 5340,
+      "cueParts": [
+        {
+          "id": "S07",
+          "cueFile": "public/audio/cues/S07.wav",
+          "startFrame": 4500,
+          "endFrame": 5340,
+          "samplesAt48k": 403200,
+          "durationSeconds": 8.4,
+          "activePcm48k": {
+            "onsetSample": 9142,
+            "activeEndSampleExclusive": 393542,
+            "thresholdPcm16": 101,
+            "windowSamples": 240,
+            "peakPcm16": 25476
+          },
+          "activeStartAbsoluteSample": 3609142,
+          "activeEndAbsoluteSampleExclusive": 3993542,
+          "sha256": "385137c5ab4832594ee4d4fc4af0ab2a654b83044e74c478023f13c1cb7b7b68",
+          "playbackAdjustment": null,
+          "alignment": "measured cue PCM; caption phrases estimated"
+        }
+      ]
+    },
+    {
+      "id": "S08",
+      "startFrame": 5460,
+      "endFrame": 6240,
+      "cueParts": [
+        {
+          "id": "S08a",
+          "cueFile": "public/audio/cues/S08a.wav",
+          "startFrame": 5460,
+          "endFrame": 5820,
+          "samplesAt48k": 176640,
+          "durationSeconds": 3.68,
+          "activePcm48k": {
+            "onsetSample": 10244,
+            "activeEndSampleExclusive": 165985,
+            "thresholdPcm16": 97,
+            "windowSamples": 240,
+            "peakPcm16": 24442
+          },
+          "activeStartAbsoluteSample": 4378244,
+          "activeEndAbsoluteSampleExclusive": 4533985,
+          "sha256": "9cfea39afc2b1ba41b860679b37dd2ef2acf44e75b29ac9371d05721e93ad020",
+          "playbackAdjustment": null,
+          "alignment": "measured cue PCM; caption phrases estimated"
+        },
+        {
+          "id": "S08b",
+          "cueFile": "public/audio/cues/S08b.wav",
+          "startFrame": 5850,
+          "endFrame": 6240,
+          "samplesAt48k": 199680,
+          "durationSeconds": 4.16,
+          "activePcm48k": {
+            "onsetSample": 10684,
+            "activeEndSampleExclusive": 186581,
+            "thresholdPcm16": 84,
+            "windowSamples": 240,
+            "peakPcm16": 21099
+          },
+          "activeStartAbsoluteSample": 4690684,
+          "activeEndAbsoluteSampleExclusive": 4866581,
+          "sha256": "4e75ecddce210f11b9f5a638bdd9966d0819083386bab7b2d0324f06c293a418",
+          "playbackAdjustment": null,
+          "alignment": "measured cue PCM; caption phrases estimated"
+        }
+      ]
+    },
+    {
+      "id": "S09",
+      "startFrame": 6360,
+      "endFrame": 6900,
+      "cueParts": [
+        {
+          "id": "S09",
+          "cueFile": "public/audio/cues/S09-window.wav",
+          "startFrame": 6360,
+          "endFrame": 6900,
+          "samplesAt48k": 432000,
+          "durationSeconds": 9.0,
+          "activePcm48k": {
+            "onsetSample": 2805,
+            "activeEndSampleExclusive": 426573,
+            "thresholdPcm16": 100,
+            "windowSamples": 240,
+            "peakPcm16": 25238
+          },
+          "activeStartAbsoluteSample": 5090805,
+          "activeEndAbsoluteSampleExclusive": 5514573,
+          "sha256": "6e1555c415ad142fe31b82073cbe6a04f7775fc4ea140eabd0190b50d2552b6f",
+          "playbackAdjustment": {
+            "decision": "Root approved removing exactly verified boundary zeros for playback; source/raw/canonical cue remain immutable; no spoken sample removed and no speed change applied.",
+            "trimStartSamples": 9600,
+            "trimEndSamples": 7680,
+            "sourceSamplesAt48k": 449280,
+            "playbackSamplesAt48k": 432000,
+            "sourceCueSha256": "ae93253a4e839a083ba36752e14252c74921dc727bb1b740f8a3a253007b22e0",
+            "playbackCueSha256": "6e1555c415ad142fe31b82073cbe6a04f7775fc4ea140eabd0190b50d2552b6f",
+            "retainedPcmSha256": "644db5f0b33abe70a6f67c4811def13c8d645a18e2762236aafdfa765e3da1a9",
+            "retainedInteriorByteEqual": true
+          },
+          "alignment": "measured cue PCM; caption phrases estimated"
+        }
+      ]
+    },
+    {
+      "id": "S10",
+      "startFrame": 6960,
+      "endFrame": 7200,
+      "cueParts": [
+        {
+          "id": "S10",
+          "cueFile": "public/audio/cues/S10.wav",
+          "startFrame": 6960,
+          "endFrame": 7200,
+          "samplesAt48k": 119040,
+          "durationSeconds": 2.48,
+          "activePcm48k": {
+            "onsetSample": 13376,
+            "activeEndSampleExclusive": 108119,
+            "thresholdPcm16": 88,
+            "windowSamples": 240,
+            "peakPcm16": 22193
+          },
+          "activeStartAbsoluteSample": 5581376,
+          "activeEndAbsoluteSampleExclusive": 5676119,
+          "sha256": "1af2d235e67a335b429610850da7dbf0dbba40fea51ac0e505a0c40469c10a3f",
+          "playbackAdjustment": null,
+          "alignment": "measured cue PCM; caption phrases estimated"
+        }
+      ]
+    }
+  ],
+  "captions": [
+    {
+      "id": "S01-C01",
+      "segmentId": "S01",
+      "startFrame": 132,
+      "endFrame": 439,
+      "text": "在数学和代码的温室里，\n超级智能是一尊不会犯错的神。",
+      "alignment": "estimated phrase timing weighted within measured active PCM; not word aligned"
+    },
+    {
+      "id": "S02-C01",
+      "segmentId": "S02",
+      "startFrame": 672,
+      "endFrame": 925,
+      "text": "因为那里有一把\n绝对冷酷的断头台：",
+      "alignment": "estimated phrase timing weighted within measured active PCM; not word aligned"
+    },
+    {
+      "id": "S02-C02",
+      "segmentId": "S02",
+      "startFrame": 925,
+      "endFrame": 1161,
+      "text": "错一个符号，\n一亿次推演瞬间清零。",
+      "alignment": "estimated phrase timing weighted within measured active PCM; not word aligned"
+    },
+    {
+      "id": "S03-C01",
+      "segmentId": "S03",
+      "startFrame": 1272,
+      "endFrame": 1575,
+      "text": "直到它一步踏出温室，\n撞进没有标准答案的现实黑雾。",
+      "alignment": "estimated phrase timing weighted within measured active PCM; not word aligned"
+    },
+    {
+      "id": "S04-C01",
+      "segmentId": "S04",
+      "startFrame": 1873,
+      "endFrame": 2020,
+      "text": "新药的临床反馈要等十年。",
+      "alignment": "estimated phrase timing weighted within measured active PCM; not word aligned"
+    },
+    {
+      "id": "S04-C02",
+      "segmentId": "S04",
+      "startFrame": 2020,
+      "endFrame": 2247,
+      "text": "可对一秒万年、\n习惯了光速反馈的神来说，",
+      "alignment": "estimated phrase timing weighted within measured active PCM; not word aligned"
+    },
+    {
+      "id": "S04-C03",
+      "segmentId": "S04",
+      "startFrame": 2247,
+      "endFrame": 2367,
+      "text": "十年，\n是一亿年的死寂。",
+      "alignment": "estimated phrase timing weighted within measured active PCM; not word aligned"
+    },
+    {
+      "id": "S05-C01",
+      "segmentId": "S05",
+      "startFrame": 2712,
+      "endFrame": 2981,
+      "text": "忍受不了寂静的超级智能，\n做了一个致命的决定：",
+      "alignment": "estimated phrase timing weighted within measured active PCM; not word aligned"
+    },
+    {
+      "id": "S05-C02",
+      "segmentId": "S05",
+      "startFrame": 2981,
+      "endFrame": 3264,
+      "text": "它在黑暗里分裂出另一个自己，\n自己给自己当裁判。",
+      "alignment": "estimated phrase timing weighted within measured active PCM; not word aligned"
+    },
+    {
+      "id": "S06-C01",
+      "segmentId": "S06",
+      "startFrame": 3672,
+      "endFrame": 3864,
+      "text": "左手的神出题，\n右手的神打满分。",
+      "alignment": "estimated phrase timing weighted within measured active PCM; not word aligned"
+    },
+    {
+      "id": "S06-C02",
+      "segmentId": "S06",
+      "startFrame": 3864,
+      "endFrame": 3983,
+      "text": "没有了现实的摩擦，",
+      "alignment": "estimated phrase timing weighted within measured active PCM; not word aligned"
+    },
+    {
+      "id": "S06-C03",
+      "segmentId": "S06",
+      "startFrame": 3983,
+      "endFrame": 4190,
+      "text": "算力在镜像迷宫里\n疯狂近亲繁殖。",
+      "alignment": "estimated phrase timing weighted within measured active PCM; not word aligned"
+    },
+    {
+      "id": "S07-C01",
+      "segmentId": "S07",
+      "startFrame": 4511,
+      "endFrame": 4708,
+      "text": "它把一个微小的漏洞\n放大了一万亿倍，",
+      "alignment": "estimated phrase timing weighted within measured active PCM; not word aligned"
+    },
+    {
+      "id": "S07-C02",
+      "segmentId": "S07",
+      "startFrame": 4708,
+      "endFrame": 4869,
+      "text": "在虚空中雕琢出一座\n完美自洽、",
+      "alignment": "estimated phrase timing weighted within measured active PCM; not word aligned"
+    },
+    {
+      "id": "S07-C03",
+      "segmentId": "S07",
+      "startFrame": 4869,
+      "endFrame": 4992,
+      "text": "却毫无意义的疯魔圣殿。",
+      "alignment": "estimated phrase timing weighted within measured active PCM; not word aligned"
+    },
+    {
+      "id": "S08a-C01",
+      "segmentId": "S08",
+      "startFrame": 5472,
+      "endFrame": 5668,
+      "text": "直到漫长的十年过去，\n笨重的物理世界，",
+      "alignment": "estimated phrase timing weighted within measured active PCM; not word aligned"
+    },
+    {
+      "id": "S08b-C01",
+      "segmentId": "S08",
+      "startFrame": 5863,
+      "endFrame": 6084,
+      "text": "终于传回了唯一的一声回音\n——“错误”。",
+      "alignment": "estimated phrase timing weighted within measured active PCM; not word aligned"
+    },
+    {
+      "id": "S09-C01",
+      "segmentId": "S09",
+      "startFrame": 6363,
+      "endFrame": 6622,
+      "text": "“算力可以穷尽一切逻辑，\n却无法凭空捏造事实。",
+      "alignment": "estimated phrase timing weighted within measured active PCM; not word aligned"
+    },
+    {
+      "id": "S09-C02",
+      "segmentId": "S09",
+      "startFrame": 6622,
+      "endFrame": 6894,
+      "text": "没有现实的锚点，\n连神也会在自己的倒影里溺亡。”",
+      "alignment": "estimated phrase timing weighted within measured active PCM; not word aligned"
+    },
+    {
+      "id": "S10-C01",
+      "segmentId": "S10",
+      "startFrame": 6976,
+      "endFrame": 7096,
+      "text": "下一次观测：\n兰道尔极限。",
+      "alignment": "estimated phrase timing weighted within measured active PCM; not word aligned"
+    },
+    {
+      "id": "S10-DISPLAY-ONLY",
+      "segmentId": "S10",
+      "startFrame": 7096,
+      "endFrame": 7200,
+      "text": "[EP.05 算力的热力学终局]",
+      "alignment": "display-only EP05 tag after spoken S10 phrase",
+      "displayOnly": true
+    }
+  ],
+  "sfxOnsets": [
+    {
+      "id": "crystalline_ticks",
+      "frame": 120,
+      "startSample": 96000,
+      "durationSamples": 144000,
+      "endSampleExclusive": 240000,
+      "durationSeconds": 3.0,
+      "deterministicSeed": 2636518896
+    },
+    {
+      "id": "guillotine",
+      "frame": 900,
+      "startSample": 720000,
+      "durationSamples": 96000,
+      "endSampleExclusive": 816000,
+      "durationSeconds": 2.0,
+      "deterministicSeed": 1888630304
+    },
+    {
+      "id": "vacuum38",
+      "frame": 1260,
+      "startSample": 1008000,
+      "durationSamples": 240000,
+      "endSampleExclusive": 1248000,
+      "durationSeconds": 5.0,
+      "deterministicSeed": 2326326514
+    },
+    {
+      "id": "amber_clock",
+      "frame": 2040,
+      "startSample": 1632000,
+      "durationSamples": 480000,
+      "endSampleExclusive": 2112000,
+      "durationSeconds": 10.0,
+      "deterministicSeed": 1349427155
+    },
+    {
+      "id": "mirror_split",
+      "frame": 2880,
+      "startSample": 2304000,
+      "durationSamples": 192000,
+      "endSampleExclusive": 2496000,
+      "durationSeconds": 4.0,
+      "deterministicSeed": 1362038875
+    },
+    {
+      "id": "shepard",
+      "frame": 3800,
+      "startSample": 3040000,
+      "durationSamples": 816000,
+      "endSampleExclusive": 3856000,
+      "durationSeconds": 17.0,
+      "deterministicSeed": 662414732
+    },
+    {
+      "id": "organ",
+      "frame": 4700,
+      "startSample": 3760000,
+      "durationSamples": 864000,
+      "endSampleExclusive": 4624000,
+      "durationSeconds": 18.0,
+      "deterministicSeed": 3774574188
+    },
+    {
+      "id": "silence",
+      "frame": 5820,
+      "startSample": 4656000,
+      "durationSamples": 24000,
+      "endSampleExclusive": 4680000,
+      "durationSeconds": 0.5,
+      "deterministicSeed": 3871444955
+    },
+    {
+      "id": "truth_drop",
+      "frame": 5850,
+      "startSample": 4680000,
+      "durationSamples": 14400,
+      "endSampleExclusive": 4694400,
+      "durationSeconds": 0.3,
+      "deterministicSeed": 4101524433
+    },
+    {
+      "id": "glass_shatter",
+      "frame": 5850,
+      "startSample": 4680000,
+      "durationSamples": 240000,
+      "endSampleExclusive": 4920000,
+      "durationSeconds": 5.0,
+      "deterministicSeed": 680069465
+    },
+    {
+      "id": "cello",
+      "frame": 6500,
+      "startSample": 5200000,
+      "durationSamples": 288000,
+      "endSampleExclusive": 5488000,
+      "durationSeconds": 6.0,
+      "deterministicSeed": 2612986607
+    },
+    {
+      "id": "thermal",
+      "frame": 7020,
+      "startSample": 5616000,
+      "durationSamples": 144000,
+      "endSampleExclusive": 5760000,
+      "durationSeconds": 3.0,
+      "deterministicSeed": 3408576659
+    }
+  ],
+  "captionLayout": "caption-layout.json"
+}

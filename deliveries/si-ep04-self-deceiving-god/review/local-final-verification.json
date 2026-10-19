@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "method": "build-final-library.py verified APFS clones; scoped files independently rehashed",
+  "assets": [
+    {
+      "path": "final/si-ep04-self-deceiving-god/B站/si-ep04-self-deceiving-god-bilibili-120s-4k.mp4",
+      "bytes": 291089318,
+      "sha256": "ff373b6c1db88b93dc94fe032526a64273044bbb268f4ee5b9461f1b01cdbef3"
+    },
+    {
+      "path": "final/si-ep04-self-deceiving-god/小红书/si-ep04-self-deceiving-god-xiaohongshu-120s-portrait.mp4",
+      "bytes": 268073693,
+      "sha256": "c836ee94b7bc7c030797a639e0975f242740c265eb4fc740f690f4f910a49ed0"
+    }
+  ]
+}

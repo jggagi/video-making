@@ -1,0 +1,658 @@
+{
+  "schema_version": 1,
+  "shared_timeline": "timeline.json",
+  "shared_audio_master": "public/audio/master.wav",
+  "procedural_visuals": [
+    "src/Prelude.ts",
+    "src/Cathedral.ts",
+    "src/World.tsx"
+  ],
+  "font_dependencies": [
+    "macOS PingFang SC",
+    "Hiragino Sans GB",
+    "Arial Narrow"
+  ],
+  "generation": "Only changed narration text sent to authorized existing Bailian workflow; all visual geometry/score/SFX local deterministic functions. S10 verified cache reuse.",
+  "resources": [
+    {
+      "id": "public/audio/canonical/S01-09d952529628.wav",
+      "path": "public/audio/canonical/S01-09d952529628.wav",
+      "sha256": "3d6f81721962f1a5524cadc0fa9ee1eaf77850215e85b2c1b59c26838baa848f",
+      "bytes": 261164,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "pcm": {
+        "sample_rate": 24000,
+        "channels": 1,
+        "samples_per_channel": 130560
+      }
+    },
+    {
+      "id": "public/audio/canonical/S02-3dc58cd29051.wav",
+      "path": "public/audio/canonical/S02-3dc58cd29051.wav",
+      "sha256": "7954431b077f06cd28afff3413a00bce1d8deac73118071811a9bd1b8235f7a3",
+      "bytes": 414764,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "pcm": {
+        "sample_rate": 24000,
+        "channels": 1,
+        "samples_per_channel": 207360
+      }
+    },
+    {
+      "id": "public/audio/canonical/S03-167b9c0987a7.wav",
+      "path": "public/audio/canonical/S03-167b9c0987a7.wav",
+      "sha256": "0d8862392b7afe7d5741f82b5173da0769e355875f0baa04db368afa62b6d7aa",
+      "bytes": 261164,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "pcm": {
+        "sample_rate": 24000,
+        "channels": 1,
+        "samples_per_channel": 130560
+      }
+    },
+    {
+      "id": "public/audio/canonical/S04-d208e18a5dc8.wav",
+      "path": "public/audio/canonical/S04-d208e18a5dc8.wav",
+      "sha256": "51628c2988d8f4cfca7e075e5985879bde660805eba5783b167dffac059d7948",
+      "bytes": 414764,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "pcm": {
+        "sample_rate": 24000,
+        "channels": 1,
+        "samples_per_channel": 207360
+      }
+    },
+    {
+      "id": "public/audio/canonical/S05-25a40766c6a7.wav",
+      "path": "public/audio/canonical/S05-25a40766c6a7.wav",
+      "sha256": "480a0ceb0e07bc10c62f0ead09d7b6f5de2707a7ae6b311db91d2da306ff5f3e",
+      "bytes": 460844,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "pcm": {
+        "sample_rate": 24000,
+        "channels": 1,
+        "samples_per_channel": 230400
+      }
+    },
+    {
+      "id": "public/audio/canonical/S06-59aaaf34830d.wav",
+      "path": "public/audio/canonical/S06-59aaaf34830d.wav",
+      "sha256": "6add9c453f9f84373781e150e3e572ebd83e8b1eae16515403407ff8fbfe1572",
+      "bytes": 433964,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "pcm": {
+        "sample_rate": 24000,
+        "channels": 1,
+        "samples_per_channel": 216960
+      }
+    },
+    {
+      "id": "public/audio/canonical/S07-5bf5dce2c65a.wav",
+      "path": "public/audio/canonical/S07-5bf5dce2c65a.wav",
+      "sha256": "a346712c53f11cc68a3f73385696dafa2c747819696d074d501ef4c515950811",
+      "bytes": 403244,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "pcm": {
+        "sample_rate": 24000,
+        "channels": 1,
+        "samples_per_channel": 201600
+      }
+    },
+    {
+      "id": "public/audio/canonical/S08a-69d8f700f445.wav",
+      "path": "public/audio/canonical/S08a-69d8f700f445.wav",
+      "sha256": "e60e92bd9be921d60924d195273ad50994e9d8d595340a45ba2841a8feb66b2d",
+      "bytes": 176684,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "pcm": {
+        "sample_rate": 24000,
+        "channels": 1,
+        "samples_per_channel": 88320
+      }
+    },
+    {
+      "id": "public/audio/canonical/S08b-0ba9a5b65bc9.wav",
+      "path": "public/audio/canonical/S08b-0ba9a5b65bc9.wav",
+      "sha256": "d1643084a3c628c7352534d487e060c0158fe1a85f52393c28a179340429d648",
+      "bytes": 199724,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "pcm": {
+        "sample_rate": 24000,
+        "channels": 1,
+        "samples_per_channel": 99840
+      }
+    },
+    {
+      "id": "public/audio/canonical/S09-d3a5cdf6e52f.wav",
+      "path": "public/audio/canonical/S09-d3a5cdf6e52f.wav",
+      "sha256": "62800ad3c6b5165606aebe5ee60d9ce97601bb22fabd2855e08da974aa8d132e",
+      "bytes": 449324,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "pcm": {
+        "sample_rate": 24000,
+        "channels": 1,
+        "samples_per_channel": 224640
+      }
+    },
+    {
+      "id": "public/audio/cues/S01.wav",
+      "path": "public/audio/cues/S01.wav",
+      "sha256": "1f1f45b2334b37238d67a6406d155ad86b7311931b30159c2b0ab51d565804a6",
+      "bytes": 522318,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "pcm": {
+        "sample_rate": 48000,
+        "channels": 1,
+        "samples_per_channel": 261120
+      }
+    },
+    {
+      "id": "public/audio/cues/S02.wav",
+      "path": "public/audio/cues/S02.wav",
+      "sha256": "96db23419ca4f08003b09cf062a4437e000d3ed132acb5ff3b296e1e24f49149",
+      "bytes": 829518,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "pcm": {
+        "sample_rate": 48000,
+        "channels": 1,
+        "samples_per_channel": 414720
+      }
+    },
+    {
+      "id": "public/audio/cues/S03.wav",
+      "path": "public/audio/cues/S03.wav",
+      "sha256": "9bfd33e012fafc05a3f41a62eb13f6e24dc14581c50d178a804a9ef57605286a",
+      "bytes": 522318,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "pcm": {
+        "sample_rate": 48000,
+        "channels": 1,
+        "samples_per_channel": 261120
+      }
+    },
+    {
+      "id": "public/audio/cues/S04.wav",
+      "path": "public/audio/cues/S04.wav",
+      "sha256": "b0e10103f2290c438f051a371acf96aa655342c5a4130f3da743ff50ba6f553b",
+      "bytes": 829518,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "pcm": {
+        "sample_rate": 48000,
+        "channels": 1,
+        "samples_per_channel": 414720
+      }
+    },
+    {
+      "id": "public/audio/cues/S05.wav",
+      "path": "public/audio/cues/S05.wav",
+      "sha256": "eaca7ee5112ee056a7598b4db761cd9522d25e1e999f2921c3d6aaf2f12b4dcc",
+      "bytes": 921678,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "pcm": {
+        "sample_rate": 48000,
+        "channels": 1,
+        "samples_per_channel": 460800
+      }
+    },
+    {
+      "id": "public/audio/cues/S06.wav",
+      "path": "public/audio/cues/S06.wav",
+      "sha256": "2f476fb4d737356e199fabd1955d1374179bce9aec37f74d21bef7c4fc3856b7",
+      "bytes": 867918,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "pcm": {
+        "sample_rate": 48000,
+        "channels": 1,
+        "samples_per_channel": 433920
+      }
+    },
+    {
+      "id": "public/audio/cues/S07.wav",
+      "path": "public/audio/cues/S07.wav",
+      "sha256": "385137c5ab4832594ee4d4fc4af0ab2a654b83044e74c478023f13c1cb7b7b68",
+      "bytes": 806478,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "pcm": {
+        "sample_rate": 48000,
+        "channels": 1,
+        "samples_per_channel": 403200
+      }
+    },
+    {
+      "id": "public/audio/cues/S08a.wav",
+      "path": "public/audio/cues/S08a.wav",
+      "sha256": "9cfea39afc2b1ba41b860679b37dd2ef2acf44e75b29ac9371d05721e93ad020",
+      "bytes": 353358,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "pcm": {
+        "sample_rate": 48000,
+        "channels": 1,
+        "samples_per_channel": 176640
+      }
+    },
+    {
+      "id": "public/audio/cues/S08b.wav",
+      "path": "public/audio/cues/S08b.wav",
+      "sha256": "4e75ecddce210f11b9f5a638bdd9966d0819083386bab7b2d0324f06c293a418",
+      "bytes": 399438,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "pcm": {
+        "sample_rate": 48000,
+        "channels": 1,
+        "samples_per_channel": 199680
+      }
+    },
+    {
+      "id": "public/audio/cues/S09-window.wav",
+      "path": "public/audio/cues/S09-window.wav",
+      "sha256": "6e1555c415ad142fe31b82073cbe6a04f7775fc4ea140eabd0190b50d2552b6f",
+      "bytes": 864044,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "pcm": {
+        "sample_rate": 48000,
+        "channels": 1,
+        "samples_per_channel": 432000
+      }
+    },
+    {
+      "id": "public/audio/cues/S09.wav",
+      "path": "public/audio/cues/S09.wav",
+      "sha256": "ae93253a4e839a083ba36752e14252c74921dc727bb1b740f8a3a253007b22e0",
+      "bytes": 898638,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "pcm": {
+        "sample_rate": 48000,
+        "channels": 1,
+        "samples_per_channel": 449280
+      }
+    },
+    {
+      "id": "public/audio/cues/S10.wav",
+      "path": "public/audio/cues/S10.wav",
+      "sha256": "1af2d235e67a335b429610850da7dbf0dbba40fea51ac0e505a0c40469c10a3f",
+      "bytes": 238158,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "pcm": {
+        "sample_rate": 48000,
+        "channels": 1,
+        "samples_per_channel": 119040
+      }
+    },
+    {
+      "id": "public/audio/master.wav",
+      "path": "public/audio/master.wav",
+      "sha256": "7d1796770c81984c9082d37dbd951100d124576901d4ad30ee536610f6154acb",
+      "bytes": 23040044,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "pcm": {
+        "sample_rate": 48000,
+        "channels": 2,
+        "samples_per_channel": 5760000
+      }
+    },
+    {
+      "id": "public/audio/mix-manifest.json",
+      "path": "public/audio/mix-manifest.json",
+      "sha256": "a1a2db61b4b362a6f0207e2925f6346113d1729e936589f3be9d8b576c162f69",
+      "bytes": 6912,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public/audio/mix-settings.json",
+      "path": "public/audio/mix-settings.json",
+      "sha256": "20b45249ed169d691643b8d8676ca001a6dd0423c17c7058eea67d0dc08f541f",
+      "bytes": 5326,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public/audio/narration.wav",
+      "path": "public/audio/narration.wav",
+      "sha256": "5fc02d2401187475b6ec8327a4187a401d5f40e4f6dc70e3e962cdde4486b6bb",
+      "bytes": 23040044,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "pcm": {
+        "sample_rate": 48000,
+        "channels": 2,
+        "samples_per_channel": 5760000
+      }
+    },
+    {
+      "id": "public/audio/provider-manifest.json",
+      "path": "public/audio/provider-manifest.json",
+      "sha256": "1b37e5b1b6f04518a41e112f69a6ec340d178e2261bd5850ac3ea08d634d2d5a",
+      "bytes": 24601,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public/audio/raw/S01-09d952529628.wav",
+      "path": "public/audio/raw/S01-09d952529628.wav",
+      "sha256": "1386563f74383958bff12d3ca2df5bb02db3e555d94d9562366850f10f295a47",
+      "bytes": 261164,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public/audio/raw/S02-3dc58cd29051.wav",
+      "path": "public/audio/raw/S02-3dc58cd29051.wav",
+      "sha256": "ce42066f5fbca868169675a97c2d847377a91e281af84a44b1c53fdcb8bba976",
+      "bytes": 414764,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public/audio/raw/S03-167b9c0987a7.wav",
+      "path": "public/audio/raw/S03-167b9c0987a7.wav",
+      "sha256": "831a5c828646ec63b3cd720781ac3dc3dddbd43c2c38ee0c8dfa369e1e33e8c8",
+      "bytes": 261164,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public/audio/raw/S04-d208e18a5dc8.wav",
+      "path": "public/audio/raw/S04-d208e18a5dc8.wav",
+      "sha256": "54de249e52c24b32bbdbbc546fe2a958704b8fa3c3d9cf5e66002781372693d4",
+      "bytes": 414764,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public/audio/raw/S05-25a40766c6a7.wav",
+      "path": "public/audio/raw/S05-25a40766c6a7.wav",
+      "sha256": "7a443b9905d015e77c0014d126e9690aacec2e7e64ce7132f4becc1ef6e499a8",
+      "bytes": 460844,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public/audio/raw/S06-59aaaf34830d.wav",
+      "path": "public/audio/raw/S06-59aaaf34830d.wav",
+      "sha256": "ecd2102862650fcfde4987130deb650c8ca4812ce40689fb69f3ae7370c2a737",
+      "bytes": 433964,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public/audio/raw/S07-5bf5dce2c65a.wav",
+      "path": "public/audio/raw/S07-5bf5dce2c65a.wav",
+      "sha256": "51518aa7a608b963c0314bdf76e5fa95ce6e2c1674a9977175b89c2a922a7e8b",
+      "bytes": 403244,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public/audio/raw/S08a-69d8f700f445.wav",
+      "path": "public/audio/raw/S08a-69d8f700f445.wav",
+      "sha256": "4f0e3128ebb6aaf093414ef2f6e858f184f779179e61f1af236f2b205e962aa3",
+      "bytes": 176684,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public/audio/raw/S08b-0ba9a5b65bc9.wav",
+      "path": "public/audio/raw/S08b-0ba9a5b65bc9.wav",
+      "sha256": "fd8f27447e15fee639d1fbee12e80b7c23c580f9a751f8ed87db04e8df1f70fa",
+      "bytes": 199724,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public/audio/raw/S09-d3a5cdf6e52f.wav",
+      "path": "public/audio/raw/S09-d3a5cdf6e52f.wav",
+      "sha256": "969d7ab9dc3a5a6dd5af2dc45e128e472065e1db4119a4b51a6b1a3d61517cf1",
+      "bytes": 449324,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public/audio/score.wav",
+      "path": "public/audio/score.wav",
+      "sha256": "595b3030ac0b3a47ba5d10895d4d2a0ea667fc4e52615bedf477eca2014af3f4",
+      "bytes": 23040044,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "pcm": {
+        "sample_rate": 48000,
+        "channels": 2,
+        "samples_per_channel": 5760000
+      }
+    },
+    {
+      "id": "public/audio/sfx.wav",
+      "path": "public/audio/sfx.wav",
+      "sha256": "647f436ec24352e768452658465e63493cf5ad6af04cadf35af69d8826167a38",
+      "bytes": 23040044,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ],
+      "pcm": {
+        "sample_rate": 48000,
+        "channels": 2,
+        "samples_per_channel": 5760000
+      }
+    },
+    {
+      "id": "public/audio/tts-input/S01.txt",
+      "path": "public/audio/tts-input/S01.txt",
+      "sha256": "a9cfdb519773b8366d063e06e3c0a068bee846ab9add54f5bf3653c8a8565974",
+      "bytes": 78,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public/audio/tts-input/S02.txt",
+      "path": "public/audio/tts-input/S02.txt",
+      "sha256": "33a3baa7768cf9a0d0d0e6e8e165dc5f2b8d79fe96ec000a949682c9948e1bdd",
+      "bytes": 102,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public/audio/tts-input/S03.txt",
+      "path": "public/audio/tts-input/S03.txt",
+      "sha256": "721911986d468f25174b6d85642dbf1e18d859042dd0b4248052610636e1b5f8",
+      "bytes": 75,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public/audio/tts-input/S04.txt",
+      "path": "public/audio/tts-input/S04.txt",
+      "sha256": "388b1446f174ed29898260ef389798137be3da1f7c660d897adede362b5de8a5",
+      "bytes": 129,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public/audio/tts-input/S05.txt",
+      "path": "public/audio/tts-input/S05.txt",
+      "sha256": "d9177d068daf3d8235b557edc4c4ae0dea2595b6dd46050a18619d5fdc2bceaf",
+      "bytes": 141,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public/audio/tts-input/S06.txt",
+      "path": "public/audio/tts-input/S06.txt",
+      "sha256": "c080efdac3ff687b56fe9153894b7f2264b7e09a4d85e6a6ce76c5730cc4bb7d",
+      "bytes": 120,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public/audio/tts-input/S07.txt",
+      "path": "public/audio/tts-input/S07.txt",
+      "sha256": "02729f4e943a1852b3e42d9e7316e4a2ad9633a5f8333ceb02b1fa3ac8faef31",
+      "bytes": 132,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public/audio/tts-input/S08.txt",
+      "path": "public/audio/tts-input/S08.txt",
+      "sha256": "55295b9471c423c804284d99d378112af125485fe80cfadf3910a8efb409b940",
+      "bytes": 105,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public/audio/tts-input/S08a.txt",
+      "path": "public/audio/tts-input/S08a.txt",
+      "sha256": "dfa46c00ecab928fec1d45c0f172a3caa6446cc5f20760c7d885fd49a73bdfe8",
+      "bytes": 55,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public/audio/tts-input/S08b.txt",
+      "path": "public/audio/tts-input/S08b.txt",
+      "sha256": "0a04490266650e50d476c9897bbd898e6afa3d68ab2d599dcba8ffe9f05c8f57",
+      "bytes": 52,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public/audio/tts-input/S09.txt",
+      "path": "public/audio/tts-input/S09.txt",
+      "sha256": "64238ef554c459119f24b35d96e1c6c53bf16d56dedd76f3d5ed82dbbbde6bb0",
+      "bytes": 132,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    },
+    {
+      "id": "public/audio/tts-input/S10.txt",
+      "path": "public/audio/tts-input/S10.txt",
+      "sha256": "4b1ab0e767510792ae9dbbc4dcb5933d95547873b66012ba1face6855b2ded36",
+      "bytes": 36,
+      "shared_by": [
+        "Landscape4K",
+        "PortraitVertical"
+      ]
+    }
+  ]
+}

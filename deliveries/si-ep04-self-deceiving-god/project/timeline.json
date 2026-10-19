@@ -1,0 +1,117 @@
+{
+  "duration_seconds": 120,
+  "fps": 60,
+  "total_frames": 7200,
+  "shots": [
+    {
+      "startFrame": 0,
+      "endFrame": 1260,
+      "title": "形式化的断头台",
+      "purpose": "形式化的断头台",
+      "motion": "3D upward tower / deterministic 10 candidates per 15f, 9 fail, 1 survives",
+      "landscape": "native wide sculpture; act3 75% internal /25% reality",
+      "portrait": "native 9:16; act3 upper65% /lower35% within safe area",
+      "audio": "shared measured PCM; event frame to sample x800"
+    },
+    {
+      "startFrame": 1260,
+      "endFrame": 1800,
+      "title": "失去地面",
+      "purpose": "失去地面",
+      "motion": "tower crosses ceiling into void; perspective title drift",
+      "landscape": "native wide sculpture; act3 75% internal /25% reality",
+      "portrait": "native 9:16; act3 upper65% /lower35% within safe area",
+      "audio": "shared measured PCM; event frame to sample x800"
+    },
+    {
+      "startFrame": 1800,
+      "endFrame": 2700,
+      "title": "一亿年的死寂",
+      "purpose": "一亿年的死寂",
+      "motion": "trapped cyan core / almost motionless falling amber probe; camera orbits",
+      "landscape": "native wide sculpture; act3 75% internal /25% reality",
+      "portrait": "native 9:16; act3 upper65% /lower35% within safe area",
+      "audio": "shared measured PCM; event frame to sample x800"
+    },
+    {
+      "startFrame": 2700,
+      "endFrame": 3600,
+      "title": "与自己的影子下棋",
+      "purpose": "与自己的影子下棋",
+      "motion": "2880f split; figure8 orbit and synthetic reward beams",
+      "landscape": "native wide sculpture; act3 75% internal /25% reality",
+      "portrait": "native 9:16; act3 upper65% /lower35% within safe area",
+      "audio": "shared measured PCM; event frame to sample x800"
+    },
+    {
+      "startFrame": 3600,
+      "endFrame": 4500,
+      "title": "闭环的狂喜",
+      "purpose": "闭环的狂喜",
+      "motion": "Klein embedding plus six dyadic recursive lace layers; separate physical baseline",
+      "landscape": "native wide sculpture; act3 75% internal /25% reality",
+      "portrait": "native 9:16; act3 upper65% /lower35% within safe area",
+      "audio": "shared measured PCM; event frame to sample x800"
+    },
+    {
+      "startFrame": 4500,
+      "endFrame": 5400,
+      "title": "自噬圣殿",
+      "purpose": "自噬圣殿",
+      "motion": "growing recursive cathedral; fixed zero physical displacement",
+      "landscape": "native wide sculpture; act3 75% internal /25% reality",
+      "portrait": "native 9:16; act3 upper65% /lower35% within safe area",
+      "audio": "shared measured PCM; event frame to sample x800"
+    },
+    {
+      "startFrame": 5400,
+      "endFrame": 5820,
+      "title": "最后的奢华",
+      "purpose": "最后的奢华",
+      "motion": "cathedral fills shot; amber probe returns",
+      "landscape": "native wide sculpture; act3 75% internal /25% reality",
+      "portrait": "native 9:16; act3 upper65% /lower35% within safe area",
+      "audio": "shared measured PCM; event frame to sample x800"
+    },
+    {
+      "startFrame": 5820,
+      "endFrame": 5850,
+      "title": "真空",
+      "purpose": "真空",
+      "motion": "absolute silence 30f; cathedral holds shape but camera continues",
+      "landscape": "native wide sculpture; act3 75% internal /25% reality",
+      "portrait": "native 9:16; act3 upper65% /lower35% within safe area",
+      "audio": "shared measured PCM; event frame to sample x800"
+    },
+    {
+      "startFrame": 5850,
+      "endFrame": 6300,
+      "title": "一滴现实",
+      "purpose": "一滴现实",
+      "motion": "drop at5850f then18f shock front and glass shatter; tether remains",
+      "landscape": "native wide sculpture; act3 75% internal /25% reality",
+      "portrait": "native 9:16; act3 upper65% /lower35% within safe area",
+      "audio": "shared measured PCM; event frame to sample x800"
+    },
+    {
+      "startFrame": 6300,
+      "endFrame": 6930,
+      "title": "现实的锚",
+      "purpose": "现实的锚",
+      "motion": "slow cyan core / heavy amber anchor; quote unfolds with narration",
+      "landscape": "native wide sculpture; act3 75% internal /25% reality",
+      "portrait": "native 9:16; act3 upper65% /lower35% within safe area",
+      "audio": "shared measured PCM; event frame to sample x800"
+    },
+    {
+      "startFrame": 6930,
+      "endFrame": 7200,
+      "title": "热力学终局",
+      "purpose": "热力学终局",
+      "motion": "thermal grid bends and brownian particles accelerate",
+      "landscape": "native wide sculpture; act3 75% internal /25% reality",
+      "portrait": "native 9:16; act3 upper65% /lower35% within safe area",
+      "audio": "shared measured PCM; event frame to sample x800"
+    }
+  ]
+}

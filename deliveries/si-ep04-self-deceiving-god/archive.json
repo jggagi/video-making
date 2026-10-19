@@ -1,0 +1,94 @@
+{
+  "id": "si-ep04-self-deceiving-god",
+  "title": "神也会自我欺骗",
+  "release_tag": "film-si-ep04-self-deceiving-god-bfac5c887fdd",
+  "historical": false,
+  "duration_seconds": 120,
+  "project_path": "deliveries/si-ep04-self-deceiving-god/project",
+  "delivery_directory": "deliveries/si-ep04-self-deceiving-god",
+  "final_output_paths": {
+    "B站": "deliveries/si-ep04-self-deceiving-god/B站/si-ep04-self-deceiving-god-bilibili-120s-4k.mp4",
+    "小红书": "deliveries/si-ep04-self-deceiving-god/小红书/si-ep04-self-deceiving-god-xiaohongshu-120s-portrait.mp4"
+  },
+  "final_output_dimensions": {
+    "B站": [
+      3840,
+      2160
+    ],
+    "小红书": [
+      2160,
+      3840
+    ]
+  },
+  "assets": [
+    {
+      "path": "deliveries/si-ep04-self-deceiving-god/B站/si-ep04-self-deceiving-god-bilibili-120s-4k.mp4",
+      "name": "si-ep04-self-deceiving-god--deliveries--si-ep04-self-deceiving-god--B---si-ep04-self-deceiving-god-bilibili-120s-4k--ff373b6c1db8.mp4",
+      "bytes": 291089318,
+      "sha256": "ff373b6c1db88b93dc94fe032526a64273044bbb268f4ee5b9461f1b01cdbef3",
+      "kind": "video",
+      "platform": "B站",
+      "measurements": {
+        "width": 3840,
+        "height": 2160,
+        "fps": "60/1",
+        "frames": "7200",
+        "video_duration_seconds": 120.0,
+        "container_duration_seconds": 120.0
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep04-self-deceiving-god-bfac5c887fdd/si-ep04-self-deceiving-god--deliveries--si-ep04-self-deceiving-god--B---si-ep04-self-deceiving-god-bilibili-120s-4k--ff373b6c1db8.mp4"
+    },
+    {
+      "path": "deliveries/si-ep04-self-deceiving-god/review/previews/portrait-4700-4939.mp4",
+      "name": "si-ep04-self-deceiving-god--deliveries--si-ep04-self-deceiving-god--review--previews--portrait-4700-4939--66c5c64ff827.mp4",
+      "bytes": 1058970,
+      "sha256": "66c5c64ff827bda7970c7c76ee1f5b449e4b48dd5ab72d1b59d17f0684e1d078",
+      "kind": "video",
+      "platform": "预览",
+      "measurements": {
+        "width": 720,
+        "height": 1280,
+        "fps": "60/1",
+        "frames": "240",
+        "video_duration_seconds": 4.0,
+        "container_duration_seconds": 4.0
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep04-self-deceiving-god-bfac5c887fdd/si-ep04-self-deceiving-god--deliveries--si-ep04-self-deceiving-god--review--previews--portrait-4700-4939--66c5c64ff827.mp4"
+    },
+    {
+      "path": "deliveries/si-ep04-self-deceiving-god/review/previews/portrait-840-1079.mp4",
+      "name": "si-ep04-self-deceiving-god--deliveries--si-ep04-self-deceiving-god--review--previews--portrait-840-1079--1ae07f373da5.mp4",
+      "bytes": 2811590,
+      "sha256": "1ae07f373da5a9a27b2221d5b99215e1afa6dddfc5f1ef196cfd7b3dd9d868d3",
+      "kind": "video",
+      "platform": "预览",
+      "measurements": {
+        "width": 720,
+        "height": 1280,
+        "fps": "60/1",
+        "frames": "240",
+        "video_duration_seconds": 4.0,
+        "container_duration_seconds": 4.0
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep04-self-deceiving-god-bfac5c887fdd/si-ep04-self-deceiving-god--deliveries--si-ep04-self-deceiving-god--review--previews--portrait-840-1079--1ae07f373da5.mp4"
+    },
+    {
+      "path": "deliveries/si-ep04-self-deceiving-god/小红书/si-ep04-self-deceiving-god-xiaohongshu-120s-portrait.mp4",
+      "name": "si-ep04-self-deceiving-god--deliveries--si-ep04-self-deceiving-god-----si-ep04-self-deceiving-god-xiaohongshu-120s-portrait--c836ee94b7bc.mp4",
+      "bytes": 268073693,
+      "sha256": "c836ee94b7bc7c030797a639e0975f242740c265eb4fc740f690f4f910a49ed0",
+      "kind": "video",
+      "platform": "小红书",
+      "measurements": {
+        "width": 2160,
+        "height": 3840,
+        "fps": "60/1",
+        "frames": "7200",
+        "video_duration_seconds": 120.0,
+        "container_duration_seconds": 120.0
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep04-self-deceiving-god-bfac5c887fdd/si-ep04-self-deceiving-god--deliveries--si-ep04-self-deceiving-god-----si-ep04-self-deceiving-god-xiaohongshu-120s-portrait--c836ee94b7bc.mp4"
+    }
+  ],
+  "generated_by": "scripts/build-archive-catalog.py"
+}

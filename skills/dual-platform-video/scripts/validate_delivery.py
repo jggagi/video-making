@@ -7,6 +7,7 @@ import argparse
 from datetime import datetime, timezone
 from fractions import Fraction
 import hashlib
+import importlib.util
 import json
 import math
 import os
@@ -18,6 +19,15 @@ import subprocess
 import sys
 import unicodedata
 from typing import Any
+
+
+_VISUAL_QC_PATH = Path(__file__).resolve().with_name("visual_qc.py")
+_VISUAL_QC_SPEC = importlib.util.spec_from_file_location("delivery_visual_qc", _VISUAL_QC_PATH)
+if _VISUAL_QC_SPEC is None or _VISUAL_QC_SPEC.loader is None:
+    raise ImportError(f"Cannot load visual QC helper: {_VISUAL_QC_PATH}")
+_VISUAL_QC_MODULE = importlib.util.module_from_spec(_VISUAL_QC_SPEC)
+_VISUAL_QC_SPEC.loader.exec_module(_VISUAL_QC_MODULE)
+validate_visual_qc = _VISUAL_QC_MODULE.validate_visual_qc
 
 
 FPS_CHOICES = (24, 25, 30, 50, 60)
@@ -736,9 +746,19 @@ def validate(
             )
             failures.extend(output_reports[key]["failures"])
 
+    qc_manifest = manifest if manifest is not None else {"visual_qc": None}
+    output_hashes = {
+        key: output_reports[key].get("sha256") for key in OUTPUTS
+    }
+    visual_qc = validate_visual_qc(root, qc_manifest, output_hashes, total_frames)
+    non_visual_failures = bool(failures)
+    checks["visual_qc"] = visual_qc["status"]
+    failures.extend(visual_qc["failures"])
+
     scan_incomplete = source_scan is not None and source_scan["status"] == "INCOMPLETE"
     status = ("INCOMPLETE" if skip_decode else
-              "FAIL" if failures else "INCOMPLETE" if scan_incomplete else "PASS")
+              "FAIL" if non_visual_failures or visual_qc["status"] == "FAIL" else
+              "INCOMPLETE" if visual_qc["status"] == "INCOMPLETE" or scan_incomplete else "PASS")
     report = {
         "schema_version": 1,
         "generated_at_utc": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
@@ -747,6 +767,7 @@ def validate(
         "manifest_sha256": manifest_hash,
         "checks": checks,
         "outputs": output_reports,
+        "visual_qc": visual_qc,
         "failures": failures,
         "human_review": {
             "representative_frames": "pending",

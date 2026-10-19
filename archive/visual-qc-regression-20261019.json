@@ -1,0 +1,104 @@
+{
+  "scope": "Historical regression for the new visual-QC tools, not a new film acceptance or human-review claim",
+  "performed_at_utc": "2026-10-19T13:16:24.163982+00:00",
+  "script_sha256": {
+    "skills/dual-platform-video/scripts/scan_visual_qc.py": "c1e8145be78679792a29fe850f43c5c908b6690aa4c3b62e7a9111a0c50f85a9",
+    "skills/dual-platform-video/scripts/visual_qc.py": "6c7d52f5d2cd26c1c6ea04f7d6e4bd29a8a39afe369969f4dc26f6b0c5a31664"
+  },
+  "regression": [
+    {
+      "edition": "old",
+      "media_path": "deliveries/si-ep05-landauer-limit-v02/小红书/si-ep05-landauer-limit-v02-xiaohongshu-120s-portrait.mp4",
+      "media_sha256": "cd8839587847091e689efcecc4d8b6da55e6e04ba752f5223c788829e4407806",
+      "decoded_frames": 7200,
+      "flagged_frames": 161,
+      "cli_exit_code": 3,
+      "evidence_gate": "FAIL",
+      "known_bad_frame889_flagged": true,
+      "analysis": [
+        "isolated_full_frame_jump",
+        "stable_roi",
+        "dark_roi"
+      ],
+      "config": {
+        "width_requested": 360,
+        "stable_roi_normalized_xywh": [
+          0.06018518518518518,
+          0.16458333333333333,
+          0.48148148148148145,
+          0.01875
+        ],
+        "dark_roi_normalized_xywh": [
+          0.0,
+          0.8333333333333334,
+          1.0,
+          0.15625
+        ],
+        "isolated_jump_mae_floor": 12.0,
+        "isolated_jump_neighbor_limit": "max(3, 0.35 * min(prev_middle_mae, middle_next_mae))",
+        "stable_roi_threshold": "median + 8 * (1.4826 * MAD), floor 8 RGB MAE",
+        "dark_roi_threshold": "median + 8 * (1.4826 * MAD), floor 50 pixels with luma > 100",
+        "dark_roi_bright_luma_threshold_exclusive": 100.0,
+        "ffmpeg_threads": 2,
+        "ffmpeg_filter_threads": 2,
+        "pixel_format": "rgb24",
+        "autorotate": false
+      },
+      "raw_report_sha256": "54ead010b21725db7dc5f76288480df314667875ed2b0d6413ea98e5d65351f0"
+    },
+    {
+      "edition": "new",
+      "media_path": "deliveries/si-ep05-landauer-limit-v03/小红书/si-ep05-landauer-limit-v03-xiaohongshu-120s-portrait.mp4",
+      "media_sha256": "ab2765c6fb0220216ae6418f65df0dcb0a03a7b989780a41cde806ffda4594b9",
+      "decoded_frames": 7200,
+      "flagged_frames": 0,
+      "cli_exit_code": 0,
+      "evidence_gate": "PASS",
+      "known_bad_frame889_flagged": false,
+      "analysis": [
+        "isolated_full_frame_jump",
+        "stable_roi",
+        "dark_roi"
+      ],
+      "config": {
+        "width_requested": 360,
+        "stable_roi_normalized_xywh": [
+          0.06018518518518518,
+          0.16458333333333333,
+          0.48148148148148145,
+          0.01875
+        ],
+        "dark_roi_normalized_xywh": [
+          0.0,
+          0.8333333333333334,
+          1.0,
+          0.15625
+        ],
+        "isolated_jump_mae_floor": 12.0,
+        "isolated_jump_neighbor_limit": "max(3, 0.35 * min(prev_middle_mae, middle_next_mae))",
+        "stable_roi_threshold": "median + 8 * (1.4826 * MAD), floor 8 RGB MAE",
+        "dark_roi_threshold": "median + 8 * (1.4826 * MAD), floor 50 pixels with luma > 100",
+        "dark_roi_bright_luma_threshold_exclusive": 100.0,
+        "ffmpeg_threads": 2,
+        "ffmpeg_filter_threads": 2,
+        "pixel_format": "rgb24",
+        "autorotate": false
+      },
+      "raw_report_sha256": "a5d81ac95cf1ffbf2cc5c6673e3d49d3de5528eac27371b175daca0f93dd2bd0"
+    }
+  ],
+  "automated_suite": "62 tests passed",
+  "skill_checks": {
+    "yaml": "Ruby Psych safe_load PASS; frontmatter unchanged from baseline",
+    "relative_links": "PASS",
+    "quick_validate_python": "Unavailable: PyYAML missing in current Python runtimes; no installation performed"
+  },
+  "limitations": [
+    "Downscaled heuristics and configured regions, not full perceptual proof",
+    "62 tests plus these two real continuous decodes; no new rendering/cloud generation or target-device acceptance"
+  ],
+  "installed_skill_sync": {
+    "files": 9,
+    "repo_and_installed_bytes_equal": true
+  }
+}

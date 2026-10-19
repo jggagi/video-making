@@ -144,6 +144,13 @@ def build_manifest(
             "continuous_human_review": "pending",
             "target_device_playback": "pending",
         },
+        "visual_qc": {
+            "required": True,
+            "reports": {
+                "bilibili": "review/visual-qc-bilibili/report.json",
+                "xiaohongshu": "review/visual-qc-xiaohongshu/report.json",
+            },
+        },
     }
 
 

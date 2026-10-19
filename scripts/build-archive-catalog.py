@@ -5,6 +5,7 @@ from __future__ import annotations
 import argparse
 from fractions import Fraction
 import hashlib
+import importlib.util
 import json
 import math
 from pathlib import Path
@@ -33,6 +34,17 @@ SUPPORTED_FINAL_DIMENSIONS = {
     "bilibili": {(3840, 2160)},
     "xiaohongshu": {(2160, 3840), (1080, 1920)},
 }
+
+_VISUAL_QC_PATH = (
+    Path(__file__).resolve().parents[1] / "skills" / "dual-platform-video"
+    / "scripts" / "visual_qc.py"
+)
+_VISUAL_QC_SPEC = importlib.util.spec_from_file_location("archive_visual_qc", _VISUAL_QC_PATH)
+if _VISUAL_QC_SPEC is None or _VISUAL_QC_SPEC.loader is None:
+    raise ImportError(f"Cannot load visual QC helper: {_VISUAL_QC_PATH}")
+_VISUAL_QC_MODULE = importlib.util.module_from_spec(_VISUAL_QC_SPEC)
+_VISUAL_QC_SPEC.loader.exec_module(_VISUAL_QC_MODULE)
+validate_visual_qc = _VISUAL_QC_MODULE.validate_visual_qc
 
 
 def _inside(root: Path, path: Path) -> bool:
@@ -304,6 +316,37 @@ def discover(root: Path, excluded_deliveries=()) -> list[dict]:
             final_output_paths, final_output_dimensions = _validate_final_outputs(
                 root, directory, manifest, manifest_path
             )
+            output_hashes = {}
+            expected_frames = manifest.get("total_frames")
+            if "visual_qc" in manifest:
+                fps = manifest.get("fps")
+                if type(fps) is not int or fps not in SUPPORTED_FPS:
+                    raise ValueError(
+                        f"Required visual QC needs a supported integer fps: {manifest_path}"
+                    )
+                frame_count = duration * fps
+                if frame_count.denominator != 1:
+                    raise ValueError(
+                        f"Required visual QC duration must align to an integer frame count: {manifest_path}"
+                    )
+                derived_frames = int(frame_count)
+                if type(expected_frames) is not int or expected_frames != derived_frames:
+                    raise ValueError(
+                        f"Required visual QC total_frames must equal duration_seconds times fps: {manifest_path}"
+                    )
+                expected_frames = derived_frames
+                output_hashes = {
+                    key: file_hash(directory / manifest["outputs"][key]["path"])
+                    for key in ("bilibili", "xiaohongshu")
+                }
+            visual_qc = validate_visual_qc(
+                directory, manifest, output_hashes, expected_frames
+            )
+            if "visual_qc" in manifest and visual_qc["status"] != "PASS":
+                reasons = "; ".join(visual_qc["failures"][:4]) or visual_qc["status"]
+                raise ValueError(
+                    f"Required visual QC is {visual_qc['status']} for {manifest_path}: {reasons}"
+                )
             files = sorted(path for path in directory.rglob("*") if path.is_file()
                            and path.suffix.lower() in MEDIA_SUFFIXES
                            and not any(part.startswith("bundle") or part == "node_modules"

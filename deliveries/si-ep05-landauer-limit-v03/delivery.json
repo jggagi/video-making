@@ -84,7 +84,7 @@
     "browser_report": "review/browser-player-qa.json",
     "human_listening": "pending"
   },
-  "production_status": "validated_archive_pending",
+  "production_status": "technically_validated_and_archived",
   "revision": {
     "based_on": "si-ep05-landauer-limit-v02",
     "reason": "User reported flashing portrait video and requested atmospheric background music",
@@ -92,5 +92,17 @@
     "narration": "reuse exact10 existing cues;no new cloud calls",
     "portrait_repair": "11same-index independentnative4K PNG overlays;CRF15 reencode;AACcopy hash-identical;inputretained",
     "music": "Original deterministic local ambient score with narrative ducking;25framePCMzero preserved"
+  },
+  "archive": {
+    "status": "COMPLETE",
+    "source_commit": "2e75313dc97b412bce3d5f2d0b7493ca5a4158f5",
+    "film_release": "https://github.com/jggagi/video-making/releases/tag/film-si-ep05-landauer-limit-v03-2c74a5edf096",
+    "final_release": "https://github.com/jggagi/video-making/releases/tag/final-si-ep05-landauer-limit-v03-2c74a5edf096",
+    "verification": "review/archive-verification.json",
+    "verification_sha256": "125ef8d2f8a896ab0c9dc0319bc0c08dc019eb3af81c803eddc148ebaa8022ee",
+    "local_final": "review/local-final-verification.json",
+    "restore_probe": "review/final-restore-probe.json",
+    "catalog_sha256": "8aadb0ae818866c09ab4539d96261fa0ebac69a1fdae005c64920195cc6eceea",
+    "final_catalog_sha256": "dfbe69fecfecf0d8dc6fa92b85860b8ea21cabf46da0ff91596fb592e2f1ba26"
   }
 }

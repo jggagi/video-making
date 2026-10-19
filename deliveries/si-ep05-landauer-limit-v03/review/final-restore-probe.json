@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "source_commit": "2e75313dc97b412bce3d5f2d0b7493ca5a4158f5",
+  "catalog_sha256": "dfbe69fecfecf0d8dc6fa92b85860b8ea21cabf46da0ff91596fb592e2f1ba26",
+  "scope": {
+    "work_id": "si-ep05-landauer-limit-v03",
+    "platform": "小红书",
+    "asset_path": "final/si-ep05-landauer-limit-v03/小红书/si-ep05-landauer-limit-v03-xiaohongshu-120s-portrait.mp4",
+    "asset_count": 1
+  },
+  "asset": {
+    "bytes": 202164075,
+    "sha256": "ab2765c6fb0220216ae6418f65df0dcb0a03a7b989780a41cde806ffda4594b9"
+  },
+  "first_restore": "downloaded_and_size_sha256_verified",
+  "repeat_restore": "skipped_verified_existing_file",
+  "repeat_invariants": {
+    "path_unchanged": true,
+    "inode_unchanged": true,
+    "mtime_ns_unchanged": true,
+    "size_sha256_still_match": true
+  },
+  "temporary_tree": "removed"
+}

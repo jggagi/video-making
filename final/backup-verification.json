@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
   "status": "COMPLETE",
-  "verified_at_utc": "2026-10-19T12:07:10.882133+00:00",
+  "verified_at_utc": "2026-10-19T12:58:47.013815+00:00",
   "repository": "jggagi/video-making",
-  "source_commit": "f4f7c7e30f36b4081569ce81f0706c821f91ac73",
+  "source_commit": "2e75313dc97b412bce3d5f2d0b7493ca5a4158f5",
   "catalog_path": "final/backup-catalog.json",
-  "catalog_sha256": "e4ccad80d8ec89e25cdedb2a7b3429582b9f26ff41e15b8f0dca3ac7f6ec46ee",
-  "upload_receipt_sha256": "b342692812431411d5317469013d956608f3e7981b97ca19dce1142d326d4c99",
+  "catalog_sha256": "dfbe69fecfecf0d8dc6fa92b85860b8ea21cabf46da0ff91596fb592e2f1ba26",
+  "upload_receipt_sha256": "3d65c85f5f695d77b6326809705609f6f3f9eba83a4d63b9506d188b519e8eed",
   "verification_method": "Fresh published GitHub Release API inventory plus all local final file hashes; every remote size, SHA-256 digest and URL matched the current catalog.",
-  "verified_releases": 14,
-  "verified_files": 39,
-  "verified_bytes": 6943137816,
+  "verified_releases": 15,
+  "verified_files": 41,
+  "verified_bytes": 7332543003,
   "works": [
     {
       "id": "lanting",
@@ -433,6 +433,36 @@
       ]
     },
     {
+      "id": "si-ep05-landauer-limit-v03",
+      "title": "Final 成片备份 · 兰道尔极限｜稳定画面与氛围音乐 · EP.05 v03",
+      "release_tag": "final-si-ep05-landauer-limit-v03-2c74a5edf096",
+      "release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep05-landauer-limit-v03-2c74a5edf096",
+      "release_target": "2e75313dc97b412bce3d5f2d0b7493ca5a4158f5",
+      "release_draft": false,
+      "assets": [
+        {
+          "path": "final/si-ep05-landauer-limit-v03/B站/si-ep05-landauer-limit-v03-bilibili-120s-4k.mp4",
+          "name": "final--si-ep05-landauer-limit-v03--deliveries--si-ep05-landauer-limit-v03--B---si-ep05-landauer-limit-v03-bilibili-120s-4k--12c642ba64d5.mp4",
+          "bytes": 187241112,
+          "sha256": "12c642ba64d552b3839cf1cf2928d2cbff53a4549851fdf2797c2fc58e0c798a",
+          "github_digest": "sha256:12c642ba64d552b3839cf1cf2928d2cbff53a4549851fdf2797c2fc58e0c798a",
+          "github_asset_id": 656283457,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep05-landauer-limit-v03-2c74a5edf096/final--si-ep05-landauer-limit-v03--deliveries--si-ep05-landauer-limit-v03--B---si-ep05-landauer-limit-v03-bilibili-120s-4k--12c642ba64d5.mp4",
+          "local_and_remote_match": true
+        },
+        {
+          "path": "final/si-ep05-landauer-limit-v03/小红书/si-ep05-landauer-limit-v03-xiaohongshu-120s-portrait.mp4",
+          "name": "final--si-ep05-landauer-limit-v03--deliveries--si-ep05-landauer-limit-v03-----si-ep05-landauer-limit-v03-xiaohongshu-120s-portrait--ab2765c6fb02.mp4",
+          "bytes": 202164075,
+          "sha256": "ab2765c6fb0220216ae6418f65df0dcb0a03a7b989780a41cde806ffda4594b9",
+          "github_digest": "sha256:ab2765c6fb0220216ae6418f65df0dcb0a03a7b989780a41cde806ffda4594b9",
+          "github_asset_id": 656284342,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep05-landauer-limit-v03-2c74a5edf096/final--si-ep05-landauer-limit-v03--deliveries--si-ep05-landauer-limit-v03-----si-ep05-landauer-limit-v03-xiaohongshu-120s-portrait--ab2765c6fb02.mp4",
+          "local_and_remote_match": true
+        }
+      ]
+    },
+    {
       "id": "si-ep06-sovereign-crystal",
       "title": "Final 成片备份 · 主权心印｜THE SOVEREIGN SOUL CRYSTAL · EP.06",
       "release_tag": "final-si-ep06-sovereign-crystal-17a9981f3b94",
@@ -545,18 +575,27 @@
   ],
   "restore_probe": {
     "status": "PASS",
-    "performed_at_utc": "2026-10-19T12:07:37.263980+00:00",
-    "catalog_sha256": "e4ccad80d8ec89e25cdedb2a7b3429582b9f26ff41e15b8f0dca3ac7f6ec46ee",
-    "source_commit": "f4f7c7e30f36b4081569ce81f0706c821f91ac73",
-    "release_tag": "final-si-ep04-self-deceiving-god-bfac5c887fdd",
-    "path": "final/si-ep04-self-deceiving-god/小红书/si-ep04-self-deceiving-god-xiaohongshu-120s-portrait.mp4",
-    "bytes": 268073693,
-    "sha256": "c836ee94b7bc7c030797a639e0975f242740c265eb4fc740f690f4f910a49ed0",
-    "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep04-self-deceiving-god-bfac5c887fdd/final--si-ep04-self-deceiving-god--deliveries--si-ep04-self-deceiving-god-----si-ep04-self-deceiving-god-xiaohongshu-120s-portrait--c836ee94b7bc.mp4",
-    "first_download_completed": true,
-    "restored_path_size_sha256_match": true,
-    "second_run_skipped_verified_file": true,
-    "scope": "One newly added final movie actually downloaded and restored; all other final assets received remote inventory/local hash verification, not full download restore.",
-    "temporary_restore_data_removed": true
+    "evidence": "deliveries/si-ep05-landauer-limit-v03/review/final-restore-probe.json",
+    "scope": {
+      "work_id": "si-ep05-landauer-limit-v03",
+      "platform": "小红书",
+      "asset_path": "final/si-ep05-landauer-limit-v03/小红书/si-ep05-landauer-limit-v03-xiaohongshu-120s-portrait.mp4",
+      "asset_count": 1
+    },
+    "asset": {
+      "bytes": 202164075,
+      "sha256": "ab2765c6fb0220216ae6418f65df0dcb0a03a7b989780a41cde806ffda4594b9"
+    },
+    "first_restore": "downloaded_and_size_sha256_verified",
+    "repeat_restore": "skipped_verified_existing_file",
+    "repeat_invariants": {
+      "path_unchanged": true,
+      "inode_unchanged": true,
+      "mtime_ns_unchanged": true,
+      "size_sha256_still_match": true
+    },
+    "temporary_tree": "removed",
+    "verified_at_utc": "2026-10-19T13:00:07.754609+00:00",
+    "limits": "One new portrait asset downloaded twice (second verified/skip); all41inventory checks are separate."
   }
 }

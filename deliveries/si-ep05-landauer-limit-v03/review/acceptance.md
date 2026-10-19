@@ -1,6 +1,6 @@
 # EP05 v03 acceptance record
 
-**Technical media status: PASS.** Both native 4K editions have been rendered, strictly decoded, checked against the delivery manifest, and measured for shared audio. The archive/catalog and verified backup are pending. Human continuous visual review, listening/pronunciation review, and playback in the actual target phone apps remain separate user-outcome checks; they do not negate the technical media pass or block archival preparation.
+**Technical media status: PASS.** Both native 4K editions have been rendered, strictly decoded, checked against the delivery manifest, and measured for shared audio. The source, archive/catalog, local final library, and verified GitHub final backup are complete. Human continuous visual review, listening/pronunciation review, and playback in the actual target phone apps remain separate user-outcome checks; they do not negate the technical media pass or block archival preparation.
 
 ## Final encoded editions
 
@@ -46,6 +46,12 @@ The source physics implementation and scientific notes remain unchanged from v02
 | Continuous human visual review | Pending | Both complete editions |
 | Human listening and pronunciation review | Pending | Voice, music balance, and spoken wording |
 | Actual target phone-app playback | Pending | Bilibili and Xiaohongshu apps/devices |
-| Archive/catalog and verified backup | Pending | Technical media checks are complete; archive evidence will be added when completed |
+| Archive/catalog and verified backup | COMPLETE | `review/archive-verification.json`; 164 archive assets and 41 final assets verified; one new portrait restored and repeated as a verified skip |
 
 Human and target-device checks remain clearly separate from the completed technical media status.
+
+## Archive closure
+
+Source commit [`2e75313dc97b`](https://github.com/jggagi/video-making/commit/2e75313dc97b412bce3d5f2d0b7493ca5a4158f5) is pushed. [Film Release](https://github.com/jggagi/video-making/releases/tag/film-si-ep05-landauer-limit-v03-2c74a5edf096) contains the two formal movies and four clearly classified production previews; [independent final backup](https://github.com/jggagi/video-making/releases/tag/final-si-ep05-landauer-limit-v03-2c74a5edf096) contains only the two formal movies. All 164 archive assets and all 41 final assets across 15 works/releases matched remote size/SHA-256; the final verification is bound to the current backup-catalog hash.
+
+The new portrait was actually downloaded to an isolated temporary root, size/SHA-256 verified, then restored again as a verified skip with unchanged inode/mtime. The temporary tree was removed. This is a one-file restore probe, not a claim that all 41 files were downloaded. See `review/final-restore-probe.json`, `review/local-final-verification.json` and repository `final/backup-verification.json`. Earlier versions and their original media remain retained.

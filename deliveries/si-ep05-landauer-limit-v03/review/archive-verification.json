@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "status": "COMPLETE",
+  "source_commit": "2e75313dc97b412bce3d5f2d0b7493ca5a4158f5",
+  "repository": "jggagi/video-making",
+  "catalog_sha256": "8aadb0ae818866c09ab4539d96261fa0ebac69a1fdae005c64920195cc6eceea",
+  "film_release_url": "https://github.com/jggagi/video-making/releases/tag/film-si-ep05-landauer-limit-v03-2c74a5edf096",
+  "film_release_id": 417291089,
+  "film_published": true,
+  "film_verified_assets": [
+    {
+      "path": "deliveries/si-ep05-landauer-limit-v03/B站/si-ep05-landauer-limit-v03-bilibili-120s-4k.mp4",
+      "platform": "B站",
+      "bytes": 187241112,
+      "sha256": "12c642ba64d552b3839cf1cf2928d2cbff53a4549851fdf2797c2fc58e0c798a",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep05-landauer-limit-v03-2c74a5edf096/si-ep05-landauer-limit-v03--deliveries--si-ep05-landauer-limit-v03--B---si-ep05-landauer-limit-v03-bilibili-120s-4k--12c642ba64d5.mp4",
+      "github_asset_id": 656278892,
+      "github_digest": "sha256:12c642ba64d552b3839cf1cf2928d2cbff53a4549851fdf2797c2fc58e0c798a"
+    },
+    {
+      "path": "deliveries/si-ep05-landauer-limit-v03/review/iterations/portrait-initial-capture/si-ep05-landauer-limit-v03-xiaohongshu-120s-portrait.mp4",
+      "platform": "预览",
+      "bytes": 168924095,
+      "sha256": "8a8d26cfb9274ce8a9ac3803ea8bf9aedfcdac72f83f4804c41e5f3d926529d5",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep05-landauer-limit-v03-2c74a5edf096/si-ep05-landauer-limit-v03--deliveries--si-ep05-landauer-limit-v03--review--iterations--portrait-initial-capture--si-ep05-landauer-limit-v03-xiaohongshu-120s-portrait--8a8d26cfb927.mp4",
+      "github_asset_id": 656279694,
+      "github_digest": "sha256:8a8d26cfb9274ce8a9ac3803ea8bf9aedfcdac72f83f4804c41e5f3d926529d5"
+    },
+    {
+      "path": "deliveries/si-ep05-landauer-limit-v03/review/native-proof-landscape-870-1019.mp4",
+      "platform": "预览",
+      "bytes": 4173255,
+      "sha256": "5fcc23d0d91bc8b7e8005cd87e352f47ea87e91ba494e1756097479e010a1ed7",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep05-landauer-limit-v03-2c74a5edf096/si-ep05-landauer-limit-v03--deliveries--si-ep05-landauer-limit-v03--review--native-proof-landscape-870-1019--5fcc23d0d91b.mp4",
+      "github_asset_id": 656280554,
+      "github_digest": "sha256:5fcc23d0d91bc8b7e8005cd87e352f47ea87e91ba494e1756097479e010a1ed7"
+    },
+    {
+      "path": "deliveries/si-ep05-landauer-limit-v03/review/native-proof-portrait-870-1019.mp4",
+      "platform": "预览",
+      "bytes": 3729812,
+      "sha256": "e362bef654302548aee002825e7e591d70b2883ca89a52eb585421025c880ec7",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep05-landauer-limit-v03-2c74a5edf096/si-ep05-landauer-limit-v03--deliveries--si-ep05-landauer-limit-v03--review--native-proof-portrait-870-1019--e362bef65430.mp4",
+      "github_asset_id": 656280617,
+      "github_digest": "sha256:e362bef654302548aee002825e7e591d70b2883ca89a52eb585421025c880ec7"
+    },
+    {
+      "path": "deliveries/si-ep05-landauer-limit-v03/review/native-proof-portrait-870-929.mp4",
+      "platform": "预览",
+      "bytes": 2617763,
+      "sha256": "8db76868447c8bb2f70f574b488a1f840e08cdaa22b3ea1157cc1081ec0bb0c2",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep05-landauer-limit-v03-2c74a5edf096/si-ep05-landauer-limit-v03--deliveries--si-ep05-landauer-limit-v03--review--native-proof-portrait-870-929--8db76868447c.mp4",
+      "github_asset_id": 656280761,
+      "github_digest": "sha256:8db76868447c8bb2f70f574b488a1f840e08cdaa22b3ea1157cc1081ec0bb0c2"
+    },
+    {
+      "path": "deliveries/si-ep05-landauer-limit-v03/小红书/si-ep05-landauer-limit-v03-xiaohongshu-120s-portrait.mp4",
+      "platform": "小红书",
+      "bytes": 202164075,
+      "sha256": "ab2765c6fb0220216ae6418f65df0dcb0a03a7b989780a41cde806ffda4594b9",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep05-landauer-limit-v03-2c74a5edf096/si-ep05-landauer-limit-v03--deliveries--si-ep05-landauer-limit-v03-----si-ep05-landauer-limit-v03-xiaohongshu-120s-portrait--ab2765c6fb02.mp4",
+      "github_asset_id": 656280879,
+      "github_digest": "sha256:ab2765c6fb0220216ae6418f65df0dcb0a03a7b989780a41cde806ffda4594b9"
+    }
+  ],
+  "all_archive_assets_verified_by_uploader": 164,
+  "film_receipt_sha256": "bb0d6bef93f00b7ad978176c05ba8cb54ced6c4c6bbfdea7fb6af3c934776a2e",
+  "final_release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep05-landauer-limit-v03-2c74a5edf096",
+  "final_published": true,
+  "final_verified_assets": [
+    {
+      "path": "final/si-ep05-landauer-limit-v03/B站/si-ep05-landauer-limit-v03-bilibili-120s-4k.mp4",
+      "name": "final--si-ep05-landauer-limit-v03--deliveries--si-ep05-landauer-limit-v03--B---si-ep05-landauer-limit-v03-bilibili-120s-4k--12c642ba64d5.mp4",
+      "bytes": 187241112,
+      "sha256": "12c642ba64d552b3839cf1cf2928d2cbff53a4549851fdf2797c2fc58e0c798a",
+      "github_digest": "sha256:12c642ba64d552b3839cf1cf2928d2cbff53a4549851fdf2797c2fc58e0c798a",
+      "github_asset_id": 656283457,
+      "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep05-landauer-limit-v03-2c74a5edf096/final--si-ep05-landauer-limit-v03--deliveries--si-ep05-landauer-limit-v03--B---si-ep05-landauer-limit-v03-bilibili-120s-4k--12c642ba64d5.mp4",
+      "local_and_remote_match": true
+    },
+    {
+      "path": "final/si-ep05-landauer-limit-v03/小红书/si-ep05-landauer-limit-v03-xiaohongshu-120s-portrait.mp4",
+      "name": "final--si-ep05-landauer-limit-v03--deliveries--si-ep05-landauer-limit-v03-----si-ep05-landauer-limit-v03-xiaohongshu-120s-portrait--ab2765c6fb02.mp4",
+      "bytes": 202164075,
+      "sha256": "ab2765c6fb0220216ae6418f65df0dcb0a03a7b989780a41cde806ffda4594b9",
+      "github_digest": "sha256:ab2765c6fb0220216ae6418f65df0dcb0a03a7b989780a41cde806ffda4594b9",
+      "github_asset_id": 656284342,
+      "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep05-landauer-limit-v03-2c74a5edf096/final--si-ep05-landauer-limit-v03--deliveries--si-ep05-landauer-limit-v03-----si-ep05-landauer-limit-v03-xiaohongshu-120s-portrait--ab2765c6fb02.mp4",
+      "local_and_remote_match": true
+    }
+  ],
+  "final_catalog_sha256": "dfbe69fecfecf0d8dc6fa92b85860b8ea21cabf46da0ff91596fb592e2f1ba26",
+  "final_receipt_sha256": "3d65c85f5f695d77b6326809705609f6f3f9eba83a4d63b9506d188b519e8eed",
+  "all_final_assets_verified": 41,
+  "all_final_releases_verified": 15,
+  "final_backup_verification_sha256": "46f35a553ba87cb5c15304f5057dc2ef1c5d78d69616323fb078fe6524802030",
+  "restore_probe_evidence": "review/final-restore-probe.json",
+  "restore_probe_scope": "one new v03 portrait final only;downloadthenverifiedskip",
+  "local_final_evidence": "review/local-final-verification.json",
+  "human_continuous_review": "pending",
+  "human_listening": "pending",
+  "device_playback": "pending",
+  "verified_at_utc": "2026-10-19T13:00:07.755489+00:00"
+}

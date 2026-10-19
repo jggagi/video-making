@@ -1,0 +1,96 @@
+{
+  "platform": "小红书",
+  "status": "PUBLISHED_CONFIRMED",
+  "account_display_name": "余问 QStory",
+  "authorization_summary": "User explicitly requested publishing the completed EP06 v02 to 小红书 via the publishing skill; authorization includes this upload and final publish.",
+  "video_path": "小红书/si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait.mp4",
+  "video_sha256": "1fbe8b12d420772f817fa22e3b06ee6e78388673ea725cf9b408187dc70a9361",
+  "video_size_bytes": 65136600,
+  "duration_seconds": 120,
+  "copy_file": "review/xiaohongshu-post-draft.md",
+  "title": "当算法比你更懂你｜一眼万年终章",
+  "cover_path": "review/xiaohongshu-cover.jpg",
+  "cover_sha256": "c1b471f75de58ecb850983b8a2fb3d0673f23d02168888d5f66919f03b1e24d4",
+  "cover_source_frame": 1500,
+  "cover_crop_xywh": null,
+  "linked_topics": [
+    "自由意志",
+    "超级智能",
+    "神经科学",
+    "数字主权",
+    "科幻美学",
+    "一眼万年"
+  ],
+  "content_declaration": "笔记含AI合成内容",
+  "visibility": "公开可见",
+  "scheduled": false,
+  "scheduled_at": null,
+  "prepared": true,
+  "submission_attempted": true,
+  "attempt_started_at_utc": "2026-10-19T08:05:03.118Z",
+  "final_action_actor": "Codex browser automation",
+  "submission_method": "Visible platform Publish control via supported browser UI",
+  "submission_verified": true,
+  "publication_verified": true,
+  "public_visibility_verified": false,
+  "review_status": "已发布",
+  "checked_at_utc": "2026-10-19T08:10:04.460617+00:00",
+  "platform_display_time": "2026-10-19 16:05",
+  "platform_display_time_timezone": "not stated in page; preserved verbatim",
+  "manager_url": "https://creator.xiaohongshu.com/new/note-manager",
+  "note_id": null,
+  "public_note_url": null,
+  "verification": "After the single Publish click, the editor reset to the upload screen. Creator management total increased from 5 to 6; the selected 已发布 category visibly lists the exact EP06 title, matching title/crystal cover, 02:00 duration and 2026-10-19 16:05. No contrary review or scheduled status was shown for this entry. Public URL and logged-out visibility were not obtained.",
+  "evidence_paths": [
+    "/private/tmp/ep06-v02-xhs-private-9t3fu7i7/pre-submit-cover.png",
+    "/private/tmp/ep06-v02-xhs-private-9t3fu7i7/published-manager.png"
+  ],
+  "blocker": null,
+  "remaining": "No further platform action required for the authorized publish. Public note URL and logged-out visibility remain unverified; no follow-up automation created.",
+  "duplicate_check": {
+    "checked_at_utc": "2026-10-19T07:48:40.159598+00:00",
+    "manager_total_observed": 5,
+    "matching_ep06_note_found": false,
+    "scope": "All five visible management entries checked for matching title/version before upload; no existing EP06 match."
+  },
+  "preparation_history": [
+    {
+      "stage": "video_upload",
+      "status": "completed",
+      "observed_filename": "si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait.mp4",
+      "observed_feedback": "检测为高清视频"
+    }
+  ],
+  "limitations": [
+    "Existing full human listening and target-device QA remain pending; publishing does not retroactively mark these complete."
+  ],
+  "cover_crop_description": "Selected 3:4 in the platform cover editor at 100%; title and crystal visually verified in editor and final feed-card preview; numeric source crop offset not exposed.",
+  "cover_pk_enabled": false,
+  "readback": {
+    "exact_title": true,
+    "body_matches_prepared_copy": true,
+    "linked_topic_markers_observed": 6,
+    "media_preview_duration_seconds": 120,
+    "media_preview_dimensions": [
+      2160,
+      3840
+    ],
+    "media_preview_ready_state": 4,
+    "media_preview_error": null,
+    "cover_quality_feedback": "封面效果评估通过，未发现封面质量问题",
+    "all_three_checkboxes_unchecked": "PK cover off, originality checkbox off, scheduled publishing off",
+    "no_location_people_ads_added": true
+  },
+  "private_evidence_note": "Private browser screenshots are retained outside the repository and must not be added to Git/Release.",
+  "observed_duration": "02:00",
+  "attempt_history": [
+    {
+      "attempt_started_at_utc": "2026-10-19T08:05:03.118Z",
+      "submission_attempted": true,
+      "actor": "Codex browser automation",
+      "method": "Single click on visible Publish control via supported browser UI",
+      "outcome": "PUBLISHED_CONFIRMED",
+      "verified_at_utc": "2026-10-19T08:10:04.460617+00:00"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "platform": "小红书",
+  "media": {
+    "path": "小红书/si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait.mp4",
+    "sha256": "1fbe8b12d420772f817fa22e3b06ee6e78388673ea725cf9b408187dc70a9361",
+    "bytes": 65136600,
+    "width": 2160,
+    "height": 3840,
+    "fps": "60/1",
+    "frames": 7200,
+    "duration_seconds": 120.0,
+    "verified_against": {
+      "report_path": "review/media-validation-20261019T065943.319808Z.json",
+      "report_status": "PASS",
+      "fresh_sha256_matches_report": true,
+      "fresh_bytes_match_report": true,
+      "media_sha256_in_report": "1fbe8b12d420772f817fa22e3b06ee6e78388673ea725cf9b408187dc70a9361",
+      "report_file_sha256": "138ca64621101cc1b80009021339d73ea7c3d022e0e3f71eb14c728b1dd9635f"
+    }
+  },
+  "cover": {
+    "path": "review/xiaohongshu-cover.jpg",
+    "sha256": "c1b471f75de58ecb850983b8a2fb3d0673f23d02168888d5f66919f03b1e24d4",
+    "bytes": 345486,
+    "format": "JPEG",
+    "width": 2160,
+    "height": 3840,
+    "crop": "none; full encoded portrait frame",
+    "source_video_path": "小红书/si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait.mp4",
+    "source_video_sha256": "1fbe8b12d420772f817fa22e3b06ee6e78388673ea725cf9b408187dc70a9361",
+    "source_frame_index_zero_based": 1500,
+    "source_time_seconds": 25.0,
+    "visual_inspection": {
+      "inspected": true,
+      "title_visible": "主权心印",
+      "crystal_visible": true,
+      "platform_crop_decision": "root review"
+    }
+  }
+}

@@ -1,0 +1,361 @@
+{
+  "version": 1,
+  "settings": {
+    "provider": "Aliyun Bailian",
+    "model_selection": "active profile default",
+    "effective_model": "cosyvoice-v3-flash",
+    "voice": "longtian_v3",
+    "rate": 1.0,
+    "format": "wav",
+    "sample_rate": 24000
+  },
+  "authorization": {
+    "manifest": "project/audio-authorization.json",
+    "sha256AtInvocation": "ff8966133d1a6463c3a83d83b74634a535aab54ec64826754024386ea3cfedd9",
+    "scope": "EP08 S01 through S10 current prepared tts_phonetic_text, including the S10 closing qualification",
+    "source": "direct user authorization in current chat, conveyed in Sol task packet"
+  },
+  "segments": {
+    "S03": {
+      "cache_key": "4b5c3f3491663a2a6903d5593399c34f13c97c0f8113e7018c40bb27c5e25e91",
+      "tts_phonetic_text": "当超级智能，接手物质的底层设计，它用一亿次流体模拟，无情地扯下了，这层遮羞布。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 184320,
+      "actual_samples_48k": 368640,
+      "duration_seconds": 7.68,
+      "declared_window_samples": 384000,
+      "fits_declared_window_before_onset_adjustment": true,
+      "pcm_sha256_24k": "606862ed3c5b8e077b853b5b415d597b85e8238ff06be90e7be20031f6f67a5d",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S03-4b5c3f349166.wav",
+      "raw_sha256": "eec6fe7727061aa233e27674c6a077f192891d5b1b1cf3f7e86ea503938cdb9a",
+      "canonical_path": "public/audio/canonical/S03-4b5c3f349166.wav",
+      "canonical_sha256": "e5c5c44f54689037a4de11ea39a74122f88eb7ce5217d06fd67bf7e03908550f",
+      "cue_path": "public/audio/cues/S03-4b5c3f349166.wav",
+      "cue_sha256": "5866cc5161492cca4645ecc1098b308feaac61949a94a22e44b00f4f5187a893",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S01": {
+      "cache_key": "688ffaf63328a9b2892cc9df838355de34aaf43c2e5ac78e78fc8886ac2238ed",
+      "tts_phonetic_text": "人类引以为傲的工业文明，其实是一场，长达千年的直线崇拜。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 122880,
+      "actual_samples_48k": 245760,
+      "duration_seconds": 5.12,
+      "declared_window_samples": 384000,
+      "fits_declared_window_before_onset_adjustment": true,
+      "pcm_sha256_24k": "5c3bb9b28de179b3e24fe00fc16760e44a8cb90a3b35b098e5e2ec169f806455",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S01-688ffaf63328.wav",
+      "raw_sha256": "9a8382130cccf08454920233817cbbbd671f32759f31bb0690cb9b8f9f60bc64",
+      "canonical_path": "public/audio/canonical/S01-688ffaf63328.wav",
+      "canonical_sha256": "6e65d4b2557724f8add30e86ba8955d24d7474fb958588443cb7dbba07f4c353",
+      "cue_path": "public/audio/cues/S01-688ffaf63328.wav",
+      "cue_sha256": "44a4d676c7ae7e720213c54c49e8228b4c86eced3d809e07cc8436f81d4a8028",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S02": {
+      "cache_key": "a2db76dc9297359afedb345a95e21ccf8ab46f85d2480e20f7f9a714c0552593",
+      "tts_phonetic_text": "横平竖直的方格子、对称的齿轮与钢梁，不过是因为人类的大脑，算不出复杂的应力。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 168960,
+      "actual_samples_48k": 337920,
+      "duration_seconds": 7.04,
+      "declared_window_samples": 480000,
+      "fits_declared_window_before_onset_adjustment": true,
+      "pcm_sha256_24k": "5231156113f4f94c9f7c23a254dbfe7b07cd1a7a4d5e5db4d2f502e78e05b158",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S02-a2db76dc9297.wav",
+      "raw_sha256": "bbdcf860d12a4fcb5c4ecdeddb02e73f32248a1fde9784cf05a8c03b6db19238",
+      "canonical_path": "public/audio/canonical/S02-a2db76dc9297.wav",
+      "canonical_sha256": "12ac83d41be7570b16dbee913f63f04758763c677c76cb31f20f4fbbc805cd1a",
+      "cue_path": "public/audio/cues/S02-a2db76dc9297.wav",
+      "cue_sha256": "7277f83fc47981953ad2d62704245d3d5a86e3de889be5751bf55098e5180785",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S04": {
+      "cache_key": "8ecdcf76d6e4fc9378f74af546157ac1c58d8e121832bd65b8f33eb6162dc83e",
+      "tts_phonetic_text": "在它眼里，直线是最奢侈的浪费，对称是无能的妥协。真正的完美，长得像深海的硅藻，与昆虫的外骨骼。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 251520,
+      "actual_samples_48k": 503040,
+      "duration_seconds": 10.48,
+      "declared_window_samples": 528000,
+      "fits_declared_window_before_onset_adjustment": true,
+      "pcm_sha256_24k": "578c03cac78324ef386837654aaa01e5e0b7527c64e4cccf69908e71002b63ec",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S04-8ecdcf76d6e4.wav",
+      "raw_sha256": "43b91a6dbb86aa90247b7c2c8d67ad4401d3c42c074eb01f23d46bf80681d67b",
+      "canonical_path": "public/audio/canonical/S04-8ecdcf76d6e4.wav",
+      "canonical_sha256": "2b6fda64c69f6670b142a7afbbf725ca840fa78be9dc69700361707242e6d1d2",
+      "cue_path": "public/audio/cues/S04-8ecdcf76d6e4.wav",
+      "cue_sha256": "447777ff79bc45cee26215bd365a49743241dbf3d2b72d9a0d44e2c5bd66846f",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S05": {
+      "cache_key": "5d5686dd78ae6b431662ab6a7e3255626a78bbce57e99fdfbc662fd77fbcf9d9",
+      "tts_phonetic_text": "伴随着一亿次有限元分析，的疯狂迭代，原本笨重的金属支架，开始像有生命一样融化、长出孔洞。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 205440,
+      "actual_samples_48k": 410880,
+      "duration_seconds": 8.56,
+      "declared_window_samples": 672000,
+      "fits_declared_window_before_onset_adjustment": true,
+      "pcm_sha256_24k": "13c67b478cb38b2978f5938e42456870a84aa4c2db38962482dd7b4901c15ed7",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S05-5d5686dd78ae.wav",
+      "raw_sha256": "f15efef7c8aa548e7f86ca867725f0cea74e18de8a26c4dbc34931bdc44debfa",
+      "canonical_path": "public/audio/canonical/S05-5d5686dd78ae.wav",
+      "canonical_sha256": "ef67a456abf1b72974ed115e3b9ec0e16804d4d50eb4499daefd35b674f65fa9",
+      "cue_path": "public/audio/cues/S05-5d5686dd78ae.wav",
+      "cue_sha256": "e67ffd1b8b54dd064758fc3a25b6da81a2c4d12adfd30b813787a0970efac73b",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S06": {
+      "cache_key": "a15f73b6d2eeaa386ca8c949d5a9835b4f44504805f0fb74d9eedd1ea9051317",
+      "tts_phonetic_text": "没有一处多余的原子，没有一根无用的线条。它变成了一件，轻十倍、却强百倍的绝美外星造物。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 213120,
+      "actual_samples_48k": 426240,
+      "duration_seconds": 8.88,
+      "declared_window_samples": 624000,
+      "fits_declared_window_before_onset_adjustment": true,
+      "pcm_sha256_24k": "626779e6bd140bc85a4f6fe2c3c0568a7b008641704c3b1ddbe9a901144f8760",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S06-a15f73b6d2ee.wav",
+      "raw_sha256": "f3a354fa2f419abadc694877e45f5f367cf6f89fd7afff108892e346c4895504",
+      "canonical_path": "public/audio/canonical/S06-a15f73b6d2ee.wav",
+      "canonical_sha256": "008a4972e884a6c919270de5706b21988e93439cf43d2ff5becbdce0483d849d",
+      "cue_path": "public/audio/cues/S06-a15f73b6d2ee.wav",
+      "cue_sha256": "d4c5010989b9b740268a87acbdc074a439cb99eb1623efec59581f5261668235",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S07": {
+      "cache_key": "693e56ec7fd146e11242caabb1f63a2d190b88fdba764d0d64b2a337845ef9d0",
+      "tts_phonetic_text": "当人类的对称美学，在绝对的效率面前，被碾得粉碎，我们才突然惊觉：大自然，才是最高级的程序员。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 201600,
+      "actual_samples_48k": 403200,
+      "duration_seconds": 8.4,
+      "declared_window_samples": 672000,
+      "fits_declared_window_before_onset_adjustment": true,
+      "pcm_sha256_24k": "f69dbe0b9fbb263a1f02809e55e0894e8e38b2fb5dae10caa9915b7653bfc4de",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S07-693e56ec7fd1.wav",
+      "raw_sha256": "d22c418185ababf8dc8e3a710215621383d0c10edef9ec60572911fa56380547",
+      "canonical_path": "public/audio/canonical/S07-693e56ec7fd1.wav",
+      "canonical_sha256": "cc9393d0c57c27e74e727b21b82599f0e0964d17471adfb9b595bacd92514992",
+      "cue_path": "public/audio/cues/S07-693e56ec7fd1.wav",
+      "cue_sha256": "00046c3c47f41457979c71fd701c0689079e64b1a1b177f42ecdfbdc3d1df548",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S08": {
+      "cache_key": "b702562a0ef1fa6c1250ced83bc09feb4d6623b6d831fbe2e2bb97407a810503",
+      "tts_phonetic_text": "当神明开始，重塑物理世界的骨骼，人类建构的钢铁森林，瞬间成了过时的积木。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 188160,
+      "actual_samples_48k": 376320,
+      "duration_seconds": 7.84,
+      "declared_window_samples": 672000,
+      "fits_declared_window_before_onset_adjustment": true,
+      "pcm_sha256_24k": "055972c0cad942fce8015a06f48af9931128ab7fa68ca2648bf7206041a0b9b1",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S08-b702562a0ef1.wav",
+      "raw_sha256": "4f2e99de5756a21ffade6155203d4b7023e14f7c8369a007d6011d550cf4f83d",
+      "canonical_path": "public/audio/canonical/S08-b702562a0ef1.wav",
+      "canonical_sha256": "86f9240cd0042628d9c81ec81e2bee2c5a0e83e71cfc70d06eaa716e31cef1b7",
+      "cue_path": "public/audio/cues/S08-b702562a0ef1.wav",
+      "cue_sha256": "98d16012bebc54398d0851481031f206837068dfcceaa44098da427bfb3b27b8",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S09": {
+      "cache_key": "b953a5b84e005062a14ce542ca5103c743c468f88b23884964a55890bedd5cb5",
+      "tts_phonetic_text": "下一次观测，零秒华尔街。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 61440,
+      "actual_samples_48k": 122880,
+      "duration_seconds": 2.56,
+      "declared_window_samples": 240000,
+      "fits_declared_window_before_onset_adjustment": true,
+      "pcm_sha256_24k": "003f77cd8bf9938609d97134134acad794846ac2b5a83ff10a44f80a261fdbf9",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S09-b953a5b84e00.wav",
+      "raw_sha256": "7c73bbd061bc2245ac488e44d2bd11432173fec7123ac150f1e9f888766ad2e8",
+      "canonical_path": "public/audio/canonical/S09-b953a5b84e00.wav",
+      "canonical_sha256": "de4ec044ef93119c66770b62d6a0296418ac175e1fc46df11fe02fb6293a940e",
+      "cue_path": "public/audio/cues/S09-b953a5b84e00.wav",
+      "cue_sha256": "698de707c2f262769fbfa46e1cef231e71509e3dc1e94d2c12c44ed66b4c65c1",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S10": {
+      "cache_key": "eaed1d2ceed65eade5dafadf0d3926677adeff6bf176ade159903dec886424d0",
+      "tts_phonetic_text": "片中数字，为科幻设定。真实优化，仍受载荷、材料，与制造约束。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 161280,
+      "actual_samples_48k": 322560,
+      "duration_seconds": 6.72,
+      "declared_window_samples": 464000,
+      "fits_declared_window_before_onset_adjustment": true,
+      "pcm_sha256_24k": "4ca6f5e6683dd25c48dc30873fef6d1db9960730461ebe90b4ddd587e72849ba",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S10-eaed1d2ceed6.wav",
+      "raw_sha256": "7813b2b9c098d233101f643dd28fdae8e497753997fcfbd25f95bb639620fe91",
+      "canonical_path": "public/audio/canonical/S10-eaed1d2ceed6.wav",
+      "canonical_sha256": "e9bc2d2bcc383aa22cc56dd1ff0d8c87ffb35d1145cdc889c1e031f286170270",
+      "cue_path": "public/audio/cues/S10-eaed1d2ceed6.wav",
+      "cue_sha256": "23e5d51cb9b334258641e968943bb6f129dcc8534b6c052abbac961b611c99df",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    }
+  },
+  "cacheHistory": []
+}

@@ -1,0 +1,488 @@
+{
+  "status": "PASS",
+  "method": "Decode AAC to 48 kHz stereo PCM16 and compare the declared measured voice spans and authored audible SFX windows at their exact sample offsets. No offset search or correlation-based alignment is performed.",
+  "thresholds": {
+    "pearson_zero_offset_minimum": 0.98,
+    "absolute_rms_gain_db_maximum": 0.5
+  },
+  "master": {
+    "path": "project/public/audio/master.wav",
+    "sample_rate": 48000,
+    "channels": 2,
+    "sample_width_bytes": 2,
+    "samples_per_channel": 5760000,
+    "compression": "NONE",
+    "sha256": "c8f5d0914e0b8ec621d6fbcd23114887b342dde1e5da9327eeff9cac3610735d"
+  },
+  "inputs": {
+    "delivery_json_sha256": "208aab1cb7edf9cfb8f41639e58ad19d97c9fb4f24a2f74eedcf107fee9df3ad",
+    "audio_timing_json_sha256": "85203e444e52d4d6caf48bfab4d20636f258bcae2ba1be3dd38b5b0ce6e106fc"
+  },
+  "tracks": [
+    {
+      "layout": "portrait",
+      "path": "小红书/si-ep08-folded-matter-xiaohongshu-120s-portrait.mp4",
+      "sha256": "a8741af493dce5a1ee1b3cc85cc3b7ccc7c7b1903fd84eff4cb9a8dae8105759",
+      "decoded_samples_per_channel": 5760000,
+      "codec_padding_after_master_samples": 0,
+      "audio_stream": {
+        "codec_name": "aac",
+        "sample_rate": "48000",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "duration": "120.000000",
+        "nb_frames": "5626"
+      },
+      "audio_stream_checks": {
+        "aac": true,
+        "48khz": true,
+        "stereo": true
+      },
+      "windows": [
+        {
+          "kind": "voice",
+          "id": "S01",
+          "start_sample": 96000,
+          "end_sample_exclusive": 324004,
+          "status": "PASS",
+          "channels": [
+            {
+              "channel": "left",
+              "pearson_zero_offset": 0.9999615739510268,
+              "rms_gain_db": -0.014984764622677194,
+              "correlation_pass": true,
+              "gain_pass": true
+            },
+            {
+              "channel": "right",
+              "pearson_zero_offset": 0.9999611164666499,
+              "rms_gain_db": -0.015446233427395303,
+              "correlation_pass": true,
+              "gain_pass": true
+            }
+          ]
+        },
+        {
+          "kind": "voice",
+          "id": "S02",
+          "start_sample": 528000,
+          "end_sample_exclusive": 844473,
+          "status": "PASS",
+          "channels": [
+            {
+              "channel": "left",
+              "pearson_zero_offset": 0.9999609653581429,
+              "rms_gain_db": -0.011480327817572206,
+              "correlation_pass": true,
+              "gain_pass": true
+            },
+            {
+              "channel": "right",
+              "pearson_zero_offset": 0.9999639927527448,
+              "rms_gain_db": -0.010474593339114872,
+              "correlation_pass": true,
+              "gain_pass": true
+            }
+          ]
+        },
+        {
+          "kind": "voice",
+          "id": "S03",
+          "start_sample": 1056000,
+          "end_sample_exclusive": 1402261,
+          "status": "PASS",
+          "channels": [
+            {
+              "channel": "left",
+              "pearson_zero_offset": 0.9999444752070574,
+              "rms_gain_db": -0.010551301587653363,
+              "correlation_pass": true,
+              "gain_pass": true
+            },
+            {
+              "channel": "right",
+              "pearson_zero_offset": 0.9999303312691464,
+              "rms_gain_db": -0.011626794339321303,
+              "correlation_pass": true,
+              "gain_pass": true
+            }
+          ]
+        },
+        {
+          "kind": "voice",
+          "id": "S04",
+          "start_sample": 1488000,
+          "end_sample_exclusive": 1972459,
+          "status": "PASS",
+          "channels": [
+            {
+              "channel": "left",
+              "pearson_zero_offset": 0.9999720396715026,
+              "rms_gain_db": -0.00923117649884745,
+              "correlation_pass": true,
+              "gain_pass": true
+            },
+            {
+              "channel": "right",
+              "pearson_zero_offset": 0.999972280227395,
+              "rms_gain_db": -0.008226764713738077,
+              "correlation_pass": true,
+              "gain_pass": true
+            }
+          ]
+        },
+        {
+          "kind": "voice",
+          "id": "S05",
+          "start_sample": 2064000,
+          "end_sample_exclusive": 2453980,
+          "status": "PASS",
+          "channels": [
+            {
+              "channel": "left",
+              "pearson_zero_offset": 0.9999686617625126,
+              "rms_gain_db": -0.010558526757111098,
+              "correlation_pass": true,
+              "gain_pass": true
+            },
+            {
+              "channel": "right",
+              "pearson_zero_offset": 0.9999691653058445,
+              "rms_gain_db": -0.009746837153912077,
+              "correlation_pass": true,
+              "gain_pass": true
+            }
+          ]
+        },
+        {
+          "kind": "voice",
+          "id": "S06",
+          "start_sample": 2880000,
+          "end_sample_exclusive": 3290555,
+          "status": "PASS",
+          "channels": [
+            {
+              "channel": "left",
+              "pearson_zero_offset": 0.9999513442119112,
+              "rms_gain_db": -0.012371447277634378,
+              "correlation_pass": true,
+              "gain_pass": true
+            },
+            {
+              "channel": "right",
+              "pearson_zero_offset": 0.9999518222593234,
+              "rms_gain_db": -0.010436830161801322,
+              "correlation_pass": true,
+              "gain_pass": true
+            }
+          ]
+        },
+        {
+          "kind": "voice",
+          "id": "S07",
+          "start_sample": 3552000,
+          "end_sample_exclusive": 3934328,
+          "status": "PASS",
+          "channels": [
+            {
+              "channel": "left",
+              "pearson_zero_offset": 0.9999723713192297,
+              "rms_gain_db": -0.009346185521683342,
+              "correlation_pass": true,
+              "gain_pass": true
+            },
+            {
+              "channel": "right",
+              "pearson_zero_offset": 0.9999738448065266,
+              "rms_gain_db": -0.005540743896156954,
+              "correlation_pass": true,
+              "gain_pass": true
+            }
+          ]
+        },
+        {
+          "kind": "voice",
+          "id": "S08",
+          "start_sample": 4320000,
+          "end_sample_exclusive": 4679148,
+          "status": "PASS",
+          "channels": [
+            {
+              "channel": "left",
+              "pearson_zero_offset": 0.9999592989023071,
+              "rms_gain_db": -0.013572292771293924,
+              "correlation_pass": true,
+              "gain_pass": true
+            },
+            {
+              "channel": "right",
+              "pearson_zero_offset": 0.9999578275823161,
+              "rms_gain_db": -0.01450220853738645,
+              "correlation_pass": true,
+              "gain_pass": true
+            }
+          ]
+        },
+        {
+          "kind": "voice",
+          "id": "S09",
+          "start_sample": 5040000,
+          "end_sample_exclusive": 5141983,
+          "status": "PASS",
+          "channels": [
+            {
+              "channel": "left",
+              "pearson_zero_offset": 0.9999483705462182,
+              "rms_gain_db": -0.01696358608639866,
+              "correlation_pass": true,
+              "gain_pass": true
+            },
+            {
+              "channel": "right",
+              "pearson_zero_offset": 0.9999475145449229,
+              "rms_gain_db": -0.015493738697292873,
+              "correlation_pass": true,
+              "gain_pass": true
+            }
+          ]
+        },
+        {
+          "kind": "voice",
+          "id": "S10",
+          "start_sample": 5280000,
+          "end_sample_exclusive": 5581438,
+          "status": "PASS",
+          "channels": [
+            {
+              "channel": "left",
+              "pearson_zero_offset": 0.9999664509057087,
+              "rms_gain_db": -0.012195234939793366,
+              "correlation_pass": true,
+              "gain_pass": true
+            },
+            {
+              "channel": "right",
+              "pearson_zero_offset": 0.9999661008204812,
+              "rms_gain_db": -0.011640530990044005,
+              "correlation_pass": true,
+              "gain_pass": true
+            }
+          ]
+        },
+        {
+          "kind": "sfx",
+          "id": "grid_snap",
+          "start_sample": 96000,
+          "end_sample_exclusive": 125760,
+          "status": "PASS",
+          "channels": [
+            {
+              "channel": "left",
+              "pearson_zero_offset": 0.9999538123129262,
+              "rms_gain_db": -0.01741764953146249,
+              "correlation_pass": true,
+              "gain_pass": true
+            },
+            {
+              "channel": "right",
+              "pearson_zero_offset": 0.9999520871857898,
+              "rms_gain_db": -0.018372831039690875,
+              "correlation_pass": true,
+              "gain_pass": true
+            }
+          ]
+        },
+        {
+          "kind": "sfx",
+          "id": "stamp",
+          "start_sample": 720000,
+          "end_sample_exclusive": 747840,
+          "status": "PASS",
+          "channels": [
+            {
+              "channel": "left",
+              "pearson_zero_offset": 0.9999409458691617,
+              "rms_gain_db": -0.013651513008803623,
+              "correlation_pass": true,
+              "gain_pass": true
+            },
+            {
+              "channel": "right",
+              "pearson_zero_offset": 0.9999508065437771,
+              "rms_gain_db": -0.009772770318621506,
+              "correlation_pass": true,
+              "gain_pass": true
+            }
+          ]
+        },
+        {
+          "kind": "sfx",
+          "id": "sub_sweep",
+          "start_sample": 1080000,
+          "end_sample_exclusive": 1161600,
+          "status": "PASS",
+          "channels": [
+            {
+              "channel": "left",
+              "pearson_zero_offset": 0.9999312703727581,
+              "rms_gain_db": -0.01135079210953692,
+              "correlation_pass": true,
+              "gain_pass": true
+            },
+            {
+              "channel": "right",
+              "pearson_zero_offset": 0.9999102703742917,
+              "rms_gain_db": -0.01291433127759997,
+              "correlation_pass": true,
+              "gain_pass": true
+            }
+          ]
+        },
+        {
+          "kind": "sfx",
+          "id": "growth",
+          "start_sample": 1680000,
+          "end_sample_exclusive": 1804800,
+          "status": "PASS",
+          "channels": [
+            {
+              "channel": "left",
+              "pearson_zero_offset": 0.9999811735873604,
+              "rms_gain_db": -0.006459531335780432,
+              "correlation_pass": true,
+              "gain_pass": true
+            },
+            {
+              "channel": "right",
+              "pearson_zero_offset": 0.9999835541029095,
+              "rms_gain_db": -0.004187830208132305,
+              "correlation_pass": true,
+              "gain_pass": true
+            }
+          ]
+        },
+        {
+          "kind": "sfx",
+          "id": "stress_sing",
+          "start_sample": 2208000,
+          "end_sample_exclusive": 2292000,
+          "status": "PASS",
+          "channels": [
+            {
+              "channel": "left",
+              "pearson_zero_offset": 0.9999864033729957,
+              "rms_gain_db": -0.007113866689815083,
+              "correlation_pass": true,
+              "gain_pass": true
+            },
+            {
+              "channel": "right",
+              "pearson_zero_offset": 0.9999892304768463,
+              "rms_gain_db": -0.004740317986779715,
+              "correlation_pass": true,
+              "gain_pass": true
+            }
+          ]
+        },
+        {
+          "kind": "sfx",
+          "id": "gold_lock",
+          "start_sample": 3120000,
+          "end_sample_exclusive": 3166080,
+          "status": "PASS",
+          "channels": [
+            {
+              "channel": "left",
+              "pearson_zero_offset": 0.9999817068351777,
+              "rms_gain_db": -0.011011813995590695,
+              "correlation_pass": true,
+              "gain_pass": true
+            },
+            {
+              "channel": "right",
+              "pearson_zero_offset": 0.9999790163996879,
+              "rms_gain_db": -0.0020413945594157873,
+              "correlation_pass": true,
+              "gain_pass": true
+            }
+          ]
+        },
+        {
+          "kind": "sfx",
+          "id": "chord",
+          "start_sample": 3744000,
+          "end_sample_exclusive": 4041600,
+          "status": "PASS",
+          "channels": [
+            {
+              "channel": "left",
+              "pearson_zero_offset": 0.9999749644209306,
+              "rms_gain_db": -0.007932285369275685,
+              "correlation_pass": true,
+              "gain_pass": true
+            },
+            {
+              "channel": "right",
+              "pearson_zero_offset": 0.9999817269638028,
+              "rms_gain_db": -0.004125658189582619,
+              "correlation_pass": true,
+              "gain_pass": true
+            }
+          ]
+        },
+        {
+          "kind": "sfx",
+          "id": "titanium_drop",
+          "start_sample": 4728000,
+          "end_sample_exclusive": 4819200,
+          "status": "PASS",
+          "channels": [
+            {
+              "channel": "left",
+              "pearson_zero_offset": 0.999996795758584,
+              "rms_gain_db": -0.00277938511349323,
+              "correlation_pass": true,
+              "gain_pass": true
+            },
+            {
+              "channel": "right",
+              "pearson_zero_offset": 0.9999962701291196,
+              "rms_gain_db": -0.0021977193476121174,
+              "correlation_pass": true,
+              "gain_pass": true
+            }
+          ]
+        },
+        {
+          "kind": "sfx",
+          "id": "ticker",
+          "start_sample": 5184000,
+          "end_sample_exclusive": 5337600,
+          "status": "PASS",
+          "channels": [
+            {
+              "channel": "left",
+              "pearson_zero_offset": 0.999963656724726,
+              "rms_gain_db": -0.01661786616741262,
+              "correlation_pass": true,
+              "gain_pass": true
+            },
+            {
+              "channel": "right",
+              "pearson_zero_offset": 0.9999624432443723,
+              "rms_gain_db": -0.015140068545323642,
+              "correlation_pass": true,
+              "gain_pass": true
+            }
+          ]
+        }
+      ],
+      "status": "PASS"
+    }
+  ],
+  "limitations": [
+    "AAC similarity is not perceptual or human listening acceptance.",
+    "No time-shift search is used; a failed zero-offset window requires investigation.",
+    "Codec padding is recorded and omitted only from source-length comparison; media and master are unchanged."
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "scope": "source stills only; final encoded evidence pending",
+  "checks": {
+    "portraitSafeCanvas": {
+      "logicalSize": [
+        1080,
+        1920
+      ],
+      "criticalBounds": [
+        64,
+        173,
+        910,
+        1495
+      ],
+      "allowedBounds": [
+        0,
+        153.6,
+        928.8,
+        1497.6
+      ],
+      "subtitleFontMobilePx": 14.333333333333334,
+      "maxLines": 2,
+      "maxCharsPerLine": 14
+    },
+    "hudTopBand": [
+      173,
+      288
+    ],
+    "renderedSourceFrames": [
+      360,
+      2700,
+      3900,
+      4500,
+      4800,
+      5910,
+      6500
+    ]
+  },
+  "observations": [
+    "First camera comparison was edge-on and undersized; refined to stable frontal sway, stacked portrait compare.",
+    "Initial bone lattice looked too rectilinear; refined to curved irregular branches, cyan erosion phase.",
+    "EP09 nodes now below title rather than underneath it.",
+    "Landscape chapter heading was wrapping one last Chinese character; reduced to 76 logical px with 3px tracking."
+  ],
+  "sourceSHA256": {
+    "project/src/World.tsx": "78ff54e5bb4dcb4cb4007489788dfc117de4292e99128ecba9c3191a9240e6e5",
+    "project/src/Root.tsx": "02b99733a86d03b39236fe6362102ff72b9fd063d4964beabe6fa6237522d481",
+    "project/src/Sculpture.tsx": "9d440950ca6d7ae8b15623036f9c39d5d697149dcd9260370dbefc5cf78850a5",
+    "project/src/Film.tsx": "0522267f720493dc3e2a9bec1d970edd01ee4d3bd617b3b9d296c6c032486f85",
+    "project/src/index.ts": "2e0e358282a1b998a65387c653b97c2bb2eb7aae94cf200fc0b8d919f7be73a6"
+  },
+  "humanContinuousWatch": "NOT_RUN",
+  "humanListening": "NOT_RUN",
+  "actualDevice": "NOT_RUN"
+}

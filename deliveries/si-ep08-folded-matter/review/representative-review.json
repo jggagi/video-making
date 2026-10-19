@@ -1,0 +1,66 @@
+{
+  "scope": "native source-rendered representative clips, with actual shared audio; final encoded full-film QA still pending",
+  "capture": {
+    "native": true,
+    "intermediate": "png",
+    "concurrency": 2,
+    "browser": "Google Chrome155.0.8059.84",
+    "font": "local PingFang SC"
+  },
+  "clips": [
+    {
+      "path": "review/preview-motion-landscape-120-299.mp4",
+      "sha256": "999154798a5ea84d8cff0513424834714b9708a57cef5cd1819db5fe4d9deba7"
+    },
+    {
+      "path": "review/preview-motion-landscape-2700-2879.mp4",
+      "sha256": "f4c02f06503345e04ae61c092474a71137b36a7156a4b43ffeb9666910526e8c"
+    },
+    {
+      "path": "review/preview-motion-landscape-4620-4799.mp4",
+      "sha256": "5b01ae240c7323cd5d1001b33f8983dff84782751371989583deb72129bedd4c"
+    },
+    {
+      "path": "review/preview-motion-landscape-5820-5999.mp4",
+      "sha256": "a622cec8093f12972e24c15923bebf17ffbca59539e6195c48d9690b1c25651b"
+    },
+    {
+      "path": "review/preview-motion-landscape-6960-7139.mp4",
+      "sha256": "20da6ff8691c869da892b9c27b4f7705819ff17b9c91ad6e5c9ec73bad423379"
+    },
+    {
+      "path": "review/preview-motion-portrait-120-299.mp4",
+      "sha256": "146b69374f5a18e8880cb805df903f1b30917b2ec4c3a659df5482044f00deff"
+    },
+    {
+      "path": "review/preview-motion-portrait-2700-2879.mp4",
+      "sha256": "8a9ae0595e70a1b928fe03a80048f2377d89eebf1333b2c05ecdee70cb29f253"
+    },
+    {
+      "path": "review/preview-motion-portrait-4620-4799.mp4",
+      "sha256": "b368ead1cb339e7e1cf80797120e96481e8e4b88c809efc1cd492bff12a4ce54"
+    },
+    {
+      "path": "review/preview-motion-portrait-5820-5999.mp4",
+      "sha256": "a3474f9983441f330fd7ce3bd9ed38d26ccea0dc927149fedb005c5427accb64"
+    },
+    {
+      "path": "review/preview-motion-portrait-6960-7139.mp4",
+      "sha256": "7766cf341a8f5d959919d2cff8985a5228753dd694aa8cda2a09c06d2f4bea25"
+    }
+  ],
+  "observations": [
+    "Rigid frame and red corner stresses visually clear.",
+    "Cyan topology paths visible through eroding amber support.",
+    "Portrait comparison stacked and facing camera; labels remain separated.",
+    "98-second quote and skyline fit above subtitle and below HUD.",
+    "EP09 title does not overlap the two transmitting nodes.",
+    "Natural caption reflow in caption-layout.json fixes a word split found in initial preview; PCM is unchanged."
+  ],
+  "humanContinuousPlayback": "NOT_RUN",
+  "humanListening": "NOT_RUN",
+  "actualAppDevice": "NOT_RUN",
+  "audienceFeedback": "NOT_RUN",
+  "currentCaptionLayoutSHA256": "bdfc7da623bb9071c10f8e0b581eaaf92c1104db42383a5809dcf1dd415c0d7b",
+  "note": "Five native clips per layout plus a refreshed portrait opening. Earlier portrait clips preserve initial phrase layout; final captions use the natural reflow manifest. No human listening claim."
+}

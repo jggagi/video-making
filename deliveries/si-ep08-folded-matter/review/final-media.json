@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "outputs": {
+    "bilibili": {
+      "path": "B站/si-ep08-folded-matter-bilibili-120s-4k.mp4",
+      "sha256": "2d408725eb215602f6bedfc78200037371320eb067e2a6adedcd2740a1bc0cea",
+      "bytes": 159834859,
+      "visualReport": "review/visual-qc-bilibili-r03/report.json"
+    },
+    "xiaohongshu": {
+      "path": "小红书/si-ep08-folded-matter-xiaohongshu-120s-portrait.mp4",
+      "sha256": "65c2f5d25ec86e72fbaedf4b619e8eb7c4d82c760c1c8ed829a7736650a1ff88",
+      "bytes": 169658525,
+      "visualReport": "review/visual-qc-xiaohongshu-r05/report.json"
+    }
+  },
+  "masterSHA256": "c8f5d0914e0b8ec621d6fbcd23114887b342dde1e5da9327eeff9cac3610735d",
+  "currentStage": "Strict decode, required full-stream visual screens, final audio measurements and model encoded-frame observations complete.",
+  "status": "LOCAL_TECHNICAL_COMPLETE_PENDING_ARCHIVE",
+  "validationReport": "review/media-validation-20261019T175433.551609Z.json",
+  "correlationReport": "review/shared-audio-correlation-r04.json",
+  "finalManifestSHA256": "81f58e5f3c417baa92b3250c239fe3e27e77ba40b1559ab0d09af7c603c91f05",
+  "humanViewingListeningDevice": "NOT_RUN"
+}

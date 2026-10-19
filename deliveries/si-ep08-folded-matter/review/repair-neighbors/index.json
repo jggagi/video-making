@@ -1,0 +1,45 @@
+{
+  "mediaSHA256": "ceecdeabc7deb68ff9862cdc313970138f46447295e8a7e4b9fbad5dd8fbaa1d",
+  "exactDecodedIndices": [
+    1407,
+    1408,
+    1409,
+    6056,
+    6057,
+    6058
+  ],
+  "method": "FFmpeg select n from file start; no input seek",
+  "files": [
+    {
+      "path": "review/repair-neighbors/neighbor-01.jpg",
+      "sha256": "3a12745d4463b5576ed5a55feb2a1672d9edd3520df89bbb95d649e793bd3186"
+    },
+    {
+      "path": "review/repair-neighbors/neighbor-02.jpg",
+      "sha256": "327876039cbbbb06e33bed9cd4659fbd5d72b9780cce9a7404f9ffbd3db0c678"
+    },
+    {
+      "path": "review/repair-neighbors/neighbor-03.jpg",
+      "sha256": "14bab699ec035a2bcecb671575ee5fe83e19e53ff30812c3e04845a791132c37"
+    },
+    {
+      "path": "review/repair-neighbors/neighbor-04.jpg",
+      "sha256": "cad9714cff54d1636ca928b3b1688b1a1081199bc3f12166fe89b15babb52d3d"
+    },
+    {
+      "path": "review/repair-neighbors/neighbor-05.jpg",
+      "sha256": "91943f0d8ab30727779b92dd012aba4c68bbd79887088d0973bbd12eb77c5064"
+    },
+    {
+      "path": "review/repair-neighbors/neighbor-06.jpg",
+      "sha256": "4c669c8bfe8a72e44b2124f16f4ddd267a094d7b484c57c59ea6da43c4fbe12c"
+    }
+  ],
+  "audioOnlyRemuxBinding": {
+    "report": "review/final-audio-remux-portrait.json",
+    "sha256": "bab8d3fe39f29476ebeb54772d9ae3f43c6a3a6b7133383602bfdcc14f58d223",
+    "finalMediaSHA256": "a8741af493dce5a1ee1b3cc85cc3b7ccc7c7b1903fd84eff4cb9a8dae8105759",
+    "videoPayloadIdentical": true,
+    "note": "Evidence images precede audio-only remux; video payload is byte-identical."
+  }
+}

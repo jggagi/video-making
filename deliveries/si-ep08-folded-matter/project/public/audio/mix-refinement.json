@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "status": "refined",
+  "preservedV1": {
+    "directory": "project/public/audio/mix-v01",
+    "filesSha256": {
+      "narration.wav": "f7fb843f9d733b95d1c4967aa477e7a80cc6e3df3959518454137cea4c40f638",
+      "score.wav": "6b04fb53956d0847d60280e935981dc500b0df13f407200c1a27016764b0c223",
+      "sfx.wav": "1a953a6d1fb2d65a066ad063e7f57a0caae9c3092287c4da63f474368f2bf1c8",
+      "master.wav": "bad8f73ca3baef5b1dfa890b77adcaab850e580137e12cd8b837adddc2a4c3ba",
+      "mix-settings.json": "220400e6281611f8ead6a7e1ca3c6328e51c62a943cb47923b21b30856278a40",
+      "mix-manifest.json": "ca9276d025aa32c6723354cb170e76ebef412f1ec6a14f71c7a3e7d49a10b120",
+      "provider-manifest.json": "ca12e77f8d0ce648c973672d335429766eebdc2d25cc27e878dbb2443dcf7e92"
+    }
+  },
+  "before": {
+    "sha256": {
+      "narration": "f7fb843f9d733b95d1c4967aa477e7a80cc6e3df3959518454137cea4c40f638",
+      "score": "6b04fb53956d0847d60280e935981dc500b0df13f407200c1a27016764b0c223",
+      "sfx": "1a953a6d1fb2d65a066ad063e7f57a0caae9c3092287c4da63f474368f2bf1c8",
+      "master": "bad8f73ca3baef5b1dfa890b77adcaab850e580137e12cd8b837adddc2a4c3ba"
+    },
+    "levels": {
+      "integratedLUFS": -17.0,
+      "truePeakDBTP": -1.8
+    }
+  },
+  "after": {
+    "sha256": {
+      "narration": "f7fb843f9d733b95d1c4967aa477e7a80cc6e3df3959518454137cea4c40f638",
+      "score": "8b428383d82f2f5fab8550c64c999875e58e733c3ddd2f345790782e7c70e488",
+      "sfx": "7fa9be1f0f6900f1bdbaca729bf11ef7e9e69ce5e0fad86101188eeb8b09bae7",
+      "master": "c8f5d0914e0b8ec621d6fbcd23114887b342dde1e5da9327eeff9cac3610735d"
+    },
+    "levels": {
+      "integratedLUFS": -17.0,
+      "truePeakDBTP": -1.8
+    },
+    "masterSamplesPerChannel": 5760000,
+    "masterSampleRate": 48000,
+    "channels": 2,
+    "absoluteSilence": {
+      "startSample": 4704000,
+      "endSampleExclusive": 4728000,
+      "allStemsExactZero": true
+    },
+    "endpointSamplePeakPcm16": 0,
+    "canonicalMetadataSha256": {
+      "mix-settings.json": "87216844bbe9d9603c426f01f5c3fbd823133bc16aa5b9f94b41b370284a4822",
+      "mix-manifest.json": "66b99d5d7775db86c8574304bedb2cd4bb94b8158d053e178e8288578f15fb16"
+    }
+  },
+  "dsp": {
+    "baseMix": "mix-v01",
+    "scoreDucking": {
+      "sourceScoreSha256": "6b04fb53956d0847d60280e935981dc500b0df13f407200c1a27016764b0c223",
+      "duckGainDb": -6.0,
+      "duckGainLinear": 0.5011872336272722,
+      "voiceSpanCount": 10,
+      "voiceTimingSource": "project/audio-timing.json measured voiceStartSample/voiceEndSampleExclusive",
+      "preattackMilliseconds": 60,
+      "releaseMilliseconds": 350,
+      "envelope": "smoothstep; -6 dB over active measured speech span",
+      "scoreFadeInMilliseconds": 50,
+      "scoreFadeOut": {
+        "startSeconds": 118.5,
+        "endSeconds": 120.0,
+        "lastFrameExactZero": true
+      }
+    },
+    "sfxEqualizer": {
+      "sourceSfxSha256": "1a953a6d1fb2d65a066ad063e7f57a0caae9c3092287c4da63f474368f2bf1c8",
+      "filter": "equalizer=f=1400:t=q:w=0.7:g=-9,equalizer=f=2800:t=q:w=0.7:g=-9",
+      "frequencyReductions": [
+        {
+          "frequencyHz": 1400,
+          "widthType": "q",
+          "q": 0.7,
+          "gainDb": -9
+        },
+        {
+          "frequencyHz": 2800,
+          "widthType": "q",
+          "q": 0.7,
+          "gainDb": -9
+        }
+      ],
+      "sampleTimeline": "same sample rate and sample count; no delay, trim, or resampling"
+    },
+    "masterEndpointFade": {
+      "startSeconds": 118.5,
+      "endSeconds": 120.0,
+      "lastSampleExactZero": true
+    },
+    "sourceHashes": {
+      "segmentsJson": "24277b4e3581236f531636c49dc7f3363685d9949023c0c63dda956346c088df",
+      "providerManifest": "ca12e77f8d0ce648c973672d335429766eebdc2d25cc27e878dbb2443dcf7e92",
+      "audioTiming": "85203e444e52d4d6caf48bfab4d20636f258bcae2ba1be3dd38b5b0ce6e106fc",
+      "narrationSha256": "f7fb843f9d733b95d1c4967aa477e7a80cc6e3df3959518454137cea4c40f638",
+      "cueWavs": [
+        {
+          "id": "S01",
+          "sha256": "44a4d676c7ae7e720213c54c49e8228b4c86eced3d809e07cc8436f81d4a8028"
+        },
+        {
+          "id": "S02",
+          "sha256": "7277f83fc47981953ad2d62704245d3d5a86e3de889be5751bf55098e5180785"
+        },
+        {
+          "id": "S03",
+          "sha256": "5866cc5161492cca4645ecc1098b308feaac61949a94a22e44b00f4f5187a893"
+        },
+        {
+          "id": "S04",
+          "sha256": "447777ff79bc45cee26215bd365a49743241dbf3d2b72d9a0d44e2c5bd66846f"
+        },
+        {
+          "id": "S05",
+          "sha256": "e67ffd1b8b54dd064758fc3a25b6da81a2c4d12adfd30b813787a0970efac73b"
+        },
+        {
+          "id": "S06",
+          "sha256": "d4c5010989b9b740268a87acbdc074a439cb99eb1623efec59581f5261668235"
+        },
+        {
+          "id": "S07",
+          "sha256": "00046c3c47f41457979c71fd701c0689079e64b1a1b177f42ecdfbdc3d1df548"
+        },
+        {
+          "id": "S08",
+          "sha256": "98d16012bebc54398d0851481031f206837068dfcceaa44098da427bfb3b27b8"
+        },
+        {
+          "id": "S09",
+          "sha256": "698de707c2f262769fbfa46e1cef231e71509e3dc1e94d2c12c44ed66b4c65c1"
+        },
+        {
+          "id": "S10",
+          "sha256": "23e5d51cb9b334258641e968943bb6f129dcc8534b6c052abbac961b611c99df"
+        }
+      ],
+      "originalScoreSha256": "6b04fb53956d0847d60280e935981dc500b0df13f407200c1a27016764b0c223",
+      "originalSfxSha256": "1a953a6d1fb2d65a066ad063e7f57a0caae9c3092287c4da63f474368f2bf1c8",
+      "refinementScriptSha256": "6efefd8397cf9cbbd73a673f644fe02390d676e59abed50b607050d501a743c5"
+    }
+  },
+  "narrationUnchanged": true,
+  "cueCountUnchanged": 10,
+  "humanListening": "not performed"
+}

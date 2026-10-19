@@ -1,0 +1,85 @@
+{
+  "durationSeconds": 120,
+  "fps": 60,
+  "totalFrames": 7200,
+  "sharedState": "absolute frame, fixed seeded indices",
+  "shots": [
+    {
+      "startFrame": 0,
+      "endFrame": 1260,
+      "id": "rigid",
+      "feeling": "熟悉到压迫",
+      "action": "方钢承受向下的载荷，直角应力变红",
+      "continuousMotion": "相机持续绕行、载荷箭头下压",
+      "portrait": "主体在上中，路径示意在下；文字独立安全区",
+      "landscape": "文字左侧，主体右侧",
+      "qualifier": "科幻思想实验；非FEA求解/实测"
+    },
+    {
+      "startFrame": 1260,
+      "endFrame": 1800,
+      "id": "title",
+      "feeling": "秩序开始松动",
+      "action": "方钢背后散出粒子，动态片名出现",
+      "continuousMotion": "方钢与星空持续转动",
+      "portrait": "主体在上中，路径示意在下；文字独立安全区",
+      "landscape": "文字左侧，主体右侧",
+      "qualifier": "科幻思想实验；非FEA求解/实测"
+    },
+    {
+      "startFrame": 1800,
+      "endFrame": 3600,
+      "id": "erosion",
+      "feeling": "陌生结构从物质里浮现",
+      "action": "冗余体素被挖空，曲线承力路径发亮",
+      "continuousMotion": "侵蚀推进、粒子迁移、透视旋转",
+      "portrait": "主体在上中，路径示意在下；文字独立安全区",
+      "landscape": "文字左侧，主体右侧",
+      "qualifier": "科幻思想实验；非FEA求解/实测"
+    },
+    {
+      "startFrame": 3600,
+      "endFrame": 4680,
+      "id": "artifact",
+      "feeling": "惊叹",
+      "action": "金色骨骼完成，薄壁和孔洞显露",
+      "continuousMotion": "持续绕物，金色能量沿曲线移动",
+      "portrait": "主体在上中，路径示意在下；文字独立安全区",
+      "landscape": "文字左侧，主体右侧",
+      "qualifier": "科幻思想实验；非FEA求解/实测"
+    },
+    {
+      "startFrame": 4680,
+      "endFrame": 5400,
+      "id": "comparison",
+      "feeling": "熟悉秩序被打破",
+      "action": "虚构对照试验，方钢碎裂、骨骼弯曲",
+      "continuousMotion": "载荷波、碎片和相机持续运动",
+      "portrait": "主体在上中，路径示意在下；文字独立安全区",
+      "landscape": "文字左侧，主体右侧",
+      "qualifier": "科幻思想实验；非FEA求解/实测"
+    },
+    {
+      "startFrame": 5400,
+      "endFrame": 6300,
+      "id": "city",
+      "feeling": "尺度从零件扩展到文明",
+      "action": "骨架城市后退，98秒引句与钛滴",
+      "continuousMotion": "城市视差、视角运动",
+      "portrait": "主体在上中，路径示意在下；文字独立安全区",
+      "landscape": "文字左侧，主体右侧",
+      "qualifier": "科幻思想实验；非FEA求解/实测"
+    },
+    {
+      "startFrame": 6300,
+      "endFrame": 7200,
+      "id": "nexus",
+      "feeling": "下一集的不安",
+      "action": "两节点经光纤交换，EP09预告、科学限定",
+      "continuousMotion": "脉冲沿光纤以有限速度传播",
+      "portrait": "主体在上中，路径示意在下；文字独立安全区",
+      "landscape": "文字左侧，主体右侧",
+      "qualifier": "科幻思想实验；非FEA求解/实测"
+    }
+  ]
+}

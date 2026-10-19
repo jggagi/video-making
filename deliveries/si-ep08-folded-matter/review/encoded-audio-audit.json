@@ -1,0 +1,56 @@
+{
+  "scope": "Final AAC sound measurements only; no pronunciation or human listening acceptance",
+  "outputs": {
+    "xiaohongshu": {
+      "mediaSHA256": "65c2f5d25ec86e72fbaedf4b619e8eb7c4d82c760c1c8ed829a7736650a1ff88",
+      "decodedPCM_SHA256": "c2b9747c2b13b5ddaf379c607c0ce7e65ee8fdb72363bb5b30669ac8ae138266",
+      "samplesPerChannel": 5760000,
+      "integratedLUFS": -17.0,
+      "truePeakDBTP": -1.8,
+      "loudnessPass": true,
+      "pause": {
+        "authoredPause": {
+          "startSample": 4704000,
+          "endSampleExclusive": 4728000,
+          "peakPcm16": 7,
+          "rmsDbfs": -96.50650930670209,
+          "nonzeroSamples": 3413
+        },
+        "pauseInterior": {
+          "startSample": 4706880,
+          "endSampleExclusive": 4725120,
+          "peakPcm16": 0,
+          "rmsDbfs": -300.0,
+          "nonzeroSamples": 0
+        }
+      },
+      "note": "PCM master is exact digital silence for the full authored interval. Lossy AAC may smear event energy at transform-window edges; interior measured separately."
+    },
+    "bilibili": {
+      "mediaSHA256": "2d408725eb215602f6bedfc78200037371320eb067e2a6adedcd2740a1bc0cea",
+      "decodedPCM_SHA256": "c2b9747c2b13b5ddaf379c607c0ce7e65ee8fdb72363bb5b30669ac8ae138266",
+      "samplesPerChannel": 5760000,
+      "integratedLUFS": -17.0,
+      "truePeakDBTP": -1.8,
+      "loudnessPass": true,
+      "pause": {
+        "authoredPause": {
+          "startSample": 4704000,
+          "endSampleExclusive": 4728000,
+          "peakPcm16": 7,
+          "rmsDbfs": -96.50650930670209,
+          "nonzeroSamples": 3413
+        },
+        "pauseInterior": {
+          "startSample": 4706880,
+          "endSampleExclusive": 4725120,
+          "peakPcm16": 0,
+          "rmsDbfs": -300.0,
+          "nonzeroSamples": 0
+        }
+      },
+      "note": "PCM master is exact digital silence for the full authored interval. Lossy AAC may smear event energy at transform-window edges; interior measured separately."
+    }
+  },
+  "identicalDecodedAACBetweenLayouts": true
+}

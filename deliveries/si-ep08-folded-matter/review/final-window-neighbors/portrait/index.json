@@ -1,0 +1,41 @@
+{
+  "mediaSHA256": "65c2f5d25ec86e72fbaedf4b619e8eb7c4d82c760c1c8ed829a7736650a1ff88",
+  "method": "Exact decoded zero-based frame n, native JPEG plus compact contact; quote boundaries and repaired-frame neighbors.",
+  "frames": [
+    {
+      "frame": 5879,
+      "path": "review/final-window-neighbors/portrait/frame-01.jpg",
+      "sha256": "b2e302ca9b81a1a0d1187152cf8f89866add7a3b018c4c842789ec2347d837f7"
+    },
+    {
+      "frame": 5880,
+      "path": "review/final-window-neighbors/portrait/frame-02.jpg",
+      "sha256": "9849e76dc14d07a692961b00ea4f8db643c828fa990c7432fd3993bb4af588fe"
+    },
+    {
+      "frame": 6175,
+      "path": "review/final-window-neighbors/portrait/frame-03.jpg",
+      "sha256": "505a048ea07fc475ed4fb265de25ab75afe4f950db8bf914d6d3b4f32c4c57ec"
+    },
+    {
+      "frame": 6176,
+      "path": "review/final-window-neighbors/portrait/frame-04.jpg",
+      "sha256": "dd05b7de12024ad1b88d2154d60d0685282bcd4491d8ceb93a1972a49533586d"
+    },
+    {
+      "frame": 6177,
+      "path": "review/final-window-neighbors/portrait/frame-05.jpg",
+      "sha256": "084d3431c644db31828941b807cf6894ccfa0c65f9b4589351269df4ededc5ba"
+    },
+    {
+      "frame": 6299,
+      "path": "review/final-window-neighbors/portrait/frame-06.jpg",
+      "sha256": "b73c8aa628bba61d8efc3d0bf54a4913b2d58975d0cf2c693a91fe20dff0f036"
+    },
+    {
+      "frame": 6300,
+      "path": "review/final-window-neighbors/portrait/frame-07.jpg",
+      "sha256": "16cc922109f4200a64d66a95e98ac2d102741d1ce324df037e26dd54d205d479"
+    }
+  ]
+}

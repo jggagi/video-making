@@ -1,0 +1,12 @@
+[
+  {
+    "layout": "portrait",
+    "frame": 6176,
+    "sourceSHA256": "5fa75750cdb8153f2ba72102a50fb114a6cf692e5668b621fac5d32ddf94cf16"
+  },
+  {
+    "layout": "landscape",
+    "frame": 6169,
+    "sourceSHA256": "32c13bd8005cca993e94b36b71a966f3314b99a0e439c5a0f2a411e78f167831"
+  }
+]

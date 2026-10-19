@@ -1,0 +1,4 @@
+# Native source stills stay local; compact source montages and final encoded QA are retained.
+review/source-*.png
+review/quote-patch-*/frame-*.png
+review/local-failed/

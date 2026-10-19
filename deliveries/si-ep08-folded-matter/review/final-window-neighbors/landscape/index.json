@@ -1,0 +1,41 @@
+{
+  "mediaSHA256": "2d408725eb215602f6bedfc78200037371320eb067e2a6adedcd2740a1bc0cea",
+  "method": "Exact decoded zero-based frame n, native JPEG plus compact contact; quote boundaries and repaired-frame neighbors.",
+  "frames": [
+    {
+      "frame": 5879,
+      "path": "review/final-window-neighbors/landscape/frame-01.jpg",
+      "sha256": "d2e89a9a5ec741b3771b624ace787a687f546ce669f9f4bb5708a70e4f70690d"
+    },
+    {
+      "frame": 5880,
+      "path": "review/final-window-neighbors/landscape/frame-02.jpg",
+      "sha256": "0751dead97ed4add7e1fa2bd0f1b46f050749a005ac9f6c9c333f83bf5ad0f4e"
+    },
+    {
+      "frame": 6168,
+      "path": "review/final-window-neighbors/landscape/frame-03.jpg",
+      "sha256": "be365f9aa5f44cbc367b7a37af0bfc833ca9dd1e4b25cc5f01bf527517fbebfa"
+    },
+    {
+      "frame": 6169,
+      "path": "review/final-window-neighbors/landscape/frame-04.jpg",
+      "sha256": "0b208783fe9f9b07c5a78deaaeb805ba18e0c529819c708456f9c9fa743b59f7"
+    },
+    {
+      "frame": 6170,
+      "path": "review/final-window-neighbors/landscape/frame-05.jpg",
+      "sha256": "57562c5dae26a21cdad5693c58b0eddf747c8cf455fbcfdbc85f0fe8a0771466"
+    },
+    {
+      "frame": 6299,
+      "path": "review/final-window-neighbors/landscape/frame-06.jpg",
+      "sha256": "875d5a5e5f8f846025fe280cc26763a1ce2cb518260d30c2eff9ebb5b382adc7"
+    },
+    {
+      "frame": 6300,
+      "path": "review/final-window-neighbors/landscape/frame-07.jpg",
+      "sha256": "32d0255ecf7d5f7fdc627509f8b7f5b0824ca09bbcf84a56278e520629a47f83"
+    }
+  ]
+}

@@ -813,6 +813,47 @@
       ]
     },
     {
+      "id": "si-ep08-folded-matter",
+      "title": "Final 成片备份 · 被折叠的造物",
+      "release_tag": "final-si-ep08-folded-matter-fb067a56db5a",
+      "assets": [
+        {
+          "path": "final/si-ep08-folded-matter/B站/si-ep08-folded-matter-bilibili-120s-4k.mp4",
+          "name": "final--si-ep08-folded-matter--deliveries--si-ep08-folded-matter--B---si-ep08-folded-matter-bilibili-120s-4k--2d408725eb21.mp4",
+          "bytes": 159834859,
+          "sha256": "2d408725eb215602f6bedfc78200037371320eb067e2a6adedcd2740a1bc0cea",
+          "kind": "video",
+          "platform": "B站",
+          "measurements": {
+            "width": 3840,
+            "height": 2160,
+            "fps": "60/1",
+            "frames": "7200",
+            "video_duration_seconds": 120.0,
+            "container_duration_seconds": 120.0
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep08-folded-matter-fb067a56db5a/final--si-ep08-folded-matter--deliveries--si-ep08-folded-matter--B---si-ep08-folded-matter-bilibili-120s-4k--2d408725eb21.mp4"
+        },
+        {
+          "path": "final/si-ep08-folded-matter/小红书/si-ep08-folded-matter-xiaohongshu-120s-portrait.mp4",
+          "name": "final--si-ep08-folded-matter--deliveries--si-ep08-folded-matter-----si-ep08-folded-matter-xiaohongshu-120s-portrait--65c2f5d25ec8.mp4",
+          "bytes": 169658525,
+          "sha256": "65c2f5d25ec86e72fbaedf4b619e8eb7c4d82c760c1c8ed829a7736650a1ff88",
+          "kind": "video",
+          "platform": "小红书",
+          "measurements": {
+            "width": 2160,
+            "height": 3840,
+            "fps": "60/1",
+            "frames": "7200",
+            "video_duration_seconds": 120.0,
+            "container_duration_seconds": 120.0
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep08-folded-matter-fb067a56db5a/final--si-ep08-folded-matter--deliveries--si-ep08-folded-matter-----si-ep08-folded-matter-xiaohongshu-120s-portrait--65c2f5d25ec8.mp4"
+        }
+      ]
+    },
+    {
       "id": "si-eternity",
       "title": "Final 成片备份 · 一眼万年",
       "release_tag": "final-si-eternity-66d480b1c859",

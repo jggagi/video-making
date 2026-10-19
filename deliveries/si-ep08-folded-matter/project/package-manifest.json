@@ -1,0 +1,22 @@
+{
+  "remotion": "4.0.534",
+  "react": "19.1.0",
+  "font": "macOS PingFang SC, system-local",
+  "browser": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+  "intermediate": "png",
+  "concurrency": 2,
+  "nativeDimensions": [
+    [
+      2160,
+      3840
+    ],
+    [
+      3840,
+      2160
+    ]
+  ],
+  "chromeVersion": "Google Chrome 155.0.8059.84",
+  "nodeVersion": "v24.21.0",
+  "bailianCLI": "2.4.0",
+  "bailianSkills": "2.4.0"
+}

@@ -1,0 +1,16 @@
+{
+  "status": "CONFIRMED_BAD_CAPTURE",
+  "badFrames": [
+    1522,
+    1839,
+    2593
+  ],
+  "recoveryFrames": [
+    1523,
+    1840,
+    2594
+  ],
+  "evidence": "suspicious-contact.jpg",
+  "modelObservation": "Repeated HUD tiles replace the normal scene at three isolated frame positions. Following frames restore the authored scene. No flags waived; failed report and movie preserved pending same-index native redraw and a fresh full scan.",
+  "humanContinuousPlayback": "NOT_RUN"
+}

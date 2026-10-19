@@ -1,0 +1,88 @@
+{
+  "configuration": {
+    "remotion": "4.0.534",
+    "react": "19.1.0",
+    "font": "macOS PingFang SC, system-local",
+    "browser": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+    "intermediate": "png",
+    "concurrency": 2,
+    "nativeDimensions": [
+      [
+        2160,
+        3840
+      ],
+      [
+        3840,
+        2160
+      ]
+    ],
+    "chromeVersion": "Google Chrome 155.0.8059.84",
+    "nodeVersion": "v24.21.0",
+    "bailianCLI": "2.4.0",
+    "bailianSkills": "2.4.0"
+  },
+  "audioMasterSHA256": "c8f5d0914e0b8ec621d6fbcd23114887b342dde1e5da9327eeff9cac3610735d",
+  "sourceHashes": {
+    "project/src/World.tsx": "78ff54e5bb4dcb4cb4007489788dfc117de4292e99128ecba9c3191a9240e6e5",
+    "project/src/Root.tsx": "02b99733a86d03b39236fe6362102ff72b9fd063d4964beabe6fa6237522d481",
+    "project/src/Sculpture.tsx": "9d440950ca6d7ae8b15623036f9c39d5d697149dcd9260370dbefc5cf78850a5",
+    "project/src/Film.tsx": "186a0bf2f8e3bbcedf072cd4b0930648d39cff881c7da31c4a742313c012583b",
+    "project/src/index.ts": "2e0e358282a1b998a65387c653b97c2bb2eb7aae94cf200fc0b8d919f7be73a6",
+    "project/audio-timing.json": "85203e444e52d4d6caf48bfab4d20636f258bcae2ba1be3dd38b5b0ce6e106fc",
+    "project/segments.json": "24277b4e3581236f531636c49dc7f3363685d9949023c0c63dda956346c088df",
+    "project/caption-layout.json": "bdfc7da623bb9071c10f8e0b581eaaf92c1104db42383a5809dcf1dd415c0d7b",
+    "project/sfx_events.json": "d5e1e49718d99a6feec70951218a3a20aa7b4aef243f62655e036627e5971c1e",
+    "project/scripts/render.mjs": "7696ba5d482d8c0c5e6860381372799a90c59605cc6fff58359a4ae91f7ab701",
+    "project/package-lock.json": "15cf407ef6fc31ef08c61d0dcb3007f7baba9e15469ebdef4d8518b869d6d43a"
+  },
+  "noExternalAssetsDuringRender": true,
+  "initialAudioMasterSHA256": "bad8f73ca3baef5b1dfa890b77adcaab850e580137e12cd8b837adddc2a4c3ba",
+  "audioRefinement": {
+    "path": "project/public/audio/mix-refinement.json",
+    "sha256": "da7fd4b70f69ccfebf739004bec6a39297a9e6fd60910f540f89d9effbcef336",
+    "visualSourcesUnchanged": true,
+    "deliveryMethod": "Both movies receive packets copied from one shared AAC cache after visual capture.",
+    "asOfStage": "Audio-only refinement before quote layout correction"
+  },
+  "sourceRevisionHistory": [
+    {
+      "stage": "initial native capture before quote-overlap correction",
+      "sourceHashes": {
+        "project/src/World.tsx": "78ff54e5bb4dcb4cb4007489788dfc117de4292e99128ecba9c3191a9240e6e5",
+        "project/src/Root.tsx": "02b99733a86d03b39236fe6362102ff72b9fd063d4964beabe6fa6237522d481",
+        "project/src/Sculpture.tsx": "9d440950ca6d7ae8b15623036f9c39d5d697149dcd9260370dbefc5cf78850a5",
+        "project/src/Film.tsx": "0522267f720493dc3e2a9bec1d970edd01ee4d3bd617b3b9d296c6c032486f85",
+        "project/src/index.ts": "2e0e358282a1b998a65387c653b97c2bb2eb7aae94cf200fc0b8d919f7be73a6",
+        "project/audio-timing.json": "85203e444e52d4d6caf48bfab4d20636f258bcae2ba1be3dd38b5b0ce6e106fc",
+        "project/segments.json": "24277b4e3581236f531636c49dc7f3363685d9949023c0c63dda956346c088df",
+        "project/caption-layout.json": "bdfc7da623bb9071c10f8e0b581eaaf92c1104db42383a5809dcf1dd415c0d7b",
+        "project/sfx_events.json": "d5e1e49718d99a6feec70951218a3a20aa7b4aef243f62655e036627e5971c1e",
+        "project/scripts/render.mjs": "7696ba5d482d8c0c5e6860381372799a90c59605cc6fff58359a4ae91f7ab701",
+        "project/package-lock.json": "15cf407ef6fc31ef08c61d0dcb3007f7baba9e15469ebdef4d8518b869d6d43a"
+      }
+    }
+  ],
+  "quoteWindowCapture": {
+    "sourceChange": "review/quote-layout-change.json",
+    "rangeInclusive": [
+      5880,
+      6299
+    ],
+    "layouts": {
+      "portrait": {
+        "manifest": "review/quote-patch-portrait/manifest.json",
+        "sha256": "994b7bfb16441ddb7b6ef1c6652b848eeaf1e40be2def919a3f108cb560e28f1"
+      },
+      "landscape": {
+        "manifest": "review/quote-patch-landscape/manifest.json",
+        "sha256": "95d715669c82a1f66d148e80baf50c0a3571ac873b046222e48e069ec8401693"
+      }
+    },
+    "renderScriptSHA256": "e4fc2f91098d6f64286732318751e473966de01e569ab8852530dc305686a7f0",
+    "repairScriptSHA256": "dff516154947bee0381c5bec34fd7333d268f11c8f5d8c641567d9e150578f99",
+    "fixture": {
+      "path": "review/quote-sequence-fixture.json",
+      "sha256": "f4420a4424973eead6ecb658aff840ed09d7023f1fde35a89f4be9cac2663dd8"
+    }
+  }
+}

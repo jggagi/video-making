@@ -1,0 +1,29 @@
+{
+  "scope": "Only generated native quote-window PNG cache; editable source, audio, media, manifests and representative evidence retained.",
+  "layouts": {
+    "portrait": {
+      "removedGeneratedPngCount": 420,
+      "releasedBytes": 1449154619,
+      "manifestSHA256": "994b7bfb16441ddb7b6ef1c6652b848eeaf1e40be2def919a3f108cb560e28f1",
+      "retainedNativeFrames": [
+        5880,
+        6090,
+        6299
+      ],
+      "retainedCorruptionThumbnailFrame": 6176,
+      "reason": "Window encodes and their after-encode input hashes verified; known isolated capture errors have separate same-index redraws for final repair."
+    },
+    "landscape": {
+      "removedGeneratedPngCount": 420,
+      "releasedBytes": 1267187942,
+      "manifestSHA256": "95d715669c82a1f66d148e80baf50c0a3571ac873b046222e48e069ec8401693",
+      "retainedNativeFrames": [
+        5880,
+        6090,
+        6299
+      ],
+      "retainedCorruptionThumbnailFrame": 6169,
+      "reason": "Window encodes and their after-encode input hashes verified; known isolated capture errors have separate same-index redraws for final repair."
+    }
+  }
+}

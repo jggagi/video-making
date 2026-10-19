@@ -1,0 +1,86 @@
+{
+  "media": "\u5c0f\u7ea2\u4e66/si-ep08-folded-matter-xiaohongshu-120s-portrait.mp4",
+  "mediaSHA256": "65c2f5d25ec86e72fbaedf4b619e8eb7c4d82c760c1c8ed829a7736650a1ff88",
+  "frames": [
+    {
+      "frame": 0,
+      "native": "review/encoded-frames/xiaohongshu/frame-0.jpg",
+      "sha256": "ef923e5895b55f099bc59e6a9cb8fc7213fe104a8ce9c0dd8e311f8f6f373616"
+    },
+    {
+      "frame": 360,
+      "native": "review/encoded-frames/xiaohongshu/frame-360.jpg",
+      "sha256": "3f9145284aabd81c1e032fcf47767bca15c87be41bbf2d5f33a5fd83d1397c75"
+    },
+    {
+      "frame": 960,
+      "native": "review/encoded-frames/xiaohongshu/frame-960.jpg",
+      "sha256": "88d33850421c14210ef2be16e005360193e52c9ab5c42b173fafa77c817b5084"
+    },
+    {
+      "frame": 1500,
+      "native": "review/encoded-frames/xiaohongshu/frame-1500.jpg",
+      "sha256": "9dcf119b739bd3f6d25e48ad88804c1ec6a1936c117b1471dca7aa9e083f3517"
+    },
+    {
+      "frame": 2190,
+      "native": "review/encoded-frames/xiaohongshu/frame-2190.jpg",
+      "sha256": "67b033ee596eaca9526805be5c831a858012da90999b41b5f6c48b658f64396e"
+    },
+    {
+      "frame": 2700,
+      "native": "review/encoded-frames/xiaohongshu/frame-2700.png",
+      "sha256": "4ec3bc1f62072112b3f9551d31a79ca0135616ca078858052137aa2bb9a24533"
+    },
+    {
+      "frame": 3120,
+      "native": "review/encoded-frames/xiaohongshu/frame-3120.jpg",
+      "sha256": "05022b5356e62b8f58a3f372b0f5d052008445cf4cc8ebd67db78564b1c469db"
+    },
+    {
+      "frame": 3900,
+      "native": "review/encoded-frames/xiaohongshu/frame-3900.jpg",
+      "sha256": "05f94da7cb19e9bfddabf4f88e67a5ca807bc19f82e33b4b3e96d63d7fbe9e0e"
+    },
+    {
+      "frame": 4500,
+      "native": "review/encoded-frames/xiaohongshu/frame-4500.png",
+      "sha256": "f45671d52928ce14d40f7cb55bb8cdbe3583137fd5c795a5e43ce2ddc1460a13"
+    },
+    {
+      "frame": 4800,
+      "native": "review/encoded-frames/xiaohongshu/frame-4800.jpg",
+      "sha256": "e9316cec79ac7d4998c4dc9fb3ec93b344c00eb121b272743bfd6f098275f6dc"
+    },
+    {
+      "frame": 5879,
+      "native": "review/encoded-frames/xiaohongshu/frame-5879.jpg",
+      "sha256": "b2e302ca9b81a1a0d1187152cf8f89866add7a3b018c4c842789ec2347d837f7"
+    },
+    {
+      "frame": 5880,
+      "native": "review/encoded-frames/xiaohongshu/frame-5880.jpg",
+      "sha256": "9849e76dc14d07a692961b00ea4f8db643c828fa990c7432fd3993bb4af588fe"
+    },
+    {
+      "frame": 5910,
+      "native": "review/encoded-frames/xiaohongshu/frame-5910.jpg",
+      "sha256": "19a613fffcbc520493594874e41e83e3d4221fe93d827ebbca242e7d296a8fe1"
+    },
+    {
+      "frame": 6500,
+      "native": "review/encoded-frames/xiaohongshu/frame-6500.jpg",
+      "sha256": "80e07e2b936f81e272488dea4f01a421f7be4f1d8c8d3251bc48c27be5d6542a"
+    },
+    {
+      "frame": 7100,
+      "native": "review/encoded-frames/xiaohongshu/frame-7100.jpg",
+      "sha256": "70eff1e01ff3ae486f0d706f1a876242187b4dee5598d9d6e9a6ac13e6c628dc"
+    },
+    {
+      "frame": 7199,
+      "native": "review/encoded-frames/xiaohongshu/frame-7199.jpg",
+      "sha256": "71a10a33857d76cc53158fe01a49a0af580b3a5b5dfe59787f44fba208dce0e0"
+    }
+  ]
+}

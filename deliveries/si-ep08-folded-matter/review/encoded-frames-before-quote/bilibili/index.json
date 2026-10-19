@@ -1,0 +1,87 @@
+{
+  "media": "B站/si-ep08-folded-matter-bilibili-120s-4k.mp4",
+  "mediaSHA256": "7f6a203e9b39175b4c53a7c4782b97928c9b56c96230033341336cdbe6205b10",
+  "frames": [
+    {
+      "frame": 0,
+      "native": "review/encoded-frames-before-quote/bilibili/frame-0.jpg",
+      "sha256": "c8622f161df2f86e27b3955d9a4d4a5d89408be201c31538e90f1374a486a2af"
+    },
+    {
+      "frame": 360,
+      "native": "review/encoded-frames-before-quote/bilibili/frame-360.jpg",
+      "sha256": "e26a199f9f8faa61af3dfa2ed5b8cb222c41974cc47037e7d72097154cf0f966"
+    },
+    {
+      "frame": 960,
+      "native": "review/encoded-frames-before-quote/bilibili/frame-960.jpg",
+      "sha256": "bb54b36eb93581e906284f298a3c4555adf357499b8576e8d814e13819f0bc57"
+    },
+    {
+      "frame": 1500,
+      "native": "review/encoded-frames-before-quote/bilibili/frame-1500.jpg",
+      "sha256": "d3897befbc0526aae7780a2e89e87b0b1e8e7fb9e8158933fbcef83a2fe45587"
+    },
+    {
+      "frame": 2190,
+      "native": "review/encoded-frames-before-quote/bilibili/frame-2190.jpg",
+      "sha256": "e4773d9f634e86d307a84101b5c9e27e1a5a8c13774f3a5dad81257bf52c25c9"
+    },
+    {
+      "frame": 2700,
+      "native": "review/encoded-frames-before-quote/bilibili/frame-2700.png",
+      "sha256": "9e14450bb94a2d993de55c0dead9e34fa4587450842639da6d134527297ff9f6"
+    },
+    {
+      "frame": 3120,
+      "native": "review/encoded-frames-before-quote/bilibili/frame-3120.jpg",
+      "sha256": "44c258ff03fa6e016cf74a6a631719c3996771666cba55e0cfcf84f032a713cd"
+    },
+    {
+      "frame": 3900,
+      "native": "review/encoded-frames-before-quote/bilibili/frame-3900.jpg",
+      "sha256": "0ffeb1bd4ec9886ff0571efacdb1f85e61c2dddc598179cb3474ae72b056bf0e"
+    },
+    {
+      "frame": 4500,
+      "native": "review/encoded-frames-before-quote/bilibili/frame-4500.png",
+      "sha256": "98e0a1fd936c4aded8cd348f875318cb59178bad52bf845ca81a1f3d3f884c04"
+    },
+    {
+      "frame": 4800,
+      "native": "review/encoded-frames-before-quote/bilibili/frame-4800.jpg",
+      "sha256": "be7272ba2c2a92affc74ebaebc27ece429b2a3421b0048f54505f7ef463b17e6"
+    },
+    {
+      "frame": 5879,
+      "native": "review/encoded-frames-before-quote/bilibili/frame-5879.jpg",
+      "sha256": "2728c65a6b18689c7f15aff414c09ad2a6521cca55e1c3d07fa035bf4d3d8a4e"
+    },
+    {
+      "frame": 5880,
+      "native": "review/encoded-frames-before-quote/bilibili/frame-5880.jpg",
+      "sha256": "220fb0cf004ec60e5b6904343365d96b48cde36205c612524185c5654b7a7509"
+    },
+    {
+      "frame": 5910,
+      "native": "review/encoded-frames-before-quote/bilibili/frame-5910.jpg",
+      "sha256": "06f38c69df0a3749f7ee69f9e0a1a7660d9cf04d9cb613a1da7db5d12c980e48"
+    },
+    {
+      "frame": 6500,
+      "native": "review/encoded-frames-before-quote/bilibili/frame-6500.jpg",
+      "sha256": "3513f6c6764a71d92085910f0fc2e1219aef878adb34d71ed8773b3270e5d242"
+    },
+    {
+      "frame": 7100,
+      "native": "review/encoded-frames-before-quote/bilibili/frame-7100.jpg",
+      "sha256": "bb785b4659a0db4cd143db614a0f68c7ddba485a4617d80dce907b4b7c1e73b1"
+    },
+    {
+      "frame": 7199,
+      "native": "review/encoded-frames-before-quote/bilibili/frame-7199.jpg",
+      "sha256": "0d2803cb4bc950088368597155446f0b1abdbf2096bdbdadd07269c3c11c06e2"
+    }
+  ],
+  "historicalSnapshot": "Before quote-window title-overlap correction; final required reports and encoded images are regenerated separately."
+}

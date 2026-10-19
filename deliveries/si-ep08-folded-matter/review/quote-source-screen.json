@@ -1,0 +1,38 @@
+{
+  "portrait": {
+    "badCandidates": [
+      {
+        "frame": 6176,
+        "qualifierRoiMAE": 25.15639305114746
+      }
+    ],
+    "maxMAE": 25.15639305114746,
+    "threshold": 8,
+    "roiXYXY": [
+      0.06,
+      0.68,
+      0.84,
+      0.72
+    ],
+    "referenceFrame": 5880,
+    "method": "Native PNG qualifier ROI compared at360px to root-observed normal first frame. Heuristic only; final full-file screen remains required."
+  },
+  "landscape": {
+    "badCandidates": [
+      {
+        "frame": 6169,
+        "qualifierRoiMAE": 11.583127975463867
+      }
+    ],
+    "maxMAE": 11.583127975463867,
+    "threshold": 8,
+    "roiXYXY": [
+      0.052,
+      0.93,
+      0.502,
+      0.977
+    ],
+    "referenceFrame": 5880,
+    "method": "Native PNG qualifier ROI compared at360px to root-observed normal first frame. Heuristic only; final full-file screen remains required."
+  }
+}

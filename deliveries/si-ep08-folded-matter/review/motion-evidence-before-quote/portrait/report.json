@@ -1,0 +1,319 @@
+{
+  "media": "小红书/si-ep08-folded-matter-xiaohongshu-120s-portrait.mp4",
+  "mediaSHA256": "ceecdeabc7deb68ff9862cdc313970138f46447295e8a7e4b9fbad5dd8fbaa1d",
+  "pairs": [
+    {
+      "scene": "rigid",
+      "frames": [
+        180,
+        330
+      ],
+      "deltaSeconds": 2.5,
+      "roiXYXY": [
+        0.1,
+        0.23,
+        0.84,
+        0.61
+      ],
+      "edgeDifferenceYAVG": 17.528938356164385,
+      "warning": false
+    },
+    {
+      "scene": "rigid",
+      "frames": [
+        690,
+        840
+      ],
+      "deltaSeconds": 2.5,
+      "roiXYXY": [
+        0.1,
+        0.23,
+        0.84,
+        0.61
+      ],
+      "edgeDifferenceYAVG": 10.851412671232877,
+      "warning": false
+    },
+    {
+      "scene": "rigid",
+      "frames": [
+        1020,
+        1170
+      ],
+      "deltaSeconds": 2.5,
+      "roiXYXY": [
+        0.1,
+        0.23,
+        0.84,
+        0.61
+      ],
+      "edgeDifferenceYAVG": 15.386044520547944,
+      "warning": false
+    },
+    {
+      "scene": "title",
+      "frames": [
+        1350,
+        1500
+      ],
+      "deltaSeconds": 2.5,
+      "roiXYXY": [
+        0.1,
+        0.23,
+        0.84,
+        0.61
+      ],
+      "edgeDifferenceYAVG": 8.36472602739726,
+      "warning": false
+    },
+    {
+      "scene": "erosion",
+      "frames": [
+        2010,
+        2160
+      ],
+      "deltaSeconds": 2.5,
+      "roiXYXY": [
+        0.1,
+        0.23,
+        0.84,
+        0.61
+      ],
+      "edgeDifferenceYAVG": 16.853510273972603,
+      "warning": false
+    },
+    {
+      "scene": "erosion",
+      "frames": [
+        2370,
+        2520
+      ],
+      "deltaSeconds": 2.5,
+      "roiXYXY": [
+        0.1,
+        0.23,
+        0.84,
+        0.61
+      ],
+      "edgeDifferenceYAVG": 15.64396404109589,
+      "warning": false
+    },
+    {
+      "scene": "erosion",
+      "frames": [
+        2820,
+        2970
+      ],
+      "deltaSeconds": 2.5,
+      "roiXYXY": [
+        0.1,
+        0.23,
+        0.84,
+        0.61
+      ],
+      "edgeDifferenceYAVG": 29.235787671232877,
+      "warning": false
+    },
+    {
+      "scene": "erosion",
+      "frames": [
+        3270,
+        3420
+      ],
+      "deltaSeconds": 2.5,
+      "roiXYXY": [
+        0.1,
+        0.23,
+        0.84,
+        0.61
+      ],
+      "edgeDifferenceYAVG": 36.25295376712329,
+      "warning": false
+    },
+    {
+      "scene": "artifact",
+      "frames": [
+        3780,
+        3930
+      ],
+      "deltaSeconds": 2.5,
+      "roiXYXY": [
+        0.1,
+        0.23,
+        0.84,
+        0.61
+      ],
+      "edgeDifferenceYAVG": 34.74567636986301,
+      "warning": false
+    },
+    {
+      "scene": "artifact",
+      "frames": [
+        4200,
+        4350
+      ],
+      "deltaSeconds": 2.5,
+      "roiXYXY": [
+        0.1,
+        0.23,
+        0.84,
+        0.61
+      ],
+      "edgeDifferenceYAVG": 14.996789383561644,
+      "warning": false
+    },
+    {
+      "scene": "artifact",
+      "frames": [
+        4590,
+        4740
+      ],
+      "deltaSeconds": 2.5,
+      "roiXYXY": [
+        0.1,
+        0.23,
+        0.84,
+        0.61
+      ],
+      "edgeDifferenceYAVG": 28.507705479452056,
+      "warning": false
+    },
+    {
+      "scene": "artifact",
+      "frames": [
+        5100,
+        5250
+      ],
+      "deltaSeconds": 2.5,
+      "roiXYXY": [
+        0.1,
+        0.23,
+        0.84,
+        0.61
+      ],
+      "edgeDifferenceYAVG": 6.119477739726028,
+      "warning": false
+    },
+    {
+      "scene": "city",
+      "frames": [
+        5460,
+        5610
+      ],
+      "deltaSeconds": 2.5,
+      "roiXYXY": [
+        0.1,
+        0.23,
+        0.84,
+        0.61
+      ],
+      "edgeDifferenceYAVG": 4.6729452054794525,
+      "warning": false
+    },
+    {
+      "scene": "city",
+      "frames": [
+        5820,
+        5970
+      ],
+      "deltaSeconds": 2.5,
+      "roiXYXY": [
+        0.1,
+        0.23,
+        0.84,
+        0.61
+      ],
+      "edgeDifferenceYAVG": 17.187328767123287,
+      "warning": false
+    },
+    {
+      "scene": "city",
+      "frames": [
+        6090,
+        6240
+      ],
+      "deltaSeconds": 2.5,
+      "roiXYXY": [
+        0.1,
+        0.23,
+        0.84,
+        0.61
+      ],
+      "edgeDifferenceYAVG": 2.2475599315068493,
+      "warning": false
+    },
+    {
+      "scene": "nexus",
+      "frames": [
+        6390,
+        6540
+      ],
+      "deltaSeconds": 2.5,
+      "roiXYXY": [
+        0.1,
+        0.23,
+        0.84,
+        0.61
+      ],
+      "edgeDifferenceYAVG": 1.5971746575342465,
+      "warning": false
+    },
+    {
+      "scene": "nexus",
+      "frames": [
+        6660,
+        6810
+      ],
+      "deltaSeconds": 2.5,
+      "roiXYXY": [
+        0.1,
+        0.23,
+        0.84,
+        0.61
+      ],
+      "edgeDifferenceYAVG": 1.5338184931506849,
+      "warning": false
+    },
+    {
+      "scene": "finale",
+      "frames": [
+        6960,
+        7110
+      ],
+      "deltaSeconds": 2.5,
+      "roiXYXY": [
+        0.1,
+        0.23,
+        0.84,
+        0.61
+      ],
+      "edgeDifferenceYAVG": 1.5181934931506849,
+      "warning": false
+    }
+  ],
+  "method": "Exact decoded frame n from final MP4, 360px previews. Crop excludes HUD and captions. Difference is a review cue, not a perceptual pass.",
+  "humanContinuousPlayback": "NOT_RUN",
+  "modelPairFrameReview": {
+    "status": "OBSERVED",
+    "contactSheets": [
+      "contact-1.jpg",
+      "contact-2.jpg",
+      "contact-3.jpg"
+    ],
+    "observations": [
+      "Rigid bracket changes perspective and position within each pair; title remains in motion over a rotating bracket.",
+      "Cyan erosion opens the rigid shell and reveals curved internal branches, then the gold artifact rotates across pairs.",
+      "Comparative brackets change perspective; the upper broken crossbeam and intact lower skeleton remain legible.",
+      "City geometry rises and shifts scale; foreground quote leaves buildings visible beneath it. Nexus nodes and paths change spatial positions."
+    ],
+    "limitations": "Pair frames establish sampled spatial change; no claim of human continuous viewing or listening."
+  },
+  "audioOnlyRemuxBinding": {
+    "report": "review/final-audio-remux-portrait.json",
+    "sha256": "bab8d3fe39f29476ebeb54772d9ae3f43c6a3a6b7133383602bfdcc14f58d223",
+    "finalMediaSHA256": "a8741af493dce5a1ee1b3cc85cc3b7ccc7c7b1903fd84eff4cb9a8dae8105759",
+    "videoPayloadIdentical": true,
+    "note": "Images extracted before audio-only remux; copied video payload is byte-identical."
+  },
+  "historicalSnapshot": "Before quote-window title-overlap correction; final required reports and encoded images are regenerated separately."
+}

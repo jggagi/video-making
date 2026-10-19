@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "independentPCMInspection": {
+    "narration": {
+      "sha256": "f7fb843f9d733b95d1c4967aa477e7a80cc6e3df3959518454137cea4c40f638",
+      "samplesPerChannel": 5760000,
+      "pausePeak": 0,
+      "lastSample": [
+        0,
+        0
+      ]
+    },
+    "score": {
+      "sha256": "8b428383d82f2f5fab8550c64c999875e58e733c3ddd2f345790782e7c70e488",
+      "samplesPerChannel": 5760000,
+      "pausePeak": 0,
+      "lastSample": [
+        0,
+        0
+      ]
+    },
+    "sfx": {
+      "sha256": "7fa9be1f0f6900f1bdbaca729bf11ef7e9e69ce5e0fad86101188eeb8b09bae7",
+      "samplesPerChannel": 5760000,
+      "pausePeak": 0,
+      "lastSample": [
+        0,
+        0
+      ]
+    },
+    "master": {
+      "sha256": "c8f5d0914e0b8ec621d6fbcd23114887b342dde1e5da9327eeff9cac3610735d",
+      "samplesPerChannel": 5760000,
+      "pausePeak": 0,
+      "lastSample": [
+        0,
+        0
+      ]
+    }
+  },
+  "timingSHA256": "85203e444e52d4d6caf48bfab4d20636f258bcae2ba1be3dd38b5b0ce6e106fc",
+  "narrationUnchanged": true
+}

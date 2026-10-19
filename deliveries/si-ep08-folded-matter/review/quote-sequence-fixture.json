@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "purpose": "verify numbered image2 sequence start_number and PTS offset target only requested output frames",
+  "verified": true,
+  "main_codec": "ffv1",
+  "main_frames": 5,
+  "sequence_start_number": 2,
+  "sequence_frames": 2,
+  "fps": 60,
+  "pts_offset_seconds": 0.03333333333333333,
+  "enable_expression": "between(n,2,3)",
+  "changed_output_indices": [
+    2,
+    3
+  ],
+  "patch_order_center_rgb": [
+    [
+      252,
+      0,
+      0
+    ],
+    [
+      0,
+      254,
+      0
+    ]
+  ],
+  "unchanged_output_indices": [
+    0,
+    1,
+    4
+  ],
+  "input_frame_rgb_sha256": [
+    "e80232b4d18d0bb7e794be263ba937626f383f9917d4b8a737ba893a8f752293",
+    "e80232b4d18d0bb7e794be263ba937626f383f9917d4b8a737ba893a8f752293",
+    "e80232b4d18d0bb7e794be263ba937626f383f9917d4b8a737ba893a8f752293",
+    "e80232b4d18d0bb7e794be263ba937626f383f9917d4b8a737ba893a8f752293",
+    "e80232b4d18d0bb7e794be263ba937626f383f9917d4b8a737ba893a8f752293"
+  ],
+  "output_frame_rgb_sha256": [
+    "e80232b4d18d0bb7e794be263ba937626f383f9917d4b8a737ba893a8f752293",
+    "e80232b4d18d0bb7e794be263ba937626f383f9917d4b8a737ba893a8f752293",
+    "8816bd1d771b2e75676757364564e2ed7e4479e28266dec00081c8704b2c33c5",
+    "9d7ba153ce042f6163df48ef839fad25db1b8929e9298c4b49b8444132c7cca9",
+    "e80232b4d18d0bb7e794be263ba937626f383f9917d4b8a737ba893a8f752293"
+  ],
+  "ffmpeg_command": [
+    "/opt/homebrew/bin/ffmpeg",
+    "-hide_banner",
+    "-nostdin",
+    "-y",
+    "-filter_complex_threads",
+    "2",
+    "-threads",
+    "2",
+    "-i",
+    "/Volumes/AgentDev/Scratch/tmp/si-ep08-quote-fixture-c9a5xljv/main.mkv",
+    "-threads",
+    "2",
+    "-framerate",
+    "60",
+    "-start_number",
+    "2",
+    "-i",
+    "/Volumes/AgentDev/Scratch/tmp/si-ep08-quote-fixture-c9a5xljv/patch/frame-%d.png",
+    "-filter_complex",
+    "[1:v]setpts=PTS-STARTPTS+2/(60*TB)[p];[0:v][p]overlay=eof_action=pass:repeatlast=0:enable='between(n,2,3)'[vout]",
+    "-map",
+    "[vout]",
+    "-an",
+    "-frames:v",
+    "5",
+    "-c:v",
+    "ffv1",
+    "-level",
+    "3",
+    "-pix_fmt",
+    "yuv420p",
+    "/Volumes/AgentDev/Scratch/tmp/si-ep08-quote-fixture-c9a5xljv/patched.mkv"
+  ],
+  "output_video_sha256": "e45738d48096615d731db94c693eb15d31dfbe04bb5cee12471eea3852d75b66"
+}

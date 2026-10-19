@@ -1,0 +1,15 @@
+{
+  "provider": "Aliyun Bailian",
+  "scope": "EP08 S01 through S10 current prepared tts_phonetic_text, including the S10 closing qualification",
+  "authorized": true,
+  "source": "direct user authorization in current chat, conveyed in Sol task packet",
+  "settings": {
+    "model_selection": "active profile default",
+    "expected_effective_model": "cosyvoice-v3-flash",
+    "voice": "longtian_v3",
+    "rate": 1.0,
+    "format": "wav",
+    "sample_rate": 24000
+  },
+  "notes": "No provider fallback, model flag, ASR, or credential material is authorized or recorded."
+}

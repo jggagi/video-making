@@ -1,0 +1,36 @@
+{
+  "observer": "root model using actual local images",
+  "mediaSHA256": {
+    "bilibili": "2d408725eb215602f6bedfc78200037371320eb067e2a6adedcd2740a1bc0cea",
+    "xiaohongshu": "65c2f5d25ec86e72fbaedf4b619e8eb7c4d82c760c1c8ed829a7736650a1ff88"
+  },
+  "evidence": {
+    "review/motion-evidence/portrait/contact-1.jpg": "0ee61097d89e3e1413bfa069382956e4b89dda08d8d4f26a6a9b75ccf89a3afc",
+    "review/motion-evidence/portrait/contact-2.jpg": "9887e39aaccac0976a47065121b17f9ab0eb8ca905eb5ef954c924318cb55475",
+    "review/motion-evidence/portrait/contact-3.jpg": "2c37df3fdd3d5d0055275d38abf3cc7d7659b3848aa1b04900c4298b5579354b",
+    "review/final-window-neighbors/portrait/contact.jpg": "94a46fa62e126166b42c0e13a7d7c38aea082e857aa99c73c56230401add68f7",
+    "review/motion-evidence/landscape/contact-1.jpg": "7ade3b551b709a62c77e1c2e54128c0cab7232994aaa22f63aac6d82511f9374",
+    "review/motion-evidence/landscape/contact-2.jpg": "9a3c679f56c118feba2f518a6e901fa7f6910aa75f5d99857e71004396616bd3",
+    "review/motion-evidence/landscape/contact-3.jpg": "49f0e734f9c998522093c819c5fa2ce5b819eff89bf10ed46743c31aff2e022d",
+    "review/final-window-neighbors/landscape/contact.jpg": "eaa8405d9afcd2e7c78d23feafb8f8708b7d5daf5c31256e6f804ed56565a2a1",
+    "review/encoded-frames/bilibili/contact.jpg": "6fe6812f10331b4aab8221dfc215429dc7abff2e445246f59837c749ad5da528",
+    "review/encoded-frames/xiaohongshu/contact.jpg": "6700db7dfa4dc49ec819daa4dc6544823c00422ccf23ca8db1c3e33738571333",
+    "review/encoded-frames/xiaohongshu/mobile-4500.jpg": "37fb485328a6a392ce73f8632e20b8c766097d5d2c091d6461707747cba0e951",
+    "review/quote-overlap-after-final.png": "099c09e811afcc614f1d707f814d3c3bc69bb6023c1570847e509977d76ae963",
+    "review/final-portrait-native-dark-crop.png": "261fe4ddccecba769dbba884e91cb2cc553e08df1d2de2603271165965305e3e",
+    "review/final-landscape-native-dark-crop.png": "735b650850844b773c3da14608f99d668426416e3633428a143b328d0d05809e"
+  },
+  "observations": [
+    "Viewed both final 16-frame contact sheets including start/end, each act, longest display regions and authored boundaries.",
+    "Viewed all 18 motion pairs per layout: perspective, erosion, porous skeleton, comparison, city scale and nexus positions change. Comparison near5100/5250 has gentler movement; normal-speed human pacing remains untested.",
+    "Viewed exact quote boundaries5879/5880 and6299/6300 plus6175/6176/6177 portrait and6168/6169/6170 landscape. No residual tiles or visible isolated flash in these sampled neighbors.",
+    "Native encoded quote crop shows generic chapter text removed; quote remains complete and separated from city.",
+    "Viewed native720px crops from final4K4500 frames: vector edges remain sharp, no severe contour banding seen in the sampled dark glow/grid.",
+    "Viewed actual360px portrait preview: subtitle14.33px equivalent, readable at sampled frame; critical geometry/text remains within designed top8%,right14%,bottom22% bounds."
+  ],
+  "limits": [
+    "No human continuous viewing or pronunciation/mix listening",
+    "No physical phone/App compression/overlay test",
+    "Pair differences and zero flags do not guarantee all perceptual defects absent"
+  ]
+}

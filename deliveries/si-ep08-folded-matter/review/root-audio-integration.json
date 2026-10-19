@@ -1,0 +1,68 @@
+{
+  "scope": "root independent integration invariants; human listening unperformed",
+  "pcm": {
+    "master": {
+      "sha256": "bad8f73ca3baef5b1dfa890b77adcaab850e580137e12cd8b837adddc2a4c3ba",
+      "samplesPerChannel": 5760000,
+      "exactZeroSilence": true
+    },
+    "narration": {
+      "sha256": "f7fb843f9d733b95d1c4967aa477e7a80cc6e3df3959518454137cea4c40f638",
+      "samplesPerChannel": 5760000,
+      "exactZeroSilence": true
+    },
+    "score": {
+      "sha256": "6b04fb53956d0847d60280e935981dc500b0df13f407200c1a27016764b0c223",
+      "samplesPerChannel": 5760000,
+      "exactZeroSilence": true
+    },
+    "sfx": {
+      "sha256": "1a953a6d1fb2d65a066ad063e7f57a0caae9c3092287c4da63f474368f2bf1c8",
+      "samplesPerChannel": 5760000,
+      "exactZeroSilence": true
+    }
+  },
+  "captionNormalizations": [
+    {
+      "id": "S01",
+      "chunkCharacters": 27
+    },
+    {
+      "id": "S02",
+      "chunkCharacters": 34
+    },
+    {
+      "id": "S03",
+      "chunkCharacters": 34
+    },
+    {
+      "id": "S04",
+      "chunkCharacters": 41
+    },
+    {
+      "id": "S05",
+      "chunkCharacters": 39
+    },
+    {
+      "id": "S06",
+      "chunkCharacters": 38
+    },
+    {
+      "id": "S07",
+      "chunkCharacters": 40
+    },
+    {
+      "id": "S08",
+      "chunkCharacters": 34
+    },
+    {
+      "id": "S09",
+      "chunkCharacters": 10
+    },
+    {
+      "id": "S10",
+      "chunkCharacters": 24
+    }
+  ],
+  "identicalSRT": true
+}

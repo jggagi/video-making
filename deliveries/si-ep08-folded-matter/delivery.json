@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "title": "被折叠的造物",
+  "slug": "si-ep08-folded-matter",
+  "duration_seconds": 120,
+  "fps": 60,
+  "total_frames": 7200,
+  "script": {
+    "path": "source/script.md",
+    "sha256": "a7c6b691ac5fada74dd8194e2658553e2669cb2b95ac4e98beb7238fe8e9ebe7"
+  },
+  "audio": {
+    "mode": "narrated",
+    "master": "project/public/audio/master.wav",
+    "master_sha256": "c8f5d0914e0b8ec621d6fbcd23114887b342dde1e5da9327eeff9cac3610735d",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples_per_channel": 5760000,
+    "narration_provider": "Aliyun Bailian",
+    "voice": "longtian_v3",
+    "sha256": "c8f5d0914e0b8ec621d6fbcd23114887b342dde1e5da9327eeff9cac3610735d"
+  },
+  "outputs": {
+    "bilibili": {
+      "path": "B站/si-ep08-folded-matter-bilibili-120s-4k.mp4",
+      "width": 3840,
+      "height": 2160
+    },
+    "xiaohongshu": {
+      "path": "小红书/si-ep08-folded-matter-xiaohongshu-120s-portrait.mp4",
+      "width": 2160,
+      "height": 3840
+    }
+  },
+  "qa": {
+    "automated": "PASS",
+    "representative_frames": "MODEL_OBSERVED",
+    "continuous_human_review": "NOT_RUN",
+    "target_device_playback": "NOT_RUN",
+    "human_listening": "NOT_RUN"
+  },
+  "visual_qc": {
+    "required": true,
+    "reports": {
+      "bilibili": "review/visual-qc-bilibili-r03/report.json",
+      "xiaohongshu": "review/visual-qc-xiaohongshu-r05/report.json"
+    }
+  }
+}

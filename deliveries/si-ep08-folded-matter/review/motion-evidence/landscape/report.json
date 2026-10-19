@@ -1,0 +1,296 @@
+{
+  "media": "B站/si-ep08-folded-matter-bilibili-120s-4k.mp4",
+  "mediaSHA256": "2d408725eb215602f6bedfc78200037371320eb067e2a6adedcd2740a1bc0cea",
+  "pairs": [
+    {
+      "scene": "rigid",
+      "frames": [
+        180,
+        330
+      ],
+      "deltaSeconds": 2.5,
+      "roiXYXY": [
+        0.5,
+        0.24,
+        0.95,
+        0.78
+      ],
+      "edgeDifferenceYAVG": 14.40144675925926,
+      "warning": false
+    },
+    {
+      "scene": "rigid",
+      "frames": [
+        690,
+        840
+      ],
+      "deltaSeconds": 2.5,
+      "roiXYXY": [
+        0.5,
+        0.24,
+        0.95,
+        0.78
+      ],
+      "edgeDifferenceYAVG": 7.774074074074074,
+      "warning": false
+    },
+    {
+      "scene": "rigid",
+      "frames": [
+        1020,
+        1170
+      ],
+      "deltaSeconds": 2.5,
+      "roiXYXY": [
+        0.5,
+        0.24,
+        0.95,
+        0.78
+      ],
+      "edgeDifferenceYAVG": 13.240972222222222,
+      "warning": false
+    },
+    {
+      "scene": "title",
+      "frames": [
+        1350,
+        1500
+      ],
+      "deltaSeconds": 2.5,
+      "roiXYXY": [
+        0.5,
+        0.24,
+        0.95,
+        0.78
+      ],
+      "edgeDifferenceYAVG": 9.991261574074073,
+      "warning": false
+    },
+    {
+      "scene": "erosion",
+      "frames": [
+        2010,
+        2160
+      ],
+      "deltaSeconds": 2.5,
+      "roiXYXY": [
+        0.5,
+        0.24,
+        0.95,
+        0.78
+      ],
+      "edgeDifferenceYAVG": 15.305844907407407,
+      "warning": false
+    },
+    {
+      "scene": "erosion",
+      "frames": [
+        2370,
+        2520
+      ],
+      "deltaSeconds": 2.5,
+      "roiXYXY": [
+        0.5,
+        0.24,
+        0.95,
+        0.78
+      ],
+      "edgeDifferenceYAVG": 10.993171296296296,
+      "warning": false
+    },
+    {
+      "scene": "erosion",
+      "frames": [
+        2820,
+        2970
+      ],
+      "deltaSeconds": 2.5,
+      "roiXYXY": [
+        0.5,
+        0.24,
+        0.95,
+        0.78
+      ],
+      "edgeDifferenceYAVG": 22.25758101851852,
+      "warning": false
+    },
+    {
+      "scene": "erosion",
+      "frames": [
+        3270,
+        3420
+      ],
+      "deltaSeconds": 2.5,
+      "roiXYXY": [
+        0.5,
+        0.24,
+        0.95,
+        0.78
+      ],
+      "edgeDifferenceYAVG": 30.50347222222222,
+      "warning": false
+    },
+    {
+      "scene": "artifact",
+      "frames": [
+        3780,
+        3930
+      ],
+      "deltaSeconds": 2.5,
+      "roiXYXY": [
+        0.5,
+        0.24,
+        0.95,
+        0.78
+      ],
+      "edgeDifferenceYAVG": 28.011400462962964,
+      "warning": false
+    },
+    {
+      "scene": "artifact",
+      "frames": [
+        4200,
+        4350
+      ],
+      "deltaSeconds": 2.5,
+      "roiXYXY": [
+        0.5,
+        0.24,
+        0.95,
+        0.78
+      ],
+      "edgeDifferenceYAVG": 10.345833333333333,
+      "warning": false
+    },
+    {
+      "scene": "artifact",
+      "frames": [
+        4590,
+        4740
+      ],
+      "deltaSeconds": 2.5,
+      "roiXYXY": [
+        0.5,
+        0.24,
+        0.95,
+        0.78
+      ],
+      "edgeDifferenceYAVG": 29.974131944444444,
+      "warning": false
+    },
+    {
+      "scene": "artifact",
+      "frames": [
+        5100,
+        5250
+      ],
+      "deltaSeconds": 2.5,
+      "roiXYXY": [
+        0.5,
+        0.24,
+        0.95,
+        0.78
+      ],
+      "edgeDifferenceYAVG": 12.497569444444444,
+      "warning": false
+    },
+    {
+      "scene": "city",
+      "frames": [
+        5460,
+        5610
+      ],
+      "deltaSeconds": 2.5,
+      "roiXYXY": [
+        0.5,
+        0.24,
+        0.95,
+        0.78
+      ],
+      "edgeDifferenceYAVG": 4.414872685185185,
+      "warning": false
+    },
+    {
+      "scene": "city",
+      "frames": [
+        5820,
+        5970
+      ],
+      "deltaSeconds": 2.5,
+      "roiXYXY": [
+        0.5,
+        0.24,
+        0.95,
+        0.78
+      ],
+      "edgeDifferenceYAVG": 3.2296875,
+      "warning": false
+    },
+    {
+      "scene": "city",
+      "frames": [
+        6090,
+        6240
+      ],
+      "deltaSeconds": 2.5,
+      "roiXYXY": [
+        0.5,
+        0.24,
+        0.95,
+        0.78
+      ],
+      "edgeDifferenceYAVG": 3.679050925925926,
+      "warning": false
+    },
+    {
+      "scene": "nexus",
+      "frames": [
+        6390,
+        6540
+      ],
+      "deltaSeconds": 2.5,
+      "roiXYXY": [
+        0.5,
+        0.24,
+        0.95,
+        0.78
+      ],
+      "edgeDifferenceYAVG": 1.7202546296296297,
+      "warning": false
+    },
+    {
+      "scene": "nexus",
+      "frames": [
+        6660,
+        6810
+      ],
+      "deltaSeconds": 2.5,
+      "roiXYXY": [
+        0.5,
+        0.24,
+        0.95,
+        0.78
+      ],
+      "edgeDifferenceYAVG": 1.6098958333333333,
+      "warning": false
+    },
+    {
+      "scene": "finale",
+      "frames": [
+        6960,
+        7110
+      ],
+      "deltaSeconds": 2.5,
+      "roiXYXY": [
+        0.5,
+        0.24,
+        0.95,
+        0.78
+      ],
+      "edgeDifferenceYAVG": 1.7279513888888889,
+      "warning": false
+    }
+  ],
+  "method": "Exact decoded frame n from final MP4, 360px previews. Crop excludes HUD and captions. Difference is a review cue, not a perceptual pass.",
+  "humanContinuousPlayback": "NOT_RUN"
+}

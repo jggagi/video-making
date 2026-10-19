@@ -1,0 +1,8 @@
+{
+  "beforeManifestSHA256": "8fa31b1bf47db5c6f578cc1de22ae2b7b1d52f36d5bf938d17731b22e123bf31",
+  "beforeManifest": "review/final-validation-manifest.json",
+  "finalManifestSHA256": "81f58e5f3c417baa92b3250c239fe3e27e77ba40b1559ab0d09af7c603c91f05",
+  "onlyChangedTopLevelKey": "qa",
+  "reason": "Completion status metadata updated after actual tests and frame observations. Source/media/timing/format settings are unchanged.",
+  "validationReport": "review/media-validation-20261019T175433.551609Z.json"
+}

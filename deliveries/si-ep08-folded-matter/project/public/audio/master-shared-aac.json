@@ -1,0 +1,6 @@
+{
+  "masterSHA256": "c8f5d0914e0b8ec621d6fbcd23114887b342dde1e5da9327eeff9cac3610735d",
+  "aacSHA256": "f84f759f4d347c1f9ec1021312a674fe1c4048feef900bb3dc450c711a0b5c5b",
+  "encoder": "local FFmpeg native AAC, 320k, 48kHz stereo",
+  "audioPayloadSHA256": "SHA256=3199ee2283775964fcaee68aa00beda84d3c1b52f4fea040671413d24e006faf"
+}

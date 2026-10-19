@@ -1,0 +1,19 @@
+{
+  "reason": "Actual encoded landscape frame 5880 showed generic chapter text overlapping the foreground quote.",
+  "evidenceBefore": "review/quote-overlap-before.png",
+  "sourceChange": "Hide the generic act-title and its supporting text only while quote is true; keep foreground quote and all other layers.",
+  "sourceFile": "project/src/Film.tsx",
+  "beforeSHA256": "0522267f720493dc3e2a9bec1d970edd01ee4d3bd617b3b9d296c6c032486f85",
+  "afterSHA256": "186a0bf2f8e3bbcedf072cd4b0930648d39cff881c7da31c4a742313c012583b",
+  "affectedFrames": {
+    "startInclusive": 5880,
+    "endExclusive": 6300,
+    "countPerLayout": 420
+  },
+  "audioUnchanged": true,
+  "rootSourcePreviewObserved": [
+    "review/source-landscape-5881.png",
+    "review/source-portrait-5881.png"
+  ],
+  "rootObservation": "Full quote is separated from city imagery; generic chapter heading/support copy no longer collide. Native source previews only; final encoded verification remains required."
+}

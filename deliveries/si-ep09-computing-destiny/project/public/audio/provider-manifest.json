@@ -1,0 +1,309 @@
+{
+  "version": 1,
+  "settings": {
+    "provider": "Aliyun Bailian",
+    "model_selection": "active profile default",
+    "effective_model": "cosyvoice-v3-flash",
+    "voice": "longtian_v3",
+    "rate": 1.0,
+    "format": "wav",
+    "sample_rate": 24000
+  },
+  "authorization": {
+    "manifest": "project/audio-authorization.json",
+    "sha256AtInvocation": "691be963badd0fa25515e98ae60701173ef04f79138a7ef63d72808f703c8c36",
+    "scope": "EP09 S01 through S08 exact prepared tts_phonetic_text",
+    "source": "Direct human answer in current chat: 授权沿用百炼 longtian_v3"
+  },
+  "segments": {
+    "S01": {
+      "cache_key": "aac4d41fc15e0b4e5a8a0c466f6fdbc3ad8e61dfdeeb82f2e0fcc1281b02d71c",
+      "tts_phonetic_text": "你以为的命中注定、一眼万年，在超级智能眼里，只是一道，算穿到小数点后六位的，概率题。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 193920,
+      "actual_samples_48k": 387840,
+      "duration_seconds": 8.08,
+      "declared_window_samples": 412800,
+      "fits_declared_window_before_onset_adjustment": true,
+      "pcm_sha256_24k": "1ea75c7b58b8bf11a699017b507d9dc36bd7579c1c4c270c7cd9ee5f46a92c2f",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S01-aac4d41fc15e.wav",
+      "raw_sha256": "c586a2ae5642e24fd30d8e52905465baac552a9c8e96a5e651243e8c8bc4a547",
+      "canonical_path": "public/audio/canonical/S01-aac4d41fc15e.wav",
+      "canonical_sha256": "de34c5cc39afca8b350af04512cd42014ee416e3d5e6b76bf66ea392101c18a8",
+      "cue_path": "public/audio/cues/S01-aac4d41fc15e.wav",
+      "cue_sha256": "8be2adcbf37a78eb120efa9d08a0c762e41af07ddc7904adc6643d9f138964db",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response",
+      "declared_start_frame": 24,
+      "declared_end_frame": 540
+    },
+    "S02": {
+      "cache_key": "2ce63879265c20b0434d8e4bed42c7ae51ac354ab115af114d590eeca8664ecb",
+      "tts_phonetic_text": "没有什么神秘的缘分。心跳漏掉的那半拍，不过是一百二十八个生理参数的，瞬间咬合。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 195840,
+      "actual_samples_48k": 391680,
+      "duration_seconds": 8.16,
+      "declared_window_samples": 480000,
+      "fits_declared_window_before_onset_adjustment": true,
+      "pcm_sha256_24k": "68391c6f1f001c71b7a56796124e1be32ac14f88241e1f31f0287fdfbc40611f",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S02-2ce63879265c.wav",
+      "raw_sha256": "af948b4331949934f5aa29733af751d8ea9bcb139bf140b92f6ac26ddeeae0d8",
+      "canonical_path": "public/audio/canonical/S02-2ce63879265c.wav",
+      "canonical_sha256": "c72f3480b54bb24410be1bdd153ea519b94c33703886b9942ebf1365901228d8",
+      "cue_path": "public/audio/cues/S02-2ce63879265c.wav",
+      "cue_sha256": "65aa3a0e32ccc96599e132e48f11faa5533f298c7f9d9e004511aa56fe6d55e7",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response",
+      "declared_start_frame": 540,
+      "declared_end_frame": 1140
+    },
+    "S03": {
+      "cache_key": "73c252da79bb8599686c081b6969b68ac0c769ba4ad52aa6639572ee118e8744",
+      "tts_phonetic_text": "当你们刚刚说出，第一句你好，它已经在十万维空间里，积分完了你们未来三年的，全部轨迹。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 172800,
+      "actual_samples_48k": 345600,
+      "duration_seconds": 7.2,
+      "declared_window_samples": 528000,
+      "fits_declared_window_before_onset_adjustment": true,
+      "pcm_sha256_24k": "cb4d9126f349e4129fc14143154747fdf8ae631ba9fb4de9a5896571b97ff83c",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S03-73c252da79bb.wav",
+      "raw_sha256": "c4d35b6ea9cc874f81df05da32499f151fa5530ffaafccabebde1cbd908478e7",
+      "canonical_path": "public/audio/canonical/S03-73c252da79bb.wav",
+      "canonical_sha256": "d962fbf1a1a31dc918bd903949e30df9cd8f16493b9ab5c2fd2614697f770368",
+      "cue_path": "public/audio/cues/S03-73c252da79bb.wav",
+      "cue_sha256": "ce92c7a7004e7d92f2f059358678fd023342df77f8abf6c99b3105993f27115e",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response",
+      "declared_start_frame": 1200,
+      "declared_end_frame": 1860
+    },
+    "S04": {
+      "cache_key": "d65449548b5673ce9effe83d27c203989ce4b097d15b3ba18397e97c31b5ff27",
+      "tts_phonetic_text": "第十四天心动，第一百八十天争吵，第四百八十九天，在雨夜说出再见，误差，不超过三小时。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 245760,
+      "actual_samples_48k": 491520,
+      "duration_seconds": 10.24,
+      "declared_window_samples": 528000,
+      "fits_declared_window_before_onset_adjustment": true,
+      "pcm_sha256_24k": "26fba7f75f3334cb3a29cfea86703e451ac2acf085528aff7021c502af2ae3eb",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S04-d65449548b56.wav",
+      "raw_sha256": "53f2d4f12990573c46231ddb5623f299e46c2f0da342be150a9c14dd0a77a77c",
+      "canonical_path": "public/audio/canonical/S04-d65449548b56.wav",
+      "canonical_sha256": "ebc2ace9797e1fc0b36aa97743dd3b44bdc4d06272f3bcf49c884b53cfdaf0bd",
+      "cue_path": "public/audio/cues/S04-d65449548b56.wav",
+      "cue_sha256": "e5c36eb99760d3d28077e3d806d2f46bf25d9b679002318cc462c9999bebbd68",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response",
+      "declared_start_frame": 1920,
+      "declared_end_frame": 2580
+    },
+    "S05": {
+      "cache_key": "b68cd2fd3d2f9e63d76a10afdd9591e7592782b516cd8fc12bedec66fd39c392",
+      "tts_phonetic_text": "更让人后背发凉的是：就连今天街角的那次偶遇，真的是巧合吗？",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 147840,
+      "actual_samples_48k": 295680,
+      "duration_seconds": 6.16,
+      "declared_window_samples": 528000,
+      "fits_declared_window_before_onset_adjustment": true,
+      "pcm_sha256_24k": "3e3e3daaa7c3505a37552db322b66088a1c289714d9188973fbab2c47e6ed5e5",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S05-b68cd2fd3d2f.wav",
+      "raw_sha256": "9e8f00967ba4429f541d3649cf6b0aaa8b5fad8dbc525fd2e7dedc4b2a9eb6a8",
+      "canonical_path": "public/audio/canonical/S05-b68cd2fd3d2f.wav",
+      "canonical_sha256": "539befcdb62498f64bf444d9dfff03bb4e59208732ad7a89930da329cb5893e1",
+      "cue_path": "public/audio/cues/S05-b68cd2fd3d2f.wav",
+      "cue_sha256": "9ac779a290c66ad93c12345c1a2162f08d0a0169a045392febc8e83a11376188",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response",
+      "declared_start_frame": 2640,
+      "declared_end_frame": 3300
+    },
+    "S06": {
+      "cache_key": "623ddf84f797e025874a515c5dc7da1e0b3c368de1954a6640378dae128f012d",
+      "tts_phonetic_text": "提前两小时，推给你的一首歌；让地铁晚点的十五秒。算法只需拨动三根蝴蝶的丝线，就能替你制造，一场宿命。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 270720,
+      "actual_samples_48k": 541440,
+      "duration_seconds": 11.28,
+      "declared_window_samples": 576000,
+      "fits_declared_window_before_onset_adjustment": true,
+      "pcm_sha256_24k": "ad71ee134f2339fde2295ed6efb3b392af398ad59183e3dae5f11dda0084dfdd",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S06-623ddf84f797.wav",
+      "raw_sha256": "aea227c35d4d978460e911ec1d6cd6fefaf6ed213d4cf3147674c03b6f2b5e75",
+      "canonical_path": "public/audio/canonical/S06-623ddf84f797.wav",
+      "canonical_sha256": "d7e827554f713c98601387fb5f270b704bb7e2c698e167aabd0ca24b741ee6d2",
+      "cue_path": "public/audio/cues/S06-623ddf84f797.wav",
+      "cue_sha256": "9fe6e3c82527dde83c6f484f0349c6b944ff54ca8fc15a13e508c9a4ac6f87c3",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response",
+      "declared_start_frame": 3360,
+      "declared_end_frame": 4080
+    },
+    "S07": {
+      "cache_key": "de333c596858f0ce2b293bef597b1881789c05735edf64bfbf5a552b84b0429d",
+      "tts_phonetic_text": "超级智能，可以算尽世间所有的利弊、巧合与结局。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 122880,
+      "actual_samples_48k": 245760,
+      "duration_seconds": 5.12,
+      "declared_window_samples": 528000,
+      "fits_declared_window_before_onset_adjustment": true,
+      "pcm_sha256_24k": "6a7ef8d62c021c5a55eb0be8770279d78af8affa1d6533d6a8af2516d168f0d4",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S07-de333c596858.wav",
+      "raw_sha256": "009f886aaa4d0090e0c853052a7fcb28e8926c8f5c496907f9bc908ff15e963d",
+      "canonical_path": "public/audio/canonical/S07-de333c596858.wav",
+      "canonical_sha256": "2dc0ffedbc7ed5c2ac6e6b2301161d5d32e94f4d43614d8080f538ce57a5823e",
+      "cue_path": "public/audio/cues/S07-de333c596858.wav",
+      "cue_sha256": "23cc38e3e01df827ac18758bfceabca70a047b14e674b6d5143bdd5dc8b079e1",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response",
+      "declared_start_frame": 4140,
+      "declared_end_frame": 4800
+    },
+    "S08": {
+      "cache_key": "e1e6d1b68825f6ec88e9638b8e7445beadabf92e6587fa8dc827bf3006665692",
+      "tts_phonetic_text": "唯独算不准人类，在明知结局之后，依然选择飞蛾扑火的笨拙。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 161280,
+      "actual_samples_48k": 322560,
+      "duration_seconds": 6.72,
+      "declared_window_samples": 432000,
+      "fits_declared_window_before_onset_adjustment": true,
+      "pcm_sha256_24k": "577023a03025527396f36b78e7195becfe9abfa59a6bbd5e188090d3bd159512",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S08-e1e6d1b68825.wav",
+      "raw_sha256": "bcb448a2e4e1f74f79063c7de3ec0452126a1117930c8df99af0f08e127b4810",
+      "canonical_path": "public/audio/canonical/S08-e1e6d1b68825.wav",
+      "canonical_sha256": "38893a61228b9cf6332f1639f013ac689ba3f369394cde55c44faa0789680fe5",
+      "cue_path": "public/audio/cues/S08-e1e6d1b68825.wav",
+      "cue_sha256": "d72720c02c29bd0830a5b1802f7254ab45628e881267491ba867e724b287a422",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response",
+      "declared_start_frame": 4860,
+      "declared_end_frame": 5400
+    }
+  },
+  "cacheHistory": []
+}

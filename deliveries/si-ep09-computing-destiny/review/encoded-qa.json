@@ -1,0 +1,95 @@
+{
+  "status": "PASS",
+  "movie_sha256": "c9f5514809d710849f12ca4074a9f89b5e954cb25dd439b01c7f959a9641cfa1",
+  "frames_extracted": [
+    0,
+    120,
+    270,
+    480,
+    720,
+    960,
+    1110,
+    1200,
+    1500,
+    1650,
+    1920,
+    2100,
+    2340,
+    2640,
+    2850,
+    3000,
+    3360,
+    3480,
+    3600,
+    3720,
+    3840,
+    3990,
+    4080,
+    4140,
+    4500,
+    4650,
+    4859,
+    4860,
+    4884,
+    4885,
+    5100,
+    5250,
+    5399
+  ],
+  "frame_extraction": "exact integer select from final encoded stream; contact at360px; native selected frames retained locally",
+  "loudness": {
+    "integratedLUFS": -16.0,
+    "truePeakDBTP": -1.6
+  },
+  "aac_compare": {
+    "decoded_samples_per_channel": 4320256,
+    "master_samples_per_channel": 4320000,
+    "waveform_correlation_to_master": 0.9999662943768116,
+    "authored_silence_window": {
+      "peak_pcm16": 2.0,
+      "peak_dbfs": -84.28839878591474,
+      "exact_zero": false
+    },
+    "silence_center_excluding2frames_at_edges": {
+      "peak_pcm16": 0.0,
+      "peak_dbfs": null,
+      "exact_zero": true
+    },
+    "note": "Exact25frame zero is a PCMmaster property. AAC MDCT boundary ringing and encoder padding are measured separately; no claim that encoded boundaries preserve digitalzero."
+  },
+  "streams": [
+    {
+      "codec_type": "video",
+      "codec_name": "h264",
+      "width": 2160,
+      "height": 3840,
+      "r_frame_rate": "60/1",
+      "avg_frame_rate": "60/1",
+      "nb_frames": "5400",
+      "duration": "90.000000",
+      "sample_rate": null,
+      "channels": null,
+      "pix_fmt": "yuv420p",
+      "color_space": "bt709",
+      "color_transfer": "bt709",
+      "color_primaries": "bt709"
+    },
+    {
+      "codec_type": "audio",
+      "codec_name": "aac",
+      "width": null,
+      "height": null,
+      "r_frame_rate": "0/0",
+      "avg_frame_rate": "0/0",
+      "nb_frames": "4221",
+      "duration": "90.005000",
+      "sample_rate": "48000",
+      "channels": 2,
+      "pix_fmt": null,
+      "color_space": null,
+      "color_transfer": null,
+      "color_primaries": null
+    }
+  ],
+  "limitation": "No human listening, continuous audience review or physical RED playback inferred"
+}

@@ -1,0 +1,65 @@
+{
+  "status": "PASS",
+  "scope": "Root review of exact proposed archive assets and independent read-only prearchive audit",
+  "new_release": "film-si-ep09-computing-destiny-1c5575dd24dc",
+  "asset_count": 8,
+  "selected_assets": [
+    {
+      "path": "deliveries/si-ep09-computing-destiny/review/iterations/initial-90s.mp4",
+      "platform": "预览",
+      "bytes": 55677766,
+      "sha256": "2ec6749477417216ec6837dd0a55eba28e50a243047bf5bdb066b372845a0f51"
+    },
+    {
+      "path": "deliveries/si-ep09-computing-destiny/review/motion-1200-2639.mp4",
+      "platform": "预览",
+      "bytes": 14562031,
+      "sha256": "1969678e8254896ef506b49394fe8ca3a1047843905759f091a6927877a56cde"
+    },
+    {
+      "path": "deliveries/si-ep09-computing-destiny/review/motion-1920-2099.mp4",
+      "platform": "预览",
+      "bytes": 1269675,
+      "sha256": "2d8203dce5032c7f1bec95ca84e71fe20dcf3fd3c49be8444e2b461d63ee49cb"
+    },
+    {
+      "path": "deliveries/si-ep09-computing-destiny/review/motion-3540-3719.mp4",
+      "platform": "预览",
+      "bytes": 1493612,
+      "sha256": "1a5ee33df182a1387bc62a5e032080f6e8c76b8028415d3f6fb18283d5c51ba7"
+    },
+    {
+      "path": "deliveries/si-ep09-computing-destiny/review/motion-4800-5059.mp4",
+      "platform": "预览",
+      "bytes": 2114075,
+      "sha256": "dfc8592692cd5dc0e5c3e477d05645c922201a2f3c8399e4f4cc17fbdda08928"
+    },
+    {
+      "path": "deliveries/si-ep09-computing-destiny/review/motion-60-239.mp4",
+      "platform": "预览",
+      "bytes": 1385437,
+      "sha256": "17d83effd55c1af00496290276ef7648446c6b1180d14a146130ed4794744e67"
+    },
+    {
+      "path": "deliveries/si-ep09-computing-destiny/si-ep09-computing-destiny-project.zip",
+      "platform": "工程",
+      "bytes": 40847921,
+      "sha256": "ec25202a48d189bdf51db2364030e7a25f71105342e989c18f4832086abb65ef"
+    },
+    {
+      "path": "deliveries/si-ep09-computing-destiny/小红书/si-ep09-computing-destiny-xiaohongshu-90s-portrait.mp4",
+      "platform": "小红书",
+      "bytes": 60904573,
+      "sha256": "c9f5514809d710849f12ca4074a9f89b5e954cb25dd439b01c7f959a9641cfa1"
+    }
+  ],
+  "previous_18_works_unchanged": true,
+  "independent_audit": {
+    "credential_like_literals": "NONE_FOUND_IN_BOUNDED_SCAN",
+    "local_paths": "Intentional technical provenance and Q workstation commands; already within user-provided repository context, no private source content identified",
+    "zip_movie_exclusion": "Intentional; source ZIP contains cached narration/stems and editable code. watch.html and samples.html require separate matching media assets from this same Release. Restore media paths with scripts/fetch-archive-assets.py from the repository checkout.",
+    "failed_aac_candidate": "Local .failed file excluded from Git, ZIP, archive and final library"
+  },
+  "root_decision": "No remaining material prearchive blocker; keep inspectable provenance and separate movie assets",
+  "human_listening": "NOT_RUN"
+}

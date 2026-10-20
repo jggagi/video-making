@@ -854,6 +854,30 @@
       ]
     },
     {
+      "id": "si-ep09-computing-destiny",
+      "title": "Final 成片备份 · 被算尽的心动",
+      "release_tag": "final-si-ep09-computing-destiny-1c5575dd24dc",
+      "assets": [
+        {
+          "path": "final/si-ep09-computing-destiny/小红书/si-ep09-computing-destiny-xiaohongshu-90s-portrait.mp4",
+          "name": "final--si-ep09-computing-destiny--deliveries--si-ep09-computing-destiny-----si-ep09-computing-destiny-xiaohongshu-90s-portrait--c9f5514809d7.mp4",
+          "bytes": 60904573,
+          "sha256": "c9f5514809d710849f12ca4074a9f89b5e954cb25dd439b01c7f959a9641cfa1",
+          "kind": "video",
+          "platform": "小红书",
+          "measurements": {
+            "width": 2160,
+            "height": 3840,
+            "fps": "60/1",
+            "frames": "5400",
+            "video_duration_seconds": 90.0,
+            "container_duration_seconds": 90.005
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep09-computing-destiny-1c5575dd24dc/final--si-ep09-computing-destiny--deliveries--si-ep09-computing-destiny-----si-ep09-computing-destiny-xiaohongshu-90s-portrait--c9f5514809d7.mp4"
+        }
+      ]
+    },
+    {
       "id": "si-eternity",
       "title": "Final 成片备份 · 一眼万年",
       "release_tag": "final-si-eternity-66d480b1c859",

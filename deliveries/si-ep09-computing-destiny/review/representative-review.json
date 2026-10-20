@@ -1,0 +1,58 @@
+{
+  "scope": "Pre-final native samples in real in-app browser HTML video player",
+  "status": "PASS",
+  "native_size": [
+    2160,
+    3840
+  ],
+  "sample_playback": [
+    {
+      "path": "review/motion-60-239.mp4",
+      "observed_duration": 3.008,
+      "ended": true
+    },
+    {
+      "path": "review/motion-1920-2099.mp4",
+      "observed_duration": 3.008,
+      "ended": true
+    },
+    {
+      "path": "review/motion-3540-3719.mp4",
+      "observed_duration": 3.008,
+      "ended": true
+    },
+    {
+      "path": "review/motion-4800-5059.mp4",
+      "observed_duration": 4.352,
+      "ended": true
+    }
+  ],
+  "observations": [
+    "All four loaded videoWidth2160/videoHeight3840 readyState4; all were played at normal speed to ended with no media error",
+    "Warm orbs converge; computed trajectory grows; successive citynudge cards and path changes are visible; departure arrow points away; impact resolves to amber/rose approach",
+    "Native still reviews corrected small Act4 geometry, inverted heart, the departure arrow direction and the staged nudge effect"
+  ],
+  "audio_status": "Real narration/score/SFX included in all samples; human listening NOT_RUN; the host does not provide audio input to the model",
+  "full_continuous_human_review": "NOT_RUN",
+  "phone_or_RED_app": "NOT_RUN",
+  "audience_response": "NOT_RUN",
+  "interpretation": "Model visual observations; not proof of virality or real psychological predictions",
+  "act2_revision": {
+    "status": "MODEL_OBSERVED",
+    "path": "review/motion-1200-2639.mp4",
+    "sha256": "1969678e8254896ef506b49394fe8ca3a1047843905759f091a6927877a56cde",
+    "native_dimensions": [
+      2160,
+      3840
+    ],
+    "duration_seconds": 24.0,
+    "normal_speed_playback_ended": true,
+    "media_error": false,
+    "observed": [
+      "Actual25s frame shows fullfutureandDAY489alreadyvisible while humansremainDAY001",
+      "24s nativeactplayedtoended in actualIABvideo"
+    ],
+    "superseded_sample": "review/motion-1920-2099.mp4",
+    "limits": "Model visual observation; no human listening"
+  }
+}

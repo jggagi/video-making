@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "formal_movie_sha256": "c9f5514809d710849f12ca4074a9f89b5e954cb25dd439b01c7f959a9641cfa1",
+  "strict_media_validation": "review/media-validation-20261020T044535.239515Z.json",
+  "render_inputs_unchanged": true,
+  "sha256": {
+    "delivery.json": "ff88cb0a45950def0704a16fa086d315757206a2846955b6304153e801be41d5",
+    "source/script.md": "a7acd95be0c312dfdc16af9f22749caa9103890db99fed1dc7677590995ec5ee",
+    "project/public/audio/master.wav": "fd5ce2271de220bc0a429c09b92f845cd189fd711460e4c35c20d446430eb96b",
+    "review/render-inputs.json": "17bc4e211b87f780fb703b861d890ca8c0903a7c7d9e8d4ce3038894668c502c",
+    "review/media-validation-20261020T044535.239515Z.json": "3634477106f3e3e984d99429671180037344bbc206e07af581fdbdb4a4e1192a",
+    "review/visual-qc-xiaohongshu-r02/report.json": "e5ec9604ff5c2e33f3f90b99087b9b8b218d45c4bca1c9725552950047a17ceb"
+  },
+  "gates": {
+    "source_typescript": "PASS",
+    "project_invariants": "PASS",
+    "strict_decode_and_media": "PASS",
+    "all_5400_frames_screened": "PASS",
+    "selected_final_frames": "MODEL_OBSERVED",
+    "browser_controls_and_ended": "PASS",
+    "human_continuous_viewing": "NOT_RUN",
+    "human_listening": "NOT_RUN",
+    "physical_RED_app": "NOT_RUN",
+    "audience_outcome": "NOT_RUN"
+  }
+}

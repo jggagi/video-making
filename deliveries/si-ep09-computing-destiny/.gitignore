@@ -1,0 +1,6 @@
+# Full native intermediate stills are local; compact contacts and final QA are versioned.
+review/source-*.png
+review/encoded-*.png
+
+# Failed mux kept locally with compact rejection evidence.
+review/iterations/*.failed

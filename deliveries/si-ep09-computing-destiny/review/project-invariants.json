@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "scope": "Project timing, subtitle layout, source determinism, output target, PCM counts and silence; no human listening or perceptual acceptance",
+  "caption_count": 34,
+  "audio": {
+    "narration": {
+      "sha256": "9d259802737d0ff583567a932b75b688d9650e5a087f84723ae301a1cc607ba5",
+      "samples_per_channel": 4320000,
+      "silence_window_exact_zero": true
+    },
+    "score": {
+      "sha256": "c7f98c6c82a72615825597267f11d344c400a59a25445a3a0cbf9fb8a99954d4",
+      "samples_per_channel": 4320000,
+      "silence_window_exact_zero": true
+    },
+    "sfx": {
+      "sha256": "a9ba11cae15116e3c1d457811d49c79536fd2fe0b51c7c4f1e8a5a65da4a3bf8",
+      "samples_per_channel": 4320000,
+      "silence_window_exact_zero": true
+    },
+    "master": {
+      "sha256": "fd5ce2271de220bc0a429c09b92f845cd189fd711460e4c35c20d446430eb96b",
+      "samples_per_channel": 4320000,
+      "silence_window_exact_zero": true
+    }
+  },
+  "safe_geometry": {
+    "critical_x": [
+      64,
+      902
+    ],
+    "hud_y": [
+      173,
+      288
+    ],
+    "subtitle_y": [
+      1374,
+      1494
+    ],
+    "preview_width": 360,
+    "subtitle_effective_px": 16.333333333333332
+  }
+}

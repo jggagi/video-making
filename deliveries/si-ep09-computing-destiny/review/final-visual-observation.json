@@ -1,0 +1,33 @@
+{
+  "status": "MODEL_OBSERVED",
+  "movie_sha256": "c9f5514809d710849f12ca4074a9f89b5e954cb25dd439b01c7f959a9641cfa1",
+  "evidence": [
+    "encoded-contact-01.jpg",
+    "encoded-contact-02.jpg",
+    "encoded-contact-03.jpg",
+    "native-dark-and-heart-crop.png",
+    "phase-fast-25s.jpg"
+  ],
+  "observed_frame_count": 33,
+  "mobile_contact_width_px": 360,
+  "observations": [
+    "Subtitles legible at360px; up to2lines, <=13Chinese characters perline, logical49px=>16.3px preview",
+    "Critical visual labels, subtitles and human nodes do not overlap the designated top8%, right14%, bottom22% UI zones in inspected frames",
+    "The entire future trajectory is visibly drawn by25seconds while humans remain atDAY001",
+    "Act3 three distinct nudges progressively bend the human routes; magenta target convergence is visible",
+    "Act4 expected departure arrow points away, then amber/crimson impact and upright heart provide the final choice",
+    "Geometry differs across motion pairs960/1110,1500/1650,2850/3000,4500/4650; the last frame is intentional closing image",
+    "Native dark/heart crop has no severe visible banding, tile artifact or malformed heart shape"
+  ],
+  "automated_screening": {
+    "report": "visual-qc-xiaohongshu-r02/report.json",
+    "complete_frames": 5400,
+    "flagged_frames": 0,
+    "scope": "Temporal and low-information heuristics; no semantic judgment inferred"
+  },
+  "limitations": [
+    "Model visual observation of selected frames and short native motion samples",
+    "No human listening or continuous audience review",
+    "No physical phone/RED app review or real audience performance data"
+  ]
+}

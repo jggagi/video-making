@@ -1,0 +1,57 @@
+{
+  "fps": 60,
+  "events": [
+    {
+      "frame": 60,
+      "id": "romantic_cello"
+    },
+    {
+      "frame": 240,
+      "id": "cyan_scan"
+    },
+    {
+      "frame": 720,
+      "id": "double_heartbeat"
+    },
+    {
+      "frame": 1380,
+      "id": "time_spiral"
+    },
+    {
+      "frame": 2340,
+      "id": "day489_terminal"
+    },
+    {
+      "frame": 2700,
+      "id": "rewind_38hz"
+    },
+    {
+      "frame": 3360,
+      "id": "nudge1"
+    },
+    {
+      "frame": 3600,
+      "id": "nudge2"
+    },
+    {
+      "frame": 3840,
+      "id": "nudge3"
+    },
+    {
+      "frame": 4380,
+      "id": "shepard_rise"
+    },
+    {
+      "frame": 4860,
+      "id": "silence_start"
+    },
+    {
+      "frame": 4885,
+      "id": "defiant_piano_cello"
+    }
+  ],
+  "absoluteSilence": [
+    4860,
+    4885
+  ]
+}

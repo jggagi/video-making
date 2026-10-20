@@ -1,0 +1,28 @@
+{
+  "archive": {
+    "status": "PASS",
+    "catalog": "archive/catalog.json",
+    "command": [
+      "python3",
+      "skills/dual-platform-video/scripts/upload_releases.py",
+      "--catalog",
+      "archive/catalog.json",
+      "--root",
+      "."
+    ],
+    "selected_new_work_only": "review/archive-preflight.json"
+  },
+  "final": {
+    "status": "PASS",
+    "catalog": "final/backup-catalog.json",
+    "command": [
+      "python3",
+      "skills/dual-platform-video/scripts/upload_releases.py",
+      "--catalog",
+      "final/backup-catalog.json",
+      "--root",
+      "."
+    ],
+    "selected_new_work_only": "final/backup-catalog.json"
+  }
+}

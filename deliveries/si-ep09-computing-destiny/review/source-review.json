@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "reviewer": "independent luna_worker, root integrated review",
+  "scope": "Read-only source/metadata consistency, hash/PCM inspection; excludes rendered full movie and human listening",
+  "findings": [],
+  "verified": [
+    "Master actual SHA matches delivery, mix/settings, timing and render inputs",
+    "Exact90s/48kHz/stereo/PCM16 and zero over4860..4885",
+    "S08 cue starts at3908000samples; estimated captions start4898",
+    "Eight natural-speed cue spans fit windows;34 captions fit13x2",
+    "Three visual nudges and SFX events match3360/3600/3840",
+    "No nondeterministic animation calls or inline provider credentials/response bodies"
+  ],
+  "master_sha256": "fd5ce2271de220bc0a429c09b92f845cd189fd711460e4c35c20d446430eb96b",
+  "limitations": [
+    "No human listening",
+    "Raw cue asset contents not independently listened to",
+    "No full rendered movie inspected by this source reviewer"
+  ]
+}

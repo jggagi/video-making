@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "title": "被算尽的心动",
+  "slug": "si-ep09-computing-destiny",
+  "duration_seconds": 90,
+  "fps": 60,
+  "total_frames": 5400,
+  "platforms": [
+    "xiaohongshu"
+  ],
+  "script": {
+    "path": "source/script.md",
+    "sha256": "a7acd95be0c312dfdc16af9f22749caa9103890db99fed1dc7677590995ec5ee"
+  },
+  "audio": {
+    "mode": "narrated",
+    "master": "project/public/audio/master.wav",
+    "master_sha256": "fd5ce2271de220bc0a429c09b92f845cd189fd711460e4c35c20d446430eb96b",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples_per_channel": 4320000,
+    "narration_provider": "Aliyun Bailian",
+    "effective_model": "cosyvoice-v3-flash",
+    "voice": "longtian_v3",
+    "integrated_lufs": -16.0,
+    "true_peak_dbtp": -1.6
+  },
+  "outputs": {
+    "xiaohongshu": {
+      "path": "小红书/si-ep09-computing-destiny-xiaohongshu-90s-portrait.mp4",
+      "width": 2160,
+      "height": 3840
+    }
+  },
+  "qa": {
+    "automated": "PASS",
+    "representative_frames": "MODEL_OBSERVED",
+    "continuous_human_review": "NOT_RUN",
+    "human_listening": "NOT_RUN",
+    "target_device_playback": "NOT_RUN"
+  },
+  "visual_qc": {
+    "required": true,
+    "reports": {
+      "xiaohongshu": "review/visual-qc-xiaohongshu-r02/report.json"
+    }
+  }
+}

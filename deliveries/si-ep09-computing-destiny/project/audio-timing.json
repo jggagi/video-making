@@ -1,0 +1,703 @@
+{
+  "durationSeconds": 90,
+  "fps": 60,
+  "sampleRate": 48000,
+  "samplesPerFrame": 800,
+  "samplesPerChannel": 4320000,
+  "status": "measured_pcm_with_estimated_phrase_timing",
+  "captionTimingMethod": "Original phrase chunks allocated by character weight only within measured active PCM spans; no ASR or forced word alignment.",
+  "segments": [
+    {
+      "id": "S01",
+      "declaredStartFrame": 24,
+      "declaredEndFrame": 540,
+      "voiceStartSample": 19200,
+      "voiceEndSampleExclusive": 385147,
+      "cueStartSample": 9623,
+      "cueEndSampleExclusive": 397463,
+      "cueSamplesAt48k": 387840,
+      "measuredActiveSamples": 365947,
+      "onsetOffsetSamplesInCue": 9577,
+      "activeEndOffsetSamplesInCueExclusive": 375524,
+      "placement": "measured active PCM onset aligned to the declared start frame; complete source cue preserved",
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 69,
+        "windowSamples": 240
+      }
+    },
+    {
+      "id": "S02",
+      "declaredStartFrame": 540,
+      "declaredEndFrame": 1140,
+      "voiceStartSample": 432000,
+      "voiceEndSampleExclusive": 801744,
+      "cueStartSample": 422151,
+      "cueEndSampleExclusive": 813831,
+      "cueSamplesAt48k": 391680,
+      "measuredActiveSamples": 369744,
+      "onsetOffsetSamplesInCue": 9849,
+      "activeEndOffsetSamplesInCueExclusive": 379593,
+      "placement": "measured active PCM onset aligned to the declared start frame; complete source cue preserved",
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 81,
+        "windowSamples": 240
+      }
+    },
+    {
+      "id": "S03",
+      "declaredStartFrame": 1200,
+      "declaredEndFrame": 1860,
+      "voiceStartSample": 960000,
+      "voiceEndSampleExclusive": 1286690,
+      "cueStartSample": 950260,
+      "cueEndSampleExclusive": 1295860,
+      "cueSamplesAt48k": 345600,
+      "measuredActiveSamples": 326690,
+      "onsetOffsetSamplesInCue": 9740,
+      "activeEndOffsetSamplesInCueExclusive": 336430,
+      "placement": "measured active PCM onset aligned to the declared start frame; complete source cue preserved",
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 95,
+        "windowSamples": 240
+      }
+    },
+    {
+      "id": "S04",
+      "declaredStartFrame": 1920,
+      "declaredEndFrame": 2580,
+      "voiceStartSample": 1536000,
+      "voiceEndSampleExclusive": 2005525,
+      "cueStartSample": 1524933,
+      "cueEndSampleExclusive": 2016453,
+      "cueSamplesAt48k": 491520,
+      "measuredActiveSamples": 469525,
+      "onsetOffsetSamplesInCue": 11067,
+      "activeEndOffsetSamplesInCueExclusive": 480592,
+      "placement": "measured active PCM onset aligned to the declared start frame; complete source cue preserved",
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 85,
+        "windowSamples": 240
+      }
+    },
+    {
+      "id": "S05",
+      "declaredStartFrame": 2640,
+      "declaredEndFrame": 3300,
+      "voiceStartSample": 2112000,
+      "voiceEndSampleExclusive": 2386578,
+      "cueStartSample": 2101223,
+      "cueEndSampleExclusive": 2396903,
+      "cueSamplesAt48k": 295680,
+      "measuredActiveSamples": 274578,
+      "onsetOffsetSamplesInCue": 10777,
+      "activeEndOffsetSamplesInCueExclusive": 285355,
+      "placement": "measured active PCM onset aligned to the declared start frame; complete source cue preserved",
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 100,
+        "windowSamples": 240
+      }
+    },
+    {
+      "id": "S06",
+      "declaredStartFrame": 3360,
+      "declaredEndFrame": 4080,
+      "voiceStartSample": 2688000,
+      "voiceEndSampleExclusive": 3209467,
+      "cueStartSample": 2677319,
+      "cueEndSampleExclusive": 3218759,
+      "cueSamplesAt48k": 541440,
+      "measuredActiveSamples": 521467,
+      "onsetOffsetSamplesInCue": 10681,
+      "activeEndOffsetSamplesInCueExclusive": 532148,
+      "placement": "measured active PCM onset aligned to the declared start frame; complete source cue preserved",
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 71,
+        "windowSamples": 240
+      }
+    },
+    {
+      "id": "S07",
+      "declaredStartFrame": 4140,
+      "declaredEndFrame": 4800,
+      "voiceStartSample": 3312000,
+      "voiceEndSampleExclusive": 3538620,
+      "cueStartSample": 3301932,
+      "cueEndSampleExclusive": 3547692,
+      "cueSamplesAt48k": 245760,
+      "measuredActiveSamples": 226620,
+      "onsetOffsetSamplesInCue": 10068,
+      "activeEndOffsetSamplesInCueExclusive": 236688,
+      "placement": "measured active PCM onset aligned to the declared start frame; complete source cue preserved",
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 86,
+        "windowSamples": 240
+      }
+    },
+    {
+      "id": "S08",
+      "declaredStartFrame": 4860,
+      "declaredEndFrame": 5400,
+      "voiceStartSample": 3918355,
+      "voiceEndSampleExclusive": 4221435,
+      "cueStartSample": 3908000,
+      "cueEndSampleExclusive": 4230560,
+      "cueSamplesAt48k": 322560,
+      "measuredActiveSamples": 303080,
+      "onsetOffsetSamplesInCue": 10355,
+      "activeEndOffsetSamplesInCueExclusive": 313435,
+      "placement": "complete S08 source cue placed at the first sample of frame 4885 after the exact-zero interval; source PCM preserved",
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 79,
+        "windowSamples": 240
+      }
+    }
+  ],
+  "captions": [
+    {
+      "segmentId": "S01",
+      "startFrame": 24,
+      "endFrame": 126,
+      "text": "你以为的命中注定",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S01",
+      "startFrame": 126,
+      "endFrame": 176,
+      "text": "一眼万年",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S01",
+      "startFrame": 176,
+      "endFrame": 265,
+      "text": "在超级智能眼里",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S01",
+      "startFrame": 265,
+      "endFrame": 354,
+      "text": "只是一道算穿到",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S01",
+      "startFrame": 354,
+      "endFrame": 481,
+      "text": "小数点后六位的概率题",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S02",
+      "startFrame": 540,
+      "endFrame": 659,
+      "text": "没有什么神秘的缘分",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S02",
+      "startFrame": 659,
+      "endFrame": 764,
+      "text": "心跳漏掉的那半拍",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S02",
+      "startFrame": 764,
+      "endFrame": 883,
+      "text": "不过是一百二十八个",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S02",
+      "startFrame": 883,
+      "endFrame": 1002,
+      "text": "生理参数的瞬间咬合",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S03",
+      "startFrame": 1200,
+      "endFrame": 1273,
+      "text": "当你们刚刚说出",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S03",
+      "startFrame": 1273,
+      "endFrame": 1346,
+      "text": "第一句“你好”",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S03",
+      "startFrame": 1346,
+      "endFrame": 1451,
+      "text": "它已经在十万维空间里",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S03",
+      "startFrame": 1451,
+      "endFrame": 1566,
+      "text": "积分完了你们未来三年的",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S03",
+      "startFrame": 1566,
+      "endFrame": 1608,
+      "text": "全部轨迹",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S04",
+      "startFrame": 1920,
+      "endFrame": 2013,
+      "text": "第十四天心动",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S04",
+      "startFrame": 2013,
+      "endFrame": 2136,
+      "text": "第一百八十天争吵",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S04",
+      "startFrame": 2136,
+      "endFrame": 2244,
+      "text": "第四百八十九天",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S04",
+      "startFrame": 2244,
+      "endFrame": 2383,
+      "text": "在雨夜说出“再见”",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S04",
+      "startFrame": 2383,
+      "endFrame": 2506,
+      "text": "误差不超过三小时",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S05",
+      "startFrame": 2640,
+      "endFrame": 2746,
+      "text": "更让人后背发凉的是",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S05",
+      "startFrame": 2746,
+      "endFrame": 2900,
+      "text": "就连今天街角的那次“偶遇”",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S05",
+      "startFrame": 2900,
+      "endFrame": 2983,
+      "text": "真的是巧合吗？",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S06",
+      "startFrame": 3360,
+      "endFrame": 3434,
+      "text": "提前两小时",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S06",
+      "startFrame": 3434,
+      "endFrame": 3538,
+      "text": "推给你的一首歌",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S06",
+      "startFrame": 3538,
+      "endFrame": 3671,
+      "text": "让地铁晚点的十五秒",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S06",
+      "startFrame": 3671,
+      "endFrame": 3759,
+      "text": "算法只需拨动",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S06",
+      "startFrame": 3759,
+      "endFrame": 3863,
+      "text": "三根蝴蝶的丝线",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S06",
+      "startFrame": 3863,
+      "endFrame": 4011,
+      "text": "就能替你制造一场宿命",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S07",
+      "startFrame": 4140,
+      "endFrame": 4243,
+      "text": "超级智能可以算尽",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S07",
+      "startFrame": 4243,
+      "endFrame": 4333,
+      "text": "世间所有的利弊",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S07",
+      "startFrame": 4333,
+      "endFrame": 4423,
+      "text": "巧合与结局……",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S08",
+      "startFrame": 4898,
+      "endFrame": 5004,
+      "text": "唯独算不准人类",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S08",
+      "startFrame": 5004,
+      "endFrame": 5110,
+      "text": "在明知结局之后",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S08",
+      "startFrame": 5110,
+      "endFrame": 5276,
+      "text": "依然选择飞蛾扑火的笨拙",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    }
+  ],
+  "sfxEvents": [
+    {
+      "id": "romantic_cello",
+      "frame": 60,
+      "sampleIndex": 48000,
+      "durationSeconds": 2.4,
+      "kind": "warm_cello",
+      "description": "warm cello swell"
+    },
+    {
+      "id": "cyan_scan",
+      "frame": 240,
+      "sampleIndex": 192000,
+      "durationSeconds": 1.3,
+      "kind": "scan",
+      "description": "soft scanning texture"
+    },
+    {
+      "id": "double_heartbeat",
+      "frame": 720,
+      "sampleIndex": 576000,
+      "durationSeconds": 1.25,
+      "kind": "double_heartbeat_mech",
+      "description": "double heartbeat with restrained mechanism"
+    },
+    {
+      "id": "time_spiral",
+      "frame": 1380,
+      "sampleIndex": 1104000,
+      "durationSeconds": 2.2,
+      "kind": "whoosh",
+      "description": "rising filtered whoosh"
+    },
+    {
+      "id": "day489_terminal",
+      "frame": 2340,
+      "sampleIndex": 1872000,
+      "durationSeconds": 1.7,
+      "kind": "metal_terminal",
+      "description": "muted metal terminal resonance"
+    },
+    {
+      "id": "rewind_38hz",
+      "frame": 2700,
+      "sampleIndex": 2160000,
+      "durationSeconds": 1.8,
+      "kind": "rewind_38hz",
+      "description": "38 Hz rewind sweep"
+    },
+    {
+      "id": "nudge1",
+      "frame": 3360,
+      "sampleIndex": 2688000,
+      "durationSeconds": 2.5,
+      "kind": "glass_chime",
+      "description": "first glass chime"
+    },
+    {
+      "id": "nudge2",
+      "frame": 3600,
+      "sampleIndex": 2880000,
+      "durationSeconds": 2.5,
+      "kind": "glass_chime",
+      "description": "second glass chime"
+    },
+    {
+      "id": "nudge3",
+      "frame": 3840,
+      "sampleIndex": 3072000,
+      "durationSeconds": 2.5,
+      "kind": "glass_chime",
+      "description": "third glass chime"
+    },
+    {
+      "id": "shepard_rise",
+      "frame": 4380,
+      "sampleIndex": 3504000,
+      "durationSeconds": 3.2,
+      "kind": "shepard_sweep",
+      "description": "layered Shepard rise"
+    },
+    {
+      "id": "defiant_piano_cello",
+      "frame": 4885,
+      "sampleIndex": 3908000,
+      "durationSeconds": 4.0,
+      "kind": "warm_piano_cello",
+      "description": "warm piano and cello resolution"
+    }
+  ],
+  "absoluteSilence": {
+    "startFrame": 4860,
+    "endFrameExclusive": 4885,
+    "startSample": 3888000,
+    "endSampleExclusive": 3908000,
+    "samplesZeroInAllStemsAndMaster": true
+  },
+  "sourceHashes": {
+    "segmentsJson": "f0c84fd66113815b285f26315dcbd91d95b2e569303d57535fc7469d788d70ba",
+    "sfxEventsJson": "1702cace422d970c0e35aa4ee448ba850d5d0b408a23e4d75ead5c63f7476b9d",
+    "audioAuthorization": "691be963badd0fa25515e98ae60701173ef04f79138a7ef63d72808f703c8c36",
+    "providerManifest": "e3b18d764c5b4742d7dbbdb85c99b6193104a412dff10b62345838921abe92fb",
+    "cueWavs": [
+      {
+        "id": "S01",
+        "cueFile": "project/public/audio/cues/S01-aac4d41fc15e.wav",
+        "cueSamplesAt48k": 387840,
+        "durationSeconds": 8.08,
+        "cueSha256": "8be2adcbf37a78eb120efa9d08a0c762e41af07ddc7904adc6643d9f138964db",
+        "cuePcmSha256": "11aada8ff7cbbd043db903f1cfc1a8a68e690f1f8a9157a20fa4a165949892c3",
+        "activeOnsetOffsetSamples": 9577,
+        "activeEndOffsetSamplesExclusive": 375524,
+        "activeBoundsMethod": {
+          "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+          "thresholdPcm16": 69,
+          "windowSamples": 240
+        }
+      },
+      {
+        "id": "S02",
+        "cueFile": "project/public/audio/cues/S02-2ce63879265c.wav",
+        "cueSamplesAt48k": 391680,
+        "durationSeconds": 8.16,
+        "cueSha256": "65aa3a0e32ccc96599e132e48f11faa5533f298c7f9d9e004511aa56fe6d55e7",
+        "cuePcmSha256": "212da366a6b44b40c46373ed80ef45bd411bb5a7026762e7a61b698ee34f287b",
+        "activeOnsetOffsetSamples": 9849,
+        "activeEndOffsetSamplesExclusive": 379593,
+        "activeBoundsMethod": {
+          "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+          "thresholdPcm16": 81,
+          "windowSamples": 240
+        }
+      },
+      {
+        "id": "S03",
+        "cueFile": "project/public/audio/cues/S03-73c252da79bb.wav",
+        "cueSamplesAt48k": 345600,
+        "durationSeconds": 7.2,
+        "cueSha256": "ce92c7a7004e7d92f2f059358678fd023342df77f8abf6c99b3105993f27115e",
+        "cuePcmSha256": "318367af7f622a3c4dea7ae3b5746cef30c9d5186a43aa5523728939fbca7919",
+        "activeOnsetOffsetSamples": 9740,
+        "activeEndOffsetSamplesExclusive": 336430,
+        "activeBoundsMethod": {
+          "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+          "thresholdPcm16": 95,
+          "windowSamples": 240
+        }
+      },
+      {
+        "id": "S04",
+        "cueFile": "project/public/audio/cues/S04-d65449548b56.wav",
+        "cueSamplesAt48k": 491520,
+        "durationSeconds": 10.24,
+        "cueSha256": "e5c36eb99760d3d28077e3d806d2f46bf25d9b679002318cc462c9999bebbd68",
+        "cuePcmSha256": "40730201573fddd56c0f7ad9a069535c6588182ae2b110fe4fbed2696333e85f",
+        "activeOnsetOffsetSamples": 11067,
+        "activeEndOffsetSamplesExclusive": 480592,
+        "activeBoundsMethod": {
+          "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+          "thresholdPcm16": 85,
+          "windowSamples": 240
+        }
+      },
+      {
+        "id": "S05",
+        "cueFile": "project/public/audio/cues/S05-b68cd2fd3d2f.wav",
+        "cueSamplesAt48k": 295680,
+        "durationSeconds": 6.16,
+        "cueSha256": "9ac779a290c66ad93c12345c1a2162f08d0a0169a045392febc8e83a11376188",
+        "cuePcmSha256": "9422cf0c40520801ab1ccc3bd6106c44852550e5278bf366647f1b9efb5e32dd",
+        "activeOnsetOffsetSamples": 10777,
+        "activeEndOffsetSamplesExclusive": 285355,
+        "activeBoundsMethod": {
+          "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+          "thresholdPcm16": 100,
+          "windowSamples": 240
+        }
+      },
+      {
+        "id": "S06",
+        "cueFile": "project/public/audio/cues/S06-623ddf84f797.wav",
+        "cueSamplesAt48k": 541440,
+        "durationSeconds": 11.28,
+        "cueSha256": "9fe6e3c82527dde83c6f484f0349c6b944ff54ca8fc15a13e508c9a4ac6f87c3",
+        "cuePcmSha256": "87b04b4ec6d8e3185aabd20af9169bf64599691ebaddc1125e8d702266add067",
+        "activeOnsetOffsetSamples": 10681,
+        "activeEndOffsetSamplesExclusive": 532148,
+        "activeBoundsMethod": {
+          "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+          "thresholdPcm16": 71,
+          "windowSamples": 240
+        }
+      },
+      {
+        "id": "S07",
+        "cueFile": "project/public/audio/cues/S07-de333c596858.wav",
+        "cueSamplesAt48k": 245760,
+        "durationSeconds": 5.12,
+        "cueSha256": "23cc38e3e01df827ac18758bfceabca70a047b14e674b6d5143bdd5dc8b079e1",
+        "cuePcmSha256": "5fdc8ce0c623e9ed78e96b7e94095dff8edda40c34317a0697b62ded3e74762b",
+        "activeOnsetOffsetSamples": 10068,
+        "activeEndOffsetSamplesExclusive": 236688,
+        "activeBoundsMethod": {
+          "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+          "thresholdPcm16": 86,
+          "windowSamples": 240
+        }
+      },
+      {
+        "id": "S08",
+        "cueFile": "project/public/audio/cues/S08-e1e6d1b68825.wav",
+        "cueSamplesAt48k": 322560,
+        "durationSeconds": 6.72,
+        "cueSha256": "d72720c02c29bd0830a5b1802f7254ab45628e881267491ba867e724b287a422",
+        "cuePcmSha256": "1742c1707208dbf3520e7e70edfcf0c961a93b8b3a8c99d03bc1020144bd429f",
+        "activeOnsetOffsetSamples": 10355,
+        "activeEndOffsetSamplesExclusive": 313435,
+        "activeBoundsMethod": {
+          "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+          "thresholdPcm16": 79,
+          "windowSamples": 240
+        }
+      }
+    ],
+    "eventProfiles": "f619033ce80b538850b8c3988f4ce773710e81afdda8db56ec503c9b207db8ba"
+  },
+  "mixInputSetSha256": "b2c8259d6fac2066f678ed19d773ebdc77e733ddd6f013cae927b9660d6c33b0",
+  "master": {
+    "file": "project/public/audio/master.wav",
+    "sha256": "fd5ce2271de220bc0a429c09b92f845cd189fd711460e4c35c20d446430eb96b",
+    "pcmSha256": "fa14ae5bc7394c7cc5d9d81f4d126053632f7223c65d8d4e83d506c402cd29e6",
+    "sampleRate": 48000,
+    "channels": 2,
+    "sampleWidthBytes": 2,
+    "samplesPerChannel": 4320000,
+    "durationSeconds": 90.0,
+    "samplePeakPcm16": 27257,
+    "strictDecode": "passed",
+    "loudnormFirstPass": {
+      "input_i": "-21.38",
+      "input_tp": "-2.30",
+      "input_lra": "13.10",
+      "input_thresh": "-33.43",
+      "output_i": "-16.90",
+      "output_tp": "-1.80",
+      "output_lra": "10.20",
+      "output_thresh": "-28.49",
+      "normalization_type": "dynamic",
+      "target_offset": "0.90"
+    },
+    "loudnormSecondPass": {
+      "input_i": "-21.38",
+      "input_tp": "-2.30",
+      "input_lra": "13.10",
+      "input_thresh": "-33.43",
+      "output_i": "-16.24",
+      "output_tp": "-1.80",
+      "output_lra": "10.20",
+      "output_thresh": "-27.81",
+      "normalization_type": "dynamic",
+      "target_offset": "0.24"
+    },
+    "ebur128Final": {
+      "integratedLUFS": -16.0,
+      "truePeakDBTP": -1.6
+    },
+    "normalizationTarget": {
+      "integratedLUFS": -16.0,
+      "truePeakDBTP": -1.8,
+      "acceptanceLUFS": [
+        -16.2,
+        -15.8
+      ],
+      "acceptanceTruePeakDBTP": -1.0,
+      "passes": 2
+    },
+    "postLoudnormCalibration": {
+      "gainDB": 0.2,
+      "linearGain": 1.023292992280754,
+      "samplePeakPcm16": 27257,
+      "measuredBefore": {
+        "integratedLUFS": -16.2,
+        "truePeakDBTP": -1.8
+      },
+      "measuredAfter": {
+        "integratedLUFS": -16.0,
+        "truePeakDBTP": -1.6
+      },
+      "method": "linear PCM gain by final measured LUFS difference",
+      "targetIntegratedLUFS": -16.0,
+      "sampleCountPreserved": true,
+      "stemsChanged": false
+    },
+    "absoluteSilence": {
+      "startSample": 3888000,
+      "endSampleExclusive": 3908000,
+      "peakPcm16": 0,
+      "exactZero": true
+    }
+  }
+}

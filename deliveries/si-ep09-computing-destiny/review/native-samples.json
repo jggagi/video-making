@@ -1,0 +1,70 @@
+{
+  "samples": [
+    {
+      "path": "review/motion-1920-2099.mp4",
+      "sha256": "2d8203dce5032c7f1bec95ca84e71fe20dcf3fd3c49be8444e2b461d63ee49cb",
+      "video_frames": 180,
+      "width": 2160,
+      "height": 3840,
+      "fps": "60/1",
+      "video_duration": "3.000000",
+      "audio_codec": "aac",
+      "sample_rate": "48000",
+      "channels": 2,
+      "container_duration": "3.008000"
+    },
+    {
+      "path": "review/motion-3540-3719.mp4",
+      "sha256": "1a5ee33df182a1387bc62a5e032080f6e8c76b8028415d3f6fb18283d5c51ba7",
+      "video_frames": 180,
+      "width": 2160,
+      "height": 3840,
+      "fps": "60/1",
+      "video_duration": "3.000000",
+      "audio_codec": "aac",
+      "sample_rate": "48000",
+      "channels": 2,
+      "container_duration": "3.008000"
+    },
+    {
+      "path": "review/motion-4800-5059.mp4",
+      "sha256": "dfc8592692cd5dc0e5c3e477d05645c922201a2f3c8399e4f4cc17fbdda08928",
+      "video_frames": 260,
+      "width": 2160,
+      "height": 3840,
+      "fps": "60/1",
+      "video_duration": "4.333333",
+      "audio_codec": "aac",
+      "sample_rate": "48000",
+      "channels": 2,
+      "container_duration": "4.352000"
+    },
+    {
+      "path": "review/motion-60-239.mp4",
+      "sha256": "17d83effd55c1af00496290276ef7648446c6b1180d14a146130ed4794744e67",
+      "video_frames": 180,
+      "width": 2160,
+      "height": 3840,
+      "fps": "60/1",
+      "video_duration": "3.000000",
+      "audio_codec": "aac",
+      "sample_rate": "48000",
+      "channels": 2,
+      "container_duration": "3.008000"
+    }
+  ],
+  "source": "four native samples rendered before full export with measured real narration and local score/SFX; same PNG/concurrency2 capture profile",
+  "human_listening": "NOT_RUN",
+  "act2_revision_sample": {
+    "path": "review/motion-1200-2639.mp4",
+    "sha256": "1969678e8254896ef506b49394fe8ca3a1047843905759f091a6927877a56cde",
+    "video_frames": 1440,
+    "fps": "60/1",
+    "width": 2160,
+    "height": 3840,
+    "duration_seconds": 24
+  },
+  "superseded_samples": [
+    "review/motion-1920-2099.mp4"
+  ]
+}

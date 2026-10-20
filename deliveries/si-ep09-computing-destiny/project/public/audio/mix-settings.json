@@ -1,0 +1,517 @@
+{
+  "version": 1,
+  "inputSetSha256": "b2c8259d6fac2066f678ed19d773ebdc77e733ddd6f013cae927b9660d6c33b0",
+  "durationSeconds": 90,
+  "fps": 60,
+  "sampleRate": 48000,
+  "samplesPerFrame": 800,
+  "samplesPerChannel": 4320000,
+  "channels": 2,
+  "blockSamples": 24000,
+  "scoreDesign": {
+    "description": "Continuous deterministic cello-like harmonic bed moves from warm consonance into a restrained cold field, then returns to piano and cello warmth; no stock or cliché beep samples.",
+    "sceneChangeFrames": [
+      60,
+      240,
+      720,
+      1380,
+      2340,
+      2700,
+      3360,
+      3600,
+      3840,
+      4380,
+      4885
+    ],
+    "silenceWindowFrames": [
+      4860,
+      4885
+    ],
+    "voiceDuckDB": -8.0,
+    "voicePreattackMilliseconds": 60,
+    "voiceReleaseMilliseconds": 350,
+    "stereo": "deterministic subtle pan; same shared master for both platforms",
+    "endpointFadeSeconds": 0.8
+  },
+  "sfxDesign": {
+    "description": "Deterministic local procedural warm cello, scan, double heartbeat/mechanism, whoosh, metal terminal, 38 Hz rewind, glass chimes, Shepard rise, and warm piano/cello.",
+    "events": [
+      {
+        "id": "romantic_cello",
+        "frame": 60,
+        "sampleIndex": 48000,
+        "durationSeconds": 2.4,
+        "kind": "warm_cello",
+        "description": "warm cello swell"
+      },
+      {
+        "id": "cyan_scan",
+        "frame": 240,
+        "sampleIndex": 192000,
+        "durationSeconds": 1.3,
+        "kind": "scan",
+        "description": "soft scanning texture"
+      },
+      {
+        "id": "double_heartbeat",
+        "frame": 720,
+        "sampleIndex": 576000,
+        "durationSeconds": 1.25,
+        "kind": "double_heartbeat_mech",
+        "description": "double heartbeat with restrained mechanism"
+      },
+      {
+        "id": "time_spiral",
+        "frame": 1380,
+        "sampleIndex": 1104000,
+        "durationSeconds": 2.2,
+        "kind": "whoosh",
+        "description": "rising filtered whoosh"
+      },
+      {
+        "id": "day489_terminal",
+        "frame": 2340,
+        "sampleIndex": 1872000,
+        "durationSeconds": 1.7,
+        "kind": "metal_terminal",
+        "description": "muted metal terminal resonance"
+      },
+      {
+        "id": "rewind_38hz",
+        "frame": 2700,
+        "sampleIndex": 2160000,
+        "durationSeconds": 1.8,
+        "kind": "rewind_38hz",
+        "description": "38 Hz rewind sweep"
+      },
+      {
+        "id": "nudge1",
+        "frame": 3360,
+        "sampleIndex": 2688000,
+        "durationSeconds": 2.5,
+        "kind": "glass_chime",
+        "description": "first glass chime"
+      },
+      {
+        "id": "nudge2",
+        "frame": 3600,
+        "sampleIndex": 2880000,
+        "durationSeconds": 2.5,
+        "kind": "glass_chime",
+        "description": "second glass chime"
+      },
+      {
+        "id": "nudge3",
+        "frame": 3840,
+        "sampleIndex": 3072000,
+        "durationSeconds": 2.5,
+        "kind": "glass_chime",
+        "description": "third glass chime"
+      },
+      {
+        "id": "shepard_rise",
+        "frame": 4380,
+        "sampleIndex": 3504000,
+        "durationSeconds": 3.2,
+        "kind": "shepard_sweep",
+        "description": "layered Shepard rise"
+      },
+      {
+        "id": "defiant_piano_cello",
+        "frame": 4885,
+        "sampleIndex": 3908000,
+        "durationSeconds": 4.0,
+        "kind": "warm_piano_cello",
+        "description": "warm piano and cello resolution"
+      }
+    ],
+    "silenceWindowFrames": [
+      4860,
+      4885
+    ],
+    "voiceDuckDB": -9.0
+  },
+  "loudnormTarget": {
+    "integratedLUFS": -16.0,
+    "truePeakDBTP": -1.8,
+    "acceptanceLUFS": [
+      -16.2,
+      -15.8
+    ],
+    "acceptanceTruePeakDBTP": -1.0,
+    "passes": 2
+  },
+  "absoluteSilence": {
+    "startFrame": 4860,
+    "endFrameExclusive": 4885,
+    "startSample": 3888000,
+    "endSampleExclusive": 3908000,
+    "samplesZeroInAllStemsAndMaster": true
+  },
+  "sourceHashes": {
+    "segmentsJson": "f0c84fd66113815b285f26315dcbd91d95b2e569303d57535fc7469d788d70ba",
+    "sfxEventsJson": "1702cace422d970c0e35aa4ee448ba850d5d0b408a23e4d75ead5c63f7476b9d",
+    "audioAuthorization": "691be963badd0fa25515e98ae60701173ef04f79138a7ef63d72808f703c8c36",
+    "providerManifest": "e3b18d764c5b4742d7dbbdb85c99b6193104a412dff10b62345838921abe92fb",
+    "cueWavs": [
+      {
+        "id": "S01",
+        "cueFile": "project/public/audio/cues/S01-aac4d41fc15e.wav",
+        "cueSamplesAt48k": 387840,
+        "durationSeconds": 8.08,
+        "cueSha256": "8be2adcbf37a78eb120efa9d08a0c762e41af07ddc7904adc6643d9f138964db",
+        "cuePcmSha256": "11aada8ff7cbbd043db903f1cfc1a8a68e690f1f8a9157a20fa4a165949892c3",
+        "activeOnsetOffsetSamples": 9577,
+        "activeEndOffsetSamplesExclusive": 375524,
+        "activeBoundsMethod": {
+          "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+          "thresholdPcm16": 69,
+          "windowSamples": 240
+        }
+      },
+      {
+        "id": "S02",
+        "cueFile": "project/public/audio/cues/S02-2ce63879265c.wav",
+        "cueSamplesAt48k": 391680,
+        "durationSeconds": 8.16,
+        "cueSha256": "65aa3a0e32ccc96599e132e48f11faa5533f298c7f9d9e004511aa56fe6d55e7",
+        "cuePcmSha256": "212da366a6b44b40c46373ed80ef45bd411bb5a7026762e7a61b698ee34f287b",
+        "activeOnsetOffsetSamples": 9849,
+        "activeEndOffsetSamplesExclusive": 379593,
+        "activeBoundsMethod": {
+          "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+          "thresholdPcm16": 81,
+          "windowSamples": 240
+        }
+      },
+      {
+        "id": "S03",
+        "cueFile": "project/public/audio/cues/S03-73c252da79bb.wav",
+        "cueSamplesAt48k": 345600,
+        "durationSeconds": 7.2,
+        "cueSha256": "ce92c7a7004e7d92f2f059358678fd023342df77f8abf6c99b3105993f27115e",
+        "cuePcmSha256": "318367af7f622a3c4dea7ae3b5746cef30c9d5186a43aa5523728939fbca7919",
+        "activeOnsetOffsetSamples": 9740,
+        "activeEndOffsetSamplesExclusive": 336430,
+        "activeBoundsMethod": {
+          "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+          "thresholdPcm16": 95,
+          "windowSamples": 240
+        }
+      },
+      {
+        "id": "S04",
+        "cueFile": "project/public/audio/cues/S04-d65449548b56.wav",
+        "cueSamplesAt48k": 491520,
+        "durationSeconds": 10.24,
+        "cueSha256": "e5c36eb99760d3d28077e3d806d2f46bf25d9b679002318cc462c9999bebbd68",
+        "cuePcmSha256": "40730201573fddd56c0f7ad9a069535c6588182ae2b110fe4fbed2696333e85f",
+        "activeOnsetOffsetSamples": 11067,
+        "activeEndOffsetSamplesExclusive": 480592,
+        "activeBoundsMethod": {
+          "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+          "thresholdPcm16": 85,
+          "windowSamples": 240
+        }
+      },
+      {
+        "id": "S05",
+        "cueFile": "project/public/audio/cues/S05-b68cd2fd3d2f.wav",
+        "cueSamplesAt48k": 295680,
+        "durationSeconds": 6.16,
+        "cueSha256": "9ac779a290c66ad93c12345c1a2162f08d0a0169a045392febc8e83a11376188",
+        "cuePcmSha256": "9422cf0c40520801ab1ccc3bd6106c44852550e5278bf366647f1b9efb5e32dd",
+        "activeOnsetOffsetSamples": 10777,
+        "activeEndOffsetSamplesExclusive": 285355,
+        "activeBoundsMethod": {
+          "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+          "thresholdPcm16": 100,
+          "windowSamples": 240
+        }
+      },
+      {
+        "id": "S06",
+        "cueFile": "project/public/audio/cues/S06-623ddf84f797.wav",
+        "cueSamplesAt48k": 541440,
+        "durationSeconds": 11.28,
+        "cueSha256": "9fe6e3c82527dde83c6f484f0349c6b944ff54ca8fc15a13e508c9a4ac6f87c3",
+        "cuePcmSha256": "87b04b4ec6d8e3185aabd20af9169bf64599691ebaddc1125e8d702266add067",
+        "activeOnsetOffsetSamples": 10681,
+        "activeEndOffsetSamplesExclusive": 532148,
+        "activeBoundsMethod": {
+          "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+          "thresholdPcm16": 71,
+          "windowSamples": 240
+        }
+      },
+      {
+        "id": "S07",
+        "cueFile": "project/public/audio/cues/S07-de333c596858.wav",
+        "cueSamplesAt48k": 245760,
+        "durationSeconds": 5.12,
+        "cueSha256": "23cc38e3e01df827ac18758bfceabca70a047b14e674b6d5143bdd5dc8b079e1",
+        "cuePcmSha256": "5fdc8ce0c623e9ed78e96b7e94095dff8edda40c34317a0697b62ded3e74762b",
+        "activeOnsetOffsetSamples": 10068,
+        "activeEndOffsetSamplesExclusive": 236688,
+        "activeBoundsMethod": {
+          "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+          "thresholdPcm16": 86,
+          "windowSamples": 240
+        }
+      },
+      {
+        "id": "S08",
+        "cueFile": "project/public/audio/cues/S08-e1e6d1b68825.wav",
+        "cueSamplesAt48k": 322560,
+        "durationSeconds": 6.72,
+        "cueSha256": "d72720c02c29bd0830a5b1802f7254ab45628e881267491ba867e724b287a422",
+        "cuePcmSha256": "1742c1707208dbf3520e7e70edfcf0c961a93b8b3a8c99d03bc1020144bd429f",
+        "activeOnsetOffsetSamples": 10355,
+        "activeEndOffsetSamplesExclusive": 313435,
+        "activeBoundsMethod": {
+          "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+          "thresholdPcm16": 79,
+          "windowSamples": 240
+        }
+      }
+    ],
+    "eventProfiles": "f619033ce80b538850b8c3988f4ce773710e81afdda8db56ec503c9b207db8ba"
+  },
+  "outputs": {
+    "narration": {
+      "file": "project/public/audio/narration.wav",
+      "sha256": "9d259802737d0ff583567a932b75b688d9650e5a087f84723ae301a1cc607ba5",
+      "pcmSha256": "73e6786e850b1fe10677e1e2b8b9d07528635715284dec358c511d68f1fccd30",
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleWidthBytes": 2,
+      "samplesPerChannel": 4320000,
+      "durationSeconds": 90.0,
+      "samplePeakPcm16": 25073
+    },
+    "score": {
+      "file": "project/public/audio/score.wav",
+      "sha256": "c7f98c6c82a72615825597267f11d344c400a59a25445a3a0cbf9fb8a99954d4",
+      "pcmSha256": "21cfbb347bd73217e35cc4b761e84a56a5770849f23901974b55cc1e49a35040",
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleWidthBytes": 2,
+      "samplesPerChannel": 4320000,
+      "durationSeconds": 90.0,
+      "samplePeakPcm16": 1282,
+      "design": {
+        "description": "Continuous deterministic cello-like harmonic bed moves from warm consonance into a restrained cold field, then returns to piano and cello warmth; no stock or cliché beep samples.",
+        "sceneChangeFrames": [
+          60,
+          240,
+          720,
+          1380,
+          2340,
+          2700,
+          3360,
+          3600,
+          3840,
+          4380,
+          4885
+        ],
+        "silenceWindowFrames": [
+          4860,
+          4885
+        ],
+        "voiceDuckDB": -8.0,
+        "voicePreattackMilliseconds": 60,
+        "voiceReleaseMilliseconds": 350,
+        "stereo": "deterministic subtle pan; same shared master for both platforms",
+        "endpointFadeSeconds": 0.8
+      }
+    },
+    "sfx": {
+      "file": "project/public/audio/sfx.wav",
+      "sha256": "a9ba11cae15116e3c1d457811d49c79536fd2fe0b51c7c4f1e8a5a65da4a3bf8",
+      "pcmSha256": "862066fedbb6d6bc9834880dcc22610226db8471f237a84c6a86b16a7c82acd9",
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleWidthBytes": 2,
+      "samplesPerChannel": 4320000,
+      "durationSeconds": 90.0,
+      "samplePeakPcm16": 3545,
+      "design": {
+        "description": "Deterministic local procedural warm cello, scan, double heartbeat/mechanism, whoosh, metal terminal, 38 Hz rewind, glass chimes, Shepard rise, and warm piano/cello.",
+        "events": [
+          {
+            "id": "romantic_cello",
+            "frame": 60,
+            "sampleIndex": 48000,
+            "durationSeconds": 2.4,
+            "kind": "warm_cello",
+            "description": "warm cello swell"
+          },
+          {
+            "id": "cyan_scan",
+            "frame": 240,
+            "sampleIndex": 192000,
+            "durationSeconds": 1.3,
+            "kind": "scan",
+            "description": "soft scanning texture"
+          },
+          {
+            "id": "double_heartbeat",
+            "frame": 720,
+            "sampleIndex": 576000,
+            "durationSeconds": 1.25,
+            "kind": "double_heartbeat_mech",
+            "description": "double heartbeat with restrained mechanism"
+          },
+          {
+            "id": "time_spiral",
+            "frame": 1380,
+            "sampleIndex": 1104000,
+            "durationSeconds": 2.2,
+            "kind": "whoosh",
+            "description": "rising filtered whoosh"
+          },
+          {
+            "id": "day489_terminal",
+            "frame": 2340,
+            "sampleIndex": 1872000,
+            "durationSeconds": 1.7,
+            "kind": "metal_terminal",
+            "description": "muted metal terminal resonance"
+          },
+          {
+            "id": "rewind_38hz",
+            "frame": 2700,
+            "sampleIndex": 2160000,
+            "durationSeconds": 1.8,
+            "kind": "rewind_38hz",
+            "description": "38 Hz rewind sweep"
+          },
+          {
+            "id": "nudge1",
+            "frame": 3360,
+            "sampleIndex": 2688000,
+            "durationSeconds": 2.5,
+            "kind": "glass_chime",
+            "description": "first glass chime"
+          },
+          {
+            "id": "nudge2",
+            "frame": 3600,
+            "sampleIndex": 2880000,
+            "durationSeconds": 2.5,
+            "kind": "glass_chime",
+            "description": "second glass chime"
+          },
+          {
+            "id": "nudge3",
+            "frame": 3840,
+            "sampleIndex": 3072000,
+            "durationSeconds": 2.5,
+            "kind": "glass_chime",
+            "description": "third glass chime"
+          },
+          {
+            "id": "shepard_rise",
+            "frame": 4380,
+            "sampleIndex": 3504000,
+            "durationSeconds": 3.2,
+            "kind": "shepard_sweep",
+            "description": "layered Shepard rise"
+          },
+          {
+            "id": "defiant_piano_cello",
+            "frame": 4885,
+            "sampleIndex": 3908000,
+            "durationSeconds": 4.0,
+            "kind": "warm_piano_cello",
+            "description": "warm piano and cello resolution"
+          }
+        ],
+        "silenceWindowFrames": [
+          4860,
+          4885
+        ],
+        "voiceDuckDB": -9.0
+      }
+    },
+    "master": {
+      "file": "project/public/audio/master.wav",
+      "sha256": "fd5ce2271de220bc0a429c09b92f845cd189fd711460e4c35c20d446430eb96b",
+      "pcmSha256": "fa14ae5bc7394c7cc5d9d81f4d126053632f7223c65d8d4e83d506c402cd29e6",
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleWidthBytes": 2,
+      "samplesPerChannel": 4320000,
+      "durationSeconds": 90.0,
+      "samplePeakPcm16": 27257,
+      "strictDecode": "passed",
+      "loudnormFirstPass": {
+        "input_i": "-21.38",
+        "input_tp": "-2.30",
+        "input_lra": "13.10",
+        "input_thresh": "-33.43",
+        "output_i": "-16.90",
+        "output_tp": "-1.80",
+        "output_lra": "10.20",
+        "output_thresh": "-28.49",
+        "normalization_type": "dynamic",
+        "target_offset": "0.90"
+      },
+      "loudnormSecondPass": {
+        "input_i": "-21.38",
+        "input_tp": "-2.30",
+        "input_lra": "13.10",
+        "input_thresh": "-33.43",
+        "output_i": "-16.24",
+        "output_tp": "-1.80",
+        "output_lra": "10.20",
+        "output_thresh": "-27.81",
+        "normalization_type": "dynamic",
+        "target_offset": "0.24"
+      },
+      "ebur128Final": {
+        "integratedLUFS": -16.0,
+        "truePeakDBTP": -1.6
+      },
+      "normalizationTarget": {
+        "integratedLUFS": -16.0,
+        "truePeakDBTP": -1.8,
+        "acceptanceLUFS": [
+          -16.2,
+          -15.8
+        ],
+        "acceptanceTruePeakDBTP": -1.0,
+        "passes": 2
+      },
+      "postLoudnormCalibration": {
+        "gainDB": 0.2,
+        "linearGain": 1.023292992280754,
+        "samplePeakPcm16": 27257,
+        "measuredBefore": {
+          "integratedLUFS": -16.2,
+          "truePeakDBTP": -1.8
+        },
+        "measuredAfter": {
+          "integratedLUFS": -16.0,
+          "truePeakDBTP": -1.6
+        },
+        "method": "linear PCM gain by final measured LUFS difference",
+        "targetIntegratedLUFS": -16.0,
+        "sampleCountPreserved": true,
+        "stemsChanged": false
+      },
+      "absoluteSilence": {
+        "startSample": 3888000,
+        "endSampleExclusive": 3908000,
+        "peakPcm16": 0,
+        "exactZero": true
+      }
+    }
+  },
+  "postLoudnormCalibration": {
+    "method": "linear PCM gain by final measured LUFS difference",
+    "targetIntegratedLUFS": -16.0,
+    "sampleCountPreserved": true,
+    "stemsChanged": false
+  }
+}

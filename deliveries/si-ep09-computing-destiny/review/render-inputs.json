@@ -1,0 +1,53 @@
+{
+  "composition": "PortraitVertical",
+  "width": 2160,
+  "height": 3840,
+  "fps": 60,
+  "durationFrames": 5400,
+  "remotion": "4.0.534",
+  "react": "19.1.0",
+  "node": "v24.21.0",
+  "browser": "Google Chrome 155.0.8059.85",
+  "capture": {
+    "imageFormat": "png",
+    "concurrency": 2,
+    "scale": 1,
+    "codec": "h264",
+    "crf": 18,
+    "pixelFormat": "yuv420p",
+    "colorSpace": "bt709",
+    "preset": "fast"
+  },
+  "inputs": {
+    "project/src/Scenes.tsx": "7690834f3d79e68b9e6a7d2e836162f799374e9e093fa336d1b54af9234b93f2",
+    "project/src/Root.tsx": "f60bea0666c2d223541ce1eda520588ee0afff624447c5ac29efb72721397955",
+    "project/src/Film.tsx": "0e6d97a2fff27748e623fe52b9c722893e06a3c94fdd179254d3bc5e625baad5",
+    "project/src/index.ts": "2e0e358282a1b998a65387c653b97c2bb2eb7aae94cf200fc0b8d919f7be73a6",
+    "project/audio-timing.json": "1e1cefba0949afcb79af8906a91042f6dc32029c3b5d37459956c98d7bae1d74",
+    "project/segments.json": "f0c84fd66113815b285f26315dcbd91d95b2e569303d57535fc7469d788d70ba",
+    "project/public/audio/master.wav": "fd5ce2271de220bc0a429c09b92f845cd189fd711460e4c35c20d446430eb96b",
+    "project/scripts/render.mjs": "1f93a748943d353ed70530a46961ae9f66ce70e4c05873c60ddc1f6e0f8d7e72"
+  },
+  "font_loading": "document.fonts.ready; local macOS PingFang SC and Menlo",
+  "randomness": "none; pureframeSVG with module-constant RK4 Lorenz paths",
+  "model_observation": "source contacts reviewed; native encoded samples and final QA recorded separately",
+  "act2_revision": {
+    "absolute_frame_range": [
+      1200,
+      2640
+    ],
+    "reveal_frames": 240,
+    "native_patch": "review/motion-1200-2639.mp4",
+    "patch_sha256": "1969678e8254896ef506b49394fe8ca3a1047843905759f091a6927877a56cde",
+    "preserved_original": "review/iterations/initial-90s.mp4",
+    "original_sha256": "2ec6749477417216ec6837dd0a55eba28e50a243047bf5bdb066b372845a0f51",
+    "final_splice_encode": {
+      "video": "libx264",
+      "crf": 16,
+      "preset": "veryfast",
+      "threads": 2,
+      "audio": "original AAC bitstream copy"
+    },
+    "decision": "Future fully drawn20-24s before narration says calculation complete; native absolute states, no neighboring-frame replacement or interpolation"
+  }
+}

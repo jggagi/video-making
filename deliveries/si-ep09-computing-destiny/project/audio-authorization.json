@@ -1,0 +1,8 @@
+{
+  "provider": "Aliyun Bailian",
+  "voice": "longtian_v3",
+  "scope": "EP09 S01 through S08 exact prepared tts_phonetic_text",
+  "authorized": true,
+  "source": "Direct human answer in current chat: 授权沿用百炼 longtian_v3",
+  "text_sha256": "84499d274b50a8ba1130475552fdc083ea99a6cd7203f15c1331b197a42e3244"
+}

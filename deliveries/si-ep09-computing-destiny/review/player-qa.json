@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "movie_sha256": "c9f5514809d710849f12ca4074a9f89b5e954cb25dd439b01c7f959a9641cfa1",
+  "environment": "ChatGPT in-app browser; loopback HTTP Range player",
+  "native_video": [
+    2160,
+    3840
+  ],
+  "duration_seconds": 90.005,
+  "observations": [
+    "Loaded readyState4 without media error",
+    "Normal-speed playback and chapter seek to20seconds observed advancing",
+    "Chapter seek to81seconds observed playing at81.045221",
+    "Final read currentTime90.005, endedtrue, pausedtrue, readyState4, errornull"
+  ],
+  "playback_rate": 1,
+  "continuous_human_viewing": "NOT_RUN",
+  "human_listening": "NOT_RUN",
+  "physical_phone_or_RED_app": "NOT_RUN",
+  "scope": "Browser decoder/control evidence; no claim of uninterrupted 90-second human viewing or listening"
+}

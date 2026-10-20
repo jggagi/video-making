@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "hypothesis_confirmed": "Separate copy-only remux drains fulloriginalAAC while -frames:v mixedpipeline droppedonepacket",
+  "aac_adts_sha256": "f21350e27b35f43c566ce5588d105bac38a9a9cbc641f22dc10a2ead1882f5bb",
+  "aac_frames": "4221",
+  "aac_duration": "90.005000",
+  "video_frames": "5400",
+  "video_duration": "90.000000",
+  "container_duration": "90.005000",
+  "commands": [
+    "ffmpeg",
+    "-v",
+    "error",
+    "-i",
+    "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep09-computing-destiny/review/iterations/failed-aac-candidate.mp4.failed",
+    "-i",
+    "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep09-computing-destiny/review/iterations/initial-90s.mp4",
+    "-map",
+    "0:v:0",
+    "-map",
+    "1:a:0",
+    "-c",
+    "copy",
+    "-movflags",
+    "+faststart",
+    "/Volumes/AgentDev/Scratch/tmp/ep09-remux-proof-fesx00ew/proof.mp4"
+  ],
+  "temporary_media": "removed only this isolated AgentDev temporary after proof"
+}

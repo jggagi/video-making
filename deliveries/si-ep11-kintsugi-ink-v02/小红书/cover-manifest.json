@@ -1,0 +1,25 @@
+{
+  "source": "Remotion cover-mode render of the final scene at frame5100 (85.0s), with cover-only typography and hidden subtitles",
+  "visualFrame": 5100,
+  "seconds": 85,
+  "sourcePath": "小红书/cover-source.png",
+  "sourceDimensions": [
+    2160,
+    3840
+  ],
+  "sourceSha256": "3709d69a424e9b9f47828faec8bc42f5bcea02e7e30c6f826b55d6d75689b7f4",
+  "outputPath": "小红书/cover-3x4.png",
+  "outputDimensions": [
+    2160,
+    2880
+  ],
+  "cropXYWH": [
+    0,
+    0,
+    2160,
+    2880
+  ],
+  "outputSha256": "e89d65d718a65044ca0fb22bbc9158ca9d218daad399cfeba52e45c9ff8fd77e",
+  "caption": "如果永远年轻 / 我们还怎么白头",
+  "humanOrAppPreview": "NOT_RUN"
+}

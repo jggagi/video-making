@@ -1,0 +1,26 @@
+{
+  "status": "PASS_FUNCTIONAL_ONLY",
+  "observed_at_utc": "2026-10-20T17:40:50.577987+00:00",
+  "media_sha256": "08f4a9e7a4a9cf231508f559044cee8c15ee5198ebc7658d2bc3424f865ccc35",
+  "browser": "Chrome",
+  "surface": "Local read-only watch.html; 正式全片 · 90秒",
+  "start": {
+    "currentTime": 0.21083,
+    "duration": 90.005,
+    "paused": false,
+    "muted": false,
+    "playbackRate": 1,
+    "error": null
+  },
+  "end": {
+    "currentTime": 90.005,
+    "duration": 90.005,
+    "ended": true,
+    "paused": true,
+    "muted": false,
+    "playbackRate": 1,
+    "readyState": 4,
+    "error": null
+  },
+  "scope": "Continuous normal-speed HTMLMediaElement functional playback reached ended without media error. This does not establish human listening, perceptual continuous viewing, target phone, or Xiaohongshu App acceptance."
+}

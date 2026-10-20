@@ -124,6 +124,10 @@ python3 scripts/fetch-archive-assets.py --root . --catalog final/backup-catalog.
 
 - [小红书 · si-ep11-kintsugi-ink-xiaohongshu-90s-portrait.mp4](si-ep11-kintsugi-ink/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep11-kintsugi-ink-xiaohongshu-90s-portrait.mp4) · [GitHub final 备份](https://github.com/jggagi/video-making/releases/download/final-si-ep11-kintsugi-ink-bc1f191cc5a5/final--si-ep11-kintsugi-ink--deliveries--si-ep11-kintsugi-ink-----si-ep11-kintsugi-ink-xiaohongshu-90s-portrait--88db88150c51.mp4) · [原归档](https://github.com/jggagi/video-making/releases/download/film-si-ep11-kintsugi-ink-bc1f191cc5a5/si-ep11-kintsugi-ink--deliveries--si-ep11-kintsugi-ink-----si-ep11-kintsugi-ink-xiaohongshu-90s-portrait--88db88150c51.mp4)
 
+## 逆转的沙漏 · 留住这一根白发 (`si-ep11-kintsugi-ink-v02`)
+
+- [小红书 · si-ep11-kintsugi-ink-v02-xiaohongshu-90s-portrait.mp4](si-ep11-kintsugi-ink-v02/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep11-kintsugi-ink-v02-xiaohongshu-90s-portrait.mp4) · [GitHub final 备份](https://github.com/jggagi/video-making/releases/download/final-si-ep11-kintsugi-ink-v02-9ace946a093a/final--si-ep11-kintsugi-ink-v02--deliveries--si-ep11-kintsugi-ink-v02-----si-ep11-kintsugi-ink-v02-xiaohongshu-90s-portrait--08f4a9e7a4a9.mp4) · [原归档](https://github.com/jggagi/video-making/releases/download/film-si-ep11-kintsugi-ink-v02-9ace946a093a/si-ep11-kintsugi-ink-v02--deliveries--si-ep11-kintsugi-ink-v02-----si-ep11-kintsugi-ink-v02-xiaohongshu-90s-portrait--08f4a9e7a4a9.mp4)
+
 ## 一眼万年 (`si-eternity`)
 
 - [B站 · one-blink-ten-millennia-v3.mp4](%E4%B8%80%E7%9C%BC%E4%B8%87%E5%B9%B4/B%E7%AB%99/one-blink-ten-millennia-v3.mp4) · [GitHub final 备份](https://github.com/jggagi/video-making/releases/download/final-si-eternity-66d480b1c859/final--si-eternity--si-eternity--out--one-blink-ten-millennia-v3--4ef2326bf22b.mp4) · [原归档](https://github.com/jggagi/video-making/releases/download/archive-si-eternity-v1/si-eternity--si-eternity--out--one-blink-ten-millennia-v3--4ef2326bf22b.mp4)

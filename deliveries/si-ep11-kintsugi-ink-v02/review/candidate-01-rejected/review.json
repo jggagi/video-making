@@ -1,0 +1,20 @@
+{
+  "status": "REJECTED_MODEL_VISUAL_REVIEW",
+  "evidence_frames": [
+    180,
+    960,
+    3300,
+    5100
+  ],
+  "findings": [
+    "Handsreadaspairedclaws, croppedopeninggeometry andsymmetricpalmswithoutcredibleinterpersonalgrip",
+    "Canyonbrightemptyfloor dominates, overly smoothwalls andtetrahedrondebrislooktoy-like",
+    "Closingbandprojectsascircle ratherthaninfinity; whitehair toolargeandnotheldnearcontact"
+  ],
+  "decisions": [
+    "Replaceproceduralimplicit handmeshwithlicensedanatomicalriggedGLB andauthoredpose",
+    "Reworkcanyonrakinglight,darkerwalls, layeredfractures, camera andthinflakes; addInkRiver shader",
+    "Useactualhalftwistfigure-eightcenterline andplacewhitehairneargrip"
+  ],
+  "scope": "Rootobservationofactual4Ksourceframes; notaudiencefeedback"
+}

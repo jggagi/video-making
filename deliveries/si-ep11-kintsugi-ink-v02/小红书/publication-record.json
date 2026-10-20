@@ -1,0 +1,81 @@
+{
+  "platform": "小红书",
+  "work": "si-ep11-kintsugi-ink-v02",
+  "status": "QA_COMPLETE_PREPARING_EXISTING_NOTE_REPLACEMENT",
+  "account_display_name": "余问 QStory",
+  "note_id": "6ad78f82000000002900e27f",
+  "operation": "replace_video_and_cover_in_existing_note",
+  "authorization": {
+    "source": "User directly selected: 新版验收完成后替换原笔记，沿用08:00排期",
+    "authorized": true,
+    "scope": "Current EP11 v02 full film after technical and model visual review; same existingnote, public schedule2026-10-21 08:00Asia/Shanghai"
+  },
+  "timing_plan": {
+    "kind": "platform_scheduled",
+    "local_date": "2026-10-20",
+    "local_time": "17:00",
+    "local_timezone": "America/Los_Angeles",
+    "audience_time": "2026-10-21 08:00 Asia/Shanghai",
+    "basis": "User directly requested 10月21日早8点发布，北京时间."
+  },
+  "previous_version": {
+    "work": "si-ep11-kintsugi-ink",
+    "video_sha256": "88db88150c5113a071a618039b44555247463def090f44de05eb58def8a8f454",
+    "publication_record": "deliveries/si-ep11-kintsugi-ink/小红书/publication-record.json"
+  },
+  "title": "如果永远年轻，白头偕老还算誓言吗？",
+  "planned_topics": [
+    "超级智能",
+    "抗衰老",
+    "白头偕老",
+    "数字金缮",
+    "科幻美学",
+    "数字艺术",
+    "深度思考",
+    "时间",
+    "一眼万年"
+  ],
+  "content_declaration_plan": "笔记含AI合成内容",
+  "visibility_plan": "公开可见",
+  "upload_attempted": false,
+  "submission_attempted": false,
+  "submission_verified": false,
+  "publication_verified": false,
+  "public_visibility_verified": false,
+  "human_listening": "NOT_RUN",
+  "target_device_playback": "NOT_RUN",
+  "remaining": [
+    "Replace existing note video/cover/copy and verify exact schedule/status",
+    "Finish GitHub film and dedicated final backup verification and new-film restore probe"
+  ],
+  "existingNotePreflight": {
+    "observedAtUtc": "2026-10-20T17:19:25Z",
+    "account": "余问 QStory",
+    "managementUrl": "https://creator.xiaohongshu.com/new/note-manager",
+    "matchingTitle": "如果永远年轻，白头偕老还算誓言吗？",
+    "displayedDuration": "01:30",
+    "displayedSchedule": "定时发布 2026-10-21 08:00 （GMT+8:00 北京时间）",
+    "noteCount": 12,
+    "action": "READ_ONLY",
+    "replacementUploadStarted": false,
+    "scope": "Existing scheduled v01 is visible; this does not establish any v02 upload or platform-transcode identity."
+  },
+  "final_media": {
+    "path": "小红书/si-ep11-kintsugi-ink-v02-xiaohongshu-90s-portrait.mp4",
+    "bytes": 117401896,
+    "sha256": "08f4a9e7a4a9cf231508f559044cee8c15ee5198ebc7658d2bc3424f865ccc35",
+    "video_duration_seconds": 90.0,
+    "width": 2160,
+    "height": 3840,
+    "fps": 60,
+    "frames": 5400
+  },
+  "qa": {
+    "automated": "PASS",
+    "model_frame_review": "MODEL_OBSERVED",
+    "human_listening": "NOT_RUN",
+    "target_device_playback": "NOT_RUN",
+    "strict_validator": "review/media-validation-20261020T174042.322065Z.json"
+  },
+  "upload_attempt_started_at_utc": "2026-10-20T17:42:44.510080+00:00"
+}

@@ -1,0 +1,196 @@
+{
+  "status": "PASS",
+  "scope": "Source and PCM invariants only; no encoded-media, visual, listening, audience, or device acceptance is inferred.",
+  "checks": [
+    {
+      "name": "delivery_and_preserved_source",
+      "result": "PASS",
+      "detail": {
+        "slug": "si-ep11-kintsugi-ink-v02",
+        "platforms": [
+          "xiaohongshu"
+        ],
+        "duration_seconds": 90,
+        "fps": 60,
+        "total_frames": 5400,
+        "dimensions": [
+          2160,
+          3840
+        ],
+        "raw_source_sha256": "21835d5c2d7e070e1d34af1a7e22dd055159d5cd554539889c9d46886de91dc5",
+        "preserved_v01_source_sha256": "21835d5c2d7e070e1d34af1a7e22dd055159d5cd554539889c9d46886de91dc5"
+      }
+    },
+    {
+      "name": "timeline_and_locked_segments",
+      "result": "PASS",
+      "detail": {
+        "shot_ranges": [
+          [
+            0,
+            600
+          ],
+          [
+            600,
+            1320
+          ],
+          [
+            1320,
+            2460
+          ],
+          [
+            2460,
+            3540
+          ],
+          [
+            3540,
+            4200
+          ],
+          [
+            4200,
+            4860
+          ],
+          [
+            4860,
+            4890
+          ],
+          [
+            4890,
+            5400
+          ]
+        ],
+        "segment_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04",
+          "S05",
+          "S06",
+          "S07",
+          "S08"
+        ],
+        "segment_ranges": [
+          [
+            "S01",
+            36,
+            540
+          ],
+          [
+            "S02",
+            600,
+            1260
+          ],
+          [
+            "S03",
+            1320,
+            2040
+          ],
+          [
+            "S04",
+            2100,
+            2760
+          ],
+          [
+            "S05",
+            2820,
+            3480
+          ],
+          [
+            "S06",
+            3540,
+            4140
+          ],
+          [
+            "S07",
+            4200,
+            4800
+          ],
+          [
+            "S08",
+            4890,
+            5400
+          ]
+        ],
+        "absolute_silence_frames": [
+          4860,
+          4890
+        ]
+      }
+    },
+    {
+      "name": "caption_source_and_mobile_lines",
+      "result": "PASS",
+      "detail": {
+        "segments": 8,
+        "source_caption_chunks": 34,
+        "max_chinese_characters_per_line": 13,
+        "observed_max_chinese_characters_per_line": 12,
+        "max_lines_per_chunk": 2
+      }
+    },
+    {
+      "name": "composition_and_frame_determinism",
+      "result": "PASS",
+      "detail": {
+        "typescript_files": [
+          "src/CanyonScene.tsx",
+          "src/Effects.tsx",
+          "src/Film.tsx",
+          "src/HandScene.tsx",
+          "src/InkRiver.tsx",
+          "src/Root.tsx",
+          "src/StudioEnvironment.tsx",
+          "src/TerrainInkMaterial.tsx",
+          "src/index.ts",
+          "src/subdivideSkinnedGeometry.ts"
+        ],
+        "scene_modules": [
+          "src/CanyonScene.tsx",
+          "src/HandScene.tsx"
+        ],
+        "three_canvas": "@remotion/three ThreeCanvas in both replacement scenes",
+        "frame_source": "Remotion useCurrentFrame; no Math.random, Date.now, useFrame, or requestAnimationFrame",
+        "obsolete_scenes": "Terrain/Eternity absent",
+        "static_hud_constants": "legacy constants and v01 telemetry copy absent"
+      }
+    },
+    {
+      "name": "sample_locked_audio_events",
+      "result": "PASS",
+      "detail": {
+        "event_count": 14,
+        "absolute_silence_frames": [
+          4860,
+          4890
+        ],
+        "release_drop_frame": 4890,
+        "release_drop_sample": 3912000
+      }
+    },
+    {
+      "name": "measured_timed_captions",
+      "result": "PASS",
+      "detail": {
+        "timed_caption_count": 34,
+        "alignment_claim": "Original source chunks are allocated by character weight only within measured active PCM spans; no ASR or forced word alignment was performed."
+      }
+    },
+    {
+      "name": "pcm_master_and_silence",
+      "result": "PASS",
+      "detail": {
+        "path": "project/public/audio/master.wav",
+        "sha256": "66d32a2a2d12d33f03077f72847cd68b3aea567d4bf875e24338061c8345600e",
+        "channels": 2,
+        "sample_rate": 48000,
+        "sample_width_bytes": 2,
+        "samples_per_channel": 4320000,
+        "absolute_silence_frames": [
+          4860,
+          4890
+        ],
+        "exact_zero": true
+      }
+    }
+  ]
+}

@@ -950,6 +950,30 @@
       ]
     },
     {
+      "id": "si-ep11-kintsugi-ink-v02",
+      "title": "Final 成片备份 · 逆转的沙漏 · 留住这一根白发",
+      "release_tag": "final-si-ep11-kintsugi-ink-v02-9ace946a093a",
+      "assets": [
+        {
+          "path": "final/si-ep11-kintsugi-ink-v02/小红书/si-ep11-kintsugi-ink-v02-xiaohongshu-90s-portrait.mp4",
+          "name": "final--si-ep11-kintsugi-ink-v02--deliveries--si-ep11-kintsugi-ink-v02-----si-ep11-kintsugi-ink-v02-xiaohongshu-90s-portrait--08f4a9e7a4a9.mp4",
+          "bytes": 117401896,
+          "sha256": "08f4a9e7a4a9cf231508f559044cee8c15ee5198ebc7658d2bc3424f865ccc35",
+          "kind": "video",
+          "platform": "小红书",
+          "measurements": {
+            "width": 2160,
+            "height": 3840,
+            "fps": "60/1",
+            "frames": "5400",
+            "video_duration_seconds": 90.0,
+            "container_duration_seconds": 90.005
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep11-kintsugi-ink-v02-9ace946a093a/final--si-ep11-kintsugi-ink-v02--deliveries--si-ep11-kintsugi-ink-v02-----si-ep11-kintsugi-ink-v02-xiaohongshu-90s-portrait--08f4a9e7a4a9.mp4"
+        }
+      ]
+    },
+    {
       "id": "si-eternity",
       "title": "Final 成片备份 · 一眼万年",
       "release_tag": "final-si-eternity-66d480b1c859",

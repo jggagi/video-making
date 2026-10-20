@@ -1,0 +1,650 @@
+import React, {useLayoutEffect, useMemo, useRef} from 'react';
+import {useThree} from '@react-three/fiber';
+import {ThreeCanvas} from '@remotion/three';
+import {useVideoConfig} from 'remotion';
+import * as THREE from 'three';
+import {RoomEnvironment} from 'three/addons/environments/RoomEnvironment.js';
+
+const INK = '#0C0C0E';
+const IVORY = '#D6C8AD';
+const GOLD = '#D7A64A';
+const GOLD_LIGHT = '#F5C979';
+const SPLIT_Z = -16;
+const TERRAIN_BOTTOM = -12;
+
+type CanyonSceneProps = {frame: number};
+type Point2 = readonly [number, number];
+
+const clamp01 = (value: number) => Math.min(1, Math.max(0, value));
+const smooth = (from: number, to: number, value: number) => {
+	const t = clamp01((value - from) / (to - from));
+	return t * t * (3 - 2 * t);
+};
+const mix = (a: number, b: number, t: number) => a + (b - a) * t;
+
+function seeded(index: number, salt: number): number {
+	let value = Math.imul(index + 1, 0x45d9f3b) ^ Math.imul(salt + 11, 0x119de1f3);
+	value = Math.imul(value ^ (value >>> 16), 0x45d9f3b);
+	value = Math.imul(value ^ (value >>> 16), 0x45d9f3b);
+	value ^= value >>> 16;
+	return (value >>> 0) / 4294967295;
+}
+
+function branchCenter(z: number, side: -1 | 0 | 1): number {
+	if (z >= SPLIT_Z || side === 0) return 0;
+	return side * Math.min(9.8, (SPLIT_Z - z) * 0.58);
+}
+
+function nearestChannelDistance(x: number, z: number): number {
+	if (z >= SPLIT_Z) return Math.abs(x);
+	const left = Math.abs(x - branchCenter(z, -1));
+	const right = Math.abs(x - branchCenter(z, 1));
+	return Math.min(left, right);
+}
+
+function terrainHeight(x: number, z: number): number {
+	const distance = nearestChannelDistance(x, z);
+	const innerCliff = smooth(1.05, 2.65, distance) * 2.45;
+	const outerCliff = smooth(2.65, 4.55, distance) * 3.55;
+	const upperShelf = smooth(6.1, 10.5, distance) * 0.75;
+	const grain =
+		Math.sin(x * 0.83 + z * 0.27) * 0.105 +
+		Math.sin(x * 1.91 - z * 0.41) * 0.052 +
+		Math.sin(z * 0.19 + Math.sin(x * 0.36)) * 0.075;
+	const ridgeFold = Math.sin(distance * 3.1 + z * 0.12) * smooth(1.3, 3.8, distance) * 0.11;
+	return -1.85 + innerCliff + outerCliff + upperShelf + grain + ridgeFold;
+}
+
+function makeTerrainGeometry(): THREE.BufferGeometry {
+	const columns = 164;
+	const rows = 244;
+	const xMin = -17;
+	const xMax = 17;
+	const zMax = 16;
+	const zMin = -44;
+	const positions = new Float32Array(columns * rows * 3);
+	const colors = new Float32Array(columns * rows * 3);
+	const indices: number[] = [];
+	const low = new THREE.Color('#A89A80');
+	const high = new THREE.Color(IVORY);
+	const tint = new THREE.Color();
+
+	for (let row = 0; row < rows; row++) {
+		const z = mix(zMax, zMin, row / (rows - 1));
+		for (let column = 0; column < columns; column++) {
+			const x = mix(xMin, xMax, column / (columns - 1));
+			const height = terrainHeight(x, z);
+			const index = row * columns + column;
+			positions[index * 3] = x;
+			positions[index * 3 + 1] = height;
+			positions[index * 3 + 2] = z;
+			tint.copy(low).lerp(high, clamp01((height + 1.6) / 6.5));
+			const variation = 0.975 + seeded(index, 3) * 0.05;
+			colors[index * 3] = tint.r * variation;
+			colors[index * 3 + 1] = tint.g * variation;
+			colors[index * 3 + 2] = tint.b * variation;
+			if (row < rows - 1 && column < columns - 1) {
+				const a = index;
+				const b = index + 1;
+				const c = index + columns;
+				const d = c + 1;
+				indices.push(a, c, b, b, c, d);
+			}
+		}
+	}
+
+	const geometry = new THREE.BufferGeometry();
+	geometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+	geometry.setAttribute('color', new THREE.BufferAttribute(colors, 3));
+	geometry.setIndex(indices);
+	geometry.computeVertexNormals();
+	geometry.computeBoundingSphere();
+	return geometry;
+}
+
+function makeTerrainSkirtGeometry(): THREE.BufferGeometry {
+	const columns = 164;
+	const rows = 244;
+	const xMin = -17;
+	const xMax = 17;
+	const zMax = 16;
+	const zMin = -44;
+	const perimeter: Point2[] = [];
+	for (let column = 0; column < columns; column++) perimeter.push([mix(xMin, xMax, column / (columns - 1)), zMax]);
+	for (let row = 1; row < rows; row++) perimeter.push([xMax, mix(zMax, zMin, row / (rows - 1))]);
+	for (let column = columns - 2; column >= 0; column--) perimeter.push([mix(xMin, xMax, column / (columns - 1)), zMin]);
+	for (let row = rows - 2; row > 0; row--) perimeter.push([xMin, mix(zMax, zMin, row / (rows - 1))]);
+
+	const positions = new Float32Array(perimeter.length * 2 * 3);
+	const indices: number[] = [];
+	for (let i = 0; i < perimeter.length; i++) {
+		const [x, z] = perimeter[i];
+		positions[i * 3] = x;
+		positions[i * 3 + 1] = terrainHeight(x, z);
+		positions[i * 3 + 2] = z;
+		const bottomIndex = (perimeter.length + i) * 3;
+		positions[bottomIndex] = x;
+		positions[bottomIndex + 1] = TERRAIN_BOTTOM;
+		positions[bottomIndex + 2] = z;
+		const next = (i + 1) % perimeter.length;
+		const top = i;
+		const bottom = perimeter.length + i;
+		const nextTop = next;
+		const nextBottom = perimeter.length + next;
+		indices.push(top, bottom, nextTop, nextTop, bottom, nextBottom);
+	}
+	const geometry = new THREE.BufferGeometry();
+	geometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+	geometry.setIndex(indices);
+	geometry.computeVertexNormals();
+	geometry.computeBoundingSphere();
+	return geometry;
+}
+
+function makeRibbonGeometry(path: readonly Point2[], width: number): THREE.BufferGeometry {
+	const positions = new Float32Array(path.length * 2 * 3);
+	const indices: number[] = [];
+	for (let i = 0; i < path.length; i++) {
+		const previous = path[Math.max(0, i - 1)];
+		const next = path[Math.min(path.length - 1, i + 1)];
+		const [x, z] = path[i];
+		const tangentX = next[0] - previous[0];
+		const tangentZ = next[1] - previous[1];
+		const length = Math.max(0.001, Math.hypot(tangentX, tangentZ));
+		const normalX = tangentZ / length;
+		const normalZ = -tangentX / length;
+		for (let side = 0; side < 2; side++) {
+			const sign = side === 0 ? -1 : 1;
+			const px = x + normalX * width * 0.5 * sign;
+			const pz = z + normalZ * width * 0.5 * sign;
+			const vertex = (i * 2 + side) * 3;
+			positions[vertex] = px;
+			positions[vertex + 1] = terrainHeight(px, pz) + 0.105;
+			positions[vertex + 2] = pz;
+		}
+		if (i < path.length - 1) {
+			const left = i * 2;
+			const right = left + 1;
+			const nextLeft = left + 2;
+			const nextRight = left + 3;
+			indices.push(left, nextLeft, right, right, nextLeft, nextRight);
+		}
+	}
+	const geometry = new THREE.BufferGeometry();
+	geometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+	geometry.setIndex(indices);
+	geometry.computeVertexNormals();
+	geometry.computeBoundingSphere();
+	return geometry;
+}
+
+function makeLinearPath(startZ: number, endZ: number, samples: number, side: -1 | 0 | 1 = 0): Point2[] {
+	return Array.from({length: samples}, (_, index) => {
+		const z = mix(startZ, endZ, index / (samples - 1));
+		return [branchCenter(z, side), z] as const;
+	});
+}
+
+const MAIN_PATH = makeLinearPath(13, SPLIT_Z, 112);
+const LEFT_EXIT_PATH = makeLinearPath(SPLIT_Z, -32, 84, -1);
+const RIGHT_EXIT_PATH = makeLinearPath(SPLIT_Z, -32, 84, 1);
+
+function makeTube(points: readonly Point2[], radius: number, radialSegments = 7, lift = 0.14): THREE.TubeGeometry {
+	const curvePoints = points.map(([x, z]) => new THREE.Vector3(x, terrainHeight(x, z) + lift, z));
+	const curve = new THREE.CatmullRomCurve3(curvePoints, false, 'catmullrom', 0.12);
+	return new THREE.TubeGeometry(curve, Math.max(32, points.length * 3), radius, radialSegments, false);
+}
+
+function CanyonTerrain() {
+	const surface = useMemo(makeTerrainGeometry, []);
+	const skirt = useMemo(makeTerrainSkirtGeometry, []);
+	return (
+		<group>
+			<mesh geometry={surface} receiveShadow>
+				<meshPhysicalMaterial
+					color="#FFFFFF"
+					vertexColors
+					roughness={0.42}
+					metalness={0.04}
+					clearcoat={0.42}
+					clearcoatRoughness={0.28}
+					envMapIntensity={0.55}
+					side={THREE.DoubleSide}
+				/>
+			</mesh>
+			<mesh geometry={skirt} receiveShadow>
+				<meshStandardMaterial color="#665B4C" roughness={0.76} metalness={0.02} side={THREE.DoubleSide} />
+			</mesh>
+			<mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, TERRAIN_BOTTOM, -14]} receiveShadow>
+				<planeGeometry args={[34, 60]} />
+				<meshStandardMaterial color="#403A34" roughness={0.88} side={THREE.DoubleSide} />
+			</mesh>
+		</group>
+	);
+}
+
+type StrataDefinition = {path: Point2[]; edge: boolean; index: number};
+const CLIFF_STRATA: StrataDefinition[] = (() => {
+	const strata: StrataDefinition[] = [];
+	const offsets = [1.42, 1.83, 2.32];
+	for (const side of [-1, 1] as const) {
+		for (let level = 0; level < offsets.length; level++) {
+			const path = Array.from({length: 70}, (_, sample) => {
+				const z = mix(13, SPLIT_Z, sample / 69);
+				return [side * offsets[level], z] as const;
+			});
+			strata.push({path, edge: level === 0, index: strata.length});
+		}
+	}
+	for (const branch of [-1, 1] as const) {
+		for (const innerSide of [-1, 1] as const) {
+			for (let level = 0; level < offsets.length; level++) {
+				const path = Array.from({length: 74}, (_, sample) => {
+					const z = mix(SPLIT_Z - 0.2, -40, sample / 73);
+					const center = branchCenter(z, branch);
+					return [center + innerSide * offsets[level], z] as const;
+				});
+				strata.push({path, edge: level === 0, index: strata.length});
+			}
+		}
+	}
+	return strata;
+})();
+
+function CliffStratum({definition}: {definition: StrataDefinition}) {
+	const geometry = useMemo(() => makeTube(definition.path, definition.edge ? 0.027 : 0.019, 6, 0.026), [definition]);
+	return (
+		<mesh geometry={geometry}>
+			<meshPhysicalMaterial
+				color={definition.edge ? '#E3D5BC' : '#917F64'}
+				metalness={0.025}
+				roughness={definition.edge ? 0.44 : 0.7}
+				clearcoat={definition.edge ? 0.34 : 0.12}
+				envMapIntensity={0.34}
+				transparent
+				opacity={definition.edge ? 0.58 : 0.38}
+				depthWrite={false}
+			/>
+		</mesh>
+	);
+}
+
+function CliffLayers() {
+	return <group>{CLIFF_STRATA.map((definition) => <CliffStratum key={definition.index} definition={definition} />)}</group>;
+}
+
+function CameraAndEnvironment({frame}: CanyonSceneProps) {
+	const {camera, gl, scene} = useThree();
+	useLayoutEffect(() => {
+		const room = new RoomEnvironment();
+		const pmrem = new THREE.PMREMGenerator(gl);
+		const target = pmrem.fromScene(room, 0.04);
+		scene.environment = target.texture;
+		scene.background = new THREE.Color(INK);
+		scene.fog = new THREE.FogExp2(INK, 0.022);
+		gl.toneMapping = THREE.ACESFilmicToneMapping;
+		gl.toneMappingExposure = 1.08;
+		gl.outputColorSpace = THREE.SRGBColorSpace;
+		return () => {
+			scene.environment = null;
+			target.dispose();
+			pmrem.dispose();
+			room.traverse((object) => {
+				if (object instanceof THREE.Mesh) {
+					object.geometry.dispose();
+					const materials = Array.isArray(object.material) ? object.material : [object.material];
+					materials.forEach((material) => material.dispose());
+				}
+			});
+		};
+	}, [gl, scene]);
+
+	useLayoutEffect(() => {
+		const keys: readonly [number, number, number][] = [
+			[600, 11.5, 9.2],
+			[1320, 4.2, 4.25],
+			[2460, -3.4, 2.9],
+			[2820, -7.2, 2.55],
+			[3300, -11.2, 2.35],
+			[3540, -14.4, 2.25],
+			[3600, -15.9, 2.05],
+		];
+		let z = keys[0][1];
+		let y = keys[0][2];
+		for (let index = 0; index < keys.length - 1; index++) {
+			const a = keys[index];
+			const b = keys[index + 1];
+			if (frame >= a[0] && frame <= b[0]) {
+				const t = smooth(a[0], b[0], frame);
+				z = mix(a[1], b[1], t);
+				y = mix(a[2], b[2], t);
+				break;
+			}
+		}
+		camera.position.set(Math.sin((frame - 600) * 0.00072) * 0.075, y, z);
+		const pitchDrop = frame <= 1320 ? mix(7.3, 2.3, smooth(600, 1320, frame)) : mix(2.3, 0.82, smooth(1320, 3600, frame));
+		camera.lookAt(Math.sin((frame - 600) * 0.00052) * 0.11, y - pitchDrop, z - 10.5);
+		camera.updateProjectionMatrix();
+	}, [camera, frame]);
+	return null;
+}
+
+type DebrisSpec = {
+	x: number;
+	z: number;
+	ground: number;
+	top: number;
+	start: number;
+	impact: number;
+	size: number;
+	spin: THREE.Vector3;
+	phase: THREE.Vector3;
+	branch: -1 | 1;
+};
+
+function makeDebrisSpecs(count: number, storm: boolean): DebrisSpec[] {
+	return Array.from({length: count}, (_, index) => {
+		const absoluteIndex = index + (storm ? 900 : 0);
+		const branch: -1 | 1 = seeded(absoluteIndex, 1) > 0.5 ? 1 : -1;
+		let z = mix(-40, 7, seeded(absoluteIndex, 2));
+		let x = branchCenter(z, z < SPLIT_Z ? branch : 0) + (seeded(absoluteIndex, 3) - 0.5) * (storm ? 5.2 : 4.4);
+		let ground = terrainHeight(x, z) + 0.16;
+		let top = Math.max(ground + 2.2, 5.8 + seeded(absoluteIndex, 4) * 7.2);
+		let start = 640 + seeded(absoluteIndex, 5) * 1250;
+		let impact = 2820 + seeded(absoluteIndex, 6) * 760;
+		if (!storm && index === 0) {
+			z = -12;
+			x = 0.22;
+			ground = 1.35;
+			top = 7.8;
+			start = 620;
+			impact = 2820;
+		}
+		return {
+			x,
+			z,
+			ground,
+			top,
+			start,
+			impact,
+			size: (storm ? 0.075 : 0.08) + seeded(absoluteIndex, 7) * (storm ? 0.29 : 0.34),
+			spin: new THREE.Vector3(
+				0.002 + seeded(absoluteIndex, 8) * 0.005,
+				0.003 + seeded(absoluteIndex, 9) * 0.006,
+				0.001 + seeded(absoluteIndex, 10) * 0.004,
+			),
+			phase: new THREE.Vector3(seeded(absoluteIndex, 11) * 6, seeded(absoluteIndex, 12) * 6, seeded(absoluteIndex, 13) * 6),
+			branch,
+		};
+	});
+}
+
+const AMBIENT_DEBRIS = makeDebrisSpecs(280, false);
+const STORM_DEBRIS = makeDebrisSpecs(690, true);
+const GOLD_DUST = makeDebrisSpecs(760, true);
+const OBJECT = new THREE.Object3D();
+const ZERO_MATRIX = new THREE.Matrix4().makeScale(0, 0, 0);
+
+type InstanceKind = 'porcelain' | 'storm' | 'gold';
+
+function InstanceField({frame, kind}: {frame: number; kind: InstanceKind}) {
+	const ref = useRef<THREE.InstancedMesh>(null);
+	const specs = kind === 'porcelain' ? AMBIENT_DEBRIS : kind === 'storm' ? STORM_DEBRIS : GOLD_DUST;
+	const isGold = kind === 'gold';
+	const isStorm = kind === 'storm';
+
+	useLayoutEffect(() => {
+		const mesh = ref.current;
+		if (!mesh) return;
+		const stormScale = 0.1 + smooth(2940, 3150, frame) * 0.9;
+		const stormFade = 1 - smooth(3480, 3600, frame) * 0.72;
+		const goldSearch = smooth(1320, 1600, frame);
+		const gathering = smooth(2460, 2820, frame);
+		const goldStorm = smooth(3070, 3250, frame);
+		const stormFrontStart = 6;
+		const stormFrontEnd = -30;
+		const frontZ = mix(stormFrontStart, stormFrontEnd, smooth(2940, 3300, frame));
+		const markerCrossing = 2940 + ((stormFrontStart - -12) / (stormFrontStart - stormFrontEnd)) * 360;
+		for (let index = 0; index < specs.length; index++) {
+			const spec = specs[index];
+			const rawProgress = clamp01((frame - spec.start) / Math.max(1, spec.impact - spec.start));
+			const fallT = rawProgress * rawProgress * (3 - 2 * rawProgress);
+			let y = mix(spec.top, spec.ground, fallT);
+			const crossing = 2940 + ((stormFrontStart - spec.z) / (stormFrontStart - stormFrontEnd)) * 360;
+			const wasReached = frame >= crossing && spec.z >= frontZ && crossing <= 3300;
+			if (wasReached) {
+				const atCrossing = clamp01((crossing - spec.start) / Math.max(1, spec.impact - spec.start));
+				const crossFall = atCrossing * atCrossing * (3 - 2 * atCrossing);
+				const crossY = mix(spec.top, spec.ground, crossFall);
+				const initialY = kind === 'porcelain' && index === 0 ? 1.35 : crossY;
+				y = initialY + Math.max(0, frame - Math.max(crossing, kind === 'porcelain' && index === 0 ? markerCrossing : crossing)) * (isGold ? 0.0095 : 0.0105);
+			}
+
+			const pathX = branchCenter(spec.z, spec.z < SPLIT_Z ? spec.branch : 0);
+			let x = spec.x;
+			let z = spec.z;
+			let scaleFactor = 1;
+			if (isGold) {
+				const initialOffset = spec.x - pathX;
+				x = pathX + initialOffset * (1 - gathering * 0.82);
+				z += Math.sin(index * 0.71) * 0.16;
+				y = terrainHeight(x, z) + 0.22;
+				if (frame >= crossing && spec.z >= frontZ && crossing <= 3300) y += Math.max(0, frame - crossing) * 0.008;
+				scaleFactor = Math.max(0.015, goldSearch * (0.34 + gathering * 0.34) + goldStorm * 0.64);
+			} else if (isStorm) {
+				scaleFactor = stormScale * stormFade;
+			}
+
+			if (frame < spec.start && !isGold) scaleFactor = 0;
+			const size = spec.size * scaleFactor;
+			OBJECT.position.set(x, y, z);
+			OBJECT.rotation.set(
+				spec.phase.x + frame * spec.spin.x,
+				spec.phase.y + frame * spec.spin.y,
+				spec.phase.z + frame * spec.spin.z,
+			);
+			const elongation = 1.4 + seeded(index, 17) * 1.8;
+			OBJECT.scale.set(size, size * elongation, size * (0.52 + seeded(index, 18) * 0.45));
+			OBJECT.updateMatrix();
+			if (scaleFactor <= 0.002) mesh.setMatrixAt(index, ZERO_MATRIX);
+			else mesh.setMatrixAt(index, OBJECT.matrix);
+		}
+		mesh.instanceMatrix.needsUpdate = true;
+	}, [frame, isGold, isStorm, specs]);
+
+	const geometry = useMemo(
+		() => (isGold ? new THREE.OctahedronGeometry(1, 0) : new THREE.TetrahedronGeometry(1, 0)),
+		[isGold],
+	);
+	return (
+		<instancedMesh ref={ref} args={[geometry, undefined, specs.length]} frustumCulled={false}>
+			{isGold ? (
+				<meshPhysicalMaterial color={GOLD_LIGHT} emissive="#6D3E0C" emissiveIntensity={0.36} metalness={0.78} roughness={0.27} clearcoat={0.28} envMapIntensity={0.65} />
+			) : (
+				<meshPhysicalMaterial color={IVORY} roughness={0.36} metalness={0.02} clearcoat={0.52} clearcoatRoughness={0.22} envMapIntensity={0.64} />
+			)}
+		</instancedMesh>
+	);
+}
+
+function CausalRibbon({frame, path, width, from, to}: {frame: number; path: readonly Point2[]; width: number; from: number; to: number}) {
+	const ref = useRef<THREE.Mesh>(null);
+	const geometry = useMemo(() => makeRibbonGeometry(path, width), [path, width]);
+	const progress = smooth(from, to, frame);
+	useLayoutEffect(() => {
+		const current = ref.current;
+		if (!current) return;
+		const tubeGeometry = current.geometry as THREE.BufferGeometry;
+		const triangles = Math.floor(progress * (path.length - 1)) * 6;
+		tubeGeometry.setDrawRange(0, triangles);
+	}, [path.length, progress]);
+	return (
+		<mesh ref={ref} geometry={geometry} frustumCulled={false}>
+			<meshPhysicalMaterial
+				color={GOLD}
+				emissive="#754810"
+				emissiveIntensity={0.34 + smooth(2460, 2820, frame) * 0.1}
+				metalness={0.84}
+				roughness={0.25}
+				clearcoat={0.34}
+				clearcoatRoughness={0.18}
+				envMapIntensity={0.78}
+				side={THREE.DoubleSide}
+			/>
+		</mesh>
+	);
+}
+
+type ProbeDefinition = {path: Point2[]; start: number; fade: number; side: -1 | 1; salt: number};
+const PROBES: ProbeDefinition[] = Array.from({length: 6}, (_, index) => {
+	const side: -1 | 1 = index % 2 === 0 ? -1 : 1;
+	const startZ = -2.5 - index * 1.6;
+	const reach = 2.5 + seeded(index, 31) * 1.25;
+	const path: Point2[] = [
+		[0, startZ],
+		[side * reach * 0.28, startZ - 0.55],
+		[side * reach * 0.62, startZ - 0.26],
+		[side * reach, startZ - 1.05 - seeded(index, 32) * 0.8],
+	];
+	return {path, start: 1320 + index * 120, fade: 2050 + index * 57, side, salt: index};
+});
+
+function ProbeLine({frame, probe}: {frame: number; probe: ProbeDefinition}) {
+	const opacity = smooth(probe.start, probe.start + 90, frame) * (1 - smooth(probe.fade, probe.fade + 230, frame)) * 0.82;
+	const geometry = useMemo(() => makeTube(probe.path, 0.034 + (probe.salt % 2) * 0.006), [probe]);
+	return (
+		<mesh geometry={geometry}>
+			<meshPhysicalMaterial
+				color={probe.salt % 3 === 0 ? GOLD_LIGHT : GOLD}
+				emissive="#55310D"
+				emissiveIntensity={0.22}
+				metalness={0.8}
+				roughness={0.32}
+				envMapIntensity={0.48}
+				transparent
+				opacity={opacity}
+				depthWrite={false}
+			/>
+		</mesh>
+	);
+}
+
+function ProbeBranches({frame}: CanyonSceneProps) {
+	return (
+		<group>
+			{PROBES.map((probe) => <ProbeLine key={`probe-${probe.salt}`} frame={frame} probe={probe} />)}
+			<UncontrolledInkBranch frame={frame} />
+		</group>
+	);
+}
+
+const INK_BRANCH_PATH: Point2[] = [[0, -7.8], [-0.36, -8.35], [-1.02, -8.5], [-1.72, -8.2], [-2.2, -8.0]];
+function UncontrolledInkBranch({frame}: CanyonSceneProps) {
+	const geometry = useMemo(() => makeTube(INK_BRANCH_PATH, 0.027, 6), []);
+	const opacity = smooth(1780, 1910, frame) * (1 - smooth(2220, 2440, frame)) * 0.78;
+	return (
+		<mesh geometry={geometry}>
+			<meshStandardMaterial color="#71392D" emissive="#200D0B" emissiveIntensity={0.1} roughness={0.77} transparent opacity={opacity} depthWrite={false} />
+		</mesh>
+	);
+}
+
+function RepairFront({frame}: CanyonSceneProps) {
+	const meshRef = useRef<THREE.Mesh>(null);
+	const geometry = useMemo(() => {
+		const segments = 120;
+		const positions = new Float32Array((segments + 1) * 2 * 3);
+		const indices: number[] = [];
+		for (let index = 0; index <= segments; index++) {
+			const left = index * 2;
+			const right = left + 1;
+			const nextLeft = left + 2;
+			const nextRight = left + 3;
+			if (index < segments) indices.push(left, nextLeft, right, right, nextLeft, nextRight);
+		}
+		const created = new THREE.BufferGeometry();
+		created.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+		created.setIndex(indices);
+		return created;
+	}, []);
+	const opacity = smooth(2940, 2990, frame) * (1 - smooth(3290, 3440, frame));
+	const frontZ = mix(6, -30, smooth(2940, 3300, frame));
+	const halfWidth = 4.4 + Math.max(0, SPLIT_Z - frontZ) * 0.23;
+	useLayoutEffect(() => {
+		const current = meshRef.current;
+		if (!current) return;
+		const attribute = (current.geometry as THREE.BufferGeometry).getAttribute('position') as THREE.BufferAttribute;
+		const segments = 120;
+		for (let index = 0; index <= segments; index++) {
+			const x = mix(-halfWidth, halfWidth, index / segments);
+			for (let side = 0; side < 2; side++) {
+				const vertex = index * 2 + side;
+				attribute.setXYZ(vertex, x, terrainHeight(x, frontZ) + 0.2, frontZ + (side === 0 ? -0.065 : 0.065));
+			}
+		}
+		attribute.needsUpdate = true;
+		current.geometry.computeVertexNormals();
+	}, [frontZ, halfWidth]);
+	return (
+		<mesh ref={meshRef} geometry={geometry} frustumCulled={false}>
+			<meshPhysicalMaterial color={GOLD_LIGHT} emissive="#8B5115" emissiveIntensity={0.55} metalness={0.79} roughness={0.24} clearcoat={0.4} transparent opacity={opacity} depthWrite={false} side={THREE.DoubleSide} />
+		</mesh>
+	);
+}
+
+function CanyonLighting({frame}: CanyonSceneProps) {
+	const frontZ = mix(6, -30, smooth(2940, 3300, frame));
+	const boundaryIntensity = 8 + smooth(2940, 3150, frame) * 48;
+	return (
+		<>
+			<hemisphereLight args={['#F6E3BF', '#181411', 1.15]} />
+			<directionalLight color="#FFE4B3" intensity={3.1} position={[-8, 13, 8]} />
+			<directionalLight color="#B7C5D8" intensity={1.3} position={[7, 8, -15]} />
+			<pointLight color="#F1D4A6" intensity={55} distance={31} decay={2} position={[-2.8, 3.4, 1.5]} />
+			<pointLight color="#C5B99D" intensity={37} distance={28} decay={2} position={[3.2, 5, -11]} />
+			<pointLight color={GOLD_LIGHT} intensity={boundaryIntensity} distance={14} decay={2} position={[0, 3.2, frontZ]} />
+		</>
+	);
+}
+
+function CanyonWorld({frame}: CanyonSceneProps) {
+	const branchLeftProgress = smooth(3540, 3600, frame);
+	return (
+		<>
+			<CameraAndEnvironment frame={frame} />
+			<CanyonLighting frame={frame} />
+			<CanyonTerrain />
+			<CliffLayers />
+			<ProbeBranches frame={frame} />
+			<CausalRibbon frame={frame} path={MAIN_PATH} width={0.14} from={1780} to={2460} />
+			<CausalRibbon frame={frame} path={LEFT_EXIT_PATH} width={0.12} from={3540} to={3600} />
+			<CausalRibbon frame={frame} path={RIGHT_EXIT_PATH} width={0.12} from={3540} to={3600} />
+			<RepairFront frame={frame} />
+			<InstanceField frame={frame} kind="porcelain" />
+			<InstanceField frame={frame} kind="storm" />
+			<InstanceField frame={frame} kind="gold" />
+			<pointLight
+				color={GOLD_LIGHT}
+				intensity={6 + branchLeftProgress * 35}
+				distance={20}
+				decay={2}
+				position={[0, 2.5, mix(-17, -25, branchLeftProgress)]}
+			/>
+		</>
+	);
+}
+
+export function CanyonScene({frame}: CanyonSceneProps) {
+	const {width, height} = useVideoConfig();
+	return (
+		<ThreeCanvas
+			width={width}
+			height={height}
+			style={{position: 'absolute', inset: 0}}
+			camera={{position: [0, 7, 10], fov: 47, near: 0.1, far: 120}}
+			gl={{alpha: false, antialias: true, powerPreference: 'high-performance'}}
+		>
+			<CanyonWorld frame={frame} />
+		</ThreeCanvas>
+	);
+}

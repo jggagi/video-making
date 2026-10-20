@@ -1,0 +1,12 @@
+{
+  "provider": "Aliyun Bailian",
+  "scope": "si-ep11-kintsugi-ink-v02 S01 through S08 exact prepared tts_phonetic_text",
+  "authorized": true,
+  "source": "Q standing authorization recorded in repository skill on 2026-10-20: Bailian longtian_v3 for current and future film narration",
+  "voice": "longtian_v3",
+  "text_sha256": "c37584e8d27ab487aa3711eef0869c1d5286c3ab6bfd0ec6422f74f2710d6826",
+  "cli_version": "2.4.0",
+  "latest_checked": "2.5.0",
+  "version_choice": "User explicitly chose to continue installed 2.4.0 without environment changes",
+  "asr_authorized": false
+}

@@ -1,0 +1,575 @@
+import React, {useEffect, useLayoutEffect, useMemo, useRef, useState} from 'react';
+import {useThree} from '@react-three/fiber';
+import {ThreeCanvas} from '@remotion/three';
+import {cancelRender, continueRender, delayRender, staticFile, useVideoConfig} from 'remotion';
+import * as THREE from 'three';
+import {GLTFLoader} from 'three/examples/jsm/loaders/GLTFLoader.js';
+import {clone as cloneSkeleton} from 'three/examples/jsm/utils/SkeletonUtils.js';
+import {StudioEnvironment} from './StudioEnvironment';
+import {subdivideSkinnedGeometry} from './subdivideSkinnedGeometry';
+
+type Shot = 'opening' | 'reveal' | 'ending';
+type Uniform = {value: number};
+type HandUniforms = {uWear: Uniform; uCrack: Uniform; uLandmark: Uniform};
+type RigJoint = {
+  name: string;
+  bone: THREE.Bone;
+  localRest: THREE.Matrix4;
+  flexAxis: THREE.Vector3;
+  twistAxis: THREE.Vector3;
+};
+type RigChain = {parent: string; joints: RigJoint[]; kind: 'finger' | 'thumb'; index: number};
+type HandRig = {
+  root: THREE.Object3D;
+  armature: THREE.Object3D;
+  bones: Map<string, THREE.Bone>;
+  rest: Map<string, THREE.Matrix4>;
+  chains: RigChain[];
+  material: THREE.MeshPhysicalMaterial;
+  uniforms: HandUniforms;
+  side: 1 | -1;
+};
+type HandModels = {left: HandRig; right: HandRig};
+type HandAssetPair = {left: THREE.Group; right: THREE.Group};
+
+const clamp = (value: number, min = 0, max = 1) => Math.max(min, Math.min(max, value));
+const lerp = (a: number, b: number, t: number) => a + (b - a) * t;
+const smooth = (a: number, b: number, value: number) => {
+  const t = clamp((value - a) / (b - a));
+  return t * t * (3 - 2 * t);
+};
+
+let assetPromise: Promise<HandAssetPair> | null = null;
+
+const loadHandAssets = () => {
+  if (!assetPromise) {
+    const loader = new GLTFLoader();
+    assetPromise = Promise.all([
+      loader.loadAsync(staticFile('assets/hands/left.glb')),
+      loader.loadAsync(staticFile('assets/hands/right.glb')),
+    ]).then(([left, right]) => {
+      for (const asset of [left, right]) asset.scene.traverse((node) => {
+        const mesh=node as THREE.SkinnedMesh;
+        if(mesh.isSkinnedMesh) mesh.geometry=subdivideSkinnedGeometry(mesh.geometry,1);
+      });
+      return {left: left.scene, right: right.scene};
+    });
+  }
+  return assetPromise;
+};
+
+const stableHash = (x: number, y: number, salt: number) => {
+  let value = Math.imul(x ^ salt, 0x45d9f3b) ^ Math.imul(y + salt, 0x119de1f3);
+  value = Math.imul(value ^ (value >>> 16), 0x45d9f3b);
+  value = Math.imul(value ^ (value >>> 16), 0x45d9f3b);
+  return ((value ^ (value >>> 16)) >>> 0) / 4294967295;
+};
+
+const makePorcelainCrackMap = () => {
+  const size = 512;
+  const cells = 38;
+  const data = new Uint8Array(size * size * 4);
+  const smooth01 = (edge0: number, edge1: number, value: number) => {
+    const t = clamp((value - edge0) / (edge1 - edge0));
+    return t * t * (3 - 2 * t);
+  };
+
+  for (let y = 0; y < size; y++) {
+    for (let x = 0; x < size; x++) {
+      const gx = (x / size) * cells;
+      const gy = (y / size) * cells;
+      const cx = Math.floor(gx);
+      const cy = Math.floor(gy);
+      const fx = gx - cx;
+      const fy = gy - cy;
+      let first = 10;
+      let second = 10;
+      for (let oy = -1; oy <= 1; oy++) {
+        for (let ox = -1; ox <= 1; ox++) {
+          const sx = cx + ox;
+          const sy = cy + oy;
+          const siteX = ox + 0.18 + stableHash(sx, sy, 37) * 0.64 - fx;
+          const siteY = oy + 0.18 + stableHash(sx, sy, 91) * 0.64 - fy;
+          const distance = Math.sqrt(siteX * siteX + siteY * siteY);
+          if (distance < first) {
+            second = first;
+            first = distance;
+          } else if (distance < second) {
+            second = distance;
+          }
+        }
+      }
+      const edge = 1 - smooth01(0.024, 0.069, second - first);
+      const pore = stableHash(x, y, 133) * 6;
+      const value = Math.round(clamp(252 - edge * 204 - pore, 0, 255));
+      const offset = (y * size + x) * 4;
+      data[offset] = value;
+      data[offset + 1] = value;
+      data[offset + 2] = value;
+      data[offset + 3] = 255;
+    }
+  }
+
+  const texture = new THREE.DataTexture(data, size, size, THREE.RGBAFormat);
+  texture.colorSpace = THREE.SRGBColorSpace;
+  texture.wrapS = THREE.RepeatWrapping;
+  texture.wrapT = THREE.RepeatWrapping;
+  texture.magFilter = THREE.LinearFilter;
+  texture.minFilter = THREE.LinearMipmapLinearFilter;
+  texture.generateMipmaps = true;
+  texture.needsUpdate = true;
+  return texture;
+};
+
+const makePorcelainMaterial = (crackMap: THREE.DataTexture) => {
+  const uniforms: HandUniforms = {uWear: {value: 1}, uCrack: {value: 1}, uLandmark: {value: 1}};
+  const material = new THREE.MeshPhysicalMaterial({
+    color: '#D6C8AD',
+    map: crackMap,
+    roughnessMap: crackMap,
+    metalness: 0.025,
+    roughness: 0.47,
+    clearcoat: 0.7,
+    clearcoatRoughness: 0.28,
+    sheen: 0.16,
+    sheenRoughness: 0.34,
+    transparent: true,
+  });
+
+  material.onBeforeCompile = (shader) => {
+    shader.uniforms.uWear = uniforms.uWear;
+    shader.uniforms.uCrack = uniforms.uCrack;
+    shader.uniforms.uLandmark = uniforms.uLandmark;
+    shader.vertexShader = shader.vertexShader
+      .replace('#include <common>', '#include <common>\nvarying vec3 vHandLocalPosition;')
+      .replace('#include <skinning_vertex>', '#include <skinning_vertex>\nvHandLocalPosition = transformed;');
+    shader.fragmentShader = shader.fragmentShader
+      .replace(
+        '#include <common>',
+        `#include <common>
+varying vec3 vHandLocalPosition;
+uniform float uWear;
+uniform float uCrack;
+uniform float uLandmark;
+float handSegmentDistance(vec2 p, vec2 a, vec2 b) {
+  vec2 ab = b - a;
+  float t = clamp(dot(p - a, ab) / max(dot(ab, ab), 0.000001), 0.0, 1.0);
+  return length(p - (a + t * ab));
+}`,
+      )
+      .replace(
+        '#include <map_fragment>',
+        `#include <map_fragment>
+float textureCrack = 1.0 - texture2D(map, vMapUv).r;
+vec2 palmCrackPoint = vec2(vHandLocalPosition.z, vHandLocalPosition.y);
+float palmYDistance = min(
+  handSegmentDistance(palmCrackPoint, vec2(0.0, -0.022), vec2(0.0, 0.045)),
+  min(
+    handSegmentDistance(palmCrackPoint, vec2(0.0, 0.022), vec2(-0.047, 0.051)),
+    handSegmentDistance(palmCrackPoint, vec2(0.0, 0.022), vec2(0.047, 0.051))
+  )
+);
+float palmYCrack = 1.0 - smoothstep(0.0014, 0.0035, palmYDistance);
+float goldCrackMask = clamp(max(textureCrack * uCrack, palmYCrack * uLandmark), 0.0, 1.0);
+diffuseColor.a *= 1.0 - smoothstep(0.025, 0.057, vHandLocalPosition.y);
+diffuseColor.rgb = mix(diffuseColor.rgb, vec3(0.67, 0.39, 0.085), goldCrackMask);
+diffuseColor.rgb = mix(diffuseColor.rgb, vec3(0.67, 0.58, 0.43), textureCrack * (1.0 - uCrack));`,
+      )
+      .replace(
+        '#include <roughnessmap_fragment>',
+        `#include <roughnessmap_fragment>
+roughnessFactor = mix(roughnessFactor, 0.23, goldCrackMask);
+float porcelainGrain = 0.5 + 0.5 * sin(dot(vHandLocalPosition, vec3(109.7, 173.3, 67.1)));
+roughnessFactor = clamp(roughnessFactor + uWear * (0.08 + 0.12 * porcelainGrain), 0.0, 1.0);`,
+      )
+      .replace(
+        '#include <metalnessmap_fragment>',
+        `#include <metalnessmap_fragment>
+metalnessFactor = mix(metalnessFactor, 0.78, goldCrackMask);`,
+      );
+  };
+  material.customProgramCacheKey = () => 'ep11-porcelain-kintsugi-v2';
+  material.userData.handUniforms = uniforms;
+  return material;
+};
+
+const makeRig = (source: THREE.Group, crackMap: THREE.DataTexture, side: 1 | -1): HandRig => {
+  const root = cloneSkeleton(source);
+  root.updateMatrixWorld(true);
+  const armature = root.getObjectByName('Armature');
+  if (!armature) throw new Error('Hand GLB is missing its Armature node');
+
+  const bones = new Map<string, THREE.Bone>();
+  root.traverse((node) => {
+    if ((node as THREE.Bone).isBone) bones.set(node.name, node as THREE.Bone);
+  });
+  const rest = new Map<string, THREE.Matrix4>();
+  for (const [name, bone] of bones) {
+    bone.updateMatrix();
+    rest.set(name, bone.matrix.clone());
+  }
+
+  const wrist = bones.get('wrist');
+  const wristRest = rest.get('wrist');
+  if (!wrist || !wristRest) throw new Error('Hand GLB is missing the wrist bone');
+
+  const chainSpecs: {kind: 'finger' | 'thumb'; index: number; names: string[]}[] = [
+    {kind: 'thumb', index: 0, names: ['thumb-metacarpal', 'thumb-phalanx-proximal', 'thumb-phalanx-distal', 'thumb-tip']},
+    ...['index', 'middle', 'ring', 'pinky'].map((name, index) => ({
+      kind: 'finger' as const,
+      index,
+      names: [
+        `${name}-finger-metacarpal`,
+        `${name}-finger-phalanx-proximal`,
+        `${name}-finger-phalanx-intermediate`,
+        `${name}-finger-phalanx-distal`,
+        `${name}-finger-tip`,
+      ],
+    })),
+  ];
+
+  const chains: RigChain[] = chainSpecs.map((spec) => {
+    let parentName = 'wrist';
+    const joints: RigJoint[] = spec.names.map((name) => {
+      const bone = bones.get(name);
+      const restMatrix = rest.get(name);
+      const parentRest = rest.get(parentName);
+      if (!bone || !restMatrix || !parentRest) throw new Error(`Hand GLB is missing bone ${name}`);
+      const localRest = parentRest.clone().invert().multiply(restMatrix);
+      const restPosition = new THREE.Vector3();
+      const restQuaternion = new THREE.Quaternion();
+      const restScale = new THREE.Vector3();
+      restMatrix.decompose(restPosition, restQuaternion, restScale);
+      const inverseRestRotation = restQuaternion.clone().invert();
+      // The unposed palm lies in YZ: flex around its transverse Z axis,
+      // rather than spinning each finger in the plane of the palm.
+      const flexAxis = new THREE.Vector3(0, 0, 1).applyQuaternion(inverseRestRotation).normalize();
+      const twistAxis = new THREE.Vector3(0, -1, 0).applyQuaternion(inverseRestRotation).normalize();
+      parentName = name;
+      return {name, bone, localRest, flexAxis, twistAxis};
+    });
+    return {parent: 'wrist', joints, kind: spec.kind, index: spec.index};
+  });
+
+  const material = makePorcelainMaterial(crackMap);
+  root.traverse((node) => {
+    const mesh = node as THREE.SkinnedMesh;
+    if (mesh.isSkinnedMesh) {
+      mesh.material = material;
+      mesh.castShadow = true;
+      mesh.receiveShadow = true;
+      mesh.frustumCulled = false;
+    }
+  });
+  return {root, armature, bones, rest, chains, material, uniforms: material.userData.handUniforms, side};
+};
+
+const updateRig = (rig: HandRig, grip: number, repair: number, focalHand: boolean) => {
+  const wrist = rig.bones.get('wrist');
+  const wristRest = rig.rest.get('wrist');
+  if (wrist && wristRest) wristRest.decompose(wrist.position, wrist.quaternion, wrist.scale);
+  const posed = new Map<string, THREE.Matrix4>();
+  if (wristRest) posed.set('wrist', wristRest.clone());
+
+  for (const chain of rig.chains) {
+    let parentName = chain.parent;
+    for (let i = 0; i < chain.joints.length; i++) {
+      const joint = chain.joints[i];
+      const parentPose = posed.get(parentName);
+      if (!parentPose) continue;
+
+      let bend: number;
+      let twist: number;
+      if (chain.kind === 'thumb') {
+        const bends = [0.16, 0.48, 0.43, 0.08];
+        bend = -rig.side * bends[i] * grip;
+        twist = rig.side * (i === 0 ? 0.26 : 0.07) * grip;
+      } else {
+        const spread = [0.05, 0.16, 0.24, 0.2, 0.04][chain.index];
+        const bends = [0.14, 0.43, 0.58, 0.39, 0.06];
+        bend = rig.side * bends[i] * grip + (i === 0 ? rig.side * spread : 0);
+        twist = rig.side * (chain.index - 1.4) * 0.035 * grip;
+      }
+      const flex = new THREE.Quaternion().setFromAxisAngle(joint.flexAxis, bend);
+      const axial = new THREE.Quaternion().setFromAxisAngle(joint.twistAxis, twist);
+      flex.multiply(axial);
+      const localPose = joint.localRest.clone().multiply(new THREE.Matrix4().makeRotationFromQuaternion(flex));
+      const pose = parentPose.clone().multiply(localPose);
+      pose.decompose(joint.bone.position, joint.bone.quaternion, joint.bone.scale);
+      joint.bone.updateMatrix();
+      posed.set(joint.name, pose);
+      parentName = joint.name;
+    }
+  }
+
+  rig.armature.updateMatrixWorld(true);
+  rig.root.updateMatrixWorld(true);
+  rig.material.roughness = lerp(0.49, 0.255, repair);
+  rig.material.clearcoat = lerp(0.66, 0.96, repair);
+  rig.material.clearcoatRoughness = lerp(0.34, 0.15, repair);
+  rig.uniforms.uWear.value = lerp(1, 0.2, repair);
+  rig.uniforms.uCrack.value = lerp(1, 0.11, repair);
+  rig.uniforms.uLandmark.value = (focalHand ? 1 : 0.48) * lerp(1, 0.58, repair);
+};
+
+const HandPoseMap = new THREE.Quaternion().setFromRotationMatrix(
+  new THREE.Matrix4().set(
+    0, 0, 1, 0,
+    0, -1, 0, 0,
+    1, 0, 0, 0,
+    0, 0, 0, 1,
+  ),
+);
+
+const handOrientation = (splay: number) => new THREE.Quaternion().setFromAxisAngle(new THREE.Vector3(0, 0, 1), splay).multiply(HandPoseMap);
+
+const makeInfinityRibbon = () => {
+  const around = 256;
+  const across = 16;
+  const columns = across + 1;
+  const width = 0.13;
+  const positions: number[] = [];
+  const uvs: number[] = [];
+  const indices: number[] = [];
+  for (let i = 0; i < around; i++) {
+    const u = (i / around) * Math.PI * 2;
+    const tangent = new THREE.Vector3(
+      1.38 * Math.cos(u),
+      1.28 * Math.cos(2 * u),
+      -0.28 * Math.sin(u),
+    ).normalize();
+    const side = new THREE.Vector3(0, 0, 1).cross(tangent).normalize();
+    const binormal = tangent.clone().cross(side).normalize();
+    const center = new THREE.Vector3(1.38 * Math.sin(u), -0.16 + 0.64 * Math.sin(2 * u), -0.94 + 0.28 * Math.cos(u));
+    for (let j = 0; j <= across; j++) {
+      const v = (j / across - 0.5) * width;
+      const twist = u / 2;
+      const offset = side.clone().multiplyScalar(Math.cos(twist) * v).addScaledVector(binormal, Math.sin(twist) * v);
+      const point = center.clone().add(offset);
+      positions.push(point.x, point.y, point.z);
+      uvs.push(i / around, j / across);
+    }
+  }
+  for (let i = 0; i < around; i++) {
+    const nextI = (i + 1) % around;
+    for (let j = 0; j < across; j++) {
+      const a = i * columns + j;
+      const d = i * columns + j + 1;
+      const reverse = i === around - 1;
+      const b = nextI * columns + (reverse ? across - j : j);
+      const c = nextI * columns + (reverse ? across - j - 1 : j + 1);
+      indices.push(a, b, d, b, c, d);
+    }
+  }
+  const geometry = new THREE.BufferGeometry();
+  geometry.setAttribute('position', new THREE.Float32BufferAttribute(positions, 3));
+  geometry.setAttribute('uv', new THREE.Float32BufferAttribute(uvs, 2));
+  geometry.setIndex(indices);
+  geometry.computeVertexNormals();
+  geometry.computeBoundingSphere();
+  return geometry;
+};
+
+const CameraOrbit: React.FC<{frame: number; target: THREE.Vector3; distance: number}> = ({frame, target, distance}) => {
+  const {camera} = useThree();
+  useLayoutEffect(() => {
+    const orbit = Math.sin(frame / 180) * 0.042;
+    const bob = Math.sin(frame / 145) * 0.018;
+    camera.position.set(
+      target.x + Math.sin(orbit) * distance,
+      target.y + bob,
+      target.z + Math.cos(orbit) * distance,
+    );
+    camera.lookAt(target);
+    if (camera instanceof THREE.PerspectiveCamera) {
+      camera.fov = 35;
+      camera.updateProjectionMatrix();
+    }
+    camera.updateMatrixWorld(true);
+  }, [camera, distance, frame, target]);
+  return null;
+};
+
+const findHairGeometry = (left: THREE.Group, right: THREE.Group) => {
+  const preferred = ['index-finger-tip', 'middle-finger-tip', 'ring-finger-tip', 'pinky-finger-tip'];
+  const leftTips: THREE.Vector3[] = [];
+  const rightTips: THREE.Vector3[] = [];
+  for (const name of preferred) {
+    const leftTip = left.getObjectByName(name);
+    const rightTip = right.getObjectByName(name);
+    if (leftTip) leftTips.push(leftTip.getWorldPosition(new THREE.Vector3()));
+    if (rightTip) rightTips.push(rightTip.getWorldPosition(new THREE.Vector3()));
+  }
+  let start = leftTips[0] ?? new THREE.Vector3(-0.2, 0.12, 0.2);
+  let end = rightTips[0] ?? new THREE.Vector3(0.2, 0.12, 0.2);
+  let shortest = Infinity;
+  for (const a of leftTips) {
+    for (const b of rightTips) {
+      const distance = a.distanceTo(b);
+      if (distance < shortest) {
+        shortest = distance;
+        start = a.clone();
+        end = b.clone();
+      }
+    }
+  }
+
+  const foregroundZ=Math.max(start.z,end.z)+0.16;
+  start.z=foregroundZ;
+  end.z=foregroundZ;
+  const midpoint = start.clone().add(end).multiplyScalar(0.5);
+  const span = Math.max(start.distanceTo(end), 0.45);
+  const lift = new THREE.Vector3(0, 0.12 + span * 0.16, 0.015);
+  const controlA = start.clone().lerp(midpoint, 0.62).add(lift);
+  const controlB = end.clone().lerp(midpoint, 0.62).add(lift);
+  const curve = new THREE.CatmullRomCurve3([start, controlA, midpoint.clone().add(lift), controlB, end]);
+  return new THREE.TubeGeometry(curve, 120, 0.0085, 7, false);
+};
+
+const RiggedHands: React.FC<{models: HandModels; shot: Shot; frame: number; repair: number;onReady:()=>void}> = ({models, shot, frame, repair,onReady}) => {
+  const leftRef = useRef<THREE.Group>(null);
+  const rightRef = useRef<THREE.Group>(null);
+  const hairMesh=useRef<THREE.Mesh>(null);
+  const hairReady=useRef(false);
+  const hairGeometry=useMemo(()=>new THREE.BufferGeometry(),[]);
+  const infinityRibbon = useMemo(makeInfinityRibbon, []);
+
+  const converge = shot === 'opening' ? smooth(45, 290, frame) : 1;
+  const leftX = lerp(-0.92, -0.6, converge);
+  const rightX = lerp(0.91, 0.4, converge);
+  const leftY = lerp(-0.7, -0.15, converge);
+  const rightY = lerp(0.95, -0.3, converge);
+  const grip = shot === 'opening'
+    ? clamp(lerp(0.34, 0.83, smooth(50, 315, frame)) + 0.075 * Math.exp(-(((frame - 420) / 78) ** 2)))
+    : shot === 'reveal'
+      ? lerp(0.84, 0.69, repair)
+      : 0.72;
+  const leftRotation = handOrientation(-0.42);
+  const rightRotation = handOrientation(Math.PI - 0.6);
+
+  useLayoutEffect(() => {
+    updateRig(models.left, grip, repair, true);
+    updateRig(models.right, grip, repair, false);
+    leftRef.current?.updateMatrixWorld(true);
+    rightRef.current?.updateMatrixWorld(true);
+    if (shot === 'ending' && !hairReady.current && leftRef.current && rightRef.current && hairMesh.current) {
+      const generated = findHairGeometry(leftRef.current, rightRef.current);
+      hairMesh.current.geometry=generated;
+      hairReady.current=true;
+    }
+    onReady();
+  }, [frame, grip, models, repair, shot,onReady]);
+
+  const chipProgress = clamp((frame - 420) / 72);
+  const chipOpacity = shot === 'opening' ? smooth(396, 410, frame) * (1 - smooth(489, 516, frame)) : 0;
+
+  return (
+    <>
+      <group ref={leftRef} position={[leftX, leftY, 0.11]} quaternion={leftRotation} scale={10}>
+        <primitive object={models.left.root} dispose={null} />
+        {shot === 'opening' && chipOpacity > 0.001 && (
+          <mesh
+            position={[-0.05, 0.018 + chipProgress * chipProgress * 0.078, -0.01]}
+            rotation={[0.18 + chipProgress * 2, 0.4, 0.3 + chipProgress * 2.6]}
+            scale={[1, 0.76, 0.48]}
+            castShadow
+          >
+            <tetrahedronGeometry args={[0.0021, 0]} />
+            <meshPhysicalMaterial color="#E4D7BF" roughness={0.3} clearcoat={0.8} transparent opacity={chipOpacity} />
+          </mesh>
+        )}
+      </group>
+      <group ref={rightRef} position={[rightX, rightY, -0.055]} quaternion={rightRotation} scale={10}>
+        <primitive object={models.right.root} dispose={null} />
+      </group>
+
+      {shot === 'ending' && (
+        <>
+          <mesh geometry={infinityRibbon} renderOrder={0} rotation={[0.07*Math.sin(frame/180),0.1*Math.sin(frame/240),0.02*Math.sin(frame/90)]}>
+            <meshPhysicalMaterial
+              color="#B8893C"
+              metalness={0.82}
+              roughness={0.24}
+              clearcoat={0.96}
+              clearcoatRoughness={0.18}
+              emissive="#3D260B"
+              emissiveIntensity={0.055}
+              side={THREE.DoubleSide}
+            />
+          </mesh>
+          {(
+            <mesh ref={hairMesh} geometry={hairGeometry} renderOrder={4}>
+              <meshPhysicalMaterial color="#F7F3E8" roughness={0.36} metalness={0.015} clearcoat={0.78} emissive="#E0D8C5" emissiveIntensity={0.3} />
+            </mesh>
+          )}
+        </>
+      )}
+    </>
+  );
+};
+
+export const HandScene: React.FC<{frame: number; shot: Shot}> = ({frame, shot}) => {
+  const {width, height} = useVideoConfig();
+  const [handle] = useState(() => delayRender('EP11 local porcelain hand assets'));
+  const released=useRef(false);
+  const release=useMemo(()=>()=>{if(!released.current){released.current=true;continueRender(handle);}},[handle]);
+  const [models, setModels] = useState<HandModels | null>(null);
+  const crackMap = useMemo(makePorcelainCrackMap, []);
+  const repair = shot === 'reveal' ? smooth(3540, 4140, frame) : shot === 'ending' ? 1 : 0;
+
+  useEffect(() => {
+    let active = true;
+    loadHandAssets()
+      .then((assets) => {
+        if (!active) return;
+        const left = makeRig(assets.left, crackMap, 1);
+        const right = makeRig(assets.right, crackMap, -1);
+        setModels({left, right});
+      })
+      .catch((error: unknown) => {
+        if (active) {
+          released.current = true;
+          cancelRender(error instanceof Error ? error : new Error(String(error)));
+        }
+      });
+    return () => {
+      active = false;
+      release();
+    };
+  }, [crackMap, handle,release]);
+
+  const approach = shot === 'opening' ? smooth(480, 600, frame) : 0;
+  const pullback = shot === 'reveal' ? smooth(3540, 4140, frame) : 0;
+  const distance = shot === 'opening'
+    ? lerp(9.65, 1.6, approach)
+    : shot === 'reveal'
+      ? lerp(1.6, 9.75, pullback)
+      : 9.5;
+  const target = shot === 'opening'
+    ? new THREE.Vector3(lerp(0, -0.5, approach), lerp(-0.52, -0.3, approach), 0)
+    : shot === 'reveal'
+      ? new THREE.Vector3(lerp(-0.5, -0.03, pullback), lerp(-0.3, -0.52, pullback), 0)
+      : new THREE.Vector3(0.03, -0.52, 0);
+
+  return (
+    <ThreeCanvas
+      width={width}
+      height={height}
+      dpr={1}
+      shadows
+      camera={{position: [0, -0.52, 9.75], fov: 35, near: 0.1, far: 80}}
+      gl={{antialias: true, alpha: false, powerPreference: 'high-performance'}}
+    >
+      <color attach="background" args={['#0C0C0E']} />
+      <StudioEnvironment intensity={0.92} />
+      <CameraOrbit frame={frame} target={target} distance={distance} />
+      <ambientLight intensity={0.16} color="#e9ddc9" />
+      <hemisphereLight args={['#fff0db', '#120d09', 0.38]} />
+      <directionalLight position={[-3.6, 5.5, 5]} intensity={3.0} color="#fff0d8" castShadow shadow-mapSize={[1024, 1024]} />
+      <directionalLight position={[3.8, 2.5, -3.5]} intensity={2.15} color="#d4b678" />
+      <pointLight position={[0.2, 1.1, 3.1]} intensity={0.58} color="#fff6e7" distance={9} />
+      <pointLight position={[1.05, -0.3, 1.4]} intensity={0.3} color="#D7A64A" distance={4.8} />
+      {models && <RiggedHands models={models} shot={shot} frame={frame} repair={repair} onReady={release} />}
+    </ThreeCanvas>
+  );
+};

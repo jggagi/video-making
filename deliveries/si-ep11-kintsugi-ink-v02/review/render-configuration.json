@@ -1,0 +1,46 @@
+{
+  "runtime_versions": {
+    "remotion": "4.0.534",
+    "@remotion/three": "4.0.534",
+    "@react-three/fiber": "9.8.2",
+    "three": "0.186.1",
+    "react": "19.1.0",
+    "typescript": "5.9.3"
+  },
+  "native_width": 2160,
+  "native_height": 3840,
+  "fps": 60,
+  "duration_frames": 5400,
+  "chromium_options": {
+    "gl": "angle"
+  },
+  "capture_format": "png",
+  "render_concurrency": 1,
+  "codec": "h264",
+  "crf": 16,
+  "x264_preset": "slow",
+  "audio_codec": "aac",
+  "sample_rate": 48000,
+  "audio_bitrate": "320k",
+  "frame_readiness": "ThreeCanvas frame-driven rendering; local fonts via delayRender/continueRender; GLB loading contract explicit in HandScene",
+  "source_hashes_pending_final_lock": false,
+  "browser": {
+    "executable": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+    "version": "Google Chrome 155.0.8059.85"
+  },
+  "source_sha256": {
+    "src/CanyonScene.tsx": "68c133774b576dd5465352b05a1920c10d1c6022c5f1e54d34f9f08029ed8efe",
+    "src/Effects.tsx": "49901c6c802d81ffd0306247a898062781fa9110b0f7772ac2ce418f3b213344",
+    "src/Film.tsx": "e8a83e12f0408d2d6ddcc2c7ee69e0b1e5bf9e2b7c807ccd2226e75b769f478c",
+    "src/HandScene.tsx": "a3e6af1ddc2b02819cc64e565483da5e9c5162ba218becf1f86a5c582c3a56a5",
+    "src/InkRiver.tsx": "40d5dd62f946dc61709168ad266091e9728476f056b5cb61d0f7a13d1205612c",
+    "src/Root.tsx": "dce16cc87b06fb8da2b52d5203bf61b993eeca21e872efeda67c09c4b5b5a775",
+    "src/StudioEnvironment.tsx": "e755f9377e765beddefb868b2d50b1c4a02c558576e0cb49cb40dbf6673b8314",
+    "src/TerrainInkMaterial.tsx": "9565c105ed1811657f8f3ea884722639b7f8b3916c6c90792dedf65d24d6f446",
+    "src/index.ts": "2e0e358282a1b998a65387c653b97c2bb2eb7aae94cf200fc0b8d919f7be73a6",
+    "src/subdivideSkinnedGeometry.ts": "8588e439242eaa3db42308fb3318c42639029240800e0700f3bf8ac090f2a34c"
+  },
+  "master_sha256": "66d32a2a2d12d33f03077f72847cd68b3aea567d4bf875e24338061c8345600e",
+  "readiness": "Fonts ready; GLB assets loaded and subdivided; first hand rig layout and foreground hair geometry committed before release; ThreeCanvas controls frame capture.",
+  "reversalMotion": "Debris crossing uses the inverse of the same cubic smoothstep as the visible wave; 1001 source samples pass continuity contract."
+}

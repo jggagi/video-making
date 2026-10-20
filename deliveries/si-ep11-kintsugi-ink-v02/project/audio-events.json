@@ -1,0 +1,108 @@
+{
+  "fps": 60,
+  "absoluteSilence": [
+    4860,
+    4890
+  ],
+  "events": [
+    {
+      "id": "porcelain_crack",
+      "frame": 420,
+      "sample": 336000,
+      "durationSeconds": 1.8,
+      "description": "贴近瓷面的细裂声，轻而脆；保留语音清晰度。"
+    },
+    {
+      "id": "macro_descent",
+      "frame": 600,
+      "sample": 480000,
+      "durationSeconds": 5.2,
+      "description": "墨与瓷屑向掌纹深处下坠，低声、微粒感。"
+    },
+    {
+      "id": "danger_branch_a",
+      "frame": 1420,
+      "sample": 1136000,
+      "durationSeconds": 2.4,
+      "description": "第一条失控岔路：倒放颗粒与短促低弦张力。"
+    },
+    {
+      "id": "danger_branch_b",
+      "frame": 1840,
+      "sample": 1472000,
+      "durationSeconds": 2.8,
+      "description": "第二条失控岔路：更窄的反向颗粒回声。"
+    },
+    {
+      "id": "gold_find",
+      "frame": 2460,
+      "sample": 1968000,
+      "durationSeconds": 3.6,
+      "description": "金色窄路出现，暖而克制的微亮泛音。"
+    },
+    {
+      "id": "first_shard_stop",
+      "frame": 2820,
+      "sample": 2256000,
+      "durationSeconds": 1.1,
+      "description": "第一粒瓷屑突然停住，留一瞬呼吸。"
+    },
+    {
+      "id": "repair_wave",
+      "frame": 2940,
+      "sample": 2352000,
+      "durationSeconds": 5.2,
+      "description": "修复边界扫过，瓷雨由坠落转为上升。"
+    },
+    {
+      "id": "crescendo",
+      "frame": 3150,
+      "sample": 2520000,
+      "durationSeconds": 5.2,
+      "description": "瓷片与金屑逐步聚合，细密但不轰鸣。"
+    },
+    {
+      "id": "hand_reveal",
+      "frame": 3540,
+      "sample": 2832000,
+      "durationSeconds": 4.4,
+      "description": "沿掌纹退出山谷，暖弦由远及近。"
+    },
+    {
+      "id": "tenderness",
+      "frame": 4140,
+      "sample": 3312000,
+      "durationSeconds": 3.2,
+      "description": "回到相握的手，温柔单音与柔和共鸣。"
+    },
+    {
+      "id": "season_spring",
+      "frame": 4320,
+      "sample": 3456000,
+      "durationSeconds": 1.9,
+      "description": "季节掠过：轻柔风纹和一颗暖铃。"
+    },
+    {
+      "id": "season_summer",
+      "frame": 4510,
+      "sample": 3608000,
+      "durationSeconds": 1.6,
+      "description": "季节掠过：短而稀疏的泛音。"
+    },
+    {
+      "id": "season_autumn",
+      "frame": 4720,
+      "sample": 3776000,
+      "durationSeconds": 2.0,
+      "description": "最后一季远去，薄风逐渐淡出。"
+    },
+    {
+      "id": "gold_drop",
+      "frame": 4890,
+      "sample": 3912000,
+      "durationSeconds": 2.5,
+      "description": "绝对静默之后，一滴金液落下；不抢先于旁白。"
+    }
+  ],
+  "design": "All score and effects are original deterministic procedural synthesis; no third-party or copyrighted source audio."
+}

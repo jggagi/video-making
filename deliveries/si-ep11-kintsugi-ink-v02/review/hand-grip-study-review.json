@@ -1,0 +1,11 @@
+{
+  "status": "REJECTED",
+  "scope": "Optional two-frame pose study while locked full render continued; no change to final render bundle.",
+  "frames": [
+    300,
+    5100
+  ],
+  "reason": "Extra finger curl made the hands look tense and claw-like; the restrained palm-to-hand contact reads more tenderly. The study was not adopted.",
+  "lockedSourceRestoredSha256": "a3e6af1ddc2b02819cc64e565483da5e9c5162ba218becf1f86a5c582c3a56a5",
+  "matchesLockedAssetsManifest": true
+}

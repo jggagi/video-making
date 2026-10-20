@@ -1,0 +1,587 @@
+import React, {useMemo} from 'react';
+import {ThreeCanvas} from '@remotion/three';
+import {useVideoConfig} from 'remotion';
+import * as THREE from 'three';
+
+type Shot = 'opening' | 'reveal' | 'ending';
+type Point3 = [number, number, number];
+type Point2 = [number, number];
+
+const clamp = (value: number, min = 0, max = 1) => Math.max(min, Math.min(max, value));
+const lerp = (from: number, to: number, amount: number) => from + (to - from) * amount;
+const smoothstep = (from: number, to: number, value: number) => {
+  const t = clamp((value - from) / (to - from));
+  return t * t * (3 - 2 * t);
+};
+
+const ellipsoidDistance = (
+  x: number,
+  y: number,
+  z: number,
+  center: Point3,
+  radii: Point3,
+) => {
+  const px = x - center[0];
+  const py = y - center[1];
+  const pz = z - center[2];
+  const k0 = Math.sqrt(
+    (px / radii[0]) ** 2 + (py / radii[1]) ** 2 + (pz / radii[2]) ** 2,
+  );
+  const k1 = Math.sqrt(
+    (px / radii[0] ** 2) ** 2 + (py / radii[1] ** 2) ** 2 + (pz / radii[2] ** 2) ** 2,
+  );
+  return k1 < 1e-6 ? -Math.min(...radii) : (k0 * (k0 - 1)) / k1;
+};
+
+const smoothMin = (a: number, b: number, radius: number) => {
+  const h = Math.max(radius - Math.abs(a - b), 0) / radius;
+  return Math.min(a, b) - (h * h * radius) / 4;
+};
+
+const bezierPoint = (p0: Point3, p1: Point3, p2: Point3, p3: Point3, t: number): Point3 => {
+  const u = 1 - t;
+  const a = u * u * u;
+  const b = 3 * u * u * t;
+  const c = 3 * u * t * t;
+  const d = t * t * t;
+  return [
+    a * p0[0] + b * p1[0] + c * p2[0] + d * p3[0],
+    a * p0[1] + b * p1[1] + c * p2[1] + d * p3[1],
+    a * p0[2] + b * p1[2] + c * p2[2] + d * p3[2],
+  ];
+};
+
+const appendBezier = (
+  destination: Point3[],
+  p0: Point3,
+  p1: Point3,
+  p2: Point3,
+  p3: Point3,
+  steps = 12,
+) => {
+  for (let i = destination.length ? 1 : 0; i <= steps; i++) {
+    destination.push(bezierPoint(p0, p1, p2, p3, i / steps));
+  }
+};
+
+type SweepSegment = {a: Point3; b: Point3; ra: number; rb: number};
+
+const distanceToSweep = (x: number, y: number, z: number, segment: SweepSegment) => {
+  const abx = segment.b[0] - segment.a[0];
+  const aby = segment.b[1] - segment.a[1];
+  const abz = segment.b[2] - segment.a[2];
+  const apx = x - segment.a[0];
+  const apy = y - segment.a[1];
+  const apz = z - segment.a[2];
+  const lengthSq = abx * abx + aby * aby + abz * abz;
+  const t = clamp((apx * abx + apy * aby + apz * abz) / lengthSq);
+  const dx = apx - abx * t;
+  const dy = apy - aby * t;
+  const dz = apz - abz * t;
+  return Math.sqrt(dx * dx + dy * dy + dz * dz) - lerp(segment.ra, segment.rb, t);
+};
+
+type FingerPath = {points: Point3[]; tip: Point3; tipAngle: number};
+
+const createFingerPaths = (mirror: 1 | -1, weave: 1 | -1): FingerPath[] => {
+  const zLayers = [-0.115, 0.115, -0.105, 0.105];
+  const paths: FingerPath[] = [];
+  const fingers = [
+    {base: -0.34, c1: -0.42, c2: -0.42, crown: -0.2, tip: [0.015, 0.64] as Point2},
+    {base: -0.115, c1: -0.2, c2: -0.08, crown: 0.16, tip: [0.235, 0.68] as Point2},
+    {base: 0.12, c1: 0.2, c2: 0.34, crown: 0.56, tip: [0.6, 0.65] as Point2},
+    {base: 0.35, c1: 0.45, c2: 0.63, crown: 0.82, tip: [0.79, 0.52] as Point2},
+  ];
+
+  fingers.forEach((finger, index) => {
+    const z = zLayers[index] * weave;
+    const start: Point3 = [finger.base, 0.32, 0];
+    const shoulder: Point3 = [finger.c1, 0.63, z * 0.24];
+    const knuckle: Point3 = [finger.c2, index === 3 ? 0.84 : 0.98, z * 0.82];
+    const crown: Point3 = [finger.crown, index === 3 ? 0.88 : 1.02 - (index === 0 ? 0.09 : 0), z];
+    const curlControl: Point3 = [finger.crown + 0.2, crown[1] - 0.03, z * 0.82];
+    const tipControl: Point3 = [finger.tip[0] + 0.17, finger.tip[1] + 0.08, z * 0.28];
+    const tip: Point3 = [finger.tip[0], finger.tip[1], 0];
+    const points: Point3[] = [];
+    appendBezier(points, start, shoulder, knuckle, crown, 12);
+    appendBezier(points, crown, curlControl, tipControl, tip, 12);
+    const angle = Math.atan2(tip[1] - tipControl[1], tip[0] - tipControl[0]) - Math.PI / 2;
+    paths.push({points: points.map(([x, y, pz]) => [x * mirror, y, pz] as Point3), tip: [tip[0] * mirror, tip[1], 0], tipAngle: mirror * angle});
+  });
+
+  const thumb: Point3[] = [];
+  appendBezier(
+    thumb,
+    [-0.39, 0.05, 0],
+    [-0.7, 0.14, -0.08 * weave],
+    [-0.77, 0.43, -0.1 * weave],
+    [-0.61, 0.62, -0.07 * weave],
+    14,
+  );
+  appendBezier(
+    thumb,
+    [-0.61, 0.62, -0.07 * weave],
+    [-0.43, 0.77, -0.05 * weave],
+    [-0.23, 0.62, -0.025 * weave],
+    [-0.16, 0.43, 0],
+    14,
+  );
+  const thumbTip = thumb[thumb.length - 1];
+  const thumbPrev = thumb[thumb.length - 2];
+  paths.push({
+    points: thumb.map(([x, y, pz]) => [x * mirror, y, pz] as Point3),
+    tip: [thumbTip[0] * mirror, thumbTip[1], thumbTip[2]],
+    tipAngle: mirror * (Math.atan2(thumbTip[1] - thumbPrev[1], thumbTip[0] - thumbPrev[0]) - Math.PI / 2),
+  });
+  return paths;
+};
+
+const pointSegment = (points: Point3[], radii: number[]) => {
+  const segments: SweepSegment[] = [];
+  for (let i = 0; i < points.length - 1; i++) {
+    segments.push({a: points[i], b: points[i + 1], ra: radii[i], rb: radii[i + 1]});
+  }
+  return segments;
+};
+
+const makeHandSurface = (mirror: 1 | -1, weave: 1 | -1) => {
+  const fingerPaths = createFingerPaths(mirror, weave);
+  const segments: SweepSegment[] = [
+    {a: [0, -0.43, 0], b: [0, -1.24, 0], ra: 0.245, rb: 0.285},
+  ];
+
+  fingerPaths.forEach((finger, index) => {
+    const isThumb = index === 4;
+    const radii = finger.points.map((_, pointIndex) => {
+      const t = pointIndex / (finger.points.length - 1);
+      if (isThumb) return lerp(0.124, 0.083, t) + 0.009 * Math.sin(t * Math.PI);
+      const profile = Math.sin(t * Math.PI);
+      return lerp(0.094, 0.075, t) + 0.013 * profile;
+    });
+    segments.push(...pointSegment(finger.points, radii));
+  });
+
+  const bounds = {minX: -1.12, maxX: 1.12, minY: -1.34, maxY: 1.23, minZ: -0.45, maxZ: 0.45};
+  const nx = 84;
+  const ny = 96;
+  const nz = 38;
+  const sx = (bounds.maxX - bounds.minX) / nx;
+  const sy = (bounds.maxY - bounds.minY) / ny;
+  const sz = (bounds.maxZ - bounds.minZ) / nz;
+  const width = nx + 1;
+  const plane = width * (ny + 1);
+  const values = new Float32Array((nx + 1) * (ny + 1) * (nz + 1));
+  const nodeId = (x: number, y: number, z: number) => x + y * width + z * plane;
+  const sample = (x: number, y: number, z: number) => {
+    let distance = ellipsoidDistance(x, y, z, [0, 0, 0], [0.54, 0.59, 0.225]);
+    distance = smoothMin(distance, ellipsoidDistance(x, y, z, [0, -0.72, 0], [0.31, 0.63, 0.21]), 0.17);
+    for (const segment of segments) distance = smoothMin(distance, distanceToSweep(x, y, z, segment), 0.105);
+    return distance;
+  };
+
+  for (let z = 0; z <= nz; z++) {
+    const pz = bounds.minZ + z * sz;
+    for (let y = 0; y <= ny; y++) {
+      const py = bounds.minY + y * sy;
+      for (let x = 0; x <= nx; x++) {
+        values[nodeId(x, y, z)] = sample(bounds.minX + x * sx, py, pz);
+      }
+    }
+  }
+
+  const cubeCorners: [number, number, number][] = [
+    [0, 0, 0], [1, 0, 0], [1, 1, 0], [0, 1, 0],
+    [0, 0, 1], [1, 0, 1], [1, 1, 1], [0, 1, 1],
+  ];
+  const tetrahedra = [
+    [0, 5, 1, 6], [0, 1, 2, 6], [0, 2, 3, 6],
+    [0, 3, 7, 6], [0, 7, 4, 6], [0, 4, 5, 6],
+  ];
+  const vertices: number[] = [];
+  const indices: number[] = [];
+  const edgeVertices = new Map<string, number>();
+  const positionForId = (id: number): Point3 => {
+    const z = Math.floor(id / plane);
+    const inPlane = id - z * plane;
+    const y = Math.floor(inPlane / width);
+    const x = inPlane - y * width;
+    return [bounds.minX + x * sx, bounds.minY + y * sy, bounds.minZ + z * sz];
+  };
+  const vertexAtEdge = (idA: number, idB: number) => {
+    const low = Math.min(idA, idB);
+    const high = Math.max(idA, idB);
+    const key = `${low}:${high}`;
+    const existing = edgeVertices.get(key);
+    if (existing !== undefined) return existing;
+    const va = values[idA];
+    const vb = values[idB];
+    const t = clamp(va / (va - vb));
+    const pa = positionForId(idA);
+    const pb = positionForId(idB);
+    const index = vertices.length / 3;
+    vertices.push(lerp(pa[0], pb[0], t), lerp(pa[1], pb[1], t), lerp(pa[2], pb[2], t));
+    edgeVertices.set(key, index);
+    return index;
+  };
+  const addOrientedTriangle = (a: number, b: number, c: number, direction: Point3) => {
+    const ax = vertices[a * 3];
+    const ay = vertices[a * 3 + 1];
+    const az = vertices[a * 3 + 2];
+    const abx = vertices[b * 3] - ax;
+    const aby = vertices[b * 3 + 1] - ay;
+    const abz = vertices[b * 3 + 2] - az;
+    const acx = vertices[c * 3] - ax;
+    const acy = vertices[c * 3 + 1] - ay;
+    const acz = vertices[c * 3 + 2] - az;
+    const dot = (aby * acz - abz * acy) * direction[0] + (abz * acx - abx * acz) * direction[1] + (abx * acy - aby * acx) * direction[2];
+    if (dot < 0) indices.push(a, c, b);
+    else indices.push(a, b, c);
+  };
+
+  for (let z = 0; z < nz; z++) {
+    for (let y = 0; y < ny; y++) {
+      for (let x = 0; x < nx; x++) {
+        const cubeIds = cubeCorners.map(([dx, dy, dz]) => nodeId(x + dx, y + dy, z + dz));
+        for (const tetra of tetrahedra) {
+          const inside = tetra.filter((corner) => values[cubeIds[corner]] < 0);
+          if (inside.length === 0 || inside.length === 4) continue;
+          const outside = tetra.filter((corner) => values[cubeIds[corner]] >= 0);
+          const insideCenter: Point3 = [0, 0, 0];
+          const outsideCenter: Point3 = [0, 0, 0];
+          for (const corner of inside) {
+            const point = positionForId(cubeIds[corner]);
+            insideCenter[0] += point[0] / inside.length;
+            insideCenter[1] += point[1] / inside.length;
+            insideCenter[2] += point[2] / inside.length;
+          }
+          for (const corner of outside) {
+            const point = positionForId(cubeIds[corner]);
+            outsideCenter[0] += point[0] / outside.length;
+            outsideCenter[1] += point[1] / outside.length;
+            outsideCenter[2] += point[2] / outside.length;
+          }
+          const direction: Point3 = [outsideCenter[0] - insideCenter[0], outsideCenter[1] - insideCenter[1], outsideCenter[2] - insideCenter[2]];
+          if (inside.length === 1 || inside.length === 3) {
+            const pivot = inside.length === 1 ? inside[0] : outside[0];
+            const others = inside.length === 1 ? outside : inside;
+            addOrientedTriangle(
+              vertexAtEdge(cubeIds[pivot], cubeIds[others[0]]),
+              vertexAtEdge(cubeIds[pivot], cubeIds[others[1]]),
+              vertexAtEdge(cubeIds[pivot], cubeIds[others[2]]),
+              direction,
+            );
+          } else {
+            const ac = vertexAtEdge(cubeIds[inside[0]], cubeIds[outside[0]]);
+            const ad = vertexAtEdge(cubeIds[inside[0]], cubeIds[outside[1]]);
+            const bc = vertexAtEdge(cubeIds[inside[1]], cubeIds[outside[0]]);
+            const bd = vertexAtEdge(cubeIds[inside[1]], cubeIds[outside[1]]);
+            addOrientedTriangle(ac, ad, bc, direction);
+            addOrientedTriangle(ad, bd, bc, direction);
+          }
+        }
+      }
+    }
+  }
+
+  const geometry = new THREE.BufferGeometry();
+  geometry.setAttribute('position', new THREE.Float32BufferAttribute(vertices, 3));
+  geometry.setIndex(indices);
+  const uvs: number[] = [];
+  for (let i = 0; i < vertices.length; i += 3) {
+    uvs.push((vertices[i] - bounds.minX) / (bounds.maxX - bounds.minX), (vertices[i + 1] - bounds.minY) / (bounds.maxY - bounds.minY));
+  }
+  geometry.setAttribute('uv', new THREE.Float32BufferAttribute(uvs, 2));
+  geometry.computeVertexNormals();
+  geometry.computeBoundingSphere();
+  return {geometry, fingerPaths};
+};
+
+const makeMicroTexture = () => {
+  const size = 128;
+  const pixels = new Uint8Array(size * size * 4);
+  let seed = 0x2f6e2b1;
+  for (let i = 0; i < size * size; i++) {
+    seed ^= seed << 13;
+    seed ^= seed >>> 17;
+    seed ^= seed << 5;
+    const grain = ((seed >>> 0) % 37) - 18;
+    const line = Math.sin((i % size) * 0.11 + Math.floor(i / size) * 0.025) * 3;
+    const value = clamp((128 + grain + line) / 255, 0, 1) * 255;
+    const offset = i * 4;
+    pixels[offset] = value;
+    pixels[offset + 1] = value;
+    pixels[offset + 2] = value;
+    pixels[offset + 3] = 255;
+  }
+  const texture = new THREE.DataTexture(pixels, size, size, THREE.RGBAFormat);
+  texture.wrapS = THREE.RepeatWrapping;
+  texture.wrapT = THREE.RepeatWrapping;
+  texture.repeat.set(8, 8);
+  texture.magFilter = THREE.LinearFilter;
+  texture.minFilter = THREE.LinearMipmapLinearFilter;
+  texture.generateMipmaps = true;
+  texture.needsUpdate = true;
+  return texture;
+};
+
+const palmFrontZ = (x: number, y: number) => {
+  const inside = Math.max(0.025, 1 - (x / 0.54) ** 2 - (y / 0.59) ** 2);
+  return 0.225 * Math.sqrt(inside) + 0.006;
+};
+
+const makeTube = (points: Point3[], radius: number, segments = 40, radialSegments = 7) => {
+  const curve = new THREE.CatmullRomCurve3(points.map(([x, y, z]) => new THREE.Vector3(x, y, z)));
+  return new THREE.TubeGeometry(curve, segments, radius, radialSegments, false);
+};
+
+const makeGoldCracks = () => {
+  const y = [
+    [[-0.12, -0.48], [-0.04, -0.26], [0.025, -0.07], [0.015, 0.13]],
+    [[0.015, 0.13], [-0.075, 0.21], [-0.23, 0.29], [-0.36, 0.29]],
+    [[0.015, 0.13], [0.10, 0.24], [0.24, 0.30], [0.37, 0.26]],
+  ];
+  return y.map((branch, index) => {
+    const points = branch.map(([x, py]) => [x, py, palmFrontZ(x, py)] as Point3);
+    return makeTube(points, index === 0 ? 0.009 : 0.008, index === 0 ? 54 : 34, 8);
+  });
+};
+
+const makePalmCreases = () => {
+  const creasePoints: Point2[][] = [
+    [[-0.42, -0.06], [-0.28, -0.17], [-0.06, -0.2], [0.18, -0.12], [0.34, -0.01]],
+    [[-0.34, 0.14], [-0.19, 0.04], [0.02, 0.015], [0.24, 0.07], [0.39, 0.15]],
+    [[-0.08, 0.08], [-0.035, -0.08], [0.025, -0.23], [0.12, -0.34]],
+  ];
+  return creasePoints.map((path) => makeTube(path.map(([x, y]) => [x, y, palmFrontZ(x, y) + 0.003]), 0.0045, 38, 5));
+};
+
+const makeMobius = () => {
+  const longitudinalSegments = 192;
+  const acrossSegments = 14;
+  const radius = 1.49;
+  const width = 0.17;
+  const positions: number[] = [];
+  const indices: number[] = [];
+  const uvs: number[] = [];
+  const columns = acrossSegments + 1;
+  for (let i = 0; i < longitudinalSegments; i++) {
+    const u = (i / longitudinalSegments) * Math.PI * 2;
+    for (let j = 0; j <= acrossSegments; j++) {
+      const v = ((j / acrossSegments) - 0.5) * width;
+      const bandRadius = radius + v * Math.cos(u / 2);
+      positions.push(bandRadius * Math.cos(u), bandRadius * Math.sin(u), v * Math.sin(u / 2));
+      uvs.push(i / longitudinalSegments, j / acrossSegments);
+    }
+  }
+  for (let i = 0; i < longitudinalSegments; i++) {
+    const nextI = (i + 1) % longitudinalSegments;
+    for (let j = 0; j < acrossSegments; j++) {
+      const a = i * columns + j;
+      const d = i * columns + j + 1;
+      const nextJ = i === longitudinalSegments - 1 ? acrossSegments - j : j;
+      const nextJ1 = i === longitudinalSegments - 1 ? acrossSegments - j - 1 : j + 1;
+      const b = nextI * columns + nextJ;
+      const c = nextI * columns + nextJ1;
+      indices.push(a, b, d, b, c, d);
+    }
+  }
+  const geometry = new THREE.BufferGeometry();
+  geometry.setAttribute('position', new THREE.Float32BufferAttribute(positions, 3));
+  geometry.setAttribute('uv', new THREE.Float32BufferAttribute(uvs, 2));
+  geometry.setIndex(indices);
+  geometry.computeVertexNormals();
+  geometry.computeBoundingSphere();
+  return geometry;
+};
+
+const Hand: React.FC<{
+  geometry: THREE.BufferGeometry;
+  nails: FingerPath[];
+  x: number;
+  z: number;
+  polish: number;
+  texture: THREE.DataTexture;
+  cracked?: boolean;
+  crackAlpha: number;
+  chip?: {frame: number; visibility: number};
+}> = ({geometry, nails, x, z, polish, texture, cracked = false, crackAlpha, chip}) => {
+  const crackGeometry = useMemo(makeGoldCracks, []);
+  const creaseGeometry = useMemo(makePalmCreases, []);
+  const chipProgress = chip ? clamp((chip.frame - 420) / 72) : 0;
+  const chipOpacity = chip ? chip.visibility * (1 - smoothstep(0.56, 1, chipProgress)) : 0;
+  const chipY = -0.13 - chipProgress * chipProgress * 0.85;
+
+  return (
+    <group position={[x, -0.035, z]}>
+      <mesh geometry={geometry} castShadow receiveShadow>
+        <meshPhysicalMaterial
+          color="#D6C8AD"
+          metalness={0.025}
+          roughness={lerp(0.43, 0.27, polish)}
+          clearcoat={lerp(0.72, 0.96, polish)}
+          clearcoatRoughness={lerp(0.31, 0.16, polish)}
+          sheen={0.2}
+          sheenRoughness={0.34}
+          bumpMap={texture}
+          bumpScale={lerp(0.014, 0.004, polish)}
+        />
+      </mesh>
+
+      {nails.map((finger, index) => (
+        <mesh
+          key={`nail-${index}`}
+          position={[finger.tip[0], finger.tip[1], finger.tip[2] + 0.072]}
+          rotation={[0, 0, finger.tipAngle]}
+          scale={[index === 4 ? 0.067 : 0.057, index === 4 ? 0.11 : 0.092, 0.012]}
+          geometry={NAIL_GEOMETRY}
+          castShadow
+        >
+          <meshPhysicalMaterial color="#E4D8C2" roughness={lerp(0.3, 0.22, polish)} clearcoat={0.9} clearcoatRoughness={0.18} />
+        </mesh>
+      ))}
+
+      {creaseGeometry.map((crease, index) => (
+        <mesh key={`crease-${index}`} geometry={crease}>
+          <meshStandardMaterial color="#695D4E" roughness={0.88} transparent opacity={0.18 * (1 - polish * 0.42)} depthWrite={false} />
+        </mesh>
+      ))}
+
+      {cracked && crackGeometry.map((crack, index) => (
+        <mesh key={`crack-${index}`} geometry={crack} renderOrder={3}>
+          <meshPhysicalMaterial
+            color="#D7A64A"
+            metalness={0.86}
+            roughness={0.22}
+            clearcoat={0.95}
+            emissive="#70420D"
+            emissiveIntensity={0.075}
+            transparent
+            opacity={crackAlpha}
+            depthWrite={false}
+          />
+        </mesh>
+      ))}
+
+      {chip && chipOpacity > 0.001 && (
+        <mesh
+          position={[0.025, chipY + 0.04, 0.245 + chipProgress * 0.15]}
+          rotation={[0.2 + chipProgress * 1.9, 0.35 - chipProgress, 0.18 + chipProgress * 2.8]}
+          scale={[0.09, 0.06, 0.035]}
+          castShadow
+        >
+          <tetrahedronGeometry args={[1, 0]} />
+          <meshPhysicalMaterial color="#D6C8AD" roughness={0.3} clearcoat={0.8} transparent opacity={chipOpacity} />
+        </mesh>
+      )}
+    </group>
+  );
+};
+
+const NAIL_GEOMETRY = new THREE.SphereGeometry(1, 18, 12);
+
+const HairThread: React.FC<{opacity: number}> = ({opacity}) => {
+  const geometry = useMemo(() => {
+    const curve = new THREE.CatmullRomCurve3([
+      new THREE.Vector3(-1.18, 0.55, 0.34),
+      new THREE.Vector3(-0.82, 0.77, 0.31),
+      new THREE.Vector3(-0.42, 1.08, 0.28),
+      new THREE.Vector3(0.08, 1.18, 0.24),
+      new THREE.Vector3(0.52, 1.03, 0.2),
+      new THREE.Vector3(0.9, 0.72, 0.16),
+      new THREE.Vector3(1.12, 0.58, 0.14),
+    ]);
+    return new THREE.TubeGeometry(curve, 132, 0.011, 6, false);
+  }, []);
+  return (
+    <mesh geometry={geometry} renderOrder={4}>
+      <meshPhysicalMaterial color="#F8F4E9" roughness={0.36} metalness={0.02} clearcoat={0.72} emissive="#5D574A" emissiveIntensity={0.035} transparent opacity={opacity} depthWrite={false} />
+    </mesh>
+  );
+};
+
+export const HandScene: React.FC<{frame: number; shot: Shot}> = ({frame, shot}) => {
+  const {width, height} = useVideoConfig();
+  const handLeft = useMemo(() => makeHandSurface(1, 1), []);
+  const handRight = useMemo(() => makeHandSurface(-1, -1), []);
+  const microTexture = useMemo(makeMicroTexture, []);
+  const mobiusGeometry = useMemo(makeMobius, []);
+
+  const repair = shot === 'reveal' ? smoothstep(3540, 4140, frame) : shot === 'ending' ? 1 : 0;
+  const squeeze = shot === 'opening' ? Math.sin(Math.PI * smoothstep(70, 555, frame)) : 0;
+  const breath = shot === 'ending' ? Math.sin((frame - 4890) / 142) * 0.006 : 0;
+  const gap = 0.485 - squeeze * 0.035;
+  const leftX = -gap + breath;
+  const rightX = gap - breath;
+
+  let cameraX = 0;
+  let cameraY = -0.52;
+  let cameraZ = 9.15;
+  if (shot === 'opening') {
+    const approach = smoothstep(480, 600, frame);
+    cameraX = lerp(0, -0.48, approach);
+    cameraY = lerp(-0.47, 0.005, approach);
+    cameraZ = lerp(6.3, 3.45, approach);
+  } else if (shot === 'reveal') {
+    const pullback = smoothstep(3540, 4140, frame);
+    cameraX = lerp(-0.48, 0, pullback);
+    cameraY = lerp(0.005, -0.55, pullback);
+    cameraZ = lerp(3.45, 9.15, pullback);
+  }
+
+  const chipVisible = shot === 'opening' ? smoothstep(392, 409, frame) * (1 - smoothstep(492, 514, frame)) : 0;
+  const chipFrame = shot === 'opening' ? frame : 0;
+  const crackAlpha = shot === 'opening' ? 0.94 : shot === 'reveal' ? lerp(0.94, 0.47, repair) : 0.48;
+  const hairOpacity = shot === 'ending' ? 0.94 * smoothstep(4890, 4965, frame) : 0;
+  const ribbonOpacity = shot === 'ending' ? 0.78 * smoothstep(4890, 5000, frame) : 0;
+
+  return (
+    <ThreeCanvas
+      width={width}
+      height={height}
+      dpr={1}
+      shadows
+      camera={{position: [cameraX, cameraY, cameraZ], fov: 35, near: 0.1, far: 80}}
+      gl={{antialias: true, alpha: false, powerPreference: 'high-performance'}}
+    >
+      <color attach="background" args={['#0C0C0E']} />
+      <ambientLight intensity={0.15} color="#e9ddc9" />
+      <hemisphereLight args={['#f9ead4', '#160f0b', 0.42]} />
+      <directionalLight position={[-3.8, 5.2, 5]} intensity={3.25} color="#fff0d7" castShadow shadow-mapSize={[1024, 1024]} />
+      <directionalLight position={[3.7, 2.3, -3.2]} intensity={2.1} color="#d6b876" />
+      <pointLight position={[0.1, 1.3, 3]} intensity={0.62} color="#fff7e9" distance={8} />
+      <pointLight position={[1.1, -0.25, 1.2]} intensity={0.34} color="#D7A64A" distance={4.5} />
+
+      <Hand
+        geometry={handLeft.geometry}
+        nails={handLeft.fingerPaths}
+        x={leftX}
+        z={0.035}
+        polish={repair}
+        texture={microTexture}
+        cracked
+        crackAlpha={crackAlpha}
+        chip={shot === 'opening' ? {frame: chipFrame, visibility: chipVisible} : undefined}
+      />
+      <Hand
+        geometry={handRight.geometry}
+        nails={handRight.fingerPaths}
+        x={rightX}
+        z={-0.035}
+        polish={repair}
+        texture={microTexture}
+        crackAlpha={0}
+      />
+
+      {shot === 'ending' && (
+        <>
+          <group position={[0, -0.03, -1.05]}>
+            <mesh geometry={mobiusGeometry} castShadow receiveShadow renderOrder={1}>
+              <meshPhysicalMaterial color="#B8893C" metalness={0.83} roughness={0.26} clearcoat={0.92} clearcoatRoughness={0.2} emissive="#4A2D0D" emissiveIntensity={0.08} transparent opacity={ribbonOpacity} side={THREE.DoubleSide} />
+            </mesh>
+          </group>
+          <HairThread opacity={hairOpacity} />
+        </>
+      )}
+    </ThreeCanvas>
+  );
+};

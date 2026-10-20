@@ -1,0 +1,480 @@
+{
+  "status": "technical_audio_checks_passed",
+  "durationSeconds": 90,
+  "fps": 60,
+  "sampleRate": 48000,
+  "samplesPerChannel": 4320000,
+  "completeCueCount": 8,
+  "cuePlacement": "S01-S07 retain all measured audible PCM plus 80 ms padding and place active onset at declared start + 180 ms; S08 full cue starts at the frame-4890 gold drop and its natural active onset falls 150-300 ms later",
+  "captions": {
+    "count": 34,
+    "linesMaximumCharacters": 13,
+    "linesMaximumPerCaption": 2,
+    "alignment": "estimated character-weighted timing within measured active PCM; not ASR or forced alignment"
+  },
+  "goldDrop": {
+    "startFrame": 4890,
+    "startSample": 3912000,
+    "sfxSamplePeakPcm16First100ms": 4978,
+    "masterSamplePeakPcm16First100ms": 12636,
+    "retainedAfterExactSilence": true
+  },
+  "absoluteSilence": {
+    "startFrame": 4860,
+    "endFrameExclusive": 4890,
+    "startSample": 3888000,
+    "endSampleExclusive": 3912000,
+    "samplesZeroInAllStemsAndMaster": true,
+    "samplePeakPcm16": 0
+  },
+  "masterLoudness": {
+    "integratedLUFS": -16.0,
+    "truePeakDBTP": -1.4
+  },
+  "normalizationTarget": {
+    "integratedLUFS": -16.0,
+    "truePeakDBTP": -1.8,
+    "acceptanceLUFS": [
+      -16.2,
+      -15.8
+    ],
+    "acceptanceTruePeakDBTP": -1.0,
+    "passes": 2
+  },
+  "outputs": {
+    "narration": {
+      "file": "project/public/audio/narration.wav",
+      "sha256": "81287fcf6c618cc90021adb439b866b0dd974be00d470369db16a2d35d267c5d",
+      "pcmSha256": "0f2a2edf63282c93aa8a7f1f6cb5ce19b2b3a8c2211b397d061809e51a92bc88",
+      "sizeBytes": 17280044,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleWidthBytes": 2,
+      "samplesPerChannel": 4320000,
+      "durationSeconds": 90.0,
+      "samplePeakPcm16": 21184
+    },
+    "score": {
+      "file": "project/public/audio/score.wav",
+      "sha256": "78a5990ed91d0e518e46ac9e38114e4716adc16e85109d0d0d2e095167670409",
+      "pcmSha256": "b2af5b6a956bf689f915b5a868c60398f1b1be2348a4c76fc1efc2c56d6fa039",
+      "sizeBytes": 17280044,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleWidthBytes": 2,
+      "samplesPerChannel": 4320000,
+      "durationSeconds": 90.0,
+      "samplePeakPcm16": 1729,
+      "design": {
+        "description": "Slow, sparse D-pentatonic procedural plucked-string tones over a warm low pad, with a soft breathing bowed-string swell in voiceless gaps; guqin-like in timbre, not an authentic recording. The score fades to zero before exact silence and does not resume.",
+        "scale": "D pentatonic (D, E, F-sharp, A, B across octaves)",
+        "maximumDesignedToneHz": 1987.0,
+        "voiceDuckDB": -8.0,
+        "scoreStemGainDB": 5.0,
+        "gapStringPadGain": 0.005,
+        "gapSwell": "smooth rise and fall in measured voiceless gaps, with speech pre-attack and release preserved",
+        "voicePreattackMilliseconds": 60,
+        "voiceReleaseMilliseconds": 350,
+        "afterSilence": "digital silence; the final gold-drop event begins at frame 4890 in the separate SFX stem",
+        "stereo": "subtle deterministic low-frequency pan"
+      }
+    },
+    "sfx": {
+      "file": "project/public/audio/sfx.wav",
+      "sha256": "b2f0b6e2683cf5b7c2053574f2cf466c5d37dff99732afcc4ec33e7d850d1901",
+      "pcmSha256": "aa5d539bafb1203fef69e24910f79972e4f0fee22463da3931f9753625a8618a",
+      "sizeBytes": 17280044,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleWidthBytes": 2,
+      "samplesPerChannel": 4320000,
+      "durationSeconds": 90.0,
+      "samplePeakPcm16": 4978,
+      "design": {
+        "description": "Deterministic intimate porcelain crack, descending macro-grains, restrained danger branches, warm gold discovery, stopped shard, reversing repair wave, layered crescendo, hand reveal, tenderness, passing-season air and bells, then one warm gold drop.",
+        "events": [
+          {
+            "id": "porcelain_crack",
+            "frame": 420,
+            "sampleIndex": 336000,
+            "durationSeconds": 1.8,
+            "sampleCount": 86400,
+            "kind": "porcelain_crack",
+            "description": "贴近瓷面的细裂声，轻而脆；保留语音清晰度。"
+          },
+          {
+            "id": "macro_descent",
+            "frame": 600,
+            "sampleIndex": 480000,
+            "durationSeconds": 5.2,
+            "sampleCount": 249600,
+            "kind": "ink_descent",
+            "description": "墨与瓷屑向掌纹深处下坠，低声、微粒感。"
+          },
+          {
+            "id": "danger_branch_a",
+            "frame": 1420,
+            "sampleIndex": 1136000,
+            "durationSeconds": 2.4,
+            "sampleCount": 115200,
+            "kind": "danger_branch",
+            "description": "第一条失控岔路：倒放颗粒与短促低弦张力。"
+          },
+          {
+            "id": "danger_branch_b",
+            "frame": 1840,
+            "sampleIndex": 1472000,
+            "durationSeconds": 2.8,
+            "sampleCount": 134400,
+            "kind": "danger_branch",
+            "description": "第二条失控岔路：更窄的反向颗粒回声。"
+          },
+          {
+            "id": "gold_find",
+            "frame": 2460,
+            "sampleIndex": 1968000,
+            "durationSeconds": 3.6,
+            "sampleCount": 172800,
+            "kind": "gold_find",
+            "description": "金色窄路出现，暖而克制的微亮泛音。"
+          },
+          {
+            "id": "first_shard_stop",
+            "frame": 2820,
+            "sampleIndex": 2256000,
+            "durationSeconds": 1.1,
+            "sampleCount": 52800,
+            "kind": "shard_stop",
+            "description": "第一粒瓷屑突然停住，留一瞬呼吸。"
+          },
+          {
+            "id": "repair_wave",
+            "frame": 2940,
+            "sampleIndex": 2352000,
+            "durationSeconds": 5.2,
+            "sampleCount": 249600,
+            "kind": "repair_wave",
+            "description": "修复边界扫过，瓷雨由坠落转为上升。"
+          },
+          {
+            "id": "crescendo",
+            "frame": 3150,
+            "sampleIndex": 2520000,
+            "durationSeconds": 5.2,
+            "sampleCount": 249600,
+            "kind": "crescendo",
+            "description": "瓷片与金屑逐步聚合，细密但不轰鸣。"
+          },
+          {
+            "id": "hand_reveal",
+            "frame": 3540,
+            "sampleIndex": 2832000,
+            "durationSeconds": 4.4,
+            "sampleCount": 211200,
+            "kind": "hand_reveal",
+            "description": "沿掌纹退出山谷，暖弦由远及近。"
+          },
+          {
+            "id": "tenderness",
+            "frame": 4140,
+            "sampleIndex": 3312000,
+            "durationSeconds": 3.2,
+            "sampleCount": 153600,
+            "kind": "tenderness",
+            "description": "回到相握的手，温柔单音与柔和共鸣。"
+          },
+          {
+            "id": "season_spring",
+            "frame": 4320,
+            "sampleIndex": 3456000,
+            "durationSeconds": 1.9,
+            "sampleCount": 91200,
+            "kind": "season_wind",
+            "description": "季节掠过：轻柔风纹和一颗暖铃。"
+          },
+          {
+            "id": "season_summer",
+            "frame": 4510,
+            "sampleIndex": 3608000,
+            "durationSeconds": 1.6,
+            "sampleCount": 76800,
+            "kind": "season_bell",
+            "description": "季节掠过：短而稀疏的泛音。"
+          },
+          {
+            "id": "season_autumn",
+            "frame": 4720,
+            "sampleIndex": 3776000,
+            "durationSeconds": 2.0,
+            "sampleCount": 96000,
+            "kind": "season_wind",
+            "description": "最后一季远去，薄风逐渐淡出。"
+          },
+          {
+            "id": "gold_drop",
+            "frame": 4890,
+            "sampleIndex": 3912000,
+            "durationSeconds": 2.5,
+            "sampleCount": 120000,
+            "kind": "gold_drop",
+            "description": "绝对静默之后，一滴金液落下；不抢先于旁白。"
+          }
+        ],
+        "silenceWindowFrames": [
+          4860,
+          4890
+        ],
+        "voiceDuckDB": -9.0,
+        "noiseSource": "fixed xorshift32 seed derived from event ID; no runtime random source",
+        "postSilence": [
+          "gold_drop"
+        ],
+        "porcelainCrackSpeechBand": "body resonances below 1 kHz with quiet glints above 5 kHz; avoids 1-4 kHz"
+      }
+    },
+    "master": {
+      "file": "project/public/audio/master.wav",
+      "sha256": "66d32a2a2d12d33f03077f72847cd68b3aea567d4bf875e24338061c8345600e",
+      "pcmSha256": "6c9740f3ed9bccd307e9172584b2f52c358f60f4923ad4b409418742a0f926f3",
+      "sizeBytes": 17280044,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleWidthBytes": 2,
+      "samplesPerChannel": 4320000,
+      "durationSeconds": 90.0,
+      "samplePeakPcm16": 27933,
+      "strictDecode": "passed",
+      "loudnormFirstPass": {
+        "input_i": "-22.00",
+        "input_tp": "-3.74",
+        "input_lra": "12.10",
+        "input_thresh": "-33.62",
+        "output_i": "-17.21",
+        "output_tp": "-1.80",
+        "output_lra": "9.70",
+        "output_thresh": "-28.15",
+        "normalization_type": "dynamic",
+        "target_offset": "1.21"
+      },
+      "loudnormSecondPass": {
+        "input_i": "-22.00",
+        "input_tp": "-3.74",
+        "input_lra": "12.10",
+        "input_thresh": "-33.62",
+        "output_i": "-16.38",
+        "output_tp": "-1.80",
+        "output_lra": "9.00",
+        "output_thresh": "-27.28",
+        "normalization_type": "dynamic",
+        "target_offset": "0.38"
+      },
+      "ebur128Final": {
+        "integratedLUFS": -16.0,
+        "truePeakDBTP": -1.4
+      },
+      "normalizationTarget": {
+        "integratedLUFS": -16.0,
+        "truePeakDBTP": -1.8,
+        "acceptanceLUFS": [
+          -16.2,
+          -15.8
+        ],
+        "acceptanceTruePeakDBTP": -1.0,
+        "passes": 2
+      },
+      "postLoudnormCalibration": {
+        "gainDB": 0.4,
+        "linearGain": 1.0471285480508994,
+        "samplePeakPcm16": 27933,
+        "measuredBefore": {
+          "integratedLUFS": -16.4,
+          "truePeakDBTP": -1.8
+        },
+        "measuredAfter": {
+          "integratedLUFS": -16.0,
+          "truePeakDBTP": -1.4
+        },
+        "method": "linear PCM gain by final measured LUFS difference",
+        "targetIntegratedLUFS": -16.0,
+        "sampleCountPreserved": true,
+        "stemsChanged": false
+      },
+      "absoluteSilence": {
+        "startSample": 3888000,
+        "endSampleExclusive": 3912000,
+        "peakPcm16": 0,
+        "exactZero": true
+      }
+    }
+  },
+  "sourceHashes": {
+    "segmentsJson": "928eb5bfacd377f1d898a3f3b054ae91cc2dc457ff11311df5d2ff669f06b1e9",
+    "audioEventsJson": "809f0505c8f53e630de509d709cde7469bb4a71ef7568aed1e0af69ce6b8fb82",
+    "audioAuthorization": "50485c9e61470af02d0f8a6ea2d7712b723c6316912be8675cc7bf93f7e6bd7f",
+    "providerManifest": "fa095d664785fef8ee734ce94b0ffd703080c3720668a688406829e0c52c78df",
+    "cueWavs": [
+      {
+        "id": "S01",
+        "cueFile": "project/public/audio/cues/S01-d3b9c70e558d.wav",
+        "cueSamplesAt48k": 261120,
+        "durationSeconds": 5.44,
+        "cueSha256": "b7feadef15e497da6bde6ccd2be17503b849e2fb95a01da9fd86cff06fb7ac8d",
+        "cuePcmSha256": "a885ca7b8b9dc5151f232d0576de965e3cd2ccb1ccba72cdc77c1e159537a5b3",
+        "activeOnsetOffsetSamples": 10777,
+        "activeEndOffsetSamplesExclusive": 248581,
+        "retainedStartOffsetSamples": 6937,
+        "retainedEndOffsetSamplesExclusive": 252421,
+        "retainedPaddingBeforeSamples": 3840,
+        "retainedPaddingAfterSamples": 3840,
+        "activeBoundsMethod": {
+          "method": "5 ms sliding RMS with sample-crossing fallback; absolute threshold -50 dBFS",
+          "thresholdDBFS": -50.0,
+          "thresholdPcm16": 104,
+          "windowSamples": 240
+        }
+      },
+      {
+        "id": "S02",
+        "cueFile": "project/public/audio/cues/S02-eab1ea6cdd2e.wav",
+        "cueSamplesAt48k": 449280,
+        "durationSeconds": 9.36,
+        "cueSha256": "9d40d610414a2d00b02da32fc51e740c5d29f030fbbf86431606e0852f4e6d3d",
+        "cuePcmSha256": "d1201cfcc708bbbafa53599bfb595901013822d66f36ebae0237733743ef84ba",
+        "activeOnsetOffsetSamples": 10298,
+        "activeEndOffsetSamplesExclusive": 435992,
+        "retainedStartOffsetSamples": 6458,
+        "retainedEndOffsetSamplesExclusive": 439832,
+        "retainedPaddingBeforeSamples": 3840,
+        "retainedPaddingAfterSamples": 3840,
+        "activeBoundsMethod": {
+          "method": "5 ms sliding RMS with sample-crossing fallback; absolute threshold -50 dBFS",
+          "thresholdDBFS": -50.0,
+          "thresholdPcm16": 104,
+          "windowSamples": 240
+        }
+      },
+      {
+        "id": "S03",
+        "cueFile": "project/public/audio/cues/S03-67a14fcfb7b8.wav",
+        "cueSamplesAt48k": 514560,
+        "durationSeconds": 10.72,
+        "cueSha256": "5a1b9df9930afc042f9af341124b4c174a814b65a2956637204ba1c1b77ea29a",
+        "cuePcmSha256": "8f4908c29e875c88971cb0c7f6ae830e9a6ecceb58248baee88f097b757de4cd",
+        "activeOnsetOffsetSamples": 9726,
+        "activeEndOffsetSamplesExclusive": 503544,
+        "retainedStartOffsetSamples": 5886,
+        "retainedEndOffsetSamplesExclusive": 507384,
+        "retainedPaddingBeforeSamples": 3840,
+        "retainedPaddingAfterSamples": 3840,
+        "activeBoundsMethod": {
+          "method": "5 ms sliding RMS with sample-crossing fallback; absolute threshold -50 dBFS",
+          "thresholdDBFS": -50.0,
+          "thresholdPcm16": 104,
+          "windowSamples": 240
+        }
+      },
+      {
+        "id": "S04",
+        "cueFile": "project/public/audio/cues/S04-461da14f8ab5.wav",
+        "cueSamplesAt48k": 387840,
+        "durationSeconds": 8.08,
+        "cueSha256": "5aadfdb71cfe4cfa3354139b74dc6a4d33b43b9f91d94ba53c46603eabedaa56",
+        "cuePcmSha256": "c9a847eecb1dfc11bff3f8be5d5b4b776cefdb7740e13c260a6edf7d2dac7dca",
+        "activeOnsetOffsetSamples": 9697,
+        "activeEndOffsetSamplesExclusive": 375710,
+        "retainedStartOffsetSamples": 5857,
+        "retainedEndOffsetSamplesExclusive": 379550,
+        "retainedPaddingBeforeSamples": 3840,
+        "retainedPaddingAfterSamples": 3840,
+        "activeBoundsMethod": {
+          "method": "5 ms sliding RMS with sample-crossing fallback; absolute threshold -50 dBFS",
+          "thresholdDBFS": -50.0,
+          "thresholdPcm16": 104,
+          "windowSamples": 240
+        }
+      },
+      {
+        "id": "S05",
+        "cueFile": "project/public/audio/cues/S05-805f742ed17c.wav",
+        "cueSamplesAt48k": 453120,
+        "durationSeconds": 9.44,
+        "cueSha256": "babb4472bc780d5e4b5fdc48f2a7e5288528fbc0e11bab7c6f1db52caa61bee5",
+        "cuePcmSha256": "b5960a8be3fdaaec83f713347600eab075931f55e43252483f07547950829e37",
+        "activeOnsetOffsetSamples": 10680,
+        "activeEndOffsetSamplesExclusive": 441121,
+        "retainedStartOffsetSamples": 6840,
+        "retainedEndOffsetSamplesExclusive": 444961,
+        "retainedPaddingBeforeSamples": 3840,
+        "retainedPaddingAfterSamples": 3840,
+        "activeBoundsMethod": {
+          "method": "5 ms sliding RMS with sample-crossing fallback; absolute threshold -50 dBFS",
+          "thresholdDBFS": -50.0,
+          "thresholdPcm16": 104,
+          "windowSamples": 240
+        }
+      },
+      {
+        "id": "S06",
+        "cueFile": "project/public/audio/cues/S06-5314939bb981.wav",
+        "cueSamplesAt48k": 456960,
+        "durationSeconds": 9.52,
+        "cueSha256": "3dac75c6e2a2405a3abe4224418d4696be4af59b2a790b87b9c167d7a381bcba",
+        "cuePcmSha256": "304d2c2b4a311f1c5a1477a594e6e67a5b0137253b8afa84a2ccb0725f899bbd",
+        "activeOnsetOffsetSamples": 10312,
+        "activeEndOffsetSamplesExclusive": 445793,
+        "retainedStartOffsetSamples": 6472,
+        "retainedEndOffsetSamplesExclusive": 449633,
+        "retainedPaddingBeforeSamples": 3840,
+        "retainedPaddingAfterSamples": 3840,
+        "activeBoundsMethod": {
+          "method": "5 ms sliding RMS with sample-crossing fallback; absolute threshold -50 dBFS",
+          "thresholdDBFS": -50.0,
+          "thresholdPcm16": 104,
+          "windowSamples": 240
+        }
+      },
+      {
+        "id": "S07",
+        "cueFile": "project/public/audio/cues/S07-4f9bcd430944.wav",
+        "cueSamplesAt48k": 272640,
+        "durationSeconds": 5.68,
+        "cueSha256": "c509bdf8ff46a08ea0487428cc73711279d45dbfaf05caf8506c2059a306f034",
+        "cuePcmSha256": "39c5a2160c5b93869ed67aeafc8c5626fd43cdb814c5ff1c0b01e1d5491fa1c7",
+        "activeOnsetOffsetSamples": 10268,
+        "activeEndOffsetSamplesExclusive": 263507,
+        "retainedStartOffsetSamples": 6428,
+        "retainedEndOffsetSamplesExclusive": 267347,
+        "retainedPaddingBeforeSamples": 3840,
+        "retainedPaddingAfterSamples": 3840,
+        "activeBoundsMethod": {
+          "method": "5 ms sliding RMS with sample-crossing fallback; absolute threshold -50 dBFS",
+          "thresholdDBFS": -50.0,
+          "thresholdPcm16": 104,
+          "windowSamples": 240
+        }
+      },
+      {
+        "id": "S08",
+        "cueFile": "project/public/audio/cues/S08-05de0e8dd904.wav",
+        "cueSamplesAt48k": 391680,
+        "durationSeconds": 8.16,
+        "cueSha256": "baf494555a9674228faaee273660fbe49d29a4c5170a99f132534b860f1782ba",
+        "cuePcmSha256": "02d0c48207c0a233d8d01b56f159f19043522efecf070414f42bd78a114b19af",
+        "activeOnsetOffsetSamples": 13086,
+        "activeEndOffsetSamplesExclusive": 380751,
+        "retainedStartOffsetSamples": 9246,
+        "retainedEndOffsetSamplesExclusive": 384591,
+        "retainedPaddingBeforeSamples": 3840,
+        "retainedPaddingAfterSamples": 3840,
+        "activeBoundsMethod": {
+          "method": "5 ms sliding RMS with sample-crossing fallback; absolute threshold -50 dBFS",
+          "thresholdDBFS": -50.0,
+          "thresholdPcm16": 104,
+          "windowSamples": 240
+        }
+      }
+    ],
+    "eventProfiles": "837e8b54bf1303cd7b0f3452084b037fe1f94077e99e603a959f0970819ec4b5"
+  },
+  "mixInputSetSha256": "8341182ab643b996295b9ca4bb881d1fcb437a25d94beac4f7b094a06252e150"
+}

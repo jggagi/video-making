@@ -1,0 +1,651 @@
+{
+  "schemaVersion": 1,
+  "createdAtUtc": "2026-10-20T17:06:38Z",
+  "work": "si-ep11-kintsugi-ink-v02",
+  "reviewKind": "read-only source and package-selection audit",
+  "status": "SOURCE_CHECKS_OK",
+  "scope": {
+    "sourceAndAssetChecksOnly": true,
+    "manifestSelfIncludedInAssetRows": false,
+    "packageCreated": false,
+    "heavyRenderOrFFmpegRun": false,
+    "typecheckRerun": false,
+    "typecheckNote": "Root reported project typecheck passed; not repeated during this audit."
+  },
+  "scriptProvenance": {
+    "v02": {
+      "path": "source/script.md",
+      "declaredSha256": "21835d5c2d7e070e1d34af1a7e22dd055159d5cd554539889c9d46886de91dc5",
+      "actualSha256": "21835d5c2d7e070e1d34af1a7e22dd055159d5cd554539889c9d46886de91dc5"
+    },
+    "preservedV01": {
+      "path": "deliveries/si-ep11-kintsugi-ink/source/script.md",
+      "actualSha256": "21835d5c2d7e070e1d34af1a7e22dd055159d5cd554539889c9d46886de91dc5"
+    },
+    "v01AndV02ByteIdentical": true
+  },
+  "assets": {
+    "manifest": "project/assets-manifest.json",
+    "declaredCount": 62,
+    "verifiedCount": 62,
+    "mismatchCount": 0,
+    "entries": [
+      {
+        "path": "src/CanyonScene.tsx",
+        "bytes": 35413,
+        "sha256": "6d265686c72dc2ff9858a748de2066de378e6b7db62df50bd3ff7443753caf39",
+        "declaredBytes": 35413,
+        "declaredSha256": "6d265686c72dc2ff9858a748de2066de378e6b7db62df50bd3ff7443753caf39",
+        "status": "MATCH"
+      },
+      {
+        "path": "src/HandScene.tsx",
+        "bytes": 22951,
+        "sha256": "a3e6af1ddc2b02819cc64e565483da5e9c5162ba218becf1f86a5c582c3a56a5",
+        "declaredBytes": 22951,
+        "declaredSha256": "a3e6af1ddc2b02819cc64e565483da5e9c5162ba218becf1f86a5c582c3a56a5",
+        "status": "MATCH"
+      },
+      {
+        "path": "src/InkRiver.tsx",
+        "bytes": 3047,
+        "sha256": "40d5dd62f946dc61709168ad266091e9728476f056b5cb61d0f7a13d1205612c",
+        "declaredBytes": 3047,
+        "declaredSha256": "40d5dd62f946dc61709168ad266091e9728476f056b5cb61d0f7a13d1205612c",
+        "status": "MATCH"
+      },
+      {
+        "path": "src/Effects.tsx",
+        "bytes": 3068,
+        "sha256": "49901c6c802d81ffd0306247a898062781fa9110b0f7772ac2ce418f3b213344",
+        "declaredBytes": 3068,
+        "declaredSha256": "49901c6c802d81ffd0306247a898062781fa9110b0f7772ac2ce418f3b213344",
+        "status": "MATCH"
+      },
+      {
+        "path": "src/StudioEnvironment.tsx",
+        "bytes": 958,
+        "sha256": "e755f9377e765beddefb868b2d50b1c4a02c558576e0cb49cb40dbf6673b8314",
+        "declaredBytes": 958,
+        "declaredSha256": "e755f9377e765beddefb868b2d50b1c4a02c558576e0cb49cb40dbf6673b8314",
+        "status": "MATCH"
+      },
+      {
+        "path": "src/Film.tsx",
+        "bytes": 4525,
+        "sha256": "e8a83e12f0408d2d6ddcc2c7ee69e0b1e5bf9e2b7c807ccd2226e75b769f478c",
+        "declaredBytes": 4525,
+        "declaredSha256": "e8a83e12f0408d2d6ddcc2c7ee69e0b1e5bf9e2b7c807ccd2226e75b769f478c",
+        "status": "MATCH"
+      },
+      {
+        "path": "src/Root.tsx",
+        "bytes": 277,
+        "sha256": "dce16cc87b06fb8da2b52d5203bf61b993eeca21e872efeda67c09c4b5b5a775",
+        "declaredBytes": 277,
+        "declaredSha256": "dce16cc87b06fb8da2b52d5203bf61b993eeca21e872efeda67c09c4b5b5a775",
+        "status": "MATCH"
+      },
+      {
+        "path": "public/assets/hands/left.glb",
+        "bytes": 94572,
+        "sha256": "bc67783144944ea1cda54d9247885825ea5fb9d4651469fe7d00be517a5c2b87",
+        "declaredBytes": 94572,
+        "declaredSha256": "bc67783144944ea1cda54d9247885825ea5fb9d4651469fe7d00be517a5c2b87",
+        "status": "MATCH"
+      },
+      {
+        "path": "public/assets/hands/right.glb",
+        "bytes": 94004,
+        "sha256": "291790c14f7f88a7f9bd35330c47392ed8e8d395ae6728f4bb7089f1bc1f2b96",
+        "declaredBytes": 94004,
+        "declaredSha256": "291790c14f7f88a7f9bd35330c47392ed8e8d395ae6728f4bb7089f1bc1f2b96",
+        "status": "MATCH"
+      },
+      {
+        "path": "public/assets/hands/provenance.json",
+        "bytes": 1061,
+        "sha256": "8118e6b605b125da4f656c23e9c052bf54566e19aed1b164423b3488b7d0bf31",
+        "declaredBytes": 1061,
+        "declaredSha256": "8118e6b605b125da4f656c23e9c052bf54566e19aed1b164423b3488b7d0bf31",
+        "status": "MATCH"
+      },
+      {
+        "path": "public/assets/hands/LICENSE.md",
+        "bytes": 1094,
+        "sha256": "0ef0c87e8ffdd0681f332dc3b39f284dee2166d1f853fabc3853884fe81a6f30",
+        "declaredBytes": 1094,
+        "declaredSha256": "0ef0c87e8ffdd0681f332dc3b39f284dee2166d1f853fabc3853884fe81a6f30",
+        "status": "MATCH"
+      },
+      {
+        "path": "public/assets/hands/REPOSITORY-LICENSE.md",
+        "bytes": 216,
+        "sha256": "cc07f925e00fbccf304facfeb8bf94943539e252fc14b0588488f293d877c849",
+        "declaredBytes": 216,
+        "declaredSha256": "cc07f925e00fbccf304facfeb8bf94943539e252fc14b0588488f293d877c849",
+        "status": "MATCH"
+      },
+      {
+        "path": "public/audio/master.wav",
+        "bytes": 17280044,
+        "sha256": "66d32a2a2d12d33f03077f72847cd68b3aea567d4bf875e24338061c8345600e",
+        "declaredBytes": 17280044,
+        "declaredSha256": "66d32a2a2d12d33f03077f72847cd68b3aea567d4bf875e24338061c8345600e",
+        "status": "MATCH"
+      },
+      {
+        "path": "public/audio/narration.wav",
+        "bytes": 17280044,
+        "sha256": "81287fcf6c618cc90021adb439b866b0dd974be00d470369db16a2d35d267c5d",
+        "declaredBytes": 17280044,
+        "declaredSha256": "81287fcf6c618cc90021adb439b866b0dd974be00d470369db16a2d35d267c5d",
+        "status": "MATCH"
+      },
+      {
+        "path": "public/audio/score.wav",
+        "bytes": 17280044,
+        "sha256": "78a5990ed91d0e518e46ac9e38114e4716adc16e85109d0d0d2e095167670409",
+        "declaredBytes": 17280044,
+        "declaredSha256": "78a5990ed91d0e518e46ac9e38114e4716adc16e85109d0d0d2e095167670409",
+        "status": "MATCH"
+      },
+      {
+        "path": "public/audio/sfx.wav",
+        "bytes": 17280044,
+        "sha256": "b2f0b6e2683cf5b7c2053574f2cf466c5d37dff99732afcc4ec33e7d850d1901",
+        "declaredBytes": 17280044,
+        "declaredSha256": "b2f0b6e2683cf5b7c2053574f2cf466c5d37dff99732afcc4ec33e7d850d1901",
+        "status": "MATCH"
+      },
+      {
+        "path": "audio-authorization.json",
+        "bytes": 581,
+        "sha256": "50485c9e61470af02d0f8a6ea2d7712b723c6316912be8675cc7bf93f7e6bd7f",
+        "declaredBytes": 581,
+        "declaredSha256": "50485c9e61470af02d0f8a6ea2d7712b723c6316912be8675cc7bf93f7e6bd7f",
+        "status": "MATCH"
+      },
+      {
+        "path": "audio-events.json",
+        "bytes": 2905,
+        "sha256": "809f0505c8f53e630de509d709cde7469bb4a71ef7568aed1e0af69ce6b8fb82",
+        "declaredBytes": 2905,
+        "declaredSha256": "809f0505c8f53e630de509d709cde7469bb4a71ef7568aed1e0af69ce6b8fb82",
+        "status": "MATCH"
+      },
+      {
+        "path": "audio-timing.json",
+        "bytes": 29915,
+        "sha256": "c0bc2aa7031a9ace99edbf44d75f00af54a44e1d490f22d045a68f408e18493a",
+        "declaredBytes": 29915,
+        "declaredSha256": "c0bc2aa7031a9ace99edbf44d75f00af54a44e1d490f22d045a68f408e18493a",
+        "status": "MATCH"
+      },
+      {
+        "path": "public/audio/provider-manifest.json",
+        "bytes": 16413,
+        "sha256": "fa095d664785fef8ee734ce94b0ffd703080c3720668a688406829e0c52c78df",
+        "declaredBytes": 16413,
+        "declaredSha256": "fa095d664785fef8ee734ce94b0ffd703080c3720668a688406829e0c52c78df",
+        "status": "MATCH"
+      },
+      {
+        "path": "public/audio/mix-manifest.json",
+        "bytes": 21044,
+        "sha256": "3542be38bd153bd02e76803ad9fb7632c3ee765f6cdc114b8a2ea9f711627d0b",
+        "declaredBytes": 21044,
+        "declaredSha256": "3542be38bd153bd02e76803ad9fb7632c3ee765f6cdc114b8a2ea9f711627d0b",
+        "status": "MATCH"
+      },
+      {
+        "path": "public/audio/mix-settings.json",
+        "bytes": 22992,
+        "sha256": "0adfa0ef8e06d165e40955eb509c9d626e41c92dae9e8a57a22aa850da6fb684",
+        "declaredBytes": 22992,
+        "declaredSha256": "0adfa0ef8e06d165e40955eb509c9d626e41c92dae9e8a57a22aa850da6fb684",
+        "status": "MATCH"
+      },
+      {
+        "path": "public/audio/audio-qa.json",
+        "bytes": 18400,
+        "sha256": "b9bc45e5ef33c7933fc1a6518136668526675dd14c38d13761fed651bede7444",
+        "declaredBytes": 18400,
+        "declaredSha256": "b9bc45e5ef33c7933fc1a6518136668526675dd14c38d13761fed651bede7444",
+        "status": "MATCH"
+      },
+      {
+        "path": "public/audio/captions.srt",
+        "bytes": 1984,
+        "sha256": "f30afde8b8bef9df17f175fa553dda1a8f10c65c4c422366df6db0eca1135c87",
+        "declaredBytes": 1984,
+        "declaredSha256": "f30afde8b8bef9df17f175fa553dda1a8f10c65c4c422366df6db0eca1135c87",
+        "status": "MATCH"
+      },
+      {
+        "path": "segments.json",
+        "bytes": 4140,
+        "sha256": "928eb5bfacd377f1d898a3f3b054ae91cc2dc457ff11311df5d2ff669f06b1e9",
+        "declaredBytes": 4140,
+        "declaredSha256": "928eb5bfacd377f1d898a3f3b054ae91cc2dc457ff11311df5d2ff669f06b1e9",
+        "status": "MATCH"
+      },
+      {
+        "path": "timeline.json",
+        "bytes": 6035,
+        "sha256": "c023ad00baa39cf12d4efa369be87f7110d9f6972080957c0b187b3e327d8f22",
+        "declaredBytes": 6035,
+        "declaredSha256": "c023ad00baa39cf12d4efa369be87f7110d9f6972080957c0b187b3e327d8f22",
+        "status": "MATCH"
+      },
+      {
+        "path": "scripts/build_audio.py",
+        "bytes": 69705,
+        "sha256": "58b4ff916564ca659db53eeba5259516a9eed4643149d93af780d8394e2ff904",
+        "declaredBytes": 69705,
+        "declaredSha256": "58b4ff916564ca659db53eeba5259516a9eed4643149d93af780d8394e2ff904",
+        "status": "MATCH"
+      },
+      {
+        "path": "scripts/synthesize.py",
+        "bytes": 20072,
+        "sha256": "7302e5658e9fe0abda42916802ec1b9504ca962c19b53442adb0f2e42e746d59",
+        "declaredBytes": 20072,
+        "declaredSha256": "7302e5658e9fe0abda42916802ec1b9504ca962c19b53442adb0f2e42e746d59",
+        "status": "MATCH"
+      },
+      {
+        "path": "public/audio/raw/S01-d3b9c70e558d.wav",
+        "bytes": 261164,
+        "sha256": "131198f453e2bff3fd2fe5f0d8f1d1a7bf9b363e3d643ec03592c3bb307b944e",
+        "declaredBytes": 261164,
+        "declaredSha256": "131198f453e2bff3fd2fe5f0d8f1d1a7bf9b363e3d643ec03592c3bb307b944e",
+        "status": "MATCH"
+      },
+      {
+        "path": "public/audio/canonical/S01-d3b9c70e558d.wav",
+        "bytes": 261164,
+        "sha256": "d1d1a34c3d2494eba22cdb322db40af4a9e30e74881b790006fdc45cf45e6067",
+        "declaredBytes": 261164,
+        "declaredSha256": "d1d1a34c3d2494eba22cdb322db40af4a9e30e74881b790006fdc45cf45e6067",
+        "status": "MATCH"
+      },
+      {
+        "path": "public/audio/cues/S01-d3b9c70e558d.wav",
+        "bytes": 522318,
+        "sha256": "b7feadef15e497da6bde6ccd2be17503b849e2fb95a01da9fd86cff06fb7ac8d",
+        "declaredBytes": 522318,
+        "declaredSha256": "b7feadef15e497da6bde6ccd2be17503b849e2fb95a01da9fd86cff06fb7ac8d",
+        "status": "MATCH"
+      },
+      {
+        "path": "public/audio/tts-input/S01-d3b9c70e558d.txt",
+        "bytes": 84,
+        "sha256": "dfa4a7811365da82698d6d3f2fa7b541d503a97cb5c7626419249bb83e449bb7",
+        "declaredBytes": 84,
+        "declaredSha256": "dfa4a7811365da82698d6d3f2fa7b541d503a97cb5c7626419249bb83e449bb7",
+        "status": "MATCH"
+      },
+      {
+        "path": "public/audio/raw/S02-eab1ea6cdd2e.wav",
+        "bytes": 449324,
+        "sha256": "38e27fab2cc9db8d8629f8fc887a4afa8e34f57440dce3918b9601bc049b80e4",
+        "declaredBytes": 449324,
+        "declaredSha256": "38e27fab2cc9db8d8629f8fc887a4afa8e34f57440dce3918b9601bc049b80e4",
+        "status": "MATCH"
+      },
+      {
+        "path": "public/audio/canonical/S02-eab1ea6cdd2e.wav",
+        "bytes": 449324,
+        "sha256": "541230ff08ae90a1f0102a397e9ec9b3ef563e359ac09ae9e45af69266c32896",
+        "declaredBytes": 449324,
+        "declaredSha256": "541230ff08ae90a1f0102a397e9ec9b3ef563e359ac09ae9e45af69266c32896",
+        "status": "MATCH"
+      },
+      {
+        "path": "public/audio/cues/S02-eab1ea6cdd2e.wav",
+        "bytes": 898638,
+        "sha256": "9d40d610414a2d00b02da32fc51e740c5d29f030fbbf86431606e0852f4e6d3d",
+        "declaredBytes": 898638,
+        "declaredSha256": "9d40d610414a2d00b02da32fc51e740c5d29f030fbbf86431606e0852f4e6d3d",
+        "status": "MATCH"
+      },
+      {
+        "path": "public/audio/tts-input/S02-eab1ea6cdd2e.txt",
+        "bytes": 126,
+        "sha256": "0956b8ff8ff98a2b3043f633f5448cc538c2cc32a24603c7e18ee907ac9886a9",
+        "declaredBytes": 126,
+        "declaredSha256": "0956b8ff8ff98a2b3043f633f5448cc538c2cc32a24603c7e18ee907ac9886a9",
+        "status": "MATCH"
+      },
+      {
+        "path": "public/audio/raw/S03-67a14fcfb7b8.wav",
+        "bytes": 514604,
+        "sha256": "fbf1329fe4ba4524e49090a8feef9a8a2d1777ff403e3e58b1a5a0aca8509373",
+        "declaredBytes": 514604,
+        "declaredSha256": "fbf1329fe4ba4524e49090a8feef9a8a2d1777ff403e3e58b1a5a0aca8509373",
+        "status": "MATCH"
+      },
+      {
+        "path": "public/audio/canonical/S03-67a14fcfb7b8.wav",
+        "bytes": 514604,
+        "sha256": "9224a2b3e8aeabe3c25cb6733e09df47bbeddfc1031604a97aded9fc19bce960",
+        "declaredBytes": 514604,
+        "declaredSha256": "9224a2b3e8aeabe3c25cb6733e09df47bbeddfc1031604a97aded9fc19bce960",
+        "status": "MATCH"
+      },
+      {
+        "path": "public/audio/cues/S03-67a14fcfb7b8.wav",
+        "bytes": 1029198,
+        "sha256": "5a1b9df9930afc042f9af341124b4c174a814b65a2956637204ba1c1b77ea29a",
+        "declaredBytes": 1029198,
+        "declaredSha256": "5a1b9df9930afc042f9af341124b4c174a814b65a2956637204ba1c1b77ea29a",
+        "status": "MATCH"
+      },
+      {
+        "path": "public/audio/tts-input/S03-67a14fcfb7b8.txt",
+        "bytes": 129,
+        "sha256": "6669d4124225131300345e1849a8e3d8c77ade83b1dd821c5f69146833f3db94",
+        "declaredBytes": 129,
+        "declaredSha256": "6669d4124225131300345e1849a8e3d8c77ade83b1dd821c5f69146833f3db94",
+        "status": "MATCH"
+      },
+      {
+        "path": "public/audio/raw/S04-461da14f8ab5.wav",
+        "bytes": 387884,
+        "sha256": "7d2094effd003da7539c2d8b1ec5d58f53f09d60f5c2deabd06b9b1516d4499e",
+        "declaredBytes": 387884,
+        "declaredSha256": "7d2094effd003da7539c2d8b1ec5d58f53f09d60f5c2deabd06b9b1516d4499e",
+        "status": "MATCH"
+      },
+      {
+        "path": "public/audio/canonical/S04-461da14f8ab5.wav",
+        "bytes": 387884,
+        "sha256": "064eda13a6e5a58b16c5b161ba777cee4eab2f1b21c411acfa1b95251dde5773",
+        "declaredBytes": 387884,
+        "declaredSha256": "064eda13a6e5a58b16c5b161ba777cee4eab2f1b21c411acfa1b95251dde5773",
+        "status": "MATCH"
+      },
+      {
+        "path": "public/audio/cues/S04-461da14f8ab5.wav",
+        "bytes": 775758,
+        "sha256": "5aadfdb71cfe4cfa3354139b74dc6a4d33b43b9f91d94ba53c46603eabedaa56",
+        "declaredBytes": 775758,
+        "declaredSha256": "5aadfdb71cfe4cfa3354139b74dc6a4d33b43b9f91d94ba53c46603eabedaa56",
+        "status": "MATCH"
+      },
+      {
+        "path": "public/audio/tts-input/S04-461da14f8ab5.txt",
+        "bytes": 123,
+        "sha256": "ee46cb99ea28d7beb569dbbb544fe73718898926dd97d5c4fef40ba330467616",
+        "declaredBytes": 123,
+        "declaredSha256": "ee46cb99ea28d7beb569dbbb544fe73718898926dd97d5c4fef40ba330467616",
+        "status": "MATCH"
+      },
+      {
+        "path": "public/audio/raw/S05-805f742ed17c.wav",
+        "bytes": 453164,
+        "sha256": "6520f60dcb4c436ed47e56c8e23e5dc8aaf4cd319bcb79d430ce32121d385293",
+        "declaredBytes": 453164,
+        "declaredSha256": "6520f60dcb4c436ed47e56c8e23e5dc8aaf4cd319bcb79d430ce32121d385293",
+        "status": "MATCH"
+      },
+      {
+        "path": "public/audio/canonical/S05-805f742ed17c.wav",
+        "bytes": 453164,
+        "sha256": "2cf199a276faca8f650413bc31a9790cba511a61107111d6d36a8a64a7f092a8",
+        "declaredBytes": 453164,
+        "declaredSha256": "2cf199a276faca8f650413bc31a9790cba511a61107111d6d36a8a64a7f092a8",
+        "status": "MATCH"
+      },
+      {
+        "path": "public/audio/cues/S05-805f742ed17c.wav",
+        "bytes": 906318,
+        "sha256": "babb4472bc780d5e4b5fdc48f2a7e5288528fbc0e11bab7c6f1db52caa61bee5",
+        "declaredBytes": 906318,
+        "declaredSha256": "babb4472bc780d5e4b5fdc48f2a7e5288528fbc0e11bab7c6f1db52caa61bee5",
+        "status": "MATCH"
+      },
+      {
+        "path": "public/audio/tts-input/S05-805f742ed17c.txt",
+        "bytes": 114,
+        "sha256": "bc0d7ff3ae41d583038c59fa6edefb8f7e1e2c9e142a41a63cc8bdee969dbe48",
+        "declaredBytes": 114,
+        "declaredSha256": "bc0d7ff3ae41d583038c59fa6edefb8f7e1e2c9e142a41a63cc8bdee969dbe48",
+        "status": "MATCH"
+      },
+      {
+        "path": "public/audio/raw/S06-5314939bb981.wav",
+        "bytes": 457004,
+        "sha256": "06d1b81ef506074d40ac4d3b34f149cbec73d8f3dbcfae99e1727712577b3f8e",
+        "declaredBytes": 457004,
+        "declaredSha256": "06d1b81ef506074d40ac4d3b34f149cbec73d8f3dbcfae99e1727712577b3f8e",
+        "status": "MATCH"
+      },
+      {
+        "path": "public/audio/canonical/S06-5314939bb981.wav",
+        "bytes": 457004,
+        "sha256": "afe0a1282bfcdeed9145f3ef8a1f8b81da0e15abfcd2e8fc05c3e6c649c6dcab",
+        "declaredBytes": 457004,
+        "declaredSha256": "afe0a1282bfcdeed9145f3ef8a1f8b81da0e15abfcd2e8fc05c3e6c649c6dcab",
+        "status": "MATCH"
+      },
+      {
+        "path": "public/audio/cues/S06-5314939bb981.wav",
+        "bytes": 913998,
+        "sha256": "3dac75c6e2a2405a3abe4224418d4696be4af59b2a790b87b9c167d7a381bcba",
+        "declaredBytes": 913998,
+        "declaredSha256": "3dac75c6e2a2405a3abe4224418d4696be4af59b2a790b87b9c167d7a381bcba",
+        "status": "MATCH"
+      },
+      {
+        "path": "public/audio/tts-input/S06-5314939bb981.txt",
+        "bytes": 117,
+        "sha256": "21e8aeff913db71c64646f2b3c33f0df741738b980b39e8ec56ef10010cf0940",
+        "declaredBytes": 117,
+        "declaredSha256": "21e8aeff913db71c64646f2b3c33f0df741738b980b39e8ec56ef10010cf0940",
+        "status": "MATCH"
+      },
+      {
+        "path": "public/audio/raw/S07-4f9bcd430944.wav",
+        "bytes": 272684,
+        "sha256": "cc92a1861f5c8dce5cd2141036221aee49ae76ad224c45d4c6fa1b9fa3c72d6c",
+        "declaredBytes": 272684,
+        "declaredSha256": "cc92a1861f5c8dce5cd2141036221aee49ae76ad224c45d4c6fa1b9fa3c72d6c",
+        "status": "MATCH"
+      },
+      {
+        "path": "public/audio/canonical/S07-4f9bcd430944.wav",
+        "bytes": 272684,
+        "sha256": "afe854073676f42685556274dd998a452edd12c0ff0cd1e163783b3185a03b4f",
+        "declaredBytes": 272684,
+        "declaredSha256": "afe854073676f42685556274dd998a452edd12c0ff0cd1e163783b3185a03b4f",
+        "status": "MATCH"
+      },
+      {
+        "path": "public/audio/cues/S07-4f9bcd430944.wav",
+        "bytes": 545358,
+        "sha256": "c509bdf8ff46a08ea0487428cc73711279d45dbfaf05caf8506c2059a306f034",
+        "declaredBytes": 545358,
+        "declaredSha256": "c509bdf8ff46a08ea0487428cc73711279d45dbfaf05caf8506c2059a306f034",
+        "status": "MATCH"
+      },
+      {
+        "path": "public/audio/tts-input/S07-4f9bcd430944.txt",
+        "bytes": 84,
+        "sha256": "c26c04b524d30585517e95c9ca443abf0c88b6dba2a0d261421f22f2d7801841",
+        "declaredBytes": 84,
+        "declaredSha256": "c26c04b524d30585517e95c9ca443abf0c88b6dba2a0d261421f22f2d7801841",
+        "status": "MATCH"
+      },
+      {
+        "path": "public/audio/raw/S08-05de0e8dd904.wav",
+        "bytes": 391724,
+        "sha256": "219117f16b0b1bfbfe0153165f91e2f1e7b00a0bbeb09d8496b9705fdf985288",
+        "declaredBytes": 391724,
+        "declaredSha256": "219117f16b0b1bfbfe0153165f91e2f1e7b00a0bbeb09d8496b9705fdf985288",
+        "status": "MATCH"
+      },
+      {
+        "path": "public/audio/canonical/S08-05de0e8dd904.wav",
+        "bytes": 391724,
+        "sha256": "0124b4f9fed39ee4cb3f471cf5d5f860f0d380b7d1e1e3552d54557b251e5bf2",
+        "declaredBytes": 391724,
+        "declaredSha256": "0124b4f9fed39ee4cb3f471cf5d5f860f0d380b7d1e1e3552d54557b251e5bf2",
+        "status": "MATCH"
+      },
+      {
+        "path": "public/audio/cues/S08-05de0e8dd904.wav",
+        "bytes": 783438,
+        "sha256": "baf494555a9674228faaee273660fbe49d29a4c5170a99f132534b860f1782ba",
+        "declaredBytes": 783438,
+        "declaredSha256": "baf494555a9674228faaee273660fbe49d29a4c5170a99f132534b860f1782ba",
+        "status": "MATCH"
+      },
+      {
+        "path": "public/audio/tts-input/S08-05de0e8dd904.txt",
+        "bytes": 123,
+        "sha256": "bb30945965ef058f282ce3b38741528bc4cc3d97c4aac177a2ede6545a978c98",
+        "declaredBytes": 123,
+        "declaredSha256": "bb30945965ef058f282ce3b38741528bc4cc3d97c4aac177a2ede6545a978c98",
+        "status": "MATCH"
+      },
+      {
+        "path": "src/TerrainInkMaterial.tsx",
+        "bytes": 3117,
+        "sha256": "9565c105ed1811657f8f3ea884722639b7f8b3916c6c90792dedf65d24d6f446",
+        "declaredBytes": 3117,
+        "declaredSha256": "9565c105ed1811657f8f3ea884722639b7f8b3916c6c90792dedf65d24d6f446",
+        "status": "MATCH"
+      },
+      {
+        "path": "src/subdivideSkinnedGeometry.ts",
+        "bytes": 16597,
+        "sha256": "8588e439242eaa3db42308fb3318c42639029240800e0700f3bf8ac090f2a34c",
+        "declaredBytes": 16597,
+        "declaredSha256": "8588e439242eaa3db42308fb3318c42639029240800e0700f3bf8ac090f2a34c",
+        "status": "MATCH"
+      }
+    ]
+  },
+  "packageSelection": {
+    "helper": "project/scripts/package_project.py",
+    "selectionOnly": true,
+    "selectedFileCount": 112,
+    "declaredAssetCount": 62,
+    "missingDeclaredMembers": [],
+    "declaredHashMismatches": [],
+    "allDeclaredAssetsSelectedAndHashMatched": true,
+    "exactlyAllowlistedFilmJsonAssetsSelected": [
+      "project/audio-authorization.json",
+      "project/public/audio/provider-manifest.json"
+    ],
+    "historyFilesOnDiskExcluded": 13,
+    "zipAndIntegrityReportCreated": false
+  },
+  "sourceChecks": {
+    "determinism": {
+      "result": "no prohibited wall-clock or frame-loop APIs found in project/src",
+      "apisChecked": [
+        "Math.random()",
+        "Date.now()",
+        "new Date()",
+        "performance.now()",
+        "requestAnimationFrame()",
+        "useFrame()"
+      ],
+      "matches": [],
+      "remotionCurrentFrameUsedByFilm": true,
+      "seededGeometryAndParticles": true
+    },
+    "handSceneReadiness": {
+      "result": "GLB load is render-gated until RiggedHands layout updates complete",
+      "assetPaths": [
+        "public/assets/hands/left.glb",
+        "public/assets/hands/right.glb"
+      ],
+      "delayRenderBeforeAsyncLoad": true,
+      "poseAndHairGeometrySetBeforeOnReady": true,
+      "loadFailureCancelsRender": true,
+      "evidence": [
+        "src/HandScene.tsx:44-56",
+        "src/HandScene.tsx:450-461",
+        "src/HandScene.tsx:513-539",
+        "src/HandScene.tsx:572"
+      ]
+    },
+    "cameraAndParticleOcclusion": {
+      "result": "camera path and near-particle fade are evaluated from the absolute frame",
+      "cameraKeys": [
+        [
+          600,
+          11.5,
+          0.92
+        ],
+        [
+          1320,
+          4.2,
+          0.48
+        ],
+        [
+          2460,
+          -3.4,
+          0.37
+        ],
+        [
+          2820,
+          -7.2,
+          0.31
+        ],
+        [
+          3300,
+          -11.2,
+          0.24
+        ],
+        [
+          3540,
+          -14.4,
+          0.19
+        ],
+        [
+          3600,
+          -15.9,
+          0.18
+        ]
+      ],
+      "cameraZAtFrameIsPure": true,
+      "cameraEffectDependencyIncludesFrame": true,
+      "particleNearFadeExpression": "smooth(2.8, 5.0, cameraZAtFrame(frame) - z)",
+      "particleMotionUsesFrameDerivedRotation": true,
+      "evidence": [
+        "src/CanyonScene.tsx:24-31",
+        "src/CanyonScene.tsx:487-506",
+        "src/CanyonScene.tsx:619-685"
+      ]
+    },
+    "structuralChecks": {
+      "hand_left_right_glbs_loaded_from_static_assets": true,
+      "hand_delay_render_waits_for_scene_ready": true,
+      "rig_pose_and_ending_geometry_layout_precede_release": true,
+      "hand_asset_load_error_cancels_render": true,
+      "camera_z_is_a_frame_function": true,
+      "camera_effect_tracks_absolute_frame": true,
+      "particle_near_occlusion_uses_camera_z_at_frame": true,
+      "particle_transforms_use_frame_and_stable_seeded_specs": true
+    }
+  },
+  "deliveryGates": {
+    "automated": "pending",
+    "representativeFrames": "pending",
+    "continuousHumanReview": "pending",
+    "targetDevicePlayback": "pending",
+    "visualQcRequired": true
+  },
+  "limitations": [
+    "This is a source, manifest, and package-selection audit; it does not verify rendered or encoded video output.",
+    "Representative rendered-frame and motion review remain pending.",
+    "Continuous human viewing and target-phone playback remain pending.",
+    "No final media, delivery, or human/device acceptance is claimed by this report."
+  ],
+  "unresolved": []
+}

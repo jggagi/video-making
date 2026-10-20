@@ -1,0 +1,62 @@
+{
+  "status": "ACCEPTED_FOR_FULL_RENDER",
+  "scope": "Root model-assisted encoded representative-frame and player-state review, not continuous human perception or audience acceptance",
+  "previews": [
+    {
+      "path": "review/motion-480-719.mp4",
+      "sha256": "5e5b1330249bcdd92934102a54b87db010bf6d68f1acb1b9492cf9aa2e3d51dc",
+      "bytes": 9086952,
+      "globalFrames": [
+        480,
+        720
+      ],
+      "observation": "Opening palm push into a canyon. Actual encoded 360px frames show a progressive macro move under an ink crossfade."
+    },
+    {
+      "path": "review/motion-2820-3719.mp4",
+      "sha256": "be6e727136a17f79294d0dc72e9454bc606a6ea1f91e30868c35fd181d3c7f27",
+      "bytes": 33161071,
+      "globalFrames": [
+        2820,
+        3720
+      ],
+      "observation": "Prominent first shard holds then rises; gold repair advances across the ravine; the same Y palm line appears in the returning macro shot."
+    },
+    {
+      "path": "review/motion-4800-5399.mp4",
+      "sha256": "64e4d73ffc16403d70f066689049b2ed65d88e9f3e84a40a0e59dc4cb9c71e16",
+      "bytes": 4985641,
+      "globalFrames": [
+        4800,
+        5400
+      ],
+      "observation": "Half-second silence, foreground white strand and moving infinity ribbon; closing subtitle chunks are readable. Browser playback reached its end at rate1, unmuted, no media error; this is not human listening."
+    },
+    {
+      "path": "review/motion-2940-3299.mp4",
+      "sha256": "798db37a7dc9d916e80a3560cd62e610fc1709c5cccb72f2eb3eef85c486755b",
+      "bytes": 12545672,
+      "globalFrames": [
+        2940,
+        3300
+      ],
+      "observation": "Post-fix representative-frame review: one visible shard stays spatially coherent, then rises; fine particles and gold transition without the previous source discontinuity. Mathematical wave/particle arrival agreement verified separately at1001samples."
+    }
+  ],
+  "mobileEvidence": [
+    "review/entry-final-contact.jpg",
+    "review/core-final-contact.jpg",
+    "review/ending-final-contact.jpg",
+    "review/reversal-fixed-contact.jpg"
+  ],
+  "changesAfterPreview": [
+    "Final quiet overlay opacity increased from0.99to1 for uniform ink black; to be checked again in final media QA.",
+    "Camera key values refactored to a shared constant without changing values.",
+    "Inverse cubic crossing replaces the linear estimate; dedicated post-fix sample is included above."
+  ],
+  "humanListening": "NOT_RUN",
+  "continuousHumanViewing": "NOT_RUN",
+  "phoneAppPlayback": "NOT_RUN",
+  "ordinaryAudienceFeedback": "NOT_RUN",
+  "finalOutputQA": "PENDING"
+}

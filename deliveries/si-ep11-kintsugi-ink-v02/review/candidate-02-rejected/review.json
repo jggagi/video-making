@@ -1,0 +1,8 @@
+{
+  "status": "REJECTED",
+  "findings": [
+    "The two hands do not grasp; both wrists point down.",
+    "Particles very near the camera become giant polygons, obscuring river.",
+    "Terrain flatShading shows coarse triangulation rather than porcelain."
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "scope": "Source mathematical continuity only; final encoded frame screening remains required",
+  "samples": 1001,
+  "maxWavePositionErrorWorldUnits": 2.514570951461792e-8,
+  "maxPositionGapAcross2Microframes": 1.0499998870372451e-8,
+  "frameSpan": [
+    2940,
+    3300
+  ],
+  "sourceSha256": "68c133774b576dd5465352b05a1920c10d1c6022c5f1e54d34f9f08029ed8efe",
+  "change": "Debris switches with the inverse of the exact visible smoothstep wave instead of a linear crossing estimate."
+}

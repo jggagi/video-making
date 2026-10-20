@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "reviewed_at_utc": "2026-10-20T17:39:56.547831+00:00",
+  "reviewer": "Codex root model",
+  "kind": "MODEL_OBSERVED",
+  "media_sha256": "08f4a9e7a4a9cf231508f559044cee8c15ee5198ebc7658d2bc3424f865ccc35",
+  "evidence_directory": "review/encoded-qa-08f4a9e7a4a9",
+  "observed_evidence": [
+    "representative-contact.jpg",
+    "motion-pairs-contact-01.jpg",
+    "motion-pairs-contact-02.jpg",
+    "motion-pairs-contact-03.jpg",
+    "encoded-native-01.png",
+    "encoded-native-02.png",
+    "encoded-native-03.png"
+  ],
+  "observations": {
+    "memorable_image": "A falling porcelain shard stops, a gold repair front crosses the canyon, and the canyon resolves back into the same pair of porcelain hands. A white hair makes an infinity loop after the half-second pause.",
+    "felt_change": "The frame sequence changes from fragile falling fragments and a constricted passage to upward motion and repaired surfaces, then quiet seasons and a single retained white hair. This is a model interpretation, not audience feedback.",
+    "central_intuition": "Rejuvenation changes the visible marks of time; the concluding image asks what shared aging means when those marks disappear. The plot does not introduce memory deletion.",
+    "mobile_text": "At 360x640 the sampled primary captions remain readable, within the authored safe area, without critical text clipping or overlapping the main action. Scientific labels are secondary and smaller. The fictional status is stated in narration and final text.",
+    "hands": "The opening and returning sculptures share the same geometry and Y-shaped palm landmark. The close crop at frame3540 is deliberate. Skin is stylized porcelain with subdued cracks; the contact gesture reads as sculptural rather than photographic human clasping.",
+    "canyon": "Native frame2940 shows attached gold/ink surface detail, layered terrain depth, haze and reflections. The older floating overlay bands and near-camera giant ambient tetrahedra are absent in the reviewed final evidence. The hero shard is intentionally larger and coarsely shaped.",
+    "motion_pairs": "The twelve pairs show spatial changes in camera, pose, falling/rising shards, seasons, and ending ribbon/hair. The movement is not solely a changing counter. The inverse repair-front proof addresses the earlier reversal-position discontinuity; pairs alone are not continuous-motion proof.",
+    "black_and_ending": "Frame4860 is uniformly dark as authored. Frame4890 introduces the infinity hair; it remains present at5040 and at the closing composition. The final poetic quotation matches the locked script.",
+    "gradients": "The reviewed native frames have no conspicuous repeated tiles, severe banding, or critical edge artifacts. Unreviewed frame regions and display-specific behavior remain outside this observation.",
+    "pacing_limit": "Still contacts cannot establish uninterrupted normal-speed emotional impact or pronunciation. Browser normal-speed functional playback is recorded separately."
+  },
+  "technical_reports": [
+    "review/media-validation-20261020T173547.377601Z.json",
+    "review/visual-qc-xiaohongshu/report.json",
+    "review/encoded-qa-08f4a9e7a4a9/report.json",
+    "review/source-review.json",
+    "review/reversal-continuity.json"
+  ],
+  "human_continuous_viewing": "NOT_RUN",
+  "human_listening": "NOT_RUN",
+  "ordinary_audience_feedback": "NOT_RUN",
+  "actual_phone_xiaohongshu_app": "NOT_RUN"
+}

@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
   "status": "COMPLETE",
-  "verified_at_utc": "2026-10-20T12:03:11.285339+00:00",
+  "verified_at_utc": "2026-10-20T15:47:19.114863+00:00",
   "repository": "jggagi/video-making",
-  "source_commit": "613533b5c9e160a261745cfa73cdf3a14959ff98",
+  "source_commit": "00e471fea706ef1455c14817fe27907322876ffa",
   "catalog_path": "final/backup-catalog.json",
-  "catalog_sha256": "d476b16f1709faa78f08b9ab00882e314e3617566b3d6cd2883e6f3ae8c4d8dc",
-  "upload_receipt_sha256": "b59bcc98674dc130fd253d3827c4045178d60e27d6c912dec9f51ced53549685",
+  "catalog_sha256": "ecd134765bc730326e3d693d42c1bb15737531470949a628042b926a74993c1e",
+  "upload_receipt_sha256": "09ee2f8dae471859cc9863389eb04af9eed70f69d87f9bd292c76a7ef6a164f4",
   "verification_method": "Fresh published GitHub Release API inventory plus all local final file hashes; every remote size, SHA-256 digest and URL matched the current catalog.",
-  "verified_releases": 21,
-  "verified_files": 50,
-  "verified_bytes": 8491128635,
+  "verified_releases": 22,
+  "verified_files": 51,
+  "verified_bytes": 8526768500,
   "works": [
     {
       "id": "lanting",
@@ -673,6 +673,26 @@
       ]
     },
     {
+      "id": "si-ep11-kintsugi-ink",
+      "title": "Final 成片备份 · 逆转的沙漏",
+      "release_tag": "final-si-ep11-kintsugi-ink-bc1f191cc5a5",
+      "release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep11-kintsugi-ink-bc1f191cc5a5",
+      "release_target": "00e471fea706ef1455c14817fe27907322876ffa",
+      "release_draft": false,
+      "assets": [
+        {
+          "path": "final/si-ep11-kintsugi-ink/小红书/si-ep11-kintsugi-ink-xiaohongshu-90s-portrait.mp4",
+          "name": "final--si-ep11-kintsugi-ink--deliveries--si-ep11-kintsugi-ink-----si-ep11-kintsugi-ink-xiaohongshu-90s-portrait--88db88150c51.mp4",
+          "bytes": 35639865,
+          "sha256": "88db88150c5113a071a618039b44555247463def090f44de05eb58def8a8f454",
+          "github_digest": "sha256:88db88150c5113a071a618039b44555247463def090f44de05eb58def8a8f454",
+          "github_asset_id": 659748006,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep11-kintsugi-ink-bc1f191cc5a5/final--si-ep11-kintsugi-ink--deliveries--si-ep11-kintsugi-ink-----si-ep11-kintsugi-ink-xiaohongshu-90s-portrait--88db88150c51.mp4",
+          "local_and_remote_match": true
+        }
+      ]
+    },
+    {
       "id": "si-eternity",
       "title": "Final 成片备份 · 一眼万年",
       "release_tag": "final-si-eternity-66d480b1c859",
@@ -725,12 +745,12 @@
   ],
   "restore_probe": {
     "status": "PASS",
-    "report": "deliveries/si-ep10-dopamine-greenhouse-v02/review/final-restore-probe.json",
-    "report_sha256": "ed4b9178a91a4cd2bc8c49ced39817d6be14a0985aa8e97121b99fd08b3f73f7",
-    "source_commit": "613533b5c9e160a261745cfa73cdf3a14959ff98",
-    "scope": "Downloaded and SHA256-verified the newly backed-up EP10 v2 movie (1 file); repeated recovery idempotently skipped it. Other49 movies were local/API inventory verified, not downloaded by this probe.",
-    "restored_bytes": 137248140,
-    "restored_sha256": "ba6a03b0683160109d72d4fccf65eba651ce7dc8c47a29716f6ddc3c60d21e89",
-    "idempotent_second_run": true
+    "report": "deliveries/si-ep11-kintsugi-ink/review/final-restore-probe.json",
+    "work": "si-ep11-kintsugi-ink",
+    "asset_sha256": "88db88150c5113a071a618039b44555247463def090f44de05eb58def8a8f454",
+    "bytes": 35639865,
+    "second_run_skipped": true,
+    "temporary_data_cleaned": true,
+    "scope": "One newly added EP11 final film actually downloaded from GitHub; second restore recognized exactmatchingfile withoutchangingit. Other films were notdownloadrestored in thisprobe."
   }
 }

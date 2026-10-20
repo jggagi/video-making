@@ -1,7 +1,7 @@
 {
   "platform": "小红书",
   "work": "si-ep11-kintsugi-ink",
-  "status": "MEDIA_VALIDATED_READY_FOR_ARCHIVE",
+  "status": "HOST_REJECTED_UPLOAD_PENDING_DIRECT_USER_AUTHORIZATION",
   "authorization_summary": "Attached user request explicitly asks render validate and publish this EP11 on Xiaohongshu at peak hours; user approved scientific revision.",
   "account_display_name": "余问 QStory",
   "duplicate_check": {
@@ -34,7 +34,41 @@
   "cover_sha256": "86f4f22a32313f7ad99f471ec730b6e4e0bcadd6a0b89cf964c83e0fd326cae5",
   "cover_source_frame": 5040,
   "title": "如果永远年轻，白头偕老还算誓言吗？",
-  "body_path": "deliveries/si-ep11-kintsugi-ink/小红书/post.md",
+  "body_path": "deliveries/si-ep11-kintsugi-ink/小红书/post-body.txt",
   "content_declaration_plan": "笔记含AI合成内容",
-  "visibility_plan": "公开可见"
+  "visibility_plan": "公开可见",
+  "upload_attempted": false,
+  "host_review": {
+    "action": "Upload final EP11 MP4 to Xiaohongshu account",
+    "decision": "REJECTED_BEFORE_EXECUTION",
+    "reason": "Automatic approval review did not recognize attached publication instruction as a separate direct user-authored publication request.",
+    "safe_next_action": "Ask for direct chat authorization after completing unaffected production/archive work; do not bypass or retry upload before approval."
+  },
+  "remaining": [
+    "Direct user authorization in chat for Xiaohongshu upload and scheduled public publication",
+    "Platform topic linking, cover preview, AI declaration, schedule selection and final submission after authorization"
+  ],
+  "materials_prepared": true,
+  "platform_prepared": false,
+  "body_sha256": "8023fb1c00fb3e079d1becc65303c391863e75d3b1b9c8c42ac21af6a37291dd",
+  "planned_topics": [
+    "超级智能",
+    "抗衰老",
+    "白头偕老",
+    "数字金缮",
+    "科幻美学",
+    "数字艺术",
+    "深度思考",
+    "时间",
+    "一眼万年"
+  ],
+  "linked_topics": [],
+  "archive": {
+    "source_commit": "00e471fea706ef1455c14817fe27907322876ffa",
+    "film_release": "https://github.com/jggagi/video-making/releases/tag/film-si-ep11-kintsugi-ink-bc1f191cc5a5",
+    "final_release": "https://github.com/jggagi/video-making/releases/tag/final-si-ep11-kintsugi-ink-bc1f191cc5a5",
+    "local_final": "final/si-ep11-kintsugi-ink/小红书/si-ep11-kintsugi-ink-xiaohongshu-90s-portrait.mp4",
+    "remote_size_sha256": "VERIFIED",
+    "restore_probe": "PASS"
+  }
 }

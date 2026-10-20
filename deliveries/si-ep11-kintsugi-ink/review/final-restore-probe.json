@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-10-20T15:48:25.149989+00:00",
+  "scope": "One newly added EP11 final film actually downloaded from GitHub; second restore recognized exactmatchingfile withoutchangingit. Other films were notdownloadrestored in thisprobe.",
+  "path": "final/si-ep11-kintsugi-ink/小红书/si-ep11-kintsugi-ink-xiaohongshu-90s-portrait.mp4",
+  "bytes": 35639865,
+  "sha256": "88db88150c5113a071a618039b44555247463def090f44de05eb58def8a8f454",
+  "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep11-kintsugi-ink-bc1f191cc5a5/final--si-ep11-kintsugi-ink--deliveries--si-ep11-kintsugi-ink-----si-ep11-kintsugi-ink-xiaohongshu-90s-portrait--88db88150c51.mp4",
+  "first_run": "Restored: final/si-ep11-kintsugi-ink/小红书/si-ep11-kintsugi-ink-xiaohongshu-90s-portrait.mp4 (35,639,865 bytes)\nRestore complete: 0 already verified, 1 downloaded",
+  "second_run": "Restore complete: 1 already verified, 0 downloaded",
+  "second_run_file_unchanged": true,
+  "source_catalog_sha256": "ecd134765bc730326e3d693d42c1bb15737531470949a628042b926a74993c1e",
+  "temporary_data_cleaned": true,
+  "harness_note": "Earlier download had matched size/hash, but the wrapper incorrectly expected wordSKIP rather than alreadyverified summary. This fresh isolated retry retains exact successful CLI outputs."
+}

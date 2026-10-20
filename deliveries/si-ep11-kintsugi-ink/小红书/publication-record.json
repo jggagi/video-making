@@ -17,11 +17,11 @@
   "public_visibility_verified": false,
   "timing_plan": {
     "kind": "platform_scheduled",
-    "local_date": "2026-10-21",
-    "local_time": "05:00",
+    "local_date": "2026-10-20",
+    "local_time": "17:00",
     "local_timezone": "America/Los_Angeles",
-    "audience_time": "2026-10-21 20:00 Asia/Shanghai",
-    "basis": "Editorial evening test for Chinese-language audience; no measured account peak data claimed."
+    "audience_time": "2026-10-21 08:00 Asia/Shanghai",
+    "basis": "User directly requested 10月21日早8点发布，北京时间."
   },
   "human_listening": "NOT_RUN",
   "target_device_playback": "NOT_RUN",
@@ -90,7 +90,7 @@
   "upload_verified": true,
   "content_declaration": "笔记含AI合成内容",
   "visibility": "公开可见",
-  "platform_displayed_schedule": "2026-10-21 20:00 北京时间",
+  "platform_displayed_schedule": "2026-10-21 08:00 北京时间",
   "preflight_verified_at_utc": "2026-10-20T15:57:21Z",
   "platform_preflight": {
     "video": "Filename and HD detection visible; upload processing finished",
@@ -107,9 +107,9 @@
   "submission_started_at_utc": "2026-10-20T15:57:48Z",
   "scheduled_publication_verified": true,
   "platform_status": "审核中",
-  "platform_schedule": "定时发布 2026-10-21 20:00 （GMT+8:00 北京时间）",
+  "platform_schedule": "定时发布 2026-10-21 08:00 （GMT+8:00 北京时间）",
   "submission_verified_at_utc": "2026-10-20T15:58:21Z",
-  "note_id": null,
+  "note_id": "6ad78f82000000002900e27f",
   "note_url": null,
   "platform_result": {
     "success_page_observed": true,
@@ -124,6 +124,56 @@
       "/private/tmp/ep11-scheduled-result.png",
       "/private/tmp/ep11-scheduled-result-page.txt"
     ],
-    "public_note_link": "Not exposed in observed pending-review row"
-  }
+    "public_note_link": "Not exposed in observed pending-review row",
+    "latest_schedule_update": {
+      "success_page_text": "更新成功",
+      "manager_title": "审核中 如果永远年轻，白头偕老还算誓言吗？",
+      "schedule": "定时发布 2026-10-21 08:00 （GMT+8:00 北京时间）",
+      "verified_at_utc": "2026-10-20T16:03:03Z",
+      "private_evidence": [
+        "/private/tmp/ep11-scheduled-0800-result.png",
+        "/private/tmp/ep11-scheduled-0800-page.txt"
+      ]
+    }
+  },
+  "schedule_history": [
+    {
+      "timing_plan": {
+        "kind": "platform_scheduled",
+        "local_date": "2026-10-21",
+        "local_time": "05:00",
+        "local_timezone": "America/Los_Angeles",
+        "audience_time": "2026-10-21 20:00 Asia/Shanghai",
+        "basis": "Editorial evening test for Chinese-language audience; no measured account peak data claimed."
+      },
+      "platform_schedule": "定时发布 2026-10-21 20:00 （GMT+8:00 北京时间）",
+      "platform_status": "审核中",
+      "verified_at_utc": "2026-10-20T15:58:21Z",
+      "private_evidence": [
+        "/private/tmp/ep11-scheduled-result.png",
+        "/private/tmp/ep11-scheduled-result-page.txt"
+      ]
+    }
+  ],
+  "schedule_change": {
+    "authorization": "Direct user message: 10 月 21 日 早 8 点发布 北京时间",
+    "from": "2026-10-21 20:00 Asia/Shanghai",
+    "to": "2026-10-21 08:00 Asia/Shanghai",
+    "attempt_started_at_utc": "2026-10-20T16:02:24Z",
+    "submission_attempted": true,
+    "submission_verified": true,
+    "preflight_display": "2026-10-21 08:00 北京时间",
+    "operation": "Edit existing note schedule; no new upload or duplicate note",
+    "success_page_text": "更新成功",
+    "verified_at_utc": "2026-10-20T16:03:03Z",
+    "platform_schedule": "定时发布 2026-10-21 08:00 （GMT+8:00 北京时间）",
+    "manager_status": "审核中",
+    "manager_count_before": 12,
+    "manager_count_after": 12,
+    "private_evidence": [
+      "/private/tmp/ep11-scheduled-0800-result.png",
+      "/private/tmp/ep11-scheduled-0800-page.txt"
+    ]
+  },
+  "platform_status_observed_at_utc": "2026-10-20T16:03:03Z"
 }

@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "scope": "Staged EP10 v2 source/media metadata only; no branding, credentials, dependencies or encoded movies staged.",
+  "staged_files": 140,
+  "rendered_visual_source_hashes_unchanged": true,
+  "whitespace_check": "git -c core.whitespace=-blank-at-eof diff --cached --check passed. Four already-rendered/preserved source files retain an empty EOF line to preserve exact render provenance; no other whitespace errors.",
+  "source_commit": "PENDING"
+}

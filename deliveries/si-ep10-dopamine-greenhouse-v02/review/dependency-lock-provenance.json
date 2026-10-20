@@ -1,0 +1,7 @@
+{
+  "source": "repository package-lock.json",
+  "source_sha256": "83e9d75986f75c25e8c55caa7a1cc1f6f2297f4682d3a07c76bbebaacbc38951",
+  "project_lock_sha256": "eb30dbb62433c4abe5b3fecc5edfa70fd183df9d2259d75ea7bb63c55d40e205",
+  "changes": "Root package name/version only; all direct and transitive resolutions preserved",
+  "install_run": false
+}

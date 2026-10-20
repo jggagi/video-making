@@ -1,0 +1,13 @@
+{
+  "version": "v02",
+  "basis": "si-ep10-dopamine-greenhouse",
+  "v1_movie_sha256": "2241fd76ba65c08758a84813f0f13bbe125f1d5ca6f868a090e56e85e44323b0",
+  "master_sha256": "d787f5794a2f8cc76f159a58df02b66cd7721bb54e08d94149f1f0f251ecc968",
+  "unchanged_files": {
+    "project/public/audio/master.wav": "d787f5794a2f8cc76f159a58df02b66cd7721bb54e08d94149f1f0f251ecc968",
+    "project/audio-timing.json": "208cd0d3ab54884600718be0b3c82f774f0a2f696a0610156953609436dbd66a",
+    "project/segments.json": "014365867be06e7310ae014890e6942c75b7e57811493aed8e67eaa419903637",
+    "source/script.md": "02818be4ef83881f722e6522367098a8725a86ba2939aaf737832603ec73401a",
+    "小红书/captions.srt": "0e69d5cc509117e0be91736b76751d9b89681edad3f48fc5099d560f77a4688f"
+  }
+}

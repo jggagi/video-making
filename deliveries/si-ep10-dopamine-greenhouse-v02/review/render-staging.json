@@ -1,0 +1,8 @@
+{
+  "status": "MUXED",
+  "file": "/Volumes/AgentDev/Scratch/tmp/si-ep10-v2-native-MDQMMU/video-only.mp4",
+  "sha256": "0ca510ca0b1f9791d8ce0496d71a3faa87839fc6e541bec8588611bb6b81aec1",
+  "bytes": 133598120,
+  "scope": "Owned rebuildable native video track in verified AgentDev scratch; formal source and final movies stay in repository.",
+  "final_movie_sha256": "ba6a03b0683160109d72d4fccf65eba651ce7dc8c47a29716f6ddc3c60d21e89"
+}

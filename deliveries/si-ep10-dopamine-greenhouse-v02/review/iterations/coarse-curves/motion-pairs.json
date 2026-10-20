@@ -1,0 +1,362 @@
+{
+  "status": "MEASURED_REVIEW_REQUIRED",
+  "movie_sha256": "48e93e7ccfa42021ff4fb0bca954e50c5da32d16291426e7cf2a0d3084230744",
+  "pair_windows_frames": [
+    [
+      150,
+      300
+    ],
+    [
+      450,
+      600
+    ],
+    [
+      870,
+      1020
+    ],
+    [
+      1050,
+      1200
+    ],
+    [
+      1500,
+      1650
+    ],
+    [
+      1800,
+      1950
+    ],
+    [
+      2100,
+      2250
+    ],
+    [
+      2400,
+      2550
+    ],
+    [
+      2640,
+      2790
+    ],
+    [
+      2940,
+      3090
+    ],
+    [
+      3240,
+      3390
+    ],
+    [
+      3660,
+      3810
+    ],
+    [
+      3900,
+      4050
+    ],
+    [
+      4140,
+      4290
+    ],
+    [
+      4410,
+      4560
+    ],
+    [
+      4650,
+      4800
+    ],
+    [
+      4950,
+      5100
+    ],
+    [
+      5220,
+      5370
+    ]
+  ],
+  "extraction_pair_frames": [
+    150,
+    300,
+    450,
+    600,
+    870,
+    1020,
+    1050,
+    1200,
+    1500,
+    1650,
+    1800,
+    1950,
+    2100,
+    2250,
+    2400,
+    2550,
+    2640,
+    2790,
+    2940,
+    3090,
+    3240,
+    3390,
+    3660,
+    3810,
+    3900,
+    4050,
+    4140,
+    4290,
+    4410,
+    4560,
+    4650,
+    4800,
+    4950,
+    5100,
+    5220,
+    5370
+  ],
+  "roi": {
+    "logical_1080x1920": [
+      64,
+      470,
+      908,
+      1196
+    ],
+    "pixels_360x640": [
+      21,
+      157,
+      303,
+      399
+    ],
+    "width": 282,
+    "height": 242
+  },
+  "metric": {
+    "name": "grayscale edge-magnitude MAE",
+    "method": "NumPy float32 grayscale gradients; mean absolute difference of per-pixel gradient magnitudes",
+    "low_motion_warning_below": 0.5,
+    "interpretation": "heuristic for root observation only; neither low nor high values constitute a motion pass or automatic clearance"
+  },
+  "pairs": [
+    {
+      "frames": [
+        150,
+        300
+      ],
+      "seconds": [
+        2.5,
+        5.0
+      ],
+      "edge_magnitude_mae_grayscale": 3.16474986076355,
+      "low_motion_warning": false
+    },
+    {
+      "frames": [
+        450,
+        600
+      ],
+      "seconds": [
+        7.5,
+        10.0
+      ],
+      "edge_magnitude_mae_grayscale": 3.52408504486084,
+      "low_motion_warning": false
+    },
+    {
+      "frames": [
+        870,
+        1020
+      ],
+      "seconds": [
+        14.5,
+        17.0
+      ],
+      "edge_magnitude_mae_grayscale": 4.353110313415527,
+      "low_motion_warning": false
+    },
+    {
+      "frames": [
+        1050,
+        1200
+      ],
+      "seconds": [
+        17.5,
+        20.0
+      ],
+      "edge_magnitude_mae_grayscale": 5.7405900955200195,
+      "low_motion_warning": false
+    },
+    {
+      "frames": [
+        1500,
+        1650
+      ],
+      "seconds": [
+        25.0,
+        27.5
+      ],
+      "edge_magnitude_mae_grayscale": 5.23068380355835,
+      "low_motion_warning": false
+    },
+    {
+      "frames": [
+        1800,
+        1950
+      ],
+      "seconds": [
+        30.0,
+        32.5
+      ],
+      "edge_magnitude_mae_grayscale": 4.038686275482178,
+      "low_motion_warning": false
+    },
+    {
+      "frames": [
+        2100,
+        2250
+      ],
+      "seconds": [
+        35.0,
+        37.5
+      ],
+      "edge_magnitude_mae_grayscale": 4.5440568923950195,
+      "low_motion_warning": false
+    },
+    {
+      "frames": [
+        2400,
+        2550
+      ],
+      "seconds": [
+        40.0,
+        42.5
+      ],
+      "edge_magnitude_mae_grayscale": 5.175212860107422,
+      "low_motion_warning": false
+    },
+    {
+      "frames": [
+        2640,
+        2790
+      ],
+      "seconds": [
+        44.0,
+        46.5
+      ],
+      "edge_magnitude_mae_grayscale": 4.404754161834717,
+      "low_motion_warning": false
+    },
+    {
+      "frames": [
+        2940,
+        3090
+      ],
+      "seconds": [
+        49.0,
+        51.5
+      ],
+      "edge_magnitude_mae_grayscale": 17.826854705810547,
+      "low_motion_warning": false
+    },
+    {
+      "frames": [
+        3240,
+        3390
+      ],
+      "seconds": [
+        54.0,
+        56.5
+      ],
+      "edge_magnitude_mae_grayscale": 18.222166061401367,
+      "low_motion_warning": false
+    },
+    {
+      "frames": [
+        3660,
+        3810
+      ],
+      "seconds": [
+        61.0,
+        63.5
+      ],
+      "edge_magnitude_mae_grayscale": 4.295633316040039,
+      "low_motion_warning": false
+    },
+    {
+      "frames": [
+        3900,
+        4050
+      ],
+      "seconds": [
+        65.0,
+        67.5
+      ],
+      "edge_magnitude_mae_grayscale": 4.238938808441162,
+      "low_motion_warning": false
+    },
+    {
+      "frames": [
+        4140,
+        4290
+      ],
+      "seconds": [
+        69.0,
+        71.5
+      ],
+      "edge_magnitude_mae_grayscale": 4.095081329345703,
+      "low_motion_warning": false
+    },
+    {
+      "frames": [
+        4410,
+        4560
+      ],
+      "seconds": [
+        73.5,
+        76.0
+      ],
+      "edge_magnitude_mae_grayscale": 16.493297576904297,
+      "low_motion_warning": false
+    },
+    {
+      "frames": [
+        4650,
+        4800
+      ],
+      "seconds": [
+        77.5,
+        80.0
+      ],
+      "edge_magnitude_mae_grayscale": 20.618680953979492,
+      "low_motion_warning": false
+    },
+    {
+      "frames": [
+        4950,
+        5100
+      ],
+      "seconds": [
+        82.5,
+        85.0
+      ],
+      "edge_magnitude_mae_grayscale": 1.794373631477356,
+      "low_motion_warning": false
+    },
+    {
+      "frames": [
+        5220,
+        5370
+      ],
+      "seconds": [
+        87.0,
+        89.5
+      ],
+      "edge_magnitude_mae_grayscale": 1.6548110246658325,
+      "low_motion_warning": false
+    }
+  ],
+  "contact_sheets": [
+    "motion-pairs-contact-01.jpg",
+    "motion-pairs-contact-02.jpg",
+    "motion-pairs-contact-03.jpg"
+  ],
+  "limitation": "Encoded geometry-motion samples do not replace full-motion visual review."
+}

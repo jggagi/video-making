@@ -1,0 +1,218 @@
+{
+  "status": "REVIEWED_ACCEPTED_LOSSY_RESIDUAL",
+  "movie_sha256": "ba6a03b0683160109d72d4fccf65eba651ce7dc8c47a29716f6ddc3c60d21e89",
+  "frames": [
+    4861,
+    4891
+  ],
+  "native_dimensions": [
+    2160,
+    3840
+  ],
+  "native_exact_zero": false,
+  "max_rgb": 2,
+  "frame_measurements": [
+    {
+      "frame": 4861,
+      "max_rgb": 2,
+      "nonzero_pixels": 40,
+      "bbox": [
+        686,
+        1696,
+        704,
+        1714
+      ]
+    },
+    {
+      "frame": 4862,
+      "max_rgb": 0,
+      "nonzero_pixels": 0,
+      "bbox": null
+    },
+    {
+      "frame": 4863,
+      "max_rgb": 0,
+      "nonzero_pixels": 0,
+      "bbox": null
+    },
+    {
+      "frame": 4864,
+      "max_rgb": 0,
+      "nonzero_pixels": 0,
+      "bbox": null
+    },
+    {
+      "frame": 4865,
+      "max_rgb": 0,
+      "nonzero_pixels": 0,
+      "bbox": null
+    },
+    {
+      "frame": 4866,
+      "max_rgb": 0,
+      "nonzero_pixels": 0,
+      "bbox": null
+    },
+    {
+      "frame": 4867,
+      "max_rgb": 0,
+      "nonzero_pixels": 0,
+      "bbox": null
+    },
+    {
+      "frame": 4868,
+      "max_rgb": 0,
+      "nonzero_pixels": 0,
+      "bbox": null
+    },
+    {
+      "frame": 4869,
+      "max_rgb": 0,
+      "nonzero_pixels": 0,
+      "bbox": null
+    },
+    {
+      "frame": 4870,
+      "max_rgb": 0,
+      "nonzero_pixels": 0,
+      "bbox": null
+    },
+    {
+      "frame": 4871,
+      "max_rgb": 0,
+      "nonzero_pixels": 0,
+      "bbox": null
+    },
+    {
+      "frame": 4872,
+      "max_rgb": 0,
+      "nonzero_pixels": 0,
+      "bbox": null
+    },
+    {
+      "frame": 4873,
+      "max_rgb": 0,
+      "nonzero_pixels": 0,
+      "bbox": null
+    },
+    {
+      "frame": 4874,
+      "max_rgb": 0,
+      "nonzero_pixels": 0,
+      "bbox": null
+    },
+    {
+      "frame": 4875,
+      "max_rgb": 0,
+      "nonzero_pixels": 0,
+      "bbox": null
+    },
+    {
+      "frame": 4876,
+      "max_rgb": 0,
+      "nonzero_pixels": 0,
+      "bbox": null
+    },
+    {
+      "frame": 4877,
+      "max_rgb": 0,
+      "nonzero_pixels": 0,
+      "bbox": null
+    },
+    {
+      "frame": 4878,
+      "max_rgb": 0,
+      "nonzero_pixels": 0,
+      "bbox": null
+    },
+    {
+      "frame": 4879,
+      "max_rgb": 0,
+      "nonzero_pixels": 0,
+      "bbox": null
+    },
+    {
+      "frame": 4880,
+      "max_rgb": 0,
+      "nonzero_pixels": 0,
+      "bbox": null
+    },
+    {
+      "frame": 4881,
+      "max_rgb": 0,
+      "nonzero_pixels": 0,
+      "bbox": null
+    },
+    {
+      "frame": 4882,
+      "max_rgb": 0,
+      "nonzero_pixels": 0,
+      "bbox": null
+    },
+    {
+      "frame": 4883,
+      "max_rgb": 0,
+      "nonzero_pixels": 0,
+      "bbox": null
+    },
+    {
+      "frame": 4884,
+      "max_rgb": 0,
+      "nonzero_pixels": 0,
+      "bbox": null
+    },
+    {
+      "frame": 4885,
+      "max_rgb": 0,
+      "nonzero_pixels": 0,
+      "bbox": null
+    },
+    {
+      "frame": 4886,
+      "max_rgb": 0,
+      "nonzero_pixels": 0,
+      "bbox": null
+    },
+    {
+      "frame": 4887,
+      "max_rgb": 0,
+      "nonzero_pixels": 0,
+      "bbox": null
+    },
+    {
+      "frame": 4888,
+      "max_rgb": 0,
+      "nonzero_pixels": 0,
+      "bbox": null
+    },
+    {
+      "frame": 4889,
+      "max_rgb": 0,
+      "nonzero_pixels": 0,
+      "bbox": null
+    },
+    {
+      "frame": 4890,
+      "max_rgb": 0,
+      "nonzero_pixels": 0,
+      "bbox": null
+    }
+  ],
+  "method": "Exact integer selection from frame0, native RGB24 all 30 frames; no scaling or approximate seeking.",
+  "source_black_reference": {
+    "path": "review/source-4861.png",
+    "sha256": "3372eedb0c9df90a99457b2a1524f3d085e2edea9fe3ae33445639a7d46f851b",
+    "max_rgb": 0,
+    "dimensions": [
+      2160,
+      3840
+    ]
+  },
+  "review": {
+    "decision": "Accept visually black transition with explicitly recorded AVC reconstruction residue; do not describe all native encoded pixels as exact zero.",
+    "scope": "Frame4861 only: 40 pixels of 8294400, RGB peak2/255 within18x18 bbox; next29 frames are exact native RGB zero. No overlay, glyph, or meaningful image remains. Exact30frame zeros remain true for source black state and PCM master.",
+    "preview_360_max_rgb": 0,
+    "other29frames_native_max_rgb": 0,
+    "perceptual_observation": "Black sequence appears black in final encoded contact and playback; no visible graphics."
+  }
+}

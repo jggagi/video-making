@@ -1,0 +1,1198 @@
+{
+  "schemaVersion": 1,
+  "work": "si-ep10-dopamine-greenhouse-v02",
+  "hashAlgorithm": "SHA-256",
+  "pathBase": "project directory; paths may use ../ for sibling delivery inputs",
+  "audioMaster": {
+    "path": "public/audio/master.wav",
+    "durationSeconds": 90.0,
+    "sampleRateHz": 48000,
+    "channels": 2,
+    "samplesPerChannel": 4320000,
+    "integratedLufs": -16.0,
+    "truePeakDbtp": -1.5,
+    "absoluteSilenceFrames": [
+      4861,
+      4891
+    ]
+  },
+  "provider": {
+    "provider": "Aliyun Bailian",
+    "modelSelection": "active profile default",
+    "effectiveModel": "cosyvoice-v3-flash",
+    "voice": "longtian_v3",
+    "rate": 1.0,
+    "format": "wav",
+    "sampleRateHz": 24000,
+    "asrUsed": false,
+    "cueCacheKeys": {
+      "S01": "cb672d1ec8d758230a2a24d535c38cbee0646a5472cd0b2bda492210d0d08f7c",
+      "S02": "0bf52e4f0267f0ef782c211d7bbc4b37a545fd04dbb701b3737c6e237047b7ed",
+      "S03": "1c9fb08d33943c0bc0abf7b3fabb11e82b66ed44502b8c0d5f4c415b8f1211d9",
+      "S04": "b7064e8ae8a85816fe33f578a406ee3392a502be38b6d55ca84791627eae5c8e",
+      "S05": "aa5df936f30efc2a12d69a9c16de47b8f09404b27cfa80a4267a6d020ebf2d03",
+      "S06": "414388fd060cc48a370a187eac0476ec354ade4721d1a47ea2fa75ad2b6b51fe",
+      "S07": "ed710101b97619056730f6e283edcce243c8db31549e7553bdd52afe821a927a",
+      "S08": "7c418a44d61f4271b3b4e48b40c093d106c662864d603b864770c2359c2e2571"
+    }
+  },
+  "visualProvenance": {
+    "method": "Native SVG harmonic iris and spherical membrane in EarlyActs.tsx; perspective deep-field, neural point clouds, actual R4 Clifford torus projection in LateActs.tsx; extruded fracture-plane mesh with normal shading and ballistic spark trails in Reality.tsx; frame4860 CRT collapse in Scenes.tsx",
+    "imageGenerationCalls": 0,
+    "newTtsCalls": 0,
+    "sourceAssetId": "scene-art-source",
+    "v1AudioReused": true
+  },
+  "fontDependencies": [
+    {
+      "family": "PingFang SC",
+      "source": "local macOS system font",
+      "copiedIntoProject": false
+    },
+    {
+      "family": "Menlo",
+      "source": "local macOS system font",
+      "copiedIntoProject": false
+    }
+  ],
+  "portability": "Rendering depends on PingFang SC and Menlo being available on the host; these fonts are not bundled or redistributed, so another system may substitute fonts and change text layout.",
+  "captionTiming": {
+    "sourceAssetId": "audio-timing",
+    "method": "Original source chunks are allocated by character weight only within measured active PCM spans; no ASR or forced word alignment was performed.",
+    "asrOrForcedAlignmentUsed": false
+  },
+  "manifestIntegrity": {
+    "selfHashOmitted": true,
+    "reason": "A manifest cannot contain a stable SHA-256 digest of its own serialized bytes without creating a circular value."
+  },
+  "assets": [
+    {
+      "id": "audio-authorization",
+      "path": "audio-authorization.json",
+      "kind": "tts_authorization_provenance",
+      "bytes": 469,
+      "sha256": "b52d4ea8b5ddbc61e15947259d319f23423c329c2864a7c7abae459e59735383",
+      "provenance": {
+        "source": "human authorization record; contains no provider credentials"
+      }
+    },
+    {
+      "id": "audio-master",
+      "path": "public/audio/master.wav",
+      "kind": "stereo_normalized_master_wav",
+      "bytes": 17280044,
+      "sha256": "d787f5794a2f8cc76f159a58df02b66cd7721bb54e08d94149f1f0f251ecc968",
+      "provenance": {
+        "source": "final stereo mix normalized with FFmpeg loudnorm and final measured LUFS calibration",
+        "designReferences": [
+          "mix-manifest",
+          "mix-settings",
+          "audio-qa"
+        ],
+        "sampleRateHz": 48000,
+        "channels": 2,
+        "sampleWidthBytes": 2,
+        "samplesPerChannel": 4320000,
+        "durationSeconds": 90.0,
+        "samplePeakPcm16": 27608,
+        "loudness": {
+          "integratedLUFS": -16.0,
+          "truePeakDBTP": -1.5
+        },
+        "absoluteSilence": {
+          "startSample": 3888800,
+          "endSampleExclusive": 3912800,
+          "peakPcm16": 0,
+          "exactZero": true
+        }
+      }
+    },
+    {
+      "id": "audio-narration",
+      "path": "public/audio/narration.wav",
+      "kind": "stereo_narration_stem_wav",
+      "bytes": 17280044,
+      "sha256": "6f64b639a79fdc5182b5db75558ba0fb2f870a03fceef2d3bcfd0ab1d42cde7b",
+      "provenance": {
+        "source": "complete cached narration cues aligned by measured active PCM onset; no speed change or truncation",
+        "designReferences": [
+          "audio-timing",
+          "provider-manifest",
+          "build-audio-script"
+        ],
+        "sampleRateHz": 48000,
+        "channels": 2,
+        "sampleWidthBytes": 2,
+        "samplesPerChannel": 4320000,
+        "durationSeconds": 90.0,
+        "samplePeakPcm16": 26098,
+        "sourceCueAssetIds": [
+          "narration-cue-s01",
+          "narration-cue-s02",
+          "narration-cue-s03",
+          "narration-cue-s04",
+          "narration-cue-s05",
+          "narration-cue-s06",
+          "narration-cue-s07",
+          "narration-cue-s08"
+        ]
+      }
+    },
+    {
+      "id": "audio-qa",
+      "path": "../review/audio-qa-v1-reused.json",
+      "kind": "audio_qa_report",
+      "bytes": 14577,
+      "sha256": "d2850cb79dadf71965e641462eade9f6126d35374427ab9cac806d08fafa2e57",
+      "provenance": {
+        "source": "v1 technical PCM QA, reused unchanged master; v2 encoded audio verified separately"
+      }
+    },
+    {
+      "id": "audio-score",
+      "path": "public/audio/score.wav",
+      "kind": "stereo_procedural_score_stem_wav",
+      "bytes": 17280044,
+      "sha256": "ed485773c09632062d3bc5d53ce7601d812f225214f8db707bcb3c47809af96e",
+      "provenance": {
+        "source": "deterministic procedural warm harmonic score, voice ducking and screen-lock fade",
+        "designReferences": [
+          "mix-settings",
+          "build-audio-script",
+          "sfx-events"
+        ],
+        "sampleRateHz": 48000,
+        "channels": 2,
+        "sampleWidthBytes": 2,
+        "samplesPerChannel": 4320000,
+        "durationSeconds": 90.0,
+        "samplePeakPcm16": 2003
+      }
+    },
+    {
+      "id": "audio-sfx",
+      "path": "public/audio/sfx.wav",
+      "kind": "stereo_procedural_sfx_stem_wav",
+      "bytes": 17280044,
+      "sha256": "56dc3e1be5d8e7da70ed8a61ab61e73548598b7103aa45536c5c1c9a22316a76",
+      "provenance": {
+        "source": "deterministic procedural sound effects; fixed event-derived xorshift32 noise seed",
+        "designReferences": [
+          "mix-settings",
+          "sfx-events",
+          "build-audio-script"
+        ],
+        "sampleRateHz": 48000,
+        "channels": 2,
+        "sampleWidthBytes": 2,
+        "samplesPerChannel": 4320000,
+        "durationSeconds": 90.0,
+        "samplePeakPcm16": 2715
+      }
+    },
+    {
+      "id": "audio-timing",
+      "path": "audio-timing.json",
+      "kind": "measured_audio_timing",
+      "bytes": 23789,
+      "sha256": "208cd0d3ab54884600718be0b3c82f774f0a2f696a0610156953609436dbd66a",
+      "provenance": {
+        "source": "measured active PCM windows; caption phrase timing is estimated, not ASR or forced alignment"
+      }
+    },
+    {
+      "id": "build-audio-script",
+      "path": "scripts/build_audio.py",
+      "kind": "audio_builder_source",
+      "bytes": 59260,
+      "sha256": "00d2496a04339f2d00a09f791a78a139ae3f06e802efa1adc7d36960e8776cf5",
+      "provenance": {
+        "source": "local deterministic audio builder; source reference only"
+      }
+    },
+    {
+      "id": "captions-srt",
+      "path": "../小红书/captions.srt",
+      "kind": "caption_export",
+      "bytes": 2096,
+      "sha256": "0e69d5cc509117e0be91736b76751d9b89681edad3f48fc5099d560f77a4688f",
+      "provenance": {
+        "source": "caption export based on audio-timing.json; estimated phrase timing, not ASR"
+      }
+    },
+    {
+      "id": "film-source",
+      "path": "src/Film.tsx",
+      "kind": "video_composition_source",
+      "bytes": 5378,
+      "sha256": "96736cb75146b7a09d5e7d9c2a4678f73e4de74eb901de4d637b2b9d02a33761",
+      "provenance": {
+        "source": "scene composition, local font families and master WAV reference"
+      }
+    },
+    {
+      "id": "mix-manifest",
+      "path": "public/audio/mix-manifest.json",
+      "kind": "mix_build_manifest",
+      "bytes": 16048,
+      "sha256": "2aaca6da6454369c85dbaf66379d313ddd43243fc90d603b7de67bd182540f1c",
+      "provenance": {
+        "source": "measured source/output hashes and audio mix report"
+      }
+    },
+    {
+      "id": "mix-settings",
+      "path": "public/audio/mix-settings.json",
+      "kind": "procedural_mix_settings",
+      "bytes": 17422,
+      "sha256": "df955fc9d6f256ef32e59deaafd85da7970935d7b5213d387d86a3fb16ab237b",
+      "provenance": {
+        "source": "deterministic score, SFX, silence and loudness settings"
+      }
+    },
+    {
+      "id": "narration-canonical-s01",
+      "path": "public/audio/canonical/S01-cb672d1ec8d7.wav",
+      "kind": "canonical_narration_wav",
+      "bytes": 372524,
+      "sha256": "87431652fd7ac7415cfcfb34a03603bca937966b28b8654ab04d0729b22bd55c",
+      "provenance": {
+        "source": "local canonical PCM extraction with verified PCM overflow repair",
+        "derivedFrom": "narration-raw-s01",
+        "segmentId": "S01",
+        "cacheKey": "cb672d1ec8d758230a2a24d535c38cbee0646a5472cd0b2bda492210d0d08f7c",
+        "providerSettings": {
+          "provider": "Aliyun Bailian",
+          "modelSelection": "active profile default",
+          "effectiveModel": "cosyvoice-v3-flash",
+          "voice": "longtian_v3",
+          "rate": 1.0,
+          "format": "wav",
+          "sampleRateHz": 24000
+        },
+        "verifiedPcmOverflowRepair": true
+      }
+    },
+    {
+      "id": "narration-canonical-s02",
+      "path": "public/audio/canonical/S02-0bf52e4f0267.wav",
+      "kind": "canonical_narration_wav",
+      "bytes": 468524,
+      "sha256": "408957ccbadb6c43f07d441735a2fdbd3de4a476cc5e0e569be8fad1f58ede80",
+      "provenance": {
+        "source": "local canonical PCM extraction with verified PCM overflow repair",
+        "derivedFrom": "narration-raw-s02",
+        "segmentId": "S02",
+        "cacheKey": "0bf52e4f0267f0ef782c211d7bbc4b37a545fd04dbb701b3737c6e237047b7ed",
+        "providerSettings": {
+          "provider": "Aliyun Bailian",
+          "modelSelection": "active profile default",
+          "effectiveModel": "cosyvoice-v3-flash",
+          "voice": "longtian_v3",
+          "rate": 1.0,
+          "format": "wav",
+          "sampleRateHz": 24000
+        },
+        "verifiedPcmOverflowRepair": true
+      }
+    },
+    {
+      "id": "narration-canonical-s03",
+      "path": "public/audio/canonical/S03-1c9fb08d3394.wav",
+      "kind": "canonical_narration_wav",
+      "bytes": 372524,
+      "sha256": "99b6c6575dafc1611fc7be8204019721c5b4c88243c6a9a6c3738301b5c46e4e",
+      "provenance": {
+        "source": "local canonical PCM extraction with verified PCM overflow repair",
+        "derivedFrom": "narration-raw-s03",
+        "segmentId": "S03",
+        "cacheKey": "1c9fb08d33943c0bc0abf7b3fabb11e82b66ed44502b8c0d5f4c415b8f1211d9",
+        "providerSettings": {
+          "provider": "Aliyun Bailian",
+          "modelSelection": "active profile default",
+          "effectiveModel": "cosyvoice-v3-flash",
+          "voice": "longtian_v3",
+          "rate": 1.0,
+          "format": "wav",
+          "sampleRateHz": 24000
+        },
+        "verifiedPcmOverflowRepair": true
+      }
+    },
+    {
+      "id": "narration-canonical-s04",
+      "path": "public/audio/canonical/S04-b7064e8ae8a8.wav",
+      "kind": "canonical_narration_wav",
+      "bytes": 464684,
+      "sha256": "ca1b3d9cbc2b4fc169e3bb8b5087bb85a4a561bf81d33bbe42a3eb5988ffb0ce",
+      "provenance": {
+        "source": "local canonical PCM extraction with verified PCM overflow repair",
+        "derivedFrom": "narration-raw-s04",
+        "segmentId": "S04",
+        "cacheKey": "b7064e8ae8a85816fe33f578a406ee3392a502be38b6d55ca84791627eae5c8e",
+        "providerSettings": {
+          "provider": "Aliyun Bailian",
+          "modelSelection": "active profile default",
+          "effectiveModel": "cosyvoice-v3-flash",
+          "voice": "longtian_v3",
+          "rate": 1.0,
+          "format": "wav",
+          "sampleRateHz": 24000
+        },
+        "verifiedPcmOverflowRepair": true
+      }
+    },
+    {
+      "id": "narration-canonical-s05",
+      "path": "public/audio/canonical/S05-aa5df936f30e.wav",
+      "kind": "canonical_narration_wav",
+      "bytes": 476204,
+      "sha256": "5ca5f15bbfe91db183fdd7a5b4f6fc037eeeabbf9702c6b60d79b57b529b5742",
+      "provenance": {
+        "source": "local canonical PCM extraction with verified PCM overflow repair",
+        "derivedFrom": "narration-raw-s05",
+        "segmentId": "S05",
+        "cacheKey": "aa5df936f30efc2a12d69a9c16de47b8f09404b27cfa80a4267a6d020ebf2d03",
+        "providerSettings": {
+          "provider": "Aliyun Bailian",
+          "modelSelection": "active profile default",
+          "effectiveModel": "cosyvoice-v3-flash",
+          "voice": "longtian_v3",
+          "rate": 1.0,
+          "format": "wav",
+          "sampleRateHz": 24000
+        },
+        "verifiedPcmOverflowRepair": true
+      }
+    },
+    {
+      "id": "narration-canonical-s06",
+      "path": "public/audio/canonical/S06-414388fd060c.wav",
+      "kind": "canonical_narration_wav",
+      "bytes": 487724,
+      "sha256": "c1ef3de20aff02084c6d1bb6d3b5792c8b9e3cc90d3086bfde7e7c5a7e169a0d",
+      "provenance": {
+        "source": "local canonical PCM extraction with verified PCM overflow repair",
+        "derivedFrom": "narration-raw-s06",
+        "segmentId": "S06",
+        "cacheKey": "414388fd060cc48a370a187eac0476ec354ade4721d1a47ea2fa75ad2b6b51fe",
+        "providerSettings": {
+          "provider": "Aliyun Bailian",
+          "modelSelection": "active profile default",
+          "effectiveModel": "cosyvoice-v3-flash",
+          "voice": "longtian_v3",
+          "rate": 1.0,
+          "format": "wav",
+          "sampleRateHz": 24000
+        },
+        "verifiedPcmOverflowRepair": true
+      }
+    },
+    {
+      "id": "narration-canonical-s07",
+      "path": "public/audio/canonical/S07-ed710101b976.wav",
+      "kind": "canonical_narration_wav",
+      "bytes": 234284,
+      "sha256": "15f4aad88e99846a2c022c5963635edf0f1bfc85fdd319f17e8483a84533d9b7",
+      "provenance": {
+        "source": "local canonical PCM extraction with verified PCM overflow repair",
+        "derivedFrom": "narration-raw-s07",
+        "segmentId": "S07",
+        "cacheKey": "ed710101b97619056730f6e283edcce243c8db31549e7553bdd52afe821a927a",
+        "providerSettings": {
+          "provider": "Aliyun Bailian",
+          "modelSelection": "active profile default",
+          "effectiveModel": "cosyvoice-v3-flash",
+          "voice": "longtian_v3",
+          "rate": 1.0,
+          "format": "wav",
+          "sampleRateHz": 24000
+        },
+        "verifiedPcmOverflowRepair": true
+      }
+    },
+    {
+      "id": "narration-canonical-s08",
+      "path": "public/audio/canonical/S08-7c418a44d61f.wav",
+      "kind": "canonical_narration_wav",
+      "bytes": 376364,
+      "sha256": "f7b36af3e475d242ba22744a86b48878783d0aafe4cd8091a5e4c2346d0fa07d",
+      "provenance": {
+        "source": "local canonical PCM extraction with verified PCM overflow repair",
+        "derivedFrom": "narration-raw-s08",
+        "segmentId": "S08",
+        "cacheKey": "7c418a44d61f4271b3b4e48b40c093d106c662864d603b864770c2359c2e2571",
+        "providerSettings": {
+          "provider": "Aliyun Bailian",
+          "modelSelection": "active profile default",
+          "effectiveModel": "cosyvoice-v3-flash",
+          "voice": "longtian_v3",
+          "rate": 1.0,
+          "format": "wav",
+          "sampleRateHz": 24000
+        },
+        "verifiedPcmOverflowRepair": true
+      }
+    },
+    {
+      "id": "narration-cue-s01",
+      "path": "public/audio/cues/S01-cb672d1ec8d7.wav",
+      "kind": "mono_48khz_narration_cue_wav",
+      "bytes": 745038,
+      "sha256": "ce5d8443d4a587eb6484979c2418980a0fac469eefbc9af0cbcc01eb5ba6ea32",
+      "provenance": {
+        "source": "local conversion of canonical narration WAV to mono 48 kHz cue PCM",
+        "derivedFrom": "narration-canonical-s01",
+        "segmentId": "S01",
+        "cacheKey": "cb672d1ec8d758230a2a24d535c38cbee0646a5472cd0b2bda492210d0d08f7c",
+        "providerSettings": {
+          "provider": "Aliyun Bailian",
+          "modelSelection": "active profile default",
+          "effectiveModel": "cosyvoice-v3-flash",
+          "voice": "longtian_v3",
+          "rate": 1.0,
+          "format": "wav",
+          "sampleRateHz": 24000
+        }
+      }
+    },
+    {
+      "id": "narration-cue-s02",
+      "path": "public/audio/cues/S02-0bf52e4f0267.wav",
+      "kind": "mono_48khz_narration_cue_wav",
+      "bytes": 937038,
+      "sha256": "642555ed6a9bb81c4887221ab8f278c2ab890ce1d6d1297087ee85369dd28094",
+      "provenance": {
+        "source": "local conversion of canonical narration WAV to mono 48 kHz cue PCM",
+        "derivedFrom": "narration-canonical-s02",
+        "segmentId": "S02",
+        "cacheKey": "0bf52e4f0267f0ef782c211d7bbc4b37a545fd04dbb701b3737c6e237047b7ed",
+        "providerSettings": {
+          "provider": "Aliyun Bailian",
+          "modelSelection": "active profile default",
+          "effectiveModel": "cosyvoice-v3-flash",
+          "voice": "longtian_v3",
+          "rate": 1.0,
+          "format": "wav",
+          "sampleRateHz": 24000
+        }
+      }
+    },
+    {
+      "id": "narration-cue-s03",
+      "path": "public/audio/cues/S03-1c9fb08d3394.wav",
+      "kind": "mono_48khz_narration_cue_wav",
+      "bytes": 745038,
+      "sha256": "10d6be48b577279f5c89032ca750810fdd6946aaa1992ab9d93eb9f41b67bf64",
+      "provenance": {
+        "source": "local conversion of canonical narration WAV to mono 48 kHz cue PCM",
+        "derivedFrom": "narration-canonical-s03",
+        "segmentId": "S03",
+        "cacheKey": "1c9fb08d33943c0bc0abf7b3fabb11e82b66ed44502b8c0d5f4c415b8f1211d9",
+        "providerSettings": {
+          "provider": "Aliyun Bailian",
+          "modelSelection": "active profile default",
+          "effectiveModel": "cosyvoice-v3-flash",
+          "voice": "longtian_v3",
+          "rate": 1.0,
+          "format": "wav",
+          "sampleRateHz": 24000
+        }
+      }
+    },
+    {
+      "id": "narration-cue-s04",
+      "path": "public/audio/cues/S04-b7064e8ae8a8.wav",
+      "kind": "mono_48khz_narration_cue_wav",
+      "bytes": 929358,
+      "sha256": "7f55a8f611ad2968485f944d28f830fa86a5588956869b92533e4265749fd31b",
+      "provenance": {
+        "source": "local conversion of canonical narration WAV to mono 48 kHz cue PCM",
+        "derivedFrom": "narration-canonical-s04",
+        "segmentId": "S04",
+        "cacheKey": "b7064e8ae8a85816fe33f578a406ee3392a502be38b6d55ca84791627eae5c8e",
+        "providerSettings": {
+          "provider": "Aliyun Bailian",
+          "modelSelection": "active profile default",
+          "effectiveModel": "cosyvoice-v3-flash",
+          "voice": "longtian_v3",
+          "rate": 1.0,
+          "format": "wav",
+          "sampleRateHz": 24000
+        }
+      }
+    },
+    {
+      "id": "narration-cue-s05",
+      "path": "public/audio/cues/S05-aa5df936f30e.wav",
+      "kind": "mono_48khz_narration_cue_wav",
+      "bytes": 952398,
+      "sha256": "3f8eb82adfe43010150619b2f60d81328080bee6535126ba6b908c905636881a",
+      "provenance": {
+        "source": "local conversion of canonical narration WAV to mono 48 kHz cue PCM",
+        "derivedFrom": "narration-canonical-s05",
+        "segmentId": "S05",
+        "cacheKey": "aa5df936f30efc2a12d69a9c16de47b8f09404b27cfa80a4267a6d020ebf2d03",
+        "providerSettings": {
+          "provider": "Aliyun Bailian",
+          "modelSelection": "active profile default",
+          "effectiveModel": "cosyvoice-v3-flash",
+          "voice": "longtian_v3",
+          "rate": 1.0,
+          "format": "wav",
+          "sampleRateHz": 24000
+        }
+      }
+    },
+    {
+      "id": "narration-cue-s06",
+      "path": "public/audio/cues/S06-414388fd060c.wav",
+      "kind": "mono_48khz_narration_cue_wav",
+      "bytes": 975438,
+      "sha256": "32e3d72f17eeebbc1361b21b7f20d97d7d65e0286a94ca1444962ee885611066",
+      "provenance": {
+        "source": "local conversion of canonical narration WAV to mono 48 kHz cue PCM",
+        "derivedFrom": "narration-canonical-s06",
+        "segmentId": "S06",
+        "cacheKey": "414388fd060cc48a370a187eac0476ec354ade4721d1a47ea2fa75ad2b6b51fe",
+        "providerSettings": {
+          "provider": "Aliyun Bailian",
+          "modelSelection": "active profile default",
+          "effectiveModel": "cosyvoice-v3-flash",
+          "voice": "longtian_v3",
+          "rate": 1.0,
+          "format": "wav",
+          "sampleRateHz": 24000
+        }
+      }
+    },
+    {
+      "id": "narration-cue-s07",
+      "path": "public/audio/cues/S07-ed710101b976.wav",
+      "kind": "mono_48khz_narration_cue_wav",
+      "bytes": 468558,
+      "sha256": "012a63a36ba0aee57f30d71636082f2c4cab19416dae139a21c3aee89163432f",
+      "provenance": {
+        "source": "local conversion of canonical narration WAV to mono 48 kHz cue PCM",
+        "derivedFrom": "narration-canonical-s07",
+        "segmentId": "S07",
+        "cacheKey": "ed710101b97619056730f6e283edcce243c8db31549e7553bdd52afe821a927a",
+        "providerSettings": {
+          "provider": "Aliyun Bailian",
+          "modelSelection": "active profile default",
+          "effectiveModel": "cosyvoice-v3-flash",
+          "voice": "longtian_v3",
+          "rate": 1.0,
+          "format": "wav",
+          "sampleRateHz": 24000
+        }
+      }
+    },
+    {
+      "id": "narration-cue-s08",
+      "path": "public/audio/cues/S08-7c418a44d61f.wav",
+      "kind": "mono_48khz_narration_cue_wav",
+      "bytes": 752718,
+      "sha256": "cdc82a54f8b3e3e456acd98e99a45008232d6feca94d1ceef3f9f99da5b3b2e3",
+      "provenance": {
+        "source": "local conversion of canonical narration WAV to mono 48 kHz cue PCM",
+        "derivedFrom": "narration-canonical-s08",
+        "segmentId": "S08",
+        "cacheKey": "7c418a44d61f4271b3b4e48b40c093d106c662864d603b864770c2359c2e2571",
+        "providerSettings": {
+          "provider": "Aliyun Bailian",
+          "modelSelection": "active profile default",
+          "effectiveModel": "cosyvoice-v3-flash",
+          "voice": "longtian_v3",
+          "rate": 1.0,
+          "format": "wav",
+          "sampleRateHz": 24000
+        }
+      }
+    },
+    {
+      "id": "narration-raw-s01",
+      "path": "public/audio/raw/S01-cb672d1ec8d7.wav",
+      "kind": "provider_raw_wav_cache",
+      "bytes": 372524,
+      "sha256": "dea4dc9b6db4085ecd81b58eabbe74820263d53e243a24ab9c4c7e40cd391e52",
+      "provenance": {
+        "source": "cached provider WAV output; no provider call during manifest creation",
+        "segmentId": "S01",
+        "cacheKey": "cb672d1ec8d758230a2a24d535c38cbee0646a5472cd0b2bda492210d0d08f7c",
+        "providerSettings": {
+          "provider": "Aliyun Bailian",
+          "modelSelection": "active profile default",
+          "effectiveModel": "cosyvoice-v3-flash",
+          "voice": "longtian_v3",
+          "rate": 1.0,
+          "format": "wav",
+          "sampleRateHz": 24000
+        }
+      }
+    },
+    {
+      "id": "narration-raw-s02",
+      "path": "public/audio/raw/S02-0bf52e4f0267.wav",
+      "kind": "provider_raw_wav_cache",
+      "bytes": 468524,
+      "sha256": "a2021f7b11cd1d2535413181eed08803eba508803034cb63730e3865ba9b306d",
+      "provenance": {
+        "source": "cached provider WAV output; no provider call during manifest creation",
+        "segmentId": "S02",
+        "cacheKey": "0bf52e4f0267f0ef782c211d7bbc4b37a545fd04dbb701b3737c6e237047b7ed",
+        "providerSettings": {
+          "provider": "Aliyun Bailian",
+          "modelSelection": "active profile default",
+          "effectiveModel": "cosyvoice-v3-flash",
+          "voice": "longtian_v3",
+          "rate": 1.0,
+          "format": "wav",
+          "sampleRateHz": 24000
+        }
+      }
+    },
+    {
+      "id": "narration-raw-s03",
+      "path": "public/audio/raw/S03-1c9fb08d3394.wav",
+      "kind": "provider_raw_wav_cache",
+      "bytes": 372524,
+      "sha256": "47a3703faa0fa8f6a338e969a4fa2c371829ef1b9334348761d1e4cfa55edd97",
+      "provenance": {
+        "source": "cached provider WAV output; no provider call during manifest creation",
+        "segmentId": "S03",
+        "cacheKey": "1c9fb08d33943c0bc0abf7b3fabb11e82b66ed44502b8c0d5f4c415b8f1211d9",
+        "providerSettings": {
+          "provider": "Aliyun Bailian",
+          "modelSelection": "active profile default",
+          "effectiveModel": "cosyvoice-v3-flash",
+          "voice": "longtian_v3",
+          "rate": 1.0,
+          "format": "wav",
+          "sampleRateHz": 24000
+        }
+      }
+    },
+    {
+      "id": "narration-raw-s04",
+      "path": "public/audio/raw/S04-b7064e8ae8a8.wav",
+      "kind": "provider_raw_wav_cache",
+      "bytes": 464684,
+      "sha256": "8daa57bcfbd2c59c6c8adc1ef128657badcae63843691281d0cfe6a4f1d90996",
+      "provenance": {
+        "source": "cached provider WAV output; no provider call during manifest creation",
+        "segmentId": "S04",
+        "cacheKey": "b7064e8ae8a85816fe33f578a406ee3392a502be38b6d55ca84791627eae5c8e",
+        "providerSettings": {
+          "provider": "Aliyun Bailian",
+          "modelSelection": "active profile default",
+          "effectiveModel": "cosyvoice-v3-flash",
+          "voice": "longtian_v3",
+          "rate": 1.0,
+          "format": "wav",
+          "sampleRateHz": 24000
+        }
+      }
+    },
+    {
+      "id": "narration-raw-s05",
+      "path": "public/audio/raw/S05-aa5df936f30e.wav",
+      "kind": "provider_raw_wav_cache",
+      "bytes": 476204,
+      "sha256": "8e6b9bce2b9257f9e0fa7d5d0c4298a34d4e51893acb60b1eb59313be2307fd9",
+      "provenance": {
+        "source": "cached provider WAV output; no provider call during manifest creation",
+        "segmentId": "S05",
+        "cacheKey": "aa5df936f30efc2a12d69a9c16de47b8f09404b27cfa80a4267a6d020ebf2d03",
+        "providerSettings": {
+          "provider": "Aliyun Bailian",
+          "modelSelection": "active profile default",
+          "effectiveModel": "cosyvoice-v3-flash",
+          "voice": "longtian_v3",
+          "rate": 1.0,
+          "format": "wav",
+          "sampleRateHz": 24000
+        }
+      }
+    },
+    {
+      "id": "narration-raw-s06",
+      "path": "public/audio/raw/S06-414388fd060c.wav",
+      "kind": "provider_raw_wav_cache",
+      "bytes": 487724,
+      "sha256": "1705320fdb7589e94510ce9ed423cd2fae8e8bebb961ba4fe9e8bd1231414cde",
+      "provenance": {
+        "source": "cached provider WAV output; no provider call during manifest creation",
+        "segmentId": "S06",
+        "cacheKey": "414388fd060cc48a370a187eac0476ec354ade4721d1a47ea2fa75ad2b6b51fe",
+        "providerSettings": {
+          "provider": "Aliyun Bailian",
+          "modelSelection": "active profile default",
+          "effectiveModel": "cosyvoice-v3-flash",
+          "voice": "longtian_v3",
+          "rate": 1.0,
+          "format": "wav",
+          "sampleRateHz": 24000
+        }
+      }
+    },
+    {
+      "id": "narration-raw-s07",
+      "path": "public/audio/raw/S07-ed710101b976.wav",
+      "kind": "provider_raw_wav_cache",
+      "bytes": 234284,
+      "sha256": "9ccf84c2b4ddb215287494451010df249e48d71b8fcec5fc500948b97905c71e",
+      "provenance": {
+        "source": "cached provider WAV output; no provider call during manifest creation",
+        "segmentId": "S07",
+        "cacheKey": "ed710101b97619056730f6e283edcce243c8db31549e7553bdd52afe821a927a",
+        "providerSettings": {
+          "provider": "Aliyun Bailian",
+          "modelSelection": "active profile default",
+          "effectiveModel": "cosyvoice-v3-flash",
+          "voice": "longtian_v3",
+          "rate": 1.0,
+          "format": "wav",
+          "sampleRateHz": 24000
+        }
+      }
+    },
+    {
+      "id": "narration-raw-s08",
+      "path": "public/audio/raw/S08-7c418a44d61f.wav",
+      "kind": "provider_raw_wav_cache",
+      "bytes": 376364,
+      "sha256": "0605fb3b254a65873a04b6ce17152c7cd4fa71698763ce417a33472d82319d7c",
+      "provenance": {
+        "source": "cached provider WAV output; no provider call during manifest creation",
+        "segmentId": "S08",
+        "cacheKey": "7c418a44d61f4271b3b4e48b40c093d106c662864d603b864770c2359c2e2571",
+        "providerSettings": {
+          "provider": "Aliyun Bailian",
+          "modelSelection": "active profile default",
+          "effectiveModel": "cosyvoice-v3-flash",
+          "voice": "longtian_v3",
+          "rate": 1.0,
+          "format": "wav",
+          "sampleRateHz": 24000
+        }
+      }
+    },
+    {
+      "id": "provider-manifest",
+      "path": "public/audio/provider-manifest.json",
+      "kind": "provider_output_manifest",
+      "bytes": 13149,
+      "sha256": "0a4a36e73ed95fd661e8979222c51476bb59e5995df755e768e0115d72757f90",
+      "provenance": {
+        "source": "cached output metadata and effective provider settings; no raw CLI response included"
+      }
+    },
+    {
+      "id": "root-source",
+      "path": "src/Root.tsx",
+      "kind": "video_render_config_source",
+      "bytes": 262,
+      "sha256": "f60bea0666c2d223541ce1eda520588ee0afff624447c5ac29efb72721397955",
+      "provenance": {
+        "source": "Remotion root composition configuration"
+      }
+    },
+    {
+      "id": "scene-art-source",
+      "path": "src/Scenes.tsx",
+      "kind": "native_svg_scene_source",
+      "bytes": 6265,
+      "sha256": "2c10560bdec78716e70f183bbac1cdbea2c75058a9ff3f65e6992c9848ae8dc1",
+      "provenance": {
+        "source": "deterministic native SVG and procedural geometry; no image-generation calls"
+      }
+    },
+    {
+      "id": "script-source",
+      "path": "../source/script.md",
+      "kind": "human_script_source",
+      "bytes": 7747,
+      "sha256": "02818be4ef83881f722e6522367098a8725a86ba2939aaf737832603ec73401a",
+      "provenance": {
+        "source": "source narration/script text"
+      }
+    },
+    {
+      "id": "segments",
+      "path": "segments.json",
+      "kind": "narration_and_caption_source_text",
+      "bytes": 4292,
+      "sha256": "014365867be06e7310ae014890e6942c75b7e57811493aed8e67eaa419903637",
+      "provenance": {
+        "source": "prepared segment texts and subtitle chunks"
+      }
+    },
+    {
+      "id": "sfx-events",
+      "path": "sfx_events.json",
+      "kind": "procedural_sfx_event_source",
+      "bytes": 1596,
+      "sha256": "ce2ce73628bf81ad1beb8a8c00489e48b9732287133cd38a5d867508e1b6a944",
+      "provenance": {
+        "source": "event definitions and blackout/silence frame ranges"
+      }
+    },
+    {
+      "id": "synthesize-script",
+      "path": "scripts/synthesize.py",
+      "kind": "synthesis_guard_source",
+      "bytes": 18939,
+      "sha256": "0059247aa3dc3c99dde911cd05a599155a2b44dc2c70bf97f78c627bdf6e5030",
+      "provenance": {
+        "source": "local guarded synthesis/cache implementation; source reference only"
+      }
+    },
+    {
+      "id": "timeline",
+      "path": "timeline.json",
+      "kind": "visual_and_audio_timeline_source",
+      "bytes": 984,
+      "sha256": "f1cf2bb42981a065ab93480d7196bb5db598e29a76a24146f904b4e1073c2d06",
+      "provenance": {
+        "source": "frame timeline and blackout notes"
+      }
+    },
+    {
+      "id": "tts-input-s01",
+      "path": "public/audio/tts-input/S01-cb672d1ec8d7.txt",
+      "kind": "prepared_tts_input_text",
+      "bytes": 102,
+      "sha256": "e442e053c2a67f67ae460db4e93e33467e39daf9cd94d0379fd0a2aa1ef10f05",
+      "provenance": {
+        "source": "segments.json exact tts_phonetic_text",
+        "segmentId": "S01",
+        "cacheKey": "cb672d1ec8d758230a2a24d535c38cbee0646a5472cd0b2bda492210d0d08f7c",
+        "providerSettings": {
+          "provider": "Aliyun Bailian",
+          "modelSelection": "active profile default",
+          "effectiveModel": "cosyvoice-v3-flash",
+          "voice": "longtian_v3",
+          "rate": 1.0,
+          "format": "wav",
+          "sampleRateHz": 24000
+        },
+        "textSha256": "e442e053c2a67f67ae460db4e93e33467e39daf9cd94d0379fd0a2aa1ef10f05"
+      }
+    },
+    {
+      "id": "tts-input-s02",
+      "path": "public/audio/tts-input/S02-0bf52e4f0267.txt",
+      "kind": "prepared_tts_input_text",
+      "bytes": 147,
+      "sha256": "96701d81833d3958a0eab9d5034c1a3dd995462500fc97267f33afd64d79fc13",
+      "provenance": {
+        "source": "segments.json exact tts_phonetic_text",
+        "segmentId": "S02",
+        "cacheKey": "0bf52e4f0267f0ef782c211d7bbc4b37a545fd04dbb701b3737c6e237047b7ed",
+        "providerSettings": {
+          "provider": "Aliyun Bailian",
+          "modelSelection": "active profile default",
+          "effectiveModel": "cosyvoice-v3-flash",
+          "voice": "longtian_v3",
+          "rate": 1.0,
+          "format": "wav",
+          "sampleRateHz": 24000
+        },
+        "textSha256": "96701d81833d3958a0eab9d5034c1a3dd995462500fc97267f33afd64d79fc13"
+      }
+    },
+    {
+      "id": "tts-input-s03",
+      "path": "public/audio/tts-input/S03-1c9fb08d3394.txt",
+      "kind": "prepared_tts_input_text",
+      "bytes": 114,
+      "sha256": "7991e880579e9907861ab9a74dd66df5ce5ff5ac2c7ca8c6a365e603a882f340",
+      "provenance": {
+        "source": "segments.json exact tts_phonetic_text",
+        "segmentId": "S03",
+        "cacheKey": "1c9fb08d33943c0bc0abf7b3fabb11e82b66ed44502b8c0d5f4c415b8f1211d9",
+        "providerSettings": {
+          "provider": "Aliyun Bailian",
+          "modelSelection": "active profile default",
+          "effectiveModel": "cosyvoice-v3-flash",
+          "voice": "longtian_v3",
+          "rate": 1.0,
+          "format": "wav",
+          "sampleRateHz": 24000
+        },
+        "textSha256": "7991e880579e9907861ab9a74dd66df5ce5ff5ac2c7ca8c6a365e603a882f340"
+      }
+    },
+    {
+      "id": "tts-input-s04",
+      "path": "public/audio/tts-input/S04-b7064e8ae8a8.txt",
+      "kind": "prepared_tts_input_text",
+      "bytes": 132,
+      "sha256": "12020698719f9339c128f1d1b60c971613730df54061a8272b55daea43563a4c",
+      "provenance": {
+        "source": "segments.json exact tts_phonetic_text",
+        "segmentId": "S04",
+        "cacheKey": "b7064e8ae8a85816fe33f578a406ee3392a502be38b6d55ca84791627eae5c8e",
+        "providerSettings": {
+          "provider": "Aliyun Bailian",
+          "modelSelection": "active profile default",
+          "effectiveModel": "cosyvoice-v3-flash",
+          "voice": "longtian_v3",
+          "rate": 1.0,
+          "format": "wav",
+          "sampleRateHz": 24000
+        },
+        "textSha256": "12020698719f9339c128f1d1b60c971613730df54061a8272b55daea43563a4c"
+      }
+    },
+    {
+      "id": "tts-input-s05",
+      "path": "public/audio/tts-input/S05-aa5df936f30e.txt",
+      "kind": "prepared_tts_input_text",
+      "bytes": 138,
+      "sha256": "2c8dfa2c95eb9e41dd0b476451ed01420c0c017a1e8a6c6ae92a91d2a4a139e1",
+      "provenance": {
+        "source": "segments.json exact tts_phonetic_text",
+        "segmentId": "S05",
+        "cacheKey": "aa5df936f30efc2a12d69a9c16de47b8f09404b27cfa80a4267a6d020ebf2d03",
+        "providerSettings": {
+          "provider": "Aliyun Bailian",
+          "modelSelection": "active profile default",
+          "effectiveModel": "cosyvoice-v3-flash",
+          "voice": "longtian_v3",
+          "rate": 1.0,
+          "format": "wav",
+          "sampleRateHz": 24000
+        },
+        "textSha256": "2c8dfa2c95eb9e41dd0b476451ed01420c0c017a1e8a6c6ae92a91d2a4a139e1"
+      }
+    },
+    {
+      "id": "tts-input-s06",
+      "path": "public/audio/tts-input/S06-414388fd060c.txt",
+      "kind": "prepared_tts_input_text",
+      "bytes": 141,
+      "sha256": "96f273d040237ee0a73a513cbc869285155da102acc834773f9328173dbabab2",
+      "provenance": {
+        "source": "segments.json exact tts_phonetic_text",
+        "segmentId": "S06",
+        "cacheKey": "414388fd060cc48a370a187eac0476ec354ade4721d1a47ea2fa75ad2b6b51fe",
+        "providerSettings": {
+          "provider": "Aliyun Bailian",
+          "modelSelection": "active profile default",
+          "effectiveModel": "cosyvoice-v3-flash",
+          "voice": "longtian_v3",
+          "rate": 1.0,
+          "format": "wav",
+          "sampleRateHz": 24000
+        },
+        "textSha256": "96f273d040237ee0a73a513cbc869285155da102acc834773f9328173dbabab2"
+      }
+    },
+    {
+      "id": "tts-input-s07",
+      "path": "public/audio/tts-input/S07-ed710101b976.txt",
+      "kind": "prepared_tts_input_text",
+      "bytes": 69,
+      "sha256": "9dd71c2a70e5de55fac0751de9f49773ae11e698af854095589e0ac135dc642d",
+      "provenance": {
+        "source": "segments.json exact tts_phonetic_text",
+        "segmentId": "S07",
+        "cacheKey": "ed710101b97619056730f6e283edcce243c8db31549e7553bdd52afe821a927a",
+        "providerSettings": {
+          "provider": "Aliyun Bailian",
+          "modelSelection": "active profile default",
+          "effectiveModel": "cosyvoice-v3-flash",
+          "voice": "longtian_v3",
+          "rate": 1.0,
+          "format": "wav",
+          "sampleRateHz": 24000
+        },
+        "textSha256": "9dd71c2a70e5de55fac0751de9f49773ae11e698af854095589e0ac135dc642d"
+      }
+    },
+    {
+      "id": "tts-input-s08",
+      "path": "public/audio/tts-input/S08-7c418a44d61f.txt",
+      "kind": "prepared_tts_input_text",
+      "bytes": 117,
+      "sha256": "f0af2655acd721b2862b0cb2b053b1810512e429122596922a0d07f39e362115",
+      "provenance": {
+        "source": "segments.json exact tts_phonetic_text",
+        "segmentId": "S08",
+        "cacheKey": "7c418a44d61f4271b3b4e48b40c093d106c662864d603b864770c2359c2e2571",
+        "providerSettings": {
+          "provider": "Aliyun Bailian",
+          "modelSelection": "active profile default",
+          "effectiveModel": "cosyvoice-v3-flash",
+          "voice": "longtian_v3",
+          "rate": 1.0,
+          "format": "wav",
+          "sampleRateHz": 24000
+        },
+        "textSha256": "f0af2655acd721b2862b0cb2b053b1810512e429122596922a0d07f39e362115"
+      }
+    },
+    {
+      "id": "earlyacts-source",
+      "path": "src/EarlyActs.tsx",
+      "kind": "procedural_visual_source",
+      "bytes": 23192,
+      "sha256": "06779e74e9ecfece491ed50de22b85dc18f0483ba3af200a721b9be5ead9b9b9",
+      "provenance": {
+        "source": "deterministic mathematical SVG; no cloud generation"
+      }
+    },
+    {
+      "id": "lateacts-source",
+      "path": "src/LateActs.tsx",
+      "kind": "procedural_visual_source",
+      "bytes": 19905,
+      "sha256": "ebe94f593c2741ab24b670db5de90f19e95e6e2c6ae1f7b211bd05fe0f869e17",
+      "provenance": {
+        "source": "deterministic mathematical SVG; no cloud generation"
+      }
+    },
+    {
+      "id": "reality-source",
+      "path": "src/Reality.tsx",
+      "kind": "procedural_visual_source",
+      "bytes": 14414,
+      "sha256": "cc218981255360e56e5f6aca0e8a2bb2cf63698087e8ba13932d58998a4a5f12",
+      "provenance": {
+        "source": "True 3D extruded fracture mesh and ballistic ember/spark simulation; no raster or cloud asset"
+      }
+    },
+    {
+      "id": "scripts-collect_qa-py",
+      "path": "scripts/collect_qa.py",
+      "kind": "encoded_media_qa_source",
+      "bytes": 7573,
+      "sha256": "48dda42516af820528f6031e941caf814bc2a4979d4ccd35afe01f20b77a4d36",
+      "provenance": {
+        "source": "local v2 production source"
+      }
+    },
+    {
+      "id": "scripts-mux_v1_audio-py",
+      "path": "scripts/mux_v1_audio.py",
+      "kind": "audio_preserving_mux_source",
+      "bytes": 3503,
+      "sha256": "51cbe87c3856ab80a3f177181ea3483e880d50c2ca86eddacbb1633061ed05ee",
+      "provenance": {
+        "source": "local v2 production source"
+      }
+    },
+    {
+      "id": "visual-models-md",
+      "path": "visual-models.md",
+      "kind": "visual_model_notes",
+      "bytes": 2984,
+      "sha256": "d3cad23a0d50d5c58b69f124ac90fced3d1dac324f3b576b1adb1e5600e028c9",
+      "provenance": {
+        "source": "local v2 production source"
+      }
+    },
+    {
+      "id": "v2-README-md",
+      "path": "README.md",
+      "kind": "editable_project_source",
+      "bytes": 2618,
+      "sha256": "818a32e4a0f1d7ff9c95e9940f9cc81ad2e77199f930d3aeaf6bdd552c9a3a6c",
+      "provenance": {
+        "source": "Local v2 source and pinned dependency configuration; no generated external asset"
+      }
+    },
+    {
+      "id": "v2-brief-md",
+      "path": "brief.md",
+      "kind": "editable_project_source",
+      "bytes": 2279,
+      "sha256": "0b227a8540f1da7e9802d4a058efefc54235110a953d7165079445495cd3442a",
+      "provenance": {
+        "source": "Local v2 source and pinned dependency configuration; no generated external asset"
+      }
+    },
+    {
+      "id": "v2-package-json",
+      "path": "package.json",
+      "kind": "editable_project_source",
+      "bytes": 645,
+      "sha256": "f2a54cfedba8987a8cde7423e4cbd31d87311ff72c911963eced4915c79c4a32",
+      "provenance": {
+        "source": "Local v2 source and pinned dependency configuration; no generated external asset"
+      }
+    },
+    {
+      "id": "v2-package-lock-json",
+      "path": "package-lock.json",
+      "kind": "editable_project_source",
+      "bytes": 142081,
+      "sha256": "eb30dbb62433c4abe5b3fecc5edfa70fd183df9d2259d75ea7bb63c55d40e205",
+      "provenance": {
+        "source": "Local v2 source and pinned dependency configuration; no generated external asset"
+      }
+    },
+    {
+      "id": "v2-tsconfig-json",
+      "path": "tsconfig.json",
+      "kind": "editable_project_source",
+      "bytes": 315,
+      "sha256": "522ac46763476439555ea8ebe67a503254cc22cc4799c22c6163fa9172949625",
+      "provenance": {
+        "source": "Local v2 source and pinned dependency configuration; no generated external asset"
+      }
+    },
+    {
+      "id": "v2-src-index-ts",
+      "path": "src/index.ts",
+      "kind": "editable_project_source",
+      "bytes": 88,
+      "sha256": "2e0e358282a1b998a65387c653b97c2bb2eb7aae94cf200fc0b8d919f7be73a6",
+      "provenance": {
+        "source": "Local v2 source and pinned dependency configuration; no generated external asset"
+      }
+    },
+    {
+      "id": "v2-scripts-render-mjs",
+      "path": "scripts/render.mjs",
+      "kind": "editable_project_source",
+      "bytes": 4377,
+      "sha256": "1c174f8a167ecdd74c5451edca19b482e0e57ffdb8a3bffa84589ed5cb2f043f",
+      "provenance": {
+        "source": "Local v2 source and pinned dependency configuration; no generated external asset"
+      }
+    },
+    {
+      "id": "v2-scripts-verify_project-py",
+      "path": "scripts/verify_project.py",
+      "kind": "editable_project_source",
+      "bytes": 2717,
+      "sha256": "653abd992dc4b77d390a763e90bd6f2a3f7e0244c273f5d0ecd0a0da4b12ac91",
+      "provenance": {
+        "source": "Local v2 source and pinned dependency configuration; no generated external asset"
+      }
+    },
+    {
+      "id": "v2-scripts-package_project-py",
+      "path": "scripts/package_project.py",
+      "kind": "editable_project_source",
+      "bytes": 2023,
+      "sha256": "dc893b08a56857eea21a1a5c7c98cc17ca644b4841286b893a60b33b3a926897",
+      "provenance": {
+        "source": "Local v2 source and pinned dependency configuration; no generated external asset"
+      }
+    },
+    {
+      "id": "v2-scripts-serve-mjs",
+      "path": "scripts/serve.mjs",
+      "kind": "editable_project_source",
+      "bytes": 1587,
+      "sha256": "5ff1cfcad9ee8ea919d336f659dc48cba416c9007812ccad982e1d2feff1417c",
+      "provenance": {
+        "source": "Local v2 source and pinned dependency configuration; no generated external asset"
+      }
+    }
+  ]
+}

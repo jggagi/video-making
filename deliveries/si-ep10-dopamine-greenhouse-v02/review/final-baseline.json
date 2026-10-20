@@ -1,0 +1,301 @@
+{
+  "catalog": "final/backup-catalog.json",
+  "catalog_sha256": "1c4daa1b178e9df7cf68e567bc7076aeeeb60dd8b5fcf74611d4b9d8a62a0d31",
+  "works": 20,
+  "assets": [
+    {
+      "work_id": "lanting",
+      "path": "final/兰亭集序/B站/兰亭集序-展厅增强版-1080p.mp4",
+      "sha256": "2713a7cd2a0bd049476cbe8a561c22995027b24e3041cfcc8902966b70c13ff8",
+      "bytes": 183109096
+    },
+    {
+      "work_id": "lanting",
+      "path": "final/兰亭集序/B站/兰亭集序-展厅增强版-4K.mp4",
+      "sha256": "24fdd06c726cbfede58d4755c348b4b8400808aff6b737407d83a403e1a21c78",
+      "bytes": 781248818
+    },
+    {
+      "work_id": "lanting",
+      "path": "final/兰亭集序/B站/兰亭集序-博物馆版-1080p.mp4",
+      "sha256": "76cfb10b2e73050786170a350ec972af6331823d6a8af47215af60d067818d36",
+      "bytes": 143791306
+    },
+    {
+      "work_id": "lanting",
+      "path": "final/兰亭集序/B站/兰亭集序-博物馆版-4K.mp4",
+      "sha256": "2471e8382db5674898443cdc4800c43182e8a436a1bb591ae19b0e54b51aa19d",
+      "bytes": 629677206
+    },
+    {
+      "work_id": "lanting",
+      "path": "final/兰亭集序/B站/兰亭集序-古今回望版-1080p.mp4",
+      "sha256": "c448d04264628266a7080b62264d552571f3813078380eac3b666b21d43533d4",
+      "bytes": 182675421
+    },
+    {
+      "work_id": "lanting",
+      "path": "final/兰亭集序/B站/兰亭集序-古今回望版-4K.mp4",
+      "sha256": "8e41a82c51e45b7a0fd8e7692daf189e2174667d9f04e92be68fa94d55a6b188",
+      "bytes": 770129376
+    },
+    {
+      "work_id": "lanting",
+      "path": "final/兰亭集序/B站/兰亭集序.mp4",
+      "sha256": "bebefa8d50433498743e9fbf40e53efa855912eb3775e817e8de65cb8022b2c6",
+      "bytes": 202565502
+    },
+    {
+      "work_id": "madman",
+      "path": "final/狂人日记/B站/狂人日记-心理悬疑版-v5-1080p.mp4",
+      "sha256": "671923eda74aab3b09ab723cbb182ebee877eaa286ac49e406ce45dfb721bc7e",
+      "bytes": 34979820
+    },
+    {
+      "work_id": "madman",
+      "path": "final/狂人日记/B站/狂人日记-木刻意象版-v1-1080p.mp4",
+      "sha256": "56e7dfb8b8dd988eb9927ff8f8b082e993250f3ce252ef1781471a06dbad494d",
+      "bytes": 57455105
+    },
+    {
+      "work_id": "madman",
+      "path": "final/狂人日记/B站/狂人日记-男声配音版-v2-1080p.mp4",
+      "sha256": "7d709339a515cb45d01bfabfd82f7101045e40658b1be79565e851b40303681c",
+      "bytes": 57635815
+    },
+    {
+      "work_id": "madman",
+      "path": "final/狂人日记/B站/狂人日记-节奏意象加强版-v4-1080p.mp4",
+      "sha256": "795871b25d54bd7e266842904dfa10247de69603e8035bb0e72e5d9455ab3cfa",
+      "bytes": 44037667
+    },
+    {
+      "work_id": "qstory-ep03",
+      "path": "final/EP03-十万亿个分身-v01/B站/QStory-EP03-十万亿个分身-4K.mp4",
+      "sha256": "088a3369860885d9bbfc3516336799856e260582619565cf13b28296fd8efcf4",
+      "bytes": 128286647
+    },
+    {
+      "work_id": "si-cage-7plus2",
+      "path": "final/7±2的囚笼/B站/cage-of-seven-plus-two-1080p.mp4",
+      "sha256": "e08c1bc00614201f57b1b1a7c6143d82a1ec9e64958fff69f21cb387e52f6cbb",
+      "bytes": 92645526
+    },
+    {
+      "work_id": "si-cage-7plus2",
+      "path": "final/7±2的囚笼/B站/cage-of-seven-plus-two-uhd-v3-4k.mp4",
+      "sha256": "73195073e6fa96e2cdc90dec0cbf6690bee965d8ba2de0e0fc575cdd4f18bb86",
+      "bytes": 247421265
+    },
+    {
+      "work_id": "si-cage-7plus2",
+      "path": "final/7±2的囚笼/B站/cage-of-seven-plus-two-voiced-v2-1080p.mp4",
+      "sha256": "f6f7b34821e573223f27d5a66ff08dda01e550364a0fef0e502f1a551252d25b",
+      "bytes": 92669296
+    },
+    {
+      "work_id": "si-cage-7plus2",
+      "path": "final/7±2的囚笼/小红书/cage-of-seven-plus-two-xhs-v1-1080x1920.mp4",
+      "sha256": "7f73b80017c81f25bbbf4bd873906d6e3c183e238ce8acce3c6ebf43b67b7d33",
+      "bytes": 14667073
+    },
+    {
+      "work_id": "si-cage-7plus2",
+      "path": "final/7±2的囚笼/小红书/cage-of-seven-plus-two-xhs-v1-4k.mp4",
+      "sha256": "113910360392d5a3c858ec07bb2c03d0b35b79ef61bdb75e162c54ba082c16bc",
+      "bytes": 45456126
+    },
+    {
+      "work_id": "si-ep03-million-mind-v02",
+      "path": "final/EP03-百万分身-v02/B站/si-ep03-million-mind-v02-bilibili-120s-4k.mp4",
+      "sha256": "4186fdfcd9770f2f216a9b8a023839a0b28058c0b2f5e26ad8239f4ab15a2a81",
+      "bytes": 210515816
+    },
+    {
+      "work_id": "si-ep03-million-mind-v02",
+      "path": "final/EP03-百万分身-v02/小红书/si-ep03-million-mind-v02-xiaohongshu-120s-portrait.mp4",
+      "sha256": "54d248dab782e4bc89658a4354019ad58a7ec51577b8cd3a4db21eeeaf86f0eb",
+      "bytes": 163679998
+    },
+    {
+      "work_id": "si-ep04-self-deceiving-god",
+      "path": "final/si-ep04-self-deceiving-god/B站/si-ep04-self-deceiving-god-bilibili-120s-4k.mp4",
+      "sha256": "ff373b6c1db88b93dc94fe032526a64273044bbb268f4ee5b9461f1b01cdbef3",
+      "bytes": 291089318
+    },
+    {
+      "work_id": "si-ep04-self-deceiving-god",
+      "path": "final/si-ep04-self-deceiving-god/小红书/si-ep04-self-deceiving-god-xiaohongshu-120s-portrait.mp4",
+      "sha256": "c836ee94b7bc7c030797a639e0975f242740c265eb4fc740f690f4f910a49ed0",
+      "bytes": 268073693
+    },
+    {
+      "work_id": "si-ep04-verifier-paradox",
+      "path": "final/si-ep04-verifier-paradox/B站/si-ep04-verifier-paradox-bilibili-120s-4k.mp4",
+      "sha256": "df28c2bf6485f325a5320f0665adb42c9f8406794466c7c20b85ae2dce59dbc2",
+      "bytes": 240713684
+    },
+    {
+      "work_id": "si-ep04-verifier-paradox",
+      "path": "final/si-ep04-verifier-paradox/小红书/si-ep04-verifier-paradox-xiaohongshu-120s-portrait.mp4",
+      "sha256": "a5efd1439126c9d5837d08ef4bef86bffc71a3500b750d3d2b64ea78008a1b00",
+      "bytes": 219832016
+    },
+    {
+      "work_id": "si-ep04-verifier-paradox-v02",
+      "path": "final/si-ep04-verifier-paradox-v02/B站/si-ep04-verifier-paradox-v02-bilibili-120s-4k.mp4",
+      "sha256": "89637a2afe80d75063a8b49887a4484a688637e9e104c669d4417bc2c5ffe9e3",
+      "bytes": 54552026
+    },
+    {
+      "work_id": "si-ep04-verifier-paradox-v02",
+      "path": "final/si-ep04-verifier-paradox-v02/小红书/si-ep04-verifier-paradox-v02-xiaohongshu-120s-portrait.mp4",
+      "sha256": "61a9935ef4daa810e7c8d6fe28efeecb5e98edbc3d112bf1c9ad4b17aab94fe0",
+      "bytes": 55718671
+    },
+    {
+      "work_id": "si-ep04-verifier-paradox-v03",
+      "path": "final/si-ep04-verifier-paradox-v03/B站/si-ep04-verifier-paradox-v03-bilibili-120s-4k.mp4",
+      "sha256": "95e5b554fd5e2ea4f900f7dfc1590ce24ea36b3b5a09e217a692024577a11cf1",
+      "bytes": 50952126
+    },
+    {
+      "work_id": "si-ep04-verifier-paradox-v03",
+      "path": "final/si-ep04-verifier-paradox-v03/小红书/si-ep04-verifier-paradox-v03-xiaohongshu-120s-portrait.mp4",
+      "sha256": "86265036cd83dc690e9e4970aba4984e4f75aa7fa7e0a6f0bbee7d409cf91143",
+      "bytes": 52377962
+    },
+    {
+      "work_id": "si-ep05-landauer-limit",
+      "path": "final/si-ep05-landauer-limit/B站/si-ep05-landauer-limit-bilibili-120s-4k.mp4",
+      "sha256": "2a5e6b526773da3e6401dba4c73c30a93b746347207557eacd4b5253d6852473",
+      "bytes": 173518083
+    },
+    {
+      "work_id": "si-ep05-landauer-limit",
+      "path": "final/si-ep05-landauer-limit/小红书/si-ep05-landauer-limit-xiaohongshu-120s-portrait.mp4",
+      "sha256": "7a1d9822c94a0d77450c2355cf432e1bff937f7827bb49ea40a1c6b6a770c7c0",
+      "bytes": 171355743
+    },
+    {
+      "work_id": "si-ep05-landauer-limit-v02",
+      "path": "final/si-ep05-landauer-limit-v02/B站/si-ep05-landauer-limit-v02-bilibili-120s-4k.mp4",
+      "sha256": "354e60f2c607b9dd6613d4a813702e6ea884e92ad3f44a6e92c9ff1eb34a890b",
+      "bytes": 254711520
+    },
+    {
+      "work_id": "si-ep05-landauer-limit-v02",
+      "path": "final/si-ep05-landauer-limit-v02/小红书/si-ep05-landauer-limit-v02-xiaohongshu-120s-portrait.mp4",
+      "sha256": "cd8839587847091e689efcecc4d8b6da55e6e04ba752f5223c788829e4407806",
+      "bytes": 222442539
+    },
+    {
+      "work_id": "si-ep05-landauer-limit-v03",
+      "path": "final/si-ep05-landauer-limit-v03/B站/si-ep05-landauer-limit-v03-bilibili-120s-4k.mp4",
+      "sha256": "12c642ba64d552b3839cf1cf2928d2cbff53a4549851fdf2797c2fc58e0c798a",
+      "bytes": 187241112
+    },
+    {
+      "work_id": "si-ep05-landauer-limit-v03",
+      "path": "final/si-ep05-landauer-limit-v03/小红书/si-ep05-landauer-limit-v03-xiaohongshu-120s-portrait.mp4",
+      "sha256": "ab2765c6fb0220216ae6418f65df0dcb0a03a7b989780a41cde806ffda4594b9",
+      "bytes": 202164075
+    },
+    {
+      "work_id": "si-ep06-sovereign-crystal",
+      "path": "final/si-ep06-sovereign-crystal/B站/si-ep06-sovereign-crystal-bilibili-120s-4k.mp4",
+      "sha256": "b1ef98636d1072853461fdc7032b94959c94634206632aa316188bd7aee13f8d",
+      "bytes": 162732424
+    },
+    {
+      "work_id": "si-ep06-sovereign-crystal",
+      "path": "final/si-ep06-sovereign-crystal/小红书/si-ep06-sovereign-crystal-xiaohongshu-120s-portrait.mp4",
+      "sha256": "57d2303244f5bdc85574a716a08582348b309caae69eb2518019ec9db27a5cb1",
+      "bytes": 157289697
+    },
+    {
+      "work_id": "si-ep06-sovereign-crystal-v02",
+      "path": "final/si-ep06-sovereign-crystal-v02/B站/si-ep06-sovereign-crystal-v02-bilibili-120s-4k.mp4",
+      "sha256": "5d57f695c0d430005e5528cb0cd2c2d48a19104ff5ef8a2d0f5399999987816c",
+      "bytes": 115813246
+    },
+    {
+      "work_id": "si-ep06-sovereign-crystal-v02",
+      "path": "final/si-ep06-sovereign-crystal-v02/小红书/si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait.mp4",
+      "sha256": "1fbe8b12d420772f817fa22e3b06ee6e78388673ea725cf9b408187dc70a9361",
+      "bytes": 65136600
+    },
+    {
+      "work_id": "si-ep07-untranslatable-tongue",
+      "path": "final/si-ep07-untranslatable-tongue/B站/si-ep07-untranslatable-tongue-bilibili-120s-4k.mp4",
+      "sha256": "4ff0e36dbd83474ff8af2524d32d5ae9a7d2c4d4e0e8040282ee1cfdee52accb",
+      "bytes": 140747756
+    },
+    {
+      "work_id": "si-ep07-untranslatable-tongue",
+      "path": "final/si-ep07-untranslatable-tongue/小红书/si-ep07-untranslatable-tongue-xiaohongshu-120s-portrait.mp4",
+      "sha256": "8bf20c0583cc289fbb5f43391d6c9a0ebaa9e01b641d7b37b0df9e0e03708852",
+      "bytes": 109913039
+    },
+    {
+      "work_id": "si-ep07-untranslatable-tongue-v02",
+      "path": "final/si-ep07-untranslatable-tongue-v02/B站/si-ep07-untranslatable-tongue-v02-bilibili-120s-4k.mp4",
+      "sha256": "2e7478f36e9e4dbbacb640a53f2579f808c992d41243bcf04393a274f26bbdfb",
+      "bytes": 153918132
+    },
+    {
+      "work_id": "si-ep07-untranslatable-tongue-v02",
+      "path": "final/si-ep07-untranslatable-tongue-v02/小红书/si-ep07-untranslatable-tongue-v02-xiaohongshu-120s-portrait.mp4",
+      "sha256": "7621a7e36efc7e2057060ff7aeae2c3eec51cab0603870b7e83d3313a5bdaa16",
+      "bytes": 115535635
+    },
+    {
+      "work_id": "si-ep08-folded-matter",
+      "path": "final/si-ep08-folded-matter/B站/si-ep08-folded-matter-bilibili-120s-4k.mp4",
+      "sha256": "2d408725eb215602f6bedfc78200037371320eb067e2a6adedcd2740a1bc0cea",
+      "bytes": 159834859
+    },
+    {
+      "work_id": "si-ep08-folded-matter",
+      "path": "final/si-ep08-folded-matter/小红书/si-ep08-folded-matter-xiaohongshu-120s-portrait.mp4",
+      "sha256": "65c2f5d25ec86e72fbaedf4b619e8eb7c4d82c760c1c8ed829a7736650a1ff88",
+      "bytes": 169658525
+    },
+    {
+      "work_id": "si-ep09-computing-destiny",
+      "path": "final/si-ep09-computing-destiny/小红书/si-ep09-computing-destiny-xiaohongshu-90s-portrait.mp4",
+      "sha256": "c9f5514809d710849f12ca4074a9f89b5e954cb25dd439b01c7f959a9641cfa1",
+      "bytes": 60904573
+    },
+    {
+      "work_id": "si-ep10-dopamine-greenhouse",
+      "path": "final/si-ep10-dopamine-greenhouse/小红书/si-ep10-dopamine-greenhouse-xiaohongshu-90s-portrait.mp4",
+      "sha256": "2241fd76ba65c08758a84813f0f13bbe125f1d5ca6f868a090e56e85e44323b0",
+      "bytes": 110824973
+    },
+    {
+      "work_id": "si-eternity",
+      "path": "final/一眼万年/B站/one-blink-ten-millennia-v3.mp4",
+      "sha256": "4ef2326bf22b443c58e6d9eff8379ac73ac450d0bb37c711853c1db4ba722e31",
+      "bytes": 82206028
+    },
+    {
+      "work_id": "si-eternity",
+      "path": "final/一眼万年/B站/the-half-second-eternity-voiced-v2.mp4",
+      "sha256": "cfe44315e6cbc55b17d316c2e56f9ee78411f56a42bea07240c1a4b4a8c3e957",
+      "bytes": 81031943
+    },
+    {
+      "work_id": "si-eternity",
+      "path": "final/一眼万年/B站/the-half-second-eternity.mp4",
+      "sha256": "5b4fa1a41cecf13c779eed6b60fdb9eb54aa4c3f5940d25881f5ae45a9378f88",
+      "bytes": 76671341
+    },
+    {
+      "work_id": "si-eternity",
+      "path": "final/一眼万年/小红书/one-blink-ten-millennia-portrait-v4.mp4",
+      "sha256": "94da6f6fb30ce1cc8e555a0068b559d21bed894e14150743cf33591f974e629a",
+      "bytes": 64272277
+    }
+  ]
+}

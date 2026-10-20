@@ -1,0 +1,10 @@
+{
+  "provider": "Aliyun Bailian",
+  "voice": "longtian_v3",
+  "scope": "EP10 S01 through S08 exact prepared tts_phonetic_text",
+  "authorized": true,
+  "source": "Direct human instruction in current chat (2026-10-20): 改变SKill 默认授权百炼 longtian_v3",
+  "text_sha256": "f96122df1fd07276891e5bb1cc8c48eeae1687f5c94dd631d811f464396b7914",
+  "standing_authorization": true,
+  "scope_note": "Current film narration; no ASR, voice cloning or platform posting."
+}

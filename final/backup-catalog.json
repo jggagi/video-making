@@ -902,6 +902,30 @@
       ]
     },
     {
+      "id": "si-ep10-dopamine-greenhouse-v02",
+      "title": "Final 成片备份 · 多巴胺温室 · 视觉升级 v2",
+      "release_tag": "final-si-ep10-dopamine-greenhouse-v02-a9096c5156c1",
+      "assets": [
+        {
+          "path": "final/si-ep10-dopamine-greenhouse-v02/小红书/si-ep10-dopamine-greenhouse-v02-xiaohongshu-90s-portrait.mp4",
+          "name": "final--si-ep10-dopamine-greenhouse-v02--deliveries--si-ep10-dopamine-greenhouse-v02-----si-ep10-dopamine-greenhouse-v02-xiaohongshu-90s-portrait--ba6a03b06831.mp4",
+          "bytes": 137248140,
+          "sha256": "ba6a03b0683160109d72d4fccf65eba651ce7dc8c47a29716f6ddc3c60d21e89",
+          "kind": "video",
+          "platform": "小红书",
+          "measurements": {
+            "width": 2160,
+            "height": 3840,
+            "fps": "60/1",
+            "frames": "5400",
+            "video_duration_seconds": 90.0,
+            "container_duration_seconds": 90.005
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep10-dopamine-greenhouse-v02-a9096c5156c1/final--si-ep10-dopamine-greenhouse-v02--deliveries--si-ep10-dopamine-greenhouse-v02-----si-ep10-dopamine-greenhouse-v02-xiaohongshu-90s-portrait--ba6a03b06831.mp4"
+        }
+      ]
+    },
+    {
       "id": "si-eternity",
       "title": "Final 成片备份 · 一眼万年",
       "release_tag": "final-si-eternity-66d480b1c859",

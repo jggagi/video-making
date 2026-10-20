@@ -1,0 +1,62 @@
+{
+  "status": "MODEL_OBSERVED_ACCEPTED",
+  "checked_at_utc": "2026-10-20T11:56:12.091894+00:00",
+  "movie_sha256": "ba6a03b0683160109d72d4fccf65eba651ce7dc8c47a29716f6ddc3c60d21e89",
+  "bytes": 137248140,
+  "evidence": [
+    "encoded-contact.jpg",
+    "encoded-mobile-acts.jpg",
+    "motion-pairs-contact-01.jpg",
+    "motion-pairs-contact-02.jpg",
+    "motion-pairs-contact-03.jpg",
+    "native-dark-and-flower-crop.png"
+  ],
+  "observations": [
+    "At 360px, all three fixed telemetry lines are complete within x64..902; no clipped moving marquee remains. Numeric changes are visible between acts.",
+    "Main narration is isolated in its reading band; the low-opacity fiction notice appears only in the closing 5160..5399 frames.",
+    "Encoded harmonic iris crop at native size has smooth layered curves, retained outer amber fibers and a widening aperture. No obvious coarse polygon corners or banding in inspected crop.",
+    "Paired membrane frames show changing silhouette/meridians and labelled impacts with travelling rings plus gold streams; it no longer holds as one static circle.",
+    "Paired deep-field frames show large nearby cocoons and smaller distant layers shifting with perspective; no flat tiny wallpaper grid.",
+    "Neural busts use amber nodes and meridian splines, with separated rotating magenta/cyan Clifford domains. Dimension text stays clear of head/body.",
+    "CRT white line then visually black void; the crystal has varied triangular shading and thin depth edges. Later pairs show the ember retreating/returning and curved flint trails, rather than a cartoon rock/starburst."
+  ],
+  "motion_pairs": {
+    "count": 18,
+    "edge_mae_range": [
+      1.6548110246658325,
+      21.52011489868164
+    ],
+    "low_motion_warning_count": 0,
+    "root_observed_all_contact_pairs": true,
+    "metric_is_heuristic_only": true
+  },
+  "continuous_scan": {
+    "decoded_frames": 5400,
+    "flagged_frames": 0,
+    "scope": "Full stream, all frames at360px for isolated jump and selected dark ROI; not a guarantee against every visual defect."
+  },
+  "native_blackout": "See native-blackout.json: 40 near-black pixels of peak2 in first encoded black frame, next29 frames exact zero. Source black and PCM are exact zero; native encoded exact-zero claim is not made.",
+  "browser_playback": {
+    "surface": "IAB HTML video from loopback server",
+    "movie_sha256": "ba6a03b0683160109d72d4fccf65eba651ce7dc8c47a29716f6ddc3c60d21e89",
+    "native_dimensions": [
+      2160,
+      3840
+    ],
+    "playback_rate": 1,
+    "started_time": 0.133693,
+    "intermediate_time": 66.458994,
+    "ended_time": 90.005,
+    "ended": true,
+    "media_error": null,
+    "chapter_seek": {
+      "button": "神经孤岛",
+      "time": 62,
+      "paused": true
+    }
+  },
+  "human_full_review": "NOT_RUN",
+  "human_listening": "NOT_RUN",
+  "xiaohongshu_device_playback": "NOT_RUN",
+  "prior_user_feedback": "User praised v1 pacing/sync/blackout; v2 reuses that exact audio, no new human v2 approval inferred."
+}

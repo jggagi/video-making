@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "manifest_sha256": "b1df32aad522c3b0cc47624981255e32ddcbed630cc8ac6604aafab2868baaec",
+  "listed_assets": 68,
+  "all_present_and_sha256_matched": true,
+  "self_hash_omitted": true
+}

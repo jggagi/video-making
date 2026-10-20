@@ -1,0 +1,6 @@
+# Rebuildable native stills; compact observed contacts are versioned.
+source-*.png
+encoded-*.png
+native-*.png
+*.failed
+*.partial

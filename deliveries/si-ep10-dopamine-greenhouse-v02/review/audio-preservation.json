@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "v1_movie_sha256": "2241fd76ba65c08758a84813f0f13bbe125f1d5ca6f868a090e56e85e44323b0",
+  "v2_movie_sha256": "ba6a03b0683160109d72d4fccf65eba651ce7dc8c47a29716f6ddc3c60d21e89",
+  "master_sha256": "d787f5794a2f8cc76f159a58df02b66cd7721bb54e08d94149f1f0f251ecc968",
+  "aac_adts_sha256": "1d98349123ee2c15965516d44614723e413b1423e73b5b32a12b5376e9cf990a",
+  "v1_aac_adts_sha256": "1d98349123ee2c15965516d44614723e413b1423e73b5b32a12b5376e9cf990a",
+  "audio_packets": 4221,
+  "audio_stream_copied": true,
+  "audio_reencoded": false,
+  "pcm_samples_per_channel": 4320000,
+  "pcm_silence_frames": [
+    4861,
+    4891
+  ],
+  "video_duration": 90.0,
+  "audio_duration": 90.005,
+  "container_duration": 90.005,
+  "method": "New native video track only; uncapped stream-copy mux of original approved v1 AAC, no shortest/trim/frame cap at mux."
+}

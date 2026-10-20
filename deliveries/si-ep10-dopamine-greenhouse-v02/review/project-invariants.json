@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "scope": "Source invariants only; no media/listening pass inferred",
+  "durationFrames": 5400,
+  "samplesPerChannel": 4320000,
+  "captionEffectivePxAt360": 16.333333333333332,
+  "safeLogicalBounds": {
+    "left": 64,
+    "right": 902,
+    "topHud": 173,
+    "captionTop": 1384,
+    "captionBottom": 1492,
+    "bottomUiBegins": 1497.6
+  },
+  "blackAndSilenceFrames": [
+    4861,
+    4891
+  ],
+  "ttsAndDisplaySeparate": true,
+  "captionTimingState": "measured_pcm_with_estimated_phrase_timing",
+  "fileSha256": {
+    "project/assets-manifest.json": "60e23eb2943ed1d888324f58c818f270eaebb350a9106cccbd47a0aab8538898",
+    "project/audio-authorization.json": "b52d4ea8b5ddbc61e15947259d319f23423c329c2864a7c7abae459e59735383",
+    "project/audio-timing.json": "208cd0d3ab54884600718be0b3c82f774f0a2f696a0610156953609436dbd66a",
+    "project/package-lock.json": "eb30dbb62433c4abe5b3fecc5edfa70fd183df9d2259d75ea7bb63c55d40e205",
+    "project/package.json": "f2a54cfedba8987a8cde7423e4cbd31d87311ff72c911963eced4915c79c4a32",
+    "project/public/audio/mix-manifest.json": "2aaca6da6454369c85dbaf66379d313ddd43243fc90d603b7de67bd182540f1c",
+    "project/public/audio/mix-settings.json": "df955fc9d6f256ef32e59deaafd85da7970935d7b5213d387d86a3fb16ab237b",
+    "project/public/audio/provider-manifest.json": "0a4a36e73ed95fd661e8979222c51476bb59e5995df755e768e0115d72757f90",
+    "project/scripts/build_audio.py": "00d2496a04339f2d00a09f791a78a139ae3f06e802efa1adc7d36960e8776cf5",
+    "project/scripts/collect_qa.py": "48dda42516af820528f6031e941caf814bc2a4979d4ccd35afe01f20b77a4d36",
+    "project/scripts/mux_v1_audio.py": "51cbe87c3856ab80a3f177181ea3483e880d50c2ca86eddacbb1633061ed05ee",
+    "project/scripts/package_project.py": "67c75c6d0cf0d2eb2a0e95a955a8122f4550216100214ba2c8749059032fba93",
+    "project/scripts/render.mjs": "1c174f8a167ecdd74c5451edca19b482e0e57ffdb8a3bffa84589ed5cb2f043f",
+    "project/scripts/serve.mjs": "5ff1cfcad9ee8ea919d336f659dc48cba416c9007812ccad982e1d2feff1417c",
+    "project/scripts/synthesize.py": "0059247aa3dc3c99dde911cd05a599155a2b44dc2c70bf97f78c627bdf6e5030",
+    "project/scripts/verify_project.py": "653abd992dc4b77d390a763e90bd6f2a3f7e0244c273f5d0ecd0a0da4b12ac91",
+    "project/segments.json": "014365867be06e7310ae014890e6942c75b7e57811493aed8e67eaa419903637",
+    "project/sfx_events.json": "ce2ce73628bf81ad1beb8a8c00489e48b9732287133cd38a5d867508e1b6a944",
+    "project/src/EarlyActs.tsx": "06779e74e9ecfece491ed50de22b85dc18f0483ba3af200a721b9be5ead9b9b9",
+    "project/src/Film.tsx": "96736cb75146b7a09d5e7d9c2a4678f73e4de74eb901de4d637b2b9d02a33761",
+    "project/src/LateActs.tsx": "ebe94f593c2741ab24b670db5de90f19e95e6e2c6ae1f7b211bd05fe0f869e17",
+    "project/src/Reality.tsx": "cc218981255360e56e5f6aca0e8a2bb2cf63698087e8ba13932d58998a4a5f12",
+    "project/src/Root.tsx": "f60bea0666c2d223541ce1eda520588ee0afff624447c5ac29efb72721397955",
+    "project/src/Scenes.tsx": "2c10560bdec78716e70f183bbac1cdbea2c75058a9ff3f65e6992c9848ae8dc1",
+    "project/src/index.ts": "2e0e358282a1b998a65387c653b97c2bb2eb7aae94cf200fc0b8d919f7be73a6",
+    "project/telemetry-lexicon.json": "647452f831583911937da8833d8d668f17a925cab9cbe397e04e5497865062b5",
+    "project/timeline.json": "f1cf2bb42981a065ab93480d7196bb5db598e29a76a24146f904b4e1073c2d06",
+    "project/tsconfig.json": "522ac46763476439555ea8ebe67a503254cc22cc4799c22c6163fa9172949625"
+  }
+}

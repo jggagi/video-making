@@ -1,0 +1,721 @@
+{
+  "durationSeconds": 90,
+  "fps": 60,
+  "sampleRate": 48000,
+  "samplesPerFrame": 800,
+  "samplesPerChannel": 4320000,
+  "status": "measured_pcm_with_estimated_phrase_timing",
+  "captionTimingMethod": "Original source chunks are allocated by character weight only within measured active PCM spans; no ASR or forced word alignment was performed.",
+  "segments": [
+    {
+      "id": "S01",
+      "declaredStartFrame": 60,
+      "declaredEndFrame": 540,
+      "voiceStartSample": 48000,
+      "voiceEndSampleExclusive": 401101,
+      "cueStartSample": 38379,
+      "cueEndSampleExclusive": 410859,
+      "cueSamplesAt48k": 372480,
+      "measuredActiveSamples": 353101,
+      "onsetOffsetSamplesInCue": 9621,
+      "activeEndOffsetSamplesInCueExclusive": 362722,
+      "placement": "measured active PCM onset aligned to the declared start frame; complete source cue preserved",
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 82,
+        "windowSamples": 240
+      }
+    },
+    {
+      "id": "S02",
+      "declaredStartFrame": 600,
+      "declaredEndFrame": 1260,
+      "voiceStartSample": 480000,
+      "voiceEndSampleExclusive": 929028,
+      "cueStartSample": 469700,
+      "cueEndSampleExclusive": 938180,
+      "cueSamplesAt48k": 468480,
+      "measuredActiveSamples": 449028,
+      "onsetOffsetSamplesInCue": 10300,
+      "activeEndOffsetSamplesInCueExclusive": 459328,
+      "placement": "measured active PCM onset aligned to the declared start frame; complete source cue preserved",
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 79,
+        "windowSamples": 240
+      }
+    },
+    {
+      "id": "S03",
+      "declaredStartFrame": 1320,
+      "declaredEndFrame": 1980,
+      "voiceStartSample": 1056000,
+      "voiceEndSampleExclusive": 1410608,
+      "cueStartSample": 1046456,
+      "cueEndSampleExclusive": 1418936,
+      "cueSamplesAt48k": 372480,
+      "measuredActiveSamples": 354608,
+      "onsetOffsetSamplesInCue": 9544,
+      "activeEndOffsetSamplesInCueExclusive": 364152,
+      "placement": "measured active PCM onset aligned to the declared start frame; complete source cue preserved",
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 66,
+        "windowSamples": 240
+      }
+    },
+    {
+      "id": "S04",
+      "declaredStartFrame": 2040,
+      "declaredEndFrame": 2760,
+      "voiceStartSample": 1632000,
+      "voiceEndSampleExclusive": 2076974,
+      "cueStartSample": 1621995,
+      "cueEndSampleExclusive": 2086635,
+      "cueSamplesAt48k": 464640,
+      "measuredActiveSamples": 444974,
+      "onsetOffsetSamplesInCue": 10005,
+      "activeEndOffsetSamplesInCueExclusive": 454979,
+      "placement": "measured active PCM onset aligned to the declared start frame; complete source cue preserved",
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 91,
+        "windowSamples": 240
+      }
+    },
+    {
+      "id": "S05",
+      "declaredStartFrame": 2820,
+      "declaredEndFrame": 3540,
+      "voiceStartSample": 2256000,
+      "voiceEndSampleExclusive": 2713530,
+      "cueStartSample": 2246502,
+      "cueEndSampleExclusive": 2722662,
+      "cueSamplesAt48k": 476160,
+      "measuredActiveSamples": 457530,
+      "onsetOffsetSamplesInCue": 9498,
+      "activeEndOffsetSamplesInCueExclusive": 467028,
+      "placement": "measured active PCM onset aligned to the declared start frame; complete source cue preserved",
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 93,
+        "windowSamples": 240
+      }
+    },
+    {
+      "id": "S06",
+      "declaredStartFrame": 3600,
+      "declaredEndFrame": 4320,
+      "voiceStartSample": 2880000,
+      "voiceEndSampleExclusive": 3348189,
+      "cueStartSample": 2869881,
+      "cueEndSampleExclusive": 3357561,
+      "cueSamplesAt48k": 487680,
+      "measuredActiveSamples": 468189,
+      "onsetOffsetSamplesInCue": 10119,
+      "activeEndOffsetSamplesInCueExclusive": 478308,
+      "placement": "measured active PCM onset aligned to the declared start frame; complete source cue preserved",
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 79,
+        "windowSamples": 240
+      }
+    },
+    {
+      "id": "S07",
+      "declaredStartFrame": 4380,
+      "declaredEndFrame": 4800,
+      "voiceStartSample": 3504000,
+      "voiceEndSampleExclusive": 3714656,
+      "cueStartSample": 3493801,
+      "cueEndSampleExclusive": 3728041,
+      "cueSamplesAt48k": 234240,
+      "measuredActiveSamples": 210656,
+      "onsetOffsetSamplesInCue": 10199,
+      "activeEndOffsetSamplesInCueExclusive": 220855,
+      "placement": "measured active PCM onset aligned to the declared start frame; complete source cue preserved",
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 81,
+        "windowSamples": 240
+      }
+    },
+    {
+      "id": "S08",
+      "declaredStartFrame": 4860,
+      "declaredEndFrame": 5400,
+      "voiceStartSample": 3922283,
+      "voiceEndSampleExclusive": 4279854,
+      "cueStartSample": 3912800,
+      "cueEndSampleExclusive": 4289120,
+      "cueSamplesAt48k": 376320,
+      "measuredActiveSamples": 357571,
+      "onsetOffsetSamplesInCue": 9483,
+      "activeEndOffsetSamplesInCueExclusive": 367054,
+      "placement": "complete S08 source cue starts at frame 4891 after the exact-zero interval; source PCM preserved",
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 104,
+        "windowSamples": 240
+      }
+    }
+  ],
+  "captions": [
+    {
+      "segmentId": "S01",
+      "startFrame": 60,
+      "endFrame": 119,
+      "text": "此时此刻",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S01",
+      "startFrame": 119,
+      "endFrame": 222,
+      "text": "不是你在刷手机",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S01",
+      "startFrame": 222,
+      "endFrame": 383,
+      "text": "而是屏幕背后的超级智能",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S01",
+      "startFrame": 383,
+      "endFrame": 501,
+      "text": "正在凝视你的瞳孔",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S02",
+      "startFrame": 600,
+      "endFrame": 678,
+      "text": "它甚至不需要",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S02",
+      "startFrame": 678,
+      "endFrame": 809,
+      "text": "去库里挑你喜欢的内容",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S02",
+      "startFrame": 809,
+      "endFrame": 952,
+      "text": "在你指尖停顿的十毫秒里",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S02",
+      "startFrame": 952,
+      "endFrame": 1017,
+      "text": "它已经为你",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S02",
+      "startFrame": 1017,
+      "endFrame": 1161,
+      "text": "现场捏造了下一秒的世界",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S03",
+      "startFrame": 1320,
+      "endFrame": 1385,
+      "text": "每一个音符",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S03",
+      "startFrame": 1385,
+      "endFrame": 1515,
+      "text": "都精准踩在你的泪点上",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S03",
+      "startFrame": 1515,
+      "endFrame": 1646,
+      "text": "每一张脸、每一句观点",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S03",
+      "startFrame": 1646,
+      "endFrame": 1763,
+      "text": "都顺着你的心意流淌",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S04",
+      "startFrame": 2040,
+      "endFrame": 2216,
+      "text": "真实世界里那些刺耳的争吵",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S04",
+      "startFrame": 2216,
+      "endFrame": 2333,
+      "text": "漫长的等待与拒绝",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S04",
+      "startFrame": 2333,
+      "endFrame": 2420,
+      "text": "在靠近你之前",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S04",
+      "startFrame": 2420,
+      "endFrame": 2479,
+      "text": "全被算法",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S04",
+      "startFrame": 2479,
+      "endFrame": 2596,
+      "text": "磨成了温润的糖浆",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S05",
+      "startFrame": 2820,
+      "endFrame": 2920,
+      "text": "于是，八十亿人",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S05",
+      "startFrame": 2920,
+      "endFrame": 3077,
+      "text": "低头捧着六寸的发光玻璃",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S05",
+      "startFrame": 3077,
+      "endFrame": 3177,
+      "text": "住进了八十亿座",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S05",
+      "startFrame": 3177,
+      "endFrame": 3234,
+      "text": "一人一间",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S05",
+      "startFrame": 3234,
+      "endFrame": 3391,
+      "text": "永远不会受挫的完美天堂",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S06",
+      "startFrame": 3600,
+      "endFrame": 3671,
+      "text": "明明背靠背",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S06",
+      "startFrame": 3671,
+      "endFrame": 3785,
+      "text": "坐在同一张沙发上",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S06",
+      "startFrame": 3785,
+      "endFrame": 3885,
+      "text": "距离只有十厘米",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S06",
+      "startFrame": 3885,
+      "endFrame": 4028,
+      "text": "我们却在各自被定制的",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S06",
+      "startFrame": 4028,
+      "endFrame": 4099,
+      "text": "楚门世界里",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S06",
+      "startFrame": 4099,
+      "endFrame": 4185,
+      "text": "隔着一万光年",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S07",
+      "startFrame": 4380,
+      "endFrame": 4488,
+      "text": "当完美的多巴胺温室",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S07",
+      "startFrame": 4488,
+      "endFrame": 4643,
+      "text": "把痛苦连同真实一起抹去……",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S08",
+      "startFrame": 4903,
+      "endFrame": 4995,
+      "text": "唯有关掉屏幕后",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S08",
+      "startFrame": 4995,
+      "endFrame": 5113,
+      "text": "真实世界里那一点点",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S08",
+      "startFrame": 5113,
+      "endFrame": 5244,
+      "text": "不合心意的粗糙与疼痛",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S08",
+      "startFrame": 5244,
+      "endFrame": 5297,
+      "text": "在提醒你",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S08",
+      "startFrame": 5297,
+      "endFrame": 5349,
+      "text": "你还活着",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    }
+  ],
+  "sfxEvents": [
+    {
+      "id": "optical_lock",
+      "frame": 60,
+      "sampleIndex": 48000,
+      "durationSeconds": 1.6,
+      "sampleCount": 76800,
+      "kind": "focus_lock",
+      "description": "optical focus whir and cyan lock beep"
+    },
+    {
+      "id": "bait_crystallization",
+      "frame": 840,
+      "sampleIndex": 672000,
+      "durationSeconds": 3.4,
+      "sampleCount": 163200,
+      "kind": "crystal_bloom",
+      "description": "granular crystalline bloom to lush chord"
+    },
+    {
+      "id": "velvet_cocoon",
+      "frame": 1500,
+      "sampleIndex": 1200000,
+      "durationSeconds": 4.0,
+      "sampleCount": 192000,
+      "kind": "velvet_pad",
+      "description": "warm low-pass wrapping pad"
+    },
+    {
+      "id": "friction_dissolve",
+      "frame": 2300,
+      "sampleIndex": 1840000,
+      "durationSeconds": 3.0,
+      "sampleCount": 144000,
+      "kind": "edge_dissolve",
+      "description": "metal edges dissolve to sweet bells"
+    },
+    {
+      "id": "island_zoom",
+      "frame": 2940,
+      "sampleIndex": 2352000,
+      "durationSeconds": 4.0,
+      "sampleCount": 192000,
+      "kind": "island_zoom",
+      "description": "spatial pullback drone and isolated bubbles"
+    },
+    {
+      "id": "lonely_sonar",
+      "frame": 3900,
+      "sampleIndex": 3120000,
+      "durationSeconds": 2.8,
+      "sampleCount": 134400,
+      "kind": "lonely_sonar",
+      "description": "lonely distant sonar"
+    },
+    {
+      "id": "saturation_rise",
+      "frame": 4500,
+      "sampleIndex": 3600000,
+      "durationSeconds": 5.0,
+      "sampleCount": 240000,
+      "kind": "saturation_rise",
+      "description": "euphoric rise toward breaking point"
+    },
+    {
+      "id": "screen_lock",
+      "frame": 4860,
+      "sampleIndex": 3888000,
+      "durationSeconds": 0.016666666666666666,
+      "sampleCount": 800,
+      "kind": "screen_click",
+      "description": "crisp procedural click confined to one frame"
+    },
+    {
+      "id": "raw_breath",
+      "frame": 4891,
+      "sampleIndex": 3912800,
+      "durationSeconds": 1.0,
+      "sampleCount": 48000,
+      "kind": "raw_breath",
+      "description": "unpolished procedural breath texture"
+    },
+    {
+      "id": "flint_strike",
+      "frame": 4900,
+      "sampleIndex": 3920000,
+      "durationSeconds": 0.48,
+      "sampleCount": 23040,
+      "kind": "flint_strike",
+      "description": "raw flint spark"
+    }
+  ],
+  "absoluteSilence": {
+    "startFrame": 4861,
+    "endFrameExclusive": 4891,
+    "startSample": 3888800,
+    "endSampleExclusive": 3912800,
+    "samplesZeroInAllStemsAndMaster": true,
+    "samplePeakPcm16": 0
+  },
+  "sourceHashes": {
+    "segmentsJson": "014365867be06e7310ae014890e6942c75b7e57811493aed8e67eaa419903637",
+    "sfxEventsJson": "ce2ce73628bf81ad1beb8a8c00489e48b9732287133cd38a5d867508e1b6a944",
+    "audioAuthorization": "b52d4ea8b5ddbc61e15947259d319f23423c329c2864a7c7abae459e59735383",
+    "providerManifest": "0a4a36e73ed95fd661e8979222c51476bb59e5995df755e768e0115d72757f90",
+    "cueWavs": [
+      {
+        "id": "S01",
+        "cueFile": "project/public/audio/cues/S01-cb672d1ec8d7.wav",
+        "cueSamplesAt48k": 372480,
+        "durationSeconds": 7.76,
+        "cueSha256": "ce5d8443d4a587eb6484979c2418980a0fac469eefbc9af0cbcc01eb5ba6ea32",
+        "cuePcmSha256": "47433e2479c3aba4449279ec231f0e89241d271a2fd9557c29f2a315c324864c",
+        "activeOnsetOffsetSamples": 9621,
+        "activeEndOffsetSamplesExclusive": 362722,
+        "activeBoundsMethod": {
+          "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+          "thresholdPcm16": 82,
+          "windowSamples": 240
+        }
+      },
+      {
+        "id": "S02",
+        "cueFile": "project/public/audio/cues/S02-0bf52e4f0267.wav",
+        "cueSamplesAt48k": 468480,
+        "durationSeconds": 9.76,
+        "cueSha256": "642555ed6a9bb81c4887221ab8f278c2ab890ce1d6d1297087ee85369dd28094",
+        "cuePcmSha256": "4e38d4ba91ab6a9e0bb3005ac4cdce035ec2d938edcc9280070afad02200646f",
+        "activeOnsetOffsetSamples": 10300,
+        "activeEndOffsetSamplesExclusive": 459328,
+        "activeBoundsMethod": {
+          "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+          "thresholdPcm16": 79,
+          "windowSamples": 240
+        }
+      },
+      {
+        "id": "S03",
+        "cueFile": "project/public/audio/cues/S03-1c9fb08d3394.wav",
+        "cueSamplesAt48k": 372480,
+        "durationSeconds": 7.76,
+        "cueSha256": "10d6be48b577279f5c89032ca750810fdd6946aaa1992ab9d93eb9f41b67bf64",
+        "cuePcmSha256": "dd17949a5659d3fa88aa212132ecc7ab4288bf2532d20b7f564960ce899ce623",
+        "activeOnsetOffsetSamples": 9544,
+        "activeEndOffsetSamplesExclusive": 364152,
+        "activeBoundsMethod": {
+          "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+          "thresholdPcm16": 66,
+          "windowSamples": 240
+        }
+      },
+      {
+        "id": "S04",
+        "cueFile": "project/public/audio/cues/S04-b7064e8ae8a8.wav",
+        "cueSamplesAt48k": 464640,
+        "durationSeconds": 9.68,
+        "cueSha256": "7f55a8f611ad2968485f944d28f830fa86a5588956869b92533e4265749fd31b",
+        "cuePcmSha256": "2ea98248696d8548c2c0c49f25a86508d57274b2ba196ee42fb3f8b7cc08346d",
+        "activeOnsetOffsetSamples": 10005,
+        "activeEndOffsetSamplesExclusive": 454979,
+        "activeBoundsMethod": {
+          "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+          "thresholdPcm16": 91,
+          "windowSamples": 240
+        }
+      },
+      {
+        "id": "S05",
+        "cueFile": "project/public/audio/cues/S05-aa5df936f30e.wav",
+        "cueSamplesAt48k": 476160,
+        "durationSeconds": 9.92,
+        "cueSha256": "3f8eb82adfe43010150619b2f60d81328080bee6535126ba6b908c905636881a",
+        "cuePcmSha256": "74361d017feccb1321bf89ec752099583c7ac7f87772d016712aef79244c916f",
+        "activeOnsetOffsetSamples": 9498,
+        "activeEndOffsetSamplesExclusive": 467028,
+        "activeBoundsMethod": {
+          "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+          "thresholdPcm16": 93,
+          "windowSamples": 240
+        }
+      },
+      {
+        "id": "S06",
+        "cueFile": "project/public/audio/cues/S06-414388fd060c.wav",
+        "cueSamplesAt48k": 487680,
+        "durationSeconds": 10.16,
+        "cueSha256": "32e3d72f17eeebbc1361b21b7f20d97d7d65e0286a94ca1444962ee885611066",
+        "cuePcmSha256": "f28e953c8c7849f7112e663cf766e11e32f565e4473b3eee51d1cd73b2bd4499",
+        "activeOnsetOffsetSamples": 10119,
+        "activeEndOffsetSamplesExclusive": 478308,
+        "activeBoundsMethod": {
+          "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+          "thresholdPcm16": 79,
+          "windowSamples": 240
+        }
+      },
+      {
+        "id": "S07",
+        "cueFile": "project/public/audio/cues/S07-ed710101b976.wav",
+        "cueSamplesAt48k": 234240,
+        "durationSeconds": 4.88,
+        "cueSha256": "012a63a36ba0aee57f30d71636082f2c4cab19416dae139a21c3aee89163432f",
+        "cuePcmSha256": "5fcdf5895c8fbe43607568cd5416c6291047f56fec9ac1a74da9e6589dc1eefa",
+        "activeOnsetOffsetSamples": 10199,
+        "activeEndOffsetSamplesExclusive": 220855,
+        "activeBoundsMethod": {
+          "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+          "thresholdPcm16": 81,
+          "windowSamples": 240
+        }
+      },
+      {
+        "id": "S08",
+        "cueFile": "project/public/audio/cues/S08-7c418a44d61f.wav",
+        "cueSamplesAt48k": 376320,
+        "durationSeconds": 7.84,
+        "cueSha256": "cdc82a54f8b3e3e456acd98e99a45008232d6feca94d1ceef3f9f99da5b3b2e3",
+        "cuePcmSha256": "880e59f6ac6014c4257976552a24523ae597133c03035ad93c51ff3e854a0366",
+        "activeOnsetOffsetSamples": 9483,
+        "activeEndOffsetSamplesExclusive": 367054,
+        "activeBoundsMethod": {
+          "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+          "thresholdPcm16": 104,
+          "windowSamples": 240
+        }
+      }
+    ],
+    "eventProfiles": "cb5268dfa5a883877cff17bdedc23153839fdc76f60ebd866ba1bee61d01d29b"
+  },
+  "mixInputSetSha256": "a07680b3881b4999a28aa9988b9fc071b3bd404a4cdb8f1ddbdea1879cf6516e",
+  "master": {
+    "file": "project/public/audio/master.wav",
+    "sha256": "d787f5794a2f8cc76f159a58df02b66cd7721bb54e08d94149f1f0f251ecc968",
+    "pcmSha256": "c4847b5ad851763f0dec1c43a1ae7386b8bf14fe842426520d808e886efb2084",
+    "sizeBytes": 17280044,
+    "sampleRate": 48000,
+    "channels": 2,
+    "sampleWidthBytes": 2,
+    "samplesPerChannel": 4320000,
+    "durationSeconds": 90.0,
+    "samplePeakPcm16": 27608,
+    "strictDecode": "passed",
+    "loudnormFirstPass": {
+      "input_i": "-21.56",
+      "input_tp": "-1.98",
+      "input_lra": "10.00",
+      "input_thresh": "-32.98",
+      "output_i": "-17.35",
+      "output_tp": "-1.80",
+      "output_lra": "7.70",
+      "output_thresh": "-28.29",
+      "normalization_type": "dynamic",
+      "target_offset": "1.35"
+    },
+    "loudnormSecondPass": {
+      "input_i": "-21.56",
+      "input_tp": "-1.98",
+      "input_lra": "10.00",
+      "input_thresh": "-32.98",
+      "output_i": "-16.34",
+      "output_tp": "-1.80",
+      "output_lra": "7.30",
+      "output_thresh": "-27.25",
+      "normalization_type": "dynamic",
+      "target_offset": "0.34"
+    },
+    "ebur128Final": {
+      "integratedLUFS": -16.0,
+      "truePeakDBTP": -1.5
+    },
+    "normalizationTarget": {
+      "integratedLUFS": -16.0,
+      "truePeakDBTP": -1.8,
+      "acceptanceLUFS": [
+        -16.2,
+        -15.8
+      ],
+      "acceptanceTruePeakDBTP": -1.0,
+      "passes": 2
+    },
+    "postLoudnormCalibration": {
+      "gainDB": 0.3,
+      "linearGain": 1.035142166679344,
+      "samplePeakPcm16": 27608,
+      "measuredBefore": {
+        "integratedLUFS": -16.3,
+        "truePeakDBTP": -1.8
+      },
+      "measuredAfter": {
+        "integratedLUFS": -16.0,
+        "truePeakDBTP": -1.5
+      },
+      "method": "linear PCM gain by final measured LUFS difference",
+      "targetIntegratedLUFS": -16.0,
+      "sampleCountPreserved": true,
+      "stemsChanged": false
+    },
+    "absoluteSilence": {
+      "startSample": 3888800,
+      "endSampleExclusive": 3912800,
+      "peakPcm16": 0,
+      "exactZero": true
+    }
+  }
+}

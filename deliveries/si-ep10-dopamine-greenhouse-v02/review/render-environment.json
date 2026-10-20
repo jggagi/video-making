@@ -1,0 +1,29 @@
+{
+  "concurrency": 1,
+  "capture": "native SVG/DOM to PNG",
+  "native": [
+    2160,
+    3840
+  ],
+  "fps": 60,
+  "frames": 5400,
+  "remotion": "4.0.534",
+  "chrome": "155.0.8059.85",
+  "curve_sampling": {
+    "harmonic_per_layer": 720,
+    "saturation_spiral": 1080,
+    "amplitude_bound": 0.8
+  },
+  "source_sha256": {
+    "src/EarlyActs.tsx": "06779e74e9ecfece491ed50de22b85dc18f0483ba3af200a721b9be5ead9b9b9",
+    "src/Film.tsx": "96736cb75146b7a09d5e7d9c2a4678f73e4de74eb901de4d637b2b9d02a33761",
+    "src/LateActs.tsx": "ebe94f593c2741ab24b670db5de90f19e95e6e2c6ae1f7b211bd05fe0f869e17",
+    "src/Reality.tsx": "cc218981255360e56e5f6aca0e8a2bb2cf63698087e8ba13932d58998a4a5f12",
+    "src/Root.tsx": "f60bea0666c2d223541ce1eda520588ee0afff624447c5ac29efb72721397955",
+    "src/Scenes.tsx": "2c10560bdec78716e70f183bbac1cdbea2c75058a9ff3f65e6992c9848ae8dc1",
+    "src/index.ts": "2e0e358282a1b998a65387c653b97c2bb2eb7aae94cf200fc0b8d919f7be73a6"
+  },
+  "audio_master_sha256": "d787f5794a2f8cc76f159a58df02b66cd7721bb54e08d94149f1f0f251ecc968",
+  "native_staging": "Owned AgentDev scratch via render-staging.json",
+  "initial_iteration": "review/iterations/coarse-curves/preservation.json"
+}

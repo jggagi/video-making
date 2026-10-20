@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "scope": "source math/type audit only, root integrated and native images inspected separately",
+  "independent_checks": [
+    "native2160x3840/60fps/5400frame timeline",
+    "fixed compact HUD dynamic values and no marquee",
+    "closing-only disclaimer5160..5399",
+    "4D domains sampled radius148.35 logicalpx and nonoverlap",
+    "actual 3D extruded fracture mesh with normal shading",
+    "black[4861,4891), click4860",
+    "silent native-video and pinned-v1 uncapped AAC-copy mux"
+  ],
+  "continuity_fix": {
+    "old_max_recurring_boundary_delta_logical_px": 19.8,
+    "new_max_recurring_boundary_delta_logical_px": 0.442,
+    "boundaries": [
+      4990,
+      5080,
+      5170,
+      5260,
+      5350
+    ],
+    "initial_9frame_approach_last_step_px": 6.99
+  },
+  "typescript": "PASS",
+  "no_cloud_calls": true
+}

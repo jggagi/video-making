@@ -1,0 +1,448 @@
+import React from 'react';
+
+type Point = {x: number; y: number};
+type Point3 = {x: number; y: number; z: number};
+type Projected = Point3 & Point;
+
+const C = {
+  night: '#050811',
+  amber: '#f59e0b',
+  cyan: '#06b6d4',
+  magenta: '#d946ef',
+  gold: '#facc15',
+  red: '#ef4444',
+  pale: '#fff4df',
+};
+
+const CX = 486;
+const CY = 850;
+const clamp = (v: number, lo = 0, hi = 1) => Math.max(lo, Math.min(hi, v));
+const smooth = (v: number) => {
+  const t = clamp(v);
+  return t * t * (3 - 2 * t);
+};
+const mix = (a: number, b: number, t: number) => a + (b - a) * t;
+const fmt = (v: number) => Number(v.toFixed(1));
+const polar = (r: number, a: number): Point => ({x: r * Math.cos(a), y: r * Math.sin(a)});
+const v3dot = (a: Point3, b: Point3) => a.x * b.x + a.y * b.y + a.z * b.z;
+const v3scale = (a: Point3, n: number): Point3 => ({x: a.x * n, y: a.y * n, z: a.z * n});
+const v3add = (a: Point3, b: Point3): Point3 => ({x: a.x + b.x, y: a.y + b.y, z: a.z + b.z});
+const v3cross = (a: Point3, b: Point3): Point3 => ({x: a.y * b.z - a.z * b.y, y: a.z * b.x - a.x * b.z, z: a.x * b.y - a.y * b.x});
+const v3normalize = (a: Point3): Point3 => {
+  const length = Math.hypot(a.x, a.y, a.z) || 1;
+  return {x: a.x / length, y: a.y / length, z: a.z / length};
+};
+
+function EarlyOneDefs(): React.ReactElement {
+  return (
+    <defs>
+      <clipPath id="earlyOneIrisClip" clipPathUnits="userSpaceOnUse">
+        <circle cx={CX} cy={CY} r="245" />
+      </clipPath>
+      <radialGradient id="earlyOneSclera" cx="49%" cy="45%">
+        <stop offset="0" stopColor="#f5d6a4" />
+        <stop offset="0.5" stopColor="#c98a50" />
+        <stop offset="0.82" stopColor="#63402f" />
+        <stop offset="1" stopColor="#211b24" />
+      </radialGradient>
+      <radialGradient id="earlyOneIris" cx="47%" cy="43%">
+        <stop offset="0" stopColor="#29121f" />
+        <stop offset="0.18" stopColor="#743729" />
+        <stop offset="0.4" stopColor="#d7782a" />
+        <stop offset="0.67" stopColor="#f4ad43" />
+        <stop offset="0.82" stopColor="#7b7857" />
+        <stop offset="1" stopColor="#161b25" />
+      </radialGradient>
+      <radialGradient id="earlyOnePupil" cx="37%" cy="31%">
+        <stop offset="0" stopColor="#010208" />
+        <stop offset="0.82" stopColor="#070a12" />
+        <stop offset="0.96" stopColor="#111c25" />
+        <stop offset="1" stopColor="#03050b" />
+      </radialGradient>
+      <radialGradient id="earlyOneIrisGlow">
+        <stop offset="0" stopColor="#f59e0b" stopOpacity="0.24" />
+        <stop offset="0.72" stopColor="#d946ef" stopOpacity="0.12" />
+        <stop offset="1" stopColor="#050811" stopOpacity="0" />
+      </radialGradient>
+      <radialGradient id="earlyOneBloom">
+        <stop offset="0" stopColor="#fff3bd" stopOpacity="0.8" />
+        <stop offset="0.23" stopColor="#facc15" stopOpacity="0.55" />
+        <stop offset="0.56" stopColor="#d946ef" stopOpacity="0.22" />
+        <stop offset="1" stopColor="#06b6d4" stopOpacity="0" />
+      </radialGradient>
+    </defs>
+  );
+}
+
+function HarmonicRose({frame, index, bloom}: {frame: number; index: number; bloom: number}): React.ReactElement {
+  const n = 720;
+  const phase = index * 0.43;
+  const rate = 0.0024 + index * 0.00031;
+  const points: string[] = [];
+  for (let i = 0; i <= n; i++) {
+    const theta = (Math.PI * 2 * i) / n;
+    const time = frame * rate;
+    // Additive harmonic/Lissajous interference; uniform amplitude bound stays inside the r=245 iris without clipping curvature.
+    const rawX = 118 * Math.sin((3 + index % 2) * theta + time + phase)
+      + 67 * Math.sin((5 + index % 3) * theta - time * 1.63 + phase * 1.8)
+      + 31 * Math.sin((8 + index % 2) * theta + time * 0.71 - phase);
+    const rawY = 118 * Math.sin((4 + index % 3) * theta - time * 0.89 + phase * 1.2)
+      + 67 * Math.cos((6 + index % 2) * theta + time * 1.41 - phase)
+      + 31 * Math.sin((9 + index % 2) * theta - time * 0.62 + phase * 0.7);
+    const radiusScale = 0.8 * (0.44 + 0.56 * bloom);
+    points.push(`${fmt(CX + rawX * radiusScale)},${fmt(CY + rawY * radiusScale)}`);
+  }
+  const stroke = index % 3 === 0 ? C.gold : index % 3 === 1 ? C.magenta : '#f1a8ef';
+  return (
+    <g>
+    <polyline points={points.join(' ')} fill="none" stroke={stroke} strokeWidth="7" strokeOpacity={.025+.055*bloom} strokeLinejoin="round"/>
+    <polyline
+      points={points.join(' ')}
+      fill="none"
+      stroke={stroke}
+      strokeWidth={index % 2 === 0 ? 2.9 : 1.9}
+      strokeOpacity={0.2 + 0.55 * bloom}
+      strokeLinejoin="round"
+      strokeLinecap="round"
+    /></g>
+  );
+}
+
+export const EarlyActOne: React.FC<{frame: number}> = ({frame}) => {
+  const bloom = smooth((frame - 720) / 510);
+  const scan = frame < 720 ? 1 - smooth((frame - 630) / 90) : 0;
+  const pupilRadius = frame < 720
+    ? 70 + 28 * smooth(frame / 719) + 3.5 * Math.sin(frame * 0.037)
+    : 98 + 70 * bloom;
+  const gaze = 1.7 * Math.sin(frame * 0.006) + 0.8 * Math.sin(frame * 0.013);
+  const irisRotation = frame * 0.004;
+  const roseIn = smooth((frame - 716) / 116);
+  return (
+    <>
+      <EarlyOneDefs />
+      <g>
+        <ellipse cx={CX} cy={CY} rx="405" ry="324" fill="url(#earlyOneIrisGlow)" opacity="0.86" />
+        <path d="M68 850 C218 558 745 558 904 850 C745 1142 218 1142 68 850 Z" fill="url(#earlyOneSclera)" stroke="#9b7046" strokeWidth="5" />
+        <path d="M82 850 C241 613 726 613 890 850" fill="none" stroke="#e9b46b" strokeWidth="10" opacity="0.82" />
+        <path d="M82 850 C241 1087 726 1087 890 850" fill="none" stroke="#855540" strokeWidth="9" opacity="0.76" />
+        <g transform={`rotate(${fmt(irisRotation)} ${CX} ${CY})`}>
+          <circle cx={CX} cy={CY} r="245" fill="url(#earlyOneIris)" stroke="#ffd17a" strokeWidth="4" />
+          <circle cx={CX} cy={CY} r="233" fill="none" stroke="#f2b758" strokeWidth="1.5" opacity="0.78" />
+          {Array.from({length: 112}, (_, i) => {
+            const a = (Math.PI * 2 * i) / 112;
+            const inner = 112 + 11 * Math.sin(i * 1.73) + 5 * Math.cos(i * 0.37);
+            const outer = 226 + 11 * Math.cos(i * 2.11);
+            const p1 = polar(inner, a + 0.012 * Math.sin(frame * 0.019 + i));
+            const p2 = polar(outer, a + 0.035 * Math.sin(frame * 0.015 + i * 0.41));
+            const mid = polar(mix(inner, outer, 0.51), a + 0.055 * Math.sin(i * 0.53 + frame * 0.011));
+            return (
+              <path
+                key={i}
+                d={`M${fmt(CX + p1.x)} ${fmt(CY + p1.y)} Q${fmt(CX + mid.x)} ${fmt(CY + mid.y)} ${fmt(CX + p2.x)} ${fmt(CY + p2.y)}`}
+                fill="none"
+                stroke={i % 8 === 0 ? '#ffe5a0' : i % 4 === 0 ? C.gold : '#f9b85b'}
+                strokeWidth={i % 8 === 0 ? 2.7 : i % 4 === 0 ? 1.8 : 1.05}
+                opacity={i % 8 === 0 ? 0.88 : 0.43 + 0.12 * Math.sin(i * 2.7)}
+              />
+            );
+          })}
+          {Array.from({length: 28}, (_, i) => {
+            const a = (Math.PI * 2 * i) / 28 + 0.018 * Math.sin(frame * 0.014 + i);
+            const p1 = polar(204, a);
+            const p2 = polar(241, a);
+            return <line key={`arc-${i}`} x1={fmt(CX + p1.x)} y1={fmt(CY + p1.y)} x2={fmt(CX + p2.x)} y2={fmt(CY + p2.y)} stroke={i % 2 ? '#f4bd62' : '#fff0bb'} strokeWidth="2.1" opacity="0.74" />;
+          })}
+        </g>
+        <circle cx={fmt(CX + gaze)} cy={CY} r={fmt(pupilRadius + 19)} fill="none" stroke="#ffe0a0" strokeWidth="2.4" opacity="0.8" />
+        <circle cx={fmt(CX + gaze)} cy={CY} r={fmt(pupilRadius)} fill="url(#earlyOnePupil)" stroke="#f4bd69" strokeWidth="3" />
+        {frame >= 720 && (
+          <g clipPath="url(#earlyOneIrisClip)" opacity={roseIn} style={{mixBlendMode: 'screen'}}>
+            <circle cx={CX} cy={CY} r="242" fill="url(#earlyOneBloom)" opacity={0.09 + 0.1 * bloom} />
+            {Array.from({length: 7}, (_, i) => <HarmonicRose key={i} frame={frame} index={i} bloom={bloom} />)}
+            <circle cx={CX} cy={CY} r={fmt(174 + 41 * bloom)} fill="none" stroke={C.gold} strokeWidth="1.4" strokeOpacity={0.25 + 0.22 * bloom} />
+          </g>
+        )}
+        <ellipse cx={fmt(CX - 24 + gaze)} cy="817" rx="17" ry="30" fill="#fff6e1" opacity="0.32" transform={`rotate(22 ${fmt(CX - 24 + gaze)} 817)`} />
+        <g fill="none" stroke={C.cyan} strokeLinecap="round" opacity={scan * 0.78}>
+          <circle cx={CX} cy={CY} r={fmt(267 + 5 * Math.sin(frame * 0.021))} strokeWidth="2.3" />
+          <circle cx={CX} cy={CY} r="302" strokeWidth="1.6" strokeDasharray="5 16" strokeDashoffset={fmt(-frame * 1.13)} />
+          <circle cx={CX} cy={CY} r="333" strokeWidth="1.1" strokeDasharray="36 18 4 18" strokeDashoffset={fmt(frame * 0.8)} />
+          <path d={`M91 ${fmt(750 + 190 * (0.5 + 0.5 * Math.sin(frame * 0.014)))} H881`} strokeWidth="2" strokeDasharray="5 13" />
+          <path d={`M${CX} 518 V1182`} strokeWidth="1.2" strokeDasharray="3 17" opacity="0.42" />
+        </g>
+        <g stroke={C.cyan} strokeLinecap="round" opacity={scan * 0.72}>
+          {Array.from({length: 8}, (_, i) => {
+            const a = (Math.PI * 2 * i) / 8 + frame * 0.0019;
+            const p1 = polar(326, a);
+            const p2 = polar(338 + 3 * Math.sin(frame * 0.02 + i), a);
+            return <line key={i} x1={fmt(CX + p1.x)} y1={fmt(CY + p1.y)} x2={fmt(CX + p2.x)} y2={fmt(CY + p2.y)} strokeWidth="3" />;
+          })}
+        </g>
+      </g>
+    </>
+  );
+};
+
+type Impact = {index: number; hit: number; angle: number; label: string; normal: Point3; polygon: string};
+type Surface = {breath: number; rotation: number; frame: number};
+
+const impactLabels = ['异见', '等待', '拒绝', '冷场'];
+const impacts: Impact[] = Array.from({length: 12}, (_, i) => {
+  const angle = -Math.PI * 0.82 + i * 2.399963;
+  const latitude = 0.13 * Math.sin(angle * 1.7 + 0.4);
+  const normal = {
+    x: Math.cos(angle) * Math.cos(latitude),
+    y: Math.sin(angle) * Math.cos(latitude),
+    z: Math.sin(latitude),
+  };
+  const polygon = Array.from({length: 9}, (_, j) => {
+    const a = (Math.PI * 2 * j) / 9;
+    const r = j % 2 === 0 ? 23 + ((i * 3 + j * 7) % 8) : 11 + ((i * 5 + j * 2) % 7);
+    return `${fmt(Math.cos(a) * r)},${fmt(Math.sin(a) * r)}`;
+  }).join(' ');
+  return {index: i, hit: 1400 + i * 124, angle, label: impactLabels[i % impactLabels.length], normal, polygon};
+});
+
+function projectUnit(n: Point3, surface: Surface, radialScale = 1): Projected {
+  const {frame, rotation, breath} = surface;
+  const wave = 1
+    + 0.036 * Math.sin(3 * Math.atan2(n.x, n.z) + 2 * Math.asin(clamp(n.y, -1, 1)) + frame * 0.019)
+    + 0.022 * Math.sin(5 * Math.atan2(n.x, n.z) - 3 * Math.asin(clamp(n.y, -1, 1)) - frame * 0.013)
+    + 0.011 * Math.cos(7 * Math.atan2(n.x, n.z) + 4 * Math.asin(clamp(n.y, -1, 1)) + frame * 0.009);
+  const x = n.x * Math.cos(rotation) + n.z * Math.sin(rotation);
+  const z = -n.x * Math.sin(rotation) + n.z * Math.cos(rotation);
+  const scale = radialScale * breath * wave;
+  return {
+    x: CX + 316 * x * scale,
+    y: CY + 268 * n.y * scale,
+    z,
+  };
+}
+
+function splitDepth(points: Projected[]): {front: string; back: string} {
+  const front: string[] = [];
+  const back: string[] = [];
+  for (let i = 0; i < points.length - 1; i++) {
+    const a = points[i];
+    const b = points[i + 1];
+    const target = (a.z + b.z) * 0.5 >= 0 ? front : back;
+    target.push(`M${fmt(a.x)} ${fmt(a.y)} L${fmt(b.x)} ${fmt(b.y)}`);
+  }
+  return {front: front.join(' '), back: back.join(' ')};
+}
+
+function SurfaceLines({surface}: {surface: Surface}): React.ReactElement {
+  const meridians = Array.from({length: 22}, (_, i) => {
+    const longitude = (Math.PI * 2 * i) / 22;
+    const points: Projected[] = [];
+    for (let j = 0; j <= 72; j++) {
+      const latitude = -Math.PI / 2 + (Math.PI * j) / 72;
+      const v = {x: Math.cos(latitude) * Math.cos(longitude), y: Math.sin(latitude), z: Math.cos(latitude) * Math.sin(longitude)};
+      points.push(projectUnit(v, surface));
+    }
+    return {depth: points.reduce((s, p) => s + p.z, 0) / points.length, paths: splitDepth(points), index: i};
+  });
+  const parallels = Array.from({length: 13}, (_, i) => {
+    const latitude = -1.25 + (2.5 * i) / 12;
+    const points: Projected[] = [];
+    for (let j = 0; j <= 96; j++) {
+      const longitude = (Math.PI * 2 * j) / 96;
+      const v = {x: Math.cos(latitude) * Math.cos(longitude), y: Math.sin(latitude), z: Math.cos(latitude) * Math.sin(longitude)};
+      points.push(projectUnit(v, surface));
+    }
+    return {depth: points.reduce((s, p) => s + p.z, 0) / points.length, paths: splitDepth(points), index: i};
+  });
+  return (
+    <g fill="none" strokeLinecap="round" strokeLinejoin="round">
+      {meridians.map(({paths, index}) => (
+        <g key={`m-${index}`}>
+          <path d={paths.back} stroke={index % 4 === 0 ? C.magenta : C.cyan} strokeWidth="1.05" strokeOpacity="0.17" />
+          <path d={paths.front} stroke={index % 4 === 0 ? C.magenta : C.cyan} strokeWidth={index % 3 === 0 ? 2.1 : 1.35} strokeOpacity={index % 4 === 0 ? 0.72 : 0.55} />
+        </g>
+      ))}
+      {parallels.map(({paths, index}) => (
+        <g key={`p-${index}`}>
+          <path d={paths.back} stroke={index % 3 === 0 ? C.gold : C.cyan} strokeWidth="0.95" strokeOpacity="0.14" />
+          <path d={paths.front} stroke={index % 3 === 0 ? C.gold : C.cyan} strokeWidth={index === 6 ? 2.2 : 1.25} strokeOpacity={index === 6 ? 0.64 : 0.47} />
+        </g>
+      ))}
+    </g>
+  );
+}
+
+function sphereWavePath(normal: Point3, surface: Surface, angle: number): string {
+  const n = v3normalize(normal);
+  const ref = Math.abs(n.z) > 0.78 ? {x: 0, y: 1, z: 0} : {x: 0, y: 0, z: 1};
+  const u = v3normalize(v3cross(n, ref));
+  const v = v3normalize(v3cross(n, u));
+  const age = angle;
+  const arc: string[] = [];
+  for (let i = 0; i <= 72; i++) {
+    const a = (Math.PI * 2 * i) / 72;
+    const q = v3add(v3scale(n, Math.cos(age)), v3scale(v3add(v3scale(u, Math.cos(a)), v3scale(v, Math.sin(a))), Math.sin(age)));
+    const p = projectUnit(q, surface);
+    arc.push(`${fmt(p.x)},${fmt(p.y)}`);
+  }
+  return `M${arc.join(' L')} Z`;
+}
+
+function cubic(a: Point, b: Point, c: Point, d: Point, t: number): Point {
+  const u = 1 - t;
+  return {
+    x: u * u * u * a.x + 3 * u * u * t * b.x + 3 * u * t * t * c.x + t * t * t * d.x,
+    y: u * u * u * a.y + 3 * u * u * t * b.y + 3 * u * t * t * c.y + t * t * t * d.y,
+  };
+}
+
+function ImpactEvent({event, frame, surface}: {event: Impact; frame: number; surface: Surface}): React.ReactElement | null {
+  const age = frame - event.hit;
+  const approach = smooth((frame - (event.hit - 38)) / 38);
+  const target = projectUnit(event.normal, surface);
+  const start = {x: CX + (target.x - CX) * 1.08, y: CY + (target.y - CY) * 1.08};
+  const shardX = mix(start.x, target.x, approach);
+  const shardY = mix(start.y, target.y, approach);
+  const shardAlpha = frame < event.hit ? smooth((frame - (event.hit - 38)) / 12) : 1 - smooth(age / 32);
+  const showShard = frame >= event.hit - 38 && age < 33;
+  const showLabel = frame >= event.hit - 32 && age < 34;
+  const labelOpacity = frame < event.hit ? smooth((frame - (event.hit - 32)) / 10) : 1 - smooth((age - 18) / 16);
+  const labelX = clamp(target.x + Math.cos(event.angle) * 48 - 62, 68, 778);
+  const labelY = clamp(target.y + Math.sin(event.angle) * 41 - 21, 486, 1138);
+  const flowAlpha = age >= 0 && age < 132 ? smooth(age / 9) * (1 - smooth((age - 94) / 38)) : 0;
+  const tangent = {x: -(target.y - CY), y: target.x - CX};
+  const tangentLength = Math.hypot(tangent.x, tangent.y) || 1;
+  const curveB = {x: mix(target.x, CX, 0.46) + (tangent.x / tangentLength) * 22, y: mix(target.y, CY, 0.46) + (tangent.y / tangentLength) * 22};
+  const curveC = {x: mix(target.x, CX, 0.24) - (tangent.x / tangentLength) * 13, y: mix(target.y, CY, 0.24) - (tangent.y / tangentLength) * 13};
+  const pointAt = (t: number) => cubic(target, curveB, curveC, {x: CX, y: CY}, t);
+  return (
+    <g>
+      {showShard && (
+        <g transform={`translate(${fmt(shardX)} ${fmt(shardY)}) rotate(${fmt(frame * 0.16 + event.index * 21)})`} opacity={shardAlpha}>
+          <polygon points={event.polygon} fill={event.index % 2 === 0 ? '#777f89' : '#8a9099'} stroke={event.index % 3 === 0 ? C.red : '#df6b63'} strokeWidth="3" />
+          <path d="M-7 -4 L8 5" stroke="#e1e4e8" strokeWidth="1.5" opacity="0.68" />
+        </g>
+      )}
+      {age >= 0 && age <= 132 && [0, 1, 2].map((ring) => {
+        const ringAge = age - ring * 16;
+        if (ringAge < 0 || ringAge > 116) return null;
+        const angularRadius = 0.035 + ringAge * 0.0094;
+        const alpha = (1 - smooth((ringAge - 77) / 39)) * (ring === 0 ? 0.86 : 0.59);
+        const color = ring === 1 ? C.gold : ring === 2 ? C.magenta : C.cyan;
+        return (
+          <path
+            key={`wave-${ring}`}
+            d={sphereWavePath(event.normal, surface, angularRadius)}
+            fill="none"
+            stroke={color}
+            strokeWidth={ring === 0 ? 2.7 : 1.7}
+            strokeOpacity={alpha}
+            strokeDasharray={ring === 2 ? '7 5' : undefined}
+          />
+        );
+      })}
+      {age >= 0 && age < 132 && (
+        <>
+          <path d={`M${fmt(target.x)} ${fmt(target.y)} Q${fmt(curveB.x)} ${fmt(curveB.y)} ${CX} ${CY}`} fill="none" stroke={C.gold} strokeWidth="2.2" strokeDasharray="4 9" strokeDashoffset={fmt(-frame * 1.2)} strokeOpacity={flowAlpha * 0.8} />
+          {Array.from({length: 9}, (_, i) => {
+            const delay = i * 6;
+            const progress = (age - 7 - delay) / 91;
+            if (progress < 0 || progress > 1) return null;
+            const p = pointAt(progress);
+            const flicker = 0.82 + 0.18 * Math.sin(frame * 0.08 + i * 2 + event.index);
+            const opacity = (1 - smooth((progress - 0.72) / 0.28)) * flicker;
+            return (
+              <g key={`particle-${i}`} opacity={opacity}>
+                <circle cx={fmt(p.x)} cy={fmt(p.y)} r={fmt(2.4 + (i % 3) * 0.7)} fill={i % 3 === 0 ? '#fff2bb' : C.gold} />
+                <circle cx={fmt(p.x)} cy={fmt(p.y)} r="6" fill="url(#earlyTwoParticleGlow)" opacity="0.62" />
+              </g>
+            );
+          })}
+        </>
+      )}
+      {showLabel && (
+        <g transform={`translate(${fmt(labelX)} ${fmt(labelY)})`} opacity={labelOpacity}>
+          <rect width="124" height="43" rx="21.5" fill="#080d17" fillOpacity="0.93" stroke={event.index % 2 === 0 ? C.red : '#a8aeb6'} strokeWidth="1.6" />
+          <circle cx="14" cy="21.5" r="3.5" fill={event.index % 2 === 0 ? C.red : C.pale} />
+          <text x="70" y="31.5" textAnchor="middle" fill={C.pale} fontFamily="PingFang SC, sans-serif" fontSize="30" fontWeight="500">{event.label}</text>
+        </g>
+      )}
+      {age >= 0 && age < 18 && <circle cx={fmt(target.x)} cy={fmt(target.y)} r={fmt(5 + 9 * (1 - age / 18))} fill="url(#earlyTwoHitFlash)" opacity={0.7 * (1 - age / 18)} />}
+    </g>
+  );
+}
+
+function EarlyTwoDefs(): React.ReactElement {
+  return (
+    <defs>
+      <radialGradient id="earlyTwoMembraneFill" cx="46%" cy="41%">
+        <stop offset="0" stopColor="#f59e0b" stopOpacity="0.18" />
+        <stop offset="0.38" stopColor="#d946ef" stopOpacity="0.09" />
+        <stop offset="0.75" stopColor="#06b6d4" stopOpacity="0.045" />
+        <stop offset="1" stopColor="#050811" stopOpacity="0.015" />
+      </radialGradient>
+      <radialGradient id="earlyTwoCore" cx="34%" cy="28%">
+        <stop offset="0" stopColor="#fff8d5" />
+        <stop offset="0.24" stopColor="#facc15" />
+        <stop offset="0.62" stopColor="#f59e0b" />
+        <stop offset="1" stopColor="#79362e" />
+      </radialGradient>
+      <radialGradient id="earlyTwoCoreGlow">
+        <stop offset="0" stopColor="#fff1b0" stopOpacity="0.8" />
+        <stop offset="0.34" stopColor="#f59e0b" stopOpacity="0.35" />
+        <stop offset="1" stopColor="#f59e0b" stopOpacity="0" />
+      </radialGradient>
+      <radialGradient id="earlyTwoParticleGlow">
+        <stop offset="0" stopColor="#fff5c9" stopOpacity="0.7" />
+        <stop offset="1" stopColor="#facc15" stopOpacity="0" />
+      </radialGradient>
+      <radialGradient id="earlyTwoHitFlash">
+        <stop offset="0" stopColor="#fff9dc" stopOpacity="0.92" />
+        <stop offset="0.35" stopColor="#facc15" stopOpacity="0.68" />
+        <stop offset="1" stopColor="#ef4444" stopOpacity="0" />
+      </radialGradient>
+    </defs>
+  );
+}
+
+export const EarlyActTwo: React.FC<{frame: number}> = ({frame}) => {
+  const breath = 1 + 0.019 * Math.sin(frame * 0.024) + 0.012 * Math.sin(frame * 0.0107 + 1.1);
+  const rotation = (frame - 1320) * 0.0054;
+  const surface: Surface = {frame, rotation, breath};
+  const corePulse = 1 + 0.04 * Math.sin(frame * 0.036) + 0.018 * Math.sin(frame * 0.015 + 0.8);
+  const outlinePoints: Projected[] = [];
+  for (let i = 0; i <= 128; i++) {
+    const longitude = (Math.PI * 2 * i) / 128;
+    // Inverse-rotate the camera-facing silhouette before projectUnit rotates the sphere.
+    outlinePoints.push(projectUnit({
+      x: Math.cos(longitude) * Math.cos(rotation),
+      y: Math.sin(longitude),
+      z: Math.cos(longitude) * Math.sin(rotation),
+    }, surface));
+  }
+  const outline = `M${outlinePoints.map((p) => `${fmt(p.x)},${fmt(p.y)}`).join(' L')} Z`;
+  return (
+    <>
+      <EarlyTwoDefs />
+      <g>
+        <ellipse cx={CX} cy={CY} rx="376" ry="326" fill="url(#earlyTwoCoreGlow)" opacity="0.28" />
+        <ellipse cx={CX} cy={CY} rx={fmt(316 * breath)} ry={fmt(268 * breath)} fill="url(#earlyTwoMembraneFill)" stroke="#b25aa6" strokeWidth="2.4" strokeOpacity="0.58" />
+        <SurfaceLines surface={surface} />
+        <path d={outline} fill="none" stroke={C.cyan} strokeWidth="3" strokeOpacity="0.76" />
+        <path d={outline} fill="none" stroke={C.magenta} strokeWidth="1.1" strokeDasharray="3 11" strokeDashoffset={fmt(-frame * 0.8)} strokeOpacity="0.58" />
+        {Array.from({length: 8}, (_, i) => {
+          const angle = (Math.PI * 2 * i) / 8 + rotation * 0.48;
+          const rx = 316 * breath;
+          const ry = 268 * breath;
+          const start = {x: CX + Math.cos(angle) * rx * 0.83, y: CY + Math.sin(angle) * ry * 0.83};
+          const end = {x: CX + Math.cos(angle) * rx * 1.04, y: CY + Math.sin(angle) * ry * 1.04};
+          return <path key={i} d={`M${fmt(start.x)} ${fmt(start.y)} Q${fmt(CX + Math.cos(angle) * 360)} ${fmt(CY + Math.sin(angle) * 298)} ${fmt(end.x)} ${fmt(end.y)}`} fill="none" stroke={i % 2 ? C.cyan : C.gold} strokeWidth="1.8" strokeOpacity="0.45" />;
+        })}
+        {impacts.map((event) => <ImpactEvent key={event.index} event={event} frame={frame} surface={surface} />)}
+        <ellipse cx={CX} cy={CY} rx={fmt(116 * corePulse)} ry={fmt(98 * corePulse)} fill="url(#earlyTwoCoreGlow)" opacity="0.84" />
+        <ellipse cx={CX} cy={CY} rx={fmt(47 * corePulse)} ry={fmt(39 * corePulse)} fill="url(#earlyTwoCore)" stroke="#ffe7a0" strokeWidth="2.2" />
+        <ellipse cx={fmt(CX - 12)} cy={fmt(CY - 12)} rx="7" ry="11" fill="#fff8dc" opacity="0.8" transform={`rotate(27 ${CX - 12} ${CY - 12})`} />
+        <path d={`M${CX - 68} ${CY + 4} Q${CX} ${CY - 24 + 6 * Math.sin(frame * 0.027)} ${CX + 68} ${CY + 4}`} fill="none" stroke="#ffe396" strokeWidth="1.5" strokeOpacity="0.62" />
+      </g>
+    </>
+  );
+};
+

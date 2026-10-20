@@ -1,0 +1,33 @@
+{
+  "node": "v24.21.0",
+  "chrome": "Google Chrome 155.0.8059.85 ",
+  "ffmpeg": "ffmpeg version 8.0.1 Copyright (c) 2000-2025 the FFmpeg developers",
+  "remotion": "4.0.534",
+  "react": "19.1.0",
+  "typescript": "5.9.3",
+  "canvas": [
+    2160,
+    3840
+  ],
+  "fps": 60,
+  "frames": 5400,
+  "capture": "native SVG/DOM to PNG",
+  "concurrency": 1,
+  "font_readiness": "delayRender until document.fonts.ready; compact header scrollWidth<=clientWidth per capture",
+  "fonts": [
+    "PingFang SC",
+    "Menlo"
+  ],
+  "new_dependencies": false,
+  "new_cloud_generation_calls": 0,
+  "audio": "original PCM unchanged; final AAC will be stream-copied from v1",
+  "source_sha256": {
+    "src/EarlyActs.tsx": "25a64fc0af6654ab4d12e4e182a789c3cba75bf0c2744125b806eb3ab144a105",
+    "src/Film.tsx": "96736cb75146b7a09d5e7d9c2a4678f73e4de74eb901de4d637b2b9d02a33761",
+    "src/LateActs.tsx": "ebe94f593c2741ab24b670db5de90f19e95e6e2c6ae1f7b211bd05fe0f869e17",
+    "src/Reality.tsx": "cc218981255360e56e5f6aca0e8a2bb2cf63698087e8ba13932d58998a4a5f12",
+    "src/Root.tsx": "f60bea0666c2d223541ce1eda520588ee0afff624447c5ac29efb72721397955",
+    "src/Scenes.tsx": "dad25b86b6f782a3cf323fbca42db5f5af8651d5571208bcca62feb94a24646b",
+    "src/index.ts": "2e0e358282a1b998a65387c653b97c2bb2eb7aae94cf200fc0b8d919f7be73a6"
+  }
+}

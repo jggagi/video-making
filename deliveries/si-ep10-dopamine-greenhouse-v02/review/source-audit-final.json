@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "work": "si-ep10-dopamine-greenhouse-v02",
+  "evidenceTimeUTC": "2026-10-20T11:40:24Z",
+  "status": "SOURCE_AUDIT_PASS",
+  "scope": "Source and package-readiness checks only; this is not media acceptance.",
+  "packaging": {
+    "script": "project/scripts/package_project.py",
+    "archiveCreated": false,
+    "reviewPngPolicy": "Exclude source- and encoded-prefixed PNGs, native-prefixed PNGs, and review PNGs larger than 1000000 bytes.",
+    "dryRunInventory": {
+      "reviewPngsExcluded": 37,
+      "reviewPngsStillEligible": 0,
+      "largeNativePngsExcluded": [
+        {"path": "review/native-dark-and-flower-crop.png", "bytes": 1346301},
+        {"path": "review/native-dense-curve-1000.png", "bytes": 1210709},
+        {"path": "review/native-dense-curve-4500.png", "bytes": 1082223}
+      ],
+      "movieOrTransientMediaFilesExcluded": 10,
+      "failedIterationMoviesExcluded": 4,
+      "eligibleReviewPngs": []
+    },
+    "limitations": [
+      "package_project.py was not run; ZIP CRC and member hashes remain unverified.",
+      "The platform cover PNG remains eligible as a delivery asset."
+    ]
+  },
+  "assetsManifest": {
+    "path": "project/assets-manifest.json",
+    "sha256": "60e23eb2943ed1d888324f58c818f270eaebb350a9106cccbd47a0aab8538898",
+    "listedAssets": 58,
+    "presentWithMatchingSizeAndSha256": 58,
+    "mismatches": []
+  },
+  "determinism": {
+    "status": "PASS",
+    "visualSourceChecks": {
+      "files": "project/src/*.tsx",
+      "searchedFor": ["Math.random()", "Date.now()", "performance.now()"],
+      "matches": [],
+      "imageGenerationCallsInManifest": 0,
+      "newTtsCallsInManifest": 0
+    },
+    "audioNoise": "The audio manifest identifies event-ID-derived fixed xorshift32 noise; no unseeded random API was found in visual source."
+  },
+  "v1SharedInputs": {
+    "status": "PASS",
+    "filesComparedByteForByteAndAgainstV1PreservationRecord": [
+      {
+        "path": "project/public/audio/master.wav",
+        "sha256": "d787f5794a2f8cc76f159a58df02b66cd7721bb54e08d94149f1f0f251ecc968"
+      },
+      {
+        "path": "project/public/audio/narration.wav",
+        "sha256": "6f64b639a79fdc5182b5db75558ba0fb2f870a03fceef2d3bcfd0ab1d42cde7b"
+      },
+      {
+        "path": "project/public/audio/score.wav",
+        "sha256": "ed485773c09632062d3bc5d53ce7601d812f225214f8db707bcb3c47809af96e"
+      },
+      {
+        "path": "project/public/audio/sfx.wav",
+        "sha256": "56dc3e1be5d8e7da70ed8a61ab61e73548598b7103aa45536c5c1c9a22316a76"
+      },
+      {
+        "path": "project/audio-timing.json",
+        "sha256": "208cd0d3ab54884600718be0b3c82f774f0a2f696a0610156953609436dbd66a"
+      },
+      {
+        "path": "project/segments.json",
+        "sha256": "014365867be06e7310ae014890e6942c75b7e57811493aed8e67eaa419903637"
+      },
+      {
+        "path": "source/script.md",
+        "sha256": "02818be4ef83881f722e6522367098a8725a86ba2939aaf737832603ec73401a"
+      },
+      {
+        "path": "小红书/captions.srt",
+        "sha256": "0e69d5cc509117e0be91736b76751d9b89681edad3f48fc5099d560f77a4688f"
+      }
+    ]
+  },
+  "v1Preservation": {
+    "status": "PASS",
+    "path": "小红书/si-ep10-dopamine-greenhouse-xiaohongshu-90s-portrait.mp4",
+    "bytes": 110824973,
+    "sha256": "2241fd76ba65c08758a84813f0f13bbe125f1d5ca6f868a090e56e85e44323b0",
+    "matchesV1PreservationRecord": true
+  },
+  "limitations": [
+    "No ZIP was generated or verified.",
+    "No final-media playback, human listening, or platform-device acceptance is claimed."
+  ]
+}

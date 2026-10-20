@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-10-20T11:24:13.513693Z",
+  "status": "PASS",
+  "target_duration_seconds": 90,
+  "manifest_sha256": "138a0726cbdefd4bb7c54bf3dcb68de5d9fa8b84d0ba74c49a8c255955907a5d",
+  "checks": {
+    "manifest": "PASS",
+    "schema_version": "PASS",
+    "title": "PASS",
+    "duration_seconds": "PASS",
+    "slug": "PASS",
+    "fps": "PASS",
+    "duration_frame_alignment": "PASS",
+    "duration_sample_alignment": "PASS",
+    "total_frames": "PASS",
+    "audio_mode": "PASS",
+    "audio_master": "PASS",
+    "script_path": "PASS",
+    "script_hash": "PASS",
+    "script_sha256": "02818be4ef83881f722e6522367098a8725a86ba2939aaf737832603ec73401a",
+    "platforms": "PASS",
+    "output_platforms": "PASS",
+    "xiaohongshu_manifest_dimensions": "PASS",
+    "visual_qc": "PASS"
+  },
+  "outputs": {
+    "xiaohongshu": {
+      "status": "PASS",
+      "path": "小红书/si-ep10-dopamine-greenhouse-v02-xiaohongshu-90s-portrait.mp4",
+      "sha256": "48e93e7ccfa42021ff4fb0bca954e50c5da32d16291426e7cf2a0d3084230744",
+      "measurements": {
+        "file_size_bytes": 153340975,
+        "video": {
+          "codec": "h264",
+          "pixel_format": "yuv420p",
+          "width": 2160,
+          "height": 3840,
+          "nominal_fps": "60/1",
+          "average_fps": "60/1",
+          "counted_frames": "5400",
+          "duration_seconds": 90.0
+        },
+        "audio_stream_count": 1,
+        "audio": {
+          "codec": "aac",
+          "sample_rate": 48000,
+          "channels": 2,
+          "duration_seconds": 90.005
+        },
+        "container": {
+          "duration_seconds": 90.005,
+          "padding_vs_video_seconds": 0.0049999999999954525
+        },
+        "mp4_atoms": {
+          "atom_types": [
+            "ftyp",
+            "moov",
+            "free",
+            "mdat"
+          ],
+          "moov_offset": 32,
+          "mdat_offset": 145257,
+          "moov_before_mdat": true
+        }
+      },
+      "checks": {
+        "manifest_dimensions": "PASS",
+        "media_file": "PASS",
+        "ffprobe": "PASS",
+        "video_stream_count": "PASS",
+        "dimensions": "PASS",
+        "codec": "PASS",
+        "pixel_format": "PASS",
+        "nominal_fps": "PASS",
+        "average_fps": "PASS",
+        "counted_frames": "PASS",
+        "video_duration": "PASS",
+        "audio_stream_count": "PASS",
+        "audio_codec": "PASS",
+        "audio_sample_rate": "PASS",
+        "audio_channels": "PASS",
+        "audio_duration": "PASS",
+        "container_duration": "PASS",
+        "moov_before_mdat": "PASS",
+        "strict_decode": "PASS"
+      },
+      "failures": []
+    }
+  },
+  "visual_qc": {
+    "status": "PASS",
+    "outputs": {
+      "xiaohongshu": {
+        "status": "PASS",
+        "report": "review/visual-qc-xiaohongshu/report.json",
+        "media_sha256": "48e93e7ccfa42021ff4fb0bca954e50c5da32d16291426e7cf2a0d3084230744",
+        "decoded_frames": 5400,
+        "flagged_frames": 0,
+        "failures": []
+      }
+    },
+    "failures": []
+  },
+  "failures": [],
+  "human_review": {
+    "representative_frames": "pending",
+    "continuous_human_review": "pending",
+    "target_device_playback": "pending"
+  },
+  "source_scan": {
+    "status": "PASS",
+    "files_scanned": 21,
+    "matches": [],
+    "read_errors": []
+  }
+}

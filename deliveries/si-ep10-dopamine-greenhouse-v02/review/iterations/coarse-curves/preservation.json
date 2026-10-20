@@ -1,0 +1,9 @@
+{
+  "status": "PRESERVED_VISUAL_ITERATION",
+  "initial_movie_sha256": "48e93e7ccfa42021ff4fb0bca954e50c5da32d16291426e7cf2a0d3084230744",
+  "bytes": 153340975,
+  "retained_rebuildable_cache": "/Volumes/AgentDev/Builds/video/si-ep10-dopamine-greenhouse-v02/iterations/coarse-curves-48e93e7ccfa4.mp4.failed",
+  "scope": "Only this task initial v2 movie moved after full-copy/hash/open-file checks; original v1, source, credentials and formal historic videos untouched. AgentDev is a rebuildable cache, not an independent backup.",
+  "redundant_silent_staging_removed": "deliveries/si-ep10-dopamine-greenhouse-v02/review/render-video-only.mp4.partial",
+  "reason": "Native review found coarse harmonic/spiral sampling; all technical checks had passed but this was not the final visual delivery."
+}

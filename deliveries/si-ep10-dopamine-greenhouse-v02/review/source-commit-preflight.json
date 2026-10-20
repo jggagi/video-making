@@ -4,5 +4,6 @@
   "staged_files": 140,
   "rendered_visual_source_hashes_unchanged": true,
   "whitespace_check": "git -c core.whitespace=-blank-at-eof diff --cached --check passed. Four already-rendered/preserved source files retain an empty EOF line to preserve exact render provenance; no other whitespace errors.",
-  "source_commit": "PENDING"
+  "source_commit": "613533b5c9e160a261745cfa73cdf3a14959ff98",
+  "pushed_to": "origin/main"
 }

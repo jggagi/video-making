@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "checked_at": "2026-10-20T12:03:59.605143+00:00",
+  "source_commit": "613533b5c9e160a261745cfa73cdf3a14959ff98",
+  "catalog": "final/backup-catalog.json",
+  "catalog_sha256": "d476b16f1709faa78f08b9ab00882e314e3617566b3d6cd2883e6f3ae8c4d8dc",
+  "scope": "One newly backed-up EP10 formal movie; other 49 final assets were inventory/hash verified, not downloaded by this probe.",
+  "work_id": "si-ep10-dopamine-greenhouse-v02",
+  "release_tag": "final-si-ep10-dopamine-greenhouse-v02-a9096c5156c1",
+  "release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep10-dopamine-greenhouse-v02-a9096c5156c1",
+  "asset": {
+    "path": "final/si-ep10-dopamine-greenhouse-v02/小红书/si-ep10-dopamine-greenhouse-v02-xiaohongshu-90s-portrait.mp4",
+    "name": "final--si-ep10-dopamine-greenhouse-v02--deliveries--si-ep10-dopamine-greenhouse-v02-----si-ep10-dopamine-greenhouse-v02-xiaohongshu-90s-portrait--ba6a03b06831.mp4",
+    "bytes": 137248140,
+    "sha256": "ba6a03b0683160109d72d4fccf65eba651ce7dc8c47a29716f6ddc3c60d21e89",
+    "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep10-dopamine-greenhouse-v02-a9096c5156c1/final--si-ep10-dopamine-greenhouse-v02--deliveries--si-ep10-dopamine-greenhouse-v02-----si-ep10-dopamine-greenhouse-v02-xiaohongshu-90s-portrait--ba6a03b06831.mp4"
+  },
+  "restored_bytes": 137248140,
+  "restored_sha256": "ba6a03b0683160109d72d4fccf65eba651ce7dc8c47a29716f6ddc3c60d21e89",
+  "command_template": "python3 scripts/fetch-archive-assets.py --root <isolated-AgentDev-temp> --catalog <repo>/final/backup-catalog.json --work si-ep10-dopamine-greenhouse-v02 --download",
+  "attempts": [
+    {
+      "attempt": 1,
+      "returncode": 0,
+      "stdout": "Restored: final/si-ep10-dopamine-greenhouse-v02/小红书/si-ep10-dopamine-greenhouse-v02-xiaohongshu-90s-portrait.mp4 (137,248,140 bytes)\nRestore complete: 0 already verified, 1 downloaded\n"
+    },
+    {
+      "attempt": 2,
+      "returncode": 0,
+      "stdout": "Restore complete: 1 already verified, 0 downloaded\n"
+    }
+  ],
+  "idempotent_second_run": true,
+  "cleanup": "Owned temporary download directory removed after successful verification; formal local movies untouched."
+}

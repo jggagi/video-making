@@ -1,6 +1,6 @@
 # EP10 v2 视觉升级验收
 
-当前状态：最终原生竖屏成片已完成，技术媒体验证 PASS，模型对实际编码画面观察通过。云端备份与真实恢复在归档步骤完成后补录；真人完整听看及真机小红书播放仍为 NOT_RUN。v1 保留于独立目录。
+当前状态：最终原生竖屏成片已完成，技术媒体验证 PASS，模型对实际编码画面观察通过。本地final、作品归档、独立final备份及新片实际下载恢复均已完成；真人完整听看及真机小红书播放仍为 NOT_RUN。v1 保留于独立目录。
 
 成片：`小红书/si-ep10-dopamine-greenhouse-v02-xiaohongshu-90s-portrait.mp4`，137,248,140 bytes，SHA-256 `ba6a03b0683160109d72d4fccf65eba651ce7dc8c47a29716f6ddc3c60d21e89`。
 
@@ -17,7 +17,7 @@
 | 最终播放器 | PASS：正常1倍速从头播放至90.005秒ended=true，无媒体错误；62秒章节定位通过 |
 | 原生黑场像素 | REVIEWED_ACCEPTED_LOSSY_RESIDUAL，详见下文；native-blackout.json |
 | 可编辑工程包 | PASS：126成员CRC与SHA核验；package-integrity.json |
-| 本地final、云备份与恢复 | 本地final PASS：新增1，保留49；两份云目录dry-run PASS，上传/恢复待完成 |
+| 本地final、云备份与恢复 | PASS：本地50电影/21作品；作品归档215资产/21作品与final独立50资产/21作品远端校验；新v2实际恢复及幂等复测通过 |
 | v2真人完整听看 / 听感 / 小红书真机 | NOT_RUN / NOT_RUN / NOT_RUN |
 
 ## 五项修正与实际观察
@@ -41,3 +41,15 @@
 初轮较粗曲线的整片和技术结果保留在review/iterations/coarse-curves，电影在经核验AgentDev可重建缓存，未列为正式成片或独立备份。当前交付为上方SHA绑定的加密曲线版本。声音没有新云调用，图像全部由确定性源码生成；本机字体PingFang SC/Menlo未分发。工程依赖沿用既有锁文件与node_modules，未安装或升级。
 
 用户对v1音频的认可属于先前反馈，不填作v2真人完整听看、真实手机或观众情绪认可。数学画面与遥测数值是未来SI思想实验，模型边界见project/visual-models.md和project/scientific-notes.md。
+
+## 归档闭环
+
+源码提交 `613533b5c9e160a261745cfa73cdf3a14959ff98` 已推送origin/main；新作品的8个资产、独立final的1部电影均绑定该提交上传，未改动207个旧归档资产及49部旧正式影片。两份独立回执位于archive/upload-receipt-film-613533b5c9e160a261745cfa73cdf3a14959ff98.json与archive/upload-receipt-final-613533b5c9e160a261745cfa73cdf3a14959ff98.json。
+
+- 作品Release：https://github.com/jggagi/video-making/releases/tag/film-si-ep10-dopamine-greenhouse-v02-a9096c5156c1
+- 独立final备份：https://github.com/jggagi/video-making/releases/tag/final-si-ep10-dopamine-greenhouse-v02-a9096c5156c1
+- 本地正式片：final/si-ep10-dopamine-greenhouse-v02/小红书/si-ep10-dopamine-greenhouse-v02-xiaohongshu-90s-portrait.mp4
+
+archive-verification.json核对完整215资产回执，另以新鲜API核验新v2的8个资产；final/backup-verification.json以新鲜API和本地哈希核验50部正式影片，并绑定当前backup-catalog SHA。final-restore-probe.json记录从独立final Release实际下载137248140字节新片，SHA与本地成片一致；第二次恢复为0下载、1跳过。此次真实下载范围为新片1部，其余49部没有在本次恢复探针中下载。测试自有临时目录在哈希验证后清理，正式影片不动。
+
+工程ZIP是上传前可编辑快照：126个成员的CRC与逐成员SHA已通过，排除了电影、原生中间图、本机临时staging指针。云端回执、恢复报告及最终验收更新保存在后续Git证明提交中。没有发布到小红书或B站账号。

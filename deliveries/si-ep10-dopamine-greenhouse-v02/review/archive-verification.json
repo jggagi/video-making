@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "verified_at_utc": "2026-10-20T12:02:56Z",
+  "repository": "jggagi/video-making",
+  "source_commit": "613533b5c9e160a261745cfa73cdf3a14959ff98",
+  "catalog": {
+    "path": "archive/catalog.json",
+    "sha256": "03f3be09a1923df680f5811df1e038729c65d6f98137011961cf6f4854c3be20",
+    "works": 21,
+    "assets": 215
+  },
+  "receipt": {
+    "path": "archive/upload-receipt-film-613533b5c9e160a261745cfa73cdf3a14959ff98.json",
+    "sha256": "89bdaa06cc9d29c7a1b08c6f94059a423cfeeb1018450e54c9c4cb372e69f58e",
+    "status": "COMPLETE",
+    "source_commit": "613533b5c9e160a261745cfa73cdf3a14959ff98",
+    "works": 21,
+    "assets": 215,
+    "catalog_inventory_match": {
+      "names": true,
+      "sizes": true,
+      "sha256_digests": true
+    }
+  },
+  "release": {
+    "tag": "film-si-ep10-dopamine-greenhouse-v02-a9096c5156c1",
+    "url": "https://github.com/jggagi/video-making/releases/tag/film-si-ep10-dopamine-greenhouse-v02-a9096c5156c1",
+    "published_at": "2026-10-20T12:00:44Z",
+    "draft": false,
+    "prerelease": false,
+    "assets": 8,
+    "catalog_receipt_api_match": {
+      "names": true,
+      "sizes": true,
+      "sha256_digests": true,
+      "download_urls": true
+    },
+    "local_assets_match": {
+      "count": 8,
+      "sizes": true,
+      "sha256_digests": true
+    },
+    "asset_inventory": [
+      {
+        "name": "si-ep10-dopamine-greenhouse-v02--deliveries--si-ep10-dopamine-greenhouse-v02--review--motion-1980-2099--705a97a5ade5.mp4",
+        "bytes": 3381387,
+        "sha256": "705a97a5ade5f4ce135c08041bd74f3b1d18e94427b5919fccd5c78f77cab287",
+        "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep10-dopamine-greenhouse-v02-a9096c5156c1/si-ep10-dopamine-greenhouse-v02--deliveries--si-ep10-dopamine-greenhouse-v02--review--motion-1980-2099--705a97a5ade5.mp4"
+      },
+      {
+        "name": "si-ep10-dopamine-greenhouse-v02--deliveries--si-ep10-dopamine-greenhouse-v02--review--motion-3060-3179--31c346cff3d8.mp4",
+        "bytes": 4935443,
+        "sha256": "31c346cff3d87636f8277db53426eced364fadc6306d49020eea952d0d952d90",
+        "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep10-dopamine-greenhouse-v02-a9096c5156c1/si-ep10-dopamine-greenhouse-v02--deliveries--si-ep10-dopamine-greenhouse-v02--review--motion-3060-3179--31c346cff3d8.mp4"
+      },
+      {
+        "name": "si-ep10-dopamine-greenhouse-v02--deliveries--si-ep10-dopamine-greenhouse-v02--review--motion-3720-3839--6e987959ab38.mp4",
+        "bytes": 3629809,
+        "sha256": "6e987959ab3873676daa041a406578255ccf9bb712c95244e959abba602443bc",
+        "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep10-dopamine-greenhouse-v02-a9096c5156c1/si-ep10-dopamine-greenhouse-v02--deliveries--si-ep10-dopamine-greenhouse-v02--review--motion-3720-3839--6e987959ab38.mp4"
+      },
+      {
+        "name": "si-ep10-dopamine-greenhouse-v02--deliveries--si-ep10-dopamine-greenhouse-v02--review--motion-4840-4959--27ff6cd27f74.mp4",
+        "bytes": 1334368,
+        "sha256": "27ff6cd27f749084ef11deec8cea8b78a00320946135859ae0aafeb4e9934455",
+        "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep10-dopamine-greenhouse-v02-a9096c5156c1/si-ep10-dopamine-greenhouse-v02--deliveries--si-ep10-dopamine-greenhouse-v02--review--motion-4840-4959--27ff6cd27f74.mp4"
+      },
+      {
+        "name": "si-ep10-dopamine-greenhouse-v02--deliveries--si-ep10-dopamine-greenhouse-v02--review--motion-5050-5169--fafacb30e94d.mp4",
+        "bytes": 518919,
+        "sha256": "fafacb30e94d014039c4d27fad959bc65e61daa07e583e5f5a4d14556be0e92e",
+        "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep10-dopamine-greenhouse-v02-a9096c5156c1/si-ep10-dopamine-greenhouse-v02--deliveries--si-ep10-dopamine-greenhouse-v02--review--motion-5050-5169--fafacb30e94d.mp4"
+      },
+      {
+        "name": "si-ep10-dopamine-greenhouse-v02--deliveries--si-ep10-dopamine-greenhouse-v02--review--motion-900-1019--1d3709cb052d.mp4",
+        "bytes": 2407378,
+        "sha256": "1d3709cb052dd1cba5da0ff74b642d4c6a1d5bbd88887948d021a4f7030a846a",
+        "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep10-dopamine-greenhouse-v02-a9096c5156c1/si-ep10-dopamine-greenhouse-v02--deliveries--si-ep10-dopamine-greenhouse-v02--review--motion-900-1019--1d3709cb052d.mp4"
+      },
+      {
+        "name": "si-ep10-dopamine-greenhouse-v02--deliveries--si-ep10-dopamine-greenhouse-v02--si-ep10-dopamine-greenhouse-v02-project--e8d79ad3d959.zip",
+        "bytes": 46360074,
+        "sha256": "e8d79ad3d95910b1bdd0a4c33328dfcf9d29e6bd2bc7d8d492e67458cdacd447",
+        "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep10-dopamine-greenhouse-v02-a9096c5156c1/si-ep10-dopamine-greenhouse-v02--deliveries--si-ep10-dopamine-greenhouse-v02--si-ep10-dopamine-greenhouse-v02-project--e8d79ad3d959.zip"
+      },
+      {
+        "name": "si-ep10-dopamine-greenhouse-v02--deliveries--si-ep10-dopamine-greenhouse-v02-----si-ep10-dopamine-greenhouse-v02-xiaohongshu-90s-portrait--ba6a03b06831.mp4",
+        "bytes": 137248140,
+        "sha256": "ba6a03b0683160109d72d4fccf65eba651ce7dc8c47a29716f6ddc3c60d21e89",
+        "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep10-dopamine-greenhouse-v02-a9096c5156c1/si-ep10-dopamine-greenhouse-v02--deliveries--si-ep10-dopamine-greenhouse-v02-----si-ep10-dopamine-greenhouse-v02-xiaohongshu-90s-portrait--ba6a03b06831.mp4"
+      }
+    ]
+  },
+  "scope_note": "Receipt/catalog inventory comparison covers all 215 assets. Fresh GitHub API and local byte hashing cover this release's 8 assets. No assets were downloaded and no restore test was performed."
+}

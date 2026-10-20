@@ -1,0 +1,697 @@
+{
+  "schema_version": 1,
+  "repository": "jggagi/video-making",
+  "target": "613533b5c9e160a261745cfa73cdf3a14959ff98",
+  "status": "COMPLETE",
+  "works": [
+    {
+      "id": "lanting",
+      "title": "Final 成片备份 · 兰亭集序",
+      "release_tag": "final-lanting-f250ec5e6ece",
+      "release_url": "https://github.com/jggagi/video-making/releases/tag/final-lanting-f250ec5e6ece",
+      "assets": [
+        {
+          "name": "final--lanting--out--extended------1080p--2713a7cd2a0b.mp4",
+          "bytes": 183109096,
+          "digest": "sha256:2713a7cd2a0bd049476cbe8a561c22995027b24e3041cfcc8902966b70c13ff8",
+          "kind": "video",
+          "platform": "B站",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-lanting-f250ec5e6ece/final--lanting--out--extended------1080p--2713a7cd2a0b.mp4",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/final-lanting-f250ec5e6ece/final--lanting--out--extended------1080p--2713a7cd2a0b.mp4",
+          "id": 652449182
+        },
+        {
+          "name": "final--lanting--out--extended------4K--24fdd06c726c.mp4",
+          "bytes": 781248818,
+          "digest": "sha256:24fdd06c726cbfede58d4755c348b4b8400808aff6b737407d83a403e1a21c78",
+          "kind": "video",
+          "platform": "B站",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-lanting-f250ec5e6ece/final--lanting--out--extended------4K--24fdd06c726c.mp4",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/final-lanting-f250ec5e6ece/final--lanting--out--extended------4K--24fdd06c726c.mp4",
+          "id": 652449696
+        },
+        {
+          "name": "final--lanting--out--museum------1080p--76cfb10b2e73.mp4",
+          "bytes": 143791306,
+          "digest": "sha256:76cfb10b2e73050786170a350ec972af6331823d6a8af47215af60d067818d36",
+          "kind": "video",
+          "platform": "B站",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-lanting-f250ec5e6ece/final--lanting--out--museum------1080p--76cfb10b2e73.mp4",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/final-lanting-f250ec5e6ece/final--lanting--out--museum------1080p--76cfb10b2e73.mp4",
+          "id": 652451870
+        },
+        {
+          "name": "final--lanting--out--museum------4K--2471e8382db5.mp4",
+          "bytes": 629677206,
+          "digest": "sha256:2471e8382db5674898443cdc4800c43182e8a436a1bb591ae19b0e54b51aa19d",
+          "kind": "video",
+          "platform": "B站",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-lanting-f250ec5e6ece/final--lanting--out--museum------4K--2471e8382db5.mp4",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/final-lanting-f250ec5e6ece/final--lanting--out--museum------4K--2471e8382db5.mp4",
+          "id": 652452308
+        },
+        {
+          "name": "final--lanting--out--time-bridge------1080p--c448d0426462.mp4",
+          "bytes": 182675421,
+          "digest": "sha256:c448d04264628266a7080b62264d552571f3813078380eac3b666b21d43533d4",
+          "kind": "video",
+          "platform": "B站",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-lanting-f250ec5e6ece/final--lanting--out--time-bridge------1080p--c448d0426462.mp4",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/final-lanting-f250ec5e6ece/final--lanting--out--time-bridge------1080p--c448d0426462.mp4",
+          "id": 652454386
+        },
+        {
+          "name": "final--lanting--out--time-bridge------4K--8e41a82c51e4.mp4",
+          "bytes": 770129376,
+          "digest": "sha256:8e41a82c51e45b7a0fd8e7692daf189e2174667d9f04e92be68fa94d55a6b188",
+          "kind": "video",
+          "platform": "B站",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-lanting-f250ec5e6ece/final--lanting--out--time-bridge------4K--8e41a82c51e4.mp4",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/final-lanting-f250ec5e6ece/final--lanting--out--time-bridge------4K--8e41a82c51e4.mp4",
+          "id": 652454994
+        },
+        {
+          "name": "final--lanting--out--bebefa8d5043.mp4",
+          "bytes": 202565502,
+          "digest": "sha256:bebefa8d50433498743e9fbf40e53efa855912eb3775e817e8de65cb8022b2c6",
+          "kind": "video",
+          "platform": "B站",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-lanting-f250ec5e6ece/final--lanting--out--bebefa8d5043.mp4",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/final-lanting-f250ec5e6ece/final--lanting--out--bebefa8d5043.mp4",
+          "id": 652457166
+        }
+      ],
+      "release_draft": false
+    },
+    {
+      "id": "madman",
+      "title": "Final 成片备份 · 狂人日记",
+      "release_tag": "final-madman-3b74dd038604",
+      "release_url": "https://github.com/jggagi/video-making/releases/tag/final-madman-3b74dd038604",
+      "assets": [
+        {
+          "name": "final--madman--out--madman------v5-1080p--671923eda74a.mp4",
+          "bytes": 34979820,
+          "digest": "sha256:671923eda74aab3b09ab723cbb182ebee877eaa286ac49e406ce45dfb721bc7e",
+          "kind": "video",
+          "platform": "B站",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-madman-3b74dd038604/final--madman--out--madman------v5-1080p--671923eda74a.mp4",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/final-madman-3b74dd038604/final--madman--out--madman------v5-1080p--671923eda74a.mp4",
+          "id": 652457935
+        },
+        {
+          "name": "final--madman--out--madman------v1-1080p--56e7dfb8b8dd.mp4",
+          "bytes": 57455105,
+          "digest": "sha256:56e7dfb8b8dd988eb9927ff8f8b082e993250f3ce252ef1781471a06dbad494d",
+          "kind": "video",
+          "platform": "B站",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-madman-3b74dd038604/final--madman--out--madman------v1-1080p--56e7dfb8b8dd.mp4",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/final-madman-3b74dd038604/final--madman--out--madman------v1-1080p--56e7dfb8b8dd.mp4",
+          "id": 652458018
+        },
+        {
+          "name": "final--madman--out--madman------v2-1080p--7d709339a515.mp4",
+          "bytes": 57635815,
+          "digest": "sha256:7d709339a515cb45d01bfabfd82f7101045e40658b1be79565e851b40303681c",
+          "kind": "video",
+          "platform": "B站",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-madman-3b74dd038604/final--madman--out--madman------v2-1080p--7d709339a515.mp4",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/final-madman-3b74dd038604/final--madman--out--madman------v2-1080p--7d709339a515.mp4",
+          "id": 652458148
+        },
+        {
+          "name": "final--madman--out--madman------v4-1080p--795871b25d54.mp4",
+          "bytes": 44037667,
+          "digest": "sha256:795871b25d54bd7e266842904dfa10247de69603e8035bb0e72e5d9455ab3cfa",
+          "kind": "video",
+          "platform": "B站",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-madman-3b74dd038604/final--madman--out--madman------v4-1080p--795871b25d54.mp4",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/final-madman-3b74dd038604/final--madman--out--madman------v4-1080p--795871b25d54.mp4",
+          "id": 652458311
+        }
+      ],
+      "release_draft": false
+    },
+    {
+      "id": "qstory-ep03",
+      "title": "Final 成片备份 · 余问 QStory EP.03：十万亿个分身",
+      "release_tag": "final-qstory-ep03-078e54164654",
+      "release_url": "https://github.com/jggagi/video-making/releases/tag/final-qstory-ep03-078e54164654",
+      "assets": [
+        {
+          "name": "final--qstory-ep03--qstory-ep03--out--QStory-EP03---4K--088a33698608.mp4",
+          "bytes": 128286647,
+          "digest": "sha256:088a3369860885d9bbfc3516336799856e260582619565cf13b28296fd8efcf4",
+          "kind": "video",
+          "platform": "B站",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-qstory-ep03-078e54164654/final--qstory-ep03--qstory-ep03--out--QStory-EP03---4K--088a33698608.mp4",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/final-qstory-ep03-078e54164654/final--qstory-ep03--qstory-ep03--out--QStory-EP03---4K--088a33698608.mp4",
+          "id": 652458633
+        }
+      ],
+      "release_draft": false
+    },
+    {
+      "id": "si-cage-7plus2",
+      "title": "Final 成片备份 · 7±2 的囚笼",
+      "release_tag": "final-si-cage-7plus2-7ce13d05c1b6",
+      "release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-cage-7plus2-7ce13d05c1b6",
+      "assets": [
+        {
+          "name": "final--si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-1080p--e08c1bc00614.mp4",
+          "bytes": 92645526,
+          "digest": "sha256:e08c1bc00614201f57b1b1a7c6143d82a1ec9e64958fff69f21cb387e52f6cbb",
+          "kind": "video",
+          "platform": "B站",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-cage-7plus2-7ce13d05c1b6/final--si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-1080p--e08c1bc00614.mp4",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-cage-7plus2-7ce13d05c1b6/final--si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-1080p--e08c1bc00614.mp4",
+          "id": 652459170
+        },
+        {
+          "name": "final--si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-uhd-v3-4k--73195073e6fa.mp4",
+          "bytes": 247421265,
+          "digest": "sha256:73195073e6fa96e2cdc90dec0cbf6690bee965d8ba2de0e0fc575cdd4f18bb86",
+          "kind": "video",
+          "platform": "B站",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-cage-7plus2-7ce13d05c1b6/final--si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-uhd-v3-4k--73195073e6fa.mp4",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-cage-7plus2-7ce13d05c1b6/final--si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-uhd-v3-4k--73195073e6fa.mp4",
+          "id": 652459439
+        },
+        {
+          "name": "final--si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-voiced-v2-1080p--f6f7b34821e5.mp4",
+          "bytes": 92669296,
+          "digest": "sha256:f6f7b34821e573223f27d5a66ff08dda01e550364a0fef0e502f1a551252d25b",
+          "kind": "video",
+          "platform": "B站",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-cage-7plus2-7ce13d05c1b6/final--si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-voiced-v2-1080p--f6f7b34821e5.mp4",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-cage-7plus2-7ce13d05c1b6/final--si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-voiced-v2-1080p--f6f7b34821e5.mp4",
+          "id": 652460064
+        },
+        {
+          "name": "final--si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-xhs-v1-1080x1920--7f73b80017c8.mp4",
+          "bytes": 14667073,
+          "digest": "sha256:7f73b80017c81f25bbbf4bd873906d6e3c183e238ce8acce3c6ebf43b67b7d33",
+          "kind": "video",
+          "platform": "小红书",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-cage-7plus2-7ce13d05c1b6/final--si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-xhs-v1-1080x1920--7f73b80017c8.mp4",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-cage-7plus2-7ce13d05c1b6/final--si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-xhs-v1-1080x1920--7f73b80017c8.mp4",
+          "id": 652460268
+        },
+        {
+          "name": "final--si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-xhs-v1-4k--113910360392.mp4",
+          "bytes": 45456126,
+          "digest": "sha256:113910360392d5a3c858ec07bb2c03d0b35b79ef61bdb75e162c54ba082c16bc",
+          "kind": "video",
+          "platform": "小红书",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-cage-7plus2-7ce13d05c1b6/final--si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-xhs-v1-4k--113910360392.mp4",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-cage-7plus2-7ce13d05c1b6/final--si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-xhs-v1-4k--113910360392.mp4",
+          "id": 652460344
+        }
+      ],
+      "release_draft": false
+    },
+    {
+      "id": "si-ep03-million-mind-v02",
+      "title": "Final 成片备份 · 百万分身｜THE MILLION-FOLD MIND · EP.03 第二版",
+      "release_tag": "final-si-ep03-million-mind-v02-9517e8e05dfb",
+      "release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep03-million-mind-v02-9517e8e05dfb",
+      "assets": [
+        {
+          "name": "final--si-ep03-million-mind-v02--deliveries--si-ep03-million-mind-v02--B---si-ep03-million-mind-v02-bilibili-120s-4k--4186fdfcd977.mp4",
+          "bytes": 210515816,
+          "digest": "sha256:4186fdfcd9770f2f216a9b8a023839a0b28058c0b2f5e26ad8239f4ab15a2a81",
+          "kind": "video",
+          "platform": "B站",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep03-million-mind-v02-9517e8e05dfb/final--si-ep03-million-mind-v02--deliveries--si-ep03-million-mind-v02--B---si-ep03-million-mind-v02-bilibili-120s-4k--4186fdfcd977.mp4",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep03-million-mind-v02-9517e8e05dfb/final--si-ep03-million-mind-v02--deliveries--si-ep03-million-mind-v02--B---si-ep03-million-mind-v02-bilibili-120s-4k--4186fdfcd977.mp4",
+          "id": 652460688
+        },
+        {
+          "name": "final--si-ep03-million-mind-v02--deliveries--si-ep03-million-mind-v02-----si-ep03-million-mind-v02-xiaohongshu-120s-portrait--54d248dab782.mp4",
+          "bytes": 163679998,
+          "digest": "sha256:54d248dab782e4bc89658a4354019ad58a7ec51577b8cd3a4db21eeeaf86f0eb",
+          "kind": "video",
+          "platform": "小红书",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep03-million-mind-v02-9517e8e05dfb/final--si-ep03-million-mind-v02--deliveries--si-ep03-million-mind-v02-----si-ep03-million-mind-v02-xiaohongshu-120s-portrait--54d248dab782.mp4",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep03-million-mind-v02-9517e8e05dfb/final--si-ep03-million-mind-v02--deliveries--si-ep03-million-mind-v02-----si-ep03-million-mind-v02-xiaohongshu-120s-portrait--54d248dab782.mp4",
+          "id": 652461336
+        }
+      ],
+      "release_draft": false
+    },
+    {
+      "id": "si-ep04-self-deceiving-god",
+      "title": "Final 成片备份 · 神也会自我欺骗",
+      "release_tag": "final-si-ep04-self-deceiving-god-bfac5c887fdd",
+      "release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep04-self-deceiving-god-bfac5c887fdd",
+      "assets": [
+        {
+          "name": "final--si-ep04-self-deceiving-god--deliveries--si-ep04-self-deceiving-god--B---si-ep04-self-deceiving-god-bilibili-120s-4k--ff373b6c1db8.mp4",
+          "bytes": 291089318,
+          "digest": "sha256:ff373b6c1db88b93dc94fe032526a64273044bbb268f4ee5b9461f1b01cdbef3",
+          "kind": "video",
+          "platform": "B站",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep04-self-deceiving-god-bfac5c887fdd/final--si-ep04-self-deceiving-god--deliveries--si-ep04-self-deceiving-god--B---si-ep04-self-deceiving-god-bilibili-120s-4k--ff373b6c1db8.mp4",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep04-self-deceiving-god-bfac5c887fdd/final--si-ep04-self-deceiving-god--deliveries--si-ep04-self-deceiving-god--B---si-ep04-self-deceiving-god-bilibili-120s-4k--ff373b6c1db8.mp4",
+          "id": 656159557
+        },
+        {
+          "name": "final--si-ep04-self-deceiving-god--deliveries--si-ep04-self-deceiving-god-----si-ep04-self-deceiving-god-xiaohongshu-120s-portrait--c836ee94b7bc.mp4",
+          "bytes": 268073693,
+          "digest": "sha256:c836ee94b7bc7c030797a639e0975f242740c265eb4fc740f690f4f910a49ed0",
+          "kind": "video",
+          "platform": "小红书",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep04-self-deceiving-god-bfac5c887fdd/final--si-ep04-self-deceiving-god--deliveries--si-ep04-self-deceiving-god-----si-ep04-self-deceiving-god-xiaohongshu-120s-portrait--c836ee94b7bc.mp4",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep04-self-deceiving-god-bfac5c887fdd/final--si-ep04-self-deceiving-god--deliveries--si-ep04-self-deceiving-god-----si-ep04-self-deceiving-god-xiaohongshu-120s-portrait--c836ee94b7bc.mp4",
+          "id": 656160679
+        }
+      ],
+      "release_draft": false
+    },
+    {
+      "id": "si-ep04-verifier-paradox",
+      "title": "Final 成片备份 · 神也会自我欺骗｜THE VERIFIER PARADOX · EP.04",
+      "release_tag": "final-si-ep04-verifier-paradox-c7bcd4c3eca0",
+      "release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep04-verifier-paradox-c7bcd4c3eca0",
+      "assets": [
+        {
+          "name": "final--si-ep04-verifier-paradox--deliveries--si-ep04-verifier-paradox--B---si-ep04-verifier-paradox-bilibili-120s-4k--df28c2bf6485.mp4",
+          "bytes": 240713684,
+          "digest": "sha256:df28c2bf6485f325a5320f0665adb42c9f8406794466c7c20b85ae2dce59dbc2",
+          "kind": "video",
+          "platform": "B站",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep04-verifier-paradox-c7bcd4c3eca0/final--si-ep04-verifier-paradox--deliveries--si-ep04-verifier-paradox--B---si-ep04-verifier-paradox-bilibili-120s-4k--df28c2bf6485.mp4",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep04-verifier-paradox-c7bcd4c3eca0/final--si-ep04-verifier-paradox--deliveries--si-ep04-verifier-paradox--B---si-ep04-verifier-paradox-bilibili-120s-4k--df28c2bf6485.mp4",
+          "id": 653525878
+        },
+        {
+          "name": "final--si-ep04-verifier-paradox--deliveries--si-ep04-verifier-paradox-----si-ep04-verifier-paradox-xiaohongshu-120s-portrait--a5efd1439126.mp4",
+          "bytes": 219832016,
+          "digest": "sha256:a5efd1439126c9d5837d08ef4bef86bffc71a3500b750d3d2b64ea78008a1b00",
+          "kind": "video",
+          "platform": "小红书",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep04-verifier-paradox-c7bcd4c3eca0/final--si-ep04-verifier-paradox--deliveries--si-ep04-verifier-paradox-----si-ep04-verifier-paradox-xiaohongshu-120s-portrait--a5efd1439126.mp4",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep04-verifier-paradox-c7bcd4c3eca0/final--si-ep04-verifier-paradox--deliveries--si-ep04-verifier-paradox-----si-ep04-verifier-paradox-xiaohongshu-120s-portrait--a5efd1439126.mp4",
+          "id": 653526569
+        }
+      ],
+      "release_draft": false
+    },
+    {
+      "id": "si-ep04-verifier-paradox-v02",
+      "title": "Final 成片备份 · 神也会自我欺骗 · v2 机制图解版",
+      "release_tag": "final-si-ep04-verifier-paradox-v02-365c1634ab37",
+      "release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep04-verifier-paradox-v02-365c1634ab37",
+      "assets": [
+        {
+          "name": "final--si-ep04-verifier-paradox-v02--deliveries--si-ep04-verifier-paradox-v02--B---si-ep04-verifier-paradox-v02-bilibili-120s-4k--89637a2afe80.mp4",
+          "bytes": 54552026,
+          "digest": "sha256:89637a2afe80d75063a8b49887a4484a688637e9e104c669d4417bc2c5ffe9e3",
+          "kind": "video",
+          "platform": "B站",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep04-verifier-paradox-v02-365c1634ab37/final--si-ep04-verifier-paradox-v02--deliveries--si-ep04-verifier-paradox-v02--B---si-ep04-verifier-paradox-v02-bilibili-120s-4k--89637a2afe80.mp4",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep04-verifier-paradox-v02-365c1634ab37/final--si-ep04-verifier-paradox-v02--deliveries--si-ep04-verifier-paradox-v02--B---si-ep04-verifier-paradox-v02-bilibili-120s-4k--89637a2afe80.mp4",
+          "id": 653659345
+        },
+        {
+          "name": "final--si-ep04-verifier-paradox-v02--deliveries--si-ep04-verifier-paradox-v02-----si-ep04-verifier-paradox-v02-xiaohongshu-120s-portrait--61a9935ef4da.mp4",
+          "bytes": 55718671,
+          "digest": "sha256:61a9935ef4daa810e7c8d6fe28efeecb5e98edbc3d112bf1c9ad4b17aab94fe0",
+          "kind": "video",
+          "platform": "小红书",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep04-verifier-paradox-v02-365c1634ab37/final--si-ep04-verifier-paradox-v02--deliveries--si-ep04-verifier-paradox-v02-----si-ep04-verifier-paradox-v02-xiaohongshu-120s-portrait--61a9935ef4da.mp4",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep04-verifier-paradox-v02-365c1634ab37/final--si-ep04-verifier-paradox-v02--deliveries--si-ep04-verifier-paradox-v02-----si-ep04-verifier-paradox-v02-xiaohongshu-120s-portrait--61a9935ef4da.mp4",
+          "id": 653659518
+        }
+      ],
+      "release_draft": false
+    },
+    {
+      "id": "si-ep04-verifier-paradox-v03",
+      "title": "Final 成片备份 · 神也会自我欺骗 · v3 直观结尾版",
+      "release_tag": "final-si-ep04-verifier-paradox-v03-fbbf6de2043c",
+      "release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep04-verifier-paradox-v03-fbbf6de2043c",
+      "assets": [
+        {
+          "name": "final--si-ep04-verifier-paradox-v03--deliveries--si-ep04-verifier-paradox-v03--B---si-ep04-verifier-paradox-v03-bilibili-120s-4k--95e5b554fd5e.mp4",
+          "bytes": 50952126,
+          "digest": "sha256:95e5b554fd5e2ea4f900f7dfc1590ce24ea36b3b5a09e217a692024577a11cf1",
+          "kind": "video",
+          "platform": "B站",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep04-verifier-paradox-v03-fbbf6de2043c/final--si-ep04-verifier-paradox-v03--deliveries--si-ep04-verifier-paradox-v03--B---si-ep04-verifier-paradox-v03-bilibili-120s-4k--95e5b554fd5e.mp4",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep04-verifier-paradox-v03-fbbf6de2043c/final--si-ep04-verifier-paradox-v03--deliveries--si-ep04-verifier-paradox-v03--B---si-ep04-verifier-paradox-v03-bilibili-120s-4k--95e5b554fd5e.mp4",
+          "id": 653812197
+        },
+        {
+          "name": "final--si-ep04-verifier-paradox-v03--deliveries--si-ep04-verifier-paradox-v03-----si-ep04-verifier-paradox-v03-xiaohongshu-120s-portrait--86265036cd83.mp4",
+          "bytes": 52377962,
+          "digest": "sha256:86265036cd83dc690e9e4970aba4984e4f75aa7fa7e0a6f0bbee7d409cf91143",
+          "kind": "video",
+          "platform": "小红书",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep04-verifier-paradox-v03-fbbf6de2043c/final--si-ep04-verifier-paradox-v03--deliveries--si-ep04-verifier-paradox-v03-----si-ep04-verifier-paradox-v03-xiaohongshu-120s-portrait--86265036cd83.mp4",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep04-verifier-paradox-v03-fbbf6de2043c/final--si-ep04-verifier-paradox-v03--deliveries--si-ep04-verifier-paradox-v03-----si-ep04-verifier-paradox-v03-xiaohongshu-120s-portrait--86265036cd83.mp4",
+          "id": 653812412
+        }
+      ],
+      "release_draft": false
+    },
+    {
+      "id": "si-ep05-landauer-limit",
+      "title": "Final 成片备份 · 兰道尔极限｜THE LANDAUER LIMIT · EP.05",
+      "release_tag": "final-si-ep05-landauer-limit-0028c8c759f4",
+      "release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep05-landauer-limit-0028c8c759f4",
+      "assets": [
+        {
+          "name": "final--si-ep05-landauer-limit--deliveries--si-ep05-landauer-limit--B---si-ep05-landauer-limit-bilibili-120s-4k--2a5e6b526773.mp4",
+          "bytes": 173518083,
+          "digest": "sha256:2a5e6b526773da3e6401dba4c73c30a93b746347207557eacd4b5253d6852473",
+          "kind": "video",
+          "platform": "B站",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep05-landauer-limit-0028c8c759f4/final--si-ep05-landauer-limit--deliveries--si-ep05-landauer-limit--B---si-ep05-landauer-limit-bilibili-120s-4k--2a5e6b526773.mp4",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep05-landauer-limit-0028c8c759f4/final--si-ep05-landauer-limit--deliveries--si-ep05-landauer-limit--B---si-ep05-landauer-limit-bilibili-120s-4k--2a5e6b526773.mp4",
+          "id": 653722312
+        },
+        {
+          "name": "final--si-ep05-landauer-limit--deliveries--si-ep05-landauer-limit-----si-ep05-landauer-limit-xiaohongshu-120s-portrait--7a1d9822c94a.mp4",
+          "bytes": 171355743,
+          "digest": "sha256:7a1d9822c94a0d77450c2355cf432e1bff937f7827bb49ea40a1c6b6a770c7c0",
+          "kind": "video",
+          "platform": "小红书",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep05-landauer-limit-0028c8c759f4/final--si-ep05-landauer-limit--deliveries--si-ep05-landauer-limit-----si-ep05-landauer-limit-xiaohongshu-120s-portrait--7a1d9822c94a.mp4",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep05-landauer-limit-0028c8c759f4/final--si-ep05-landauer-limit--deliveries--si-ep05-landauer-limit-----si-ep05-landauer-limit-xiaohongshu-120s-portrait--7a1d9822c94a.mp4",
+          "id": 653722842
+        }
+      ],
+      "release_draft": false
+    },
+    {
+      "id": "si-ep05-landauer-limit-v02",
+      "title": "Final 成片备份 · 兰道尔极限｜窒息与冷寂 · EP.05 v02",
+      "release_tag": "final-si-ep05-landauer-limit-v02-5b36c0d69bc3",
+      "release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep05-landauer-limit-v02-5b36c0d69bc3",
+      "assets": [
+        {
+          "name": "final--si-ep05-landauer-limit-v02--deliveries--si-ep05-landauer-limit-v02--B---si-ep05-landauer-limit-v02-bilibili-120s-4k--354e60f2c607.mp4",
+          "bytes": 254711520,
+          "digest": "sha256:354e60f2c607b9dd6613d4a813702e6ea884e92ad3f44a6e92c9ff1eb34a890b",
+          "kind": "video",
+          "platform": "B站",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep05-landauer-limit-v02-5b36c0d69bc3/final--si-ep05-landauer-limit-v02--deliveries--si-ep05-landauer-limit-v02--B---si-ep05-landauer-limit-v02-bilibili-120s-4k--354e60f2c607.mp4",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep05-landauer-limit-v02-5b36c0d69bc3/final--si-ep05-landauer-limit-v02--deliveries--si-ep05-landauer-limit-v02--B---si-ep05-landauer-limit-v02-bilibili-120s-4k--354e60f2c607.mp4",
+          "id": 656056726
+        },
+        {
+          "name": "final--si-ep05-landauer-limit-v02--deliveries--si-ep05-landauer-limit-v02-----si-ep05-landauer-limit-v02-xiaohongshu-120s-portrait--cd8839587847.mp4",
+          "bytes": 222442539,
+          "digest": "sha256:cd8839587847091e689efcecc4d8b6da55e6e04ba752f5223c788829e4407806",
+          "kind": "video",
+          "platform": "小红书",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep05-landauer-limit-v02-5b36c0d69bc3/final--si-ep05-landauer-limit-v02--deliveries--si-ep05-landauer-limit-v02-----si-ep05-landauer-limit-v02-xiaohongshu-120s-portrait--cd8839587847.mp4",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep05-landauer-limit-v02-5b36c0d69bc3/final--si-ep05-landauer-limit-v02--deliveries--si-ep05-landauer-limit-v02-----si-ep05-landauer-limit-v02-xiaohongshu-120s-portrait--cd8839587847.mp4",
+          "id": 656058070
+        }
+      ],
+      "release_draft": false
+    },
+    {
+      "id": "si-ep05-landauer-limit-v03",
+      "title": "Final 成片备份 · 兰道尔极限｜稳定画面与氛围音乐 · EP.05 v03",
+      "release_tag": "final-si-ep05-landauer-limit-v03-2c74a5edf096",
+      "release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep05-landauer-limit-v03-2c74a5edf096",
+      "assets": [
+        {
+          "name": "final--si-ep05-landauer-limit-v03--deliveries--si-ep05-landauer-limit-v03--B---si-ep05-landauer-limit-v03-bilibili-120s-4k--12c642ba64d5.mp4",
+          "bytes": 187241112,
+          "digest": "sha256:12c642ba64d552b3839cf1cf2928d2cbff53a4549851fdf2797c2fc58e0c798a",
+          "kind": "video",
+          "platform": "B站",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep05-landauer-limit-v03-2c74a5edf096/final--si-ep05-landauer-limit-v03--deliveries--si-ep05-landauer-limit-v03--B---si-ep05-landauer-limit-v03-bilibili-120s-4k--12c642ba64d5.mp4",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep05-landauer-limit-v03-2c74a5edf096/final--si-ep05-landauer-limit-v03--deliveries--si-ep05-landauer-limit-v03--B---si-ep05-landauer-limit-v03-bilibili-120s-4k--12c642ba64d5.mp4",
+          "id": 656283457
+        },
+        {
+          "name": "final--si-ep05-landauer-limit-v03--deliveries--si-ep05-landauer-limit-v03-----si-ep05-landauer-limit-v03-xiaohongshu-120s-portrait--ab2765c6fb02.mp4",
+          "bytes": 202164075,
+          "digest": "sha256:ab2765c6fb0220216ae6418f65df0dcb0a03a7b989780a41cde806ffda4594b9",
+          "kind": "video",
+          "platform": "小红书",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep05-landauer-limit-v03-2c74a5edf096/final--si-ep05-landauer-limit-v03--deliveries--si-ep05-landauer-limit-v03-----si-ep05-landauer-limit-v03-xiaohongshu-120s-portrait--ab2765c6fb02.mp4",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep05-landauer-limit-v03-2c74a5edf096/final--si-ep05-landauer-limit-v03--deliveries--si-ep05-landauer-limit-v03-----si-ep05-landauer-limit-v03-xiaohongshu-120s-portrait--ab2765c6fb02.mp4",
+          "id": 656284342
+        }
+      ],
+      "release_draft": false
+    },
+    {
+      "id": "si-ep06-sovereign-crystal",
+      "title": "Final 成片备份 · 主权心印｜THE SOVEREIGN SOUL CRYSTAL · EP.06",
+      "release_tag": "final-si-ep06-sovereign-crystal-17a9981f3b94",
+      "release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep06-sovereign-crystal-17a9981f3b94",
+      "assets": [
+        {
+          "name": "final--si-ep06-sovereign-crystal--deliveries--si-ep06-sovereign-crystal--B---si-ep06-sovereign-crystal-bilibili-120s-4k--b1ef98636d10.mp4",
+          "bytes": 162732424,
+          "digest": "sha256:b1ef98636d1072853461fdc7032b94959c94634206632aa316188bd7aee13f8d",
+          "kind": "video",
+          "platform": "B站",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep06-sovereign-crystal-17a9981f3b94/final--si-ep06-sovereign-crystal--deliveries--si-ep06-sovereign-crystal--B---si-ep06-sovereign-crystal-bilibili-120s-4k--b1ef98636d10.mp4",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep06-sovereign-crystal-17a9981f3b94/final--si-ep06-sovereign-crystal--deliveries--si-ep06-sovereign-crystal--B---si-ep06-sovereign-crystal-bilibili-120s-4k--b1ef98636d10.mp4",
+          "id": 655178225
+        },
+        {
+          "name": "final--si-ep06-sovereign-crystal--deliveries--si-ep06-sovereign-crystal-----si-ep06-sovereign-crystal-xiaohongshu-120s-portrait--57d2303244f5.mp4",
+          "bytes": 157289697,
+          "digest": "sha256:57d2303244f5bdc85574a716a08582348b309caae69eb2518019ec9db27a5cb1",
+          "kind": "video",
+          "platform": "小红书",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep06-sovereign-crystal-17a9981f3b94/final--si-ep06-sovereign-crystal--deliveries--si-ep06-sovereign-crystal-----si-ep06-sovereign-crystal-xiaohongshu-120s-portrait--57d2303244f5.mp4",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep06-sovereign-crystal-17a9981f3b94/final--si-ep06-sovereign-crystal--deliveries--si-ep06-sovereign-crystal-----si-ep06-sovereign-crystal-xiaohongshu-120s-portrait--57d2303244f5.mp4",
+          "id": 655178993
+        }
+      ],
+      "release_draft": false
+    },
+    {
+      "id": "si-ep06-sovereign-crystal-v02",
+      "title": "Final 成片备份 · 主权心印｜THE SOVEREIGN SOUL CRYSTAL · EP.06 · v02",
+      "release_tag": "final-si-ep06-sovereign-crystal-v02-269fc619d08f",
+      "release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep06-sovereign-crystal-v02-269fc619d08f",
+      "assets": [
+        {
+          "name": "final--si-ep06-sovereign-crystal-v02--deliveries--si-ep06-sovereign-crystal-v02--B---si-ep06-sovereign-crystal-v02-bilibili-120s-4k--5d57f695c0d4.mp4",
+          "bytes": 115813246,
+          "digest": "sha256:5d57f695c0d430005e5528cb0cd2c2d48a19104ff5ef8a2d0f5399999987816c",
+          "kind": "video",
+          "platform": "B站",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep06-sovereign-crystal-v02-269fc619d08f/final--si-ep06-sovereign-crystal-v02--deliveries--si-ep06-sovereign-crystal-v02--B---si-ep06-sovereign-crystal-v02-bilibili-120s-4k--5d57f695c0d4.mp4",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep06-sovereign-crystal-v02-269fc619d08f/final--si-ep06-sovereign-crystal-v02--deliveries--si-ep06-sovereign-crystal-v02--B---si-ep06-sovereign-crystal-v02-bilibili-120s-4k--5d57f695c0d4.mp4",
+          "id": 655527612
+        },
+        {
+          "name": "final--si-ep06-sovereign-crystal-v02--deliveries--si-ep06-sovereign-crystal-v02-----si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait--1fbe8b12d420.mp4",
+          "bytes": 65136600,
+          "digest": "sha256:1fbe8b12d420772f817fa22e3b06ee6e78388673ea725cf9b408187dc70a9361",
+          "kind": "video",
+          "platform": "小红书",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep06-sovereign-crystal-v02-269fc619d08f/final--si-ep06-sovereign-crystal-v02--deliveries--si-ep06-sovereign-crystal-v02-----si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait--1fbe8b12d420.mp4",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep06-sovereign-crystal-v02-269fc619d08f/final--si-ep06-sovereign-crystal-v02--deliveries--si-ep06-sovereign-crystal-v02-----si-ep06-sovereign-crystal-v02-xiaohongshu-120s-portrait--1fbe8b12d420.mp4",
+          "id": 655527983
+        }
+      ],
+      "release_draft": false
+    },
+    {
+      "id": "si-ep07-untranslatable-tongue",
+      "title": "Final 成片备份 · 后人类黑话",
+      "release_tag": "final-si-ep07-untranslatable-tongue-1dd8685e0b06",
+      "release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep07-untranslatable-tongue-1dd8685e0b06",
+      "assets": [
+        {
+          "name": "final--si-ep07-untranslatable-tongue--deliveries--si-ep07-untranslatable-tongue--B---si-ep07-untranslatable-tongue-bilibili-120s-4k--4ff0e36dbd83.mp4",
+          "bytes": 140747756,
+          "digest": "sha256:4ff0e36dbd83474ff8af2524d32d5ae9a7d2c4d4e0e8040282ee1cfdee52accb",
+          "kind": "video",
+          "platform": "B站",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep07-untranslatable-tongue-1dd8685e0b06/final--si-ep07-untranslatable-tongue--deliveries--si-ep07-untranslatable-tongue--B---si-ep07-untranslatable-tongue-bilibili-120s-4k--4ff0e36dbd83.mp4",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep07-untranslatable-tongue-1dd8685e0b06/final--si-ep07-untranslatable-tongue--deliveries--si-ep07-untranslatable-tongue--B---si-ep07-untranslatable-tongue-bilibili-120s-4k--4ff0e36dbd83.mp4",
+          "id": 656893491
+        },
+        {
+          "name": "final--si-ep07-untranslatable-tongue--deliveries--si-ep07-untranslatable-tongue-----si-ep07-untranslatable-tongue-xiaohongshu-120s-portrait--8bf20c0583cc.mp4",
+          "bytes": 109913039,
+          "digest": "sha256:8bf20c0583cc289fbb5f43391d6c9a0ebaa9e01b641d7b37b0df9e0e03708852",
+          "kind": "video",
+          "platform": "小红书",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep07-untranslatable-tongue-1dd8685e0b06/final--si-ep07-untranslatable-tongue--deliveries--si-ep07-untranslatable-tongue-----si-ep07-untranslatable-tongue-xiaohongshu-120s-portrait--8bf20c0583cc.mp4",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep07-untranslatable-tongue-1dd8685e0b06/final--si-ep07-untranslatable-tongue--deliveries--si-ep07-untranslatable-tongue-----si-ep07-untranslatable-tongue-xiaohongshu-120s-portrait--8bf20c0583cc.mp4",
+          "id": 656894106
+        }
+      ],
+      "release_draft": false
+    },
+    {
+      "id": "si-ep07-untranslatable-tongue-v02",
+      "title": "Final 成片备份 · 后人类黑话 · v02（系列配音）",
+      "release_tag": "final-si-ep07-untranslatable-tongue-v02-a0b06851b5cc",
+      "release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep07-untranslatable-tongue-v02-a0b06851b5cc",
+      "assets": [
+        {
+          "name": "final--si-ep07-untranslatable-tongue-v02--deliveries--si-ep07-untranslatable-tongue-v02--B---si-ep07-untranslatable-tongue-v02-bilibili-120s-4k--2e7478f36e9e.mp4",
+          "bytes": 153918132,
+          "digest": "sha256:2e7478f36e9e4dbbacb640a53f2579f808c992d41243bcf04393a274f26bbdfb",
+          "kind": "video",
+          "platform": "B站",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep07-untranslatable-tongue-v02-a0b06851b5cc/final--si-ep07-untranslatable-tongue-v02--deliveries--si-ep07-untranslatable-tongue-v02--B---si-ep07-untranslatable-tongue-v02-bilibili-120s-4k--2e7478f36e9e.mp4",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep07-untranslatable-tongue-v02-a0b06851b5cc/final--si-ep07-untranslatable-tongue-v02--deliveries--si-ep07-untranslatable-tongue-v02--B---si-ep07-untranslatable-tongue-v02-bilibili-120s-4k--2e7478f36e9e.mp4",
+          "id": 657015285
+        },
+        {
+          "name": "final--si-ep07-untranslatable-tongue-v02--deliveries--si-ep07-untranslatable-tongue-v02-----si-ep07-untranslatable-tongue-v02-xiaohongshu-120s-portrait--7621a7e36efc.mp4",
+          "bytes": 115535635,
+          "digest": "sha256:7621a7e36efc7e2057060ff7aeae2c3eec51cab0603870b7e83d3313a5bdaa16",
+          "kind": "video",
+          "platform": "小红书",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep07-untranslatable-tongue-v02-a0b06851b5cc/final--si-ep07-untranslatable-tongue-v02--deliveries--si-ep07-untranslatable-tongue-v02-----si-ep07-untranslatable-tongue-v02-xiaohongshu-120s-portrait--7621a7e36efc.mp4",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep07-untranslatable-tongue-v02-a0b06851b5cc/final--si-ep07-untranslatable-tongue-v02--deliveries--si-ep07-untranslatable-tongue-v02-----si-ep07-untranslatable-tongue-v02-xiaohongshu-120s-portrait--7621a7e36efc.mp4",
+          "id": 657015868
+        }
+      ],
+      "release_draft": false
+    },
+    {
+      "id": "si-ep08-folded-matter",
+      "title": "Final 成片备份 · 被折叠的造物",
+      "release_tag": "final-si-ep08-folded-matter-fb067a56db5a",
+      "release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep08-folded-matter-fb067a56db5a",
+      "assets": [
+        {
+          "name": "final--si-ep08-folded-matter--deliveries--si-ep08-folded-matter--B---si-ep08-folded-matter-bilibili-120s-4k--2d408725eb21.mp4",
+          "bytes": 159834859,
+          "digest": "sha256:2d408725eb215602f6bedfc78200037371320eb067e2a6adedcd2740a1bc0cea",
+          "kind": "video",
+          "platform": "B站",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep08-folded-matter-fb067a56db5a/final--si-ep08-folded-matter--deliveries--si-ep08-folded-matter--B---si-ep08-folded-matter-bilibili-120s-4k--2d408725eb21.mp4",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep08-folded-matter-fb067a56db5a/final--si-ep08-folded-matter--deliveries--si-ep08-folded-matter--B---si-ep08-folded-matter-bilibili-120s-4k--2d408725eb21.mp4",
+          "id": 657032032
+        },
+        {
+          "name": "final--si-ep08-folded-matter--deliveries--si-ep08-folded-matter-----si-ep08-folded-matter-xiaohongshu-120s-portrait--65c2f5d25ec8.mp4",
+          "bytes": 169658525,
+          "digest": "sha256:65c2f5d25ec86e72fbaedf4b619e8eb7c4d82c760c1c8ed829a7736650a1ff88",
+          "kind": "video",
+          "platform": "小红书",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep08-folded-matter-fb067a56db5a/final--si-ep08-folded-matter--deliveries--si-ep08-folded-matter-----si-ep08-folded-matter-xiaohongshu-120s-portrait--65c2f5d25ec8.mp4",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep08-folded-matter-fb067a56db5a/final--si-ep08-folded-matter--deliveries--si-ep08-folded-matter-----si-ep08-folded-matter-xiaohongshu-120s-portrait--65c2f5d25ec8.mp4",
+          "id": 657032611
+        }
+      ],
+      "release_draft": false
+    },
+    {
+      "id": "si-ep09-computing-destiny",
+      "title": "Final 成片备份 · 被算尽的心动",
+      "release_tag": "final-si-ep09-computing-destiny-1c5575dd24dc",
+      "release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep09-computing-destiny-1c5575dd24dc",
+      "assets": [
+        {
+          "name": "final--si-ep09-computing-destiny--deliveries--si-ep09-computing-destiny-----si-ep09-computing-destiny-xiaohongshu-90s-portrait--c9f5514809d7.mp4",
+          "bytes": 60904573,
+          "digest": "sha256:c9f5514809d710849f12ca4074a9f89b5e954cb25dd439b01c7f959a9641cfa1",
+          "kind": "video",
+          "platform": "小红书",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep09-computing-destiny-1c5575dd24dc/final--si-ep09-computing-destiny--deliveries--si-ep09-computing-destiny-----si-ep09-computing-destiny-xiaohongshu-90s-portrait--c9f5514809d7.mp4",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep09-computing-destiny-1c5575dd24dc/final--si-ep09-computing-destiny--deliveries--si-ep09-computing-destiny-----si-ep09-computing-destiny-xiaohongshu-90s-portrait--c9f5514809d7.mp4",
+          "id": 658295985
+        }
+      ],
+      "release_draft": false
+    },
+    {
+      "id": "si-ep10-dopamine-greenhouse",
+      "title": "Final 成片备份 · 多巴胺温室",
+      "release_tag": "final-si-ep10-dopamine-greenhouse-7544f52c8da8",
+      "release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep10-dopamine-greenhouse-7544f52c8da8",
+      "assets": [
+        {
+          "name": "final--si-ep10-dopamine-greenhouse--deliveries--si-ep10-dopamine-greenhouse-----si-ep10-dopamine-greenhouse-xiaohongshu-90s-portrait--2241fd76ba65.mp4",
+          "bytes": 110824973,
+          "digest": "sha256:2241fd76ba65c08758a84813f0f13bbe125f1d5ca6f868a090e56e85e44323b0",
+          "kind": "video",
+          "platform": "小红书",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep10-dopamine-greenhouse-7544f52c8da8/final--si-ep10-dopamine-greenhouse--deliveries--si-ep10-dopamine-greenhouse-----si-ep10-dopamine-greenhouse-xiaohongshu-90s-portrait--2241fd76ba65.mp4",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep10-dopamine-greenhouse-7544f52c8da8/final--si-ep10-dopamine-greenhouse--deliveries--si-ep10-dopamine-greenhouse-----si-ep10-dopamine-greenhouse-xiaohongshu-90s-portrait--2241fd76ba65.mp4",
+          "id": 658977938
+        }
+      ],
+      "release_draft": false
+    },
+    {
+      "id": "si-ep10-dopamine-greenhouse-v02",
+      "title": "Final 成片备份 · 多巴胺温室 · 视觉升级 v2",
+      "release_tag": "final-si-ep10-dopamine-greenhouse-v02-a9096c5156c1",
+      "release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep10-dopamine-greenhouse-v02-a9096c5156c1",
+      "assets": [
+        {
+          "name": "final--si-ep10-dopamine-greenhouse-v02--deliveries--si-ep10-dopamine-greenhouse-v02-----si-ep10-dopamine-greenhouse-v02-xiaohongshu-90s-portrait--ba6a03b06831.mp4",
+          "bytes": 137248140,
+          "digest": "sha256:ba6a03b0683160109d72d4fccf65eba651ce7dc8c47a29716f6ddc3c60d21e89",
+          "kind": "video",
+          "platform": "小红书",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep10-dopamine-greenhouse-v02-a9096c5156c1/final--si-ep10-dopamine-greenhouse-v02--deliveries--si-ep10-dopamine-greenhouse-v02-----si-ep10-dopamine-greenhouse-v02-xiaohongshu-90s-portrait--ba6a03b06831.mp4",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep10-dopamine-greenhouse-v02-a9096c5156c1/final--si-ep10-dopamine-greenhouse-v02--deliveries--si-ep10-dopamine-greenhouse-v02-----si-ep10-dopamine-greenhouse-v02-xiaohongshu-90s-portrait--ba6a03b06831.mp4",
+          "id": 659213284
+        }
+      ],
+      "release_draft": false
+    },
+    {
+      "id": "si-eternity",
+      "title": "Final 成片备份 · 一眼万年",
+      "release_tag": "final-si-eternity-66d480b1c859",
+      "release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-eternity-66d480b1c859",
+      "assets": [
+        {
+          "name": "final--si-eternity--si-eternity--out--one-blink-ten-millennia-v3--4ef2326bf22b.mp4",
+          "bytes": 82206028,
+          "digest": "sha256:4ef2326bf22b443c58e6d9eff8379ac73ac450d0bb37c711853c1db4ba722e31",
+          "kind": "video",
+          "platform": "B站",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-eternity-66d480b1c859/final--si-eternity--si-eternity--out--one-blink-ten-millennia-v3--4ef2326bf22b.mp4",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-eternity-66d480b1c859/final--si-eternity--si-eternity--out--one-blink-ten-millennia-v3--4ef2326bf22b.mp4",
+          "id": 652461913
+        },
+        {
+          "name": "final--si-eternity--si-eternity--out--the-half-second-eternity-voiced-v2--cfe44315e6cb.mp4",
+          "bytes": 81031943,
+          "digest": "sha256:cfe44315e6cbc55b17d316c2e56f9ee78411f56a42bea07240c1a4b4a8c3e957",
+          "kind": "video",
+          "platform": "B站",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-eternity-66d480b1c859/final--si-eternity--si-eternity--out--the-half-second-eternity-voiced-v2--cfe44315e6cb.mp4",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-eternity-66d480b1c859/final--si-eternity--si-eternity--out--the-half-second-eternity-voiced-v2--cfe44315e6cb.mp4",
+          "id": 652462180
+        },
+        {
+          "name": "final--si-eternity--si-eternity--out--the-half-second-eternity--5b4fa1a41cec.mp4",
+          "bytes": 76671341,
+          "digest": "sha256:5b4fa1a41cecf13c779eed6b60fdb9eb54aa4c3f5940d25881f5ae45a9378f88",
+          "kind": "video",
+          "platform": "B站",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-eternity-66d480b1c859/final--si-eternity--si-eternity--out--the-half-second-eternity--5b4fa1a41cec.mp4",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-eternity-66d480b1c859/final--si-eternity--si-eternity--out--the-half-second-eternity--5b4fa1a41cec.mp4",
+          "id": 652462436
+        },
+        {
+          "name": "final--si-eternity--si-eternity--out--one-blink-ten-millennia-portrait-v4--94da6f6fb30c.mp4",
+          "bytes": 64272277,
+          "digest": "sha256:94da6f6fb30ce1cc8e555a0068b559d21bed894e14150743cf33591f974e629a",
+          "kind": "video",
+          "platform": "小红书",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-eternity-66d480b1c859/final--si-eternity--si-eternity--out--one-blink-ten-millennia-portrait-v4--94da6f6fb30c.mp4",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-eternity-66d480b1c859/final--si-eternity--si-eternity--out--one-blink-ten-millennia-portrait-v4--94da6f6fb30c.mp4",
+          "id": 652462609
+        }
+      ],
+      "release_draft": false
+    }
+  ]
+}

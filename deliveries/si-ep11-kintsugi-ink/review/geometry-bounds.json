@@ -1,0 +1,27 @@
+{
+  "method": "Transpiled the actual Terrain.tsx and Eternity.tsx with the installed TypeScript compiler; scanned every integer frame in the requested ranges. Terrain bounds include projected grid vertices, the 128-point clip silhouette, sampled ridge points, and particle polygon/trail paths. Eternity bounds use makeRibbonCells at 96 sections, sampled visible sections, and exact quadratic extrema plus stroke widths for figure paths.",
+  "logicalCanvas": [1080, 1920],
+  "limits": {
+    "safe": {"minX": 64.8, "minY": 153.6, "maxX": 928.8, "maxY": 1497.6},
+    "intendedSubjectY": {"min": 520, "max": 1270}
+  },
+  "terrainFrames": "0..4379",
+  "terrain": {
+    "projectedGridBeforeClip": {"minX": 114.97, "minY": 512.99, "maxX": 894.9, "maxY": 1172.55},
+    "organicClipSilhouette": {"minX": 149.94, "minY": 520.17, "maxX": 871.33, "maxY": 1167.65},
+    "particleAndTrailPathsBeforeClip": {"minX": 205.6, "minY": 498, "maxX": 670.1, "maxY": 1133.3},
+    "unclippedRidgeStroke": {"minX": 143.99, "minY": 512.01, "maxX": 834.59, "maxY": 781.27},
+    "renderedUnionIncludingRimAndShadow": {"minX": 143.99, "minY": 512.01, "maxX": 871.98, "maxY": 1184.65},
+    "safeLimit": "pass",
+    "intendedY": "fails at top by 7.99 px due to the ridge stroke drawn outside the clip; bottom passes by 85.35 px"
+  },
+  "eternityFrames": "4380..5399",
+  "eternity": {
+    "fullRibbon96SectionsIncludingStroke": {"minX": 218.13, "minY": 564.73, "maxX": 862.58, "maxY": 1239.18},
+    "actuallyVisibleRibbonIncludingStroke": {"minX": 218.13, "minY": 564.73, "maxX": 862.58, "maxY": 1238.28},
+    "figurePathsIncludingStroke": {"minX": 334, "minY": 692.05, "maxX": 746, "maxY": 1197.67},
+    "risingParticlesIncludingRadius": {"minX": 232.3, "minY": 601, "maxX": 854.91, "maxY": 1245.83},
+    "safeLimit": "pass for all measured geometry",
+    "intendedY": "pass for ribbon, figures, and rising particles"
+  }
+}

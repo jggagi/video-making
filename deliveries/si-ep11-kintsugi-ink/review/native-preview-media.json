@@ -1,0 +1,113 @@
+[
+  {
+    "path": "review/motion-120-299.mp4",
+    "sha256": "9396253bf3606a55c557d21751aa3f7ec7d39ed1e73737cf40763547e2c46cbb",
+    "container_seconds": "3.008000",
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "h264",
+        "width": 2160,
+        "height": 3840,
+        "r_frame_rate": "60/1",
+        "nb_frames": "180",
+        "duration": "3.000000",
+        "sample_rate": null,
+        "channels": null,
+        "pix_fmt": "yuv420p",
+        "color_space": "bt709",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709"
+      },
+      {
+        "codec_type": "audio",
+        "codec_name": "aac",
+        "width": null,
+        "height": null,
+        "r_frame_rate": "0/0",
+        "nb_frames": "143",
+        "duration": "3.008000",
+        "sample_rate": "48000",
+        "channels": 2,
+        "pix_fmt": null,
+        "color_space": null,
+        "color_primaries": null,
+        "color_transfer": null
+      }
+    ]
+  },
+  {
+    "path": "review/motion-2940-3119.mp4",
+    "sha256": "1909c07b52bfb0690d39d20e3c5b9c7127389f578e6167642d2e7abbbfec517b",
+    "container_seconds": "3.008000",
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "h264",
+        "width": 2160,
+        "height": 3840,
+        "r_frame_rate": "60/1",
+        "nb_frames": "180",
+        "duration": "3.000000",
+        "sample_rate": null,
+        "channels": null,
+        "pix_fmt": "yuv420p",
+        "color_space": "bt709",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709"
+      },
+      {
+        "codec_type": "audio",
+        "codec_name": "aac",
+        "width": null,
+        "height": null,
+        "r_frame_rate": "0/0",
+        "nb_frames": "143",
+        "duration": "3.008000",
+        "sample_rate": "48000",
+        "channels": 2,
+        "pix_fmt": null,
+        "color_space": null,
+        "color_primaries": null,
+        "color_transfer": null
+      }
+    ]
+  },
+  {
+    "path": "review/motion-4800-5099.mp4",
+    "sha256": "0287f74a6442e21458704c6e15bf08da965d252b6c2fcdc229782aace86ae3ea",
+    "container_seconds": "5.013000",
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "h264",
+        "width": 2160,
+        "height": 3840,
+        "r_frame_rate": "60/1",
+        "nb_frames": "300",
+        "duration": "5.000000",
+        "sample_rate": null,
+        "channels": null,
+        "pix_fmt": "yuv420p",
+        "color_space": "bt709",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709"
+      },
+      {
+        "codec_type": "audio",
+        "codec_name": "aac",
+        "width": null,
+        "height": null,
+        "r_frame_rate": "0/0",
+        "nb_frames": "237",
+        "duration": "5.013000",
+        "sample_rate": "48000",
+        "channels": 2,
+        "pix_fmt": null,
+        "color_space": null,
+        "color_primaries": null,
+        "color_transfer": null
+      }
+    ]
+  }
+]

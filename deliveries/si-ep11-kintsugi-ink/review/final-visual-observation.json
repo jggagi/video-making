@@ -1,0 +1,70 @@
+{
+  "status": "MODEL_OBSERVED",
+  "media_sha256": "88db88150c5113a071a618039b44555247463def090f44de05eb58def8a8f454",
+  "scope": "Final encodedMP4 representativeframe, motionpair and nativepixelcrop observation; separatefromhumanaudienceacceptance",
+  "representative_frames": [
+    0,
+    120,
+    600,
+    960,
+    1560,
+    2280,
+    2940,
+    3540,
+    3900,
+    4500,
+    4859,
+    4860,
+    4889,
+    4890,
+    5040,
+    5160,
+    5399
+  ],
+  "observations": [
+    "Openingtitle, Waddingtonporcelainterrain and finalpairedhumanfigures fit the criticalsafearea.",
+    "Corrected count37万亿 is shown with person-to-person variation note; fictionaltelemetry qualification persistentexceptquietbeat.",
+    "Goldveins advance between1560/1710 and2280/2430; gray and goldparticletrailschangepositions in120/270,960/1110,2940/3090,3900/4050.",
+    "Goldribbon visibly growsbetween4500/4650 then slowlychangesprojectionbetween5040/5190; motionproofexcludestelemetrycounterdifferences.",
+    "Frames4860..4889 retain deepinkblackwithfaintnoncriticalfooter; 30framequietintervalisnotclaimedpixelblack.",
+    "At5040goldribbonenclosesrecognizableporcelainwirefiguresholdinghands; closingquoteappearsinreadablephrasechunks.",
+    "Native1:1cropsfrom2280and5040showfinecontours,letteredges,goldfoilwireanddarkaura; nosevereposterizedbandingobservedintheinspectedregions.",
+    "Finalframecontainsclosingtitle, visiblefigure/ribbon and scientificdisclaimer; captionhadcompletednaturallybeforeend.",
+    "Coverv01hadacroppedfragmentoforiginalsubtitleattopofart; sourcecropadjustedfromy1000to1080andcoverregeneratedusingtheverifiedsame84secondframe. Finalcoverinspectedwithoutthefragment."
+  ],
+  "evidence": [
+    {
+      "path": "review/encoded-qa-88db88150c51/motion-pairs-contact-01.jpg",
+      "sha256": "09c62cf755afa14eb33575f86a9a7757a0bf778fd5a18810a776c0d0fdc3cc34"
+    },
+    {
+      "path": "review/encoded-qa-88db88150c51/motion-pairs-contact-02.jpg",
+      "sha256": "c3454b405399429c301bbb0ef1ba251f0397fcb938929312c4357d23b83333c4"
+    },
+    {
+      "path": "review/encoded-qa-88db88150c51/native-dark-detail.jpg",
+      "sha256": "b823bd3b59d4736df9f2e2c38940a689fdcd866dfc9ead47cd88f272cff1d035"
+    },
+    {
+      "path": "review/encoded-qa-88db88150c51/representative-contact.jpg",
+      "sha256": "e3aa85308d9779da3250fad12320af2dba1b10527266f9ebd0f8a0f9ce9e8280"
+    }
+  ],
+  "continuous_human_review": "NOT_RUN",
+  "human_listening": "NOT_RUN",
+  "target_device_playback": "NOT_RUN",
+  "actual_audience_feedback": "NOT_RUN",
+  "desktop_browser_playback": {
+    "browser": "Codexinappbrowser",
+    "duration_seconds": 90.005,
+    "ended": true,
+    "readyState": 4,
+    "error": null,
+    "native_dimensions": [
+      2160,
+      3840
+    ],
+    "observed_css_width": 185.9375,
+    "readability_evidence": "Separate encodedcontactsheetwascreatedat360pxperportrait; actualinapppanewasnarrowerthanrequestedviewportoverride."
+  }
+}

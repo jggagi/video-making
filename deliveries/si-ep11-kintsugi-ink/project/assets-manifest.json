@@ -1,0 +1,261 @@
+{
+  "version": 1,
+  "sharedAssets": true,
+  "platforms": [
+    "xiaohongshu"
+  ],
+  "visuals": {
+    "method": "deterministic vector geometry rendered natively in Remotion; no cloud image/video calls",
+    "sources": [
+      "src/Terrain.tsx",
+      "src/Eternity.tsx",
+      "src/Film.tsx"
+    ]
+  },
+  "audio": [
+    {
+      "id": "audio-canonical/S01-b193f7592462.wav",
+      "path": "public/audio/canonical/S01-b193f7592462.wav",
+      "bytes": 288044,
+      "sha256": "99ea60f1cb56df9e8a3a83237532d0ca94d93232e76d48285f35f0bae1e4d916"
+    },
+    {
+      "id": "audio-canonical/S02-ec503a3f953c.wav",
+      "path": "public/audio/canonical/S02-ec503a3f953c.wav",
+      "bytes": 457004,
+      "sha256": "045e3c4ec77407989e8efa9f31535bc7d306478155c65b364ee85a874c743aeb"
+    },
+    {
+      "id": "audio-canonical/S03-ddf1e459d6e8.wav",
+      "path": "public/audio/canonical/S03-ddf1e459d6e8.wav",
+      "bytes": 422444,
+      "sha256": "ea09969225dac654c39c1d62cba8e09a3002705012c60ae666eef28d209aa744"
+    },
+    {
+      "id": "audio-canonical/S04-afec1acc26bd.wav",
+      "path": "public/audio/canonical/S04-afec1acc26bd.wav",
+      "bytes": 441644,
+      "sha256": "2d6127f80331c5fa9564a86c8760f52bb23957f714959019e3e4d33a5efbc817"
+    },
+    {
+      "id": "audio-canonical/S05-5d111538f7c4.wav",
+      "path": "public/audio/canonical/S05-5d111538f7c4.wav",
+      "bytes": 407084,
+      "sha256": "c68b0305dab6b4d3c9f2f67e7724d01cdbb8af6bd2d0fd9a1fcfc54a361a076e"
+    },
+    {
+      "id": "audio-canonical/S06-cf9ebef39ed6.wav",
+      "path": "public/audio/canonical/S06-cf9ebef39ed6.wav",
+      "bytes": 422444,
+      "sha256": "c9dffdc594c216d63808e2c61c85e47c4dbd48ab1f73326cadd4df1141ab9d84"
+    },
+    {
+      "id": "audio-canonical/S07-d4cd14b70845.wav",
+      "path": "public/audio/canonical/S07-d4cd14b70845.wav",
+      "bytes": 184364,
+      "sha256": "f261ae3389cd52aa37d35f373518ebbe571cfdcdfbb7b11f56aeddecfd3a021f"
+    },
+    {
+      "id": "audio-canonical/S08-05de0e8dd904.wav",
+      "path": "public/audio/canonical/S08-05de0e8dd904.wav",
+      "bytes": 391724,
+      "sha256": "0124b4f9fed39ee4cb3f471cf5d5f860f0d380b7d1e1e3552d54557b251e5bf2"
+    },
+    {
+      "id": "audio-cues/S01-b193f7592462.wav",
+      "path": "public/audio/cues/S01-b193f7592462.wav",
+      "bytes": 576078,
+      "sha256": "c813cc76b8bc707707fddd83a8329e7b9570d2ce3a28b62d94ece915dd52d189"
+    },
+    {
+      "id": "audio-cues/S02-ec503a3f953c.wav",
+      "path": "public/audio/cues/S02-ec503a3f953c.wav",
+      "bytes": 913998,
+      "sha256": "f8e8482e7cb3412286f44ac349d3c4f6ba9436018f79317fa22d89ccfd94d6d0"
+    },
+    {
+      "id": "audio-cues/S03-ddf1e459d6e8.wav",
+      "path": "public/audio/cues/S03-ddf1e459d6e8.wav",
+      "bytes": 844878,
+      "sha256": "5acf88f23bf332916f13fe0404c00ace8220aa871fb5839daa5f2dd7cb08cabf"
+    },
+    {
+      "id": "audio-cues/S04-afec1acc26bd.wav",
+      "path": "public/audio/cues/S04-afec1acc26bd.wav",
+      "bytes": 883278,
+      "sha256": "99d9d0cec0812760795a7a60835907ac4f81366eb4b5164e874d7dfe2030c750"
+    },
+    {
+      "id": "audio-cues/S05-5d111538f7c4.wav",
+      "path": "public/audio/cues/S05-5d111538f7c4.wav",
+      "bytes": 814158,
+      "sha256": "5966a4aa1ffb0c89bebf01ff442d65b3f6fde810922a7161dfaca3497736c760"
+    },
+    {
+      "id": "audio-cues/S06-cf9ebef39ed6.wav",
+      "path": "public/audio/cues/S06-cf9ebef39ed6.wav",
+      "bytes": 844878,
+      "sha256": "0ec2b68abf15f9959b15dff7709c58deb3440ff03b205e4ba18ccde342b853cf"
+    },
+    {
+      "id": "audio-cues/S07-d4cd14b70845.wav",
+      "path": "public/audio/cues/S07-d4cd14b70845.wav",
+      "bytes": 368718,
+      "sha256": "af7e536f9f9511eb0e293140c135c7db62c888cb0cf456fce64f3f352dd15cc0"
+    },
+    {
+      "id": "audio-cues/S08-05de0e8dd904.wav",
+      "path": "public/audio/cues/S08-05de0e8dd904.wav",
+      "bytes": 783438,
+      "sha256": "baf494555a9674228faaee273660fbe49d29a4c5170a99f132534b860f1782ba"
+    },
+    {
+      "id": "audio-master.wav",
+      "path": "public/audio/master.wav",
+      "bytes": 17280044,
+      "sha256": "bd70e9318b69de2b67b7cfff46340c11313b93c3e489a05628f056f0cfba1c86"
+    },
+    {
+      "id": "audio-mix-manifest.json",
+      "path": "public/audio/mix-manifest.json",
+      "bytes": 17916,
+      "sha256": "15a2f04d4fcd8a10e290f25986465e8357391bd43f490ce7e92cc3d8269cca8d"
+    },
+    {
+      "id": "audio-mix-settings.json",
+      "path": "public/audio/mix-settings.json",
+      "bytes": 19505,
+      "sha256": "babe42e8202845627ded927b6d9ec991c2416bfa11e6262366cfe2189132310d"
+    },
+    {
+      "id": "audio-narration.wav",
+      "path": "public/audio/narration.wav",
+      "bytes": 17280044,
+      "sha256": "e17f2d03018716cdddb84d81c4ba3c4c91f1517f512ce7c722d312406a93fa79"
+    },
+    {
+      "id": "audio-provider-manifest.json",
+      "path": "public/audio/provider-manifest.json",
+      "bytes": 13156,
+      "sha256": "f71bef967a0baa88ea084d9263d38e215e4a3ef899d035efee7c0ec8c622c4b4"
+    },
+    {
+      "id": "audio-raw/S01-b193f7592462.wav",
+      "path": "public/audio/raw/S01-b193f7592462.wav",
+      "bytes": 288044,
+      "sha256": "fb89182208729883f6be9d74bcfe3204fd306bf8a03351df80de75df0300e4da"
+    },
+    {
+      "id": "audio-raw/S02-ec503a3f953c.wav",
+      "path": "public/audio/raw/S02-ec503a3f953c.wav",
+      "bytes": 457004,
+      "sha256": "c8ff89c8bef0ec1277770703f41a66c80f3b57f2df2f315bdd5a163198671e1b"
+    },
+    {
+      "id": "audio-raw/S03-ddf1e459d6e8.wav",
+      "path": "public/audio/raw/S03-ddf1e459d6e8.wav",
+      "bytes": 422444,
+      "sha256": "fa5bd47ee03e8150368aef2604c8af29785c9a05360053dbdf35cd71febd7dda"
+    },
+    {
+      "id": "audio-raw/S04-afec1acc26bd.wav",
+      "path": "public/audio/raw/S04-afec1acc26bd.wav",
+      "bytes": 441644,
+      "sha256": "724f219d1abd103ec2999aa7680ff5829476b6314996cb2a8c1b0401a924eb36"
+    },
+    {
+      "id": "audio-raw/S05-5d111538f7c4.wav",
+      "path": "public/audio/raw/S05-5d111538f7c4.wav",
+      "bytes": 407084,
+      "sha256": "e6a20eafb7507fcd57b997af630ad4dd60d4dc52ba8bdc3bd3f79a55d0b920cb"
+    },
+    {
+      "id": "audio-raw/S06-cf9ebef39ed6.wav",
+      "path": "public/audio/raw/S06-cf9ebef39ed6.wav",
+      "bytes": 422444,
+      "sha256": "2606d8b0f95117e69508b6c1c07485bfc3c823ff65dee650681d5ce6ce3b7351"
+    },
+    {
+      "id": "audio-raw/S07-d4cd14b70845.wav",
+      "path": "public/audio/raw/S07-d4cd14b70845.wav",
+      "bytes": 184364,
+      "sha256": "72a18ceb32a3d56aeda66df96877f388bd84ac1eabce466c79e99ca279179910"
+    },
+    {
+      "id": "audio-raw/S08-05de0e8dd904.wav",
+      "path": "public/audio/raw/S08-05de0e8dd904.wav",
+      "bytes": 391724,
+      "sha256": "219117f16b0b1bfbfe0153165f91e2f1e7b00a0bbeb09d8496b9705fdf985288"
+    },
+    {
+      "id": "audio-score.wav",
+      "path": "public/audio/score.wav",
+      "bytes": 17280044,
+      "sha256": "99d328aedccee8d72f36a1fa965c6502c38480f1b831a8f32d19ce2c37a2b732"
+    },
+    {
+      "id": "audio-sfx.wav",
+      "path": "public/audio/sfx.wav",
+      "bytes": 17280044,
+      "sha256": "ef4e5d7331379f54a01c3d5ddc5a3f8126fbcea65e3faf25c176ac2f75919941"
+    },
+    {
+      "id": "audio-tts-input/S01-b193f7592462.txt",
+      "path": "public/audio/tts-input/S01-b193f7592462.txt",
+      "bytes": 81,
+      "sha256": "21382cfcc049e1a94cd1cac86f79724dc7f932baafa8e3dcfff42390bf906ecf"
+    },
+    {
+      "id": "audio-tts-input/S02-ec503a3f953c.txt",
+      "path": "public/audio/tts-input/S02-ec503a3f953c.txt",
+      "bytes": 120,
+      "sha256": "8960ef0b6cc788781ae3105b8179306987c2c48130e8593d6d63be571d8cdd4f"
+    },
+    {
+      "id": "audio-tts-input/S03-ddf1e459d6e8.txt",
+      "path": "public/audio/tts-input/S03-ddf1e459d6e8.txt",
+      "bytes": 123,
+      "sha256": "5582806215ab97a59c43878512c01576fc5a64c086da35aadd34d59a253efb8a"
+    },
+    {
+      "id": "audio-tts-input/S04-afec1acc26bd.txt",
+      "path": "public/audio/tts-input/S04-afec1acc26bd.txt",
+      "bytes": 135,
+      "sha256": "2ea56872433830077b7cfcd55683416a8ad08fad2c816e03d86f3f81a3e6b633"
+    },
+    {
+      "id": "audio-tts-input/S05-5d111538f7c4.txt",
+      "path": "public/audio/tts-input/S05-5d111538f7c4.txt",
+      "bytes": 132,
+      "sha256": "e2a36568b3e9ffd7288b1a5be1608e1d791abf6aa8acedd43ad8e3c667684199"
+    },
+    {
+      "id": "audio-tts-input/S06-cf9ebef39ed6.txt",
+      "path": "public/audio/tts-input/S06-cf9ebef39ed6.txt",
+      "bytes": 120,
+      "sha256": "5ba3f9223015ad114fd8c6e744863cbdc3c4b358bba054cd97547ee9c48e6f6c"
+    },
+    {
+      "id": "audio-tts-input/S07-d4cd14b70845.txt",
+      "path": "public/audio/tts-input/S07-d4cd14b70845.txt",
+      "bytes": 57,
+      "sha256": "f3bd7b8101fbcc610a625b12d865352cc1c77a2cf6c52266e15de229993560e0"
+    },
+    {
+      "id": "audio-tts-input/S08-05de0e8dd904.txt",
+      "path": "public/audio/tts-input/S08-05de0e8dd904.txt",
+      "bytes": 123,
+      "sha256": "bb30945965ef058f282ce3b38741528bc4cc3d97c4aac177a2ede6545a978c98"
+    }
+  ],
+  "fonts": {
+    "systemLocal": [
+      "PingFang SC",
+      "Menlo"
+    ],
+    "note": "Uses locally installed macOS fonts; no remote font requests; proprietary system fonts not redistributed. Rebuild on another machine requires equivalent licensed fonts."
+  },
+  "voice_cache": "public/audio/provider-manifest.json",
+  "procedural_score": "public/audio/mix-settings.json",
+  "no_asr_uploads": true
+}

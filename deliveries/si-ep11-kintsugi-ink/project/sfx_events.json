@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "fps": 60,
+  "sampleRate": 48000,
+  "samplesPerFrame": 800,
+  "absoluteSilence": [
+    4860,
+    4890
+  ],
+  "events": [
+    {
+      "id": "ceramic_bowl",
+      "frame": 60,
+      "sample": 48000,
+      "durationSeconds": 4.4,
+      "description": "A ceramic bowl opens with soft brush noise and inharmonic resonances."
+    },
+    {
+      "id": "ink_descent",
+      "frame": 840,
+      "sample": 672000,
+      "durationSeconds": 5.5,
+      "description": "Smoky filtered ink descends through a slow, continuous pitch fall."
+    },
+    {
+      "id": "porcelain_crack",
+      "frame": 1560,
+      "sample": 1248000,
+      "durationSeconds": 1.6,
+      "description": "A restrained porcelain crack uses low body resonances and quiet high glints while leaving 1-4 kHz clear for speech."
+    },
+    {
+      "id": "gold_nozzle",
+      "frame": 2280,
+      "sample": 1824000,
+      "durationSeconds": 3.5,
+      "description": "Gold-nozzle harmonics shimmer with a slow, measured resonance."
+    },
+    {
+      "id": "upward_ink",
+      "frame": 2940,
+      "sample": 2352000,
+      "durationSeconds": 5.2,
+      "description": "A soft swarm of filtered ink tones rises through the D-pentatonic field."
+    },
+    {
+      "id": "guqin_resonance",
+      "frame": 3900,
+      "sample": 3120000,
+      "durationSeconds": 4.5,
+      "description": "A warm plucked-string resonance evokes a guqin timbre through procedural synthesis, not an authentic recording."
+    },
+    {
+      "id": "suspended_bell",
+      "frame": 4500,
+      "sample": 3600000,
+      "durationSeconds": 4.7,
+      "description": "A suspended bell thins and fades toward the exact digital silence."
+    },
+    {
+      "id": "gold_drop",
+      "frame": 4890,
+      "sample": 3912000,
+      "durationSeconds": 2.5,
+      "description": "A single warm, low gold droplet begins immediately after the 30-frame silence and resolves the final passage."
+    }
+  ]
+}

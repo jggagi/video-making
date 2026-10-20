@@ -1,0 +1,19 @@
+{
+  "constants": [
+    "BIOLOGICAL AGE INDEX",
+    "PORCELAIN FRACTURE ENTROPY",
+    "KINTSUGI CELLULAR REPROGRAMMING",
+    "MÖBIUS EQUILIBRIUM LOCKED",
+    "KINTSUGI SEALED",
+    "DIGITAL KINTSUGI OF TIME",
+    "SENESCENCE BASIN"
+  ],
+  "fictional": true,
+  "ages": [
+    20.0,
+    78.5,
+    22.0
+  ],
+  "entropy_max": 89.4,
+  "note": "All age and entropy telemetry illustrative, never measured biometrics."
+}

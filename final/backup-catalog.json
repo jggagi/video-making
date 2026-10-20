@@ -926,6 +926,30 @@
       ]
     },
     {
+      "id": "si-ep11-kintsugi-ink",
+      "title": "Final 成片备份 · 逆转的沙漏",
+      "release_tag": "final-si-ep11-kintsugi-ink-bc1f191cc5a5",
+      "assets": [
+        {
+          "path": "final/si-ep11-kintsugi-ink/小红书/si-ep11-kintsugi-ink-xiaohongshu-90s-portrait.mp4",
+          "name": "final--si-ep11-kintsugi-ink--deliveries--si-ep11-kintsugi-ink-----si-ep11-kintsugi-ink-xiaohongshu-90s-portrait--88db88150c51.mp4",
+          "bytes": 35639865,
+          "sha256": "88db88150c5113a071a618039b44555247463def090f44de05eb58def8a8f454",
+          "kind": "video",
+          "platform": "小红书",
+          "measurements": {
+            "width": 2160,
+            "height": 3840,
+            "fps": "60/1",
+            "frames": "5400",
+            "video_duration_seconds": 90.0,
+            "container_duration_seconds": 90.005
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep11-kintsugi-ink-bc1f191cc5a5/final--si-ep11-kintsugi-ink--deliveries--si-ep11-kintsugi-ink-----si-ep11-kintsugi-ink-xiaohongshu-90s-portrait--88db88150c51.mp4"
+        }
+      ]
+    },
+    {
       "id": "si-eternity",
       "title": "Final 成片备份 · 一眼万年",
       "release_tag": "final-si-eternity-66d480b1c859",

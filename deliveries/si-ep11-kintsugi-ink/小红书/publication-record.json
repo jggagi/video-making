@@ -1,0 +1,40 @@
+{
+  "platform": "小红书",
+  "work": "si-ep11-kintsugi-ink",
+  "status": "MEDIA_VALIDATED_READY_FOR_ARCHIVE",
+  "authorization_summary": "Attached user request explicitly asks render validate and publish this EP11 on Xiaohongshu at peak hours; user approved scientific revision.",
+  "account_display_name": "余问 QStory",
+  "duplicate_check": {
+    "status": "NO_MATCH_OBSERVED",
+    "checked_at_utc": null,
+    "scope": "Creator manager current all11 listing plus exact search逆转的沙漏 returned没有找到相关笔记; observation made during this production turn, exact tool timestamp not retained.",
+    "existing_match": false
+  },
+  "prepared": false,
+  "submission_attempted": false,
+  "submission_verified": false,
+  "publication_verified": false,
+  "public_visibility_verified": false,
+  "timing_plan": {
+    "kind": "platform_scheduled",
+    "local_date": "2026-10-21",
+    "local_time": "05:00",
+    "local_timezone": "America/Los_Angeles",
+    "audience_time": "2026-10-21 20:00 Asia/Shanghai",
+    "basis": "Editorial evening test for Chinese-language audience; no measured account peak data claimed."
+  },
+  "human_listening": "NOT_RUN",
+  "target_device_playback": "NOT_RUN",
+  "video_path": "deliveries/si-ep11-kintsugi-ink/小红书/si-ep11-kintsugi-ink-xiaohongshu-90s-portrait.mp4",
+  "video_sha256": "88db88150c5113a071a618039b44555247463def090f44de05eb58def8a8f454",
+  "video_bytes": 35639865,
+  "video_seconds": 90,
+  "container_seconds": 90.005,
+  "cover_path": "deliveries/si-ep11-kintsugi-ink/小红书/cover.png",
+  "cover_sha256": "86f4f22a32313f7ad99f471ec730b6e4e0bcadd6a0b89cf964c83e0fd326cae5",
+  "cover_source_frame": 5040,
+  "title": "如果永远年轻，白头偕老还算誓言吗？",
+  "body_path": "deliveries/si-ep11-kintsugi-ink/小红书/post.md",
+  "content_declaration_plan": "笔记含AI合成内容",
+  "visibility_plan": "公开可见"
+}

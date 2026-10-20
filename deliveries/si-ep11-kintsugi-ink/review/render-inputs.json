@@ -1,0 +1,42 @@
+{
+  "status": "CAPTURE_CONFIGURATION_RECORDED",
+  "width": 2160,
+  "height": 3840,
+  "fps": 60,
+  "frames": 5400,
+  "remotion": "4.0.534",
+  "chrome": "Google Chrome 155.0.8059.85",
+  "capture": "PNG",
+  "concurrency": 1,
+  "codec": "h264",
+  "crf": 18,
+  "x264_preset": "fast",
+  "color": "bt709",
+  "pixel_format": "yuv420p",
+  "audio": "AAC 320k 48kHz stereo from sole PCM master",
+  "fonts": [
+    {
+      "family": "PingFang SC",
+      "location": "local macOS font asset, not redistributed",
+      "sha256": "9ff3ce9439fe285cdabb46f9ceb46b1ac58f1ca07e6f4a764e8286db621a0af9"
+    },
+    {
+      "family": "Menlo",
+      "location": "local macOS font, not redistributed",
+      "sha256": "f2d400484a6aace67980730ec0a9ef24ce9e535a2604f118e6fdc2510021b85f"
+    }
+  ],
+  "no_render_network_generation": true,
+  "input_sha256": {
+    "project/src/Film.tsx": "bc0589a8e4e2de557c6395c5aad4db50594cf034ee0ec65a9b4c6000e52bcaf1",
+    "project/src/Terrain.tsx": "d84ed2360badad27e6ef84796f359d95e07472220d2644632c4da970e8f92445",
+    "project/src/Eternity.tsx": "5b892d1f46e4e4bd7c023a5a9d8b3188c6c6cc60836eeb97a85f735d6a74e170",
+    "project/src/Root.tsx": "f60bea0666c2d223541ce1eda520588ee0afff624447c5ac29efb72721397955",
+    "project/segments.json": "2cc45049799ea23df2ae4c2d885eb46e8558281f686b332e0a68842533bc716a",
+    "project/audio-timing.json": "521067980a45017d2ec7b70e645dbe578a897e583e37c4859361578c85cfc893",
+    "project/public/audio/master.wav": "bd70e9318b69de2b67b7cfff46340c11313b93c3e489a05628f056f0cfba1c86",
+    "project/package-lock.json": "0f163c413f593431033d5a03fed2d9e9466e71a405fba3ed48e4f87a32ed5976"
+  },
+  "discarded_attempt": "Initial full render interrupted at25% to restore requiredHUDline2#52525B; partial output preserved outsideformalmedia.",
+  "browser_gpu_options": "Default renderer/browser configuration; no global GPU toggles or fixed waits."
+}

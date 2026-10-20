@@ -1,0 +1,312 @@
+{
+  "schema_version": 1,
+  "status": "MEASURED",
+  "created_at_utc": "2026-10-20T15:35:37.085888+00:00",
+  "scope": "Encoded-media measurements and frame extraction. No visual, listening, audience, or device acceptance is inferred.",
+  "media": {
+    "path": "小红书/si-ep11-kintsugi-ink-xiaohongshu-90s-portrait.mp4",
+    "bytes": 35639865,
+    "sha256": "88db88150c5113a071a618039b44555247463def090f44de05eb58def8a8f454",
+    "video": {
+      "codec_name": "h264",
+      "width": 2160,
+      "height": 3840,
+      "avg_frame_rate": "60/1",
+      "r_frame_rate": "60/1",
+      "nb_frames": "5400",
+      "duration_seconds": 90.0,
+      "pix_fmt": "yuv420p",
+      "color_space": "bt709",
+      "color_transfer": "bt709",
+      "color_primaries": "bt709",
+      "parsed_frame_rate": {
+        "numerator": 60,
+        "denominator": 1
+      },
+      "parsed_frame_count": 5400
+    },
+    "audio": {
+      "codec_name": "aac",
+      "sample_rate": "48000",
+      "channels": 2,
+      "channel_layout": "stereo",
+      "duration": "90.005000",
+      "nb_frames": "4221"
+    }
+  },
+  "technical_checks": {
+    "dimensions": "PASS",
+    "frame_rate": "PASS",
+    "frame_count": "PASS",
+    "video_duration": "PASS",
+    "audio_codec": "PASS",
+    "audio_format": "PASS"
+  },
+  "representative_frames": [
+    {
+      "frame": 0,
+      "seconds": 0.0
+    },
+    {
+      "frame": 120,
+      "seconds": 2.0
+    },
+    {
+      "frame": 600,
+      "seconds": 10.0
+    },
+    {
+      "frame": 960,
+      "seconds": 16.0
+    },
+    {
+      "frame": 1560,
+      "seconds": 26.0
+    },
+    {
+      "frame": 2280,
+      "seconds": 38.0
+    },
+    {
+      "frame": 2940,
+      "seconds": 49.0
+    },
+    {
+      "frame": 3540,
+      "seconds": 59.0
+    },
+    {
+      "frame": 3900,
+      "seconds": 65.0
+    },
+    {
+      "frame": 4500,
+      "seconds": 75.0
+    },
+    {
+      "frame": 4859,
+      "seconds": 80.98333333333333
+    },
+    {
+      "frame": 4860,
+      "seconds": 81.0
+    },
+    {
+      "frame": 4889,
+      "seconds": 81.48333333333333
+    },
+    {
+      "frame": 4890,
+      "seconds": 81.5
+    },
+    {
+      "frame": 5040,
+      "seconds": 84.0
+    },
+    {
+      "frame": 5160,
+      "seconds": 86.0
+    },
+    {
+      "frame": 5399,
+      "seconds": 89.98333333333333
+    }
+  ],
+  "mobile_contact_sheet": {
+    "path": "review/encoded-qa-88db88150c51/representative-contact.jpg",
+    "bytes": 424194,
+    "sha256": "e3aa85308d9779da3250fad12320af2dba1b10527266f9ebd0f8a0f9ce9e8280"
+  },
+  "motion_pairs": [
+    {
+      "frames": [
+        120,
+        270
+      ],
+      "seconds": [
+        2.0,
+        4.5
+      ]
+    },
+    {
+      "frames": [
+        960,
+        1110
+      ],
+      "seconds": [
+        16.0,
+        18.5
+      ]
+    },
+    {
+      "frames": [
+        1560,
+        1710
+      ],
+      "seconds": [
+        26.0,
+        28.5
+      ]
+    },
+    {
+      "frames": [
+        2280,
+        2430
+      ],
+      "seconds": [
+        38.0,
+        40.5
+      ]
+    },
+    {
+      "frames": [
+        2940,
+        3090
+      ],
+      "seconds": [
+        49.0,
+        51.5
+      ]
+    },
+    {
+      "frames": [
+        3900,
+        4050
+      ],
+      "seconds": [
+        65.0,
+        67.5
+      ]
+    },
+    {
+      "frames": [
+        4500,
+        4650
+      ],
+      "seconds": [
+        75.0,
+        77.5
+      ]
+    },
+    {
+      "frames": [
+        5040,
+        5190
+      ],
+      "seconds": [
+        84.0,
+        86.5
+      ]
+    }
+  ],
+  "motion_pair_contact_sheets": [
+    {
+      "path": "review/encoded-qa-88db88150c51/motion-pairs-contact-01.jpg",
+      "bytes": 212216,
+      "sha256": "09c62cf755afa14eb33575f86a9a7757a0bf778fd5a18810a776c0d0fdc3cc34",
+      "pair_index": "01"
+    },
+    {
+      "path": "review/encoded-qa-88db88150c51/motion-pairs-contact-02.jpg",
+      "bytes": 248863,
+      "sha256": "c3454b405399429c301bbb0ef1ba251f0397fcb938929312c4357d23b83333c4",
+      "pair_index": "02"
+    }
+  ],
+  "native_inspection_frames": [
+    {
+      "path": "review/encoded-qa-88db88150c51/encoded-native-01.png",
+      "bytes": 1683566,
+      "sha256": "4194110a9f8e9c76f8fb1211451a08f951cafb91a410a57db790981c1470d761",
+      "frame": 2280,
+      "width": 2160,
+      "height": 3840
+    },
+    {
+      "path": "review/encoded-qa-88db88150c51/encoded-native-02.png",
+      "bytes": 2016578,
+      "sha256": "22ac1b0cfa2e60aa578846ff454b117275be30afddbd1bde7da75fe07a00c113",
+      "frame": 3540,
+      "width": 2160,
+      "height": 3840
+    },
+    {
+      "path": "review/encoded-qa-88db88150c51/encoded-native-03.png",
+      "bytes": 2163773,
+      "sha256": "417e17f3e7b4c13f31c9604cf9db3a467d09b83ab672fcb743ce7b4172bd674e",
+      "frame": 5040,
+      "width": 2160,
+      "height": 3840
+    }
+  ],
+  "audio_measurements": {
+    "ebur128": {
+      "integrated_lufs": -16.0,
+      "true_peak_dbfs": -1.5
+    },
+    "master": {
+      "path": "project/public/audio/master.wav",
+      "sha256": "bd70e9318b69de2b67b7cfff46340c11313b93c3e489a05628f056f0cfba1c86",
+      "channels": 2,
+      "sample_rate": 48000,
+      "sample_width_bytes": 2,
+      "samples_per_channel": 4320000,
+      "duration_seconds": 90.0
+    },
+    "decoded_aac": {
+      "samples_per_channel": 4320256,
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 90.00533333333334,
+      "audio_stream_duration_seconds": 90.005,
+      "container_duration_seconds": 90.005,
+      "sample_count_difference_vs_master": 256,
+      "correlation_windows": [
+        {
+          "seconds": [
+            1,
+            4
+          ],
+          "sample_range_per_channel": [
+            48000,
+            192000
+          ],
+          "samples_per_channel_compared": 144000,
+          "waveform_correlation": 0.999973558824172
+        },
+        {
+          "seconds": [
+            47,
+            50
+          ],
+          "sample_range_per_channel": [
+            2256000,
+            2400000
+          ],
+          "samples_per_channel_compared": 144000,
+          "waveform_correlation": 0.9999717860902176
+        },
+        {
+          "seconds": [
+            86,
+            89
+          ],
+          "sample_range_per_channel": [
+            4128000,
+            4272000
+          ],
+          "samples_per_channel_compared": 144000,
+          "waveform_correlation": 0.9999725935838394
+        }
+      ],
+      "padding_note": "AAC priming or end padding may change decoded sample count. Correlations use the same presentation-time sample ranges without shifting either stream."
+    }
+  },
+  "acceptance": {
+    "representative_visual_observation": "NOT_RUN",
+    "continuous_human_review": "NOT_RUN",
+    "human_listening": "NOT_RUN",
+    "target_device_playback": "NOT_RUN",
+    "note": "Contact sheets and native frames are evidence for review, not an observation or approval."
+  }
+}

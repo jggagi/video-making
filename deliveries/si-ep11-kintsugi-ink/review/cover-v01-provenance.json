@@ -1,0 +1,31 @@
+{
+  "status": "PREPARED",
+  "source": "exact encoded MP4 frame",
+  "media": "小红书/si-ep11-kintsugi-ink-xiaohongshu-90s-portrait.mp4",
+  "media_sha256": "88db88150c5113a071a618039b44555247463def090f44de05eb58def8a8f454",
+  "frame": 5040,
+  "seconds": 84,
+  "frame_path": "小红书/cover-frame-84s.png",
+  "frame_sha256": "417e17f3e7b4c13f31c9604cf9db3a467d09b83ab672fcb743ce7b4172bd674e",
+  "cover_path": "小红书/cover.png",
+  "cover_sha256": "ab85be4bab2bd49c2232d5c82d2e546ede99d2129c8dd3895f87d09ee3c164d9",
+  "cover_dimensions": [
+    1440,
+    1920
+  ],
+  "crop_source_pixels": [
+    300,
+    1000,
+    1800,
+    2560
+  ],
+  "art_placement": [
+    170,
+    610,
+    1100,
+    1144
+  ],
+  "title": "假如 AI 让人永远年轻，「白头偕老」会成为远古词汇吗？",
+  "revision": "User-approved scientific edit replaces certainty of forever25 with conditional imagined eternal youth.",
+  "font": "locally installed PingFang, not redistributed"
+}

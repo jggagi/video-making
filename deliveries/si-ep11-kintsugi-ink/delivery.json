@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "title": "逆转的沙漏",
+  "slug": "si-ep11-kintsugi-ink",
+  "platforms": [
+    "xiaohongshu"
+  ],
+  "duration_seconds": 90,
+  "fps": 60,
+  "total_frames": 5400,
+  "script": {
+    "path": "source/script.md",
+    "sha256": "21835d5c2d7e070e1d34af1a7e22dd055159d5cd554539889c9d46886de91dc5"
+  },
+  "audio": {
+    "mode": "narrated",
+    "master": "project/public/audio/master.wav",
+    "master_sha256": "bd70e9318b69de2b67b7cfff46340c11313b93c3e489a05628f056f0cfba1c86",
+    "samples_per_channel": 4320000,
+    "narration_provider": "Aliyun Bailian",
+    "effective_model": "cosyvoice-v3-flash",
+    "voice": "longtian_v3",
+    "integrated_lufs": -16.0,
+    "true_peak_dbtp": -1.6
+  },
+  "outputs": {
+    "xiaohongshu": {
+      "path": "小红书/si-ep11-kintsugi-ink-xiaohongshu-90s-portrait.mp4",
+      "width": 2160,
+      "height": 3840
+    }
+  },
+  "qa": {
+    "automated": "PASS",
+    "representative_frames": "MODEL_OBSERVED",
+    "continuous_human_review": "NOT_RUN",
+    "target_device_playback": "NOT_RUN",
+    "human_listening": "NOT_RUN"
+  },
+  "visual_qc": {
+    "required": true,
+    "reports": {
+      "xiaohongshu": "review/visual-qc-xiaohongshu/report.json"
+    }
+  }
+}

@@ -25,3 +25,4 @@
 - [被算尽的心动](si-ep09-computing-destiny/README.md)：8 个视频/工程资产。
 - [多巴胺温室](si-ep10-dopamine-greenhouse/README.md)：7 个视频/工程资产。
 - [多巴胺温室 · 视觉升级 v2](si-ep10-dopamine-greenhouse-v02/README.md)：8 个视频/工程资产。
+- [逆转的沙漏](si-ep11-kintsugi-ink/README.md)：5 个视频/工程资产。

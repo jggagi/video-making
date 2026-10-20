@@ -1,0 +1,295 @@
+{
+  "version": 1,
+  "settings": {
+    "provider": "Aliyun Bailian",
+    "model_selection": "active profile default",
+    "effective_model": "cosyvoice-v3-flash",
+    "voice": "longtian_v3",
+    "rate": 1.0,
+    "format": "wav",
+    "sample_rate": 24000
+  },
+  "authorization": {
+    "manifest": "project/audio-authorization.json",
+    "sha256AtInvocation": "266b5ee6dc78434d68d60be4a71249bbea0ee35290f988e57bc4a34db89520d2",
+    "scope": "EP11 S01 through S08 exact prepared tts_phonetic_text",
+    "source": "Q standing authorization recorded in repository skill on 2026-10-20: Bailian longtian_v3 for current and future film narration; EP11 scientific revision approved in current chat"
+  },
+  "segments": {
+    "S02": {
+      "cache_key": "ec503a3f953c6734dc0b896b7521ceaaeec065b2fbe71dbb6e412f30e8693b52",
+      "tts_phonetic_text": "人体大约有三十七万亿，颗细胞。衰老伴随表观遗传改变，像瓷上的墨，沿山谷缓缓滑落。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 228480,
+      "actual_samples_48k": 456960,
+      "duration_seconds": 9.52,
+      "declared_window_samples": 528000,
+      "fits_declared_window_before_onset_adjustment": true,
+      "pcm_sha256_24k": "c87dde599998974c8ce869bc4eed54cba3456c3576ac1488a91b59853bd76745",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S02-ec503a3f953c.wav",
+      "raw_sha256": "c8ff89c8bef0ec1277770703f41a66c80f3b57f2df2f315bdd5a163198671e1b",
+      "canonical_path": "public/audio/canonical/S02-ec503a3f953c.wav",
+      "canonical_sha256": "045e3c4ec77407989e8efa9f31535bc7d306478155c65b364ee85a874c743aeb",
+      "cue_path": "public/audio/cues/S02-ec503a3f953c.wav",
+      "cue_sha256": "f8e8482e7cb3412286f44ac349d3c4f6ba9436018f79317fa22d89ccfd94d6d0",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response",
+      "declared_start_frame": 600,
+      "declared_end_frame": 1260
+    },
+    "S01": {
+      "cache_key": "b193f75924625a980eef83a285fe7afe9cc49c6923a576690bb9ca49857a22ed",
+      "tts_phonetic_text": "人类把衰老当作天命。假如超级智能，能让这只沙漏倒流呢？",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 144000,
+      "actual_samples_48k": 288000,
+      "duration_seconds": 6.0,
+      "declared_window_samples": 384000,
+      "fits_declared_window_before_onset_adjustment": true,
+      "pcm_sha256_24k": "d8910f173752d7eaa2af92a431c3309c3f880c1e6efc7fb991319bf4242cf0d9",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S01-b193f7592462.wav",
+      "raw_sha256": "fb89182208729883f6be9d74bcfe3204fd306bf8a03351df80de75df0300e4da",
+      "canonical_path": "public/audio/canonical/S01-b193f7592462.wav",
+      "canonical_sha256": "99ea60f1cb56df9e8a3a83237532d0ca94d93232e76d48285f35f0bae1e4d916",
+      "cue_path": "public/audio/cues/S01-b193f7592462.wav",
+      "cue_sha256": "c813cc76b8bc707707fddd83a8329e7b9570d2ce3a28b62d94ece915dd52d189",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S03": {
+      "cache_key": "ddf1e459d6e830f63c0b8ecc83a0c82de11c17bf0d60da05feddbfc8469c03d4",
+      "tts_phonetic_text": "重编程就像修一枚精密的表。太轻，难以改变衰老；太重，又可能丢失细胞身份，甚至癌变。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 211200,
+      "actual_samples_48k": 422400,
+      "duration_seconds": 8.8,
+      "declared_window_samples": 528000,
+      "fits_declared_window_before_onset_adjustment": true,
+      "pcm_sha256_24k": "4a9fdae6e8d913fc830331d880e22aae021c976706db8c4548c310df9e1da476",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S03-ddf1e459d6e8.wav",
+      "raw_sha256": "fa5bd47ee03e8150368aef2604c8af29785c9a05360053dbdf35cd71febd7dda",
+      "canonical_path": "public/audio/canonical/S03-ddf1e459d6e8.wav",
+      "canonical_sha256": "ea09969225dac654c39c1d62cba8e09a3002705012c60ae666eef28d209aa744",
+      "cue_path": "public/audio/cues/S03-ddf1e459d6e8.wav",
+      "cue_sha256": "5acf88f23bf332916f13fe0404c00ace8220aa871fb5839daa5f2dd7cb08cabf",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S04": {
+      "cache_key": "afec1acc26bda291cbcdf6b66a0cde9bc0983d148ddd3b77e731d9bbb267e353",
+      "tts_phonetic_text": "在这个想象里，超级智能伸出十万维，探针，在衰老与失控之间，找到比发丝还窄一万倍的黄金山脊。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 220800,
+      "actual_samples_48k": 441600,
+      "duration_seconds": 9.2,
+      "declared_window_samples": 576000,
+      "fits_declared_window_before_onset_adjustment": true,
+      "pcm_sha256_24k": "f707d855ed87266613628150049f8926608aec84d5e385a6255d6e8c1cac6e12",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S04-afec1acc26bd.wav",
+      "raw_sha256": "724f219d1abd103ec2999aa7680ff5829476b6314996cb2a8c1b0401a924eb36",
+      "canonical_path": "public/audio/canonical/S04-afec1acc26bd.wav",
+      "canonical_sha256": "2d6127f80331c5fa9564a86c8760f52bb23957f714959019e3e4d33a5efbc817",
+      "cue_path": "public/audio/cues/S04-afec1acc26bd.wav",
+      "cue_sha256": "99d9d0cec0812760795a7a60835907ac4f81366eb4b5164e874d7dfe2030c750",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S05": {
+      "cache_key": "5d111538f7c40b4ec9fc888c431e5c5e24887ad5576ccfbb8ed6b0e2fafcb0c4",
+      "tts_phonetic_text": "它尝试修复表观遗传的信息划痕。于是，想象中的三十七万亿，颗细胞，沿着金色裂纹，逆流而上。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 203520,
+      "actual_samples_48k": 407040,
+      "duration_seconds": 8.48,
+      "declared_window_samples": 576000,
+      "fits_declared_window_before_onset_adjustment": true,
+      "pcm_sha256_24k": "6a07529610498f0d1fc70a73f2c69ab091a9e3e1467dc85f79c0584614329008",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S05-5d111538f7c4.wav",
+      "raw_sha256": "e6a20eafb7507fcd57b997af630ad4dd60d4dc52ba8bdc3bd3f79a55d0b920cb",
+      "canonical_path": "public/audio/canonical/S05-5d111538f7c4.wav",
+      "canonical_sha256": "c68b0305dab6b4d3c9f2f67e7724d01cdbb8af6bd2d0fd9a1fcfc54a361a076e",
+      "cue_path": "public/audio/cues/S05-5d111538f7c4.wav",
+      "cue_sha256": "5966a4aa1ffb0c89bebf01ff442d65b3f6fde810922a7161dfaca3497736c760",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S06": {
+      "cache_key": "cf9ebef39ed616522967ca3badfc8166ba2873ddf0369edf196ea7619325f1c2",
+      "tts_phonetic_text": "白发退回青丝，细胞重返二十岁般的山巅。假如有一天，生命真的挣脱了单向流淌的沙漏。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 211200,
+      "actual_samples_48k": 422400,
+      "duration_seconds": 8.8,
+      "declared_window_samples": 576000,
+      "fits_declared_window_before_onset_adjustment": true,
+      "pcm_sha256_24k": "aaf46c398f66703c7ffc9b3b0121f0192acb49a9f1616c56c262b3999a903acd",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S06-cf9ebef39ed6.wav",
+      "raw_sha256": "2606d8b0f95117e69508b6c1c07485bfc3c823ff65dee650681d5ce6ce3b7351",
+      "canonical_path": "public/audio/canonical/S06-cf9ebef39ed6.wav",
+      "canonical_sha256": "c9dffdc594c216d63808e2c61c85e47c4dbd48ab1f73326cadd4df1141ab9d84",
+      "cue_path": "public/audio/cues/S06-cf9ebef39ed6.wav",
+      "cue_sha256": "0ec2b68abf15f9959b15dff7709c58deb3440ff03b205e4ba18ccde342b853cf",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S07": {
+      "cache_key": "d4cd14b708453d63c05e28ee15952de47dac0a9651ad34c4f553c110f49ed99c",
+      "tts_phonetic_text": "当超级智能，终于抹去了生老病死的刻度。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 92160,
+      "actual_samples_48k": 184320,
+      "duration_seconds": 3.84,
+      "declared_window_samples": 336000,
+      "fits_declared_window_before_onset_adjustment": true,
+      "pcm_sha256_24k": "b24dce62105050925a048e5f2079c25c4bf995bec23111ed9cbddee2b5e2b566",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S07-d4cd14b70845.wav",
+      "raw_sha256": "72a18ceb32a3d56aeda66df96877f388bd84ac1eabce466c79e99ca279179910",
+      "canonical_path": "public/audio/canonical/S07-d4cd14b70845.wav",
+      "canonical_sha256": "f261ae3389cd52aa37d35f373518ebbe571cfdcdfbb7b11f56aeddecfd3a021f",
+      "cue_path": "public/audio/cues/S07-d4cd14b70845.wav",
+      "cue_sha256": "af7e536f9f9511eb0e293140c135c7db62c888cb0cf456fce64f3f352dd15cc0",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S08": {
+      "cache_key": "05de0e8dd904688b8de99f96a96a0db16d813fdc4a5b6c8df463392d5a4b261c",
+      "tts_phonetic_text": "死亡不再是终点；只是那句人类说了几千年的白头偕老，从此成了再也无人能懂的远古词汇。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 195840,
+      "actual_samples_48k": 391680,
+      "duration_seconds": 8.16,
+      "declared_window_samples": 408000,
+      "fits_declared_window_before_onset_adjustment": true,
+      "pcm_sha256_24k": "b33d4f13c186b00912b145799e553e0637d9ad4133eb59ea807e7955caa1bd6e",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S08-05de0e8dd904.wav",
+      "raw_sha256": "219117f16b0b1bfbfe0153165f91e2f1e7b00a0bbeb09d8496b9705fdf985288",
+      "canonical_path": "public/audio/canonical/S08-05de0e8dd904.wav",
+      "canonical_sha256": "0124b4f9fed39ee4cb3f471cf5d5f860f0d380b7d1e1e3552d54557b251e5bf2",
+      "cue_path": "public/audio/cues/S08-05de0e8dd904.wav",
+      "cue_sha256": "baf494555a9674228faaee273660fbe49d29a4c5170a99f132534b860f1782ba",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    }
+  },
+  "cacheHistory": []
+}

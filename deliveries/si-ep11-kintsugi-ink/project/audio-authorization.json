@@ -1,0 +1,12 @@
+{
+  "provider": "Aliyun Bailian",
+  "scope": "EP11 S01 through S08 exact prepared tts_phonetic_text",
+  "authorized": true,
+  "source": "Q standing authorization recorded in repository skill on 2026-10-20: Bailian longtian_v3 for current and future film narration; EP11 scientific revision approved in current chat",
+  "voice": "longtian_v3",
+  "text_sha256": "0b5208c31deef076abeb61f830b4881c705a7165d1409340129cd6c662240aa7",
+  "cli_version": "2.4.0",
+  "latest_checked": "2.5.0",
+  "version_choice": "User explicitly chose to continue installed 2.4.0 without environment changes",
+  "asr_authorized": false
+}

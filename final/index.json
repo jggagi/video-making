@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "generated_by": "scripts/build-final-library.py",
-  "total_files": 50,
-  "logical_bytes": 8491128635,
+  "total_files": 51,
+  "logical_bytes": 8526768500,
   "files": [
     {
       "source_path": "out/extended/兰亭集序-展厅增强版-1080p.mp4",
@@ -691,6 +691,21 @@
       "backup_release_tag": "final-si-ep10-dopamine-greenhouse-v02-a9096c5156c1",
       "backup_release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep10-dopamine-greenhouse-v02-a9096c5156c1",
       "backup_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep10-dopamine-greenhouse-v02-a9096c5156c1/final--si-ep10-dopamine-greenhouse-v02--deliveries--si-ep10-dopamine-greenhouse-v02-----si-ep10-dopamine-greenhouse-v02-xiaohongshu-90s-portrait--ba6a03b06831.mp4",
+      "materialization": "APFS clonefile for new files; existing independent matches are retained",
+      "verification": "SHA-256 matches archive catalog; stable stat and inode checks passed"
+    },
+    {
+      "source_path": "deliveries/si-ep11-kintsugi-ink/小红书/si-ep11-kintsugi-ink-xiaohongshu-90s-portrait.mp4",
+      "final_path": "final/si-ep11-kintsugi-ink/小红书/si-ep11-kintsugi-ink-xiaohongshu-90s-portrait.mp4",
+      "work_id": "si-ep11-kintsugi-ink",
+      "title": "逆转的沙漏",
+      "platform": "小红书",
+      "bytes": 35639865,
+      "sha256": "88db88150c5113a071a618039b44555247463def090f44de05eb58def8a8f454",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep11-kintsugi-ink-bc1f191cc5a5/si-ep11-kintsugi-ink--deliveries--si-ep11-kintsugi-ink-----si-ep11-kintsugi-ink-xiaohongshu-90s-portrait--88db88150c51.mp4",
+      "backup_release_tag": "final-si-ep11-kintsugi-ink-bc1f191cc5a5",
+      "backup_release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep11-kintsugi-ink-bc1f191cc5a5",
+      "backup_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep11-kintsugi-ink-bc1f191cc5a5/final--si-ep11-kintsugi-ink--deliveries--si-ep11-kintsugi-ink-----si-ep11-kintsugi-ink-xiaohongshu-90s-portrait--88db88150c51.mp4",
       "materialization": "APFS clonefile for new files; existing independent matches are retained",
       "verification": "SHA-256 matches archive catalog; stable stat and inode checks passed"
     },

@@ -1,0 +1,51 @@
+{
+  "status": "PLAYBACK_CHECK_COMPLETE",
+  "native_dimensions": [
+    2160,
+    3840
+  ],
+  "css_player_width": 360,
+  "samples": [
+    {
+      "frames": [
+        120,
+        300
+      ],
+      "video_duration_seconds": 3.0,
+      "observed_container_duration_seconds": 3.008,
+      "readyState": 4,
+      "error": null,
+      "completed_playback": true
+    },
+    {
+      "frames": [
+        2940,
+        3120
+      ],
+      "video_duration_seconds": 3.0,
+      "observed_container_duration_seconds": 3.008,
+      "readyState": 4,
+      "error": null,
+      "completed_playback": true
+    },
+    {
+      "frames": [
+        4800,
+        5100
+      ],
+      "video_duration_seconds": 5.0,
+      "observed_container_duration_seconds": 5.013,
+      "readyState": 4,
+      "error": null,
+      "completed_playback": true
+    }
+  ],
+  "review_method": "Native4K Remotion PNG capture with actual master sound, served on loopback; normal controls used in Codex browser; playback and load state inspected. Model also examined still contacts. Browser panel clipped the horizontally arranged full contact view; individual mobile still contact is the readability evidence.",
+  "model_impression": "Downward gray trail becomes upward gold trails along repaired surface; ending gold ribbon and paired figures visible after quiet interruption. Spatial action and centered large subtitles dominate, with persistent mandatory HUD.",
+  "limits": [
+    "No human listening or continuous human review",
+    "No external viewer feedback",
+    "No phone or Xiaohongshu App playback",
+    "Only11seconds representative footage, not fullfilm acceptance"
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": "si-ep11-kintsugi-ink",
+  "title": "逆转的沙漏",
+  "release_tag": "film-si-ep11-kintsugi-ink-bc1f191cc5a5",
+  "historical": false,
+  "duration_seconds": 90,
+  "project_path": "deliveries/si-ep11-kintsugi-ink/project",
+  "delivery_directory": "deliveries/si-ep11-kintsugi-ink",
+  "final_output_paths": {
+    "小红书": "deliveries/si-ep11-kintsugi-ink/小红书/si-ep11-kintsugi-ink-xiaohongshu-90s-portrait.mp4"
+  },
+  "final_output_dimensions": {
+    "小红书": [
+      2160,
+      3840
+    ]
+  },
+  "assets": [
+    {
+      "path": "deliveries/si-ep11-kintsugi-ink/review/motion-120-299.mp4",
+      "name": "si-ep11-kintsugi-ink--deliveries--si-ep11-kintsugi-ink--review--motion-120-299--9396253bf360.mp4",
+      "bytes": 1009101,
+      "sha256": "9396253bf3606a55c557d21751aa3f7ec7d39ed1e73737cf40763547e2c46cbb",
+      "kind": "video",
+      "platform": "预览",
+      "measurements": {
+        "width": 2160,
+        "height": 3840,
+        "fps": "60/1",
+        "frames": "180",
+        "video_duration_seconds": 3.0,
+        "container_duration_seconds": 3.008
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep11-kintsugi-ink-bc1f191cc5a5/si-ep11-kintsugi-ink--deliveries--si-ep11-kintsugi-ink--review--motion-120-299--9396253bf360.mp4"
+    },
+    {
+      "path": "deliveries/si-ep11-kintsugi-ink/review/motion-2940-3119.mp4",
+      "name": "si-ep11-kintsugi-ink--deliveries--si-ep11-kintsugi-ink--review--motion-2940-3119--1909c07b52bf.mp4",
+      "bytes": 1409052,
+      "sha256": "1909c07b52bfb0690d39d20e3c5b9c7127389f578e6167642d2e7abbbfec517b",
+      "kind": "video",
+      "platform": "预览",
+      "measurements": {
+        "width": 2160,
+        "height": 3840,
+        "fps": "60/1",
+        "frames": "180",
+        "video_duration_seconds": 3.0,
+        "container_duration_seconds": 3.008
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep11-kintsugi-ink-bc1f191cc5a5/si-ep11-kintsugi-ink--deliveries--si-ep11-kintsugi-ink--review--motion-2940-3119--1909c07b52bf.mp4"
+    },
+    {
+      "path": "deliveries/si-ep11-kintsugi-ink/review/motion-4800-5099.mp4",
+      "name": "si-ep11-kintsugi-ink--deliveries--si-ep11-kintsugi-ink--review--motion-4800-5099--0287f74a6442.mp4",
+      "bytes": 3640174,
+      "sha256": "0287f74a6442e21458704c6e15bf08da965d252b6c2fcdc229782aace86ae3ea",
+      "kind": "video",
+      "platform": "预览",
+      "measurements": {
+        "width": 2160,
+        "height": 3840,
+        "fps": "60/1",
+        "frames": "300",
+        "video_duration_seconds": 5.0,
+        "container_duration_seconds": 5.013
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep11-kintsugi-ink-bc1f191cc5a5/si-ep11-kintsugi-ink--deliveries--si-ep11-kintsugi-ink--review--motion-4800-5099--0287f74a6442.mp4"
+    },
+    {
+      "path": "deliveries/si-ep11-kintsugi-ink/si-ep11-kintsugi-ink-project.zip",
+      "name": "si-ep11-kintsugi-ink--deliveries--si-ep11-kintsugi-ink--si-ep11-kintsugi-ink-project--a81c4e70f1ae.zip",
+      "bytes": 43702060,
+      "sha256": "a81c4e70f1ae9f5393db0392dce8a6b25aa49e7981eee70ba20743cb08dacf5c",
+      "kind": "project",
+      "platform": "工程",
+      "measurements": {},
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep11-kintsugi-ink-bc1f191cc5a5/si-ep11-kintsugi-ink--deliveries--si-ep11-kintsugi-ink--si-ep11-kintsugi-ink-project--a81c4e70f1ae.zip"
+    },
+    {
+      "path": "deliveries/si-ep11-kintsugi-ink/小红书/si-ep11-kintsugi-ink-xiaohongshu-90s-portrait.mp4",
+      "name": "si-ep11-kintsugi-ink--deliveries--si-ep11-kintsugi-ink-----si-ep11-kintsugi-ink-xiaohongshu-90s-portrait--88db88150c51.mp4",
+      "bytes": 35639865,
+      "sha256": "88db88150c5113a071a618039b44555247463def090f44de05eb58def8a8f454",
+      "kind": "video",
+      "platform": "小红书",
+      "measurements": {
+        "width": 2160,
+        "height": 3840,
+        "fps": "60/1",
+        "frames": "5400",
+        "video_duration_seconds": 90.0,
+        "container_duration_seconds": 90.005
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep11-kintsugi-ink-bc1f191cc5a5/si-ep11-kintsugi-ink--deliveries--si-ep11-kintsugi-ink-----si-ep11-kintsugi-ink-xiaohongshu-90s-portrait--88db88150c51.mp4"
+    }
+  ],
+  "generated_by": "scripts/build-archive-catalog.py"
+}

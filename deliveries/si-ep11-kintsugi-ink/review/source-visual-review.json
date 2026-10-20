@@ -1,0 +1,28 @@
+{
+  "status": "SOURCE_STILLS_OBSERVED",
+  "scope": "Model observation of native4K source stills resized to360wide contacts; finalencodedobservationspending",
+  "reviewed_frames": [
+    120,
+    960,
+    2280,
+    3480,
+    5040
+  ],
+  "findings": [
+    "Initial f5040 blank due to mutually exclusive fade envelopes; fixed in source before movingpreview/fullrender.",
+    "Terrain edge changed from rectangle to organicporcelainfragment; facets softened, analyticcurl ink washes added, gold veins layered and flakes enlarged.",
+    "HUD remains three exactEnglishrows in top9-14%, longthirdrowhorizontallycompressed; lineheight and fullstringretained.",
+    "360wide captions are49logicalpixels/3=16.33px, within left65,right903,top1384,bottom1488.",
+    "Final twopeoplevisible within goldenhalf-twist infinity at84seconds; foregroundquote rendered as timedphrases rather than fullparagraph."
+  ],
+  "evidence": [
+    {
+      "path": "review/source-refined-contact.jpg",
+      "sha256": "f5b50983e7cdfd6daed3838a99576eba5ad5d42693aa3964d19321f648968ccd"
+    }
+  ],
+  "human_listening": "NOT_RUN",
+  "continuous_human_review": "NOT_RUN",
+  "target_device_playback": "NOT_RUN",
+  "hud_color_final": "#52525B for line2 restored after previews; identical native capture path, layout unchanged; final MP4 color verification required."
+}

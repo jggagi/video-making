@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "observed_at_utc": "2026-10-20T17:49:28.719584+00:00",
+  "catalog_sha256": "d486be5697b2a4a14daf52e6a1866fb5441f453832571702e7331fe987909163",
+  "scope": "One newly added EP11 v02 final asset downloaded and restored twice in an isolated temporary root; not a download/restore test of all52 movies.",
+  "work": "si-ep11-kintsugi-ink-v02",
+  "release_tag": "final-si-ep11-kintsugi-ink-v02-9ace946a093a",
+  "path": "final/si-ep11-kintsugi-ink-v02/小红书/si-ep11-kintsugi-ink-v02-xiaohongshu-90s-portrait.mp4",
+  "bytes": 117401896,
+  "sha256": "08f4a9e7a4a9cf231508f559044cee8c15ee5198ebc7658d2bc3424f865ccc35",
+  "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep11-kintsugi-ink-v02-9ace946a093a/final--si-ep11-kintsugi-ink-v02--deliveries--si-ep11-kintsugi-ink-v02-----si-ep11-kintsugi-ink-v02-xiaohongshu-90s-portrait--08f4a9e7a4a9.mp4",
+  "first_restore": "DOWNLOADED_AND_SHA256_VERIFIED",
+  "second_restore": "SKIPPED_VERIFIED",
+  "second_inode_and_mtime_unchanged": true,
+  "outputs": [
+    "Restored: final/si-ep11-kintsugi-ink-v02/小红书/si-ep11-kintsugi-ink-v02-xiaohongshu-90s-portrait.mp4 (117,401,896 bytes)\nRestore complete: 0 already verified, 1 downloaded",
+    "Restore complete: 1 already verified, 0 downloaded"
+  ],
+  "temporary_data_cleanup": "COMPLETE_OWN_ISOLATED_TEMP_ONLY"
+}

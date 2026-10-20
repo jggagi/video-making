@@ -1,0 +1,22 @@
+{
+  "status": "COMPLETE",
+  "source_commit": "6af5a60da36c52f681e9ce0a0dc559f4b12115ff",
+  "verified_at_utc": "2026-10-20T17:49:47.983113+00:00",
+  "movie_sha256": "08f4a9e7a4a9cf231508f559044cee8c15ee5198ebc7658d2bc3424f865ccc35",
+  "film_release": "https://github.com/jggagi/video-making/releases/tag/film-si-ep11-kintsugi-ink-v02-9ace946a093a",
+  "film_inventory": {
+    "works": 23,
+    "assets": 227,
+    "remote_sizes_and_sha256": "MATCHED"
+  },
+  "final_release": "https://github.com/jggagi/video-making/releases/tag/final-si-ep11-kintsugi-ink-v02-9ace946a093a",
+  "final_inventory": {
+    "works": 23,
+    "assets": 52,
+    "remote_sizes_and_sha256": "MATCHED",
+    "catalog_sha256": "d486be5697b2a4a14daf52e6a1866fb5441f453832571702e7331fe987909163"
+  },
+  "local_final": "final/si-ep11-kintsugi-ink-v02/小红书/si-ep11-kintsugi-ink-v02-xiaohongshu-90s-portrait.mp4",
+  "restore_probe": "review/final-restore-probe.json",
+  "project_zip": "Pre-publication QA snapshot; current Git contains subsequent publication and backup receipts. Movie and active62assets unchanged."
+}

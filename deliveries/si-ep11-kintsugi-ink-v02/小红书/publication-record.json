@@ -1,7 +1,7 @@
 {
   "platform": "小红书",
   "work": "si-ep11-kintsugi-ink-v02",
-  "status": "QA_COMPLETE_PREPARING_EXISTING_NOTE_REPLACEMENT",
+  "status": "SCHEDULED_REPLACEMENT_SUBMITTED_UNDER_REVIEW",
   "account_display_name": "余问 QStory",
   "note_id": "6ad78f82000000002900e27f",
   "operation": "replace_video_and_cover_in_existing_note",
@@ -37,16 +37,16 @@
   ],
   "content_declaration_plan": "笔记含AI合成内容",
   "visibility_plan": "公开可见",
-  "upload_attempted": false,
-  "submission_attempted": false,
-  "submission_verified": false,
+  "upload_attempted": true,
+  "submission_attempted": true,
+  "submission_verified": true,
   "publication_verified": false,
   "public_visibility_verified": false,
   "human_listening": "NOT_RUN",
   "target_device_playback": "NOT_RUN",
   "remaining": [
-    "Replace existing note video/cover/copy and verify exact schedule/status",
-    "Finish GitHub film and dedicated final backup verification and new-film restore probe"
+    "Platform review and scheduled public release are pending; no automatic monitoring was requested.",
+    "Human listening/continuous viewing and actual phone/Xiaohongshu App playback remain NOT_RUN."
   ],
   "existingNotePreflight": {
     "observedAtUtc": "2026-10-20T17:19:25Z",
@@ -77,5 +77,56 @@
     "target_device_playback": "NOT_RUN",
     "strict_validator": "review/media-validation-20261020T174042.322065Z.json"
   },
-  "upload_attempt_started_at_utc": "2026-10-20T17:42:44.510080+00:00"
+  "upload_attempt_started_at_utc": "2026-10-20T17:42:44.510080+00:00",
+  "pre_submit_check": {
+    "observed_at_utc": "2026-10-20T17:48:47.957210+00:00",
+    "account": "余问 QStory",
+    "note_id": "6ad78f82000000002900e27f",
+    "uploaded_filename": "si-ep11-kintsugi-ink-v02-xiaohongshu-90s-portrait.mp4",
+    "preview_video": {
+      "width": 2160,
+      "height": 3840,
+      "duration_seconds": 90.005,
+      "ready_state": 4,
+      "error": null
+    },
+    "cover_path": "小红书/cover-3x4.png",
+    "cover_sha256": "e89d65d718a65044ca0fb22bbc9158ca9d218daad399cfeba52e45c9ff8fd77e",
+    "cover_web_preview": "MODEL_OBSERVED: both hands, white hair, gold infinity and full title visible; platform cover assessment passed",
+    "body_sha256": "f84bf3275abc6fd753c55f135884b04744e8740ab9a604a3e8e0c92766c8301f",
+    "body_matches_ignoring_editor_whitespace": true,
+    "topic_count": 9,
+    "topic_association": "All nine original a.tiptap-topic anchors retain nonempty IDs",
+    "content_declaration": "笔记含AI合成内容",
+    "visibility": "公开可见",
+    "timer_enabled": true,
+    "displayed_time": "2026-10-21 08:00",
+    "displayed_timezone": "北京时间",
+    "private_evidence": [
+      "/private/tmp/ep11-v02-pre-submit-0800.png",
+      "/private/tmp/ep11-v02-pre-submit-0800.txt"
+    ],
+    "note": "No platform digest/transcode-byte identity is inferred from browser preview."
+  },
+  "archive_gate": "COMPLETE: film Release, independent final Release, all current final inventory and new-film real restore matched",
+  "attempt_started_at_utc": "2026-10-20T17:49:47.983520+00:00",
+  "submission_result": "Existing-note update navigated to manager; same title has new hand/white-hair cover,01:30duration,审核中 and scheduled2026-10-21 08:00GMT+8.",
+  "verified_at_utc": "2026-10-20T17:51:13.816030+00:00",
+  "verification": {
+    "surface": "Xiaohongshu creator note manager",
+    "url": "https://creator.xiaohongshu.com/new/note-manager?source=",
+    "account": "余问 QStory",
+    "title": "如果永远年轻，白头偕老还算誓言吗？",
+    "displayed_duration": "01:30",
+    "cover": "MODEL_OBSERVED: revised two porcelain hands and white-hair cover matches the uploaded v02 cover",
+    "displayed_status": "审核中",
+    "displayed_schedule": "定时发布 2026-10-21 08:00 （GMT+8:00 北京时间）",
+    "note_count_before": 12,
+    "note_count_after": 12,
+    "identity_basis": "Update performed at observed /publish/update?id=6ad78f82000000002900e27f&noteType=video; matching manager title, new cover, duration, schedule and unchanged count. No separate public-note visibility or platform digest verification.",
+    "private_evidence": [
+      "/private/tmp/ep11-v02-scheduled-0800-result.png",
+      "/private/tmp/ep11-v02-scheduled-0800-result.txt"
+    ]
+  }
 }

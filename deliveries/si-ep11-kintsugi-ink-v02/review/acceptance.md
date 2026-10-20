@@ -35,3 +35,11 @@ Sampled captions stay readable in the safe area. The native samples show attache
 - Actual phone and Xiaohongshu App playback: NOT_RUN.
 
 Browser playback is a functional check only. Publication replacement is authorized directly by the user after technical and model QA, preserving the existing note and Beijing2026-10-21 08:00 schedule. Actual upload/status and backup evidence are recorded separately after those operations occur.
+
+## Archive and existing-note update
+
+- Source commit `6af5a60da36c52f681e9ce0a0dc559f4b12115ff` is pushed. Film Release and independent final Release are published with all asset sizes/SHA-256 matched. Current final catalog:52assets across23works; see `review/archive-completion.json` and root `final/backup-verification.json`.
+- New v02 final movie was actually downloaded into an isolated temporary root, verified at117,401,896bytes and the same SHA-256; the second restore skipped it without changing inode or mtime. Own temporary restore data was removed. This is a one-new-film restore probe, not a download of all52assets.
+- Existing Xiaohongshu note update submitted once. Manager shows account余问QStory, matching title, revised hand cover,01:30,审核中, and定时发布2026-10-21 08:00（GMT+8:00 北京时间）. Total notes remain12. Public visibility is not verified. Private account screenshots/AX are excluded from Git and Releases.
+- Project ZIP is the pre-publication QA snapshot; current Git retains later publication/backup records. The delivered movie and62active assets remain unchanged.
+- Whitespace diff check reports preserved raw-script and third-party license trailing spaces; those byte-preserved source artifacts were deliberately retained.

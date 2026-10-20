@@ -21,5 +21,10 @@
   ],
   "outputSha256": "e89d65d718a65044ca0fb22bbc9158ca9d218daad399cfeba52e45c9ff8fd77e",
   "caption": "如果永远年轻 / 我们还怎么白头",
-  "humanOrAppPreview": "NOT_RUN"
+  "humanOrAppPreview": "NOT_RUN",
+  "platformWebPreview": {
+    "status": "MODEL_OBSERVED",
+    "surface": "Xiaohongshu creator cover editor and feed mock preview",
+    "observations": "Complete two-line title, both hands, white hair and gold infinity remain visible in 3:4; no critical crop clipping. Platform reported 封面效果评估通过，未发现封面质量问题."
+  }
 }

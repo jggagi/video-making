@@ -1,0 +1,25 @@
+{
+  "status": "MEASURED_AND_MODEL_OBSERVED",
+  "movieSha256": "2241fd76ba65c08758a84813f0f13bbe125f1d5ca6f868a090e56e85e44323b0",
+  "rows": [
+    {
+      "frame": 1369,
+      "meanAbsRGBError": 2.5478923320770264,
+      "psnrDB": 36.11225509643555,
+      "sourceSha256": "7468f68fff02e4e346c06fd1ddcb218f27929b9687fa288aa9932f335ad5be6c",
+      "encodedNativeCaptureSha256": "ff42ea63feef3796c0770b822e33dd25916ef2c5c6158f686d8ce9b6f44f58b3",
+      "modelObservation": "Coherent full subject, title and exact caption; repeated-HUD tiles absent; geometry agrees with absolute-state redraw and neighboring frames"
+    },
+    {
+      "frame": 4043,
+      "meanAbsRGBError": 2.5588669776916504,
+      "psnrDB": 36.14714050292969,
+      "sourceSha256": "bb1cb6b424ad8a1672a02fbc7f4f6f5f7a2213a7baa31e34943380c2b517f1fd",
+      "encodedNativeCaptureSha256": "4e9a85dc9fbaef179109f69ddccf26ec8c243d1a6f65ac19b4a0fe6434e04e79",
+      "modelObservation": "Coherent full subject, title and exact caption; repeated-HUD tiles absent; geometry agrees with absolute-state redraw and neighboring frames"
+    }
+  ],
+  "initialDiagnostic": "A conservative ad-hoc MAE<2 assumption was too strict for this lossy pipeline; actual repaired MAE is2.55, compared with unchanged-scene ROI MAE2.39..2.81. This was not a delivery specification or visual-scan threshold. No scan threshold was changed.",
+  "colorCheck": "Installed Remotion4.0.534 BT709 encoder conversion examined; PNG repair explicitly uses BT709 coefficients, limitedrange, outputtag1:1 squarepixels.",
+  "finalAcceptanceBasis": "Zero flags in complete new5400-frame scan; strictmediaPASS; native encoded representative frames actually observed. No human listening/device acceptance inferred."
+}

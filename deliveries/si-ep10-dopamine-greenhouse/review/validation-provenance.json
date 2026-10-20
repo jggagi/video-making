@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "movieSha256": "2241fd76ba65c08758a84813f0f13bbe125f1d5ca6f868a090e56e85e44323b0",
+  "bytes": 110824973,
+  "masterSha256": "d787f5794a2f8cc76f159a58df02b66cd7721bb54e08d94149f1f0f251ecc968",
+  "mediaValidationReport": "review/media-validation-20261020T100506.491096Z.json",
+  "visualScanReport": "review/visual-qc-xiaohongshu-r02/report.json",
+  "audioAndEncodeReport": "review/encoded-qa.json",
+  "repairReport": "review/frame-repair.json",
+  "formalVideoModifiedAfterCurrentValidation": false,
+  "humanListening": "NOT_RUN",
+  "targetDevicePlayback": "NOT_RUN"
+}

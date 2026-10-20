@@ -1,0 +1,74 @@
+{
+  "fps": 60,
+  "clickFrame": 4860,
+  "absoluteSilence": [
+    4861,
+    4891
+  ],
+  "absoluteBlack": [
+    4861,
+    4891
+  ],
+  "events": [
+    {
+      "id": "optical_lock",
+      "frame": 60,
+      "sample": 48000,
+      "description": "optical focus whir and cyan lock beep"
+    },
+    {
+      "id": "bait_crystallization",
+      "frame": 840,
+      "sample": 672000,
+      "description": "granular crystalline bloom to lush chord"
+    },
+    {
+      "id": "velvet_cocoon",
+      "frame": 1500,
+      "sample": 1200000,
+      "description": "warm low-pass wrapping pad"
+    },
+    {
+      "id": "friction_dissolve",
+      "frame": 2300,
+      "sample": 1840000,
+      "description": "metal edges dissolve to sweet bells"
+    },
+    {
+      "id": "island_zoom",
+      "frame": 2940,
+      "sample": 2352000,
+      "description": "spatial pullback drone and isolated bubbles"
+    },
+    {
+      "id": "lonely_sonar",
+      "frame": 3900,
+      "sample": 3120000,
+      "description": "lonely distant sonar"
+    },
+    {
+      "id": "saturation_rise",
+      "frame": 4500,
+      "sample": 3600000,
+      "description": "euphoric rise toward breaking point"
+    },
+    {
+      "id": "screen_lock",
+      "frame": 4860,
+      "sample": 3888000,
+      "description": "crisp procedural click confined to one frame"
+    },
+    {
+      "id": "raw_breath",
+      "frame": 4891,
+      "sample": 3912800,
+      "description": "unpolished procedural breath texture"
+    },
+    {
+      "id": "flint_strike",
+      "frame": 4900,
+      "sample": 3920000,
+      "description": "raw flint spark"
+    }
+  ]
+}

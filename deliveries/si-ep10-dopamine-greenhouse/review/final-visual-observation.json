@@ -1,0 +1,29 @@
+{
+  "status": "MODEL_OBSERVED",
+  "movieSha256": "2241fd76ba65c08758a84813f0f13bbe125f1d5ca6f868a090e56e85e44323b0",
+  "contacts": [
+    {
+      "path": "review/encoded-contact-01.jpg",
+      "sha256": "aac94616abcfaed2d26f428d80ced02b22e255a5020cb0602d04a533355b0a67"
+    },
+    {
+      "path": "review/encoded-contact-02.jpg",
+      "sha256": "ce354786e56455498403296432c5cdc4c06b9fe3787b4324974ac94119872eb0"
+    },
+    {
+      "path": "review/encoded-contact-03.jpg",
+      "sha256": "8f0972002d68cf2d68238c5de136303d62d4fcdf2f6e4602885610a687de28c6"
+    }
+  ],
+  "observed": [
+    "360px caption readability and clear critical safezone layout",
+    "Eye to rewardflower, softened polygons to golden drops, honeycomb, backtoback phone users, saturation, collapse line and rough spark",
+    "Both repaired exactframes contain coherent actual scene state",
+    "Encoded30-frame blackout is exactRGBzero at360px; master30-frame interval exactPCMzero; AAC edge ringing -59.4dBFS documented",
+    "Native dark-gradient/flower crop has no severe visible banding; subtle lossy quantization remains"
+  ],
+  "motion": "Continuous scene spatial evolution inspected in native narrated samples, source functions and encoded frame pairs; no narrative holds over180fr except exact30fr blackout",
+  "humanListening": "NOT_RUN",
+  "audienceExperienceValidation": "NOT_RUN",
+  "targetDeviceRED": "NOT_RUN"
+}

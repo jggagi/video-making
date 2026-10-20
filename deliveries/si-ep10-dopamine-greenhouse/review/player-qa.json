@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "movieSha256": "2241fd76ba65c08758a84813f0f13bbe125f1d5ca6f868a090e56e85e44323b0",
+  "browser": "IAB, local loopback server; final file loaded after repair",
+  "nativeDimensions": [
+    2160,
+    3840
+  ],
+  "durationSeconds": 90.005,
+  "completePlayback": {
+    "played": [
+      [
+        0,
+        90.005
+      ]
+    ],
+    "ended": true,
+    "error": null
+  },
+  "chapterSeek": {
+    "clicked": "同一沙发",
+    "requestedSeconds": 62,
+    "observedCurrentTime": 62,
+    "paused": true,
+    "error": null
+  },
+  "humanListening": "NOT_RUN",
+  "physicalDeviceRED": "NOT_RUN",
+  "scope": "Real browser media playback and UI chapter seek; not human perceptual acceptance"
+}

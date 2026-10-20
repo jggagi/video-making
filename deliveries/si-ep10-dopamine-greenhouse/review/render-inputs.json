@@ -1,0 +1,28 @@
+{
+  "composition": "PortraitVertical",
+  "width": 2160,
+  "height": 3840,
+  "fps": 60,
+  "totalFrames": 5400,
+  "intermediate": "PNG",
+  "concurrency": 2,
+  "codec": "h264",
+  "crf": 18,
+  "preset": "fast",
+  "pixelFormat": "yuv420p",
+  "colorSpace": "bt709",
+  "Remotion": "4.0.534",
+  "browser": "Google Chrome on local macOS",
+  "ChromeVersion": "Google Chrome 155.0.8059.85",
+  "files": {
+    "project/src/Film.tsx": "a35abb3fb30bf90373f5e9f123e6aa2b62e79d635081eb214d9d6e5c3e98f01c",
+    "project/src/Scenes.tsx": "734167aae8a6e8a31f1d81719114dd429c3047b69c3798b29d79a4cf07200a7c",
+    "project/src/Root.tsx": "f60bea0666c2d223541ce1eda520588ee0afff624447c5ac29efb72721397955",
+    "project/audio-timing.json": "208cd0d3ab54884600718be0b3c82f774f0a2f696a0610156953609436dbd66a",
+    "project/segments.json": "014365867be06e7310ae014890e6942c75b7e57811493aed8e67eaa419903637",
+    "project/sfx_events.json": "ce2ce73628bf81ad1beb8a8c00489e48b9732287133cd38a5d867508e1b6a944",
+    "project/public/audio/master.wav": "d787f5794a2f8cc76f159a58df02b66cd7721bb54e08d94149f1f0f251ecc968",
+    "project/scripts/render.mjs": "0bb15734dc2205910ff149428e6cd1e065906165e851647e39cc142c9d32fe86"
+  },
+  "audioAtRender": "Measured final stereo PCM, 4320000 samples/ch"
+}

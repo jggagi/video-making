@@ -1,0 +1,46 @@
+{
+  "status": "PREVIEW_ONLY_NO_AUDIO",
+  "segments": [],
+  "captions": [
+    {
+      "startFrame": 60,
+      "endFrame": 540,
+      "text": "此时此刻"
+    },
+    {
+      "startFrame": 600,
+      "endFrame": 1260,
+      "text": "它甚至不需要"
+    },
+    {
+      "startFrame": 1320,
+      "endFrame": 1980,
+      "text": "每一个音符"
+    },
+    {
+      "startFrame": 2040,
+      "endFrame": 2760,
+      "text": "真实世界里那些刺耳的争吵"
+    },
+    {
+      "startFrame": 2820,
+      "endFrame": 3540,
+      "text": "于是，八十亿人"
+    },
+    {
+      "startFrame": 3600,
+      "endFrame": 4320,
+      "text": "明明背靠背"
+    },
+    {
+      "startFrame": 4380,
+      "endFrame": 4800,
+      "text": "当完美的多巴胺温室"
+    },
+    {
+      "startFrame": 4860,
+      "endFrame": 5400,
+      "text": "唯有关掉屏幕后"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "status": "PASS",
+  "rows": [
+    {
+      "id": "S01",
+      "captionCount": 4,
+      "fullDisplayPreserved": true,
+      "firstFrame": 60,
+      "lastFrameExclusive": 501,
+      "timing": "Character weighted within measured PCM active span; not forced alignment"
+    },
+    {
+      "id": "S02",
+      "captionCount": 5,
+      "fullDisplayPreserved": true,
+      "firstFrame": 600,
+      "lastFrameExclusive": 1161,
+      "timing": "Character weighted within measured PCM active span; not forced alignment"
+    },
+    {
+      "id": "S03",
+      "captionCount": 4,
+      "fullDisplayPreserved": true,
+      "firstFrame": 1320,
+      "lastFrameExclusive": 1763,
+      "timing": "Character weighted within measured PCM active span; not forced alignment"
+    },
+    {
+      "id": "S04",
+      "captionCount": 5,
+      "fullDisplayPreserved": true,
+      "firstFrame": 2040,
+      "lastFrameExclusive": 2596,
+      "timing": "Character weighted within measured PCM active span; not forced alignment"
+    },
+    {
+      "id": "S05",
+      "captionCount": 5,
+      "fullDisplayPreserved": true,
+      "firstFrame": 2820,
+      "lastFrameExclusive": 3391,
+      "timing": "Character weighted within measured PCM active span; not forced alignment"
+    },
+    {
+      "id": "S06",
+      "captionCount": 6,
+      "fullDisplayPreserved": true,
+      "firstFrame": 3600,
+      "lastFrameExclusive": 4185,
+      "timing": "Character weighted within measured PCM active span; not forced alignment"
+    },
+    {
+      "id": "S07",
+      "captionCount": 2,
+      "fullDisplayPreserved": true,
+      "firstFrame": 4380,
+      "lastFrameExclusive": 4643,
+      "timing": "Character weighted within measured PCM active span; not forced alignment"
+    },
+    {
+      "id": "S08",
+      "captionCount": 5,
+      "fullDisplayPreserved": true,
+      "firstFrame": 4903,
+      "lastFrameExclusive": 5349,
+      "timing": "Character weighted within measured PCM active span; not forced alignment"
+    }
+  ],
+  "sourceSha256": "014365867be06e7310ae014890e6942c75b7e57811493aed8e67eaa419903637",
+  "timingSha256": "208cd0d3ab54884600718be0b3c82f774f0a2f696a0610156953609436dbd66a",
+  "phoneticAccuracy": "HUMAN_LISTENING_NOT_RUN",
+  "fontPxAt360": 16.333333333333332,
+  "maxLines": 2,
+  "lineHeightLogical": 54,
+  "anchorLogicalY": 1384
+}

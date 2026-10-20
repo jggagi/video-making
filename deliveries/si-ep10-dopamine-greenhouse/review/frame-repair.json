@@ -1,0 +1,245 @@
+{
+  "status": "PASS",
+  "createdAtUtc": "2026-10-20T10:01:52.453718+00:00",
+  "sourceSha256": {
+    "failedOriginalBefore": "c081bd497fcb5a29df33b4b718911b111d1b5a9ac8bd9510bf7e749f1cd28fe6",
+    "failedOriginalAfter": "c081bd497fcb5a29df33b4b718911b111d1b5a9ac8bd9510bf7e749f1cd28fe6",
+    "sourceFrame1369": "7468f68fff02e4e346c06fd1ddcb218f27929b9687fa288aa9932f335ad5be6c",
+    "sourceFrame4043": "bb1cb6b424ad8a1672a02fbc7f4f6f5f7a2213a7baa31e34943380c2b517f1fd"
+  },
+  "outputSha256": "2241fd76ba65c08758a84813f0f13bbe125f1d5ca6f868a090e56e85e44323b0",
+  "outputBytes": 110824973,
+  "canonicalOutput": "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep10-dopamine-greenhouse/小红书/si-ep10-dopamine-greenhouse-xiaohongshu-90s-portrait.mp4",
+  "exactFrameRepair": {
+    "changedFrameIndexesZeroBased": [
+      1369,
+      4043
+    ],
+    "frames": [
+      {
+        "frameIndex": 1369,
+        "sourcePng": "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep10-dopamine-greenhouse/review/source-1369.png",
+        "sourcePngSha256": "7468f68fff02e4e346c06fd1ddcb218f27929b9687fa288aa9932f335ad5be6c"
+      },
+      {
+        "frameIndex": 4043,
+        "sourcePng": "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep10-dopamine-greenhouse/review/source-4043.png",
+        "sourcePngSha256": "bb1cb6b424ad8a1672a02fbc7f4f6f5f7a2213a7baa31e34943380c2b517f1fd"
+      }
+    ],
+    "rangesHalfOpen": [
+      {
+        "source": "original",
+        "frames": [
+          0,
+          1369
+        ]
+      },
+      {
+        "source": "source-1369.png",
+        "frames": [
+          1369,
+          1370
+        ]
+      },
+      {
+        "source": "original",
+        "frames": [
+          1370,
+          4043
+        ]
+      },
+      {
+        "source": "source-4043.png",
+        "frames": [
+          4043,
+          4044
+        ]
+      },
+      {
+        "source": "original",
+        "frames": [
+          4044,
+          5400
+        ]
+      }
+    ],
+    "resultFrameCount": 5400
+  },
+  "nativeVideoProof": {
+    "videoOnlyIntermediate": {
+      "codecName": "h264",
+      "width": 2160,
+      "height": 3840,
+      "pixelFormat": "yuv420p",
+      "sampleAspectRatio": "1:1",
+      "rFrameRate": "60/1",
+      "avgFrameRate": "60/1",
+      "nbFrames": "5400",
+      "nbReadFrames": "5400",
+      "colorSpace": "bt709",
+      "colorTransfer": "bt709",
+      "colorPrimaries": "bt709",
+      "durationSeconds": "90.000000"
+    },
+    "finalVideo": {
+      "codecName": "h264",
+      "width": 2160,
+      "height": 3840,
+      "pixelFormat": "yuv420p",
+      "sampleAspectRatio": "1:1",
+      "rFrameRate": "60/1",
+      "avgFrameRate": "60/1",
+      "nbFrames": "5400",
+      "nbReadFrames": "5400",
+      "colorSpace": "bt709",
+      "colorTransfer": "bt709",
+      "colorPrimaries": "bt709",
+      "durationSeconds": "90.000000"
+    },
+    "containerDurationSeconds": 90.005,
+    "target": {
+      "width": 2160,
+      "height": 3840,
+      "fps": 60,
+      "frames": 5400,
+      "sar": "1:1",
+      "pixelFormat": "yuv420p",
+      "color": "bt709"
+    },
+    "metadataPreserved": true,
+    "titleAndComment": {
+      "title": "多巴胺温室",
+      "comment": "Made with Remotion 4.0.534; Future SI thought experiment. All biometrics, dopamine percentages and timing values are fictional. Procedural IRL metaphor; no real physiological measurement. Native portrait 4K; 90 seconds; 5400 frames at 60fps."
+    }
+  },
+  "audioCopyProof": {
+    "status": "PASS",
+    "method": "extract both AAC streams as ADTS with ffmpeg stream copy, then compare SHA-256",
+    "expectedPacketCount": 4221,
+    "sourceAdtsSha256": "1d98349123ee2c15965516d44614723e413b1423e73b5b32a12b5376e9cf990a",
+    "outputAdtsSha256": "1d98349123ee2c15965516d44614723e413b1423e73b5b32a12b5376e9cf990a",
+    "identical": true,
+    "finalStream": {
+      "codecName": "aac",
+      "sampleRateHz": 48000,
+      "channels": 2,
+      "packetCount": 4221,
+      "durationSeconds": "90.005000"
+    }
+  },
+  "actualFfmpegCommands": [
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-nostdin",
+      "-n",
+      "-filter_complex_threads",
+      "1",
+      "-threads",
+      "2",
+      "-i",
+      "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep10-dopamine-greenhouse/review/iterations/initial-90s.mp4.failed",
+      "-framerate",
+      "60",
+      "-i",
+      "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep10-dopamine-greenhouse/review/source-1369.png",
+      "-framerate",
+      "60",
+      "-i",
+      "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep10-dopamine-greenhouse/review/source-4043.png",
+      "-filter_complex",
+      "[0:v:0]split=3[origpre][origmid][origsuffix];[origpre]trim=start_frame=0:end_frame=1369,settb=expr=1/60,setpts=N,setsar=1/1,format=yuv420p[pre];[1:v:0]trim=start_frame=0:end_frame=1,settb=expr=1/60,setpts=N,scale=iw:ih:flags=lanczos:in_range=pc:out_range=tv:out_color_matrix=bt709,format=yuv420p,setsar=1/1[fix1369];[origmid]trim=start_frame=1370:end_frame=4043,settb=expr=1/60,setpts=N,setsar=1/1,format=yuv420p[middle];[2:v:0]trim=start_frame=0:end_frame=1,settb=expr=1/60,setpts=N,scale=iw:ih:flags=lanczos:in_range=pc:out_range=tv:out_color_matrix=bt709,format=yuv420p,setsar=1/1[fix4043];[origsuffix]trim=start_frame=4044:end_frame=5400,settb=expr=1/60,setpts=N,setsar=1/1,format=yuv420p[suffix];[pre][fix1369][middle][fix4043][suffix]concat=n=5:v=1:a=0,setparams=color_primaries=bt709:color_trc=bt709:colorspace=bt709,format=yuv420p[vout]",
+      "-map",
+      "[vout]",
+      "-map_metadata",
+      "0",
+      "-metadata",
+      "title=多巴胺温室",
+      "-metadata",
+      "comment=Made with Remotion 4.0.534; Future SI thought experiment. All biometrics, dopamine percentages and timing values are fictional. Procedural IRL metaphor; no real physiological measurement. Native portrait 4K; 90 seconds; 5400 frames at 60fps.",
+      "-c:v",
+      "libx264",
+      "-preset",
+      "veryfast",
+      "-crf",
+      "16",
+      "-threads:v",
+      "2",
+      "-an",
+      "-pix_fmt",
+      "yuv420p",
+      "-color_primaries",
+      "bt709",
+      "-color_trc",
+      "bt709",
+      "-colorspace",
+      "bt709",
+      "-r",
+      "60",
+      "-fps_mode",
+      "cfr",
+      "-frames:v",
+      "5400",
+      "-movflags",
+      "+faststart",
+      "-progress",
+      "pipe:1",
+      "-nostats",
+      "/Volumes/AgentDev/Scratch/tmp/ep10-frame-repair-34_6etx3/video-only.mp4"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "2",
+      "-i",
+      "/Volumes/AgentDev/Scratch/tmp/ep10-frame-repair-34_6etx3/video-only.mp4",
+      "-threads",
+      "2",
+      "-i",
+      "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep10-dopamine-greenhouse/review/iterations/initial-90s.mp4.failed",
+      "-map",
+      "0:v:0",
+      "-map",
+      "1:a:0",
+      "-map_metadata",
+      "1",
+      "-metadata",
+      "title=多巴胺温室",
+      "-metadata",
+      "comment=Made with Remotion 4.0.534; Future SI thought experiment. All biometrics, dopamine percentages and timing values are fictional. Procedural IRL metaphor; no real physiological measurement. Native portrait 4K; 90 seconds; 5400 frames at 60fps.",
+      "-c",
+      "copy",
+      "-movflags",
+      "+faststart",
+      "-progress",
+      "pipe:1",
+      "-nostats",
+      "/Volumes/AgentDev/Scratch/tmp/ep10-frame-repair-34_6etx3/repaired-remux.mp4"
+    ]
+  ],
+  "publication": {
+    "method": "same-volume unique partial copy followed by exclusive hard links; no overwrite",
+    "originalFailedSourceRetained": true
+  },
+  "limitations": [
+    "The corrected video stream is re-encoded and may have second-generation video loss.",
+    "The original .failed render is retained unchanged and remains marked failed.",
+    "This technical report does not imply visual acceptance, human review, device playback, or listening."
+  ],
+  "portableNativeFrameAssets": [
+    {
+      "frame": 1369,
+      "projectPath": "project/public/repair-frames/frame-1369.png",
+      "localRenderPath": "review/source-1369.png"
+    },
+    {
+      "frame": 4043,
+      "projectPath": "project/public/repair-frames/frame-4043.png",
+      "localRenderPath": "review/source-4043.png"
+    }
+  ]
+}

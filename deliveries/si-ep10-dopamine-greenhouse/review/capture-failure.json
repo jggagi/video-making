@@ -1,0 +1,31 @@
+{
+  "status": "INITIAL_MEDIA_REJECTED",
+  "initialSha256": "c081bd497fcb5a29df33b4b718911b111d1b5a9ac8bd9510bf7e749f1cd28fe6",
+  "retainedMovie": "review/iterations/initial-90s.mp4.failed",
+  "initialVisualReport": "review/visual-qc-xiaohongshu/report.json",
+  "badFrames": [
+    1369,
+    4043
+  ],
+  "observedDefect": "Repeated top-HUD capture tiles cover full frame; neighboring states expected coherent scene. No source transition at these frames.",
+  "repairDecision": "Independently rerender the exact two absolute frame states at native4K, replace exactlythose2 frames, no duplicate/interpolation/time deletion; full newmedia scanrequired",
+  "originalSourceAndAudioUnchanged": true,
+  "evidence": {
+    "contact": "review/frame-repair-contact.jpg",
+    "sha256": "f26fddc38a167d2c633f1286fd092c7004168afd9620ab7919affa7202c8f0aa"
+  },
+  "nativeRedraws": [
+    {
+      "frame": 1369,
+      "path": "review/source-1369.png",
+      "sha256": "7468f68fff02e4e346c06fd1ddcb218f27929b9687fa288aa9932f335ad5be6c",
+      "modelObserved": "Matches coherent neighboring scene geometry and current subtitle; no repeated HUD tiles"
+    },
+    {
+      "frame": 4043,
+      "path": "review/source-4043.png",
+      "sha256": "bb1cb6b424ad8a1672a02fbc7f4f6f5f7a2213a7baa31e34943380c2b517f1fd",
+      "modelObserved": "Matches coherent neighboring scene geometry and current subtitle; no repeated HUD tiles"
+    }
+  ]
+}

@@ -112,6 +112,10 @@ python3 scripts/fetch-archive-assets.py --root . --catalog final/backup-catalog.
 
 - [小红书 · si-ep09-computing-destiny-xiaohongshu-90s-portrait.mp4](si-ep09-computing-destiny/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep09-computing-destiny-xiaohongshu-90s-portrait.mp4) · [GitHub final 备份](https://github.com/jggagi/video-making/releases/download/final-si-ep09-computing-destiny-1c5575dd24dc/final--si-ep09-computing-destiny--deliveries--si-ep09-computing-destiny-----si-ep09-computing-destiny-xiaohongshu-90s-portrait--c9f5514809d7.mp4) · [原归档](https://github.com/jggagi/video-making/releases/download/film-si-ep09-computing-destiny-1c5575dd24dc/si-ep09-computing-destiny--deliveries--si-ep09-computing-destiny-----si-ep09-computing-destiny-xiaohongshu-90s-portrait--c9f5514809d7.mp4)
 
+## 多巴胺温室 (`si-ep10-dopamine-greenhouse`)
+
+- [小红书 · si-ep10-dopamine-greenhouse-xiaohongshu-90s-portrait.mp4](si-ep10-dopamine-greenhouse/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep10-dopamine-greenhouse-xiaohongshu-90s-portrait.mp4) · [GitHub final 备份](https://github.com/jggagi/video-making/releases/download/final-si-ep10-dopamine-greenhouse-7544f52c8da8/final--si-ep10-dopamine-greenhouse--deliveries--si-ep10-dopamine-greenhouse-----si-ep10-dopamine-greenhouse-xiaohongshu-90s-portrait--2241fd76ba65.mp4) · [原归档](https://github.com/jggagi/video-making/releases/download/film-si-ep10-dopamine-greenhouse-7544f52c8da8/si-ep10-dopamine-greenhouse--deliveries--si-ep10-dopamine-greenhouse-----si-ep10-dopamine-greenhouse-xiaohongshu-90s-portrait--2241fd76ba65.mp4)
+
 ## 一眼万年 (`si-eternity`)
 
 - [B站 · one-blink-ten-millennia-v3.mp4](%E4%B8%80%E7%9C%BC%E4%B8%87%E5%B9%B4/B%E7%AB%99/one-blink-ten-millennia-v3.mp4) · [GitHub final 备份](https://github.com/jggagi/video-making/releases/download/final-si-eternity-66d480b1c859/final--si-eternity--si-eternity--out--one-blink-ten-millennia-v3--4ef2326bf22b.mp4) · [原归档](https://github.com/jggagi/video-making/releases/download/archive-si-eternity-v1/si-eternity--si-eternity--out--one-blink-ten-millennia-v3--4ef2326bf22b.mp4)

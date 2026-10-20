@@ -1,0 +1,31 @@
+{
+  "fps": 60,
+  "totalFrames": 5400,
+  "acts": [
+    {
+      "startFrame": 0,
+      "endFrame": 1320,
+      "name": "毫秒滴定",
+      "action": "瞳孔扫描→潜向量收拢→奖励花绽放"
+    },
+    {
+      "startFrame": 1320,
+      "endFrame": 2820,
+      "name": "丝绒温室",
+      "action": "棱角撞膜→金色液滴→意识被喂养"
+    },
+    {
+      "startFrame": 2820,
+      "endFrame": 4380,
+      "name": "孤岛天堂",
+      "action": "一个温室指数拉远→人海蜂巢→同一沙发的两个宇宙"
+    },
+    {
+      "startFrame": 4380,
+      "endFrame": 5400,
+      "name": "疼痛的自由",
+      "action": "饱和→81秒锁屏→30帧黑与静音→撞石火星"
+    }
+  ],
+  "silenceNote": "Click is on frame4860; exact30-frame zero interval[4861,4891); this resolves click versus simultaneous absolute silence. Blackout overrides HUD and all captions."
+}

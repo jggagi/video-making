@@ -1,0 +1,147 @@
+{
+  "archive/catalog.json": {
+    "allPreviousPreserved": true,
+    "previousAssets": 200,
+    "currentAssets": 207,
+    "newWorkAssets": [
+      {
+        "path": "deliveries/si-ep10-dopamine-greenhouse/review/motion-2100-2279.mp4",
+        "name": "si-ep10-dopamine-greenhouse--deliveries--si-ep10-dopamine-greenhouse--review--motion-2100-2279--b643280b122c.mp4",
+        "bytes": 2524325,
+        "sha256": "b643280b122ce885e4103f7bc2e810b7eaa8bda1aebcfa16270cc985293a4313",
+        "kind": "video",
+        "platform": "预览",
+        "measurements": {
+          "width": 2160,
+          "height": 3840,
+          "fps": "60/1",
+          "frames": "180",
+          "video_duration_seconds": 3.0,
+          "container_duration_seconds": 3.008
+        },
+        "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep10-dopamine-greenhouse-7544f52c8da8/si-ep10-dopamine-greenhouse--deliveries--si-ep10-dopamine-greenhouse--review--motion-2100-2279--b643280b122c.mp4"
+      },
+      {
+        "path": "deliveries/si-ep10-dopamine-greenhouse/review/motion-3000-3179.mp4",
+        "name": "si-ep10-dopamine-greenhouse--deliveries--si-ep10-dopamine-greenhouse--review--motion-3000-3179--d585b43b75b9.mp4",
+        "bytes": 4447255,
+        "sha256": "d585b43b75b946682b58a04870ef1007faa545c165ba0c638b3d7693c22cea09",
+        "kind": "video",
+        "platform": "预览",
+        "measurements": {
+          "width": 2160,
+          "height": 3840,
+          "fps": "60/1",
+          "frames": "180",
+          "video_duration_seconds": 3.0,
+          "container_duration_seconds": 3.008
+        },
+        "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep10-dopamine-greenhouse-7544f52c8da8/si-ep10-dopamine-greenhouse--deliveries--si-ep10-dopamine-greenhouse--review--motion-3000-3179--d585b43b75b9.mp4"
+      },
+      {
+        "path": "deliveries/si-ep10-dopamine-greenhouse/review/motion-3600-3779.mp4",
+        "name": "si-ep10-dopamine-greenhouse--deliveries--si-ep10-dopamine-greenhouse--review--motion-3600-3779--a25727893ef8.mp4",
+        "bytes": 2133697,
+        "sha256": "a25727893ef8b4eaeacbec950feb37009b7f05f463ddd730359305271365eacd",
+        "kind": "video",
+        "platform": "预览",
+        "measurements": {
+          "width": 2160,
+          "height": 3840,
+          "fps": "60/1",
+          "frames": "180",
+          "video_duration_seconds": 3.0,
+          "container_duration_seconds": 3.008
+        },
+        "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep10-dopamine-greenhouse-7544f52c8da8/si-ep10-dopamine-greenhouse--deliveries--si-ep10-dopamine-greenhouse--review--motion-3600-3779--a25727893ef8.mp4"
+      },
+      {
+        "path": "deliveries/si-ep10-dopamine-greenhouse/review/motion-4800-4979.mp4",
+        "name": "si-ep10-dopamine-greenhouse--deliveries--si-ep10-dopamine-greenhouse--review--motion-4800-4979--ad2b4150b21c.mp4",
+        "bytes": 4564114,
+        "sha256": "ad2b4150b21ca33b11a99b98d11e0420f131d0bdb811e866bb1c9e307c565f69",
+        "kind": "video",
+        "platform": "预览",
+        "measurements": {
+          "width": 2160,
+          "height": 3840,
+          "fps": "60/1",
+          "frames": "180",
+          "video_duration_seconds": 3.0,
+          "container_duration_seconds": 3.008
+        },
+        "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep10-dopamine-greenhouse-7544f52c8da8/si-ep10-dopamine-greenhouse--deliveries--si-ep10-dopamine-greenhouse--review--motion-4800-4979--ad2b4150b21c.mp4"
+      },
+      {
+        "path": "deliveries/si-ep10-dopamine-greenhouse/review/motion-840-1019.mp4",
+        "name": "si-ep10-dopamine-greenhouse--deliveries--si-ep10-dopamine-greenhouse--review--motion-840-1019--e069e3f038e4.mp4",
+        "bytes": 3493501,
+        "sha256": "e069e3f038e489793d52d9bdee96f084d2c20d5cae26ac4f08ecb494b39596bd",
+        "kind": "video",
+        "platform": "预览",
+        "measurements": {
+          "width": 2160,
+          "height": 3840,
+          "fps": "60/1",
+          "frames": "180",
+          "video_duration_seconds": 3.0,
+          "container_duration_seconds": 3.008
+        },
+        "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep10-dopamine-greenhouse-7544f52c8da8/si-ep10-dopamine-greenhouse--deliveries--si-ep10-dopamine-greenhouse--review--motion-840-1019--e069e3f038e4.mp4"
+      },
+      {
+        "path": "deliveries/si-ep10-dopamine-greenhouse/si-ep10-dopamine-greenhouse-project.zip",
+        "name": "si-ep10-dopamine-greenhouse--deliveries--si-ep10-dopamine-greenhouse--si-ep10-dopamine-greenhouse-project--1e90b063a4c0.zip",
+        "bytes": 53263900,
+        "sha256": "1e90b063a4c0c5a7eda1a93c8eb086a569b2bbb2b3aa726ceeba2ade89505ab1",
+        "kind": "project",
+        "platform": "工程",
+        "measurements": {},
+        "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep10-dopamine-greenhouse-7544f52c8da8/si-ep10-dopamine-greenhouse--deliveries--si-ep10-dopamine-greenhouse--si-ep10-dopamine-greenhouse-project--1e90b063a4c0.zip"
+      },
+      {
+        "path": "deliveries/si-ep10-dopamine-greenhouse/小红书/si-ep10-dopamine-greenhouse-xiaohongshu-90s-portrait.mp4",
+        "name": "si-ep10-dopamine-greenhouse--deliveries--si-ep10-dopamine-greenhouse-----si-ep10-dopamine-greenhouse-xiaohongshu-90s-portrait--2241fd76ba65.mp4",
+        "bytes": 110824973,
+        "sha256": "2241fd76ba65c08758a84813f0f13bbe125f1d5ca6f868a090e56e85e44323b0",
+        "kind": "video",
+        "platform": "小红书",
+        "measurements": {
+          "width": 2160,
+          "height": 3840,
+          "fps": "60/1",
+          "frames": "5400",
+          "video_duration_seconds": 90.0,
+          "container_duration_seconds": 90.005
+        },
+        "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep10-dopamine-greenhouse-7544f52c8da8/si-ep10-dopamine-greenhouse--deliveries--si-ep10-dopamine-greenhouse-----si-ep10-dopamine-greenhouse-xiaohongshu-90s-portrait--2241fd76ba65.mp4"
+      }
+    ],
+    "sha256": "fed40cce3b20c97ed25f32487f05df408afb36a8d9bc179c77d4e00fc29044a8"
+  },
+  "final/backup-catalog.json": {
+    "allPreviousPreserved": true,
+    "previousAssets": 48,
+    "currentAssets": 49,
+    "newWorkAssets": [
+      {
+        "path": "final/si-ep10-dopamine-greenhouse/小红书/si-ep10-dopamine-greenhouse-xiaohongshu-90s-portrait.mp4",
+        "name": "final--si-ep10-dopamine-greenhouse--deliveries--si-ep10-dopamine-greenhouse-----si-ep10-dopamine-greenhouse-xiaohongshu-90s-portrait--2241fd76ba65.mp4",
+        "bytes": 110824973,
+        "sha256": "2241fd76ba65c08758a84813f0f13bbe125f1d5ca6f868a090e56e85e44323b0",
+        "kind": "video",
+        "platform": "小红书",
+        "measurements": {
+          "width": 2160,
+          "height": 3840,
+          "fps": "60/1",
+          "frames": "5400",
+          "video_duration_seconds": 90.0,
+          "container_duration_seconds": 90.005
+        },
+        "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep10-dopamine-greenhouse-7544f52c8da8/final--si-ep10-dopamine-greenhouse--deliveries--si-ep10-dopamine-greenhouse-----si-ep10-dopamine-greenhouse-xiaohongshu-90s-portrait--2241fd76ba65.mp4"
+      }
+    ],
+    "sha256": "1c4daa1b178e9df7cf68e567bc7076aeeeb60dd8b5fcf74611d4b9d8a62a0d31"
+  }
+}

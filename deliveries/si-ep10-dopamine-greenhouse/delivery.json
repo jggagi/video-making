@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "title": "多巴胺温室",
+  "slug": "si-ep10-dopamine-greenhouse",
+  "platforms": [
+    "xiaohongshu"
+  ],
+  "duration_seconds": 90,
+  "fps": 60,
+  "total_frames": 5400,
+  "script": {
+    "path": "source/script.md",
+    "sha256": "02818be4ef83881f722e6522367098a8725a86ba2939aaf737832603ec73401a"
+  },
+  "audio": {
+    "mode": "narrated",
+    "master": "project/public/audio/master.wav",
+    "master_sha256": "d787f5794a2f8cc76f159a58df02b66cd7721bb54e08d94149f1f0f251ecc968",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples_per_channel": 4320000,
+    "narration_provider": "Aliyun Bailian",
+    "effective_model": "cosyvoice-v3-flash",
+    "voice": "longtian_v3",
+    "integrated_lufs": -16.0,
+    "true_peak_dbtp": -1.5
+  },
+  "outputs": {
+    "xiaohongshu": {
+      "path": "小红书/si-ep10-dopamine-greenhouse-xiaohongshu-90s-portrait.mp4",
+      "width": 2160,
+      "height": 3840
+    }
+  },
+  "qa": {
+    "automated": "PASS",
+    "representative_frames": "MODEL_OBSERVED_FINAL_ENCODED",
+    "continuous_human_review": "NOT_RUN",
+    "target_device_playback": "NOT_RUN",
+    "human_listening": "NOT_RUN"
+  },
+  "visual_qc": {
+    "required": true,
+    "reports": {
+      "xiaohongshu": "review/visual-qc-xiaohongshu-r02/report.json"
+    }
+  }
+}

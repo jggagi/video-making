@@ -1,0 +1,57 @@
+{
+  "status": "MODEL_OBSERVED_NATIVE_NARRATED_SAMPLES",
+  "samples": [
+    {
+      "file": "motion-840-1019.mp4",
+      "sha256": "e069e3f038e489793d52d9bdee96f084d2c20d5cae26ac4f08ecb494b39596bd",
+      "decodedFrames": 180,
+      "frameRange": [
+        840,
+        1019
+      ],
+      "audioPresent": true
+    },
+    {
+      "file": "motion-2100-2279.mp4",
+      "sha256": "b643280b122ce885e4103f7bc2e810b7eaa8bda1aebcfa16270cc985293a4313",
+      "decodedFrames": 180,
+      "frameRange": [
+        2100,
+        2279
+      ],
+      "audioPresent": true
+    },
+    {
+      "file": "motion-3600-3779.mp4",
+      "sha256": "a25727893ef8b4eaeacbec950feb37009b7f05f463ddd730359305271365eacd",
+      "decodedFrames": 180,
+      "frameRange": [
+        3600,
+        3779
+      ],
+      "audioPresent": true
+    },
+    {
+      "file": "motion-4800-4979.mp4",
+      "sha256": "ad2b4150b21ca33b11a99b98d11e0420f131d0bdb811e866bb1c9e307c565f69",
+      "decodedFrames": 180,
+      "frameRange": [
+        4800,
+        4979
+      ],
+      "audioPresent": true
+    }
+  ],
+  "contactSha256": "ad9b0a01fa33f9edf131e5e76245b57705697ca769f94575caa8b7f7fbcd6694",
+  "audioSource": "shared measured90s PCM master",
+  "noHumanListeningClaim": true,
+  "observations": [
+    "Eye-to-flower visible development",
+    "Jagged shapes become gold droplets at cyan membrane",
+    "Same sofa phone silhouettes and independent domes legible",
+    "4860 white line then totalblack then rough white stone and amber/red impact"
+  ],
+  "browserPlayback": "Four 3.008s samples played 0..end in IAB at native2160x3840; read-only video.played and ended evidence observed, no media error. This is a playback check, not human listening.",
+  "humanListening": "NOT_RUN",
+  "continuousAudienceReview": "NOT_RUN"
+}

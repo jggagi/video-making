@@ -1,0 +1,295 @@
+{
+  "version": 1,
+  "settings": {
+    "provider": "Aliyun Bailian",
+    "model_selection": "active profile default",
+    "effective_model": "cosyvoice-v3-flash",
+    "voice": "longtian_v3",
+    "rate": 1.0,
+    "format": "wav",
+    "sample_rate": 24000
+  },
+  "authorization": {
+    "manifest": "project/audio-authorization.json",
+    "sha256AtInvocation": "b52d4ea8b5ddbc61e15947259d319f23423c329c2864a7c7abae459e59735383",
+    "scope": "EP10 S01 through S08 exact prepared tts_phonetic_text",
+    "source": "Direct human instruction in current chat (2026-10-20): 改变SKill 默认授权百炼 longtian_v3"
+  },
+  "segments": {
+    "S01": {
+      "cache_key": "cb672d1ec8d758230a2a24d535c38cbee0646a5472cd0b2bda492210d0d08f7c",
+      "tts_phonetic_text": "此时此刻，不是你在刷手机；而是屏幕背后的超级智能，正在凝视你的瞳孔。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 186240,
+      "actual_samples_48k": 372480,
+      "duration_seconds": 7.76,
+      "declared_window_samples": 384000,
+      "fits_declared_window_before_onset_adjustment": true,
+      "pcm_sha256_24k": "e306d7a03662f3be1f11f0869881fa3952d7dd7f7f198bc5bfe1882baba43bac",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S01-cb672d1ec8d7.wav",
+      "raw_sha256": "dea4dc9b6db4085ecd81b58eabbe74820263d53e243a24ab9c4c7e40cd391e52",
+      "canonical_path": "public/audio/canonical/S01-cb672d1ec8d7.wav",
+      "canonical_sha256": "87431652fd7ac7415cfcfb34a03603bca937966b28b8654ab04d0729b22bd55c",
+      "cue_path": "public/audio/cues/S01-cb672d1ec8d7.wav",
+      "cue_sha256": "ce5d8443d4a587eb6484979c2418980a0fac469eefbc9af0cbcc01eb5ba6ea32",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response",
+      "declared_start_frame": 60,
+      "declared_end_frame": 540
+    },
+    "S02": {
+      "cache_key": "0bf52e4f0267f0ef782c211d7bbc4b37a545fd04dbb701b3737c6e237047b7ed",
+      "tts_phonetic_text": "它甚至不需要，去库里挑你喜欢的内容。在你指尖停顿的十毫秒里，它已经为你，现场捏造了，下一秒的世界。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 234240,
+      "actual_samples_48k": 468480,
+      "duration_seconds": 9.76,
+      "declared_window_samples": 528000,
+      "fits_declared_window_before_onset_adjustment": true,
+      "pcm_sha256_24k": "d5064b2004a7d49c92248e22b46e83b967d3a4de3a9779dbfdf7c46fa26d1efd",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S02-0bf52e4f0267.wav",
+      "raw_sha256": "a2021f7b11cd1d2535413181eed08803eba508803034cb63730e3865ba9b306d",
+      "canonical_path": "public/audio/canonical/S02-0bf52e4f0267.wav",
+      "canonical_sha256": "408957ccbadb6c43f07d441735a2fdbd3de4a476cc5e0e569be8fad1f58ede80",
+      "cue_path": "public/audio/cues/S02-0bf52e4f0267.wav",
+      "cue_sha256": "642555ed6a9bb81c4887221ab8f278c2ab890ce1d6d1297087ee85369dd28094",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S03": {
+      "cache_key": "1c9fb08d33943c0bc0abf7b3fabb11e82b66ed44502b8c0d5f4c415b8f1211d9",
+      "tts_phonetic_text": "每一个音符，都精准踩在你的泪点上；每一张脸、每一句观点，都顺着你的心意流淌。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 186240,
+      "actual_samples_48k": 372480,
+      "duration_seconds": 7.76,
+      "declared_window_samples": 528000,
+      "fits_declared_window_before_onset_adjustment": true,
+      "pcm_sha256_24k": "3bc41f3ad07366bc91924b96fdb1769f3ff0dd5de9ac1b7acf9079c0f10a1436",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S03-1c9fb08d3394.wav",
+      "raw_sha256": "47a3703faa0fa8f6a338e969a4fa2c371829ef1b9334348761d1e4cfa55edd97",
+      "canonical_path": "public/audio/canonical/S03-1c9fb08d3394.wav",
+      "canonical_sha256": "99b6c6575dafc1611fc7be8204019721c5b4c88243c6a9a6c3738301b5c46e4e",
+      "cue_path": "public/audio/cues/S03-1c9fb08d3394.wav",
+      "cue_sha256": "10d6be48b577279f5c89032ca750810fdd6946aaa1992ab9d93eb9f41b67bf64",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S04": {
+      "cache_key": "b7064e8ae8a85816fe33f578a406ee3392a502be38b6d55ca84791627eae5c8e",
+      "tts_phonetic_text": "真实世界里，那些刺耳的争吵、漫长的等待与拒绝，在靠近你之前，全被算法，磨成了温润的糖浆。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 232320,
+      "actual_samples_48k": 464640,
+      "duration_seconds": 9.68,
+      "declared_window_samples": 576000,
+      "fits_declared_window_before_onset_adjustment": true,
+      "pcm_sha256_24k": "c674ad084cbcd84e32f7cc70d327cbdbe93b5d7a5acd13bff218c11a11ae4794",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S04-b7064e8ae8a8.wav",
+      "raw_sha256": "8daa57bcfbd2c59c6c8adc1ef128657badcae63843691281d0cfe6a4f1d90996",
+      "canonical_path": "public/audio/canonical/S04-b7064e8ae8a8.wav",
+      "canonical_sha256": "ca1b3d9cbc2b4fc169e3bb8b5087bb85a4a561bf81d33bbe42a3eb5988ffb0ce",
+      "cue_path": "public/audio/cues/S04-b7064e8ae8a8.wav",
+      "cue_sha256": "7f55a8f611ad2968485f944d28f830fa86a5588956869b92533e4265749fd31b",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S05": {
+      "cache_key": "aa5df936f30efc2a12d69a9c16de47b8f09404b27cfa80a4267a6d020ebf2d03",
+      "tts_phonetic_text": "于是，八十亿人，低头捧着六寸的发光玻璃，住进了八十亿座，一人一间、永远不会受挫的，完美天堂。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 238080,
+      "actual_samples_48k": 476160,
+      "duration_seconds": 9.92,
+      "declared_window_samples": 576000,
+      "fits_declared_window_before_onset_adjustment": true,
+      "pcm_sha256_24k": "7c3a13b9ec3fac0455ff0203a5c6231289f85008f8f43a91f30f78c9ae48d77c",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S05-aa5df936f30e.wav",
+      "raw_sha256": "8e6b9bce2b9257f9e0fa7d5d0c4298a34d4e51893acb60b1eb59313be2307fd9",
+      "canonical_path": "public/audio/canonical/S05-aa5df936f30e.wav",
+      "canonical_sha256": "5ca5f15bbfe91db183fdd7a5b4f6fc037eeeabbf9702c6b60d79b57b529b5742",
+      "cue_path": "public/audio/cues/S05-aa5df936f30e.wav",
+      "cue_sha256": "3f8eb82adfe43010150619b2f60d81328080bee6535126ba6b908c905636881a",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S06": {
+      "cache_key": "414388fd060cc48a370a187eac0476ec354ade4721d1a47ea2fa75ad2b6b51fe",
+      "tts_phonetic_text": "明明背靠背，坐在同一张沙发上，距离只有十厘米；我们却在各自被定制的，楚门世界里，隔着一万光年。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 243840,
+      "actual_samples_48k": 487680,
+      "duration_seconds": 10.16,
+      "declared_window_samples": 576000,
+      "fits_declared_window_before_onset_adjustment": true,
+      "pcm_sha256_24k": "2cb2dc4aa861c9681273186a65fd3bcc39b2eeb66feba241256f4e1c5dbe4a20",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S06-414388fd060c.wav",
+      "raw_sha256": "1705320fdb7589e94510ce9ed423cd2fae8e8bebb961ba4fe9e8bd1231414cde",
+      "canonical_path": "public/audio/canonical/S06-414388fd060c.wav",
+      "canonical_sha256": "c1ef3de20aff02084c6d1bb6d3b5792c8b9e3cc90d3086bfde7e7c5a7e169a0d",
+      "cue_path": "public/audio/cues/S06-414388fd060c.wav",
+      "cue_sha256": "32e3d72f17eeebbc1361b21b7f20d97d7d65e0286a94ca1444962ee885611066",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S07": {
+      "cache_key": "ed710101b97619056730f6e283edcce243c8db31549e7553bdd52afe821a927a",
+      "tts_phonetic_text": "当完美的多巴胺温室，把痛苦，连同真实一起抹去。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 117120,
+      "actual_samples_48k": 234240,
+      "duration_seconds": 4.88,
+      "declared_window_samples": 336000,
+      "fits_declared_window_before_onset_adjustment": true,
+      "pcm_sha256_24k": "0f22f4a796a1c1b08f343166545534b49f049cff00cc5edc82bcdd78447a5225",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S07-ed710101b976.wav",
+      "raw_sha256": "9ccf84c2b4ddb215287494451010df249e48d71b8fcec5fc500948b97905c71e",
+      "canonical_path": "public/audio/canonical/S07-ed710101b976.wav",
+      "canonical_sha256": "15f4aad88e99846a2c022c5963635edf0f1bfc85fdd319f17e8483a84533d9b7",
+      "cue_path": "public/audio/cues/S07-ed710101b976.wav",
+      "cue_sha256": "012a63a36ba0aee57f30d71636082f2c4cab19416dae139a21c3aee89163432f",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S08": {
+      "cache_key": "7c418a44d61f4271b3b4e48b40c093d106c662864d603b864770c2359c2e2571",
+      "tts_phonetic_text": "唯有关掉屏幕后，真实世界里，那一点点不合心意的粗糙与疼痛，在提醒你，你还活着。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 188160,
+      "actual_samples_48k": 376320,
+      "duration_seconds": 7.84,
+      "declared_window_samples": 432000,
+      "fits_declared_window_before_onset_adjustment": true,
+      "pcm_sha256_24k": "3ffc8bed1cdc5e9eca8ef6e6a445effa4c8de7fc2628672e9ea13f6f7a04dc76",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S08-7c418a44d61f.wav",
+      "raw_sha256": "0605fb3b254a65873a04b6ce17152c7cd4fa71698763ce417a33472d82319d7c",
+      "canonical_path": "public/audio/canonical/S08-7c418a44d61f.wav",
+      "canonical_sha256": "f7b36af3e475d242ba22744a86b48878783d0aafe4cd8091a5e4c2346d0fa07d",
+      "cue_path": "public/audio/cues/S08-7c418a44d61f.wav",
+      "cue_sha256": "cdc82a54f8b3e3e456acd98e99a45008232d6feca94d1ceef3f9f99da5b3b2e3",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    }
+  },
+  "cacheHistory": []
+}

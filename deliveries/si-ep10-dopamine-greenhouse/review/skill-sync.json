@@ -1,0 +1,30 @@
+{
+  "status": "POLICY_SYNCHRONIZED",
+  "source": "Direct user message: 改变SKill 默认授权百炼 longtian_v3",
+  "date": "2026-10-20",
+  "commit": "7e6ebda",
+  "validation": "Existing JS YAML parser validates unchanged frontmatter; git diff --check passed. Official Python quick_validate not run: PyYAML absent; no dependency installed.",
+  "files": [
+    {
+      "repositoryPath": "skills/dual-platform-video/SKILL.md",
+      "repositorySha256": "c610391e599da3835c54d2eec5d250862a9dd7977a5dc1ebc6da3c86be7f13e6",
+      "installedSha256": "b8af16c2b909256c29dd7fe6b8b0d87cccf39ab4eda036524c685a2742af3b42",
+      "sameAuthorizationPolicy": true,
+      "note": "Installed dual-platform existing singleplatform-doc difference retained; only defaultauthorization change synchronized."
+    },
+    {
+      "repositoryPath": "skills/voiceover/SKILL.md",
+      "repositorySha256": "7393c30d9794c117f764f43f3a244120127ae3437d7d7cbc007ce5369f025f49",
+      "installedSha256": "7393c30d9794c117f764f43f3a244120127ae3437d7d7cbc007ce5369f025f49",
+      "sameAuthorizationPolicy": true,
+      "note": "Exact copies match"
+    },
+    {
+      "repositoryPath": "skills/voiceover/references/bailian.md",
+      "repositorySha256": "a76fca80183deff6a0310ca3573d1e3e787580e7a0777c2b0de8f4bda38af6b1",
+      "installedSha256": "a76fca80183deff6a0310ca3573d1e3e787580e7a0777c2b0de8f4bda38af6b1",
+      "sameAuthorizationPolicy": true,
+      "note": "Exact copies match"
+    }
+  ]
+}

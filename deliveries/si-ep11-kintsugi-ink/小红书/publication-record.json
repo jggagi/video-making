@@ -1,7 +1,7 @@
 {
   "platform": "小红书",
   "work": "si-ep11-kintsugi-ink",
-  "status": "HOST_REJECTED_UPLOAD_PENDING_DIRECT_USER_AUTHORIZATION",
+  "status": "SCHEDULED_REVIEW_PENDING",
   "authorization_summary": "Attached user request explicitly asks render validate and publish this EP11 on Xiaohongshu at peak hours; user approved scientific revision.",
   "account_display_name": "余问 QStory",
   "duplicate_check": {
@@ -10,9 +10,9 @@
     "scope": "Creator manager current all11 listing plus exact search逆转的沙漏 returned没有找到相关笔记; observation made during this production turn, exact tool timestamp not retained.",
     "existing_match": false
   },
-  "prepared": false,
-  "submission_attempted": false,
-  "submission_verified": false,
+  "prepared": true,
+  "submission_attempted": true,
+  "submission_verified": true,
   "publication_verified": false,
   "public_visibility_verified": false,
   "timing_plan": {
@@ -37,19 +37,19 @@
   "body_path": "deliveries/si-ep11-kintsugi-ink/小红书/post-body.txt",
   "content_declaration_plan": "笔记含AI合成内容",
   "visibility_plan": "公开可见",
-  "upload_attempted": false,
+  "upload_attempted": true,
   "host_review": {
     "action": "Upload final EP11 MP4 to Xiaohongshu account",
     "decision": "REJECTED_BEFORE_EXECUTION",
     "reason": "Automatic approval review did not recognize attached publication instruction as a separate direct user-authored publication request.",
-    "safe_next_action": "Ask for direct chat authorization after completing unaffected production/archive work; do not bypass or retry upload before approval."
+    "safe_next_action": "Ask for direct chat authorization after completing unaffected production/archive work; do not bypass or retry upload before approval.",
+    "resolved_by": "Direct trusted current-chat user approval; authorized upload completed."
   },
   "remaining": [
-    "Direct user authorization in chat for Xiaohongshu upload and scheduled public publication",
-    "Platform topic linking, cover preview, AI declaration, schedule selection and final submission after authorization"
+    "Platform content review and scheduled public release; actual public visibility not yet observed"
   ],
   "materials_prepared": true,
-  "platform_prepared": false,
+  "platform_prepared": true,
   "body_sha256": "8023fb1c00fb3e079d1becc65303c391863e75d3b1b9c8c42ac21af6a37291dd",
   "planned_topics": [
     "超级智能",
@@ -62,7 +62,17 @@
     "时间",
     "一眼万年"
   ],
-  "linked_topics": [],
+  "linked_topics": [
+    "超级智能",
+    "抗衰老",
+    "白头偕老",
+    "数字金缮",
+    "科幻美学",
+    "数字艺术",
+    "深度思考",
+    "时间",
+    "一眼万年"
+  ],
   "archive": {
     "source_commit": "00e471fea706ef1455c14817fe27907322876ffa",
     "film_release": "https://github.com/jggagi/video-making/releases/tag/film-si-ep11-kintsugi-ink-bc1f191cc5a5",
@@ -70,5 +80,50 @@
     "local_final": "final/si-ep11-kintsugi-ink/小红书/si-ep11-kintsugi-ink-xiaohongshu-90s-portrait.mp4",
     "remote_size_sha256": "VERIFIED",
     "restore_probe": "PASS"
+  },
+  "direct_user_authorization": {
+    "authorized": true,
+    "source": "User directly selected in current chat: 允许上传并按上述时间公开发布（推荐）",
+    "scope": "EP11 video sha88db88150c51, current cover/caption, account余问QStory, public scheduled2026-10-21 20:00Asia/Shanghai (2026-10-21 05:00America/Los_Angeles)",
+    "recorded_at_utc": "2026-10-20T15:51:34Z"
+  },
+  "upload_verified": true,
+  "content_declaration": "笔记含AI合成内容",
+  "visibility": "公开可见",
+  "platform_displayed_schedule": "2026-10-21 20:00 北京时间",
+  "preflight_verified_at_utc": "2026-10-20T15:57:21Z",
+  "platform_preflight": {
+    "video": "Filename and HD detection visible; upload processing finished",
+    "cover": "Uploaded exact cover.png; visible preview matches; platform cover-quality check passed",
+    "topics": "All 9 selected from platform suggestion UI, each represented as linked topic token",
+    "caption_counter": 455,
+    "schedule_timezone_explicit": "北京时间",
+    "activity": "Platform automatically associated an unrelated activity; canceled before submission",
+    "private_evidence": [
+      "/private/tmp/ep11-preflight-page.txt",
+      "/private/tmp/ep11-publish-preflight.png"
+    ]
+  },
+  "submission_started_at_utc": "2026-10-20T15:57:48Z",
+  "scheduled_publication_verified": true,
+  "platform_status": "审核中",
+  "platform_schedule": "定时发布 2026-10-21 20:00 （GMT+8:00 北京时间）",
+  "submission_verified_at_utc": "2026-10-20T15:58:21Z",
+  "note_id": null,
+  "note_url": null,
+  "platform_result": {
+    "success_page_observed": true,
+    "success_page_text": "发布成功",
+    "manager_title": "审核中 如果永远年轻，白头偕老还算誓言吗？",
+    "manager_duration": "01:30",
+    "manager_count_before": 11,
+    "manager_count_after": 12,
+    "schedule_timezone_explicit": "GMT+8:00 北京时间",
+    "cover_preview_matches": true,
+    "private_evidence": [
+      "/private/tmp/ep11-scheduled-result.png",
+      "/private/tmp/ep11-scheduled-result-page.txt"
+    ],
+    "public_note_link": "Not exposed in observed pending-review row"
   }
 }

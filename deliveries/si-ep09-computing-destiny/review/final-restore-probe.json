@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "verified_at_utc": "2026-10-20T04:51:27.862981+00:00",
+  "source_commit": "1cc5077797c0649a8c5495bdc7d636147062608b",
+  "catalog_sha256": "42ca2e13a545591be6d98e2178f28df5930cea5e5200f57b4df3abacd09b7240",
+  "release_tag": "final-si-ep09-computing-destiny-1c5575dd24dc",
+  "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep09-computing-destiny-1c5575dd24dc/final--si-ep09-computing-destiny--deliveries--si-ep09-computing-destiny-----si-ep09-computing-destiny-xiaohongshu-90s-portrait--c9f5514809d7.mp4",
+  "relative_path": "final/si-ep09-computing-destiny/小红书/si-ep09-computing-destiny-xiaohongshu-90s-portrait.mp4",
+  "restored_bytes": 60904573,
+  "restored_sha256": "c9f5514809d710849f12ca4074a9f89b5e954cb25dd439b01c7f959a9641cfa1",
+  "method": "Actual fresh HTTPS download through repository fetch-archive-assets.py into an empty isolated AgentDev temporary directory; compare full SHA256 and byte count; repeat restore verifies skip",
+  "commands": [
+    [
+      "python3",
+      "/Users/guoq/Documents/ChatGPT/video/scripts/fetch-archive-assets.py",
+      "--root",
+      "/Volumes/AgentDev/Scratch/tmp/ep09-final-restore-sqyq4qtk",
+      "--catalog",
+      "/Volumes/AgentDev/Scratch/tmp/ep09-final-restore-sqyq4qtk/subset-catalog.json",
+      "--download"
+    ],
+    [
+      "python3",
+      "/Users/guoq/Documents/ChatGPT/video/scripts/fetch-archive-assets.py",
+      "--root",
+      "/Volumes/AgentDev/Scratch/tmp/ep09-final-restore-sqyq4qtk",
+      "--catalog",
+      "/Volumes/AgentDev/Scratch/tmp/ep09-final-restore-sqyq4qtk/subset-catalog.json",
+      "--download"
+    ]
+  ],
+  "first_output": "Restored: final/si-ep09-computing-destiny/小红书/si-ep09-computing-destiny-xiaohongshu-90s-portrait.mp4 (60,904,573 bytes)\nRestore complete: 0 already verified, 1 downloaded\n",
+  "repeat_output": "Restore complete: 1 already verified, 0 downloaded\n",
+  "scope": "This new formal final movie; all final assets inventory/remote digest verification is separate",
+  "temporary_storage": "Own isolated temporary directory removed on success; original local final unchanged"
+}

@@ -1,0 +1,128 @@
+{
+  "status": "COMPLETE",
+  "verified_at_utc": "2026-10-20T04:52:01.291509+00:00",
+  "source_commit": "1cc5077797c0649a8c5495bdc7d636147062608b",
+  "verification": "Uploader read remote published asset sizes and GitHub SHA256 digests; final independent inventory verifier and actual new final download/restore also passed",
+  "catalogs": {
+    "archive": {
+      "status": "COMPLETE",
+      "catalog": "archive/catalog.json",
+      "catalog_sha256": "e09a4950ba71642770cb167a38687766308b5181613485db3363ae9290364bde",
+      "receipt_sha256": "3879d339fa30f8d73ef378038d996cf01e6489525f8f56590bf2bc87d225602d",
+      "verified_works": 19,
+      "verified_assets": 200,
+      "new_work_release_url": "https://github.com/jggagi/video-making/releases/tag/film-si-ep09-computing-destiny-1c5575dd24dc",
+      "new_work_assets": [
+        {
+          "name": "si-ep09-computing-destiny--deliveries--si-ep09-computing-destiny--review--iterations--initial-90s--2ec674947741.mp4",
+          "bytes": 55677766,
+          "digest": "sha256:2ec6749477417216ec6837dd0a55eba28e50a243047bf5bdb066b372845a0f51",
+          "kind": "video",
+          "platform": "预览",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep09-computing-destiny-1c5575dd24dc/si-ep09-computing-destiny--deliveries--si-ep09-computing-destiny--review--iterations--initial-90s--2ec674947741.mp4",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep09-computing-destiny-1c5575dd24dc/si-ep09-computing-destiny--deliveries--si-ep09-computing-destiny--review--iterations--initial-90s--2ec674947741.mp4",
+          "id": 658293733
+        },
+        {
+          "name": "si-ep09-computing-destiny--deliveries--si-ep09-computing-destiny--review--motion-1200-2639--1969678e8254.mp4",
+          "bytes": 14562031,
+          "digest": "sha256:1969678e8254896ef506b49394fe8ca3a1047843905759f091a6927877a56cde",
+          "kind": "video",
+          "platform": "预览",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep09-computing-destiny-1c5575dd24dc/si-ep09-computing-destiny--deliveries--si-ep09-computing-destiny--review--motion-1200-2639--1969678e8254.mp4",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep09-computing-destiny-1c5575dd24dc/si-ep09-computing-destiny--deliveries--si-ep09-computing-destiny--review--motion-1200-2639--1969678e8254.mp4",
+          "id": 658293916
+        },
+        {
+          "name": "si-ep09-computing-destiny--deliveries--si-ep09-computing-destiny--review--motion-1920-2099--2d8203dce503.mp4",
+          "bytes": 1269675,
+          "digest": "sha256:2d8203dce5032c7f1bec95ca84e71fe20dcf3fd3c49be8444e2b461d63ee49cb",
+          "kind": "video",
+          "platform": "预览",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep09-computing-destiny-1c5575dd24dc/si-ep09-computing-destiny--deliveries--si-ep09-computing-destiny--review--motion-1920-2099--2d8203dce503.mp4",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep09-computing-destiny-1c5575dd24dc/si-ep09-computing-destiny--deliveries--si-ep09-computing-destiny--review--motion-1920-2099--2d8203dce503.mp4",
+          "id": 658293965
+        },
+        {
+          "name": "si-ep09-computing-destiny--deliveries--si-ep09-computing-destiny--review--motion-3540-3719--1a5ee33df182.mp4",
+          "bytes": 1493612,
+          "digest": "sha256:1a5ee33df182a1387bc62a5e032080f6e8c76b8028415d3f6fb18283d5c51ba7",
+          "kind": "video",
+          "platform": "预览",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep09-computing-destiny-1c5575dd24dc/si-ep09-computing-destiny--deliveries--si-ep09-computing-destiny--review--motion-3540-3719--1a5ee33df182.mp4",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep09-computing-destiny-1c5575dd24dc/si-ep09-computing-destiny--deliveries--si-ep09-computing-destiny--review--motion-3540-3719--1a5ee33df182.mp4",
+          "id": 658293998
+        },
+        {
+          "name": "si-ep09-computing-destiny--deliveries--si-ep09-computing-destiny--review--motion-4800-5059--dfc8592692cd.mp4",
+          "bytes": 2114075,
+          "digest": "sha256:dfc8592692cd5dc0e5c3e477d05645c922201a2f3c8399e4f4cc17fbdda08928",
+          "kind": "video",
+          "platform": "预览",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep09-computing-destiny-1c5575dd24dc/si-ep09-computing-destiny--deliveries--si-ep09-computing-destiny--review--motion-4800-5059--dfc8592692cd.mp4",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep09-computing-destiny-1c5575dd24dc/si-ep09-computing-destiny--deliveries--si-ep09-computing-destiny--review--motion-4800-5059--dfc8592692cd.mp4",
+          "id": 658294065
+        },
+        {
+          "name": "si-ep09-computing-destiny--deliveries--si-ep09-computing-destiny--review--motion-60-239--17d83effd55c.mp4",
+          "bytes": 1385437,
+          "digest": "sha256:17d83effd55c1af00496290276ef7648446c6b1180d14a146130ed4794744e67",
+          "kind": "video",
+          "platform": "预览",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep09-computing-destiny-1c5575dd24dc/si-ep09-computing-destiny--deliveries--si-ep09-computing-destiny--review--motion-60-239--17d83effd55c.mp4",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep09-computing-destiny-1c5575dd24dc/si-ep09-computing-destiny--deliveries--si-ep09-computing-destiny--review--motion-60-239--17d83effd55c.mp4",
+          "id": 658294141
+        },
+        {
+          "name": "si-ep09-computing-destiny--deliveries--si-ep09-computing-destiny--si-ep09-computing-destiny-project--ec25202a48d1.zip",
+          "bytes": 40847921,
+          "digest": "sha256:ec25202a48d189bdf51db2364030e7a25f71105342e989c18f4832086abb65ef",
+          "kind": "project",
+          "platform": "工程",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep09-computing-destiny-1c5575dd24dc/si-ep09-computing-destiny--deliveries--si-ep09-computing-destiny--si-ep09-computing-destiny-project--ec25202a48d1.zip",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep09-computing-destiny-1c5575dd24dc/si-ep09-computing-destiny--deliveries--si-ep09-computing-destiny--si-ep09-computing-destiny-project--ec25202a48d1.zip",
+          "id": 658294169
+        },
+        {
+          "name": "si-ep09-computing-destiny--deliveries--si-ep09-computing-destiny-----si-ep09-computing-destiny-xiaohongshu-90s-portrait--c9f5514809d7.mp4",
+          "bytes": 60904573,
+          "digest": "sha256:c9f5514809d710849f12ca4074a9f89b5e954cb25dd439b01c7f959a9641cfa1",
+          "kind": "video",
+          "platform": "小红书",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep09-computing-destiny-1c5575dd24dc/si-ep09-computing-destiny--deliveries--si-ep09-computing-destiny-----si-ep09-computing-destiny-xiaohongshu-90s-portrait--c9f5514809d7.mp4",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep09-computing-destiny-1c5575dd24dc/si-ep09-computing-destiny--deliveries--si-ep09-computing-destiny-----si-ep09-computing-destiny-xiaohongshu-90s-portrait--c9f5514809d7.mp4",
+          "id": 658294322
+        }
+      ]
+    },
+    "final": {
+      "status": "COMPLETE",
+      "catalog": "final/backup-catalog.json",
+      "catalog_sha256": "42ca2e13a545591be6d98e2178f28df5930cea5e5200f57b4df3abacd09b7240",
+      "receipt_sha256": "f4bc8cd8cc064637d69ede2d79e87cd0cea5504f86a180f162074ef60379a91d",
+      "verified_works": 19,
+      "verified_assets": 48,
+      "new_work_release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep09-computing-destiny-1c5575dd24dc",
+      "new_work_assets": [
+        {
+          "name": "final--si-ep09-computing-destiny--deliveries--si-ep09-computing-destiny-----si-ep09-computing-destiny-xiaohongshu-90s-portrait--c9f5514809d7.mp4",
+          "bytes": 60904573,
+          "digest": "sha256:c9f5514809d710849f12ca4074a9f89b5e954cb25dd439b01c7f959a9641cfa1",
+          "kind": "video",
+          "platform": "小红书",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep09-computing-destiny-1c5575dd24dc/final--si-ep09-computing-destiny--deliveries--si-ep09-computing-destiny-----si-ep09-computing-destiny-xiaohongshu-90s-portrait--c9f5514809d7.mp4",
+          "browser_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep09-computing-destiny-1c5575dd24dc/final--si-ep09-computing-destiny--deliveries--si-ep09-computing-destiny-----si-ep09-computing-destiny-xiaohongshu-90s-portrait--c9f5514809d7.mp4",
+          "id": 658295985
+        }
+      ]
+    }
+  },
+  "final_backup_verification_sha256": "f93ae8bc421d27df849a1b3127894893a4aad0139c264b5fe08b1a54dbf398ac",
+  "restore_report_sha256": "fe7b768aa5a0356e2e01c34f1b5e4cec081473da0085aaac4a625db91021b8a8",
+  "formal_movie_sha256": "c9f5514809d710849f12ca4074a9f89b5e954cb25dd439b01c7f959a9641cfa1",
+  "limitations": [
+    "Human continuous viewing and listening NOT_RUN",
+    "Physical phone/RED app NOT_RUN",
+    "No platform-account publication or audience-performance claim"
+  ]
+}

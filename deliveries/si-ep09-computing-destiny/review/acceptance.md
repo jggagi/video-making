@@ -24,7 +24,7 @@
 
 最终严格媒体验证PASS，见media-validation-20261020T044535.239515Z.json：完整FFmpeg解码、5400帧计数、流参数、faststart、平台声明、源码扫描与绑定本片散列的全帧QC均通过。validation-provenance.json核对了当前源码输入、母带、manifest和验证报告散列。
 
-本地final库已用APFS克隆加入正式成片，散列与原件一致；原有47份正式文件保持不变。两个上传器dry run均通过（archive：19作品/200资产；final：19作品/48正式文件）。GitHub上传与恢复结果将在完成后补记。工程ZIP记录打包当时的源码与本地验收快照，后续云端回执保存在Git。ZIP有意排除电影；watch.html和samples.html需配合同一Release的独立媒体文件，或从仓库用fetch-archive-assets.py恢复原相对路径。
+本地final库已用APFS克隆加入正式成片，散列与原件一致；原有47份正式文件保持不变。两个上传器dry run均通过（archive：19作品/200资产；final：19作品/48正式文件）。GitHub作品归档与独立final备份均已发布并完成远端大小/SHA-256核验。整个final库48文件/19个Release独立复核通过，见根final/backup-verification.json（绑定当前backup-catalog散列）。新片从公开final Release实际下载到空AgentDev临时目录，60,904,573字节与完整SHA匹配，重复恢复正确跳过；见final-restore-probe.json。源提交为1cc5077797c0649a8c5495bdc7d636147062608b；后续证据提交不改变媒体。完整汇总见archive-verification.json。工程ZIP记录打包当时的源码与本地验收快照，后续云端回执保存在Git。ZIP有意排除电影；watch.html和samples.html需配合同一Release的独立媒体文件，或从仓库用fetch-archive-assets.py恢复原相对路径。
 
 ## 人类与设备验收
 

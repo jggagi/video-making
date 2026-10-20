@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-10-20T12:33:25.614149+00:00",
+  "movie_sha256": "ba6a03b0683160109d72d4fccf65eba651ce7dc8c47a29716f6ddc3c60d21e89",
+  "primary_cover": "cover-A.png",
+  "source_frames": {
+    "A": 3840,
+    "B": 1080
+  },
+  "snapshot_scope": "Publishmaterials; mutableaccountstatusandfutureengagementexcluded",
+  "members": [
+    {
+      "path": "video/si-ep10-dopamine-greenhouse-v02-xiaohongshu-90s-portrait.mp4",
+      "bytes": 137248140,
+      "sha256": "ba6a03b0683160109d72d4fccf65eba651ce7dc8c47a29716f6ddc3c60d21e89"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2527,
+      "sha256": "56e02a98461f0be02f40f1bcde90f25461ef734f02ab793be3b36e88a1c75216"
+    },
+    {
+      "path": "covers-manifest.json",
+      "bytes": 3137,
+      "sha256": "3ff0c241b55ced125618169e23022d115872805807743e08f952b83860387f0d"
+    },
+    {
+      "path": "cover-A.png",
+      "bytes": 1410572,
+      "sha256": "c07858990a69c562f114fee27b92809b7cf1428e81cdbc63f8a0e33438c97632"
+    },
+    {
+      "path": "cover-B.png",
+      "bytes": 1841940,
+      "sha256": "d587e726768be1f8182836092f9fa2dc6259a89c80859ecb174667fa37fc3cff"
+    },
+    {
+      "path": "cover-A-mobile.jpg",
+      "bytes": 58059,
+      "sha256": "1047380830f10a4a99845007d05957e00ac1e471ae2d4d02e9ab63220b3c5de8"
+    },
+    {
+      "path": "cover-B-mobile.jpg",
+      "bytes": 57221,
+      "sha256": "d8d1b8fe462063465358a2aefc54f68a1043a063326ee07c46f9712da80b901c"
+    },
+    {
+      "path": "frame-01.png",
+      "bytes": 2918389,
+      "sha256": "ed2433e021b07e16fd3e024dcc2e4a5b5cae9b1d945849206b1b31c6b0ca909e"
+    },
+    {
+      "path": "frame-02.png",
+      "bytes": 2438384,
+      "sha256": "c32710561298ef801f57f5bbbde70ada932b38df09fad9944abbaf44ddf4a550"
+    },
+    {
+      "path": "copy/README.md",
+      "bytes": 1366,
+      "sha256": "73c627be42956d1f02cad8757d1de5fd680773cc3306f04362b30f8a6cf7a2c3"
+    },
+    {
+      "path": "copy/body.txt",
+      "bytes": 1257,
+      "sha256": "78b219155c8164c289b0be023efac18066ea8e5a85582ebaf5bdd5f06f6acb9e"
+    },
+    {
+      "path": "copy/hashtags.txt",
+      "bytes": 137,
+      "sha256": "b491546be6beb408982417756347ad8b5679b6c3531bf15ad95c3c895b902fa1"
+    },
+    {
+      "path": "copy/monitoring-template.csv",
+      "bytes": 118,
+      "sha256": "96d50cfc2d9b5fbcb19ef17206f3f8a503e0b31757039732a3030edc6d574d9d"
+    },
+    {
+      "path": "copy/pinned-comment.txt",
+      "bytes": 182,
+      "sha256": "c98ef919927b5bd20d283ae3fbf16044ca09f0137834e1aed019107825a06e15"
+    },
+    {
+      "path": "copy/publication-content.json",
+      "bytes": 2023,
+      "sha256": "04ab0a2c1b04d2672c233af4ab6025155a3fb3442c8016d3414412c94f3e374a"
+    },
+    {
+      "path": "copy/title.txt",
+      "bytes": 36,
+      "sha256": "9ba4e6bac7f8523a3abb9afbfe110617a9f761217993cb07e8feb3046f62176b"
+    },
+    {
+      "path": "cover-source/README.md",
+      "bytes": 1384,
+      "sha256": "e028788e5b3ee9e6531e798a93f888c151e440031d289bdf575b280e4bb1344a"
+    },
+    {
+      "path": "cover-source/src/Covers.tsx",
+      "bytes": 4289,
+      "sha256": "01f5687a51c62c21fdb5419fad1e2e491267a2ba771fee39b64eb6a0061151b6"
+    },
+    {
+      "path": "cover-source/src/index.tsx",
+      "bytes": 493,
+      "sha256": "25b81edf5cd0f8ca4b1e55ec25e56bb2964614433125552a70f63f259001a4a7"
+    }
+  ],
+  "self_hash_omitted": true
+}

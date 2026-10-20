@@ -1,0 +1,113 @@
+{
+  "work_version": "si-ep10-dopamine-greenhouse-v02",
+  "canvas": {
+    "width": 1536,
+    "height": 2048,
+    "aspect_ratio": "3:4",
+    "background": "#050811"
+  },
+  "source_movie": {
+    "path": "deliveries/si-ep10-dopamine-greenhouse-v02/小红书/si-ep10-dopamine-greenhouse-v02-xiaohongshu-90s-portrait.mp4",
+    "sha256": "ba6a03b0683160109d72d4fccf65eba651ce7dc8c47a29716f6ddc3c60d21e89"
+  },
+  "renderer": {
+    "tool": "Remotion",
+    "version": "4.0.534",
+    "title_font_family": "Hiragino Sans GB",
+    "title_font_weight": 700,
+    "metadata_font_family": "Menlo",
+    "metadata_cjk_fallback": "Hiragino Sans GB"
+  },
+  "covers": [
+    {
+      "id": "A",
+      "title": "明明坐在一起只有10厘米，却活在两个永不相交的宇宙",
+      "title_lines": [
+        "明明坐在一起",
+        "只有10厘米，",
+        "却活在两个",
+        "永不相交的宇宙"
+      ],
+      "input_frame": "frame-02.png",
+      "input_frame_dimensions": {
+        "width": 2160,
+        "height": 3840
+      },
+      "input_frame_sha256": "c32710561298ef801f57f5bbbde70ada932b38df09fad9944abbaf44ddf4a550",
+      "source_time_seconds": 64,
+      "source_frame_index": 3840,
+      "source_frame_rate": 60,
+      "native_crop": {
+        "x": 240,
+        "y": 1150,
+        "width": 1500,
+        "height": 1120
+      },
+      "placement": {
+        "x": 83,
+        "y": 865,
+        "width": 1370,
+        "height": 1023
+      },
+      "accent": "#E8B14B",
+      "output": {
+        "path": "cover-A.png",
+        "width": 1536,
+        "height": 2048,
+        "sha256": "c07858990a69c562f114fee27b92809b7cf1428e81cdbc63f8a0e33438c97632"
+      },
+      "mobile_preview": {
+        "path": "cover-A-mobile.jpg",
+        "width": 360,
+        "height": 480,
+        "sha256": "1047380830f10a4a99845007d05957e00ac1e471ae2d4d02e9ab63220b3c5de8"
+      }
+    },
+    {
+      "id": "B",
+      "title": "当AI为你定制“完美楚门世界”，你还想醒来吗？",
+      "title_lines": [
+        "当AI为你定制",
+        "“完美楚门世界”，",
+        "你还想醒来吗？"
+      ],
+      "input_frame": "frame-01.png",
+      "input_frame_dimensions": {
+        "width": 2160,
+        "height": 3840
+      },
+      "input_frame_sha256": "ed2433e021b07e16fd3e024dcc2e4a5b5cae9b1d945849206b1b31c6b0ca909e",
+      "source_time_seconds": 18,
+      "source_frame_index": 1080,
+      "source_frame_rate": 60,
+      "native_crop": {
+        "x": 128,
+        "y": 1020,
+        "width": 1688,
+        "height": 1300
+      },
+      "placement": {
+        "x": 50,
+        "y": 850,
+        "width": 1436,
+        "height": 1106
+      },
+      "accents": [
+        "#E85CD7",
+        "#E8B14B"
+      ],
+      "output": {
+        "path": "cover-B.png",
+        "width": 1536,
+        "height": 2048,
+        "sha256": "d587e726768be1f8182836092f9fa2dc6259a89c80859ecb174667fa37fc3cff"
+      },
+      "mobile_preview": {
+        "path": "cover-B-mobile.jpg",
+        "width": 360,
+        "height": 480,
+        "sha256": "d8d1b8fe462063465358a2aefc54f68a1043a063326ee07c46f9712da80b901c"
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "archive": "si-ep10-dopamine-greenhouse-v02-red-publish-kit.zip",
+  "bytes": 145985051,
+  "sha256": "725854d38f5739d01e2c5543e456f707f5dad08e22579e5cb994ecb119920f79",
+  "member_count": 20,
+  "member_sha256": {
+    "video/si-ep10-dopamine-greenhouse-v02-xiaohongshu-90s-portrait.mp4": "ba6a03b0683160109d72d4fccf65eba651ce7dc8c47a29716f6ddc3c60d21e89",
+    "README.md": "56e02a98461f0be02f40f1bcde90f25461ef734f02ab793be3b36e88a1c75216",
+    "covers-manifest.json": "3ff0c241b55ced125618169e23022d115872805807743e08f952b83860387f0d",
+    "cover-A.png": "c07858990a69c562f114fee27b92809b7cf1428e81cdbc63f8a0e33438c97632",
+    "cover-B.png": "d587e726768be1f8182836092f9fa2dc6259a89c80859ecb174667fa37fc3cff",
+    "cover-A-mobile.jpg": "1047380830f10a4a99845007d05957e00ac1e471ae2d4d02e9ab63220b3c5de8",
+    "cover-B-mobile.jpg": "d8d1b8fe462063465358a2aefc54f68a1043a063326ee07c46f9712da80b901c",
+    "frame-01.png": "ed2433e021b07e16fd3e024dcc2e4a5b5cae9b1d945849206b1b31c6b0ca909e",
+    "frame-02.png": "c32710561298ef801f57f5bbbde70ada932b38df09fad9944abbaf44ddf4a550",
+    "copy/README.md": "73c627be42956d1f02cad8757d1de5fd680773cc3306f04362b30f8a6cf7a2c3",
+    "copy/body.txt": "78b219155c8164c289b0be023efac18066ea8e5a85582ebaf5bdd5f06f6acb9e",
+    "copy/hashtags.txt": "b491546be6beb408982417756347ad8b5679b6c3531bf15ad95c3c895b902fa1",
+    "copy/monitoring-template.csv": "96d50cfc2d9b5fbcb19ef17206f3f8a503e0b31757039732a3030edc6d574d9d",
+    "copy/pinned-comment.txt": "c98ef919927b5bd20d283ae3fbf16044ca09f0137834e1aed019107825a06e15",
+    "copy/publication-content.json": "04ab0a2c1b04d2672c233af4ab6025155a3fb3442c8016d3414412c94f3e374a",
+    "copy/title.txt": "9ba4e6bac7f8523a3abb9afbfe110617a9f761217993cb07e8feb3046f62176b",
+    "cover-source/README.md": "e028788e5b3ee9e6531e798a93f888c151e440031d289bdf575b280e4bb1344a",
+    "cover-source/src/Covers.tsx": "01f5687a51c62c21fdb5419fad1e2e491267a2ba771fee39b64eb6a0061151b6",
+    "cover-source/src/index.tsx": "25b81edf5cd0f8ca4b1e55ec25e56bb2964614433125552a70f63f259001a4a7",
+    "manifest.json": "e6f67eeb718fb3fa1fdda0bc81c3c06ddad04b541c6a9e2fe4810ea635be0a5f"
+  },
+  "method": "CRCandeachuncompressedmemberSHA256; exactmoviehashpreserved; credentials/privateaccountscreenshotsandexistingpublicationstateexcluded"
+}

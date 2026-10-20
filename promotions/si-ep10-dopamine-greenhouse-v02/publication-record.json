@@ -1,0 +1,115 @@
+{
+  "platform": "小红书",
+  "work": "si-ep10-dopamine-greenhouse-v02",
+  "status": "SUBMITTED_PENDING_REVIEW",
+  "authorization_summary": "User explicitly answered 现在发布 on2026-10-20 and requested first2h engagement monitoring; usecoverA by brief recommendation.",
+  "account_display_name": "余问 QStory",
+  "video_path": "deliveries/si-ep10-dopamine-greenhouse-v02/小红书/si-ep10-dopamine-greenhouse-v02-xiaohongshu-90s-portrait.mp4",
+  "video_sha256": "ba6a03b0683160109d72d4fccf65eba651ce7dc8c47a29716f6ddc3c60d21e89",
+  "video_bytes": 137248140,
+  "container_seconds": 90.005,
+  "video_seconds": 90,
+  "cover_path": "promotions/si-ep10-dopamine-greenhouse-v02/cover-A.png",
+  "title": "离你10厘米，却隔一万光年",
+  "scheduled": false,
+  "prepared": true,
+  "submission_attempted": true,
+  "attempt_started_at_utc": "2026-10-20T12:28:29.125059+00:00",
+  "submission_verified": true,
+  "publication_verified": false,
+  "public_visibility_verified": false,
+  "note_id": null,
+  "public_note_url": null,
+  "duplicate_check": {
+    "checked_at_utc": "2026-10-20T12:17:35.870441+00:00",
+    "scope": "Current visiblemanagementall10notes pluslocalEP10v1/v2records; no EP10,多巴胺温室 or newtitle found.",
+    "existing_ep10_match": false
+  },
+  "monitoring": {
+    "requested": true,
+    "duration_minutes": 120,
+    "status": "ACTIVE_WAITING_REVIEW",
+    "automation_id": "ep10",
+    "first_published_observed_at_utc": null,
+    "snapshots": [],
+    "prepublication_snapshot": {
+      "observed_at_utc": "2026-10-20T12:30:27.025351+00:00",
+      "platform_status": "审核中",
+      "views": 0,
+      "comments": 0,
+      "likes": 0,
+      "favorites": 0,
+      "shares": 0,
+      "scope": "Onlythevisiblecurrentmanagerrow; notpublicpostlaunchengagement."
+    },
+    "interval_minutes": 15,
+    "window_anchor": "FirstconfirmedpublishedobservationUTC; notanassertionofplatformactualpublictime",
+    "schedule_verified": "Localautomation.toml:kindheartbeat,statusACTIVE,FREQMINUTELYinterval15,currentthread",
+    "notifications": "Statuschanges,actionableissues,andfinalsummaryonly"
+  },
+  "human_listening": "NOT_RUN; previous technical QA retained",
+  "attempts": [
+    {
+      "started_at_utc": "2026-10-20T12:28:29.125059+00:00",
+      "actor": "Codex",
+      "action": "Immediate publication through currentvisibleUI",
+      "result": "SUBMITTED_PENDING_REVIEW",
+      "submission_attempted": true,
+      "verified_at_utc": "2026-10-20T12:30:27.025351+00:00"
+    }
+  ],
+  "prepared_at_utc": "2026-10-20T12:28:29.123461+00:00",
+  "cover_sha256": "c07858990a69c562f114fee27b92809b7cf1428e81cdbc63f8a0e33438c97632",
+  "cover_source_frame": 3840,
+  "cover_source_seconds": 64,
+  "cover_ratio": "3:4",
+  "cover_platform_observation": "Uploadedexact3:4poster; allfourtitlelines andbothneuralbusts retained, defaultcrop unchanged; sourcePNG1536x2048.",
+  "body_path": "promotions/si-ep10-dopamine-greenhouse-v02/copy/body.txt",
+  "body_sha256": "78b219155c8164c289b0be023efac18066ea8e5a85582ebaf5bdd5f06f6acb9e",
+  "linked_topics": [
+    "多巴胺戒断",
+    "信息茧房",
+    "清醒",
+    "超级智能",
+    "细思极恐",
+    "孤独感",
+    "楚门的世界",
+    "科幻美学",
+    "深度思考",
+    "一眼万年"
+  ],
+  "content_declaration": "笔记含AI合成内容",
+  "visibility": "公开可见",
+  "prepared_private_evidence": ".private/prepared.jpg",
+  "platform_video_preview": {
+    "native_dimensions": [
+      2160,
+      3840
+    ],
+    "duration": 90.005,
+    "readyState": 4,
+    "error": null
+  },
+  "ui_body_counter": "481/1000",
+  "ui_title_counter": "ExactUIvalue verified; title13 characters; no separatecounter observed",
+  "activity_associations": [],
+  "originality_declaration": false,
+  "final_action_actor": "Codex",
+  "submission_method": "Normal supported Chrome browser UI click on visible red发布button; semanticbutton absent.",
+  "review_status": "审核中",
+  "checked_at_utc": "2026-10-20T12:30:27.025351+00:00",
+  "platform_display_time": "2026-10-20 20:28",
+  "platform_display_time_timezone": null,
+  "manager_url": "https://creator.xiaohongshu.com/new/note-manager",
+  "verification": "Managerall11(previous10) containsmatchingtitle,01:30,Acoverand20:28time; filtered审核中 shows onlythismatchingnote. Final action once; no retry.",
+  "evidence_paths": [
+    ".private/prepared.jpg",
+    ".private/after-submit-attempt.jpg",
+    ".private/submitted-review.jpg"
+  ],
+  "pinned_comment_status": "COPY_PREPARED_NOT_POSTED; noteunderreview",
+  "remaining": [
+    "等待平台审核，随后验证公开状态并观察前2小时互动"
+  ],
+  "cover_quality_feedback": "封面效果评估通过，未发现封面质量问题"
+}

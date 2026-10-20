@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "work_id": "si-ep10-dopamine-greenhouse",
+  "title": "多巴胺温室",
+  "source_commit": "0a5aaf11c00b4e940cdeaa7d686ac8a4f57356cd",
+  "source_commit_checked_out": true,
+  "catalog_sha256": "fed40cce3b20c97ed25f32487f05df408afb36a8d9bc179c77d4e00fc29044a8",
+  "evidence_time_utc": "2026-10-20T10:17:48Z",
+  "receipt": {
+    "path": "archive/upload-receipt-film-0a5aaf11c00b4e940cdeaa7d686ac8a4f57356cd.json",
+    "status": "COMPLETE",
+    "target": "0a5aaf11c00b4e940cdeaa7d686ac8a4f57356cd",
+    "work_count": 20,
+    "asset_count": 207,
+    "catalog_inventory_match": true
+  },
+  "fresh_github_release_api": {
+    "scope": "EP10 release only",
+    "tag": "film-si-ep10-dopamine-greenhouse-7544f52c8da8",
+    "release_url": "https://github.com/jggagi/video-making/releases/tag/film-si-ep10-dopamine-greenhouse-7544f52c8da8",
+    "published_at": "2026-10-20T10:14:14Z",
+    "draft": false,
+    "prerelease": false,
+    "asset_count": 7,
+    "asset_set_size_digest_download_url_match_count": 7,
+    "local_asset_size_sha256_match_count": 7
+  },
+  "movie": {
+    "name": "si-ep10-dopamine-greenhouse--deliveries--si-ep10-dopamine-greenhouse-----si-ep10-dopamine-greenhouse-xiaohongshu-90s-portrait--2241fd76ba65.mp4",
+    "bytes": 110824973,
+    "sha256": "2241fd76ba65c08758a84813f0f13bbe125f1d5ca6f868a090e56e85e44323b0",
+    "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep10-dopamine-greenhouse-7544f52c8da8/si-ep10-dopamine-greenhouse--deliveries--si-ep10-dopamine-greenhouse-----si-ep10-dopamine-greenhouse-xiaohongshu-90s-portrait--2241fd76ba65.mp4"
+  },
+  "assets": [
+    {
+      "name": "si-ep10-dopamine-greenhouse--deliveries--si-ep10-dopamine-greenhouse-----si-ep10-dopamine-greenhouse-xiaohongshu-90s-portrait--2241fd76ba65.mp4",
+      "bytes": 110824973,
+      "sha256": "2241fd76ba65c08758a84813f0f13bbe125f1d5ca6f868a090e56e85e44323b0",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep10-dopamine-greenhouse-7544f52c8da8/si-ep10-dopamine-greenhouse--deliveries--si-ep10-dopamine-greenhouse-----si-ep10-dopamine-greenhouse-xiaohongshu-90s-portrait--2241fd76ba65.mp4",
+      "github_asset_id": 658970385,
+      "catalog_receipt_api_match": true,
+      "local_size_sha256_match": true
+    },
+    {
+      "name": "si-ep10-dopamine-greenhouse--deliveries--si-ep10-dopamine-greenhouse--review--motion-2100-2279--b643280b122c.mp4",
+      "bytes": 2524325,
+      "sha256": "b643280b122ce885e4103f7bc2e810b7eaa8bda1aebcfa16270cc985293a4313",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep10-dopamine-greenhouse-7544f52c8da8/si-ep10-dopamine-greenhouse--deliveries--si-ep10-dopamine-greenhouse--review--motion-2100-2279--b643280b122c.mp4",
+      "github_asset_id": 658969674,
+      "catalog_receipt_api_match": true,
+      "local_size_sha256_match": true
+    },
+    {
+      "name": "si-ep10-dopamine-greenhouse--deliveries--si-ep10-dopamine-greenhouse--review--motion-3000-3179--d585b43b75b9.mp4",
+      "bytes": 4447255,
+      "sha256": "d585b43b75b946682b58a04870ef1007faa545c165ba0c638b3d7693c22cea09",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep10-dopamine-greenhouse-7544f52c8da8/si-ep10-dopamine-greenhouse--deliveries--si-ep10-dopamine-greenhouse--review--motion-3000-3179--d585b43b75b9.mp4",
+      "github_asset_id": 658969734,
+      "catalog_receipt_api_match": true,
+      "local_size_sha256_match": true
+    },
+    {
+      "name": "si-ep10-dopamine-greenhouse--deliveries--si-ep10-dopamine-greenhouse--review--motion-3600-3779--a25727893ef8.mp4",
+      "bytes": 2133697,
+      "sha256": "a25727893ef8b4eaeacbec950feb37009b7f05f463ddd730359305271365eacd",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep10-dopamine-greenhouse-7544f52c8da8/si-ep10-dopamine-greenhouse--deliveries--si-ep10-dopamine-greenhouse--review--motion-3600-3779--a25727893ef8.mp4",
+      "github_asset_id": 658969890,
+      "catalog_receipt_api_match": true,
+      "local_size_sha256_match": true
+    },
+    {
+      "name": "si-ep10-dopamine-greenhouse--deliveries--si-ep10-dopamine-greenhouse--review--motion-4800-4979--ad2b4150b21c.mp4",
+      "bytes": 4564114,
+      "sha256": "ad2b4150b21ca33b11a99b98d11e0420f131d0bdb811e866bb1c9e307c565f69",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep10-dopamine-greenhouse-7544f52c8da8/si-ep10-dopamine-greenhouse--deliveries--si-ep10-dopamine-greenhouse--review--motion-4800-4979--ad2b4150b21c.mp4",
+      "github_asset_id": 658969965,
+      "catalog_receipt_api_match": true,
+      "local_size_sha256_match": true
+    },
+    {
+      "name": "si-ep10-dopamine-greenhouse--deliveries--si-ep10-dopamine-greenhouse--review--motion-840-1019--e069e3f038e4.mp4",
+      "bytes": 3493501,
+      "sha256": "e069e3f038e489793d52d9bdee96f084d2c20d5cae26ac4f08ecb494b39596bd",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep10-dopamine-greenhouse-7544f52c8da8/si-ep10-dopamine-greenhouse--deliveries--si-ep10-dopamine-greenhouse--review--motion-840-1019--e069e3f038e4.mp4",
+      "github_asset_id": 658970085,
+      "catalog_receipt_api_match": true,
+      "local_size_sha256_match": true
+    },
+    {
+      "name": "si-ep10-dopamine-greenhouse--deliveries--si-ep10-dopamine-greenhouse--si-ep10-dopamine-greenhouse-project--1e90b063a4c0.zip",
+      "bytes": 53263900,
+      "sha256": "1e90b063a4c0c5a7eda1a93c8eb086a569b2bbb2b3aa726ceeba2ade89505ab1",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep10-dopamine-greenhouse-7544f52c8da8/si-ep10-dopamine-greenhouse--deliveries--si-ep10-dopamine-greenhouse--si-ep10-dopamine-greenhouse-project--1e90b063a4c0.zip",
+      "github_asset_id": 658970148,
+      "catalog_receipt_api_match": true,
+      "local_size_sha256_match": true
+    }
+  ],
+  "limitations": [
+    "The uploader receipt reports COMPLETE for 207 assets across 20 works and its inventory matches the catalog; this fresh GitHub API audit covers only EP10's seven assets.",
+    "This report verifies release metadata and local size/SHA-256; it is not a separate media playback or human acceptance result."
+  ]
+}

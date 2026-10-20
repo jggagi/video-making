@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
   "status": "COMPLETE",
-  "verified_at_utc": "2026-10-20T04:51:23.267279+00:00",
+  "verified_at_utc": "2026-10-20T10:18:03.431316+00:00",
   "repository": "jggagi/video-making",
-  "source_commit": "1cc5077797c0649a8c5495bdc7d636147062608b",
+  "source_commit": "0a5aaf11c00b4e940cdeaa7d686ac8a4f57356cd",
   "catalog_path": "final/backup-catalog.json",
-  "catalog_sha256": "42ca2e13a545591be6d98e2178f28df5930cea5e5200f57b4df3abacd09b7240",
-  "upload_receipt_sha256": "f4bc8cd8cc064637d69ede2d79e87cd0cea5504f86a180f162074ef60379a91d",
+  "catalog_sha256": "1c4daa1b178e9df7cf68e567bc7076aeeeb60dd8b5fcf74611d4b9d8a62a0d31",
+  "upload_receipt_sha256": "27c932a16cc9f386afdbfd5ed8dc02f495e89b10175b3c938875e0ed470827b8",
   "verification_method": "Fresh published GitHub Release API inventory plus all local final file hashes; every remote size, SHA-256 digest and URL matched the current catalog.",
-  "verified_releases": 19,
-  "verified_files": 48,
-  "verified_bytes": 8243055522,
+  "verified_releases": 20,
+  "verified_files": 49,
+  "verified_bytes": 8353880495,
   "works": [
     {
       "id": "lanting",
@@ -633,6 +633,26 @@
       ]
     },
     {
+      "id": "si-ep10-dopamine-greenhouse",
+      "title": "Final 成片备份 · 多巴胺温室",
+      "release_tag": "final-si-ep10-dopamine-greenhouse-7544f52c8da8",
+      "release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep10-dopamine-greenhouse-7544f52c8da8",
+      "release_target": "0a5aaf11c00b4e940cdeaa7d686ac8a4f57356cd",
+      "release_draft": false,
+      "assets": [
+        {
+          "path": "final/si-ep10-dopamine-greenhouse/小红书/si-ep10-dopamine-greenhouse-xiaohongshu-90s-portrait.mp4",
+          "name": "final--si-ep10-dopamine-greenhouse--deliveries--si-ep10-dopamine-greenhouse-----si-ep10-dopamine-greenhouse-xiaohongshu-90s-portrait--2241fd76ba65.mp4",
+          "bytes": 110824973,
+          "sha256": "2241fd76ba65c08758a84813f0f13bbe125f1d5ca6f868a090e56e85e44323b0",
+          "github_digest": "sha256:2241fd76ba65c08758a84813f0f13bbe125f1d5ca6f868a090e56e85e44323b0",
+          "github_asset_id": 658977938,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep10-dopamine-greenhouse-7544f52c8da8/final--si-ep10-dopamine-greenhouse--deliveries--si-ep10-dopamine-greenhouse-----si-ep10-dopamine-greenhouse-xiaohongshu-90s-portrait--2241fd76ba65.mp4",
+          "local_and_remote_match": true
+        }
+      ]
+    },
+    {
       "id": "si-eternity",
       "title": "Final 成片备份 · 一眼万年",
       "release_tag": "final-si-eternity-66d480b1c859",
@@ -685,11 +705,14 @@
   ],
   "restore_probe": {
     "status": "PASS",
-    "work_id": "si-ep09-computing-destiny",
-    "report": "deliveries/si-ep09-computing-destiny/review/final-restore-probe.json",
-    "report_sha256": "fe7b768aa5a0356e2e01c34f1b5e4cec081473da0085aaac4a625db91021b8a8",
-    "restored_bytes": 60904573,
-    "restored_sha256": "c9f5514809d710849f12ca4074a9f89b5e954cb25dd439b01c7f959a9641cfa1",
-    "scope": "New EP09 formal movie only; full catalog inventory independently verified above"
+    "report": "deliveries/si-ep10-dopamine-greenhouse/review/final-restore-probe.json",
+    "report_sha256": "f0991768ccc647c7f3744a70e2e33ddf3aefc3d215d628bf6c6833f9bad2df5b",
+    "checked_at": "2026-10-20T10:18:03.102084+00:00",
+    "work_id": "si-ep10-dopamine-greenhouse",
+    "restored_files": 1,
+    "restored_bytes": 110824973,
+    "restored_sha256": "2241fd76ba65c08758a84813f0f13bbe125f1d5ca6f868a090e56e85e44323b0",
+    "idempotent_second_run": true,
+    "scope": "One newly backed-up EP10 formal movie; other 48 final assets were inventory/hash verified, not downloaded by this probe."
   }
 }

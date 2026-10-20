@@ -34,6 +34,8 @@ SUPPORTED_FINAL_DIMENSIONS = {
     "bilibili": {(3840, 2160)},
     "xiaohongshu": {(2160, 3840), (1080, 1920)},
 }
+PLATFORM_FOLDERS = {"bilibili": "B站", "xiaohongshu": "小红书"}
+PLATFORM_LINK_LABELS = {"B站": "B站横屏", "小红书": "小红书竖屏"}
 
 _VISUAL_QC_PATH = (
     Path(__file__).resolve().parents[1] / "skills" / "dual-platform-video"
@@ -45,6 +47,7 @@ if _VISUAL_QC_SPEC is None or _VISUAL_QC_SPEC.loader is None:
 _VISUAL_QC_MODULE = importlib.util.module_from_spec(_VISUAL_QC_SPEC)
 _VISUAL_QC_SPEC.loader.exec_module(_VISUAL_QC_MODULE)
 validate_visual_qc = _VISUAL_QC_MODULE.validate_visual_qc
+manifest_platforms = _VISUAL_QC_MODULE.manifest_platforms
 
 
 def _inside(root: Path, path: Path) -> bool:
@@ -112,6 +115,11 @@ def _validate_final_outputs(
     outputs = manifest.get("outputs")
     if not isinstance(outputs, dict):
         raise ValueError(f"New delivery must declare outputs.bilibili.path and outputs.xiaohongshu.path: {manifest_path}")
+    platforms = manifest_platforms(manifest)
+    if platforms is None:
+        raise ValueError(f"delivery.json platforms must be a nonempty list of unique known platform keys: {manifest_path}")
+    if "platforms" in manifest and set(outputs) != set(platforms):
+        raise ValueError(f"delivery.json outputs keys must exactly match selected platforms: {manifest_path}")
 
     resolved_root = root.resolve(strict=True)
     work_root = directory.resolve(strict=True)
@@ -119,7 +127,8 @@ def _validate_final_outputs(
         raise ValueError(f"New delivery directory escapes repository root: {directory}")
     final_output_paths: dict[str, str] = {}
     final_output_dimensions: dict[str, tuple[int, int] | None] = {}
-    for key, platform in (("bilibili", "B站"), ("xiaohongshu", "小红书")):
+    for key in platforms:
+        platform = PLATFORM_FOLDERS[key]
         output = outputs.get(key)
         relative = output.get("path") if isinstance(output, dict) else None
         if not isinstance(relative, str) or not relative or "\\" in relative or "\x00" in relative:
@@ -256,7 +265,9 @@ def _generated_markdown_targets(root: Path, works: list[dict]) -> list[Path]:
     targets = [root / "deliveries" / "README.md"]
     for work in works:
         delivery = root / work["delivery_directory"]
-        targets.extend((delivery / "README.md", delivery / "B站" / "README.md", delivery / "小红书" / "README.md"))
+        platforms = tuple(work.get("final_output_paths", {})) or tuple(PLATFORM_LINK_LABELS)
+        targets.append(delivery / "README.md")
+        targets.extend(delivery / platform / "README.md" for platform in platforms)
     return targets
 
 
@@ -337,12 +348,12 @@ def discover(root: Path, excluded_deliveries=()) -> list[dict]:
                 expected_frames = derived_frames
                 output_hashes = {
                     key: file_hash(directory / manifest["outputs"][key]["path"])
-                    for key in ("bilibili", "xiaohongshu")
+                    for key in manifest_platforms(manifest) or ()
                 }
             visual_qc = validate_visual_qc(
                 directory, manifest, output_hashes, expected_frames
             )
-            if "visual_qc" in manifest and visual_qc["status"] != "PASS":
+            if ("visual_qc" in manifest or "platforms" in manifest) and visual_qc["status"] != "PASS":
                 reasons = "; ".join(visual_qc["failures"][:4]) or visual_qc["status"]
                 raise ValueError(
                     f"Required visual QC is {visual_qc['status']} for {manifest_path}: {reasons}"
@@ -433,11 +444,20 @@ def write_work(root: Path, work: dict, assets: list[dict]) -> None:
     delivery = root / work["delivery_directory"]
     delivery.mkdir(parents=True, exist_ok=True)
     release = f"https://github.com/{REPOSITORY}/releases/tag/{quote(work['release_tag'], safe='')}"
-    historical = ("这是历史归档，保留原时长、画幅与版本；不声称符合后续新作品的时长规格。\n"
-                  if work["historical"] else
-                  f"两版制作目标均为{_format_seconds(work['duration_seconds'])}秒，验收状态见本作品 review/。\n")
+    platforms = tuple(work.get("final_output_paths", {})) or tuple(PLATFORM_LINK_LABELS)
+    if work["historical"]:
+        historical = "这是历史归档，保留原时长、画幅与版本；不声称符合后续新作品的时长规格。\n"
+    elif len(platforms) == len(PLATFORM_LINK_LABELS):
+        historical = f"两版制作目标均为{_format_seconds(work['duration_seconds'])}秒，验收状态见本作品 review/。\n"
+    else:
+        selected_labels = "、".join(PLATFORM_LINK_LABELS[platform] for platform in platforms)
+        historical = f"{selected_labels}版本制作目标为{_format_seconds(work['duration_seconds'])}秒，验收状态见本作品 review/。\n"
     text = f"# {work['title']}\n\n{historical}\n"
-    text += f"[完整 Release 与全部下载]({release}) · [B站横屏](B站/README.md) · [小红书竖屏](小红书/README.md)\n\n"
+    platform_links = " · ".join(
+        f"[{PLATFORM_LINK_LABELS[platform]}]({platform}/README.md)"
+        for platform in platforms
+    )
+    text += f"[完整 Release 与全部下载]({release}) · {platform_links}\n\n"
     text += f"源码位置：`{work['project_path']}`。成片在 GitHub Releases；本机原始路径、SHA-256、实测规格见 [archive.json](archive.json)。\n\n"
     projects = [asset for asset in assets if asset["platform"] == "工程"]
     if projects:
@@ -446,7 +466,7 @@ def write_work(root: Path, work: dict, assets: list[dict]) -> None:
     if previews:
         text += "## 样片与历史草稿\n\n这些文件仅作制作过程记录，不能视为最终成片。\n\n" + table(previews)
     _write_generated_markdown(delivery / "README.md", text)
-    for platform in ("B站", "小红书"):
+    for platform in platforms:
         folder = delivery / platform
         folder.mkdir(exist_ok=True)
         selected = [asset for asset in assets if asset["platform"] == platform]

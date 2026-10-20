@@ -49,29 +49,71 @@ def fake_probe(path):
 
 def create_work(root, directory_name='森林 时间 🌲-v01', manifest_slug=None,
                 include_xhs=True, duration=120, include_duration=True,
-                output_dimensions=None):
+                output_dimensions=None, platforms=None):
     delivery = root / 'deliveries' / directory_name
-    (delivery / 'B站').mkdir(parents=True)
-    (delivery / '小红书').mkdir()
+    selected_platforms = ('bilibili', 'xiaohongshu') if platforms is None else tuple(platforms)
+    folders = {'bilibili': 'B站', 'xiaohongshu': '小红书'}
+    for key in selected_platforms:
+        (delivery / folders[key]).mkdir(parents=True, exist_ok=True)
     (delivery / 'project' / 'assets').mkdir(parents=True)
-    (delivery / 'B站' / 'final.mp4').write_bytes(b'bilibili')
-    if include_xhs:
-        (delivery / '小红书' / 'final.mp4').write_bytes(b'xiaohongshu')
+    output_map = {}
+    for key in selected_platforms:
+        folder = folders[key]
+        if key == 'xiaohongshu' and not include_xhs:
+            output_map[key] = {'path': f'{folder}/final.mp4'}
+            continue
+        content = b'bilibili' if key == 'bilibili' else b'xiaohongshu'
+        (delivery / folder / 'final.mp4').write_bytes(content)
+        output_map[key] = {'path': f'{folder}/final.mp4'}
     (delivery / 'project' / 'assets' / 'reference.mp4').write_bytes(b'reference')
     (delivery / 'project' / 'editable.zip').write_bytes(b'zip-data')
     manifest = {
         'schema_version': 1,
         'slug': manifest_slug if manifest_slug is not None else directory_name,
         'title': '森林 时间 🌲',
-        'outputs': {
-            'bilibili': {'path': 'B站/final.mp4'},
-            'xiaohongshu': {'path': '小红书/final.mp4'},
-        },
+        'outputs': output_map,
     }
     for key, dimensions in (output_dimensions or {}).items():
         manifest['outputs'][key]['width'], manifest['outputs'][key]['height'] = dimensions
     if include_duration:
         manifest['duration_seconds'] = duration
+    if platforms is not None:
+        manifest['platforms'] = list(platforms)
+        fps = 60
+        frame_count = int(duration * fps)
+        manifest['fps'] = fps
+        manifest['total_frames'] = frame_count
+        reports = {
+            key: f'review/visual-qc-{key}/report.json'
+            for key in selected_platforms
+        }
+        manifest['visual_qc'] = {'required': True, 'reports': reports}
+        import hashlib
+        for key, config in output_map.items():
+            media_path = delivery / config['path']
+            digest = hashlib.sha256(media_path.read_bytes()).hexdigest()
+            report_path = delivery / reports[key]
+            report_path.parent.mkdir(parents=True, exist_ok=True)
+            report_path.write_text(json.dumps({
+                'schema_version': 1,
+                'media_sha256': digest,
+                'scan': {
+                    'mode': 'continuous_from_start',
+                    'every_frame': True,
+                    'no_input_seek': True,
+                    'decoded_frames': frame_count,
+                    'expected_frames': frame_count,
+                    'return_code': 0,
+                    'complete': True,
+                    'partial_frame_bytes': 0,
+                    'decode_error': None,
+                    'media_sha256_after': digest,
+                    'media_sha256_matches': True,
+                    'analysis': ['isolated_full_frame_jump', 'stable_roi', 'dark_roi'],
+                },
+                'flagged_frames': [],
+                'flag_reviews': [],
+            }), encoding='utf-8')
     (delivery / 'delivery.json').write_text(json.dumps(manifest, ensure_ascii=False), encoding='utf-8')
     return delivery
 
@@ -131,6 +173,58 @@ class ArchiveCatalogTests(unittest.TestCase):
             bili_index = (delivery / 'B站' / 'README.md').read_text(encoding='utf-8')
             self.assertIn('final.mp4', bili_index)
             self.assertNotIn('reference.mp4', bili_index)
+
+    def test_explicit_portrait_only_90_second_work_is_indexed_without_landscape_placeholder(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            delivery = create_work(
+                root, directory_name='si-ep09-computing-destiny', duration=90,
+                platforms=['xiaohongshu'],
+            )
+            work = mod.discover(root)[0]
+            self.assertEqual(work['duration_seconds'], 90)
+            self.assertEqual(work['final_output_paths'], {
+                '小红书': 'deliveries/si-ep09-computing-destiny/小红书/final.mp4',
+            })
+            with patch.object(mod, 'probe', side_effect=fake_probe):
+                assets = [mod.make_asset(root, work, path) for path in work['files']]
+            final_assets = [asset for asset in assets if asset['platform'] in {'B站', '小红书'}]
+            self.assertEqual([asset['platform'] for asset in final_assets], ['小红书'])
+            self.assertEqual(final_assets[0]['measurements']['frames'], '5400')
+
+            with patch.object(mod, 'probe', side_effect=fake_probe):
+                self.run_main(root)
+            catalog = json.loads((root / 'archive' / 'catalog.json').read_text(encoding='utf-8'))
+            record = catalog['works'][0]
+            self.assertEqual(set(record['final_output_paths']), {'小红书'})
+            self.assertFalse((delivery / 'B站').exists())
+            self.assertTrue((delivery / '小红书' / 'README.md').is_file())
+            readme = (delivery / 'README.md').read_text(encoding='utf-8')
+            self.assertIn('小红书竖屏版本制作目标为90秒', readme)
+            self.assertIn('[小红书竖屏](小红书/README.md)', readme)
+            self.assertNotIn('B站横屏', readme)
+
+    def test_explicit_platform_field_and_selected_output_keys_fail_closed(self):
+        for platforms in ([], ['unknown'], ['xiaohongshu', 'xiaohongshu']):
+            with self.subTest(platforms=platforms), tempfile.TemporaryDirectory() as tmp:
+                root = Path(tmp)
+                delivery = create_work(root, platforms=['xiaohongshu'])
+                manifest_path = delivery / 'delivery.json'
+                manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
+                manifest['platforms'] = platforms
+                manifest_path.write_text(json.dumps(manifest), encoding='utf-8')
+                with self.assertRaisesRegex(ValueError, 'platforms must be a nonempty list'):
+                    mod.discover(root)
+
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            delivery = create_work(root, platforms=['xiaohongshu'])
+            manifest_path = delivery / 'delivery.json'
+            manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
+            manifest['outputs']['bilibili'] = {'path': 'B站/final.mp4'}
+            manifest_path.write_text(json.dumps(manifest), encoding='utf-8')
+            with self.assertRaisesRegex(ValueError, 'outputs keys must exactly match'):
+                mod.discover(root)
 
     def test_bundle_prefix_in_work_slug_does_not_hide_final_outputs(self):
         with tempfile.TemporaryDirectory() as tmp:

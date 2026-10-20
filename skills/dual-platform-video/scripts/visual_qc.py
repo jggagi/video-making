@@ -20,6 +20,19 @@ def _failure(message: str, status: str = "FAIL") -> dict[str, Any]:
     return {"status": status, "outputs": {}, "failures": [message]}
 
 
+def manifest_platforms(manifest: dict) -> tuple[str, ...] | None:
+    """Return selected platforms, retaining dual-platform behavior for legacy manifests."""
+    if "platforms" not in manifest:
+        return PLATFORMS
+    value = manifest["platforms"]
+    if (not isinstance(value, list) or not value
+            or any(not isinstance(platform, str) or platform not in PLATFORMS
+                   for platform in value)
+            or len(set(value)) != len(value)):
+        return None
+    return tuple(value)
+
+
 def _relative_path(root: Path, raw_path: Any, label: str) -> tuple[Path | None, str | None]:
     if (not isinstance(raw_path, str) or not raw_path or "\\" in raw_path
             or "\x00" in raw_path):
@@ -286,7 +299,12 @@ def validate_visual_qc(
     """
     if not isinstance(manifest, dict):
         return _failure("delivery manifest must be an object when checking visual QC")
+    platforms = manifest_platforms(manifest)
+    if platforms is None:
+        return _failure("delivery.json platforms must be a nonempty list of unique known platform keys")
     if "visual_qc" not in manifest:
+        if "platforms" in manifest:
+            return _failure("delivery.json with explicit platforms must include visual_qc.reports")
         return {"status": "NOT_REQUIRED", "outputs": {}, "failures": []}
     policy = manifest["visual_qc"]
     if not isinstance(policy, dict) or set(policy) != {"required", "reports"}:
@@ -294,8 +312,8 @@ def validate_visual_qc(
     if policy.get("required") is not True:
         return _failure("visual_qc.required must be true")
     reports = policy.get("reports")
-    if not isinstance(reports, dict) or set(reports) != set(PLATFORMS):
-        return _failure("visual_qc.reports must contain exactly bilibili and xiaohongshu")
+    if not isinstance(reports, dict) or set(reports) != set(platforms):
+        return _failure("visual_qc.reports keys must exactly match selected platforms")
     if type(expected_frames) is not int or expected_frames <= 0:
         return _failure("expected_frames must be a positive integer")
     if not isinstance(output_hashes, dict):
@@ -312,7 +330,7 @@ def validate_visual_qc(
         key: _validate_one(
             resolved_root, key, reports[key], output_hashes.get(key), expected_frames
         )
-        for key in PLATFORMS
+        for key in platforms
     }
     failures = [failure for result in output_results.values()
                 for failure in result["failures"]]

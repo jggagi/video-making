@@ -112,7 +112,8 @@ def report_for(media_sha256, *, flags=None, reviews=None, scan_overrides=None):
 
 def write_reports(root, manifest, *, flags=None, reviews=None, scan_overrides=None):
     hashes = output_hashes(root, manifest)
-    for key, report_path in REPORTS.items():
+    reports = manifest.get("visual_qc", {}).get("reports", REPORTS)
+    for key, report_path in reports.items():
         path = root / report_path
         path.parent.mkdir(parents=True, exist_ok=True)
         current_flags = (flags or {}).get(key, [])
@@ -149,6 +150,44 @@ class VisualQCTests(unittest.TestCase):
             result = QC.validate_visual_qc(root, manifest, hashes, EXPECTED_FRAMES)
             self.assertEqual(result["status"], "PASS")
             self.assertEqual(result["outputs"]["bilibili"]["decoded_frames"], EXPECTED_FRAMES)
+
+    def test_explicit_portrait_only_manifest_validates_only_portrait_report(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary) / "portrait"
+            manifest = create_delivery(root)
+            manifest["platforms"] = ["xiaohongshu"]
+            manifest["outputs"].pop("bilibili")
+            manifest["visual_qc"]["reports"].pop("bilibili")
+            hashes = write_reports(root, manifest)
+            result = QC.validate_visual_qc(root, manifest, hashes, EXPECTED_FRAMES)
+            self.assertEqual(result["status"], "PASS")
+            self.assertEqual(set(result["outputs"]), {"xiaohongshu"})
+
+    def test_explicit_platforms_and_visual_report_keys_fail_closed(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary) / "invalid"
+            manifest = create_delivery(root)
+            hashes = output_hashes(root, manifest)
+            for platforms in ([], ["unknown"], ["xiaohongshu", "xiaohongshu"]):
+                with self.subTest(platforms=platforms):
+                    invalid = dict(manifest)
+                    invalid["platforms"] = platforms
+                    result = QC.validate_visual_qc(root, invalid, hashes, EXPECTED_FRAMES)
+                    self.assertEqual(result["status"], "FAIL")
+
+            portrait = dict(manifest)
+            portrait["platforms"] = ["xiaohongshu"]
+            portrait["visual_qc"] = {
+                "required": True,
+                "reports": dict(REPORTS),
+            }
+            result = QC.validate_visual_qc(root, portrait, hashes, EXPECTED_FRAMES)
+            self.assertEqual(result["status"], "FAIL")
+            self.assertIn("exactly match", " ".join(result["failures"]))
+
+            portrait.pop("visual_qc")
+            result = QC.validate_visual_qc(root, portrait, hashes, EXPECTED_FRAMES)
+            self.assertEqual(result["status"], "FAIL")
 
     def test_reviewed_authored_transition_with_matching_evidence_passes(self):
         with tempfile.TemporaryDirectory() as temporary:
@@ -306,12 +345,21 @@ class VisualQCTests(unittest.TestCase):
             self.assertEqual(result["status"], "FAIL")
             self.assertIn("symlink", " ".join(result["failures"]))
 
-    def test_initializer_adds_required_two_platform_policy_and_legacy_is_not_required(self):
+    def test_initializer_adds_platform_policy_and_legacy_is_not_required(self):
         manifest = INITIALIZER.build_manifest(
             slug="new-work", title="New work", fps=60, audio_mode="silent",
             script_bytes=b"script", duration_seconds=120,
         )
         self.assertEqual(manifest["visual_qc"], {"required": True, "reports": REPORTS})
+        portrait = INITIALIZER.build_manifest(
+            slug="portrait-work", title="Portrait work", fps=60, audio_mode="silent",
+            script_bytes=b"script", duration_seconds=90, platforms=["xiaohongshu"],
+        )
+        self.assertEqual(portrait["platforms"], ["xiaohongshu"])
+        self.assertEqual(
+            portrait["visual_qc"],
+            {"required": True, "reports": {"xiaohongshu": REPORTS["xiaohongshu"]}},
+        )
         self.assertEqual(
             QC.validate_visual_qc(Path("."), {"schema_version": 1}, {}, None)["status"],
             "NOT_REQUIRED",

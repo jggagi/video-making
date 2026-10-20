@@ -28,6 +28,7 @@ if _VISUAL_QC_SPEC is None or _VISUAL_QC_SPEC.loader is None:
 _VISUAL_QC_MODULE = importlib.util.module_from_spec(_VISUAL_QC_SPEC)
 _VISUAL_QC_SPEC.loader.exec_module(_VISUAL_QC_MODULE)
 validate_visual_qc = _VISUAL_QC_MODULE.validate_visual_qc
+manifest_platforms = _VISUAL_QC_MODULE.manifest_platforms
 
 
 FPS_CHOICES = (24, 25, 30, 50, 60)
@@ -302,12 +303,21 @@ def validate_manifest(
                 add_check(checks, failures, "script_hash", False,
                           f"cannot read valid UTF-8 source/script.md: {exc}")
 
+    platforms = manifest_platforms(manifest)
+    if "platforms" in manifest:
+        add_check(checks, failures, "platforms", platforms is not None,
+                  "delivery.json platforms must be a nonempty list of unique known platform keys")
+
     output_config = manifest.get("outputs")
     if not isinstance(output_config, dict):
         add_check(checks, failures, "outputs", False,
                   "delivery.json outputs entry must be an object")
     else:
-        for key in OUTPUTS:
+        if "platforms" in manifest:
+            exact_output_keys = platforms is not None and set(output_config) == set(platforms)
+            add_check(checks, failures, "output_platforms", exact_output_keys,
+                      "delivery.json outputs keys must exactly match selected platforms")
+        for key in platforms or ():
             config = output_config.get(key)
             valid = manifest_dimensions_valid(key, config)
             add_check(checks, failures, f"{key}_manifest_dimensions", valid,
@@ -720,6 +730,7 @@ def validate(
 
     target_duration: Fraction | None = None
     target_duration_seconds: int | float | None = None
+    selected_platforms = tuple(OUTPUTS)
     source_scan = scan_source(root) if scan_source_enabled else None
     if source_scan is not None:
         failures.extend(source_scan_failures(source_scan))
@@ -733,13 +744,14 @@ def validate(
             }
             failures.append(f"{key}: cannot validate output without valid delivery.json")
     else:
+        selected_platforms = manifest_platforms(manifest) or ()
         (fps, total_frames, audio_mode, target_duration,
          target_duration_seconds) = validate_manifest(root, manifest, checks, failures)
         output_entries = manifest.get("outputs")
         output_entries = output_entries if isinstance(output_entries, dict) else {}
         ffprobe = shutil.which("ffprobe")
         ffmpeg = shutil.which("ffmpeg")
-        for key in OUTPUTS:
+        for key in selected_platforms:
             output_reports[key] = validate_media(
                 key, output_entries.get(key), root, fps, total_frames, target_duration,
                 target_duration_seconds, audio_mode, ffprobe, ffmpeg, skip_decode,
@@ -748,7 +760,7 @@ def validate(
 
     qc_manifest = manifest if manifest is not None else {"visual_qc": None}
     output_hashes = {
-        key: output_reports[key].get("sha256") for key in OUTPUTS
+        key: output_reports[key].get("sha256") for key in output_reports
     }
     visual_qc = validate_visual_qc(root, qc_manifest, output_hashes, total_frames)
     non_visual_failures = bool(failures)

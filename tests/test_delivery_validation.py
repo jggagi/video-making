@@ -31,14 +31,16 @@ def make_atom(name, payload=b""):
 
 
 def create_delivery(root, duration=UNSET, fps=30, total_frames=None,
-                    xhs_dimensions=None):
+                    xhs_dimensions=None, platforms=None):
     root.mkdir(parents=True, exist_ok=True)
     source_dir = root / "source"
     source_dir.mkdir(exist_ok=True)
     source_path = source_dir / "script.md"
     source_path.write_text("A short test script.\n", encoding="utf-8")
     outputs = {}
-    for key, (width, height) in VALIDATOR.OUTPUTS.items():
+    selected_platforms = tuple(VALIDATOR.OUTPUTS) if platforms is None else tuple(platforms)
+    for key in selected_platforms:
+        width, height = VALIDATOR.OUTPUTS[key]
         if key == "xiaohongshu" and xhs_dimensions is not None:
             width, height = xhs_dimensions
         media_path = root / "outputs" / f"{key}.mp4"
@@ -72,6 +74,40 @@ def create_delivery(root, duration=UNSET, fps=30, total_frames=None,
         },
         "outputs": outputs,
     }
+    if platforms is not None:
+        manifest["platforms"] = list(platforms)
+        reports = {
+            key: f"review/visual-qc-{key}/report.json"
+            for key in selected_platforms
+        }
+        manifest["visual_qc"] = {"required": True, "reports": reports}
+        for key, config in outputs.items():
+            media_path = root / config["path"]
+            digest = VALIDATOR.hashlib.sha256(media_path.read_bytes()).hexdigest()
+            report_path = root / reports[key]
+            report_path.parent.mkdir(parents=True, exist_ok=True)
+            expected = total_frames
+            scan = {
+                "mode": "continuous_from_start",
+                "every_frame": True,
+                "no_input_seek": True,
+                "decoded_frames": expected,
+                "expected_frames": expected,
+                "return_code": 0,
+                "complete": True,
+                "partial_frame_bytes": 0,
+                "decode_error": None,
+                "media_sha256_after": digest,
+                "media_sha256_matches": True,
+                "analysis": ["isolated_full_frame_jump", "stable_roi", "dark_roi"],
+            }
+            report_path.write_text(json.dumps({
+                "schema_version": 1,
+                "media_sha256": digest,
+                "scan": scan,
+                "flagged_frames": [],
+                "flag_reviews": [],
+            }), encoding="utf-8")
     if duration is not UNSET:
         manifest["duration_seconds"] = duration
     (root / "delivery.json").write_text(
@@ -218,12 +254,55 @@ class DeliveryDurationTests(unittest.TestCase):
     def test_missing_duration_defaults_to_120_seconds(self):
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary) / "delivery"
-            create_delivery(root)
+            manifest = create_delivery(root)
             exit_code, _, _, report = run_validation(root)
             self.assertEqual(exit_code, 0)
             self.assertEqual(report["status"], "PASS")
             self.assertEqual(report["target_duration_seconds"], 120)
             self.assertEqual(report["outputs"]["bilibili"]["checks"]["counted_frames"], "PASS")
+            self.assertNotIn("platforms", manifest)
+            self.assertEqual(set(report["outputs"]), {"bilibili", "xiaohongshu"})
+
+    def test_portrait_only_90_second_manifest_validates_one_output(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary) / "portrait"
+            create_delivery(
+                root, duration=90, fps=60, total_frames=5_400,
+                platforms=["xiaohongshu"],
+            )
+            exit_code, _, _, report = run_validation(root)
+            self.assertEqual(exit_code, 0)
+            self.assertEqual(report["status"], "PASS")
+            self.assertEqual(set(report["outputs"]), {"xiaohongshu"})
+            self.assertEqual(report["target_duration_seconds"], 90)
+            self.assertEqual(
+                report["outputs"]["xiaohongshu"]["measurements"]["video"]["counted_frames"],
+                "5400",
+            )
+
+    def test_invalid_explicit_platforms_and_mismatched_output_keys_fail_closed(self):
+        for platforms in ([], ["unknown"], ["xiaohongshu", "xiaohongshu"]):
+            with self.subTest(platforms=platforms), tempfile.TemporaryDirectory() as temporary:
+                root = Path(temporary) / "invalid"
+                create_delivery(root)
+                manifest_path = root / "delivery.json"
+                manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+                manifest["platforms"] = platforms
+                manifest_path.write_text(json.dumps(manifest), encoding="utf-8")
+                exit_code, _, _, report = run_validation(root)
+                self.assertEqual(exit_code, 1)
+                self.assertEqual(report["checks"]["platforms"], "FAIL")
+
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary) / "mismatch"
+            create_delivery(root)
+            manifest_path = root / "delivery.json"
+            manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+            manifest["platforms"] = ["xiaohongshu"]
+            manifest_path.write_text(json.dumps(manifest), encoding="utf-8")
+            exit_code, _, _, report = run_validation(root)
+            self.assertEqual(exit_code, 1)
+            self.assertEqual(report["checks"]["output_platforms"], "FAIL")
 
     def test_180_seconds_uses_10800_frames_at_60_fps(self):
         with tempfile.TemporaryDirectory() as temporary:

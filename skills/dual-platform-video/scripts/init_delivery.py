@@ -17,6 +17,11 @@ import unicodedata
 
 FPS_CHOICES = (24, 25, 30, 50, 60)
 AUDIO_MODES = ("narrated", "provided", "silent")
+PLATFORMS = ("bilibili", "xiaohongshu")
+PLATFORM_DETAILS = {
+    "bilibili": ("B站", 3840, 2160, "bilibili", "4k"),
+    "xiaohongshu": ("小红书", 2160, 3840, "xiaohongshu", "portrait"),
+}
 DEFAULT_DURATION_SECONDS = 120
 PCM_SAMPLE_RATE = 48_000
 
@@ -40,6 +45,10 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--audio-mode", choices=AUDIO_MODES, default="narrated"
+    )
+    parser.add_argument(
+        "--platforms", nargs="+", choices=PLATFORMS, default=list(PLATFORMS),
+        help="target platform editions (default: bilibili xiaohongshu)",
     )
     return parser.parse_args()
 
@@ -104,17 +113,40 @@ def duration_label(value: int | float) -> str:
     return label
 
 
+def validate_platforms(value: object) -> tuple[str, ...]:
+    if not isinstance(value, (list, tuple)) or not value:
+        raise InputError("--platforms must select at least one platform.")
+    if any(not isinstance(platform, str) or platform not in PLATFORMS for platform in value):
+        raise InputError("--platforms contains an unknown platform.")
+    if len(set(value)) != len(value):
+        raise InputError("--platforms must not contain duplicates.")
+    return tuple(value)
+
+
 def build_manifest(
     *, slug: str, title: str, fps: int, audio_mode: str, script_bytes: bytes,
     duration_seconds: int | float = DEFAULT_DURATION_SECONDS,
+    platforms: list[str] | tuple[str, ...] = PLATFORMS,
 ) -> dict:
+    selected_platforms = validate_platforms(platforms)
     duration, total_frames = target_duration(duration_seconds, fps)
     normalized_duration = duration_value(duration)
     label = duration_label(duration_seconds)
+    outputs = {}
+    reports = {}
+    for key in selected_platforms:
+        folder, width, height, platform_label, size_label = PLATFORM_DETAILS[key]
+        outputs[key] = {
+            "path": f"{folder}/{slug}-{platform_label}-{label}s-{size_label}.mp4",
+            "width": width,
+            "height": height,
+        }
+        reports[key] = f"review/visual-qc-{key}/report.json"
     return {
         "schema_version": 1,
         "title": title,
         "slug": slug,
+        "platforms": list(selected_platforms),
         "duration_seconds": normalized_duration,
         "fps": fps,
         "total_frames": total_frames,
@@ -126,18 +158,7 @@ def build_manifest(
             "mode": audio_mode,
             "master": "project/public/audio/master.wav",
         },
-        "outputs": {
-            "bilibili": {
-                "path": f"B站/{slug}-bilibili-{label}s-4k.mp4",
-                "width": 3840,
-                "height": 2160,
-            },
-            "xiaohongshu": {
-                "path": f"小红书/{slug}-xiaohongshu-{label}s-portrait.mp4",
-                "width": 2160,
-                "height": 3840,
-            },
-        },
+        "outputs": outputs,
         "qa": {
             "automated": "pending",
             "representative_frames": "pending",
@@ -146,10 +167,7 @@ def build_manifest(
         },
         "visual_qc": {
             "required": True,
-            "reports": {
-                "bilibili": "review/visual-qc-bilibili/report.json",
-                "xiaohongshu": "review/visual-qc-xiaohongshu/report.json",
-            },
+            "reports": reports,
         },
     }
 
@@ -183,6 +201,7 @@ def create_delivery(args: argparse.Namespace) -> Path:
     if args.audio_mode not in AUDIO_MODES:
         raise InputError(f"--audio-mode must be one of {', '.join(AUDIO_MODES)}.")
     duration_seconds = getattr(args, "duration_seconds", DEFAULT_DURATION_SECONDS)
+    selected_platforms = validate_platforms(getattr(args, "platforms", PLATFORMS))
     # Reject invalid timing before reading or creating any delivery files.
     target_duration(duration_seconds, args.fps)
 
@@ -195,6 +214,7 @@ def create_delivery(args: argparse.Namespace) -> Path:
         audio_mode=args.audio_mode,
         script_bytes=script_bytes,
         duration_seconds=duration_seconds,
+        platforms=selected_platforms,
     )
     manifest_bytes = (
         json.dumps(manifest, ensure_ascii=False, indent=2) + "\n"
@@ -222,7 +242,8 @@ def create_delivery(args: argparse.Namespace) -> Path:
         target.mkdir(exist_ok=False)
         target_created = True
 
-        for name in ("source", "B站", "小红书", "project", "review"):
+        platform_directories = [PLATFORM_DETAILS[key][0] for key in selected_platforms]
+        for name in ("source", *platform_directories, "project", "review"):
             directory = target / name
             directory.mkdir()
             created_dirs.append(directory)

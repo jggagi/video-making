@@ -1,4 +1,4 @@
-"""Tests for fresh dual-platform delivery scaffolding."""
+"""Tests for fresh platform-selectable delivery scaffolding."""
 import hashlib
 import importlib.util
 import json
@@ -22,7 +22,8 @@ spec.loader.exec_module(mod)
 
 
 class DeliveryInitializationTests(unittest.TestCase):
-    def manifest(self, duration=mod.DEFAULT_DURATION_SECONDS, fps=60):
+    def manifest(self, duration=mod.DEFAULT_DURATION_SECONDS, fps=60,
+                 platforms=mod.PLATFORMS):
         return mod.build_manifest(
             slug="test-film",
             title="Test film",
@@ -30,9 +31,11 @@ class DeliveryInitializationTests(unittest.TestCase):
             audio_mode="narrated",
             script_bytes=b"source script\n",
             duration_seconds=duration,
+            platforms=platforms,
         )
 
-    def args(self, output_root, script, duration=mod.DEFAULT_DURATION_SECONDS):
+    def args(self, output_root, script, duration=mod.DEFAULT_DURATION_SECONDS,
+             platforms=mod.PLATFORMS):
         return mod.argparse.Namespace(
             output_root=output_root,
             slug="test-film",
@@ -41,10 +44,12 @@ class DeliveryInitializationTests(unittest.TestCase):
             fps=60,
             audio_mode="narrated",
             duration_seconds=duration,
+            platforms=list(platforms),
         )
 
     def test_default_120_second_outputs_use_4k_dimensions_and_existing_filenames(self):
         manifest = self.manifest()
+        self.assertEqual(manifest["platforms"], ["bilibili", "xiaohongshu"])
         self.assertEqual(manifest["duration_seconds"], 120)
         self.assertEqual(manifest["total_frames"], 7_200)
         self.assertEqual(
@@ -86,6 +91,35 @@ class DeliveryInitializationTests(unittest.TestCase):
             self.assertEqual(mod.parse_args().duration_seconds, 120)
         with patch.object(sys, "argv", base + ["--duration-seconds", "180"]):
             self.assertEqual(mod.parse_args().duration_seconds, 180)
+        with patch.object(sys, "argv", base):
+            self.assertEqual(mod.parse_args().platforms, ["bilibili", "xiaohongshu"])
+        with patch.object(sys, "argv", base + ["--platforms", "xiaohongshu"]):
+            self.assertEqual(mod.parse_args().platforms, ["xiaohongshu"])
+
+    def test_portrait_only_90_second_manifest_and_initializer(self):
+        manifest = self.manifest(90, platforms=["xiaohongshu"])
+        self.assertEqual(manifest["platforms"], ["xiaohongshu"])
+        self.assertEqual(manifest["total_frames"], 5_400)
+        self.assertEqual(set(manifest["outputs"]), {"xiaohongshu"})
+        self.assertEqual(set(manifest["visual_qc"]["reports"]), {"xiaohongshu"})
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            script = root / "script.md"
+            script.write_text("portrait source\n", encoding="utf-8")
+            target = mod.create_delivery(
+                self.args(root / "deliveries", script, duration=90,
+                          platforms=["xiaohongshu"])
+            )
+            self.assertTrue((target / "小红书").is_dir())
+            self.assertFalse((target / "B站").exists())
+            created = json.loads((target / "delivery.json").read_text(encoding="utf-8"))
+            self.assertEqual(created["total_frames"], 5_400)
+            self.assertEqual(set(created["visual_qc"]["reports"]), {"xiaohongshu"})
+
+    def test_platform_selection_rejects_empty_duplicate_unknown_and_nonlist(self):
+        for platforms in ([], ["xiaohongshu", "xiaohongshu"], ["other"], "xiaohongshu"):
+            with self.subTest(platforms=platforms), self.assertRaises(mod.InputError):
+                self.manifest(platforms=platforms)
 
     def test_invalid_duration_values_are_rejected(self):
         invalid = (True, "120", None, float("nan"), float("inf"), 0, -1, 120.01, 0.00001)

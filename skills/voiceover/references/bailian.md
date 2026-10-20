@@ -2,14 +2,18 @@
 
 这是本次实践提炼出的绑定示例。提供商选择、费用授权、CLI版本／技能版本预检、鉴权与错误处理以当前 `bailian-protocol` 为准；命令以当前 `bailian-gen` 的speech说明和 `bl speech synthesize --help` / `bl speech recognize --help` 为准。不要复制过时模型目录或把此处当成账号配置指南。
 
+## Q 的视频旁白默认
+
+Q 于 2026-10-20 明确设定：本技能的当前及未来视频旁白默认使用百炼 `longtian_v3`，长期授权发送当前影片的旁白文本并执行常规规模 TTS，无需逐片重复确认；本次任务的明确选择优先。此默认不扩展到额外 ASR、声音克隆、新提供商、显著增加的费用或账号发布，仍须核验 CLI、缓存和实际返回的模型/音色。
+
 ## 合成
 
-用户已选择百炼后，先确认当前Profile和实际声音能力。未点名模型时按百炼技能让Profile选择模型，并在返回清单中记录实际有效值；发现返回值与预检选择不一致时保留产物、停止相关调用，不能自动切换。
+用户已选择百炼或适用上述默认授权时，先确认当前Profile和实际声音能力。未点名模型时按百炼技能让Profile选择模型，并在返回清单中记录实际有效值；发现返回值与预检选择不一致时保留产物、停止相关调用，不能自动切换。
 
-以下命令使用案例音色，只在当前用户选择与能力核对一致时使用：
+视频旁白默认请求 `longtian_v3`；命令须与当前 CLI 能力一致：
 
 ```sh
-bl speech synthesize --text-file cue.txt --voice longsanshu_v3 --rate 0.92 --format wav --sample-rate 24000 --out cue.wav --concurrent 1 --output json
+bl speech synthesize --text-file cue.txt --voice longtian_v3 --format wav --sample-rate 24000 --out cue.wav --concurrent 1 --output json
 ```
 
 不把命令的请求值当成已返回的模型／音色证据。解析需要的非敏感字段、验证真实音频和散列，其余原始响应不要输出到聊天或交付目录。逐段顺序生成适合这个小项目；并发和限流按当前提供商能力与本机负载决定。

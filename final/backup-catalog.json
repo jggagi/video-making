@@ -974,6 +974,30 @@
       ]
     },
     {
+      "id": "si-ep11-kintsugi-ink-v03",
+      "title": "Final 成片备份 · 逆转的沙漏 · 留住这一根白发",
+      "release_tag": "final-si-ep11-kintsugi-ink-v03-07141d6f8835",
+      "assets": [
+        {
+          "path": "final/si-ep11-kintsugi-ink-v03/小红书/si-ep11-kintsugi-ink-v03-xiaohongshu-90s-portrait.mp4",
+          "name": "final--si-ep11-kintsugi-ink-v03--deliveries--si-ep11-kintsugi-ink-v03-----si-ep11-kintsugi-ink-v03-xiaohongshu-90s-portrait--8bc877ae8c69.mp4",
+          "bytes": 100931077,
+          "sha256": "8bc877ae8c69b76953e5eca1af056a4c851a1a7960473c73f5dd6e0771ba08e1",
+          "kind": "video",
+          "platform": "小红书",
+          "measurements": {
+            "width": 2160,
+            "height": 3840,
+            "fps": "60/1",
+            "frames": "5400",
+            "video_duration_seconds": 90.0,
+            "container_duration_seconds": 90.005
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep11-kintsugi-ink-v03-07141d6f8835/final--si-ep11-kintsugi-ink-v03--deliveries--si-ep11-kintsugi-ink-v03-----si-ep11-kintsugi-ink-v03-xiaohongshu-90s-portrait--8bc877ae8c69.mp4"
+        }
+      ]
+    },
+    {
       "id": "si-ep12-final-equation",
       "title": "Final 成片备份 · 最后一行公式",
       "release_tag": "final-si-ep12-final-equation-9693cfcbd26b",

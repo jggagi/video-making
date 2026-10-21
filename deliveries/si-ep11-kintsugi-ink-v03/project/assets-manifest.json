@@ -14,7 +14,7 @@
     "totalFrames": 5400
   },
   "visualProvenance": {
-    "method": "Locally authored Blender canyon and hero-camera movies, composited in Remotion with deterministic Three.js hand geometry, GLSL materials, SVG atmosphere, locked captions and original audio. Native footage is pending rendering/encoding.",
+    "method": "Locally authored native4K Blender canyon and hero-camera movies, composited in Remotion with deterministic native4K Three.js hand geometry, GLSL materials, SVG atmosphere, locked captions and original audio. Both source movies are encoded and strictly decoded.",
     "sourceAssetIds": [
       "visual-canyon-v03-video",
       "visual-hand-scene",
@@ -23,7 +23,11 @@
       "visual-film-composition",
       "visual-remotion-root",
       "visual-hand-subdivision",
-      "visual-hero-v03-video"
+      "visual-hero-v03-video",
+      "v03-scene",
+      "v03-porcelain-canyon-v03",
+      "v03-porcelain-canyon-hero",
+      "v03-reframe-hero"
     ],
     "geometryAndShaderNotes": [
       "Superseded/inactive source history: CanyonScene builds seeded terrain, fractured porcelain plates, Y-fork ribbons, shards and event-driven particles as local BufferGeometry; indexed trigonometric seeds keep the scene deterministic.",
@@ -35,50 +39,11 @@
     "generatedImageOrVideoAssets": 0,
     "handModelProvenanceAssetId": "hands-provenance",
     "handModelLicense": "MIT (WebXR Input Profiles assets package)",
-    "separateRepositoryDocumentationLicenseAssetId": "hands-repository-doc-license"
+    "separateRepositoryDocumentationLicenseAssetId": "hands-repository-doc-license",
+    "generatedImageOrVideoAssetsMeaning": "Cloud/AI image and video generation calls; local Blender rendering is recorded separately.",
+    "locallyRenderedVideoAssetCount": 2
   },
-  "pendingAssets": [
-    {
-      "id": "visual-canyon-v03-video",
-      "path": "public/video/canyon-v03.mp4",
-      "kind": "blender-rendered-canyon-video",
-      "status": "PENDING_RENDER",
-      "expected": {
-        "width": 2160,
-        "height": 3840,
-        "fps": 30,
-        "frameCount": 1525,
-        "compositionStartFrame": 550,
-        "compositionEndFrameExclusive": 3600,
-        "activeCompositionIntervals": [
-          [
-            550,
-            2812
-          ],
-          [
-            3274,
-            3600
-          ]
-        ]
-      }
-    },
-    {
-      "id": "visual-hero-v03-video",
-      "path": "public/video/hero-v03.mp4",
-      "kind": "blender-rendered-hero-video",
-      "status": "PENDING_RENDER",
-      "expected": {
-        "width": 2160,
-        "height": 3840,
-        "fps": 30,
-        "frameCount": 231,
-        "compositionStartFrame": 2812,
-        "compositionEndFrameExclusive": 3274,
-        "sourceFrameStart": 1132,
-        "sourceFrameEndInclusive": 1362
-      }
-    }
-  ],
+  "pendingAssets": [],
   "fonts": {
     "dependencies": [
       {
@@ -192,7 +157,9 @@
           "mixReadyCue": "audio-s01-cue-wav",
           "ttsInputText": "audio-s01-tts-input-text"
         },
-        "reused": false
+        "reused": false,
+        "reusedInThisVersion": true,
+        "sourceWork": "si-ep11-kintsugi-ink-v02"
       },
       {
         "segmentId": "S02",
@@ -228,7 +195,9 @@
           "mixReadyCue": "audio-s02-cue-wav",
           "ttsInputText": "audio-s02-tts-input-text"
         },
-        "reused": false
+        "reused": false,
+        "reusedInThisVersion": true,
+        "sourceWork": "si-ep11-kintsugi-ink-v02"
       },
       {
         "segmentId": "S03",
@@ -264,7 +233,9 @@
           "mixReadyCue": "audio-s03-cue-wav",
           "ttsInputText": "audio-s03-tts-input-text"
         },
-        "reused": false
+        "reused": false,
+        "reusedInThisVersion": true,
+        "sourceWork": "si-ep11-kintsugi-ink-v02"
       },
       {
         "segmentId": "S04",
@@ -300,7 +271,9 @@
           "mixReadyCue": "audio-s04-cue-wav",
           "ttsInputText": "audio-s04-tts-input-text"
         },
-        "reused": false
+        "reused": false,
+        "reusedInThisVersion": true,
+        "sourceWork": "si-ep11-kintsugi-ink-v02"
       },
       {
         "segmentId": "S05",
@@ -336,7 +309,9 @@
           "mixReadyCue": "audio-s05-cue-wav",
           "ttsInputText": "audio-s05-tts-input-text"
         },
-        "reused": false
+        "reused": false,
+        "reusedInThisVersion": true,
+        "sourceWork": "si-ep11-kintsugi-ink-v02"
       },
       {
         "segmentId": "S06",
@@ -372,7 +347,9 @@
           "mixReadyCue": "audio-s06-cue-wav",
           "ttsInputText": "audio-s06-tts-input-text"
         },
-        "reused": false
+        "reused": false,
+        "reusedInThisVersion": true,
+        "sourceWork": "si-ep11-kintsugi-ink-v02"
       },
       {
         "segmentId": "S07",
@@ -408,7 +385,9 @@
           "mixReadyCue": "audio-s07-cue-wav",
           "ttsInputText": "audio-s07-tts-input-text"
         },
-        "reused": false
+        "reused": false,
+        "reusedInThisVersion": true,
+        "sourceWork": "si-ep11-kintsugi-ink-v02"
       },
       {
         "segmentId": "S08",
@@ -467,7 +446,9 @@
             }
           },
           "verification": "raw, canonical, and mix-ready cue copies compared byte-for-byte and SHA-256 verified"
-        }
+        },
+        "reusedInThisVersion": true,
+        "sourceWork": "si-ep11-kintsugi-ink-v02"
       }
     ],
     "scoreDesign": {
@@ -619,7 +600,13 @@
       "audio-segment-source",
       "audio-builder-source",
       "tts-builder-source"
-    ]
+    ],
+    "reuseInThisVersion": {
+      "sourceWork": "si-ep11-kintsugi-ink-v02",
+      "providerInvocations": 0,
+      "masterAndAllNarrationCuesReusedByteForByte": true,
+      "originalProviderLedgerPreserved": true
+    }
   },
   "assets": [
     {
@@ -1778,6 +1765,58 @@
       },
       "bytes": 46911388,
       "sha256": "e9b106f0aef76c900507e381b0cdc536137773ae8da3f32935b0ff2b811543db"
+    },
+    {
+      "id": "visual-canyon-v03-video",
+      "path": "public/video/canyon-v03.mp4",
+      "kind": "blender-rendered-canyon-video",
+      "bytes": 87147838,
+      "sha256": "738fc7b8ce908c9b64e287c86ddd6681caa1f5e96b8f06f8fbc923e69f1e3b04",
+      "provenance": {
+        "sourceBlendAssetId": "v03-porcelain-canyon-v03",
+        "locallyRendered": true,
+        "sourceWidth": 2160,
+        "sourceHeight": 3840,
+        "sourceFps": 30,
+        "sourceFrames": 1525,
+        "filmFps": 60,
+        "filmFrameStart": 550,
+        "filmFrameEndExclusive": 3600,
+        "activeCompositionIntervals": [
+          [
+            550,
+            2812
+          ],
+          [
+            3274,
+            3600
+          ]
+        ],
+        "fullFrameLedger": "../review/base-footage.json",
+        "strictDecode": "passed"
+      }
+    },
+    {
+      "id": "visual-hero-v03-video",
+      "path": "public/video/hero-v03.mp4",
+      "kind": "blender-rendered-hero-video",
+      "bytes": 15135112,
+      "sha256": "825334e0033fcf113909ee34759b5e518a695dca59477b9b351b2ba32f378cab",
+      "provenance": {
+        "sourceBlendAssetId": "v03-porcelain-canyon-hero",
+        "locallyRendered": true,
+        "sourceWidth": 2160,
+        "sourceHeight": 3840,
+        "sourceFps": 30,
+        "sourceFrames": 231,
+        "sourceFrameStart": 1132,
+        "sourceFrameEndInclusive": 1362,
+        "filmFps": 60,
+        "filmFrameStart": 2812,
+        "filmFrameEndExclusive": 3274,
+        "fullFrameLedger": "../review/hero-footage.json",
+        "strictDecode": "passed"
+      }
     }
   ],
   "manifestIntegrity": {

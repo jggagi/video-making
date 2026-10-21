@@ -1,6 +1,6 @@
 {
-  "status": "RENDERING_NOT_FINAL",
-  "stage": "native base rendering; separate tracked hero camera preflight",
+  "status": "MEDIA_ACCEPTED_ARCHIVE_PENDING",
+  "stage": "media validated; editable package and dual archive backups next",
   "expected": {
     "width": 2160,
     "height": 3840,
@@ -19,15 +19,11 @@
     "look09 actual8native4K frames across allcamera cuts andkeyevents",
     "look09 savedscene reopened:17closed mainmeshes, matching socket and keyed finalreturn passed",
     "look09 real narrated10second preview played toend without browser error",
-    "frame2820 stop andframe2940 return exactly map tooriginalSFX samples"
+    "frame2820 stop andframe2940 return exactly map tooriginalSFX samples",
+    "both guarded source movies encoded andstrictdecoded; native600frame narratedRemotion sample checked atboth cuts andcore events"
   ],
   "remaining": [
-    "fullnative sequence",
-    "corrected native hero sequence and source encoding",
-    "source encoding",
-    "nativeRemotion motion sample",
-    "90second film",
-    "finalmedia/visual/audio checks",
+    "editableprojectZIP withintegrityproof",
     "localfinal andGitHubfinal backups",
     "restoreprobe"
   ],
@@ -36,5 +32,9 @@
     "ordinary_audience_feedback": "NOT_RUN",
     "target_device": "NOT_RUN"
   },
-  "note": "Base look09 remains immutable; hero camera correction derives a separate scene. Earlier motion sample verifies timing, not final corrected framing."
+  "note": "Technical and model representative review completed. Packaging snapshot precedes upload receipts; final archive/restore evidence is recorded separately after publication to the canonical repository.",
+  "baseNativeFramesCompleted": 1525,
+  "heroNativeFramesExpected": 231,
+  "heroNativeFramesCompleted": 231,
+  "finalMovieSha256": "8bc877ae8c69b76953e5eca1af056a4c851a1a7960473c73f5dd6e0771ba08e1"
 }

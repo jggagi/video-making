@@ -1,0 +1,15 @@
+{
+  "scope": "desktop muted video playback only",
+  "movieSha256": "8bc877ae8c69b76953e5eca1af056a4c851a1a7960473c73f5dd6e0771ba08e1",
+  "currentTime": 90.005,
+  "duration": 90.005,
+  "ended": true,
+  "muted": true,
+  "error": null,
+  "readyState": 4,
+  "videoWidth": 2160,
+  "videoHeight": 3840,
+  "humanListening": "NOT_RUN",
+  "targetDevice": "NOT_RUN",
+  "note": "Audible playback did not advance during the earlier short preview until muted; no sound-device or application settings were changed."
+}

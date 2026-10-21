@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-10-21T18:28:55.076142+00:00",
+  "media_path": "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep11-kintsugi-ink-v03/小红书/si-ep11-kintsugi-ink-v03-xiaohongshu-90s-portrait.mp4",
+  "media_sha256": "8bc877ae8c69b76953e5eca1af056a4c851a1a7960473c73f5dd6e0771ba08e1",
+  "probe": {
+    "codec_name": "h264",
+    "width": 2160,
+    "height": 3840,
+    "fps": {
+      "numerator": 60,
+      "denominator": 1,
+      "decimal": 60.0
+    },
+    "fps_source": "avg_frame_rate",
+    "duration_seconds": 90.0,
+    "nb_frames": "5400",
+    "geometry_basis": "FFprobe coded video dimensions; FFmpeg autorotation is disabled"
+  },
+  "scan": {
+    "mode": "continuous_from_start",
+    "every_frame": true,
+    "no_input_seek": true,
+    "decoded_frames": 5400,
+    "expected_frames": 5400,
+    "return_code": 0,
+    "analysis": [
+      "isolated_full_frame_jump"
+    ],
+    "scaled_width": 360,
+    "scaled_height": 640,
+    "config": {
+      "width_requested": 360,
+      "stable_roi_normalized_xywh": null,
+      "dark_roi_normalized_xywh": null,
+      "isolated_jump_mae_floor": 12.0,
+      "isolated_jump_neighbor_limit": "max(3, 0.35 * min(prev_middle_mae, middle_next_mae))",
+      "stable_roi_threshold": "median + 8 * (1.4826 * MAD), floor 8 RGB MAE",
+      "dark_roi_threshold": "median + 8 * (1.4826 * MAD), floor 50 pixels with luma > 100",
+      "dark_roi_bright_luma_threshold_exclusive": 100.0,
+      "ffmpeg_threads": 2,
+      "ffmpeg_filter_threads": 2,
+      "pixel_format": "rgb24",
+      "autorotate": false
+    },
+    "partial_frame_bytes": 0,
+    "frame_count_matches_expected": true,
+    "media_sha256_after": "8bc877ae8c69b76953e5eca1af056a4c851a1a7960473c73f5dd6e0771ba08e1",
+    "media_sha256_matches": true,
+    "complete": true,
+    "decode_error": null,
+    "incomplete_reasons": [],
+    "stderr_tail": ""
+  },
+  "roi_thresholds": {
+    "stable_roi_template_mae_rgb": null,
+    "stable_roi_consecutive_mae_rgb": null,
+    "dark_roi_bright_pixels_gt100": null
+  },
+  "flagged_frames": [],
+  "flag_reviews": [],
+  "limitations": [
+    "Screening uses scaled RGB heuristics and does not replace full-resolution perceptual review.",
+    "The scan does not establish human review, listening, or device playback acceptance.",
+    "A frame with no heuristic flags may still contain visual defects outside these checks."
+  ],
+  "evidence_files": {
+    "metrics_csv": "metrics.csv",
+    "suspicious_contact_jpeg": "suspicious-contact.jpg"
+  },
+  "commands": {
+    "ffprobe": [
+      "/opt/homebrew/bin/ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_entries",
+      "stream=codec_name,width,height,avg_frame_rate,r_frame_rate,duration,nb_frames",
+      "-show_entries",
+      "format=duration",
+      "-of",
+      "json",
+      "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep11-kintsugi-ink-v03/小红书/si-ep11-kintsugi-ink-v03-xiaohongshu-90s-portrait.mp4"
+    ],
+    "ffmpeg": [
+      "/opt/homebrew/bin/ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-nostdin",
+      "-threads",
+      "2",
+      "-filter_threads",
+      "2",
+      "-noautorotate",
+      "-i",
+      "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep11-kintsugi-ink-v03/小红书/si-ep11-kintsugi-ink-v03-xiaohongshu-90s-portrait.mp4",
+      "-map",
+      "0:v:0",
+      "-an",
+      "-sn",
+      "-dn",
+      "-vf",
+      "scale=360:640:flags=bilinear",
+      "-vsync",
+      "0",
+      "-pix_fmt",
+      "rgb24",
+      "-f",
+      "rawvideo",
+      "pipe:1"
+    ]
+  },
+  "summary": {
+    "flagged_frame_count": 0,
+    "contact_sheet_frame_numbers": []
+  }
+}

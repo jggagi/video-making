@@ -2,7 +2,7 @@
 
 This Xiaohongshu edition remains native 2160×3840, 60 fps, 90 seconds, and 5,400 frames. It preserves the original script, v02 narration master, locked segments, captions, science notes, and 30-frame absolute-silence interval. `HandScene` remains a frame-driven Three.js canvas. The canyon uses two muted local Blender movies. `public/video/canyon-v03.mp4` maps to composition frames `[550,3600)` with the v02 crossfade; within `[2812,3274)`, `public/video/hero-v03.mp4` replaces it with a camera that follows the returning shard and its matching socket. Only one movie decoder is mounted at a time. The old procedural `CanyonScene` source is retained as superseded, inactive history.
 
-The two Blender movies are pending native rendering and encoding. The source verifier reports missing media as `PENDING`, and the renderer refuses to render until both exist. The base media contract is 2160×3840, 30 fps, 1,525 frames over 3,050 composition frames. The hero insert has 231 frames at the same native dimensions and cadence, covering 462 composition frames at 60 fps. Do not treat a source typecheck or an absent-asset placeholder as media acceptance.
+Both Blender movies have completed native rendering, encoding and strict decoding. The source verifier validates their exact manifest hashes and media contracts; the renderer requires both movies. Per-frame hash ledgers are preserved in `review/base-footage.json` and `review/hero-footage.json`. The base media contract is 2160×3840, 30 fps, 1,525 frames over 3,050 composition frames. The hero insert has 231 frames at the same native dimensions and cadence, covering 462 composition frames at 60 fps. Do not treat a source typecheck or an absent-asset placeholder as media acceptance.
 
 Run source checks from the repository root. The verifier checks the delivery and original-source hashes, locked timeline and segments, caption lines, active hand-scene wiring, both canyon video mounts and frame contracts, deterministic frame inputs, and legacy-scene/HUD removal. A missing movie is `INCOMPLETE`, never `PASS`. Exit code `0` means all included checks passed, `1` means a failed invariant, and `2` means an artifact is pending.
 
@@ -36,7 +36,7 @@ The compact source package can be created after QA evidence is ready:
 python3 deliveries/si-ep11-kintsugi-ink-v03/project/scripts/package_project.py
 ```
 
-It verifies ZIP CRCs and each member hash. The package includes both exact canyon movie dependencies and native Blender scenes; it omits other movies, dependencies, temporary artifacts, full-resolution review PNGs, and private provider/authorization/credential configuration.
+It verifies ZIP CRCs and each member hash. The package includes both exact canyon movie dependencies and native Blender scenes; it omits other movies, dependencies, temporary artifacts, full-resolution review PNGs, and private runtime provider/credential configuration. The nonsecret narration provenance and original prepared-text consent ledger are included explicitly.
 
 Final media validation, continuous visual screening, and archive catalog creation remain separate steps. Do not treat source checks or extracted frames as media, human, audience, or device acceptance.
 

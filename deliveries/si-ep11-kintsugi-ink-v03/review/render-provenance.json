@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "baseNativeSequence": {
+    "status": "ENCODED_AND_STRICTLY_DECODED",
+    "guard": {
+      "blend": {
+        "path": "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep11-kintsugi-ink-v03/project/blender/porcelain-canyon-v03.blend",
+        "sha256": "d72cb166f75d2872185e839a1d491ec4e689bba98fe6bd755c452a4eb50cf785"
+      },
+      "blender": {
+        "version": "4.5.9 LTS"
+      },
+      "render": {
+        "color_depth": "8",
+        "color_mode": "RGB",
+        "engine": "BLENDER_EEVEE_NEXT",
+        "height": 3840,
+        "image_format": "PNG",
+        "resolution_percentage": 100,
+        "samples": 32,
+        "threads": 4,
+        "width": 2160
+      },
+      "scene": {
+        "film_fps": 60,
+        "film_frame_end_exclusive": 3600,
+        "film_frame_start": 550,
+        "fps": 30,
+        "fps_base": 1.0,
+        "frame_end": 1525,
+        "frame_start": 1,
+        "source_fps": 30
+      },
+      "schema_version": 1
+    },
+    "guardSha256": "a75f5c9740c2a6af9ca349a8dcbe5c821db86d5c4ad3764cfdf5f823437b7cdc",
+    "sourceBlendCurrentSha256MatchesGuard": true,
+    "frameCount": 1525,
+    "nativeDimensions": [
+      2160,
+      3840
+    ],
+    "fps": 30,
+    "frameTimesSeconds": {
+      "renderedEntries": 1525,
+      "median": 11.255843,
+      "min": 9.876042,
+      "max": 135.684246,
+      "note": "Wall-clock per-frame measurements include deliberate pauses while the same task rendered hero preflight; maximum is not uninterrupted render performance."
+    },
+    "renderLogTail": "6 | Rendering 25 / 32 samples\nFra:1521 Mem:430.48M (Peak 452.21M) | Time:00:13.32 | Rendering 32 / 32 samples\nSaved: '/Volumes/AgentDev/Scratch/ep11-v03-native09/frame-1521.png'\nTime: 00:14.13 (Saving: 00:00.38)\n\nframe 1521: rendered in 14.14s\nFra:1522 Mem:430.41M (Peak 452.21M) | Time:00:00.20 | Rendering 1 / 32 samples\nFra:1522 Mem:430.41M (Peak 452.21M) | Time:00:10.32 | Rendering 25 / 32 samples\nFra:1522 Mem:430.48M (Peak 452.21M) | Time:00:13.27 | Rendering 32 / 32 samples\nSaved: '/Volumes/AgentDev/Scratch/ep11-v03-native09/frame-1522.png'\nTime: 00:14.05 (Saving: 00:00.35)\n\nframe 1522: rendered in 14.05s\nFra:1523 Mem:430.41M (Peak 452.21M) | Time:00:00.20 | Rendering 1 / 32 samples\nFra:1523 Mem:430.41M (Peak 452.21M) | Time:00:10.33 | Rendering 25 / 32 samples\nFra:1523 Mem:430.48M (Peak 452.21M) | Time:00:13.29 | Rendering 32 / 32 samples\nSaved: '/Volumes/AgentDev/Scratch/ep11-v03-native09/frame-1523.png'\nTime: 00:14.08 (Saving: 00:00.37)\n\nframe 1523: rendered in 14.09s\nFra:1524 Mem:430.41M (Peak 452.21M) | Time:00:00.20 | Rendering 1 / 32 samples\nFra:1524 Mem:430.41M (Peak 452.21M) | Time:00:10.35 | Rendering 25 / 32 samples\nFra:1524 Mem:430.48M (Peak 452.21M) | Time:00:13.33 | Rendering 32 / 32 samples\nSaved: '/Volumes/AgentDev/Scratch/ep11-v03-native09/frame-1524.png'\nTime: 00:14.12 (Saving: 00:00.35)\n\nframe 1524: rendered in 14.12s\nframe 1525: valid prior PNG; skipped\n",
+    "movie": {
+      "bytes": 87147838,
+      "codec": "h264",
+      "color_primaries": "bt709",
+      "color_space": "bt709",
+      "color_transfer": "bt709",
+      "fps": 30,
+      "frame_count": 1525,
+      "height": 3840,
+      "path": "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep11-kintsugi-ink-v03/project/public/video/canyon-v03.mp4",
+      "pix_fmt": "yuv420p",
+      "sha256": "738fc7b8ce908c9b64e287c86ddd6681caa1f5e96b8f06f8fbc923e69f1e3b04",
+      "width": 2160
+    },
+    "perFrameLedger": "base-footage.json"
+  },
+  "heroNativeSequence": {
+    "status": "ENCODED_AND_STRICTLY_DECODED",
+    "guard": {
+      "blend": {
+        "path": "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep11-kintsugi-ink-v03/project/blender/porcelain-canyon-hero-v03.blend",
+        "sha256": "e9b106f0aef76c900507e381b0cdc536137773ae8da3f32935b0ff2b811543db"
+      },
+      "blender": {
+        "version": "4.5.9 LTS"
+      },
+      "render": {
+        "color_depth": "8",
+        "color_mode": "RGB",
+        "engine": "BLENDER_EEVEE_NEXT",
+        "height": 3840,
+        "image_format": "PNG",
+        "resolution_percentage": 100,
+        "samples": 32,
+        "threads": 4,
+        "width": 2160
+      },
+      "scene": {
+        "film_fps": 60,
+        "film_frame_end_exclusive": 3600,
+        "film_frame_start": 550,
+        "fps": 30,
+        "fps_base": 1.0,
+        "frame_end": 1525,
+        "frame_start": 1,
+        "source_fps": 30
+      },
+      "schema_version": 1
+    },
+    "rangeInclusive": [
+      1132,
+      1362
+    ],
+    "expectedFrames": 231,
+    "movie": {
+      "bytes": 15135112,
+      "codec": "h264",
+      "color_primaries": "bt709",
+      "color_space": "bt709",
+      "color_transfer": "bt709",
+      "fps": 30,
+      "frame_count": 231,
+      "height": 3840,
+      "path": "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep11-kintsugi-ink-v03/project/public/video/hero-v03.mp4",
+      "pix_fmt": "yuv420p",
+      "sha256": "825334e0033fcf113909ee34759b5e518a695dca59477b9b351b2ba32f378cab",
+      "width": 2160
+    },
+    "perFrameLedger": "hero-footage.json"
+  },
+  "finalComposition": {
+    "status": "MEDIA_QA_PASSED",
+    "width": 2160,
+    "height": 3840,
+    "fps": 60,
+    "frames": 5400,
+    "renderInputManifestSha256": "1082bb5b61514af605007f9e280628eb3a5149081134dc65848c402105a35bdb",
+    "renderScriptSha256": "53562e6b421eb48f7a844dcd006618e9f6e85f6cff450f97fcee8ee0548a8d4a",
+    "packageLockSha256": "bc36d39b9a4fb62b845e053521ce0b591707d3a992e77f0cae18b2a3adadf763",
+    "command": "agent-dev run -- caffeinate -i node project/scripts/render.mjs video",
+    "intermediates": "validated AgentDev TMPDIR",
+    "concurrency": 1,
+    "scale": 1,
+    "crf": 16,
+    "x264Preset": "slow",
+    "audioBitrate": "320k",
+    "sampleRate": 48000,
+    "colorSpace": "bt709",
+    "renderLogCreatedAtUtc": "2026-10-21T18:00:27.566879+00:00",
+    "sha256": "8bc877ae8c69b76953e5eca1af056a4c851a1a7960473c73f5dd6e0771ba08e1",
+    "bytes": 100931077,
+    "relativePath": "小红书/si-ep11-kintsugi-ink-v03-xiaohongshu-90s-portrait.mp4",
+    "actualVideoFrames": 5400,
+    "videoDurationSeconds": 90.0,
+    "audioContainerDurationSeconds": 90.005,
+    "currentInputManifestUnchanged": true,
+    "validationReport": "media-validation-20261021T183447.481963Z.json",
+    "validatedDeliveryManifestSha256": "e760bed1f59fa6ca3369ee041d880a27b5db05367405c7b7ea7d84862ccdf689"
+  },
+  "cloudGenerationThisVersion": false,
+  "humanListening": "NOT_RUN",
+  "targetDevice": "NOT_RUN",
+  "runtime": {
+    "node": "24.21.0",
+    "chrome": "155.0.8059.85",
+    "ffmpeg": "8.0.1",
+    "qaPython": "3.12.14",
+    "remotion": "4.0.534"
+  },
+  "nativePreview": {
+    "path": "review/motion-2760-3359.mp4",
+    "sha256": "ad76ca9a813222ab07e44ada75ecca89e67a8de87a5939f898c1cb9d33c13eee",
+    "filmFramesInclusive": [
+      2760,
+      3359
+    ],
+    "frames": 600,
+    "modelReview": "passed; see native-preview-qa/report.json",
+    "humanListening": "NOT_RUN"
+  }
+}

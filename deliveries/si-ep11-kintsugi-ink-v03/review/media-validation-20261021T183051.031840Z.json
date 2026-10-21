@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-10-21T18:30:51.031659Z",
+  "status": "PASS",
+  "target_duration_seconds": 90,
+  "manifest_sha256": "e28a2730ab7d145681c9b5fbd842c9c55680f88bfa5962d0bc9b0efe65f10fc7",
+  "checks": {
+    "manifest": "PASS",
+    "schema_version": "PASS",
+    "title": "PASS",
+    "duration_seconds": "PASS",
+    "slug": "PASS",
+    "fps": "PASS",
+    "duration_frame_alignment": "PASS",
+    "duration_sample_alignment": "PASS",
+    "total_frames": "PASS",
+    "audio_mode": "PASS",
+    "audio_master": "PASS",
+    "script_path": "PASS",
+    "script_hash": "PASS",
+    "script_sha256": "21835d5c2d7e070e1d34af1a7e22dd055159d5cd554539889c9d46886de91dc5",
+    "platforms": "PASS",
+    "output_platforms": "PASS",
+    "xiaohongshu_manifest_dimensions": "PASS",
+    "visual_qc": "PASS"
+  },
+  "outputs": {
+    "xiaohongshu": {
+      "status": "PASS",
+      "path": "小红书/si-ep11-kintsugi-ink-v03-xiaohongshu-90s-portrait.mp4",
+      "sha256": "8bc877ae8c69b76953e5eca1af056a4c851a1a7960473c73f5dd6e0771ba08e1",
+      "measurements": {
+        "file_size_bytes": 100931077,
+        "video": {
+          "codec": "h264",
+          "pixel_format": "yuv420p",
+          "width": 2160,
+          "height": 3840,
+          "nominal_fps": "60/1",
+          "average_fps": "60/1",
+          "counted_frames": "5400",
+          "duration_seconds": 90.0
+        },
+        "audio_stream_count": 1,
+        "audio": {
+          "codec": "aac",
+          "sample_rate": 48000,
+          "channels": 2,
+          "duration_seconds": 90.005
+        },
+        "container": {
+          "duration_seconds": 90.005,
+          "padding_vs_video_seconds": 0.0049999999999954525
+        },
+        "mp4_atoms": {
+          "atom_types": [
+            "ftyp",
+            "moov",
+            "free",
+            "mdat"
+          ],
+          "moov_offset": 32,
+          "mdat_offset": 145374,
+          "moov_before_mdat": true
+        }
+      },
+      "checks": {
+        "manifest_dimensions": "PASS",
+        "media_file": "PASS",
+        "ffprobe": "PASS",
+        "video_stream_count": "PASS",
+        "dimensions": "PASS",
+        "codec": "PASS",
+        "pixel_format": "PASS",
+        "nominal_fps": "PASS",
+        "average_fps": "PASS",
+        "counted_frames": "PASS",
+        "video_duration": "PASS",
+        "audio_stream_count": "PASS",
+        "audio_codec": "PASS",
+        "audio_sample_rate": "PASS",
+        "audio_channels": "PASS",
+        "audio_duration": "PASS",
+        "container_duration": "PASS",
+        "moov_before_mdat": "PASS",
+        "strict_decode": "PASS"
+      },
+      "failures": []
+    }
+  },
+  "visual_qc": {
+    "status": "PASS",
+    "outputs": {
+      "xiaohongshu": {
+        "status": "PASS",
+        "report": "review/visual-qc-xiaohongshu/report.json",
+        "media_sha256": "8bc877ae8c69b76953e5eca1af056a4c851a1a7960473c73f5dd6e0771ba08e1",
+        "decoded_frames": 5400,
+        "flagged_frames": 0,
+        "failures": []
+      }
+    },
+    "failures": []
+  },
+  "failures": [],
+  "human_review": {
+    "representative_frames": "pending",
+    "continuous_human_review": "pending",
+    "target_device_playback": "pending"
+  },
+  "source_scan": {
+    "status": "PASS",
+    "files_scanned": 29,
+    "matches": [],
+    "read_errors": []
+  }
+}

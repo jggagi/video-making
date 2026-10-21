@@ -1,0 +1,6 @@
+{
+  "status": "SUPERSEDED_BEFORE_PUBLICATION",
+  "reason": "Delivery QA labels changed the delivery manifest SHA after the prior validation; regenerate current validation and package together. Movie bytes and active render inputs are unchanged.",
+  "zipSha256": "f4f6c7b607e8bfe26a15a5181fb9bc2090de10d8db0e9c73bae2900968867781",
+  "preservedTemporaryZip": "/private/tmp/ep11-v03-package-attempt01.zip"
+}

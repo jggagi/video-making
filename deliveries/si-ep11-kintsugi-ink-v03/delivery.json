@@ -28,11 +28,11 @@
     }
   },
   "qa": {
-    "automated": "pending",
-    "representative_frames": "pending",
-    "continuous_human_review": "pending",
-    "target_device_playback": "pending",
-    "human_listening": "pending"
+    "automated": "passed",
+    "representative_frames": "model-reviewed",
+    "continuous_human_review": "not_run",
+    "target_device_playback": "not_run",
+    "human_listening": "not_run"
   },
   "visual_qc": {
     "required": true,

@@ -1,0 +1,21 @@
+{
+  "source_repository": "https://github.com/immersive-web/webxr-input-profiles",
+  "asset_documentation": "https://github.com/immersive-web/webxr-input-profiles/blob/main/packages/assets/README.md",
+  "license_source": "https://raw.githubusercontent.com/immersive-web/webxr-input-profiles/main/packages/assets/LICENSE.md",
+  "license": "MIT (WebXR Input Profiles assets package)",
+  "usage": "Licensed anatomical base mesh, local artistic porcelain material and authored pose. No XR tracking or user biometric data.",
+  "files": [
+    {
+      "path": "left.glb",
+      "bytes": 94572,
+      "sha256": "bc67783144944ea1cda54d9247885825ea5fb9d4651469fe7d00be517a5c2b87",
+      "source": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/left.glb"
+    },
+    {
+      "path": "right.glb",
+      "bytes": 94004,
+      "sha256": "291790c14f7f88a7f9bd35330c47392ed8e8d395ae6728f4bb7089f1bc1f2b96",
+      "source": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/right.glb"
+    }
+  ]
+}

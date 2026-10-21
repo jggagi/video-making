@@ -1,0 +1,40 @@
+{
+  "source_fps": 30,
+  "film_fps": 60,
+  "mapping": "filmFrame=550+2*(blenderFrame-1)",
+  "events": [
+    {
+      "id": "first_shard_stop",
+      "blender_frame": 1136,
+      "film_frame": 2820,
+      "film_seconds": 47.0,
+      "pcm_sample": 2256000,
+      "matching_original_sfx_frame": 2820
+    },
+    {
+      "id": "repair_wave",
+      "blender_frame": 1196,
+      "film_frame": 2940,
+      "film_seconds": 49.0,
+      "pcm_sample": 2352000,
+      "matching_original_sfx_frame": 2940
+    },
+    {
+      "id": "keystone_home",
+      "blender_frame": 1291,
+      "film_frame": 3130,
+      "film_seconds": 52.166666666666664,
+      "pcm_sample": 2504000,
+      "matching_original_sfx_frame": null
+    },
+    {
+      "id": "pullback_to_repaired_surface",
+      "blender_frame": 1363,
+      "film_frame": 3274,
+      "film_seconds": 54.56666666666667,
+      "pcm_sample": 2619200,
+      "matching_original_sfx_frame": null
+    }
+  ],
+  "master": "unchanged v02; first stop and return start are exact-frame aligned"
+}

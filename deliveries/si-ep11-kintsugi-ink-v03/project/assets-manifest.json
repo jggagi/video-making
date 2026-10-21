@@ -1,0 +1,1736 @@
+{
+  "schemaVersion": 1,
+  "work": "si-ep11-kintsugi-ink-v03",
+  "hashAlgorithm": "SHA-256",
+  "pathBase": "project directory; relative paths are used for every packaged asset",
+  "delivery": {
+    "platforms": [
+      "xiaohongshu"
+    ],
+    "width": 2160,
+    "height": 3840,
+    "fps": 60,
+    "durationSeconds": 90,
+    "totalFrames": 5400
+  },
+  "visualProvenance": {
+    "method": "The v03 visual plan combines the Blender-rendered canyon movie (pending render) with authored deterministic Remotion/Three.js hand geometry, GLSL/custom material shaders and SVG atmosphere; the hand base meshes are locally staged MIT-licensed WebXR GLBs.",
+    "sourceAssetIds": [
+      "visual-canyon-scene",
+      "visual-canyon-v03-video",
+      "visual-hand-scene",
+      "visual-ink-river",
+      "visual-effects",
+      "visual-studio-environment",
+      "visual-film-composition",
+      "visual-remotion-root",
+      "visual-conformal-ink",
+      "visual-hand-subdivision"
+    ],
+    "geometryAndShaderNotes": [
+      "Superseded/inactive source history: CanyonScene builds seeded terrain, fractured porcelain plates, Y-fork ribbons, shards and event-driven particles as local BufferGeometry; indexed trigonometric seeds keep the scene deterministic.",
+      "HandScene loads the left/right rigged GLBs, poses the joints by frame, adds porcelain wear/crack/landmark shader patches, generated crack/hair geometry and gold repair details.",
+      "Effects and StudioEnvironment provide local SVG atmosphere/transition shapes and scene lighting; Film connects the scenes, captions and audio timeline.",
+      "TerrainInkMaterial evaluates continuous ink/gold directly on terrain PBR fragments, avoiding overlay intersections. InkRiver.tsx is an unused preserved prototype.",
+      "subdivideSkinnedGeometry performs one fixed Loop step on licensed rigged hands, maintaining UV seams and skin weights."
+    ],
+    "generatedImageOrVideoAssets": 0,
+    "handModelProvenanceAssetId": "hands-provenance",
+    "handModelLicense": "MIT (WebXR Input Profiles assets package)",
+    "separateRepositoryDocumentationLicenseAssetId": "hands-repository-doc-license"
+  },
+  "pendingAssets": [
+    {
+      "id": "visual-canyon-v03-video",
+      "path": "public/video/canyon-v03.mp4",
+      "kind": "blender-rendered-canyon-video",
+      "status": "PENDING_RENDER",
+      "expected": {
+        "width": 2160,
+        "height": 3840,
+        "fps": 30,
+        "frameCount": 1525,
+        "compositionStartFrame": 550,
+        "compositionEndFrameExclusive": 3600
+      }
+    }
+  ],
+  "fonts": {
+    "dependencies": [
+      {
+        "family": "PingFang SC",
+        "source": "macOS system font",
+        "copiedIntoProject": false
+      },
+      {
+        "family": "Songti SC",
+        "source": "macOS system font",
+        "copiedIntoProject": false
+      },
+      {
+        "family": "Menlo",
+        "source": "macOS system font",
+        "copiedIntoProject": false
+      }
+    ],
+    "fontBinaryPackaged": false,
+    "portability": "Reproduction of the authored typography requires a Mac with PingFang SC, Songti SC and Menlo available; no font binaries are bundled or redistributed."
+  },
+  "audioMaster": {
+    "assetId": "audio-master",
+    "sampleRateHz": 48000,
+    "channels": 2,
+    "sampleWidthBytes": 2,
+    "samplesPerChannel": 4320000,
+    "durationSeconds": 90.0,
+    "samplePeakPcm16": 27933,
+    "integratedLufs": -16.0,
+    "truePeakDbtp": -1.4,
+    "strictDecode": "passed",
+    "absoluteSilence": {
+      "startSample": 3888000,
+      "endSampleExclusive": 3912000,
+      "startFrame": 4860,
+      "endFrameExclusive": 4890,
+      "exactZero": true,
+      "peakPcm16": 0
+    },
+    "stemAssetIds": {
+      "narration": "audio-narration-stem",
+      "score": "audio-score-stem",
+      "sfx": "audio-sfx-stem"
+    },
+    "mixInputSetSha256": "8341182ab643b996295b9ca4bb881d1fcb437a25d94beac4f7b094a06252e150"
+  },
+  "audioProvenance": {
+    "providerSettings": {
+      "provider": "Aliyun Bailian",
+      "modelSelection": "active profile default",
+      "effectiveModel": "cosyvoice-v3-flash",
+      "voice": "longtian_v3",
+      "rate": 1.0,
+      "format": "wav",
+      "sampleRateHz": 24000
+    },
+    "asrUsed": false,
+    "authorizationAssetId": "audio-authorization-record",
+    "authorizationSha256AtInvocation": "50485c9e61470af02d0f8a6ea2d7712b723c6316912be8675cc7bf93f7e6bd7f",
+    "providerManifestAssetId": "audio-provider-manifest",
+    "mixManifestAssetId": "audio-mix-manifest",
+    "mixSettingsAssetId": "audio-mix-settings",
+    "qaReportAssetId": "audio-qa-report",
+    "timingAssetId": "audio-timing-data",
+    "eventScheduleAssetId": "audio-event-schedule",
+    "captionAssetId": "audio-caption-export",
+    "captionTiming": "Phrase timing is estimated within measured PCM spans; no ASR or forced word alignment was used.",
+    "activeCueIds": [
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "S05",
+      "S06",
+      "S07",
+      "S08"
+    ],
+    "activeCues": [
+      {
+        "segmentId": "S01",
+        "startFrame": 36,
+        "endFrame": 540,
+        "displayText": "他们说好，要一起白头。假如有一天，连衰老，也能被逆转呢？",
+        "ttsPhoneticText": "他们说好，要一起白头。假如有一天，连衰老，也能被逆转呢？",
+        "cacheKey": "d3b9c70e558d99db40a24eeba4c1745dab26639bfb8c577af9bb22ee3ebd76ca",
+        "settings": {
+          "provider": "Aliyun Bailian",
+          "modelSelection": "active profile default",
+          "effectiveModel": "cosyvoice-v3-flash",
+          "voice": "longtian_v3",
+          "rate": 1.0,
+          "format": "wav",
+          "sampleRateHz": 24000
+        },
+        "providerIdentity": {
+          "effectiveModel": [
+            "cosyvoice-v3-flash"
+          ],
+          "effectiveVoice": [
+            "longtian_v3"
+          ],
+          "status": "reported by CLI response"
+        },
+        "durationSeconds": 5.44,
+        "fitsDeclaredWindowBeforeOnsetAdjustment": true,
+        "declaredWindowSamplesAt24000Hz": 403200,
+        "assetIds": {
+          "providerRaw": "audio-s01-provider-raw",
+          "canonicalPcm": "audio-s01-canonical-pcm",
+          "mixReadyCue": "audio-s01-cue-wav",
+          "ttsInputText": "audio-s01-tts-input-text"
+        },
+        "reused": false
+      },
+      {
+        "segmentId": "S02",
+        "startFrame": 600,
+        "endFrame": 1260,
+        "displayText": "这是一场科幻想象。人体大约三十七万亿颗细胞，像一座座瓷的山谷，承受时间留下的改变。",
+        "ttsPhoneticText": "这是一场科幻想象。人体大约三十七万亿，颗细胞，像一座座瓷的山谷，承受时间留下的改变。",
+        "cacheKey": "eab1ea6cdd2e8cef7096eb94c6c7e8d64ac1415bb26953ad3018b4c052b43394",
+        "settings": {
+          "provider": "Aliyun Bailian",
+          "modelSelection": "active profile default",
+          "effectiveModel": "cosyvoice-v3-flash",
+          "voice": "longtian_v3",
+          "rate": 1.0,
+          "format": "wav",
+          "sampleRateHz": 24000
+        },
+        "providerIdentity": {
+          "effectiveModel": [
+            "cosyvoice-v3-flash"
+          ],
+          "effectiveVoice": [
+            "longtian_v3"
+          ],
+          "status": "reported by CLI response"
+        },
+        "durationSeconds": 9.36,
+        "fitsDeclaredWindowBeforeOnsetAdjustment": true,
+        "declaredWindowSamplesAt24000Hz": 528000,
+        "assetIds": {
+          "providerRaw": "audio-s02-provider-raw",
+          "canonicalPcm": "audio-s02-canonical-pcm",
+          "mixReadyCue": "audio-s02-cue-wav",
+          "ttsInputText": "audio-s02-tts-input-text"
+        },
+        "reused": false
+      },
+      {
+        "segmentId": "S03",
+        "startFrame": 1320,
+        "endFrame": 2040,
+        "displayText": "让生命回头，并不只是擦去皱纹。修复太少，衰老继续；改写太深，细胞又可能失去原本的身份。",
+        "ttsPhoneticText": "让生命回头，并不只是擦去皱纹。修复太少，衰老继续；改写太深，细胞又可能失去原本的身份。",
+        "cacheKey": "67a14fcfb7b83538b157a5ea3acf1b165e1bf8615aee50ec6c321553be5ccd6f",
+        "settings": {
+          "provider": "Aliyun Bailian",
+          "modelSelection": "active profile default",
+          "effectiveModel": "cosyvoice-v3-flash",
+          "voice": "longtian_v3",
+          "rate": 1.0,
+          "format": "wav",
+          "sampleRateHz": 24000
+        },
+        "providerIdentity": {
+          "effectiveModel": [
+            "cosyvoice-v3-flash"
+          ],
+          "effectiveVoice": [
+            "longtian_v3"
+          ],
+          "status": "reported by CLI response"
+        },
+        "durationSeconds": 10.72,
+        "fitsDeclaredWindowBeforeOnsetAdjustment": true,
+        "declaredWindowSamplesAt24000Hz": 576000,
+        "assetIds": {
+          "providerRaw": "audio-s03-provider-raw",
+          "canonicalPcm": "audio-s03-canonical-pcm",
+          "mixReadyCue": "audio-s03-cue-wav",
+          "ttsInputText": "audio-s03-tts-input-text"
+        },
+        "reused": false
+      },
+      {
+        "segmentId": "S04",
+        "startFrame": 2100,
+        "endFrame": 2760,
+        "displayText": "于是，在这个想象里，超级智能沿着无数岔路，寻找那条既能修复，又不让生命失控的窄路。",
+        "ttsPhoneticText": "于是，在这个想象里，超级智能沿着无数岔路，寻找那条既能修复，又不让生命失控的窄路。",
+        "cacheKey": "461da14f8ab5e33045b0dd28142882a13d843211633cb8fa9ede1f72470501e0",
+        "settings": {
+          "provider": "Aliyun Bailian",
+          "modelSelection": "active profile default",
+          "effectiveModel": "cosyvoice-v3-flash",
+          "voice": "longtian_v3",
+          "rate": 1.0,
+          "format": "wav",
+          "sampleRateHz": 24000
+        },
+        "providerIdentity": {
+          "effectiveModel": [
+            "cosyvoice-v3-flash"
+          ],
+          "effectiveVoice": [
+            "longtian_v3"
+          ],
+          "status": "reported by CLI response"
+        },
+        "durationSeconds": 8.08,
+        "fitsDeclaredWindowBeforeOnsetAdjustment": true,
+        "declaredWindowSamplesAt24000Hz": 528000,
+        "assetIds": {
+          "providerRaw": "audio-s04-provider-raw",
+          "canonicalPcm": "audio-s04-canonical-pcm",
+          "mixReadyCue": "audio-s04-cue-wav",
+          "ttsInputText": "audio-s04-tts-input-text"
+        },
+        "reused": false
+      },
+      {
+        "segmentId": "S05",
+        "startFrame": 2820,
+        "endFrame": 3480,
+        "displayText": "第一粒碎屑，停住了。下一刻，整场瓷雨逆流而上，金色的河，重新接起每一道裂口。",
+        "ttsPhoneticText": "第一粒碎屑，停住了。下一刻，整场瓷雨逆流而上，金色的河，重新接起每一道裂口。",
+        "cacheKey": "805f742ed17c644f24121a24e8e7b109ed1c2c756e56bfa3dda97f3768c88206",
+        "settings": {
+          "provider": "Aliyun Bailian",
+          "modelSelection": "active profile default",
+          "effectiveModel": "cosyvoice-v3-flash",
+          "voice": "longtian_v3",
+          "rate": 1.0,
+          "format": "wav",
+          "sampleRateHz": 24000
+        },
+        "providerIdentity": {
+          "effectiveModel": [
+            "cosyvoice-v3-flash"
+          ],
+          "effectiveVoice": [
+            "longtian_v3"
+          ],
+          "status": "reported by CLI response"
+        },
+        "durationSeconds": 9.44,
+        "fitsDeclaredWindowBeforeOnsetAdjustment": true,
+        "declaredWindowSamplesAt24000Hz": 528000,
+        "assetIds": {
+          "providerRaw": "audio-s05-provider-raw",
+          "canonicalPcm": "audio-s05-canonical-pcm",
+          "mixReadyCue": "audio-s05-cue-wav",
+          "ttsInputText": "audio-s05-tts-input-text"
+        },
+        "reused": false
+      },
+      {
+        "segmentId": "S06",
+        "startFrame": 3540,
+        "endFrame": 4140,
+        "displayText": "原来，那浩瀚的山谷，只是掌心的一道纹路。那双握了几十年的手，再一次，变得年轻。",
+        "ttsPhoneticText": "原来，那浩瀚的山谷，只是掌心的一道纹路。那双握了几十年的手，再一次，变得年轻。",
+        "cacheKey": "5314939bb981bffaedd3085eb47f22a3cb4e1c7d1341ee21ac1be6972ca42b34",
+        "settings": {
+          "provider": "Aliyun Bailian",
+          "modelSelection": "active profile default",
+          "effectiveModel": "cosyvoice-v3-flash",
+          "voice": "longtian_v3",
+          "rate": 1.0,
+          "format": "wav",
+          "sampleRateHz": 24000
+        },
+        "providerIdentity": {
+          "effectiveModel": [
+            "cosyvoice-v3-flash"
+          ],
+          "effectiveVoice": [
+            "longtian_v3"
+          ],
+          "status": "reported by CLI response"
+        },
+        "durationSeconds": 9.52,
+        "fitsDeclaredWindowBeforeOnsetAdjustment": true,
+        "declaredWindowSamplesAt24000Hz": 480000,
+        "assetIds": {
+          "providerRaw": "audio-s06-provider-raw",
+          "canonicalPcm": "audio-s06-canonical-pcm",
+          "mixReadyCue": "audio-s06-cue-wav",
+          "ttsInputText": "audio-s06-tts-input-text"
+        },
+        "reused": false
+      },
+      {
+        "segmentId": "S07",
+        "startFrame": 4200,
+        "endFrame": 4800,
+        "displayText": "春去秋来。他们依然相爱，却再也等不到，彼此白头的那一天。",
+        "ttsPhoneticText": "春去秋来。他们依然相爱，却再也等不到，彼此白头的那一天。",
+        "cacheKey": "4f9bcd4309443cc9e9f931493f9af954cc9fbf18e679ca6efa8362d2e48032a9",
+        "settings": {
+          "provider": "Aliyun Bailian",
+          "modelSelection": "active profile default",
+          "effectiveModel": "cosyvoice-v3-flash",
+          "voice": "longtian_v3",
+          "rate": 1.0,
+          "format": "wav",
+          "sampleRateHz": 24000
+        },
+        "providerIdentity": {
+          "effectiveModel": [
+            "cosyvoice-v3-flash"
+          ],
+          "effectiveVoice": [
+            "longtian_v3"
+          ],
+          "status": "reported by CLI response"
+        },
+        "durationSeconds": 5.68,
+        "fitsDeclaredWindowBeforeOnsetAdjustment": true,
+        "declaredWindowSamplesAt24000Hz": 480000,
+        "assetIds": {
+          "providerRaw": "audio-s07-provider-raw",
+          "canonicalPcm": "audio-s07-canonical-pcm",
+          "mixReadyCue": "audio-s07-cue-wav",
+          "ttsInputText": "audio-s07-tts-input-text"
+        },
+        "reused": false
+      },
+      {
+        "segmentId": "S08",
+        "startFrame": 4890,
+        "endFrame": 5400,
+        "displayText": "死亡不再是终点；只是那句人类说了几千年的白头偕老，从此成了再也无人能懂的远古词汇。",
+        "ttsPhoneticText": "死亡不再是终点；只是那句人类说了几千年的白头偕老，从此成了再也无人能懂的远古词汇。",
+        "cacheKey": "05de0e8dd904688b8de99f96a96a0db16d813fdc4a5b6c8df463392d5a4b261c",
+        "settings": {
+          "provider": "Aliyun Bailian",
+          "modelSelection": "active profile default",
+          "effectiveModel": "cosyvoice-v3-flash",
+          "voice": "longtian_v3",
+          "rate": 1.0,
+          "format": "wav",
+          "sampleRateHz": 24000
+        },
+        "providerIdentity": {
+          "effectiveModel": [
+            "cosyvoice-v3-flash"
+          ],
+          "effectiveVoice": [
+            "longtian_v3"
+          ],
+          "status": "reported by CLI response"
+        },
+        "durationSeconds": 8.16,
+        "fitsDeclaredWindowBeforeOnsetAdjustment": true,
+        "declaredWindowSamplesAt24000Hz": 408000,
+        "assetIds": {
+          "providerRaw": "audio-s08-provider-raw",
+          "canonicalPcm": "audio-s08-canonical-pcm",
+          "mixReadyCue": "audio-s08-cue-wav",
+          "ttsInputText": "audio-s08-tts-input-text"
+        },
+        "reused": true,
+        "reuseProvenance": {
+          "sourceEdition": "si-ep11-kintsugi-ink",
+          "sourceProjectRepositoryRelativePath": "deliveries/si-ep11-kintsugi-ink/project",
+          "sourceCacheKey": "05de0e8dd904688b8de99f96a96a0db16d813fdc4a5b6c8df463392d5a4b261c",
+          "sourceAssets": {
+            "raw": {
+              "bytes": 391724,
+              "sha256": "219117f16b0b1bfbfe0153165f91e2f1e7b00a0bbeb09d8496b9705fdf985288",
+              "byteIdenticalToActiveCopy": true
+            },
+            "canonical": {
+              "bytes": 391724,
+              "sha256": "0124b4f9fed39ee4cb3f471cf5d5f860f0d380b7d1e1e3552d54557b251e5bf2",
+              "byteIdenticalToActiveCopy": true
+            },
+            "cue": {
+              "bytes": 783438,
+              "sha256": "baf494555a9674228faaee273660fbe49d29a4c5170a99f132534b860f1782ba",
+              "byteIdenticalToActiveCopy": true
+            }
+          },
+          "verification": "raw, canonical, and mix-ready cue copies compared byte-for-byte and SHA-256 verified"
+        }
+      }
+    ],
+    "scoreDesign": {
+      "description": "Slow, sparse D-pentatonic procedural plucked-string tones over a warm low pad, with a soft breathing bowed-string swell in voiceless gaps; guqin-like in timbre, not an authentic recording. The score fades to zero before exact silence and does not resume.",
+      "scale": "D pentatonic (D, E, F-sharp, A, B across octaves)",
+      "maximumDesignedToneHz": 1987.0,
+      "voiceDuckDB": -8.0,
+      "scoreStemGainDB": 5.0,
+      "gapStringPadGain": 0.005,
+      "gapSwell": "smooth rise and fall in measured voiceless gaps, with speech pre-attack and release preserved",
+      "voicePreattackMilliseconds": 60,
+      "voiceReleaseMilliseconds": 350,
+      "afterSilence": "digital silence; the final gold-drop event begins at frame 4890 in the separate SFX stem",
+      "stereo": "subtle deterministic low-frequency pan"
+    },
+    "sfxDesign": {
+      "description": "Deterministic intimate porcelain crack, descending macro-grains, restrained danger branches, warm gold discovery, stopped shard, reversing repair wave, layered crescendo, hand reveal, tenderness, passing-season air and bells, then one warm gold drop.",
+      "events": [
+        {
+          "id": "porcelain_crack",
+          "frame": 420,
+          "sampleIndex": 336000,
+          "durationSeconds": 1.8,
+          "kind": "porcelain_crack",
+          "description": "贴近瓷面的细裂声，轻而脆；保留语音清晰度。"
+        },
+        {
+          "id": "macro_descent",
+          "frame": 600,
+          "sampleIndex": 480000,
+          "durationSeconds": 5.2,
+          "kind": "ink_descent",
+          "description": "墨与瓷屑向掌纹深处下坠，低声、微粒感。"
+        },
+        {
+          "id": "danger_branch_a",
+          "frame": 1420,
+          "sampleIndex": 1136000,
+          "durationSeconds": 2.4,
+          "kind": "danger_branch",
+          "description": "第一条失控岔路：倒放颗粒与短促低弦张力。"
+        },
+        {
+          "id": "danger_branch_b",
+          "frame": 1840,
+          "sampleIndex": 1472000,
+          "durationSeconds": 2.8,
+          "kind": "danger_branch",
+          "description": "第二条失控岔路：更窄的反向颗粒回声。"
+        },
+        {
+          "id": "gold_find",
+          "frame": 2460,
+          "sampleIndex": 1968000,
+          "durationSeconds": 3.6,
+          "kind": "gold_find",
+          "description": "金色窄路出现，暖而克制的微亮泛音。"
+        },
+        {
+          "id": "first_shard_stop",
+          "frame": 2820,
+          "sampleIndex": 2256000,
+          "durationSeconds": 1.1,
+          "kind": "shard_stop",
+          "description": "第一粒瓷屑突然停住，留一瞬呼吸。"
+        },
+        {
+          "id": "repair_wave",
+          "frame": 2940,
+          "sampleIndex": 2352000,
+          "durationSeconds": 5.2,
+          "kind": "repair_wave",
+          "description": "修复边界扫过，瓷雨由坠落转为上升。"
+        },
+        {
+          "id": "crescendo",
+          "frame": 3150,
+          "sampleIndex": 2520000,
+          "durationSeconds": 5.2,
+          "kind": "crescendo",
+          "description": "瓷片与金屑逐步聚合，细密但不轰鸣。"
+        },
+        {
+          "id": "hand_reveal",
+          "frame": 3540,
+          "sampleIndex": 2832000,
+          "durationSeconds": 4.4,
+          "kind": "hand_reveal",
+          "description": "沿掌纹退出山谷，暖弦由远及近。"
+        },
+        {
+          "id": "tenderness",
+          "frame": 4140,
+          "sampleIndex": 3312000,
+          "durationSeconds": 3.2,
+          "kind": "tenderness",
+          "description": "回到相握的手，温柔单音与柔和共鸣。"
+        },
+        {
+          "id": "season_spring",
+          "frame": 4320,
+          "sampleIndex": 3456000,
+          "durationSeconds": 1.9,
+          "kind": "season_wind",
+          "description": "季节掠过：轻柔风纹和一颗暖铃。"
+        },
+        {
+          "id": "season_summer",
+          "frame": 4510,
+          "sampleIndex": 3608000,
+          "durationSeconds": 1.6,
+          "kind": "season_bell",
+          "description": "季节掠过：短而稀疏的泛音。"
+        },
+        {
+          "id": "season_autumn",
+          "frame": 4720,
+          "sampleIndex": 3776000,
+          "durationSeconds": 2.0,
+          "kind": "season_wind",
+          "description": "最后一季远去，薄风逐渐淡出。"
+        },
+        {
+          "id": "gold_drop",
+          "frame": 4890,
+          "sampleIndex": 3912000,
+          "durationSeconds": 2.5,
+          "kind": "gold_drop",
+          "description": "绝对静默之后，一滴金液落下；不抢先于旁白。"
+        }
+      ],
+      "absoluteSilenceFrames": [
+        4860,
+        4890
+      ],
+      "postSilenceEvents": [
+        "gold_drop"
+      ]
+    },
+    "sourceAssetIds": [
+      "audio-authorization-record",
+      "audio-event-schedule",
+      "audio-timing-data",
+      "audio-provider-manifest",
+      "audio-mix-manifest",
+      "audio-mix-settings",
+      "audio-qa-report",
+      "audio-caption-export",
+      "audio-segment-source",
+      "audio-builder-source",
+      "tts-builder-source"
+    ]
+  },
+  "assets": [
+    {
+      "id": "visual-canyon-scene",
+      "path": "src/CanyonScene.tsx",
+      "kind": "superseded-inactive-procedural-frame-driven-canyon-geometry",
+      "bytes": 35506,
+      "sha256": "68c133774b576dd5465352b05a1920c10d1c6022c5f1e54d34f9f08029ed8efe",
+      "status": "SUPERSEDED_INACTIVE",
+      "provenance": {
+        "source": "authored local project source; preserved for history and not mounted by the v03 composition"
+      }
+    },
+    {
+      "id": "visual-hand-scene",
+      "path": "src/HandScene.tsx",
+      "kind": "licensed-glb-hand-pose-and-custom-shader",
+      "bytes": 22951,
+      "sha256": "a3e6af1ddc2b02819cc64e565483da5e9c5162ba218becf1f86a5c582c3a56a5",
+      "provenance": {
+        "source": "authored local project source"
+      }
+    },
+    {
+      "id": "visual-ink-river",
+      "path": "src/InkRiver.tsx",
+      "kind": "procedural-shader-river",
+      "bytes": 3047,
+      "sha256": "40d5dd62f946dc61709168ad266091e9728476f056b5cb61d0f7a13d1205612c",
+      "provenance": {
+        "source": "authored local project source"
+      }
+    },
+    {
+      "id": "visual-effects",
+      "path": "src/Effects.tsx",
+      "kind": "procedural-svg-atmosphere-and-transitions",
+      "bytes": 3068,
+      "sha256": "49901c6c802d81ffd0306247a898062781fa9110b0f7772ac2ce418f3b213344",
+      "provenance": {
+        "source": "authored local project source"
+      }
+    },
+    {
+      "id": "visual-studio-environment",
+      "path": "src/StudioEnvironment.tsx",
+      "kind": "procedural-scene-lighting",
+      "bytes": 958,
+      "sha256": "e755f9377e765beddefb868b2d50b1c4a02c558576e0cb49cb40dbf6673b8314",
+      "provenance": {
+        "source": "authored local project source"
+      }
+    },
+    {
+      "id": "visual-film-composition",
+      "path": "src/Film.tsx",
+      "kind": "remotion-film-composition-and-local-font-references",
+      "bytes": 4992,
+      "sha256": "30631e7a3660ea869135671d7c2b690fcd47161d9f2dfed3f7c22a7ce5c1088d",
+      "provenance": {
+        "source": "authored local project source"
+      }
+    },
+    {
+      "id": "visual-remotion-root",
+      "path": "src/Root.tsx",
+      "kind": "xiaohongshu-portrait-composition-specification",
+      "bytes": 277,
+      "sha256": "dce16cc87b06fb8da2b52d5203bf61b993eeca21e872efeda67c09c4b5b5a775",
+      "provenance": {
+        "source": "authored local project source"
+      }
+    },
+    {
+      "id": "hand-model-left",
+      "path": "public/assets/hands/left.glb",
+      "kind": "webxr-generic-hand-glb",
+      "bytes": 94572,
+      "sha256": "bc67783144944ea1cda54d9247885825ea5fb9d4651469fe7d00be517a5c2b87",
+      "provenance": {
+        "sourceUrl": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/left.glb",
+        "sourceRepository": "https://github.com/immersive-web/webxr-input-profiles",
+        "license": "MIT (WebXR Input Profiles assets package)",
+        "licenseAssetId": "hands-mit-license",
+        "usage": "Licensed anatomical base mesh, local artistic porcelain material and authored pose. No XR tracking or user biometric data."
+      }
+    },
+    {
+      "id": "hand-model-right",
+      "path": "public/assets/hands/right.glb",
+      "kind": "webxr-generic-hand-glb",
+      "bytes": 94004,
+      "sha256": "291790c14f7f88a7f9bd35330c47392ed8e8d395ae6728f4bb7089f1bc1f2b96",
+      "provenance": {
+        "sourceUrl": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/right.glb",
+        "sourceRepository": "https://github.com/immersive-web/webxr-input-profiles",
+        "license": "MIT (WebXR Input Profiles assets package)",
+        "licenseAssetId": "hands-mit-license",
+        "usage": "Licensed anatomical base mesh, local artistic porcelain material and authored pose. No XR tracking or user biometric data."
+      }
+    },
+    {
+      "id": "hands-provenance",
+      "path": "public/assets/hands/provenance.json",
+      "kind": "hand-model-provenance-record",
+      "bytes": 1061,
+      "sha256": "8118e6b605b125da4f656c23e9c052bf54566e19aed1b164423b3488b7d0bf31",
+      "provenance": {
+        "source": "local provenance record for the upstream WebXR Input Profiles assets package",
+        "licenseSource": "https://raw.githubusercontent.com/immersive-web/webxr-input-profiles/main/packages/assets/LICENSE.md",
+        "assetDocumentation": "https://github.com/immersive-web/webxr-input-profiles/blob/main/packages/assets/README.md"
+      }
+    },
+    {
+      "id": "hands-mit-license",
+      "path": "public/assets/hands/LICENSE.md",
+      "kind": "mit-license-for-hand-assets",
+      "bytes": 1094,
+      "sha256": "0ef0c87e8ffdd0681f332dc3b39f284dee2166d1f853fabc3853884fe81a6f30",
+      "provenance": {
+        "scope": "MIT license for the downloaded hand-model assets package",
+        "copyright": "Copyright (c) 2019 Amazon",
+        "upstreamLicenseSource": "https://raw.githubusercontent.com/immersive-web/webxr-input-profiles/main/packages/assets/LICENSE.md"
+      }
+    },
+    {
+      "id": "hands-repository-doc-license",
+      "path": "public/assets/hands/REPOSITORY-LICENSE.md",
+      "kind": "repository-document-license-note",
+      "bytes": 216,
+      "sha256": "cc07f925e00fbccf304facfeb8bf94943539e252fc14b0588488f293d877c849",
+      "provenance": {
+        "scope": "Repository documentation license notice; distinct from the MIT license applying to the GLB assets",
+        "license": "W3C Software and Document License"
+      }
+    },
+    {
+      "id": "audio-master",
+      "path": "public/audio/master.wav",
+      "kind": "stereo-pcm16-master-wav",
+      "bytes": 17280044,
+      "sha256": "66d32a2a2d12d33f03077f72847cd68b3aea567d4bf875e24338061c8345600e",
+      "provenance": {
+        "source": "current locally built 90-second PCM audio mix",
+        "mixManifestAssetId": "audio-mix-manifest",
+        "pcmSha256": "6c9740f3ed9bccd307e9172584b2f52c358f60f4923ad4b409418742a0f926f3",
+        "sampleRateHz": 48000,
+        "channels": 2,
+        "sampleWidthBytes": 2,
+        "samplesPerChannel": 4320000,
+        "durationSeconds": 90.0,
+        "samplePeakPcm16": 27933,
+        "loudness": {
+          "integratedLUFS": -16.0,
+          "truePeakDBTP": -1.4
+        },
+        "absoluteSilence": {
+          "startSample": 3888000,
+          "endSampleExclusive": 3912000,
+          "peakPcm16": 0,
+          "exactZero": true
+        }
+      }
+    },
+    {
+      "id": "audio-narration-stem",
+      "path": "public/audio/narration.wav",
+      "kind": "stereo-pcm16-narration-stem-wav",
+      "bytes": 17280044,
+      "sha256": "81287fcf6c618cc90021adb439b866b0dd974be00d470369db16a2d35d267c5d",
+      "provenance": {
+        "source": "current locally built 90-second PCM audio mix",
+        "mixManifestAssetId": "audio-mix-manifest",
+        "pcmSha256": "0f2a2edf63282c93aa8a7f1f6cb5ce19b2b3a8c2211b397d061809e51a92bc88",
+        "sampleRateHz": 48000,
+        "channels": 2,
+        "sampleWidthBytes": 2,
+        "samplesPerChannel": 4320000,
+        "durationSeconds": 90.0,
+        "samplePeakPcm16": 21184
+      }
+    },
+    {
+      "id": "audio-score-stem",
+      "path": "public/audio/score.wav",
+      "kind": "stereo-pcm16-procedural-score-stem-wav",
+      "bytes": 17280044,
+      "sha256": "78a5990ed91d0e518e46ac9e38114e4716adc16e85109d0d0d2e095167670409",
+      "provenance": {
+        "source": "current locally built 90-second PCM audio mix",
+        "mixManifestAssetId": "audio-mix-manifest",
+        "pcmSha256": "b2af5b6a956bf689f915b5a868c60398f1b1be2348a4c76fc1efc2c56d6fa039",
+        "sampleRateHz": 48000,
+        "channels": 2,
+        "sampleWidthBytes": 2,
+        "samplesPerChannel": 4320000,
+        "durationSeconds": 90.0,
+        "samplePeakPcm16": 1729,
+        "design": {
+          "description": "Slow, sparse D-pentatonic procedural plucked-string tones over a warm low pad, with a soft breathing bowed-string swell in voiceless gaps; guqin-like in timbre, not an authentic recording. The score fades to zero before exact silence and does not resume.",
+          "scale": "D pentatonic (D, E, F-sharp, A, B across octaves)",
+          "maximumDesignedToneHz": 1987.0,
+          "voiceDuckDB": -8.0,
+          "scoreStemGainDB": 5.0,
+          "gapStringPadGain": 0.005,
+          "gapSwell": "smooth rise and fall in measured voiceless gaps, with speech pre-attack and release preserved",
+          "voicePreattackMilliseconds": 60,
+          "voiceReleaseMilliseconds": 350,
+          "afterSilence": "digital silence; the final gold-drop event begins at frame 4890 in the separate SFX stem",
+          "stereo": "subtle deterministic low-frequency pan"
+        }
+      }
+    },
+    {
+      "id": "audio-sfx-stem",
+      "path": "public/audio/sfx.wav",
+      "kind": "stereo-pcm16-procedural-sfx-stem-wav",
+      "bytes": 17280044,
+      "sha256": "b2f0b6e2683cf5b7c2053574f2cf466c5d37dff99732afcc4ec33e7d850d1901",
+      "provenance": {
+        "source": "current locally built 90-second PCM audio mix",
+        "mixManifestAssetId": "audio-mix-manifest",
+        "pcmSha256": "aa5d539bafb1203fef69e24910f79972e4f0fee22463da3931f9753625a8618a",
+        "sampleRateHz": 48000,
+        "channels": 2,
+        "sampleWidthBytes": 2,
+        "samplesPerChannel": 4320000,
+        "durationSeconds": 90.0,
+        "samplePeakPcm16": 4978,
+        "design": {
+          "description": "Deterministic intimate porcelain crack, descending macro-grains, restrained danger branches, warm gold discovery, stopped shard, reversing repair wave, layered crescendo, hand reveal, tenderness, passing-season air and bells, then one warm gold drop.",
+          "events": [
+            {
+              "id": "porcelain_crack",
+              "frame": 420,
+              "sampleIndex": 336000,
+              "durationSeconds": 1.8,
+              "sampleCount": 86400,
+              "kind": "porcelain_crack",
+              "description": "贴近瓷面的细裂声，轻而脆；保留语音清晰度。"
+            },
+            {
+              "id": "macro_descent",
+              "frame": 600,
+              "sampleIndex": 480000,
+              "durationSeconds": 5.2,
+              "sampleCount": 249600,
+              "kind": "ink_descent",
+              "description": "墨与瓷屑向掌纹深处下坠，低声、微粒感。"
+            },
+            {
+              "id": "danger_branch_a",
+              "frame": 1420,
+              "sampleIndex": 1136000,
+              "durationSeconds": 2.4,
+              "sampleCount": 115200,
+              "kind": "danger_branch",
+              "description": "第一条失控岔路：倒放颗粒与短促低弦张力。"
+            },
+            {
+              "id": "danger_branch_b",
+              "frame": 1840,
+              "sampleIndex": 1472000,
+              "durationSeconds": 2.8,
+              "sampleCount": 134400,
+              "kind": "danger_branch",
+              "description": "第二条失控岔路：更窄的反向颗粒回声。"
+            },
+            {
+              "id": "gold_find",
+              "frame": 2460,
+              "sampleIndex": 1968000,
+              "durationSeconds": 3.6,
+              "sampleCount": 172800,
+              "kind": "gold_find",
+              "description": "金色窄路出现，暖而克制的微亮泛音。"
+            },
+            {
+              "id": "first_shard_stop",
+              "frame": 2820,
+              "sampleIndex": 2256000,
+              "durationSeconds": 1.1,
+              "sampleCount": 52800,
+              "kind": "shard_stop",
+              "description": "第一粒瓷屑突然停住，留一瞬呼吸。"
+            },
+            {
+              "id": "repair_wave",
+              "frame": 2940,
+              "sampleIndex": 2352000,
+              "durationSeconds": 5.2,
+              "sampleCount": 249600,
+              "kind": "repair_wave",
+              "description": "修复边界扫过，瓷雨由坠落转为上升。"
+            },
+            {
+              "id": "crescendo",
+              "frame": 3150,
+              "sampleIndex": 2520000,
+              "durationSeconds": 5.2,
+              "sampleCount": 249600,
+              "kind": "crescendo",
+              "description": "瓷片与金屑逐步聚合，细密但不轰鸣。"
+            },
+            {
+              "id": "hand_reveal",
+              "frame": 3540,
+              "sampleIndex": 2832000,
+              "durationSeconds": 4.4,
+              "sampleCount": 211200,
+              "kind": "hand_reveal",
+              "description": "沿掌纹退出山谷，暖弦由远及近。"
+            },
+            {
+              "id": "tenderness",
+              "frame": 4140,
+              "sampleIndex": 3312000,
+              "durationSeconds": 3.2,
+              "sampleCount": 153600,
+              "kind": "tenderness",
+              "description": "回到相握的手，温柔单音与柔和共鸣。"
+            },
+            {
+              "id": "season_spring",
+              "frame": 4320,
+              "sampleIndex": 3456000,
+              "durationSeconds": 1.9,
+              "sampleCount": 91200,
+              "kind": "season_wind",
+              "description": "季节掠过：轻柔风纹和一颗暖铃。"
+            },
+            {
+              "id": "season_summer",
+              "frame": 4510,
+              "sampleIndex": 3608000,
+              "durationSeconds": 1.6,
+              "sampleCount": 76800,
+              "kind": "season_bell",
+              "description": "季节掠过：短而稀疏的泛音。"
+            },
+            {
+              "id": "season_autumn",
+              "frame": 4720,
+              "sampleIndex": 3776000,
+              "durationSeconds": 2.0,
+              "sampleCount": 96000,
+              "kind": "season_wind",
+              "description": "最后一季远去，薄风逐渐淡出。"
+            },
+            {
+              "id": "gold_drop",
+              "frame": 4890,
+              "sampleIndex": 3912000,
+              "durationSeconds": 2.5,
+              "sampleCount": 120000,
+              "kind": "gold_drop",
+              "description": "绝对静默之后，一滴金液落下；不抢先于旁白。"
+            }
+          ],
+          "silenceWindowFrames": [
+            4860,
+            4890
+          ],
+          "voiceDuckDB": -9.0,
+          "noiseSource": "fixed xorshift32 seed derived from event ID; no runtime random source",
+          "postSilence": [
+            "gold_drop"
+          ],
+          "porcelainCrackSpeechBand": "body resonances below 1 kHz with quiet glints above 5 kHz; avoids 1-4 kHz"
+        }
+      }
+    },
+    {
+      "id": "audio-authorization-record",
+      "path": "audio-authorization.json",
+      "kind": "tts-authorization-provenance",
+      "bytes": 581,
+      "sha256": "50485c9e61470af02d0f8a6ea2d7712b723c6316912be8675cc7bf93f7e6bd7f",
+      "provenance": {
+        "source": "human authorization record; file contains no provider credentials"
+      }
+    },
+    {
+      "id": "audio-event-schedule",
+      "path": "audio-events.json",
+      "kind": "authored-audio-event-schedule",
+      "bytes": 2905,
+      "sha256": "809f0505c8f53e630de509d709cde7469bb4a71ef7568aed1e0af69ce6b8fb82",
+      "provenance": {
+        "source": "locked project event frames and descriptions"
+      }
+    },
+    {
+      "id": "audio-timing-data",
+      "path": "audio-timing.json",
+      "kind": "measured-audio-and-estimated-phrase-timing",
+      "bytes": 29915,
+      "sha256": "c0bc2aa7031a9ace99edbf44d75f00af54a44e1d490f22d045a68f408e18493a",
+      "provenance": {
+        "source": "measured active PCM windows; caption phrase timing is estimated, not ASR or forced alignment"
+      }
+    },
+    {
+      "id": "audio-provider-manifest",
+      "path": "public/audio/provider-manifest.json",
+      "kind": "tts-provider-and-cache-manifest",
+      "bytes": 16413,
+      "sha256": "fa095d664785fef8ee734ce94b0ffd703080c3720668a688406829e0c52c78df",
+      "provenance": {
+        "source": "reported provider/model/voice identity and current cue cache provenance"
+      }
+    },
+    {
+      "id": "audio-mix-manifest",
+      "path": "public/audio/mix-manifest.json",
+      "kind": "audio-mix-build-and-output-hash-manifest",
+      "bytes": 21044,
+      "sha256": "3542be38bd153bd02e76803ad9fb7632c3ee765f6cdc114b8a2ea9f711627d0b",
+      "provenance": {
+        "source": "current source, cue, and output hashes with measured mix metadata"
+      }
+    },
+    {
+      "id": "audio-mix-settings",
+      "path": "public/audio/mix-settings.json",
+      "kind": "procedural-audio-mix-settings",
+      "bytes": 22992,
+      "sha256": "0adfa0ef8e06d165e40955eb509c9d626e41c92dae9e8a57a22aa850da6fb684",
+      "provenance": {
+        "source": "deterministic local score, SFX, silence and loudness settings"
+      }
+    },
+    {
+      "id": "audio-qa-report",
+      "path": "public/audio/audio-qa.json",
+      "kind": "audio-technical-qa-report",
+      "bytes": 18400,
+      "sha256": "b9bc45e5ef33c7933fc1a6518136668526675dd14c38d13761fed651bede7444",
+      "provenance": {
+        "source": "current PCM audio validation report"
+      }
+    },
+    {
+      "id": "audio-caption-export",
+      "path": "public/audio/captions.srt",
+      "kind": "estimated-phrase-caption-export",
+      "bytes": 1984,
+      "sha256": "f30afde8b8bef9df17f175fa553dda1a8f10c65c4c422366df6db0eca1135c87",
+      "provenance": {
+        "source": "exported from audio-timing.json; estimated phrase timing, not ASR"
+      }
+    },
+    {
+      "id": "audio-segment-source",
+      "path": "segments.json",
+      "kind": "locked-voiceover-segment-source",
+      "bytes": 4140,
+      "sha256": "928eb5bfacd377f1d898a3f3b054ae91cc2dc457ff11311df5d2ff669f06b1e9",
+      "provenance": {
+        "source": "prepared display and phonetic text with frame windows"
+      }
+    },
+    {
+      "id": "film-timeline-source",
+      "path": "timeline.json",
+      "kind": "locked-film-timeline-source",
+      "bytes": 6462,
+      "sha256": "4d8154ce9f6681a62c8af4654c42f56cf809c625e84dfdad6aa8b2402e57b8f7",
+      "provenance": {
+        "source": "90-second Xiaohongshu-only project timeline"
+      }
+    },
+    {
+      "id": "audio-builder-source",
+      "path": "scripts/build_audio.py",
+      "kind": "local-audio-builder-source",
+      "bytes": 69705,
+      "sha256": "58b4ff916564ca659db53eeba5259516a9eed4643149d93af780d8394e2ff904",
+      "provenance": {
+        "source": "deterministic local PCM score/SFX/mix builder"
+      }
+    },
+    {
+      "id": "tts-builder-source",
+      "path": "scripts/synthesize.py",
+      "kind": "local-tts-cache-and-pcm-source",
+      "bytes": 20072,
+      "sha256": "7302e5658e9fe0abda42916802ec1b9504ca962c19b53442adb0f2e42e746d59",
+      "provenance": {
+        "source": "local Bailian CLI synthesis/cache and validated PCM handling source"
+      }
+    },
+    {
+      "id": "audio-s01-provider-raw",
+      "path": "public/audio/raw/S01-d3b9c70e558d.wav",
+      "kind": "bailian-provider-raw-narration-wav",
+      "bytes": 261164,
+      "sha256": "131198f453e2bff3fd2fe5f0d8f1d1a7bf9b363e3d643ec03592c3bb307b944e",
+      "provenance": {
+        "segmentId": "S01",
+        "cacheKey": "d3b9c70e558d99db40a24eeba4c1745dab26639bfb8c577af9bb22ee3ebd76ca",
+        "providerSettings": {
+          "provider": "Aliyun Bailian",
+          "modelSelection": "active profile default",
+          "effectiveModel": "cosyvoice-v3-flash",
+          "voice": "longtian_v3",
+          "rate": 1.0,
+          "format": "wav",
+          "sampleRateHz": 24000
+        },
+        "rawHeaderMatchesPayload": false,
+        "verifiedPcmOverflowRepair": true
+      }
+    },
+    {
+      "id": "audio-s01-canonical-pcm",
+      "path": "public/audio/canonical/S01-d3b9c70e558d.wav",
+      "kind": "validated-canonical-narration-pcm-wav",
+      "bytes": 261164,
+      "sha256": "d1d1a34c3d2494eba22cdb322db40af4a9e30e74881b790006fdc45cf45e6067",
+      "provenance": {
+        "segmentId": "S01",
+        "cacheKey": "d3b9c70e558d99db40a24eeba4c1745dab26639bfb8c577af9bb22ee3ebd76ca",
+        "derivedFromAssetId": "audio-s01-provider-raw",
+        "pcmSha256At24000Hz": "ef5f1111cceee46dbc6ba9b3ece333a57a0b253548f55f36b972c642c763a3f2",
+        "verifiedPcmOverflowRepair": true
+      }
+    },
+    {
+      "id": "audio-s01-cue-wav",
+      "path": "public/audio/cues/S01-d3b9c70e558d.wav",
+      "kind": "active-mix-ready-narration-cue-wav",
+      "bytes": 522318,
+      "sha256": "b7feadef15e497da6bde6ccd2be17503b849e2fb95a01da9fd86cff06fb7ac8d",
+      "provenance": {
+        "segmentId": "S01",
+        "cacheKey": "d3b9c70e558d99db40a24eeba4c1745dab26639bfb8c577af9bb22ee3ebd76ca",
+        "derivedFromAssetId": "audio-s01-canonical-pcm",
+        "providerSettings": {
+          "provider": "Aliyun Bailian",
+          "modelSelection": "active profile default",
+          "effectiveModel": "cosyvoice-v3-flash",
+          "voice": "longtian_v3",
+          "rate": 1.0,
+          "format": "wav",
+          "sampleRateHz": 24000
+        },
+        "durationSeconds": 5.44,
+        "samplesAt24000Hz": 130560,
+        "samplesAt48000Hz": 261120
+      }
+    },
+    {
+      "id": "audio-s01-tts-input-text",
+      "path": "public/audio/tts-input/S01-d3b9c70e558d.txt",
+      "kind": "exact-prepared-tts-input-text",
+      "bytes": 84,
+      "sha256": "dfa4a7811365da82698d6d3f2fa7b541d503a97cb5c7626419249bb83e449bb7",
+      "provenance": {
+        "segmentId": "S01",
+        "source": "exact tts_phonetic_text referenced by provider-manifest.json"
+      }
+    },
+    {
+      "id": "audio-s02-provider-raw",
+      "path": "public/audio/raw/S02-eab1ea6cdd2e.wav",
+      "kind": "bailian-provider-raw-narration-wav",
+      "bytes": 449324,
+      "sha256": "38e27fab2cc9db8d8629f8fc887a4afa8e34f57440dce3918b9601bc049b80e4",
+      "provenance": {
+        "segmentId": "S02",
+        "cacheKey": "eab1ea6cdd2e8cef7096eb94c6c7e8d64ac1415bb26953ad3018b4c052b43394",
+        "providerSettings": {
+          "provider": "Aliyun Bailian",
+          "modelSelection": "active profile default",
+          "effectiveModel": "cosyvoice-v3-flash",
+          "voice": "longtian_v3",
+          "rate": 1.0,
+          "format": "wav",
+          "sampleRateHz": 24000
+        },
+        "rawHeaderMatchesPayload": false,
+        "verifiedPcmOverflowRepair": true
+      }
+    },
+    {
+      "id": "audio-s02-canonical-pcm",
+      "path": "public/audio/canonical/S02-eab1ea6cdd2e.wav",
+      "kind": "validated-canonical-narration-pcm-wav",
+      "bytes": 449324,
+      "sha256": "541230ff08ae90a1f0102a397e9ec9b3ef563e359ac09ae9e45af69266c32896",
+      "provenance": {
+        "segmentId": "S02",
+        "cacheKey": "eab1ea6cdd2e8cef7096eb94c6c7e8d64ac1415bb26953ad3018b4c052b43394",
+        "derivedFromAssetId": "audio-s02-provider-raw",
+        "pcmSha256At24000Hz": "f776efda320af702782e0c7f283a9f88848222727662ff13257435e189c5b616",
+        "verifiedPcmOverflowRepair": true
+      }
+    },
+    {
+      "id": "audio-s02-cue-wav",
+      "path": "public/audio/cues/S02-eab1ea6cdd2e.wav",
+      "kind": "active-mix-ready-narration-cue-wav",
+      "bytes": 898638,
+      "sha256": "9d40d610414a2d00b02da32fc51e740c5d29f030fbbf86431606e0852f4e6d3d",
+      "provenance": {
+        "segmentId": "S02",
+        "cacheKey": "eab1ea6cdd2e8cef7096eb94c6c7e8d64ac1415bb26953ad3018b4c052b43394",
+        "derivedFromAssetId": "audio-s02-canonical-pcm",
+        "providerSettings": {
+          "provider": "Aliyun Bailian",
+          "modelSelection": "active profile default",
+          "effectiveModel": "cosyvoice-v3-flash",
+          "voice": "longtian_v3",
+          "rate": 1.0,
+          "format": "wav",
+          "sampleRateHz": 24000
+        },
+        "durationSeconds": 9.36,
+        "samplesAt24000Hz": 224640,
+        "samplesAt48000Hz": 449280
+      }
+    },
+    {
+      "id": "audio-s02-tts-input-text",
+      "path": "public/audio/tts-input/S02-eab1ea6cdd2e.txt",
+      "kind": "exact-prepared-tts-input-text",
+      "bytes": 126,
+      "sha256": "0956b8ff8ff98a2b3043f633f5448cc538c2cc32a24603c7e18ee907ac9886a9",
+      "provenance": {
+        "segmentId": "S02",
+        "source": "exact tts_phonetic_text referenced by provider-manifest.json"
+      }
+    },
+    {
+      "id": "audio-s03-provider-raw",
+      "path": "public/audio/raw/S03-67a14fcfb7b8.wav",
+      "kind": "bailian-provider-raw-narration-wav",
+      "bytes": 514604,
+      "sha256": "fbf1329fe4ba4524e49090a8feef9a8a2d1777ff403e3e58b1a5a0aca8509373",
+      "provenance": {
+        "segmentId": "S03",
+        "cacheKey": "67a14fcfb7b83538b157a5ea3acf1b165e1bf8615aee50ec6c321553be5ccd6f",
+        "providerSettings": {
+          "provider": "Aliyun Bailian",
+          "modelSelection": "active profile default",
+          "effectiveModel": "cosyvoice-v3-flash",
+          "voice": "longtian_v3",
+          "rate": 1.0,
+          "format": "wav",
+          "sampleRateHz": 24000
+        },
+        "rawHeaderMatchesPayload": false,
+        "verifiedPcmOverflowRepair": true
+      }
+    },
+    {
+      "id": "audio-s03-canonical-pcm",
+      "path": "public/audio/canonical/S03-67a14fcfb7b8.wav",
+      "kind": "validated-canonical-narration-pcm-wav",
+      "bytes": 514604,
+      "sha256": "9224a2b3e8aeabe3c25cb6733e09df47bbeddfc1031604a97aded9fc19bce960",
+      "provenance": {
+        "segmentId": "S03",
+        "cacheKey": "67a14fcfb7b83538b157a5ea3acf1b165e1bf8615aee50ec6c321553be5ccd6f",
+        "derivedFromAssetId": "audio-s03-provider-raw",
+        "pcmSha256At24000Hz": "605cd9fa50b637c8b16ac0b40e4794b679728e4ac9ab16bfedf33c209d4f107a",
+        "verifiedPcmOverflowRepair": true
+      }
+    },
+    {
+      "id": "audio-s03-cue-wav",
+      "path": "public/audio/cues/S03-67a14fcfb7b8.wav",
+      "kind": "active-mix-ready-narration-cue-wav",
+      "bytes": 1029198,
+      "sha256": "5a1b9df9930afc042f9af341124b4c174a814b65a2956637204ba1c1b77ea29a",
+      "provenance": {
+        "segmentId": "S03",
+        "cacheKey": "67a14fcfb7b83538b157a5ea3acf1b165e1bf8615aee50ec6c321553be5ccd6f",
+        "derivedFromAssetId": "audio-s03-canonical-pcm",
+        "providerSettings": {
+          "provider": "Aliyun Bailian",
+          "modelSelection": "active profile default",
+          "effectiveModel": "cosyvoice-v3-flash",
+          "voice": "longtian_v3",
+          "rate": 1.0,
+          "format": "wav",
+          "sampleRateHz": 24000
+        },
+        "durationSeconds": 10.72,
+        "samplesAt24000Hz": 257280,
+        "samplesAt48000Hz": 514560
+      }
+    },
+    {
+      "id": "audio-s03-tts-input-text",
+      "path": "public/audio/tts-input/S03-67a14fcfb7b8.txt",
+      "kind": "exact-prepared-tts-input-text",
+      "bytes": 129,
+      "sha256": "6669d4124225131300345e1849a8e3d8c77ade83b1dd821c5f69146833f3db94",
+      "provenance": {
+        "segmentId": "S03",
+        "source": "exact tts_phonetic_text referenced by provider-manifest.json"
+      }
+    },
+    {
+      "id": "audio-s04-provider-raw",
+      "path": "public/audio/raw/S04-461da14f8ab5.wav",
+      "kind": "bailian-provider-raw-narration-wav",
+      "bytes": 387884,
+      "sha256": "7d2094effd003da7539c2d8b1ec5d58f53f09d60f5c2deabd06b9b1516d4499e",
+      "provenance": {
+        "segmentId": "S04",
+        "cacheKey": "461da14f8ab5e33045b0dd28142882a13d843211633cb8fa9ede1f72470501e0",
+        "providerSettings": {
+          "provider": "Aliyun Bailian",
+          "modelSelection": "active profile default",
+          "effectiveModel": "cosyvoice-v3-flash",
+          "voice": "longtian_v3",
+          "rate": 1.0,
+          "format": "wav",
+          "sampleRateHz": 24000
+        },
+        "rawHeaderMatchesPayload": false,
+        "verifiedPcmOverflowRepair": true
+      }
+    },
+    {
+      "id": "audio-s04-canonical-pcm",
+      "path": "public/audio/canonical/S04-461da14f8ab5.wav",
+      "kind": "validated-canonical-narration-pcm-wav",
+      "bytes": 387884,
+      "sha256": "064eda13a6e5a58b16c5b161ba777cee4eab2f1b21c411acfa1b95251dde5773",
+      "provenance": {
+        "segmentId": "S04",
+        "cacheKey": "461da14f8ab5e33045b0dd28142882a13d843211633cb8fa9ede1f72470501e0",
+        "derivedFromAssetId": "audio-s04-provider-raw",
+        "pcmSha256At24000Hz": "30195d36c9325c820cd4b4f886b90bf0d3875955c17e55ace597d88d3a12f9cc",
+        "verifiedPcmOverflowRepair": true
+      }
+    },
+    {
+      "id": "audio-s04-cue-wav",
+      "path": "public/audio/cues/S04-461da14f8ab5.wav",
+      "kind": "active-mix-ready-narration-cue-wav",
+      "bytes": 775758,
+      "sha256": "5aadfdb71cfe4cfa3354139b74dc6a4d33b43b9f91d94ba53c46603eabedaa56",
+      "provenance": {
+        "segmentId": "S04",
+        "cacheKey": "461da14f8ab5e33045b0dd28142882a13d843211633cb8fa9ede1f72470501e0",
+        "derivedFromAssetId": "audio-s04-canonical-pcm",
+        "providerSettings": {
+          "provider": "Aliyun Bailian",
+          "modelSelection": "active profile default",
+          "effectiveModel": "cosyvoice-v3-flash",
+          "voice": "longtian_v3",
+          "rate": 1.0,
+          "format": "wav",
+          "sampleRateHz": 24000
+        },
+        "durationSeconds": 8.08,
+        "samplesAt24000Hz": 193920,
+        "samplesAt48000Hz": 387840
+      }
+    },
+    {
+      "id": "audio-s04-tts-input-text",
+      "path": "public/audio/tts-input/S04-461da14f8ab5.txt",
+      "kind": "exact-prepared-tts-input-text",
+      "bytes": 123,
+      "sha256": "ee46cb99ea28d7beb569dbbb544fe73718898926dd97d5c4fef40ba330467616",
+      "provenance": {
+        "segmentId": "S04",
+        "source": "exact tts_phonetic_text referenced by provider-manifest.json"
+      }
+    },
+    {
+      "id": "audio-s05-provider-raw",
+      "path": "public/audio/raw/S05-805f742ed17c.wav",
+      "kind": "bailian-provider-raw-narration-wav",
+      "bytes": 453164,
+      "sha256": "6520f60dcb4c436ed47e56c8e23e5dc8aaf4cd319bcb79d430ce32121d385293",
+      "provenance": {
+        "segmentId": "S05",
+        "cacheKey": "805f742ed17c644f24121a24e8e7b109ed1c2c756e56bfa3dda97f3768c88206",
+        "providerSettings": {
+          "provider": "Aliyun Bailian",
+          "modelSelection": "active profile default",
+          "effectiveModel": "cosyvoice-v3-flash",
+          "voice": "longtian_v3",
+          "rate": 1.0,
+          "format": "wav",
+          "sampleRateHz": 24000
+        },
+        "rawHeaderMatchesPayload": false,
+        "verifiedPcmOverflowRepair": true
+      }
+    },
+    {
+      "id": "audio-s05-canonical-pcm",
+      "path": "public/audio/canonical/S05-805f742ed17c.wav",
+      "kind": "validated-canonical-narration-pcm-wav",
+      "bytes": 453164,
+      "sha256": "2cf199a276faca8f650413bc31a9790cba511a61107111d6d36a8a64a7f092a8",
+      "provenance": {
+        "segmentId": "S05",
+        "cacheKey": "805f742ed17c644f24121a24e8e7b109ed1c2c756e56bfa3dda97f3768c88206",
+        "derivedFromAssetId": "audio-s05-provider-raw",
+        "pcmSha256At24000Hz": "a0d617b36bf9ea7499b1eca4f4fa61139e64ee15d1c5cfba6bd70fe20a1535fd",
+        "verifiedPcmOverflowRepair": true
+      }
+    },
+    {
+      "id": "audio-s05-cue-wav",
+      "path": "public/audio/cues/S05-805f742ed17c.wav",
+      "kind": "active-mix-ready-narration-cue-wav",
+      "bytes": 906318,
+      "sha256": "babb4472bc780d5e4b5fdc48f2a7e5288528fbc0e11bab7c6f1db52caa61bee5",
+      "provenance": {
+        "segmentId": "S05",
+        "cacheKey": "805f742ed17c644f24121a24e8e7b109ed1c2c756e56bfa3dda97f3768c88206",
+        "derivedFromAssetId": "audio-s05-canonical-pcm",
+        "providerSettings": {
+          "provider": "Aliyun Bailian",
+          "modelSelection": "active profile default",
+          "effectiveModel": "cosyvoice-v3-flash",
+          "voice": "longtian_v3",
+          "rate": 1.0,
+          "format": "wav",
+          "sampleRateHz": 24000
+        },
+        "durationSeconds": 9.44,
+        "samplesAt24000Hz": 226560,
+        "samplesAt48000Hz": 453120
+      }
+    },
+    {
+      "id": "audio-s05-tts-input-text",
+      "path": "public/audio/tts-input/S05-805f742ed17c.txt",
+      "kind": "exact-prepared-tts-input-text",
+      "bytes": 114,
+      "sha256": "bc0d7ff3ae41d583038c59fa6edefb8f7e1e2c9e142a41a63cc8bdee969dbe48",
+      "provenance": {
+        "segmentId": "S05",
+        "source": "exact tts_phonetic_text referenced by provider-manifest.json"
+      }
+    },
+    {
+      "id": "audio-s06-provider-raw",
+      "path": "public/audio/raw/S06-5314939bb981.wav",
+      "kind": "bailian-provider-raw-narration-wav",
+      "bytes": 457004,
+      "sha256": "06d1b81ef506074d40ac4d3b34f149cbec73d8f3dbcfae99e1727712577b3f8e",
+      "provenance": {
+        "segmentId": "S06",
+        "cacheKey": "5314939bb981bffaedd3085eb47f22a3cb4e1c7d1341ee21ac1be6972ca42b34",
+        "providerSettings": {
+          "provider": "Aliyun Bailian",
+          "modelSelection": "active profile default",
+          "effectiveModel": "cosyvoice-v3-flash",
+          "voice": "longtian_v3",
+          "rate": 1.0,
+          "format": "wav",
+          "sampleRateHz": 24000
+        },
+        "rawHeaderMatchesPayload": false,
+        "verifiedPcmOverflowRepair": true
+      }
+    },
+    {
+      "id": "audio-s06-canonical-pcm",
+      "path": "public/audio/canonical/S06-5314939bb981.wav",
+      "kind": "validated-canonical-narration-pcm-wav",
+      "bytes": 457004,
+      "sha256": "afe0a1282bfcdeed9145f3ef8a1f8b81da0e15abfcd2e8fc05c3e6c649c6dcab",
+      "provenance": {
+        "segmentId": "S06",
+        "cacheKey": "5314939bb981bffaedd3085eb47f22a3cb4e1c7d1341ee21ac1be6972ca42b34",
+        "derivedFromAssetId": "audio-s06-provider-raw",
+        "pcmSha256At24000Hz": "ce409a179af627231a1ac83aa94d615b4369687e74091ee387074a7162911c5d",
+        "verifiedPcmOverflowRepair": true
+      }
+    },
+    {
+      "id": "audio-s06-cue-wav",
+      "path": "public/audio/cues/S06-5314939bb981.wav",
+      "kind": "active-mix-ready-narration-cue-wav",
+      "bytes": 913998,
+      "sha256": "3dac75c6e2a2405a3abe4224418d4696be4af59b2a790b87b9c167d7a381bcba",
+      "provenance": {
+        "segmentId": "S06",
+        "cacheKey": "5314939bb981bffaedd3085eb47f22a3cb4e1c7d1341ee21ac1be6972ca42b34",
+        "derivedFromAssetId": "audio-s06-canonical-pcm",
+        "providerSettings": {
+          "provider": "Aliyun Bailian",
+          "modelSelection": "active profile default",
+          "effectiveModel": "cosyvoice-v3-flash",
+          "voice": "longtian_v3",
+          "rate": 1.0,
+          "format": "wav",
+          "sampleRateHz": 24000
+        },
+        "durationSeconds": 9.52,
+        "samplesAt24000Hz": 228480,
+        "samplesAt48000Hz": 456960
+      }
+    },
+    {
+      "id": "audio-s06-tts-input-text",
+      "path": "public/audio/tts-input/S06-5314939bb981.txt",
+      "kind": "exact-prepared-tts-input-text",
+      "bytes": 117,
+      "sha256": "21e8aeff913db71c64646f2b3c33f0df741738b980b39e8ec56ef10010cf0940",
+      "provenance": {
+        "segmentId": "S06",
+        "source": "exact tts_phonetic_text referenced by provider-manifest.json"
+      }
+    },
+    {
+      "id": "audio-s07-provider-raw",
+      "path": "public/audio/raw/S07-4f9bcd430944.wav",
+      "kind": "bailian-provider-raw-narration-wav",
+      "bytes": 272684,
+      "sha256": "cc92a1861f5c8dce5cd2141036221aee49ae76ad224c45d4c6fa1b9fa3c72d6c",
+      "provenance": {
+        "segmentId": "S07",
+        "cacheKey": "4f9bcd4309443cc9e9f931493f9af954cc9fbf18e679ca6efa8362d2e48032a9",
+        "providerSettings": {
+          "provider": "Aliyun Bailian",
+          "modelSelection": "active profile default",
+          "effectiveModel": "cosyvoice-v3-flash",
+          "voice": "longtian_v3",
+          "rate": 1.0,
+          "format": "wav",
+          "sampleRateHz": 24000
+        },
+        "rawHeaderMatchesPayload": false,
+        "verifiedPcmOverflowRepair": true
+      }
+    },
+    {
+      "id": "audio-s07-canonical-pcm",
+      "path": "public/audio/canonical/S07-4f9bcd430944.wav",
+      "kind": "validated-canonical-narration-pcm-wav",
+      "bytes": 272684,
+      "sha256": "afe854073676f42685556274dd998a452edd12c0ff0cd1e163783b3185a03b4f",
+      "provenance": {
+        "segmentId": "S07",
+        "cacheKey": "4f9bcd4309443cc9e9f931493f9af954cc9fbf18e679ca6efa8362d2e48032a9",
+        "derivedFromAssetId": "audio-s07-provider-raw",
+        "pcmSha256At24000Hz": "8789c1cee9bfd083e92cebbc4146d65d3330ee85376217542911cd5d9d4acecd",
+        "verifiedPcmOverflowRepair": true
+      }
+    },
+    {
+      "id": "audio-s07-cue-wav",
+      "path": "public/audio/cues/S07-4f9bcd430944.wav",
+      "kind": "active-mix-ready-narration-cue-wav",
+      "bytes": 545358,
+      "sha256": "c509bdf8ff46a08ea0487428cc73711279d45dbfaf05caf8506c2059a306f034",
+      "provenance": {
+        "segmentId": "S07",
+        "cacheKey": "4f9bcd4309443cc9e9f931493f9af954cc9fbf18e679ca6efa8362d2e48032a9",
+        "derivedFromAssetId": "audio-s07-canonical-pcm",
+        "providerSettings": {
+          "provider": "Aliyun Bailian",
+          "modelSelection": "active profile default",
+          "effectiveModel": "cosyvoice-v3-flash",
+          "voice": "longtian_v3",
+          "rate": 1.0,
+          "format": "wav",
+          "sampleRateHz": 24000
+        },
+        "durationSeconds": 5.68,
+        "samplesAt24000Hz": 136320,
+        "samplesAt48000Hz": 272640
+      }
+    },
+    {
+      "id": "audio-s07-tts-input-text",
+      "path": "public/audio/tts-input/S07-4f9bcd430944.txt",
+      "kind": "exact-prepared-tts-input-text",
+      "bytes": 84,
+      "sha256": "c26c04b524d30585517e95c9ca443abf0c88b6dba2a0d261421f22f2d7801841",
+      "provenance": {
+        "segmentId": "S07",
+        "source": "exact tts_phonetic_text referenced by provider-manifest.json"
+      }
+    },
+    {
+      "id": "audio-s08-provider-raw",
+      "path": "public/audio/raw/S08-05de0e8dd904.wav",
+      "kind": "bailian-provider-raw-narration-wav",
+      "bytes": 391724,
+      "sha256": "219117f16b0b1bfbfe0153165f91e2f1e7b00a0bbeb09d8496b9705fdf985288",
+      "provenance": {
+        "segmentId": "S08",
+        "cacheKey": "05de0e8dd904688b8de99f96a96a0db16d813fdc4a5b6c8df463392d5a4b261c",
+        "providerSettings": {
+          "provider": "Aliyun Bailian",
+          "modelSelection": "active profile default",
+          "effectiveModel": "cosyvoice-v3-flash",
+          "voice": "longtian_v3",
+          "rate": 1.0,
+          "format": "wav",
+          "sampleRateHz": 24000
+        },
+        "rawHeaderMatchesPayload": false,
+        "verifiedPcmOverflowRepair": true
+      }
+    },
+    {
+      "id": "audio-s08-canonical-pcm",
+      "path": "public/audio/canonical/S08-05de0e8dd904.wav",
+      "kind": "validated-canonical-narration-pcm-wav",
+      "bytes": 391724,
+      "sha256": "0124b4f9fed39ee4cb3f471cf5d5f860f0d380b7d1e1e3552d54557b251e5bf2",
+      "provenance": {
+        "segmentId": "S08",
+        "cacheKey": "05de0e8dd904688b8de99f96a96a0db16d813fdc4a5b6c8df463392d5a4b261c",
+        "derivedFromAssetId": "audio-s08-provider-raw",
+        "pcmSha256At24000Hz": "b33d4f13c186b00912b145799e553e0637d9ad4133eb59ea807e7955caa1bd6e",
+        "verifiedPcmOverflowRepair": true
+      }
+    },
+    {
+      "id": "audio-s08-cue-wav",
+      "path": "public/audio/cues/S08-05de0e8dd904.wav",
+      "kind": "active-mix-ready-narration-cue-wav",
+      "bytes": 783438,
+      "sha256": "baf494555a9674228faaee273660fbe49d29a4c5170a99f132534b860f1782ba",
+      "provenance": {
+        "segmentId": "S08",
+        "cacheKey": "05de0e8dd904688b8de99f96a96a0db16d813fdc4a5b6c8df463392d5a4b261c",
+        "derivedFromAssetId": "audio-s08-canonical-pcm",
+        "providerSettings": {
+          "provider": "Aliyun Bailian",
+          "modelSelection": "active profile default",
+          "effectiveModel": "cosyvoice-v3-flash",
+          "voice": "longtian_v3",
+          "rate": 1.0,
+          "format": "wav",
+          "sampleRateHz": 24000
+        },
+        "durationSeconds": 8.16,
+        "samplesAt24000Hz": 195840,
+        "samplesAt48000Hz": 391680
+      }
+    },
+    {
+      "id": "audio-s08-tts-input-text",
+      "path": "public/audio/tts-input/S08-05de0e8dd904.txt",
+      "kind": "exact-prepared-tts-input-text",
+      "bytes": 123,
+      "sha256": "bb30945965ef058f282ce3b38741528bc4cc3d97c4aac177a2ede6545a978c98",
+      "provenance": {
+        "segmentId": "S08",
+        "source": "exact tts_phonetic_text referenced by provider-manifest.json"
+      }
+    },
+    {
+      "id": "visual-conformal-ink",
+      "path": "src/TerrainInkMaterial.tsx",
+      "kind": "deterministic-visual-source",
+      "bytes": 3117,
+      "sha256": "9565c105ed1811657f8f3ea884722639b7f8b3916c6c90792dedf65d24d6f446"
+    },
+    {
+      "id": "visual-hand-subdivision",
+      "path": "src/subdivideSkinnedGeometry.ts",
+      "kind": "deterministic-visual-source",
+      "bytes": 16597,
+      "sha256": "8588e439242eaa3db42308fb3318c42639029240800e0700f3bf8ac090f2a34c"
+    },
+    {
+      "id": "v03-scene",
+      "path": "blender/scene.py",
+      "kind": "blender-scene-builder",
+      "sha256": "29a47caa00bf2488a2f36d58394fb2369c7fb795ce1bb06d50050101e62ca890",
+      "bytes": 21137,
+      "provenance": {
+        "source": "authored locally for EP11 v03; no downloaded texture or cloud generation"
+      }
+    },
+    {
+      "id": "v03-render_saved",
+      "path": "blender/render_saved.py",
+      "kind": "blender-native-render-runner",
+      "sha256": "c33b9a17bea1c8e57b82464ce2b9b4ba2d58b7e59e69050119eff109bc4501bd",
+      "bytes": 13118,
+      "provenance": {
+        "source": "authored locally for EP11 v03; no downloaded texture or cloud generation"
+      }
+    },
+    {
+      "id": "v03-verify_scene",
+      "path": "blender/verify_scene.py",
+      "kind": "blender-scene-verifier",
+      "sha256": "5a275b644e7a7f5b556c010970255cfc3af0f69bd36502d37736c5a9d6c57fbd",
+      "bytes": 21718,
+      "provenance": {
+        "source": "authored locally for EP11 v03; no downloaded texture or cloud generation"
+      }
+    },
+    {
+      "id": "v03-porcelain-canyon-v03",
+      "path": "blender/porcelain-canyon-v03.blend",
+      "kind": "native-editable-blender-scene",
+      "sha256": "d72cb166f75d2872185e839a1d491ec4e689bba98fe6bd755c452a4eb50cf785",
+      "bytes": 46877228,
+      "provenance": {
+        "source": "authored locally for EP11 v03; no downloaded texture or cloud generation"
+      }
+    },
+    {
+      "id": "v03-encode",
+      "path": "encode.py",
+      "kind": "native-footage-encoder",
+      "sha256": "3ab95069b787558259498e80159734b4036f5a6ab47210b5891d509a52620391",
+      "bytes": 15054,
+      "provenance": {
+        "source": "authored locally for EP11 v03; no downloaded texture or cloud generation"
+      }
+    },
+    {
+      "id": "v03-events",
+      "path": "blender/events.json",
+      "kind": "frame-locked-blender-events",
+      "sha256": "12f4cbb8b8f61f24269fbdb6b7c8b9e9bb7b437e1b308c734fbde02ee9ad2a29",
+      "bytes": 1017
+    }
+  ],
+  "manifestIntegrity": {
+    "selfHashOmitted": true,
+    "reason": "The manifest cannot contain a stable SHA-256 digest of its own serialized bytes without creating a circular value.",
+    "activeAudioHistoryPolicy": "Only current active cue records and active output stems are listed; archived audio/history files are excluded."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "title": "逆转的沙漏 · 留住这一根白发",
+  "slug": "si-ep11-kintsugi-ink-v03",
+  "platforms": [
+    "xiaohongshu"
+  ],
+  "duration_seconds": 90,
+  "fps": 60,
+  "total_frames": 5400,
+  "script": {
+    "path": "source/script.md",
+    "sha256": "21835d5c2d7e070e1d34af1a7e22dd055159d5cd554539889c9d46886de91dc5"
+  },
+  "audio": {
+    "mode": "narrated",
+    "master": "project/public/audio/master.wav",
+    "master_sha256": "66d32a2a2d12d33f03077f72847cd68b3aea567d4bf875e24338061c8345600e",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples_per_channel": 4320000
+  },
+  "outputs": {
+    "xiaohongshu": {
+      "path": "小红书/si-ep11-kintsugi-ink-v03-xiaohongshu-90s-portrait.mp4",
+      "width": 2160,
+      "height": 3840
+    }
+  },
+  "qa": {
+    "automated": "pending",
+    "representative_frames": "pending",
+    "continuous_human_review": "pending",
+    "target_device_playback": "pending",
+    "human_listening": "pending"
+  },
+  "visual_qc": {
+    "required": true,
+    "reports": {
+      "xiaohongshu": "review/visual-qc-xiaohongshu/report.json"
+    }
+  }
+}

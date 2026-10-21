@@ -1,0 +1,39 @@
+{
+  "status": "RENDERING_NOT_FINAL",
+  "stage": "native Blender canyon sequence",
+  "expected": {
+    "width": 2160,
+    "height": 3840,
+    "source_fps": 30,
+    "source_frames": 1525,
+    "final_fps": 60,
+    "final_frames": 5400,
+    "duration_seconds": 90
+  },
+  "source_blend_sha256": "d72cb166f75d2872185e839a1d491ec4e689bba98fe6bd755c452a4eb50cf785",
+  "cache": "/Volumes/AgentDev/Scratch/ep11-v03-native09",
+  "engine": "BLENDER_EEVEE_NEXT",
+  "samples": 32,
+  "completed_preflight": [
+    "TypeScript/source scan and locked script/master checks",
+    "look09 actual8native4K frames across allcamera cuts andkeyevents",
+    "look09 savedscene reopened:17closed mainmeshes, matching socket and keyed finalreturn passed",
+    "look09 real narrated10second preview played toend without browser error",
+    "frame2820 stop andframe2940 return exactly map tooriginalSFX samples"
+  ],
+  "remaining": [
+    "fullnative sequence",
+    "source encoding",
+    "nativeRemotion motion sample",
+    "90second film",
+    "finalmedia/visual/audio checks",
+    "localfinal andGitHubfinal backups",
+    "restoreprobe"
+  ],
+  "acceptance": {
+    "human_listening": "NOT_RUN",
+    "ordinary_audience_feedback": "NOT_RUN",
+    "target_device": "NOT_RUN"
+  },
+  "note": "Final scene locked, fullnative sequence rendering. No human listening/audience/device acceptance inferred."
+}

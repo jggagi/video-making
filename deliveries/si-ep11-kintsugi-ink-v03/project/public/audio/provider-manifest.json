@@ -1,0 +1,369 @@
+{
+  "version": 1,
+  "settings": {
+    "provider": "Aliyun Bailian",
+    "model_selection": "active profile default",
+    "effective_model": "cosyvoice-v3-flash",
+    "voice": "longtian_v3",
+    "rate": 1.0,
+    "format": "wav",
+    "sample_rate": 24000
+  },
+  "authorization": {
+    "manifest": "project/audio-authorization.json",
+    "sha256AtInvocation": "50485c9e61470af02d0f8a6ea2d7712b723c6316912be8675cc7bf93f7e6bd7f",
+    "scope": "si-ep11-kintsugi-ink-v02 S01 through S08 exact prepared tts_phonetic_text",
+    "source": "Q standing authorization recorded in repository skill on 2026-10-20: Bailian longtian_v3 for current and future film narration"
+  },
+  "segments": {
+    "S08": {
+      "cache_key": "05de0e8dd904688b8de99f96a96a0db16d813fdc4a5b6c8df463392d5a4b261c",
+      "tts_phonetic_text": "死亡不再是终点；只是那句人类说了几千年的白头偕老，从此成了再也无人能懂的远古词汇。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 195840,
+      "actual_samples_48k": 391680,
+      "duration_seconds": 8.16,
+      "declared_window_samples": 408000,
+      "fits_declared_window_before_onset_adjustment": true,
+      "pcm_sha256_24k": "b33d4f13c186b00912b145799e553e0637d9ad4133eb59ea807e7955caa1bd6e",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S08-05de0e8dd904.wav",
+      "raw_sha256": "219117f16b0b1bfbfe0153165f91e2f1e7b00a0bbeb09d8496b9705fdf985288",
+      "canonical_path": "public/audio/canonical/S08-05de0e8dd904.wav",
+      "canonical_sha256": "0124b4f9fed39ee4cb3f471cf5d5f860f0d380b7d1e1e3552d54557b251e5bf2",
+      "cue_path": "public/audio/cues/S08-05de0e8dd904.wav",
+      "cue_sha256": "baf494555a9674228faaee273660fbe49d29a4c5170a99f132534b860f1782ba",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response",
+      "declared_start_frame": 4890,
+      "declared_end_frame": 5400,
+      "reusedFrom": "deliveries/si-ep11-kintsugi-ink/project"
+    },
+    "S01": {
+      "cache_key": "d3b9c70e558d99db40a24eeba4c1745dab26639bfb8c577af9bb22ee3ebd76ca",
+      "tts_phonetic_text": "他们说好，要一起白头。假如有一天，连衰老，也能被逆转呢？",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 130560,
+      "actual_samples_48k": 261120,
+      "duration_seconds": 5.44,
+      "declared_window_samples": 403200,
+      "fits_declared_window_before_onset_adjustment": true,
+      "pcm_sha256_24k": "ef5f1111cceee46dbc6ba9b3ece333a57a0b253548f55f36b972c642c763a3f2",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S01-d3b9c70e558d.wav",
+      "raw_sha256": "131198f453e2bff3fd2fe5f0d8f1d1a7bf9b363e3d643ec03592c3bb307b944e",
+      "canonical_path": "public/audio/canonical/S01-d3b9c70e558d.wav",
+      "canonical_sha256": "d1d1a34c3d2494eba22cdb322db40af4a9e30e74881b790006fdc45cf45e6067",
+      "cue_path": "public/audio/cues/S01-d3b9c70e558d.wav",
+      "cue_sha256": "b7feadef15e497da6bde6ccd2be17503b849e2fb95a01da9fd86cff06fb7ac8d",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response",
+      "declared_start_frame": 36,
+      "declared_end_frame": 540
+    },
+    "S02": {
+      "cache_key": "eab1ea6cdd2e8cef7096eb94c6c7e8d64ac1415bb26953ad3018b4c052b43394",
+      "tts_phonetic_text": "这是一场科幻想象。人体大约三十七万亿，颗细胞，像一座座瓷的山谷，承受时间留下的改变。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 224640,
+      "actual_samples_48k": 449280,
+      "duration_seconds": 9.36,
+      "declared_window_samples": 528000,
+      "fits_declared_window_before_onset_adjustment": true,
+      "pcm_sha256_24k": "f776efda320af702782e0c7f283a9f88848222727662ff13257435e189c5b616",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S02-eab1ea6cdd2e.wav",
+      "raw_sha256": "38e27fab2cc9db8d8629f8fc887a4afa8e34f57440dce3918b9601bc049b80e4",
+      "canonical_path": "public/audio/canonical/S02-eab1ea6cdd2e.wav",
+      "canonical_sha256": "541230ff08ae90a1f0102a397e9ec9b3ef563e359ac09ae9e45af69266c32896",
+      "cue_path": "public/audio/cues/S02-eab1ea6cdd2e.wav",
+      "cue_sha256": "9d40d610414a2d00b02da32fc51e740c5d29f030fbbf86431606e0852f4e6d3d",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S03": {
+      "cache_key": "67a14fcfb7b83538b157a5ea3acf1b165e1bf8615aee50ec6c321553be5ccd6f",
+      "tts_phonetic_text": "让生命回头，并不只是擦去皱纹。修复太少，衰老继续；改写太深，细胞又可能失去原本的身份。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 257280,
+      "actual_samples_48k": 514560,
+      "duration_seconds": 10.72,
+      "declared_window_samples": 576000,
+      "fits_declared_window_before_onset_adjustment": true,
+      "pcm_sha256_24k": "605cd9fa50b637c8b16ac0b40e4794b679728e4ac9ab16bfedf33c209d4f107a",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S03-67a14fcfb7b8.wav",
+      "raw_sha256": "fbf1329fe4ba4524e49090a8feef9a8a2d1777ff403e3e58b1a5a0aca8509373",
+      "canonical_path": "public/audio/canonical/S03-67a14fcfb7b8.wav",
+      "canonical_sha256": "9224a2b3e8aeabe3c25cb6733e09df47bbeddfc1031604a97aded9fc19bce960",
+      "cue_path": "public/audio/cues/S03-67a14fcfb7b8.wav",
+      "cue_sha256": "5a1b9df9930afc042f9af341124b4c174a814b65a2956637204ba1c1b77ea29a",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S04": {
+      "cache_key": "461da14f8ab5e33045b0dd28142882a13d843211633cb8fa9ede1f72470501e0",
+      "tts_phonetic_text": "于是，在这个想象里，超级智能沿着无数岔路，寻找那条既能修复，又不让生命失控的窄路。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 193920,
+      "actual_samples_48k": 387840,
+      "duration_seconds": 8.08,
+      "declared_window_samples": 528000,
+      "fits_declared_window_before_onset_adjustment": true,
+      "pcm_sha256_24k": "30195d36c9325c820cd4b4f886b90bf0d3875955c17e55ace597d88d3a12f9cc",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S04-461da14f8ab5.wav",
+      "raw_sha256": "7d2094effd003da7539c2d8b1ec5d58f53f09d60f5c2deabd06b9b1516d4499e",
+      "canonical_path": "public/audio/canonical/S04-461da14f8ab5.wav",
+      "canonical_sha256": "064eda13a6e5a58b16c5b161ba777cee4eab2f1b21c411acfa1b95251dde5773",
+      "cue_path": "public/audio/cues/S04-461da14f8ab5.wav",
+      "cue_sha256": "5aadfdb71cfe4cfa3354139b74dc6a4d33b43b9f91d94ba53c46603eabedaa56",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S05": {
+      "cache_key": "805f742ed17c644f24121a24e8e7b109ed1c2c756e56bfa3dda97f3768c88206",
+      "tts_phonetic_text": "第一粒碎屑，停住了。下一刻，整场瓷雨逆流而上，金色的河，重新接起每一道裂口。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 226560,
+      "actual_samples_48k": 453120,
+      "duration_seconds": 9.44,
+      "declared_window_samples": 528000,
+      "fits_declared_window_before_onset_adjustment": true,
+      "pcm_sha256_24k": "a0d617b36bf9ea7499b1eca4f4fa61139e64ee15d1c5cfba6bd70fe20a1535fd",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S05-805f742ed17c.wav",
+      "raw_sha256": "6520f60dcb4c436ed47e56c8e23e5dc8aaf4cd319bcb79d430ce32121d385293",
+      "canonical_path": "public/audio/canonical/S05-805f742ed17c.wav",
+      "canonical_sha256": "2cf199a276faca8f650413bc31a9790cba511a61107111d6d36a8a64a7f092a8",
+      "cue_path": "public/audio/cues/S05-805f742ed17c.wav",
+      "cue_sha256": "babb4472bc780d5e4b5fdc48f2a7e5288528fbc0e11bab7c6f1db52caa61bee5",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S06": {
+      "cache_key": "5314939bb981bffaedd3085eb47f22a3cb4e1c7d1341ee21ac1be6972ca42b34",
+      "tts_phonetic_text": "原来，那浩瀚的山谷，只是掌心的一道纹路。那双握了几十年的手，再一次，变得年轻。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 228480,
+      "actual_samples_48k": 456960,
+      "duration_seconds": 9.52,
+      "declared_window_samples": 480000,
+      "fits_declared_window_before_onset_adjustment": true,
+      "pcm_sha256_24k": "ce409a179af627231a1ac83aa94d615b4369687e74091ee387074a7162911c5d",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S06-5314939bb981.wav",
+      "raw_sha256": "06d1b81ef506074d40ac4d3b34f149cbec73d8f3dbcfae99e1727712577b3f8e",
+      "canonical_path": "public/audio/canonical/S06-5314939bb981.wav",
+      "canonical_sha256": "afe0a1282bfcdeed9145f3ef8a1f8b81da0e15abfcd2e8fc05c3e6c649c6dcab",
+      "cue_path": "public/audio/cues/S06-5314939bb981.wav",
+      "cue_sha256": "3dac75c6e2a2405a3abe4224418d4696be4af59b2a790b87b9c167d7a381bcba",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S07": {
+      "cache_key": "4f9bcd4309443cc9e9f931493f9af954cc9fbf18e679ca6efa8362d2e48032a9",
+      "tts_phonetic_text": "春去秋来。他们依然相爱，却再也等不到，彼此白头的那一天。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 136320,
+      "actual_samples_48k": 272640,
+      "duration_seconds": 5.68,
+      "declared_window_samples": 480000,
+      "fits_declared_window_before_onset_adjustment": true,
+      "pcm_sha256_24k": "8789c1cee9bfd083e92cebbc4146d65d3330ee85376217542911cd5d9d4acecd",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S07-4f9bcd430944.wav",
+      "raw_sha256": "cc92a1861f5c8dce5cd2141036221aee49ae76ad224c45d4c6fa1b9fa3c72d6c",
+      "canonical_path": "public/audio/canonical/S07-4f9bcd430944.wav",
+      "canonical_sha256": "afe854073676f42685556274dd998a452edd12c0ff0cd1e163783b3185a03b4f",
+      "cue_path": "public/audio/cues/S07-4f9bcd430944.wav",
+      "cue_sha256": "c509bdf8ff46a08ea0487428cc73711279d45dbfaf05caf8506c2059a306f034",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    }
+  },
+  "cacheHistory": [
+    {
+      "id": "S07",
+      "cache_key": "43cf185fb27dfc9a22866be4a5a40f0c08b09a83c45084007c58bf562445348f",
+      "tts_phonetic_text": "春天来了，又走了。他们仍然年轻，仍然相爱。只是从此，再也等不到，彼此白头的那一天。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 268800,
+      "actual_samples_48k": 537600,
+      "duration_seconds": 11.2,
+      "declared_window_samples": 480000,
+      "fits_declared_window_before_onset_adjustment": false,
+      "pcm_sha256_24k": "1275e92c4c55f7a5bf948ede70ceee211de11f744fc0cfcdf6cf04ba64093a1c",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S07-43cf185fb27d.wav",
+      "raw_sha256": "14c67307d209416fa708e6d1fe2bc93aaaf1ee2ed717159e7091f5ca93dd963c",
+      "canonical_path": "public/audio/canonical/S07-43cf185fb27d.wav",
+      "canonical_sha256": "f950c8701544fda7d7a3b80d583c1ae23c4dfbbff0f3dba40da3c49ec264f7e0",
+      "cue_path": "public/audio/cues/S07-43cf185fb27d.wav",
+      "cue_sha256": "9c458cf27b028b22a838eb2aa808b335e9663baa835eaa9d900ed077f9e93f20",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    {
+      "id": "S06",
+      "cache_key": "b8e92ec565af77c38e7945306e29936c7f48bb352e125567195d58cc78f9c088",
+      "tts_phonetic_text": "镜头退出山谷。原来，那只是掌心的一道纹路。那双握了几十年的手，再一次，变成年轻的手。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 232320,
+      "actual_samples_48k": 464640,
+      "duration_seconds": 9.68,
+      "declared_window_samples": 480000,
+      "fits_declared_window_before_onset_adjustment": true,
+      "pcm_sha256_24k": "87ecba6d85616b6911ae30d9de0704758d30c20aceadd0f1327ab37400db6437",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S06-b8e92ec565af.wav",
+      "raw_sha256": "130f17b32724b86da5d81bbb37bc733a665b0f23f66edc3b4cd2072f3fd9429f",
+      "canonical_path": "public/audio/canonical/S06-b8e92ec565af.wav",
+      "canonical_sha256": "31534c94bffaf19e3b6376165e7be7f30262aadb583451829b18af67146a6148",
+      "cue_path": "public/audio/cues/S06-b8e92ec565af.wav",
+      "cue_sha256": "6b3c3af31ce087b12bad1008f6d92e55fc690059923796089641e6f00aa19cc4",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    }
+  ]
+}

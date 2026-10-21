@@ -1,0 +1,49 @@
+{
+  "source": "Byte-identical reuse of v02 Remotion cover-mode frame5100; the hand ending and cover-only typography are unchanged.",
+  "visualFrame": 5100,
+  "seconds": 85,
+  "sourcePath": "小红书/cover-source.png",
+  "sourceDimensions": [
+    2160,
+    3840
+  ],
+  "sourceSha256": "3709d69a424e9b9f47828faec8bc42f5bcea02e7e30c6f826b55d6d75689b7f4",
+  "outputPath": "小红书/cover-3x4.png",
+  "outputDimensions": [
+    2160,
+    2880
+  ],
+  "cropXYWH": [
+    0,
+    0,
+    2160,
+    2880
+  ],
+  "outputSha256": "e89d65d718a65044ca0fb22bbc9158ca9d218daad399cfeba52e45c9ff8fd77e",
+  "caption": "如果永远年轻 / 我们还怎么白头",
+  "humanOrAppPreview": "NOT_RUN",
+  "v03_reuse_note": "Unchanged v02 hand ending and cover typography; copied bytes verified, no new render or publication claim.",
+  "v03_reused_files": [
+    {
+      "path": "cover-3x4.png",
+      "sha256": "e89d65d718a65044ca0fb22bbc9158ca9d218daad399cfeba52e45c9ff8fd77e",
+      "source": "deliveries/si-ep11-kintsugi-ink-v02/小红书/cover-3x4.png",
+      "matches_source": true
+    },
+    {
+      "path": "cover-source.png",
+      "sha256": "3709d69a424e9b9f47828faec8bc42f5bcea02e7e30c6f826b55d6d75689b7f4",
+      "source": "deliveries/si-ep11-kintsugi-ink-v02/小红书/cover-source.png",
+      "matches_source": true
+    }
+  ],
+  "inheritedV02PlatformWebPreview": {
+    "status": "MODEL_OBSERVED",
+    "surface": "Xiaohongshu creator cover editor and feed mock preview",
+    "observations": "Complete two-line title, both hands, white hair and gold infinity remain visible in 3:4; no critical crop clipping. Platform reported 封面效果评估通过，未发现封面质量问题."
+  },
+  "v03PlatformWebPreview": {
+    "status": "NOT_RUN",
+    "note": "No v03 platform account operation has been performed."
+  }
+}

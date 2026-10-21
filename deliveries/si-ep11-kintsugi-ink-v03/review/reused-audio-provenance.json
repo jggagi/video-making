@@ -1,0 +1,313 @@
+{
+  "scope": "Prepared synthetic narration cache and film provenance only; no new voice generation or credentials",
+  "all_identical_to_existing_tracked_v02": true,
+  "file_count": 50,
+  "raw_audio_count": 10,
+  "raw_audio_total_bytes": 4189880,
+  "authorization_json_is_consent_record_not_credential_config": true,
+  "provider_manifest_is_tts_model_voice_text_and_hash_ledger_not_connection_config": true,
+  "reviewed_credential_field_names_present": false,
+  "repository_policy": "AGENTS.md authorizes scoped film source/assets/audio retention in jggagi/video-making; these exact JSON paths are existing package allowlist entries",
+  "files": [
+    {
+      "path": "project/public/audio/audio-qa.json",
+      "sha256": "b9bc45e5ef33c7933fc1a6518136668526675dd14c38d13761fed651bede7444",
+      "bytes": 18400,
+      "identical_to_existing_tracked_v02": true
+    },
+    {
+      "path": "project/public/audio/canonical/S01-d3b9c70e558d.wav",
+      "sha256": "d1d1a34c3d2494eba22cdb322db40af4a9e30e74881b790006fdc45cf45e6067",
+      "bytes": 261164,
+      "identical_to_existing_tracked_v02": true
+    },
+    {
+      "path": "project/public/audio/canonical/S02-eab1ea6cdd2e.wav",
+      "sha256": "541230ff08ae90a1f0102a397e9ec9b3ef563e359ac09ae9e45af69266c32896",
+      "bytes": 449324,
+      "identical_to_existing_tracked_v02": true
+    },
+    {
+      "path": "project/public/audio/canonical/S03-67a14fcfb7b8.wav",
+      "sha256": "9224a2b3e8aeabe3c25cb6733e09df47bbeddfc1031604a97aded9fc19bce960",
+      "bytes": 514604,
+      "identical_to_existing_tracked_v02": true
+    },
+    {
+      "path": "project/public/audio/canonical/S04-461da14f8ab5.wav",
+      "sha256": "064eda13a6e5a58b16c5b161ba777cee4eab2f1b21c411acfa1b95251dde5773",
+      "bytes": 387884,
+      "identical_to_existing_tracked_v02": true
+    },
+    {
+      "path": "project/public/audio/canonical/S05-805f742ed17c.wav",
+      "sha256": "2cf199a276faca8f650413bc31a9790cba511a61107111d6d36a8a64a7f092a8",
+      "bytes": 453164,
+      "identical_to_existing_tracked_v02": true
+    },
+    {
+      "path": "project/public/audio/canonical/S06-5314939bb981.wav",
+      "sha256": "afe0a1282bfcdeed9145f3ef8a1f8b81da0e15abfcd2e8fc05c3e6c649c6dcab",
+      "bytes": 457004,
+      "identical_to_existing_tracked_v02": true
+    },
+    {
+      "path": "project/public/audio/canonical/S06-b8e92ec565af.wav",
+      "sha256": "31534c94bffaf19e3b6376165e7be7f30262aadb583451829b18af67146a6148",
+      "bytes": 464684,
+      "identical_to_existing_tracked_v02": true
+    },
+    {
+      "path": "project/public/audio/canonical/S07-43cf185fb27d.wav",
+      "sha256": "f950c8701544fda7d7a3b80d583c1ae23c4dfbbff0f3dba40da3c49ec264f7e0",
+      "bytes": 537644,
+      "identical_to_existing_tracked_v02": true
+    },
+    {
+      "path": "project/public/audio/canonical/S07-4f9bcd430944.wav",
+      "sha256": "afe854073676f42685556274dd998a452edd12c0ff0cd1e163783b3185a03b4f",
+      "bytes": 272684,
+      "identical_to_existing_tracked_v02": true
+    },
+    {
+      "path": "project/public/audio/canonical/S08-05de0e8dd904.wav",
+      "sha256": "0124b4f9fed39ee4cb3f471cf5d5f860f0d380b7d1e1e3552d54557b251e5bf2",
+      "bytes": 391724,
+      "identical_to_existing_tracked_v02": true
+    },
+    {
+      "path": "project/public/audio/captions.srt",
+      "sha256": "f30afde8b8bef9df17f175fa553dda1a8f10c65c4c422366df6db0eca1135c87",
+      "bytes": 1984,
+      "identical_to_existing_tracked_v02": true
+    },
+    {
+      "path": "project/public/audio/cues/S01-d3b9c70e558d.wav",
+      "sha256": "b7feadef15e497da6bde6ccd2be17503b849e2fb95a01da9fd86cff06fb7ac8d",
+      "bytes": 522318,
+      "identical_to_existing_tracked_v02": true
+    },
+    {
+      "path": "project/public/audio/cues/S02-eab1ea6cdd2e.wav",
+      "sha256": "9d40d610414a2d00b02da32fc51e740c5d29f030fbbf86431606e0852f4e6d3d",
+      "bytes": 898638,
+      "identical_to_existing_tracked_v02": true
+    },
+    {
+      "path": "project/public/audio/cues/S03-67a14fcfb7b8.wav",
+      "sha256": "5a1b9df9930afc042f9af341124b4c174a814b65a2956637204ba1c1b77ea29a",
+      "bytes": 1029198,
+      "identical_to_existing_tracked_v02": true
+    },
+    {
+      "path": "project/public/audio/cues/S04-461da14f8ab5.wav",
+      "sha256": "5aadfdb71cfe4cfa3354139b74dc6a4d33b43b9f91d94ba53c46603eabedaa56",
+      "bytes": 775758,
+      "identical_to_existing_tracked_v02": true
+    },
+    {
+      "path": "project/public/audio/cues/S05-805f742ed17c.wav",
+      "sha256": "babb4472bc780d5e4b5fdc48f2a7e5288528fbc0e11bab7c6f1db52caa61bee5",
+      "bytes": 906318,
+      "identical_to_existing_tracked_v02": true
+    },
+    {
+      "path": "project/public/audio/cues/S06-5314939bb981.wav",
+      "sha256": "3dac75c6e2a2405a3abe4224418d4696be4af59b2a790b87b9c167d7a381bcba",
+      "bytes": 913998,
+      "identical_to_existing_tracked_v02": true
+    },
+    {
+      "path": "project/public/audio/cues/S06-b8e92ec565af.wav",
+      "sha256": "6b3c3af31ce087b12bad1008f6d92e55fc690059923796089641e6f00aa19cc4",
+      "bytes": 929358,
+      "identical_to_existing_tracked_v02": true
+    },
+    {
+      "path": "project/public/audio/cues/S07-43cf185fb27d.wav",
+      "sha256": "9c458cf27b028b22a838eb2aa808b335e9663baa835eaa9d900ed077f9e93f20",
+      "bytes": 1075278,
+      "identical_to_existing_tracked_v02": true
+    },
+    {
+      "path": "project/public/audio/cues/S07-4f9bcd430944.wav",
+      "sha256": "c509bdf8ff46a08ea0487428cc73711279d45dbfaf05caf8506c2059a306f034",
+      "bytes": 545358,
+      "identical_to_existing_tracked_v02": true
+    },
+    {
+      "path": "project/public/audio/cues/S08-05de0e8dd904.wav",
+      "sha256": "baf494555a9674228faaee273660fbe49d29a4c5170a99f132534b860f1782ba",
+      "bytes": 783438,
+      "identical_to_existing_tracked_v02": true
+    },
+    {
+      "path": "project/public/audio/master.wav",
+      "sha256": "66d32a2a2d12d33f03077f72847cd68b3aea567d4bf875e24338061c8345600e",
+      "bytes": 17280044,
+      "identical_to_existing_tracked_v02": true
+    },
+    {
+      "path": "project/public/audio/mix-manifest.json",
+      "sha256": "3542be38bd153bd02e76803ad9fb7632c3ee765f6cdc114b8a2ea9f711627d0b",
+      "bytes": 21044,
+      "identical_to_existing_tracked_v02": true
+    },
+    {
+      "path": "project/public/audio/mix-settings.json",
+      "sha256": "0adfa0ef8e06d165e40955eb509c9d626e41c92dae9e8a57a22aa850da6fb684",
+      "bytes": 22992,
+      "identical_to_existing_tracked_v02": true
+    },
+    {
+      "path": "project/public/audio/narration.wav",
+      "sha256": "81287fcf6c618cc90021adb439b866b0dd974be00d470369db16a2d35d267c5d",
+      "bytes": 17280044,
+      "identical_to_existing_tracked_v02": true
+    },
+    {
+      "path": "project/public/audio/provider-manifest.json",
+      "sha256": "fa095d664785fef8ee734ce94b0ffd703080c3720668a688406829e0c52c78df",
+      "bytes": 16413,
+      "identical_to_existing_tracked_v02": true
+    },
+    {
+      "path": "project/public/audio/raw/S01-d3b9c70e558d.wav",
+      "sha256": "131198f453e2bff3fd2fe5f0d8f1d1a7bf9b363e3d643ec03592c3bb307b944e",
+      "bytes": 261164,
+      "identical_to_existing_tracked_v02": true
+    },
+    {
+      "path": "project/public/audio/raw/S02-eab1ea6cdd2e.wav",
+      "sha256": "38e27fab2cc9db8d8629f8fc887a4afa8e34f57440dce3918b9601bc049b80e4",
+      "bytes": 449324,
+      "identical_to_existing_tracked_v02": true
+    },
+    {
+      "path": "project/public/audio/raw/S03-67a14fcfb7b8.wav",
+      "sha256": "fbf1329fe4ba4524e49090a8feef9a8a2d1777ff403e3e58b1a5a0aca8509373",
+      "bytes": 514604,
+      "identical_to_existing_tracked_v02": true
+    },
+    {
+      "path": "project/public/audio/raw/S04-461da14f8ab5.wav",
+      "sha256": "7d2094effd003da7539c2d8b1ec5d58f53f09d60f5c2deabd06b9b1516d4499e",
+      "bytes": 387884,
+      "identical_to_existing_tracked_v02": true
+    },
+    {
+      "path": "project/public/audio/raw/S05-805f742ed17c.wav",
+      "sha256": "6520f60dcb4c436ed47e56c8e23e5dc8aaf4cd319bcb79d430ce32121d385293",
+      "bytes": 453164,
+      "identical_to_existing_tracked_v02": true
+    },
+    {
+      "path": "project/public/audio/raw/S06-5314939bb981.wav",
+      "sha256": "06d1b81ef506074d40ac4d3b34f149cbec73d8f3dbcfae99e1727712577b3f8e",
+      "bytes": 457004,
+      "identical_to_existing_tracked_v02": true
+    },
+    {
+      "path": "project/public/audio/raw/S06-b8e92ec565af.wav",
+      "sha256": "130f17b32724b86da5d81bbb37bc733a665b0f23f66edc3b4cd2072f3fd9429f",
+      "bytes": 464684,
+      "identical_to_existing_tracked_v02": true
+    },
+    {
+      "path": "project/public/audio/raw/S07-43cf185fb27d.wav",
+      "sha256": "14c67307d209416fa708e6d1fe2bc93aaaf1ee2ed717159e7091f5ca93dd963c",
+      "bytes": 537644,
+      "identical_to_existing_tracked_v02": true
+    },
+    {
+      "path": "project/public/audio/raw/S07-4f9bcd430944.wav",
+      "sha256": "cc92a1861f5c8dce5cd2141036221aee49ae76ad224c45d4c6fa1b9fa3c72d6c",
+      "bytes": 272684,
+      "identical_to_existing_tracked_v02": true
+    },
+    {
+      "path": "project/public/audio/raw/S08-05de0e8dd904.wav",
+      "sha256": "219117f16b0b1bfbfe0153165f91e2f1e7b00a0bbeb09d8496b9705fdf985288",
+      "bytes": 391724,
+      "identical_to_existing_tracked_v02": true
+    },
+    {
+      "path": "project/public/audio/score.wav",
+      "sha256": "78a5990ed91d0e518e46ac9e38114e4716adc16e85109d0d0d2e095167670409",
+      "bytes": 17280044,
+      "identical_to_existing_tracked_v02": true
+    },
+    {
+      "path": "project/public/audio/sfx.wav",
+      "sha256": "b2f0b6e2683cf5b7c2053574f2cf466c5d37dff99732afcc4ec33e7d850d1901",
+      "bytes": 17280044,
+      "identical_to_existing_tracked_v02": true
+    },
+    {
+      "path": "project/public/audio/tts-input/S01-d3b9c70e558d.txt",
+      "sha256": "dfa4a7811365da82698d6d3f2fa7b541d503a97cb5c7626419249bb83e449bb7",
+      "bytes": 84,
+      "identical_to_existing_tracked_v02": true
+    },
+    {
+      "path": "project/public/audio/tts-input/S02-eab1ea6cdd2e.txt",
+      "sha256": "0956b8ff8ff98a2b3043f633f5448cc538c2cc32a24603c7e18ee907ac9886a9",
+      "bytes": 126,
+      "identical_to_existing_tracked_v02": true
+    },
+    {
+      "path": "project/public/audio/tts-input/S03-67a14fcfb7b8.txt",
+      "sha256": "6669d4124225131300345e1849a8e3d8c77ade83b1dd821c5f69146833f3db94",
+      "bytes": 129,
+      "identical_to_existing_tracked_v02": true
+    },
+    {
+      "path": "project/public/audio/tts-input/S04-461da14f8ab5.txt",
+      "sha256": "ee46cb99ea28d7beb569dbbb544fe73718898926dd97d5c4fef40ba330467616",
+      "bytes": 123,
+      "identical_to_existing_tracked_v02": true
+    },
+    {
+      "path": "project/public/audio/tts-input/S05-805f742ed17c.txt",
+      "sha256": "bc0d7ff3ae41d583038c59fa6edefb8f7e1e2c9e142a41a63cc8bdee969dbe48",
+      "bytes": 114,
+      "identical_to_existing_tracked_v02": true
+    },
+    {
+      "path": "project/public/audio/tts-input/S06-5314939bb981.txt",
+      "sha256": "21e8aeff913db71c64646f2b3c33f0df741738b980b39e8ec56ef10010cf0940",
+      "bytes": 117,
+      "identical_to_existing_tracked_v02": true
+    },
+    {
+      "path": "project/public/audio/tts-input/S06-b8e92ec565af.txt",
+      "sha256": "80a7d16da3420eecd0d112aae6b2b3e2b72ff6ff568a1ec639402a506a1b42ee",
+      "bytes": 126,
+      "identical_to_existing_tracked_v02": true
+    },
+    {
+      "path": "project/public/audio/tts-input/S07-43cf185fb27d.txt",
+      "sha256": "9a82a768983fca95c3705bb440ba5488f07bef5afce285f4e8c5840e31774346",
+      "bytes": 123,
+      "identical_to_existing_tracked_v02": true
+    },
+    {
+      "path": "project/public/audio/tts-input/S07-4f9bcd430944.txt",
+      "sha256": "c26c04b524d30585517e95c9ca443abf0c88b6dba2a0d261421f22f2d7801841",
+      "bytes": 84,
+      "identical_to_existing_tracked_v02": true
+    },
+    {
+      "path": "project/public/audio/tts-input/S08-05de0e8dd904.txt",
+      "sha256": "bb30945965ef058f282ce3b38741528bc4cc3d97c4aac177a2ede6545a978c98",
+      "bytes": 123,
+      "identical_to_existing_tracked_v02": true
+    },
+    {
+      "path": "project/audio-authorization.json",
+      "sha256": "50485c9e61470af02d0f8a6ea2d7712b723c6316912be8675cc7bf93f7e6bd7f",
+      "bytes": 581,
+      "identical_to_existing_tracked_v02": true
+    }
+  ]
+}

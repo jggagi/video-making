@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-10-21T05:00:01.418122+00:00",
+  "status": "PASS",
+  "scope": "Standalone 8-second direction study, not formal final library",
+  "source_commit": "bf0203ca94aac9aca3ad8a95a0afd6f2714dc69c",
+  "catalog_path": "experiments/ep11-canyon-blender-v01/review/standalone-release-catalog.json",
+  "catalog_sha256": "7848c8f76df413686119c96b7b642e357030e1e3b9da4706c3146ed5eb1cf889",
+  "release_url": "https://github.com/jggagi/video-making/releases/tag/study-ep11-canyon-blender-v01",
+  "release_tag": "study-ep11-canyon-blender-v01",
+  "release_published": true,
+  "remote_assets": [
+    {
+      "name": "ep11-canyon-blender-v01-new-1080x1920-24fps-8s.mp4",
+      "bytes": 3423202,
+      "digest": "sha256:74e45f9cd254cfdf55810314e52d95390d46b81fd81f071dbf9871d4a5b5fb21",
+      "kind": "video",
+      "platform": "预览",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/study-ep11-canyon-blender-v01/ep11-canyon-blender-v01-new-1080x1920-24fps-8s.mp4",
+      "browser_download_url": "https://github.com/jggagi/video-making/releases/download/study-ep11-canyon-blender-v01/ep11-canyon-blender-v01-new-1080x1920-24fps-8s.mp4",
+      "id": 661398527
+    },
+    {
+      "name": "ep11-canyon-blender-v01-comparison-1440x1440-24fps-8s.mp4",
+      "bytes": 3125047,
+      "digest": "sha256:e17a4a3ffd26190ed5d55b760258fb2f3202761eb5cb4674e09b305412c75c06",
+      "kind": "video",
+      "platform": "预览",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/study-ep11-canyon-blender-v01/ep11-canyon-blender-v01-comparison-1440x1440-24fps-8s.mp4",
+      "browser_download_url": "https://github.com/jggagi/video-making/releases/download/study-ep11-canyon-blender-v01/ep11-canyon-blender-v01-comparison-1440x1440-24fps-8s.mp4",
+      "id": 661398581
+    },
+    {
+      "name": "ep11-canyon-blender-v01-editable.zip",
+      "bytes": 17919685,
+      "digest": "sha256:64d1cd7fdc2f5762b498a19bebf539a7a1f691c18df6de916e9ab6dc974e9bfa",
+      "kind": "project",
+      "platform": "工程",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/study-ep11-canyon-blender-v01/ep11-canyon-blender-v01-editable.zip",
+      "browser_download_url": "https://github.com/jggagi/video-making/releases/download/study-ep11-canyon-blender-v01/ep11-canyon-blender-v01-editable.zip",
+      "id": 661398640
+    },
+    {
+      "name": "ep11-canyon-blender-v01-hero-2160x3840.png",
+      "bytes": 7294757,
+      "digest": "sha256:4af2e1f89d32ea781549401d22d0f38df89be856af6b5b7d792e96d5d8844a9b",
+      "kind": "project",
+      "platform": "工程",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/study-ep11-canyon-blender-v01/ep11-canyon-blender-v01-hero-2160x3840.png",
+      "browser_download_url": "https://github.com/jggagi/video-making/releases/download/study-ep11-canyon-blender-v01/ep11-canyon-blender-v01-hero-2160x3840.png",
+      "id": 661398709
+    }
+  ],
+  "remote_size_and_sha256": "PASS_ALL_FOUR",
+  "actual_download_restore": {
+    "status": "PASS",
+    "assets": [
+      {
+        "name": "ep11-canyon-blender-v01-new-1080x1920-24fps-8s.mp4",
+        "bytes": 3423202,
+        "sha256": "74e45f9cd254cfdf55810314e52d95390d46b81fd81f071dbf9871d4a5b5fb21",
+        "restored": "PASS"
+      },
+      {
+        "name": "ep11-canyon-blender-v01-comparison-1440x1440-24fps-8s.mp4",
+        "bytes": 3125047,
+        "sha256": "e17a4a3ffd26190ed5d55b760258fb2f3202761eb5cb4674e09b305412c75c06",
+        "restored": "PASS"
+      },
+      {
+        "name": "ep11-canyon-blender-v01-editable.zip",
+        "bytes": 17919685,
+        "sha256": "64d1cd7fdc2f5762b498a19bebf539a7a1f691c18df6de916e9ab6dc974e9bfa",
+        "restored": "PASS"
+      },
+      {
+        "name": "ep11-canyon-blender-v01-hero-2160x3840.png",
+        "bytes": 7294757,
+        "sha256": "4af2e1f89d32ea781549401d22d0f38df89be856af6b5b7d792e96d5d8844a9b",
+        "restored": "PASS"
+      }
+    ],
+    "zip_crc": "PASS",
+    "zip_all_members_sha256": "PASS",
+    "zip_member_count": 25,
+    "native_scene_sha256": "14be5907675f8d3fd7ff41a9efdee3c408dd00d5dd2b8c0e15494204c36cb570"
+  },
+  "restored_native_scene_reopen": {
+    "status": "PASS",
+    "blender": "4.5.9 LTS",
+    "native_keyed_timeline": true,
+    "freeze_pose_25_49_73": "PASS",
+    "fall_before_hold_and_rise_after": "PASS",
+    "bank_objects": 18,
+    "closed_positive_volume_objects": 37,
+    "external_image_dependencies": [],
+    "poses": {
+      "1": {
+        "location": [
+          -0.3441427946090698,
+          -1.2000000476837158,
+          1.7799999713897705
+        ],
+        "rotation": [
+          1.0646508932113647,
+          0.0,
+          -0.3141592741012573
+        ]
+      },
+      "25": {
+        "location": [
+          -0.3441427946090698,
+          -1.2000000476837158,
+          1.3600000143051147
+        ],
+        "rotation": [
+          1.1946508884429932,
+          0.20000000298023224,
+          -0.09415926784276962
+        ]
+      },
+      "49": {
+        "location": [
+          -0.3441427946090698,
+          -1.2000000476837158,
+          1.3600000143051147
+        ],
+        "rotation": [
+          1.1946508884429932,
+          0.20000000298023224,
+          -0.09415926784276962
+        ]
+      },
+      "73": {
+        "location": [
+          -0.3441427946090698,
+          -1.2000000476837158,
+          1.3600000143051147
+        ],
+        "rotation": [
+          1.1946508884429932,
+          0.20000000298023224,
+          -0.09415926784276962
+        ]
+      },
+      "168": {
+        "location": [
+          -0.2633509337902069,
+          -0.8082899451255798,
+          2.6918141841888428
+        ],
+        "rotation": [
+          1.398340106010437,
+          0.5133680701255798,
+          0.25054559111595154
+        ]
+      },
+      "192": {
+        "location": [
+          -0.2125890851020813,
+          -0.5853732824325562,
+          3.44973087310791
+        ],
+        "rotation": [
+          1.5142567157745361,
+          0.6917014122009277,
+          0.4467122554779053
+        ]
+      }
+    },
+    "new_render_performed": false,
+    "human_acceptance": "NOT_RUN"
+  },
+  "restored_new_video_strict_decode": "PASS",
+  "human_visual_and_listening_acceptance": "NOT_RUN",
+  "target_phone_acceptance": "NOT_RUN",
+  "formal_v02_or_account_mutations": false
+}

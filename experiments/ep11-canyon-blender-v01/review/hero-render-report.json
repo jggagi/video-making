@@ -1,0 +1,75 @@
+{
+  "blend_path": "/Users/guoq/Documents/ChatGPT/video/experiments/ep11-canyon-blender-v01/project/porcelain-canyon-look06.blend",
+  "blend_sha256": "14be5907675f8d3fd7ff41a9efdee3c408dd00d5dd2b8c0e15494204c36cb570",
+  "completed_at_utc": "2026-10-21T04:49:52Z",
+  "config": {
+    "cycles_device": "GPU",
+    "engine": "CYCLES",
+    "fps": 24,
+    "fps_base": 1.0,
+    "frames": [
+      168
+    ],
+    "gpu_backend": "METAL",
+    "gpu_devices": [
+      "Apple M4 (GPU - 10 cores)"
+    ],
+    "height": 3840,
+    "output_format": "PNG RGB 8-bit",
+    "samples": 96,
+    "width": 2160
+  },
+  "created_at_utc": "2026-10-21T04:48:52Z",
+  "device_acceptance": "NOT_RUN",
+  "device_selection": {
+    "cycles_device": "GPU",
+    "device_detection_error": null,
+    "gpu_backend": "METAL",
+    "gpu_devices": [
+      "Apple M4 (GPU - 10 cores)"
+    ]
+  },
+  "frames": [
+    {
+      "bytes": 7294757,
+      "dimensions": [
+        2160,
+        3840
+      ],
+      "filename": "0168.png",
+      "frame": 168,
+      "render_seconds": 59.123228,
+      "sha256": "4af2e1f89d32ea781549401d22d0f38df89be856af6b5b7d792e96d5d8844a9b"
+    }
+  ],
+  "normal_human_acceptance": "NOT_RUN",
+  "requested_frame_count": 1,
+  "runtime": {
+    "blender_version": "4.5.9 LTS",
+    "blender_version_tuple": [
+      4,
+      5,
+      9
+    ],
+    "platform": "macOS-27.0.1-arm64-arm-64bit",
+    "python_version": "3.11.11"
+  },
+  "scene_settings_preserved": {
+    "camera": "Macro cinema camera",
+    "denoiser": "OPENIMAGEDENOISE",
+    "display_device": "sRGB",
+    "motion_blur_enabled": true,
+    "motion_blur_shutter": 0.3499999940395355,
+    "scene_frame_range": [
+      1,
+      192
+    ],
+    "view_exposure": -0.6499999761581421,
+    "view_gamma": 1.0,
+    "view_look": "AgX - Medium High Contrast",
+    "view_transform": "AgX"
+  },
+  "schema": "ep11-blender-saved-render/v1",
+  "status": "COMPLETE",
+  "updated_at_utc": "2026-10-21T04:49:52Z"
+}

@@ -1,0 +1,197 @@
+{
+  "scope": "closed mesh checks run when generating accepted scene",
+  "blend_sha256": "14be5907675f8d3fd7ff41a9efdee3c408dd00d5dd2b8c0e15494204c36cb570",
+  "checks": [
+    {
+      "name": "PorcelainBank_L_01",
+      "non_manifold_edges": 0,
+      "signed_volume": 47.72985075232659
+    },
+    {
+      "name": "PorcelainBank_L_02",
+      "non_manifold_edges": 0,
+      "signed_volume": 42.95521155323118
+    },
+    {
+      "name": "PorcelainBank_L_03",
+      "non_manifold_edges": 0,
+      "signed_volume": 46.27048613423786
+    },
+    {
+      "name": "PorcelainBank_L_04",
+      "non_manifold_edges": 0,
+      "signed_volume": 46.88478467791836
+    },
+    {
+      "name": "PorcelainBank_L_05",
+      "non_manifold_edges": 0,
+      "signed_volume": 50.18685737766232
+    },
+    {
+      "name": "PorcelainBank_L_06",
+      "non_manifold_edges": 0,
+      "signed_volume": 55.02027684975425
+    },
+    {
+      "name": "PorcelainBank_L_07",
+      "non_manifold_edges": 0,
+      "signed_volume": 56.27088647399814
+    },
+    {
+      "name": "PorcelainBank_L_08",
+      "non_manifold_edges": 0,
+      "signed_volume": 36.053680835983045
+    },
+    {
+      "name": "PorcelainBank_L_09",
+      "non_manifold_edges": 0,
+      "signed_volume": 46.64267662765341
+    },
+    {
+      "name": "PorcelainBank_R_01",
+      "non_manifold_edges": 0,
+      "signed_volume": 70.05489985058438
+    },
+    {
+      "name": "PorcelainBank_R_02",
+      "non_manifold_edges": 0,
+      "signed_volume": 52.308758394895484
+    },
+    {
+      "name": "PorcelainBank_R_03",
+      "non_manifold_edges": 0,
+      "signed_volume": 66.9361644324694
+    },
+    {
+      "name": "PorcelainBank_R_04",
+      "non_manifold_edges": 0,
+      "signed_volume": 61.02216662281603
+    },
+    {
+      "name": "PorcelainBank_R_05",
+      "non_manifold_edges": 0,
+      "signed_volume": 62.473205381606064
+    },
+    {
+      "name": "PorcelainBank_R_06",
+      "non_manifold_edges": 0,
+      "signed_volume": 67.37518868732938
+    },
+    {
+      "name": "PorcelainBank_R_07",
+      "non_manifold_edges": 0,
+      "signed_volume": 66.41918042666128
+    },
+    {
+      "name": "PorcelainBank_R_08",
+      "non_manifold_edges": 0,
+      "signed_volume": 55.70787049267205
+    },
+    {
+      "name": "PorcelainBank_R_09",
+      "non_manifold_edges": 0,
+      "signed_volume": 51.5863728555017
+    },
+    {
+      "name": "The shard that stops time",
+      "non_manifold_edges": 0,
+      "signed_volume": 0.014529756904658263
+    },
+    {
+      "name": "Porcelain rain 00",
+      "non_manifold_edges": 0,
+      "signed_volume": 0.00012755020686634804
+    },
+    {
+      "name": "Porcelain rain 01",
+      "non_manifold_edges": 0,
+      "signed_volume": 0.00039406138069291677
+    },
+    {
+      "name": "Porcelain rain 02",
+      "non_manifold_edges": 0,
+      "signed_volume": 0.00015687119125046265
+    },
+    {
+      "name": "Porcelain rain 03",
+      "non_manifold_edges": 0,
+      "signed_volume": 5.925194997155401e-05
+    },
+    {
+      "name": "Porcelain rain 04",
+      "non_manifold_edges": 0,
+      "signed_volume": 8.359990691861167e-05
+    },
+    {
+      "name": "Porcelain rain 05",
+      "non_manifold_edges": 0,
+      "signed_volume": 6.244136001965715e-05
+    },
+    {
+      "name": "Porcelain rain 06",
+      "non_manifold_edges": 0,
+      "signed_volume": 0.00040839549269246027
+    },
+    {
+      "name": "Porcelain rain 07",
+      "non_manifold_edges": 0,
+      "signed_volume": 3.082530966157216e-05
+    },
+    {
+      "name": "Porcelain rain 08",
+      "non_manifold_edges": 0,
+      "signed_volume": 0.00033350154711017627
+    },
+    {
+      "name": "Porcelain rain 09",
+      "non_manifold_edges": 0,
+      "signed_volume": 0.00028454615489951254
+    },
+    {
+      "name": "Porcelain rain 10",
+      "non_manifold_edges": 0,
+      "signed_volume": 0.00022790617323154204
+    },
+    {
+      "name": "Porcelain rain 11",
+      "non_manifold_edges": 0,
+      "signed_volume": 0.00010011407196630288
+    },
+    {
+      "name": "Porcelain rain 12",
+      "non_manifold_edges": 0,
+      "signed_volume": 0.00033052165873657794
+    },
+    {
+      "name": "Porcelain rain 13",
+      "non_manifold_edges": 0,
+      "signed_volume": 5.91053330585112e-05
+    },
+    {
+      "name": "Porcelain rain 14",
+      "non_manifold_edges": 0,
+      "signed_volume": 0.00018414657161408278
+    },
+    {
+      "name": "Porcelain rain 15",
+      "non_manifold_edges": 0,
+      "signed_volume": 2.9716946570980223e-05
+    },
+    {
+      "name": "Porcelain rain 16",
+      "non_manifold_edges": 0,
+      "signed_volume": 0.00012984221788001112
+    },
+    {
+      "name": "Porcelain rain 17",
+      "non_manifold_edges": 0,
+      "signed_volume": 0.0003855837970683772
+    }
+  ],
+  "all_manifold_and_positive_volume": true,
+  "not_tested": [
+    "self intersections",
+    "physical fracture simulation",
+    "completed reassembly"
+  ]
+}

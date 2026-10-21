@@ -1,0 +1,12 @@
+{
+  "frame": 96,
+  "comparison": "generator render vs saved-scene reopened sequence render",
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "identical_rgb_pixels": false,
+  "rgb_mae_0_255": 5.176183127572016e-05,
+  "rgb_max_difference": 1,
+  "human_acceptance": "NOT_RUN"
+}

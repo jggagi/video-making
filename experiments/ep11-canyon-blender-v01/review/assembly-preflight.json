@@ -1,0 +1,46 @@
+{
+  "status": "INPUTS_VALIDATED_NO_OUTPUTS_CREATED",
+  "frames_dir": "/Volumes/AgentDev/Scratch/ep11-canyon-blender-v01-look06-native-20261021",
+  "frame_count": 192,
+  "frame_manifest_sha256": "988076df2f99b22cccfe0f60b385dae4c03984c0e091f96d12252128594c9954",
+  "output_paths_available": {
+    "audio_master": "media/canyon-8s-master.wav",
+    "new_video": "media/new-canyon-clean.mp4",
+    "old_video": "media/old-canyon.mp4",
+    "comparison": "media/canyon-side-by-side.mp4",
+    "qa": "review/assembly-qa.json"
+  },
+  "font": {
+    "path": "/System/Library/Fonts/STHeiti Medium.ttc",
+    "family": "STHeiti Medium",
+    "provenance": "PingFang was not found in the checked macOS font directories; using the observed system STHeiti Medium TTC fallback."
+  },
+  "source_hashes": {
+    "study_brief": {
+      "path": "experiments/ep11-canyon-blender-v01/project/brief.md",
+      "bytes": 3081,
+      "sha256": "75370081384c1d4442943f91ecb12d8f143d6dfda6a9d77cc5677fb485adf625"
+    },
+    "v02_delivery_manifest": {
+      "path": "deliveries/si-ep11-kintsugi-ink-v02/delivery.json",
+      "bytes": 1118,
+      "sha256": "2d8003b166e4d07dff8e584238a1d08989030141e83778358d34a11530e29d66"
+    },
+    "v02_video": {
+      "path": "deliveries/si-ep11-kintsugi-ink-v02/小红书/si-ep11-kintsugi-ink-v02-xiaohongshu-90s-portrait.mp4",
+      "bytes": 117401896,
+      "sha256": "08f4a9e7a4a9cf231508f559044cee8c15ee5198ebc7658d2bc3424f865ccc35"
+    },
+    "v02_score": {
+      "path": "deliveries/si-ep11-kintsugi-ink-v02/project/public/audio/score.wav",
+      "bytes": 17280044,
+      "sha256": "78a5990ed91d0e518e46ac9e38114e4716adc16e85109d0d0d2e095167670409"
+    },
+    "v02_sfx": {
+      "path": "deliveries/si-ep11-kintsugi-ink-v02/project/public/audio/sfx.wav",
+      "bytes": 17280044,
+      "sha256": "b2f0b6e2683cf5b7c2053574f2cf466c5d37dff99732afcc4ec33e7d850d1901"
+    }
+  },
+  "writes_performed": false
+}

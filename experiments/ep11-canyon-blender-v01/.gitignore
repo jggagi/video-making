@@ -1,0 +1,10 @@
+# Editable native scene and large render outputs are preserved in the study Release.
+project/*.blend
+project/*.blend1
+review/look-*/
+review/locked-start/
+review/hero-4k.png
+review/release-upload-receipt.json
+review/restore/
+review/assembly-attempt-*/
+media/

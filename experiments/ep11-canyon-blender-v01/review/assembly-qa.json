@@ -1,0 +1,1644 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "created_utc": "2026-10-21T04:51:27.944099+00:00",
+  "scope": "8-second EP11 Blender porcelain-canyon material study only",
+  "study_brief_sha256": "75370081384c1d4442943f91ecb12d8f143d6dfda6a9d77cc5677fb485adf625",
+  "formal_v02_preserved": true,
+  "source_inputs": {
+    "study_brief": {
+      "path": "experiments/ep11-canyon-blender-v01/project/brief.md",
+      "bytes": 3081,
+      "sha256": "75370081384c1d4442943f91ecb12d8f143d6dfda6a9d77cc5677fb485adf625"
+    },
+    "v02_delivery_manifest": {
+      "path": "deliveries/si-ep11-kintsugi-ink-v02/delivery.json",
+      "bytes": 1118,
+      "sha256": "2d8003b166e4d07dff8e584238a1d08989030141e83778358d34a11530e29d66"
+    },
+    "v02_video": {
+      "path": "deliveries/si-ep11-kintsugi-ink-v02/小红书/si-ep11-kintsugi-ink-v02-xiaohongshu-90s-portrait.mp4",
+      "bytes": 117401896,
+      "sha256": "08f4a9e7a4a9cf231508f559044cee8c15ee5198ebc7658d2bc3424f865ccc35"
+    },
+    "v02_score": {
+      "path": "deliveries/si-ep11-kintsugi-ink-v02/project/public/audio/score.wav",
+      "bytes": 17280044,
+      "sha256": "78a5990ed91d0e518e46ac9e38114e4716adc16e85109d0d0d2e095167670409"
+    },
+    "v02_sfx": {
+      "path": "deliveries/si-ep11-kintsugi-ink-v02/project/public/audio/sfx.wav",
+      "bytes": 17280044,
+      "sha256": "b2f0b6e2683cf5b7c2053574f2cf466c5d37dff99732afcc4ec33e7d850d1901"
+    }
+  },
+  "rendered_frames": {
+    "directory": "/Volumes/AgentDev/Scratch/ep11-canyon-blender-v01-look06-native-20261021",
+    "count": 192,
+    "width": 1080,
+    "height": 1920,
+    "fps": 24,
+    "sha256_manifest": "988076df2f99b22cccfe0f60b385dae4c03984c0e091f96d12252128594c9954",
+    "frames": [
+      {
+        "name": "0001.png",
+        "bytes": 1890322,
+        "sha256": "fc6a23edd40f3448e269c18b0169a839eb9ccfe8eda3f358fede55f2c26cf3a7"
+      },
+      {
+        "name": "0002.png",
+        "bytes": 1889963,
+        "sha256": "5dc7305f33f24ee5c075e2d4c47e737cfa49264aae4bc400557b86d83f1714de"
+      },
+      {
+        "name": "0003.png",
+        "bytes": 1890197,
+        "sha256": "f1db7f1b10fedc6ccec024010f99f5b2e6d5eecad9950daeb0dc151efb36c008"
+      },
+      {
+        "name": "0004.png",
+        "bytes": 1890500,
+        "sha256": "c8a0ebc4aad6c8e1f5b5ebaa32078a03c1b2f603fa4bfd7e0596631f3e49078e"
+      },
+      {
+        "name": "0005.png",
+        "bytes": 1891673,
+        "sha256": "f5c25d6d4253b86604d72e1bc23d99899853445023b925b8a68cfbb1de74edd0"
+      },
+      {
+        "name": "0006.png",
+        "bytes": 1890172,
+        "sha256": "85ea5f359693bf03341730b187f5ed13d97abc6b1213a1b110ccaf96238b40c3"
+      },
+      {
+        "name": "0007.png",
+        "bytes": 1890002,
+        "sha256": "7ec8f5e0a9c90dc19b7f78bbdc460f46877b7046262822722db0db0b0c3c5637"
+      },
+      {
+        "name": "0008.png",
+        "bytes": 1889616,
+        "sha256": "8fdb0180c576e0b7decee75669060ab2e5a465aa830b4a39ac75c0385a99209e"
+      },
+      {
+        "name": "0009.png",
+        "bytes": 1889940,
+        "sha256": "5e8fa783bacb9f236f8f692b8ac0ba6c2a3ed8e23e560dde96874d2d67557245"
+      },
+      {
+        "name": "0010.png",
+        "bytes": 1890057,
+        "sha256": "52a6df78001e89a6ffc485f9de906a2f6349ca6fcee2d4d949f6e43eeacbce79"
+      },
+      {
+        "name": "0011.png",
+        "bytes": 1890681,
+        "sha256": "2a5b0a532c24de87998d3138fa787200379fd74b2421df5f188cdb668be5ba15"
+      },
+      {
+        "name": "0012.png",
+        "bytes": 1890501,
+        "sha256": "582d6aff44d9b5675d8af5ca314db04c069d62f3f73514e9462d1776d5a2168c"
+      },
+      {
+        "name": "0013.png",
+        "bytes": 1889954,
+        "sha256": "7ee3ee958b97b8d2654c4ab76df1e1c4cd041b7bcfc92bd38eaf0cb548479bd5"
+      },
+      {
+        "name": "0014.png",
+        "bytes": 1891000,
+        "sha256": "c813c6a7610f2d46f61d58951e7d08fcdc362c62e3f2dea85e807effedf50565"
+      },
+      {
+        "name": "0015.png",
+        "bytes": 1889941,
+        "sha256": "cdced37fe54b4d5feb6daf3bb615b34d325cd88b6f0306d5392b490913d5b918"
+      },
+      {
+        "name": "0016.png",
+        "bytes": 1891309,
+        "sha256": "250af5bf43b2103354f68e81d964326b957f9b0fa7f8b0feec89042ccf3e4d0e"
+      },
+      {
+        "name": "0017.png",
+        "bytes": 1890504,
+        "sha256": "b95c41d25cdd9308e2d268ea45d926ef15c3d3930b4dc1e2d6b767564b971f23"
+      },
+      {
+        "name": "0018.png",
+        "bytes": 1891827,
+        "sha256": "9e910695650fca33168b2b4c0c4aafa489e6f9f638c17fee025408adcad4fcd4"
+      },
+      {
+        "name": "0019.png",
+        "bytes": 1891405,
+        "sha256": "8a1e02c04bada2a44f443baaf8462b9ca824df00c323ed8c38a5cd8faff3c37a"
+      },
+      {
+        "name": "0020.png",
+        "bytes": 1890344,
+        "sha256": "790a2e3ddd441453137aa44263c0bed30f101398762137f48f016d2a8e8d7b63"
+      },
+      {
+        "name": "0021.png",
+        "bytes": 1890262,
+        "sha256": "e508b665d0d62a2f7a14d60b9d7d512bdef44e03a29fcf5a924422c39240b503"
+      },
+      {
+        "name": "0022.png",
+        "bytes": 1890963,
+        "sha256": "a017424b385e75048614da677388a4c0fd9177bfa1e12d191ea0146b97969d65"
+      },
+      {
+        "name": "0023.png",
+        "bytes": 1891367,
+        "sha256": "52ab7d92d5d750e067721c26f0acfec2c52b661ff4c190676912886f3e327f0b"
+      },
+      {
+        "name": "0024.png",
+        "bytes": 1891196,
+        "sha256": "db5b321b8f5c0b5cc5e7fd9f23f74488afe9b86c47a783342c038851c701f4e2"
+      },
+      {
+        "name": "0025.png",
+        "bytes": 1891498,
+        "sha256": "d91611c77c6cf8a8c1172d0881ed19fc4e33c7becc890c5b84af36f62e6cad19"
+      },
+      {
+        "name": "0026.png",
+        "bytes": 1891336,
+        "sha256": "2f5e4940bd68ef3eb573e20e0e944ca911793e9230d74807f1a00b590a6fe764"
+      },
+      {
+        "name": "0027.png",
+        "bytes": 1892043,
+        "sha256": "3497d8bdb04671e0e93ade308d5100494fb4e29a01311908ecdef64c42a712ea"
+      },
+      {
+        "name": "0028.png",
+        "bytes": 1891730,
+        "sha256": "e71177f6c7dce226dc23b46898b0e9579ba6f7728703ff2466252f69193f0203"
+      },
+      {
+        "name": "0029.png",
+        "bytes": 1891050,
+        "sha256": "ebc6a028fd80c7e555258b523075b9682716e81f7b1f392f1a995cbf17160624"
+      },
+      {
+        "name": "0030.png",
+        "bytes": 1891921,
+        "sha256": "719dfcfdb8ab77a4a39d415f6bea9e7c8c8a0253fd2b5fddf6c8040a2aa12200"
+      },
+      {
+        "name": "0031.png",
+        "bytes": 1893264,
+        "sha256": "4bc7918749ebb82efbeb08d579df35fe1361679d3859f63b46609c2369fd5cd1"
+      },
+      {
+        "name": "0032.png",
+        "bytes": 1892148,
+        "sha256": "89de35d5ce986eba7bd5ea326bd2c6397fda1401de9d898a1c7435deaf94b005"
+      },
+      {
+        "name": "0033.png",
+        "bytes": 1892016,
+        "sha256": "88ae81d0528ecfffb61650f04adc84be35e9a40a7d06d59aae2c83f3e17bb847"
+      },
+      {
+        "name": "0034.png",
+        "bytes": 1890657,
+        "sha256": "6d5e4e00643d748d6b40ba224652bed4fbb6e653d259528b32a5cef5f08c836e"
+      },
+      {
+        "name": "0035.png",
+        "bytes": 1891427,
+        "sha256": "41b1897f88b2a46c6a5fabd74fb3bf192e8aaa8c9075db5954326218efb74689"
+      },
+      {
+        "name": "0036.png",
+        "bytes": 1892129,
+        "sha256": "a5d9e1a686b113a540c83a3fb729cbbf5d294ea97af6e938fe6d5856c5889c41"
+      },
+      {
+        "name": "0037.png",
+        "bytes": 1892410,
+        "sha256": "153bfeb260e91a30c94ee60575ed945647ba1d4cc924cf8417a0817f5151ca59"
+      },
+      {
+        "name": "0038.png",
+        "bytes": 1890804,
+        "sha256": "934449328697f6faec8b7582f633fa4c72574f69dc64d3808f2cd6de1f700bc7"
+      },
+      {
+        "name": "0039.png",
+        "bytes": 1890304,
+        "sha256": "34ebaba01c416ecbe2e054fb039a46eb25a84dba9060194b43a4ad827e2b7927"
+      },
+      {
+        "name": "0040.png",
+        "bytes": 1892431,
+        "sha256": "99c91eabc2685643844c71635842055215e617bda48fc108a199a93a07904cda"
+      },
+      {
+        "name": "0041.png",
+        "bytes": 1892299,
+        "sha256": "d243dec8f8254f24caa445eadeeac4c0e0596a5a9429c85fb165fc2d08718f54"
+      },
+      {
+        "name": "0042.png",
+        "bytes": 1891701,
+        "sha256": "a08bb54865c44a342b61851c2e8eb7f1487228b5a0ad7b9f192690f9b00bff7f"
+      },
+      {
+        "name": "0043.png",
+        "bytes": 1892079,
+        "sha256": "47dad70f6798663cbf73eefc660d740815d4bc388229127657ab79101e10eb5a"
+      },
+      {
+        "name": "0044.png",
+        "bytes": 1891999,
+        "sha256": "9cc0ff47ed3d4514ffcaacfeff48a752bc2eee8b9a57aacda662ceea76773eb0"
+      },
+      {
+        "name": "0045.png",
+        "bytes": 1890709,
+        "sha256": "dcc57e3fdee7cf48c255de57e96540d4cd15c37f51b5012240272d3d6f8fb101"
+      },
+      {
+        "name": "0046.png",
+        "bytes": 1890956,
+        "sha256": "f487dbdcd17c9d056eb45939ffac7302a24b8024b0f29095f275b3774792ff6c"
+      },
+      {
+        "name": "0047.png",
+        "bytes": 1891120,
+        "sha256": "23fdaa3ddb450c581eba20f21bbecff81dc664a5d7d88a5790998d5b17f04b20"
+      },
+      {
+        "name": "0048.png",
+        "bytes": 1891051,
+        "sha256": "053539fb695b4a77c190b8667e934adc4dede79bac56acca9662e11547f83f70"
+      },
+      {
+        "name": "0049.png",
+        "bytes": 1890457,
+        "sha256": "dfad0cf1c3cbc81db21f1b220a468c7718f7d69de09ff49d4df853f943a22234"
+      },
+      {
+        "name": "0050.png",
+        "bytes": 1889235,
+        "sha256": "1c2266636d50e43df3f9fca4428f9ffe59f19e4be4f6d1262abda05873b615b2"
+      },
+      {
+        "name": "0051.png",
+        "bytes": 1891476,
+        "sha256": "1bcd7243a59fbdd5f3f7609974b7d5aabacedce563f4ae9283a477ba576897ab"
+      },
+      {
+        "name": "0052.png",
+        "bytes": 1891629,
+        "sha256": "1966026451e2e42fd52d6fb16e402408d57b8d340b9ce0c8356d79de363401f4"
+      },
+      {
+        "name": "0053.png",
+        "bytes": 1891683,
+        "sha256": "7f2d21afb1de0bf6a688de379fc355b51c13dc1edba5dadde44b57328a196adb"
+      },
+      {
+        "name": "0054.png",
+        "bytes": 1891472,
+        "sha256": "195c66ce1ad7ae2730c5bc17ae55cbeb50c11b8fdbbe9bf4b1f3bb63402b833c"
+      },
+      {
+        "name": "0055.png",
+        "bytes": 1891518,
+        "sha256": "f203e96f41499a9c230674c84affefe07d93bbde1ecd68586cc235046b9dfb7e"
+      },
+      {
+        "name": "0056.png",
+        "bytes": 1890694,
+        "sha256": "1a8e7f970de79fa4901f9a9e0f26b2ed1c50e60bb0bae8bc5dd9829bb021b6c5"
+      },
+      {
+        "name": "0057.png",
+        "bytes": 1891832,
+        "sha256": "8b0f2b3dbf5779683949625f25241b1c6b761676cd34c1da462ea3dd8375b57a"
+      },
+      {
+        "name": "0058.png",
+        "bytes": 1891330,
+        "sha256": "5da4fd88c53d2ac14a169eb6bb8633e90cf7943a738c4882e51ceea7eff2a5cf"
+      },
+      {
+        "name": "0059.png",
+        "bytes": 1891378,
+        "sha256": "d0868bac43b116e992598378d2a446d8ef9f7fe177dbdef907f1fcafb7e67834"
+      },
+      {
+        "name": "0060.png",
+        "bytes": 1892080,
+        "sha256": "597bb0c5c5808c3dbb9ce90732fef753c777db7857e79c62702df38122783997"
+      },
+      {
+        "name": "0061.png",
+        "bytes": 1892161,
+        "sha256": "56fadedbad4768a443b46ba8b18e3766d26d85d6633a630bd695477721b094a6"
+      },
+      {
+        "name": "0062.png",
+        "bytes": 1891883,
+        "sha256": "90ed61685688e974021dc973938ab43a852780da4ee797f03d12b7f6c025160d"
+      },
+      {
+        "name": "0063.png",
+        "bytes": 1892290,
+        "sha256": "50f2f4c2f563397133f47cecf8052a1208bc325fe86d476f469c70cbbdacaa7f"
+      },
+      {
+        "name": "0064.png",
+        "bytes": 1892333,
+        "sha256": "0aee04fd693a4ef34a1a6e2fd74509f6785c38c9466195af90f3a1e8ad4e4699"
+      },
+      {
+        "name": "0065.png",
+        "bytes": 1891636,
+        "sha256": "0c2355db8f159a0206cbc8180d76e3c896724add239115cff531777131a01d64"
+      },
+      {
+        "name": "0066.png",
+        "bytes": 1891568,
+        "sha256": "83887805c21b3b4613bcddc9626e0c8ecca78d7405f91b8208d86b1222397430"
+      },
+      {
+        "name": "0067.png",
+        "bytes": 1891920,
+        "sha256": "55f20d0f530e581d3297a5bdc8c5b6a05b4283804785a8046ce3cbe292722b6e"
+      },
+      {
+        "name": "0068.png",
+        "bytes": 1892759,
+        "sha256": "c6ceca1cb471ebfc69ecf04f2ddc66db3d2793f32bff84a91f2d4dc01652ea93"
+      },
+      {
+        "name": "0069.png",
+        "bytes": 1891834,
+        "sha256": "c27dbfb19588bae89970d5f0a8f9c504bfd406aa338a168d8630d9a82589a509"
+      },
+      {
+        "name": "0070.png",
+        "bytes": 1891739,
+        "sha256": "c631af89ea31e03f3a2c04d532362c8abcedcc968f24c8680a155cae7b1eccfc"
+      },
+      {
+        "name": "0071.png",
+        "bytes": 1890630,
+        "sha256": "02b7718ab4c13a64dc43916e2eeed1b2392b77380e33e856efff39b041cbad32"
+      },
+      {
+        "name": "0072.png",
+        "bytes": 1891317,
+        "sha256": "35777c7b87cc9a36dc79bcee12c763eded9f946219a21a1d0d1f590a3612f915"
+      },
+      {
+        "name": "0073.png",
+        "bytes": 1891613,
+        "sha256": "dc85f6f2803f4938d85185ffb259be1deb3a4a36e1ed36e50fcfd0551df10673"
+      },
+      {
+        "name": "0074.png",
+        "bytes": 1890863,
+        "sha256": "3006d9b8ba4739cacf0970d01a8cc1d9f198ee7674c8a0ac848ae62910065020"
+      },
+      {
+        "name": "0075.png",
+        "bytes": 1891563,
+        "sha256": "110895154198eff8fadea280c9ca055eab7103d646912cfcbbd45e7684badb40"
+      },
+      {
+        "name": "0076.png",
+        "bytes": 1891366,
+        "sha256": "8ef2f5d3dc5e8fa5c696d1a16163f476c7362370734d1b8d419f8d1fcef72cab"
+      },
+      {
+        "name": "0077.png",
+        "bytes": 1890284,
+        "sha256": "2715d8328ef31b9324487a15a22773faef2234e3fb300148165202f483b46db6"
+      },
+      {
+        "name": "0078.png",
+        "bytes": 1890756,
+        "sha256": "14f4a23bd29030bdda812d1a90e51edeeb2307f6ec9ed7a06f2341c0c23878b2"
+      },
+      {
+        "name": "0079.png",
+        "bytes": 1891140,
+        "sha256": "07551a75094f773d1220066fbd1b49496850e689a275913707c651df0bc6da32"
+      },
+      {
+        "name": "0080.png",
+        "bytes": 1892797,
+        "sha256": "e447da7905cf4ace5ba1ddf4cc2692cf314423a3c0d93531b7fd751c1347bf02"
+      },
+      {
+        "name": "0081.png",
+        "bytes": 1890386,
+        "sha256": "23ec7642d040f1351a25bbdce99736247b7ac6ed2f259895736d1196b14a93db"
+      },
+      {
+        "name": "0082.png",
+        "bytes": 1893778,
+        "sha256": "77eb576bca549ccc24560318ebfbe3f59267bd720f7d0529cb5d69afa0749e0c"
+      },
+      {
+        "name": "0083.png",
+        "bytes": 1891503,
+        "sha256": "fd0023e32d3837a291b8f6c575a565444a1c0f4cc38a83146dbd6777a1283283"
+      },
+      {
+        "name": "0084.png",
+        "bytes": 1891406,
+        "sha256": "256111ffdd32ecd4e3374289bfa32b2eedc61d7d9fc22c76aa27066c18a74abc"
+      },
+      {
+        "name": "0085.png",
+        "bytes": 1891215,
+        "sha256": "3ae82a540463d4b6e95740705921c81dae6bf489eb4fee55b109c23a004c7620"
+      },
+      {
+        "name": "0086.png",
+        "bytes": 1892026,
+        "sha256": "c8de27c7eae868258e4c761c6d3bef6aed11653805c9c7adfda0c74300854914"
+      },
+      {
+        "name": "0087.png",
+        "bytes": 1892330,
+        "sha256": "720bbce365b5d0fc7b9bc792586c1b4f59fae40b7056c9f86a0f1793dace3d29"
+      },
+      {
+        "name": "0088.png",
+        "bytes": 1891796,
+        "sha256": "229cc52da3bda38736d1c6b94fbc3bcb54fcd3df44478118c013f2e616b71086"
+      },
+      {
+        "name": "0089.png",
+        "bytes": 1890750,
+        "sha256": "081b5fc00697177d5b02c69ec4dc295a0f64e4b18cfb819c1baeb3dc89d42e79"
+      },
+      {
+        "name": "0090.png",
+        "bytes": 1890724,
+        "sha256": "70e73a60c2f98159a77c959fba07197b08f5ac054f9c975aade2c754a5f7af47"
+      },
+      {
+        "name": "0091.png",
+        "bytes": 1891070,
+        "sha256": "8098b63e9735b0fa3fe7274d61dd80013490abae8ee7fa17a5931c004b57f4c2"
+      },
+      {
+        "name": "0092.png",
+        "bytes": 1891258,
+        "sha256": "e1143501deb0358bc8d39d44e3e66e49cd7fd3af60313b1cd3367d4573deb9ad"
+      },
+      {
+        "name": "0093.png",
+        "bytes": 1891645,
+        "sha256": "5b57c6ce452aec2c83625a3460677d3df232c61ccb3813395a0daacd52b594fe"
+      },
+      {
+        "name": "0094.png",
+        "bytes": 1890722,
+        "sha256": "0d8f09a0f61d6a6a1296ec32e7d80dfd69ed60febf05155c3aeb35886715d26e"
+      },
+      {
+        "name": "0095.png",
+        "bytes": 1890781,
+        "sha256": "49d65376da7076bf29806b5fdb7ae4ab6d4a993c5f9b9713e214d98f6a5c920a"
+      },
+      {
+        "name": "0096.png",
+        "bytes": 1890790,
+        "sha256": "62a7a0c86337c27f9d94412b0ffc36318b22b926e8c95f357133f9f557b70f8f"
+      },
+      {
+        "name": "0097.png",
+        "bytes": 1891114,
+        "sha256": "306e8c60f1b6f4d7fe37155c56731806d89eb33705a62a0cd04d63b5cff27cea"
+      },
+      {
+        "name": "0098.png",
+        "bytes": 1891711,
+        "sha256": "db154ec991f31682d923001a662bf30f35baf3cd7371b117df329e46f5c6354b"
+      },
+      {
+        "name": "0099.png",
+        "bytes": 1890513,
+        "sha256": "d2b1f16e020d5930c7dcd92451f7045b215a96abbc0641bca3a1f2f71a194175"
+      },
+      {
+        "name": "0100.png",
+        "bytes": 1894327,
+        "sha256": "9052750aff1aa2ffa5d449b6fc93962399ca40d3ed12c5a136599633761c18bf"
+      },
+      {
+        "name": "0101.png",
+        "bytes": 1894054,
+        "sha256": "da7dbd394ad0ac9dfb13da709a29f780ae2701c0adc2e186c5ca67472dc56fcd"
+      },
+      {
+        "name": "0102.png",
+        "bytes": 1896807,
+        "sha256": "6a31f349ba1277ee5466a4ea6c7155ac9e69e997d13b2b5357cf65410f64f548"
+      },
+      {
+        "name": "0103.png",
+        "bytes": 1898812,
+        "sha256": "20f2c668aebb8cbad54c2a2322c0b98a7dcb463f95d9cfcbae8c895933f2580e"
+      },
+      {
+        "name": "0104.png",
+        "bytes": 1900086,
+        "sha256": "83c391879214b95db0fc4e73edaf55aec4f417e85ed07ee46485c68e190b7255"
+      },
+      {
+        "name": "0105.png",
+        "bytes": 1902379,
+        "sha256": "b755bacb85984a9d67932c1a8e1ca028ee5ac91f843acff999bf676b00be0b03"
+      },
+      {
+        "name": "0106.png",
+        "bytes": 1903427,
+        "sha256": "5b754ea9f4468cf3c5454125f0a320837af4b7a4d0e1a438aa9cd58f62cadfc3"
+      },
+      {
+        "name": "0107.png",
+        "bytes": 1905324,
+        "sha256": "927c4f2a646c6697edd038344a89acf9f0be394461f1defcf2de1d349c90f269"
+      },
+      {
+        "name": "0108.png",
+        "bytes": 1908762,
+        "sha256": "476941f190715edb45dbef73804eb3abc146fd8e8308c257443e676ba96de86e"
+      },
+      {
+        "name": "0109.png",
+        "bytes": 1912211,
+        "sha256": "15fd8f809a9f00df460eeed4a41d347d03972bbe9d02f3a0e74e049fd95d0a39"
+      },
+      {
+        "name": "0110.png",
+        "bytes": 1913217,
+        "sha256": "1880132fccdbbf7ba62cce86657e8dfdba0fdd7c9c420c0caf97948eb9de5f5e"
+      },
+      {
+        "name": "0111.png",
+        "bytes": 1915863,
+        "sha256": "97f2d215c51fd670c3a759e43765aad20255e2ee2ca38acf3286274a9e7eca2a"
+      },
+      {
+        "name": "0112.png",
+        "bytes": 1917503,
+        "sha256": "3e809ded9a2bec7039e7715ed10ff9a28db96a3f4be4371f92463cda536ad189"
+      },
+      {
+        "name": "0113.png",
+        "bytes": 1919323,
+        "sha256": "9ba0cf8b00ebee079239a38c43581c0d24cc58031b3b9c1ce0cc919565ea69be"
+      },
+      {
+        "name": "0114.png",
+        "bytes": 1918694,
+        "sha256": "8195eadce2e573ac30a97fa05fb9b18d6c07dd751827570c3023cdfb69507a80"
+      },
+      {
+        "name": "0115.png",
+        "bytes": 1922757,
+        "sha256": "19c1612f74b295bd49f67950502d03c16652b4ea3d5f8dc96bcc24580aa423f8"
+      },
+      {
+        "name": "0116.png",
+        "bytes": 1923930,
+        "sha256": "d978bcb713ca9cebbd5a446412034924d0506c29cffa10ca457f092108f60caf"
+      },
+      {
+        "name": "0117.png",
+        "bytes": 1927188,
+        "sha256": "95c11c54c6bb7f9cd5de6d4f5cf23bef98202a43ed24b19bdeaab389ec84cdfb"
+      },
+      {
+        "name": "0118.png",
+        "bytes": 1929023,
+        "sha256": "3f02b05347cb4827c45c22fd3b66f822ebcbb865b0ced32c69614f6337bbc155"
+      },
+      {
+        "name": "0119.png",
+        "bytes": 1930197,
+        "sha256": "5c21dcb7184b4f2eb3257d60a6d86cac0fa6539f1c10b0800efc10aeca7d6d50"
+      },
+      {
+        "name": "0120.png",
+        "bytes": 1929877,
+        "sha256": "7fee02240cae118fc70ad460e7f424ae1809b647d9d649a6d51d68eff2f001c9"
+      },
+      {
+        "name": "0121.png",
+        "bytes": 1930742,
+        "sha256": "0a48b430363bfdf72aff4f0e8166f53345492adc4337be574c4965efccd2c48d"
+      },
+      {
+        "name": "0122.png",
+        "bytes": 1930573,
+        "sha256": "b08f9358641aee13e558c32230a4dd0b6843064a5b2480aeafc7362b2646330f"
+      },
+      {
+        "name": "0123.png",
+        "bytes": 1931919,
+        "sha256": "df35123556767a58a2c7919105142899b1bc23d1038891a1e4517e5728ac31ea"
+      },
+      {
+        "name": "0124.png",
+        "bytes": 1931874,
+        "sha256": "edc39c7e067822dc5c08b96451ced56349039f18cda89e60f7c07b87eca07125"
+      },
+      {
+        "name": "0125.png",
+        "bytes": 1934695,
+        "sha256": "b8b727ebbedfb7cf9df12a2b22fc8060a9842b18d40ae389ab59633f5658e0de"
+      },
+      {
+        "name": "0126.png",
+        "bytes": 1935384,
+        "sha256": "4a8e25314a050d021d865478e1e1cc5f7ca627b6fb40d124eb767873262a8056"
+      },
+      {
+        "name": "0127.png",
+        "bytes": 1933609,
+        "sha256": "8d78b0066984a8da8815a521fff0241171d68b3ef28357a74eb7199e8fe35f27"
+      },
+      {
+        "name": "0128.png",
+        "bytes": 1936323,
+        "sha256": "f3392c8256c82a3aa2cdadcd6996f419955ed31634f3055fbd1c06e675f27ac5"
+      },
+      {
+        "name": "0129.png",
+        "bytes": 1936944,
+        "sha256": "f4076b82e2d6549ca5999e4201cf34195361774d95e2f5bdaa9f94f80161998e"
+      },
+      {
+        "name": "0130.png",
+        "bytes": 1937861,
+        "sha256": "6a3ace8cc7982ec5fc66aec6629481f67fa2757c3d8ed35a931b1f9abb48b57d"
+      },
+      {
+        "name": "0131.png",
+        "bytes": 1937420,
+        "sha256": "cd70389d5adb1bfd7e2a71ea205026bdbbf15c39faa1cd922ae2946d88dbb047"
+      },
+      {
+        "name": "0132.png",
+        "bytes": 1936497,
+        "sha256": "c0e44b36adc274a4b27c7f6385a8b27bc1e5a79a0d2b889c56ab2f3355a045a2"
+      },
+      {
+        "name": "0133.png",
+        "bytes": 1937553,
+        "sha256": "494c781bfff8936ad32a5ffe5623601e3510a35444185cba91769f4e2c3287bd"
+      },
+      {
+        "name": "0134.png",
+        "bytes": 1937862,
+        "sha256": "ea863464fb6c3d1ca2e4f1aae0ce554da36465c1852a24e74a25e54dc954203f"
+      },
+      {
+        "name": "0135.png",
+        "bytes": 1936682,
+        "sha256": "792bef0106c05511755adfd6f1813fed98f810b5c7411800844ccb5e7fe1fbf5"
+      },
+      {
+        "name": "0136.png",
+        "bytes": 1936626,
+        "sha256": "dfa8f755187a577999a3a0d2d3ee4911253ebcb672c0b4e2e969b7f4f1d3416a"
+      },
+      {
+        "name": "0137.png",
+        "bytes": 1936415,
+        "sha256": "e1c42ce46c70361c72aa50780f21485d6115c7abe95e54085eb54ce3e350835b"
+      },
+      {
+        "name": "0138.png",
+        "bytes": 1936476,
+        "sha256": "2bcd306d67baf8f421a4a7d4f3796563ccd8e35bc07ed73c5a439a42097ae2ae"
+      },
+      {
+        "name": "0139.png",
+        "bytes": 1936815,
+        "sha256": "4ba0b3f7b7e2da5ce21256048be63dd670fa503dbfc90c6e7aeb2aac6ed56634"
+      },
+      {
+        "name": "0140.png",
+        "bytes": 1937269,
+        "sha256": "d5532ad70747b2a08475b40af34957bc475a6df6723b415c31ea3a7a5b44aa95"
+      },
+      {
+        "name": "0141.png",
+        "bytes": 1937615,
+        "sha256": "ab2b0c8411db35f7f8be8ae0163547b4679fb061cad0a02c5819426abcc215b9"
+      },
+      {
+        "name": "0142.png",
+        "bytes": 1936979,
+        "sha256": "dfa2d3f51bb2b7e614157a321acf5bc0aa4ae2e1cacbb13926f60132f17ea4ae"
+      },
+      {
+        "name": "0143.png",
+        "bytes": 1937921,
+        "sha256": "ccc616ce0990885431aae78f2e2f30d892dde9172d71fdb1f935d4c963802a5f"
+      },
+      {
+        "name": "0144.png",
+        "bytes": 1939195,
+        "sha256": "ee56a087843117bba301692b2ae6b3498247f8ce70d79f6d9eee99ccb357b212"
+      },
+      {
+        "name": "0145.png",
+        "bytes": 1938290,
+        "sha256": "47a7bc98d0b6112aa33ce7083e9b295a3e83e8965364fe24367b722fd1076e7d"
+      },
+      {
+        "name": "0146.png",
+        "bytes": 1938679,
+        "sha256": "7985e789c8ecc5e92213af94d145837f122a5b8ea6404c445ccaa90b3d8072fb"
+      },
+      {
+        "name": "0147.png",
+        "bytes": 1938528,
+        "sha256": "3ae8c9eb5d56cea37bd0a896d45ecb3c8c0cddae66590c9031f160c32b3a554c"
+      },
+      {
+        "name": "0148.png",
+        "bytes": 1938850,
+        "sha256": "61cbde16dfa84259efd8bf7eedc1a9ea96820f78eafbe4d1777734c742682c43"
+      },
+      {
+        "name": "0149.png",
+        "bytes": 1939770,
+        "sha256": "36e77cd37754b3c934e80f343077e05a68355e7b352ffefc3600b546bbd0d713"
+      },
+      {
+        "name": "0150.png",
+        "bytes": 1940324,
+        "sha256": "6753dee0c56e8373cc2d46f125bd1c077c0a166f99fae3730a5136be89aaa317"
+      },
+      {
+        "name": "0151.png",
+        "bytes": 1938546,
+        "sha256": "d8c6febef88d498f9195e80ba09ae23d7a913874dd0d4bad8e06cfc63122da95"
+      },
+      {
+        "name": "0152.png",
+        "bytes": 1940396,
+        "sha256": "da06f98fb9d13d9202c82b9e2ff2c1f49124e11e7ee7079b790dca7d682bd580"
+      },
+      {
+        "name": "0153.png",
+        "bytes": 1941488,
+        "sha256": "f544fb1372ec08a2ee228844bff64058b349a45b97aafccda8c9ace7679ed633"
+      },
+      {
+        "name": "0154.png",
+        "bytes": 1940451,
+        "sha256": "8bbfb9865c998696f6c5d2ecad098fe4e17fdf0d8828a1cb1df2d39ec5ed5f81"
+      },
+      {
+        "name": "0155.png",
+        "bytes": 1941008,
+        "sha256": "0161abcef357c6ced50318433105f5ab6abf824940bf19e8336adb243be15343"
+      },
+      {
+        "name": "0156.png",
+        "bytes": 1941144,
+        "sha256": "df5895dd3883b44fdad8709d06e6b1960e13f62b87a9023296c455f68845b7ee"
+      },
+      {
+        "name": "0157.png",
+        "bytes": 1940400,
+        "sha256": "3e2ad62a4331f40884f7e3495778df3e50b326ec29952d455bdf6899a946772e"
+      },
+      {
+        "name": "0158.png",
+        "bytes": 1941423,
+        "sha256": "6d05df7cbc42f40874686f6eafb95a96417ea273d09c8c674daf7d2049f01eec"
+      },
+      {
+        "name": "0159.png",
+        "bytes": 1941367,
+        "sha256": "6730c5fc0ac4aa2fc47d453ed4fab1f4cc9e7e1cbea287932223972c710730e8"
+      },
+      {
+        "name": "0160.png",
+        "bytes": 1940164,
+        "sha256": "8ef0d0112ab95f5ae1cead6f94db4bba8b7c35b4b125cbc6a3dea151fe35a023"
+      },
+      {
+        "name": "0161.png",
+        "bytes": 1940352,
+        "sha256": "a66055915e08c1a61e6b94932f6b2cbce88e461c031cfd198079346c2bf26c87"
+      },
+      {
+        "name": "0162.png",
+        "bytes": 1941343,
+        "sha256": "f43ac02d78f465df66e8715ce7df6960724d689af431ba3b3a8ce6327e965552"
+      },
+      {
+        "name": "0163.png",
+        "bytes": 1940331,
+        "sha256": "2645a35948fd41b04bab541c05d7fca12697291e6304eae257aa9329d2bae765"
+      },
+      {
+        "name": "0164.png",
+        "bytes": 1940735,
+        "sha256": "0500f6ccbf9b19e7b43d0183899e397c4f5bb94eee10439e6d2f4e563098aa47"
+      },
+      {
+        "name": "0165.png",
+        "bytes": 1942396,
+        "sha256": "b405ad842a093d1a709d2696dbac56678accacd2cc53d88e02171bb9a3d5cafc"
+      },
+      {
+        "name": "0166.png",
+        "bytes": 1941833,
+        "sha256": "cbadf40934d36045b017b8f2abe801a30219672c3c0b21a2a04e4c78f45db69f"
+      },
+      {
+        "name": "0167.png",
+        "bytes": 1942517,
+        "sha256": "acd050fdddab2169300ac9615c7f3ac74e4a4a180e152ee3656357bcc5fecea5"
+      },
+      {
+        "name": "0168.png",
+        "bytes": 1941151,
+        "sha256": "6223ccc8eebee9b9e00c1fa45101dcb66920076aa46edcba3cf7b16a3f9a7153"
+      },
+      {
+        "name": "0169.png",
+        "bytes": 1941419,
+        "sha256": "94805d1fc33ef6391cfa5d1dac7659748ab965e82dc69eea5c21dd3c5b5f0e4a"
+      },
+      {
+        "name": "0170.png",
+        "bytes": 1940038,
+        "sha256": "68f4bf8310250dff2978139208bc79410e29ae3500b25af2a59d56a47199681e"
+      },
+      {
+        "name": "0171.png",
+        "bytes": 1939937,
+        "sha256": "d59789cf48b93df4b0eae7d191ce551ad9f4511700d89a1b1a6550f158b220b7"
+      },
+      {
+        "name": "0172.png",
+        "bytes": 1940594,
+        "sha256": "73801183a810e9769c629c218ef8036078878f519c3cde83efb8969cd2ee61c5"
+      },
+      {
+        "name": "0173.png",
+        "bytes": 1940800,
+        "sha256": "46847a5620136958e91b251dc09e2d95f0701ac872bdde1e1390ef3965f92ae2"
+      },
+      {
+        "name": "0174.png",
+        "bytes": 1940999,
+        "sha256": "c947ea79dda0997d2a11de3a630e1aefffb839b7ee33853605d9549c2f44dd1e"
+      },
+      {
+        "name": "0175.png",
+        "bytes": 1940506,
+        "sha256": "e4e2d5016f95b803d5241b57e0ac6b23584b08b8cb878830bc4881dc115e2f66"
+      },
+      {
+        "name": "0176.png",
+        "bytes": 1939313,
+        "sha256": "1e1601988e106b3e7dec03e0b2b1dfebeea04f34761eb9eb70efc230cc576d2d"
+      },
+      {
+        "name": "0177.png",
+        "bytes": 1941992,
+        "sha256": "fb47163335c0f5db8f371701c837d20f48fd24a63c20c3caf7ef100de27adfc9"
+      },
+      {
+        "name": "0178.png",
+        "bytes": 1943295,
+        "sha256": "1c02f301da156969b099dd23ef1332f8c07c60f35febdaeb748f250f48812cee"
+      },
+      {
+        "name": "0179.png",
+        "bytes": 1945247,
+        "sha256": "e954327d834d7250206a37811c539cb920aa5698d2eb5944cfaf66b4a77db5a6"
+      },
+      {
+        "name": "0180.png",
+        "bytes": 1944848,
+        "sha256": "e47c4c944f83e7e97464f3dc5f68f09bb49e6cebaf8f8bc769994db0703a17ea"
+      },
+      {
+        "name": "0181.png",
+        "bytes": 1947233,
+        "sha256": "af784aec27170f394fd8a7e6b136584bb24fab2274ea95ebfb5e1c91041df65d"
+      },
+      {
+        "name": "0182.png",
+        "bytes": 1944982,
+        "sha256": "7244163b0b1c6a9b932ee363d5ed77be259c35001679f5eae5f182e9e0f2be02"
+      },
+      {
+        "name": "0183.png",
+        "bytes": 1945878,
+        "sha256": "6c44baad96e8995718e9b86aa4cd062c4f6b6b6e7f954bb3bf236b1c0beebcee"
+      },
+      {
+        "name": "0184.png",
+        "bytes": 1943641,
+        "sha256": "dc91cf18413b98bb1837a57a39dc3639239bd59d40d1c1e32ba4fdc4c32f16ff"
+      },
+      {
+        "name": "0185.png",
+        "bytes": 1943612,
+        "sha256": "eb2a223a35700a68320bfae8932be3926f63c088ae9c3211acc40975cac6ad91"
+      },
+      {
+        "name": "0186.png",
+        "bytes": 1943580,
+        "sha256": "8354d1a9969820540d1f64549a27f7186300874546b78a608f11720a5e645b1f"
+      },
+      {
+        "name": "0187.png",
+        "bytes": 1943668,
+        "sha256": "1c9c80806c554aa20f3ad1ff525ea2e6fd9a2f1d2900e924e7de7d6704dcf8cb"
+      },
+      {
+        "name": "0188.png",
+        "bytes": 1943297,
+        "sha256": "eea0d602e128e42f94e97587ab3cf40ac385ce738d4c4425143a46411a249db3"
+      },
+      {
+        "name": "0189.png",
+        "bytes": 1942273,
+        "sha256": "5522c1f26f032aa2fed36c7c4fd4dd2d19b6f45926ab65c2f32f030166cff526"
+      },
+      {
+        "name": "0190.png",
+        "bytes": 1942514,
+        "sha256": "27aeb9d29644c771035ece0758ed4a18e5687978f11d3e79f05d4cb59f56a7cf"
+      },
+      {
+        "name": "0191.png",
+        "bytes": 1942919,
+        "sha256": "7fad22c4c7adaefa3ab7bdccdf6d548f219e34028fa6d4226fb7273876c3c394"
+      },
+      {
+        "name": "0192.png",
+        "bytes": 1942664,
+        "sha256": "b56dc6288fdbd97a6ef3e63fef8001ef57fece0387d6feb21864e77c17fc7c24"
+      }
+    ]
+  },
+  "audio_provenance": {
+    "sources": [
+      "v02 score.wav",
+      "v02 sfx.wav"
+    ],
+    "source_interval_seconds": [
+      46,
+      54
+    ],
+    "source_interval_samples": [
+      2208000,
+      2592000
+    ],
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples_per_channel": 384000,
+    "mix": "amix normalize=0; narration omitted; no new TTS",
+    "input_mix_true_peak_dbTP": -25.41,
+    "input_mix_integrated_lufs": -40.39,
+    "study_target_lufs": -20.0,
+    "master_integrated_lufs": -20.0,
+    "gain_mode": "constant gain shared by all editions; stem balance/dynamics unchanged",
+    "peak_limit_dbTP": -1.0,
+    "applied_gain_db": 20.39,
+    "master_true_peak_dbTP": -5.02,
+    "master_sample_peak_dbFS": -5.033438,
+    "master_decoded_pcm_sha256": "2fb1d777739145f3f8d7850fbf42a1a55e30929263b0ffce4ffa581ea2088629",
+    "same_audio_decoded_in_all_mp4s": true
+  },
+  "video_provenance": {
+    "old_source_interval_seconds": [
+      46,
+      54
+    ],
+    "old_source_sha256": "08f4a9e7a4a9cf231508f559044cee8c15ee5198ebc7658d2bc3424f865ccc35",
+    "old_clip_output": "1080x1920/24fps; downscaled from the formal 2160x3840/60fps source"
+  },
+  "encoding": {
+    "ffmpeg": "ffmpeg version 8.0.1 Copyright (c) 2000-2025 the FFmpeg developers",
+    "ffprobe": "ffprobe version 8.0.1 Copyright (c) 2007-2025 the FFmpeg developers",
+    "threads": 2,
+    "filter_threads": 2,
+    "video_codec": "H.264 / libx264",
+    "preset": "slow",
+    "crf": 16,
+    "fps": 24,
+    "pixel_format": "yuv420p",
+    "color": "BT.709 limited-range",
+    "new_png_color_conversion": "scale=in_range=full:out_color_matrix=bt709:out_range=tv,format=yuv444p,colorspace=ispace=bt709:irange=tv:iprimaries=bt709:itrc=srgb:space=bt709:range=tv:primaries=bt709:trc=bt709:format=yuv420p",
+    "audio_codec": "AAC 192 kb/s",
+    "faststart": true,
+    "comparison_canvas": {
+      "width": 1440,
+      "height": 1440,
+      "fps": 24
+    },
+    "comparison_panels": [
+      {
+        "label": "原版",
+        "x": 32,
+        "y": 170,
+        "width": 672,
+        "height": 1194
+      },
+      {
+        "label": "Blender 样片",
+        "x": 736,
+        "y": 170,
+        "width": 672,
+        "height": 1194
+      }
+    ],
+    "comparison_font": {
+      "path": "/System/Library/Fonts/STHeiti Medium.ttc",
+      "family": "STHeiti Medium",
+      "provenance": "PingFang was not found in the checked macOS font directories; using the observed system STHeiti Medium TTC fallback."
+    },
+    "comparison_plate": {
+      "path": "review/comparison-plate.png",
+      "sha256": "f530ae91ffad15b85f3413b99604eee0929577cefa3dcafb0fd2261d5933c2e5",
+      "pillow": "12.3.0",
+      "method": "Pillow text plate; no FFmpeg drawtext dependency"
+    },
+    "upscale_claim": false
+  },
+  "outputs": {
+    "audio_master": {
+      "path": "media/canyon-8s-master.wav",
+      "bytes": 1536078,
+      "sha256": "f422a52c123c081cc297d9baaa520a389ed6f44de3573487bb314665d0434538",
+      "ffprobe": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "pcm_s16le",
+            "codec_long_name": "PCM signed 16-bit little-endian",
+            "codec_type": "audio",
+            "codec_tag_string": "[1][0][0][0]",
+            "codec_tag": "0x0001",
+            "sample_fmt": "s16",
+            "sample_rate": "48000",
+            "channels": 2,
+            "bits_per_sample": 16,
+            "initial_padding": 0,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/48000",
+            "duration_ts": 384000,
+            "duration": "8.000000",
+            "bit_rate": "1536000",
+            "disposition": {
+              "default": 0,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            }
+          }
+        ],
+        "format": {
+          "filename": "/Users/guoq/Documents/ChatGPT/video/experiments/ep11-canyon-blender-v01/media/canyon-8s-master.wav",
+          "nb_streams": 1,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "wav",
+          "format_long_name": "WAV / WAVE (Waveform Audio)",
+          "duration": "8.000000",
+          "size": "1536078",
+          "bit_rate": "1536078",
+          "probe_score": 99,
+          "tags": {
+            "encoder": "Lavf62.3.100"
+          }
+        }
+      },
+      "full_decode": "PASS",
+      "pcm": {
+        "sample_rate": 48000,
+        "channels": 2,
+        "sample_width_bytes": 2,
+        "samples_per_channel": 384000,
+        "compression": "NONE"
+      },
+      "true_peak_dbTP": -5.02,
+      "sample_peak_dbFS": -5.033438
+    },
+    "new_video": {
+      "path": "media/new-canyon-clean.mp4",
+      "bytes": 3423202,
+      "sha256": "74e45f9cd254cfdf55810314e52d95390d46b81fd81f071dbf9871d4a5b5fb21",
+      "ffprobe": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+            "profile": "High",
+            "codec_type": "video",
+            "codec_tag_string": "avc1",
+            "codec_tag": "0x31637661",
+            "width": 1080,
+            "height": 1920,
+            "coded_width": 1080,
+            "coded_height": 1920,
+            "has_b_frames": 2,
+            "sample_aspect_ratio": "1:1",
+            "display_aspect_ratio": "9:16",
+            "pix_fmt": "yuv420p",
+            "level": 50,
+            "color_range": "tv",
+            "color_space": "bt709",
+            "color_transfer": "bt709",
+            "color_primaries": "bt709",
+            "chroma_location": "left",
+            "field_order": "progressive",
+            "refs": 1,
+            "is_avc": "true",
+            "nal_length_size": "4",
+            "id": "0x1",
+            "r_frame_rate": "24/1",
+            "avg_frame_rate": "24/1",
+            "time_base": "1/12288",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 98304,
+            "duration": "8.000000",
+            "bit_rate": "3222937",
+            "bits_per_raw_sample": "8",
+            "nb_frames": "192",
+            "extradata_size": 51,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "VideoHandler",
+              "vendor_id": "[0][0][0][0]",
+              "encoder": "Lavc62.11.100 libx264"
+            }
+          },
+          {
+            "index": 1,
+            "codec_name": "aac",
+            "codec_long_name": "AAC (Advanced Audio Coding)",
+            "profile": "LC",
+            "codec_type": "audio",
+            "codec_tag_string": "mp4a",
+            "codec_tag": "0x6134706d",
+            "sample_fmt": "fltp",
+            "sample_rate": "48000",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 0,
+            "id": "0x2",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/48000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 384000,
+            "duration": "8.000000",
+            "bit_rate": "192744",
+            "nb_frames": "376",
+            "extradata_size": 5,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "SoundHandler",
+              "vendor_id": "[0][0][0][0]"
+            }
+          }
+        ],
+        "format": {
+          "filename": "/Users/guoq/Documents/ChatGPT/video/experiments/ep11-canyon-blender-v01/media/new-canyon-clean.mp4",
+          "nb_streams": 2,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "format_long_name": "QuickTime / MOV",
+          "start_time": "0.000000",
+          "duration": "8.000000",
+          "size": "3423202",
+          "bit_rate": "3423202",
+          "probe_score": 100,
+          "tags": {
+            "major_brand": "isom",
+            "minor_version": "512",
+            "compatible_brands": "isomiso2avc1mp41",
+            "encoder": "Lavf62.3.100"
+          }
+        }
+      },
+      "full_decode": "PASS",
+      "decoded_video_frames": 192,
+      "audio": {
+        "codec": "aac",
+        "sample_rate": 48000,
+        "channels": 2,
+        "decoded_samples_per_channel": 384000,
+        "decoded_pcm_sha256": "cff758ed2dac70b3a220fce8a3b2f63c0fdc134d10a5eda84c72b436cd978854",
+        "source_pcm_master_sha256": "2fb1d777739145f3f8d7850fbf42a1a55e30929263b0ffce4ffa581ea2088629",
+        "decoded_sample_peak_dbFS": -5.193421,
+        "decoded_aac_tracks_identical": true
+      }
+    },
+    "old_video": {
+      "path": "media/old-canyon.mp4",
+      "bytes": 3844233,
+      "sha256": "b947c379b79de413fc5a713a411ea0f7dd55fc201c7b1b475923d9663aafe66e",
+      "ffprobe": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+            "profile": "High",
+            "codec_type": "video",
+            "codec_tag_string": "avc1",
+            "codec_tag": "0x31637661",
+            "width": 1080,
+            "height": 1920,
+            "coded_width": 1080,
+            "coded_height": 1920,
+            "has_b_frames": 2,
+            "sample_aspect_ratio": "1:1",
+            "display_aspect_ratio": "9:16",
+            "pix_fmt": "yuv420p",
+            "level": 50,
+            "color_range": "tv",
+            "color_space": "bt709",
+            "color_transfer": "bt709",
+            "color_primaries": "bt709",
+            "chroma_location": "left",
+            "field_order": "progressive",
+            "refs": 1,
+            "is_avc": "true",
+            "nal_length_size": "4",
+            "id": "0x1",
+            "r_frame_rate": "24/1",
+            "avg_frame_rate": "24/1",
+            "time_base": "1/12288",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 98304,
+            "duration": "8.000000",
+            "bit_rate": "3643659",
+            "bits_per_raw_sample": "8",
+            "nb_frames": "192",
+            "extradata_size": 51,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "VideoHandler",
+              "vendor_id": "[0][0][0][0]",
+              "encoder": "Lavc62.11.100 libx264"
+            }
+          },
+          {
+            "index": 1,
+            "codec_name": "aac",
+            "codec_long_name": "AAC (Advanced Audio Coding)",
+            "profile": "LC",
+            "codec_type": "audio",
+            "codec_tag_string": "mp4a",
+            "codec_tag": "0x6134706d",
+            "sample_fmt": "fltp",
+            "sample_rate": "48000",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 0,
+            "id": "0x2",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/48000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 384000,
+            "duration": "8.000000",
+            "bit_rate": "192744",
+            "nb_frames": "376",
+            "extradata_size": 5,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "SoundHandler",
+              "vendor_id": "[0][0][0][0]"
+            }
+          }
+        ],
+        "format": {
+          "filename": "/Users/guoq/Documents/ChatGPT/video/experiments/ep11-canyon-blender-v01/media/old-canyon.mp4",
+          "nb_streams": 2,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "format_long_name": "QuickTime / MOV",
+          "start_time": "0.000000",
+          "duration": "8.000000",
+          "size": "3844233",
+          "bit_rate": "3844233",
+          "probe_score": 100,
+          "tags": {
+            "major_brand": "isom",
+            "minor_version": "512",
+            "compatible_brands": "isomiso2avc1mp41",
+            "title": "逆转的沙漏 · 留住这一根白发",
+            "encoder": "Lavf62.3.100",
+            "comment": "Made with Remotion 4.0.534; EP11v02. Science-fiction thought experiment; whole-body rejuvenation and immortality remain speculative. Native 2160x3840, 60fps, 90 seconds. Procedural Three.js cinema and Bailian synthetic narration."
+          }
+        }
+      },
+      "full_decode": "PASS",
+      "decoded_video_frames": 192,
+      "audio": {
+        "codec": "aac",
+        "sample_rate": 48000,
+        "channels": 2,
+        "decoded_samples_per_channel": 384000,
+        "decoded_pcm_sha256": "cff758ed2dac70b3a220fce8a3b2f63c0fdc134d10a5eda84c72b436cd978854",
+        "source_pcm_master_sha256": "2fb1d777739145f3f8d7850fbf42a1a55e30929263b0ffce4ffa581ea2088629",
+        "decoded_sample_peak_dbFS": -5.193421,
+        "decoded_aac_tracks_identical": true
+      }
+    },
+    "comparison": {
+      "path": "media/canyon-side-by-side.mp4",
+      "bytes": 3125047,
+      "sha256": "e17a4a3ffd26190ed5d55b760258fb2f3202761eb5cb4674e09b305412c75c06",
+      "ffprobe": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+            "profile": "High",
+            "codec_type": "video",
+            "codec_tag_string": "avc1",
+            "codec_tag": "0x31637661",
+            "width": 1440,
+            "height": 1440,
+            "coded_width": 1440,
+            "coded_height": 1440,
+            "has_b_frames": 2,
+            "pix_fmt": "yuv420p",
+            "level": 50,
+            "color_range": "tv",
+            "color_space": "bt709",
+            "chroma_location": "left",
+            "field_order": "progressive",
+            "refs": 1,
+            "is_avc": "true",
+            "nal_length_size": "4",
+            "id": "0x1",
+            "r_frame_rate": "24/1",
+            "avg_frame_rate": "24/1",
+            "time_base": "1/12288",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 98304,
+            "duration": "8.000000",
+            "bit_rate": "2924819",
+            "bits_per_raw_sample": "8",
+            "nb_frames": "192",
+            "extradata_size": 49,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "VideoHandler",
+              "vendor_id": "[0][0][0][0]",
+              "encoder": "Lavc62.11.100 libx264"
+            }
+          },
+          {
+            "index": 1,
+            "codec_name": "aac",
+            "codec_long_name": "AAC (Advanced Audio Coding)",
+            "profile": "LC",
+            "codec_type": "audio",
+            "codec_tag_string": "mp4a",
+            "codec_tag": "0x6134706d",
+            "sample_fmt": "fltp",
+            "sample_rate": "48000",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 0,
+            "id": "0x2",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/48000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 384000,
+            "duration": "8.000000",
+            "bit_rate": "192744",
+            "nb_frames": "376",
+            "extradata_size": 5,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "SoundHandler",
+              "vendor_id": "[0][0][0][0]"
+            }
+          }
+        ],
+        "format": {
+          "filename": "/Users/guoq/Documents/ChatGPT/video/experiments/ep11-canyon-blender-v01/media/canyon-side-by-side.mp4",
+          "nb_streams": 2,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "format_long_name": "QuickTime / MOV",
+          "start_time": "0.000000",
+          "duration": "8.000000",
+          "size": "3125047",
+          "bit_rate": "3125047",
+          "probe_score": 100,
+          "tags": {
+            "major_brand": "isom",
+            "minor_version": "512",
+            "compatible_brands": "isomiso2avc1mp41",
+            "encoder": "Lavf62.3.100"
+          }
+        }
+      },
+      "full_decode": "PASS",
+      "decoded_video_frames": 192,
+      "audio": {
+        "codec": "aac",
+        "sample_rate": 48000,
+        "channels": 2,
+        "decoded_samples_per_channel": 384000,
+        "decoded_pcm_sha256": "cff758ed2dac70b3a220fce8a3b2f63c0fdc134d10a5eda84c72b436cd978854",
+        "source_pcm_master_sha256": "2fb1d777739145f3f8d7850fbf42a1a55e30929263b0ffce4ffa581ea2088629",
+        "decoded_sample_peak_dbFS": -5.193421,
+        "decoded_aac_tracks_identical": true
+      }
+    }
+  },
+  "acceptance": {
+    "automated_assembly": "PASS",
+    "human_review": "NOT_RUN",
+    "target_device_playback": "NOT_RUN",
+    "creative_acceptance": "NOT_RUN"
+  }
+}

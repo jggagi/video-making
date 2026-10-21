@@ -1,0 +1,49 @@
+{
+  "scope": "first 48 native frames only; silent intermediate preview",
+  "video": "review/first-two-seconds.mp4",
+  "browser": "Chrome",
+  "source_url": "http://127.0.0.1:65311/review/first-two-seconds.mp4",
+  "observed_running": {
+    "currentTime": 0.182848,
+    "duration": 2,
+    "paused": false,
+    "ended": false,
+    "playbackRate": 1,
+    "error": null,
+    "videoWidth": 1080,
+    "videoHeight": 1920
+  },
+  "observed_completion": {
+    "currentTime": 2,
+    "duration": 2,
+    "paused": true,
+    "ended": true,
+    "playbackRate": 1,
+    "error": null
+  },
+  "full_8s_playback": "NOT_YET_RUN",
+  "human_perceptual_acceptance": "NOT_RUN",
+  "listening": "NOT_APPLICABLE_SILENT_PREVIEW",
+  "five_second_preview": {
+    "video": "review/first-five-seconds.mp4",
+    "silent": true,
+    "observed_running": {
+      "currentTime": 0.134785,
+      "duration": 5,
+      "paused": false,
+      "ended": false,
+      "rate": 1,
+      "error": null,
+      "width": 1080,
+      "height": 1920
+    },
+    "observed_completion": {
+      "currentTime": 5,
+      "duration": 5,
+      "paused": true,
+      "ended": true,
+      "rate": 1,
+      "error": null
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "repository": "jggagi/video-making",
+  "scope": "Nonformal 8-second experiment; excluded from formal final library",
+  "works": [
+    {
+      "id": "ep11-canyon-blender-v01-study",
+      "title": "EP11 · 瓷器峡谷 Blender 样片 01（8秒实验）",
+      "release_tag": "study-ep11-canyon-blender-v01",
+      "assets": [
+        {
+          "path": "experiments/ep11-canyon-blender-v01/media/new-canyon-clean.mp4",
+          "name": "ep11-canyon-blender-v01-new-1080x1920-24fps-8s.mp4",
+          "bytes": 3423202,
+          "sha256": "74e45f9cd254cfdf55810314e52d95390d46b81fd81f071dbf9871d4a5b5fb21",
+          "kind": "video",
+          "platform": "预览",
+          "role": "new study",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/study-ep11-canyon-blender-v01/ep11-canyon-blender-v01-new-1080x1920-24fps-8s.mp4"
+        },
+        {
+          "path": "experiments/ep11-canyon-blender-v01/media/canyon-side-by-side.mp4",
+          "name": "ep11-canyon-blender-v01-comparison-1440x1440-24fps-8s.mp4",
+          "bytes": 3125047,
+          "sha256": "e17a4a3ffd26190ed5d55b760258fb2f3202761eb5cb4674e09b305412c75c06",
+          "kind": "video",
+          "platform": "预览",
+          "role": "old / new comparison",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/study-ep11-canyon-blender-v01/ep11-canyon-blender-v01-comparison-1440x1440-24fps-8s.mp4"
+        },
+        {
+          "path": "experiments/ep11-canyon-blender-v01/media/ep11-canyon-blender-v01-editable.zip",
+          "name": "ep11-canyon-blender-v01-editable.zip",
+          "bytes": 17919685,
+          "sha256": "64d1cd7fdc2f5762b498a19bebf539a7a1f691c18df6de916e9ab6dc974e9bfa",
+          "kind": "project",
+          "platform": "工程",
+          "role": "editable project archive",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/study-ep11-canyon-blender-v01/ep11-canyon-blender-v01-editable.zip"
+        },
+        {
+          "path": "experiments/ep11-canyon-blender-v01/review/hero-4k.png",
+          "name": "ep11-canyon-blender-v01-hero-2160x3840.png",
+          "bytes": 7294757,
+          "sha256": "4af2e1f89d32ea781549401d22d0f38df89be856af6b5b7d792e96d5d8844a9b",
+          "kind": "project",
+          "platform": "工程",
+          "role": "native 4K still; not a video",
+          "download_url": "https://github.com/jggagi/video-making/releases/download/study-ep11-canyon-blender-v01/ep11-canyon-blender-v01-hero-2160x3840.png"
+        }
+      ]
+    }
+  ]
+}

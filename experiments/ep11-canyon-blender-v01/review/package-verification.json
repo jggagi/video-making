@@ -1,0 +1,151 @@
+{
+  "archive": "experiments/ep11-canyon-blender-v01/media/ep11-canyon-blender-v01-editable.zip",
+  "integrity_checks": {
+    "all_member_sha256_and_bytes": "PASS",
+    "no_overwrite_publication": "PASS",
+    "no_symlink_inputs": "PASS",
+    "zip_crc_test": "PASS"
+  },
+  "member_count": 25,
+  "members": [
+    {
+      "bytes": 4385,
+      "path": "package-manifest.json",
+      "sha256": "ac4a91b8a5f0a2aa7e99b108bd719f174e4b1ffae3ab62cb3e60ad74b2be8f80"
+    },
+    {
+      "bytes": 258,
+      "path": ".gitignore",
+      "sha256": "433ccd9650497af8985d8be8f4ef799d819bd200ebde792aa9d897627b77d26d"
+    },
+    {
+      "bytes": 5525,
+      "path": "README.md",
+      "sha256": "5d5c72595161657d5cc65554128ae9cc795bdd15842acd043590206940e316f5"
+    },
+    {
+      "bytes": 1536078,
+      "path": "media/canyon-8s-master.wav",
+      "sha256": "f422a52c123c081cc297d9baaa520a389ed6f44de3573487bb314665d0434538"
+    },
+    {
+      "bytes": 33149,
+      "path": "project/assemble.py",
+      "sha256": "d175ee7d5618555b19c1d0d1c357494bc7930926d3531eeb8102195c3d1c7546"
+    },
+    {
+      "bytes": 3081,
+      "path": "project/brief.md",
+      "sha256": "75370081384c1d4442943f91ecb12d8f143d6dfda6a9d77cc5677fb485adf625"
+    },
+    {
+      "bytes": 17815,
+      "path": "project/build_scene.py",
+      "sha256": "fc6d7b1284380456083a3ed7428567411c68529711c2760e30d4ec2614dc2f60"
+    },
+    {
+      "bytes": 14236,
+      "path": "project/geometry.py",
+      "sha256": "103232a66b41263fd195dfbd62b6b1ddca692385ced51e7ce46d23ab718fbd6c"
+    },
+    {
+      "bytes": 17003,
+      "path": "project/package_study.py",
+      "sha256": "c67ecbb48c5b3656d59bb5a67f05057c167ed722a648952732fbbbc97d773bfa"
+    },
+    {
+      "bytes": 8480073,
+      "path": "project/porcelain-canyon-look06.blend",
+      "sha256": "14be5907675f8d3fd7ff41a9efdee3c408dd00d5dd2b8c0e15494204c36cb570"
+    },
+    {
+      "bytes": 23188,
+      "path": "project/render_saved.py",
+      "sha256": "ecdcf2bd9746ef9fdc67c02764ae93e79283c8c6cda60b9d752b6b32b546ee42"
+    },
+    {
+      "bytes": 1721,
+      "path": "project/serve.mjs",
+      "sha256": "3793d7cbd4004c5134b80eb95f2e98e9ef694832c6b3762f085be7270790e84c"
+    },
+    {
+      "bytes": 6076,
+      "path": "review/acceptance.json",
+      "sha256": "cdc09745d7c0259022974e3fd4440baba871d629db77853a7f2c3083007a8283"
+    },
+    {
+      "bytes": 2266,
+      "path": "review/art-assessment.md",
+      "sha256": "29226500b342e79c3b79028b6a88e06a40dfea05006c24c2f17868b72900ef28"
+    },
+    {
+      "bytes": 52871,
+      "path": "review/assembly-qa.json",
+      "sha256": "66e1d8fba3d109c355c9bc05be9f62ff867190608e36f2ce3c9d4427878451b2"
+    },
+    {
+      "bytes": 141852,
+      "path": "review/comparison-encoded-7s.jpg",
+      "sha256": "3c754d176ee01ae58faf7bd431613f9371f24ed03c006a476115d8f647f5fd3f"
+    },
+    {
+      "bytes": 20562,
+      "path": "review/comparison-plate.png",
+      "sha256": "f530ae91ffad15b85f3413b99604eee0929577cefa3dcafb0fd2261d5933c2e5"
+    },
+    {
+      "bytes": 3548,
+      "path": "review/continuous-scan/report.json",
+      "sha256": "88f70087c2795a3852ed7a4716c743aedbf191737ada876e885595fdd70dfeca"
+    },
+    {
+      "bytes": 194040,
+      "path": "review/encoded-contact.jpg",
+      "sha256": "17ba4f6714baaaf9fae56e0529fca668af3dd3d09280c8d4b9debfcd6036340a"
+    },
+    {
+      "bytes": 4884,
+      "path": "review/geometry-validation.json",
+      "sha256": "643b44e55874c4fe8f86b0d2eccfc606a336cfd68f20b0b40218381e1ea9e0a2"
+    },
+    {
+      "bytes": 7294757,
+      "path": "review/hero-4k.png",
+      "sha256": "4af2e1f89d32ea781549401d22d0f38df89be856af6b5b7d792e96d5d8844a9b"
+    },
+    {
+      "bytes": 1925,
+      "path": "review/hero-render-report.json",
+      "sha256": "dfbeda9bad614fcebeab9092012b7ddbf1b9ca87a35fa321cf185e869c8a5740"
+    },
+    {
+      "bytes": 54024,
+      "path": "review/render-report.json",
+      "sha256": "d06ec57fc574a2b024e38678e48efa765bc3b3e7a8da894fff7b313c8fb86c7f"
+    },
+    {
+      "bytes": 271,
+      "path": "review/scene-reopen-pixel-check.json",
+      "sha256": "a9954a2014b41f93313382dcf6e0df7384cced2466467e620f93a9c5a8aae701"
+    },
+    {
+      "bytes": 2513,
+      "path": "watch.html",
+      "sha256": "8c23cc5184f6f23607a5e76e5649c233efc644cb6ecbb13d02f2c233674bc13f"
+    }
+  ],
+  "optional_continuous_scan_report_included": true,
+  "package_bytes": 17919685,
+  "package_manifest": {
+    "bytes": 4385,
+    "path": "package-manifest.json",
+    "sha256": "ac4a91b8a5f0a2aa7e99b108bd719f174e4b1ffae3ab62cb3e60ad74b2be8f80"
+  },
+  "package_sha256": "64d1cd7fdc2f5762b498a19bebf539a7a1f691c18df6de916e9ab6dc974e9bfa",
+  "runtime": {
+    "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+    "python": "3.14.6"
+  },
+  "schema": "ep11-canyon-blender-study-package-verification/v1",
+  "status": "PASS"
+}

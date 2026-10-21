@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-10-21T04:55:09.679763+00:00",
+  "scope": "8-second Blender direction study only",
+  "status": "TECHNICAL_PASS_CREATIVE_STUDY_ONLY",
+  "formal_v02": {
+    "sha256_after": "08f4a9e7a4a9cf231508f559044cee8c15ee5198ebc7658d2bc3424f865ccc35",
+    "unchanged": true,
+    "account_actions_in_this_study": false
+  },
+  "outputs": {
+    "audio_master": {
+      "path": "media/canyon-8s-master.wav",
+      "bytes": 1536078,
+      "sha256": "f422a52c123c081cc297d9baaa520a389ed6f44de3573487bb314665d0434538"
+    },
+    "new_video": {
+      "path": "media/new-canyon-clean.mp4",
+      "bytes": 3423202,
+      "sha256": "74e45f9cd254cfdf55810314e52d95390d46b81fd81f071dbf9871d4a5b5fb21"
+    },
+    "old_video": {
+      "path": "media/old-canyon.mp4",
+      "bytes": 3844233,
+      "sha256": "b947c379b79de413fc5a713a411ea0f7dd55fc201c7b1b475923d9663aafe66e"
+    },
+    "comparison": {
+      "path": "media/canyon-side-by-side.mp4",
+      "bytes": 3125047,
+      "sha256": "e17a4a3ffd26190ed5d55b760258fb2f3202761eb5cb4674e09b305412c75c06"
+    }
+  },
+  "scene": {
+    "blend_sha256": "14be5907675f8d3fd7ff41a9efdee3c408dd00d5dd2b8c0e15494204c36cb570",
+    "device": {
+      "cycles_device": "GPU",
+      "device_detection_error": null,
+      "gpu_backend": "METAL",
+      "gpu_devices": [
+        "Apple M4 (GPU - 10 cores)"
+      ]
+    },
+    "native_frames": 192,
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "fps": 24,
+    "duration_seconds": 8,
+    "samples_cap": 48,
+    "render_seconds": 2305.003324,
+    "mesh_checks": {
+      "closed_positive_volume_objects": 37,
+      "self_intersection_check": "NOT_RUN"
+    },
+    "reopen_pixel_check": {
+      "frame": 96,
+      "comparison": "generator render vs saved-scene reopened sequence render",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "identical_rgb_pixels": false,
+      "rgb_mae_0_255": 5.176183127572016e-05,
+      "rgb_max_difference": 1,
+      "human_acceptance": "NOT_RUN"
+    }
+  },
+  "hero_still": {
+    "path": "review/hero-4k.png",
+    "bytes": 7294757,
+    "sha256": "4af2e1f89d32ea781549401d22d0f38df89be856af6b5b7d792e96d5d8844a9b",
+    "native_dimensions": [
+      2160,
+      3840
+    ],
+    "frame": 168,
+    "samples_cap": 96,
+    "render_seconds": 59.123228,
+    "motion_4k_claim": false
+  },
+  "audio": {
+    "sources": [
+      "v02 score.wav",
+      "v02 sfx.wav"
+    ],
+    "source_interval_seconds": [
+      46,
+      54
+    ],
+    "source_interval_samples": [
+      2208000,
+      2592000
+    ],
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples_per_channel": 384000,
+    "mix": "amix normalize=0; narration omitted; no new TTS",
+    "input_mix_true_peak_dbTP": -25.41,
+    "input_mix_integrated_lufs": -40.39,
+    "study_target_lufs": -20.0,
+    "master_integrated_lufs": -20.0,
+    "gain_mode": "constant gain shared by all editions; stem balance/dynamics unchanged",
+    "peak_limit_dbTP": -1.0,
+    "applied_gain_db": 20.39,
+    "master_true_peak_dbTP": -5.02,
+    "master_sample_peak_dbFS": -5.033438,
+    "master_decoded_pcm_sha256": "2fb1d777739145f3f8d7850fbf42a1a55e30929263b0ffce4ffa581ea2088629",
+    "same_audio_decoded_in_all_mp4s": true
+  },
+  "encoded_qc": {
+    "strict_full_decode": "PASS_ALL_THREE_MP4S",
+    "frames_per_video": 192,
+    "continuous_scaled_scan": {
+      "decoded_frames": 192,
+      "width": 360,
+      "flagged_frames": 0,
+      "scope": "isolated flash heuristic only; not full perceptual acceptance"
+    },
+    "actual_images_inspected": [
+      "review/encoded-contact.jpg",
+      "review/comparison-encoded-7s.jpg",
+      "review/hero-4k.png"
+    ],
+    "left_right_labels": "verified left=old and right=Blender in actual encoded frame"
+  },
+  "browser_playback": {
+    "browser": "local macOS Chrome",
+    "comparison": {
+      "running_time": 0.019891,
+      "ended_time": 8,
+      "duration": 8,
+      "playback_rate": 1,
+      "error": null,
+      "dimensions": [
+        1440,
+        1440
+      ]
+    },
+    "new": {
+      "running_time": 0.019045,
+      "ended_time": 8,
+      "duration": 8,
+      "playback_rate": 1,
+      "error": null,
+      "dimensions": [
+        1080,
+        1920
+      ]
+    },
+    "listening": "NOT_RUN",
+    "target_phone": "NOT_RUN",
+    "human_visual_acceptance": "NOT_RUN",
+    "user_creative_acceptance": "PENDING"
+  },
+  "creative_assessment": {
+    "decision": "ACCEPTED_AS_DIRECTION_STUDY",
+    "evidence": "review/art-assessment.md",
+    "limits": [
+      "Stylized sculptural banks and some soft fracture shapes",
+      "No matching parent notch or completed shard reassembly",
+      "Gold uses geometric surface and material reveal, not fluid simulation",
+      "Geometry, materials, lighting, camera and renderer changed together; not isolated engine benchmark"
+    ]
+  },
+  "preserved_attempts": [
+    {
+      "scope": "look-01 through look-05 and interrupted first frame sequence",
+      "reason": "art direction review; repetition and shard icon shape rejected",
+      "formal_outputs_used": false
+    },
+    {
+      "scope": "review/assembly-attempt-01",
+      "reason": "FFmpeg build lacks drawtext; replaced labels with local Pillow plate",
+      "formal_outputs_used": false
+    }
+  ],
+  "source_files": {
+    "project/assemble.py": "d175ee7d5618555b19c1d0d1c357494bc7930926d3531eeb8102195c3d1c7546",
+    "project/brief.md": "75370081384c1d4442943f91ecb12d8f143d6dfda6a9d77cc5677fb485adf625",
+    "project/build_scene.py": "fc6d7b1284380456083a3ed7428567411c68529711c2760e30d4ec2614dc2f60",
+    "project/geometry.py": "103232a66b41263fd195dfbd62b6b1ddca692385ced51e7ce46d23ab718fbd6c",
+    "project/package_study.py": "c67ecbb48c5b3656d59bb5a67f05057c167ed722a648952732fbbbc97d773bfa",
+    "project/render_saved.py": "ecdcf2bd9746ef9fdc67c02764ae93e79283c8c6cda60b9d752b6b32b546ee42",
+    "project/serve.mjs": "3793d7cbd4004c5134b80eb95f2e98e9ef694832c6b3762f085be7270790e84c"
+  },
+  "archive_verification": "Recorded separately after upload in review/archive-verification.json; no archive-complete claim in this package record"
+}

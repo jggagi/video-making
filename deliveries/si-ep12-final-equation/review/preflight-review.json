@@ -1,0 +1,48 @@
+{
+  "status": "NATIVE_SAMPLES_RENDERED_AND_REPRESENTATIVE_FRAMES_OBSERVED",
+  "samples": [
+    {
+      "path": "review/motion-3900-4079.mp4",
+      "sha256": "d66cb21614c143eae1164af5c032f3265a26687350bb57746b5f7bcde91480e8",
+      "native_dimensions": [
+        2160,
+        3840
+      ],
+      "frames": 180,
+      "video_duration": "3.000000",
+      "audio_duration": "3.008000"
+    },
+    {
+      "path": "review/motion-4840-5019.mp4",
+      "sha256": "57e85067f024fbc45a4f23e663f392a36e9f80003f1927ab13752378f8432324",
+      "native_dimensions": [
+        2160,
+        3840
+      ],
+      "frames": 180,
+      "video_duration": "3.000000",
+      "audio_duration": "3.008000"
+    },
+    {
+      "path": "review/motion-60-239.mp4",
+      "sha256": "fd8456d2cc80ca5363dcf50e3c4e7bd675521c35a439c4948e3a6984ca72bd5d",
+      "native_dimensions": [
+        2160,
+        3840
+      ],
+      "frames": 180,
+      "video_duration": "3.000000",
+      "audio_duration": "3.008000"
+    }
+  ],
+  "observations": [
+    "Opening: flat panel diagrams and connected epicycle drawing in carbon ink; no HUD clipping; subtitle fits two lines at mobile size.",
+    "Frame4020: four plots visibly converge inside the gold astrolabe; type remains separate from the moving geometry.",
+    "Frames4859/4860/5002: micro-grid, rulers and HUD vanish at the authored point; a solitary dot and fine gold ring remain, with clean closing subtitle placement."
+  ],
+  "source_checks": "pure2D/determinism/typecheck/source subtitle equality passed",
+  "PCM_checks": "Root independently verified exact90s/48000Hz/stereo/samples and zero interval",
+  "human_continuous_listening": "NOT_RUN",
+  "normal_speed_audience_experience": "NOT_RUN",
+  "limits": "Model observations are encoded representative frames and automated checks; they do not constitute continuous human viewing/listening or device acceptance."
+}

@@ -1,0 +1,18 @@
+{
+  "status": "ORIGINAL_NATIVE_CAPTURE_SUPERSEDED_BY_REPAIR",
+  "file": "/Volumes/AgentDev/Scratch/tmp/si-ep12-native-SWUX7A/video-only.mp4",
+  "sha256": "283d95cb60a54373d3601031fb86905327e99e7ddcd8d3ad3b0a0e1b978831c2",
+  "bytes": 46345339,
+  "capture": {
+    "remotion": "4.0.534",
+    "chrome": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+    "imageFormat": "png",
+    "concurrency": 2,
+    "nativeWidth": 2160,
+    "nativeHeight": 3840
+  },
+  "scope": "Owned rebuildable native video track on verified AgentDev scratch; formal outputs remain in repository",
+  "final_movie_sha256": "39c3e73574ce57324f926820ffa99f7c6ba672337bca148075fc2b7cc29293c9",
+  "rejected_first_mux_sha256": "74e8012a927f8b6ac572a7048599198a3ee250809c0d07d9d330e0836a72378e",
+  "repair_evidence": "review/capture-repair.json"
+}

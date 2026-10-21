@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "platform": "xiaohongshu",
+  "status": "READY_FOR_UPLOAD_PACKAGE",
+  "accountSubmission": "not_started",
+  "coverHeadline": "当 AI 把整个宇宙算成一行公式，人类却突然开始怀念童年",
+  "title": "当宇宙被折叠成最后一行公式｜一眼万年 终章",
+  "disclosure": "科幻思想实验｜终极统一、位数和“未知为零”均为虚构设定，并非当前科学结论。",
+  "originalCaption": "三千年来，人类像一群在黑夜里摸象的盲人，用成千上万条公式，拼凑着宇宙的轮廓。\n宏观归相对论，微观归量子力学，生命归化学。我们引以为傲的科学大厦，其实是一张打满了聪明补丁、却彼此冲突的草稿纸。\n\n直到超级智能挥下「奥卡姆剃刀」。\n在它眼里，复杂从来不是宇宙的本相，只是人类算力不足的妥协。\n就像当年牛顿用一行万有引力，擦掉了托勒密上百个繁琐的本轮圆圈；超级智能在二维图纸上将引力、量子与生命的十万条定律一层层解开、对齐、抵消，最终折叠成了最后一行极简的黄金方程：\n**Q.E.D.（证明完毕，未知剩余：0）。**\n\n可当超级智能替人类翻到了宇宙的最后一页，所有的“为什么”都有了标准答案——\n**当所有的迷雾都变成了定理，我们才突然怀念起，那个抬头看着星空、什么都还不懂的童年。**\n\n——\n🎬 **「一眼万年」系列大结局 · EP.12《最后一行公式》**\n全片采用纯 2D 瑞士精密制图美学（Remotion 纯代码生成傅里叶本轮与共形映射），至此两季共 12 集全部完结。\n\n💬 **终章提问**：如果有一本写着宇宙全部终极答案的书放在你面前，翻开它就再也没有任何未知与悬念，你会选择翻开它，还是把它合上？\n\n`#超级智能` `#奥卡姆剃刀` `#物理学` `#科幻美学` `#平面设计` `#生成艺术` `#深度思考` `#宇宙` `#全剧终` `#一眼万年`",
+  "caption": "科幻思想实验｜终极统一、位数和“未知为零”均为虚构设定，并非当前科学结论。\n\n三千年来，人类像一群在黑夜里摸象的盲人，用成千上万条公式，拼凑着宇宙的轮廓。\n宏观归相对论，微观归量子力学，生命归化学。我们引以为傲的科学大厦，其实是一张打满了聪明补丁、却彼此冲突的草稿纸。\n\n直到超级智能挥下「奥卡姆剃刀」。\n在它眼里，复杂从来不是宇宙的本相，只是人类算力不足的妥协。\n就像当年牛顿用一行万有引力，擦掉了托勒密上百个繁琐的本轮圆圈；超级智能在二维图纸上将引力、量子与生命的十万条定律一层层解开、对齐、抵消，最终折叠成了最后一行极简的黄金方程：\n**Q.E.D.（证明完毕，未知剩余：0）。**\n\n可当超级智能替人类翻到了宇宙的最后一页，所有的“为什么”都有了标准答案——\n**当所有的迷雾都变成了定理，我们才突然怀念起，那个抬头看着星空、什么都还不懂的童年。**\n\n——\n🎬 **「一眼万年」系列大结局 · EP.12《最后一行公式》**\n全片采用纯 2D 瑞士精密制图美学（Remotion 纯代码生成傅里叶本轮与共形映射），至此两季共 12 集全部完结。\n\n💬 **终章提问**：如果有一本写着宇宙全部终极答案的书放在你面前，翻开它就再也没有任何未知与悬念，你会选择翻开它，还是把它合上？\n\n`#超级智能` `#奥卡姆剃刀` `#物理学` `#科幻美学` `#平面设计` `#生成艺术` `#深度思考` `#宇宙` `#全剧终` `#一眼万年`",
+  "hashtags": [
+    "超级智能",
+    "奥卡姆剃刀",
+    "物理学",
+    "科幻美学",
+    "平面设计",
+    "生成艺术",
+    "深度思考",
+    "宇宙",
+    "全剧终",
+    "一眼万年"
+  ],
+  "covers": [
+    {
+      "id": "A",
+      "frame": 4020,
+      "timeSeconds": 67,
+      "path": "小红书/cover-A.png",
+      "status": "EXTRACTED_FROM_FINAL_ENCODE",
+      "description": "Four 2D quadrants converging into the golden astrolabe on bone-white paper.",
+      "sha256": "3de7195c38a6b6106594bdc97ec0ab8e2c8f1677d1a27dbda592c91d41a0f6b3",
+      "movieSha256": "39c3e73574ce57324f926820ffa99f7c6ba672337bca148075fc2b7cc29293c9",
+      "headlineVariant": "小红书/cover-A-headline.png",
+      "headlineVariantSha256": "ae66804050286a4f70d6542bcfebe9813f1ba5ae3292776a9272b308196d600d"
+    },
+    {
+      "id": "B",
+      "frame": 5040,
+      "timeSeconds": 84,
+      "path": "小红书/cover-B.png",
+      "status": "EXTRACTED_FROM_FINAL_ENCODE",
+      "description": "The solitary Q.E.D. dot on a vast bone-white canvas.",
+      "sha256": "98f454759b51baa4cf76de39503f8ca25df74fc8a32197752c021231c38ae3f5",
+      "movieSha256": "39c3e73574ce57324f926820ffa99f7c6ba672337bca148075fc2b7cc29293c9",
+      "headlineVariant": "小红书/cover-B-headline.png",
+      "headlineVariantSha256": "88ece15f0793bb215e6024b173488f79a77e7173a80fcfe594e0606d8b25f76a"
+    }
+  ],
+  "copyReview": {
+    "originalCaptionPreserved": true,
+    "seriesCompletionClaim": "retained as user-supplied promotional copy; not independently verified",
+    "historicalSimplification": "Newton and Ptolemy/epicycles wording retained and qualified in scientific-notes.md"
+  },
+  "movie": {
+    "path": "小红书/si-ep12-final-equation-xiaohongshu-90s-portrait.mp4",
+    "sha256": "39c3e73574ce57324f926820ffa99f7c6ba672337bca148075fc2b7cc29293c9",
+    "durationSeconds": 90,
+    "width": 2160,
+    "height": 3840,
+    "fps": 60
+  },
+  "contentDeclaration": "AI合成旁白；程序化纯2D视觉；科幻思想实验。"
+}

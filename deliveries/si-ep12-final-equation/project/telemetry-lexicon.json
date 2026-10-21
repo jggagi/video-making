@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "fictional": true,
+  "interpretation": "All numerical counters and completion states are narrative interface graphics, not measured scientific telemetry.",
+  "compactHud": {
+    "maxAsciiCharactersPerLine": 43,
+    "lines": [
+      {
+        "id": "science-model",
+        "fragmented": "SCIENCE: 14,820 PATCHES / FRAGMENTED",
+        "unified": "SCIENCE: 1 UNIFIED AXIOM",
+        "transitionAct": "ACT3"
+      },
+      {
+        "id": "description-length",
+        "display": "K(U): 10^18 BITS -> 128 BITS",
+        "animation": "Smooth logarithmic countdown; fictional values only."
+      },
+      {
+        "id": "occam",
+        "display": "OCCAM: SYMBOLIC REGRESSION ACTIVE"
+      }
+    ],
+    "placement": {
+      "logicalCanvas": [
+        1080,
+        1920
+      ],
+      "x": 64,
+      "width": 856,
+      "rightEdge": 920,
+      "fontSizeLogicalPx": 30,
+      "topBandPercent": [
+        9,
+        14
+      ]
+    }
+  },
+  "sourceOriginal": {
+    "hudLines": [
+      "HUMAN SCIENCE MODEL: 14,820 PATCHED EQUATIONS [FRAGMENTED]",
+      "KOLMOGOROV COMPLEXITY K(U): 10^18 BITS -> 128 BITS",
+      "OCCAM'S RAZOR COMPRESSION: [SYMBOLIC REGRESSION ACTIVE]"
+    ],
+    "otherTelemetry": [
+      "[GENERAL RELATIVITY: SMOOTH METRIC] $\\neq$ [QUANTUM FIELD: UV DIVERGENCE]",
+      "[NAVIER-STOKES TURBULENCE: UNSOLVED]",
+      "[EPICYCLE PATCH COUNT: 14,820 // REDUNDANCY: 99.94%]",
+      "[OCCAM'S RAZOR: ΔK -> MIN]",
+      "UNIFIED DESCRIPTION LENGTH: 1 EQUATION // RESIDUAL MYSTERY: 0.000%",
+      "[Q.E.D. // 宇宙全部定律已证明完毕 — 未知剩余: 0]"
+    ],
+    "scienceDisplayStringsAreFictional": true
+  }
+}

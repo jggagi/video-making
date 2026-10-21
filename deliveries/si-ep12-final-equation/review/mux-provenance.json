@@ -1,0 +1,21 @@
+{
+  "status": "SUPERSEDED_FIRST_CAPTURE",
+  "video_only_sha256": "283d95cb60a54373d3601031fb86905327e99e7ddcd8d3ad3b0a0e1b978831c2",
+  "movie_sha256": "74e8012a927f8b6ac572a7048599198a3ee250809c0d07d9d330e0836a72378e",
+  "master_sha256": "3de3ad61062a408832aa238bc495e7f26c1d54498e00f6390a7844099a333c81",
+  "native_dimensions": [
+    2160,
+    3840
+  ],
+  "video_frames": 5400,
+  "video_duration": 90.0,
+  "audio_duration": 90.0,
+  "container_duration": 90.0,
+  "master_samples_per_channel": 4320000,
+  "master_silence_frames": [
+    4860,
+    4890
+  ],
+  "AAC_silence_note": "Exact digital zero is guaranteed in PCM; AAC transform coding can create boundary leakage, separately measured.",
+  "scope": "Original PCM-to-AAC mux proof; its video was rejected for frame1322 capture tiling. Current final is tracked by capture-repair.json and fresh final-QA hash."
+}

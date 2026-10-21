@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "fps": 60,
+  "sampleRate": 48000,
+  "samplesPerFrame": 800,
+  "absoluteSilence": {
+    "startFrame": 4860,
+    "endFrameExclusive": 4890,
+    "startSample": 3888000,
+    "endSampleExclusive": 3912000,
+    "scope": [
+      "narration",
+      "score",
+      "sfx",
+      "master"
+    ],
+    "requireExactZero": true
+  },
+  "voiceMinimumOnsetFrame": 4902,
+  "events": [
+    {
+      "id": "pencil_escapement",
+      "frame": 60,
+      "sample": 48000,
+      "durationSeconds": 2.4,
+      "kind": "pencil_escapement",
+      "description": "Tactile drafting-pencil strokes on paper with a pocket-watch escapement tick."
+    },
+    {
+      "id": "out_of_phase_gears",
+      "frame": 840,
+      "sample": 672000,
+      "durationSeconds": 3.6,
+      "kind": "gears_errors",
+      "description": "Clockwork gears grind slightly out of phase, with sharp deterministic error ticks."
+    },
+    {
+      "id": "caliper_sweep",
+      "frame": 1440,
+      "sample": 1152000,
+      "durationSeconds": 2.6,
+      "kind": "caliper_sweep",
+      "description": "A razor-sharp metallic caliper sweep travels from left to right across stereo."
+    },
+    {
+      "id": "unlocking_rings",
+      "frame": 2280,
+      "sample": 1824000,
+      "durationSeconds": 2.8,
+      "kind": "rings_to_sine",
+      "description": "Mechanical rings unlock in a cascade and dissolve into a pure golden sine tone."
+    },
+    {
+      "id": "four_tones_unison",
+      "frame": 2940,
+      "sample": 2352000,
+      "durationSeconds": 3.8,
+      "kind": "four_to_unison",
+      "description": "Four distinct pitches converge smoothly into one unison golden tone."
+    },
+    {
+      "id": "precision_lock_resonance",
+      "frame": 3900,
+      "sample": 3120000,
+      "durationSeconds": 2.6,
+      "kind": "lock_resonance",
+      "description": "A precision horological lock clicks, followed by a radiant harmonic resonance."
+    },
+    {
+      "id": "tuning_fork",
+      "frame": 4500,
+      "sample": 3600000,
+      "durationSeconds": 5.0,
+      "kind": "tuning_fork",
+      "description": "A pure high tuning-fork overtone fades toward stillness before the silence."
+    },
+    {
+      "id": "pen_touch",
+      "frame": 4890,
+      "sample": 3912000,
+      "durationSeconds": 0.16,
+      "kind": "pen_touch",
+      "description": "A single fountain-pen nib touches the paper after the exact silence."
+    }
+  ],
+  "score": {
+    "kind": "deterministic procedural composition",
+    "silenceFrames": [
+      4860,
+      4890
+    ],
+    "nostalgicSoloPianoStartFrame": 4890,
+    "notes": "No score signal is allowed in the exact silence interval. After frame 4890, use authored fixed-note/trigonometric synthesis only."
+  }
+}

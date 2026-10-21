@@ -128,6 +128,10 @@ python3 scripts/fetch-archive-assets.py --root . --catalog final/backup-catalog.
 
 - [小红书 · si-ep11-kintsugi-ink-v02-xiaohongshu-90s-portrait.mp4](si-ep11-kintsugi-ink-v02/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep11-kintsugi-ink-v02-xiaohongshu-90s-portrait.mp4) · [GitHub final 备份](https://github.com/jggagi/video-making/releases/download/final-si-ep11-kintsugi-ink-v02-9ace946a093a/final--si-ep11-kintsugi-ink-v02--deliveries--si-ep11-kintsugi-ink-v02-----si-ep11-kintsugi-ink-v02-xiaohongshu-90s-portrait--08f4a9e7a4a9.mp4) · [原归档](https://github.com/jggagi/video-making/releases/download/film-si-ep11-kintsugi-ink-v02-9ace946a093a/si-ep11-kintsugi-ink-v02--deliveries--si-ep11-kintsugi-ink-v02-----si-ep11-kintsugi-ink-v02-xiaohongshu-90s-portrait--08f4a9e7a4a9.mp4)
 
+## 最后一行公式 (`si-ep12-final-equation`)
+
+- [小红书 · si-ep12-final-equation-xiaohongshu-90s-portrait.mp4](si-ep12-final-equation/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep12-final-equation-xiaohongshu-90s-portrait.mp4) · [GitHub final 备份](https://github.com/jggagi/video-making/releases/download/final-si-ep12-final-equation-9693cfcbd26b/final--si-ep12-final-equation--deliveries--si-ep12-final-equation-----si-ep12-final-equation-xiaohongshu-90s-portrait--39c3e73574ce.mp4) · [原归档](https://github.com/jggagi/video-making/releases/download/film-si-ep12-final-equation-9693cfcbd26b/si-ep12-final-equation--deliveries--si-ep12-final-equation-----si-ep12-final-equation-xiaohongshu-90s-portrait--39c3e73574ce.mp4)
+
 ## 一眼万年 (`si-eternity`)
 
 - [B站 · one-blink-ten-millennia-v3.mp4](%E4%B8%80%E7%9C%BC%E4%B8%87%E5%B9%B4/B%E7%AB%99/one-blink-ten-millennia-v3.mp4) · [GitHub final 备份](https://github.com/jggagi/video-making/releases/download/final-si-eternity-66d480b1c859/final--si-eternity--si-eternity--out--one-blink-ten-millennia-v3--4ef2326bf22b.mp4) · [原归档](https://github.com/jggagi/video-making/releases/download/archive-si-eternity-v1/si-eternity--si-eternity--out--one-blink-ten-millennia-v3--4ef2326bf22b.mp4)

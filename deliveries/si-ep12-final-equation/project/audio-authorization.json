@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "provider": "Aliyun Bailian",
+  "scope": "EP12 S01 through S08 exact prepared tts_phonetic_text",
+  "authorized": true,
+  "source": "Standing video-making voiceover authorization in skills/voiceover/SKILL.md (2026-10-20); current EP12 Task Packet",
+  "model_selection": "active profile default",
+  "effective_model_expected": "cosyvoice-v3-flash",
+  "voice": "longtian_v3",
+  "rate": 1.0,
+  "format": "wav",
+  "sample_rate": 24000,
+  "segment_ids": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06",
+    "S07",
+    "S08"
+  ],
+  "text_sha256": "a43eabd4f2de4d4d93d9b7e4b38af91575c118ae127c0fd29eaa4db7d91a2279"
+}

@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "generated_by": "scripts/build-final-library.py",
-  "total_files": 52,
-  "logical_bytes": 8644170396,
+  "total_files": 53,
+  "logical_bytes": 8703220033,
   "files": [
     {
       "source_path": "out/extended/兰亭集序-展厅增强版-1080p.mp4",
@@ -721,6 +721,21 @@
       "backup_release_tag": "final-si-ep11-kintsugi-ink-v02-9ace946a093a",
       "backup_release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep11-kintsugi-ink-v02-9ace946a093a",
       "backup_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep11-kintsugi-ink-v02-9ace946a093a/final--si-ep11-kintsugi-ink-v02--deliveries--si-ep11-kintsugi-ink-v02-----si-ep11-kintsugi-ink-v02-xiaohongshu-90s-portrait--08f4a9e7a4a9.mp4",
+      "materialization": "APFS clonefile for new files; existing independent matches are retained",
+      "verification": "SHA-256 matches archive catalog; stable stat and inode checks passed"
+    },
+    {
+      "source_path": "deliveries/si-ep12-final-equation/小红书/si-ep12-final-equation-xiaohongshu-90s-portrait.mp4",
+      "final_path": "final/si-ep12-final-equation/小红书/si-ep12-final-equation-xiaohongshu-90s-portrait.mp4",
+      "work_id": "si-ep12-final-equation",
+      "title": "最后一行公式",
+      "platform": "小红书",
+      "bytes": 59049637,
+      "sha256": "39c3e73574ce57324f926820ffa99f7c6ba672337bca148075fc2b7cc29293c9",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep12-final-equation-9693cfcbd26b/si-ep12-final-equation--deliveries--si-ep12-final-equation-----si-ep12-final-equation-xiaohongshu-90s-portrait--39c3e73574ce.mp4",
+      "backup_release_tag": "final-si-ep12-final-equation-9693cfcbd26b",
+      "backup_release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep12-final-equation-9693cfcbd26b",
+      "backup_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep12-final-equation-9693cfcbd26b/final--si-ep12-final-equation--deliveries--si-ep12-final-equation-----si-ep12-final-equation-xiaohongshu-90s-portrait--39c3e73574ce.mp4",
       "materialization": "APFS clonefile for new files; existing independent matches are retained",
       "verification": "SHA-256 matches archive catalog; stable stat and inode checks passed"
     },

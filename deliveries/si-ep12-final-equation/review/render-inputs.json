@@ -1,0 +1,34 @@
+{
+  "source_inputs": {
+    "project/src/Film.tsx": "08b8d12830ae908176ec39c9ebe401749fe59853fc492d1c8dff7a670c4c1145",
+    "project/src/Geometry.tsx": "84aa26229184e595e26ae352c0c34d2e48a999c90860a7be3c33ea980d47d382",
+    "project/src/Root.tsx": "04183e581a12ca3f01452c352c20ef5a679be6b89d2f4698b0fc219fe5cf918c",
+    "project/src/index.ts": "2e0e358282a1b998a65387c653b97c2bb2eb7aae94cf200fc0b8d919f7be73a6",
+    "project/audio-timing.json": "a8a9fdab521703842f7700aa9998f2e86a4f29e9439ae25b5db608c829778eef",
+    "project/public/audio/master.wav": "3de3ad61062a408832aa238bc495e7f26c1d54498e00f6390a7844099a333c81"
+  },
+  "render_spec": {
+    "native_dimensions": [
+      2160,
+      3840
+    ],
+    "fps": 60,
+    "frames": 5400,
+    "codec": "h264",
+    "pixel_format": "yuv420p",
+    "color_space": "bt709",
+    "intermediate_images": "png",
+    "concurrency": 2,
+    "crf": 18,
+    "x264_preset": "fast",
+    "remotion": "4.0.534",
+    "chrome_version": "155.0.8059.85"
+  },
+  "font_dependencies": "project/assets-manifest.json",
+  "previews": "review/preflight-review.json",
+  "scope": "Frozen creative inputs at full-render start. Final media and validation hashes added after actual encoding.",
+  "final_movie_sha256": "39c3e73574ce57324f926820ffa99f7c6ba672337bca148075fc2b7cc29293c9",
+  "creative_inputs_unchanged_since_render_start": true,
+  "rejected_first_candidate_sha256": "74e8012a927f8b6ac572a7048599198a3ee250809c0d07d9d330e0836a72378e",
+  "capture_repair": "review/capture-repair.json"
+}

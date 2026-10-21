@@ -1,0 +1,7 @@
+{
+  "status": "PASS_LOCAL_CATALOG_VALIDATION",
+  "catalog": "archive/catalog.json",
+  "catalog_sha256": "51153b087da63561439949a7b0af012d04dd797495b90a3670855c9f31e0f7b5",
+  "tool_stdout": "DRY RUN: 24 work(s), 231 asset(s), 11582793785 byte(s) validated.",
+  "scope": "Default dry run only; no remote upload performed at this phase."
+}

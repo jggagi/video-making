@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "method": "agent-dev status --json with system metadata access",
+  "AgentDev": {
+    "uuid": "F4DCCF30-ED44-4B5E-8DF9-ED2C039F2857",
+    "filesystem": "apfs",
+    "free_bytes": 110419955712
+  },
+  "WD_BLACK": {
+    "uuid": "7E4BC5BA-F525-344A-BECE-08C3272BB25B",
+    "free_bytes": 265893707776
+  },
+  "image": "AgentDev.asif",
+  "internal_free_bytes": 13337374720,
+  "internal_headroom": "WARNING_ONLY per workstation policy; no capacity start gate",
+  "scope": "Pre-production snapshot only; volume identity/capacity rechecked before heavy jobs."
+}

@@ -1,0 +1,811 @@
+{
+  "schema_version": 1,
+  "checker": "EP12 read-only source verifier",
+  "status": "PASS",
+  "source_status": "PASS",
+  "delivery_status": "SOURCE_ONLY",
+  "delivery": {
+    "status": "INCOMPLETE",
+    "duration_seconds": 90,
+    "fps": 60,
+    "total_frames": 5400,
+    "script": {
+      "path": "source/script.md",
+      "expected_sha256": "1297df0e11ca6b56917411a08c91693e2ad813b4b95b976807d30b209883f25e",
+      "actual_sha256": "1297df0e11ca6b56917411a08c91693e2ad813b4b95b976807d30b209883f25e",
+      "matches_manifest": true
+    },
+    "portrait_output": {
+      "path": "小红书/si-ep12-final-equation-xiaohongshu-90s-portrait.mp4",
+      "width": 2160,
+      "height": 3840
+    }
+  },
+  "segments": {
+    "count": 8,
+    "windows": [
+      {
+        "id": "S01",
+        "start_frame": 60,
+        "end_frame_exclusive": 540
+      },
+      {
+        "id": "S02",
+        "start_frame": 600,
+        "end_frame_exclusive": 1260
+      },
+      {
+        "id": "S03",
+        "start_frame": 1320,
+        "end_frame_exclusive": 1980
+      },
+      {
+        "id": "S04",
+        "start_frame": 2040,
+        "end_frame_exclusive": 2760
+      },
+      {
+        "id": "S05",
+        "start_frame": 2820,
+        "end_frame_exclusive": 3540
+      },
+      {
+        "id": "S06",
+        "start_frame": 3600,
+        "end_frame_exclusive": 4320
+      },
+      {
+        "id": "S07",
+        "start_frame": 4380,
+        "end_frame_exclusive": 4800
+      },
+      {
+        "id": "S08",
+        "start_frame": 4860,
+        "end_frame_exclusive": 5400
+      }
+    ]
+  },
+  "timeline": {
+    "fps": 60,
+    "total_frames": 5400,
+    "intervals": [
+      {
+        "group": "acts",
+        "count": 4,
+        "source_frame_domain": [
+          0,
+          5400
+        ]
+      },
+      {
+        "group": "shots",
+        "count": 6,
+        "source_frame_domain": [
+          0,
+          5400
+        ]
+      }
+    ],
+    "source_frame_clamped": true
+  },
+  "source_audit": {
+    "source_files_scanned": 4,
+    "source_sha256": {
+      "src/Film.tsx": "08b8d12830ae908176ec39c9ebe401749fe59853fc492d1c8dff7a670c4c1145",
+      "src/Geometry.tsx": "84aa26229184e595e26ae352c0c34d2e48a999c90860a7be3c33ea980d47d382",
+      "src/Root.tsx": "04183e581a12ca3f01452c352c20ef5a679be6b89d2f4698b0fc219fe5cf918c",
+      "src/index.ts": "2e0e358282a1b998a65387c653b97c2bb2eb7aae94cf200fc0b8d919f7be73a6"
+    },
+    "forbidden_uses": [],
+    "composition": {
+      "width": 2160,
+      "height": 3840,
+      "fps": 60,
+      "duration_frames": 5400,
+      "logical_canvas": [
+        1080,
+        1920
+      ],
+      "native_scale": "native width / 1080 (expected 2x)"
+    },
+    "typography_contract": {
+      "right_safe_edge_logical_px": 928.8,
+      "bottom_safe_edge_logical_px": 1497.6000000000001,
+      "hud": {
+        "left": 64,
+        "top": 174,
+        "width": 856,
+        "fontSize": 30,
+        "lineHeight": "32px",
+        "rows": 3,
+        "right_edge": 920,
+        "fits_right_safe_edge": true
+      },
+      "subtitle": {
+        "left": 64,
+        "top": 1384,
+        "width": 856,
+        "font_size": 49,
+        "line_height": 54,
+        "max_lines": 2,
+        "maximum_box_height": 108,
+        "maximum_bottom": 1492,
+        "bottom_margin": 5.600000000000136,
+        "right_edge": 920
+      }
+    }
+  },
+  "captions": {
+    "status": "CHECKED",
+    "audio_timing_status": "measured_pcm_with_estimated_phrase_timing",
+    "caption_count": 32,
+    "concatenated_text_matches_source_beyond_whitespace": true,
+    "srt_checks": [
+      {
+        "path": "小红书/captions.srt",
+        "matches_source_beyond_whitespace": true
+      }
+    ],
+    "actual_caption_sizes": [
+      {
+        "index": 1,
+        "segment_id": "S01",
+        "start_frame": 60,
+        "end_frame_exclusive": 121,
+        "line_count": 1,
+        "line_characters": [
+          5
+        ],
+        "font_size_logical_px": 49,
+        "line_height_logical_px": 54,
+        "box_logical_px": {
+          "x": 64,
+          "y": 1384,
+          "width": 856,
+          "height": 54
+        },
+        "right_edge_logical_px": 920,
+        "bottom_edge_logical_px": 1438
+      },
+      {
+        "index": 2,
+        "segment_id": "S01",
+        "start_frame": 121,
+        "end_frame_exclusive": 304,
+        "line_count": 2,
+        "line_characters": [
+          5,
+          10
+        ],
+        "font_size_logical_px": 49,
+        "line_height_logical_px": 54,
+        "box_logical_px": {
+          "x": 64,
+          "y": 1384,
+          "width": 856,
+          "height": 108
+        },
+        "right_edge_logical_px": 920,
+        "bottom_edge_logical_px": 1492
+      },
+      {
+        "index": 3,
+        "segment_id": "S01",
+        "start_frame": 304,
+        "end_frame_exclusive": 414,
+        "line_count": 1,
+        "line_characters": [
+          9
+        ],
+        "font_size_logical_px": 49,
+        "line_height_logical_px": 54,
+        "box_logical_px": {
+          "x": 64,
+          "y": 1384,
+          "width": 856,
+          "height": 54
+        },
+        "right_edge_logical_px": 920,
+        "bottom_edge_logical_px": 1438
+      },
+      {
+        "index": 4,
+        "segment_id": "S01",
+        "start_frame": 414,
+        "end_frame_exclusive": 524,
+        "line_count": 1,
+        "line_characters": [
+          9
+        ],
+        "font_size_logical_px": 49,
+        "line_height_logical_px": 54,
+        "box_logical_px": {
+          "x": 64,
+          "y": 1384,
+          "width": 856,
+          "height": 54
+        },
+        "right_edge_logical_px": 920,
+        "bottom_edge_logical_px": 1438
+      },
+      {
+        "index": 5,
+        "segment_id": "S02",
+        "start_frame": 600,
+        "end_frame_exclusive": 699,
+        "line_count": 1,
+        "line_characters": [
+          7
+        ],
+        "font_size_logical_px": 49,
+        "line_height_logical_px": 54,
+        "box_logical_px": {
+          "x": 64,
+          "y": 1384,
+          "width": 856,
+          "height": 54
+        },
+        "right_edge_logical_px": 920,
+        "bottom_edge_logical_px": 1438
+      },
+      {
+        "index": 6,
+        "segment_id": "S02",
+        "start_frame": 699,
+        "end_frame_exclusive": 812,
+        "line_count": 1,
+        "line_characters": [
+          8
+        ],
+        "font_size_logical_px": 49,
+        "line_height_logical_px": 54,
+        "box_logical_px": {
+          "x": 64,
+          "y": 1384,
+          "width": 856,
+          "height": 54
+        },
+        "right_edge_logical_px": 920,
+        "bottom_edge_logical_px": 1438
+      },
+      {
+        "index": 7,
+        "segment_id": "S02",
+        "start_frame": 812,
+        "end_frame_exclusive": 897,
+        "line_count": 1,
+        "line_characters": [
+          6
+        ],
+        "font_size_logical_px": 49,
+        "line_height_logical_px": 54,
+        "box_logical_px": {
+          "x": 64,
+          "y": 1384,
+          "width": 856,
+          "height": 54
+        },
+        "right_edge_logical_px": 920,
+        "bottom_edge_logical_px": 1438
+      },
+      {
+        "index": 8,
+        "segment_id": "S02",
+        "start_frame": 897,
+        "end_frame_exclusive": 1066,
+        "line_count": 1,
+        "line_characters": [
+          12
+        ],
+        "font_size_logical_px": 49,
+        "line_height_logical_px": 54,
+        "box_logical_px": {
+          "x": 64,
+          "y": 1384,
+          "width": 856,
+          "height": 54
+        },
+        "right_edge_logical_px": 920,
+        "bottom_edge_logical_px": 1438
+      },
+      {
+        "index": 9,
+        "segment_id": "S02",
+        "start_frame": 1066,
+        "end_frame_exclusive": 1264,
+        "line_count": 2,
+        "line_characters": [
+          7,
+          7
+        ],
+        "font_size_logical_px": 49,
+        "line_height_logical_px": 54,
+        "box_logical_px": {
+          "x": 64,
+          "y": 1384,
+          "width": 856,
+          "height": 108
+        },
+        "right_edge_logical_px": 920,
+        "bottom_edge_logical_px": 1492
+      },
+      {
+        "index": 10,
+        "segment_id": "S03",
+        "start_frame": 1320,
+        "end_frame_exclusive": 1474,
+        "line_count": 2,
+        "line_characters": [
+          6,
+          8
+        ],
+        "font_size_logical_px": 49,
+        "line_height_logical_px": 54,
+        "box_logical_px": {
+          "x": 64,
+          "y": 1384,
+          "width": 856,
+          "height": 108
+        },
+        "right_edge_logical_px": 920,
+        "bottom_edge_logical_px": 1492
+      },
+      {
+        "index": 11,
+        "segment_id": "S03",
+        "start_frame": 1474,
+        "end_frame_exclusive": 1529,
+        "line_count": 1,
+        "line_characters": [
+          5
+        ],
+        "font_size_logical_px": 49,
+        "line_height_logical_px": 54,
+        "box_logical_px": {
+          "x": 64,
+          "y": 1384,
+          "width": 856,
+          "height": 54
+        },
+        "right_edge_logical_px": 920,
+        "bottom_edge_logical_px": 1438
+      },
+      {
+        "index": 12,
+        "segment_id": "S03",
+        "start_frame": 1529,
+        "end_frame_exclusive": 1639,
+        "line_count": 1,
+        "line_characters": [
+          10
+        ],
+        "font_size_logical_px": 49,
+        "line_height_logical_px": 54,
+        "box_logical_px": {
+          "x": 64,
+          "y": 1384,
+          "width": 856,
+          "height": 54
+        },
+        "right_edge_logical_px": 920,
+        "bottom_edge_logical_px": 1438
+      },
+      {
+        "index": 13,
+        "segment_id": "S03",
+        "start_frame": 1639,
+        "end_frame_exclusive": 1771,
+        "line_count": 1,
+        "line_characters": [
+          12
+        ],
+        "font_size_logical_px": 49,
+        "line_height_logical_px": 54,
+        "box_logical_px": {
+          "x": 64,
+          "y": 1384,
+          "width": 856,
+          "height": 54
+        },
+        "right_edge_logical_px": 920,
+        "bottom_edge_logical_px": 1438
+      },
+      {
+        "index": 14,
+        "segment_id": "S04",
+        "start_frame": 2040,
+        "end_frame_exclusive": 2220,
+        "line_count": 2,
+        "line_characters": [
+          6,
+          8
+        ],
+        "font_size_logical_px": 49,
+        "line_height_logical_px": 54,
+        "box_logical_px": {
+          "x": 64,
+          "y": 1384,
+          "width": 856,
+          "height": 108
+        },
+        "right_edge_logical_px": 920,
+        "bottom_edge_logical_px": 1492
+      },
+      {
+        "index": 15,
+        "segment_id": "S04",
+        "start_frame": 2220,
+        "end_frame_exclusive": 2413,
+        "line_count": 2,
+        "line_characters": [
+          6,
+          9
+        ],
+        "font_size_logical_px": 49,
+        "line_height_logical_px": 54,
+        "box_logical_px": {
+          "x": 64,
+          "y": 1384,
+          "width": 856,
+          "height": 108
+        },
+        "right_edge_logical_px": 920,
+        "bottom_edge_logical_px": 1492
+      },
+      {
+        "index": 16,
+        "segment_id": "S04",
+        "start_frame": 2413,
+        "end_frame_exclusive": 2632,
+        "line_count": 2,
+        "line_characters": [
+          7,
+          10
+        ],
+        "font_size_logical_px": 49,
+        "line_height_logical_px": 54,
+        "box_logical_px": {
+          "x": 64,
+          "y": 1384,
+          "width": 856,
+          "height": 108
+        },
+        "right_edge_logical_px": 920,
+        "bottom_edge_logical_px": 1492
+      },
+      {
+        "index": 17,
+        "segment_id": "S05",
+        "start_frame": 2820,
+        "end_frame_exclusive": 2914,
+        "line_count": 1,
+        "line_characters": [
+          7
+        ],
+        "font_size_logical_px": 49,
+        "line_height_logical_px": 54,
+        "box_logical_px": {
+          "x": 64,
+          "y": 1384,
+          "width": 856,
+          "height": 54
+        },
+        "right_edge_logical_px": 920,
+        "bottom_edge_logical_px": 1438
+      },
+      {
+        "index": 18,
+        "segment_id": "S05",
+        "start_frame": 2914,
+        "end_frame_exclusive": 3008,
+        "line_count": 1,
+        "line_characters": [
+          7
+        ],
+        "font_size_logical_px": 49,
+        "line_height_logical_px": 54,
+        "box_logical_px": {
+          "x": 64,
+          "y": 1384,
+          "width": 856,
+          "height": 54
+        },
+        "right_edge_logical_px": 920,
+        "bottom_edge_logical_px": 1438
+      },
+      {
+        "index": 19,
+        "segment_id": "S05",
+        "start_frame": 3008,
+        "end_frame_exclusive": 3142,
+        "line_count": 1,
+        "line_characters": [
+          10
+        ],
+        "font_size_logical_px": 49,
+        "line_height_logical_px": 54,
+        "box_logical_px": {
+          "x": 64,
+          "y": 1384,
+          "width": 856,
+          "height": 54
+        },
+        "right_edge_logical_px": 920,
+        "bottom_edge_logical_px": 1438
+      },
+      {
+        "index": 20,
+        "segment_id": "S05",
+        "start_frame": 3142,
+        "end_frame_exclusive": 3317,
+        "line_count": 1,
+        "line_characters": [
+          13
+        ],
+        "font_size_logical_px": 49,
+        "line_height_logical_px": 54,
+        "box_logical_px": {
+          "x": 64,
+          "y": 1384,
+          "width": 856,
+          "height": 54
+        },
+        "right_edge_logical_px": 920,
+        "bottom_edge_logical_px": 1438
+      },
+      {
+        "index": 21,
+        "segment_id": "S05",
+        "start_frame": 3317,
+        "end_frame_exclusive": 3357,
+        "line_count": 1,
+        "line_characters": [
+          3
+        ],
+        "font_size_logical_px": 49,
+        "line_height_logical_px": 54,
+        "box_logical_px": {
+          "x": 64,
+          "y": 1384,
+          "width": 856,
+          "height": 54
+        },
+        "right_edge_logical_px": 920,
+        "bottom_edge_logical_px": 1438
+      },
+      {
+        "index": 22,
+        "segment_id": "S05",
+        "start_frame": 3357,
+        "end_frame_exclusive": 3424,
+        "line_count": 1,
+        "line_characters": [
+          5
+        ],
+        "font_size_logical_px": 49,
+        "line_height_logical_px": 54,
+        "box_logical_px": {
+          "x": 64,
+          "y": 1384,
+          "width": 856,
+          "height": 54
+        },
+        "right_edge_logical_px": 920,
+        "bottom_edge_logical_px": 1438
+      },
+      {
+        "index": 23,
+        "segment_id": "S06",
+        "start_frame": 3600,
+        "end_frame_exclusive": 3770,
+        "line_count": 1,
+        "line_characters": [
+          13
+        ],
+        "font_size_logical_px": 49,
+        "line_height_logical_px": 54,
+        "box_logical_px": {
+          "x": 64,
+          "y": 1384,
+          "width": 856,
+          "height": 54
+        },
+        "right_edge_logical_px": 920,
+        "bottom_edge_logical_px": 1438
+      },
+      {
+        "index": 24,
+        "segment_id": "S06",
+        "start_frame": 3770,
+        "end_frame_exclusive": 3901,
+        "line_count": 1,
+        "line_characters": [
+          10
+        ],
+        "font_size_logical_px": 49,
+        "line_height_logical_px": 54,
+        "box_logical_px": {
+          "x": 64,
+          "y": 1384,
+          "width": 856,
+          "height": 54
+        },
+        "right_edge_logical_px": 920,
+        "bottom_edge_logical_px": 1438
+      },
+      {
+        "index": 25,
+        "segment_id": "S06",
+        "start_frame": 3901,
+        "end_frame_exclusive": 4175,
+        "line_count": 2,
+        "line_characters": [
+          9,
+          12
+        ],
+        "font_size_logical_px": 49,
+        "line_height_logical_px": 54,
+        "box_logical_px": {
+          "x": 64,
+          "y": 1384,
+          "width": 856,
+          "height": 108
+        },
+        "right_edge_logical_px": 920,
+        "bottom_edge_logical_px": 1492
+      },
+      {
+        "index": 26,
+        "segment_id": "S07",
+        "start_frame": 4380,
+        "end_frame_exclusive": 4599,
+        "line_count": 2,
+        "line_characters": [
+          8,
+          11
+        ],
+        "font_size_logical_px": 49,
+        "line_height_logical_px": 54,
+        "box_logical_px": {
+          "x": 64,
+          "y": 1384,
+          "width": 856,
+          "height": 108
+        },
+        "right_edge_logical_px": 920,
+        "bottom_edge_logical_px": 1492
+      },
+      {
+        "index": 27,
+        "segment_id": "S07",
+        "start_frame": 4599,
+        "end_frame_exclusive": 4680,
+        "line_count": 1,
+        "line_characters": [
+          7
+        ],
+        "font_size_logical_px": 49,
+        "line_height_logical_px": 54,
+        "box_logical_px": {
+          "x": 64,
+          "y": 1384,
+          "width": 856,
+          "height": 54
+        },
+        "right_edge_logical_px": 920,
+        "bottom_edge_logical_px": 1438
+      },
+      {
+        "index": 28,
+        "segment_id": "S07",
+        "start_frame": 4680,
+        "end_frame_exclusive": 4784,
+        "line_count": 1,
+        "line_characters": [
+          9
+        ],
+        "font_size_logical_px": 49,
+        "line_height_logical_px": 54,
+        "box_logical_px": {
+          "x": 64,
+          "y": 1384,
+          "width": 856,
+          "height": 54
+        },
+        "right_edge_logical_px": 920,
+        "bottom_edge_logical_px": 1438
+      },
+      {
+        "index": 29,
+        "segment_id": "S08",
+        "start_frame": 4902,
+        "end_frame_exclusive": 5057,
+        "line_count": 2,
+        "line_characters": [
+          7,
+          7
+        ],
+        "font_size_logical_px": 49,
+        "line_height_logical_px": 54,
+        "box_logical_px": {
+          "x": 64,
+          "y": 1384,
+          "width": 856,
+          "height": 108
+        },
+        "right_edge_logical_px": 920,
+        "bottom_edge_logical_px": 1492
+      },
+      {
+        "index": 30,
+        "segment_id": "S08",
+        "start_frame": 5057,
+        "end_frame_exclusive": 5156,
+        "line_count": 1,
+        "line_characters": [
+          9
+        ],
+        "font_size_logical_px": 49,
+        "line_height_logical_px": 54,
+        "box_logical_px": {
+          "x": 64,
+          "y": 1384,
+          "width": 856,
+          "height": 54
+        },
+        "right_edge_logical_px": 920,
+        "bottom_edge_logical_px": 1438
+      },
+      {
+        "index": 31,
+        "segment_id": "S08",
+        "start_frame": 5156,
+        "end_frame_exclusive": 5255,
+        "line_count": 1,
+        "line_characters": [
+          9
+        ],
+        "font_size_logical_px": 49,
+        "line_height_logical_px": 54,
+        "box_logical_px": {
+          "x": 64,
+          "y": 1384,
+          "width": 856,
+          "height": 54
+        },
+        "right_edge_logical_px": 920,
+        "bottom_edge_logical_px": 1438
+      },
+      {
+        "index": 32,
+        "segment_id": "S08",
+        "start_frame": 5255,
+        "end_frame_exclusive": 5377,
+        "line_count": 1,
+        "line_characters": [
+          11
+        ],
+        "font_size_logical_px": 49,
+        "line_height_logical_px": 54,
+        "box_logical_px": {
+          "x": 64,
+          "y": 1384,
+          "width": 856,
+          "height": 54
+        },
+        "right_edge_logical_px": 920,
+        "bottom_edge_logical_px": 1438
+      }
+    ],
+    "max_caption_lines": 2,
+    "caption_size_basis": "Film.tsx CSS box (49 logical px font, 54 logical px line height, 856 logical px width); this does not independently measure browser glyph wrapping."
+  },
+  "failures": [],
+  "incomplete": [],
+  "limitations": [
+    "This verifier does not decode or approve the final MP4.",
+    "Source checks do not establish perceptual motion, complete-frame integrity, human listening, or device playback.",
+    "Caption geometry uses declared CSS box metrics and does not independently measure browser font shaping or glyph wrapping."
+  ]
+}

@@ -1,0 +1,4 @@
+node_modules/
+bundle*/
+.remotion/
+__pycache__/

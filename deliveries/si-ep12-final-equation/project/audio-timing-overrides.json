@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "decision": {
+    "source": "direct human reply relayed by root",
+    "text": "使用空隙，保留自然语速和完整原文（推荐）",
+    "authorized": true
+  },
+  "scope": "S02 placement only; preserve authored source text, voice, rate, and segment start/end frames",
+  "segmentId": "S02",
+  "preserveAuthoredStartFrame": 600,
+  "preserveAuthoredEndFrame": 1260,
+  "preserveTextAndRate": true,
+  "approvedCompleteCueStartSample": 469951,
+  "approvedCompleteCueEndSample": 1022911,
+  "completeCueEndConvention": "exclusive",
+  "approvedActiveVoiceStartSample": 480000,
+  "approvedActiveVoiceEndSample": 1011046,
+  "approvedCaptionEndFrame": 1264,
+  "nextCueId": "S03",
+  "nextCueStartSample": 1045756,
+  "requiredGapBeforeNextCueSamples": 0
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-10-21T13:04:17.121084Z",
+  "scope": "source-only",
+  "status": "INCOMPLETE",
+  "media_validation": "NOT_RUN",
+  "source_scan": {
+    "status": "PASS",
+    "files_scanned": 16,
+    "matches": [],
+    "read_errors": []
+  },
+  "checks": {},
+  "outputs": {},
+  "failures": []
+}

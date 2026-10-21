@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "title": "最后一行公式",
+  "slug": "si-ep12-final-equation",
+  "platform": "xiaohongshu",
+  "canvas": {
+    "logicalWidth": 1080,
+    "logicalHeight": 1920,
+    "nativeWidth": 2160,
+    "nativeHeight": 3840,
+    "scale": 2,
+    "fps": 60,
+    "durationSeconds": 90,
+    "durationInFrames": 5400,
+    "audioSampleRateHz": 48000,
+    "audioChannels": 2,
+    "audioSamplesPerChannel": 4320000,
+    "targetLufs": -16,
+    "maximumTruePeakDbtp": -1
+  },
+  "intervalConvention": "All frame intervals are half-open [startFrame, endFrame).",
+  "safeZones": {
+    "topPercent": 8,
+    "rightPercent": 14,
+    "bottomPercent": 22,
+    "hud": {
+      "x": 64,
+      "width": 856,
+      "topBandPercent": [9, 14],
+      "rows": 3,
+      "maxAsciiCharactersPerRow": 43,
+      "fontSizeLogicalPx": 30,
+      "rightEdgeLogicalPx": 920
+    },
+    "subtitles": {
+      "bottomBandPercent": [24, 28],
+      "maxLines": 2,
+      "minimumFontSizeLogicalPx": 39,
+      "minimumPreviewFontSizePxAt360Width": 13
+    }
+  },
+  "palette": {
+    "paper": "#F4F1EA",
+    "grid": "#E5E0D5",
+    "carbon": "#18181B",
+    "slate": "#52525B",
+    "conflict": "#E11D48",
+    "gold": "#D97706",
+    "goldDark": "#B45309"
+  },
+  "acts": [
+    {
+      "id": "ACT1",
+      "startFrame": 0,
+      "endFrame": 1320,
+      "title": "The Ptolemaic Patchwork",
+      "visualAction": "A dense, purely 2D epicycle drawing and technical diagrams accumulate on warm drafting paper; vermilion marks show narrative conflicts."
+    },
+    {
+      "id": "ACT2",
+      "startFrame": 1320,
+      "endFrame": 2820,
+      "title": "Occam's Razor and Compression",
+      "visualAction": "A flat vermilion caliper sweep strips circles in a legible sequence toward one gold circle; all movement remains 2D."
+    },
+    {
+      "id": "ACT3",
+      "startFrame": 2820,
+      "endFrame": 4380,
+      "title": "Four Quadrants Fold Into One",
+      "visualAction": "Gravity contours, quantum probability, thermodynamic streamlines, and life/mind pattern graphics translate and scale into a symbolic 2D convergence."
+    },
+    {
+      "id": "ACT4",
+      "startFrame": 4380,
+      "endFrame": 5400,
+      "title": "The Blank Page and the Childhood Star",
+      "visualAction": "The astrolabe contracts, then at frame 4860 resolves to one 12 px logical carbon dot with a hairline gold circle on open bone paper."
+    }
+  ],
+  "shots": [
+    {
+      "startFrame": 0,
+      "endFrame": 1320,
+      "title": "The patched page",
+      "visualAction": "Build the 2D epicycle drawing and conflict diagrams, then let their marks become visually dense."
+    },
+    {
+      "startFrame": 1320,
+      "endFrame": 2820,
+      "title": "The caliper sweep",
+      "visualAction": "Sweep the flat vermilion line and remove redundant circles sequentially; resolve toward a single gold circle."
+    },
+    {
+      "startFrame": 2820,
+      "endFrame": 3600,
+      "title": "Four scientific drawings",
+      "visualAction": "Show four crisp 2D plots: gravity contours; quantum probability stipple/nodal pattern; thermodynamic vector flow; life/mind branching pattern."
+    },
+    {
+      "startFrame": 3600,
+      "endFrame": 4380,
+      "title": "Convergence on paper",
+      "visualAction": "Translate and conformally scale the four panels inward; visually align their linework into a 2D gold-and-carbon astrolabe."
+    },
+    {
+      "startFrame": 4380,
+      "endFrame": 4860,
+      "title": "The final compression",
+      "visualAction": "Fold the astrolabe inward along its symmetries until only the final contraction remains."
+    },
+    {
+      "startFrame": 4860,
+      "endFrame": 5400,
+      "title": "The solitary dot",
+      "visualAction": "At frame 4860 show the single centered dot and gold hairline circle on an otherwise empty bone canvas; hold space for the closing thought."
+    }
+  ],
+  "segmentsSource": "segments.json (preserve its display_subtitle and tts_phonetic_text verbatim)",
+  "sfxEvents": [
+    {
+      "frame": 60,
+      "brief": "Tactile mechanical drafting pencil on paper with pocket-watch escapement tick."
+    },
+    {
+      "frame": 840,
+      "brief": "Clockwork gears slightly out of phase with sharp vermilion error ticks."
+    },
+    {
+      "frame": 1440,
+      "brief": "A clean caliper slice sweeps across the stereo field."
+    },
+    {
+      "frame": 2280,
+      "brief": "Mechanical rings unlock and dissolve into a pure golden sine tone."
+    },
+    {
+      "frame": 2940,
+      "brief": "Four distinct frequencies slide into a single unison golden chord."
+    },
+    {
+      "frame": 3900,
+      "brief": "Precision horological lock click with resonant harmonic tail."
+    },
+    {
+      "frame": 4500,
+      "brief": "A high, pure tuning-fork overtone fades toward stillness."
+    },
+    {
+      "frame": 4860,
+      "brief": "Absolute silence begins; no narration, music, or SFX samples in [4860,4890)."
+    },
+    {
+      "frame": 4890,
+      "brief": "Single fountain-pen nib touch on paper; warm nostalgic solo piano follows."
+    }
+  ],
+  "absoluteSilence": [
+    4860,
+    4890
+  ],
+  "dotRevealFrame": 4860,
+  "closing": {
+    "segmentId": "S08",
+    "subtitleSegmentStartFrame": 4860,
+    "penTouchFrame": 4890,
+    "preserveOriginalTtsText": true,
+    "noSpeedUpOrTruncation": true,
+    "disclaimer": {
+      "text": "科幻思想实验｜数值与终极统一为叙事设定",
+      "startFrame": 5160,
+      "endFrame": 5400,
+      "opacity": 0.35,
+      "onlyVisibleDuringThisInterval": true
+    }
+  },
+  "covers": [
+    {
+      "id": "A",
+      "frame": 4020,
+      "timeSeconds": 67,
+      "path": "小红书/cover-A.png",
+      "status": "pending_render",
+      "description": "Four 2D quadrants converging into the golden astrolabe on bone paper."
+    },
+    {
+      "id": "B",
+      "frame": 5040,
+      "timeSeconds": 84,
+      "path": "小红书/cover-B.png",
+      "status": "pending_render",
+      "description": "Vast bone-white canvas with the solitary Q.E.D. dot."
+    }
+  ]
+}

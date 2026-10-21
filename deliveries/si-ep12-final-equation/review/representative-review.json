@@ -1,0 +1,19 @@
+{
+  "status": "MODEL_OBSERVED",
+  "media_sha256": "39c3e73574ce57324f926820ffa99f7c6ba672337bca148075fc2b7cc29293c9",
+  "evidence": "review/encoded-qa-39c3e73574ce/metadata.json",
+  "repair_neighbors": "review/repaint-final-check/neighbors.jpg",
+  "observations": [
+    "All16 representative frame points including0,4020,4859,4860,5040,5160,5399 viewed in encoded contact sheet.",
+    "Native2160x3840 frame4020 viewed at original resolution: crisp type, flat gold/ink lines and no major banding in the light paper field. No dark-gradient scene exists in this design.",
+    "Eight2.5second motion pairs viewed: epicycle curve changes; caliper moves; quadrants translate/rotate; astrolabe simplifies; final gold ring changes radius.",
+    "Frames1320–1324 viewed after repair: clean persistent Act2 state, frame1322 no longer tiles HUD.",
+    "HUD and two-line subtitles remain inside the declared safe boxes. Main subtitles readable at360px; small secondary blueprint annotations are decorative."
+  ],
+  "audience_experience": "NOT_RUN",
+  "human_listening": "NOT_RUN",
+  "device_playback": "NOT_RUN",
+  "limits": "Representative frames and source motion math are not continuous human perceptual review or all-pixel artifact guarantees.",
+  "cover_headline_evidence": "review/cover-headline-review.jpg",
+  "cover_headline_observation": "A/B headline variants viewed at360px; requested headline is split across top and lower blocks, within portrait safe margins."
+}

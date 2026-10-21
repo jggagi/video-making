@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-10-21T13:33:09.864792+00:00",
+  "media_path": "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep12-final-equation/小红书/si-ep12-final-equation-xiaohongshu-90s-portrait.mp4",
+  "media_sha256": "74e8012a927f8b6ac572a7048599198a3ee250809c0d07d9d330e0836a72378e",
+  "probe": {
+    "codec_name": "h264",
+    "width": 2160,
+    "height": 3840,
+    "fps": {
+      "numerator": 60,
+      "denominator": 1,
+      "decimal": 60.0
+    },
+    "fps_source": "avg_frame_rate",
+    "duration_seconds": 90.0,
+    "nb_frames": "5400",
+    "geometry_basis": "FFprobe coded video dimensions; FFmpeg autorotation is disabled"
+  },
+  "scan": {
+    "mode": "continuous_from_start",
+    "every_frame": true,
+    "no_input_seek": true,
+    "decoded_frames": 5400,
+    "expected_frames": 5400,
+    "return_code": 0,
+    "analysis": [
+      "isolated_full_frame_jump",
+      "stable_roi"
+    ],
+    "scaled_width": 360,
+    "scaled_height": 640,
+    "config": {
+      "width_requested": 360,
+      "stable_roi_normalized_xywh": [
+        0.06,
+        0.82,
+        0.78,
+        0.12
+      ],
+      "dark_roi_normalized_xywh": null,
+      "isolated_jump_mae_floor": 12.0,
+      "isolated_jump_neighbor_limit": "max(3, 0.35 * min(prev_middle_mae, middle_next_mae))",
+      "stable_roi_threshold": "median + 8 * (1.4826 * MAD), floor 8 RGB MAE",
+      "dark_roi_threshold": "median + 8 * (1.4826 * MAD), floor 50 pixels with luma > 100",
+      "dark_roi_bright_luma_threshold_exclusive": 100.0,
+      "ffmpeg_threads": 2,
+      "ffmpeg_filter_threads": 2,
+      "pixel_format": "rgb24",
+      "autorotate": false
+    },
+    "partial_frame_bytes": 0,
+    "frame_count_matches_expected": true,
+    "media_sha256_after": "74e8012a927f8b6ac572a7048599198a3ee250809c0d07d9d330e0836a72378e",
+    "media_sha256_matches": true,
+    "complete": true,
+    "decode_error": null,
+    "incomplete_reasons": [],
+    "stderr_tail": ""
+  },
+  "roi_thresholds": {
+    "stable_roi_template_mae_rgb": {
+      "median": 0.043963,
+      "mad": 0.0,
+      "threshold": 8.0,
+      "floor": 8.0
+    },
+    "stable_roi_consecutive_mae_rgb": {
+      "median": 0.0,
+      "mad": 0.0,
+      "threshold": 8.0,
+      "floor": 8.0
+    },
+    "dark_roi_bright_pixels_gt100": null
+  },
+  "flagged_frames": [
+    {
+      "frame": 1322,
+      "reasons": [
+        "isolated_full_frame_jump"
+      ]
+    }
+  ],
+  "flag_reviews": [],
+  "limitations": [
+    "Screening uses scaled RGB heuristics and does not replace full-resolution perceptual review.",
+    "The scan does not establish human review, listening, or device playback acceptance.",
+    "A frame with no heuristic flags may still contain visual defects outside these checks."
+  ],
+  "evidence_files": {
+    "metrics_csv": "metrics.csv",
+    "suspicious_contact_jpeg": "suspicious-contact.jpg"
+  },
+  "commands": {
+    "ffprobe": [
+      "/opt/homebrew/bin/ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_entries",
+      "stream=codec_name,width,height,avg_frame_rate,r_frame_rate,duration,nb_frames",
+      "-show_entries",
+      "format=duration",
+      "-of",
+      "json",
+      "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep12-final-equation/小红书/si-ep12-final-equation-xiaohongshu-90s-portrait.mp4"
+    ],
+    "ffmpeg": [
+      "/opt/homebrew/bin/ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-nostdin",
+      "-threads",
+      "2",
+      "-filter_threads",
+      "2",
+      "-noautorotate",
+      "-i",
+      "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep12-final-equation/小红书/si-ep12-final-equation-xiaohongshu-90s-portrait.mp4",
+      "-map",
+      "0:v:0",
+      "-an",
+      "-sn",
+      "-dn",
+      "-vf",
+      "scale=360:640:flags=bilinear",
+      "-vsync",
+      "0",
+      "-pix_fmt",
+      "rgb24",
+      "-f",
+      "rawvideo",
+      "pipe:1"
+    ]
+  },
+  "summary": {
+    "flagged_frame_count": 1,
+    "contact_sheet_frame_numbers": [
+      1322
+    ]
+  },
+  "root_assessment": {
+    "status": "REJECTED_CAPTURE_ARTIFACT",
+    "frame": 1322,
+    "observation": "Actual encoded frame tiles the top HUD repeatedly over the canvas. This is not an authored transition or a false positive.",
+    "disposition": "Preserve failed report; redraw the same absolute frame natively, re-encode and rescan every final frame.",
+    "replacement_native_png": "review/native-repaint-01/frame-1322.png",
+    "replacement_native_png_sha256": "cdc1d89fecd7f288745c279163227f585bbf64628a41b292b4f88642634251e8"
+  }
+}

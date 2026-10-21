@@ -1,0 +1,333 @@
+{
+  "schema_version": 1,
+  "resources": [
+    {
+      "id": "audio/canonical/S01-515ee99208e2.wav",
+      "path": "public/audio/canonical/S01-515ee99208e2.wav",
+      "sha256": "a56259b4f9893639145b85cdc376dff5c5e2ef3885d50ca26273c0017d09ae94",
+      "bytes": 391724,
+      "sample_rate": 24000,
+      "channels": 1,
+      "samples_per_channel": 195840,
+      "sample_width_bytes": 2
+    },
+    {
+      "id": "audio/canonical/S02-11082da2b666.wav",
+      "path": "public/audio/canonical/S02-11082da2b666.wav",
+      "sha256": "f0be0c663ea3683a4f9904820505a99b8646517c4406f8c7e178f530ba93fb2c",
+      "bytes": 553004,
+      "sample_rate": 24000,
+      "channels": 1,
+      "samples_per_channel": 276480,
+      "sample_width_bytes": 2
+    },
+    {
+      "id": "audio/canonical/S03-900e21abfd4d.wav",
+      "path": "public/audio/canonical/S03-900e21abfd4d.wav",
+      "sha256": "715e2d23a75ed58ecb5eeffb4b6668b9f9b9fb688425c6fe8cfcbf6bb5f25846",
+      "bytes": 380204,
+      "sample_rate": 24000,
+      "channels": 1,
+      "samples_per_channel": 190080,
+      "sample_width_bytes": 2
+    },
+    {
+      "id": "audio/canonical/S04-f11a3d30e2a7.wav",
+      "path": "public/audio/canonical/S04-f11a3d30e2a7.wav",
+      "sha256": "f8681b46e1f9aa4f857b160508b575e80769c48917918b33b2ea18aa69aeaac0",
+      "bytes": 491564,
+      "sample_rate": 24000,
+      "channels": 1,
+      "samples_per_channel": 245760,
+      "sample_width_bytes": 2
+    },
+    {
+      "id": "audio/canonical/S05-6b6843b56900.wav",
+      "path": "public/audio/canonical/S05-6b6843b56900.wav",
+      "sha256": "ecbe6e5abc26efcb3dd5fd51e3da5306a66f82bd1afb2af322f642200d733d48",
+      "bytes": 503084,
+      "sample_rate": 24000,
+      "channels": 1,
+      "samples_per_channel": 251520,
+      "sample_width_bytes": 2
+    },
+    {
+      "id": "audio/canonical/S06-2d179410d7b7.wav",
+      "path": "public/audio/canonical/S06-2d179410d7b7.wav",
+      "sha256": "a0977d82f01e570d13b87e56943dbf1b64583b710ec76b28807ebcb9a3084fc2",
+      "bytes": 483884,
+      "sample_rate": 24000,
+      "channels": 1,
+      "samples_per_channel": 241920,
+      "sample_width_bytes": 2
+    },
+    {
+      "id": "audio/canonical/S07-692d8289e1ac.wav",
+      "path": "public/audio/canonical/S07-692d8289e1ac.wav",
+      "sha256": "5673d69072f0a99224b4c4f6e2f0e42105749b5b13f93fce907e46548c2e67f2",
+      "bytes": 341804,
+      "sample_rate": 24000,
+      "channels": 1,
+      "samples_per_channel": 170880,
+      "sample_width_bytes": 2
+    },
+    {
+      "id": "audio/canonical/S08-1469b69fc110.wav",
+      "path": "public/audio/canonical/S08-1469b69fc110.wav",
+      "sha256": "294b2b76121fadfdf0a0014a57c45cd38cf7225630ea771d953aa5df4b9ef9bf",
+      "bytes": 395564,
+      "sample_rate": 24000,
+      "channels": 1,
+      "samples_per_channel": 197760,
+      "sample_width_bytes": 2
+    },
+    {
+      "id": "audio/cues/S01-515ee99208e2.wav",
+      "path": "public/audio/cues/S01-515ee99208e2.wav",
+      "sha256": "3cdc37a38fe39e0af869aff27fdd6b5a3cdaae5895623c3cc70fa634f802e2e2",
+      "bytes": 783438,
+      "sample_rate": 48000,
+      "channels": 1,
+      "samples_per_channel": 391680,
+      "sample_width_bytes": 2
+    },
+    {
+      "id": "audio/cues/S02-11082da2b666.wav",
+      "path": "public/audio/cues/S02-11082da2b666.wav",
+      "sha256": "a61573547235e5126bd705dbd4c4357e6205b27e3ddcaba9417818da0940306d",
+      "bytes": 1105998,
+      "sample_rate": 48000,
+      "channels": 1,
+      "samples_per_channel": 552960,
+      "sample_width_bytes": 2
+    },
+    {
+      "id": "audio/cues/S03-900e21abfd4d.wav",
+      "path": "public/audio/cues/S03-900e21abfd4d.wav",
+      "sha256": "e3fc5cf64a7299979cca3a8459a4517cf89ff6b8e8039009209e6c61178ad5b7",
+      "bytes": 760398,
+      "sample_rate": 48000,
+      "channels": 1,
+      "samples_per_channel": 380160,
+      "sample_width_bytes": 2
+    },
+    {
+      "id": "audio/cues/S04-f11a3d30e2a7.wav",
+      "path": "public/audio/cues/S04-f11a3d30e2a7.wav",
+      "sha256": "051292e987fe74cfb8a8d4dfe94c98b8b651b49733d031d16ea485df92a39a88",
+      "bytes": 983118,
+      "sample_rate": 48000,
+      "channels": 1,
+      "samples_per_channel": 491520,
+      "sample_width_bytes": 2
+    },
+    {
+      "id": "audio/cues/S05-6b6843b56900.wav",
+      "path": "public/audio/cues/S05-6b6843b56900.wav",
+      "sha256": "e18c569be5af4e51729553a7e1634951ef4dca784f3f0cfb37803c57838decd0",
+      "bytes": 1006158,
+      "sample_rate": 48000,
+      "channels": 1,
+      "samples_per_channel": 503040,
+      "sample_width_bytes": 2
+    },
+    {
+      "id": "audio/cues/S06-2d179410d7b7.wav",
+      "path": "public/audio/cues/S06-2d179410d7b7.wav",
+      "sha256": "3576888ce3fdfdfc6b129ea2e8e0fda1a441578af7af7752cd94e674546aaa14",
+      "bytes": 967758,
+      "sample_rate": 48000,
+      "channels": 1,
+      "samples_per_channel": 483840,
+      "sample_width_bytes": 2
+    },
+    {
+      "id": "audio/cues/S07-692d8289e1ac.wav",
+      "path": "public/audio/cues/S07-692d8289e1ac.wav",
+      "sha256": "96f09bef31154e6a1511f56276803a81b55f09acfa5baa20a6ca30b358ed9961",
+      "bytes": 683598,
+      "sample_rate": 48000,
+      "channels": 1,
+      "samples_per_channel": 341760,
+      "sample_width_bytes": 2
+    },
+    {
+      "id": "audio/cues/S08-1469b69fc110.wav",
+      "path": "public/audio/cues/S08-1469b69fc110.wav",
+      "sha256": "9a65443d862bd43e0bef84ef50ec4b19a58524536da13ba54b414ee312bae41b",
+      "bytes": 791118,
+      "sample_rate": 48000,
+      "channels": 1,
+      "samples_per_channel": 395520,
+      "sample_width_bytes": 2
+    },
+    {
+      "id": "audio/master.wav",
+      "path": "public/audio/master.wav",
+      "sha256": "3de3ad61062a408832aa238bc495e7f26c1d54498e00f6390a7844099a333c81",
+      "bytes": 17280044,
+      "sample_rate": 48000,
+      "channels": 2,
+      "samples_per_channel": 4320000,
+      "sample_width_bytes": 2
+    },
+    {
+      "id": "audio/narration.wav",
+      "path": "public/audio/narration.wav",
+      "sha256": "51274f949c3f194c5961cef55730543a596d1d63511fc67626e840725b4d981b",
+      "bytes": 17280044,
+      "sample_rate": 48000,
+      "channels": 2,
+      "samples_per_channel": 4320000,
+      "sample_width_bytes": 2
+    },
+    {
+      "id": "audio/raw/S01-515ee99208e2.wav",
+      "path": "public/audio/raw/S01-515ee99208e2.wav",
+      "sha256": "77c4c7be7a5286d49de14330fae2d4670931bcb0b582648d19bbbc960187c490",
+      "bytes": 391724,
+      "sample_rate": 24000,
+      "channels": 1,
+      "samples_per_channel": 195840,
+      "sample_width_bytes": 2,
+      "declared_header_samples": 1073741773,
+      "count_basis": "Actual verified PCM payload in provider manifest, not streaming WAV header"
+    },
+    {
+      "id": "audio/raw/S02-11082da2b666.wav",
+      "path": "public/audio/raw/S02-11082da2b666.wav",
+      "sha256": "bdc64b523989000fb0aa73e191b9e8462558b0e89ad60466630ef1f0b97ab3ec",
+      "bytes": 553004,
+      "sample_rate": 24000,
+      "channels": 1,
+      "samples_per_channel": 276480,
+      "sample_width_bytes": 2,
+      "declared_header_samples": 1073741773,
+      "count_basis": "Actual verified PCM payload in provider manifest, not streaming WAV header"
+    },
+    {
+      "id": "audio/raw/S03-900e21abfd4d.wav",
+      "path": "public/audio/raw/S03-900e21abfd4d.wav",
+      "sha256": "c2fd1944bed66628cadc4c97bd64cf9dde6d9cfc8482a4e02a0df1febf1a7122",
+      "bytes": 380204,
+      "sample_rate": 24000,
+      "channels": 1,
+      "samples_per_channel": 190080,
+      "sample_width_bytes": 2,
+      "declared_header_samples": 1073741773,
+      "count_basis": "Actual verified PCM payload in provider manifest, not streaming WAV header"
+    },
+    {
+      "id": "audio/raw/S04-f11a3d30e2a7.wav",
+      "path": "public/audio/raw/S04-f11a3d30e2a7.wav",
+      "sha256": "15dc156897cb924348b1e51496bb68f51946427acfab9424cde4dae03c0438f9",
+      "bytes": 491564,
+      "sample_rate": 24000,
+      "channels": 1,
+      "samples_per_channel": 245760,
+      "sample_width_bytes": 2,
+      "declared_header_samples": 1073741773,
+      "count_basis": "Actual verified PCM payload in provider manifest, not streaming WAV header"
+    },
+    {
+      "id": "audio/raw/S05-6b6843b56900.wav",
+      "path": "public/audio/raw/S05-6b6843b56900.wav",
+      "sha256": "3b2f1233751f68b4f8e5815097a729a7bd97feb29590044d125974cb06695598",
+      "bytes": 503084,
+      "sample_rate": 24000,
+      "channels": 1,
+      "samples_per_channel": 251520,
+      "sample_width_bytes": 2,
+      "declared_header_samples": 1073741773,
+      "count_basis": "Actual verified PCM payload in provider manifest, not streaming WAV header"
+    },
+    {
+      "id": "audio/raw/S06-2d179410d7b7.wav",
+      "path": "public/audio/raw/S06-2d179410d7b7.wav",
+      "sha256": "f6e5b1167aea0ed06a356fd82a05653a0c76d323580592580e7467ec66aaf66d",
+      "bytes": 483884,
+      "sample_rate": 24000,
+      "channels": 1,
+      "samples_per_channel": 241920,
+      "sample_width_bytes": 2,
+      "declared_header_samples": 1073741773,
+      "count_basis": "Actual verified PCM payload in provider manifest, not streaming WAV header"
+    },
+    {
+      "id": "audio/raw/S07-692d8289e1ac.wav",
+      "path": "public/audio/raw/S07-692d8289e1ac.wav",
+      "sha256": "ec023bc73d204edccc8694c82d4edded338bb2e46bc9eedb802f4e8769eb5d17",
+      "bytes": 341804,
+      "sample_rate": 24000,
+      "channels": 1,
+      "samples_per_channel": 170880,
+      "sample_width_bytes": 2,
+      "declared_header_samples": 1073741773,
+      "count_basis": "Actual verified PCM payload in provider manifest, not streaming WAV header"
+    },
+    {
+      "id": "audio/raw/S08-1469b69fc110.wav",
+      "path": "public/audio/raw/S08-1469b69fc110.wav",
+      "sha256": "3861dd700a41123de778584b32dbc6932bfa87020573788644673cedf102032a",
+      "bytes": 395564,
+      "sample_rate": 24000,
+      "channels": 1,
+      "samples_per_channel": 197760,
+      "sample_width_bytes": 2,
+      "declared_header_samples": 1073741773,
+      "count_basis": "Actual verified PCM payload in provider manifest, not streaming WAV header"
+    },
+    {
+      "id": "audio/score.wav",
+      "path": "public/audio/score.wav",
+      "sha256": "fc5361a3795874c54af67fefad52393cfc7cf44030e84ee1432787e916c2b681",
+      "bytes": 17280044,
+      "sample_rate": 48000,
+      "channels": 2,
+      "samples_per_channel": 4320000,
+      "sample_width_bytes": 2
+    },
+    {
+      "id": "audio/sfx.wav",
+      "path": "public/audio/sfx.wav",
+      "sha256": "bf95aea13f3569ac654a567c6a771cab9bf3dd7c71d91d602f02d8821b39acf6",
+      "bytes": 17280044,
+      "sample_rate": 48000,
+      "channels": 2,
+      "samples_per_channel": 4320000,
+      "sample_width_bytes": 2
+    }
+  ],
+  "visuals": {
+    "type": "deterministic frame-driven pure 2D SVG",
+    "path": "src/Geometry.tsx",
+    "sha256": "84aa26229184e595e26ae352c0c34d2e48a999c90860a7be3c33ea980d47d382",
+    "raster_assets": []
+  },
+  "fonts": [
+    {
+      "family": "PingFang SC",
+      "local_dependency": "/System/Library/AssetsV2/com_apple_MobileAsset_Font8/86ba2c91f017a3749571a82f2c6d890ac7ffb2fb.asset/AssetData/PingFang.ttc",
+      "sha256": "9ff3ce9439fe285cdabb46f9ceb46b1ac58f1ca07e6f4a764e8286db621a0af9",
+      "redistributed": false,
+      "reason": "Installed macOS font; rendered locally, no network font request or font redistribution."
+    },
+    {
+      "family": "Songti SC",
+      "local_dependency": "/System/Library/Fonts/Supplemental/Songti.ttc",
+      "sha256": "dd2f0628d302f322a2e9c3cf3253d5e73f418275e1f1421c84a7c65ce5a87777",
+      "redistributed": false,
+      "reason": "Installed macOS font; rendered locally, no network font request or font redistribution."
+    },
+    {
+      "family": "Menlo",
+      "local_dependency": "/System/Library/Fonts/Menlo.ttc",
+      "sha256": "f2d400484a6aace67980730ec0a9ef24ce9e535a2604f118e6fdc2510021b85f",
+      "redistributed": false,
+      "reason": "Installed macOS font; rendered locally, no network font request or font redistribution."
+    }
+  ],
+  "narration_provenance": "public/audio/provider-manifest.json",
+  "sound_provenance": "public/audio/mix-manifest.json",
+  "reuse": "One narration cache and one 48kHz PCM master. No image/video cloud generation or ASR performed."
+}

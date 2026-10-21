@@ -1,0 +1,37 @@
+{
+  "status": "NO_MATERIAL_SOURCE_BLOCKER",
+  "geometry_sha256": "84aa26229184e595e26ae352c0c34d2e48a999c90860a7be3c33ea980d47d382",
+  "basis": "Independent bounded read-only code review; estimates do not replace encoded-frame observations",
+  "bounds_logical": {
+    "act1_panels": [
+      76,
+      540,
+      904,
+      1235
+    ],
+    "epicycle_trace_max_radius": 253.8,
+    "act2_caliper": [
+      101,
+      505,
+      879,
+      1195
+    ],
+    "act3_max_crosshair_half_span": 361.6,
+    "astrolabe_max_radius": 308.8
+  },
+  "final_ring": {
+    "radius_range": [
+      21,
+      49
+    ],
+    "period_frames": 420,
+    "static_interval_over_180_frames": false
+  },
+  "transform_audit": "Only deterministic frame-derived 2D SVG transforms. No perspective/3D/WebGL/nondeterministic visual calls.",
+  "font_scope": {
+    "critical_hud_mobile_px": 10,
+    "main_subtitle_mobile_px": 16.333333333333332,
+    "secondary_blueprint_annotations_mobile_px": 7,
+    "note": "Secondary technical annotations are decorative drafting details. Core narration/subtitles/HUD carry the required readable meaning."
+  }
+}

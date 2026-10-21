@@ -1,0 +1,13 @@
+{
+  "status": "PASS_FRESH_5400_FRAME_SCAN_AND_STRICT_DECODE",
+  "failed_sha256": "74e8012a927f8b6ac572a7048599198a3ee250809c0d07d9d330e0836a72378e",
+  "failed_media_preserved_at": "/Volumes/AgentDev/Scratch/tmp/si-ep12-native-SWUX7A/rejected-capture-01-mux.mp4",
+  "final_path": "\u5c0f\u7ea2\u4e66/si-ep12-final-equation-xiaohongshu-90s-portrait.mp4",
+  "repaired_sha256": "39c3e73574ce57324f926820ffa99f7c6ba672337bca148075fc2b7cc29293c9",
+  "replaced_absolute_frame": 1322,
+  "native_source_png_sha256": "cdc1d89fecd7f288745c279163227f585bbf64628a41b292b4f88642634251e8",
+  "audio_payloads_identical": true,
+  "method": "Same-frame native redraw overlay; no neighboring frame interpolation or substitution.",
+  "final_qc": "review/visual-qc-xiaohongshu/report.json",
+  "final_validation": "review/media-validation-20261021T134044.107707Z.json"
+}

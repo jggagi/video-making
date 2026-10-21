@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "checkedAtUtc": "2026-10-21T18:43:40.223436+00:00",
+  "sourceCommit": "34d169f2da900020beaa4a6f2c11f75bbf3c4edd",
+  "catalogSha256": "460aba16e726b776f92613d9433e953009929dc7b4112b6be69cd2578e806a53",
+  "releaseTag": "final-si-ep11-kintsugi-ink-v03-07141d6f8835",
+  "downloadUrl": "https://github.com/jggagi/video-making/releases/download/final-si-ep11-kintsugi-ink-v03-07141d6f8835/final--si-ep11-kintsugi-ink-v03--deliveries--si-ep11-kintsugi-ink-v03-----si-ep11-kintsugi-ink-v03-xiaohongshu-90s-portrait--8bc877ae8c69.mp4",
+  "freshTemporaryRoot": "/private/tmp/ep11-v03-restore-hxf15_gy",
+  "restoredRelativePath": "final/si-ep11-kintsugi-ink-v03/小红书/si-ep11-kintsugi-ink-v03-xiaohongshu-90s-portrait.mp4",
+  "bytes": 100931077,
+  "sha256": "8bc877ae8c69b76953e5eca1af056a4c851a1a7960473c73f5dd6e0771ba08e1",
+  "metadata": {
+    "width": 2160,
+    "height": 3840,
+    "avg_frame_rate": "60/1",
+    "nb_frames": "5400"
+  },
+  "secondRun": {
+    "returnCode": 0,
+    "output": "Restore complete: 1 already verified, 0 downloaded"
+  },
+  "existingFormalFilesChanged": false,
+  "scope": "Actual download into a new temporary directory, exact size/SHA256 match, metadata check, and verified skip on repeated restore."
+}

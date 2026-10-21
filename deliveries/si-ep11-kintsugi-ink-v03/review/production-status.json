@@ -1,6 +1,6 @@
 {
-  "status": "MEDIA_ACCEPTED_ARCHIVE_PENDING",
-  "stage": "media validated; editable package and dual archive backups next",
+  "status": "COMPLETE",
+  "stage": "native4Kfilm, sourcepackage, localfinal, GitHubfilm/final andactualrestore verified",
   "expected": {
     "width": 2160,
     "height": 3840,
@@ -22,11 +22,7 @@
     "frame2820 stop andframe2940 return exactly map tooriginalSFX samples",
     "both guarded source movies encoded andstrictdecoded; native600frame narratedRemotion sample checked atboth cuts andcore events"
   ],
-  "remaining": [
-    "editableprojectZIP withintegrityproof",
-    "localfinal andGitHubfinal backups",
-    "restoreprobe"
-  ],
+  "remaining": [],
   "acceptance": {
     "human_listening": "NOT_RUN",
     "ordinary_audience_feedback": "NOT_RUN",
@@ -36,5 +32,6 @@
   "baseNativeFramesCompleted": 1525,
   "heroNativeFramesExpected": 231,
   "heroNativeFramesCompleted": 231,
-  "finalMovieSha256": "8bc877ae8c69b76953e5eca1af056a4c851a1a7960473c73f5dd6e0771ba08e1"
+  "finalMovieSha256": "8bc877ae8c69b76953e5eca1af056a4c851a1a7960473c73f5dd6e0771ba08e1",
+  "completionRecord": "completion.json"
 }

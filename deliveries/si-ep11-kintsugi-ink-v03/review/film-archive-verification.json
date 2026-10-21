@@ -1,0 +1,70 @@
+{
+  "status": "PASS",
+  "verifiedAtUtc": "2026-10-21T18:40:59.645993+00:00",
+  "sourceCommit": "34d169f2da900020beaa4a6f2c11f75bbf3c4edd",
+  "catalogSha256": "e3e7fa029f961f7720437f6e707f48cebf7106f6980be8f1cf74982667332621",
+  "uploadReceiptSha256": "ee60702412bc63516ab8dc1c19d5b76bf5b4dba928988df987fd900cbb0b0f9a",
+  "releaseUrl": "https://github.com/jggagi/video-making/releases/tag/film-si-ep11-kintsugi-ink-v03-07141d6f8835",
+  "releaseTag": "film-si-ep11-kintsugi-ink-v03-07141d6f8835",
+  "githubReleaseId": 419919642,
+  "draft": false,
+  "assetsVerified": [
+    {
+      "path": "deliveries/si-ep11-kintsugi-ink-v03/project/public/video/canyon-v03.mp4",
+      "bytes": 87147838,
+      "sha256": "738fc7b8ce908c9b64e287c86ddd6681caa1f5e96b8f06f8fbc923e69f1e3b04",
+      "githubAssetId": 663446347,
+      "downloadUrl": "https://github.com/jggagi/video-making/releases/download/film-si-ep11-kintsugi-ink-v03-07141d6f8835/si-ep11-kintsugi-ink-v03--deliveries--si-ep11-kintsugi-ink-v03--project--public--video--canyon-v03--738fc7b8ce90.mp4"
+    },
+    {
+      "path": "deliveries/si-ep11-kintsugi-ink-v03/project/public/video/hero-v03.mp4",
+      "bytes": 15135112,
+      "sha256": "825334e0033fcf113909ee34759b5e518a695dca59477b9b351b2ba32f378cab",
+      "githubAssetId": 663446634,
+      "downloadUrl": "https://github.com/jggagi/video-making/releases/download/film-si-ep11-kintsugi-ink-v03-07141d6f8835/si-ep11-kintsugi-ink-v03--deliveries--si-ep11-kintsugi-ink-v03--project--public--video--hero-v03--825334e0033f.mp4"
+    },
+    {
+      "path": "deliveries/si-ep11-kintsugi-ink-v03/review/hero-motion-preview01.mp4",
+      "bytes": 1133002,
+      "sha256": "87b07d10cb2b8362bf3391f829af382fcb2d33115cd8060d85ef609011ca83b0",
+      "githubAssetId": 663446736,
+      "downloadUrl": "https://github.com/jggagi/video-making/releases/download/film-si-ep11-kintsugi-ink-v03-07141d6f8835/si-ep11-kintsugi-ink-v03--deliveries--si-ep11-kintsugi-ink-v03--review--hero-motion-preview01--87b07d10cb2b.mp4"
+    },
+    {
+      "path": "deliveries/si-ep11-kintsugi-ink-v03/review/motion-2760-3359.mp4",
+      "bytes": 13689032,
+      "sha256": "ad76ca9a813222ab07e44ada75ecca89e67a8de87a5939f898c1cb9d33c13eee",
+      "githubAssetId": 663446823,
+      "downloadUrl": "https://github.com/jggagi/video-making/releases/download/film-si-ep11-kintsugi-ink-v03-07141d6f8835/si-ep11-kintsugi-ink-v03--deliveries--si-ep11-kintsugi-ink-v03--review--motion-2760-3359--ad76ca9a8132.mp4"
+    },
+    {
+      "path": "deliveries/si-ep11-kintsugi-ink-v03/review/repair-motion-preview-look09.mp4",
+      "bytes": 2331898,
+      "sha256": "1f4f6ab024b541daee15dc0649bad6292cdb653a6379fb5ee02f1861b662f65f",
+      "githubAssetId": 663446912,
+      "downloadUrl": "https://github.com/jggagi/video-making/releases/download/film-si-ep11-kintsugi-ink-v03-07141d6f8835/si-ep11-kintsugi-ink-v03--deliveries--si-ep11-kintsugi-ink-v03--review--repair-motion-preview-look09--1f4f6ab024b5.mp4"
+    },
+    {
+      "path": "deliveries/si-ep11-kintsugi-ink-v03/review/repair-motion-preview.mp4",
+      "bytes": 2131536,
+      "sha256": "7c7d406ee872874d905acc89baed59193551d2eef865e67eb2a7d8552654c170",
+      "githubAssetId": 663446961,
+      "downloadUrl": "https://github.com/jggagi/video-making/releases/download/film-si-ep11-kintsugi-ink-v03-07141d6f8835/si-ep11-kintsugi-ink-v03--deliveries--si-ep11-kintsugi-ink-v03--review--repair-motion-preview--7c7d406ee872.mp4"
+    },
+    {
+      "path": "deliveries/si-ep11-kintsugi-ink-v03/si-ep11-kintsugi-ink-v03-project.zip",
+      "bytes": 164378343,
+      "sha256": "b4ecc57a14e2ef2501b162cd2f31e70bc4cdbaf779bb8878855af64d4e171a59",
+      "githubAssetId": 663447012,
+      "downloadUrl": "https://github.com/jggagi/video-making/releases/download/film-si-ep11-kintsugi-ink-v03-07141d6f8835/si-ep11-kintsugi-ink-v03--deliveries--si-ep11-kintsugi-ink-v03--si-ep11-kintsugi-ink-v03-project--b4ecc57a14e2.zip"
+    },
+    {
+      "path": "deliveries/si-ep11-kintsugi-ink-v03/小红书/si-ep11-kintsugi-ink-v03-xiaohongshu-90s-portrait.mp4",
+      "bytes": 100931077,
+      "sha256": "8bc877ae8c69b76953e5eca1af056a4c851a1a7960473c73f5dd6e0771ba08e1",
+      "githubAssetId": 663447656,
+      "downloadUrl": "https://github.com/jggagi/video-making/releases/download/film-si-ep11-kintsugi-ink-v03-07141d6f8835/si-ep11-kintsugi-ink-v03--deliveries--si-ep11-kintsugi-ink-v03-----si-ep11-kintsugi-ink-v03-xiaohongshu-90s-portrait--8bc877ae8c69.mp4"
+    }
+  ],
+  "scope": "Fresh GitHub API metadata plus current local bytes; all8newfilmassets exactsize/SHA256/name/URL matched. Actual final restore is checked separately."
+}

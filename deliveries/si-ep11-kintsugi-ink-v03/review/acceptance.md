@@ -15,3 +15,5 @@ AAC与PCM主音轨均为−16.0LUFS、−1.4dBTP。1–4、47–50、86–89秒�
 真人连续观感检查、真人试听、目标手机播放及普通观众反馈均为NOT_RUN。此前用户对v02的反馈不能当作v03反馈。本次未进行平台账号发布操作。
 
 工程ZIP的CRC与成员哈希由package-integrity.json记录。最终本地final与GitHubfinal备份、恢复探针的结果在上传完成后另行记录；不能将打包时的状态当作已完成上传。
+
+归档闭环已完成：本地final、GitHub film和独立final Release均已核对；真实下载恢复及第二次跳过通过。完整闭环见completion.json、film-archive-verification.json、restore-probe.json及根目录final/backup-verification.json。工程ZIP保留上传前的源文件与QA快照，上传回执属于后续仓库记录。

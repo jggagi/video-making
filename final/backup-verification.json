@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
   "status": "COMPLETE",
-  "verified_at_utc": "2026-10-21T13:54:13.005231+00:00",
+  "verified_at_utc": "2026-10-21T18:42:49.325194+00:00",
   "repository": "jggagi/video-making",
-  "source_commit": "b2c764444d39b7ecd1132766b4fa38d8c97ea700",
+  "source_commit": "34d169f2da900020beaa4a6f2c11f75bbf3c4edd",
   "catalog_path": "final/backup-catalog.json",
-  "catalog_sha256": "9944230c1737f27a9cd0bfefd64dfe4314ac7149042b538c74a513fb69004d54",
-  "upload_receipt_sha256": "4034595989da32fda57603d4745ee8516566c34aa49777260bf6540e9310cf90",
+  "catalog_sha256": "460aba16e726b776f92613d9433e953009929dc7b4112b6be69cd2578e806a53",
+  "upload_receipt_sha256": "b37380803ccb5f8defda3171c574f1caf3eca39466d9e26be39bff581f2f4f45",
   "verification_method": "Fresh published GitHub Release API inventory plus all local final file hashes; every remote size, SHA-256 digest and URL matched the current catalog.",
-  "verified_releases": 24,
-  "verified_files": 53,
-  "verified_bytes": 8703220033,
+  "verified_releases": 25,
+  "verified_files": 54,
+  "verified_bytes": 8804151110,
   "works": [
     {
       "id": "lanting",
@@ -713,6 +713,26 @@
       ]
     },
     {
+      "id": "si-ep11-kintsugi-ink-v03",
+      "title": "Final 成片备份 · 逆转的沙漏 · 留住这一根白发",
+      "release_tag": "final-si-ep11-kintsugi-ink-v03-07141d6f8835",
+      "release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep11-kintsugi-ink-v03-07141d6f8835",
+      "release_target": "34d169f2da900020beaa4a6f2c11f75bbf3c4edd",
+      "release_draft": false,
+      "assets": [
+        {
+          "path": "final/si-ep11-kintsugi-ink-v03/小红书/si-ep11-kintsugi-ink-v03-xiaohongshu-90s-portrait.mp4",
+          "name": "final--si-ep11-kintsugi-ink-v03--deliveries--si-ep11-kintsugi-ink-v03-----si-ep11-kintsugi-ink-v03-xiaohongshu-90s-portrait--8bc877ae8c69.mp4",
+          "bytes": 100931077,
+          "sha256": "8bc877ae8c69b76953e5eca1af056a4c851a1a7960473c73f5dd6e0771ba08e1",
+          "github_digest": "sha256:8bc877ae8c69b76953e5eca1af056a4c851a1a7960473c73f5dd6e0771ba08e1",
+          "github_asset_id": 663451820,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep11-kintsugi-ink-v03-07141d6f8835/final--si-ep11-kintsugi-ink-v03--deliveries--si-ep11-kintsugi-ink-v03-----si-ep11-kintsugi-ink-v03-xiaohongshu-90s-portrait--8bc877ae8c69.mp4",
+          "local_and_remote_match": true
+        }
+      ]
+    },
+    {
       "id": "si-ep12-final-equation",
       "title": "Final 成片备份 · 最后一行公式",
       "release_tag": "final-si-ep12-final-equation-9693cfcbd26b",
@@ -785,12 +805,13 @@
   ],
   "restore_probe": {
     "status": "PASS",
-    "record": "deliveries/si-ep12-final-equation/review/final-restore-probe.json",
-    "record_sha256": "a19c13d26868fb73195d7bc8a355d638b0dc723b1331dd37d67353f9a2da06e2",
-    "work": "si-ep12-final-equation",
-    "sha256": "39c3e73574ce57324f926820ffa99f7c6ba672337bca148075fc2b7cc29293c9",
-    "bytes": 59049637,
-    "second_run_skipped_matching_file": true,
-    "scope": "Only the newly added EP12 portrait final was downloaded and restored. All53 assets separately passed fresh inventory/hash verification."
+    "work_id": "si-ep11-kintsugi-ink-v03",
+    "scope": "Actual restore for this new work only; the remote/local inventory check covers all54finalassets.",
+    "report_path": "deliveries/si-ep11-kintsugi-ink-v03/review/restore-probe.json",
+    "report_sha256": "9bda84c3c9cef1eba51c6b314d6cb745258227d1e981c5016a72b54441f9a484",
+    "bytes": 100931077,
+    "sha256": "8bc877ae8c69b76953e5eca1af056a4c851a1a7960473c73f5dd6e0771ba08e1",
+    "fresh_download_verified": true,
+    "repeated_restore_verified_skip": true
   }
 }

@@ -1,0 +1,39 @@
+{
+  "status": "COMPLETE",
+  "completedAtUtc": "2026-10-21T18:44:31.815966+00:00",
+  "sourceCommit": "34d169f2da900020beaa4a6f2c11f75bbf3c4edd",
+  "movie": {
+    "sourcePath": "deliveries/si-ep11-kintsugi-ink-v03/小红书/si-ep11-kintsugi-ink-v03-xiaohongshu-90s-portrait.mp4",
+    "finalPath": "final/si-ep11-kintsugi-ink-v03/小红书/si-ep11-kintsugi-ink-v03-xiaohongshu-90s-portrait.mp4",
+    "bytes": 100931077,
+    "sha256": "8bc877ae8c69b76953e5eca1af056a4c851a1a7960473c73f5dd6e0771ba08e1",
+    "width": 2160,
+    "height": 3840,
+    "fps": 60,
+    "frames": 5400,
+    "videoSeconds": 90
+  },
+  "projectZip": {
+    "path": "deliveries/si-ep11-kintsugi-ink-v03/si-ep11-kintsugi-ink-v03-project.zip",
+    "bytes": 164378343,
+    "sha256": "b4ecc57a14e2ef2501b162cd2f31e70bc4cdbaf779bb8878855af64d4e171a59",
+    "crcAndMemberHashes": "PASS"
+  },
+  "evidence": {
+    "currentMediaValidation": "review/media-validation-20261021T183447.481963Z.json",
+    "continuous5400FrameScan": "review/visual-qc-xiaohongshu/report.json",
+    "encodedAudioAndVisual": "review/encoded-qa-8bc877ae8c69/report.json",
+    "filmArchive": "review/film-archive-verification.json",
+    "finalArchive": "../../final/backup-verification.json",
+    "actualRestore": "review/restore-probe.json"
+  },
+  "filmRelease": "https://github.com/jggagi/video-making/releases/tag/film-si-ep11-kintsugi-ink-v03-07141d6f8835",
+  "finalRelease": "https://github.com/jggagi/video-making/releases/tag/final-si-ep11-kintsugi-ink-v03-07141d6f8835",
+  "archiveState": "localAPFSfinal + publishedfilm + publishedfinal + actualrestore verified",
+  "humanListening": "NOT_RUN",
+  "continuousHumanReview": "NOT_RUN",
+  "targetDevice": "NOT_RUN",
+  "ordinaryAudienceFeedback": "NOT_RUN",
+  "platformAccountActions": "NOT_RUN",
+  "note": "The immutable editableZIP is the pre-upload source/QA snapshot; these post-upload receipts and completion records live in the canonical source repository."
+}

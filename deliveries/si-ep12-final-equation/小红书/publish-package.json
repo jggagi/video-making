@@ -59,5 +59,12 @@
     "height": 3840,
     "fps": 60
   },
-  "contentDeclaration": "AI合成旁白；程序化纯2D视觉；科幻思想实验。"
+  "contentDeclaration": "AI合成旁白；程序化纯2D视觉；科幻思想实验。",
+  "archive": {
+    "sourceCommit": "b2c764444d39b7ecd1132766b4fa38d8c97ea700",
+    "filmRelease": "https://github.com/jggagi/video-making/releases/tag/film-si-ep12-final-equation-9693cfcbd26b",
+    "finalRelease": "https://github.com/jggagi/video-making/releases/tag/final-si-ep12-final-equation-9693cfcbd26b",
+    "verifiedMovieSha256": "39c3e73574ce57324f926820ffa99f7c6ba672337bca148075fc2b7cc29293c9",
+    "restoreProbe": "PASS"
+  }
 }

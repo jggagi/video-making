@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "checked_utc": "2026-10-21T13:54:45.501631+00:00",
+  "source_commit": "b2c764444d39b7ecd1132766b4fa38d8c97ea700",
+  "catalog_sha256": "51153b087da63561439949a7b0af012d04dd797495b90a3670855c9f31e0f7b5",
+  "receipt_sha256": "c7adc07e304ed0b8321e5d179b0439e627c90d362ec7fd17cfe4c62120349e6a",
+  "verified_works": 24,
+  "verified_assets": 231,
+  "method": "Uploader verified published remote asset sizes/SHA-256; root cross-checked every expected catalog entry against its completed current receipt.",
+  "new_work_release": "https://github.com/jggagi/video-making/releases/tag/film-si-ep12-final-equation-9693cfcbd26b",
+  "new_work_assets": [
+    {
+      "name": "si-ep12-final-equation--deliveries--si-ep12-final-equation--review--motion-3900-4079--d66cb21614c1.mp4",
+      "bytes": 4885928,
+      "digest": "sha256:d66cb21614c143eae1164af5c032f3265a26687350bb57746b5f7bcde91480e8",
+      "kind": "video",
+      "platform": "预览",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep12-final-equation-9693cfcbd26b/si-ep12-final-equation--deliveries--si-ep12-final-equation--review--motion-3900-4079--d66cb21614c1.mp4",
+      "browser_download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep12-final-equation-9693cfcbd26b/si-ep12-final-equation--deliveries--si-ep12-final-equation--review--motion-3900-4079--d66cb21614c1.mp4",
+      "id": 662666297
+    },
+    {
+      "name": "si-ep12-final-equation--deliveries--si-ep12-final-equation--review--motion-4840-5019--57e85067f024.mp4",
+      "bytes": 373267,
+      "digest": "sha256:57e85067f024fbc45a4f23e663f392a36e9f80003f1927ab13752378f8432324",
+      "kind": "video",
+      "platform": "预览",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep12-final-equation-9693cfcbd26b/si-ep12-final-equation--deliveries--si-ep12-final-equation--review--motion-4840-5019--57e85067f024.mp4",
+      "browser_download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep12-final-equation-9693cfcbd26b/si-ep12-final-equation--deliveries--si-ep12-final-equation--review--motion-4840-5019--57e85067f024.mp4",
+      "id": 662666433
+    },
+    {
+      "name": "si-ep12-final-equation--deliveries--si-ep12-final-equation--review--motion-60-239--fd8456d2cc80.mp4",
+      "bytes": 608658,
+      "digest": "sha256:fd8456d2cc80ca5363dcf50e3c4e7bd675521c35a439c4948e3a6984ca72bd5d",
+      "kind": "video",
+      "platform": "预览",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep12-final-equation-9693cfcbd26b/si-ep12-final-equation--deliveries--si-ep12-final-equation--review--motion-60-239--fd8456d2cc80.mp4",
+      "browser_download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep12-final-equation-9693cfcbd26b/si-ep12-final-equation--deliveries--si-ep12-final-equation--review--motion-60-239--fd8456d2cc80.mp4",
+      "id": 662666531
+    },
+    {
+      "name": "si-ep12-final-equation--deliveries--si-ep12-final-equation-----si-ep12-final-equation-xiaohongshu-90s-portrait--39c3e73574ce.mp4",
+      "bytes": 59049637,
+      "digest": "sha256:39c3e73574ce57324f926820ffa99f7c6ba672337bca148075fc2b7cc29293c9",
+      "kind": "video",
+      "platform": "小红书",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep12-final-equation-9693cfcbd26b/si-ep12-final-equation--deliveries--si-ep12-final-equation-----si-ep12-final-equation-xiaohongshu-90s-portrait--39c3e73574ce.mp4",
+      "browser_download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep12-final-equation-9693cfcbd26b/si-ep12-final-equation--deliveries--si-ep12-final-equation-----si-ep12-final-equation-xiaohongshu-90s-portrait--39c3e73574ce.mp4",
+      "id": 662666605
+    }
+  ]
+}

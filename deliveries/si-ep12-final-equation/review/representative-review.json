@@ -8,12 +8,14 @@
     "Native2160x3840 frame4020 viewed at original resolution: crisp type, flat gold/ink lines and no major banding in the light paper field. No dark-gradient scene exists in this design.",
     "Eight2.5second motion pairs viewed: epicycle curve changes; caliper moves; quadrants translate/rotate; astrolabe simplifies; final gold ring changes radius.",
     "Frames1320–1324 viewed after repair: clean persistent Act2 state, frame1322 no longer tiles HUD.",
-    "HUD and two-line subtitles remain inside the declared safe boxes. Main subtitles readable at360px; small secondary blueprint annotations are decorative."
+    "HUD and two-line subtitles remain inside the declared safe boxes. Main subtitles readable at360px; small secondary blueprint annotations are decorative.",
+    "An additional encoded45.833s frame shows the variational identity below the gold circle/spiral."
   ],
   "audience_experience": "NOT_RUN",
   "human_listening": "NOT_RUN",
   "device_playback": "NOT_RUN",
   "limits": "Representative frames and source motion math are not continuous human perceptual review or all-pixel artifact guarantees.",
   "cover_headline_evidence": "review/cover-headline-review.jpg",
-  "cover_headline_observation": "A/B headline variants viewed at360px; requested headline is split across top and lower blocks, within portrait safe margins."
+  "cover_headline_observation": "A/B headline variants viewed at360px; requested headline is split across top and lower blocks, within portrait safe margins.",
+  "equation_frame_evidence": "review/encoded-equation-2750.png"
 }

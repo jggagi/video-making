@@ -1,6 +1,6 @@
 # EP12《最后一行公式》验收
 
-状态：本地技术验收通过；GitHub作品与final备份待本次归档步骤完成。
+状态：本地技术验收、作品Release归档、本地final、GitHub独立final备份与本片真实恢复抽测均通过。人工听看/设备验收仍待确认。
 
 最终MP4 SHA-256：`39c3e73574ce57324f926820ffa99f7c6ba672337bca148075fc2b7cc29293c9`。
 
@@ -48,4 +48,16 @@ A/B封面分别来自最终编码4020/5040帧，另有原生标题版；文案�
 
 ## 本地final与归档预检
 
-本地final库新增本片APFS克隆，53份正式历史/本次成片逐项验证；新片路径为final/si-ep12-final-equation/小红书/si-ep12-final-equation-xiaohongshu-90s-portrait.mp4。作品总清单231个资产、final清单53个资产默认dry-run通过。当前仅待已授权的GitHub上传、远端核验和本次新增成片恢复抽测。
+本地final库新增本片APFS克隆，53份正式历史/本次成片逐项验证；新片路径为final/si-ep12-final-equation/小红书/si-ep12-final-equation-xiaohongshu-90s-portrait.mp4。作品总清单231个资产、final清单53个资产默认dry-run通过。GitHub上传、远端核验和本次新增成片恢复抽测均已完成。
+
+## GitHub留存与恢复证据
+
+源码提交：b2c764444d39b7ecd1132766b4fa38d8c97ea700，已push。
+
+- 作品Release：https://github.com/jggagi/video-making/releases/tag/film-si-ep12-final-equation-9693cfcbd26b
+- 独立final Release：https://github.com/jggagi/video-making/releases/tag/final-si-ep12-final-equation-9693cfcbd26b
+- 作品清单231资产/24作品远端大小与SHA-256核对通过，见archive-verification.json。
+- 当前final清单53成片/24 Release本地与新远端清单逐项核对通过，记录位于仓库final/backup-verification.json，并绑定当前backup-catalog散列。
+- 本片新final在隔离AgentDev目录真实下载恢复，59,049,637字节与SHA-256一致，第二次执行跳过匹配文件，临时恢复目录已清理。仅这一新增影片实际下载恢复，不能表述为全部历史影片均已恢复。详见final-restore-probe.json。
+
+编码后45.833秒处另抽帧确认变分恒等式可见，证据encoded-equation-2750.png。

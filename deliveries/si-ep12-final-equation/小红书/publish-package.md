@@ -1,4 +1,4 @@
-# 小红书文案包（草稿）
+# 小红书文案包（原始文案与提交记录）
 
 **封面标题：** 当 AI 把整个宇宙算成一行公式，人类却突然开始怀念童年
 
@@ -32,8 +32,17 @@
 - A：`cover-A.png`，frame 4020 / 01:07，四象限汇入骨白纸上的 2D 金色星盘。
 - B：`cover-B.png`，frame 5040 / 01:24，留白画面中的孤独 Q.E.D. 圆点。
 
-这是文案草稿；尚未提交到小红书。封面图片也尚未生成。发布文案保留原始用户提供的“牛顿擦去托勒密本轮”历史简化表达，并在首行明确标为科幻设定；没有把“两季共 12 集全部完结”作为经独立核验的事实。
+已按用户明确指令提交到小红书，平台返回“发布成功”，管理页状态为“审核中”。采用 `cover-A-headline.png`。发布文案保留原始用户提供的“牛顿擦去托勒密本轮”历史简化表达，并在首行明确标为科幻设定；没有把“两季共 12 集全部完结”作为经独立核验的事实。
 
 ## Final media package
 
-Final movie and both exact-frame covers are ready. Cover A: frame4020 / 67s. Cover B: frame5040 / 84s. Each also has a separate `-headline.png` native Remotion layout carrying the requested headline. File hashes and final movie identity are in publish-package.json. Account submission remains NOT_STARTED.
+Final movie and both exact-frame covers are ready. Cover A: frame4020 / 67s. Cover B: frame5040 / 84s. Each also has a separate `-headline.png` native Remotion layout carrying the requested headline. File hashes and final movie identity are in publish-package.json. Account submission: SUBMITTED_PENDING_REVIEW. Public visibility has not been verified.
+
+## 2026-10-21 提交记录
+
+- 账号：余问 QStory。
+- 实际标题：当宇宙被折叠成最后一行公式｜一眼万年终章。平台限制20字，仅删除原题的一处空格。
+- 正文保留原文，去除纯文本编辑器不渲染的Markdown符号；首行科幻设定说明保留；十个话题均从候选项关联。
+- 封面：Cover A标题版。声明：笔记含AI合成内容。公开可见，定时发布关闭。
+- 平台回执：发布成功；笔记管理中标题、01:30时长与封面匹配，状态“审核中”。尚未确认审核通过或公开可见。
+- 详细记录：[publication-record.json](publication-record.json)。账号页面截图仅保存在本机临时目录，未加入公开Git仓库。

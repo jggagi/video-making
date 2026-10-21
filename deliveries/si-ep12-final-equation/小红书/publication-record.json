@@ -1,0 +1,120 @@
+{
+  "platform": "小红书",
+  "status": "SUBMITTED_PENDING_REVIEW",
+  "account_display_name": "余问 QStory",
+  "authorization_summary": "用户明确要求把《最后一行公式》发到小红书，用准备好的封面和文案；包括最终提交。",
+  "video_path": "小红书/si-ep12-final-equation-xiaohongshu-90s-portrait.mp4",
+  "video_sha256": "39c3e73574ce57324f926820ffa99f7c6ba672337bca148075fc2b7cc29293c9",
+  "video_size_bytes": 59049637,
+  "duration_seconds": 90,
+  "copy_file": "小红书/publish-package.json",
+  "title": "当宇宙被折叠成最后一行公式｜一眼万年终章",
+  "cover_path": "小红书/cover-A-headline.png",
+  "cover_sha256": "ae66804050286a4f70d6542bcfebe9813f1ba5ae3292776a9272b308196d600d",
+  "cover_source_frame": 4020,
+  "cover_crop_xywh": null,
+  "linked_topics": [
+    {
+      "id": "611e322d00000000010032ff",
+      "link": "xhsdiscover://topic/v2/611e322defd05b00013a00f8",
+      "name": "超级智能"
+    },
+    {
+      "id": "62060f8300000000010067e6",
+      "link": "xhsdiscover://topic/v2/62060f8483291000012121f9",
+      "name": "奥卡姆剃刀"
+    },
+    {
+      "id": "5fb91401000000000101de6e",
+      "link": "xhsdiscover://topic/v2/5fb914013f373c00017fa529",
+      "name": "物理学"
+    },
+    {
+      "id": "622337850000000001003d81",
+      "link": "xhsdiscover://topic/v2/62233785b74fce0001217a6a",
+      "name": "科幻美学"
+    },
+    {
+      "id": "5bf02957b342a9000188fa7f",
+      "link": "xhsdiscover://topic/v2/5bf029574e61ca0001385b3e",
+      "name": "平面设计"
+    },
+    {
+      "id": "5f7d9f0e00000000010028e9",
+      "link": "xhsdiscover://topic/v2/5f7d9f0efa9b000001feee3c",
+      "name": "生成艺术"
+    },
+    {
+      "id": "5d3323290000000017032899",
+      "link": "xhsdiscover://topic/v2/5d3323295233240001349b8c",
+      "name": "深度思考"
+    },
+    {
+      "id": "61e63cb10000000001002177",
+      "link": "xhsdiscover://topic/v2/61e63cb1fad2c800019ac2e6",
+      "name": "宇宙"
+    },
+    {
+      "id": "5ee73cfc000000000101d196",
+      "link": "xhsdiscover://topic/v2/5ee73cfc774a95000173db86",
+      "name": "全剧终"
+    },
+    {
+      "id": "56ab75eb14de415d8e56afd6",
+      "link": "xhsdiscover://topic/v2/5ecdd0cfec9d13126cf3cf8a",
+      "name": "一眼万年"
+    }
+  ],
+  "content_declaration": "笔记含AI合成内容",
+  "visibility": "公开可见",
+  "scheduled": false,
+  "scheduled_at": null,
+  "prepared": true,
+  "submission_attempted": true,
+  "attempt_started_at_utc": "2026-10-21T14:12:10.236Z",
+  "final_action_actor": "Codex",
+  "submission_method": "小红书创作服务平台网页，通过受支持浏览器UI操作",
+  "submission_verified": true,
+  "publication_verified": false,
+  "public_visibility_verified": false,
+  "review_status": "审核中",
+  "checked_at_utc": "2026-10-21T14:13:09.030Z",
+  "platform_display_time": "2026-10-21 22:12",
+  "platform_display_time_timezone": "未由页面标示；原样保留，不推断时区",
+  "manager_url": "https://creator.xiaohongshu.com/new/note-manager",
+  "note_id": null,
+  "public_note_url": null,
+  "verification": {
+    "video_upload_complete": true,
+    "platform_hd_detected": true,
+    "cover_quality_check": "封面效果评估通过，未发现封面质量问题",
+    "caption_readback_matches_prepared": true,
+    "ten_topics_linked": true,
+    "no_duplicate_found": {
+      "scope": "发布前本地记录与笔记管理搜索；提交后审核中分类仅出现本片一条",
+      "query": "最后一行公式",
+      "result": "发布前搜索没有找到相关笔记；提交后总数12→13，审核中分类有本片一条",
+      "limitation": "发布前未单独记录搜索时分类选中状态，不将其表述为全量分类筛查证据。"
+    },
+    "success_screen_text": "发布成功",
+    "manager_entry": {
+      "title": "当宇宙被折叠成最后一行公式｜一眼万年终章",
+      "duration": "01:30",
+      "cover": "与主封面A一致",
+      "status": "审核中",
+      "count_increase": "全部12→13"
+    },
+    "note_id_source": "页面未显示，未猜测笔记ID或公开URL"
+  },
+  "evidence_paths": [],
+  "blocker": null,
+  "remaining": [
+    "平台审核结果",
+    "审核通过后的公开可见性未核验"
+  ],
+  "title_adjustment": "平台显示21/20，仅删除原题系列名和终章之间的一个空格，调整后20/20。",
+  "caption": "科幻思想实验｜终极统一、位数和“未知为零”均为虚构设定，并非当前科学结论。\n\n三千年来，人类像一群在黑夜里摸象的盲人，用成千上万条公式，拼凑着宇宙的轮廓。\n宏观归相对论，微观归量子力学，生命归化学。我们引以为傲的科学大厦，其实是一张打满了聪明补丁、却彼此冲突的草稿纸。\n\n直到超级智能挥下「奥卡姆剃刀」。\n在它眼里，复杂从来不是宇宙的本相，只是人类算力不足的妥协。\n就像当年牛顿用一行万有引力，擦掉了托勒密上百个繁琐的本轮圆圈；超级智能在二维图纸上将引力、量子与生命的十万条定律一层层解开、对齐、抵消，最终折叠成了最后一行极简的黄金方程：\nQ.E.D.（证明完毕，未知剩余：0）。\n\n可当超级智能替人类翻到了宇宙的最后一页，所有的“为什么”都有了标准答案——\n当所有的迷雾都变成了定理，我们才突然怀念起，那个抬头看着星空、什么都还不懂的童年。\n\n——\n🎬 「一眼万年」系列大结局 · EP.12《最后一行公式》\n全片采用纯 2D 瑞士精密制图美学（Remotion 纯代码生成傅里叶本轮与共形映射），至此两季共 12 集全部完结。\n\n💬 终章提问：如果有一本写着宇宙全部终极答案的书放在你面前，翻开它就再也没有任何未知与悬念，你会选择翻开它，还是把它合上？",
+  "cover_crop_note": "使用平台默认裁切；已在封面编辑器及信息流预览核对：完整主标题、黄金星盘和下方中文副标题可见。未测量像素裁切框。",
+  "content_disclosure": "科幻思想实验｜终极统一、位数和“未知为零”均为虚构设定，并非当前科学结论。",
+  "private_evidence_note": "账号页面截图仅保存在本机临时目录，未加入公开Git仓库。"
+}

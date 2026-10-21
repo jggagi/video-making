@@ -169,7 +169,7 @@ def ffprobe_movie(path: Path, ffprobe: str, width: int, height: int) -> dict[str
             "error",
             "-count_frames",
             "-show_entries",
-            "stream=codec_name,width,height,r_frame_rate,avg_frame_rate,nb_frames,nb_read_frames,pix_fmt,color_primaries,color_transfer,colorspace",
+            "stream=codec_name,width,height,r_frame_rate,avg_frame_rate,nb_frames,nb_read_frames,pix_fmt,color_primaries,color_transfer,color_space",
             "-of",
             "json",
             str(path),
@@ -190,7 +190,7 @@ def ffprobe_movie(path: Path, ffprobe: str, width: int, height: int) -> dict[str
         "pix_fmt": "yuv420p",
         "color_primaries": "bt709",
         "color_transfer": "bt709",
-        "colorspace": "bt709",
+        "color_space": "bt709",
     }
     for key, value in required.items():
         if stream.get(key) != value:
@@ -317,7 +317,7 @@ def encode(args: argparse.Namespace) -> None:
                 str(FRAME_END),
                 "-an",
                 "-vf",
-                "scale=iw:ih:out_color_matrix=bt709",
+                "scale=iw:ih:out_color_matrix=bt709:out_range=tv,format=yuv420p,setparams=range=limited:color_primaries=bt709:color_trc=bt709:colorspace=bt709",
                 "-c:v",
                 "libx264",
                 "-crf",
@@ -356,7 +356,7 @@ def encode(args: argparse.Namespace) -> None:
             "pix_fmt": stream["pix_fmt"],
             "color_primaries": stream["color_primaries"],
             "color_transfer": stream["color_transfer"],
-            "colorspace": stream["colorspace"],
+            "color_space": stream["color_space"],
         }
         # Publish only a fully probed and decoded movie, without clobbering a race-created file.
         if out.exists():
@@ -366,11 +366,6 @@ def encode(args: argparse.Namespace) -> None:
             os.link(temp, out)
         except FileExistsError as exc:
             raise FileExistsError(f"movie output appeared during encoding; refusing to replace: {out}") from exc
-        except OSError:
-            # Same-filesystem rename is atomic. Recheck immediately before the rename.
-            if out.exists():
-                raise FileExistsError(f"movie output appeared during encoding; refusing to replace: {out}")
-            os.replace(temp, out)
         else:
             temp.unlink()
         print(f"encoded and verified {FRAME_END} frames: {out}")

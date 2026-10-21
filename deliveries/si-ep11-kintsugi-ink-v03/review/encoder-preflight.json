@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "scope": "real10frame encoding/metadata smoke test of the source encoder validation helper; final1525frame media remains pending",
+  "count": 10,
+  "fps": 30,
+  "dimensions": [
+    540,
+    960
+  ],
+  "metadata": {
+    "codec_name": "h264",
+    "width": 540,
+    "height": 960,
+    "pix_fmt": "yuv420p",
+    "color_space": "bt709",
+    "color_transfer": "bt709",
+    "color_primaries": "bt709",
+    "r_frame_rate": "30/1",
+    "avg_frame_rate": "30/1",
+    "nb_frames": "10",
+    "nb_read_frames": "10"
+  },
+  "strict_decode": true,
+  "tested_script_sha256": "8b24e6f827e1af1bed49231d8f24043f396bffbc2fdf82bd79d4b018ce836bc2",
+  "test_file_sha256": "27f151b385885dccf790221811537ef6e98cdad5d89cefce1e9356ae5c309270",
+  "fixes": [
+    "actual ffprobe field color_space",
+    "explicit scale matrix/range and setparams transfer/primaries",
+    "atomic no-clobber link without replacing fallback"
+  ]
+}

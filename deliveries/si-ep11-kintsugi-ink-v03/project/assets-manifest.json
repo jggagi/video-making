@@ -1714,8 +1714,8 @@
       "id": "v03-encode",
       "path": "encode.py",
       "kind": "native-footage-encoder",
-      "sha256": "3ab95069b787558259498e80159734b4036f5a6ab47210b5891d509a52620391",
-      "bytes": 15054,
+      "sha256": "8b24e6f827e1af1bed49231d8f24043f396bffbc2fdf82bd79d4b018ce836bc2",
+      "bytes": 14883,
       "provenance": {
         "source": "authored locally for EP11 v03; no downloaded texture or cloud generation"
       }

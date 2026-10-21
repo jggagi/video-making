@@ -1,0 +1,14 @@
+{
+  "error": "RuntimeError: camera shift curves were not created: found []",
+  "generated_at_utc": "2026-10-21T16:07:24.986335+00:00",
+  "output": {
+    "path": "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep11-kintsugi-ink-v03/project/blender/porcelain-canyon-hero-v03.blend",
+    "sha256": null
+  },
+  "schema_version": 1,
+  "source": {
+    "path": "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep11-kintsugi-ink-v03/project/blender/porcelain-canyon-v03.blend",
+    "sha256": "d72cb166f75d2872185e839a1d491ec4e689bba98fe6bd755c452a4eb50cf785"
+  },
+  "status": "ERROR"
+}

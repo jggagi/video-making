@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Check EP11 v03's source, timeline, captions, PCM, and canyon integration.
+"""Check EP11 v03's source, timeline, captions, PCM, and Blender video integration.
 
 This is a source/audio check only. It does not inspect encoded media or infer
 visual, listening, audience, or device acceptance.
@@ -261,6 +261,32 @@ def check_composition() -> dict[str, Any]:
         ) is not None,
         "Film must mount the muted canyon-v03.mp4 at frame 550 for 3050 frames",
     )
+    require("consthero=f>=2812&&f<3274;" in compact_film,
+            "hero video mount interval must be [2812,3274)")
+    require(
+        re.search(
+            r"!hero\s*&&\s*<Sequence\b[^>]*\bfrom=\{550\}[^>]*\bdurationInFrames=\{3050\}[^>]*>.*?<OffthreadVideo\b[^>]*src=\{staticFile\(\s*['\"]video/canyon-v03\.mp4['\"]\s*\)\}[^>]*\bmuted\b[^>]*/>",
+            film,
+            re.S,
+        ) is not None,
+        "base canyon video must be suppressed during the hero interval",
+    )
+    require(
+        re.search(
+            r"hero\s*&&\s*<Sequence\b[^>]*\bfrom=\{2812\}[^>]*\bdurationInFrames=\{462\}[^>]*>.*?<OffthreadVideo\b[^>]*src=\{staticFile\(\s*['\"]video/hero-v03\.mp4['\"]\s*\)\}[^>]*\bmuted\b[^>]*/>",
+            film,
+            re.S,
+        ) is not None,
+        "Film must mount muted hero-v03.mp4 at frame 2812 for 462 frames",
+    )
+    require(
+        len(re.findall(r"staticFile\(\s*['\"]video/canyon-v03\.mp4['\"]\s*\)", film)) == 1,
+        "Film must mount the base canyon video exactly once",
+    )
+    require(
+        len(re.findall(r"staticFile\(\s*['\"]video/hero-v03\.mp4['\"]\s*\)", film)) == 1,
+        "Film must mount the hero video exactly once",
+    )
     require("f>=550&&f<3600" in compact_film, "canyon video mount interval must be [550,3600)")
     require(
         "constcanyon=smooth((f-550)/90)*(1-smooth((f-3490)/100));" in compact_film,
@@ -289,8 +315,17 @@ def check_composition() -> dict[str, Any]:
             "path": "public/video/canyon-v03.mp4",
             "sequence_start_frame": 550,
             "duration_in_frames": 3050,
+            "suppressed_during_hero": True,
             "muted": True,
             "opacity": "smooth((f-550)/90)*(1-smooth((f-3490)/100))",
+        },
+        "hero_video": {
+            "path": "public/video/hero-v03.mp4",
+            "sequence_start_frame": 2812,
+            "duration_in_frames": 462,
+            "end_frame_exclusive": 3274,
+            "muted": True,
+            "replaces_base_video_during_interval": True,
         },
         "three_canvas": "@remotion/three ThreeCanvas in HandScene",
         "frame_source": "Remotion useCurrentFrame; no Math.random, Date.now, useFrame, or requestAnimationFrame",
@@ -299,10 +334,11 @@ def check_composition() -> dict[str, Any]:
     }
 
 
-def check_canyon_video_asset() -> dict[str, Any]:
-    path = PROJECT / "public" / "video" / "canyon-v03.mp4"
+def check_video_asset(asset_path: str, expected_frames: int) -> dict[str, Any]:
+    path = PROJECT / asset_path
+    movie_name = Path(asset_path).name
     if not path.is_file():
-        raise CheckPending("required Blender canyon video is pending render: public/video/canyon-v03.mp4")
+        raise CheckPending(f"required Blender video is pending render: {asset_path}")
     try:
         probe = subprocess.run(
             ["ffprobe", "-v", "error", "-show_streams", "-of", "json", str(path)],
@@ -316,37 +352,38 @@ def check_canyon_video_asset() -> dict[str, Any]:
             check=False,
         )
     except (OSError, subprocess.SubprocessError) as error:
-        raise CheckFailure(f"could not run ffprobe for public/video/canyon-v03.mp4: {error}") from None
+        raise CheckFailure(f"could not run ffprobe for {asset_path}: {error}") from None
     if probe.returncode != 0:
         detail = probe.stderr.strip()[-1200:]
-        raise CheckFailure(f"ffprobe failed for public/video/canyon-v03.mp4 (exit {probe.returncode}): {detail}")
+        raise CheckFailure(f"ffprobe failed for {asset_path} (exit {probe.returncode}): {detail}")
     try:
         metadata = json.loads(probe.stdout)
     except (TypeError, json.JSONDecodeError) as error:
-        raise CheckFailure(f"ffprobe returned malformed JSON for public/video/canyon-v03.mp4: {error}") from None
-    require(isinstance(metadata, dict), "ffprobe metadata for public/video/canyon-v03.mp4 must be an object")
+        raise CheckFailure(f"ffprobe returned malformed JSON for {asset_path}: {error}") from None
+    require(isinstance(metadata, dict), f"ffprobe metadata for {asset_path} must be an object")
     streams = metadata.get("streams")
-    require(isinstance(streams, list), "ffprobe metadata for public/video/canyon-v03.mp4 must contain a streams list")
-    require(all(isinstance(stream, dict) for stream in streams), "ffprobe streams must be objects")
+    require(isinstance(streams, list), f"ffprobe metadata for {asset_path} must contain a streams list")
+    require(all(isinstance(stream, dict) for stream in streams), f"ffprobe streams for {asset_path} must be objects")
     videos = [stream for stream in streams if stream.get("codec_type") == "video"]
     audios = [stream for stream in streams if stream.get("codec_type") == "audio"]
-    require(len(videos) == 1, "canyon-v03.mp4 must contain exactly one video stream")
-    require(not audios, "canyon-v03.mp4 must not contain an audio stream")
+    require(len(streams) == 1 and len(videos) == 1,
+            f"{movie_name} must contain exactly one video stream")
+    require(not audios, f"{movie_name} must not contain an audio stream")
     video = videos[0]
     require((video.get("width"), video.get("height")) == (2160, 3840),
-            "canyon-v03.mp4 must be native 2160x3840")
-    require(video.get("avg_frame_rate") == "30/1", "canyon-v03.mp4 avg_frame_rate must be 30/1")
+            f"{movie_name} must be native 2160x3840")
+    require(video.get("avg_frame_rate") == "30/1", f"{movie_name} avg_frame_rate must be 30/1")
     frame_count = video.get("nb_frames")
     require(isinstance(frame_count, str) and re.fullmatch(r"\d+", frame_count) is not None,
-            "canyon-v03.mp4 ffprobe nb_frames must be an integer string")
-    require(int(frame_count) == 1525, "canyon-v03.mp4 must contain exactly 1525 frames")
-    require(video.get("codec_name") == "h264", "canyon-v03.mp4 codec must be H.264")
+            f"{movie_name} ffprobe nb_frames must be an integer string")
+    require(int(frame_count) == expected_frames,
+            f"{movie_name} must contain exactly {expected_frames} frames")
+    require(video.get("codec_name") == "h264", f"{movie_name} codec must be H.264")
 
     manifest = read_json(PROJECT / "assets-manifest.json")
     require(isinstance(manifest, dict), "assets-manifest.json must be an object")
     assets = manifest.get("assets")
     require(isinstance(assets, list), "assets-manifest.json must contain an assets list")
-    asset_path = "public/video/canyon-v03.mp4"
     entries = [entry for entry in assets if isinstance(entry, dict) and entry.get("path") == asset_path]
     require(len(entries) == 1, f"assets-manifest.json must declare exactly one asset at {asset_path}")
     declared_hash = entries[0].get("sha256")
@@ -365,8 +402,17 @@ def check_canyon_video_asset() -> dict[str, Any]:
             "avg_frame_rate": video.get("avg_frame_rate"),
             "nb_frames": int(frame_count),
             "audio_streams": len(audios),
+            "stream_count": len(streams),
         },
     }
+
+
+def check_canyon_video_asset() -> dict[str, Any]:
+    return check_video_asset("public/video/canyon-v03.mp4", 1525)
+
+
+def check_hero_video_asset() -> dict[str, Any]:
+    return check_video_asset("public/video/hero-v03.mp4", 231)
 
 
 def check_blender_event_audio_alignment() -> dict[str, Any]:
@@ -606,6 +652,7 @@ def main() -> int:
     run_check(checks, "caption_source_and_mobile_lines", lambda: check_source_captions(segments))
     run_check(checks, "composition_and_frame_determinism", check_composition)
     run_check(checks, "blender_canyon_video_asset", check_canyon_video_asset)
+    run_check(checks, "blender_hero_video_asset", check_hero_video_asset)
     run_check(checks, "sample_locked_audio_events", lambda: check_events(args.require_audio))
     run_check(checks, "blender_event_audio_frame_alignment", check_blender_event_audio_alignment)
     run_check(checks, "measured_timed_captions", lambda: check_timed_captions(segments, args.require_audio))

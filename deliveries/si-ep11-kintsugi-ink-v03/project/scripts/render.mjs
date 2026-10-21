@@ -12,6 +12,7 @@ const [mode='stills',...args]=process.argv.slice(2);
 const chrome='/Applications/Google Chrome.app/Contents/MacOS/Google Chrome';
 const canyonVideo=path.join(root,'public','video','canyon-v03.mp4');
 if(!fs.existsSync(canyonVideo))throw Error('Required Blender canyon video is pending: public/video/canyon-v03.mp4');
+if(!fs.existsSync(path.join(root,'public','video','hero-v03.mp4')))throw Error('Required reframed hero shot is pending: public/video/hero-v03.mp4');
 if(process.platform==='darwin'&&!process.env.TMPDIR?.startsWith('/Volumes/AgentDev/'))throw Error('Run through agent-dev after fresh volume verification');
 const silent=['stills','cover','silent-preview'].includes(mode);
 if(!silent&&!fs.existsSync(path.join(root,'public/audio/master.wav')))throw Error('A real narrated PCM master is required');

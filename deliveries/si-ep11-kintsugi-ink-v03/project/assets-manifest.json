@@ -14,18 +14,16 @@
     "totalFrames": 5400
   },
   "visualProvenance": {
-    "method": "The v03 visual plan combines the Blender-rendered canyon movie (pending render) with authored deterministic Remotion/Three.js hand geometry, GLSL/custom material shaders and SVG atmosphere; the hand base meshes are locally staged MIT-licensed WebXR GLBs.",
+    "method": "Locally authored Blender canyon and hero-camera movies, composited in Remotion with deterministic Three.js hand geometry, GLSL materials, SVG atmosphere, locked captions and original audio. Native footage is pending rendering/encoding.",
     "sourceAssetIds": [
-      "visual-canyon-scene",
       "visual-canyon-v03-video",
       "visual-hand-scene",
-      "visual-ink-river",
       "visual-effects",
       "visual-studio-environment",
       "visual-film-composition",
       "visual-remotion-root",
-      "visual-conformal-ink",
-      "visual-hand-subdivision"
+      "visual-hand-subdivision",
+      "visual-hero-v03-video"
     ],
     "geometryAndShaderNotes": [
       "Superseded/inactive source history: CanyonScene builds seeded terrain, fractured porcelain plates, Y-fork ribbons, shards and event-driven particles as local BufferGeometry; indexed trigonometric seeds keep the scene deterministic.",
@@ -51,7 +49,33 @@
         "fps": 30,
         "frameCount": 1525,
         "compositionStartFrame": 550,
-        "compositionEndFrameExclusive": 3600
+        "compositionEndFrameExclusive": 3600,
+        "activeCompositionIntervals": [
+          [
+            550,
+            2812
+          ],
+          [
+            3274,
+            3600
+          ]
+        ]
+      }
+    },
+    {
+      "id": "visual-hero-v03-video",
+      "path": "public/video/hero-v03.mp4",
+      "kind": "blender-rendered-hero-video",
+      "status": "PENDING_RENDER",
+      "expected": {
+        "width": 2160,
+        "height": 3840,
+        "fps": 30,
+        "frameCount": 231,
+        "compositionStartFrame": 2812,
+        "compositionEndFrameExclusive": 3274,
+        "sourceFrameStart": 1132,
+        "sourceFrameEndInclusive": 1362
       }
     }
   ],
@@ -653,8 +677,8 @@
       "id": "visual-film-composition",
       "path": "src/Film.tsx",
       "kind": "remotion-film-composition-and-local-font-references",
-      "bytes": 4992,
-      "sha256": "30631e7a3660ea869135671d7c2b690fcd47161d9f2dfed3f7c22a7ce5c1088d",
+      "bytes": 5224,
+      "sha256": "4753c226c5777cf4673384c41cc34c5e7f4e772fe9f6f17395db4eaed44e2ef4",
       "provenance": {
         "source": "authored local project source"
       }
@@ -1714,8 +1738,8 @@
       "id": "v03-encode",
       "path": "encode.py",
       "kind": "native-footage-encoder",
-      "sha256": "8b24e6f827e1af1bed49231d8f24043f396bffbc2fdf82bd79d4b018ce836bc2",
-      "bytes": 14883,
+      "sha256": "ede09f938437d19fa4633de3166c762b132c2c0d1bfdb25d3a95f521adf12ee5",
+      "bytes": 15120,
       "provenance": {
         "source": "authored locally for EP11 v03; no downloaded texture or cloud generation"
       }
@@ -1726,6 +1750,34 @@
       "kind": "frame-locked-blender-events",
       "sha256": "12f4cbb8b8f61f24269fbdb6b7c8b9e9bb7b437e1b308c734fbde02ee9ad2a29",
       "bytes": 1017
+    },
+    {
+      "id": "v03-encode-hero",
+      "path": "encode_hero.py",
+      "kind": "native-hero-footage-encoder",
+      "bytes": 13267,
+      "sha256": "41e053a9debee2d3ffe139ff97be09df15ed27347bd178d55391d655fa520d9a"
+    },
+    {
+      "id": "v03-reframe-hero",
+      "path": "blender/reframe_hero.py",
+      "kind": "native-hero-camera-builder",
+      "bytes": 34492,
+      "sha256": "fb7cbf04259d01b4ccad093b633c966ff5877e445181800902fd25febc44228e"
+    },
+    {
+      "id": "v03-porcelain-canyon-hero",
+      "path": "blender/porcelain-canyon-hero-v03.blend",
+      "kind": "native-editable-derived-camera-scene",
+      "provenance": {
+        "derivedFromAssetId": "v03-porcelain-canyon-v03",
+        "cameraOnly": true,
+        "frameStart": 1132,
+        "frameEndInclusive": 1362,
+        "geometryAndMaterialsUnchanged": true
+      },
+      "bytes": 46911388,
+      "sha256": "e9b106f0aef76c900507e381b0cdc536137773ae8da3f32935b0ff2b811543db"
     }
   ],
   "manifestIntegrity": {

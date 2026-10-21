@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Create an editable source package with its required canyon movie, excluding other movies and private config."""
+"""Create an editable source package with its required Blender movies, excluding other movies and private config."""
 
 from __future__ import annotations
 
@@ -15,11 +15,16 @@ WORK = PROJECT.parent
 OUTPUT = WORK / f"{WORK.name}-project.zip"
 REPORT = WORK / "review" / "package-integrity.json"
 REQUIRED_CANYON_MEMBER = "project/public/video/canyon-v03.mp4"
+REQUIRED_HERO_MEMBER = "project/public/video/hero-v03.mp4"
+REQUIRED_PACKAGE_MOVIE_MEMBERS = {REQUIRED_CANYON_MEMBER, REQUIRED_HERO_MEMBER}
 REQUIRED_EDITABLE_MEMBERS = {
     "project/blender/porcelain-canyon-v03.blend",
+    "project/blender/porcelain-canyon-hero-v03.blend",
+    "project/blender/reframe_hero.py",
     "project/blender/scene.py",
     "project/blender/render_saved.py",
     "project/blender/ART-DIRECTION.md",
+    "project/encode_hero.py",
 }
 EXCLUDED_DIRS = {
     "node_modules", "__pycache__", ".pytest_cache", ".mypy_cache", ".ruff_cache",
@@ -53,7 +58,7 @@ def excluded(path: Path, relative: Path) -> bool:
     # files elsewhere remain excluded by the normal private-config filters.
     if relative_name in SAFE_DECLARED_JSON_ASSETS:
         return False
-    if relative_name == REQUIRED_CANYON_MEMBER:
+    if relative_name in REQUIRED_PACKAGE_MOVIE_MEMBERS:
         return False
     if relative.parts[:3] == ("project", "public", "audio") and len(relative.parts) > 3 and relative.parts[3] == "history":
         return True
@@ -122,11 +127,12 @@ def load_declared_assets() -> list[tuple[str, str]]:
             raise SystemExit(f"Duplicate project asset manifest path: {asset_path}")
         seen.add(member)
         declared.append((member, digest.lower()))
-    if REQUIRED_CANYON_MEMBER not in seen:
-        raise SystemExit(
-            "Required Blender canyon video must be present in project/assets-manifest.json assets "
-            f"with a declared SHA-256: {REQUIRED_CANYON_MEMBER.removeprefix('project/')}"
-        )
+    for required_movie in sorted(REQUIRED_PACKAGE_MOVIE_MEMBERS):
+        if required_movie not in seen:
+            raise SystemExit(
+                "Required Blender video must be present in project/assets-manifest.json assets "
+                f"with a declared SHA-256: {required_movie.removeprefix('project/')}"
+            )
     return declared
 
 
@@ -187,7 +193,7 @@ def main() -> int:
         "member_sha256": member_hashes,
         "validation": "ZIP CRC, exact relative member list, SHA-256 of every uncompressed member, and declared assets-manifest paths and hashes",
         "exclusions": [
-            "encoded movies other than the required public/video/canyon-v03.mp4 dependency, and ZIPs",
+            "encoded movies other than the required public/video/canyon-v03.mp4 and public/video/hero-v03.mp4 dependencies, and ZIPs",
             "Blender .blend1/.blend2 backup files",
             "node_modules and caches",
             "temporary files, logs, and failed/interrupted outputs",

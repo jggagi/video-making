@@ -1,6 +1,6 @@
 {
   "status": "RENDERING_NOT_FINAL",
-  "stage": "native Blender canyon sequence",
+  "stage": "native base rendering; separate tracked hero camera preflight",
   "expected": {
     "width": 2160,
     "height": 3840,
@@ -23,6 +23,7 @@
   ],
   "remaining": [
     "fullnative sequence",
+    "corrected native hero sequence and source encoding",
     "source encoding",
     "nativeRemotion motion sample",
     "90second film",
@@ -35,5 +36,5 @@
     "ordinary_audience_feedback": "NOT_RUN",
     "target_device": "NOT_RUN"
   },
-  "note": "Final scene locked, fullnative sequence rendering. No human listening/audience/device acceptance inferred."
+  "note": "Base look09 remains immutable; hero camera correction derives a separate scene. Earlier motion sample verifies timing, not final corrected framing."
 }

@@ -1,0 +1,68 @@
+{
+  "status": "NATIVE_STILLS_AND_DIRECTIONAL_MOTION_REVIEWED",
+  "sourceBlend": {
+    "path": "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep11-kintsugi-ink-v03/project/blender/porcelain-canyon-hero-v03.blend",
+    "sha256": "e9b106f0aef76c900507e381b0cdc536137773ae8da3f32935b0ff2b811543db"
+  },
+  "projectionSummary": {
+    "all_within_safe_bounds": true,
+    "max_bbox_height": 0.47999894618988037,
+    "max_bbox_width": 0.6666166931390762,
+    "max_center_error_x": 2.887845039378778e-06,
+    "max_center_error_y": 5.273222923318777e-06,
+    "max_dolly_factor": 1.210205078125,
+    "verified_frame_count": 231
+  },
+  "nativeFrameChecks": [
+    {
+      "sourceFrame": 1136,
+      "filmFrame": 2820,
+      "width": 2160,
+      "height": 3840,
+      "sha256": "c2c4ce715ddc7791288c99a2c75e2982937468aa9440f848af25d41453e33b88",
+      "bytes": 8626547
+    },
+    {
+      "sourceFrame": 1260,
+      "filmFrame": 3068,
+      "width": 2160,
+      "height": 3840,
+      "sha256": "6187e55dbaecd906771668ca42ed0fc95da718fcd5196c2dd659342edba35a11",
+      "bytes": 8067978
+    },
+    {
+      "sourceFrame": 1291,
+      "filmFrame": 3130,
+      "width": 2160,
+      "height": 3840,
+      "sha256": "39cdfc85e5295001af257af2ae436a1c36d2ca7bc239bac9b4805df0d5cb4c9c",
+      "bytes": 7629517
+    }
+  ],
+  "modelObservation": "At native rendered frames 1136,1260,1291 the shard and socket remain visible above the future caption region; the final seam follows the same socket. Still-frame inspection does not prove motion continuity or audience response.",
+  "humanListening": "NOT_RUN",
+  "targetDevice": "NOT_RUN",
+  "motionPreview": {
+    "path": "hero-motion-preview01.mp4",
+    "sha256": "87b07d10cb2b8362bf3391f829af382fcb2d33115cd8060d85ef609011ca83b0",
+    "width": 540,
+    "height": 960,
+    "fps": 30,
+    "frames": 231,
+    "durationSeconds": 7.7,
+    "audioMasterIntervalSeconds": [
+      46.86666666666667,
+      54.56666666666667
+    ],
+    "scope": "camera continuity and complete return action only; full native Remotion composite remains pending",
+    "modelObservation": "16 half-second-spaced motion frames retain the shard and socket, show a continuous rise and convergence, and keep the closing gold seam attached to the same outline.",
+    "browserPlayback": {
+      "duration": 7.7,
+      "ended": true,
+      "error": null,
+      "readyState": 4,
+      "muted": true,
+      "scope": "muted video playback; audible playback did not advance before muting, so no listening acceptance inferred"
+    }
+  }
+}

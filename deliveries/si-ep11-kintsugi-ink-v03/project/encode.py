@@ -161,7 +161,13 @@ def run_checked(command: list[str], label: str) -> subprocess.CompletedProcess[s
     return result
 
 
-def ffprobe_movie(path: Path, ffprobe: str, width: int, height: int) -> dict[str, Any]:
+def ffprobe_movie(
+    path: Path,
+    ffprobe: str,
+    width: int,
+    height: int,
+    expected_frames: int | None = None,
+) -> dict[str, Any]:
     result = run_checked(
         [
             ffprobe,
@@ -203,8 +209,11 @@ def ffprobe_movie(path: Path, ffprobe: str, width: int, height: int) -> dict[str
         if rate != SOURCE_FPS:
             raise RuntimeError(f"encoded movie {key} must be {SOURCE_FPS}/1; found {stream[key]}")
     frame_count = stream.get("nb_read_frames")
-    if frame_count is None or int(frame_count) != FRAME_END:
-        raise RuntimeError(f"encoded movie must decode to {FRAME_END} frames; found {frame_count!r}")
+    frame_count_expected = FRAME_END if expected_frames is None else expected_frames
+    if frame_count is None or int(frame_count) != frame_count_expected:
+        raise RuntimeError(
+            f"encoded movie must decode to {frame_count_expected} frames; found {frame_count!r}"
+        )
     return stream
 
 
@@ -320,6 +329,8 @@ def encode(args: argparse.Namespace) -> None:
                 "scale=iw:ih:out_color_matrix=bt709:out_range=tv,format=yuv420p,setparams=range=limited:color_primaries=bt709:color_trc=bt709:colorspace=bt709",
                 "-c:v",
                 "libx264",
+                "-threads",
+                "4",
                 "-crf",
                 "16",
                 "-preset",

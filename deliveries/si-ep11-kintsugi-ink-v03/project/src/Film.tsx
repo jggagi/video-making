@@ -15,19 +15,23 @@ export const Film:React.FC<{silent?:boolean;cover?:boolean}>=({silent=false,cove
  const quiet=f>=4860&&f<4890;
  const cap=(timing.captions as {startFrame:number;endFrame:number;text:string}[]).find(c=>f>=c.startFrame&&f<c.endFrame);
  const canyon=smooth((f-550)/90)*(1-smooth((f-3490)/100));
+ const hero=f>=2812&&f<3274;
  const handA=f<700?1-smooth((f-550)/90):smooth((f-3490)/100);
  const intro=window(f,0,530,65);
  const closing=window(f,4890,5400,55);
  const science=f>=600&&f<1320?'约37万亿细胞 · 数量因人而异':f>=1320&&f<2460?'部分重编程仍有风险 · 全身逆龄为科幻':f>=2460&&f<3540?'十万维 / 万倍窄脊 · 艺术示意，非实测':f>=3540&&f<4860?'科幻思想实验 · 非已实现的人体疗效':'';
  return <AbsoluteFill style={{background:'#0C0C0E',color:'#ece1cd',fontFamily:'"PingFang SC",sans-serif'}}>
   {f<700&&<AbsoluteFill style={{opacity:handA}}><HandScene frame={f} shot="opening"/></AbsoluteFill>}
-  {f>=550&&f<3600&&<AbsoluteFill style={{opacity:canyon}}><Sequence from={550} durationInFrames={3050}><OffthreadVideo src={staticFile('video/canyon-v03.mp4')} muted style={{width:'100%',height:'100%',objectFit:'cover'}}/></Sequence></AbsoluteFill>}
+  {f>=550&&f<3600&&<AbsoluteFill style={{opacity:canyon}}>
+   {!hero&&<Sequence from={550} durationInFrames={3050}><OffthreadVideo src={staticFile('video/canyon-v03.mp4')} muted style={{width:'100%',height:'100%',objectFit:'cover'}}/></Sequence>}
+   {hero&&<Sequence from={2812} durationInFrames={462}><OffthreadVideo src={staticFile('video/hero-v03.mp4')} muted style={{width:'100%',height:'100%',objectFit:'cover'}}/></Sequence>}
+  </AbsoluteFill>}
   {f>=3490&&<AbsoluteFill style={{opacity:handA}}><HandScene frame={f} shot={f<4890?'reveal':'ending'}/></AbsoluteFill>}
   <div style={{position:'absolute',width:1080,height:1920,transform:`scale(${width/1080})`,transformOrigin:'top left',pointerEvents:'none'}}>
    <Atmosphere frame={f}/><Seasons frame={f}/><InkBridge frame={f}/>
    {canyon>0&&<>
     <div style={{position:'absolute',inset:'0 0 auto',height:620,background:'linear-gradient(#080b0ee0,#080b0e80 48%,transparent)',opacity:canyon}}/>
-    <div style={{position:'absolute',left:0,top:1150,width:1080,height:770,background:'linear-gradient(transparent,#080b0ec2 45%,#080b0ef5)',opacity:canyon}}/>
+    <div style={{position:'absolute',left:0,top:1150,width:1080,height:770,background:'linear-gradient(transparent,#080b0ec2 45%,#080b0e 80%)',opacity:canyon}}/>
    </>}
    {!quiet&&<>
     <div style={{position:'absolute',left:70,top:185,width:835,fontFamily:'Menlo,monospace',fontSize:28,letterSpacing:3,color:'#c6ad7d',opacity:.72}}>QSTORY / EP.11 <span style={{fontFamily:'"PingFang SC",sans-serif',letterSpacing:2}}>科幻思想实验</span></div>

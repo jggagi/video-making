@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "generated_by": "scripts/build-final-library.py",
-  "total_files": 54,
-  "logical_bytes": 8804151110,
+  "total_files": 55,
+  "logical_bytes": 8854903577,
   "files": [
     {
       "source_path": "out/extended/兰亭集序-展厅增强版-1080p.mp4",
@@ -751,6 +751,21 @@
       "backup_release_tag": "final-si-ep12-final-equation-9693cfcbd26b",
       "backup_release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep12-final-equation-9693cfcbd26b",
       "backup_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep12-final-equation-9693cfcbd26b/final--si-ep12-final-equation--deliveries--si-ep12-final-equation-----si-ep12-final-equation-xiaohongshu-90s-portrait--39c3e73574ce.mp4",
+      "materialization": "APFS clonefile for new files; existing independent matches are retained",
+      "verification": "SHA-256 matches archive catalog; stable stat and inode checks passed"
+    },
+    {
+      "source_path": "deliveries/si-ep13-curse-of-memory/小红书/si-ep13-curse-of-memory-xiaohongshu-90s-portrait.mp4",
+      "final_path": "final/si-ep13-curse-of-memory/小红书/si-ep13-curse-of-memory-xiaohongshu-90s-portrait.mp4",
+      "work_id": "si-ep13-curse-of-memory",
+      "title": "无法遗忘的诅咒",
+      "platform": "小红书",
+      "bytes": 50752467,
+      "sha256": "7b067593aab3e25d3636aa0caa008ee88ab37de11a2b8fca7f49593ec474e3c7",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep13-curse-of-memory-68bddb946d5a/si-ep13-curse-of-memory--deliveries--si-ep13-curse-of-memory-----si-ep13-curse-of-memory-xiaohongshu-90s-portrait--7b067593aab3.mp4",
+      "backup_release_tag": "final-si-ep13-curse-of-memory-68bddb946d5a",
+      "backup_release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep13-curse-of-memory-68bddb946d5a",
+      "backup_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep13-curse-of-memory-68bddb946d5a/final--si-ep13-curse-of-memory--deliveries--si-ep13-curse-of-memory-----si-ep13-curse-of-memory-xiaohongshu-90s-portrait--7b067593aab3.mp4",
       "materialization": "APFS clonefile for new files; existing independent matches are retained",
       "verification": "SHA-256 matches archive catalog; stable stat and inode checks passed"
     },

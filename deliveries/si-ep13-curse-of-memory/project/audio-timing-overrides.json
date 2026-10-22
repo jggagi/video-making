@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "decisionSource": "Direct user reply in this EP13 chat: 使用空隙，保留全文与自然语速（推荐）",
+  "segments": {
+    "S01": {
+      "cueStartSample": 37571,
+      "captionEndFrame": 592
+    }
+  },
+  "note": "S01 active speech ends at sample472868 (9.8514167s); S02 begins480000 (10s). Complete source cue tails may overlap below active bounds without cropping or acceleration."
+}

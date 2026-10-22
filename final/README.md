@@ -136,6 +136,10 @@ python3 scripts/fetch-archive-assets.py --root . --catalog final/backup-catalog.
 
 - [小红书 · si-ep12-final-equation-xiaohongshu-90s-portrait.mp4](si-ep12-final-equation/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep12-final-equation-xiaohongshu-90s-portrait.mp4) · [GitHub final 备份](https://github.com/jggagi/video-making/releases/download/final-si-ep12-final-equation-9693cfcbd26b/final--si-ep12-final-equation--deliveries--si-ep12-final-equation-----si-ep12-final-equation-xiaohongshu-90s-portrait--39c3e73574ce.mp4) · [原归档](https://github.com/jggagi/video-making/releases/download/film-si-ep12-final-equation-9693cfcbd26b/si-ep12-final-equation--deliveries--si-ep12-final-equation-----si-ep12-final-equation-xiaohongshu-90s-portrait--39c3e73574ce.mp4)
 
+## 无法遗忘的诅咒 (`si-ep13-curse-of-memory`)
+
+- [小红书 · si-ep13-curse-of-memory-xiaohongshu-90s-portrait.mp4](si-ep13-curse-of-memory/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep13-curse-of-memory-xiaohongshu-90s-portrait.mp4) · [GitHub final 备份](https://github.com/jggagi/video-making/releases/download/final-si-ep13-curse-of-memory-68bddb946d5a/final--si-ep13-curse-of-memory--deliveries--si-ep13-curse-of-memory-----si-ep13-curse-of-memory-xiaohongshu-90s-portrait--7b067593aab3.mp4) · [原归档](https://github.com/jggagi/video-making/releases/download/film-si-ep13-curse-of-memory-68bddb946d5a/si-ep13-curse-of-memory--deliveries--si-ep13-curse-of-memory-----si-ep13-curse-of-memory-xiaohongshu-90s-portrait--7b067593aab3.mp4)
+
 ## 一眼万年 (`si-eternity`)
 
 - [B站 · one-blink-ten-millennia-v3.mp4](%E4%B8%80%E7%9C%BC%E4%B8%87%E5%B9%B4/B%E7%AB%99/one-blink-ten-millennia-v3.mp4) · [GitHub final 备份](https://github.com/jggagi/video-making/releases/download/final-si-eternity-66d480b1c859/final--si-eternity--si-eternity--out--one-blink-ten-millennia-v3--4ef2326bf22b.mp4) · [原归档](https://github.com/jggagi/video-making/releases/download/archive-si-eternity-v1/si-eternity--si-eternity--out--one-blink-ten-millennia-v3--4ef2326bf22b.mp4)

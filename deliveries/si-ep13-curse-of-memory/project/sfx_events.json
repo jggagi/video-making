@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "fps": 60,
+  "sampleRate": 48000,
+  "samplesPerFrame": 800,
+  "absoluteSilence": {
+    "startFrame": 4860,
+    "endFrameExclusive": 4890,
+    "startSample": 3888000,
+    "endSampleExclusive": 3912000,
+    "scope": [
+      "narration",
+      "score",
+      "sfx",
+      "master"
+    ],
+    "requireExactZero": true
+  },
+  "voiceMinimumOnsetFrame": 4902,
+  "snapBoundary": {
+    "anchorFrame": 4860,
+    "attackStartFrame": 4859,
+    "attackStartSample": 3887200,
+    "endSampleExclusive": 3888000,
+    "detail": "The snap attack occupies the final 800 samples before frame 4860; its transient ends exactly where [4860,4890) absolute silence begins."
+  },
+  "events": [
+    {
+      "id": "rewind_calibration",
+      "frame": 60,
+      "sample": 48000,
+      "kind": "cassette_rewind_calibration",
+      "durationSeconds": 3.2,
+      "description": "Tactile cassette rewind with warm vinyl crackle, pierced by a sharp 1000 Hz oscilloscope calibration tone."
+    },
+    {
+      "id": "warm_filtered_chord",
+      "frame": 840,
+      "sample": 672000,
+      "kind": "warm_filtered_chord",
+      "durationSeconds": 4.4,
+      "description": "Soft acoustic chord, gradually low-pass filtered into a comforting, muffled echo."
+    },
+    {
+      "id": "tape_hiss",
+      "frame": 1500,
+      "sample": 1200000,
+      "kind": "tape_hiss",
+      "durationSeconds": 7.0,
+      "description": "Gentle analog tape hiss that fades away as the magnetic relay engages at frame 1920."
+    },
+    {
+      "id": "magnetic_relay",
+      "frame": 1920,
+      "sample": 1536000,
+      "kind": "magnetic_relay",
+      "durationSeconds": 1.2,
+      "description": "Heavy magnetic relay clack with a short low-frequency lock resonance."
+    },
+    {
+      "id": "hv_phase_lock",
+      "frame": 2160,
+      "sample": 1728000,
+      "kind": "hv_phase_lock",
+      "durationSeconds": 3.0,
+      "description": "Cold high-voltage CRT capacitor whine followed by a razor-sharp phase-lock click."
+    },
+    {
+      "id": "nondecaying_loops",
+      "frame": 2940,
+      "sample": 2352000,
+      "kind": "nondecaying_loops",
+      "durationSeconds": 32.0,
+      "description": "Overlapping amber feedback loops accumulate without decay and hold until the tube powers off at frame 4860."
+    },
+    {
+      "id": "shepard_tube",
+      "frame": 3900,
+      "sample": 3120000,
+      "kind": "shepard_tube",
+      "durationSeconds": 10.0,
+      "description": "Claustrophobic rising Shepard tone with saturated analog tube distortion and rust-red intensity."
+    },
+    {
+      "id": "harmonic_peak",
+      "frame": 4500,
+      "sample": 3600000,
+      "kind": "harmonic_peak",
+      "durationSeconds": 6.0,
+      "description": "Bright high-frequency harmonic cluster holds at peak tension and clears at the snap boundary."
+    },
+    {
+      "id": "crt_power_off_snap",
+      "frame": 4860,
+      "sample": 3888000,
+      "startFrame": 4859,
+      "kind": "crt_power_off_snap",
+      "durationSeconds": 0.016666666666666666,
+      "description": "One-frame CRT tube power-off snap; attack starts at frame 4859 and ends exactly at sample 3888000, before the 30-frame absolute silence."
+    },
+    {
+      "id": "warm_piano_chord",
+      "frame": 4890,
+      "sample": 3912000,
+      "kind": "warm_piano_chord",
+      "durationSeconds": 8.5,
+      "description": "A single warm, slightly out-of-tune vintage piano chord beginning after the blackout and fading through deterministic room-reverb echoes."
+    }
+  ]
+}

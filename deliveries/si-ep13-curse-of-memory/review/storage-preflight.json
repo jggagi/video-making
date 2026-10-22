@@ -1,0 +1,20 @@
+{
+  "agentdev": {
+    "filesystem": "apfs",
+    "free_bytes": 96915660800,
+    "image": "/Volumes/WD_BLACK/AgentDev.asif",
+    "mount": "/Volumes/AgentDev",
+    "uuid": "F4DCCF30-ED44-4B5E-8DF9-ED2C039F2857"
+  },
+  "host": {
+    "free_bytes": 251611054080,
+    "mount": "/Volumes/WD_BLACK",
+    "uuid": "7E4BC5BA-F525-344A-BECE-08C3272BB25B"
+  },
+  "internal": {
+    "free_bytes": 14628806656
+  },
+  "result": "PASS_EXTERNAL_IDENTITY_AND_CAPACITY",
+  "internal_warning_only": true,
+  "source": "Live agent-dev status --json read outside sandbox before native still capture"
+}

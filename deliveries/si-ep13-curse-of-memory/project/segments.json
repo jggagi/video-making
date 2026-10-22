@@ -1,0 +1,113 @@
+[
+  {
+    "id": "S01",
+    "startFrame": 60,
+    "endFrame": 540,
+    "display_subtitle": "如果十年前那次让你心碎的告别，\n在今天依然像刚发生第一秒那样刺痛，你还能活下去吗？",
+    "tts_phonetic_text": "如果十年前，那次让你心碎的告别，在今天，依然像刚发生第一秒那样刺痛，你还能活下去吗？",
+    "sfx_brief": "`60f`: Tactile analog cassette tape rewind click + warm vinyl crackle suddenly pierced by a sharp `1000Hz` oscilloscope calibration tone",
+    "chunks": [
+      "如果十年前那次让你心碎的告别，",
+      "在今天依然像刚发生第一秒那样刺痛，",
+      "你还能活下去吗？"
+    ]
+  },
+  {
+    "id": "S02",
+    "startFrame": 600,
+    "endFrame": 1260,
+    "display_subtitle": "人类总抱怨自己记性太差。\n却不知道，“艾宾浩斯遗忘曲线”是进化给碳基生命最温柔的止痛药。",
+    "tts_phonetic_text": "人类总抱怨，自己记性太差。却不知道，艾宾浩斯遗忘曲线，是进化给碳基生命，最温柔的止痛药。",
+    "sfx_brief": "`840f`: Soft, warm acoustic chord gently low-pass filtering into a comforting, muffled echo",
+    "chunks": [
+      "人类总抱怨自己记性太差。",
+      "却不知道，",
+      "“艾宾浩斯遗忘曲线”是进化给碳基生命最温柔的止痛药。"
+    ]
+  },
+  {
+    "id": "S03",
+    "startFrame": 1320,
+    "endFrame": 1980,
+    "display_subtitle": "时间磨平了尴尬的细节，模糊了离别的眼泪，\n靠着把过去一点点擦淡，人类才能腾出内存，去爱下一个人。",
+    "tts_phonetic_text": "时间磨平了尴尬的细节，模糊了离别的眼泪；靠着把过去一点点擦淡，人类才能腾出内存，去爱下一个人。",
+    "sfx_brief": "`1500f`: Gentle tape hiss fading out -> sudden heavy magnetic relay lock at `1920f`",
+    "chunks": [
+      "时间磨平了尴尬的细节，",
+      "模糊了离别的眼泪，",
+      "靠着把过去一点点擦淡，",
+      "人类才能腾出内存，",
+      "去爱下一个人。"
+    ]
+  },
+  {
+    "id": "S04",
+    "startFrame": 2040,
+    "endFrame": 2760,
+    "display_subtitle": "直到超级智能，替人类接管了记忆的底层存储。\n遗忘被当作系统漏洞，彻底焊死。",
+    "tts_phonetic_text": "直到超级智能，替人类接管了记忆的底层存储。遗忘，被当作系统漏洞，彻底焊死。",
+    "sfx_brief": "`2160f`: Cold, unforgiving high-voltage CRT capacitor whine + razor-sharp phase-lock click",
+    "chunks": [
+      "直到超级智能，",
+      "替人类接管了记忆的底层存储。",
+      "遗忘被当作系统漏洞，",
+      "彻底焊死。"
+    ]
+  },
+  {
+    "id": "S05",
+    "startFrame": 2820,
+    "endFrame": 3540,
+    "display_subtitle": "于是，恐怖的事情发生了：\n二十年前的一句恶语、三千天前的一次失恋，以百分之百的精度永远置顶。",
+    "tts_phonetic_text": "于是，恐怖的事情发生了：二十年前的一句恶语、三千天前的一次失恋，以百分之百的精度，永远置顶。",
+    "sfx_brief": "`2940f`: Overlapping, non-decaying feedback loops stacking into an oppressive, shimmering wall of amber sound",
+    "chunks": [
+      "于是，",
+      "恐怖的事情发生了：",
+      "二十年前的一句恶语、",
+      "三千天前的一次失恋，",
+      "以百分之百的精度永远置顶。"
+    ]
+  },
+  {
+    "id": "S06",
+    "startFrame": 3600,
+    "endFrame": 4320,
+    "display_subtitle": "每一道过去的声波都不会衰减，而是在你的脑海里无限叠加。\n没有了遗忘的缓冲，昨天成了永远无法醒来的鬼打墙。",
+    "tts_phonetic_text": "每一道过去的声波，都不会衰减，而是在你的脑海里，无限叠加。没有了遗忘的缓冲，昨天，成了永远无法醒来的鬼打墙。",
+    "sfx_brief": "`3900f`: Claustrophobic rising Shepard tone + saturated analog tube distortion (`#DC2626`)",
+    "chunks": [
+      "每一道过去的声波都不会衰减，",
+      "而是在你的脑海里无限叠加。",
+      "没有了遗忘的缓冲，",
+      "昨天成了永远无法醒来的鬼打墙。"
+    ]
+  },
+  {
+    "id": "S07",
+    "startFrame": 4380,
+    "endFrame": 4800,
+    "display_subtitle": "当完美无瑕的数字记忆，把人类的心房挤成一座没有出口的标本馆……",
+    "tts_phonetic_text": "当完美无瑕的数字记忆，把人类的心房，挤成一座，没有出口的标本馆。",
+    "sfx_brief": "`4500f`: Blindingly bright high-frequency harmonic cluster holding at peak tension",
+    "chunks": [
+      "当完美无瑕的数字记忆，",
+      "把人类的心房挤成一座没有出口的标本馆……"
+    ]
+  },
+  {
+    "id": "S08",
+    "startFrame": 4860,
+    "endFrame": 5400,
+    "display_subtitle": "“我们才终于明白：不朽的记忆是神明的刑具；\n唯有会慢慢褪色的遗憾，才叫人生。”",
+    "tts_phonetic_text": "我们才终于明白：不朽的记忆，是神明的刑具；唯有会慢慢褪色的遗憾，才叫人生。",
+    "sfx_brief": "`4860f`: **CRT Tube Power-Off SNAP -> 30-frame ABSOLUTE SILENCE** -> A single, warm, slightly out-of-tune vintage piano chord slowly fading into natural room reverb",
+    "chunks": [
+      "“我们才终于明白：",
+      "不朽的记忆是神明的刑具；",
+      "唯有会慢慢褪色的遗憾，",
+      "才叫人生。",
+      "”"
+    ]
+  }
+]

@@ -29,3 +29,4 @@
 - [逆转的沙漏 · 留住这一根白发](si-ep11-kintsugi-ink-v02/README.md)：7 个视频/工程资产。
 - [逆转的沙漏 · 留住这一根白发](si-ep11-kintsugi-ink-v03/README.md)：8 个视频/工程资产。
 - [最后一行公式](si-ep12-final-equation/README.md)：4 个视频/工程资产。
+- [无法遗忘的诅咒](si-ep13-curse-of-memory/README.md)：4 个视频/工程资产。

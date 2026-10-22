@@ -1,0 +1,437 @@
+{
+  "schema_version": 1,
+  "work": "si-ep13-curse-of-memory",
+  "platform": "xiaohongshu",
+  "canvas": {
+    "composition": "PortraitVertical",
+    "width": 2160,
+    "height": 3840,
+    "logicalWidth": 1080,
+    "logicalHeight": 1920,
+    "logicalScale": 2,
+    "fps": 60,
+    "durationSeconds": 90,
+    "totalFrames": 5400,
+    "frameRange": "[0, 5400)"
+  },
+  "audio": {
+    "sampleRate": 48000,
+    "channels": 2,
+    "samplesPerChannel": 4320000,
+    "samplesPerFramePerChannel": 800,
+    "targetLufs": -16,
+    "truePeakCeilingDbtp": -1,
+    "eventSampleMapping": "sampleIndex = frame * 48000 / 60 = frame * 800",
+    "status": "TTS placement and PCM master present; source-check confirms format, sample count and blackout silence; loudness measurement is separate",
+    "ttsIdentity": {
+      "provider": "Aliyun Bailian",
+      "effectiveModel": "cosyvoice-v3-flash",
+      "voice": "longtian_v3",
+      "rate": 1.0,
+      "identityEvidence": "provider-manifest.json; reported by CLI response"
+    },
+    "measuredNarration": {
+      "S01": {
+        "authoredSourceWindowFrames": [
+          60,
+          540
+        ],
+        "cueStartSample": 37571,
+        "cueEndSampleExclusive": 483011,
+        "activeVoiceStartSample": 48000,
+        "activeVoiceEndSampleExclusive": 472868,
+        "activeVoiceSeconds": [
+          1.0,
+          9.8514167
+        ],
+        "captionWindowFrames": [
+          60,
+          592
+        ]
+      },
+      "S02": {
+        "authoredSourceWindowFrames": [
+          600,
+          1260
+        ],
+        "activeVoiceStartSample": 480000,
+        "activeVoiceEndSampleExclusive": 859222,
+        "activeVoiceStartSeconds": 10.0
+      },
+      "completeCueOverlapSamples": 13483,
+      "completeCueOverlapSeconds": 0.2808958,
+      "activeSpeechOverlapSamples": 0,
+      "mixPolicy": "retain both complete natural-rate cues; do not crop or accelerate speech",
+      "captionTiming": "character-weighted phrase timing within measured active PCM; estimated timing, not ASR or forced word alignment",
+      "decisionInput": "audio-timing-overrides.json is root-owned and was read without modification"
+    }
+  },
+  "safeZonesPercent": {
+    "top": 8,
+    "right": 14,
+    "bottom": 22,
+    "hudTopRange": [
+      9,
+      14
+    ],
+    "hudRightmost": 84,
+    "captionBottomRange": [
+      24,
+      28
+    ]
+  },
+  "visualSystem": {
+    "rendering": "deterministic flat 2D SVG",
+    "threeDimensionalGeometry": false,
+    "background": "#120D0A",
+    "scanlines": {
+      "pitchLogicalPx": 2,
+      "opacity": 0.04,
+      "orientation": "horizontal"
+    },
+    "palette": [
+      "#120D0A",
+      "#FF9E00",
+      "#78350F",
+      "#FEF3C7",
+      "#F59E0B",
+      "#DC2626"
+    ],
+    "motionConstraintFrames": 180
+  },
+  "acts": [
+    {
+      "id": "act_1_merciful_fade",
+      "startFrame": 0,
+      "endFrame": 1320,
+      "label": "The Merciful Fade of Ebbinghaus",
+      "geometrySources": [
+        "2D oscilloscope graticule with animated horizontal/vertical tick phase",
+        "Ebbinghaus curve R(t) = exp(-t/S), progressively drawn and softened",
+        "Jagged trauma waveform that is spatially smoothed and reduced in amplitude",
+        "Archival film-strip marks and scanline texture that drift across the flat canvas"
+      ],
+      "keyVisibleChanges": [
+        {
+          "startFrame": 0,
+          "endFrame": 1320,
+          "text": "DAY 001 → DAY 030 → DAY 365 → YEAR 10; pain trace softens from 100% toward 4.2%"
+        },
+        {
+          "startFrame": 0,
+          "endFrame": 1320,
+          "text": "Introduce season header and title, then give way to the curve"
+        }
+      ],
+      "movementSource": "curve draw-on, waveform smoothing and attenuation, drifting 2D graticule and film-strip geometry"
+    },
+    {
+      "id": "act_2_welded_decay",
+      "startFrame": 1320,
+      "endFrame": 2820,
+      "label": "Welding the Decay Curve Flat",
+      "geometrySources": [
+        "Decay plot transforms continuously into a flat 100.000% retention line",
+        "Bone-white horizontal laser sweep across the two-dimensional graticule",
+        "Quantization stems and brackets draw in below the line",
+        "Locked trauma waveform remains aligned to the underlying axis"
+      ],
+      "keyVisibleChanges": [
+        {
+          "startFrame": 1320,
+          "endFrame": 1321,
+          "text": "Retention transition and first-line HUD switch"
+        },
+        {
+          "startFrame": 1320,
+          "endFrame": 2820,
+          "text": "Historical micro-spikes are quantized and locked into stems"
+        }
+      ],
+      "movementSource": "laser sweep, curve lift, stem-by-stem drawing, moving scanline and graticule phase"
+    },
+    {
+      "id": "act_3_phosphor_accumulation",
+      "startFrame": 2820,
+      "endFrame": 4380,
+      "label": "Phosphor Burn-In and the Infinite Ghost Loop",
+      "geometrySources": [
+        "2D Lissajous and rose phase-space traces; no perspective or 3D wireframes",
+        "Year 01, 03, 07 and 15 traces persist and superpose without alpha decay",
+        "Fine vinyl/celluloid scratches translate and accumulate in the same flat signal plane",
+        "Rust-red trauma spikes and bone-white traces build toward the dense Frame 3900 overlap"
+      ],
+      "keyVisibleChanges": [
+        {
+          "startFrame": 2820,
+          "endFrame": 3900,
+          "text": "Year traces accumulate without fading"
+        },
+        {
+          "startFrame": 3900,
+          "endFrame": 4380,
+          "text": "SNR collapse label; present moment becomes buried under past"
+        }
+      ],
+      "movementSource": "phase-trace drawing, new trace addition, translation of scratches and evolving overlap density"
+    },
+    {
+      "id": "act_4_release",
+      "startFrame": 4380,
+      "endFrame": 5400,
+      "label": "The Fading Polaroid and the Mercy of Imperfection",
+      "geometrySources": [
+        "Flat 2D overload field continues to move and accrue until the snap boundary",
+        "At Frame 4860, the tangle contracts into one amber scanline",
+        "After piano onset, the grid clears while a single amber waveform attenuates",
+        "Golden dust particles drift upward as the remaining waveform fades"
+      ],
+      "keyVisibleChanges": [
+        {
+          "startFrame": 4380,
+          "endFrame": 4860,
+          "text": "Overload intensifies toward the blinding saturation peak"
+        },
+        {
+          "startFrame": 4859,
+          "endFrame": 4860,
+          "text": "CRT snap impulse occupies the final frame before silence"
+        },
+        {
+          "startFrame": 4860,
+          "endFrame": 4890,
+          "text": "Absolute silence; final quotation can begin its progressive display"
+        },
+        {
+          "startFrame": 4890,
+          "endFrame": 5400,
+          "text": "Piano begins; visual release and waveform decay"
+        },
+        {
+          "startFrame": 4902,
+          "endFrame": 5400,
+          "text": "S08 narration may begin no earlier than this boundary"
+        },
+        {
+          "startFrame": 5160,
+          "endFrame": 5400,
+          "text": "Closing title and fictional-data disclaimer; disclaimer opacity 0.35"
+        }
+      ],
+      "movementSource": "2D field accumulation, contraction, scanline breathing, waveform attenuation and upward drifting dust"
+    }
+  ],
+  "segments": [
+    {
+      "id": "S01",
+      "startFrame": 60,
+      "endFrame": 540,
+      "displaySubtitle": "如果十年前那次让你心碎的告别，\n在今天依然像刚发生第一秒那样刺痛，你还能活下去吗？",
+      "ttsPhoneticText": "如果十年前，那次让你心碎的告别，在今天，依然像刚发生第一秒那样刺痛，你还能活下去吗？",
+      "captionTiming": "approved [60,592) end; authored source window [60,540) retained",
+      "captionWindowFrames": [
+        60,
+        592
+      ],
+      "activeVoiceSamples": [
+        48000,
+        472868
+      ],
+      "cueSamples": [
+        37571,
+        483011
+      ]
+    },
+    {
+      "id": "S02",
+      "startFrame": 600,
+      "endFrame": 1260,
+      "displaySubtitle": "人类总抱怨自己记性太差。\n却不知道，“艾宾浩斯遗忘曲线”是进化给碳基生命最温柔的止痛药。",
+      "ttsPhoneticText": "人类总抱怨，自己记性太差。却不知道，艾宾浩斯遗忘曲线，是进化给碳基生命，最温柔的止痛药。",
+      "captionTiming": "measured active voice begins at 10.0 s; phrase windows use measured PCM",
+      "activeVoiceStartSample": 480000
+    },
+    {
+      "id": "S03",
+      "startFrame": 1320,
+      "endFrame": 1980,
+      "displaySubtitle": "时间磨平了尴尬的细节，模糊了离别的眼泪，\n靠着把过去一点点擦淡，人类才能腾出内存，去爱下一个人。",
+      "ttsPhoneticText": "时间磨平了尴尬的细节，模糊了离别的眼泪；靠着把过去一点点擦淡，人类才能腾出内存，去爱下一个人。",
+      "captionTiming": "subdivide against actual PCM"
+    },
+    {
+      "id": "S04",
+      "startFrame": 2040,
+      "endFrame": 2760,
+      "displaySubtitle": "直到超级智能，替人类接管了记忆的底层存储。\n遗忘被当作系统漏洞，彻底焊死。",
+      "ttsPhoneticText": "直到超级智能，替人类接管了记忆的底层存储。遗忘，被当作系统漏洞，彻底焊死。",
+      "captionTiming": "subdivide against actual PCM"
+    },
+    {
+      "id": "S05",
+      "startFrame": 2820,
+      "endFrame": 3540,
+      "displaySubtitle": "于是，恐怖的事情发生了：\n二十年前的一句恶语、三千天前的一次失恋，以百分之百的精度永远置顶。",
+      "ttsPhoneticText": "于是，恐怖的事情发生了：二十年前的一句恶语、三千天前的一次失恋，以百分之百的精度，永远置顶。",
+      "captionTiming": "subdivide against actual PCM"
+    },
+    {
+      "id": "S06",
+      "startFrame": 3600,
+      "endFrame": 4320,
+      "displaySubtitle": "每一道过去的声波都不会衰减，而是在你的脑海里无限叠加。\n没有了遗忘的缓冲，昨天成了永远无法醒来的鬼打墙。",
+      "ttsPhoneticText": "每一道过去的声波，都不会衰减，而是在你的脑海里，无限叠加。没有了遗忘的缓冲，昨天，成了永远无法醒来的鬼打墙。",
+      "captionTiming": "subdivide against actual PCM"
+    },
+    {
+      "id": "S07",
+      "startFrame": 4380,
+      "endFrame": 4800,
+      "displaySubtitle": "当完美无瑕的数字记忆，把人类的心房挤成一座没有出口的标本馆……",
+      "ttsPhoneticText": "当完美无瑕的数字记忆，把人类的心房，挤成一座，没有出口的标本馆。",
+      "captionTiming": "subdivide against actual PCM"
+    },
+    {
+      "id": "S08",
+      "startFrame": 4860,
+      "endFrame": 5400,
+      "displaySubtitle": "“我们才终于明白：不朽的记忆是神明的刑具；\n唯有会慢慢褪色的遗憾，才叫人生。”",
+      "ttsPhoneticText": "我们才终于明白：不朽的记忆，是神明的刑具；唯有会慢慢褪色的遗憾，才叫人生。",
+      "captionTiming": "progressive phrase windows in audio-timing.json; character-weighted estimate within measured PCM; narration starts at or after Frame 4902"
+    }
+  ],
+  "events": [
+    {
+      "id": "opening_cassette_calibration",
+      "startFrame": 60,
+      "endFrame": 61,
+      "audioStartSamplePerChannel": 48000,
+      "audioEndSamplePerChannel": 48800,
+      "visual": "cassette rewind/crosshair cue",
+      "audio": "rewind click, warm vinyl crackle and 1000 Hz calibration tone"
+    },
+    {
+      "id": "soft_chord",
+      "startFrame": 840,
+      "endFrame": 841,
+      "audioStartSamplePerChannel": 672000,
+      "audioEndSamplePerChannel": 672800,
+      "visual": "curve softening cue",
+      "audio": "soft warm acoustic chord fading through a low-pass filter"
+    },
+    {
+      "id": "tape_hiss_fade",
+      "startFrame": 1500,
+      "endFrame": 1920,
+      "audioStartSamplePerChannel": 1200000,
+      "audioEndSamplePerChannel": 1536000,
+      "visual": "biological trace continues to fade",
+      "audio": "gentle tape hiss fades out"
+    },
+    {
+      "id": "magnetic_relay_lock",
+      "startFrame": 1920,
+      "endFrame": 1921,
+      "audioStartSamplePerChannel": 1536000,
+      "audioEndSamplePerChannel": 1536800,
+      "visual": "last biological trace locks at the act boundary approach",
+      "audio": "heavy magnetic relay"
+    },
+    {
+      "id": "crt_phase_lock",
+      "startFrame": 2160,
+      "endFrame": 2161,
+      "audioStartSamplePerChannel": 1728000,
+      "audioEndSamplePerChannel": 1728800,
+      "visual": "quantized line hardens",
+      "audio": "CRT capacitor whine and phase-lock click"
+    },
+    {
+      "id": "feedback_stack",
+      "startFrame": 2940,
+      "endFrame": 2941,
+      "audioStartSamplePerChannel": 2352000,
+      "audioEndSamplePerChannel": 2352800,
+      "visual": "persistent traces visibly gain overlap",
+      "audio": "overlapping non-decaying feedback loops"
+    },
+    {
+      "id": "shepard_rise",
+      "startFrame": 3900,
+      "endFrame": 3901,
+      "audioStartSamplePerChannel": 3120000,
+      "audioEndSamplePerChannel": 3120800,
+      "visual": "signal-to-noise collapse",
+      "audio": "rising Shepard tone with saturated tube distortion"
+    },
+    {
+      "id": "harmonic_peak",
+      "startFrame": 4500,
+      "endFrame": 4501,
+      "audioStartSamplePerChannel": 3600000,
+      "audioEndSamplePerChannel": 3600800,
+      "visual": "overload reaches peak tension",
+      "audio": "high-frequency harmonic cluster"
+    },
+    {
+      "id": "crt_power_off_snap",
+      "startFrame": 4859,
+      "endFrame": 4860,
+      "boundaryFrame": 4860,
+      "audioStartSamplePerChannel": 3887200,
+      "audioEndSamplePerChannel": 3888000,
+      "visual": "single-frame snap terminates at silence boundary",
+      "audio": "CRT tube power-off snap impulse"
+    },
+    {
+      "id": "absolute_silence",
+      "startFrame": 4860,
+      "endFrame": 4890,
+      "audioStartSamplePerChannel": 3888000,
+      "audioEndSamplePerChannel": 3912000,
+      "visual": "collapsed amber line begins to breathe; quote is progressively revealed",
+      "audio": "absolute silence across narration, effects, music and reverb"
+    },
+    {
+      "id": "piano_entry",
+      "startFrame": 4890,
+      "endFrame": 5400,
+      "audioStartSamplePerChannel": 3912000,
+      "audioEndSamplePerChannel": 4320000,
+      "visual": "grid clears; one amber waveform attenuates into upward-drifting dust",
+      "audio": "single warm, slightly out-of-tune vintage piano chord with natural room reverb"
+    },
+    {
+      "id": "s08_voice_earliest_start",
+      "startFrame": 4902,
+      "endFrame": 5400,
+      "audioStartSamplePerChannel": 3921600,
+      "audioEndSamplePerChannel": 4320000,
+      "visual": "closing quotation continues progressive reveal",
+      "audio": "S08 narration start boundary; actual phrase timing follows PCM"
+    },
+    {
+      "id": "closing_disclaimer",
+      "startFrame": 5160,
+      "endFrame": 5400,
+      "opacity": 0.35,
+      "visual": "未来 SI 思想实验 · 遥测与数值均为虚构",
+      "audio": null
+    }
+  ],
+  "captionPolicy": {
+    "maximumLines": 2,
+    "minimumLogicalFontPx": 42,
+    "anchorBottomPercentRange": [
+      24,
+      28
+    ],
+    "phraseSubdivisions": "derive exact display windows from the actual PCM; preserve source text",
+    "closingQuote": "progressively revealed; keep the designed silence interval silent"
+  },
+  "references": {
+    "sourceScript": "source/script.md",
+    "sourceSegments": "project/segments.json",
+    "compactAndFullLabels": "project/telemetry-lexicon.json"
+  }
+}

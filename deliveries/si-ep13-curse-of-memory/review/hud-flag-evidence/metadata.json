@@ -1,0 +1,2712 @@
+{
+  "status": "ALL_540_FLAGS_REVIEWED_AUTHORED_DIMMING",
+  "movie_sha256": "7b067593aab3e25d3636aa0caa008ee88ab37de11a2b8fca7f49593ec474e3c7",
+  "flags_preserved": 540,
+  "frames": [
+    {
+      "frame": 4860,
+      "mae_to_post_snap_header": 0.0,
+      "evidence": "review/hud-flag-evidence/sheet-00.jpg"
+    },
+    {
+      "frame": 4861,
+      "mae_to_post_snap_header": 0.012777777777777779,
+      "evidence": "review/hud-flag-evidence/sheet-00.jpg"
+    },
+    {
+      "frame": 4862,
+      "mae_to_post_snap_header": 0.015987654320987654,
+      "evidence": "review/hud-flag-evidence/sheet-00.jpg"
+    },
+    {
+      "frame": 4863,
+      "mae_to_post_snap_header": 0.0221141975308642,
+      "evidence": "review/hud-flag-evidence/sheet-00.jpg"
+    },
+    {
+      "frame": 4864,
+      "mae_to_post_snap_header": 0.020339506172839507,
+      "evidence": "review/hud-flag-evidence/sheet-00.jpg"
+    },
+    {
+      "frame": 4865,
+      "mae_to_post_snap_header": 0.02368827160493827,
+      "evidence": "review/hud-flag-evidence/sheet-00.jpg"
+    },
+    {
+      "frame": 4866,
+      "mae_to_post_snap_header": 0.03560185185185185,
+      "evidence": "review/hud-flag-evidence/sheet-00.jpg"
+    },
+    {
+      "frame": 4867,
+      "mae_to_post_snap_header": 0.03621913580246913,
+      "evidence": "review/hud-flag-evidence/sheet-00.jpg"
+    },
+    {
+      "frame": 4868,
+      "mae_to_post_snap_header": 0.033873456790123456,
+      "evidence": "review/hud-flag-evidence/sheet-00.jpg"
+    },
+    {
+      "frame": 4869,
+      "mae_to_post_snap_header": 0.03631172839506173,
+      "evidence": "review/hud-flag-evidence/sheet-00.jpg"
+    },
+    {
+      "frame": 4870,
+      "mae_to_post_snap_header": 0.03807098765432099,
+      "evidence": "review/hud-flag-evidence/sheet-00.jpg"
+    },
+    {
+      "frame": 4871,
+      "mae_to_post_snap_header": 0.037083333333333336,
+      "evidence": "review/hud-flag-evidence/sheet-00.jpg"
+    },
+    {
+      "frame": 4872,
+      "mae_to_post_snap_header": 0.03487654320987654,
+      "evidence": "review/hud-flag-evidence/sheet-00.jpg"
+    },
+    {
+      "frame": 4873,
+      "mae_to_post_snap_header": 0.03722222222222222,
+      "evidence": "review/hud-flag-evidence/sheet-00.jpg"
+    },
+    {
+      "frame": 4874,
+      "mae_to_post_snap_header": 0.038626543209876546,
+      "evidence": "review/hud-flag-evidence/sheet-00.jpg"
+    },
+    {
+      "frame": 4875,
+      "mae_to_post_snap_header": 0.04300925925925926,
+      "evidence": "review/hud-flag-evidence/sheet-00.jpg"
+    },
+    {
+      "frame": 4876,
+      "mae_to_post_snap_header": 0.041743827160493824,
+      "evidence": "review/hud-flag-evidence/sheet-00.jpg"
+    },
+    {
+      "frame": 4877,
+      "mae_to_post_snap_header": 0.04308641975308642,
+      "evidence": "review/hud-flag-evidence/sheet-00.jpg"
+    },
+    {
+      "frame": 4878,
+      "mae_to_post_snap_header": 0.04728395061728395,
+      "evidence": "review/hud-flag-evidence/sheet-00.jpg"
+    },
+    {
+      "frame": 4879,
+      "mae_to_post_snap_header": 0.04703703703703704,
+      "evidence": "review/hud-flag-evidence/sheet-00.jpg"
+    },
+    {
+      "frame": 4880,
+      "mae_to_post_snap_header": 0.046219135802469134,
+      "evidence": "review/hud-flag-evidence/sheet-00.jpg"
+    },
+    {
+      "frame": 4881,
+      "mae_to_post_snap_header": 0.04703703703703704,
+      "evidence": "review/hud-flag-evidence/sheet-00.jpg"
+    },
+    {
+      "frame": 4882,
+      "mae_to_post_snap_header": 0.04526234567901235,
+      "evidence": "review/hud-flag-evidence/sheet-00.jpg"
+    },
+    {
+      "frame": 4883,
+      "mae_to_post_snap_header": 0.04524691358024691,
+      "evidence": "review/hud-flag-evidence/sheet-00.jpg"
+    },
+    {
+      "frame": 4884,
+      "mae_to_post_snap_header": 0.04287037037037037,
+      "evidence": "review/hud-flag-evidence/sheet-00.jpg"
+    },
+    {
+      "frame": 4885,
+      "mae_to_post_snap_header": 0.04524691358024691,
+      "evidence": "review/hud-flag-evidence/sheet-00.jpg"
+    },
+    {
+      "frame": 4886,
+      "mae_to_post_snap_header": 0.045925925925925926,
+      "evidence": "review/hud-flag-evidence/sheet-00.jpg"
+    },
+    {
+      "frame": 4887,
+      "mae_to_post_snap_header": 0.05466049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-00.jpg"
+    },
+    {
+      "frame": 4888,
+      "mae_to_post_snap_header": 0.047314814814814816,
+      "evidence": "review/hud-flag-evidence/sheet-00.jpg"
+    },
+    {
+      "frame": 4889,
+      "mae_to_post_snap_header": 0.047253086419753086,
+      "evidence": "review/hud-flag-evidence/sheet-00.jpg"
+    },
+    {
+      "frame": 4890,
+      "mae_to_post_snap_header": 0.04692901234567901,
+      "evidence": "review/hud-flag-evidence/sheet-01.jpg"
+    },
+    {
+      "frame": 4891,
+      "mae_to_post_snap_header": 0.04455246913580247,
+      "evidence": "review/hud-flag-evidence/sheet-01.jpg"
+    },
+    {
+      "frame": 4892,
+      "mae_to_post_snap_header": 0.04692901234567901,
+      "evidence": "review/hud-flag-evidence/sheet-01.jpg"
+    },
+    {
+      "frame": 4893,
+      "mae_to_post_snap_header": 0.053703703703703705,
+      "evidence": "review/hud-flag-evidence/sheet-01.jpg"
+    },
+    {
+      "frame": 4894,
+      "mae_to_post_snap_header": 0.04666666666666667,
+      "evidence": "review/hud-flag-evidence/sheet-01.jpg"
+    },
+    {
+      "frame": 4895,
+      "mae_to_post_snap_header": 0.04429012345679012,
+      "evidence": "review/hud-flag-evidence/sheet-01.jpg"
+    },
+    {
+      "frame": 4896,
+      "mae_to_post_snap_header": 0.04666666666666667,
+      "evidence": "review/hud-flag-evidence/sheet-01.jpg"
+    },
+    {
+      "frame": 4897,
+      "mae_to_post_snap_header": 0.05393518518518518,
+      "evidence": "review/hud-flag-evidence/sheet-01.jpg"
+    },
+    {
+      "frame": 4898,
+      "mae_to_post_snap_header": 0.04666666666666667,
+      "evidence": "review/hud-flag-evidence/sheet-01.jpg"
+    },
+    {
+      "frame": 4899,
+      "mae_to_post_snap_header": 0.04429012345679012,
+      "evidence": "review/hud-flag-evidence/sheet-01.jpg"
+    },
+    {
+      "frame": 4900,
+      "mae_to_post_snap_header": 0.04666666666666667,
+      "evidence": "review/hud-flag-evidence/sheet-01.jpg"
+    },
+    {
+      "frame": 4901,
+      "mae_to_post_snap_header": 0.053703703703703705,
+      "evidence": "review/hud-flag-evidence/sheet-01.jpg"
+    },
+    {
+      "frame": 4902,
+      "mae_to_post_snap_header": 0.04666666666666667,
+      "evidence": "review/hud-flag-evidence/sheet-01.jpg"
+    },
+    {
+      "frame": 4903,
+      "mae_to_post_snap_header": 0.04429012345679012,
+      "evidence": "review/hud-flag-evidence/sheet-01.jpg"
+    },
+    {
+      "frame": 4904,
+      "mae_to_post_snap_header": 0.04666666666666667,
+      "evidence": "review/hud-flag-evidence/sheet-01.jpg"
+    },
+    {
+      "frame": 4905,
+      "mae_to_post_snap_header": 0.05393518518518518,
+      "evidence": "review/hud-flag-evidence/sheet-01.jpg"
+    },
+    {
+      "frame": 4906,
+      "mae_to_post_snap_header": 0.04666666666666667,
+      "evidence": "review/hud-flag-evidence/sheet-01.jpg"
+    },
+    {
+      "frame": 4907,
+      "mae_to_post_snap_header": 0.04429012345679012,
+      "evidence": "review/hud-flag-evidence/sheet-01.jpg"
+    },
+    {
+      "frame": 4908,
+      "mae_to_post_snap_header": 0.04666666666666667,
+      "evidence": "review/hud-flag-evidence/sheet-01.jpg"
+    },
+    {
+      "frame": 4909,
+      "mae_to_post_snap_header": 0.053703703703703705,
+      "evidence": "review/hud-flag-evidence/sheet-01.jpg"
+    },
+    {
+      "frame": 4910,
+      "mae_to_post_snap_header": 0.04666666666666667,
+      "evidence": "review/hud-flag-evidence/sheet-01.jpg"
+    },
+    {
+      "frame": 4911,
+      "mae_to_post_snap_header": 0.04429012345679012,
+      "evidence": "review/hud-flag-evidence/sheet-01.jpg"
+    },
+    {
+      "frame": 4912,
+      "mae_to_post_snap_header": 0.04666666666666667,
+      "evidence": "review/hud-flag-evidence/sheet-01.jpg"
+    },
+    {
+      "frame": 4913,
+      "mae_to_post_snap_header": 0.05393518518518518,
+      "evidence": "review/hud-flag-evidence/sheet-01.jpg"
+    },
+    {
+      "frame": 4914,
+      "mae_to_post_snap_header": 0.04666666666666667,
+      "evidence": "review/hud-flag-evidence/sheet-01.jpg"
+    },
+    {
+      "frame": 4915,
+      "mae_to_post_snap_header": 0.04429012345679012,
+      "evidence": "review/hud-flag-evidence/sheet-01.jpg"
+    },
+    {
+      "frame": 4916,
+      "mae_to_post_snap_header": 0.04666666666666667,
+      "evidence": "review/hud-flag-evidence/sheet-01.jpg"
+    },
+    {
+      "frame": 4917,
+      "mae_to_post_snap_header": 0.053703703703703705,
+      "evidence": "review/hud-flag-evidence/sheet-01.jpg"
+    },
+    {
+      "frame": 4918,
+      "mae_to_post_snap_header": 0.04666666666666667,
+      "evidence": "review/hud-flag-evidence/sheet-01.jpg"
+    },
+    {
+      "frame": 4919,
+      "mae_to_post_snap_header": 0.04429012345679012,
+      "evidence": "review/hud-flag-evidence/sheet-01.jpg"
+    },
+    {
+      "frame": 4920,
+      "mae_to_post_snap_header": 0.05030864197530864,
+      "evidence": "review/hud-flag-evidence/sheet-02.jpg"
+    },
+    {
+      "frame": 4921,
+      "mae_to_post_snap_header": 0.05393518518518518,
+      "evidence": "review/hud-flag-evidence/sheet-02.jpg"
+    },
+    {
+      "frame": 4922,
+      "mae_to_post_snap_header": 0.04666666666666667,
+      "evidence": "review/hud-flag-evidence/sheet-02.jpg"
+    },
+    {
+      "frame": 4923,
+      "mae_to_post_snap_header": 0.04429012345679012,
+      "evidence": "review/hud-flag-evidence/sheet-02.jpg"
+    },
+    {
+      "frame": 4924,
+      "mae_to_post_snap_header": 0.04666666666666667,
+      "evidence": "review/hud-flag-evidence/sheet-02.jpg"
+    },
+    {
+      "frame": 4925,
+      "mae_to_post_snap_header": 0.053703703703703705,
+      "evidence": "review/hud-flag-evidence/sheet-02.jpg"
+    },
+    {
+      "frame": 4926,
+      "mae_to_post_snap_header": 0.04666666666666667,
+      "evidence": "review/hud-flag-evidence/sheet-02.jpg"
+    },
+    {
+      "frame": 4927,
+      "mae_to_post_snap_header": 0.04429012345679012,
+      "evidence": "review/hud-flag-evidence/sheet-02.jpg"
+    },
+    {
+      "frame": 4928,
+      "mae_to_post_snap_header": 0.04666666666666667,
+      "evidence": "review/hud-flag-evidence/sheet-02.jpg"
+    },
+    {
+      "frame": 4929,
+      "mae_to_post_snap_header": 0.05393518518518518,
+      "evidence": "review/hud-flag-evidence/sheet-02.jpg"
+    },
+    {
+      "frame": 4930,
+      "mae_to_post_snap_header": 0.04666666666666667,
+      "evidence": "review/hud-flag-evidence/sheet-02.jpg"
+    },
+    {
+      "frame": 4931,
+      "mae_to_post_snap_header": 0.04429012345679012,
+      "evidence": "review/hud-flag-evidence/sheet-02.jpg"
+    },
+    {
+      "frame": 4932,
+      "mae_to_post_snap_header": 0.04666666666666667,
+      "evidence": "review/hud-flag-evidence/sheet-02.jpg"
+    },
+    {
+      "frame": 4933,
+      "mae_to_post_snap_header": 0.053703703703703705,
+      "evidence": "review/hud-flag-evidence/sheet-02.jpg"
+    },
+    {
+      "frame": 4934,
+      "mae_to_post_snap_header": 0.04666666666666667,
+      "evidence": "review/hud-flag-evidence/sheet-02.jpg"
+    },
+    {
+      "frame": 4935,
+      "mae_to_post_snap_header": 0.04429012345679012,
+      "evidence": "review/hud-flag-evidence/sheet-02.jpg"
+    },
+    {
+      "frame": 4936,
+      "mae_to_post_snap_header": 0.04666666666666667,
+      "evidence": "review/hud-flag-evidence/sheet-02.jpg"
+    },
+    {
+      "frame": 4937,
+      "mae_to_post_snap_header": 0.05393518518518518,
+      "evidence": "review/hud-flag-evidence/sheet-02.jpg"
+    },
+    {
+      "frame": 4938,
+      "mae_to_post_snap_header": 0.04666666666666667,
+      "evidence": "review/hud-flag-evidence/sheet-02.jpg"
+    },
+    {
+      "frame": 4939,
+      "mae_to_post_snap_header": 0.04429012345679012,
+      "evidence": "review/hud-flag-evidence/sheet-02.jpg"
+    },
+    {
+      "frame": 4940,
+      "mae_to_post_snap_header": 0.04666666666666667,
+      "evidence": "review/hud-flag-evidence/sheet-02.jpg"
+    },
+    {
+      "frame": 4941,
+      "mae_to_post_snap_header": 0.053703703703703705,
+      "evidence": "review/hud-flag-evidence/sheet-02.jpg"
+    },
+    {
+      "frame": 4942,
+      "mae_to_post_snap_header": 0.04666666666666667,
+      "evidence": "review/hud-flag-evidence/sheet-02.jpg"
+    },
+    {
+      "frame": 4943,
+      "mae_to_post_snap_header": 0.04429012345679012,
+      "evidence": "review/hud-flag-evidence/sheet-02.jpg"
+    },
+    {
+      "frame": 4944,
+      "mae_to_post_snap_header": 0.04666666666666667,
+      "evidence": "review/hud-flag-evidence/sheet-02.jpg"
+    },
+    {
+      "frame": 4945,
+      "mae_to_post_snap_header": 0.05393518518518518,
+      "evidence": "review/hud-flag-evidence/sheet-02.jpg"
+    },
+    {
+      "frame": 4946,
+      "mae_to_post_snap_header": 0.04666666666666667,
+      "evidence": "review/hud-flag-evidence/sheet-02.jpg"
+    },
+    {
+      "frame": 4947,
+      "mae_to_post_snap_header": 0.04429012345679012,
+      "evidence": "review/hud-flag-evidence/sheet-02.jpg"
+    },
+    {
+      "frame": 4948,
+      "mae_to_post_snap_header": 0.04666666666666667,
+      "evidence": "review/hud-flag-evidence/sheet-02.jpg"
+    },
+    {
+      "frame": 4949,
+      "mae_to_post_snap_header": 0.053703703703703705,
+      "evidence": "review/hud-flag-evidence/sheet-02.jpg"
+    },
+    {
+      "frame": 4950,
+      "mae_to_post_snap_header": 0.04666666666666667,
+      "evidence": "review/hud-flag-evidence/sheet-03.jpg"
+    },
+    {
+      "frame": 4951,
+      "mae_to_post_snap_header": 0.04429012345679012,
+      "evidence": "review/hud-flag-evidence/sheet-03.jpg"
+    },
+    {
+      "frame": 4952,
+      "mae_to_post_snap_header": 0.04666666666666667,
+      "evidence": "review/hud-flag-evidence/sheet-03.jpg"
+    },
+    {
+      "frame": 4953,
+      "mae_to_post_snap_header": 0.05393518518518518,
+      "evidence": "review/hud-flag-evidence/sheet-03.jpg"
+    },
+    {
+      "frame": 4954,
+      "mae_to_post_snap_header": 0.04666666666666667,
+      "evidence": "review/hud-flag-evidence/sheet-03.jpg"
+    },
+    {
+      "frame": 4955,
+      "mae_to_post_snap_header": 0.04429012345679012,
+      "evidence": "review/hud-flag-evidence/sheet-03.jpg"
+    },
+    {
+      "frame": 4956,
+      "mae_to_post_snap_header": 0.04666666666666667,
+      "evidence": "review/hud-flag-evidence/sheet-03.jpg"
+    },
+    {
+      "frame": 4957,
+      "mae_to_post_snap_header": 0.053703703703703705,
+      "evidence": "review/hud-flag-evidence/sheet-03.jpg"
+    },
+    {
+      "frame": 4958,
+      "mae_to_post_snap_header": 0.04666666666666667,
+      "evidence": "review/hud-flag-evidence/sheet-03.jpg"
+    },
+    {
+      "frame": 4959,
+      "mae_to_post_snap_header": 0.04429012345679012,
+      "evidence": "review/hud-flag-evidence/sheet-03.jpg"
+    },
+    {
+      "frame": 4960,
+      "mae_to_post_snap_header": 0.04666666666666667,
+      "evidence": "review/hud-flag-evidence/sheet-03.jpg"
+    },
+    {
+      "frame": 4961,
+      "mae_to_post_snap_header": 0.05393518518518518,
+      "evidence": "review/hud-flag-evidence/sheet-03.jpg"
+    },
+    {
+      "frame": 4962,
+      "mae_to_post_snap_header": 0.04666666666666667,
+      "evidence": "review/hud-flag-evidence/sheet-03.jpg"
+    },
+    {
+      "frame": 4963,
+      "mae_to_post_snap_header": 0.04429012345679012,
+      "evidence": "review/hud-flag-evidence/sheet-03.jpg"
+    },
+    {
+      "frame": 4964,
+      "mae_to_post_snap_header": 0.04666666666666667,
+      "evidence": "review/hud-flag-evidence/sheet-03.jpg"
+    },
+    {
+      "frame": 4965,
+      "mae_to_post_snap_header": 0.053703703703703705,
+      "evidence": "review/hud-flag-evidence/sheet-03.jpg"
+    },
+    {
+      "frame": 4966,
+      "mae_to_post_snap_header": 0.04666666666666667,
+      "evidence": "review/hud-flag-evidence/sheet-03.jpg"
+    },
+    {
+      "frame": 4967,
+      "mae_to_post_snap_header": 0.04429012345679012,
+      "evidence": "review/hud-flag-evidence/sheet-03.jpg"
+    },
+    {
+      "frame": 4968,
+      "mae_to_post_snap_header": 0.04666666666666667,
+      "evidence": "review/hud-flag-evidence/sheet-03.jpg"
+    },
+    {
+      "frame": 4969,
+      "mae_to_post_snap_header": 0.05393518518518518,
+      "evidence": "review/hud-flag-evidence/sheet-03.jpg"
+    },
+    {
+      "frame": 4970,
+      "mae_to_post_snap_header": 0.04666666666666667,
+      "evidence": "review/hud-flag-evidence/sheet-03.jpg"
+    },
+    {
+      "frame": 4971,
+      "mae_to_post_snap_header": 0.04429012345679012,
+      "evidence": "review/hud-flag-evidence/sheet-03.jpg"
+    },
+    {
+      "frame": 4972,
+      "mae_to_post_snap_header": 0.04666666666666667,
+      "evidence": "review/hud-flag-evidence/sheet-03.jpg"
+    },
+    {
+      "frame": 4973,
+      "mae_to_post_snap_header": 0.053703703703703705,
+      "evidence": "review/hud-flag-evidence/sheet-03.jpg"
+    },
+    {
+      "frame": 4974,
+      "mae_to_post_snap_header": 0.04666666666666667,
+      "evidence": "review/hud-flag-evidence/sheet-03.jpg"
+    },
+    {
+      "frame": 4975,
+      "mae_to_post_snap_header": 0.04429012345679012,
+      "evidence": "review/hud-flag-evidence/sheet-03.jpg"
+    },
+    {
+      "frame": 4976,
+      "mae_to_post_snap_header": 0.04666666666666667,
+      "evidence": "review/hud-flag-evidence/sheet-03.jpg"
+    },
+    {
+      "frame": 4977,
+      "mae_to_post_snap_header": 0.05393518518518518,
+      "evidence": "review/hud-flag-evidence/sheet-03.jpg"
+    },
+    {
+      "frame": 4978,
+      "mae_to_post_snap_header": 0.04666666666666667,
+      "evidence": "review/hud-flag-evidence/sheet-03.jpg"
+    },
+    {
+      "frame": 4979,
+      "mae_to_post_snap_header": 0.04429012345679012,
+      "evidence": "review/hud-flag-evidence/sheet-03.jpg"
+    },
+    {
+      "frame": 4980,
+      "mae_to_post_snap_header": 0.04666666666666667,
+      "evidence": "review/hud-flag-evidence/sheet-04.jpg"
+    },
+    {
+      "frame": 4981,
+      "mae_to_post_snap_header": 0.053703703703703705,
+      "evidence": "review/hud-flag-evidence/sheet-04.jpg"
+    },
+    {
+      "frame": 4982,
+      "mae_to_post_snap_header": 0.04666666666666667,
+      "evidence": "review/hud-flag-evidence/sheet-04.jpg"
+    },
+    {
+      "frame": 4983,
+      "mae_to_post_snap_header": 0.04429012345679012,
+      "evidence": "review/hud-flag-evidence/sheet-04.jpg"
+    },
+    {
+      "frame": 4984,
+      "mae_to_post_snap_header": 0.04666666666666667,
+      "evidence": "review/hud-flag-evidence/sheet-04.jpg"
+    },
+    {
+      "frame": 4985,
+      "mae_to_post_snap_header": 0.05393518518518518,
+      "evidence": "review/hud-flag-evidence/sheet-04.jpg"
+    },
+    {
+      "frame": 4986,
+      "mae_to_post_snap_header": 0.04666666666666667,
+      "evidence": "review/hud-flag-evidence/sheet-04.jpg"
+    },
+    {
+      "frame": 4987,
+      "mae_to_post_snap_header": 0.04429012345679012,
+      "evidence": "review/hud-flag-evidence/sheet-04.jpg"
+    },
+    {
+      "frame": 4988,
+      "mae_to_post_snap_header": 0.04666666666666667,
+      "evidence": "review/hud-flag-evidence/sheet-04.jpg"
+    },
+    {
+      "frame": 4989,
+      "mae_to_post_snap_header": 0.053703703703703705,
+      "evidence": "review/hud-flag-evidence/sheet-04.jpg"
+    },
+    {
+      "frame": 4990,
+      "mae_to_post_snap_header": 0.04666666666666667,
+      "evidence": "review/hud-flag-evidence/sheet-04.jpg"
+    },
+    {
+      "frame": 4991,
+      "mae_to_post_snap_header": 0.04429012345679012,
+      "evidence": "review/hud-flag-evidence/sheet-04.jpg"
+    },
+    {
+      "frame": 4992,
+      "mae_to_post_snap_header": 0.04666666666666667,
+      "evidence": "review/hud-flag-evidence/sheet-04.jpg"
+    },
+    {
+      "frame": 4993,
+      "mae_to_post_snap_header": 0.05393518518518518,
+      "evidence": "review/hud-flag-evidence/sheet-04.jpg"
+    },
+    {
+      "frame": 4994,
+      "mae_to_post_snap_header": 0.04666666666666667,
+      "evidence": "review/hud-flag-evidence/sheet-04.jpg"
+    },
+    {
+      "frame": 4995,
+      "mae_to_post_snap_header": 0.04429012345679012,
+      "evidence": "review/hud-flag-evidence/sheet-04.jpg"
+    },
+    {
+      "frame": 4996,
+      "mae_to_post_snap_header": 0.04666666666666667,
+      "evidence": "review/hud-flag-evidence/sheet-04.jpg"
+    },
+    {
+      "frame": 4997,
+      "mae_to_post_snap_header": 0.053703703703703705,
+      "evidence": "review/hud-flag-evidence/sheet-04.jpg"
+    },
+    {
+      "frame": 4998,
+      "mae_to_post_snap_header": 0.04666666666666667,
+      "evidence": "review/hud-flag-evidence/sheet-04.jpg"
+    },
+    {
+      "frame": 4999,
+      "mae_to_post_snap_header": 0.04429012345679012,
+      "evidence": "review/hud-flag-evidence/sheet-04.jpg"
+    },
+    {
+      "frame": 5000,
+      "mae_to_post_snap_header": 0.3222530864197531,
+      "evidence": "review/hud-flag-evidence/sheet-04.jpg"
+    },
+    {
+      "frame": 5001,
+      "mae_to_post_snap_header": 0.3212962962962963,
+      "evidence": "review/hud-flag-evidence/sheet-04.jpg"
+    },
+    {
+      "frame": 5002,
+      "mae_to_post_snap_header": 0.32070987654320987,
+      "evidence": "review/hud-flag-evidence/sheet-04.jpg"
+    },
+    {
+      "frame": 5003,
+      "mae_to_post_snap_header": 0.3207407407407407,
+      "evidence": "review/hud-flag-evidence/sheet-04.jpg"
+    },
+    {
+      "frame": 5004,
+      "mae_to_post_snap_header": 0.3215123456790123,
+      "evidence": "review/hud-flag-evidence/sheet-04.jpg"
+    },
+    {
+      "frame": 5005,
+      "mae_to_post_snap_header": 0.3215432098765432,
+      "evidence": "review/hud-flag-evidence/sheet-04.jpg"
+    },
+    {
+      "frame": 5006,
+      "mae_to_post_snap_header": 0.3215277777777778,
+      "evidence": "review/hud-flag-evidence/sheet-04.jpg"
+    },
+    {
+      "frame": 5007,
+      "mae_to_post_snap_header": 0.3215432098765432,
+      "evidence": "review/hud-flag-evidence/sheet-04.jpg"
+    },
+    {
+      "frame": 5008,
+      "mae_to_post_snap_header": 0.322037037037037,
+      "evidence": "review/hud-flag-evidence/sheet-04.jpg"
+    },
+    {
+      "frame": 5009,
+      "mae_to_post_snap_header": 0.3214814814814815,
+      "evidence": "review/hud-flag-evidence/sheet-04.jpg"
+    },
+    {
+      "frame": 5010,
+      "mae_to_post_snap_header": 0.32146604938271606,
+      "evidence": "review/hud-flag-evidence/sheet-05.jpg"
+    },
+    {
+      "frame": 5011,
+      "mae_to_post_snap_header": 0.3214814814814815,
+      "evidence": "review/hud-flag-evidence/sheet-05.jpg"
+    },
+    {
+      "frame": 5012,
+      "mae_to_post_snap_header": 0.32219135802469134,
+      "evidence": "review/hud-flag-evidence/sheet-05.jpg"
+    },
+    {
+      "frame": 5013,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-05.jpg"
+    },
+    {
+      "frame": 5014,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-05.jpg"
+    },
+    {
+      "frame": 5015,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-05.jpg"
+    },
+    {
+      "frame": 5016,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-05.jpg"
+    },
+    {
+      "frame": 5017,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-05.jpg"
+    },
+    {
+      "frame": 5018,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-05.jpg"
+    },
+    {
+      "frame": 5019,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-05.jpg"
+    },
+    {
+      "frame": 5020,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-05.jpg"
+    },
+    {
+      "frame": 5021,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-05.jpg"
+    },
+    {
+      "frame": 5022,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-05.jpg"
+    },
+    {
+      "frame": 5023,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-05.jpg"
+    },
+    {
+      "frame": 5024,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-05.jpg"
+    },
+    {
+      "frame": 5025,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-05.jpg"
+    },
+    {
+      "frame": 5026,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-05.jpg"
+    },
+    {
+      "frame": 5027,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-05.jpg"
+    },
+    {
+      "frame": 5028,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-05.jpg"
+    },
+    {
+      "frame": 5029,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-05.jpg"
+    },
+    {
+      "frame": 5030,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-05.jpg"
+    },
+    {
+      "frame": 5031,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-05.jpg"
+    },
+    {
+      "frame": 5032,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-05.jpg"
+    },
+    {
+      "frame": 5033,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-05.jpg"
+    },
+    {
+      "frame": 5034,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-05.jpg"
+    },
+    {
+      "frame": 5035,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-05.jpg"
+    },
+    {
+      "frame": 5036,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-05.jpg"
+    },
+    {
+      "frame": 5037,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-05.jpg"
+    },
+    {
+      "frame": 5038,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-05.jpg"
+    },
+    {
+      "frame": 5039,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-05.jpg"
+    },
+    {
+      "frame": 5040,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-06.jpg"
+    },
+    {
+      "frame": 5041,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-06.jpg"
+    },
+    {
+      "frame": 5042,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-06.jpg"
+    },
+    {
+      "frame": 5043,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-06.jpg"
+    },
+    {
+      "frame": 5044,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-06.jpg"
+    },
+    {
+      "frame": 5045,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-06.jpg"
+    },
+    {
+      "frame": 5046,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-06.jpg"
+    },
+    {
+      "frame": 5047,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-06.jpg"
+    },
+    {
+      "frame": 5048,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-06.jpg"
+    },
+    {
+      "frame": 5049,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-06.jpg"
+    },
+    {
+      "frame": 5050,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-06.jpg"
+    },
+    {
+      "frame": 5051,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-06.jpg"
+    },
+    {
+      "frame": 5052,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-06.jpg"
+    },
+    {
+      "frame": 5053,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-06.jpg"
+    },
+    {
+      "frame": 5054,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-06.jpg"
+    },
+    {
+      "frame": 5055,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-06.jpg"
+    },
+    {
+      "frame": 5056,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-06.jpg"
+    },
+    {
+      "frame": 5057,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-06.jpg"
+    },
+    {
+      "frame": 5058,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-06.jpg"
+    },
+    {
+      "frame": 5059,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-06.jpg"
+    },
+    {
+      "frame": 5060,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-06.jpg"
+    },
+    {
+      "frame": 5061,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-06.jpg"
+    },
+    {
+      "frame": 5062,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-06.jpg"
+    },
+    {
+      "frame": 5063,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-06.jpg"
+    },
+    {
+      "frame": 5064,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-06.jpg"
+    },
+    {
+      "frame": 5065,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-06.jpg"
+    },
+    {
+      "frame": 5066,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-06.jpg"
+    },
+    {
+      "frame": 5067,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-06.jpg"
+    },
+    {
+      "frame": 5068,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-06.jpg"
+    },
+    {
+      "frame": 5069,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-06.jpg"
+    },
+    {
+      "frame": 5070,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-07.jpg"
+    },
+    {
+      "frame": 5071,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-07.jpg"
+    },
+    {
+      "frame": 5072,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-07.jpg"
+    },
+    {
+      "frame": 5073,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-07.jpg"
+    },
+    {
+      "frame": 5074,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-07.jpg"
+    },
+    {
+      "frame": 5075,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-07.jpg"
+    },
+    {
+      "frame": 5076,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-07.jpg"
+    },
+    {
+      "frame": 5077,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-07.jpg"
+    },
+    {
+      "frame": 5078,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-07.jpg"
+    },
+    {
+      "frame": 5079,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-07.jpg"
+    },
+    {
+      "frame": 5080,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-07.jpg"
+    },
+    {
+      "frame": 5081,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-07.jpg"
+    },
+    {
+      "frame": 5082,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-07.jpg"
+    },
+    {
+      "frame": 5083,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-07.jpg"
+    },
+    {
+      "frame": 5084,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-07.jpg"
+    },
+    {
+      "frame": 5085,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-07.jpg"
+    },
+    {
+      "frame": 5086,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-07.jpg"
+    },
+    {
+      "frame": 5087,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-07.jpg"
+    },
+    {
+      "frame": 5088,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-07.jpg"
+    },
+    {
+      "frame": 5089,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-07.jpg"
+    },
+    {
+      "frame": 5090,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-07.jpg"
+    },
+    {
+      "frame": 5091,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-07.jpg"
+    },
+    {
+      "frame": 5092,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-07.jpg"
+    },
+    {
+      "frame": 5093,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-07.jpg"
+    },
+    {
+      "frame": 5094,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-07.jpg"
+    },
+    {
+      "frame": 5095,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-07.jpg"
+    },
+    {
+      "frame": 5096,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-07.jpg"
+    },
+    {
+      "frame": 5097,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-07.jpg"
+    },
+    {
+      "frame": 5098,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-07.jpg"
+    },
+    {
+      "frame": 5099,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-07.jpg"
+    },
+    {
+      "frame": 5100,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-08.jpg"
+    },
+    {
+      "frame": 5101,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-08.jpg"
+    },
+    {
+      "frame": 5102,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-08.jpg"
+    },
+    {
+      "frame": 5103,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-08.jpg"
+    },
+    {
+      "frame": 5104,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-08.jpg"
+    },
+    {
+      "frame": 5105,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-08.jpg"
+    },
+    {
+      "frame": 5106,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-08.jpg"
+    },
+    {
+      "frame": 5107,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-08.jpg"
+    },
+    {
+      "frame": 5108,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-08.jpg"
+    },
+    {
+      "frame": 5109,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-08.jpg"
+    },
+    {
+      "frame": 5110,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-08.jpg"
+    },
+    {
+      "frame": 5111,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-08.jpg"
+    },
+    {
+      "frame": 5112,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-08.jpg"
+    },
+    {
+      "frame": 5113,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-08.jpg"
+    },
+    {
+      "frame": 5114,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-08.jpg"
+    },
+    {
+      "frame": 5115,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-08.jpg"
+    },
+    {
+      "frame": 5116,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-08.jpg"
+    },
+    {
+      "frame": 5117,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-08.jpg"
+    },
+    {
+      "frame": 5118,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-08.jpg"
+    },
+    {
+      "frame": 5119,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-08.jpg"
+    },
+    {
+      "frame": 5120,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-08.jpg"
+    },
+    {
+      "frame": 5121,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-08.jpg"
+    },
+    {
+      "frame": 5122,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-08.jpg"
+    },
+    {
+      "frame": 5123,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-08.jpg"
+    },
+    {
+      "frame": 5124,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-08.jpg"
+    },
+    {
+      "frame": 5125,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-08.jpg"
+    },
+    {
+      "frame": 5126,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-08.jpg"
+    },
+    {
+      "frame": 5127,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-08.jpg"
+    },
+    {
+      "frame": 5128,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-08.jpg"
+    },
+    {
+      "frame": 5129,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-08.jpg"
+    },
+    {
+      "frame": 5130,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-09.jpg"
+    },
+    {
+      "frame": 5131,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-09.jpg"
+    },
+    {
+      "frame": 5132,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-09.jpg"
+    },
+    {
+      "frame": 5133,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-09.jpg"
+    },
+    {
+      "frame": 5134,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-09.jpg"
+    },
+    {
+      "frame": 5135,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-09.jpg"
+    },
+    {
+      "frame": 5136,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-09.jpg"
+    },
+    {
+      "frame": 5137,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-09.jpg"
+    },
+    {
+      "frame": 5138,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-09.jpg"
+    },
+    {
+      "frame": 5139,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-09.jpg"
+    },
+    {
+      "frame": 5140,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-09.jpg"
+    },
+    {
+      "frame": 5141,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-09.jpg"
+    },
+    {
+      "frame": 5142,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-09.jpg"
+    },
+    {
+      "frame": 5143,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-09.jpg"
+    },
+    {
+      "frame": 5144,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-09.jpg"
+    },
+    {
+      "frame": 5145,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-09.jpg"
+    },
+    {
+      "frame": 5146,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-09.jpg"
+    },
+    {
+      "frame": 5147,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-09.jpg"
+    },
+    {
+      "frame": 5148,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-09.jpg"
+    },
+    {
+      "frame": 5149,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-09.jpg"
+    },
+    {
+      "frame": 5150,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-09.jpg"
+    },
+    {
+      "frame": 5151,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-09.jpg"
+    },
+    {
+      "frame": 5152,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-09.jpg"
+    },
+    {
+      "frame": 5153,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-09.jpg"
+    },
+    {
+      "frame": 5154,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-09.jpg"
+    },
+    {
+      "frame": 5155,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-09.jpg"
+    },
+    {
+      "frame": 5156,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-09.jpg"
+    },
+    {
+      "frame": 5157,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-09.jpg"
+    },
+    {
+      "frame": 5158,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-09.jpg"
+    },
+    {
+      "frame": 5159,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-09.jpg"
+    },
+    {
+      "frame": 5160,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-10.jpg"
+    },
+    {
+      "frame": 5161,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-10.jpg"
+    },
+    {
+      "frame": 5162,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-10.jpg"
+    },
+    {
+      "frame": 5163,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-10.jpg"
+    },
+    {
+      "frame": 5164,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-10.jpg"
+    },
+    {
+      "frame": 5165,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-10.jpg"
+    },
+    {
+      "frame": 5166,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-10.jpg"
+    },
+    {
+      "frame": 5167,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-10.jpg"
+    },
+    {
+      "frame": 5168,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-10.jpg"
+    },
+    {
+      "frame": 5169,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-10.jpg"
+    },
+    {
+      "frame": 5170,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-10.jpg"
+    },
+    {
+      "frame": 5171,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-10.jpg"
+    },
+    {
+      "frame": 5172,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-10.jpg"
+    },
+    {
+      "frame": 5173,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-10.jpg"
+    },
+    {
+      "frame": 5174,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-10.jpg"
+    },
+    {
+      "frame": 5175,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-10.jpg"
+    },
+    {
+      "frame": 5176,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-10.jpg"
+    },
+    {
+      "frame": 5177,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-10.jpg"
+    },
+    {
+      "frame": 5178,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-10.jpg"
+    },
+    {
+      "frame": 5179,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-10.jpg"
+    },
+    {
+      "frame": 5180,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-10.jpg"
+    },
+    {
+      "frame": 5181,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-10.jpg"
+    },
+    {
+      "frame": 5182,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-10.jpg"
+    },
+    {
+      "frame": 5183,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-10.jpg"
+    },
+    {
+      "frame": 5184,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-10.jpg"
+    },
+    {
+      "frame": 5185,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-10.jpg"
+    },
+    {
+      "frame": 5186,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-10.jpg"
+    },
+    {
+      "frame": 5187,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-10.jpg"
+    },
+    {
+      "frame": 5188,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-10.jpg"
+    },
+    {
+      "frame": 5189,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-10.jpg"
+    },
+    {
+      "frame": 5190,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-11.jpg"
+    },
+    {
+      "frame": 5191,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-11.jpg"
+    },
+    {
+      "frame": 5192,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-11.jpg"
+    },
+    {
+      "frame": 5193,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-11.jpg"
+    },
+    {
+      "frame": 5194,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-11.jpg"
+    },
+    {
+      "frame": 5195,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-11.jpg"
+    },
+    {
+      "frame": 5196,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-11.jpg"
+    },
+    {
+      "frame": 5197,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-11.jpg"
+    },
+    {
+      "frame": 5198,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-11.jpg"
+    },
+    {
+      "frame": 5199,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-11.jpg"
+    },
+    {
+      "frame": 5200,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-11.jpg"
+    },
+    {
+      "frame": 5201,
+      "mae_to_post_snap_header": 0.3232253086419753,
+      "evidence": "review/hud-flag-evidence/sheet-11.jpg"
+    },
+    {
+      "frame": 5202,
+      "mae_to_post_snap_header": 0.32091049382716047,
+      "evidence": "review/hud-flag-evidence/sheet-11.jpg"
+    },
+    {
+      "frame": 5203,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-11.jpg"
+    },
+    {
+      "frame": 5204,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-11.jpg"
+    },
+    {
+      "frame": 5205,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-11.jpg"
+    },
+    {
+      "frame": 5206,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-11.jpg"
+    },
+    {
+      "frame": 5207,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-11.jpg"
+    },
+    {
+      "frame": 5208,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-11.jpg"
+    },
+    {
+      "frame": 5209,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-11.jpg"
+    },
+    {
+      "frame": 5210,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-11.jpg"
+    },
+    {
+      "frame": 5211,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-11.jpg"
+    },
+    {
+      "frame": 5212,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-11.jpg"
+    },
+    {
+      "frame": 5213,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-11.jpg"
+    },
+    {
+      "frame": 5214,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-11.jpg"
+    },
+    {
+      "frame": 5215,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-11.jpg"
+    },
+    {
+      "frame": 5216,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-11.jpg"
+    },
+    {
+      "frame": 5217,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-11.jpg"
+    },
+    {
+      "frame": 5218,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-11.jpg"
+    },
+    {
+      "frame": 5219,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-11.jpg"
+    },
+    {
+      "frame": 5220,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-12.jpg"
+    },
+    {
+      "frame": 5221,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-12.jpg"
+    },
+    {
+      "frame": 5222,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-12.jpg"
+    },
+    {
+      "frame": 5223,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-12.jpg"
+    },
+    {
+      "frame": 5224,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-12.jpg"
+    },
+    {
+      "frame": 5225,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-12.jpg"
+    },
+    {
+      "frame": 5226,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-12.jpg"
+    },
+    {
+      "frame": 5227,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-12.jpg"
+    },
+    {
+      "frame": 5228,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-12.jpg"
+    },
+    {
+      "frame": 5229,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-12.jpg"
+    },
+    {
+      "frame": 5230,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-12.jpg"
+    },
+    {
+      "frame": 5231,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-12.jpg"
+    },
+    {
+      "frame": 5232,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-12.jpg"
+    },
+    {
+      "frame": 5233,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-12.jpg"
+    },
+    {
+      "frame": 5234,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-12.jpg"
+    },
+    {
+      "frame": 5235,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-12.jpg"
+    },
+    {
+      "frame": 5236,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-12.jpg"
+    },
+    {
+      "frame": 5237,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-12.jpg"
+    },
+    {
+      "frame": 5238,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-12.jpg"
+    },
+    {
+      "frame": 5239,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-12.jpg"
+    },
+    {
+      "frame": 5240,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-12.jpg"
+    },
+    {
+      "frame": 5241,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-12.jpg"
+    },
+    {
+      "frame": 5242,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-12.jpg"
+    },
+    {
+      "frame": 5243,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-12.jpg"
+    },
+    {
+      "frame": 5244,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-12.jpg"
+    },
+    {
+      "frame": 5245,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-12.jpg"
+    },
+    {
+      "frame": 5246,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-12.jpg"
+    },
+    {
+      "frame": 5247,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-12.jpg"
+    },
+    {
+      "frame": 5248,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-12.jpg"
+    },
+    {
+      "frame": 5249,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-12.jpg"
+    },
+    {
+      "frame": 5250,
+      "mae_to_post_snap_header": 0.3222530864197531,
+      "evidence": "review/hud-flag-evidence/sheet-13.jpg"
+    },
+    {
+      "frame": 5251,
+      "mae_to_post_snap_header": 0.3212962962962963,
+      "evidence": "review/hud-flag-evidence/sheet-13.jpg"
+    },
+    {
+      "frame": 5252,
+      "mae_to_post_snap_header": 0.32070987654320987,
+      "evidence": "review/hud-flag-evidence/sheet-13.jpg"
+    },
+    {
+      "frame": 5253,
+      "mae_to_post_snap_header": 0.3207407407407407,
+      "evidence": "review/hud-flag-evidence/sheet-13.jpg"
+    },
+    {
+      "frame": 5254,
+      "mae_to_post_snap_header": 0.3215123456790123,
+      "evidence": "review/hud-flag-evidence/sheet-13.jpg"
+    },
+    {
+      "frame": 5255,
+      "mae_to_post_snap_header": 0.3215432098765432,
+      "evidence": "review/hud-flag-evidence/sheet-13.jpg"
+    },
+    {
+      "frame": 5256,
+      "mae_to_post_snap_header": 0.3215277777777778,
+      "evidence": "review/hud-flag-evidence/sheet-13.jpg"
+    },
+    {
+      "frame": 5257,
+      "mae_to_post_snap_header": 0.3215432098765432,
+      "evidence": "review/hud-flag-evidence/sheet-13.jpg"
+    },
+    {
+      "frame": 5258,
+      "mae_to_post_snap_header": 0.322037037037037,
+      "evidence": "review/hud-flag-evidence/sheet-13.jpg"
+    },
+    {
+      "frame": 5259,
+      "mae_to_post_snap_header": 0.3214814814814815,
+      "evidence": "review/hud-flag-evidence/sheet-13.jpg"
+    },
+    {
+      "frame": 5260,
+      "mae_to_post_snap_header": 0.32146604938271606,
+      "evidence": "review/hud-flag-evidence/sheet-13.jpg"
+    },
+    {
+      "frame": 5261,
+      "mae_to_post_snap_header": 0.3214814814814815,
+      "evidence": "review/hud-flag-evidence/sheet-13.jpg"
+    },
+    {
+      "frame": 5262,
+      "mae_to_post_snap_header": 0.32219135802469134,
+      "evidence": "review/hud-flag-evidence/sheet-13.jpg"
+    },
+    {
+      "frame": 5263,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-13.jpg"
+    },
+    {
+      "frame": 5264,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-13.jpg"
+    },
+    {
+      "frame": 5265,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-13.jpg"
+    },
+    {
+      "frame": 5266,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-13.jpg"
+    },
+    {
+      "frame": 5267,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-13.jpg"
+    },
+    {
+      "frame": 5268,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-13.jpg"
+    },
+    {
+      "frame": 5269,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-13.jpg"
+    },
+    {
+      "frame": 5270,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-13.jpg"
+    },
+    {
+      "frame": 5271,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-13.jpg"
+    },
+    {
+      "frame": 5272,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-13.jpg"
+    },
+    {
+      "frame": 5273,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-13.jpg"
+    },
+    {
+      "frame": 5274,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-13.jpg"
+    },
+    {
+      "frame": 5275,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-13.jpg"
+    },
+    {
+      "frame": 5276,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-13.jpg"
+    },
+    {
+      "frame": 5277,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-13.jpg"
+    },
+    {
+      "frame": 5278,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-13.jpg"
+    },
+    {
+      "frame": 5279,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-13.jpg"
+    },
+    {
+      "frame": 5280,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-14.jpg"
+    },
+    {
+      "frame": 5281,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-14.jpg"
+    },
+    {
+      "frame": 5282,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-14.jpg"
+    },
+    {
+      "frame": 5283,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-14.jpg"
+    },
+    {
+      "frame": 5284,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-14.jpg"
+    },
+    {
+      "frame": 5285,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-14.jpg"
+    },
+    {
+      "frame": 5286,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-14.jpg"
+    },
+    {
+      "frame": 5287,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-14.jpg"
+    },
+    {
+      "frame": 5288,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-14.jpg"
+    },
+    {
+      "frame": 5289,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-14.jpg"
+    },
+    {
+      "frame": 5290,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-14.jpg"
+    },
+    {
+      "frame": 5291,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-14.jpg"
+    },
+    {
+      "frame": 5292,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-14.jpg"
+    },
+    {
+      "frame": 5293,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-14.jpg"
+    },
+    {
+      "frame": 5294,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-14.jpg"
+    },
+    {
+      "frame": 5295,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-14.jpg"
+    },
+    {
+      "frame": 5296,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-14.jpg"
+    },
+    {
+      "frame": 5297,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-14.jpg"
+    },
+    {
+      "frame": 5298,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-14.jpg"
+    },
+    {
+      "frame": 5299,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-14.jpg"
+    },
+    {
+      "frame": 5300,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-14.jpg"
+    },
+    {
+      "frame": 5301,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-14.jpg"
+    },
+    {
+      "frame": 5302,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-14.jpg"
+    },
+    {
+      "frame": 5303,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-14.jpg"
+    },
+    {
+      "frame": 5304,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-14.jpg"
+    },
+    {
+      "frame": 5305,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-14.jpg"
+    },
+    {
+      "frame": 5306,
+      "mae_to_post_snap_header": 0.32209876543209875,
+      "evidence": "review/hud-flag-evidence/sheet-14.jpg"
+    },
+    {
+      "frame": 5307,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-14.jpg"
+    },
+    {
+      "frame": 5308,
+      "mae_to_post_snap_header": 0.3215895061728395,
+      "evidence": "review/hud-flag-evidence/sheet-14.jpg"
+    },
+    {
+      "frame": 5309,
+      "mae_to_post_snap_header": 0.3216049382716049,
+      "evidence": "review/hud-flag-evidence/sheet-14.jpg"
+    },
+    {
+      "frame": 5310,
+      "mae_to_post_snap_header": 0.32141975308641973,
+      "evidence": "review/hud-flag-evidence/sheet-15.jpg"
+    },
+    {
+      "frame": 5311,
+      "mae_to_post_snap_header": 0.32137345679012347,
+      "evidence": "review/hud-flag-evidence/sheet-15.jpg"
+    },
+    {
+      "frame": 5312,
+      "mae_to_post_snap_header": 0.32135802469135805,
+      "evidence": "review/hud-flag-evidence/sheet-15.jpg"
+    },
+    {
+      "frame": 5313,
+      "mae_to_post_snap_header": 0.32137345679012347,
+      "evidence": "review/hud-flag-evidence/sheet-15.jpg"
+    },
+    {
+      "frame": 5314,
+      "mae_to_post_snap_header": 0.3211882716049383,
+      "evidence": "review/hud-flag-evidence/sheet-15.jpg"
+    },
+    {
+      "frame": 5315,
+      "mae_to_post_snap_header": 0.32137345679012347,
+      "evidence": "review/hud-flag-evidence/sheet-15.jpg"
+    },
+    {
+      "frame": 5316,
+      "mae_to_post_snap_header": 0.32135802469135805,
+      "evidence": "review/hud-flag-evidence/sheet-15.jpg"
+    },
+    {
+      "frame": 5317,
+      "mae_to_post_snap_header": 0.32137345679012347,
+      "evidence": "review/hud-flag-evidence/sheet-15.jpg"
+    },
+    {
+      "frame": 5318,
+      "mae_to_post_snap_header": 0.32155864197530865,
+      "evidence": "review/hud-flag-evidence/sheet-15.jpg"
+    },
+    {
+      "frame": 5319,
+      "mae_to_post_snap_header": 0.32125,
+      "evidence": "review/hud-flag-evidence/sheet-15.jpg"
+    },
+    {
+      "frame": 5320,
+      "mae_to_post_snap_header": 0.32123456790123456,
+      "evidence": "review/hud-flag-evidence/sheet-15.jpg"
+    },
+    {
+      "frame": 5321,
+      "mae_to_post_snap_header": 0.32125,
+      "evidence": "review/hud-flag-evidence/sheet-15.jpg"
+    },
+    {
+      "frame": 5322,
+      "mae_to_post_snap_header": 0.3214351851851852,
+      "evidence": "review/hud-flag-evidence/sheet-15.jpg"
+    },
+    {
+      "frame": 5323,
+      "mae_to_post_snap_header": 0.32125,
+      "evidence": "review/hud-flag-evidence/sheet-15.jpg"
+    },
+    {
+      "frame": 5324,
+      "mae_to_post_snap_header": 0.32123456790123456,
+      "evidence": "review/hud-flag-evidence/sheet-15.jpg"
+    },
+    {
+      "frame": 5325,
+      "mae_to_post_snap_header": 0.32125,
+      "evidence": "review/hud-flag-evidence/sheet-15.jpg"
+    },
+    {
+      "frame": 5326,
+      "mae_to_post_snap_header": 0.3214351851851852,
+      "evidence": "review/hud-flag-evidence/sheet-15.jpg"
+    },
+    {
+      "frame": 5327,
+      "mae_to_post_snap_header": 0.321929012345679,
+      "evidence": "review/hud-flag-evidence/sheet-15.jpg"
+    },
+    {
+      "frame": 5328,
+      "mae_to_post_snap_header": 0.3230401234567901,
+      "evidence": "review/hud-flag-evidence/sheet-15.jpg"
+    },
+    {
+      "frame": 5329,
+      "mae_to_post_snap_header": 0.3225462962962963,
+      "evidence": "review/hud-flag-evidence/sheet-15.jpg"
+    },
+    {
+      "frame": 5330,
+      "mae_to_post_snap_header": 0.3237654320987654,
+      "evidence": "review/hud-flag-evidence/sheet-15.jpg"
+    },
+    {
+      "frame": 5331,
+      "mae_to_post_snap_header": 0.32251543209876543,
+      "evidence": "review/hud-flag-evidence/sheet-15.jpg"
+    },
+    {
+      "frame": 5332,
+      "mae_to_post_snap_header": 0.32348765432098764,
+      "evidence": "review/hud-flag-evidence/sheet-15.jpg"
+    },
+    {
+      "frame": 5333,
+      "mae_to_post_snap_header": 0.32251543209876543,
+      "evidence": "review/hud-flag-evidence/sheet-15.jpg"
+    },
+    {
+      "frame": 5334,
+      "mae_to_post_snap_header": 0.32146604938271606,
+      "evidence": "review/hud-flag-evidence/sheet-15.jpg"
+    },
+    {
+      "frame": 5335,
+      "mae_to_post_snap_header": 0.32165123456790123,
+      "evidence": "review/hud-flag-evidence/sheet-15.jpg"
+    },
+    {
+      "frame": 5336,
+      "mae_to_post_snap_header": 0.3216358024691358,
+      "evidence": "review/hud-flag-evidence/sheet-15.jpg"
+    },
+    {
+      "frame": 5337,
+      "mae_to_post_snap_header": 0.32165123456790123,
+      "evidence": "review/hud-flag-evidence/sheet-15.jpg"
+    },
+    {
+      "frame": 5338,
+      "mae_to_post_snap_header": 0.32146604938271606,
+      "evidence": "review/hud-flag-evidence/sheet-15.jpg"
+    },
+    {
+      "frame": 5339,
+      "mae_to_post_snap_header": 0.32165123456790123,
+      "evidence": "review/hud-flag-evidence/sheet-15.jpg"
+    },
+    {
+      "frame": 5340,
+      "mae_to_post_snap_header": 0.3216358024691358,
+      "evidence": "review/hud-flag-evidence/sheet-16.jpg"
+    },
+    {
+      "frame": 5341,
+      "mae_to_post_snap_header": 0.32165123456790123,
+      "evidence": "review/hud-flag-evidence/sheet-16.jpg"
+    },
+    {
+      "frame": 5342,
+      "mae_to_post_snap_header": 0.32146604938271606,
+      "evidence": "review/hud-flag-evidence/sheet-16.jpg"
+    },
+    {
+      "frame": 5343,
+      "mae_to_post_snap_header": 0.32165123456790123,
+      "evidence": "review/hud-flag-evidence/sheet-16.jpg"
+    },
+    {
+      "frame": 5344,
+      "mae_to_post_snap_header": 0.3216358024691358,
+      "evidence": "review/hud-flag-evidence/sheet-16.jpg"
+    },
+    {
+      "frame": 5345,
+      "mae_to_post_snap_header": 0.32165123456790123,
+      "evidence": "review/hud-flag-evidence/sheet-16.jpg"
+    },
+    {
+      "frame": 5346,
+      "mae_to_post_snap_header": 0.32146604938271606,
+      "evidence": "review/hud-flag-evidence/sheet-16.jpg"
+    },
+    {
+      "frame": 5347,
+      "mae_to_post_snap_header": 0.32165123456790123,
+      "evidence": "review/hud-flag-evidence/sheet-16.jpg"
+    },
+    {
+      "frame": 5348,
+      "mae_to_post_snap_header": 0.3216358024691358,
+      "evidence": "review/hud-flag-evidence/sheet-16.jpg"
+    },
+    {
+      "frame": 5349,
+      "mae_to_post_snap_header": 0.32165123456790123,
+      "evidence": "review/hud-flag-evidence/sheet-16.jpg"
+    },
+    {
+      "frame": 5350,
+      "mae_to_post_snap_header": 0.32146604938271606,
+      "evidence": "review/hud-flag-evidence/sheet-16.jpg"
+    },
+    {
+      "frame": 5351,
+      "mae_to_post_snap_header": 0.32165123456790123,
+      "evidence": "review/hud-flag-evidence/sheet-16.jpg"
+    },
+    {
+      "frame": 5352,
+      "mae_to_post_snap_header": 0.3216358024691358,
+      "evidence": "review/hud-flag-evidence/sheet-16.jpg"
+    },
+    {
+      "frame": 5353,
+      "mae_to_post_snap_header": 0.32165123456790123,
+      "evidence": "review/hud-flag-evidence/sheet-16.jpg"
+    },
+    {
+      "frame": 5354,
+      "mae_to_post_snap_header": 0.32146604938271606,
+      "evidence": "review/hud-flag-evidence/sheet-16.jpg"
+    },
+    {
+      "frame": 5355,
+      "mae_to_post_snap_header": 0.32165123456790123,
+      "evidence": "review/hud-flag-evidence/sheet-16.jpg"
+    },
+    {
+      "frame": 5356,
+      "mae_to_post_snap_header": 0.3216358024691358,
+      "evidence": "review/hud-flag-evidence/sheet-16.jpg"
+    },
+    {
+      "frame": 5357,
+      "mae_to_post_snap_header": 0.32165123456790123,
+      "evidence": "review/hud-flag-evidence/sheet-16.jpg"
+    },
+    {
+      "frame": 5358,
+      "mae_to_post_snap_header": 0.32146604938271606,
+      "evidence": "review/hud-flag-evidence/sheet-16.jpg"
+    },
+    {
+      "frame": 5359,
+      "mae_to_post_snap_header": 0.32165123456790123,
+      "evidence": "review/hud-flag-evidence/sheet-16.jpg"
+    },
+    {
+      "frame": 5360,
+      "mae_to_post_snap_header": 0.3216358024691358,
+      "evidence": "review/hud-flag-evidence/sheet-16.jpg"
+    },
+    {
+      "frame": 5361,
+      "mae_to_post_snap_header": 0.32165123456790123,
+      "evidence": "review/hud-flag-evidence/sheet-16.jpg"
+    },
+    {
+      "frame": 5362,
+      "mae_to_post_snap_header": 0.32146604938271606,
+      "evidence": "review/hud-flag-evidence/sheet-16.jpg"
+    },
+    {
+      "frame": 5363,
+      "mae_to_post_snap_header": 0.32165123456790123,
+      "evidence": "review/hud-flag-evidence/sheet-16.jpg"
+    },
+    {
+      "frame": 5364,
+      "mae_to_post_snap_header": 0.3216358024691358,
+      "evidence": "review/hud-flag-evidence/sheet-16.jpg"
+    },
+    {
+      "frame": 5365,
+      "mae_to_post_snap_header": 0.32165123456790123,
+      "evidence": "review/hud-flag-evidence/sheet-16.jpg"
+    },
+    {
+      "frame": 5366,
+      "mae_to_post_snap_header": 0.32146604938271606,
+      "evidence": "review/hud-flag-evidence/sheet-16.jpg"
+    },
+    {
+      "frame": 5367,
+      "mae_to_post_snap_header": 0.32165123456790123,
+      "evidence": "review/hud-flag-evidence/sheet-16.jpg"
+    },
+    {
+      "frame": 5368,
+      "mae_to_post_snap_header": 0.3216358024691358,
+      "evidence": "review/hud-flag-evidence/sheet-16.jpg"
+    },
+    {
+      "frame": 5369,
+      "mae_to_post_snap_header": 0.32165123456790123,
+      "evidence": "review/hud-flag-evidence/sheet-16.jpg"
+    },
+    {
+      "frame": 5370,
+      "mae_to_post_snap_header": 0.32146604938271606,
+      "evidence": "review/hud-flag-evidence/sheet-17.jpg"
+    },
+    {
+      "frame": 5371,
+      "mae_to_post_snap_header": 0.32276234567901235,
+      "evidence": "review/hud-flag-evidence/sheet-17.jpg"
+    },
+    {
+      "frame": 5372,
+      "mae_to_post_snap_header": 0.32274691358024693,
+      "evidence": "review/hud-flag-evidence/sheet-17.jpg"
+    },
+    {
+      "frame": 5373,
+      "mae_to_post_snap_header": 0.32276234567901235,
+      "evidence": "review/hud-flag-evidence/sheet-17.jpg"
+    },
+    {
+      "frame": 5374,
+      "mae_to_post_snap_header": 0.3225771604938272,
+      "evidence": "review/hud-flag-evidence/sheet-17.jpg"
+    },
+    {
+      "frame": 5375,
+      "mae_to_post_snap_header": 0.32276234567901235,
+      "evidence": "review/hud-flag-evidence/sheet-17.jpg"
+    },
+    {
+      "frame": 5376,
+      "mae_to_post_snap_header": 0.32959876543209876,
+      "evidence": "review/hud-flag-evidence/sheet-17.jpg"
+    },
+    {
+      "frame": 5377,
+      "mae_to_post_snap_header": 0.32276234567901235,
+      "evidence": "review/hud-flag-evidence/sheet-17.jpg"
+    },
+    {
+      "frame": 5378,
+      "mae_to_post_snap_header": 0.3225925925925926,
+      "evidence": "review/hud-flag-evidence/sheet-17.jpg"
+    },
+    {
+      "frame": 5379,
+      "mae_to_post_snap_header": 0.3227777777777778,
+      "evidence": "review/hud-flag-evidence/sheet-17.jpg"
+    },
+    {
+      "frame": 5380,
+      "mae_to_post_snap_header": 0.32276234567901235,
+      "evidence": "review/hud-flag-evidence/sheet-17.jpg"
+    },
+    {
+      "frame": 5381,
+      "mae_to_post_snap_header": 0.3227777777777778,
+      "evidence": "review/hud-flag-evidence/sheet-17.jpg"
+    },
+    {
+      "frame": 5382,
+      "mae_to_post_snap_header": 0.32101851851851854,
+      "evidence": "review/hud-flag-evidence/sheet-17.jpg"
+    },
+    {
+      "frame": 5383,
+      "mae_to_post_snap_header": 0.3212037037037037,
+      "evidence": "review/hud-flag-evidence/sheet-17.jpg"
+    },
+    {
+      "frame": 5384,
+      "mae_to_post_snap_header": 0.3211882716049383,
+      "evidence": "review/hud-flag-evidence/sheet-17.jpg"
+    },
+    {
+      "frame": 5385,
+      "mae_to_post_snap_header": 0.3212037037037037,
+      "evidence": "review/hud-flag-evidence/sheet-17.jpg"
+    },
+    {
+      "frame": 5386,
+      "mae_to_post_snap_header": 0.3218364197530864,
+      "evidence": "review/hud-flag-evidence/sheet-17.jpg"
+    },
+    {
+      "frame": 5387,
+      "mae_to_post_snap_header": 0.32155864197530865,
+      "evidence": "review/hud-flag-evidence/sheet-17.jpg"
+    },
+    {
+      "frame": 5388,
+      "mae_to_post_snap_header": 0.3215432098765432,
+      "evidence": "review/hud-flag-evidence/sheet-17.jpg"
+    },
+    {
+      "frame": 5389,
+      "mae_to_post_snap_header": 0.32155864197530865,
+      "evidence": "review/hud-flag-evidence/sheet-17.jpg"
+    },
+    {
+      "frame": 5390,
+      "mae_to_post_snap_header": 0.3211574074074074,
+      "evidence": "review/hud-flag-evidence/sheet-17.jpg"
+    },
+    {
+      "frame": 5391,
+      "mae_to_post_snap_header": 0.32098765432098764,
+      "evidence": "review/hud-flag-evidence/sheet-17.jpg"
+    },
+    {
+      "frame": 5392,
+      "mae_to_post_snap_header": 0.3209722222222222,
+      "evidence": "review/hud-flag-evidence/sheet-17.jpg"
+    },
+    {
+      "frame": 5393,
+      "mae_to_post_snap_header": 0.32098765432098764,
+      "evidence": "review/hud-flag-evidence/sheet-17.jpg"
+    },
+    {
+      "frame": 5394,
+      "mae_to_post_snap_header": 0.3211728395061728,
+      "evidence": "review/hud-flag-evidence/sheet-17.jpg"
+    },
+    {
+      "frame": 5395,
+      "mae_to_post_snap_header": 0.3211728395061728,
+      "evidence": "review/hud-flag-evidence/sheet-17.jpg"
+    },
+    {
+      "frame": 5396,
+      "mae_to_post_snap_header": 0.32135802469135805,
+      "evidence": "review/hud-flag-evidence/sheet-17.jpg"
+    },
+    {
+      "frame": 5397,
+      "mae_to_post_snap_header": 0.32135802469135805,
+      "evidence": "review/hud-flag-evidence/sheet-17.jpg"
+    },
+    {
+      "frame": 5398,
+      "mae_to_post_snap_header": 0.32134259259259257,
+      "evidence": "review/hud-flag-evidence/sheet-17.jpg"
+    },
+    {
+      "frame": 5399,
+      "mae_to_post_snap_header": 0.3213888888888889,
+      "evidence": "review/hud-flag-evidence/sheet-17.jpg"
+    }
+  ],
+  "max_header_mae_to_4860": 0.32959876543209876,
+  "source_cause": "Film.tsx sets HUD opacity from1 to0.46 for every frame>=4860; the resulting dim header persists for the entire nine-second ending.",
+  "no_full_frame_jump_or_dark_roi_flags": true,
+  "scope": "Actual encoded HUD crops for every flagged frame; representative full frames and the4860cut are reviewed separately.",
+  "review": "Two independent scoped visual reviews covered every tile in sheets00..17; root checked sheets00/17 and full-scene representative and paired frames."
+}

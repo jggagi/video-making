@@ -1,0 +1,439 @@
+{
+  "version": 1,
+  "settings": {
+    "provider": "Aliyun Bailian",
+    "model_selection": "active profile default",
+    "effective_model": "cosyvoice-v3-flash",
+    "voice": "longtian_v3",
+    "rate": 1.0,
+    "format": "wav",
+    "sample_rate": 24000
+  },
+  "authorization": {
+    "manifest": "project/audio-authorization.json",
+    "sha256AtInvocation": "26c8d0a341ee484349a026103e1127f539711bfd64f3981b462f45c5e9d26daa",
+    "scope": "EP13 S01 through S08 exact prepared tts_phonetic_text",
+    "source": "Standing video-making voiceover authorization in skills/voiceover/SKILL.md (2026-10-20); current EP13 Task Packet"
+  },
+  "segments": {
+    "S01": {
+      "cache_key": "3536c9e91649caa0f19d7940d226767bd26c76f499f58c91253a6914fca678d5",
+      "tts_phonetic_text": "如果十年前，那次让你心碎的告别，在今天，依然像刚发生第一秒那样刺痛，你还能活下去吗？",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 222720,
+      "actual_samples_48k": 445440,
+      "duration_seconds": 9.28,
+      "declared_start_frame": 60,
+      "declared_end_frame": 540,
+      "declared_window_samples": 384000,
+      "cue_start_sample": 37571,
+      "cue_end_sample_exclusive": 483011,
+      "active_onset_offset_samples": 10429,
+      "active_end_offset_samples_exclusive": 435297,
+      "voice_start_sample": 48000,
+      "voice_end_sample": 472868,
+      "active_span_samples": 424868,
+      "fits_complete_cue_window": false,
+      "complete_cue_overrun_samples": 51011,
+      "overlaps_previous_active_speech": [],
+      "fit_reasons": [
+        "complete cue ends 51011 samples beyond the declared window"
+      ],
+      "placement": "complete cue preserved; measured active voice onset aligned to declared start frame",
+      "active_bounds_method": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 76,
+        "windowSamples": 240
+      },
+      "pcm_sha256_24k": "3ee39029db55c5166a214403b2396fb4893c340f25a66643f42943a66d88c1e6",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S01-3536c9e91649.wav",
+      "raw_sha256": "766dec0a8d4bd99ff14301f920f108d38a5aa675ef56ee2210a04c782f71a3f2",
+      "canonical_path": "public/audio/canonical/S01-3536c9e91649.wav",
+      "canonical_sha256": "4735cb86467076d14faffeba0f457512c4bd555b26621560f47b0c06a07632d5",
+      "cue_path": "public/audio/cues/S01-3536c9e91649.wav",
+      "cue_sha256": "fd9077322e34b4c73febb85ba6de3988ca005d40b22d94322513099039fd2569",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S02": {
+      "cache_key": "db8314e82c845b86be98d1bbbafd92b67a7dc69932f9b7c2cb11de237f668578",
+      "tts_phonetic_text": "人类总抱怨，自己记性太差。却不知道，艾宾浩斯遗忘曲线，是进化给碳基生命，最温柔的止痛药。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 199680,
+      "actual_samples_48k": 399360,
+      "duration_seconds": 8.32,
+      "declared_start_frame": 600,
+      "declared_end_frame": 1260,
+      "declared_window_samples": 528000,
+      "cue_start_sample": 469528,
+      "cue_end_sample_exclusive": 868888,
+      "active_onset_offset_samples": 10472,
+      "active_end_offset_samples_exclusive": 389694,
+      "voice_start_sample": 480000,
+      "voice_end_sample": 859222,
+      "active_span_samples": 379222,
+      "fits_complete_cue_window": true,
+      "complete_cue_overrun_samples": 0,
+      "overlaps_previous_active_speech": [],
+      "fit_reasons": [],
+      "placement": "complete cue preserved; measured active voice onset aligned to declared start frame",
+      "active_bounds_method": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 74,
+        "windowSamples": 240
+      },
+      "pcm_sha256_24k": "c439bf4710b2274d4bb20b5cf9e0e0e77c908664f4011fd0adef8d021df05b7e",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S02-db8314e82c84.wav",
+      "raw_sha256": "83b1b650e23131d2a77e47465b7d31bbe900616260c9eb215411a8569a64d321",
+      "canonical_path": "public/audio/canonical/S02-db8314e82c84.wav",
+      "canonical_sha256": "2e4e7ae615edeb9f53481f3435fc555500f16b266dfa38427deeb8f0c063415c",
+      "cue_path": "public/audio/cues/S02-db8314e82c84.wav",
+      "cue_sha256": "f816da5e11fc90d6968a81be75a134f2042bd42e63f65b12bd2d63a4e862ac02",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S03": {
+      "cache_key": "790d978262acf99cd2ed01542069fe3052e48a21c75b52654c5283461e8eb389",
+      "tts_phonetic_text": "时间磨平了尴尬的细节，模糊了离别的眼泪；靠着把过去一点点擦淡，人类才能腾出内存，去爱下一个人。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 226560,
+      "actual_samples_48k": 453120,
+      "duration_seconds": 9.44,
+      "declared_start_frame": 1320,
+      "declared_end_frame": 1980,
+      "declared_window_samples": 528000,
+      "cue_start_sample": 1045217,
+      "cue_end_sample_exclusive": 1498337,
+      "active_onset_offset_samples": 10783,
+      "active_end_offset_samples_exclusive": 440806,
+      "voice_start_sample": 1056000,
+      "voice_end_sample": 1486023,
+      "active_span_samples": 430023,
+      "fits_complete_cue_window": true,
+      "complete_cue_overrun_samples": 0,
+      "overlaps_previous_active_speech": [],
+      "fit_reasons": [],
+      "placement": "complete cue preserved; measured active voice onset aligned to declared start frame",
+      "active_bounds_method": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 101,
+        "windowSamples": 240
+      },
+      "pcm_sha256_24k": "bcc7eedbc3a72ddf03f7ac98b4c956b063aa694585837ca125e5e63d2c00ba1d",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S03-790d978262ac.wav",
+      "raw_sha256": "00e89bc9ec3a4a3f2e839e4d7d67ab71ae14b0915babd38446fed40c6e73014c",
+      "canonical_path": "public/audio/canonical/S03-790d978262ac.wav",
+      "canonical_sha256": "f56ffc4746fa17cb5f3598afd740109cba7f29c2ba071397a8d05da3e88b2ad2",
+      "cue_path": "public/audio/cues/S03-790d978262ac.wav",
+      "cue_sha256": "7e5c419f45ac623849c091046c607fad0cc4a3baf0eeb7d3d70d059996eb0ce1",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S04": {
+      "cache_key": "2e620ba55e6dff217a0ce0bb7be0715f512d9d4989c3a662423d98fe19c2ec9e",
+      "tts_phonetic_text": "直到超级智能，替人类接管了记忆的底层存储。遗忘，被当作系统漏洞，彻底焊死。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 216960,
+      "actual_samples_48k": 433920,
+      "duration_seconds": 9.04,
+      "declared_start_frame": 2040,
+      "declared_end_frame": 2760,
+      "declared_window_samples": 576000,
+      "cue_start_sample": 1621759,
+      "cue_end_sample_exclusive": 2055679,
+      "active_onset_offset_samples": 10241,
+      "active_end_offset_samples_exclusive": 426697,
+      "voice_start_sample": 1632000,
+      "voice_end_sample": 2048456,
+      "active_span_samples": 416456,
+      "fits_complete_cue_window": true,
+      "complete_cue_overrun_samples": 0,
+      "overlaps_previous_active_speech": [],
+      "fit_reasons": [],
+      "placement": "complete cue preserved; measured active voice onset aligned to declared start frame",
+      "active_bounds_method": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 74,
+        "windowSamples": 240
+      },
+      "pcm_sha256_24k": "268a2456b4572a2d78c261be1ac6277d80664c1d9131e561b998fabf4606c3db",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S04-2e620ba55e6d.wav",
+      "raw_sha256": "73e90aad65d6cf627a941d01547acda89a78e87ad06b16a3974103f1a0246653",
+      "canonical_path": "public/audio/canonical/S04-2e620ba55e6d.wav",
+      "canonical_sha256": "725fa497a561867626259627c8401951285bad966d30be31bc9be3715910e283",
+      "cue_path": "public/audio/cues/S04-2e620ba55e6d.wav",
+      "cue_sha256": "23b1e64a197519c69d29bd6e291ea183a2b9699f264413131b0290ff936bc2f8",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S05": {
+      "cache_key": "38ec84dbda9335268235acf72603f40090eae5dd6312df2a83db49efab81989a",
+      "tts_phonetic_text": "于是，恐怖的事情发生了：二十年前的一句恶语、三千天前的一次失恋，以百分之百的精度，永远置顶。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 284160,
+      "actual_samples_48k": 568320,
+      "duration_seconds": 11.84,
+      "declared_start_frame": 2820,
+      "declared_end_frame": 3540,
+      "declared_window_samples": 576000,
+      "cue_start_sample": 2246481,
+      "cue_end_sample_exclusive": 2814801,
+      "active_onset_offset_samples": 9519,
+      "active_end_offset_samples_exclusive": 558943,
+      "voice_start_sample": 2256000,
+      "voice_end_sample": 2805424,
+      "active_span_samples": 549424,
+      "fits_complete_cue_window": true,
+      "complete_cue_overrun_samples": 0,
+      "overlaps_previous_active_speech": [],
+      "fit_reasons": [],
+      "placement": "complete cue preserved; measured active voice onset aligned to declared start frame",
+      "active_bounds_method": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 98,
+        "windowSamples": 240
+      },
+      "pcm_sha256_24k": "dc5158e18a3a8592a5a0ad2ffffd742f36e489fc0605a36197f70c47261d2449",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S05-38ec84dbda93.wav",
+      "raw_sha256": "6bcaed2a8220a05e9f1646caf27219ba452a61e2d53739921a730c815fcd02f9",
+      "canonical_path": "public/audio/canonical/S05-38ec84dbda93.wav",
+      "canonical_sha256": "585aff53ed83295e25106531140f5c75199b1158043b605d2a495c31d1fb7c6d",
+      "cue_path": "public/audio/cues/S05-38ec84dbda93.wav",
+      "cue_sha256": "7d3bcf0a8a761e0e5b99f54b5cda62e0e97d317d22af3d4428596e6c3a3dd8c4",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S06": {
+      "cache_key": "a834fa67ede9c39bab1b22c49cf63e91e64e6edccfd6b2ecf5117b897d1b7d1b",
+      "tts_phonetic_text": "每一道过去的声波，都不会衰减，而是在你的脑海里，无限叠加。没有了遗忘的缓冲，昨天，成了永远无法醒来的鬼打墙。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 272640,
+      "actual_samples_48k": 545280,
+      "duration_seconds": 11.36,
+      "declared_start_frame": 3600,
+      "declared_end_frame": 4320,
+      "declared_window_samples": 576000,
+      "cue_start_sample": 2870665,
+      "cue_end_sample_exclusive": 3415945,
+      "active_onset_offset_samples": 9335,
+      "active_end_offset_samples_exclusive": 535788,
+      "voice_start_sample": 2880000,
+      "voice_end_sample": 3406453,
+      "active_span_samples": 526453,
+      "fits_complete_cue_window": true,
+      "complete_cue_overrun_samples": 0,
+      "overlaps_previous_active_speech": [],
+      "fit_reasons": [],
+      "placement": "complete cue preserved; measured active voice onset aligned to declared start frame",
+      "active_bounds_method": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 94,
+        "windowSamples": 240
+      },
+      "pcm_sha256_24k": "1ed84f87a7578e81886df3d1dbc633bb8f70997de18ee1c93e5842c9699649a4",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S06-a834fa67ede9.wav",
+      "raw_sha256": "f3bcdf156896916ceae73d69ec61b8dc5259bdd16bad63b8f01a1b0e5f35796f",
+      "canonical_path": "public/audio/canonical/S06-a834fa67ede9.wav",
+      "canonical_sha256": "f19ca9c851f886c970a0ee6dcc90223d31cd2e7b193a9c84afcf04d537934ff9",
+      "cue_path": "public/audio/cues/S06-a834fa67ede9.wav",
+      "cue_sha256": "4d89546865fd1afb072da4ec3896ed80a1706b646cd198da628beb4465192a19",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S07": {
+      "cache_key": "3e9c95b62d0104a5bf8ae5d5f8cfeab442d279b694652bb5aecc30da04076a99",
+      "tts_phonetic_text": "当完美无瑕的数字记忆，把人类的心房，挤成一座，没有出口的标本馆。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 153600,
+      "actual_samples_48k": 307200,
+      "duration_seconds": 6.4,
+      "declared_start_frame": 4380,
+      "declared_end_frame": 4800,
+      "declared_window_samples": 336000,
+      "cue_start_sample": 3493860,
+      "cue_end_sample_exclusive": 3801060,
+      "active_onset_offset_samples": 10140,
+      "active_end_offset_samples_exclusive": 298014,
+      "voice_start_sample": 3504000,
+      "voice_end_sample": 3791874,
+      "active_span_samples": 287874,
+      "fits_complete_cue_window": true,
+      "complete_cue_overrun_samples": 0,
+      "overlaps_previous_active_speech": [],
+      "fit_reasons": [],
+      "placement": "complete cue preserved; measured active voice onset aligned to declared start frame",
+      "active_bounds_method": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 75,
+        "windowSamples": 240
+      },
+      "pcm_sha256_24k": "34b22badbddc3898af13261f7229034313b1b01110a9cecc4f93e7d2389debc0",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S07-3e9c95b62d01.wav",
+      "raw_sha256": "41e217a2eb180c0fb0d6e4cf5937f7ab1f4f1be099b424ee8ad0f6bfa5d4078f",
+      "canonical_path": "public/audio/canonical/S07-3e9c95b62d01.wav",
+      "canonical_sha256": "5df1bd1c9801d101777e08432482cd631e4541c7c41837d42ac2de7cc143a479",
+      "cue_path": "public/audio/cues/S07-3e9c95b62d01.wav",
+      "cue_sha256": "e452c20e9d97e7f7677bf44cc22246df22911c4e2db67827b8db8f291e278b0e",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S08": {
+      "cache_key": "44aa1949745ea4d155eb955f78e12777415bf0af95e8659a9011a60ce126ff17",
+      "tts_phonetic_text": "我们才终于明白：不朽的记忆，是神明的刑具；唯有会慢慢褪色的遗憾，才叫人生。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 195840,
+      "actual_samples_48k": 391680,
+      "duration_seconds": 8.16,
+      "declared_start_frame": 4860,
+      "declared_end_frame": 5400,
+      "declared_window_samples": 432000,
+      "cue_start_sample": 3912169,
+      "cue_end_sample_exclusive": 4303849,
+      "active_onset_offset_samples": 9431,
+      "active_end_offset_samples_exclusive": 379420,
+      "voice_start_sample": 3921600,
+      "voice_end_sample": 4291589,
+      "active_span_samples": 369989,
+      "fits_complete_cue_window": true,
+      "complete_cue_overrun_samples": 0,
+      "overlaps_previous_active_speech": [],
+      "fit_reasons": [],
+      "placement": "complete S08 cue begins at/after frame 4890; measured active voice starts at/after frame 4902",
+      "active_bounds_method": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 63,
+        "windowSamples": 240
+      },
+      "pcm_sha256_24k": "ad3dd1d65a4e8a05f19dbf8462a73b250156e8663765eec7f53e11240d388d47",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S08-44aa1949745e.wav",
+      "raw_sha256": "85e88d847c1114243be290de33bfc68b265fc5feb391df16afe0c3150b1d3927",
+      "canonical_path": "public/audio/canonical/S08-44aa1949745e.wav",
+      "canonical_sha256": "edefae9171ce09cf7937e24511bc3dbc22f059dd62eb17f7686c39b841a9908f",
+      "cue_path": "public/audio/cues/S08-44aa1949745e.wav",
+      "cue_sha256": "f20feb516dcf9107ca86f8f29efda02f7264b1a494d8b513a9369d4e315a981c",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    }
+  },
+  "cacheHistory": []
+}

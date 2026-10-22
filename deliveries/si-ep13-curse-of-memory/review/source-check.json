@@ -1,0 +1,199 @@
+{
+  "schema_version": 1,
+  "work": "si-ep13-curse-of-memory",
+  "checker": "project/scripts/verify_project.py",
+  "scope": "source, timing, and artifact presence checks; not final-media acceptance",
+  "status": "PASS",
+  "summary": {
+    "pass": 9,
+    "fail": 0,
+    "incomplete": 0
+  },
+  "checks": [
+    {
+      "id": "source_script_and_segments",
+      "status": "PASS",
+      "message": "Source hash and all eight authored segment windows, display subtitles, and TTS strings match.",
+      "details": {
+        "scriptSha256": "1aeb198522e8337b97da5dd8541b08439f36e7a5b25f31f15a5bc164e1ec6c4f",
+        "segmentCount": 8,
+        "exactFields": [
+          "startFrame",
+          "endFrame",
+          "display_subtitle",
+          "tts_phonetic_text"
+        ]
+      }
+    },
+    {
+      "id": "measured_tts_placement",
+      "status": "PASS",
+      "message": "Measured TTS placement preserves the complete cues and natural-rate active speech without speech overlap.",
+      "details": {
+        "provider": "Aliyun Bailian",
+        "effectiveModel": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "S01": {
+          "cueStartSample": 37571,
+          "cueEndSampleExclusive": 483011,
+          "activeStartSample": 48000,
+          "activeEndSampleExclusive": 472868
+        },
+        "S02": {
+          "cueStartSample": 469528,
+          "cueEndSampleExclusive": 868888,
+          "activeStartSample": 480000,
+          "activeEndSampleExclusive": 859222
+        },
+        "completeCueOverlapSamples": 13483,
+        "completeCueOverlapSeconds": 0.28089583333333334,
+        "activeSpeechOverlapSamples": 0
+      }
+    },
+    {
+      "id": "root_owned_timing_override",
+      "status": "PASS",
+      "message": "The existing root-owned override records the approved S01 cue placement and caption end.",
+      "details": {
+        "cueStartSample": 37571,
+        "captionEndFrame": 592,
+        "decisionSource": "Direct user reply in this EP13 chat: 使用空隙，保留全文与自然语速（推荐）"
+      }
+    },
+    {
+      "id": "measured_audio_timing_and_captions",
+      "status": "PASS",
+      "message": "Measured captions are ordered, non-overlapping, in range, readable, and preserve every source chunk.",
+      "details": {
+        "captionCount": 31,
+        "S01CaptionWindow": [
+          60,
+          592
+        ],
+        "S02ActiveStartSample": 480000
+      }
+    },
+    {
+      "id": "encoded_video_presence",
+      "status": "PASS",
+      "message": "Final encoded video file is present; this source verifier does not decode or visually accept it.",
+      "details": {
+        "path": "小红书/si-ep13-curse-of-memory-xiaohongshu-90s-portrait.mp4",
+        "sizeBytes": 50752467,
+        "mediaValidation": "not performed by this script"
+      }
+    },
+    {
+      "id": "pcm_master",
+      "status": "PASS",
+      "message": "PCM master is stereo 48 kHz at the exact sample count and contains exact digital silence on [4860, 4890).",
+      "details": {
+        "sampleRate": 48000,
+        "channels": 2,
+        "samplesPerChannel": 4320000,
+        "sampleWidthBytes": 2,
+        "silenceSampleRange": [
+          3888000,
+          3912000
+        ],
+        "silenceBytesAreZero": true
+      }
+    },
+    {
+      "id": "hud_and_composition",
+      "status": "PASS",
+      "message": "Portrait composition and all three compact HUD lines match the 2160×3840, 60 fps, 5400-frame, 30 px specification.",
+      "details": {
+        "composition": "PortraitVertical",
+        "resolution": [
+          2160,
+          3840
+        ],
+        "fps": 60,
+        "frames": 5400,
+        "hudFontLogicalPx": 30,
+        "hudLines": 3,
+        "hudStrings": [
+          "BIO DECAY: exp(-t/S)",
+          "SI RETENTION: 100.000%",
+          "8K REPLAY · PAIN LOSS 0.0%",
+          "BURN-IN · PRUNING DISABLED"
+        ]
+      }
+    },
+    {
+      "id": "determinism_and_2d_source_apis",
+      "status": "PASS",
+      "message": "No actual Math.random/Date.now or 3D rendering/transform APIs were found in project/src.",
+      "details": {
+        "sourceFilesScanned": [
+          "project/src/Film.tsx",
+          "project/src/Geometry.tsx",
+          "project/src/Root.tsx",
+          "project/src/index.ts"
+        ],
+        "forbiddenApiFindings": 0
+      }
+    },
+    {
+      "id": "event_frames",
+      "status": "PASS",
+      "message": "Authored SFX and timeline event frames, sample anchors, snap boundary, blackout, piano and voice onset agree.",
+      "details": {
+        "sfxFrames": [
+          [
+            "rewind_calibration",
+            60
+          ],
+          [
+            "warm_filtered_chord",
+            840
+          ],
+          [
+            "tape_hiss",
+            1500
+          ],
+          [
+            "magnetic_relay",
+            1920
+          ],
+          [
+            "hv_phase_lock",
+            2160
+          ],
+          [
+            "nondecaying_loops",
+            2940
+          ],
+          [
+            "shepard_tube",
+            3900
+          ],
+          [
+            "harmonic_peak",
+            4500
+          ],
+          [
+            "crt_power_off_snap",
+            4860
+          ],
+          [
+            "warm_piano_chord",
+            4890
+          ]
+        ],
+        "silenceFrames": [
+          4860,
+          4890
+        ],
+        "snapAttackFrames": [
+          4859,
+          4860
+        ],
+        "pianoFrame": 4890,
+        "minimumS08VoiceFrame": 4902
+      }
+    }
+  ]
+}

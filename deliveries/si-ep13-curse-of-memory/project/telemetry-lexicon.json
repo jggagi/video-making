@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "language": "en",
+  "display_policy": {
+    "hud_lines": 3,
+    "hud_font_size_logical_px": 30,
+    "hud_font_family": "monospace",
+    "hud_left_percent": 6,
+    "hud_top_percent_range": [9, 14],
+    "hud_rightmost_percent": 84,
+    "caption_min_font_size_logical_px": 42,
+    "caption_max_lines": 2,
+    "caption_bottom_percent_range": [24, 28],
+    "compact_labels_may_be_used": true,
+    "full_source_text_is_retained_per_entry": true
+  },
+  "hud": [
+    {
+      "id": "hud_biological_decay",
+      "startFrame": 0,
+      "endFrame": 1320,
+      "color": "#FF9E00",
+      "displayText": "BIO DECAY: exp(-t/S)",
+      "fullSourceText": "BIOLOGICAL MEMORY DECAY: R(t) = exp(-t/S) [MERCIFUL FADING]"
+    },
+    {
+      "id": "hud_permanent_retention",
+      "startFrame": 1320,
+      "endFrame": 5400,
+      "color": "#FF9E00",
+      "displayText": "SI RETENTION: 100.000%",
+      "fullSourceText": "SI ZERO-LOSS RETENTION: 100.000% [PERMANENT LOCK]"
+    },
+    {
+      "id": "hud_replay",
+      "startFrame": 0,
+      "endFrame": 5400,
+      "color": "#FEF3C7",
+      "displayText": "8K REPLAY · PAIN LOSS 0.0%",
+      "fullSourceText": "TRAUMA REPLAY RESOLUTION: 8K NEURAL BIT-EXACT // PAIN ATTENUATION: 0.0%"
+    },
+    {
+      "id": "hud_burn_in",
+      "startFrame": 0,
+      "endFrame": 5400,
+      "color": "#DC2626",
+      "displayText": "BURN-IN · PRUNING DISABLED",
+      "fullSourceText": "PHOSPHOR BURN-IN OVERLOAD: [SYNAPTIC PRUNING DISABLED]"
+    }
+  ],
+  "labels": [
+    {
+      "id": "season_header",
+      "startFrame": 0,
+      "endFrame": 1320,
+      "displayText": "一眼万年 · 第三季",
+      "fullSourceText": "一 眼 万 年 · 第 三 季 // SEASON 03"
+    },
+    {
+      "id": "main_title",
+      "startFrame": 0,
+      "endFrame": 1320,
+      "displayText": "无法遗忘的诅咒",
+      "fullSourceText": "无 法 遗 忘 的 诅 咒"
+    },
+    {
+      "id": "english_title",
+      "startFrame": 0,
+      "endFrame": 1320,
+      "displayText": "WHEN FORGETTING BECOMES ILLEGAL",
+      "fullSourceText": "W H E N   F O R G E T T I N G   B E C O M E S   I L L E G A L"
+    },
+    {
+      "id": "trauma_day_one",
+      "startFrame": 0,
+      "endFrame": 1320,
+      "displayText": "TRAUMA · DAY 001",
+      "fullSourceText": "TRAUMA EVENT: DAY 001 // HEARTBREAK PULSE"
+    },
+    {
+      "id": "pain_fades",
+      "startFrame": 0,
+      "endFrame": 1320,
+      "displayText": "PAIN 100% → 4.2% · TIME HEALS",
+      "fullSourceText": "PAIN INTENSITY: 100% -> 4.2% // HEALED BY TIME"
+    },
+    {
+      "id": "time_markers",
+      "startFrame": 0,
+      "endFrame": 1320,
+      "displayText": ["DAY 030", "DAY 365", "YEAR 10"],
+      "fullSourceText": ["DAY 030", "DAY 365", "YEAR 10"]
+    },
+    {
+      "id": "retention_lock",
+      "startFrame": 1320,
+      "endFrame": 2820,
+      "displayText": "100.000% RETENTION",
+      "fullSourceText": "R(t) = 1.000 (100.000% RETENTION)"
+    },
+    {
+      "id": "locked_shame_event",
+      "startFrame": 1320,
+      "endFrame": 2820,
+      "displayText": "SHAME · BIT-LOCKED",
+      "fullSourceText": "SHAME_EVENT_2016: BIT-LOCKED"
+    },
+    {
+      "id": "locked_farewell",
+      "startFrame": 1320,
+      "endFrame": 2820,
+      "displayText": "FAREWELL VOICE · 0.000 dB LOSS",
+      "fullSourceText": "FAREWELL_VOICE_TREMOR: +0.000 dB LOSS"
+    },
+    {
+      "id": "locked_regret_index",
+      "startFrame": 1320,
+      "endFrame": 2820,
+      "displayText": "REGRET #8821 · IMMUTABLE",
+      "fullSourceText": "REGRET_INDEX #8821: IMMUTABLE"
+    },
+    {
+      "id": "lissajous_years",
+      "startFrame": 2820,
+      "endFrame": 4380,
+      "displayText": ["YEAR 01", "YEAR 03", "YEAR 07", "YEAR 15"],
+      "fullSourceText": ["YEAR 01", "YEAR 03", "YEAR 07", "YEAR 15"]
+    },
+    {
+      "id": "signal_to_noise",
+      "startFrame": 3900,
+      "endFrame": 4380,
+      "displayText": "SNR COLLAPSED · PRESENT BURIED",
+      "fullSourceText": "SIGNAL-TO-NOISE RATIO: COLLAPSED // PRESENT MOMENT BURIED UNDER PAST"
+    },
+    {
+      "id": "memory_overload",
+      "startFrame": 4380,
+      "endFrame": 4860,
+      "displayText": "MEMORY BUFFER · ETERNAL YESTERDAY",
+      "fullSourceText": "MEMORY BUFFER: 100% OVERWRITTEN BY ETERNAL YESTERDAY"
+    },
+    {
+      "id": "restored_memory",
+      "startFrame": 4890,
+      "endFrame": 5400,
+      "displayText": "FORGETTING RESTORED · PEACE RECLAIMED",
+      "fullSourceText": "FORGETTING RESTORED // PEACE RECLAIMED"
+    },
+    {
+      "id": "closing_title",
+      "startFrame": 5160,
+      "endFrame": 5400,
+      "displayText": "一眼万年 · 无法遗忘的诅咒",
+      "fullSourceText": "一 眼 万 年 · 无 法 遗 忘 的 诅 咒"
+    },
+    {
+      "id": "fiction_disclaimer",
+      "startFrame": 5160,
+      "endFrame": 5400,
+      "displayText": "未来 SI 思想实验 · 遥测与数值均为虚构",
+      "fullSourceText": "未来 SI 思想实验 · 遥测与数值均为虚构",
+      "opacity": 0.35
+    }
+  ]
+}

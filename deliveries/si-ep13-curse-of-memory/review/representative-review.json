@@ -1,0 +1,45 @@
+{
+  "status": "MODEL_OBSERVED",
+  "media_sha256": "7b067593aab3e25d3636aa0caa008ee88ab37de11a2b8fca7f49593ec474e3c7",
+  "frames_observed": [
+    0,
+    60,
+    900,
+    1320,
+    1500,
+    1680,
+    1920,
+    2160,
+    2820,
+    2940,
+    3900,
+    4020,
+    4500,
+    4859,
+    4860,
+    4890,
+    5040,
+    5160,
+    5399
+  ],
+  "display_scale": "Actual final MP4 representative frames viewed as360px-wide tiles in four separate image sections; two1160x1200 native pixel crops viewed for text,linework and dark gradient details.",
+  "observations": [
+    "Three HUD rows remain inside safe edges and readable; persistent values are fictitious thought-experiment telemetry.",
+    "Chinese subtitles stay within the bottom reading band; at mosttwo lines, clear bone-white text. Some phrase breaks cross multi-character words; timing is estimated phrase allocation, not word alignment.",
+    "Flat2D decay plot lifts into a horizontal lock line; dense amber/bone/rust trace accumulation stays flat and contains no3D projection.",
+    "Frame4859 tangle gives way to the single scanline at4860;4890 returns a softwave; ending dust drifts upward.",
+    "Disclaimer observed at5160and5399, absent before5160 by source and representative frames.",
+    "No severe contour banding observed in native dark background crop.",
+    "Motion pairs show playhead movement, laser sweep, accumulation, moving spikes/scratches and breathingwave/dust; centraledgeMAE2.07..36.13/255withHUDandcaptions excluded."
+  ],
+  "visual_scan": {
+    "decoded_frames": 5400,
+    "flags": 540,
+    "all_flags_reviewed": true,
+    "disposition": "Authored sustained HUD dimming after4860; everyflag has evidence tile and per-frame review. No full-frame isolated jump or dark-ROIflags."
+  },
+  "human_continuous_viewing": "NOT_RUN",
+  "human_listening": "NOT_RUN",
+  "device_app_playback": "NOT_RUN",
+  "audience_feedback": "NOT_RUN"
+}

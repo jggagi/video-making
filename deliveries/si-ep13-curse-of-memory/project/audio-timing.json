@@ -1,0 +1,783 @@
+{
+  "durationSeconds": 90,
+  "fps": 60,
+  "sampleRate": 48000,
+  "samplesPerFrame": 800,
+  "samplesPerChannel": 4320000,
+  "status": "measured_pcm_with_estimated_phrase_timing",
+  "captionTimingMethod": "Unchanged original display-subtitle chunks are allocated by character weight within measured active PCM spans; an optional per-segment captionEndFrame override may extend timing; no ASR or forced word alignment was performed.",
+  "segments": [
+    {
+      "id": "S01",
+      "declaredStartFrame": 60,
+      "declaredEndFrame": 540,
+      "voiceStartSample": 48000,
+      "voiceEndSampleExclusive": 472868,
+      "cueStartSample": 37571,
+      "cueEndSampleExclusive": 483011,
+      "cueSamplesAt48k": 445440,
+      "measuredActiveSamples": 424868,
+      "onsetOffsetSamplesInCue": 10429,
+      "activeEndOffsetSamplesInCueExclusive": 435297,
+      "captionStartFrame": 60,
+      "captionEndFrame": 592,
+      "placement": "complete source cue placed at sample 37571 by timing override; original cue retained at natural rate; decision source: Direct user reply in this EP13 chat: 使用空隙，保留全文与自然语速（推荐）",
+      "timingOverrideDecisionSource": "Direct user reply in this EP13 chat: 使用空隙，保留全文与自然语速（推荐）",
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 76,
+        "windowSamples": 240
+      },
+      "completeCueOverlaps": [
+        {
+          "segmentIds": [
+            "S01",
+            "S02"
+          ],
+          "startSample": 469528,
+          "endSampleExclusive": 483011,
+          "sampleCount": 13483,
+          "mixMethod": "additive_PCM_with_PCM16_saturation"
+        }
+      ]
+    },
+    {
+      "id": "S02",
+      "declaredStartFrame": 600,
+      "declaredEndFrame": 1260,
+      "voiceStartSample": 480000,
+      "voiceEndSampleExclusive": 859222,
+      "cueStartSample": 469528,
+      "cueEndSampleExclusive": 868888,
+      "cueSamplesAt48k": 399360,
+      "measuredActiveSamples": 379222,
+      "onsetOffsetSamplesInCue": 10472,
+      "activeEndOffsetSamplesInCueExclusive": 389694,
+      "captionStartFrame": 600,
+      "captionEndFrame": 1075,
+      "placement": "complete source cue retained at natural rate; measured active onset aligned to authored start",
+      "timingOverrideDecisionSource": "Direct user reply in this EP13 chat: 使用空隙，保留全文与自然语速（推荐）",
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 74,
+        "windowSamples": 240
+      },
+      "completeCueOverlaps": [
+        {
+          "segmentIds": [
+            "S01",
+            "S02"
+          ],
+          "startSample": 469528,
+          "endSampleExclusive": 483011,
+          "sampleCount": 13483,
+          "mixMethod": "additive_PCM_with_PCM16_saturation"
+        }
+      ]
+    },
+    {
+      "id": "S03",
+      "declaredStartFrame": 1320,
+      "declaredEndFrame": 1980,
+      "voiceStartSample": 1056000,
+      "voiceEndSampleExclusive": 1486023,
+      "cueStartSample": 1045217,
+      "cueEndSampleExclusive": 1498337,
+      "cueSamplesAt48k": 453120,
+      "measuredActiveSamples": 430023,
+      "onsetOffsetSamplesInCue": 10783,
+      "activeEndOffsetSamplesInCueExclusive": 440806,
+      "captionStartFrame": 1320,
+      "captionEndFrame": 1858,
+      "placement": "complete source cue retained at natural rate; measured active onset aligned to authored start",
+      "timingOverrideDecisionSource": "Direct user reply in this EP13 chat: 使用空隙，保留全文与自然语速（推荐）",
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 101,
+        "windowSamples": 240
+      },
+      "completeCueOverlaps": []
+    },
+    {
+      "id": "S04",
+      "declaredStartFrame": 2040,
+      "declaredEndFrame": 2760,
+      "voiceStartSample": 1632000,
+      "voiceEndSampleExclusive": 2048456,
+      "cueStartSample": 1621759,
+      "cueEndSampleExclusive": 2055679,
+      "cueSamplesAt48k": 433920,
+      "measuredActiveSamples": 416456,
+      "onsetOffsetSamplesInCue": 10241,
+      "activeEndOffsetSamplesInCueExclusive": 426697,
+      "captionStartFrame": 2040,
+      "captionEndFrame": 2561,
+      "placement": "complete source cue retained at natural rate; measured active onset aligned to authored start",
+      "timingOverrideDecisionSource": "Direct user reply in this EP13 chat: 使用空隙，保留全文与自然语速（推荐）",
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 74,
+        "windowSamples": 240
+      },
+      "completeCueOverlaps": []
+    },
+    {
+      "id": "S05",
+      "declaredStartFrame": 2820,
+      "declaredEndFrame": 3540,
+      "voiceStartSample": 2256000,
+      "voiceEndSampleExclusive": 2805424,
+      "cueStartSample": 2246481,
+      "cueEndSampleExclusive": 2814801,
+      "cueSamplesAt48k": 568320,
+      "measuredActiveSamples": 549424,
+      "onsetOffsetSamplesInCue": 9519,
+      "activeEndOffsetSamplesInCueExclusive": 558943,
+      "captionStartFrame": 2820,
+      "captionEndFrame": 3507,
+      "placement": "complete source cue retained at natural rate; measured active onset aligned to authored start",
+      "timingOverrideDecisionSource": "Direct user reply in this EP13 chat: 使用空隙，保留全文与自然语速（推荐）",
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 98,
+        "windowSamples": 240
+      },
+      "completeCueOverlaps": []
+    },
+    {
+      "id": "S06",
+      "declaredStartFrame": 3600,
+      "declaredEndFrame": 4320,
+      "voiceStartSample": 2880000,
+      "voiceEndSampleExclusive": 3406453,
+      "cueStartSample": 2870665,
+      "cueEndSampleExclusive": 3415945,
+      "cueSamplesAt48k": 545280,
+      "measuredActiveSamples": 526453,
+      "onsetOffsetSamplesInCue": 9335,
+      "activeEndOffsetSamplesInCueExclusive": 535788,
+      "captionStartFrame": 3600,
+      "captionEndFrame": 4259,
+      "placement": "complete source cue retained at natural rate; measured active onset aligned to authored start",
+      "timingOverrideDecisionSource": "Direct user reply in this EP13 chat: 使用空隙，保留全文与自然语速（推荐）",
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 94,
+        "windowSamples": 240
+      },
+      "completeCueOverlaps": []
+    },
+    {
+      "id": "S07",
+      "declaredStartFrame": 4380,
+      "declaredEndFrame": 4800,
+      "voiceStartSample": 3504000,
+      "voiceEndSampleExclusive": 3791874,
+      "cueStartSample": 3493860,
+      "cueEndSampleExclusive": 3801060,
+      "cueSamplesAt48k": 307200,
+      "measuredActiveSamples": 287874,
+      "onsetOffsetSamplesInCue": 10140,
+      "activeEndOffsetSamplesInCueExclusive": 298014,
+      "captionStartFrame": 4380,
+      "captionEndFrame": 4740,
+      "placement": "complete source cue retained at natural rate; measured active onset aligned to authored start",
+      "timingOverrideDecisionSource": "Direct user reply in this EP13 chat: 使用空隙，保留全文与自然语速（推荐）",
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 75,
+        "windowSamples": 240
+      },
+      "completeCueOverlaps": []
+    },
+    {
+      "id": "S08",
+      "declaredStartFrame": 4860,
+      "declaredEndFrame": 5400,
+      "voiceStartSample": 3921600,
+      "voiceEndSampleExclusive": 4291589,
+      "cueStartSample": 3912169,
+      "cueEndSampleExclusive": 4303849,
+      "cueSamplesAt48k": 391680,
+      "measuredActiveSamples": 369989,
+      "onsetOffsetSamplesInCue": 9431,
+      "activeEndOffsetSamplesInCueExclusive": 379420,
+      "captionStartFrame": 4902,
+      "captionEndFrame": 5365,
+      "placement": "complete source cue retained at natural rate; measured active onset aligned to authored start",
+      "timingOverrideDecisionSource": "Direct user reply in this EP13 chat: 使用空隙，保留全文与自然语速（推荐）",
+      "onsetMeasurement": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 63,
+        "windowSamples": 240
+      },
+      "completeCueOverlaps": []
+    }
+  ],
+  "completeCueOverlaps": [
+    {
+      "segmentIds": [
+        "S01",
+        "S02"
+      ],
+      "startSample": 469528,
+      "endSampleExclusive": 483011,
+      "sampleCount": 13483,
+      "mixMethod": "additive_PCM_with_PCM16_saturation"
+    }
+  ],
+  "captions": [
+    {
+      "segmentId": "S01",
+      "startFrame": 60,
+      "endFrame": 260,
+      "text": "如果十年前那次让\n你心碎的告别，",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S01",
+      "startFrame": 260,
+      "endFrame": 486,
+      "text": "在今天依然像刚发生\n第一秒那样刺痛，",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S01",
+      "startFrame": 486,
+      "endFrame": 592,
+      "text": "你还能活下去吗？",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S02",
+      "startFrame": 600,
+      "endFrame": 733,
+      "text": "人类总抱怨自己记性太差。",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S02",
+      "startFrame": 733,
+      "endFrame": 788,
+      "text": "却不知道，",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S02",
+      "startFrame": 788,
+      "endFrame": 1075,
+      "text": "“艾宾浩斯遗忘曲线”是进化\n给碳基生命最温柔的止痛药。",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S03",
+      "startFrame": 1320,
+      "endFrame": 1446,
+      "text": "时间磨平了尴尬的细节，",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S03",
+      "startFrame": 1446,
+      "endFrame": 1549,
+      "text": "模糊了离别的眼泪，",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S03",
+      "startFrame": 1549,
+      "endFrame": 1675,
+      "text": "靠着把过去一点点擦淡，",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S03",
+      "startFrame": 1675,
+      "endFrame": 1778,
+      "text": "人类才能腾出内存，",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S03",
+      "startFrame": 1778,
+      "endFrame": 1858,
+      "text": "去爱下一个人。",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S04",
+      "startFrame": 2040,
+      "endFrame": 2141,
+      "text": "直到超级智能，",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S04",
+      "startFrame": 2141,
+      "endFrame": 2344,
+      "text": "替人类接管了记\n忆的底层存储。",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S04",
+      "startFrame": 2344,
+      "endFrame": 2489,
+      "text": "遗忘被当作系统漏洞，",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S04",
+      "startFrame": 2489,
+      "endFrame": 2561,
+      "text": "彻底焊死。",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S05",
+      "startFrame": 2820,
+      "endFrame": 2866,
+      "text": "于是，",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S05",
+      "startFrame": 2866,
+      "endFrame": 3003,
+      "text": "恐怖的事情发生了：",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S05",
+      "startFrame": 3003,
+      "endFrame": 3156,
+      "text": "二十年前的一句恶语、",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S05",
+      "startFrame": 3156,
+      "endFrame": 3309,
+      "text": "三千天前的一次失恋，",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S05",
+      "startFrame": 3309,
+      "endFrame": 3507,
+      "text": "以百分之百的精度永远置顶。",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S06",
+      "startFrame": 3600,
+      "endFrame": 3781,
+      "text": "每一道过去的声\n波都不会衰减，",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S06",
+      "startFrame": 3781,
+      "endFrame": 3949,
+      "text": "而是在你的脑海里无限叠加。",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S06",
+      "startFrame": 3949,
+      "endFrame": 4065,
+      "text": "没有了遗忘的缓冲，",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S06",
+      "startFrame": 4065,
+      "endFrame": 4259,
+      "text": "昨天成了永远无法\n醒来的鬼打墙。",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S07",
+      "startFrame": 4380,
+      "endFrame": 4508,
+      "text": "当完美无瑕的数字记忆，",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S07",
+      "startFrame": 4508,
+      "endFrame": 4740,
+      "text": "把人类的心房挤成一座\n没有出口的标本馆……",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S08",
+      "startFrame": 4902,
+      "endFrame": 5012,
+      "text": "“我们才终于明白：",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S08",
+      "startFrame": 5012,
+      "endFrame": 5158,
+      "text": "不朽的记忆是神明的刑具；",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S08",
+      "startFrame": 5158,
+      "endFrame": 5292,
+      "text": "唯有会慢慢褪色的遗憾，",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S08",
+      "startFrame": 5292,
+      "endFrame": 5353,
+      "text": "才叫人生。",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    },
+    {
+      "segmentId": "S08",
+      "startFrame": 5353,
+      "endFrame": 5365,
+      "text": "”",
+      "alignment": "estimated_character_weighted_within_measured_pcm_span"
+    }
+  ],
+  "sfxEvents": [
+    {
+      "id": "rewind_calibration",
+      "frame": 60,
+      "startFrame": 60,
+      "sampleIndex": 48000,
+      "endSampleExclusive": 201600,
+      "boundaryFrame": null,
+      "durationSeconds": 3.2,
+      "sampleCount": 153600,
+      "kind": "cassette_rewind_calibration",
+      "description": "Tactile cassette rewind with warm vinyl crackle, pierced by a sharp 1000 Hz oscilloscope calibration tone."
+    },
+    {
+      "id": "warm_filtered_chord",
+      "frame": 840,
+      "startFrame": 840,
+      "sampleIndex": 672000,
+      "endSampleExclusive": 883200,
+      "boundaryFrame": null,
+      "durationSeconds": 4.4,
+      "sampleCount": 211200,
+      "kind": "warm_filtered_chord",
+      "description": "Soft acoustic chord, gradually low-pass filtered into a comforting, muffled echo."
+    },
+    {
+      "id": "tape_hiss",
+      "frame": 1500,
+      "startFrame": 1500,
+      "sampleIndex": 1200000,
+      "endSampleExclusive": 1536000,
+      "boundaryFrame": null,
+      "durationSeconds": 7.0,
+      "sampleCount": 336000,
+      "kind": "tape_hiss",
+      "description": "Gentle analog tape hiss that fades away as the magnetic relay engages at frame 1920."
+    },
+    {
+      "id": "magnetic_relay",
+      "frame": 1920,
+      "startFrame": 1920,
+      "sampleIndex": 1536000,
+      "endSampleExclusive": 1593600,
+      "boundaryFrame": null,
+      "durationSeconds": 1.2,
+      "sampleCount": 57600,
+      "kind": "magnetic_relay",
+      "description": "Heavy magnetic relay clack with a short low-frequency lock resonance."
+    },
+    {
+      "id": "hv_phase_lock",
+      "frame": 2160,
+      "startFrame": 2160,
+      "sampleIndex": 1728000,
+      "endSampleExclusive": 1872000,
+      "boundaryFrame": null,
+      "durationSeconds": 3.0,
+      "sampleCount": 144000,
+      "kind": "hv_phase_lock",
+      "description": "Cold high-voltage CRT capacitor whine followed by a razor-sharp phase-lock click."
+    },
+    {
+      "id": "nondecaying_loops",
+      "frame": 2940,
+      "startFrame": 2940,
+      "sampleIndex": 2352000,
+      "endSampleExclusive": 3888000,
+      "boundaryFrame": null,
+      "durationSeconds": 32.0,
+      "sampleCount": 1536000,
+      "kind": "nondecaying_loops",
+      "description": "Overlapping amber feedback loops accumulate without decay and hold until the tube powers off at frame 4860."
+    },
+    {
+      "id": "shepard_tube",
+      "frame": 3900,
+      "startFrame": 3900,
+      "sampleIndex": 3120000,
+      "endSampleExclusive": 3600000,
+      "boundaryFrame": null,
+      "durationSeconds": 10.0,
+      "sampleCount": 480000,
+      "kind": "shepard_tube",
+      "description": "Claustrophobic rising Shepard tone with saturated analog tube distortion and rust-red intensity."
+    },
+    {
+      "id": "harmonic_peak",
+      "frame": 4500,
+      "startFrame": 4500,
+      "sampleIndex": 3600000,
+      "endSampleExclusive": 3888000,
+      "boundaryFrame": null,
+      "durationSeconds": 6.0,
+      "sampleCount": 288000,
+      "kind": "harmonic_peak",
+      "description": "Bright high-frequency harmonic cluster holds at peak tension and clears at the snap boundary."
+    },
+    {
+      "id": "crt_power_off_snap",
+      "frame": 4860,
+      "startFrame": 4859,
+      "sampleIndex": 3887200,
+      "endSampleExclusive": 3888000,
+      "boundaryFrame": 4860,
+      "durationSeconds": 0.016666666666666666,
+      "sampleCount": 800,
+      "kind": "crt_power_off_snap",
+      "description": "One-frame CRT tube power-off snap; attack starts at frame 4859 and ends exactly at sample 3888000, before the 30-frame absolute silence."
+    },
+    {
+      "id": "warm_piano_chord",
+      "frame": 4890,
+      "startFrame": 4890,
+      "sampleIndex": 3912000,
+      "endSampleExclusive": 4320000,
+      "boundaryFrame": null,
+      "durationSeconds": 8.5,
+      "sampleCount": 408000,
+      "kind": "warm_piano_chord",
+      "description": "A single warm, slightly out-of-tune vintage piano chord beginning after the blackout and fading through deterministic room-reverb echoes."
+    }
+  ],
+  "absoluteSilence": {
+    "startFrame": 4860,
+    "endFrameExclusive": 4890,
+    "startSample": 3888000,
+    "endSampleExclusive": 3912000,
+    "samplesZeroInAllStemsAndMaster": true,
+    "samplePeakPcm16": 0
+  },
+  "sourceHashes": {
+    "segmentsJson": "53d9bba6269efc555645629160d0724fcb5a6a867026f8cef6db3da4051df8b0",
+    "sfxEventsJson": "45db02754ee8bac4f86bd73fb2952ee6ad02b7fd2de3ed64e308ee8b1a18f204",
+    "audioAuthorization": "26c8d0a341ee484349a026103e1127f539711bfd64f3981b462f45c5e9d26daa",
+    "audioTimingOverrides": "0524c20bbde6f49d59106adc26ae8cae3766aa4fbe92275941ff1675fe29a4c6",
+    "providerManifest": "2d1f8db778ce72d095cdbe500c8a248ef136a13d797ea124cdf4ea871a5a8619",
+    "cueWavs": [
+      {
+        "id": "S01",
+        "cueFile": "project/public/audio/cues/S01-3536c9e91649.wav",
+        "cueSamplesAt48k": 445440,
+        "durationSeconds": 9.28,
+        "cueSha256": "fd9077322e34b4c73febb85ba6de3988ca005d40b22d94322513099039fd2569",
+        "cuePcmSha256": "b649698b2065a0119fb1071bf97bba6ca026e0a7b6ac132011c101c4c95f7a2b",
+        "activeOnsetOffsetSamples": 10429,
+        "activeEndOffsetSamplesExclusive": 435297,
+        "activeBoundsMethod": {
+          "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+          "thresholdPcm16": 76,
+          "windowSamples": 240
+        }
+      },
+      {
+        "id": "S02",
+        "cueFile": "project/public/audio/cues/S02-db8314e82c84.wav",
+        "cueSamplesAt48k": 399360,
+        "durationSeconds": 8.32,
+        "cueSha256": "f816da5e11fc90d6968a81be75a134f2042bd42e63f65b12bd2d63a4e862ac02",
+        "cuePcmSha256": "0054e33be3a3f9e3ec3f30027776c9b6fde375fd5a1b70b8721c90f470481d93",
+        "activeOnsetOffsetSamples": 10472,
+        "activeEndOffsetSamplesExclusive": 389694,
+        "activeBoundsMethod": {
+          "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+          "thresholdPcm16": 74,
+          "windowSamples": 240
+        }
+      },
+      {
+        "id": "S03",
+        "cueFile": "project/public/audio/cues/S03-790d978262ac.wav",
+        "cueSamplesAt48k": 453120,
+        "durationSeconds": 9.44,
+        "cueSha256": "7e5c419f45ac623849c091046c607fad0cc4a3baf0eeb7d3d70d059996eb0ce1",
+        "cuePcmSha256": "ae01eea12c82fb66c1a73d43673ef9df9dc9c8959344f33070dca52e1d86e28d",
+        "activeOnsetOffsetSamples": 10783,
+        "activeEndOffsetSamplesExclusive": 440806,
+        "activeBoundsMethod": {
+          "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+          "thresholdPcm16": 101,
+          "windowSamples": 240
+        }
+      },
+      {
+        "id": "S04",
+        "cueFile": "project/public/audio/cues/S04-2e620ba55e6d.wav",
+        "cueSamplesAt48k": 433920,
+        "durationSeconds": 9.04,
+        "cueSha256": "23b1e64a197519c69d29bd6e291ea183a2b9699f264413131b0290ff936bc2f8",
+        "cuePcmSha256": "9f90e4b930b2895d53085e9588ecf9c60bc9ae3f922f00a9c535a59427e7d84f",
+        "activeOnsetOffsetSamples": 10241,
+        "activeEndOffsetSamplesExclusive": 426697,
+        "activeBoundsMethod": {
+          "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+          "thresholdPcm16": 74,
+          "windowSamples": 240
+        }
+      },
+      {
+        "id": "S05",
+        "cueFile": "project/public/audio/cues/S05-38ec84dbda93.wav",
+        "cueSamplesAt48k": 568320,
+        "durationSeconds": 11.84,
+        "cueSha256": "7d3bcf0a8a761e0e5b99f54b5cda62e0e97d317d22af3d4428596e6c3a3dd8c4",
+        "cuePcmSha256": "9bcf8617e3a1b414c66a56f9c1ff44fb3cd17bb673ee9b89cdcdd9707e1a0e95",
+        "activeOnsetOffsetSamples": 9519,
+        "activeEndOffsetSamplesExclusive": 558943,
+        "activeBoundsMethod": {
+          "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+          "thresholdPcm16": 98,
+          "windowSamples": 240
+        }
+      },
+      {
+        "id": "S06",
+        "cueFile": "project/public/audio/cues/S06-a834fa67ede9.wav",
+        "cueSamplesAt48k": 545280,
+        "durationSeconds": 11.36,
+        "cueSha256": "4d89546865fd1afb072da4ec3896ed80a1706b646cd198da628beb4465192a19",
+        "cuePcmSha256": "446d3f27d932862b7e26c0ce73d9762ddfa14e5f53a27997fead9a0a208e8bdd",
+        "activeOnsetOffsetSamples": 9335,
+        "activeEndOffsetSamplesExclusive": 535788,
+        "activeBoundsMethod": {
+          "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+          "thresholdPcm16": 94,
+          "windowSamples": 240
+        }
+      },
+      {
+        "id": "S07",
+        "cueFile": "project/public/audio/cues/S07-3e9c95b62d01.wav",
+        "cueSamplesAt48k": 307200,
+        "durationSeconds": 6.4,
+        "cueSha256": "e452c20e9d97e7f7677bf44cc22246df22911c4e2db67827b8db8f291e278b0e",
+        "cuePcmSha256": "a1e70fb4a4a4cce7599ff36ea23e2107437046c1312116d999059015b035d042",
+        "activeOnsetOffsetSamples": 10140,
+        "activeEndOffsetSamplesExclusive": 298014,
+        "activeBoundsMethod": {
+          "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+          "thresholdPcm16": 75,
+          "windowSamples": 240
+        }
+      },
+      {
+        "id": "S08",
+        "cueFile": "project/public/audio/cues/S08-44aa1949745e.wav",
+        "cueSamplesAt48k": 391680,
+        "durationSeconds": 8.16,
+        "cueSha256": "f20feb516dcf9107ca86f8f29efda02f7264b1a494d8b513a9369d4e315a981c",
+        "cuePcmSha256": "767f71604033d4dd4add80ddd4d29cc928f425c5b8480287c866eb10ade90b02",
+        "activeOnsetOffsetSamples": 9431,
+        "activeEndOffsetSamplesExclusive": 379420,
+        "activeBoundsMethod": {
+          "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+          "thresholdPcm16": 63,
+          "windowSamples": 240
+        }
+      }
+    ],
+    "eventProfiles": "367cc08d41318e8025a1637ef46ead89f686668b4d4e60c8cbb374446730cda9"
+  },
+  "mixInputSetSha256": "f7b97da4d1f1cfd69349f37845b0559e2c590fd8f4e0cd0fb7c4c5e3f2fc8dd5",
+  "master": {
+    "file": "project/public/audio/master.wav",
+    "sha256": "31027b1e34e686b4a3f7a94d778883aef71d02ef60618bbd0136a9c97e92cca4",
+    "pcmSha256": "8a13a0a5985d6d36adfce0c2b4686a826ff5e18213adab1bdd6083880de927e5",
+    "sizeBytes": 17280044,
+    "sampleRate": 48000,
+    "channels": 2,
+    "sampleWidthBytes": 2,
+    "samplesPerChannel": 4320000,
+    "durationSeconds": 90.0,
+    "samplePeakPcm16": 27608,
+    "strictDecode": "passed",
+    "loudnormFirstPass": {
+      "input_i": "-21.41",
+      "input_tp": "-2.31",
+      "input_lra": "9.30",
+      "input_thresh": "-32.52",
+      "output_i": "-17.17",
+      "output_tp": "-1.80",
+      "output_lra": "7.70",
+      "output_thresh": "-28.00",
+      "normalization_type": "dynamic",
+      "target_offset": "1.17"
+    },
+    "loudnormSecondPass": {
+      "input_i": "-21.41",
+      "input_tp": "-2.31",
+      "input_lra": "9.30",
+      "input_thresh": "-32.52",
+      "output_i": "-16.32",
+      "output_tp": "-1.80",
+      "output_lra": "7.00",
+      "output_thresh": "-27.11",
+      "normalization_type": "dynamic",
+      "target_offset": "0.32"
+    },
+    "ebur128Final": {
+      "integratedLUFS": -16.0,
+      "truePeakDBTP": -1.5
+    },
+    "normalizationTarget": {
+      "integratedLUFS": -16.0,
+      "truePeakDBTP": -1.8,
+      "acceptanceLUFS": [
+        -16.2,
+        -15.8
+      ],
+      "acceptanceTruePeakDBTP": -1.0,
+      "passes": 2
+    },
+    "postLoudnormCalibration": {
+      "gainDB": 0.3,
+      "linearGain": 1.035142166679344,
+      "samplePeakPcm16": 27608,
+      "measuredBefore": {
+        "integratedLUFS": -16.3,
+        "truePeakDBTP": -1.8
+      },
+      "measuredAfter": {
+        "integratedLUFS": -16.0,
+        "truePeakDBTP": -1.5
+      },
+      "method": "linear PCM gain by final measured LUFS difference",
+      "targetIntegratedLUFS": -16.0,
+      "sampleCountPreserved": true,
+      "stemsChanged": false
+    },
+    "absoluteSilence": {
+      "startSample": 3888000,
+      "endSampleExclusive": 3912000,
+      "peakPcm16": 0,
+      "exactZero": true
+    }
+  }
+}

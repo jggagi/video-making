@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "title": "无法遗忘的诅咒",
+  "slug": "si-ep13-curse-of-memory",
+  "platforms": [
+    "xiaohongshu"
+  ],
+  "duration_seconds": 90,
+  "fps": 60,
+  "total_frames": 5400,
+  "script": {
+    "path": "source/script.md",
+    "sha256": "1aeb198522e8337b97da5dd8541b08439f36e7a5b25f31f15a5bc164e1ec6c4f"
+  },
+  "audio": {
+    "mode": "narrated",
+    "master": "project/public/audio/master.wav",
+    "master_sha256": "31027b1e34e686b4a3f7a94d778883aef71d02ef60618bbd0136a9c97e92cca4",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples_per_channel": 4320000,
+    "narration_provider": "Aliyun Bailian",
+    "effective_model": "cosyvoice-v3-flash",
+    "voice": "longtian_v3",
+    "integrated_lufs": -16.0,
+    "true_peak_dbtp": -1.5
+  },
+  "outputs": {
+    "xiaohongshu": {
+      "path": "小红书/si-ep13-curse-of-memory-xiaohongshu-90s-portrait.mp4",
+      "width": 2160,
+      "height": 3840
+    }
+  },
+  "qa": {
+    "automated": "PASS",
+    "representative_frames": "MODEL_OBSERVED",
+    "continuous_human_review": "NOT_RUN",
+    "target_device_playback": "NOT_RUN",
+    "human_listening": "NOT_RUN",
+    "local_final": "PASS",
+    "github_film_archive": "pending",
+    "github_final_backup": "pending",
+    "final_restore_probe": "pending"
+  },
+  "visual_qc": {
+    "required": true,
+    "reports": {
+      "xiaohongshu": "review/visual-qc-xiaohongshu/report.json"
+    }
+  },
+  "final_movie_sha256": "7b067593aab3e25d3636aa0caa008ee88ab37de11a2b8fca7f49593ec474e3c7"
+}

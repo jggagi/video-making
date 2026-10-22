@@ -1,0 +1,18 @@
+{
+  "provider": "Aliyun Bailian",
+  "cli": "bl",
+  "skill_version": "2.5.0",
+  "installed_cli_version": "2.5.0",
+  "npm_latest_verified": "2.5.0",
+  "update_performed": false,
+  "synthesis_model_reported": [
+    "cosyvoice-v3-flash"
+  ],
+  "voice_reported": [
+    "longtian_v3"
+  ],
+  "scope": "Exact EP13 S01–S08 tts_phonetic_text from attached source",
+  "direct_user_authorization": "User explicitly approved sending all eight EP13 prepared texts to Bailian cosyvoice-v3-flash / longtian_v3 in this chat.",
+  "calls": "8 segments generated; first cue then matching-cache reuse; no ASR or image/video cloud generation",
+  "review_gate": "The initial TTS request was rejected by automatic approval review; no network generation was attempted in that rejection. A separate explicit user authorization was obtained before the successful call."
+}

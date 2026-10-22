@@ -1,0 +1,554 @@
+{
+  "version": 1,
+  "status": "built",
+  "inputSetSha256": "f7b97da4d1f1cfd69349f37845b0559e2c590fd8f4e0cd0fb7c4c5e3f2fc8dd5",
+  "sourceHashes": {
+    "segmentsJson": "53d9bba6269efc555645629160d0724fcb5a6a867026f8cef6db3da4051df8b0",
+    "sfxEventsJson": "45db02754ee8bac4f86bd73fb2952ee6ad02b7fd2de3ed64e308ee8b1a18f204",
+    "audioAuthorization": "26c8d0a341ee484349a026103e1127f539711bfd64f3981b462f45c5e9d26daa",
+    "audioTimingOverrides": "0524c20bbde6f49d59106adc26ae8cae3766aa4fbe92275941ff1675fe29a4c6",
+    "providerManifest": "2d1f8db778ce72d095cdbe500c8a248ef136a13d797ea124cdf4ea871a5a8619",
+    "cueWavs": [
+      {
+        "id": "S01",
+        "cueFile": "project/public/audio/cues/S01-3536c9e91649.wav",
+        "cueSamplesAt48k": 445440,
+        "durationSeconds": 9.28,
+        "cueSha256": "fd9077322e34b4c73febb85ba6de3988ca005d40b22d94322513099039fd2569",
+        "cuePcmSha256": "b649698b2065a0119fb1071bf97bba6ca026e0a7b6ac132011c101c4c95f7a2b",
+        "activeOnsetOffsetSamples": 10429,
+        "activeEndOffsetSamplesExclusive": 435297,
+        "activeBoundsMethod": {
+          "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+          "thresholdPcm16": 76,
+          "windowSamples": 240
+        }
+      },
+      {
+        "id": "S02",
+        "cueFile": "project/public/audio/cues/S02-db8314e82c84.wav",
+        "cueSamplesAt48k": 399360,
+        "durationSeconds": 8.32,
+        "cueSha256": "f816da5e11fc90d6968a81be75a134f2042bd42e63f65b12bd2d63a4e862ac02",
+        "cuePcmSha256": "0054e33be3a3f9e3ec3f30027776c9b6fde375fd5a1b70b8721c90f470481d93",
+        "activeOnsetOffsetSamples": 10472,
+        "activeEndOffsetSamplesExclusive": 389694,
+        "activeBoundsMethod": {
+          "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+          "thresholdPcm16": 74,
+          "windowSamples": 240
+        }
+      },
+      {
+        "id": "S03",
+        "cueFile": "project/public/audio/cues/S03-790d978262ac.wav",
+        "cueSamplesAt48k": 453120,
+        "durationSeconds": 9.44,
+        "cueSha256": "7e5c419f45ac623849c091046c607fad0cc4a3baf0eeb7d3d70d059996eb0ce1",
+        "cuePcmSha256": "ae01eea12c82fb66c1a73d43673ef9df9dc9c8959344f33070dca52e1d86e28d",
+        "activeOnsetOffsetSamples": 10783,
+        "activeEndOffsetSamplesExclusive": 440806,
+        "activeBoundsMethod": {
+          "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+          "thresholdPcm16": 101,
+          "windowSamples": 240
+        }
+      },
+      {
+        "id": "S04",
+        "cueFile": "project/public/audio/cues/S04-2e620ba55e6d.wav",
+        "cueSamplesAt48k": 433920,
+        "durationSeconds": 9.04,
+        "cueSha256": "23b1e64a197519c69d29bd6e291ea183a2b9699f264413131b0290ff936bc2f8",
+        "cuePcmSha256": "9f90e4b930b2895d53085e9588ecf9c60bc9ae3f922f00a9c535a59427e7d84f",
+        "activeOnsetOffsetSamples": 10241,
+        "activeEndOffsetSamplesExclusive": 426697,
+        "activeBoundsMethod": {
+          "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+          "thresholdPcm16": 74,
+          "windowSamples": 240
+        }
+      },
+      {
+        "id": "S05",
+        "cueFile": "project/public/audio/cues/S05-38ec84dbda93.wav",
+        "cueSamplesAt48k": 568320,
+        "durationSeconds": 11.84,
+        "cueSha256": "7d3bcf0a8a761e0e5b99f54b5cda62e0e97d317d22af3d4428596e6c3a3dd8c4",
+        "cuePcmSha256": "9bcf8617e3a1b414c66a56f9c1ff44fb3cd17bb673ee9b89cdcdd9707e1a0e95",
+        "activeOnsetOffsetSamples": 9519,
+        "activeEndOffsetSamplesExclusive": 558943,
+        "activeBoundsMethod": {
+          "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+          "thresholdPcm16": 98,
+          "windowSamples": 240
+        }
+      },
+      {
+        "id": "S06",
+        "cueFile": "project/public/audio/cues/S06-a834fa67ede9.wav",
+        "cueSamplesAt48k": 545280,
+        "durationSeconds": 11.36,
+        "cueSha256": "4d89546865fd1afb072da4ec3896ed80a1706b646cd198da628beb4465192a19",
+        "cuePcmSha256": "446d3f27d932862b7e26c0ce73d9762ddfa14e5f53a27997fead9a0a208e8bdd",
+        "activeOnsetOffsetSamples": 9335,
+        "activeEndOffsetSamplesExclusive": 535788,
+        "activeBoundsMethod": {
+          "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+          "thresholdPcm16": 94,
+          "windowSamples": 240
+        }
+      },
+      {
+        "id": "S07",
+        "cueFile": "project/public/audio/cues/S07-3e9c95b62d01.wav",
+        "cueSamplesAt48k": 307200,
+        "durationSeconds": 6.4,
+        "cueSha256": "e452c20e9d97e7f7677bf44cc22246df22911c4e2db67827b8db8f291e278b0e",
+        "cuePcmSha256": "a1e70fb4a4a4cce7599ff36ea23e2107437046c1312116d999059015b035d042",
+        "activeOnsetOffsetSamples": 10140,
+        "activeEndOffsetSamplesExclusive": 298014,
+        "activeBoundsMethod": {
+          "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+          "thresholdPcm16": 75,
+          "windowSamples": 240
+        }
+      },
+      {
+        "id": "S08",
+        "cueFile": "project/public/audio/cues/S08-44aa1949745e.wav",
+        "cueSamplesAt48k": 391680,
+        "durationSeconds": 8.16,
+        "cueSha256": "f20feb516dcf9107ca86f8f29efda02f7264b1a494d8b513a9369d4e315a981c",
+        "cuePcmSha256": "767f71604033d4dd4add80ddd4d29cc928f425c5b8480287c866eb10ade90b02",
+        "activeOnsetOffsetSamples": 9431,
+        "activeEndOffsetSamplesExclusive": 379420,
+        "activeBoundsMethod": {
+          "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+          "thresholdPcm16": 63,
+          "windowSamples": 240
+        }
+      }
+    ],
+    "eventProfiles": "367cc08d41318e8025a1637ef46ead89f686668b4d4e60c8cbb374446730cda9"
+  },
+  "outputs": {
+    "narration": {
+      "file": "project/public/audio/narration.wav",
+      "sha256": "019e00e006b79ff4eb07deb02de13e071416c708803c32f4808382cabc2084ae",
+      "pcmSha256": "23e33679b3344b8d2eea8548b0b08f97cd2a3ca2ac43568c2d7ad34014bc0551",
+      "sizeBytes": 17280044,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleWidthBytes": 2,
+      "samplesPerChannel": 4320000,
+      "durationSeconds": 90.0,
+      "samplePeakPcm16": 25212
+    },
+    "score": {
+      "file": "project/public/audio/score.wav",
+      "sha256": "7dbe7ce429819deb412a957b9e43fd667b61545c8a34987254de8354ca8453af",
+      "pcmSha256": "ae3eb5826b25fd13791ce410d2bc58a01be4d1cba0e84dc62b3301b6ee8197d3",
+      "sizeBytes": 17280044,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleWidthBytes": 2,
+      "samplesPerChannel": 4320000,
+      "durationSeconds": 90.0,
+      "samplePeakPcm16": 2168,
+      "design": {
+        "description": "Deterministic warm analog oscillators move from a merciful low-frequency bed into a denser, gently detuned CRT phosphor tone field; the score fades before the exact blackout.",
+        "designedOscillatorFrequenciesHz": [
+          55.0,
+          73.42,
+          82.41,
+          92.5,
+          110.0,
+          130.81,
+          146.83,
+          164.81,
+          196.0,
+          220.0,
+          246.94,
+          311.13,
+          392.0
+        ],
+        "tapeWowHz": 0.31,
+        "tapeFlutterHz": 5.2,
+        "voiceDuckDB": -8.0,
+        "voicePreattackMilliseconds": 60,
+        "voiceReleaseMilliseconds": 350,
+        "absoluteSilenceFrames": [
+          4860,
+          4890
+        ],
+        "afterBlackout": "no score; the separately authored warm piano chord is an SFX event beginning at frame 4890",
+        "stereo": "subtle deterministic pan"
+      }
+    },
+    "sfx": {
+      "file": "project/public/audio/sfx.wav",
+      "sha256": "4d6b3a4ca8bfb514779cd5aafd1db509f935249253f38c6c1477d325d7a443ec",
+      "pcmSha256": "49b1ddbd086308af02a305d32b6fce75268b9aea899bce3bd9e2acc9944ddc1c",
+      "sizeBytes": 17280044,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleWidthBytes": 2,
+      "samplesPerChannel": 4320000,
+      "durationSeconds": 90.0,
+      "samplePeakPcm16": 10410,
+      "design": {
+        "description": "Deterministic cassette rewind, vinyl/tape texture, warm filtered chord, relay, CRT high-voltage lock, accumulating feedback, Shepard rise, harmonic peak, power-off snap, and warm piano chord; no third-party assets.",
+        "events": [
+          {
+            "id": "rewind_calibration",
+            "frame": 60,
+            "startFrame": 60,
+            "sampleIndex": 48000,
+            "endSampleExclusive": 201600,
+            "boundaryFrame": null,
+            "durationSeconds": 3.2,
+            "sampleCount": 153600,
+            "kind": "cassette_rewind_calibration",
+            "description": "Tactile cassette rewind with warm vinyl crackle, pierced by a sharp 1000 Hz oscilloscope calibration tone."
+          },
+          {
+            "id": "warm_filtered_chord",
+            "frame": 840,
+            "startFrame": 840,
+            "sampleIndex": 672000,
+            "endSampleExclusive": 883200,
+            "boundaryFrame": null,
+            "durationSeconds": 4.4,
+            "sampleCount": 211200,
+            "kind": "warm_filtered_chord",
+            "description": "Soft acoustic chord, gradually low-pass filtered into a comforting, muffled echo."
+          },
+          {
+            "id": "tape_hiss",
+            "frame": 1500,
+            "startFrame": 1500,
+            "sampleIndex": 1200000,
+            "endSampleExclusive": 1536000,
+            "boundaryFrame": null,
+            "durationSeconds": 7.0,
+            "sampleCount": 336000,
+            "kind": "tape_hiss",
+            "description": "Gentle analog tape hiss that fades away as the magnetic relay engages at frame 1920."
+          },
+          {
+            "id": "magnetic_relay",
+            "frame": 1920,
+            "startFrame": 1920,
+            "sampleIndex": 1536000,
+            "endSampleExclusive": 1593600,
+            "boundaryFrame": null,
+            "durationSeconds": 1.2,
+            "sampleCount": 57600,
+            "kind": "magnetic_relay",
+            "description": "Heavy magnetic relay clack with a short low-frequency lock resonance."
+          },
+          {
+            "id": "hv_phase_lock",
+            "frame": 2160,
+            "startFrame": 2160,
+            "sampleIndex": 1728000,
+            "endSampleExclusive": 1872000,
+            "boundaryFrame": null,
+            "durationSeconds": 3.0,
+            "sampleCount": 144000,
+            "kind": "hv_phase_lock",
+            "description": "Cold high-voltage CRT capacitor whine followed by a razor-sharp phase-lock click."
+          },
+          {
+            "id": "nondecaying_loops",
+            "frame": 2940,
+            "startFrame": 2940,
+            "sampleIndex": 2352000,
+            "endSampleExclusive": 3888000,
+            "boundaryFrame": null,
+            "durationSeconds": 32.0,
+            "sampleCount": 1536000,
+            "kind": "nondecaying_loops",
+            "description": "Overlapping amber feedback loops accumulate without decay and hold until the tube powers off at frame 4860."
+          },
+          {
+            "id": "shepard_tube",
+            "frame": 3900,
+            "startFrame": 3900,
+            "sampleIndex": 3120000,
+            "endSampleExclusive": 3600000,
+            "boundaryFrame": null,
+            "durationSeconds": 10.0,
+            "sampleCount": 480000,
+            "kind": "shepard_tube",
+            "description": "Claustrophobic rising Shepard tone with saturated analog tube distortion and rust-red intensity."
+          },
+          {
+            "id": "harmonic_peak",
+            "frame": 4500,
+            "startFrame": 4500,
+            "sampleIndex": 3600000,
+            "endSampleExclusive": 3888000,
+            "boundaryFrame": null,
+            "durationSeconds": 6.0,
+            "sampleCount": 288000,
+            "kind": "harmonic_peak",
+            "description": "Bright high-frequency harmonic cluster holds at peak tension and clears at the snap boundary."
+          },
+          {
+            "id": "crt_power_off_snap",
+            "frame": 4860,
+            "startFrame": 4859,
+            "sampleIndex": 3887200,
+            "endSampleExclusive": 3888000,
+            "boundaryFrame": 4860,
+            "durationSeconds": 0.016666666666666666,
+            "sampleCount": 800,
+            "kind": "crt_power_off_snap",
+            "description": "One-frame CRT tube power-off snap; attack starts at frame 4859 and ends exactly at sample 3888000, before the 30-frame absolute silence."
+          },
+          {
+            "id": "warm_piano_chord",
+            "frame": 4890,
+            "startFrame": 4890,
+            "sampleIndex": 3912000,
+            "endSampleExclusive": 4320000,
+            "boundaryFrame": null,
+            "durationSeconds": 8.5,
+            "sampleCount": 408000,
+            "kind": "warm_piano_chord",
+            "description": "A single warm, slightly out-of-tune vintage piano chord beginning after the blackout and fading through deterministic room-reverb echoes."
+          }
+        ],
+        "silenceWindowFrames": [
+          4860,
+          4890
+        ],
+        "snapBoundary": {
+          "attackStartFrame": 4859,
+          "anchorFrame": 4860,
+          "endSampleExclusive": 3888000,
+          "transientEndsBeforeSilence": true
+        },
+        "voiceDuckDB": -9.0,
+        "speechIntelligibilityNotch": {
+          "startHz": 1000,
+          "endHz": 4000,
+          "attenuationDB": -12.0,
+          "appliedToEvents": "all events; includes all narration overlaps"
+        },
+        "noiseSource": "fixed xorshift32 seed derived from event ID; no runtime random source",
+        "postBlackout": [
+          "warm_piano_chord"
+        ]
+      }
+    },
+    "master": {
+      "file": "project/public/audio/master.wav",
+      "sha256": "31027b1e34e686b4a3f7a94d778883aef71d02ef60618bbd0136a9c97e92cca4",
+      "pcmSha256": "8a13a0a5985d6d36adfce0c2b4686a826ff5e18213adab1bdd6083880de927e5",
+      "sizeBytes": 17280044,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleWidthBytes": 2,
+      "samplesPerChannel": 4320000,
+      "durationSeconds": 90.0,
+      "samplePeakPcm16": 27608,
+      "strictDecode": "passed",
+      "loudnormFirstPass": {
+        "input_i": "-21.41",
+        "input_tp": "-2.31",
+        "input_lra": "9.30",
+        "input_thresh": "-32.52",
+        "output_i": "-17.17",
+        "output_tp": "-1.80",
+        "output_lra": "7.70",
+        "output_thresh": "-28.00",
+        "normalization_type": "dynamic",
+        "target_offset": "1.17"
+      },
+      "loudnormSecondPass": {
+        "input_i": "-21.41",
+        "input_tp": "-2.31",
+        "input_lra": "9.30",
+        "input_thresh": "-32.52",
+        "output_i": "-16.32",
+        "output_tp": "-1.80",
+        "output_lra": "7.00",
+        "output_thresh": "-27.11",
+        "normalization_type": "dynamic",
+        "target_offset": "0.32"
+      },
+      "ebur128Final": {
+        "integratedLUFS": -16.0,
+        "truePeakDBTP": -1.5
+      },
+      "normalizationTarget": {
+        "integratedLUFS": -16.0,
+        "truePeakDBTP": -1.8,
+        "acceptanceLUFS": [
+          -16.2,
+          -15.8
+        ],
+        "acceptanceTruePeakDBTP": -1.0,
+        "passes": 2
+      },
+      "postLoudnormCalibration": {
+        "gainDB": 0.3,
+        "linearGain": 1.035142166679344,
+        "samplePeakPcm16": 27608,
+        "measuredBefore": {
+          "integratedLUFS": -16.3,
+          "truePeakDBTP": -1.8
+        },
+        "measuredAfter": {
+          "integratedLUFS": -16.0,
+          "truePeakDBTP": -1.5
+        },
+        "method": "linear PCM gain by final measured LUFS difference",
+        "targetIntegratedLUFS": -16.0,
+        "sampleCountPreserved": true,
+        "stemsChanged": false
+      },
+      "absoluteSilence": {
+        "startSample": 3888000,
+        "endSampleExclusive": 3912000,
+        "peakPcm16": 0,
+        "exactZero": true
+      }
+    }
+  },
+  "eventOnsets": [
+    {
+      "id": "rewind_calibration",
+      "frame": 60,
+      "startFrame": 60,
+      "sampleIndex": 48000,
+      "endSampleExclusive": 201600,
+      "boundaryFrame": null,
+      "durationSeconds": 3.2,
+      "sampleCount": 153600,
+      "kind": "cassette_rewind_calibration",
+      "description": "Tactile cassette rewind with warm vinyl crackle, pierced by a sharp 1000 Hz oscilloscope calibration tone."
+    },
+    {
+      "id": "warm_filtered_chord",
+      "frame": 840,
+      "startFrame": 840,
+      "sampleIndex": 672000,
+      "endSampleExclusive": 883200,
+      "boundaryFrame": null,
+      "durationSeconds": 4.4,
+      "sampleCount": 211200,
+      "kind": "warm_filtered_chord",
+      "description": "Soft acoustic chord, gradually low-pass filtered into a comforting, muffled echo."
+    },
+    {
+      "id": "tape_hiss",
+      "frame": 1500,
+      "startFrame": 1500,
+      "sampleIndex": 1200000,
+      "endSampleExclusive": 1536000,
+      "boundaryFrame": null,
+      "durationSeconds": 7.0,
+      "sampleCount": 336000,
+      "kind": "tape_hiss",
+      "description": "Gentle analog tape hiss that fades away as the magnetic relay engages at frame 1920."
+    },
+    {
+      "id": "magnetic_relay",
+      "frame": 1920,
+      "startFrame": 1920,
+      "sampleIndex": 1536000,
+      "endSampleExclusive": 1593600,
+      "boundaryFrame": null,
+      "durationSeconds": 1.2,
+      "sampleCount": 57600,
+      "kind": "magnetic_relay",
+      "description": "Heavy magnetic relay clack with a short low-frequency lock resonance."
+    },
+    {
+      "id": "hv_phase_lock",
+      "frame": 2160,
+      "startFrame": 2160,
+      "sampleIndex": 1728000,
+      "endSampleExclusive": 1872000,
+      "boundaryFrame": null,
+      "durationSeconds": 3.0,
+      "sampleCount": 144000,
+      "kind": "hv_phase_lock",
+      "description": "Cold high-voltage CRT capacitor whine followed by a razor-sharp phase-lock click."
+    },
+    {
+      "id": "nondecaying_loops",
+      "frame": 2940,
+      "startFrame": 2940,
+      "sampleIndex": 2352000,
+      "endSampleExclusive": 3888000,
+      "boundaryFrame": null,
+      "durationSeconds": 32.0,
+      "sampleCount": 1536000,
+      "kind": "nondecaying_loops",
+      "description": "Overlapping amber feedback loops accumulate without decay and hold until the tube powers off at frame 4860."
+    },
+    {
+      "id": "shepard_tube",
+      "frame": 3900,
+      "startFrame": 3900,
+      "sampleIndex": 3120000,
+      "endSampleExclusive": 3600000,
+      "boundaryFrame": null,
+      "durationSeconds": 10.0,
+      "sampleCount": 480000,
+      "kind": "shepard_tube",
+      "description": "Claustrophobic rising Shepard tone with saturated analog tube distortion and rust-red intensity."
+    },
+    {
+      "id": "harmonic_peak",
+      "frame": 4500,
+      "startFrame": 4500,
+      "sampleIndex": 3600000,
+      "endSampleExclusive": 3888000,
+      "boundaryFrame": null,
+      "durationSeconds": 6.0,
+      "sampleCount": 288000,
+      "kind": "harmonic_peak",
+      "description": "Bright high-frequency harmonic cluster holds at peak tension and clears at the snap boundary."
+    },
+    {
+      "id": "crt_power_off_snap",
+      "frame": 4860,
+      "startFrame": 4859,
+      "sampleIndex": 3887200,
+      "endSampleExclusive": 3888000,
+      "boundaryFrame": 4860,
+      "durationSeconds": 0.016666666666666666,
+      "sampleCount": 800,
+      "kind": "crt_power_off_snap",
+      "description": "One-frame CRT tube power-off snap; attack starts at frame 4859 and ends exactly at sample 3888000, before the 30-frame absolute silence."
+    },
+    {
+      "id": "warm_piano_chord",
+      "frame": 4890,
+      "startFrame": 4890,
+      "sampleIndex": 3912000,
+      "endSampleExclusive": 4320000,
+      "boundaryFrame": null,
+      "durationSeconds": 8.5,
+      "sampleCount": 408000,
+      "kind": "warm_piano_chord",
+      "description": "A single warm, slightly out-of-tune vintage piano chord beginning after the blackout and fading through deterministic room-reverb echoes."
+    }
+  ],
+  "absoluteSilence": {
+    "startFrame": 4860,
+    "endFrameExclusive": 4890,
+    "startSample": 3888000,
+    "endSampleExclusive": 3912000,
+    "samplesZeroInAllStemsAndMaster": true,
+    "samplePeakPcm16": 0
+  },
+  "audioTiming": "project/audio-timing.json",
+  "authorization": "project/audio-authorization.json"
+}

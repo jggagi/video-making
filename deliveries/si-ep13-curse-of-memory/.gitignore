@@ -1,0 +1,3 @@
+# Large diagnostic rasters stay local; compact contacts, native crops and all flagged-frame evidence are versioned.
+review/encoded-qa-*/native-frames/
+review/source-*.png

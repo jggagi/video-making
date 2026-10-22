@@ -1,0 +1,30 @@
+{
+  "remotion": "4.0.534",
+  "chrome": "155.0.8059.85",
+  "node": "v24.21.0",
+  "ffmpeg": "8.0.1",
+  "native_dimensions": [
+    2160,
+    3840
+  ],
+  "logical_dimensions": [
+    1080,
+    1920
+  ],
+  "fps": 60,
+  "frames": 5400,
+  "image_format": "png",
+  "concurrency": 2,
+  "browser_executable": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+  "drawing": "Synchronous frame-driven 2D SVG, installed local fonts waited via document.fonts.ready and delayRender",
+  "source_hashes": {
+    "src/Film.tsx": "cfcd996fb3c14dffe20bf4614f0035b632723837756d8d24283090f8075882f8",
+    "src/Geometry.tsx": "92f8512133bc352a974ba23440d0fd8b0be41ca1b16abd3d4cf589e228c03d3e",
+    "src/Root.tsx": "04183e581a12ca3f01452c352c20ef5a679be6b89d2f4698b0fc219fe5cf918c",
+    "audio-timing.json": "ead04ec7578d59f500c8b9571c596268027dd8b0b991232457ae0922fab3dd79",
+    "package-lock.json": "5684400e707665d65b0bbd0b057d2bf2db78c1a923176d17caa6686a7b3658e1"
+  },
+  "master_sha256": "31027b1e34e686b4a3f7a94d778883aef71d02ef60618bbd0136a9c97e92cca4",
+  "font_dependencies": "project/assets-manifest.json",
+  "heavy_job_policy": "One native render at a time; verified AgentDev scratch. No environment installation or upgrade."
+}

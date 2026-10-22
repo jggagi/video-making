@@ -1,0 +1,46 @@
+{
+  "status": "READY_FOR_FULL_RENDER",
+  "native_dimensions": [
+    2160,
+    3840
+  ],
+  "previews": [
+    {
+      "path": "review/motion-120-299.mp4",
+      "sha256": "5e0f4f6ceeecb56a737a55f0abc2aece32d31e3089eaf8ef92af21990abb3111",
+      "frames": 180,
+      "real_master": true
+    },
+    {
+      "path": "review/motion-3900-4019.mp4",
+      "sha256": "28014459a2a2aae0d94d0fa4e069df24b6b4f802d819a6a5b82c45cd344df3ec",
+      "frames": 120,
+      "real_master": true
+    },
+    {
+      "path": "review/motion-4800-4979.mp4",
+      "sha256": "c94b30033b2d71bea29b0c0b103ad134bb83b5474d32595b726a2fe90588d95c",
+      "frames": 180,
+      "real_master": true
+    }
+  ],
+  "transition_scan": {
+    "path": "review/preflight-transition-qc/report.json",
+    "decoded_frames": 180,
+    "flagged_frames": 0
+  },
+  "model_observation": "Viewed encoded 360px contact: readable amber HUD and Chinese subtitles, flat graticule and decay trace; dense amber/bone/rust archival tangle; instantaneous scanline at4860 and gentle waveform after4890. No perspective or 3D distortion observed. Final caption anchor refined to1384px so two-line bounds end1492px <=0.78*1920; supporting lock labels added after previews.",
+  "source_checks": "TypeScript PASS; source-only scan PASS. Source scan does not validate media.",
+  "audio_measurement": {
+    "samples_per_channel": 4320000,
+    "rate": 48000,
+    "channels": 2,
+    "lufs": -16.0,
+    "dbtp": -1.5,
+    "silence_pcm_peak": 0
+  },
+  "human_listening": "NOT_RUN",
+  "continuous_human_viewing": "NOT_RUN",
+  "audience_feedback": "NOT_RUN",
+  "experience_self_assessment": "Memory image: an amber forgetting curve is welded flat; a readable trace is buried under permanent traces; relief arrives only when one imperfect wave can fade. Expected unease then relief; actual audience response unmeasured."
+}

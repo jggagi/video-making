@@ -1,0 +1,77 @@
+{
+  "media_sha256": "7b067593aab3e25d3636aa0caa008ee88ab37de11a2b8fca7f49593ec474e3c7",
+  "roi_normalized_xyxy": [
+    0.13,
+    0.33,
+    0.82,
+    0.65
+  ],
+  "hud_and_captions_excluded": true,
+  "method": "Grayscale edge MAE on same-shot pairs2.5seconds apart; this is a heuristic and not a proof of continuous motion.",
+  "pairs": [
+    {
+      "frames": [
+        180,
+        330
+      ],
+      "seconds_apart": 2.5,
+      "edge_mae_0_255": 2.0737748579545454
+    },
+    {
+      "frames": [
+        780,
+        930
+      ],
+      "seconds_apart": 2.5,
+      "edge_mae_0_255": 2.4355113636363637
+    },
+    {
+      "frames": [
+        1440,
+        1590
+      ],
+      "seconds_apart": 2.5,
+      "edge_mae_0_255": 6.103746448863636
+    },
+    {
+      "frames": [
+        2160,
+        2310
+      ],
+      "seconds_apart": 2.5,
+      "edge_mae_0_255": 2.950941051136364
+    },
+    {
+      "frames": [
+        2940,
+        3090
+      ],
+      "seconds_apart": 2.5,
+      "edge_mae_0_255": 36.12711292613636
+    },
+    {
+      "frames": [
+        3660,
+        3810
+      ],
+      "seconds_apart": 2.5,
+      "edge_mae_0_255": 11.980628551136364
+    },
+    {
+      "frames": [
+        4440,
+        4590
+      ],
+      "seconds_apart": 2.5,
+      "edge_mae_0_255": 2.1658558238636365
+    },
+    {
+      "frames": [
+        4950,
+        5100
+      ],
+      "seconds_apart": 2.5,
+      "edge_mae_0_255": 2.8187855113636364
+    }
+  ]
+}

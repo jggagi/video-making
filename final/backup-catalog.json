@@ -1022,6 +1022,30 @@
       ]
     },
     {
+      "id": "si-ep13-curse-of-memory",
+      "title": "Final 成片备份 · 无法遗忘的诅咒",
+      "release_tag": "final-si-ep13-curse-of-memory-68bddb946d5a",
+      "assets": [
+        {
+          "path": "final/si-ep13-curse-of-memory/小红书/si-ep13-curse-of-memory-xiaohongshu-90s-portrait.mp4",
+          "name": "final--si-ep13-curse-of-memory--deliveries--si-ep13-curse-of-memory-----si-ep13-curse-of-memory-xiaohongshu-90s-portrait--7b067593aab3.mp4",
+          "bytes": 50752467,
+          "sha256": "7b067593aab3e25d3636aa0caa008ee88ab37de11a2b8fca7f49593ec474e3c7",
+          "kind": "video",
+          "platform": "小红书",
+          "measurements": {
+            "width": 2160,
+            "height": 3840,
+            "fps": "60/1",
+            "frames": "5400",
+            "video_duration_seconds": 90.0,
+            "container_duration_seconds": 90.0
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep13-curse-of-memory-68bddb946d5a/final--si-ep13-curse-of-memory--deliveries--si-ep13-curse-of-memory-----si-ep13-curse-of-memory-xiaohongshu-90s-portrait--7b067593aab3.mp4"
+        }
+      ]
+    },
+    {
       "id": "si-eternity",
       "title": "Final 成片备份 · 一眼万年",
       "release_tag": "final-si-eternity-66d480b1c859",

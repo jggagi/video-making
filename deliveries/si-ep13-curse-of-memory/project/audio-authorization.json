@@ -1,0 +1,8 @@
+{
+  "provider": "Aliyun Bailian",
+  "scope": "EP13 S01 through S08 exact prepared tts_phonetic_text",
+  "authorized": true,
+  "source": "Standing video-making voiceover authorization in skills/voiceover/SKILL.md (2026-10-20); current EP13 Task Packet",
+  "voice": "longtian_v3",
+  "text_sha256": "4cc17bf1a69a8d16ad6e904ffe517478cd95d9399a2ada24836f6b6771d3fc30"
+}

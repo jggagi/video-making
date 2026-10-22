@@ -1,0 +1,47 @@
+{
+  "status": "FINAL_REPAIRED_BROWSER_PLAYBACK_AND_SEEK_VERIFIED",
+  "browser": "Codex in-app browser",
+  "player": "watch.html through loopback HTTP Range server",
+  "opening_preview": {
+    "native_dimensions": [
+      2160,
+      3840
+    ],
+    "duration_seconds": 7.019,
+    "ended": true,
+    "readyState": 4,
+    "error": null
+  },
+  "matrix_preview": {
+    "native_dimensions": [
+      2160,
+      3840
+    ],
+    "duration_seconds": 3.008,
+    "ended": true,
+    "error": null
+  },
+  "observations": [
+    "Both sound-bearing previews ended normally.",
+    "Repaired final URL was cache-bound to hash eb2860ac3e8b, started playback, jumped via page control to114seconds, then ended at120seconds. Real player and end image observed; no continuous human watching/listening claimed."
+  ],
+  "human_listening": "NOT_RUN",
+  "continuous_human_review": "NOT_RUN",
+  "target_phone_app": "NOT_RUN",
+  "final_movie_sha256": "eb2860ac3e8b7f02efc6e7862dc38184bad8c7c2176d65ecf0292c3379644d5b",
+  "final_start": {
+    "duration": 120,
+    "currentTime": 0.131932,
+    "paused": false,
+    "readyState": 4,
+    "error": null
+  },
+  "final_end_seek": {
+    "action": "Click page control 跳到片尾 to114seconds, then natural completion",
+    "seek_time": 114.01818,
+    "currentTime": 120,
+    "ended": true,
+    "readyState": 4,
+    "error": null
+  }
+}

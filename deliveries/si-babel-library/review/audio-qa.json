@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "status": "TECHNICAL_AUDIO_CHECKS_PASSED",
+  "duration_seconds": 120,
+  "fps": 60,
+  "sample_rate": 48000,
+  "channels": 2,
+  "samples_per_channel": 5760000,
+  "outputs": {
+    "narration": {
+      "path": "narration.wav",
+      "sha256": "12bbc46e63c4a157947784f7cc2c1c1ada0b42a0ac356e0d45838e5621237693",
+      "bytes": 23040044,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sample_width_bytes": 2,
+      "samples_per_channel": 5760000,
+      "duration_seconds": 120,
+      "sample_peak_pcm16": 26798
+    },
+    "score": {
+      "path": "score.wav",
+      "sha256": "f204db59105f0039874674eea557dafc92946e8491903726f106ac42ad6cdf0f",
+      "bytes": 23040044,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sample_width_bytes": 2,
+      "samples_per_channel": 5760000,
+      "duration_seconds": 120,
+      "sample_peak_pcm16": 3173
+    },
+    "sfx": {
+      "path": "sfx.wav",
+      "sha256": "2bd4f59b25c47791e25931cd2589a58a49285cc63c597354d36224bfb25c8540",
+      "bytes": 23040044,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sample_width_bytes": 2,
+      "samples_per_channel": 5760000,
+      "duration_seconds": 120,
+      "sample_peak_pcm16": 2696
+    },
+    "master": {
+      "path": "master.wav",
+      "sha256": "3b29d93bca233aed4aacf8623a841ebffc84d18d49595f6c88a974aee108a3d0",
+      "bytes": 23040078,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sample_width_bytes": 2,
+      "samples_per_channel": 5760000,
+      "duration_seconds": 120,
+      "sample_peak_pcm16": 26699
+    }
+  },
+  "loudness": {
+    "loudnorm_first_pass": {
+      "input_i": "-21.21",
+      "input_tp": "-1.87",
+      "input_lra": "16.00",
+      "input_thresh": "-33.83",
+      "output_i": "-16.67",
+      "output_tp": "-1.80",
+      "output_lra": "9.80",
+      "output_thresh": "-28.71",
+      "normalization_type": "dynamic",
+      "target_offset": "0.67"
+    },
+    "loudnorm_second_pass": {
+      "input_i": "-21.21",
+      "input_tp": "-1.87",
+      "input_lra": "16.00",
+      "input_thresh": "-33.83",
+      "output_i": "-16.25",
+      "output_tp": "-1.80",
+      "output_lra": "9.60",
+      "output_thresh": "-28.27",
+      "normalization_type": "dynamic",
+      "target_offset": "0.25"
+    },
+    "final_measurement": {
+      "integrated_lufs": -16.2,
+      "true_peak_dbtp": -1.8
+    },
+    "targets": {
+      "integrated_lufs": -16.0,
+      "integrated_lufs_tolerance": 1.0,
+      "loudnorm_true_peak_dbtp": -1.8,
+      "oversampled_limiter_ceiling_dbtp": -1.5,
+      "accepted_true_peak_max_dbtp": -1.0,
+      "oversample_rate_hz": 192000
+    }
+  },
+  "human_listening": "NOT_RUN",
+  "acceptance_judgment": "NOT_RECORDED"
+}

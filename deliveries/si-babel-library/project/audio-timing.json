@@ -1,0 +1,452 @@
+{
+  "schema_version": 1,
+  "duration_seconds": 120,
+  "fps": 60,
+  "sample_rate": 48000,
+  "samples_per_channel": 5760000,
+  "caption_alignment": "estimated character-weighted timing across measured active PCM; not ASR or forced alignment",
+  "active_bounds_method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+  "segments": [
+    {
+      "id": "S01",
+      "startFrame": 30,
+      "endFrame": 600,
+      "cueStartSample": 24000,
+      "cueEndSampleExclusive": 308160,
+      "voiceStartSample": 33614,
+      "voiceEndSampleExclusive": 298100,
+      "voiceStartFrame": 42.0175,
+      "voiceEndFrame": 372.625,
+      "measuredSamples": 284160,
+      "cueSha256": "7c9774e770cc47700e9524124c55f6e70395ab04ff5c1365977d6a435e92c3a4",
+      "activeBoundsMethod": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 68,
+        "windowSamples": 240
+      }
+    },
+    {
+      "id": "S02",
+      "startFrame": 660,
+      "endFrame": 1320,
+      "cueStartSample": 528000,
+      "cueEndSampleExclusive": 842880,
+      "voiceStartSample": 537545,
+      "voiceEndSampleExclusive": 833560,
+      "voiceStartFrame": 671.93125,
+      "voiceEndFrame": 1041.95,
+      "measuredSamples": 314880,
+      "cueSha256": "3f8360af2514ffe3302ed9b4b122ab208171af5c935a89eff6dd41e5e8c6a0b7",
+      "activeBoundsMethod": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 83,
+        "windowSamples": 240
+      }
+    },
+    {
+      "id": "S03",
+      "startFrame": 1380,
+      "endFrame": 1980,
+      "cueStartSample": 1104000,
+      "cueEndSampleExclusive": 1415040,
+      "voiceStartSample": 1113937,
+      "voiceEndSampleExclusive": 1402490,
+      "voiceStartFrame": 1392.42125,
+      "voiceEndFrame": 1753.1125,
+      "measuredSamples": 311040,
+      "cueSha256": "c52ca36a4bc8d72f5b7cf581c93b505237d0c477f905c423ce046c1313957d1c",
+      "activeBoundsMethod": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 83,
+        "windowSamples": 240
+      }
+    },
+    {
+      "id": "S04",
+      "startFrame": 2040,
+      "endFrame": 2820,
+      "cueStartSample": 1632000,
+      "cueEndSampleExclusive": 2077440,
+      "voiceStartSample": 1642140,
+      "voiceEndSampleExclusive": 2074604,
+      "voiceStartFrame": 2052.675,
+      "voiceEndFrame": 2593.255,
+      "measuredSamples": 445440,
+      "cueSha256": "cf3e3b5c52f6c2e517507af8f08a79ecf912ef3237f9e83df5ab1457394fdee3",
+      "activeBoundsMethod": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 73,
+        "windowSamples": 240
+      }
+    },
+    {
+      "id": "S05",
+      "startFrame": 2880,
+      "endFrame": 3480,
+      "cueStartSample": 2304000,
+      "cueEndSampleExclusive": 2741760,
+      "voiceStartSample": 2313939,
+      "voiceEndSampleExclusive": 2731481,
+      "voiceStartFrame": 2892.42375,
+      "voiceEndFrame": 3414.35125,
+      "measuredSamples": 437760,
+      "cueSha256": "cc8638dd78fafdac0db4cd594e7e101e1bcf33ceafc10c20aa6b1a3f8c2d56b9",
+      "activeBoundsMethod": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 93,
+        "windowSamples": 240
+      }
+    },
+    {
+      "id": "S06",
+      "startFrame": 3540,
+      "endFrame": 4200,
+      "cueStartSample": 2832000,
+      "cueEndSampleExclusive": 3250560,
+      "voiceStartSample": 2842317,
+      "voiceEndSampleExclusive": 3242685,
+      "voiceStartFrame": 3552.89625,
+      "voiceEndFrame": 4053.35625,
+      "measuredSamples": 418560,
+      "cueSha256": "1cd62f97d58e23e489b5a29f7740b16ce07fab58057af05b658a6d32615a8c08",
+      "activeBoundsMethod": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 85,
+        "windowSamples": 240
+      }
+    },
+    {
+      "id": "S07",
+      "startFrame": 4260,
+      "endFrame": 4980,
+      "cueStartSample": 3408000,
+      "cueEndSampleExclusive": 3730560,
+      "voiceStartSample": 3418099,
+      "voiceEndSampleExclusive": 3717196,
+      "voiceStartFrame": 4272.62375,
+      "voiceEndFrame": 4646.495,
+      "measuredSamples": 322560,
+      "cueSha256": "924b952027261dd3dfc6f67406e49341db5eb10f55a37601c37c9c27b2700dc4",
+      "activeBoundsMethod": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 82,
+        "windowSamples": 240
+      }
+    },
+    {
+      "id": "S08",
+      "startFrame": 5040,
+      "endFrame": 5520,
+      "cueStartSample": 4032000,
+      "cueEndSampleExclusive": 4362240,
+      "voiceStartSample": 4041819,
+      "voiceEndSampleExclusive": 4352400,
+      "voiceStartFrame": 5052.27375,
+      "voiceEndFrame": 5440.5,
+      "measuredSamples": 330240,
+      "cueSha256": "fc4dee24ee0d73fe7102ac1266993af65b3580f31e3c1d5deef966097e58c448",
+      "activeBoundsMethod": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 79,
+        "windowSamples": 240
+      }
+    },
+    {
+      "id": "S09",
+      "startFrame": 5520,
+      "endFrame": 6720,
+      "cueStartSample": 4416000,
+      "cueEndSampleExclusive": 5295360,
+      "voiceStartSample": 4426467,
+      "voiceEndSampleExclusive": 5289376,
+      "voiceStartFrame": 5533.08375,
+      "voiceEndFrame": 6611.72,
+      "measuredSamples": 879360,
+      "cueSha256": "e9abe4e2432004007250a6a48e14a42ab9588c2867e6eb04b4800c107f898c79",
+      "activeBoundsMethod": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 107,
+        "windowSamples": 240
+      }
+    },
+    {
+      "id": "S10",
+      "startFrame": 6780,
+      "endFrame": 7140,
+      "cueStartSample": 5424000,
+      "cueEndSampleExclusive": 5635200,
+      "voiceStartSample": 5434444,
+      "voiceEndSampleExclusive": 5624606,
+      "voiceStartFrame": 6793.055,
+      "voiceEndFrame": 7030.7575,
+      "measuredSamples": 211200,
+      "cueSha256": "0dcff3351405c923ba3758e0ce993e413c2e959c880261d8fd001d6d886a6518",
+      "activeBoundsMethod": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 65,
+        "windowSamples": 240
+      }
+    }
+  ],
+  "captions": [
+    {
+      "segmentId": "S01",
+      "startFrame": 42,
+      "endFrame": 133,
+      "text": "你还没出生，",
+      "alignment": "estimated_character_weighted_within_measured_active_pcm; not ASR or forced alignment"
+    },
+    {
+      "segmentId": "S01",
+      "startFrame": 133,
+      "endFrame": 238,
+      "text": "你一生的灵感，",
+      "alignment": "estimated_character_weighted_within_measured_active_pcm; not ASR or forced alignment"
+    },
+    {
+      "segmentId": "S01",
+      "startFrame": 238,
+      "endFrame": 373,
+      "text": "就已经被编好了号。",
+      "alignment": "estimated_character_weighted_within_measured_active_pcm; not ASR or forced alignment"
+    },
+    {
+      "segmentId": "S02",
+      "startFrame": 671,
+      "endFrame": 806,
+      "text": "你第一次心动写下的句子，",
+      "alignment": "estimated_character_weighted_within_measured_active_pcm; not ASR or forced alignment"
+    },
+    {
+      "segmentId": "S02",
+      "startFrame": 806,
+      "endFrame": 907,
+      "text": "失眠时哼出的旋律，",
+      "alignment": "estimated_character_weighted_within_measured_active_pcm; not ASR or forced alignment"
+    },
+    {
+      "segmentId": "S02",
+      "startFrame": 907,
+      "endFrame": 1042,
+      "text": "还有那抹只有你才懂的蓝。",
+      "alignment": "estimated_character_weighted_within_measured_active_pcm; not ASR or forced alignment"
+    },
+    {
+      "segmentId": "S03",
+      "startFrame": 1392,
+      "endFrame": 1480,
+      "text": "在巴别图书馆里，",
+      "alignment": "estimated_character_weighted_within_measured_active_pcm; not ASR or forced alignment"
+    },
+    {
+      "segmentId": "S03",
+      "startFrame": 1480,
+      "endFrame": 1589,
+      "text": "它们早就躺在某一页，",
+      "alignment": "estimated_character_weighted_within_measured_active_pcm; not ASR or forced alignment"
+    },
+    {
+      "segmentId": "S03",
+      "startFrame": 1589,
+      "endFrame": 1677,
+      "text": "等着你以为自己，",
+      "alignment": "estimated_character_weighted_within_measured_active_pcm; not ASR or forced alignment"
+    },
+    {
+      "segmentId": "S03",
+      "startFrame": 1677,
+      "endFrame": 1754,
+      "text": "终于创造了它。",
+      "alignment": "estimated_character_weighted_within_measured_active_pcm; not ASR or forced alignment"
+    },
+    {
+      "segmentId": "S04",
+      "startFrame": 2052,
+      "endFrame": 2224,
+      "text": "博尔赫斯想象过一座图书馆，",
+      "alignment": "estimated_character_weighted_within_measured_active_pcm; not ASR or forced alignment"
+    },
+    {
+      "segmentId": "S04",
+      "startFrame": 2224,
+      "endFrame": 2382,
+      "text": "容纳所有可能的文字组合。",
+      "alignment": "estimated_character_weighted_within_measured_active_pcm; not ASR or forced alignment"
+    },
+    {
+      "segmentId": "S04",
+      "startFrame": 2382,
+      "endFrame": 2449,
+      "text": "所有杰作，",
+      "alignment": "estimated_character_weighted_within_measured_active_pcm; not ASR or forced alignment"
+    },
+    {
+      "segmentId": "S04",
+      "startFrame": 2449,
+      "endFrame": 2594,
+      "text": "与无尽乱码，混在一起。",
+      "alignment": "estimated_character_weighted_within_measured_active_pcm; not ASR or forced alignment"
+    },
+    {
+      "segmentId": "S05",
+      "startFrame": 2892,
+      "endFrame": 3075,
+      "text": "一段三分钟的旋律，一幅画，",
+      "alignment": "estimated_character_weighted_within_measured_active_pcm; not ASR or forced alignment"
+    },
+    {
+      "segmentId": "S05",
+      "startFrame": 3075,
+      "endFrame": 3245,
+      "text": "固定长度和数字精度以后，",
+      "alignment": "estimated_character_weighted_within_measured_active_pcm; not ASR or forced alignment"
+    },
+    {
+      "segmentId": "S05",
+      "startFrame": 3245,
+      "endFrame": 3415,
+      "text": "可能的组合，都是有限的。",
+      "alignment": "estimated_character_weighted_within_measured_active_pcm; not ASR or forced alignment"
+    },
+    {
+      "segmentId": "S06",
+      "startFrame": 3552,
+      "endFrame": 3681,
+      "text": "有限，不等于算得完。",
+      "alignment": "estimated_character_weighted_within_measured_active_pcm; not ASR or forced alignment"
+    },
+    {
+      "segmentId": "S06",
+      "startFrame": 3681,
+      "endFrame": 3797,
+      "text": "现实中的组合空间，",
+      "alignment": "estimated_character_weighted_within_measured_active_pcm; not ASR or forced alignment"
+    },
+    {
+      "segmentId": "S06",
+      "startFrame": 3797,
+      "endFrame": 3888,
+      "text": "大得难以想象。",
+      "alignment": "estimated_character_weighted_within_measured_active_pcm; not ASR or forced alignment"
+    },
+    {
+      "segmentId": "S06",
+      "startFrame": 3888,
+      "endFrame": 4054,
+      "text": "但现在，进入一个科幻设定。",
+      "alignment": "estimated_character_weighted_within_measured_active_pcm; not ASR or forced alignment"
+    },
+    {
+      "segmentId": "S07",
+      "startFrame": 4272,
+      "endFrame": 4350,
+      "text": "假如超级智能，",
+      "alignment": "estimated_character_weighted_within_measured_active_pcm; not ASR or forced alignment"
+    },
+    {
+      "segmentId": "S07",
+      "startFrame": 4350,
+      "endFrame": 4428,
+      "text": "只用零点五秒，",
+      "alignment": "estimated_character_weighted_within_measured_active_pcm; not ASR or forced alignment"
+    },
+    {
+      "segmentId": "S07",
+      "startFrame": 4428,
+      "endFrame": 4559,
+      "text": "就列完了人类未来一万年，",
+      "alignment": "estimated_character_weighted_within_measured_active_pcm; not ASR or forced alignment"
+    },
+    {
+      "segmentId": "S07",
+      "startFrame": 4559,
+      "endFrame": 4647,
+      "text": "所有动听的旋律。",
+      "alignment": "estimated_character_weighted_within_measured_active_pcm; not ASR or forced alignment"
+    },
+    {
+      "segmentId": "S08",
+      "startFrame": 5052,
+      "endFrame": 5177,
+      "text": "你为一个音符熬过的夜，",
+      "alignment": "estimated_character_weighted_within_measured_active_pcm; not ASR or forced alignment"
+    },
+    {
+      "segmentId": "S08",
+      "startFrame": 5177,
+      "endFrame": 5235,
+      "text": "在它那里，",
+      "alignment": "estimated_character_weighted_within_measured_active_pcm; not ASR or forced alignment"
+    },
+    {
+      "segmentId": "S08",
+      "startFrame": 5235,
+      "endFrame": 5383,
+      "text": "只是翻到十万亿册目录中的，",
+      "alignment": "estimated_character_weighted_within_measured_active_pcm; not ASR or forced alignment"
+    },
+    {
+      "segmentId": "S08",
+      "startFrame": 5383,
+      "endFrame": 5441,
+      "text": "某个编号。",
+      "alignment": "estimated_character_weighted_within_measured_active_pcm; not ASR or forced alignment"
+    },
+    {
+      "segmentId": "S09",
+      "startFrame": 5533,
+      "endFrame": 5790,
+      "text": "你终于画下最后一笔。",
+      "alignment": "estimated_character_weighted_within_measured_active_pcm; not ASR or forced alignment"
+    },
+    {
+      "segmentId": "S09",
+      "startFrame": 5790,
+      "endFrame": 6046,
+      "text": "屏幕却只弹出三个字：",
+      "alignment": "estimated_character_weighted_within_measured_active_pcm; not ASR or forced alignment"
+    },
+    {
+      "segmentId": "S09",
+      "startFrame": 6046,
+      "endFrame": 6150,
+      "text": "已收录。",
+      "alignment": "estimated_character_weighted_within_measured_active_pcm; not ASR or forced alignment"
+    },
+    {
+      "segmentId": "S09",
+      "startFrame": 6150,
+      "endFrame": 6356,
+      "text": "连你此刻的震惊，",
+      "alignment": "estimated_character_weighted_within_measured_active_pcm; not ASR or forced alignment"
+    },
+    {
+      "segmentId": "S09",
+      "startFrame": 6356,
+      "endFrame": 6612,
+      "text": "都像早已写好的情节。",
+      "alignment": "estimated_character_weighted_within_measured_active_pcm; not ASR or forced alignment"
+    },
+    {
+      "segmentId": "S10",
+      "startFrame": 6793,
+      "endFrame": 6865,
+      "text": "如果所有的美，",
+      "alignment": "estimated_character_weighted_within_measured_active_pcm; not ASR or forced alignment"
+    },
+    {
+      "segmentId": "S10",
+      "startFrame": 6865,
+      "endFrame": 6948,
+      "text": "都已被提前写完，",
+      "alignment": "estimated_character_weighted_within_measured_active_pcm; not ASR or forced alignment"
+    },
+    {
+      "segmentId": "S10",
+      "startFrame": 6948,
+      "endFrame": 7031,
+      "text": "你还愿意创造吗？",
+      "alignment": "estimated_character_weighted_within_measured_active_pcm; not ASR or forced alignment"
+    }
+  ]
+}

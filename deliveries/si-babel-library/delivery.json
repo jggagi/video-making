@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "title": "巴别图书馆的尽头",
+  "slug": "si-babel-library",
+  "platforms": [
+    "xiaohongshu"
+  ],
+  "duration_seconds": 120,
+  "fps": 60,
+  "total_frames": 7200,
+  "script": {
+    "path": "source/script.md",
+    "sha256": "7ec15b50ea092efdeaaff2c341c4e56d0d024c16c6531c7dbf12a3b18352139a"
+  },
+  "audio": {
+    "mode": "narrated",
+    "master": "project/public/audio/master.wav",
+    "master_sha256": "3b29d93bca233aed4aacf8623a841ebffc84d18d49595f6c88a974aee108a3d0",
+    "narration_provider": "Aliyun Bailian",
+    "effective_model": "cosyvoice-v3-flash",
+    "voice": "longtian_v3",
+    "integrated_lufs": -16.2,
+    "true_peak_dbtp": -1.8,
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples_per_channel": 5760000
+  },
+  "outputs": {
+    "xiaohongshu": {
+      "path": "小红书/si-babel-library-xiaohongshu-120s-portrait.mp4",
+      "width": 2160,
+      "height": 3840
+    }
+  },
+  "qa": {
+    "automated": "PASS",
+    "representative_frames": "MODEL_OBSERVED",
+    "continuous_human_review": "NOT_RUN",
+    "target_device_playback": "NOT_RUN",
+    "human_listening": "NOT_RUN",
+    "browser_preview_playback": "PASS",
+    "browser_final_playback": "PASS",
+    "local_final": "PASS",
+    "github_film_archive": "PENDING",
+    "github_final_backup": "PENDING",
+    "final_restore_probe": "PENDING"
+  },
+  "visual_qc": {
+    "required": true,
+    "reports": {
+      "xiaohongshu": "review/visual-qc-xiaohongshu/report.json"
+    }
+  },
+  "final_movie_sha256": "eb2860ac3e8b7f02efc6e7862dc38184bad8c7c2176d65ecf0292c3379644d5b"
+}

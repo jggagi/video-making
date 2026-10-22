@@ -8,12 +8,18 @@ short films in this workspace, and future films produced with
 to this repository as part of completing a film. It does not authorize posting
 to B站/小红书 accounts or changing repository visibility/settings.
 
-- Use `skills/dual-platform-video/SKILL.md` for new script-to-video work. Both new
-  platform editions default to 120 seconds and native 4K: 3840x2160 for B站 and
-  2160x3840 for 小红书. Share assets, voiceover, PCM master and timeline; change
-  layout without repeating generation calls. Explicit project settings override
-  defaults; historical films keep their original dimensions, durations and versions.
-- New works go in `deliveries/<work-version>/`, with `B站/` and `小红书/` outputs,
+- Use `skills/dual-platform-video/SKILL.md` for new script-to-video work. Q's
+  2026-10-22 instruction overrides its dual-platform default: produce only
+  小红书, native portrait 4K (2160x3840), default 120 seconds unless the current
+  brief specifies otherwise. Initialize with `--platforms xiaohongshu` and keep
+  the manifest, rendering, QA and archive limited to that platform. An explicit
+  future request may add another platform; preserve historical editions.
+- Optimize new films for 小红书 discovery and watching: align cover, title,
+  first narration and opening three seconds around one clear emotional hook;
+  use mobile-readable composition and an experiential story with a memorable
+  image. Treat “爆款” as the creative goal, never as a promised result. Account
+  publication still requires separate authorization.
+- New works go in `deliveries/<work-version>/`, with `小红书/` outputs,
   source script, editable `project/`, and `review/` evidence. Preserve old work.
 - Q wants all finished videos in the root `final/` folder, classified by work,
   version and platform. After updating `archive/catalog.json`, run

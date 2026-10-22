@@ -1,0 +1,82 @@
+{
+  "status": "PASS",
+  "bad_frame_zero_based": 4698,
+  "method": "Fresh Remotion PNG of exact absolute source frame4698; FFmpeg full-frame replacement at eq(n,4698), full H264 reencode. No adjacent-frame substitution, interpolation or frame deletion.",
+  "frame_index_filter_check": {
+    "eq_n_2_affected_zero_based_frames": [
+      2
+    ]
+  },
+  "failed_movie": "review/candidate-02-capture-rejected/capture-fault-4698.mp4",
+  "failed_movie_sha256": "2c8a8f1995e02bbb771031529aea184f8b59fe3d3a0ab1db3c88ad5b51c83400",
+  "original_video_track_sha256": "d07b83e1e1af819c20de1c2917d18f38c3dd7a4872ba0a7bea3a980ff3665922",
+  "native_redraw": {
+    "path": "review/source-4698.png",
+    "sha256": "6d86ba4c78cc1a2882875ed5e0a9ca5e45a94854f85564dfe7c5164570ed776f",
+    "dimensions": [
+      2160,
+      3840
+    ]
+  },
+  "new_video_track_sha256": "553a0e5cf0f43fa063af48e8f15d26278611e6f3bdc1030166a9d6cffe00e75e",
+  "total_frames": 7200,
+  "duration_seconds": 120,
+  "frame_rate": 60,
+  "source_code_hashes": [
+    {
+      "path": "src/Film.tsx",
+      "sha256": "cdbdc05445cb6572565a4a8ad27559594f4824e02c0a79843e96c92776de2ab4"
+    },
+    {
+      "path": "src/Geometry.tsx",
+      "sha256": "d852a32af2e145ac71c6849dbf2571621ceaa6e88ab6b2fe8d6fe3a860476da8"
+    },
+    {
+      "path": "src/Root.tsx",
+      "sha256": "8b73f7c9a9d62674e038014cc3189495e88756200119fa9dd96035a865dd12c4"
+    },
+    {
+      "path": "src/index.ts",
+      "sha256": "a58f804bf74bab68b4549aa5c715eb4a89ec5835206d198fc79b462b4fc71ef9"
+    },
+    {
+      "path": "scripts/build_audio.py",
+      "sha256": "e5ec1a4eacc60f83658258b4ec152d104e61d2b132c7af636cdef8741c0fe21a"
+    },
+    {
+      "path": "scripts/render.mjs",
+      "sha256": "841459f9147a06bf118f5e15dc6ab7bdeb0e586cac00163d1147fff4b7057bf0"
+    },
+    {
+      "path": "scripts/synthesize.py",
+      "sha256": "7966f41a3d6f920876c841051eae33c1094a52aa4314b648e8727cb1d9fdfbac"
+    },
+    {
+      "path": "segments.json",
+      "sha256": "0b85c09bab150ef5065d4dbd64b7d2647b530ef65c1253ba1238c09667a843ee"
+    },
+    {
+      "path": "timeline.json",
+      "sha256": "5de36394616e3bf21e87da8cfdda5a735968426c7bce95eda6c6197168363a90"
+    },
+    {
+      "path": "audio-timing.json",
+      "sha256": "066f84b55abdae5ce8aa487e26cc5e8c09565d23484e6aeddd8a2aecab7d20b1"
+    }
+  ],
+  "final_rescan": {
+    "path": "review/visual-qc-xiaohongshu/report.json",
+    "sha256": "dc32a662be12dc991f6fefdbcbde64d81e997f5f3cf0595d4a9dcc00539b7b0c",
+    "decoded_frames": 7200,
+    "flagged_frames": 0,
+    "movie_sha256": "eb2860ac3e8b7f02efc6e7862dc38184bad8c7c2176d65ecf0292c3379644d5b"
+  },
+  "final_movie_sha256": "eb2860ac3e8b7f02efc6e7862dc38184bad8c7c2176d65ecf0292c3379644d5b",
+  "repair_script_sha256": "a1c27470c334c588b8b46bfd7ea3d8233eab7ca1184245875d214ae9cf195f42",
+  "encoded_redraw_comparison": {
+    "rgb_mae": 1.6240337657536008,
+    "threshold": 3,
+    "evidence": "review/repair-neighbors/contact.jpg",
+    "sha256": "fc16886eebdfe485834519665cf2afb3cbbb7d1090f452d0728d45eb6f74d893"
+  }
+}

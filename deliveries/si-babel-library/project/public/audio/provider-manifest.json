@@ -1,0 +1,531 @@
+{
+  "version": 1,
+  "settings": {
+    "provider": "Aliyun Bailian",
+    "model_selection": "active profile default",
+    "effective_model": "cosyvoice-v3-flash",
+    "voice": "longtian_v3",
+    "rate": 1.0,
+    "format": "wav",
+    "sample_rate": 24000
+  },
+  "authorization": {
+    "manifest": "project/audio-authorization.json",
+    "sha256AtInvocation": "5e728889dd8e7551702a862e9930019ab416303c22705274c4b132059f4f8b76",
+    "scope": "si-babel-library S01 through S10 exact prepared tts_phonetic_text",
+    "source": "Direct user approval in current chat: 允许本片10段配音 (2026-10-22); prepared S01-S10 sent only to Aliyun Bailian longtian_v3"
+  },
+  "segments": {
+    "S01": {
+      "cache_key": "4ddb91f0d038abde9a6ce0387577b330edabe4aee3ad2a53de5404b039c0f098",
+      "tts_phonetic_text": "你还没出生，你一生的灵感，就已经被编好了号。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 142080,
+      "actual_samples_48k": 284160,
+      "duration_seconds": 5.92,
+      "declared_start_frame": 30,
+      "declared_end_frame": 600,
+      "cue_start_sample": 24000,
+      "cue_end_sample_exclusive": 308160,
+      "voice_start_sample": 33614,
+      "voice_end_sample": 298100,
+      "active_onset_offset_samples": 9614,
+      "active_end_offset_samples_exclusive": 274100,
+      "active_span_samples": 264486,
+      "fits_complete_cue_window": true,
+      "complete_cue_overrun_samples": 0,
+      "overlaps_previous_active_speech": [],
+      "fit_reasons": [],
+      "placement": "full untrimmed cue at declared start frame",
+      "active_bounds_method": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 68,
+        "windowSamples": 240
+      },
+      "pcm_sha256_24k": "d25abb20dfc82098f11e84fea1701fe1ed9d0d5512260ea0cd903caa5bb213f4",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S01-4ddb91f0d038.wav",
+      "raw_sha256": "3aa866d14251ab80c71900a67d72dd1c3266a156538cc86734a07601f013b6af",
+      "canonical_path": "public/audio/canonical/S01-4ddb91f0d038.wav",
+      "canonical_sha256": "0a0f92141526f77a088a1819d08647c092c95b28057fefd80fa0baa3d22c8cd0",
+      "cue_path": "public/audio/cues/S01-4ddb91f0d038.wav",
+      "cue_sha256": "7c9774e770cc47700e9524124c55f6e70395ab04ff5c1365977d6a435e92c3a4",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S02": {
+      "cache_key": "cd04f8f808bda48aa33a77df8da9bf79d40220fb5ab81cdb1034e4f07fc7ac30",
+      "tts_phonetic_text": "你第一次心动写下的句子，失眠时哼出的旋律，还有那抹只有你才懂的蓝。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 157440,
+      "actual_samples_48k": 314880,
+      "duration_seconds": 6.56,
+      "declared_start_frame": 660,
+      "declared_end_frame": 1320,
+      "cue_start_sample": 528000,
+      "cue_end_sample_exclusive": 842880,
+      "voice_start_sample": 537545,
+      "voice_end_sample": 833560,
+      "active_onset_offset_samples": 9545,
+      "active_end_offset_samples_exclusive": 305560,
+      "active_span_samples": 296015,
+      "fits_complete_cue_window": true,
+      "complete_cue_overrun_samples": 0,
+      "overlaps_previous_active_speech": [],
+      "fit_reasons": [],
+      "placement": "full untrimmed cue at declared start frame",
+      "active_bounds_method": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 83,
+        "windowSamples": 240
+      },
+      "pcm_sha256_24k": "2fb41738e6c5b6b6ed307b5efa095e78dedb07938fb4875880462f1ff1f570e8",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S02-cd04f8f808bd.wav",
+      "raw_sha256": "d94d58d6ac7ea551aacdf6c0738fc700ba63de68ffa57efda155df3ba907fdab",
+      "canonical_path": "public/audio/canonical/S02-cd04f8f808bd.wav",
+      "canonical_sha256": "b671389edf1596605fcecdcd289d29c31c2695b04895e3e486768574ad3d22e3",
+      "cue_path": "public/audio/cues/S02-cd04f8f808bd.wav",
+      "cue_sha256": "3f8360af2514ffe3302ed9b4b122ab208171af5c935a89eff6dd41e5e8c6a0b7",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S03": {
+      "cache_key": "18d15c46144ba7f29aa04fbb893384551c8f3de9f14f4af1449d0dd24f9860d8",
+      "tts_phonetic_text": "在巴别图书馆里，它们早就躺在某一页，等着你以为自己，终于创造了它。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 155520,
+      "actual_samples_48k": 311040,
+      "duration_seconds": 6.48,
+      "declared_start_frame": 1380,
+      "declared_end_frame": 1980,
+      "cue_start_sample": 1104000,
+      "cue_end_sample_exclusive": 1415040,
+      "voice_start_sample": 1113937,
+      "voice_end_sample": 1402490,
+      "active_onset_offset_samples": 9937,
+      "active_end_offset_samples_exclusive": 298490,
+      "active_span_samples": 288553,
+      "fits_complete_cue_window": true,
+      "complete_cue_overrun_samples": 0,
+      "overlaps_previous_active_speech": [],
+      "fit_reasons": [],
+      "placement": "full untrimmed cue at declared start frame",
+      "active_bounds_method": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 83,
+        "windowSamples": 240
+      },
+      "pcm_sha256_24k": "875b04353e70b94511dbdc5c252b70a8856aa5cbfb27b8c27f54455d870d3013",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S03-18d15c46144b.wav",
+      "raw_sha256": "a64c3192dfa1ca06e096ae887fe31f52ccca71989ae966c5254a5a0a41281171",
+      "canonical_path": "public/audio/canonical/S03-18d15c46144b.wav",
+      "canonical_sha256": "845e342d3eac8201ca3b73c1563fa0a532f7628538c50273356d982e8cc04e22",
+      "cue_path": "public/audio/cues/S03-18d15c46144b.wav",
+      "cue_sha256": "c52ca36a4bc8d72f5b7cf581c93b505237d0c477f905c423ce046c1313957d1c",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S04": {
+      "cache_key": "16c23bc5d5d8cdbf553dd5a060739083c03fe33ee3c6f2128d4c5930823501ef",
+      "tts_phonetic_text": "博尔赫斯想象过一座图书馆，容纳所有可能的文字组合。所有杰作，与无尽乱码，混在一起。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 222720,
+      "actual_samples_48k": 445440,
+      "duration_seconds": 9.28,
+      "declared_start_frame": 2040,
+      "declared_end_frame": 2820,
+      "cue_start_sample": 1632000,
+      "cue_end_sample_exclusive": 2077440,
+      "voice_start_sample": 1642140,
+      "voice_end_sample": 2074604,
+      "active_onset_offset_samples": 10140,
+      "active_end_offset_samples_exclusive": 442604,
+      "active_span_samples": 432464,
+      "fits_complete_cue_window": true,
+      "complete_cue_overrun_samples": 0,
+      "overlaps_previous_active_speech": [],
+      "fit_reasons": [],
+      "placement": "full untrimmed cue at declared start frame",
+      "active_bounds_method": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 73,
+        "windowSamples": 240
+      },
+      "pcm_sha256_24k": "4a5b05dfcf782b9e35fde07ac973381d61cbcd0482a088126f724438bd11505c",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S04-16c23bc5d5d8.wav",
+      "raw_sha256": "829ec76fea6a9403d5b65edf3729779be158388eed72bdbd6b7644918be5c855",
+      "canonical_path": "public/audio/canonical/S04-16c23bc5d5d8.wav",
+      "canonical_sha256": "61a8c66514bbf84a3e08ad78db1b12294beb89eb428664e396e4a8d77c04ee81",
+      "cue_path": "public/audio/cues/S04-16c23bc5d5d8.wav",
+      "cue_sha256": "cf3e3b5c52f6c2e517507af8f08a79ecf912ef3237f9e83df5ab1457394fdee3",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S05": {
+      "cache_key": "31204ad27f818041d8a40c7d1227cb2f6ccb1681798ad05d4d31247972533967",
+      "tts_phonetic_text": "一段三分钟的旋律，一幅画，固定长度和数字精度以后，可能的组合，都是有限的。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 218880,
+      "actual_samples_48k": 437760,
+      "duration_seconds": 9.12,
+      "declared_start_frame": 2880,
+      "declared_end_frame": 3480,
+      "cue_start_sample": 2304000,
+      "cue_end_sample_exclusive": 2741760,
+      "voice_start_sample": 2313939,
+      "voice_end_sample": 2731481,
+      "active_onset_offset_samples": 9939,
+      "active_end_offset_samples_exclusive": 427481,
+      "active_span_samples": 417542,
+      "fits_complete_cue_window": true,
+      "complete_cue_overrun_samples": 0,
+      "overlaps_previous_active_speech": [],
+      "fit_reasons": [],
+      "placement": "full untrimmed cue at declared start frame",
+      "active_bounds_method": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 93,
+        "windowSamples": 240
+      },
+      "pcm_sha256_24k": "91fa4d06f57bc68404e06be2154e4ce026e9a4962b30acaa82a979c6d35d2360",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S05-31204ad27f81.wav",
+      "raw_sha256": "a95047f717c3c1e974260327c943bcf7cc6c062f631f91fa69d3437dd3040d83",
+      "canonical_path": "public/audio/canonical/S05-31204ad27f81.wav",
+      "canonical_sha256": "b7183c3f76008003a247f42855c2d4c2d988784e17fb8c9591a78295207d8df4",
+      "cue_path": "public/audio/cues/S05-31204ad27f81.wav",
+      "cue_sha256": "cc8638dd78fafdac0db4cd594e7e101e1bcf33ceafc10c20aa6b1a3f8c2d56b9",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S06": {
+      "cache_key": "80f3ac0356b3c053ae69947875d82716017d15ce046b1c581d3a11365da911fb",
+      "tts_phonetic_text": "有限，不等于算得完。现实中的组合空间，大得难以想象。但现在，进入一个科幻设定。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 209280,
+      "actual_samples_48k": 418560,
+      "duration_seconds": 8.72,
+      "declared_start_frame": 3540,
+      "declared_end_frame": 4200,
+      "cue_start_sample": 2832000,
+      "cue_end_sample_exclusive": 3250560,
+      "voice_start_sample": 2842317,
+      "voice_end_sample": 3242685,
+      "active_onset_offset_samples": 10317,
+      "active_end_offset_samples_exclusive": 410685,
+      "active_span_samples": 400368,
+      "fits_complete_cue_window": true,
+      "complete_cue_overrun_samples": 0,
+      "overlaps_previous_active_speech": [],
+      "fit_reasons": [],
+      "placement": "full untrimmed cue at declared start frame",
+      "active_bounds_method": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 85,
+        "windowSamples": 240
+      },
+      "pcm_sha256_24k": "12103740d11112c374396aea5ad4b1dc91d7e570d5577d99384d394fe48fcbdf",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S06-80f3ac0356b3.wav",
+      "raw_sha256": "b2c7d30032a47a801bcbb427485892d7379467152d1973810992b47de58b625c",
+      "canonical_path": "public/audio/canonical/S06-80f3ac0356b3.wav",
+      "canonical_sha256": "6a580ea6af8481b47722c94c959cd311028e682e26283fe6b4820b2fe34ff5df",
+      "cue_path": "public/audio/cues/S06-80f3ac0356b3.wav",
+      "cue_sha256": "1cd62f97d58e23e489b5a29f7740b16ce07fab58057af05b658a6d32615a8c08",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S07": {
+      "cache_key": "cc33e932c1d25d6693e99394d81927d71c227721854985c1486483d4f6160eca",
+      "tts_phonetic_text": "假如超级智能，只用零点五秒，就列完了人类未来一万年，所有动听的旋律。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 161280,
+      "actual_samples_48k": 322560,
+      "duration_seconds": 6.72,
+      "declared_start_frame": 4260,
+      "declared_end_frame": 4980,
+      "cue_start_sample": 3408000,
+      "cue_end_sample_exclusive": 3730560,
+      "voice_start_sample": 3418099,
+      "voice_end_sample": 3717196,
+      "active_onset_offset_samples": 10099,
+      "active_end_offset_samples_exclusive": 309196,
+      "active_span_samples": 299097,
+      "fits_complete_cue_window": true,
+      "complete_cue_overrun_samples": 0,
+      "overlaps_previous_active_speech": [],
+      "fit_reasons": [],
+      "placement": "full untrimmed cue at declared start frame",
+      "active_bounds_method": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 82,
+        "windowSamples": 240
+      },
+      "pcm_sha256_24k": "a87fde3cec03098904a8f77b09d388f6f638d10879fb684b34dd7570b7303aa6",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S07-cc33e932c1d2.wav",
+      "raw_sha256": "e6bfc0ea9ff845ec51966594fe9d33a6e951901f57cefd8ac8d947a3838655fb",
+      "canonical_path": "public/audio/canonical/S07-cc33e932c1d2.wav",
+      "canonical_sha256": "29d36a6e54e8363cda02108beff5230a174200ae7ccb539b5b860879d2817545",
+      "cue_path": "public/audio/cues/S07-cc33e932c1d2.wav",
+      "cue_sha256": "924b952027261dd3dfc6f67406e49341db5eb10f55a37601c37c9c27b2700dc4",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S08": {
+      "cache_key": "08accf03634215fc186a252afb1f5c7fcf50e5a37ff0761afe8be6b9571906a1",
+      "tts_phonetic_text": "你为一个音符熬过的夜，在它那里，只是翻到十万亿册目录中的，某个编号。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 165120,
+      "actual_samples_48k": 330240,
+      "duration_seconds": 6.88,
+      "declared_start_frame": 5040,
+      "declared_end_frame": 5520,
+      "cue_start_sample": 4032000,
+      "cue_end_sample_exclusive": 4362240,
+      "voice_start_sample": 4041819,
+      "voice_end_sample": 4352400,
+      "active_onset_offset_samples": 9819,
+      "active_end_offset_samples_exclusive": 320400,
+      "active_span_samples": 310581,
+      "fits_complete_cue_window": true,
+      "complete_cue_overrun_samples": 0,
+      "overlaps_previous_active_speech": [],
+      "fit_reasons": [],
+      "placement": "full untrimmed cue at declared start frame",
+      "active_bounds_method": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 79,
+        "windowSamples": 240
+      },
+      "pcm_sha256_24k": "03a673d7747f0073c4fe4630d8a19cd70ea841fc3247cb4f0c2080a1ec35f5ed",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S08-08accf036342.wav",
+      "raw_sha256": "f8d05236a4f3148bbd0be683f6cf39bded1dbef80e69a1e1c6ae7055fbc4ba83",
+      "canonical_path": "public/audio/canonical/S08-08accf036342.wav",
+      "canonical_sha256": "180c26fbe80cfec79160fd9704531df811be5a03a6ac0ef58c8aaca5edd474ca",
+      "cue_path": "public/audio/cues/S08-08accf036342.wav",
+      "cue_sha256": "fc4dee24ee0d73fe7102ac1266993af65b3580f31e3c1d5deef966097e58c448",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S09": {
+      "cache_key": "19e6b9b6621639f301130c4a63a8cfa6c2ba5ee90d6f1d17c9f8dbc6cbe9b192",
+      "tts_phonetic_text": "你终于画下最后一笔。屏幕却只弹出三个字：已收录。连你此刻的震惊，都像早已写好的情节。",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 439680,
+      "actual_samples_48k": 879360,
+      "duration_seconds": 18.32,
+      "declared_start_frame": 5520,
+      "declared_end_frame": 6720,
+      "cue_start_sample": 4416000,
+      "cue_end_sample_exclusive": 5295360,
+      "voice_start_sample": 4426467,
+      "voice_end_sample": 5289376,
+      "active_onset_offset_samples": 10467,
+      "active_end_offset_samples_exclusive": 873376,
+      "active_span_samples": 862909,
+      "fits_complete_cue_window": true,
+      "complete_cue_overrun_samples": 0,
+      "overlaps_previous_active_speech": [],
+      "fit_reasons": [],
+      "placement": "full untrimmed cue at declared start frame",
+      "active_bounds_method": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 107,
+        "windowSamples": 240
+      },
+      "pcm_sha256_24k": "99e3417ade671da2fd421b99bf498e40311fb9ba2dda8dd451cb12c4b1822c71",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S09-19e6b9b66216.wav",
+      "raw_sha256": "6ca887f5a25a8c3f0fe0eead50b024c36c023552f3473fe29b36858675ce8dd3",
+      "canonical_path": "public/audio/canonical/S09-19e6b9b66216.wav",
+      "canonical_sha256": "ce63f06fbae744764d5dc15db06b55af98569db3f17e036110c799934b4cd4f8",
+      "cue_path": "public/audio/cues/S09-19e6b9b66216.wav",
+      "cue_sha256": "e9abe4e2432004007250a6a48e14a42ab9588c2867e6eb04b4800c107f898c79",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    },
+    "S10": {
+      "cache_key": "c837237282f026b1bb259592dd29ad9a55ef06d8db66f2e945a34e2790ae1875",
+      "tts_phonetic_text": "如果所有的美，都已被提前写完，你还愿意创造吗？",
+      "settings": {
+        "provider": "Aliyun Bailian",
+        "model_selection": "active profile default",
+        "effective_model": "cosyvoice-v3-flash",
+        "voice": "longtian_v3",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "actual_samples_24k": 105600,
+      "actual_samples_48k": 211200,
+      "duration_seconds": 4.4,
+      "declared_start_frame": 6780,
+      "declared_end_frame": 7140,
+      "cue_start_sample": 5424000,
+      "cue_end_sample_exclusive": 5635200,
+      "voice_start_sample": 5434444,
+      "voice_end_sample": 5624606,
+      "active_onset_offset_samples": 10444,
+      "active_end_offset_samples_exclusive": 200606,
+      "active_span_samples": 190162,
+      "fits_complete_cue_window": true,
+      "complete_cue_overrun_samples": 0,
+      "overlaps_previous_active_speech": [],
+      "fit_reasons": [],
+      "placement": "full untrimmed cue at declared start frame",
+      "active_bounds_method": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 65,
+        "windowSamples": 240
+      },
+      "pcm_sha256_24k": "71b7cc121e71a9a19cfda7b5624d509984d83ffd6091494938b150ab286e62f1",
+      "raw_header_matches_payload": false,
+      "verified_pcm_overflow_repair": true,
+      "raw_path": "public/audio/raw/S10-c837237282f0.wav",
+      "raw_sha256": "a7315e1d427a40a555df1fbd91445faab8e497484bfa8f3386a79c93a940620e",
+      "canonical_path": "public/audio/canonical/S10-c837237282f0.wav",
+      "canonical_sha256": "40ffd6d1eca76671e695f2382c114bba88704526b540868ad8dbbe40150eca05",
+      "cue_path": "public/audio/cues/S10-c837237282f0.wav",
+      "cue_sha256": "0dcff3351405c923ba3758e0ce993e413c2e959c880261d8fd001d6d886a6518",
+      "effective_model": [
+        "cosyvoice-v3-flash"
+      ],
+      "effective_voice": [
+        "longtian_v3"
+      ],
+      "identity_status": "reported by CLI response"
+    }
+  },
+  "cacheHistory": []
+}

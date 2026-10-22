@@ -1,0 +1,8 @@
+{
+  "provider": "Aliyun Bailian",
+  "authorized": true,
+  "scope": "si-babel-library S01 through S10 exact prepared tts_phonetic_text",
+  "source": "Direct user approval in current chat: 允许本片10段配音 (2026-10-22); prepared S01-S10 sent only to Aliyun Bailian longtian_v3",
+  "voice": "longtian_v3",
+  "text_sha256": "8ebae94b13d899b255a3cb2ad38d532861dbc274cc9c8e589487481bf5ddab47"
+}

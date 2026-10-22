@@ -1,0 +1,70 @@
+{
+  "status": "PASS",
+  "movie_sha256": "eb2860ac3e8b7f02efc6e7862dc38184bad8c7c2176d65ecf0292c3379644d5b",
+  "bytes": 26033005,
+  "master_sha256": "3b29d93bca233aed4aacf8623a841ebffc84d18d49595f6c88a974aee108a3d0",
+  "native_dimensions": [
+    2160,
+    3840
+  ],
+  "fps": 60,
+  "video_frames": 7200,
+  "video_duration": 120.0,
+  "audio_duration": 120.0,
+  "container_duration": 120.0,
+  "strict_full_decode": "PASS",
+  "encoded_loudness": {
+    "integrated_lufs": -16.27,
+    "true_peak_dbtp": -1.62
+  },
+  "master_to_AAC_correlation_stride16": 0.9999193272873599,
+  "decoded_audio_samples_per_channel": 5760000,
+  "representative_frames": [
+    0,
+    180,
+    300,
+    1050,
+    1680,
+    2460,
+    3120,
+    3900,
+    4439,
+    4455,
+    4470,
+    5400,
+    6030,
+    6300,
+    6780,
+    7199
+  ],
+  "native_evidence": [
+    {
+      "frame": 300,
+      "path": "review/encoded-qa-eb2860ac3e8b/frame-300.png",
+      "sha256": "50619e0df0e310e04d6de9a4cd8cf132dcf5f7151e2ce6126be87b66890c50ca"
+    },
+    {
+      "frame": 4470,
+      "path": "review/encoded-qa-eb2860ac3e8b/frame-4470.png",
+      "sha256": "df21093a1753d837bdcb20a2582f636d107b58d6dfb2d62e7f13c02dc5746409"
+    },
+    {
+      "frame": 6030,
+      "path": "review/encoded-qa-eb2860ac3e8b/frame-6030.png",
+      "sha256": "b53bf26e9b9c19bfdd1f8494f843b80d00f96089e6ec95547d0b1847bc45139a"
+    },
+    {
+      "frame": 7199,
+      "path": "review/encoded-qa-eb2860ac3e8b/frame-7199.png",
+      "sha256": "77e2a71fbf3e98aeded8f3a1dd58cf74a944aad295a06631328f9cd845b48c27"
+    }
+  ],
+  "contact_sheet": {
+    "path": "review/encoded-qa-eb2860ac3e8b/contact.jpg",
+    "sha256": "835d1301a7412e764c2f438d8140b7c8d978f33d032eab46232b3f55e55ecff0"
+  },
+  "human_continuous_review": "NOT_RUN",
+  "human_listening": "NOT_RUN",
+  "real_phone_playback": "NOT_RUN",
+  "screening_limit": "Representative encoded stills do not replace full-frame screening or human perception."
+}

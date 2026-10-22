@@ -1,0 +1,218 @@
+{
+  "schema_version": 1,
+  "status": "built",
+  "work": "si-babel-library",
+  "duration_seconds": 120,
+  "fps": 60,
+  "sample_rate": 48000,
+  "samples_per_frame": 800,
+  "samples_per_channel": 5760000,
+  "provider": {
+    "provider": "Aliyun Bailian",
+    "effective_model": "cosyvoice-v3-flash",
+    "voice": "longtian_v3"
+  },
+  "inputs": {
+    "segments_sha256": "0b85c09bab150ef5065d4dbd64b7d2647b530ef65c1253ba1238c09667a843ee",
+    "authorization_sha256": "5e728889dd8e7551702a862e9930019ab416303c22705274c4b132059f4f8b76",
+    "provider_manifest_sha256": "f2eea32f8aa22af2ae2f2c2dc6a3f5a0dcc1e0ca7fee351c2d759782a42cc5e8",
+    "cue_sha256": {
+      "S01": "7c9774e770cc47700e9524124c55f6e70395ab04ff5c1365977d6a435e92c3a4",
+      "S02": "3f8360af2514ffe3302ed9b4b122ab208171af5c935a89eff6dd41e5e8c6a0b7",
+      "S03": "c52ca36a4bc8d72f5b7cf581c93b505237d0c477f905c423ce046c1313957d1c",
+      "S04": "cf3e3b5c52f6c2e517507af8f08a79ecf912ef3237f9e83df5ab1457394fdee3",
+      "S05": "cc8638dd78fafdac0db4cd594e7e101e1bcf33ceafc10c20aa6b1a3f8c2d56b9",
+      "S06": "1cd62f97d58e23e489b5a29f7740b16ce07fab58057af05b658a6d32615a8c08",
+      "S07": "924b952027261dd3dfc6f67406e49341db5eb10f55a37601c37c9c27b2700dc4",
+      "S08": "fc4dee24ee0d73fe7102ac1266993af65b3580f31e3c1d5deef966097e58c448",
+      "S09": "e9abe4e2432004007250a6a48e14a42ab9588c2867e6eb04b4800c107f898c79",
+      "S10": "0dcff3351405c923ba3758e0ce993e413c2e959c880261d8fd001d6d886a6518"
+    }
+  },
+  "input_set_sha256": "6cea82f62533df893f8b05040076992572894df498e8167ed102175e3ebe596d",
+  "files": {
+    "narration": {
+      "path": "project/public/audio/narration.wav",
+      "sha256": "12bbc46e63c4a157947784f7cc2c1c1ada0b42a0ac356e0d45838e5621237693",
+      "bytes": 23040044
+    },
+    "score": {
+      "path": "project/public/audio/score.wav",
+      "sha256": "f204db59105f0039874674eea557dafc92946e8491903726f106ac42ad6cdf0f",
+      "bytes": 23040044
+    },
+    "sfx": {
+      "path": "project/public/audio/sfx.wav",
+      "sha256": "2bd4f59b25c47791e25931cd2589a58a49285cc63c597354d36224bfb25c8540",
+      "bytes": 23040044
+    },
+    "master": {
+      "path": "project/public/audio/master.wav",
+      "sha256": "3b29d93bca233aed4aacf8623a841ebffc84d18d49595f6c88a974aee108a3d0",
+      "bytes": 23040078
+    },
+    "audio_timing": {
+      "path": "project/audio-timing.json",
+      "sha256": "066f84b55abdae5ce8aa487e26cc5e8c09565d23484e6aeddd8a2aecab7d20b1",
+      "bytes": 15234
+    },
+    "audio_qa": {
+      "path": "review/audio-qa.json",
+      "sha256": "2760d315a6587c5c935efc49607ed1220840990f99208054705b764bb700c2d5",
+      "bytes": 2691
+    },
+    "captions": {
+      "path": "小红书/captions.srt",
+      "sha256": "3b77695b798a714c262366fb13298c27497c28d5ea9b9f1fd624fda86c232c53",
+      "bytes": 2299
+    }
+  },
+  "event_frame_sample_mapping": {
+    "formula": "sample = frame * 48000 / 60 = frame * 800",
+    "events": [
+      {
+        "id": "paper_wood_stamp_open",
+        "startFrame": 180,
+        "endFrameExclusive": 201,
+        "startSample": 144000,
+        "endSampleExclusive": 160320,
+        "durationSeconds": 0.34,
+        "kind": "low-passed wood and paper stamp"
+      },
+      {
+        "id": "mechanical_ratchet",
+        "startFrame": 4440,
+        "endFrameExclusive": 4470,
+        "startSample": 3552000,
+        "endSampleExclusive": 3576000,
+        "durationSeconds": 0.5,
+        "kind": "accelerating local ratchet rising pulse"
+      },
+      {
+        "id": "freeze_click",
+        "startFrame": 4470,
+        "endFrameExclusive": 4476,
+        "startSample": 3576000,
+        "endSampleExclusive": 3580800,
+        "durationSeconds": 0.1,
+        "kind": "freeze click at ratchet end"
+      },
+      {
+        "id": "page_turn",
+        "startFrame": 5400,
+        "endFrameExclusive": 5487,
+        "startSample": 4320000,
+        "endSampleExclusive": 4389600,
+        "durationSeconds": 1.45,
+        "kind": "procedural page turn"
+      },
+      {
+        "id": "paper_wood_stamp_close",
+        "startFrame": 6030,
+        "endFrameExclusive": 6051,
+        "startSample": 4824000,
+        "endSampleExclusive": 4840320,
+        "durationSeconds": 0.34,
+        "kind": "low-passed wood and paper stamp"
+      }
+    ]
+  },
+  "sound_design": {
+    "score": "Quiet warm sparse plucked sine-harmonic motif at MIDI 60/64/67 every 6 seconds through frame 4320; lower-register phrase at 96-110 seconds; held C-minor sonority at 110-120 seconds with natural fade.",
+    "texture": "Low-level deterministic procedural paper/pencil noise; no external music or SFX assets.",
+    "events": [
+      {
+        "id": "paper_wood_stamp_open",
+        "startFrame": 180,
+        "endFrameExclusive": 201,
+        "startSample": 144000,
+        "endSampleExclusive": 160320,
+        "durationSeconds": 0.34,
+        "kind": "low-passed wood and paper stamp"
+      },
+      {
+        "id": "mechanical_ratchet",
+        "startFrame": 4440,
+        "endFrameExclusive": 4470,
+        "startSample": 3552000,
+        "endSampleExclusive": 3576000,
+        "durationSeconds": 0.5,
+        "kind": "accelerating local ratchet rising pulse"
+      },
+      {
+        "id": "freeze_click",
+        "startFrame": 4470,
+        "endFrameExclusive": 4476,
+        "startSample": 3576000,
+        "endSampleExclusive": 3580800,
+        "durationSeconds": 0.1,
+        "kind": "freeze click at ratchet end"
+      },
+      {
+        "id": "page_turn",
+        "startFrame": 5400,
+        "endFrameExclusive": 5487,
+        "startSample": 4320000,
+        "endSampleExclusive": 4389600,
+        "durationSeconds": 1.45,
+        "kind": "procedural page turn"
+      },
+      {
+        "id": "paper_wood_stamp_close",
+        "startFrame": 6030,
+        "endFrameExclusive": 6051,
+        "startSample": 4824000,
+        "endSampleExclusive": 4840320,
+        "durationSeconds": 0.34,
+        "kind": "low-passed wood and paper stamp"
+      }
+    ],
+    "voice_duck_db": {
+      "score": -8.0,
+      "sfx": -6.0
+    },
+    "narration": "Complete mono cues placed at authored segment start frames; no trimming or speed change."
+  },
+  "mastering": {
+    "loudnorm_first_pass": {
+      "input_i": "-21.21",
+      "input_tp": "-1.87",
+      "input_lra": "16.00",
+      "input_thresh": "-33.83",
+      "output_i": "-16.67",
+      "output_tp": "-1.80",
+      "output_lra": "9.80",
+      "output_thresh": "-28.71",
+      "normalization_type": "dynamic",
+      "target_offset": "0.67"
+    },
+    "loudnorm_second_pass": {
+      "input_i": "-21.21",
+      "input_tp": "-1.87",
+      "input_lra": "16.00",
+      "input_thresh": "-33.83",
+      "output_i": "-16.25",
+      "output_tp": "-1.80",
+      "output_lra": "9.60",
+      "output_thresh": "-28.27",
+      "normalization_type": "dynamic",
+      "target_offset": "0.25"
+    },
+    "final_measurement": {
+      "integrated_lufs": -16.2,
+      "true_peak_dbtp": -1.8
+    },
+    "targets": {
+      "integrated_lufs": -16.0,
+      "integrated_lufs_tolerance": 1.0,
+      "loudnorm_true_peak_dbtp": -1.8,
+      "oversampled_limiter_ceiling_dbtp": -1.5,
+      "accepted_true_peak_max_dbtp": -1.0,
+      "oversample_rate_hz": 192000
+    }
+  },
+  "limitations": [
+    "Caption alignment is estimated from measured active PCM and chunk character weights; no ASR or forced alignment was performed.",
+    "Human listening was not performed."
+  ]
+}

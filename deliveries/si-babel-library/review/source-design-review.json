@@ -1,0 +1,87 @@
+{
+  "status": "SOURCE_STILLS_MODEL_OBSERVED",
+  "frames": [
+    150,
+    300,
+    1050,
+    2460,
+    3120,
+    4455,
+    4470,
+    5400,
+    6030,
+    6300,
+    6780,
+    7199
+  ],
+  "source_hashes": {
+    "Root.tsx": "8b73f7c9a9d62674e038014cc3189495e88756200119fa9dd96035a865dd12c4",
+    "Film.tsx": "cdbdc05445cb6572565a4a8ad27559594f4824e02c0a79843e96c92776de2ab4",
+    "index.ts": "a58f804bf74bab68b4549aa5c715eb4a89ec5835206d198fc79b462b4fc71ef9",
+    "Geometry.tsx": "d852a32af2e145ac71c6849dbf2571621ceaa6e88ab6b2fe8d6fe3a860476da8"
+  },
+  "evidence": {
+    "path": "review/storyboard-contact.jpg",
+    "sha256": "a7edddc5734906e5a4612cd4367afa90d98bfa2a89c613ec51187e64cb9efe31"
+  },
+  "observations": [
+    "Filled Bauhaus collage enlarged after first candidate review; source card, matrix and archive clone share one motif.",
+    "Headlines/captions readable in360px contact-sheet views; no observed overlap in selected frames.",
+    "Matrix red-to-blue freeze visible at4470; thought-experiment badge and hypothetical label remain visible.",
+    "Closing question and title persist through final frame."
+  ],
+  "limitations": [
+    "Model observation of representative stills; no human continuous watching or listening.",
+    "Subtitle chunk alignment uses measured PCM with character weighting, not ASR/forced alignment."
+  ],
+  "prior_encoded_observation": {
+    "movie_sha256": "2c8a8f1995e02bbb771031529aea184f8b59fe3d3a0ab1db3c88ad5b51c83400",
+    "contact": "review/encoded-qa-2c8a8f1995e0/contact.jpg",
+    "frames": [
+      0,
+      180,
+      300,
+      1050,
+      1680,
+      2460,
+      3120,
+      3900,
+      4439,
+      4455,
+      4470,
+      5400,
+      6030,
+      6300,
+      6780,
+      7199
+    ],
+    "observed": "No visible overlap, duplicated text tiles or empty end card in these encoded samples. Dense rows, blue archived copy and closing question retain intended layout."
+  },
+  "final_encoded_observation": {
+    "movie_sha256": "eb2860ac3e8b7f02efc6e7862dc38184bad8c7c2176d65ecf0292c3379644d5b",
+    "contact": {
+      "path": "review/encoded-qa-eb2860ac3e8b/contact.jpg",
+      "sha256": "835d1301a7412e764c2f438d8140b7c8d978f33d032eab46232b3f55e55ecff0"
+    },
+    "frames": [
+      0,
+      180,
+      300,
+      1050,
+      1680,
+      2460,
+      3120,
+      3900,
+      4439,
+      4455,
+      4470,
+      5400,
+      6030,
+      6300,
+      6780,
+      7199
+    ],
+    "repair_neighbors": "review/repair-neighbors/contact.jpg",
+    "observed": "Final encoded contact and repaired frame/neighbors visually checked. Correctly placed source card, red/blue archived copies, readable captions and persistent end question; no repeated header observed in repair neighborhood."
+  }
+}

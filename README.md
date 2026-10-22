@@ -1,9 +1,9 @@
 <!-- video-making archive overview -->
 # video-making
 
-从剧本到双平台短片的制作技能、可编辑工程与作品档案。
+从剧本到小红书短片的制作技能、可编辑工程与作品档案。历史双平台作品保留。
 
-- [剧本双平台短片 Skill](skills/dual-platform-video/SKILL.md)：新作默认两版均为 **120 秒、原生 4K**，B站 **3840×2160 横屏**，小红书 **2160×3840 竖屏**；共用素材、配音与时间轴，分别设计排版，减少重复生成消耗。
+- [剧本双平台短片 Skill](skills/dual-platform-video/SKILL.md)：按 Q 于 2026-10-22 的要求，新作默认只制作 **小红书 2160×3840 原生竖屏 4K、120 秒**；封面、标题、首句与前三秒围绕同一情绪钩子设计，以小红书传播为创作目标。其他平台须另有明确要求。
 - [小红书视频发布 Skill](skills/xiaohongshu-publish/SKILL.md)：接收已完成的视频，在用户要求发布时处理登录协助、封面文案、上传提交与状态核验；可独立使用，也可承接双平台制作流程。
 - [全部成片与工程下载](https://github.com/jggagi/video-making/releases)：每部作品独立 Release，包含完整成片、历史版本、样片与工程 ZIP。
 - [final 成片与备份目录](final/README.md)：本地保留全部正式成片，GitHub专用 `final-*` Releases 保存对应实际视频；按作品、版本和平台整理，排除样片、草稿和工程 ZIP。
@@ -51,7 +51,7 @@ python3 scripts/fetch-archive-assets.py --catalog final/backup-catalog.json --do
 
 ## 后续作品同步
 
-新作品保存在 `deliveries/<作品版本>/`，其中 `B站/` 和 `小红书/` 分别放两版成片，`source/`、`project/`、`review/` 留存剧本、工程和验收证据。完成技术检查后，更新清单、按路径提交并 push 源码与索引，再上传该版本的 Release：
+新作品保存在 `deliveries/<作品版本>/`，新作在 `小红书/` 放成片，历史 `B站/` 与 `小红书/` 版本继续保留，`source/`、`project/`、`review/` 留存剧本、工程和验收证据。完成技术检查后，更新清单、按路径提交并 push 源码与索引，再上传该版本的 Release：
 
 ```sh
 python3 scripts/build-archive-catalog.py

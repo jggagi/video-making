@@ -1,0 +1,1 @@
+Rejected before delivery: actual tiled repeated-header capture fault at frame4698.4699 is normal but flagged because it follows the damaged frame. Original failed encoded file and continuous scan retained. Repair must redraw exact source frame4698 and rescan entire new final.

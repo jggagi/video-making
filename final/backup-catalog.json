@@ -229,6 +229,30 @@
       ]
     },
     {
+      "id": "si-babel-library",
+      "title": "Final 成片备份 · 巴别图书馆的尽头",
+      "release_tag": "final-si-babel-library-0b96f46a735f",
+      "assets": [
+        {
+          "path": "final/si-babel-library/小红书/si-babel-library-xiaohongshu-120s-portrait.mp4",
+          "name": "final--si-babel-library--deliveries--si-babel-library-----si-babel-library-xiaohongshu-120s-portrait--eb2860ac3e8b.mp4",
+          "bytes": 26033005,
+          "sha256": "eb2860ac3e8b7f02efc6e7862dc38184bad8c7c2176d65ecf0292c3379644d5b",
+          "kind": "video",
+          "platform": "小红书",
+          "measurements": {
+            "width": 2160,
+            "height": 3840,
+            "fps": "60/1",
+            "frames": "7200",
+            "video_duration_seconds": 120.0,
+            "container_duration_seconds": 120.0
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-babel-library-0b96f46a735f/final--si-babel-library--deliveries--si-babel-library-----si-babel-library-xiaohongshu-120s-portrait--eb2860ac3e8b.mp4"
+        }
+      ]
+    },
+    {
       "id": "si-cage-7plus2",
       "title": "Final 成片备份 · 7±2 的囚笼",
       "release_tag": "final-si-cage-7plus2-7ce13d05c1b6",

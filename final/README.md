@@ -35,6 +35,10 @@ python3 scripts/fetch-archive-assets.py --root . --catalog final/backup-catalog.
 
 - [B站 · QStory-EP03-十万亿个分身-4K.mp4](EP03-%E5%8D%81%E4%B8%87%E4%BA%BF%E4%B8%AA%E5%88%86%E8%BA%AB-v01/B%E7%AB%99/QStory-EP03-%E5%8D%81%E4%B8%87%E4%BA%BF%E4%B8%AA%E5%88%86%E8%BA%AB-4K.mp4) · [GitHub final 备份](https://github.com/jggagi/video-making/releases/download/final-qstory-ep03-078e54164654/final--qstory-ep03--qstory-ep03--out--QStory-EP03---4K--088a33698608.mp4) · [原归档](https://github.com/jggagi/video-making/releases/download/archive-qstory-ep03-v1/qstory-ep03--qstory-ep03--out--QStory-EP03---4K--088a33698608.mp4)
 
+## 巴别图书馆的尽头 (`si-babel-library`)
+
+- [小红书 · si-babel-library-xiaohongshu-120s-portrait.mp4](si-babel-library/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-babel-library-xiaohongshu-120s-portrait.mp4) · [GitHub final 备份](https://github.com/jggagi/video-making/releases/download/final-si-babel-library-0b96f46a735f/final--si-babel-library--deliveries--si-babel-library-----si-babel-library-xiaohongshu-120s-portrait--eb2860ac3e8b.mp4) · [原归档](https://github.com/jggagi/video-making/releases/download/film-si-babel-library-0b96f46a735f/si-babel-library--deliveries--si-babel-library-----si-babel-library-xiaohongshu-120s-portrait--eb2860ac3e8b.mp4)
+
 ## 7±2 的囚笼 (`si-cage-7plus2`)
 
 - [B站 · cage-of-seven-plus-two-1080p.mp4](7%C2%B12%E7%9A%84%E5%9B%9A%E7%AC%BC/B%E7%AB%99/cage-of-seven-plus-two-1080p.mp4) · [GitHub final 备份](https://github.com/jggagi/video-making/releases/download/final-si-cage-7plus2-7ce13d05c1b6/final--si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-1080p--e08c1bc00614.mp4) · [原归档](https://github.com/jggagi/video-making/releases/download/archive-si-cage-7plus2-v1/si-cage-7plus2--si-cage-7plus2--out--cage-of-seven-plus-two-1080p--e08c1bc00614.mp4)

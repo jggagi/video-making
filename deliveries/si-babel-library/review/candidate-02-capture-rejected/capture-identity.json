@@ -1,0 +1,6 @@
+{
+  "video_only_sha256": "d07b83e1e1af819c20de1c2917d18f38c3dd7a4872ba0a7bea3a980ff3665922",
+  "movie_sha256": "2c8a8f1995e02bbb771031529aea184f8b59fe3d3a0ab1db3c88ad5b51c83400",
+  "bad_frame": 4698,
+  "source_movie": "review/candidate-02-capture-rejected/capture-fault-4698.mp4"
+}

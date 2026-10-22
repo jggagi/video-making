@@ -1,0 +1,402 @@
+{
+  "schema_version": 1,
+  "work": "si-babel-library",
+  "platforms": [
+    "xiaohongshu"
+  ],
+  "asset_generation": "All visuals are deterministic DOM/SVG vector code rasterized at2160x3840. No generated bitmap/video source.",
+  "assets": [
+    {
+      "id": "audio/canonical/S01-4ddb91f0d038.wav",
+      "path": "public/audio/canonical/S01-4ddb91f0d038.wav",
+      "sha256": "0a0f92141526f77a088a1819d08647c092c95b28057fefd80fa0baa3d22c8cd0",
+      "bytes": 284204,
+      "source": "Aliyun Bailian authorized narration/cache"
+    },
+    {
+      "id": "audio/canonical/S02-cd04f8f808bd.wav",
+      "path": "public/audio/canonical/S02-cd04f8f808bd.wav",
+      "sha256": "b671389edf1596605fcecdcd289d29c31c2695b04895e3e486768574ad3d22e3",
+      "bytes": 314924,
+      "source": "Aliyun Bailian authorized narration/cache"
+    },
+    {
+      "id": "audio/canonical/S03-18d15c46144b.wav",
+      "path": "public/audio/canonical/S03-18d15c46144b.wav",
+      "sha256": "845e342d3eac8201ca3b73c1563fa0a532f7628538c50273356d982e8cc04e22",
+      "bytes": 311084,
+      "source": "Aliyun Bailian authorized narration/cache"
+    },
+    {
+      "id": "audio/canonical/S04-16c23bc5d5d8.wav",
+      "path": "public/audio/canonical/S04-16c23bc5d5d8.wav",
+      "sha256": "61a8c66514bbf84a3e08ad78db1b12294beb89eb428664e396e4a8d77c04ee81",
+      "bytes": 445484,
+      "source": "Aliyun Bailian authorized narration/cache"
+    },
+    {
+      "id": "audio/canonical/S05-31204ad27f81.wav",
+      "path": "public/audio/canonical/S05-31204ad27f81.wav",
+      "sha256": "b7183c3f76008003a247f42855c2d4c2d988784e17fb8c9591a78295207d8df4",
+      "bytes": 437804,
+      "source": "Aliyun Bailian authorized narration/cache"
+    },
+    {
+      "id": "audio/canonical/S06-80f3ac0356b3.wav",
+      "path": "public/audio/canonical/S06-80f3ac0356b3.wav",
+      "sha256": "6a580ea6af8481b47722c94c959cd311028e682e26283fe6b4820b2fe34ff5df",
+      "bytes": 418604,
+      "source": "Aliyun Bailian authorized narration/cache"
+    },
+    {
+      "id": "audio/canonical/S07-cc33e932c1d2.wav",
+      "path": "public/audio/canonical/S07-cc33e932c1d2.wav",
+      "sha256": "29d36a6e54e8363cda02108beff5230a174200ae7ccb539b5b860879d2817545",
+      "bytes": 322604,
+      "source": "Aliyun Bailian authorized narration/cache"
+    },
+    {
+      "id": "audio/canonical/S08-08accf036342.wav",
+      "path": "public/audio/canonical/S08-08accf036342.wav",
+      "sha256": "180c26fbe80cfec79160fd9704531df811be5a03a6ac0ef58c8aaca5edd474ca",
+      "bytes": 330284,
+      "source": "Aliyun Bailian authorized narration/cache"
+    },
+    {
+      "id": "audio/canonical/S09-19e6b9b66216.wav",
+      "path": "public/audio/canonical/S09-19e6b9b66216.wav",
+      "sha256": "ce63f06fbae744764d5dc15db06b55af98569db3f17e036110c799934b4cd4f8",
+      "bytes": 879404,
+      "source": "Aliyun Bailian authorized narration/cache"
+    },
+    {
+      "id": "audio/canonical/S10-c837237282f0.wav",
+      "path": "public/audio/canonical/S10-c837237282f0.wav",
+      "sha256": "40ffd6d1eca76671e695f2382c114bba88704526b540868ad8dbbe40150eca05",
+      "bytes": 211244,
+      "source": "Aliyun Bailian authorized narration/cache"
+    },
+    {
+      "id": "audio/cues/S01-4ddb91f0d038.wav",
+      "path": "public/audio/cues/S01-4ddb91f0d038.wav",
+      "sha256": "7c9774e770cc47700e9524124c55f6e70395ab04ff5c1365977d6a435e92c3a4",
+      "bytes": 568398,
+      "source": "Aliyun Bailian authorized narration/cache"
+    },
+    {
+      "id": "audio/cues/S02-cd04f8f808bd.wav",
+      "path": "public/audio/cues/S02-cd04f8f808bd.wav",
+      "sha256": "3f8360af2514ffe3302ed9b4b122ab208171af5c935a89eff6dd41e5e8c6a0b7",
+      "bytes": 629838,
+      "source": "Aliyun Bailian authorized narration/cache"
+    },
+    {
+      "id": "audio/cues/S03-18d15c46144b.wav",
+      "path": "public/audio/cues/S03-18d15c46144b.wav",
+      "sha256": "c52ca36a4bc8d72f5b7cf581c93b505237d0c477f905c423ce046c1313957d1c",
+      "bytes": 622158,
+      "source": "Aliyun Bailian authorized narration/cache"
+    },
+    {
+      "id": "audio/cues/S04-16c23bc5d5d8.wav",
+      "path": "public/audio/cues/S04-16c23bc5d5d8.wav",
+      "sha256": "cf3e3b5c52f6c2e517507af8f08a79ecf912ef3237f9e83df5ab1457394fdee3",
+      "bytes": 890958,
+      "source": "Aliyun Bailian authorized narration/cache"
+    },
+    {
+      "id": "audio/cues/S05-31204ad27f81.wav",
+      "path": "public/audio/cues/S05-31204ad27f81.wav",
+      "sha256": "cc8638dd78fafdac0db4cd594e7e101e1bcf33ceafc10c20aa6b1a3f8c2d56b9",
+      "bytes": 875598,
+      "source": "Aliyun Bailian authorized narration/cache"
+    },
+    {
+      "id": "audio/cues/S06-80f3ac0356b3.wav",
+      "path": "public/audio/cues/S06-80f3ac0356b3.wav",
+      "sha256": "1cd62f97d58e23e489b5a29f7740b16ce07fab58057af05b658a6d32615a8c08",
+      "bytes": 837198,
+      "source": "Aliyun Bailian authorized narration/cache"
+    },
+    {
+      "id": "audio/cues/S07-cc33e932c1d2.wav",
+      "path": "public/audio/cues/S07-cc33e932c1d2.wav",
+      "sha256": "924b952027261dd3dfc6f67406e49341db5eb10f55a37601c37c9c27b2700dc4",
+      "bytes": 645198,
+      "source": "Aliyun Bailian authorized narration/cache"
+    },
+    {
+      "id": "audio/cues/S08-08accf036342.wav",
+      "path": "public/audio/cues/S08-08accf036342.wav",
+      "sha256": "fc4dee24ee0d73fe7102ac1266993af65b3580f31e3c1d5deef966097e58c448",
+      "bytes": 660558,
+      "source": "Aliyun Bailian authorized narration/cache"
+    },
+    {
+      "id": "audio/cues/S09-19e6b9b66216.wav",
+      "path": "public/audio/cues/S09-19e6b9b66216.wav",
+      "sha256": "e9abe4e2432004007250a6a48e14a42ab9588c2867e6eb04b4800c107f898c79",
+      "bytes": 1758798,
+      "source": "Aliyun Bailian authorized narration/cache"
+    },
+    {
+      "id": "audio/cues/S10-c837237282f0.wav",
+      "path": "public/audio/cues/S10-c837237282f0.wav",
+      "sha256": "0dcff3351405c923ba3758e0ce993e413c2e959c880261d8fd001d6d886a6518",
+      "bytes": 422478,
+      "source": "Aliyun Bailian authorized narration/cache"
+    },
+    {
+      "id": "audio/master.wav",
+      "path": "public/audio/master.wav",
+      "sha256": "3b29d93bca233aed4aacf8623a841ebffc84d18d49595f6c88a974aee108a3d0",
+      "bytes": 23040078,
+      "source": "Local procedural audio or verified provenance metadata"
+    },
+    {
+      "id": "audio/mix-manifest.json",
+      "path": "public/audio/mix-manifest.json",
+      "sha256": "85b9753ce979240b0ebff31c117fb5f5ee0ff8a84c5511ef4ab6d77d3c036475",
+      "bytes": 7382,
+      "source": "Local procedural audio or verified provenance metadata"
+    },
+    {
+      "id": "audio/narration.wav",
+      "path": "public/audio/narration.wav",
+      "sha256": "12bbc46e63c4a157947784f7cc2c1c1ada0b42a0ac356e0d45838e5621237693",
+      "bytes": 23040044,
+      "source": "Local procedural audio or verified provenance metadata"
+    },
+    {
+      "id": "audio/provider-manifest.json",
+      "path": "public/audio/provider-manifest.json",
+      "sha256": "f2eea32f8aa22af2ae2f2c2dc6a3f5a0dcc1e0ca7fee351c2d759782a42cc5e8",
+      "bytes": 22530,
+      "source": "Local procedural audio or verified provenance metadata"
+    },
+    {
+      "id": "audio/raw/S01-4ddb91f0d038.wav",
+      "path": "public/audio/raw/S01-4ddb91f0d038.wav",
+      "sha256": "3aa866d14251ab80c71900a67d72dd1c3266a156538cc86734a07601f013b6af",
+      "bytes": 284204,
+      "source": "Aliyun Bailian authorized narration/cache"
+    },
+    {
+      "id": "audio/raw/S02-cd04f8f808bd.wav",
+      "path": "public/audio/raw/S02-cd04f8f808bd.wav",
+      "sha256": "d94d58d6ac7ea551aacdf6c0738fc700ba63de68ffa57efda155df3ba907fdab",
+      "bytes": 314924,
+      "source": "Aliyun Bailian authorized narration/cache"
+    },
+    {
+      "id": "audio/raw/S03-18d15c46144b.wav",
+      "path": "public/audio/raw/S03-18d15c46144b.wav",
+      "sha256": "a64c3192dfa1ca06e096ae887fe31f52ccca71989ae966c5254a5a0a41281171",
+      "bytes": 311084,
+      "source": "Aliyun Bailian authorized narration/cache"
+    },
+    {
+      "id": "audio/raw/S04-16c23bc5d5d8.wav",
+      "path": "public/audio/raw/S04-16c23bc5d5d8.wav",
+      "sha256": "829ec76fea6a9403d5b65edf3729779be158388eed72bdbd6b7644918be5c855",
+      "bytes": 445484,
+      "source": "Aliyun Bailian authorized narration/cache"
+    },
+    {
+      "id": "audio/raw/S05-31204ad27f81.wav",
+      "path": "public/audio/raw/S05-31204ad27f81.wav",
+      "sha256": "a95047f717c3c1e974260327c943bcf7cc6c062f631f91fa69d3437dd3040d83",
+      "bytes": 437804,
+      "source": "Aliyun Bailian authorized narration/cache"
+    },
+    {
+      "id": "audio/raw/S06-80f3ac0356b3.wav",
+      "path": "public/audio/raw/S06-80f3ac0356b3.wav",
+      "sha256": "b2c7d30032a47a801bcbb427485892d7379467152d1973810992b47de58b625c",
+      "bytes": 418604,
+      "source": "Aliyun Bailian authorized narration/cache"
+    },
+    {
+      "id": "audio/raw/S07-cc33e932c1d2.wav",
+      "path": "public/audio/raw/S07-cc33e932c1d2.wav",
+      "sha256": "e6bfc0ea9ff845ec51966594fe9d33a6e951901f57cefd8ac8d947a3838655fb",
+      "bytes": 322604,
+      "source": "Aliyun Bailian authorized narration/cache"
+    },
+    {
+      "id": "audio/raw/S08-08accf036342.wav",
+      "path": "public/audio/raw/S08-08accf036342.wav",
+      "sha256": "f8d05236a4f3148bbd0be683f6cf39bded1dbef80e69a1e1c6ae7055fbc4ba83",
+      "bytes": 330284,
+      "source": "Aliyun Bailian authorized narration/cache"
+    },
+    {
+      "id": "audio/raw/S09-19e6b9b66216.wav",
+      "path": "public/audio/raw/S09-19e6b9b66216.wav",
+      "sha256": "6ca887f5a25a8c3f0fe0eead50b024c36c023552f3473fe29b36858675ce8dd3",
+      "bytes": 879404,
+      "source": "Aliyun Bailian authorized narration/cache"
+    },
+    {
+      "id": "audio/raw/S10-c837237282f0.wav",
+      "path": "public/audio/raw/S10-c837237282f0.wav",
+      "sha256": "a7315e1d427a40a555df1fbd91445faab8e497484bfa8f3386a79c93a940620e",
+      "bytes": 211244,
+      "source": "Aliyun Bailian authorized narration/cache"
+    },
+    {
+      "id": "audio/score.wav",
+      "path": "public/audio/score.wav",
+      "sha256": "f204db59105f0039874674eea557dafc92946e8491903726f106ac42ad6cdf0f",
+      "bytes": 23040044,
+      "source": "Local procedural audio or verified provenance metadata"
+    },
+    {
+      "id": "audio/sfx.wav",
+      "path": "public/audio/sfx.wav",
+      "sha256": "2bd4f59b25c47791e25931cd2589a58a49285cc63c597354d36224bfb25c8540",
+      "bytes": 23040044,
+      "source": "Local procedural audio or verified provenance metadata"
+    },
+    {
+      "id": "audio/tts-input/S01-4ddb91f0d038.txt",
+      "path": "public/audio/tts-input/S01-4ddb91f0d038.txt",
+      "sha256": "b0ad5bc23dbb35a2d210345fa575448b029c1187841947f9735dcea2ac04241a",
+      "bytes": 66,
+      "source": "Aliyun Bailian authorized narration/cache"
+    },
+    {
+      "id": "audio/tts-input/S02-cd04f8f808bd.txt",
+      "path": "public/audio/tts-input/S02-cd04f8f808bd.txt",
+      "sha256": "4ceda8f03dd8655bba13b403f1ad9c4eddc9e0ad9410e0c65d338ddcbc5a9936",
+      "bytes": 99,
+      "source": "Aliyun Bailian authorized narration/cache"
+    },
+    {
+      "id": "audio/tts-input/S03-18d15c46144b.txt",
+      "path": "public/audio/tts-input/S03-18d15c46144b.txt",
+      "sha256": "6f6780d080821b1d5bfbf575c17fd79f3110fd1a4d6558d0a05bb99eb1f01c44",
+      "bytes": 99,
+      "source": "Aliyun Bailian authorized narration/cache"
+    },
+    {
+      "id": "audio/tts-input/S04-16c23bc5d5d8.txt",
+      "path": "public/audio/tts-input/S04-16c23bc5d5d8.txt",
+      "sha256": "baa1b3bc394d5045e6213194016be0a15c53eefcda57f6f187aace876f41c409",
+      "bytes": 123,
+      "source": "Aliyun Bailian authorized narration/cache"
+    },
+    {
+      "id": "audio/tts-input/S05-31204ad27f81.txt",
+      "path": "public/audio/tts-input/S05-31204ad27f81.txt",
+      "sha256": "12405cabaf80561866ee04494dea0af35c091c4ad8c038774110c01cc7de4ac5",
+      "bytes": 111,
+      "source": "Aliyun Bailian authorized narration/cache"
+    },
+    {
+      "id": "audio/tts-input/S06-80f3ac0356b3.txt",
+      "path": "public/audio/tts-input/S06-80f3ac0356b3.txt",
+      "sha256": "b551c817f11d9c571e911cda14e7bb24ebd36a82fa6f41561bc33b5f61a908ea",
+      "bytes": 117,
+      "source": "Aliyun Bailian authorized narration/cache"
+    },
+    {
+      "id": "audio/tts-input/S07-cc33e932c1d2.txt",
+      "path": "public/audio/tts-input/S07-cc33e932c1d2.txt",
+      "sha256": "a46032299532fb25b6117ef4a347041c5f68c128e2d8c19c17f1d9848b086786",
+      "bytes": 102,
+      "source": "Aliyun Bailian authorized narration/cache"
+    },
+    {
+      "id": "audio/tts-input/S08-08accf036342.txt",
+      "path": "public/audio/tts-input/S08-08accf036342.txt",
+      "sha256": "ed0946d3a2f9c3389837e2d59cdcdb47d2c024a8cec07a9133cc8ceac12a912f",
+      "bytes": 102,
+      "source": "Aliyun Bailian authorized narration/cache"
+    },
+    {
+      "id": "audio/tts-input/S09-19e6b9b66216.txt",
+      "path": "public/audio/tts-input/S09-19e6b9b66216.txt",
+      "sha256": "163b05d1adfe02aeae68e281961fa87335f937da7458d36654227ece3a793c0a",
+      "bytes": 126,
+      "source": "Aliyun Bailian authorized narration/cache"
+    },
+    {
+      "id": "audio/tts-input/S10-c837237282f0.txt",
+      "path": "public/audio/tts-input/S10-c837237282f0.txt",
+      "sha256": "05fbe1a6ed6f7cc628d8f0f86071b15e92fe4bfb6e5511b7c6360d2c4cbaadbe",
+      "bytes": 69,
+      "source": "Aliyun Bailian authorized narration/cache"
+    }
+  ],
+  "code": [
+    {
+      "path": "src/Film.tsx",
+      "sha256": "cdbdc05445cb6572565a4a8ad27559594f4824e02c0a79843e96c92776de2ab4"
+    },
+    {
+      "path": "src/Geometry.tsx",
+      "sha256": "d852a32af2e145ac71c6849dbf2571621ceaa6e88ab6b2fe8d6fe3a860476da8"
+    },
+    {
+      "path": "src/Root.tsx",
+      "sha256": "8b73f7c9a9d62674e038014cc3189495e88756200119fa9dd96035a865dd12c4"
+    },
+    {
+      "path": "src/index.ts",
+      "sha256": "a58f804bf74bab68b4549aa5c715eb4a89ec5835206d198fc79b462b4fc71ef9"
+    },
+    {
+      "path": "scripts/build_audio.py",
+      "sha256": "e5ec1a4eacc60f83658258b4ec152d104e61d2b132c7af636cdef8741c0fe21a"
+    },
+    {
+      "path": "scripts/render.mjs",
+      "sha256": "841459f9147a06bf118f5e15dc6ab7bdeb0e586cac00163d1147fff4b7057bf0"
+    },
+    {
+      "path": "scripts/synthesize.py",
+      "sha256": "7966f41a3d6f920876c841051eae33c1094a52aa4314b648e8727cb1d9fdfbac"
+    },
+    {
+      "path": "segments.json",
+      "sha256": "0b85c09bab150ef5065d4dbd64b7d2647b530ef65c1253ba1238c09667a843ee"
+    },
+    {
+      "path": "timeline.json",
+      "sha256": "5de36394616e3bf21e87da8cfdda5a735968426c7bce95eda6c6197168363a90"
+    },
+    {
+      "path": "audio-timing.json",
+      "sha256": "066f84b55abdae5ce8aa487e26cc5e8c09565d23484e6aeddd8a2aecab7d20b1"
+    }
+  ],
+  "font_dependencies": {
+    "families_requested": [
+      "PingFang SC",
+      "Noto Sans CJK SC",
+      "sans-serif",
+      "Songti SC",
+      "Noto Serif CJK SC",
+      "serif",
+      "Menlo"
+    ],
+    "source": "Installed system fonts, not redistributed",
+    "resolved_face": "System-resolved family stack; representative renders observed; exact platform face not introspected"
+  },
+  "capture": {
+    "remotion": "4.0.534",
+    "chrome_version": "155.0.8059.85",
+    "native_width": 2160,
+    "native_height": 3840,
+    "fps": 60,
+    "total_frames": 7200,
+    "intermediate": "PNG",
+    "concurrency": 2,
+    "font_ready": "document.fonts.ready via Remotion delayRender",
+    "randomness": "No nondeterministic random or wall-clock animation"
+  },
+  "narration_provenance": "public/audio/provider-manifest.json",
+  "sound_provenance": "public/audio/mix-manifest.json",
+  "input_authorization": "audio-authorization.json"
+}

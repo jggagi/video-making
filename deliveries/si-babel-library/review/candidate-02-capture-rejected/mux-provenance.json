@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "video_only_sha256": "d07b83e1e1af819c20de1c2917d18f38c3dd7a4872ba0a7bea3a980ff3665922",
+  "movie_sha256": "2c8a8f1995e02bbb771031529aea184f8b59fe3d3a0ab1db3c88ad5b51c83400",
+  "master_sha256": "3b29d93bca233aed4aacf8623a841ebffc84d18d49595f6c88a974aee108a3d0",
+  "native_dimensions": [
+    2160,
+    3840
+  ],
+  "video_frames": 7200,
+  "video_duration": 120,
+  "audio_duration": 120.0,
+  "container_duration": 120.0,
+  "master_samples_per_channel": 5760000,
+  "capture": {
+    "remotion": "4.0.534",
+    "chrome": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+    "imageFormat": "png",
+    "concurrency": 2,
+    "nativeWidth": 2160,
+    "nativeHeight": 3840
+  }
+}

@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
   "status": "COMPLETE",
-  "verified_at_utc": "2026-10-21T18:42:49.325194+00:00",
+  "verified_at_utc": "2026-10-22T10:41:07.487282+00:00",
   "repository": "jggagi/video-making",
-  "source_commit": "34d169f2da900020beaa4a6f2c11f75bbf3c4edd",
+  "source_commit": "44f28b782c5aa223b2c665d1cbe18d632edfd930",
   "catalog_path": "final/backup-catalog.json",
-  "catalog_sha256": "460aba16e726b776f92613d9433e953009929dc7b4112b6be69cd2578e806a53",
-  "upload_receipt_sha256": "b37380803ccb5f8defda3171c574f1caf3eca39466d9e26be39bff581f2f4f45",
+  "catalog_sha256": "ff3d4eaa7aec5d06dec82495022c4e4e6ab926617e039799ee6e8414993e2829",
+  "upload_receipt_sha256": "897247b7addc2c05f686ce67ce207c30ba68308370ca81f0b1f1fb461e5daff8",
   "verification_method": "Fresh published GitHub Release API inventory plus all local final file hashes; every remote size, SHA-256 digest and URL matched the current catalog.",
-  "verified_releases": 25,
-  "verified_files": 54,
-  "verified_bytes": 8804151110,
+  "verified_releases": 26,
+  "verified_files": 55,
+  "verified_bytes": 8854903577,
   "works": [
     {
       "id": "lanting",
@@ -753,6 +753,26 @@
       ]
     },
     {
+      "id": "si-ep13-curse-of-memory",
+      "title": "Final 成片备份 · 无法遗忘的诅咒",
+      "release_tag": "final-si-ep13-curse-of-memory-68bddb946d5a",
+      "release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep13-curse-of-memory-68bddb946d5a",
+      "release_target": "44f28b782c5aa223b2c665d1cbe18d632edfd930",
+      "release_draft": false,
+      "assets": [
+        {
+          "path": "final/si-ep13-curse-of-memory/小红书/si-ep13-curse-of-memory-xiaohongshu-90s-portrait.mp4",
+          "name": "final--si-ep13-curse-of-memory--deliveries--si-ep13-curse-of-memory-----si-ep13-curse-of-memory-xiaohongshu-90s-portrait--7b067593aab3.mp4",
+          "bytes": 50752467,
+          "sha256": "7b067593aab3e25d3636aa0caa008ee88ab37de11a2b8fca7f49593ec474e3c7",
+          "github_digest": "sha256:7b067593aab3e25d3636aa0caa008ee88ab37de11a2b8fca7f49593ec474e3c7",
+          "github_asset_id": 665524697,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep13-curse-of-memory-68bddb946d5a/final--si-ep13-curse-of-memory--deliveries--si-ep13-curse-of-memory-----si-ep13-curse-of-memory-xiaohongshu-90s-portrait--7b067593aab3.mp4",
+          "local_and_remote_match": true
+        }
+      ]
+    },
+    {
       "id": "si-eternity",
       "title": "Final 成片备份 · 一眼万年",
       "release_tag": "final-si-eternity-66d480b1c859",
@@ -805,13 +825,10 @@
   ],
   "restore_probe": {
     "status": "PASS",
-    "work_id": "si-ep11-kintsugi-ink-v03",
-    "scope": "Actual restore for this new work only; the remote/local inventory check covers all54finalassets.",
-    "report_path": "deliveries/si-ep11-kintsugi-ink-v03/review/restore-probe.json",
-    "report_sha256": "9bda84c3c9cef1eba51c6b314d6cb745258227d1e981c5016a72b54441f9a484",
-    "bytes": 100931077,
-    "sha256": "8bc877ae8c69b76953e5eca1af056a4c851a1a7960473c73f5dd6e0771ba08e1",
-    "fresh_download_verified": true,
-    "repeated_restore_verified_skip": true
+    "work": "si-ep13-curse-of-memory",
+    "report": "deliveries/si-ep13-curse-of-memory/review/final-restore-probe.json",
+    "sha256": "7b067593aab3e25d3636aa0caa008ee88ab37de11a2b8fca7f49593ec474e3c7",
+    "bytes": 50752467,
+    "scope": "Only the new EP13 portrait was downloaded and hash-checked in isolation; repeat run skipped the matching file. Other historical movies were inventory-verified, not downloaded."
   }
 }

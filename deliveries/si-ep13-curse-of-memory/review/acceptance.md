@@ -51,6 +51,12 @@ PCM母带为48kHz、双声道16bit，每声道4,320,000样本，90秒。实测�
 
 ## 归档
 
-本地final：PASS；新增1份，跳过54份已匹配的历史成片。成片大小与SHA-256匹配。GitHub作品Release、独立final Release及实际恢复抽测：执行中，完成后追加实测结果。
+本地final：PASS；新增1份，跳过54份已匹配的历史成片。成片大小与SHA-256匹配。GitHub作品Release、独立final Release及实际恢复抽测：PASS。源码与清单先提交并推送44f28b782c5aa223b2c665d1cbe18d632edfd930，再使用现有上传器分别执行作品/final清单及独立receipt。作品目录243个资产、final目录55个资产的远端大小和SHA-256均匹配；另以新鲜API清单核验55个本地及公开final资产，并将final/backup-verification.json绑定到当前backup-catalog散列。
+
+本次新增成片50752467字节，已从final Release真实下载至隔离AgentDev目录，比较相对路径、大小和SHA-256通过；第二次执行跳过已匹配文件，临时恢复目录已清理。抽测范围仅本集，不声称历史55份影片都已重新下载。见final-restore-probe.json与github-film-verification.json。
+
+作品Release：https://github.com/jggagi/video-making/releases/tag/film-si-ep13-curse-of-memory-68bddb946d5a
+
+独立final备份：https://github.com/jggagi/video-making/releases/tag/final-si-ep13-curse-of-memory-68bddb946d5a
 
 Git保留源码、声音素材/母带、字幕、封面、精简总览、原生裁图与全部标记证据；33幅完整原生QA抽帧和初始源码静帧留在本地，能由工程或正式MP4重新生成。

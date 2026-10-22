@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "source_commit": "44f28b782c5aa223b2c665d1cbe18d632edfd930",
+  "repository": "jggagi/video-making",
+  "catalog_sha256": "d99e3a27b3680b75c151b12e50dfe4dc27c7510c908abbfaca4a26c73150b870",
+  "all_catalog_assets_verified": 243,
+  "ep13": {
+    "id": "si-ep13-curse-of-memory",
+    "title": "无法遗忘的诅咒",
+    "release_tag": "film-si-ep13-curse-of-memory-68bddb946d5a",
+    "release_url": "https://github.com/jggagi/video-making/releases/tag/film-si-ep13-curse-of-memory-68bddb946d5a",
+    "assets": [
+      {
+        "name": "si-ep13-curse-of-memory--deliveries--si-ep13-curse-of-memory--review--motion-120-299--5e0f4f6ceeec.mp4",
+        "bytes": 967126,
+        "digest": "sha256:5e0f4f6ceeecb56a737a55f0abc2aece32d31e3089eaf8ef92af21990abb3111",
+        "kind": "video",
+        "platform": "预览",
+        "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep13-curse-of-memory-68bddb946d5a/si-ep13-curse-of-memory--deliveries--si-ep13-curse-of-memory--review--motion-120-299--5e0f4f6ceeec.mp4",
+        "browser_download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep13-curse-of-memory-68bddb946d5a/si-ep13-curse-of-memory--deliveries--si-ep13-curse-of-memory--review--motion-120-299--5e0f4f6ceeec.mp4",
+        "id": 665519832
+      },
+      {
+        "name": "si-ep13-curse-of-memory--deliveries--si-ep13-curse-of-memory--review--motion-3900-4019--28014459a2a2.mp4",
+        "bytes": 2258202,
+        "digest": "sha256:28014459a2a2aae0d94d0fa4e069df24b6b4f802d819a6a5b82c45cd344df3ec",
+        "kind": "video",
+        "platform": "预览",
+        "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep13-curse-of-memory-68bddb946d5a/si-ep13-curse-of-memory--deliveries--si-ep13-curse-of-memory--review--motion-3900-4019--28014459a2a2.mp4",
+        "browser_download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep13-curse-of-memory-68bddb946d5a/si-ep13-curse-of-memory--deliveries--si-ep13-curse-of-memory--review--motion-3900-4019--28014459a2a2.mp4",
+        "id": 665519871
+      },
+      {
+        "name": "si-ep13-curse-of-memory--deliveries--si-ep13-curse-of-memory--review--motion-4800-4979--c94b30033b2d.mp4",
+        "bytes": 2194601,
+        "digest": "sha256:c94b30033b2d71bea29b0c0b103ad134bb83b5474d32595b726a2fe90588d95c",
+        "kind": "video",
+        "platform": "预览",
+        "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep13-curse-of-memory-68bddb946d5a/si-ep13-curse-of-memory--deliveries--si-ep13-curse-of-memory--review--motion-4800-4979--c94b30033b2d.mp4",
+        "browser_download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep13-curse-of-memory-68bddb946d5a/si-ep13-curse-of-memory--deliveries--si-ep13-curse-of-memory--review--motion-4800-4979--c94b30033b2d.mp4",
+        "id": 665519921
+      },
+      {
+        "name": "si-ep13-curse-of-memory--deliveries--si-ep13-curse-of-memory-----si-ep13-curse-of-memory-xiaohongshu-90s-portrait--7b067593aab3.mp4",
+        "bytes": 50752467,
+        "digest": "sha256:7b067593aab3e25d3636aa0caa008ee88ab37de11a2b8fca7f49593ec474e3c7",
+        "kind": "video",
+        "platform": "小红书",
+        "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep13-curse-of-memory-68bddb946d5a/si-ep13-curse-of-memory--deliveries--si-ep13-curse-of-memory-----si-ep13-curse-of-memory-xiaohongshu-90s-portrait--7b067593aab3.mp4",
+        "browser_download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep13-curse-of-memory-68bddb946d5a/si-ep13-curse-of-memory--deliveries--si-ep13-curse-of-memory-----si-ep13-curse-of-memory-xiaohongshu-90s-portrait--7b067593aab3.mp4",
+        "id": 665520006
+      }
+    ],
+    "release_draft": false
+  }
+}

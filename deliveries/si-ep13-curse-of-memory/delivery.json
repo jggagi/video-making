@@ -39,9 +39,9 @@
     "target_device_playback": "NOT_RUN",
     "human_listening": "NOT_RUN",
     "local_final": "PASS",
-    "github_film_archive": "pending",
-    "github_final_backup": "pending",
-    "final_restore_probe": "pending"
+    "github_film_archive": "PASS",
+    "github_final_backup": "PASS",
+    "final_restore_probe": "PASS"
   },
   "visual_qc": {
     "required": true,

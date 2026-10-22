@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "scope": "Only the new EP13 portrait final was actually downloaded; no claim that all historical movies were restored.",
+  "catalog_sha256": "ff3d4eaa7aec5d06dec82495022c4e4e6ab926617e039799ee6e8414993e2829",
+  "release_tag": "final-si-ep13-curse-of-memory-68bddb946d5a",
+  "asset_name": "final--si-ep13-curse-of-memory--deliveries--si-ep13-curse-of-memory-----si-ep13-curse-of-memory-xiaohongshu-90s-portrait--7b067593aab3.mp4",
+  "restored_relative_path": "final/si-ep13-curse-of-memory/小红书/si-ep13-curse-of-memory-xiaohongshu-90s-portrait.mp4",
+  "bytes": 50752467,
+  "sha256": "7b067593aab3e25d3636aa0caa008ee88ab37de11a2b8fca7f49593ec474e3c7",
+  "first_run_stdout": "Restored: final/si-ep13-curse-of-memory/小红书/si-ep13-curse-of-memory-xiaohongshu-90s-portrait.mp4 (50,752,467 bytes)\nRestore complete: 0 already verified, 1 downloaded",
+  "second_run_stdout": "Restore complete: 1 already verified, 0 downloaded",
+  "second_run_skipped_matching_file": true,
+  "isolated_temporary_directory_cleaned_after_verification": true
+}

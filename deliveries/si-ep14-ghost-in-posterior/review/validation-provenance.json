@@ -1,0 +1,14 @@
+{
+  "final_media_sha256": "d56c8394eb08f30b1645981fc7fc951f714b3651e1fec813fc3ad2bbcc005ee9",
+  "source_capture": "capture-provenance.json",
+  "frame_repair": "capture-repair.json",
+  "initial_capture_rejected_sha256": "fcc7f70f0c521433215155730d56b395068800face7819c2c46a526631c103b0",
+  "continuous_screening": "visual-qc-xiaohongshu-final/report.json",
+  "representative_evidence": "encoded-qa-d56c8394eb08/metadata.json",
+  "representative_judgment": "representative-review.json",
+  "source_check": "source-check.json",
+  "media_unchanged_since_current_QA": true,
+  "audio_scope": "PCM exact4320000samples/channel; container/audio/video90s; AAC decode includes256padding samples and very low-energy blackout-boundary residue.",
+  "human_listening": "NOT_RUN",
+  "device_playback": "NOT_RUN"
+}

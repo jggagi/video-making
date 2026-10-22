@@ -1,0 +1,57 @@
+{
+  "status": "MODEL_REPRESENTATIVE_OBSERVED",
+  "clips": [
+    {
+      "media": "review/motion-30-209.mp4",
+      "sha256": "d9d8118b21502d4faa8da56e67e70f3349ff840a640b4452b9927dd95ddb4203",
+      "absoluteFrames": [
+        30,
+        210
+      ],
+      "native": [
+        2160,
+        3840
+      ],
+      "fps": 60,
+      "real_audio_master": true
+    },
+    {
+      "media": "review/motion-3780-3959.mp4",
+      "sha256": "13b91f18717a7c09b1885927c58c15a98f061759abc00a431880854b448d3d43",
+      "absoluteFrames": [
+        3780,
+        3960
+      ],
+      "native": [
+        2160,
+        3840
+      ],
+      "fps": 60,
+      "real_audio_master": true
+    },
+    {
+      "media": "review/motion-4800-4979.mp4",
+      "sha256": "f36f3fb23676e7aef705c5bdd3f691356f72522230531b5faa3018a885757277",
+      "absoluteFrames": [
+        4800,
+        4980
+      ],
+      "native": [
+        2160,
+        3840
+      ],
+      "fps": 60,
+      "real_audio_master": true
+    }
+  ],
+  "scope": "Real native previews with actual master; representative encoded frames for model review; no claim of human listening",
+  "modelObservation": [
+    "Observed encoded mobile360px frames: noHUD clipping or3D distortion; opening subtitle now breaks at semantic boundary.",
+    "Gray–Scott pattern and inward curved ivy leave warm jagged memory cells at64sec; actual2D texture detail is visible.",
+    "Frame4860 removes organism abruptly;49xx has a lone coral spore. Current closing quote was separately checked at native5160.",
+    "Pure SVG capture with fonts and all textureimages explicitly decoded;180dense previewframes screened withzero flags."
+  ],
+  "listening": "NOT_RUN by a human; files contain measured real narration and procedural sound",
+  "continuous_audience_review": "NOT_RUN",
+  "limits": "Representative model visual observation and technical audio measurements do not establish audience response or human hearing."
+}

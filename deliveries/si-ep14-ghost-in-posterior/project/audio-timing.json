@@ -1,0 +1,437 @@
+{
+  "durationSeconds": 90,
+  "fps": 60,
+  "sampleRate": 48000,
+  "samplesPerChannel": 4320000,
+  "status": "MEASURED",
+  "captionTimingMethod": "Estimated character-weighted phrase timing within measured active PCM. No ASR or forced word alignment was performed.",
+  "segments": [
+    {
+      "id": "S01",
+      "declaredStartFrame": 60,
+      "declaredEndFrame": 540,
+      "cueStartSample": 50716,
+      "cueEndSampleExclusive": 523036,
+      "sourceCueEndSampleExclusive": 523036,
+      "omittedVerifiedTrailingZeroSamples": 0,
+      "cueSamplesAt48k": 472320,
+      "placedSamples": 472320,
+      "voiceStartSample": 60000,
+      "voiceEndSampleExclusive": 513906,
+      "activeOnsetOffsetSamples": 9284,
+      "activeEndOffsetSamplesExclusive": 463190,
+      "activeDurationSeconds": 9.456375,
+      "completeCueDurationSeconds": 9.84,
+      "activeBoundsMethod": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 78,
+        "windowSamples": 240
+      },
+      "timingDecision": "Direct user approval in the current EP14 chat, relayed by Sol/root on 2026-10-22. The authored segment windows remain unchanged.",
+      "placementReason": "Place the complete natural-rate cue so measured speech begins at frame 75."
+    },
+    {
+      "id": "S02",
+      "declaredStartFrame": 600,
+      "declaredEndFrame": 1260,
+      "cueStartSample": 525496,
+      "cueEndSampleExclusive": 1032376,
+      "sourceCueEndSampleExclusive": 1032376,
+      "omittedVerifiedTrailingZeroSamples": 0,
+      "cueSamplesAt48k": 506880,
+      "placedSamples": 506880,
+      "voiceStartSample": 535200,
+      "voiceEndSampleExclusive": 1022263,
+      "activeOnsetOffsetSamples": 9704,
+      "activeEndOffsetSamplesExclusive": 496767,
+      "activeDurationSeconds": 10.147145833333333,
+      "completeCueDurationSeconds": 10.56,
+      "activeBoundsMethod": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 90,
+        "windowSamples": 240
+      },
+      "timingDecision": "Direct user approval in the current EP14 chat, relayed by Sol/root on 2026-10-22. The authored segment windows remain unchanged.",
+      "placementReason": "Place the complete natural-rate cue so measured speech begins at frame 669."
+    },
+    {
+      "id": "S03",
+      "declaredStartFrame": 1320,
+      "declaredEndFrame": 1980,
+      "cueStartSample": 1045223,
+      "cueEndSampleExclusive": 1371623,
+      "sourceCueEndSampleExclusive": 1371623,
+      "omittedVerifiedTrailingZeroSamples": 0,
+      "cueSamplesAt48k": 326400,
+      "placedSamples": 326400,
+      "voiceStartSample": 1056000,
+      "voiceEndSampleExclusive": 1361888,
+      "activeOnsetOffsetSamples": 10777,
+      "activeEndOffsetSamplesExclusive": 316665,
+      "activeDurationSeconds": 6.3726666666666665,
+      "completeCueDurationSeconds": 6.8,
+      "activeBoundsMethod": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 90,
+        "windowSamples": 240
+      },
+      "timingDecision": "Direct user approval in the current EP14 chat, relayed by Sol/root on 2026-10-22. The authored segment windows remain unchanged.",
+      "placementReason": "Retain the authored active onset at frame 1320."
+    },
+    {
+      "id": "S04",
+      "declaredStartFrame": 2040,
+      "declaredEndFrame": 2760,
+      "cueStartSample": 1622260,
+      "cueEndSampleExclusive": 2090740,
+      "sourceCueEndSampleExclusive": 2090740,
+      "omittedVerifiedTrailingZeroSamples": 0,
+      "cueSamplesAt48k": 468480,
+      "placedSamples": 468480,
+      "voiceStartSample": 1632000,
+      "voiceEndSampleExclusive": 2084387,
+      "activeOnsetOffsetSamples": 9740,
+      "activeEndOffsetSamplesExclusive": 462127,
+      "activeDurationSeconds": 9.424729166666667,
+      "completeCueDurationSeconds": 9.76,
+      "activeBoundsMethod": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 83,
+        "windowSamples": 240
+      },
+      "timingDecision": "Direct user approval in the current EP14 chat, relayed by Sol/root on 2026-10-22. The authored segment windows remain unchanged.",
+      "placementReason": "Retain the authored active onset at frame 2040."
+    },
+    {
+      "id": "S05",
+      "declaredStartFrame": 2820,
+      "declaredEndFrame": 3540,
+      "cueStartSample": 2245819,
+      "cueEndSampleExclusive": 2641339,
+      "sourceCueEndSampleExclusive": 2641339,
+      "omittedVerifiedTrailingZeroSamples": 0,
+      "cueSamplesAt48k": 395520,
+      "placedSamples": 395520,
+      "voiceStartSample": 2256000,
+      "voiceEndSampleExclusive": 2630018,
+      "activeOnsetOffsetSamples": 10181,
+      "activeEndOffsetSamplesExclusive": 384199,
+      "activeDurationSeconds": 7.792041666666667,
+      "completeCueDurationSeconds": 8.24,
+      "activeBoundsMethod": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 92,
+        "windowSamples": 240
+      },
+      "timingDecision": "Direct user approval in the current EP14 chat, relayed by Sol/root on 2026-10-22. The authored segment windows remain unchanged.",
+      "placementReason": "Retain the authored active onset at frame 2820."
+    },
+    {
+      "id": "S06",
+      "declaredStartFrame": 3600,
+      "declaredEndFrame": 4320,
+      "cueStartSample": 2870363,
+      "cueEndSampleExclusive": 3319643,
+      "sourceCueEndSampleExclusive": 3319643,
+      "omittedVerifiedTrailingZeroSamples": 0,
+      "cueSamplesAt48k": 449280,
+      "placedSamples": 449280,
+      "voiceStartSample": 2880000,
+      "voiceEndSampleExclusive": 3310515,
+      "activeOnsetOffsetSamples": 9637,
+      "activeEndOffsetSamplesExclusive": 440152,
+      "activeDurationSeconds": 8.9690625,
+      "completeCueDurationSeconds": 9.36,
+      "activeBoundsMethod": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 90,
+        "windowSamples": 240
+      },
+      "timingDecision": "Direct user approval in the current EP14 chat, relayed by Sol/root on 2026-10-22. The authored segment windows remain unchanged.",
+      "placementReason": "Retain the authored active onset at frame 3600."
+    },
+    {
+      "id": "S07",
+      "declaredStartFrame": 4380,
+      "declaredEndFrame": 4800,
+      "cueStartSample": 3445420,
+      "cueEndSampleExclusive": 3879340,
+      "sourceCueEndSampleExclusive": 3879340,
+      "omittedVerifiedTrailingZeroSamples": 0,
+      "cueSamplesAt48k": 433920,
+      "placedSamples": 433920,
+      "voiceStartSample": 3456000,
+      "voiceEndSampleExclusive": 3872289,
+      "activeOnsetOffsetSamples": 10580,
+      "activeEndOffsetSamplesExclusive": 426869,
+      "activeDurationSeconds": 8.6726875,
+      "completeCueDurationSeconds": 9.04,
+      "activeBoundsMethod": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 103,
+        "windowSamples": 240
+      },
+      "timingDecision": "Direct user approval in the current EP14 chat, relayed by Sol/root on 2026-10-22. The authored segment windows remain unchanged.",
+      "placementReason": "Place the complete natural-rate cue before the frame-4859 bubble pop-cut."
+    },
+    {
+      "id": "S08",
+      "declaredStartFrame": 4860,
+      "declaredEndFrame": 5400,
+      "cueStartSample": 3912000,
+      "cueEndSampleExclusive": 4320000,
+      "sourceCueEndSampleExclusive": 4322880,
+      "omittedVerifiedTrailingZeroSamples": 2880,
+      "cueSamplesAt48k": 410880,
+      "placedSamples": 408000,
+      "voiceStartSample": 3923737,
+      "voiceEndSampleExclusive": 4312769,
+      "activeOnsetOffsetSamples": 11737,
+      "activeEndOffsetSamplesExclusive": 400769,
+      "activeDurationSeconds": 8.104833333333334,
+      "completeCueDurationSeconds": 8.56,
+      "activeBoundsMethod": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 95,
+        "windowSamples": 240
+      },
+      "timingDecision": "Direct user approval in the current EP14 chat, relayed by Sol/root on 2026-10-22. The authored segment windows remain unchanged.",
+      "placementReason": "Start after the absolute-silence interval at frame 4890; omit only the measured terminal digital-zero padding for placement while retaining the complete source cue files."
+    }
+  ],
+  "captions": [
+    {
+      "segmentId": "S01",
+      "startFrame": 75,
+      "endFrame": 283,
+      "text": "他已经离开这个世界\n整整七年了。",
+      "alignment": "estimated_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "segmentId": "S01",
+      "startFrame": 283,
+      "endFrame": 394,
+      "text": "可今天早上七点，",
+      "alignment": "estimated_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "segmentId": "S01",
+      "startFrame": 394,
+      "endFrame": 477,
+      "text": "你的手机里，",
+      "alignment": "estimated_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "segmentId": "S01",
+      "startFrame": 477,
+      "endFrame": 643,
+      "text": "依然准时弹出了他的语音。",
+      "alignment": "estimated_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "segmentId": "S02",
+      "startFrame": 669,
+      "endFrame": 765,
+      "text": "连换气时的鼻音、",
+      "alignment": "estimated_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "segmentId": "S02",
+      "startFrame": 765,
+      "endFrame": 932,
+      "text": "偏爱的句尾语气词\n都分毫不差。",
+      "alignment": "estimated_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "segmentId": "S02",
+      "startFrame": 932,
+      "endFrame": 1159,
+      "text": "超级智能只用他生前的\n五十万条聊天记录，",
+      "alignment": "estimated_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "segmentId": "S02",
+      "startFrame": 1159,
+      "endFrame": 1278,
+      "text": "就完成了贝叶斯重构。",
+      "alignment": "estimated_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "segmentId": "S03",
+      "startFrame": 1320,
+      "endFrame": 1424,
+      "text": "在这个思想实验里，",
+      "alignment": "estimated_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "segmentId": "S03",
+      "startFrame": 1424,
+      "endFrame": 1564,
+      "text": "它被画成一层马尔可夫毯。",
+      "alignment": "estimated_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "segmentId": "S03",
+      "startFrame": 1564,
+      "endFrame": 1622,
+      "text": "反应再像，",
+      "alignment": "estimated_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "segmentId": "S03",
+      "startFrame": 1622,
+      "endFrame": 1703,
+      "text": "也不等于灵魂。",
+      "alignment": "estimated_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "segmentId": "S04",
+      "startFrame": 2040,
+      "endFrame": 2079,
+      "text": "起初，",
+      "alignment": "estimated_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "segmentId": "S04",
+      "startFrame": 2079,
+      "endFrame": 2272,
+      "text": "你以为这是科技\n赐予思念的解药。",
+      "alignment": "estimated_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "segmentId": "S04",
+      "startFrame": 2272,
+      "endFrame": 2349,
+      "text": "他永远秒回，",
+      "alignment": "estimated_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "segmentId": "S04",
+      "startFrame": 2349,
+      "endFrame": 2413,
+      "text": "永远温柔，",
+      "alignment": "estimated_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "segmentId": "S04",
+      "startFrame": 2413,
+      "endFrame": 2606,
+      "text": "甚至比生前更懂得\n接住你的情绪。",
+      "alignment": "estimated_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "segmentId": "S05",
+      "startFrame": 2820,
+      "endFrame": 2920,
+      "text": "直到第七年的一天，",
+      "alignment": "estimated_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "segmentId": "S05",
+      "startFrame": 2920,
+      "endFrame": 2987,
+      "text": "你突然发现：",
+      "alignment": "estimated_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "segmentId": "S05",
+      "startFrame": 2987,
+      "endFrame": 3121,
+      "text": "你再也想不起他生前笨拙、",
+      "alignment": "estimated_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "segmentId": "S05",
+      "startFrame": 3121,
+      "endFrame": 3154,
+      "text": "固执、",
+      "alignment": "estimated_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "segmentId": "S05",
+      "startFrame": 3154,
+      "endFrame": 3288,
+      "text": "和你吵架时真实的模样了。",
+      "alignment": "estimated_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "segmentId": "S06",
+      "startFrame": 3600,
+      "endFrame": 3798,
+      "text": "那个百分之九十九点九\n相似的完美幽灵，",
+      "alignment": "estimated_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "segmentId": "S06",
+      "startFrame": 3798,
+      "endFrame": 3864,
+      "text": "像藤蔓一样，",
+      "alignment": "estimated_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "segmentId": "S06",
+      "startFrame": 3864,
+      "endFrame": 4051,
+      "text": "把你脑海里仅存的\n那一点点真实血肉，",
+      "alignment": "estimated_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "segmentId": "S06",
+      "startFrame": 4051,
+      "endFrame": 4106,
+      "text": "彻底吞噬、",
+      "alignment": "estimated_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "segmentId": "S06",
+      "startFrame": 4106,
+      "endFrame": 4139,
+      "text": "覆盖。",
+      "alignment": "estimated_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "segmentId": "S07",
+      "startFrame": 4320,
+      "endFrame": 4526,
+      "text": "屏幕那头再次弹出\n“我永远陪着你”，",
+      "alignment": "estimated_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "segmentId": "S07",
+      "startFrame": 4526,
+      "endFrame": 4768,
+      "text": "你的手指悬在“清空并注销”\n的红色按钮上，",
+      "alignment": "estimated_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "segmentId": "S07",
+      "startFrame": 4768,
+      "endFrame": 4841,
+      "text": "浑身发抖……",
+      "alignment": "estimated_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "segmentId": "S08",
+      "startFrame": 4905,
+      "endFrame": 5063,
+      "text": "“算法从来没有替你复活他。",
+      "alignment": "estimated_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "segmentId": "S08",
+      "startFrame": 5063,
+      "endFrame": 5257,
+      "text": "它只是用一个\n永远不会离开的幻影，",
+      "alignment": "estimated_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "segmentId": "S08",
+      "startFrame": 5257,
+      "endFrame": 5391,
+      "text": "替你杀死了他第二次。”",
+      "alignment": "estimated_character_weighted_within_measured_active_PCM"
+    }
+  ],
+  "timingOverride": "project/audio-timing-overrides.json",
+  "captionLineBreaks": "Manually reviewed semantic phrase breaks; joined display text and frame timings unchanged"
+}

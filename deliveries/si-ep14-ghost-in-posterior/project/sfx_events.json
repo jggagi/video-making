@@ -1,0 +1,114 @@
+{
+  "version": 1,
+  "fps": 60,
+  "sampleRate": 48000,
+  "samplesPerFrame": 800,
+  "absoluteSilence": {
+    "startFrame": 4860,
+    "endFrameExclusive": 4890,
+    "startSample": 3888000,
+    "endSampleExclusive": 3912000,
+    "scope": [
+      "narration",
+      "score",
+      "sfx",
+      "master"
+    ],
+    "requireExactZero": true
+  },
+  "voiceMinimumOnsetFrame": 4902,
+  "snapBoundary": {
+    "anchorFrame": 4860,
+    "attackStartFrame": 4859,
+    "attackStartSample": 3887200,
+    "endSampleExclusive": 3888000,
+    "detail": "The one-frame bubble pop-cut attack ends exactly at sample 3888000, before the 30-frame absolute-silence interval."
+  },
+  "events": [
+    {
+      "id": "ecg_message_chime",
+      "frame": 60,
+      "startFrame": 60,
+      "endFrameExclusive": 840,
+      "kind": "ecg_message_chime",
+      "description": "A faint flatline tone fades beneath a soft two-note message chime that begins immediately."
+    },
+    {
+      "id": "warm_breath_granular",
+      "frame": 840,
+      "startFrame": 840,
+      "endFrameExclusive": 1500,
+      "kind": "warm_breath_granular",
+      "description": "A warm, close breath texture gradually breaks into fine emerald-like granular shimmer."
+    },
+    {
+      "id": "indigo_membrane_seal",
+      "frame": 1500,
+      "startFrame": 1500,
+      "endFrameExclusive": 2220,
+      "kind": "indigo_membrane_seal",
+      "description": "A low, resonant indigo membrane tone contracts to a soft sealed impact."
+    },
+    {
+      "id": "gentle_harmony_60bpm",
+      "frame": 2220,
+      "startFrame": 2220,
+      "endFrameExclusive": 2940,
+      "kind": "gentle_harmony_60bpm",
+      "description": "A restrained 60 BPM harmonic bed supports the brief feeling of comfort."
+    },
+    {
+      "id": "low_cancellation_glass",
+      "frame": 2940,
+      "startFrame": 2940,
+      "endFrameExclusive": 3900,
+      "kind": "low_cancellation_glass",
+      "description": "Low frequencies cancel into near-silence while a thin glass-like upper partial remains."
+    },
+    {
+      "id": "wet_cellular_engulf_tension",
+      "frame": 3900,
+      "startFrame": 3900,
+      "endFrameExclusive": 4500,
+      "kind": "wet_cellular_engulf_tension",
+      "description": "A wet cellular texture swells around the remaining memory and tightens gradually."
+    },
+    {
+      "id": "trembling_sine_heartbeat",
+      "frame": 4500,
+      "startFrame": 4500,
+      "endFrameExclusive": 4859,
+      "kind": "trembling_sine_heartbeat",
+      "description": "A trembling sine and sparse heartbeat pulses hold tension until the final cut."
+    },
+    {
+      "id": "bubble_pop_cut",
+      "frame": 4860,
+      "startFrame": 4859,
+      "endFrameExclusive": 4860,
+      "kind": "bubble_pop_cut",
+      "description": "A one-frame bubble pop-cut occupies samples 3887200–3887999 and stops exactly at the absolute-silence boundary."
+    },
+    {
+      "id": "solitary_bowed_cello_harmonic",
+      "frame": 4890,
+      "startFrame": 4890,
+      "endFrameExclusive": 5400,
+      "kind": "solitary_bowed_cello_harmonic",
+      "description": "One additive bowed-cello harmonic begins after the blackout and leaves a slight warmth under the final line; no external cello asset is claimed."
+    }
+  ],
+  "speechDodge": {
+    "enabled": true,
+    "preAttackMilliseconds": 180,
+    "releaseMilliseconds": 280,
+    "sfxAttenuationDB": -9,
+    "scoreAttenuationDB": -7,
+    "speechIntelligibilityNotch": {
+      "startHz": 1000,
+      "endHz": 4000,
+      "attenuationDB": -6,
+      "appliedTo": "procedural SFX bed"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "video_only_sha256": "2c3c84ee7d9962ad5fd006534cf8f23062c59105d2cbf4149299669cda662e47",
+  "movie_sha256": "fcc7f70f0c521433215155730d56b395068800face7819c2c46a526631c103b0",
+  "master_sha256": "7417837844871f8d3b18030021a2c72c0bf9ea97b44d9cd35181345c42a2fe0b",
+  "native_dimensions": [
+    2160,
+    3840
+  ],
+  "video_frames": 5400,
+  "video_duration": 90.0,
+  "audio_duration": 90.0,
+  "container_duration": 90.0,
+  "master_samples_per_channel": 4320000,
+  "master_silence_frames": [
+    4860,
+    4890
+  ],
+  "AAC_silence_note": "Exact digital zero is guaranteed in PCM; AAC transform coding can create boundary leakage, separately measured."
+}

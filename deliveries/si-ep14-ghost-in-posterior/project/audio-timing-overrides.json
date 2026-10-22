@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "fps": 60,
+  "sampleRate": 48000,
+  "samplesPerFrame": 800,
+  "decisionSource": "Direct user approval in the current EP14 chat, relayed by Sol/root on 2026-10-22. The authored segment windows remain unchanged.",
+  "segments": {
+    "S01": {
+      "cueStartSample": 50716,
+      "activeStartSample": 60000,
+      "activeStartFrame": 75,
+      "reason": "Place the complete natural-rate cue so measured speech begins at frame 75."
+    },
+    "S02": {
+      "cueStartSample": 525496,
+      "activeStartSample": 535200,
+      "activeStartFrame": 669,
+      "reason": "Place the complete natural-rate cue so measured speech begins at frame 669."
+    },
+    "S03": {
+      "cueStartSample": 1045223,
+      "activeStartSample": 1056000,
+      "activeStartFrame": 1320,
+      "reason": "Retain the authored active onset at frame 1320."
+    },
+    "S04": {
+      "cueStartSample": 1622260,
+      "activeStartSample": 1632000,
+      "activeStartFrame": 2040,
+      "reason": "Retain the authored active onset at frame 2040."
+    },
+    "S05": {
+      "cueStartSample": 2245819,
+      "activeStartSample": 2256000,
+      "activeStartFrame": 2820,
+      "reason": "Retain the authored active onset at frame 2820."
+    },
+    "S06": {
+      "cueStartSample": 2870363,
+      "activeStartSample": 2880000,
+      "activeStartFrame": 3600,
+      "reason": "Retain the authored active onset at frame 3600."
+    },
+    "S07": {
+      "cueStartSample": 3445420,
+      "activeStartSample": 3456000,
+      "activeStartFrame": 4320,
+      "reason": "Place the complete natural-rate cue before the frame-4859 bubble pop-cut."
+    },
+    "S08": {
+      "cueStartSample": 3912000,
+      "activeStartSample": 3923737,
+      "activeStartFrame": 4904.67125,
+      "omitTrailingZeroSamples": 2880,
+      "terminalZeroEvidence": {
+        "sampleRate": 48000,
+        "sampleCount": 2880,
+        "durationMilliseconds": 60,
+        "exactDigitalZero": true,
+        "peakPcm16": 0,
+        "rmsPcm16": 0.0
+      },
+      "reason": "Start after the absolute-silence interval at frame 4890; omit only the measured terminal digital-zero padding for placement while retaining the complete source cue files."
+    }
+  }
+}

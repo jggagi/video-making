@@ -1,0 +1,39 @@
+{
+  "status": "NATIVE_CAPTURE_COMPLETED_WITH_EXACT_FRAME_405_REDRAW",
+  "source_sha256": {
+    "project/src/Root.tsx": "0c36202dc89e1f1d75e8c733eaa569532f9c211a83a980b98f45f05339d91f9f",
+    "project/src/Film.tsx": "c5f86edd3584f51d5c579777e4340326c8322a1c2127b6ee1ed81bc48f7f9dff",
+    "project/src/index.ts": "a58f804bf74bab68b4549aa5c715eb4a89ec5835206d198fc79b462b4fc71ef9",
+    "project/src/Geometry.tsx": "901df565645cb2c12feb1f359c71a456f07f11159fadd3b051b62ed90c124b97",
+    "project/segments.json": "86c3b3f1c9181cbb757150f89b5c14383d9423c362189235da97206cc46e4185",
+    "project/audio-timing.json": "6d0e39abba942fb5d44e3fbc8bebc3851eed48d61467076dcbf7fd27bac97d6a",
+    "project/sfx_events.json": "241db2f72f530c78e1f27545cda2198ae24bc804470b2691bf1e8c9b988c4def",
+    "project/public/audio/master.wav": "7417837844871f8d3b18030021a2c72c0bf9ea97b44d9cd35181345c42a2fe0b",
+    "project/public/rd/gray-scott.json": "dcf29e82e30660bc3a68a68499395ed248dcbc555533418ad6bda45ebe0c9239",
+    "project/public/voiceprint.json": "6f80bd4e0f0101deb8ebbeeb494e5ca82ec2c61b2ac7fe13562642751b813692",
+    "project/scripts/render.mjs": "e57c6da583221a0c3d64aa7b036c5264f319af97f31d0e4e47dd017af31ab6e2"
+  },
+  "composition": "PortraitVertical",
+  "native_dimensions": [
+    2160,
+    3840
+  ],
+  "fps": 60,
+  "frames": 5400,
+  "duration_seconds": 90,
+  "intermediate_format": "png",
+  "browser_executable": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+  "browser_version": "Google Chrome 155.0.8059.85",
+  "remotion": "4.0.534",
+  "concurrency": 2,
+  "bundler_disk_cache": false,
+  "readiness": "Wait document.fonts.ready and decode all66 local RD images; pure SVG drawing; no Canvas async state",
+  "narration": "One exact PCM master; video-only capture followed by stream-copy mux",
+  "determinism": "Fixed-seed2D simulation + absolute frame functions; random-access cache; no Math.random/Date.now or3D transforms",
+  "human_listening": "NOT_RUN",
+  "continuous_human_viewing": "NOT_RUN",
+  "final_movie_sha256": "d56c8394eb08f30b1645981fc7fc951f714b3651e1fec813fc3ad2bbcc005ee9",
+  "video_only_sha256": "2c3c84ee7d9962ad5fd006534cf8f23062c59105d2cbf4149299669cda662e47",
+  "initial_mux_sha256": "fcc7f70f0c521433215155730d56b395068800face7819c2c46a526631c103b0",
+  "capture_repair_report": "review/capture-repair.json"
+}

@@ -1,0 +1,76 @@
+{
+  "movie_sha256": "d56c8394eb08f30b1645981fc7fc951f714b3651e1fec813fc3ad2bbcc005ee9",
+  "scope": "Representative geometry-region evidence only; excludes HUD, subtitle, overwrite counter. Not every-window compliance proof.",
+  "native_roi_xyxy": [
+    150,
+    1500,
+    1840,
+    2380
+  ],
+  "pairs": [
+    {
+      "frames": [
+        180,
+        330
+      ],
+      "rgb_mae": 3.319631338119507,
+      "changed_pixels_gt8": 91035
+    },
+    {
+      "frames": [
+        780,
+        930
+      ],
+      "rgb_mae": 6.774736404418945,
+      "changed_pixels_gt8": 296455
+    },
+    {
+      "frames": [
+        1440,
+        1590
+      ],
+      "rgb_mae": 4.162825107574463,
+      "changed_pixels_gt8": 151518
+    },
+    {
+      "frames": [
+        2160,
+        2310
+      ],
+      "rgb_mae": 4.1127028465271,
+      "changed_pixels_gt8": 162987
+    },
+    {
+      "frames": [
+        2940,
+        3090
+      ],
+      "rgb_mae": 2.664900779724121,
+      "changed_pixels_gt8": 152718
+    },
+    {
+      "frames": [
+        3660,
+        3810
+      ],
+      "rgb_mae": 13.300230979919434,
+      "changed_pixels_gt8": 653421
+    },
+    {
+      "frames": [
+        4440,
+        4590
+      ],
+      "rgb_mae": 6.4584245681762695,
+      "changed_pixels_gt8": 201515
+    },
+    {
+      "frames": [
+        4950,
+        5100
+      ],
+      "rgb_mae": 0.3958059847354889,
+      "changed_pixels_gt8": 9180
+    }
+  ]
+}

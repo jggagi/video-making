@@ -1,0 +1,18 @@
+{
+  "status": "MUXED",
+  "file": "/Volumes/AgentDev/Scratch/tmp/si-ep14-native-dWzkw7/video-only.mp4",
+  "sha256": "2c3c84ee7d9962ad5fd006534cf8f23062c59105d2cbf4149299669cda662e47",
+  "bytes": 47725452,
+  "capture": {
+    "remotion": "4.0.534",
+    "chrome": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+    "imageFormat": "png",
+    "concurrency": 2,
+    "nativeWidth": 2160,
+    "nativeHeight": 3840
+  },
+  "scope": "Owned rebuildable native video track on verified AgentDev scratch; formal outputs remain in repository",
+  "final_movie_sha256": "d56c8394eb08f30b1645981fc7fc951f714b3651e1fec813fc3ad2bbcc005ee9",
+  "initial_mux_sha256": "fcc7f70f0c521433215155730d56b395068800face7819c2c46a526631c103b0",
+  "capture_repair_report": "review/capture-repair.json"
+}

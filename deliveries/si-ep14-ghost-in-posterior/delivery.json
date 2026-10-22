@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "title": "死后第七年，他还在回微信",
+  "slug": "si-ep14-ghost-in-posterior",
+  "platforms": [
+    "xiaohongshu"
+  ],
+  "duration_seconds": 90,
+  "fps": 60,
+  "total_frames": 5400,
+  "script": {
+    "path": "source/script.md",
+    "sha256": "ab797b81bab2f11274477b0c3c5036484abe0a59fe01105aa3d0ab2166877c10"
+  },
+  "audio": {
+    "mode": "narrated",
+    "master": "project/public/audio/master.wav",
+    "master_sha256": "7417837844871f8d3b18030021a2c72c0bf9ea97b44d9cd35181345c42a2fe0b",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples_per_channel": 4320000,
+    "narration_provider": "Aliyun Bailian",
+    "effective_model": "cosyvoice-v3-flash",
+    "voice": "longtian_v3",
+    "integrated_lufs": -16.0,
+    "true_peak_dbtp": -1.9
+  },
+  "outputs": {
+    "xiaohongshu": {
+      "path": "小红书/si-ep14-ghost-in-posterior-xiaohongshu-90s-portrait.mp4",
+      "width": 2160,
+      "height": 3840
+    }
+  },
+  "qa": {
+    "automated": "PASS",
+    "representative_frames": "PASS_MODEL_OBSERVATION",
+    "continuous_human_review": "NOT_RUN",
+    "target_device_playback": "NOT_RUN",
+    "source": "PASS",
+    "audio_pcm": "PASS",
+    "human_listening": "NOT_RUN",
+    "continuous_frame_screening": "PASS",
+    "encoded_audio": "PASS_TECHNICAL",
+    "local_final": "PASS",
+    "github_film_archive": "PENDING",
+    "github_final_backup": "PENDING",
+    "final_restore_probe": "PENDING"
+  },
+  "visual_qc": {
+    "required": true,
+    "reports": {
+      "xiaohongshu": "review/visual-qc-xiaohongshu-final/report.json"
+    }
+  },
+  "source_completion": {
+    "path": "source/user-completion.md",
+    "sha256": "9bc754d9eed4ac188248025bf10faf3fc0d0a0047b1a9993d9d268de25bbf8d3"
+  },
+  "series": {
+    "name": "一眼万年 / Superintelligence Visualization Series",
+    "overall_episode": 14,
+    "season": 3,
+    "season_episode": 2,
+    "edition": "Xiaohongshu Viral Special"
+  },
+  "final_movie_sha256": "d56c8394eb08f30b1645981fc7fc951f714b3651e1fec813fc3ad2bbcc005ee9"
+}

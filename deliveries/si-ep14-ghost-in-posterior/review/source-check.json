@@ -1,0 +1,207 @@
+{
+  "schema_version": 1,
+  "work": "si-ep14-ghost-in-posterior",
+  "checker": "project/scripts/verify_project.py",
+  "scope": "source, authored timing, local references, and PCM-master contract; not final-media or human acceptance",
+  "status": "PASS",
+  "summary": {
+    "pass": 9,
+    "fail": 0,
+    "incomplete": 0
+  },
+  "renderAcceptance": "NOT_RECORDED",
+  "visualReview": "NOT_RECORDED",
+  "humanListening": "NOT_RECORDED",
+  "devicePlayback": "NOT_RECORDED",
+  "checks": [
+    {
+      "id": "delivery_contract",
+      "status": "PASS",
+      "message": "Delivery manifest declares the fixed 90-second, 60 fps, portrait-only specification.",
+      "details": {
+        "slug": "si-ep14-ghost-in-posterior",
+        "platforms": [
+          "xiaohongshu"
+        ],
+        "durationSeconds": 90,
+        "fps": 60,
+        "totalFrames": 5400,
+        "output": {
+          "path": "小红书/si-ep14-ghost-in-posterior-xiaohongshu-90s-portrait.mp4",
+          "width": 2160,
+          "height": 3840
+        },
+        "visualQcRequired": true
+      }
+    },
+    {
+      "id": "source_hashes",
+      "status": "PASS",
+      "message": "Original script and any declared user-completion source match their delivery hashes.",
+      "details": {
+        "script": {
+          "path": "source/script.md",
+          "sha256": "ab797b81bab2f11274477b0c3c5036484abe0a59fe01105aa3d0ab2166877c10",
+          "matchesDelivery": true
+        },
+        "source_completion": {
+          "path": "source/user-completion.md",
+          "sha256": "9bc754d9eed4ac188248025bf10faf3fc0d0a0047b1a9993d9d268de25bbf8d3",
+          "matchesDelivery": true
+        }
+      }
+    },
+    {
+      "id": "portrait_entry_root",
+      "status": "PASS",
+      "message": "src/index.ts registers Root, whose PortraitVertical composition declares 2160x3840 at 60 fps for 5400 frames.",
+      "details": {
+        "entrypoint": "project/src/index.ts",
+        "registersRoot": true,
+        "path": "project/src/Root.tsx",
+        "composition": "PortraitVertical",
+        "width": 2160,
+        "height": 3840,
+        "fps": 60,
+        "durationInFrames": 5400
+      }
+    },
+    {
+      "id": "segments_and_approved_s03",
+      "status": "PASS",
+      "message": "Eight source-order narration segments have bounded non-overlapping integer windows; S03 matches the approved correction.",
+      "details": {
+        "segmentCount": 8,
+        "windows": [
+          {
+            "id": "S01",
+            "frames": [
+              60,
+              540
+            ]
+          },
+          {
+            "id": "S02",
+            "frames": [
+              600,
+              1260
+            ]
+          },
+          {
+            "id": "S03",
+            "frames": [
+              1320,
+              1980
+            ]
+          },
+          {
+            "id": "S04",
+            "frames": [
+              2040,
+              2760
+            ]
+          },
+          {
+            "id": "S05",
+            "frames": [
+              2820,
+              3540
+            ]
+          },
+          {
+            "id": "S06",
+            "frames": [
+              3600,
+              4320
+            ]
+          },
+          {
+            "id": "S07",
+            "frames": [
+              4380,
+              4800
+            ]
+          },
+          {
+            "id": "S08",
+            "frames": [
+              4860,
+              5400
+            ]
+          }
+        ],
+        "approvedS03": true,
+        "approvedS03Fields": [
+          "display_subtitle",
+          "tts_phonetic_text"
+        ]
+      }
+    },
+    {
+      "id": "determinism_and_2d_source_apis",
+      "status": "PASS",
+      "message": "No Math.random, Date.now, perspective, rotateX, or rotateY source calls/properties were found.",
+      "details": {
+        "sourceFilesScanned": [
+          "project/src/Film.tsx",
+          "project/src/Geometry.tsx",
+          "project/src/Root.tsx",
+          "project/src/index.ts"
+        ],
+        "forbiddenApiFindings": 0
+      }
+    },
+    {
+      "id": "measured_captions",
+      "status": "PASS",
+      "message": "Measured captions are bounded, ordered, non-overlapping, and fit at most two 13-character lines.",
+      "details": {
+        "captionCount": 33,
+        "maxLines": 2,
+        "maxCharactersPerLine": 13,
+        "alignmentJudgment": "NOT_RECORDED"
+      }
+    },
+    {
+      "id": "required_assets",
+      "status": "PASS",
+      "message": "Required source/project files and all currently declared local imports/assets are present.",
+      "details": {
+        "requiredFilesMissing": [],
+        "declaredLocalReferencesChecked": 9,
+        "assetsManifestPresent": true
+      }
+    },
+    {
+      "id": "pcm_master",
+      "status": "PASS",
+      "message": "PCM master has the exact stereo 48 kHz sample count and digital silence on frames [4860, 4890).",
+      "details": {
+        "path": "project/public/audio/master.wav",
+        "sampleRate": 48000,
+        "channels": 2,
+        "samplesPerChannel": 4320000,
+        "sampleWidthBytes": 2,
+        "silenceFrameRange": [
+          4860,
+          4890
+        ],
+        "silenceSampleRange": [
+          3888000,
+          3912000
+        ],
+        "silenceBytesAreZero": true
+      }
+    },
+    {
+      "id": "encoded_output_presence",
+      "status": "PASS",
+      "message": "Final encoded video file is present; encoding and media acceptance are not performed by this source verifier.",
+      "details": {
+        "path": "小红书/si-ep14-ghost-in-posterior-xiaohongshu-90s-portrait.mp4",
+        "sizeBytes": 61925852,
+        "mediaValidation": "NOT_PERFORMED"
+      }
+    }
+  ]
+}

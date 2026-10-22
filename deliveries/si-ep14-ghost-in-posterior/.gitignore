@@ -1,0 +1,6 @@
+# Full native QA extractions are reproducible from the archived MP4.
+# Preserve them locally; Git keeps contacts, native field crops and repair evidence.
+review/encoded-qa-*/native-frames/
+review/candidate-01-rejected/encoded-qa-*/native-frames/
+review/source-*.png
+review/preflight-initial/source-*.png

@@ -1,0 +1,362 @@
+{
+  "version": 1,
+  "episode": "EP14",
+  "status": "MEASURED_PCM_QA",
+  "source": {
+    "segmentsSha256": "86c3b3f1c9181cbb757150f89b5c14383d9423c362189235da97206cc46e4185",
+    "authorizationSha256": "66f12c17f23e8a0d6db14fe59d8027703c1a405c12cf1e8b6f67e2c7828f9db2",
+    "providerManifestSha256": "33155d1512611d7cf32908b86b0f450df16b7129f9bf521dd098eab0cd0d7fd6",
+    "providerPreflightSha256": "92ba4568e8a3cca5e9b29993a98d48de2d28a0f31f3f2b4f93186253e549c2d6",
+    "timingOverridesSha256": "89ad08d4a92eb3f6e95aa1eee846f21680d20650f4d1a32241930f39ea234384",
+    "sfxEventsSha256": "241db2f72f530c78e1f27545cda2198ae24bc804470b2691bf1e8c9b988c4def"
+  },
+  "provider": {
+    "provider": "Aliyun Bailian",
+    "modelSelection": "active profile default",
+    "effectiveModel": "cosyvoice-v3-flash",
+    "voice": "longtian_v3",
+    "rate": 1.0,
+    "callsRecorded": 8,
+    "allIdentitiesMatched": true
+  },
+  "stems": {
+    "narration.wav": {
+      "file": "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep14-ghost-in-posterior/project/public/audio/narration.wav",
+      "sha256": "a39514dfbda18ef726892afb69db4e876339c4dc9fd2e886b002a7323004d39e",
+      "pcmSha256": "01038720bfed42a9e74c11d5a1efd952d209204d5050b9e2e34a5d5d2b20af77",
+      "sizeBytes": 17280044,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleWidthBytes": 2,
+      "samplesPerChannel": 4320000,
+      "durationSeconds": 90,
+      "samplePeakPcm16": 20027,
+      "absoluteSilence": {
+        "startSample": 3888000,
+        "endSampleExclusive": 3912000,
+        "peakPcm16": 0,
+        "exactZero": true
+      }
+    },
+    "sfx.wav": {
+      "file": "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep14-ghost-in-posterior/project/public/audio/sfx.wav",
+      "sha256": "7f2a561ddf9d7d1d881237fe692d0ee53b278a2f326ec64cd2eb58446ef99319",
+      "pcmSha256": "877d1e19f5dcce1147dc00bb361d686ede191928ec2cc79e0fa58c7b713f6b24",
+      "sizeBytes": 17280044,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleWidthBytes": 2,
+      "samplesPerChannel": 4320000,
+      "durationSeconds": 90,
+      "samplePeakPcm16": 6934,
+      "absoluteSilence": {
+        "startSample": 3888000,
+        "endSampleExclusive": 3912000,
+        "peakPcm16": 0,
+        "exactZero": true
+      }
+    },
+    "score.wav": {
+      "file": "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep14-ghost-in-posterior/project/public/audio/score.wav",
+      "sha256": "a6cf1aab6f466502ce22d6b5ebe6ee141c61686686fa63639d729d7965b5565d",
+      "pcmSha256": "e2ed288c091ce2c4ee9bfb52cb06827a714e5e43427e1a19d9bb23a109017dbf",
+      "sizeBytes": 17280044,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleWidthBytes": 2,
+      "samplesPerChannel": 4320000,
+      "durationSeconds": 90,
+      "samplePeakPcm16": 1517,
+      "absoluteSilence": {
+        "startSample": 3888000,
+        "endSampleExclusive": 3912000,
+        "peakPcm16": 0,
+        "exactZero": true
+      }
+    }
+  },
+  "master": {
+    "file": "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep14-ghost-in-posterior/project/public/audio/master.wav",
+    "sha256": "7417837844871f8d3b18030021a2c72c0bf9ea97b44d9cd35181345c42a2fe0b",
+    "pcmSha256": "ae7e35ad35441e17a25193b0ae6364a8b98ac8a1855f4e79189264b2f3ba8c68",
+    "sizeBytes": 17280044,
+    "sampleRate": 48000,
+    "channels": 2,
+    "sampleWidthBytes": 2,
+    "samplesPerChannel": 4320000,
+    "durationSeconds": 90,
+    "samplePeakPcm16": 26393,
+    "absoluteSilence": {
+      "startSample": 3888000,
+      "endSampleExclusive": 3912000,
+      "peakPcm16": 0,
+      "exactZero": true
+    },
+    "loudness": {
+      "integratedLUFS": -16.0,
+      "truePeakDBTP": -1.9
+    },
+    "limiter": {
+      "oversampleFactor": 4,
+      "processingSampleRate": 192000,
+      "ceilingDBTP": -1.8,
+      "limitAmplitude": 0.8128305161640993,
+      "filter": "alimiter with latency compensation",
+      "explicitlyApplied": true
+    }
+  },
+  "events": {
+    "measured": [
+      {
+        "id": "ecg_message_chime",
+        "frame": 60,
+        "startFrame": 60,
+        "endFrameExclusive": 840,
+        "startSample": 48000,
+        "endSampleExclusive": 672000,
+        "sampleCount": 624000,
+        "durationSeconds": 13.0,
+        "kind": "ecg_message_chime",
+        "bus": "sfx",
+        "description": "A faint flatline tone fades beneath a soft two-note message chime that begins immediately.",
+        "audibleOnsets": [
+          {
+            "label": "first_note",
+            "offsetSample": 0,
+            "globalSample": 48000,
+            "frame": 60
+          },
+          {
+            "label": "second_note",
+            "offsetSample": 11520,
+            "globalSample": 59520,
+            "offsetSeconds": 0.24
+          }
+        ],
+        "postDuckNotchWindowPeak": [
+          0.11947996459852901,
+          0.0370189519943846
+        ],
+        "postDuckNotchWindowPeakPcm16": [
+          3915,
+          1213
+        ]
+      },
+      {
+        "id": "warm_breath_granular",
+        "frame": 840,
+        "startFrame": 840,
+        "endFrameExclusive": 1500,
+        "startSample": 672000,
+        "endSampleExclusive": 1200000,
+        "sampleCount": 528000,
+        "durationSeconds": 11.0,
+        "kind": "warm_breath_granular",
+        "bus": "sfx",
+        "description": "A warm, close breath texture gradually breaks into fine emerald-like granular shimmer."
+      },
+      {
+        "id": "indigo_membrane_seal",
+        "frame": 1500,
+        "startFrame": 1500,
+        "endFrameExclusive": 2220,
+        "startSample": 1200000,
+        "endSampleExclusive": 1776000,
+        "sampleCount": 576000,
+        "durationSeconds": 12.0,
+        "kind": "indigo_membrane_seal",
+        "bus": "sfx",
+        "description": "A low, resonant indigo membrane tone contracts to a soft sealed impact."
+      },
+      {
+        "id": "gentle_harmony_60bpm",
+        "frame": 2220,
+        "startFrame": 2220,
+        "endFrameExclusive": 2940,
+        "startSample": 1776000,
+        "endSampleExclusive": 2352000,
+        "sampleCount": 576000,
+        "durationSeconds": 12.0,
+        "kind": "gentle_harmony_60bpm",
+        "bus": "score",
+        "description": "A restrained 60 BPM harmonic bed supports the brief feeling of comfort."
+      },
+      {
+        "id": "low_cancellation_glass",
+        "frame": 2940,
+        "startFrame": 2940,
+        "endFrameExclusive": 3900,
+        "startSample": 2352000,
+        "endSampleExclusive": 3120000,
+        "sampleCount": 768000,
+        "durationSeconds": 16.0,
+        "kind": "low_cancellation_glass",
+        "bus": "sfx",
+        "description": "Low frequencies cancel into near-silence while a thin glass-like upper partial remains."
+      },
+      {
+        "id": "wet_cellular_engulf_tension",
+        "frame": 3900,
+        "startFrame": 3900,
+        "endFrameExclusive": 4500,
+        "startSample": 3120000,
+        "endSampleExclusive": 3600000,
+        "sampleCount": 480000,
+        "durationSeconds": 10.0,
+        "kind": "wet_cellular_engulf_tension",
+        "bus": "sfx",
+        "description": "A wet cellular texture swells around the remaining memory and tightens gradually."
+      },
+      {
+        "id": "trembling_sine_heartbeat",
+        "frame": 4500,
+        "startFrame": 4500,
+        "endFrameExclusive": 4859,
+        "startSample": 3600000,
+        "endSampleExclusive": 3887200,
+        "sampleCount": 287200,
+        "durationSeconds": 5.983333333333333,
+        "kind": "trembling_sine_heartbeat",
+        "bus": "sfx",
+        "description": "A trembling sine and sparse heartbeat pulses hold tension until the final cut."
+      },
+      {
+        "id": "bubble_pop_cut",
+        "frame": 4860,
+        "startFrame": 4859,
+        "endFrameExclusive": 4860,
+        "startSample": 3887200,
+        "endSampleExclusive": 3888000,
+        "sampleCount": 800,
+        "durationSeconds": 0.016666666666666666,
+        "kind": "bubble_pop_cut",
+        "bus": "sfx",
+        "description": "A one-frame bubble pop-cut occupies samples 3887200–3887999 and stops exactly at the absolute-silence boundary."
+      },
+      {
+        "id": "solitary_bowed_cello_harmonic",
+        "frame": 4890,
+        "startFrame": 4890,
+        "endFrameExclusive": 5400,
+        "startSample": 3912000,
+        "endSampleExclusive": 4320000,
+        "sampleCount": 408000,
+        "durationSeconds": 8.5,
+        "kind": "solitary_bowed_cello_harmonic",
+        "bus": "score",
+        "description": "One additive bowed-cello harmonic begins after the blackout and leaves a slight warmth under the final line; no external cello asset is claimed."
+      }
+    ],
+    "allAnchorsMatched": true,
+    "snapAttackStartSample": 3887200,
+    "snapEndsAtSample": 3888000,
+    "messageChimeVerification": {
+      "evidenceSource": "exported sfx.wav PCM16 after speech ducking and intelligibility notch",
+      "firstNote": {
+        "frame": 60,
+        "globalSample": 48000,
+        "windowSamples": 2400,
+        "peakPcm16": 3915
+      },
+      "secondNote": {
+        "offsetSeconds": 0.24,
+        "globalSample": 59520,
+        "windowSamples": 2400,
+        "peakPcm16": 1213
+      },
+      "bothAudible": true
+    }
+  },
+  "absoluteSilence": {
+    "startFrame": 4860,
+    "endFrameExclusive": 4890,
+    "startSample": 3888000,
+    "endSampleExclusive": 3912000,
+    "exactZeroInNarrationScoreSfxMaster": true
+  },
+  "speech": {
+    "allCuesCompleteExceptVerifiedTerminalZeroPadding": true,
+    "sampleRate": 48000,
+    "rate": 1.0,
+    "activeRanges": [
+      {
+        "id": "S01",
+        "startSample": 60000,
+        "endSampleExclusive": 513906
+      },
+      {
+        "id": "S02",
+        "startSample": 535200,
+        "endSampleExclusive": 1022263
+      },
+      {
+        "id": "S03",
+        "startSample": 1056000,
+        "endSampleExclusive": 1361888
+      },
+      {
+        "id": "S04",
+        "startSample": 1632000,
+        "endSampleExclusive": 2084387
+      },
+      {
+        "id": "S05",
+        "startSample": 2256000,
+        "endSampleExclusive": 2630018
+      },
+      {
+        "id": "S06",
+        "startSample": 2880000,
+        "endSampleExclusive": 3310515
+      },
+      {
+        "id": "S07",
+        "startSample": 3456000,
+        "endSampleExclusive": 3872289
+      },
+      {
+        "id": "S08",
+        "startSample": 3923737,
+        "endSampleExclusive": 4312769
+      }
+    ],
+    "naturalTailFade": {
+      "startSample": 4312769,
+      "endSampleExclusive": 4320000,
+      "durationSeconds": 0.15064583333333334,
+      "appliedAfterMeasuredActiveSpeechOnly": true,
+      "stemMeasurements": {
+        "narration": {
+          "final150msPeakPcm16": 5,
+          "terminalSamplePeakPcm16": 0
+        },
+        "sfx": {
+          "final150msPeakPcm16": 0,
+          "terminalSamplePeakPcm16": 0
+        },
+        "score": {
+          "final150msPeakPcm16": 127,
+          "terminalSamplePeakPcm16": 0
+        },
+        "master": {
+          "final150msPeakPcm16": 333,
+          "terminalSamplePeakPcm16": 0
+        }
+      }
+    }
+  },
+  "captions": {
+    "srt": "小红书/captions.srt",
+    "estimatedCharacterWeighted": true,
+    "asrUsed": false,
+    "allSourceDisplayTextPreserved": true,
+    "maxLines": 2,
+    "maxCharactersPerLine": 13,
+    "orphanPunctuation": false,
+    "semanticLineBreaksReviewed": true
+  },
+  "scratch": {
+    "volume": "AgentDev APFS",
+    "path": "verified by agent-dev run wrapper; scratch removed after successful publication"
+  }
+}

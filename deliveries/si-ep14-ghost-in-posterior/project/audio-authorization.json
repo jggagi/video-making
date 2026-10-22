@@ -1,0 +1,8 @@
+{
+  "provider": "Aliyun Bailian",
+  "scope": "EP14 S01 through S08 prepared tts_phonetic_text",
+  "authorized": true,
+  "source": "Standing video-making voiceover authorization in skills/voiceover/SKILL.md (2026-10-20); current EP14 request and S03 correction approved in this chat",
+  "voice": "longtian_v3",
+  "text_sha256": "70637ead67fe5a6af48a302e437386d7580612a4c45be8f35e42c4a745bbb27e"
+}

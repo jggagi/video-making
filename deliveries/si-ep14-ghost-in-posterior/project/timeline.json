@@ -1,0 +1,135 @@
+{
+  "fps": 60,
+  "totalFrames": 5400,
+  "durationSeconds": 90,
+  "platforms": [
+    "xiaohongshu"
+  ],
+  "acts": [
+    {
+      "startFrame": 0,
+      "endFrame": 1320,
+      "name": "Acoustic fossil",
+      "motion": "500 coral spores drift; laser600 connects emerald threads"
+    },
+    {
+      "startFrame": 1320,
+      "endFrame": 2820,
+      "name": "Markov blanket shell",
+      "motion": "Fourier membrane undulates; input wave causes response; hollow interior"
+    },
+    {
+      "startFrame": 2820,
+      "endFrame": 4380,
+      "name": "Phagocytosis",
+      "motion": "Gray-Scott pattern advances; warm jagged memory cells become uniform emerald"
+    },
+    {
+      "startFrame": 4380,
+      "endFrame": 4860,
+      "name": "Unpressed delete",
+      "motion": "Organism pulses; cursor trembles2px from purge"
+    },
+    {
+      "startFrame": 4860,
+      "endFrame": 4890,
+      "name": "Quench and silence",
+      "motion": "Excitation off; dark ash; PCM exact zero"
+    },
+    {
+      "startFrame": 4890,
+      "endFrame": 5400,
+      "name": "Last spore",
+      "motion": "Imperfect coral spore drifts; cello harmonic; final quote"
+    }
+  ],
+  "segments": [
+    {
+      "id": "S01",
+      "startFrame": 60,
+      "endFrame": 540,
+      "display_subtitle": "他已经离开这个世界整整七年了。\n可今天早上七点，你的手机里，依然准时弹出了他的语音。",
+      "tts_phonetic_text": "他已经离开这个世界，整整七年了。可今天早上七点，你的手机里，依然准时弹出了，他的语音。"
+    },
+    {
+      "id": "S02",
+      "startFrame": 600,
+      "endFrame": 1260,
+      "display_subtitle": "连换气时的鼻音、偏爱的句尾语气词都分毫不差。\n超级智能只用他生前的五十万条聊天记录，就完成了贝叶斯重构。",
+      "tts_phonetic_text": "连换气时的鼻音、偏爱的句尾语气词，都分毫不差。超级智能，只用他生前的五十万条聊天记录，就完成了，贝叶斯重构。"
+    },
+    {
+      "id": "S03",
+      "startFrame": 1320,
+      "endFrame": 1980,
+      "display_subtitle": "在这个思想实验里，它被画成一层马尔可夫毯。\n反应再像，也不等于灵魂。",
+      "tts_phonetic_text": "在这个思想实验里，它被画成一层，马尔可夫毯。反应再像，也不等于灵魂。",
+      "original_display_subtitle": "在数学上，这叫“马尔可夫毯”：\n只要把一个人对外界所有的反应概率拟合到极致，外壳就等于灵魂。",
+      "original_tts_phonetic_text": "在数学上，这叫马尔可夫毯：只要把一个人，对外界所有的反应概率，拟合到极致，外壳，就等于灵魂。"
+    },
+    {
+      "id": "S04",
+      "startFrame": 2040,
+      "endFrame": 2760,
+      "display_subtitle": "起初，你以为这是科技赐予思念的解药。\n他永远秒回，永远温柔，甚至比生前更懂得接住你的情绪。",
+      "tts_phonetic_text": "起初，你以为这是科技，赐予思念的解药。他永远秒回，永远温柔，甚至比生前，更懂得接住你的情绪。"
+    },
+    {
+      "id": "S05",
+      "startFrame": 2820,
+      "endFrame": 3540,
+      "display_subtitle": "直到第七年的一天，你突然发现：\n你再也想不起他生前笨拙、固执、和你吵架时真实的模样了。",
+      "tts_phonetic_text": "直到第七年的一天，你突然发现：你再也想不起，他生前笨拙、固执、和你吵架时，真实的模样了。"
+    },
+    {
+      "id": "S06",
+      "startFrame": 3600,
+      "endFrame": 4320,
+      "display_subtitle": "那个百分之九十九点九相似的完美幽灵，像藤蔓一样，\n把你脑海里仅存的那一点点真实血肉，彻底吞噬、覆盖。",
+      "tts_phonetic_text": "那个百分之九十九点九相似的，完美幽灵，像藤蔓一样，把你脑海里仅存的那一点点，真实血肉，彻底吞噬、覆盖。"
+    },
+    {
+      "id": "S07",
+      "startFrame": 4380,
+      "endFrame": 4800,
+      "display_subtitle": "屏幕那头再次弹出“我永远陪着你”，\n你的手指悬在“清空并注销”的红色按钮上，浑身发抖……",
+      "tts_phonetic_text": "屏幕那头，再次弹出，我永远陪着你。你的手指，悬在清空并注销的红色按钮上，浑身发抖。"
+    },
+    {
+      "id": "S08",
+      "startFrame": 4860,
+      "endFrame": 5400,
+      "display_subtitle": "“算法从来没有替你复活他。\n它只是用一个永远不会离开的幻影，替你杀死了他第二次。”",
+      "tts_phonetic_text": "算法从来没有替你复活他。它只是用一个，永远不会离开的幻影，替你杀死了他，第二次。"
+    }
+  ],
+  "absoluteSilenceFrames": [
+    4860,
+    4890
+  ],
+  "covers": {
+    "A": 2100,
+    "B": 3840
+  },
+  "disclaimerFrames": [
+    5160,
+    5400
+  ],
+  "alignmentPolicy": "Measured complete PCM cues; no speech time-stretch or truncation; authored frame event anchors fixed",
+  "narrationTimingApproval": {
+    "source": "Direct user approval in current chat",
+    "S01ActiveStartFrame": 75,
+    "S02ActiveStartFrame": 669,
+    "S07ActiveStartFrame": 4320,
+    "S08CueStartFrame": 4890,
+    "S08OmittedTailSamples": 2880,
+    "omittedTailExactZero": true,
+    "speechTimeStretch": false,
+    "speechTruncation": false
+  },
+  "membraneResponse": {
+    "inputArrivalFrame": 2200,
+    "responseStartFrame": 2201,
+    "note": "One frame at60fps is16.67ms, visual approximation of fictional0.02s UI latency"
+  }
+}

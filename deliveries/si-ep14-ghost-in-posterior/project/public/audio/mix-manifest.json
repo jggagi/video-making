@@ -1,0 +1,297 @@
+{
+  "version": 1,
+  "settings": {
+    "version": 1,
+    "fps": 60,
+    "sampleRate": 48000,
+    "samplesPerChannel": 4320000,
+    "durationSeconds": 90,
+    "narrationGainDB": -2.1581079461903916,
+    "scoreDuckDB": -7,
+    "sfxDuckDB": -9,
+    "duckPreAttackMilliseconds": 180,
+    "duckReleaseMilliseconds": 280,
+    "speechIntelligibilityNotch": {
+      "startHz": 1000,
+      "endHz": 4000,
+      "attenuationDB": -6,
+      "appliedTo": "procedural SFX bed"
+    },
+    "masterNormalization": {
+      "targetLUFS": -16.0,
+      "toleranceLU": 0.1,
+      "firstAndSecondPassLoudnorm": true,
+      "truePeakLimiter": {
+        "oversampleFactor": 4,
+        "processingSampleRate": 192000,
+        "ceilingDBTP": -1.8,
+        "limitAmplitude": 0.8128305161640993,
+        "filter": "alimiter with latency compensation",
+        "explicitlyApplied": true
+      }
+    },
+    "absoluteSilence": {
+      "startSample": 3888000,
+      "endSampleExclusive": 3912000
+    },
+    "generativeAssets": "All score and SFX were synthesized deterministically from code; no external audio asset is claimed."
+  },
+  "inputSetSha256": "15bbe2aaa043c34f8b0631e05accc0510c10299f7f3c181eed419d9675ad2a3d",
+  "providerManifest": "project/public/audio/provider-manifest.json",
+  "providerManifestSha256": "33155d1512611d7cf32908b86b0f450df16b7129f9bf521dd098eab0cd0d7fd6",
+  "outputs": {
+    "narration.wav": {
+      "file": "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep14-ghost-in-posterior/project/public/audio/narration.wav",
+      "sha256": "a39514dfbda18ef726892afb69db4e876339c4dc9fd2e886b002a7323004d39e",
+      "pcmSha256": "01038720bfed42a9e74c11d5a1efd952d209204d5050b9e2e34a5d5d2b20af77",
+      "sizeBytes": 17280044,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleWidthBytes": 2,
+      "samplesPerChannel": 4320000,
+      "durationSeconds": 90,
+      "samplePeakPcm16": 20027,
+      "absoluteSilence": {
+        "startSample": 3888000,
+        "endSampleExclusive": 3912000,
+        "peakPcm16": 0,
+        "exactZero": true
+      }
+    },
+    "sfx.wav": {
+      "file": "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep14-ghost-in-posterior/project/public/audio/sfx.wav",
+      "sha256": "7f2a561ddf9d7d1d881237fe692d0ee53b278a2f326ec64cd2eb58446ef99319",
+      "pcmSha256": "877d1e19f5dcce1147dc00bb361d686ede191928ec2cc79e0fa58c7b713f6b24",
+      "sizeBytes": 17280044,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleWidthBytes": 2,
+      "samplesPerChannel": 4320000,
+      "durationSeconds": 90,
+      "samplePeakPcm16": 6934,
+      "absoluteSilence": {
+        "startSample": 3888000,
+        "endSampleExclusive": 3912000,
+        "peakPcm16": 0,
+        "exactZero": true
+      }
+    },
+    "score.wav": {
+      "file": "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep14-ghost-in-posterior/project/public/audio/score.wav",
+      "sha256": "a6cf1aab6f466502ce22d6b5ebe6ee141c61686686fa63639d729d7965b5565d",
+      "pcmSha256": "e2ed288c091ce2c4ee9bfb52cb06827a714e5e43427e1a19d9bb23a109017dbf",
+      "sizeBytes": 17280044,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleWidthBytes": 2,
+      "samplesPerChannel": 4320000,
+      "durationSeconds": 90,
+      "samplePeakPcm16": 1517,
+      "absoluteSilence": {
+        "startSample": 3888000,
+        "endSampleExclusive": 3912000,
+        "peakPcm16": 0,
+        "exactZero": true
+      }
+    },
+    "master.wav": {
+      "file": "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep14-ghost-in-posterior/project/public/audio/master.wav",
+      "sha256": "7417837844871f8d3b18030021a2c72c0bf9ea97b44d9cd35181345c42a2fe0b",
+      "pcmSha256": "ae7e35ad35441e17a25193b0ae6364a8b98ac8a1855f4e79189264b2f3ba8c68",
+      "sizeBytes": 17280044,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleWidthBytes": 2,
+      "samplesPerChannel": 4320000,
+      "durationSeconds": 90,
+      "samplePeakPcm16": 26393,
+      "absoluteSilence": {
+        "startSample": 3888000,
+        "endSampleExclusive": 3912000,
+        "peakPcm16": 0,
+        "exactZero": true
+      }
+    }
+  },
+  "eventRecords": [
+    {
+      "id": "ecg_message_chime",
+      "frame": 60,
+      "startFrame": 60,
+      "endFrameExclusive": 840,
+      "startSample": 48000,
+      "endSampleExclusive": 672000,
+      "sampleCount": 624000,
+      "durationSeconds": 13.0,
+      "kind": "ecg_message_chime",
+      "bus": "sfx",
+      "description": "A faint flatline tone fades beneath a soft two-note message chime that begins immediately.",
+      "audibleOnsets": [
+        {
+          "label": "first_note",
+          "offsetSample": 0,
+          "globalSample": 48000,
+          "frame": 60
+        },
+        {
+          "label": "second_note",
+          "offsetSample": 11520,
+          "globalSample": 59520,
+          "offsetSeconds": 0.24
+        }
+      ],
+      "postDuckNotchWindowPeak": [
+        0.11947996459852901,
+        0.0370189519943846
+      ],
+      "postDuckNotchWindowPeakPcm16": [
+        3915,
+        1213
+      ]
+    },
+    {
+      "id": "warm_breath_granular",
+      "frame": 840,
+      "startFrame": 840,
+      "endFrameExclusive": 1500,
+      "startSample": 672000,
+      "endSampleExclusive": 1200000,
+      "sampleCount": 528000,
+      "durationSeconds": 11.0,
+      "kind": "warm_breath_granular",
+      "bus": "sfx",
+      "description": "A warm, close breath texture gradually breaks into fine emerald-like granular shimmer."
+    },
+    {
+      "id": "indigo_membrane_seal",
+      "frame": 1500,
+      "startFrame": 1500,
+      "endFrameExclusive": 2220,
+      "startSample": 1200000,
+      "endSampleExclusive": 1776000,
+      "sampleCount": 576000,
+      "durationSeconds": 12.0,
+      "kind": "indigo_membrane_seal",
+      "bus": "sfx",
+      "description": "A low, resonant indigo membrane tone contracts to a soft sealed impact."
+    },
+    {
+      "id": "gentle_harmony_60bpm",
+      "frame": 2220,
+      "startFrame": 2220,
+      "endFrameExclusive": 2940,
+      "startSample": 1776000,
+      "endSampleExclusive": 2352000,
+      "sampleCount": 576000,
+      "durationSeconds": 12.0,
+      "kind": "gentle_harmony_60bpm",
+      "bus": "score",
+      "description": "A restrained 60 BPM harmonic bed supports the brief feeling of comfort."
+    },
+    {
+      "id": "low_cancellation_glass",
+      "frame": 2940,
+      "startFrame": 2940,
+      "endFrameExclusive": 3900,
+      "startSample": 2352000,
+      "endSampleExclusive": 3120000,
+      "sampleCount": 768000,
+      "durationSeconds": 16.0,
+      "kind": "low_cancellation_glass",
+      "bus": "sfx",
+      "description": "Low frequencies cancel into near-silence while a thin glass-like upper partial remains."
+    },
+    {
+      "id": "wet_cellular_engulf_tension",
+      "frame": 3900,
+      "startFrame": 3900,
+      "endFrameExclusive": 4500,
+      "startSample": 3120000,
+      "endSampleExclusive": 3600000,
+      "sampleCount": 480000,
+      "durationSeconds": 10.0,
+      "kind": "wet_cellular_engulf_tension",
+      "bus": "sfx",
+      "description": "A wet cellular texture swells around the remaining memory and tightens gradually."
+    },
+    {
+      "id": "trembling_sine_heartbeat",
+      "frame": 4500,
+      "startFrame": 4500,
+      "endFrameExclusive": 4859,
+      "startSample": 3600000,
+      "endSampleExclusive": 3887200,
+      "sampleCount": 287200,
+      "durationSeconds": 5.983333333333333,
+      "kind": "trembling_sine_heartbeat",
+      "bus": "sfx",
+      "description": "A trembling sine and sparse heartbeat pulses hold tension until the final cut."
+    },
+    {
+      "id": "bubble_pop_cut",
+      "frame": 4860,
+      "startFrame": 4859,
+      "endFrameExclusive": 4860,
+      "startSample": 3887200,
+      "endSampleExclusive": 3888000,
+      "sampleCount": 800,
+      "durationSeconds": 0.016666666666666666,
+      "kind": "bubble_pop_cut",
+      "bus": "sfx",
+      "description": "A one-frame bubble pop-cut occupies samples 3887200–3887999 and stops exactly at the absolute-silence boundary."
+    },
+    {
+      "id": "solitary_bowed_cello_harmonic",
+      "frame": 4890,
+      "startFrame": 4890,
+      "endFrameExclusive": 5400,
+      "startSample": 3912000,
+      "endSampleExclusive": 4320000,
+      "sampleCount": 408000,
+      "durationSeconds": 8.5,
+      "kind": "solitary_bowed_cello_harmonic",
+      "bus": "score",
+      "description": "One additive bowed-cello harmonic begins after the blackout and leaves a slight warmth under the final line; no external cello asset is claimed."
+    }
+  ],
+  "premix": {
+    "file": "/Volumes/AgentDev/si-ep14-audio-qekb7mrb/premix.wav",
+    "sha256": "449263ba338560fc1d2934b8c529961775e70512aa73b1f2289a12cbedcb86c7",
+    "pcmSha256": "6cac2307738488c3de7106c2170ecd39a7f9ee2554d3371464293a403a84964f",
+    "sizeBytes": 17280044,
+    "sampleRate": 48000,
+    "channels": 2,
+    "sampleWidthBytes": 2,
+    "samplesPerChannel": 4320000,
+    "durationSeconds": 90,
+    "samplePeakPcm16": 19957,
+    "absoluteSilence": {
+      "startSample": 3888000,
+      "endSampleExclusive": 3912000,
+      "peakPcm16": 0,
+      "exactZero": true
+    }
+  },
+  "scratchPublication": {
+    "narration.wav": {
+      "path": "public/audio/narration.wav",
+      "sha256": "a39514dfbda18ef726892afb69db4e876339c4dc9fd2e886b002a7323004d39e",
+      "status": "published from verified scratch"
+    },
+    "sfx.wav": {
+      "path": "public/audio/sfx.wav",
+      "sha256": "7f2a561ddf9d7d1d881237fe692d0ee53b278a2f326ec64cd2eb58446ef99319",
+      "status": "published from verified scratch"
+    },
+    "score.wav": {
+      "path": "public/audio/score.wav",
+      "sha256": "a6cf1aab6f466502ce22d6b5ebe6ee141c61686686fa63639d729d7965b5565d",
+      "status": "published from verified scratch"
+    },
+    "master.wav": {
+      "path": "public/audio/master.wav",
+      "sha256": "7417837844871f8d3b18030021a2c72c0bf9ea97b44d9cd35181345c42a2fe0b",
+      "status": "published from verified scratch"
+    }
+  }
+}

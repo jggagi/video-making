@@ -1,0 +1,468 @@
+{
+  "schema_version": 1,
+  "resources": [
+    {
+      "id": "audio/canonical/S01-b22d5127b68b.wav",
+      "path": "public/audio/canonical/S01-b22d5127b68b.wav",
+      "sha256": "1cbbb380df7e43a07d238be499a2eecc3d55a7aee804cde23d988a1ec32b67a6",
+      "bytes": 472364,
+      "sample_rate": 24000,
+      "channels": 1,
+      "sample_width_bytes": 2,
+      "samples_per_channel": 236160
+    },
+    {
+      "id": "audio/canonical/S02-a7d6e255787c.wav",
+      "path": "public/audio/canonical/S02-a7d6e255787c.wav",
+      "sha256": "eb1dc450a69be5601d487e83f097a117d7c2d9754751124ef4c74fdb94013000",
+      "bytes": 506924,
+      "sample_rate": 24000,
+      "channels": 1,
+      "sample_width_bytes": 2,
+      "samples_per_channel": 253440
+    },
+    {
+      "id": "audio/canonical/S03-db510e12dff4.wav",
+      "path": "public/audio/canonical/S03-db510e12dff4.wav",
+      "sha256": "ddd56574096c67638bbedd8d41dbb8678237542c408d16432197e1e1bf107936",
+      "bytes": 326444,
+      "sample_rate": 24000,
+      "channels": 1,
+      "sample_width_bytes": 2,
+      "samples_per_channel": 163200
+    },
+    {
+      "id": "audio/canonical/S04-98a91d27c1da.wav",
+      "path": "public/audio/canonical/S04-98a91d27c1da.wav",
+      "sha256": "9c6f5c4c7ddc1867c765af2348032d1e235b082ce0c1cc65b66d0fc423c8ca53",
+      "bytes": 468524,
+      "sample_rate": 24000,
+      "channels": 1,
+      "sample_width_bytes": 2,
+      "samples_per_channel": 234240
+    },
+    {
+      "id": "audio/canonical/S05-19495e8cfaf6.wav",
+      "path": "public/audio/canonical/S05-19495e8cfaf6.wav",
+      "sha256": "42b21920020976d8de5ee4db2ead7ea3befb769cf47a5a19e09604671819657c",
+      "bytes": 395564,
+      "sample_rate": 24000,
+      "channels": 1,
+      "sample_width_bytes": 2,
+      "samples_per_channel": 197760
+    },
+    {
+      "id": "audio/canonical/S06-05c2493ccb25.wav",
+      "path": "public/audio/canonical/S06-05c2493ccb25.wav",
+      "sha256": "b66196d6ef52e8de05d2897b6710d1eca24ae4856e122664392b5d2e9567e330",
+      "bytes": 449324,
+      "sample_rate": 24000,
+      "channels": 1,
+      "sample_width_bytes": 2,
+      "samples_per_channel": 224640
+    },
+    {
+      "id": "audio/canonical/S07-6dcfae6d76ab.wav",
+      "path": "public/audio/canonical/S07-6dcfae6d76ab.wav",
+      "sha256": "0e4a4bbf7a29370d5783c1dfe21301350769974e7d49bb0791234f946e56bcb1",
+      "bytes": 433964,
+      "sample_rate": 24000,
+      "channels": 1,
+      "sample_width_bytes": 2,
+      "samples_per_channel": 216960
+    },
+    {
+      "id": "audio/canonical/S08-79b554c63d0c.wav",
+      "path": "public/audio/canonical/S08-79b554c63d0c.wav",
+      "sha256": "756907b4adad4bc8ee95ffaa6865f8412d6fc92b2103440c8f36f9c180eaae19",
+      "bytes": 410924,
+      "sample_rate": 24000,
+      "channels": 1,
+      "sample_width_bytes": 2,
+      "samples_per_channel": 205440
+    },
+    {
+      "id": "audio/cues/S01-b22d5127b68b.wav",
+      "path": "public/audio/cues/S01-b22d5127b68b.wav",
+      "sha256": "42695b2d334b42475c61dc628b73acc98851d68153e05306255a24734f533494",
+      "bytes": 944718,
+      "sample_rate": 48000,
+      "channels": 1,
+      "sample_width_bytes": 2,
+      "samples_per_channel": 472320
+    },
+    {
+      "id": "audio/cues/S02-a7d6e255787c.wav",
+      "path": "public/audio/cues/S02-a7d6e255787c.wav",
+      "sha256": "0e8caea5c4c3b49ca51024281cf879daed4fde05090e75e4c6aae83bae23cfde",
+      "bytes": 1013838,
+      "sample_rate": 48000,
+      "channels": 1,
+      "sample_width_bytes": 2,
+      "samples_per_channel": 506880
+    },
+    {
+      "id": "audio/cues/S03-db510e12dff4.wav",
+      "path": "public/audio/cues/S03-db510e12dff4.wav",
+      "sha256": "6ffa98195f125d8f5197da817446632252e875db6427b5b8dee46148de568b56",
+      "bytes": 652878,
+      "sample_rate": 48000,
+      "channels": 1,
+      "sample_width_bytes": 2,
+      "samples_per_channel": 326400
+    },
+    {
+      "id": "audio/cues/S04-98a91d27c1da.wav",
+      "path": "public/audio/cues/S04-98a91d27c1da.wav",
+      "sha256": "2f4179fec66a92a952c9ff72617fc3f8abb376a3f1a148daa5bcd2a65af6bd2c",
+      "bytes": 937038,
+      "sample_rate": 48000,
+      "channels": 1,
+      "sample_width_bytes": 2,
+      "samples_per_channel": 468480
+    },
+    {
+      "id": "audio/cues/S05-19495e8cfaf6.wav",
+      "path": "public/audio/cues/S05-19495e8cfaf6.wav",
+      "sha256": "5dcfb9c37e8beb6e4020d4b8615a53633a82cdb7277ea30ebea1e7bc0c2e8c88",
+      "bytes": 791118,
+      "sample_rate": 48000,
+      "channels": 1,
+      "sample_width_bytes": 2,
+      "samples_per_channel": 395520
+    },
+    {
+      "id": "audio/cues/S06-05c2493ccb25.wav",
+      "path": "public/audio/cues/S06-05c2493ccb25.wav",
+      "sha256": "58e977a54f155cc3caa39361f1d66d3afe9415b3135b457f7d977605c242986b",
+      "bytes": 898638,
+      "sample_rate": 48000,
+      "channels": 1,
+      "sample_width_bytes": 2,
+      "samples_per_channel": 449280
+    },
+    {
+      "id": "audio/cues/S07-6dcfae6d76ab.wav",
+      "path": "public/audio/cues/S07-6dcfae6d76ab.wav",
+      "sha256": "b05d28d316af9b317f540eaf8af954d9ad6e00bbf9bd2e4f316cada93c762927",
+      "bytes": 867918,
+      "sample_rate": 48000,
+      "channels": 1,
+      "sample_width_bytes": 2,
+      "samples_per_channel": 433920
+    },
+    {
+      "id": "audio/cues/S08-79b554c63d0c.wav",
+      "path": "public/audio/cues/S08-79b554c63d0c.wav",
+      "sha256": "686847df40686fc4d358e97bafa2ac86e009d5b16c5d56c5cdcbc90fe099588b",
+      "bytes": 821838,
+      "sample_rate": 48000,
+      "channels": 1,
+      "sample_width_bytes": 2,
+      "samples_per_channel": 410880
+    },
+    {
+      "id": "audio/master.wav",
+      "path": "public/audio/master.wav",
+      "sha256": "7417837844871f8d3b18030021a2c72c0bf9ea97b44d9cd35181345c42a2fe0b",
+      "bytes": 17280044,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sample_width_bytes": 2,
+      "samples_per_channel": 4320000
+    },
+    {
+      "id": "audio/mix-manifest.json",
+      "path": "public/audio/mix-manifest.json",
+      "sha256": "a2f01faa3ab3490f828de1d66294f60af5697c6dbb5430e429d45f46d36838b3",
+      "bytes": 9942
+    },
+    {
+      "id": "audio/mix-settings.json",
+      "path": "public/audio/mix-settings.json",
+      "sha256": "9e4cc6938b0dce086a6bd46d16b3f3f8b56d5a7d3831832df89d82795725ae48",
+      "bytes": 997
+    },
+    {
+      "id": "audio/narration.wav",
+      "path": "public/audio/narration.wav",
+      "sha256": "a39514dfbda18ef726892afb69db4e876339c4dc9fd2e886b002a7323004d39e",
+      "bytes": 17280044,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sample_width_bytes": 2,
+      "samples_per_channel": 4320000
+    },
+    {
+      "id": "audio/provider-manifest.json",
+      "path": "public/audio/provider-manifest.json",
+      "sha256": "33155d1512611d7cf32908b86b0f450df16b7129f9bf521dd098eab0cd0d7fd6",
+      "bytes": 18146
+    },
+    {
+      "id": "audio/raw/S01-b22d5127b68b.wav",
+      "path": "public/audio/raw/S01-b22d5127b68b.wav",
+      "sha256": "57fd45093c900545f1a2615053a27b04331961624661d1cf67207cf3b5793e9a",
+      "bytes": 472364,
+      "sample_rate": 24000,
+      "channels": 1,
+      "sample_width_bytes": 2,
+      "samples_per_channel": 236160,
+      "declared_header_samples": 1073741773,
+      "count_basis": "Verified actual PCM payload in provider manifest; provider streaming-header declarations can overflow"
+    },
+    {
+      "id": "audio/raw/S02-a7d6e255787c.wav",
+      "path": "public/audio/raw/S02-a7d6e255787c.wav",
+      "sha256": "2524310003bcfd68e30bcbb127c686007f28b9a1cb7d5e3706c1ba50e6e1c43b",
+      "bytes": 506924,
+      "sample_rate": 24000,
+      "channels": 1,
+      "sample_width_bytes": 2,
+      "samples_per_channel": 253440,
+      "declared_header_samples": 1073741773,
+      "count_basis": "Verified actual PCM payload in provider manifest; provider streaming-header declarations can overflow"
+    },
+    {
+      "id": "audio/raw/S03-db510e12dff4.wav",
+      "path": "public/audio/raw/S03-db510e12dff4.wav",
+      "sha256": "9e7f3d9f9773879bda4ea1600ad31ded8507fde3de69a89c826bb0e0ed250f73",
+      "bytes": 326444,
+      "sample_rate": 24000,
+      "channels": 1,
+      "sample_width_bytes": 2,
+      "samples_per_channel": 163200,
+      "declared_header_samples": 1073741773,
+      "count_basis": "Verified actual PCM payload in provider manifest; provider streaming-header declarations can overflow"
+    },
+    {
+      "id": "audio/raw/S04-98a91d27c1da.wav",
+      "path": "public/audio/raw/S04-98a91d27c1da.wav",
+      "sha256": "1ccd19467aa61a0d72fb0c3681bcdc698ca641fec1a1465cbb5e4a306da91f58",
+      "bytes": 468524,
+      "sample_rate": 24000,
+      "channels": 1,
+      "sample_width_bytes": 2,
+      "samples_per_channel": 234240,
+      "declared_header_samples": 1073741773,
+      "count_basis": "Verified actual PCM payload in provider manifest; provider streaming-header declarations can overflow"
+    },
+    {
+      "id": "audio/raw/S05-19495e8cfaf6.wav",
+      "path": "public/audio/raw/S05-19495e8cfaf6.wav",
+      "sha256": "d6b62febbd2d40fba96a53bd83a36c8ff5c686d0fc8993e4de894a04f3048a3e",
+      "bytes": 395564,
+      "sample_rate": 24000,
+      "channels": 1,
+      "sample_width_bytes": 2,
+      "samples_per_channel": 197760,
+      "declared_header_samples": 1073741773,
+      "count_basis": "Verified actual PCM payload in provider manifest; provider streaming-header declarations can overflow"
+    },
+    {
+      "id": "audio/raw/S06-05c2493ccb25.wav",
+      "path": "public/audio/raw/S06-05c2493ccb25.wav",
+      "sha256": "e4448d93f8c8677514ef47655468cba95cd30c1c94b0484c7ee52acd3cb88b29",
+      "bytes": 449324,
+      "sample_rate": 24000,
+      "channels": 1,
+      "sample_width_bytes": 2,
+      "samples_per_channel": 224640,
+      "declared_header_samples": 1073741773,
+      "count_basis": "Verified actual PCM payload in provider manifest; provider streaming-header declarations can overflow"
+    },
+    {
+      "id": "audio/raw/S07-6dcfae6d76ab.wav",
+      "path": "public/audio/raw/S07-6dcfae6d76ab.wav",
+      "sha256": "a3812c2c80ff07b294577e6802127fba696c3ce87404da8a1da3a17479719e60",
+      "bytes": 433964,
+      "sample_rate": 24000,
+      "channels": 1,
+      "sample_width_bytes": 2,
+      "samples_per_channel": 216960,
+      "declared_header_samples": 1073741773,
+      "count_basis": "Verified actual PCM payload in provider manifest; provider streaming-header declarations can overflow"
+    },
+    {
+      "id": "audio/raw/S08-79b554c63d0c.wav",
+      "path": "public/audio/raw/S08-79b554c63d0c.wav",
+      "sha256": "e90c315bf48d71318ca83adbc83c15859dfd389ee77dd2ab32f57631a18bd858",
+      "bytes": 410924,
+      "sample_rate": 24000,
+      "channels": 1,
+      "sample_width_bytes": 2,
+      "samples_per_channel": 205440,
+      "declared_header_samples": 1073741773,
+      "count_basis": "Verified actual PCM payload in provider manifest; provider streaming-header declarations can overflow"
+    },
+    {
+      "id": "audio/score.wav",
+      "path": "public/audio/score.wav",
+      "sha256": "a6cf1aab6f466502ce22d6b5ebe6ee141c61686686fa63639d729d7965b5565d",
+      "bytes": 17280044,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sample_width_bytes": 2,
+      "samples_per_channel": 4320000
+    },
+    {
+      "id": "audio/sfx.wav",
+      "path": "public/audio/sfx.wav",
+      "sha256": "7f2a561ddf9d7d1d881237fe692d0ee53b278a2f326ec64cd2eb58446ef99319",
+      "bytes": 17280044,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sample_width_bytes": 2,
+      "samples_per_channel": 4320000
+    },
+    {
+      "id": "rd/gray-scott.json",
+      "path": "public/rd/gray-scott.json",
+      "sha256": "dcf29e82e30660bc3a68a68499395ed248dcbc555533418ad6bda45ebe0c9239",
+      "bytes": 3894154
+    },
+    {
+      "id": "voiceprint.json",
+      "path": "public/voiceprint.json",
+      "sha256": "6f80bd4e0f0101deb8ebbeeb494e5ca82ec2c61b2ac7fe13562642751b813692",
+      "bytes": 9058
+    }
+  ],
+  "fonts": [
+    {
+      "family": "Heiti SC",
+      "installed_dependency": "/System/Library/Fonts/STHeiti Medium.ttc",
+      "sha256": "2d37f927fb4c24a2ba4d318b903a607f6b7ad4e5f365c26aba6aaccb84038beb",
+      "redistributed": false,
+      "source": "macOS installed font; no remote font request"
+    },
+    {
+      "family": "Menlo",
+      "installed_dependency": "/System/Library/Fonts/Menlo.ttc",
+      "sha256": "f2d400484a6aace67980730ec0a9ef24ce9e535a2604f118e6fdc2510021b85f",
+      "redistributed": false,
+      "source": "macOS installed font; no remote font request"
+    }
+  ],
+  "visuals": {
+    "type": "Frame-driven flat SVG + deterministic 2D Gray–Scott cache",
+    "geometry_sha256": "901df565645cb2c12feb1f359c71a456f07f11159fadd3b051b62ed90c124b97",
+    "rd_metadata": {
+      "algorithm": "Gray–Scott reaction-diffusion",
+      "algorithmVersion": 2,
+      "generatorSha256": "cf2d1112cd41c0d031becf4392329b7286ed2193e560f8d85add0cc79e15ce6f",
+      "seed": 14014,
+      "grid": {
+        "width": 256,
+        "height": 192
+      },
+      "startFrame": 2820,
+      "endFrame": 4380,
+      "sampleStrideFrames": 24,
+      "snapshotFrames": [
+        2820,
+        2844,
+        2868,
+        2892,
+        2916,
+        2940,
+        2964,
+        2988,
+        3012,
+        3036,
+        3060,
+        3084,
+        3108,
+        3132,
+        3156,
+        3180,
+        3204,
+        3228,
+        3252,
+        3276,
+        3300,
+        3324,
+        3348,
+        3372,
+        3396,
+        3420,
+        3444,
+        3468,
+        3492,
+        3516,
+        3540,
+        3564,
+        3588,
+        3612,
+        3636,
+        3660,
+        3684,
+        3708,
+        3732,
+        3756,
+        3780,
+        3804,
+        3828,
+        3852,
+        3876,
+        3900,
+        3924,
+        3948,
+        3972,
+        3996,
+        4020,
+        4044,
+        4068,
+        4092,
+        4116,
+        4140,
+        4164,
+        4188,
+        4212,
+        4236,
+        4260,
+        4284,
+        4308,
+        4332,
+        4356,
+        4380
+      ],
+      "solverStepsPerFilmFrame": 2,
+      "integrationStep": 1.0,
+      "parameters": {
+        "Du": 0.16,
+        "Dv": 0.08,
+        "F": 0.033,
+        "k": 0.0585
+      },
+      "laplacian": "no-flux edges; axial0.20/diagonal0.05/center-1",
+      "initialCondition": "47 fixed modular irregular spots with deterministic spatial concentration heterogeneity",
+      "interpolation": "absolute frame selects adjacent RGBA2D snapshots; linear alpha crossfade; no runtime history",
+      "rasterScope": "2D simulated concentration texture256x192; overlaid vector membrane and filaments are rasterized natively at2160x3840",
+      "stateSha256": "c570d06ae3989770c26eec74b64e15dea9b7f6cc78f6d91a01e5b6e130545bc1"
+    },
+    "native_vector_rasterization": [
+      2160,
+      3840
+    ],
+    "procedural_texture_resolution": [
+      256,
+      192
+    ],
+    "voiceprint": "Locally computed mel spectrum of narrator S01 cue; fictional acoustic fossil, no real deceased-person voice"
+  },
+  "narration": {
+    "provider": "Aliyun Bailian",
+    "effective_model": "cosyvoice-v3-flash",
+    "voice": "longtian_v3",
+    "rate": 1,
+    "cache": "public/audio/provider-manifest.json"
+  },
+  "audio": "One exact90s48kHz stereo master reused by portrait; deterministic local score/SFX; no ASR/image/video cloud calls",
+  "source_files": {
+    "src/Film.tsx": "c5f86edd3584f51d5c579777e4340326c8322a1c2127b6ee1ed81bc48f7f9dff",
+    "src/Geometry.tsx": "901df565645cb2c12feb1f359c71a456f07f11159fadd3b051b62ed90c124b97",
+    "src/Root.tsx": "0c36202dc89e1f1d75e8c733eaa569532f9c211a83a980b98f45f05339d91f9f",
+    "src/index.ts": "a58f804bf74bab68b4549aa5c715eb4a89ec5835206d198fc79b462b4fc71ef9"
+  }
+}

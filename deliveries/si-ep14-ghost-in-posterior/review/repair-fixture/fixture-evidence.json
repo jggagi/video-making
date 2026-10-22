@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "purpose": "Verify absolute zero-based FFmpeg overlay frame indexing for the EP14 repair filter options using a tiny lossless fixture only.",
+  "result": "PASS",
+  "scope": "Five-frame 16x16 lossless FFV1 fixture; no audio stream or duration-preservation inference.",
+  "tool_version": "ffmpeg version 8.0.1 Copyright (c) 2000-2025 the FFmpeg developers",
+  "ffprobe_version": "ffprobe version 8.0.1 Copyright (c) 2007-2025 the FFmpeg developers",
+  "inputs": {
+    "black_video": {
+      "path": "black-5f-60fps.mkv",
+      "sha256": "98bc3a1a2e8c941dfc32bad55f75b531d9d80dfc379b94635f758f71f4edef1c",
+      "construction_command": [
+        "/opt/homebrew/bin/ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-y",
+        "-f",
+        "lavfi",
+        "-i",
+        "color=c=black:s=16x16:r=60:d=0.08333333333333333",
+        "-frames:v",
+        "5",
+        "-an",
+        "-c:v",
+        "ffv1",
+        "-level",
+        "3",
+        "-pix_fmt",
+        "yuv444p",
+        "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep14-ghost-in-posterior/review/repair-fixture/black-5f-60fps.mkv"
+      ],
+      "expected_frames": 5,
+      "fps": "60/1",
+      "dimensions": [
+        16,
+        16
+      ],
+      "codec": "ffv1",
+      "pixel_format": "yuv444p",
+      "probe_command": [
+        "/opt/homebrew/bin/ffprobe",
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-count_frames",
+        "-show_entries",
+        "stream=width,height,avg_frame_rate,r_frame_rate,nb_read_frames,codec_name,pix_fmt",
+        "-of",
+        "json",
+        "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep14-ghost-in-posterior/review/repair-fixture/black-5f-60fps.mkv"
+      ],
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "ffv1",
+            "width": 16,
+            "height": 16,
+            "pix_fmt": "yuv444p",
+            "r_frame_rate": "60/1",
+            "avg_frame_rate": "60/1",
+            "nb_read_frames": "5"
+          }
+        ]
+      }
+    },
+    "overlay_png": {
+      "path": "red-16x16.png",
+      "sha256": "5503ff8fef5a4d87e1fe0bdc07254b11153a86debfa97500641c7abbf93357ef",
+      "dimensions": [
+        16,
+        16
+      ],
+      "rgb": [
+        255,
+        0,
+        0
+      ],
+      "image_demuxer_framerate": "60",
+      "looped": false
+    }
+  },
+  "overlay": {
+    "filtergraph": "[0:v][1:v]overlay=x=0:y=0:format=auto:eof_action=repeat:repeatlast=1:shortest=0:enable='eq(n,2)'[vout]",
+    "options": {
+      "eof_action": "repeat",
+      "repeatlast": 1,
+      "shortest": 0,
+      "enable": "eq(n,2)"
+    },
+    "command": [
+      "/opt/homebrew/bin/ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-y",
+      "-i",
+      "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep14-ghost-in-posterior/review/repair-fixture/black-5f-60fps.mkv",
+      "-framerate",
+      "60",
+      "-i",
+      "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep14-ghost-in-posterior/review/repair-fixture/red-16x16.png",
+      "-filter_complex",
+      "[0:v][1:v]overlay=x=0:y=0:format=auto:eof_action=repeat:repeatlast=1:shortest=0:enable='eq(n,2)'[vout]",
+      "-map",
+      "[vout]",
+      "-fps_mode",
+      "passthrough",
+      "-an",
+      "-c:v",
+      "ffv1",
+      "-level",
+      "3",
+      "-pix_fmt",
+      "yuv444p",
+      "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep14-ghost-in-posterior/review/repair-fixture/overlay-eq-n-2.mkv"
+    ]
+  },
+  "output": {
+    "path": "overlay-eq-n-2.mkv",
+    "sha256": "43a9654642fd01c799c0b8046b19bf600f25862f1ef2ce030fc8aa40ff155538",
+    "codec": "ffv1",
+    "pixel_format": "yuv444p",
+    "probe_command": [
+      "/opt/homebrew/bin/ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-count_frames",
+      "-show_entries",
+      "stream=width,height,avg_frame_rate,r_frame_rate,nb_read_frames,codec_name,pix_fmt",
+      "-of",
+      "json",
+      "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep14-ghost-in-posterior/review/repair-fixture/overlay-eq-n-2.mkv"
+    ],
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "ffv1",
+          "width": 16,
+          "height": 16,
+          "pix_fmt": "yuv444p",
+          "r_frame_rate": "60/1",
+          "avg_frame_rate": "60/1",
+          "nb_read_frames": "5"
+        }
+      ]
+    },
+    "decode_command": [
+      "/opt/homebrew/bin/ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-i",
+      "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep14-ghost-in-posterior/review/repair-fixture/overlay-eq-n-2.mkv",
+      "-map",
+      "0:v:0",
+      "-fps_mode",
+      "passthrough",
+      "-f",
+      "rawvideo",
+      "-pix_fmt",
+      "rgb24",
+      "pipe:1"
+    ],
+    "decoded_frame_count": 5,
+    "decoded_frames": [
+      {
+        "index": 0,
+        "pixel_count": 256,
+        "unique_rgb_colors": 1,
+        "dominant_rgb": [
+          0,
+          0,
+          0
+        ],
+        "dominant_pixel_count": 256,
+        "rgb_min": [
+          0,
+          0,
+          0
+        ],
+        "rgb_max": [
+          0,
+          0,
+          0
+        ],
+        "black_pixels": 256,
+        "red_dominant_pixels": 0
+      },
+      {
+        "index": 1,
+        "pixel_count": 256,
+        "unique_rgb_colors": 1,
+        "dominant_rgb": [
+          0,
+          0,
+          0
+        ],
+        "dominant_pixel_count": 256,
+        "rgb_min": [
+          0,
+          0,
+          0
+        ],
+        "rgb_max": [
+          0,
+          0,
+          0
+        ],
+        "black_pixels": 256,
+        "red_dominant_pixels": 0
+      },
+      {
+        "index": 2,
+        "pixel_count": 256,
+        "unique_rgb_colors": 1,
+        "dominant_rgb": [
+          254,
+          0,
+          0
+        ],
+        "dominant_pixel_count": 256,
+        "rgb_min": [
+          254,
+          0,
+          0
+        ],
+        "rgb_max": [
+          254,
+          0,
+          0
+        ],
+        "black_pixels": 0,
+        "red_dominant_pixels": 256
+      },
+      {
+        "index": 3,
+        "pixel_count": 256,
+        "unique_rgb_colors": 1,
+        "dominant_rgb": [
+          0,
+          0,
+          0
+        ],
+        "dominant_pixel_count": 256,
+        "rgb_min": [
+          0,
+          0,
+          0
+        ],
+        "rgb_max": [
+          0,
+          0,
+          0
+        ],
+        "black_pixels": 256,
+        "red_dominant_pixels": 0
+      },
+      {
+        "index": 4,
+        "pixel_count": 256,
+        "unique_rgb_colors": 1,
+        "dominant_rgb": [
+          0,
+          0,
+          0
+        ],
+        "dominant_pixel_count": 256,
+        "rgb_min": [
+          0,
+          0,
+          0
+        ],
+        "rgb_max": [
+          0,
+          0,
+          0
+        ],
+        "black_pixels": 256,
+        "red_dominant_pixels": 0
+      }
+    ]
+  },
+  "assertions": {
+    "frames_0_1_3_4_all_black": true,
+    "frame_2_all_red_dominant": true,
+    "only_absolute_zero_based_index_2_changed": true
+  }
+}

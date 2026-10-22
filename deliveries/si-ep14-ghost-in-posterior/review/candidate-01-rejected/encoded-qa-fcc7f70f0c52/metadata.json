@@ -1,0 +1,485 @@
+{
+  "schema_version": 1,
+  "collector": "EP14 encoded-media evidence collector",
+  "evidence_only": true,
+  "delivery_path": "小红书/si-ep14-ghost-in-posterior-xiaohongshu-90s-portrait.mp4",
+  "media_sha256": "fcc7f70f0c521433215155730d56b395068800face7819c2c46a526631c103b0",
+  "native_dimensions": {
+    "width": 2160,
+    "height": 3840
+  },
+  "video_timing": {
+    "fps": 60,
+    "frames": 5400,
+    "duration_seconds": 90.0
+  },
+  "ffprobe": {
+    "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+    "container_duration_seconds": "90.000000",
+    "video": {
+      "codec_name": "h264",
+      "width": 2160,
+      "height": 3840,
+      "avg_frame_rate": "60/1",
+      "r_frame_rate": "60/1",
+      "nb_frames": "5400",
+      "duration": "90.000000",
+      "pix_fmt": "yuv420p",
+      "color_space": "bt709",
+      "color_primaries": "bt709",
+      "color_transfer": "bt709"
+    },
+    "audio": {
+      "codec_name": "aac",
+      "sample_rate": "48000",
+      "channels": 2
+    }
+  },
+  "extraction": {
+    "source": "final encoded MP4 only; no source-render PNGs or source project frames",
+    "method": "FFmpeg decoded-frame select by absolute frame index, PNG output at native dimensions",
+    "representative_frame_indexes": [
+      0,
+      60,
+      600,
+      900,
+      1320,
+      1500,
+      2100,
+      2280,
+      2820,
+      2940,
+      3480,
+      3840,
+      3900,
+      4380,
+      4500,
+      4859,
+      4860,
+      4889,
+      4890,
+      5040,
+      5160,
+      5399
+    ],
+    "motion_pair_frame_indexes": [
+      [
+        180,
+        330
+      ],
+      [
+        780,
+        930
+      ],
+      [
+        1440,
+        1590
+      ],
+      [
+        2160,
+        2310
+      ],
+      [
+        2940,
+        3090
+      ],
+      [
+        3660,
+        3810
+      ],
+      [
+        4440,
+        4590
+      ],
+      [
+        4950,
+        5100
+      ]
+    ],
+    "motion_pair_field_crop": {
+      "applied": false,
+      "reason": "No crop support or verified HUD/subtitle-excluding field coordinates are available; full-frame pairs are retained."
+    },
+    "all_extracted_frame_indexes": [
+      0,
+      60,
+      180,
+      330,
+      600,
+      780,
+      900,
+      930,
+      1320,
+      1440,
+      1500,
+      1590,
+      2100,
+      2160,
+      2280,
+      2310,
+      2820,
+      2940,
+      3090,
+      3480,
+      3660,
+      3810,
+      3840,
+      3900,
+      4380,
+      4440,
+      4500,
+      4590,
+      4859,
+      4860,
+      4889,
+      4890,
+      4950,
+      5040,
+      5100,
+      5160,
+      5399
+    ],
+    "all_extracted_timestamps": [
+      {
+        "frame": 0,
+        "seconds": 0.0,
+        "timecode": "00:00:00"
+      },
+      {
+        "frame": 60,
+        "seconds": 1.0,
+        "timecode": "00:01:00"
+      },
+      {
+        "frame": 180,
+        "seconds": 3.0,
+        "timecode": "00:03:00"
+      },
+      {
+        "frame": 330,
+        "seconds": 5.5,
+        "timecode": "00:05:30"
+      },
+      {
+        "frame": 600,
+        "seconds": 10.0,
+        "timecode": "00:10:00"
+      },
+      {
+        "frame": 780,
+        "seconds": 13.0,
+        "timecode": "00:13:00"
+      },
+      {
+        "frame": 900,
+        "seconds": 15.0,
+        "timecode": "00:15:00"
+      },
+      {
+        "frame": 930,
+        "seconds": 15.5,
+        "timecode": "00:15:30"
+      },
+      {
+        "frame": 1320,
+        "seconds": 22.0,
+        "timecode": "00:22:00"
+      },
+      {
+        "frame": 1440,
+        "seconds": 24.0,
+        "timecode": "00:24:00"
+      },
+      {
+        "frame": 1500,
+        "seconds": 25.0,
+        "timecode": "00:25:00"
+      },
+      {
+        "frame": 1590,
+        "seconds": 26.5,
+        "timecode": "00:26:30"
+      },
+      {
+        "frame": 2100,
+        "seconds": 35.0,
+        "timecode": "00:35:00"
+      },
+      {
+        "frame": 2160,
+        "seconds": 36.0,
+        "timecode": "00:36:00"
+      },
+      {
+        "frame": 2280,
+        "seconds": 38.0,
+        "timecode": "00:38:00"
+      },
+      {
+        "frame": 2310,
+        "seconds": 38.5,
+        "timecode": "00:38:30"
+      },
+      {
+        "frame": 2820,
+        "seconds": 47.0,
+        "timecode": "00:47:00"
+      },
+      {
+        "frame": 2940,
+        "seconds": 49.0,
+        "timecode": "00:49:00"
+      },
+      {
+        "frame": 3090,
+        "seconds": 51.5,
+        "timecode": "00:51:30"
+      },
+      {
+        "frame": 3480,
+        "seconds": 58.0,
+        "timecode": "00:58:00"
+      },
+      {
+        "frame": 3660,
+        "seconds": 61.0,
+        "timecode": "01:01:00"
+      },
+      {
+        "frame": 3810,
+        "seconds": 63.5,
+        "timecode": "01:03:30"
+      },
+      {
+        "frame": 3840,
+        "seconds": 64.0,
+        "timecode": "01:04:00"
+      },
+      {
+        "frame": 3900,
+        "seconds": 65.0,
+        "timecode": "01:05:00"
+      },
+      {
+        "frame": 4380,
+        "seconds": 73.0,
+        "timecode": "01:13:00"
+      },
+      {
+        "frame": 4440,
+        "seconds": 74.0,
+        "timecode": "01:14:00"
+      },
+      {
+        "frame": 4500,
+        "seconds": 75.0,
+        "timecode": "01:15:00"
+      },
+      {
+        "frame": 4590,
+        "seconds": 76.5,
+        "timecode": "01:16:30"
+      },
+      {
+        "frame": 4859,
+        "seconds": 80.98333333333333,
+        "timecode": "01:20:59"
+      },
+      {
+        "frame": 4860,
+        "seconds": 81.0,
+        "timecode": "01:21:00"
+      },
+      {
+        "frame": 4889,
+        "seconds": 81.48333333333333,
+        "timecode": "01:21:29"
+      },
+      {
+        "frame": 4890,
+        "seconds": 81.5,
+        "timecode": "01:21:30"
+      },
+      {
+        "frame": 4950,
+        "seconds": 82.5,
+        "timecode": "01:22:30"
+      },
+      {
+        "frame": 5040,
+        "seconds": 84.0,
+        "timecode": "01:24:00"
+      },
+      {
+        "frame": 5100,
+        "seconds": 85.0,
+        "timecode": "01:25:00"
+      },
+      {
+        "frame": 5160,
+        "seconds": 86.0,
+        "timecode": "01:26:00"
+      },
+      {
+        "frame": 5399,
+        "seconds": 89.98333333333333,
+        "timecode": "01:29:59"
+      }
+    ],
+    "native_frame_directory": "native-frames/",
+    "covers": {
+      "sampled_frames": {
+        "A": 2100,
+        "B": 3840
+      },
+      "platform_cover_files_written": false,
+      "reason": "Cover image paths are owned by the render workflow; this collector preserves them."
+    },
+    "contact_sheets": {
+      "representative_contact_sheet": "contact-sheet-mobile-360px.jpg",
+      "representative_tile_width_px": 360,
+      "representative_columns": 3,
+      "motion_pair_sheet": "motion-pairs-mobile-360px.jpg",
+      "motion_pair_tile_width_px": 360,
+      "motion_pair_comparison_width_px": 180
+    }
+  },
+  "audio_measurements": {
+    "encoded_loudness": {
+      "measurement": "FFmpeg ebur128=peak=true on the final MP4 audio stream",
+      "integrated_lufs": -16.0,
+      "true_peak_dbTP": -1.8,
+      "acceptance_judgment": "NOT_RECORDED"
+    },
+    "pcm_correlation_and_silence": {
+      "status": "MEASURED",
+      "pcm_master": {
+        "path": "project/public/audio/master.wav",
+        "sample_rate_hz": 48000,
+        "channels": 2,
+        "samples_per_channel": 4320000,
+        "sample_width_bytes": 2
+      },
+      "decoded_final_audio": {
+        "source": "final MP4 audio stream",
+        "sample_rate_hz": 48000,
+        "channels": 2,
+        "samples_per_channel": 4320256,
+        "temporary_audio_retained": false
+      },
+      "correlation": {
+        "method": "NumPy normalized cross-correlation over each stated window, allowing a local timing offset",
+        "comparisons": [
+          {
+            "window_seconds_half_open": [
+              1,
+              8
+            ],
+            "window_samples_per_channel": 336000,
+            "status": "MEASURED",
+            "best_lag_samples": 0,
+            "best_lag_ms": 0.0,
+            "normalized_correlation": 0.9999604380077478,
+            "absolute_normalized_correlation": 0.9999604380077478,
+            "lag_search_samples_each_side": 4096,
+            "lag_search_ms_each_side": 85.33333333333333
+          },
+          {
+            "window_seconds_half_open": [
+              38,
+              43
+            ],
+            "window_samples_per_channel": 240000,
+            "status": "MEASURED",
+            "best_lag_samples": 0,
+            "best_lag_ms": 0.0,
+            "normalized_correlation": 0.999951761245692,
+            "absolute_normalized_correlation": 0.999951761245692,
+            "lag_search_samples_each_side": 4096,
+            "lag_search_ms_each_side": 85.33333333333333
+          },
+          {
+            "window_seconds_half_open": [
+              82,
+              89
+            ],
+            "window_samples_per_channel": 336000,
+            "status": "MEASURED",
+            "best_lag_samples": 0,
+            "best_lag_ms": 0.0,
+            "normalized_correlation": 0.9998464519646325,
+            "absolute_normalized_correlation": 0.9998464519646325,
+            "lag_search_samples_each_side": 4096,
+            "lag_search_ms_each_side": 85.33333333333333
+          }
+        ],
+        "acceptance_judgment": "NOT_RECORDED"
+      },
+      "absolute_silence_source_pcm": {
+        "frame_interval_half_open": [
+          4860,
+          4890
+        ],
+        "sample_interval_per_channel_half_open": [
+          3888000,
+          3912000
+        ],
+        "source_is_exactly_zero": true,
+        "nonzero_float_samples": 0,
+        "source_sample_metrics": {
+          "sample_count_per_channel": 24000,
+          "rms_dbfs": null,
+          "sample_peak_dbfs": null
+        }
+      },
+      "encoded_aac_silence_window": {
+        "frame_interval_half_open": [
+          4860,
+          4890
+        ],
+        "leading_boundary_25ms": {
+          "sample_interval_per_channel_half_open": [
+            3888000,
+            3889200
+          ],
+          "sample_count_per_channel": 1200,
+          "rms_dbfs": -94.45708662270715,
+          "sample_peak_dbfs": -71.46295313373132
+        },
+        "interior_excluding_25ms_at_each_edge": {
+          "sample_interval_per_channel_half_open": [
+            3889200,
+            3910800
+          ],
+          "sample_count_per_channel": 21600,
+          "rms_dbfs": -182.8007576430536,
+          "sample_peak_dbfs": -148.01991004411101
+        },
+        "trailing_boundary_25ms": {
+          "sample_interval_per_channel_half_open": [
+            3910800,
+            3912000
+          ],
+          "sample_count_per_channel": 1200,
+          "rms_dbfs": -124.5044982129576,
+          "sample_peak_dbfs": -108.67420390413001
+        },
+        "measurement_scope": "Decoded AAC samples only; boundary leakage is reported separately from the interior and is not assigned an acceptance verdict."
+      }
+    },
+    "scratch_policy": "Decoded audio is written only under the process TMPDIR and removed when collection exits."
+  },
+  "scope": {
+    "full_frame_visual_review_performed": false,
+    "full_frame_decoder_scan_performed": false,
+    "continuous_motion_compliance_verified": false,
+    "human_listening_performed": false,
+    "model_visual_observation_performed": false,
+    "review_or_delivery_verdict": "NOT_RECORDED",
+    "limitations": [
+      "Native stills and sparse frame pairs are representative evidence; they do not establish full-frame quality or continuous motion compliance.",
+      "Audio measurements and correlation are technical evidence; they do not establish intelligibility, emotion, or listening acceptance.",
+      "The collector does not update delivery.json or any QA verdict file."
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "full_hud": [
+    "BIOLOGICAL SUBJECT STATUS: DECEASED (YEAR 07) // DIGITAL PERSONA: ONLINE",
+    "BAYESIAN POSTERIOR FIT: P(θ|D) = 99.984% [520,000 CHAT LOGS INGESTED]",
+    "AUTHENTIC MEMORY OVERWRITE: 94.2% [ORIGINAL SOUL TRACE REPLACED]"
+  ],
+  "readable_hud": [
+    "BIO: YEAR 07 · PERSONA: ONLINE",
+    "P(θ|D) 99.984% · LOGS 520K",
+    "MEMORY OVERWRITE: 94.2%"
+  ],
+  "correction_authorized": true,
+  "note": "All telemetry is authored fiction; posterior fit is not a measured identity probability. Consciousness NULL is only a fictional instrument readout, not an inference."
+}

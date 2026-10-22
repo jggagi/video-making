@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "fps": 60,
+  "sampleRate": 48000,
+  "samplesPerChannel": 4320000,
+  "durationSeconds": 90,
+  "narrationGainDB": -2.1581079461903916,
+  "scoreDuckDB": -7,
+  "sfxDuckDB": -9,
+  "duckPreAttackMilliseconds": 180,
+  "duckReleaseMilliseconds": 280,
+  "speechIntelligibilityNotch": {
+    "startHz": 1000,
+    "endHz": 4000,
+    "attenuationDB": -6,
+    "appliedTo": "procedural SFX bed"
+  },
+  "masterNormalization": {
+    "targetLUFS": -16.0,
+    "toleranceLU": 0.1,
+    "firstAndSecondPassLoudnorm": true,
+    "truePeakLimiter": {
+      "oversampleFactor": 4,
+      "processingSampleRate": 192000,
+      "ceilingDBTP": -1.8,
+      "limitAmplitude": 0.8128305161640993,
+      "filter": "alimiter with latency compensation",
+      "explicitlyApplied": true
+    }
+  },
+  "absoluteSilence": {
+    "startSample": 3888000,
+    "endSampleExclusive": 3912000
+  },
+  "generativeAssets": "All score and SFX were synthesized deterministically from code; no external audio asset is claimed."
+}

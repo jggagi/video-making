@@ -4493,6 +4493,128 @@
           "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep13-curse-of-memory-68bddb946d5a/si-ep13-curse-of-memory--deliveries--si-ep13-curse-of-memory-----si-ep13-curse-of-memory-xiaohongshu-90s-portrait--7b067593aab3.mp4"
         }
       ]
+    },
+    {
+      "id": "si-ep14-ghost-in-posterior",
+      "title": "死后第七年，他还在回微信",
+      "release_tag": "film-si-ep14-ghost-in-posterior-bb31a8702522",
+      "historical": false,
+      "duration_seconds": 90,
+      "project_path": "deliveries/si-ep14-ghost-in-posterior/project",
+      "delivery_directory": "deliveries/si-ep14-ghost-in-posterior",
+      "final_output_paths": {
+        "小红书": "deliveries/si-ep14-ghost-in-posterior/小红书/si-ep14-ghost-in-posterior-xiaohongshu-90s-portrait.mp4"
+      },
+      "final_output_dimensions": {
+        "小红书": [
+          2160,
+          3840
+        ]
+      },
+      "assets": [
+        {
+          "path": "deliveries/si-ep14-ghost-in-posterior/review/candidate-01-rejected/capture-with-frame405-artifact.mp4",
+          "name": "si-ep14-ghost-in-posterior--deliveries--si-ep14-ghost-in-posterior--review--candidate-01-rejected--capture-with-frame405-artifact--fcc7f70f0c52.mp4",
+          "bytes": 50995840,
+          "sha256": "fcc7f70f0c521433215155730d56b395068800face7819c2c46a526631c103b0",
+          "kind": "video",
+          "platform": "预览",
+          "measurements": {
+            "width": 2160,
+            "height": 3840,
+            "fps": "60/1",
+            "frames": "5400",
+            "video_duration_seconds": 90.0,
+            "container_duration_seconds": 90.0
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep14-ghost-in-posterior-bb31a8702522/si-ep14-ghost-in-posterior--deliveries--si-ep14-ghost-in-posterior--review--candidate-01-rejected--capture-with-frame405-artifact--fcc7f70f0c52.mp4"
+        },
+        {
+          "path": "deliveries/si-ep14-ghost-in-posterior/review/motion-30-209.mp4",
+          "name": "si-ep14-ghost-in-posterior--deliveries--si-ep14-ghost-in-posterior--review--motion-30-209--d9d8118b2150.mp4",
+          "bytes": 1517591,
+          "sha256": "d9d8118b21502d4faa8da56e67e70f3349ff840a640b4452b9927dd95ddb4203",
+          "kind": "video",
+          "platform": "预览",
+          "measurements": {
+            "width": 2160,
+            "height": 3840,
+            "fps": "60/1",
+            "frames": "180",
+            "video_duration_seconds": 3.0,
+            "container_duration_seconds": 3.008
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep14-ghost-in-posterior-bb31a8702522/si-ep14-ghost-in-posterior--deliveries--si-ep14-ghost-in-posterior--review--motion-30-209--d9d8118b2150.mp4"
+        },
+        {
+          "path": "deliveries/si-ep14-ghost-in-posterior/review/motion-3780-3959.mp4",
+          "name": "si-ep14-ghost-in-posterior--deliveries--si-ep14-ghost-in-posterior--review--motion-3780-3959--13b91f18717a.mp4",
+          "bytes": 3329823,
+          "sha256": "13b91f18717a7c09b1885927c58c15a98f061759abc00a431880854b448d3d43",
+          "kind": "video",
+          "platform": "预览",
+          "measurements": {
+            "width": 2160,
+            "height": 3840,
+            "fps": "60/1",
+            "frames": "180",
+            "video_duration_seconds": 3.0,
+            "container_duration_seconds": 3.008
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep14-ghost-in-posterior-bb31a8702522/si-ep14-ghost-in-posterior--deliveries--si-ep14-ghost-in-posterior--review--motion-3780-3959--13b91f18717a.mp4"
+        },
+        {
+          "path": "deliveries/si-ep14-ghost-in-posterior/review/motion-4800-4979.mp4",
+          "name": "si-ep14-ghost-in-posterior--deliveries--si-ep14-ghost-in-posterior--review--motion-4800-4979--f36f3fb23676.mp4",
+          "bytes": 996133,
+          "sha256": "f36f3fb23676e7aef705c5bdd3f691356f72522230531b5faa3018a885757277",
+          "kind": "video",
+          "platform": "预览",
+          "measurements": {
+            "width": 2160,
+            "height": 3840,
+            "fps": "60/1",
+            "frames": "180",
+            "video_duration_seconds": 3.0,
+            "container_duration_seconds": 3.008
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep14-ghost-in-posterior-bb31a8702522/si-ep14-ghost-in-posterior--deliveries--si-ep14-ghost-in-posterior--review--motion-4800-4979--f36f3fb23676.mp4"
+        },
+        {
+          "path": "deliveries/si-ep14-ghost-in-posterior/review/preflight-initial/motion-30-209.mp4",
+          "name": "si-ep14-ghost-in-posterior--deliveries--si-ep14-ghost-in-posterior--review--preflight-initial--motion-30-209--4819015f04f3.mp4",
+          "bytes": 1518526,
+          "sha256": "4819015f04f3c8c6a3c29efcbd0e124e60fb04ecec15d4ae80055ebe93df4bba",
+          "kind": "video",
+          "platform": "预览",
+          "measurements": {
+            "width": 2160,
+            "height": 3840,
+            "fps": "60/1",
+            "frames": "180",
+            "video_duration_seconds": 3.0,
+            "container_duration_seconds": 3.008
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep14-ghost-in-posterior-bb31a8702522/si-ep14-ghost-in-posterior--deliveries--si-ep14-ghost-in-posterior--review--preflight-initial--motion-30-209--4819015f04f3.mp4"
+        },
+        {
+          "path": "deliveries/si-ep14-ghost-in-posterior/小红书/si-ep14-ghost-in-posterior-xiaohongshu-90s-portrait.mp4",
+          "name": "si-ep14-ghost-in-posterior--deliveries--si-ep14-ghost-in-posterior-----si-ep14-ghost-in-posterior-xiaohongshu-90s-portrait--d56c8394eb08.mp4",
+          "bytes": 61925852,
+          "sha256": "d56c8394eb08f30b1645981fc7fc951f714b3651e1fec813fc3ad2bbcc005ee9",
+          "kind": "video",
+          "platform": "小红书",
+          "measurements": {
+            "width": 2160,
+            "height": 3840,
+            "fps": "60/1",
+            "frames": "5400",
+            "video_duration_seconds": 90.0,
+            "container_duration_seconds": 90.0
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep14-ghost-in-posterior-bb31a8702522/si-ep14-ghost-in-posterior--deliveries--si-ep14-ghost-in-posterior-----si-ep14-ghost-in-posterior-xiaohongshu-90s-portrait--d56c8394eb08.mp4"
+        }
+      ]
     }
   ]
 }

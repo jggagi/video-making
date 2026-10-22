@@ -1,0 +1,23 @@
+{
+  "media_sha256": "d56c8394eb08f30b1645981fc7fc951f714b3651e1fec813fc3ad2bbcc005ee9",
+  "status": "PASS_MODEL_REPRESENTATIVE_OBSERVATION",
+  "evidence": "encoded-qa-d56c8394eb08/metadata.json",
+  "mobile_contact_panels": [
+    "encoded-qa-d56c8394eb08/mobile-panel-1.jpg",
+    "encoded-qa-d56c8394eb08/mobile-panel-2.jpg",
+    "encoded-qa-d56c8394eb08/mobile-panel-3.jpg",
+    "encoded-qa-d56c8394eb08/mobile-panel-4.jpg"
+  ],
+  "observed": [
+    "All22 representative frames viewed at360px tile width: three-line HUD and captions readable; no observed clipping, missing Chinese glyphs, 3D distortion or repeated tile artifact.",
+    "Eight2.5second pairs show changed spores/laser, membrane silhouette, advancing green structures, and final solitary spore position; native geometry-ROI measurements exclude HUD/subtitle/counter. Sparse evidence does not prove all-window motion compliance.",
+    "Native-size membrane and engulfment crops inspected: smooth soft fluorescence falloff without severe observed banding; intended fine microscope grid remains visible.",
+    "Finalencoded404/405/406 neighbor contact checked; red repeated text tiles are absent. Exact405 source redraw replaced only that absolute frame before re-encode.",
+    "CoverA2100 andCoverB3840 are byte copies of native final-MP4 extractions; separate headline covers viewed.",
+    "At4860 organism is absent; at4890 solitary coral spore returns; disclaimer appears at5160 and final5399."
+  ],
+  "limitations": [
+    "Model representative observations only. No continuous human viewing/listening, actualphone/App playback, or audience-response evidence.",
+    "Microscopy look is procedural2D illustration with256x192 concentration textures and native4K vectors, not real microscopy."
+  ]
+}

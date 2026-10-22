@@ -1,0 +1,27 @@
+{
+  "rejected_media": "review/candidate-01-rejected/capture-with-frame405-artifact.mp4",
+  "rejected_sha256": "fcc7f70f0c521433215155730d56b395068800face7819c2c46a526631c103b0",
+  "flags": [
+    {
+      "frame": 405,
+      "observation": "Actual encoded frame repeats red BIO HUD text as tiles across the fullcanvas; capture artifact confirmed from scanner evidence."
+    },
+    {
+      "frame": 406,
+      "observation": "Normal frame in scanner contact; consecutive-outlier flag follows damaged405. Not selected for replacement."
+    }
+  ],
+  "redraw": {
+    "frame": 405,
+    "path": "review/native-redraw/frame-405.png",
+    "sha256": "b6340c63cb6a6c294418a6f87b73ddf1e4b3668eb40c471f787cd1f2473d7d29",
+    "dimensions": [
+      2160,
+      3840
+    ],
+    "basis": "Exact absolute source frame405, unchanged source and native capture settings; no neighboring frame reuse or interpolation",
+    "model_observed": "Clean HUD/title/capsule/particles/caption in freshly rendered native PNG"
+  },
+  "root_cause": "Not isolated; no claim that GPU, browser or anysinglecomponent is proven responsible",
+  "old_report_status": "Retained failed/incomplete flags, not cleared by textual disposition"
+}

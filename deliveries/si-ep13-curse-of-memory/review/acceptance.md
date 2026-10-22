@@ -33,7 +33,7 @@ PCM母带为48kHz、双声道16bit，每声道4,320,000样本，90秒。实测�
 
 查看两幅1160×1200的原生像素裁图，文字、细线、暗色渐变未见严重等高线式色带。模型观察不等同大屏人工或真机连续播放。
 
-封面A与B分别来自最终MP4精确第1680/4020帧，另有相同状态的标题版封面。文案完整保存在小红书/publish-package.md和JSON中，账号尚未提交。
+封面A与B分别来自最终MP4精确第1680/4020帧，另有相同状态的标题版封面。文案完整保存在小红书/publish-package.md和JSON中，已提交账号「余问 QStory」，当前审核中；公开可见性未确认，见 ../小红书/publication-record.json。
 
 ## 体验与剩余验收
 
@@ -43,7 +43,7 @@ PCM母带为48kHz、双声道16bit，每声道4,320,000样本，90秒。实测�
 - 完整人工听音、具体读音和情绪接受：NOT_RUN。
 - 真实手机/小红书App播放：NOT_RUN。
 - 实际观众感受、留存与传播效果：NOT_RUN。
-- 账号发布：NOT_SUBMITTED，已准备发布包。
+- 账号发布：SUBMITTED_PENDING_REVIEW。管理页已匹配本集标题、封面与01:30，平台显示审核中；publication_verified=false，public_visibility_verified=false。
 
 ## 科学边界
 

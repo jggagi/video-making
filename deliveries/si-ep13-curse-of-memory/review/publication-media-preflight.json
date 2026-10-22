@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "work": "si-ep13-curse-of-memory",
+  "platform": "xiaohongshu",
+  "preflight_status": "NEEDS_SOL",
+  "package": {
+    "path": "小红书/publish-package.json",
+    "sha256": "7b523f02b1fbc8189a58f2f36c692d6b235c732eb19d156c6b7304da62f68e31",
+    "submission_status": "not_submitted"
+  },
+  "selected_media": {
+    "video": {
+      "path": "小红书/si-ep13-curse-of-memory-xiaohongshu-90s-portrait.mp4",
+      "sha256_expected": "7b067593aab3e25d3636aa0caa008ee88ab37de11a2b8fca7f49593ec474e3c7",
+      "sha256_actual": "7b067593aab3e25d3636aa0caa008ee88ab37de11a2b8fca7f49593ec474e3c7",
+      "sha256_matches_package": true,
+      "size_bytes": 50752467,
+      "ffprobe": {
+        "duration_seconds": 90.0,
+        "width": 2160,
+        "height": 3840,
+        "frame_rate": "60/1",
+        "audio_sample_rate": 48000,
+        "audio_channels": 2
+      }
+    },
+    "cover": {
+      "candidate": "A",
+      "path": "小红书/cover-A-headline.png",
+      "sha256_expected": "5bc2b70d1cc7f6c63f22a5831aec2738394b79b0805d7e2df1821b376e178d4a",
+      "sha256_actual": "5bc2b70d1cc7f6c63f22a5831aec2738394b79b0805d7e2df1821b376e178d4a",
+      "sha256_matches_package": true,
+      "size_bytes": 4295812,
+      "width": 2160,
+      "height": 3840
+    }
+  },
+  "copy": {
+    "title": {
+      "unicode_code_points": 29,
+      "utf16_code_units": 29,
+      "count_source": "exact title string in publish-package.json",
+      "platform_field_acceptance": "not_checked",
+      "live_ui_check_required": true
+    },
+    "caption": {
+      "unicode_code_points": 581,
+      "utf16_code_units": 583,
+      "non_whitespace_code_points": 542,
+      "count_source": "exact caption string in publish-package.json; includes its newlines and literal Markdown markers"
+    },
+    "hashtag_count": 10
+  },
+  "existing_publication_check": {
+    "local_ep13_publication_record": "not_found",
+    "checked": "EP13 delivery tree for publication/publish record files; current publish-package.json reports submission_status=not_submitted",
+    "account_state": "not_observed",
+    "platform_or_account_access_used": false,
+    "live_account_record_check_required": true
+  },
+  "blocking_item": {
+    "constraint": "The selected title is 29 Unicode code points. The repository publishing instructions defer title limits to the current page feedback; this preflight did not access the live interface, so acceptance or a required edit remains unverified.",
+    "next_step": "Check title acceptance in the authorized live creator interface. If rejected, resolve the field constraint before final submission; do not silently change the package copy.",
+    "pre_submission_live_checks": [
+      "Search the authorized account management page for an existing EP13 submission before posting; no local record alone does not establish current account state.",
+      "Confirm the exact 29-code-point title is accepted by the live title field; resolve any rejection before final submission without silently changing package copy."
+    ]
+  },
+  "scope": {
+    "light_metadata_only": true,
+    "no_upload_or_submission": true,
+    "no_credentials_or_private_screenshots": true
+  },
+  "root_resolution": {
+    "status": "RESOLVED",
+    "title": "User approved shorter title after live 28/20 rejection; actual accepted title recorded in publication-record.json.",
+    "account_and_duplicate_preflight": "Verified in current UI before upload and final action.",
+    "record": "../小红书/publication-record.json"
+  }
+}

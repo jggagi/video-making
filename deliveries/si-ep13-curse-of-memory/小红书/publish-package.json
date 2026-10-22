@@ -3,7 +3,7 @@
   "work": "si-ep13-curse-of-memory",
   "platform": "xiaohongshu",
   "package_status": "media_and_copy_ready",
-  "submission_status": "not_submitted",
+  "submission_status": "submitted_pending_review",
   "cover_candidates": [
     {
       "id": "A",
@@ -51,5 +51,10 @@
     "height": 3840,
     "fps": 60,
     "duration_seconds": 90
-  }
+  },
+  "selected_cover": "cover-A-headline.png",
+  "publication_record": "publication-record.json",
+  "publication_verified": false,
+  "public_visibility_verified": false,
+  "submitted_title": "遗忘，才是人类最慈悲的止痛药｜一眼万年"
 }

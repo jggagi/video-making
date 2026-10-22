@@ -12,6 +12,8 @@
 
 连续人工观看、人工听音、真实手机/App播放：NOT_RUN。
 
-本地final、GitHub作品Release、专用final备份和下载恢复抽测：归档步骤进行中。小红书修复版已上传，标题/正文/四话题/AI声明/封面/公开即时设置已回读，尚未提交。
+本地final：PASS，APFS克隆和正式成片大小/哈希一致。
 
-本地final：PASS，APFS克隆和正式成片大小/哈希一致；GitHub作品/final Release及恢复抽测尚待完成。
+归档完成：源码提交c6c7e8b93c562a94b91c1583877c6cf20f335e1e已推送；作品Release5资产、独立final Release1正式成片，远端大小/SHA-256匹配。全final目录29个Release/58文件实时核验通过。新增EP16实际下载恢复一次、第二次跳过匹配文件；不代表历史影片全部重新下载。详见github-film-verification.json、final-restore-probe.json及根final/backup-verification.json。
+
+小红书：Codex执行一次最终提交后，先观察到“审核中”，随后在“已发布”选中列表核对到本集标题、02:00及自定义封面。页面时间原文2026-10-23 00:02，时区未注明。submission_verified=true，publication_verified=true；独立公开访客及手机App可见性未测试，public_visibility_verified=false。截图保留在私有临时目录，其SHA-256记入publication-record.json，不上传Git或Releases。未重复提交，未安排后台轮询。

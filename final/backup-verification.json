@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
   "status": "COMPLETE",
-  "verified_at_utc": "2026-10-22T14:21:34.182206+00:00",
+  "verified_at_utc": "2026-10-22T16:01:08.484944+00:00",
   "repository": "jggagi/video-making",
-  "source_commit": "72eef6e33254bb6d18e87c4833c9e4d55f806b2d",
+  "source_commit": "c6c7e8b93c562a94b91c1583877c6cf20f335e1e",
   "catalog_path": "final/backup-catalog.json",
-  "catalog_sha256": "cd9a7004470b59a3a1d60fe671b8f2fd67ea0958d0aeb3ef1099007448ddc84f",
-  "upload_receipt_sha256": "7865f51f25dc2e289b43f2b0e0187ae7625746d8fc50d854dd39a4ce176b9350",
+  "catalog_sha256": "fdd268d74f84e4319f9dd1ca58014dba54902167d46ed30962d0496cbed06f62",
+  "upload_receipt_sha256": "e24412b5f66db3e20c7fcbbf466700552d8647a72ff1d3b38fb63bde77ea5c38",
   "verification_method": "Fresh published GitHub Release API inventory plus all local final file hashes; every remote size, SHA-256 digest and URL matched the current catalog.",
-  "verified_releases": 28,
-  "verified_files": 57,
-  "verified_bytes": 8942862434,
+  "verified_releases": 29,
+  "verified_files": 58,
+  "verified_bytes": 8968516426,
   "works": [
     {
       "id": "lanting",
@@ -813,6 +813,26 @@
       ]
     },
     {
+      "id": "si-ep16-frictionless-world",
+      "title": "Final 成片备份 · 零摩擦人间",
+      "release_tag": "final-si-ep16-frictionless-world-c78c4835aa0e",
+      "release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep16-frictionless-world-c78c4835aa0e",
+      "release_target": "c6c7e8b93c562a94b91c1583877c6cf20f335e1e",
+      "release_draft": false,
+      "assets": [
+        {
+          "path": "final/si-ep16-frictionless-world/小红书/si-ep16-frictionless-world-xiaohongshu-120s-portrait.mp4",
+          "name": "final--si-ep16-frictionless-world--deliveries--si-ep16-frictionless-world-----si-ep16-frictionless-world-xiaohongshu-120s-portrait--299b91acdaba.mp4",
+          "bytes": 25653992,
+          "sha256": "299b91acdabaed526c027f8268a350cfa4e0832a2dc16a925d7ed4176cecd690",
+          "github_digest": "sha256:299b91acdabaed526c027f8268a350cfa4e0832a2dc16a925d7ed4176cecd690",
+          "github_asset_id": 666341568,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep16-frictionless-world-c78c4835aa0e/final--si-ep16-frictionless-world--deliveries--si-ep16-frictionless-world-----si-ep16-frictionless-world-xiaohongshu-120s-portrait--299b91acdaba.mp4",
+          "local_and_remote_match": true
+        }
+      ]
+    },
+    {
       "id": "si-eternity",
       "title": "Final 成片备份 · 一眼万年",
       "release_tag": "final-si-eternity-66d480b1c859",
@@ -865,12 +885,8 @@
   ],
   "restore_probe": {
     "status": "PASS",
-    "work": "si-babel-library",
-    "report": "deliveries/si-babel-library/review/final-restore-probe.json",
-    "report_sha256": "c561a98c28b0daba6bfe367d1f2e93d49f1e1e6d15f5c7af08c9f0934db45485",
-    "sha256": "eb2860ac3e8b7f02efc6e7862dc38184bad8c7c2176d65ecf0292c3379644d5b",
-    "bytes": 26033005,
-    "second_run_skipped_matching_file": true,
-    "scope": "Only this newly added film was actually downloaded and restored; all57final assets were independently inventory/hash verified."
+    "report": "deliveries/si-ep16-frictionless-world/review/final-restore-probe.json",
+    "report_sha256": "ad8b886f49fe24585da5adc70d80a3a54c01a15bc7a9be11d420e274004e0b71",
+    "scope": "Only the new EP16 final movie was actually downloaded and verified; second run skipped the matching file."
   }
 }

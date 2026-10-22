@@ -1,7 +1,7 @@
 {
   "version": 1,
   "work": "si-ep16-frictionless-world",
-  "status": "READY_TO_SUBMIT_AFTER_ARCHIVE",
+  "status": "PUBLISHED_PLATFORM_CONFIRMED",
   "account": "余问 QStory",
   "platform": "小红书",
   "authorization": {
@@ -42,11 +42,22 @@
     "observed_at_utc": null,
     "time_note": "Observed during this EP16 session before upload; exact timestamp was not captured."
   },
-  "submission_attempted": false,
-  "submission_verified": false,
-  "publication_verified": false,
+  "submission_attempted": true,
+  "submission_verified": true,
+  "publication_verified": true,
   "public_visibility_verified": false,
-  "attempts": [],
+  "attempts": [
+    {
+      "attempt_started_at_utc": "2026-10-22T16:01:55.181187+00:00",
+      "executor": "Codex via CUA supported browser UI",
+      "action": "Click visible 发布 button once",
+      "media_sha256": "299b91acdabaed526c027f8268a350cfa4e0832a2dc16a925d7ed4176cecd690",
+      "result": "SUBMITTED_PENDING_REVIEW",
+      "submission_attempted": true,
+      "verification_at_utc": "2026-10-22T16:03:11.200861+00:00",
+      "observed_return_url": "https://creator.xiaohongshu.com/publish/publish?source=&published=true"
+    }
+  ],
   "private_browser_evidence_location": "Private temporary directory only; never in Git or Releases",
   "human_listening": "NOT_RUN",
   "phone_app_playback": "NOT_RUN",
@@ -94,5 +105,37 @@
     "platform_cover_evaluation": "封面效果评估通过，未发现封面质量问题",
     "private_evidence": "/private/tmp/si-ep16-xhs-publication-20261022/pre-submit.jpg",
     "platform_does_not_report_local_sha256": true
-  }
+  },
+  "attempt_started_at_utc": "2026-10-22T16:01:55.181187+00:00",
+  "verified_at_utc": "2026-10-22T16:07:23.799436+00:00",
+  "note_id": null,
+  "public_url": null,
+  "platform_observation": {
+    "account": "余问 QStory",
+    "title": "完美到没人再哭，为什么像停尸房？",
+    "duration_display": "02:00",
+    "status": "已发布",
+    "displayed_timestamp": "2026-10-23 00:02",
+    "timezone_of_displayed_timestamp": "UNSPECIFIED; not inferred",
+    "return_url": "https://creator.xiaohongshu.com/publish/publish?source=&published=true",
+    "management_url": "https://creator.xiaohongshu.com/new/note-manager",
+    "total_note_count_changed_from": 17,
+    "total_note_count_changed_to": 18,
+    "selected_tab": "已发布",
+    "observed_at_utc": "2026-10-22T16:07:23.799436+00:00",
+    "status_history": [
+      {
+        "status": "审核中",
+        "observed_at_utc": "2026-10-22T16:03:11.200861+00:00"
+      },
+      {
+        "status": "已发布",
+        "observed_at_utc": "2026-10-22T16:07:23.799436+00:00",
+        "evidence": "Matching title, custom cover, 02:00 and displayed timestamp in selected 已发布 tab"
+      }
+    ]
+  },
+  "private_submission_evidence": "/private/tmp/si-ep16-xhs-publication-20261022/manager-published.jpg",
+  "private_submission_evidence_sha256": "ad4a16eaff8d4dee9a19b32937e5c654e4b2ab808a22dd46a9af513c36f69e8b",
+  "public_visibility_note": "Creator management 已发布 confirmed; independent public/phone account visibility not tested."
 }

@@ -45,9 +45,12 @@
     "encoded_audio": "PASS_TECHNICAL",
     "human_listening": "NOT_RUN",
     "local_final": "PASS",
-    "github_film_archive": "PENDING",
-    "github_final_backup": "PENDING",
-    "final_restore_probe": "PENDING"
+    "github_film_archive": "PASS",
+    "github_final_backup": "PASS",
+    "final_restore_probe": "PASS",
+    "xiaohongshu_submission": "PASS",
+    "public_visibility": "UNVERIFIED",
+    "xiaohongshu_publication": "PUBLISHED_PLATFORM_CONFIRMED"
   },
   "visual_qc": {
     "required": true,

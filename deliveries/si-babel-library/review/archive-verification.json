@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "source_commit": "72eef6e33254bb6d18e87c4833c9e4d55f806b2d",
+  "catalog_sha256": "abb7b45a33a87e09fb14f1a53ad644a627c1b5fdb4c34d8c23b660e89e4e2300",
+  "receipt_sha256": "f01dad5a48acdaa924c3e0dec5db84df9cec04de2c2810b02704acf255ca06ce",
+  "verified_work_count": 28,
+  "verified_asset_count": 253,
+  "verification": "Uploader checked every remote asset size and SHA-256, final published release inventory; matching older media skipped.",
+  "this_work": {
+    "id": "si-babel-library",
+    "title": "巴别图书馆的尽头",
+    "release_tag": "film-si-babel-library-0b96f46a735f",
+    "release_url": "https://github.com/jggagi/video-making/releases/tag/film-si-babel-library-0b96f46a735f",
+    "assets": [
+      {
+        "name": "si-babel-library--deliveries--si-babel-library--review--candidate-02-capture-rejected--capture-fault-4698--2c8a8f1995e0.mp4",
+        "bytes": 26234179,
+        "digest": "sha256:2c8a8f1995e02bbb771031529aea184f8b59fe3d3a0ab1db3c88ad5b51c83400",
+        "kind": "video",
+        "platform": "预览",
+        "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-babel-library-0b96f46a735f/si-babel-library--deliveries--si-babel-library--review--candidate-02-capture-rejected--capture-fault-4698--2c8a8f1995e0.mp4",
+        "browser_download_url": "https://github.com/jggagi/video-making/releases/download/film-si-babel-library-0b96f46a735f/si-babel-library--deliveries--si-babel-library--review--candidate-02-capture-rejected--capture-fault-4698--2c8a8f1995e0.mp4",
+        "id": 666083459
+      },
+      {
+        "name": "si-babel-library--deliveries--si-babel-library--review--motion-0-419--566e1f95ca83.mp4",
+        "bytes": 808477,
+        "digest": "sha256:566e1f95ca8318202d15ec91ae573db348ba6878d2cb2734a63f2f99e728210f",
+        "kind": "video",
+        "platform": "预览",
+        "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-babel-library-0b96f46a735f/si-babel-library--deliveries--si-babel-library--review--motion-0-419--566e1f95ca83.mp4",
+        "browser_download_url": "https://github.com/jggagi/video-making/releases/download/film-si-babel-library-0b96f46a735f/si-babel-library--deliveries--si-babel-library--review--motion-0-419--566e1f95ca83.mp4",
+        "id": 666084119
+      },
+      {
+        "name": "si-babel-library--deliveries--si-babel-library--review--motion-4380-4559--baa05d2067ce.mp4",
+        "bytes": 480227,
+        "digest": "sha256:baa05d2067ce910a5532b9aaa5921b28947a22d134c47322c1a8bdd188b9eccc",
+        "kind": "video",
+        "platform": "预览",
+        "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-babel-library-0b96f46a735f/si-babel-library--deliveries--si-babel-library--review--motion-4380-4559--baa05d2067ce.mp4",
+        "browser_download_url": "https://github.com/jggagi/video-making/releases/download/film-si-babel-library-0b96f46a735f/si-babel-library--deliveries--si-babel-library--review--motion-4380-4559--baa05d2067ce.mp4",
+        "id": 666084184
+      },
+      {
+        "name": "si-babel-library--deliveries--si-babel-library-----si-babel-library-xiaohongshu-120s-portrait--eb2860ac3e8b.mp4",
+        "bytes": 26033005,
+        "digest": "sha256:eb2860ac3e8b7f02efc6e7862dc38184bad8c7c2176d65ecf0292c3379644d5b",
+        "kind": "video",
+        "platform": "小红书",
+        "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-babel-library-0b96f46a735f/si-babel-library--deliveries--si-babel-library-----si-babel-library-xiaohongshu-120s-portrait--eb2860ac3e8b.mp4",
+        "browser_download_url": "https://github.com/jggagi/video-making/releases/download/film-si-babel-library-0b96f46a735f/si-babel-library--deliveries--si-babel-library-----si-babel-library-xiaohongshu-120s-portrait--eb2860ac3e8b.mp4",
+        "id": 666084254
+      }
+    ],
+    "release_draft": false
+  },
+  "account_publication": "NOT_PERFORMED"
+}

@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
   "status": "COMPLETE",
-  "verified_at_utc": "2026-10-22T12:55:45.719680+00:00",
+  "verified_at_utc": "2026-10-22T14:21:34.182206+00:00",
   "repository": "jggagi/video-making",
-  "source_commit": "026ed33c82352890f9dc4f0250a11c6c84532e43",
+  "source_commit": "72eef6e33254bb6d18e87c4833c9e4d55f806b2d",
   "catalog_path": "final/backup-catalog.json",
-  "catalog_sha256": "ff6b6aff43dbab482442b5290241b92549f8b7772db4d221f476d4a7351cc2be",
-  "upload_receipt_sha256": "395649d3c513ebb32b6c6b4360a4924789131e815227376fcc68de45114da564",
+  "catalog_sha256": "cd9a7004470b59a3a1d60fe671b8f2fd67ea0958d0aeb3ef1099007448ddc84f",
+  "upload_receipt_sha256": "7865f51f25dc2e289b43f2b0e0187ae7625746d8fc50d854dd39a4ce176b9350",
   "verification_method": "Fresh published GitHub Release API inventory plus all local final file hashes; every remote size, SHA-256 digest and URL matched the current catalog.",
-  "verified_releases": 27,
-  "verified_files": 56,
-  "verified_bytes": 8916829429,
+  "verified_releases": 28,
+  "verified_files": 57,
+  "verified_bytes": 8942862434,
   "works": [
     {
       "id": "lanting",
@@ -158,6 +158,26 @@
           "github_digest": "sha256:088a3369860885d9bbfc3516336799856e260582619565cf13b28296fd8efcf4",
           "github_asset_id": 652458633,
           "download_url": "https://github.com/jggagi/video-making/releases/download/final-qstory-ep03-078e54164654/final--qstory-ep03--qstory-ep03--out--QStory-EP03---4K--088a33698608.mp4",
+          "local_and_remote_match": true
+        }
+      ]
+    },
+    {
+      "id": "si-babel-library",
+      "title": "Final 成片备份 · 巴别图书馆的尽头",
+      "release_tag": "final-si-babel-library-0b96f46a735f",
+      "release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-babel-library-0b96f46a735f",
+      "release_target": "72eef6e33254bb6d18e87c4833c9e4d55f806b2d",
+      "release_draft": false,
+      "assets": [
+        {
+          "path": "final/si-babel-library/小红书/si-babel-library-xiaohongshu-120s-portrait.mp4",
+          "name": "final--si-babel-library--deliveries--si-babel-library-----si-babel-library-xiaohongshu-120s-portrait--eb2860ac3e8b.mp4",
+          "bytes": 26033005,
+          "sha256": "eb2860ac3e8b7f02efc6e7862dc38184bad8c7c2176d65ecf0292c3379644d5b",
+          "github_digest": "sha256:eb2860ac3e8b7f02efc6e7862dc38184bad8c7c2176d65ecf0292c3379644d5b",
+          "github_asset_id": 666088837,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-babel-library-0b96f46a735f/final--si-babel-library--deliveries--si-babel-library-----si-babel-library-xiaohongshu-120s-portrait--eb2860ac3e8b.mp4",
           "local_and_remote_match": true
         }
       ]
@@ -845,17 +865,12 @@
   ],
   "restore_probe": {
     "status": "PASS",
-    "scope": "Only the new EP14 portrait final was actually downloaded; no claim that all historical movies were restored.",
-    "catalog_sha256": "ff6b6aff43dbab482442b5290241b92549f8b7772db4d221f476d4a7351cc2be",
-    "release_tag": "final-si-ep14-ghost-in-posterior-bb31a8702522",
-    "asset_name": "final--si-ep14-ghost-in-posterior--deliveries--si-ep14-ghost-in-posterior-----si-ep14-ghost-in-posterior-xiaohongshu-90s-portrait--d56c8394eb08.mp4",
-    "restored_relative_path": "final/si-ep14-ghost-in-posterior/小红书/si-ep14-ghost-in-posterior-xiaohongshu-90s-portrait.mp4",
-    "bytes": 61925852,
-    "sha256": "d56c8394eb08f30b1645981fc7fc951f714b3651e1fec813fc3ad2bbcc005ee9",
-    "first_run_stdout": "Restored: final/si-ep14-ghost-in-posterior/小红书/si-ep14-ghost-in-posterior-xiaohongshu-90s-portrait.mp4 (61,925,852 bytes)\nRestore complete: 0 already verified, 1 downloaded",
-    "second_run_stdout": "Restore complete: 1 already verified, 0 downloaded",
+    "work": "si-babel-library",
+    "report": "deliveries/si-babel-library/review/final-restore-probe.json",
+    "report_sha256": "c561a98c28b0daba6bfe367d1f2e93d49f1e1e6d15f5c7af08c9f0934db45485",
+    "sha256": "eb2860ac3e8b7f02efc6e7862dc38184bad8c7c2176d65ecf0292c3379644d5b",
+    "bytes": 26033005,
     "second_run_skipped_matching_file": true,
-    "isolated_temporary_directory_cleaned_after_verification": true,
-    "evidence_path": "deliveries/si-ep14-ghost-in-posterior/review/final-restore-probe.json"
+    "scope": "Only this newly added film was actually downloaded and restored; all57final assets were independently inventory/hash verified."
   }
 }

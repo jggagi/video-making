@@ -41,9 +41,9 @@
     "browser_preview_playback": "PASS",
     "browser_final_playback": "PASS",
     "local_final": "PASS",
-    "github_film_archive": "PENDING",
-    "github_final_backup": "PENDING",
-    "final_restore_probe": "PENDING"
+    "github_film_archive": "PASS",
+    "github_final_backup": "PASS",
+    "final_restore_probe": "PASS"
   },
   "visual_qc": {
     "required": true,
@@ -51,5 +51,10 @@
       "xiaohongshu": "review/visual-qc-xiaohongshu/report.json"
     }
   },
-  "final_movie_sha256": "eb2860ac3e8b7f02efc6e7862dc38184bad8c7c2176d65ecf0292c3379644d5b"
+  "final_movie_sha256": "eb2860ac3e8b7f02efc6e7862dc38184bad8c7c2176d65ecf0292c3379644d5b",
+  "archive": {
+    "source_commit": "72eef6e33254bb6d18e87c4833c9e4d55f806b2d",
+    "film_release": "https://github.com/jggagi/video-making/releases/tag/film-si-babel-library-0b96f46a735f",
+    "final_release": "https://github.com/jggagi/video-making/releases/tag/final-si-babel-library-0b96f46a735f"
+  }
 }

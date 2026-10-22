@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "source_commit": "72eef6e33254bb6d18e87c4833c9e4d55f806b2d",
+  "movie_sha256": "eb2860ac3e8b7f02efc6e7862dc38184bad8c7c2176d65ecf0292c3379644d5b",
+  "final_catalog_sha256": "cd9a7004470b59a3a1d60fe671b8f2fd67ea0958d0aeb3ef1099007448ddc84f",
+  "global_verification": {
+    "path": "final/backup-verification.json",
+    "sha256": "12aa5fd8843174fce01c5053d854580857a25021542c5f99faafc608ae5bbf99",
+    "assets": 57,
+    "releases": 28
+  },
+  "this_work": {
+    "id": "si-babel-library",
+    "title": "Final 成片备份 · 巴别图书馆的尽头",
+    "release_tag": "final-si-babel-library-0b96f46a735f",
+    "release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-babel-library-0b96f46a735f",
+    "assets": [
+      {
+        "name": "final--si-babel-library--deliveries--si-babel-library-----si-babel-library-xiaohongshu-120s-portrait--eb2860ac3e8b.mp4",
+        "bytes": 26033005,
+        "digest": "sha256:eb2860ac3e8b7f02efc6e7862dc38184bad8c7c2176d65ecf0292c3379644d5b",
+        "kind": "video",
+        "platform": "小红书",
+        "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-babel-library-0b96f46a735f/final--si-babel-library--deliveries--si-babel-library-----si-babel-library-xiaohongshu-120s-portrait--eb2860ac3e8b.mp4",
+        "browser_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-babel-library-0b96f46a735f/final--si-babel-library--deliveries--si-babel-library-----si-babel-library-xiaohongshu-120s-portrait--eb2860ac3e8b.mp4",
+        "id": 666088837
+      }
+    ],
+    "release_draft": false
+  },
+  "restore_probe": {
+    "status": "PASS",
+    "scope": "Only the new Babel portrait final was actually downloaded; no claim that all historical movies were restored.",
+    "catalog_sha256": "cd9a7004470b59a3a1d60fe671b8f2fd67ea0958d0aeb3ef1099007448ddc84f",
+    "release_tag": "final-si-babel-library-0b96f46a735f",
+    "asset_name": "final--si-babel-library--deliveries--si-babel-library-----si-babel-library-xiaohongshu-120s-portrait--eb2860ac3e8b.mp4",
+    "restored_relative_path": "final/si-babel-library/小红书/si-babel-library-xiaohongshu-120s-portrait.mp4",
+    "bytes": 26033005,
+    "sha256": "eb2860ac3e8b7f02efc6e7862dc38184bad8c7c2176d65ecf0292c3379644d5b",
+    "first_run_stdout": "Restored: final/si-babel-library/小红书/si-babel-library-xiaohongshu-120s-portrait.mp4 (26,033,005 bytes)\nRestore complete: 0 already verified, 1 downloaded",
+    "second_run_stdout": "Restore complete: 1 already verified, 0 downloaded",
+    "second_run_skipped_matching_file": true,
+    "isolated_temporary_directory_cleaned_after_verification": true
+  }
+}

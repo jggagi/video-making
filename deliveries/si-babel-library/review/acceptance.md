@@ -1,6 +1,6 @@
 # 巴别图书馆的尽头：验收记录
 
-状态：技术检查与本地APFS final克隆通过；GitHub作品/final双份归档核验待执行。
+状态：技术检查、本地APFS final、GitHub作品/final独立备份和本片恢复抽测全部通过。人工与手机验收保持未执行。
 
 ## 成片与技术证据
 
@@ -24,4 +24,6 @@
 
 ## 归档
 
-当前文件已在本地final留存并核对SHA-256；待完成GitHub作品Release、独立final-* Release、全部远端大小/SHA-256核验和本次新影片下载恢复抽测。
+当前文件已在本地final留存并核对SHA-256。作品清单253资产/28作品通过远端大小和SHA-256核验；独立final清单57成片/28Release通过重新获取远端清单和本地哈希核验，报告绑定当前backup-catalog。新增本片实际下载恢复成功，重复执行正确跳过已匹配文件；不把单片恢复说成全部历史影片已下载恢复。
+
+源码提交：`72eef6e33254bb6d18e87c4833c9e4d55f806b2d`。详见archive-verification.json、final-backup-verification.json和final-restore-probe.json。

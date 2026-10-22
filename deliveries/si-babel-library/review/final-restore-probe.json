@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "scope": "Only the new Babel portrait final was actually downloaded; no claim that all historical movies were restored.",
+  "catalog_sha256": "cd9a7004470b59a3a1d60fe671b8f2fd67ea0958d0aeb3ef1099007448ddc84f",
+  "release_tag": "final-si-babel-library-0b96f46a735f",
+  "asset_name": "final--si-babel-library--deliveries--si-babel-library-----si-babel-library-xiaohongshu-120s-portrait--eb2860ac3e8b.mp4",
+  "restored_relative_path": "final/si-babel-library/小红书/si-babel-library-xiaohongshu-120s-portrait.mp4",
+  "bytes": 26033005,
+  "sha256": "eb2860ac3e8b7f02efc6e7862dc38184bad8c7c2176d65ecf0292c3379644d5b",
+  "first_run_stdout": "Restored: final/si-babel-library/小红书/si-babel-library-xiaohongshu-120s-portrait.mp4 (26,033,005 bytes)\nRestore complete: 0 already verified, 1 downloaded",
+  "second_run_stdout": "Restore complete: 1 already verified, 0 downloaded",
+  "second_run_skipped_matching_file": true,
+  "isolated_temporary_directory_cleaned_after_verification": true
+}

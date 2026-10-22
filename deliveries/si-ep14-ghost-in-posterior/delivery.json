@@ -43,9 +43,9 @@
     "continuous_frame_screening": "PASS",
     "encoded_audio": "PASS_TECHNICAL",
     "local_final": "PASS",
-    "github_film_archive": "PENDING",
-    "github_final_backup": "PENDING",
-    "final_restore_probe": "PENDING"
+    "github_film_archive": "PASS",
+    "github_final_backup": "PASS",
+    "final_restore_probe": "PASS"
   },
   "visual_qc": {
     "required": true,

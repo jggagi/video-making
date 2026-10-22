@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "scope": "Only the new EP14 portrait final was actually downloaded; no claim that all historical movies were restored.",
+  "catalog_sha256": "ff6b6aff43dbab482442b5290241b92549f8b7772db4d221f476d4a7351cc2be",
+  "release_tag": "final-si-ep14-ghost-in-posterior-bb31a8702522",
+  "asset_name": "final--si-ep14-ghost-in-posterior--deliveries--si-ep14-ghost-in-posterior-----si-ep14-ghost-in-posterior-xiaohongshu-90s-portrait--d56c8394eb08.mp4",
+  "restored_relative_path": "final/si-ep14-ghost-in-posterior/小红书/si-ep14-ghost-in-posterior-xiaohongshu-90s-portrait.mp4",
+  "bytes": 61925852,
+  "sha256": "d56c8394eb08f30b1645981fc7fc951f714b3651e1fec813fc3ad2bbcc005ee9",
+  "first_run_stdout": "Restored: final/si-ep14-ghost-in-posterior/小红书/si-ep14-ghost-in-posterior-xiaohongshu-90s-portrait.mp4 (61,925,852 bytes)\nRestore complete: 0 already verified, 1 downloaded",
+  "second_run_stdout": "Restore complete: 1 already verified, 0 downloaded",
+  "second_run_skipped_matching_file": true,
+  "isolated_temporary_directory_cleaned_after_verification": true
+}

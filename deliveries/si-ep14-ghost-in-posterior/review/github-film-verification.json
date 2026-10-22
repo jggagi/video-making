@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-10-22T12:54:15.977483+00:00",
+  "source_commit": "026ed33c82352890f9dc4f0250a11c6c84532e43",
+  "catalog_sha256": "33ce6ac8c5b857201874a31c146d5a0361927d5b870a8c31566676825426d375",
+  "scope": "Fresh GitHub API verification of exact EP14 film Release asset set. All catalog assets were additionally verified by the uploader receipt.",
+  "release_id": 420720118,
+  "release_url": "https://github.com/jggagi/video-making/releases/tag/film-si-ep14-ghost-in-posterior-bb31a8702522",
+  "draft": false,
+  "assets": [
+    {
+      "name": "si-ep14-ghost-in-posterior--deliveries--si-ep14-ghost-in-posterior--review--candidate-01-rejected--capture-with-frame405-artifact--fcc7f70f0c52.mp4",
+      "asset_id": 665877020,
+      "bytes": 50995840,
+      "sha256": "fcc7f70f0c521433215155730d56b395068800face7819c2c46a526631c103b0",
+      "platform": "预览",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep14-ghost-in-posterior-bb31a8702522/si-ep14-ghost-in-posterior--deliveries--si-ep14-ghost-in-posterior--review--candidate-01-rejected--capture-with-frame405-artifact--fcc7f70f0c52.mp4"
+    },
+    {
+      "name": "si-ep14-ghost-in-posterior--deliveries--si-ep14-ghost-in-posterior--review--motion-30-209--d9d8118b2150.mp4",
+      "asset_id": 665877226,
+      "bytes": 1517591,
+      "sha256": "d9d8118b21502d4faa8da56e67e70f3349ff840a640b4452b9927dd95ddb4203",
+      "platform": "预览",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep14-ghost-in-posterior-bb31a8702522/si-ep14-ghost-in-posterior--deliveries--si-ep14-ghost-in-posterior--review--motion-30-209--d9d8118b2150.mp4"
+    },
+    {
+      "name": "si-ep14-ghost-in-posterior--deliveries--si-ep14-ghost-in-posterior--review--motion-3780-3959--13b91f18717a.mp4",
+      "asset_id": 665877331,
+      "bytes": 3329823,
+      "sha256": "13b91f18717a7c09b1885927c58c15a98f061759abc00a431880854b448d3d43",
+      "platform": "预览",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep14-ghost-in-posterior-bb31a8702522/si-ep14-ghost-in-posterior--deliveries--si-ep14-ghost-in-posterior--review--motion-3780-3959--13b91f18717a.mp4"
+    },
+    {
+      "name": "si-ep14-ghost-in-posterior--deliveries--si-ep14-ghost-in-posterior--review--motion-4800-4979--f36f3fb23676.mp4",
+      "asset_id": 665877400,
+      "bytes": 996133,
+      "sha256": "f36f3fb23676e7aef705c5bdd3f691356f72522230531b5faa3018a885757277",
+      "platform": "预览",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep14-ghost-in-posterior-bb31a8702522/si-ep14-ghost-in-posterior--deliveries--si-ep14-ghost-in-posterior--review--motion-4800-4979--f36f3fb23676.mp4"
+    },
+    {
+      "name": "si-ep14-ghost-in-posterior--deliveries--si-ep14-ghost-in-posterior--review--preflight-initial--motion-30-209--4819015f04f3.mp4",
+      "asset_id": 665877485,
+      "bytes": 1518526,
+      "sha256": "4819015f04f3c8c6a3c29efcbd0e124e60fb04ecec15d4ae80055ebe93df4bba",
+      "platform": "预览",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep14-ghost-in-posterior-bb31a8702522/si-ep14-ghost-in-posterior--deliveries--si-ep14-ghost-in-posterior--review--preflight-initial--motion-30-209--4819015f04f3.mp4"
+    },
+    {
+      "name": "si-ep14-ghost-in-posterior--deliveries--si-ep14-ghost-in-posterior-----si-ep14-ghost-in-posterior-xiaohongshu-90s-portrait--d56c8394eb08.mp4",
+      "asset_id": 665877760,
+      "bytes": 61925852,
+      "sha256": "d56c8394eb08f30b1645981fc7fc951f714b3651e1fec813fc3ad2bbcc005ee9",
+      "platform": "小红书",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep14-ghost-in-posterior-bb31a8702522/si-ep14-ghost-in-posterior--deliveries--si-ep14-ghost-in-posterior-----si-ep14-ghost-in-posterior-xiaohongshu-90s-portrait--d56c8394eb08.mp4"
+    }
+  ]
+}

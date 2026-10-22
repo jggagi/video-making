@@ -10,5 +10,14 @@
   "media_unchanged_since_current_QA": true,
   "audio_scope": "PCM exact4320000samples/channel; container/audio/video90s; AAC decode includes256padding samples and very low-energy blackout-boundary residue.",
   "human_listening": "NOT_RUN",
-  "device_playback": "NOT_RUN"
+  "device_playback": "NOT_RUN",
+  "source_commit": "026ed33c82352890f9dc4f0250a11c6c84532e43",
+  "github_film_verification": "github-film-verification.json",
+  "final_backup_verification": "../../../final/backup-verification.json",
+  "restore_probe": "final-restore-probe.json",
+  "post_validation_manifest_changes": "Final QA/backup status metadata was recorded before the fresh strict validation; no scene, subtitle, PCM or movie bytes changed.",
+  "capture_source_hashes_match_current": true,
+  "final_media_validation_report": "media-validation-20261022T125706.261957Z.json",
+  "validated_manifest_sha256": "16a482500ab90c122828f814c0c0c3680d2e6ea48fd8f1f9511a9449f67f4f8d",
+  "final_media_validation_status": "PASS"
 }

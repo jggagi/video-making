@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
   "status": "COMPLETE",
-  "verified_at_utc": "2026-10-22T10:41:07.487282+00:00",
+  "verified_at_utc": "2026-10-22T12:55:45.719680+00:00",
   "repository": "jggagi/video-making",
-  "source_commit": "44f28b782c5aa223b2c665d1cbe18d632edfd930",
+  "source_commit": "026ed33c82352890f9dc4f0250a11c6c84532e43",
   "catalog_path": "final/backup-catalog.json",
-  "catalog_sha256": "ff3d4eaa7aec5d06dec82495022c4e4e6ab926617e039799ee6e8414993e2829",
-  "upload_receipt_sha256": "897247b7addc2c05f686ce67ce207c30ba68308370ca81f0b1f1fb461e5daff8",
+  "catalog_sha256": "ff6b6aff43dbab482442b5290241b92549f8b7772db4d221f476d4a7351cc2be",
+  "upload_receipt_sha256": "395649d3c513ebb32b6c6b4360a4924789131e815227376fcc68de45114da564",
   "verification_method": "Fresh published GitHub Release API inventory plus all local final file hashes; every remote size, SHA-256 digest and URL matched the current catalog.",
-  "verified_releases": 26,
-  "verified_files": 55,
-  "verified_bytes": 8854903577,
+  "verified_releases": 27,
+  "verified_files": 56,
+  "verified_bytes": 8916829429,
   "works": [
     {
       "id": "lanting",
@@ -773,6 +773,26 @@
       ]
     },
     {
+      "id": "si-ep14-ghost-in-posterior",
+      "title": "Final 成片备份 · 死后第七年，他还在回微信",
+      "release_tag": "final-si-ep14-ghost-in-posterior-bb31a8702522",
+      "release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep14-ghost-in-posterior-bb31a8702522",
+      "release_target": "026ed33c82352890f9dc4f0250a11c6c84532e43",
+      "release_draft": false,
+      "assets": [
+        {
+          "path": "final/si-ep14-ghost-in-posterior/小红书/si-ep14-ghost-in-posterior-xiaohongshu-90s-portrait.mp4",
+          "name": "final--si-ep14-ghost-in-posterior--deliveries--si-ep14-ghost-in-posterior-----si-ep14-ghost-in-posterior-xiaohongshu-90s-portrait--d56c8394eb08.mp4",
+          "bytes": 61925852,
+          "sha256": "d56c8394eb08f30b1645981fc7fc951f714b3651e1fec813fc3ad2bbcc005ee9",
+          "github_digest": "sha256:d56c8394eb08f30b1645981fc7fc951f714b3651e1fec813fc3ad2bbcc005ee9",
+          "github_asset_id": 665881058,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep14-ghost-in-posterior-bb31a8702522/final--si-ep14-ghost-in-posterior--deliveries--si-ep14-ghost-in-posterior-----si-ep14-ghost-in-posterior-xiaohongshu-90s-portrait--d56c8394eb08.mp4",
+          "local_and_remote_match": true
+        }
+      ]
+    },
+    {
       "id": "si-eternity",
       "title": "Final 成片备份 · 一眼万年",
       "release_tag": "final-si-eternity-66d480b1c859",
@@ -825,10 +845,17 @@
   ],
   "restore_probe": {
     "status": "PASS",
-    "work": "si-ep13-curse-of-memory",
-    "report": "deliveries/si-ep13-curse-of-memory/review/final-restore-probe.json",
-    "sha256": "7b067593aab3e25d3636aa0caa008ee88ab37de11a2b8fca7f49593ec474e3c7",
-    "bytes": 50752467,
-    "scope": "Only the new EP13 portrait was downloaded and hash-checked in isolation; repeat run skipped the matching file. Other historical movies were inventory-verified, not downloaded."
+    "scope": "Only the new EP14 portrait final was actually downloaded; no claim that all historical movies were restored.",
+    "catalog_sha256": "ff6b6aff43dbab482442b5290241b92549f8b7772db4d221f476d4a7351cc2be",
+    "release_tag": "final-si-ep14-ghost-in-posterior-bb31a8702522",
+    "asset_name": "final--si-ep14-ghost-in-posterior--deliveries--si-ep14-ghost-in-posterior-----si-ep14-ghost-in-posterior-xiaohongshu-90s-portrait--d56c8394eb08.mp4",
+    "restored_relative_path": "final/si-ep14-ghost-in-posterior/小红书/si-ep14-ghost-in-posterior-xiaohongshu-90s-portrait.mp4",
+    "bytes": 61925852,
+    "sha256": "d56c8394eb08f30b1645981fc7fc951f714b3651e1fec813fc3ad2bbcc005ee9",
+    "first_run_stdout": "Restored: final/si-ep14-ghost-in-posterior/小红书/si-ep14-ghost-in-posterior-xiaohongshu-90s-portrait.mp4 (61,925,852 bytes)\nRestore complete: 0 already verified, 1 downloaded",
+    "second_run_stdout": "Restore complete: 1 already verified, 0 downloaded",
+    "second_run_skipped_matching_file": true,
+    "isolated_temporary_directory_cleaned_after_verification": true,
+    "evidence_path": "deliveries/si-ep14-ghost-in-posterior/review/final-restore-probe.json"
   }
 }

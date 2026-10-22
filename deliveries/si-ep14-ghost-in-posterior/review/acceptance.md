@@ -38,7 +38,12 @@ Final media SHA-256: `d56c8394eb08f30b1645981fc7fc951f714b3651e1fec813fc3ad2bbcc
 - Encoded audio:−16.0LUFS/−1.8dBTP; three PCM comparison windows have zero lag and correlations0.999846–0.999960. The lossless master has exact4320000samples/channel and exactzero blackout. AAC decoding includes256padding samples beyond the90s presentation timeline. AAC has low boundary residue during the blackout: leading25ms peak−71.46dBFS, trailing−108.67; interior−148.02. Absolute digitalzero is guaranteed in the PCM master, not lossy decodedAAC. Container/audio/video timelines remain exactly90s.
 - Captions: independent text audit confirms all33blocks round-trip exactly to approved display text,13characters/line maximum and measured active-voice bounds. Pronunciation has no human listening verdict.
 - Covers: native final-MP4 framesA2100/B3840 extracted; separate native headline variants generated and viewed. Hashes are in 小红书/publish-package.json. Package READY; account submission NOT_RUN.
-- Local final: PASS, verified APFS clone at final/si-ep14-ghost-in-posterior/小红书/ with the same61,925,852bytes/SHA-256. Original GitHub archive / independent final backup / actual restore probe: PENDING.
+- Local final: PASS, verified APFS clone at final/si-ep14-ghost-in-posterior/小红书/ with the same61,925,852bytes/SHA-256.
+- Original GitHub archive: PASS, source commit026ed33c82352890f9dc4f0250a11c6c84532e43 pushed before uploads. EP14 published Release has6assets:1formal film and5review previews, including the retained rejected candidate. Fresh remote inventory, sizes and SHA-256 match; see github-film-verification.json. Uploader also verified the whole249asset archive.
+- Independent final backup: PASS, dedicated published final-si-ep14-ghost-in-posterior-bb31a8702522 Release contains only the formal film. Current final/backup-verification.json freshly checked all56local/remote assets across27Releases against catalog SHAff6b6aff43dbab482442b5290241b92549f8b7772db4d221f476d4a7351cc2be.
+- Actual restore probe: PASS for the new EP14 final only. Isolated download restored61,925,852bytes with matching SHA-256; repeat skipped the verified file with the sameinode; temporary data cleaned. This does not claim that all historical films were downloaded. See final-restore-probe.json.
+
+Published archives: [Film Release](https://github.com/jggagi/video-making/releases/tag/film-si-ep14-ghost-in-posterior-bb31a8702522), [final backup](https://github.com/jggagi/video-making/releases/tag/final-si-ep14-ghost-in-posterior-bb31a8702522).
 
 ## Creative self-assessment and model observation
 

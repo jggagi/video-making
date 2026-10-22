@@ -1,0 +1,102 @@
+{
+  "platform": "小红书",
+  "status": "SUBMITTED_PENDING_REVIEW",
+  "prepared_at_utc": "2026-10-22T14:39:45+00:00",
+  "account_display_name": "余问 QStory",
+  "authorization_summary": "User explicitly requested: 把《巴别图书馆的尽头》发到小红书，用这版封面和文案。 Authorization applies to this named work and selected edition.",
+  "duplication_check": {
+    "checked_by": "root",
+    "management_rows_reviewed": 16,
+    "matching_work_found": false
+  },
+  "video_path": "小红书/si-babel-library-xiaohongshu-120s-portrait.mp4",
+  "video_sha256": "eb2860ac3e8b7f02efc6e7862dc38184bad8c7c2176d65ecf0292c3379644d5b",
+  "video_size_bytes": 26033005,
+  "duration_seconds": 120,
+  "copy_file": "小红书/publish-copy.md",
+  "copy_sha256": "6fe4bcfc5635498c8181c5520fd2f2c0736ca9572237240d47e6f9c97af58b5b",
+  "title": "你一生的灵感，已被提前编号",
+  "desired_topics": [
+    "科幻",
+    "人工智能",
+    "博尔赫斯",
+    "创作",
+    "审美",
+    "感受SI"
+  ],
+  "cover_path": "小红书/cover-A-headline.png",
+  "cover_sha256": "1d7f14bf9cee546f3b7141ffec70027878abde2d766b25402bd1548f51374ff7",
+  "cover_source_frame": 300,
+  "cover_crop_xywh": null,
+  "linked_topics": [
+    {
+      "id": "5ce0b5f500000000060055b8",
+      "link": "xhsdiscover://topic/v2/5ce0b5f540a511000156fba1",
+      "name": "科幻"
+    },
+    {
+      "id": "620cd421000000000100130c",
+      "link": "xhsdiscover://topic/v2/620cd4214ce6550001a0fd2c",
+      "name": "人工智能"
+    },
+    {
+      "id": "5c7d4e43000000000d02841a",
+      "link": "xhsdiscover://topic/v2/5c7d4e43d81ab500015bf2b7",
+      "name": "博尔赫斯"
+    },
+    {
+      "id": "5c0394b2cea2a30001fa5e42",
+      "link": "xhsdiscover://topic/v2/5c0394b297abdf0001f1a8b1",
+      "name": "创作"
+    },
+    {
+      "id": "5c191c410000000003039e7d",
+      "link": "xhsdiscover://topic/v2/5c191c4130e2cf0001dc87d3",
+      "name": "审美"
+    },
+    {
+      "id": "6ada1ff00000000021039798",
+      "link": "",
+      "name": "感受SI"
+    }
+  ],
+  "content_declaration": "笔记含AI合成内容",
+  "visibility": "公开可见",
+  "scheduled": false,
+  "scheduled_at": null,
+  "prepared": true,
+  "submission_attempted": true,
+  "attempt_started_at_utc": "2026-10-22T14:39:45+00:00",
+  "final_action_actor": "Codex",
+  "submission_method": "Creator web UI, Chrome existing logged-in session",
+  "submission_verified": true,
+  "publication_verified": false,
+  "public_visibility_verified": false,
+  "review_status": "审核中",
+  "checked_at_utc": "2026-10-22T14:41:09+00:00",
+  "platform_display_time": "2026-10-22 22:39",
+  "platform_display_time_timezone": null,
+  "manager_url": "https://creator.xiaohongshu.com/new/note-manager",
+  "note_id": null,
+  "public_note_url": null,
+  "verification": {
+    "result_page": "Publishing UI reset; address displayed published=true.",
+    "manager_match": {
+      "title": "你一生的灵感，已被提前编号",
+      "duration": "02:00",
+      "cover": "Approved red and blue Bauhaus headline cover visually matched.",
+      "review_status": "审核中"
+    },
+    "platform_file_hash_verified": false,
+    "note_id_exposed": false
+  },
+  "evidence_paths": [
+    "/private/tmp/si-babel-library-xhs-20261022/prepared.jpg",
+    "/private/tmp/si-babel-library-xhs-20261022/submitted-manager.jpg",
+    "/private/tmp/si-babel-library-xhs-20261022/result.jpg"
+  ],
+  "blocker": null,
+  "remaining": "Platform review pending. Public visibility is unverified; no background polling or duplicate submission scheduled.",
+  "cover_verification": "Approved PNG uploaded and visually checked in platform feed preview; no manual crop; headline intact; platform cover-quality evaluation passed.",
+  "copy_verification": "Title and complete approved prose reread in UI; six topic tokens verified in rendered editor DOM."
+}

@@ -1,0 +1,29 @@
+{
+  "media": "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep16-frictionless-world/\u5c0f\u7ea2\u4e66/si-ep16-frictionless-world-xiaohongshu-120s-portrait.mp4",
+  "sha256": "299b91acdabaed526c027f8268a350cfa4e0832a2dc16a925d7ed4176cecd690",
+  "every_frame": true,
+  "frames": 7200,
+  "decode_return_code": 0,
+  "regions_540x960": {
+    "right_blank_gutter": [
+      497,
+      160,
+      535,
+      870
+    ],
+    "top_blank_gap": [
+      40,
+      221,
+      455,
+      239
+    ],
+    "bottom_blank_margin": [
+      40,
+      885,
+      530,
+      940
+    ]
+  },
+  "basis": "Regions intentionally contain only uniform #F8FAFC background in every authored non-cover frame. Any >5 pixels mean RGB<225 requires review. Source-shape checks and report do not assert every kind of capture flaw is detectable.",
+  "flagged_frames": []
+}

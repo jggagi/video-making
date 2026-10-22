@@ -1,0 +1,429 @@
+{
+  "version": 1,
+  "work": "si-ep16-frictionless-world",
+  "visualAssets": "All visuals are original deterministic SVG code; native vector resolution",
+  "voice": "Bailian cosyvoice-v3-flash / longtian_v3, per direct EP16 authorization",
+  "scoreAndSFX": "Deterministic original synthesized sound; no third-party music",
+  "entries": [
+    {
+      "path": "README.md",
+      "bytes": 1090,
+      "sha256": "9ca37db47a820acd75821fe985cb5e02ed4ac122932f95c017ea4a1dd16ff2d4",
+      "origin": "Original editable production source or metadata"
+    },
+    {
+      "path": "adapted-script.md",
+      "bytes": 1516,
+      "sha256": "c5760c5922db0dbfdf75b9b69fd51dbcd25b2eee418fd4ab4bd0d497541a5723",
+      "origin": "Original editable production source or metadata"
+    },
+    {
+      "path": "audio-authorization.json",
+      "bytes": 337,
+      "sha256": "4781e56c458a5101496e6aee0f7266906ae9d83a6a4ab19bfc852746f190031a",
+      "origin": "Original editable production source or metadata"
+    },
+    {
+      "path": "audio-timing.json",
+      "bytes": 21988,
+      "sha256": "761f83d8041de269fb146a9ac7f396680d39b324fa559b005e7ca2a23ccd08ec",
+      "origin": "Original editable production source or metadata"
+    },
+    {
+      "path": "brief.md",
+      "bytes": 1452,
+      "sha256": "7321856bb160b8febe49499aba8ee1d5bebc0cb32637e7fc512f7f19e03200e5",
+      "origin": "Original editable production source or metadata"
+    },
+    {
+      "path": "history/timeline-at-audio-build.json",
+      "bytes": 1381,
+      "sha256": "7184e0ece394a9b9a22c94e4a12d4a94feb215d91025b10fdcaca57f3e37bb4c",
+      "origin": "Original editable production source or metadata"
+    },
+    {
+      "path": "mix-settings.json",
+      "bytes": 2342,
+      "sha256": "0e4978c6ec1d3b4defca49aa9f469b01352ca364c38601e04b42c94b10f88527",
+      "origin": "Original editable production source or metadata"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 142071,
+      "sha256": "e27bfa89b4b6e9fd5570e8e2aa694e9243404db41c1b0c70e2d83302a0790e55",
+      "origin": "Original editable production source or metadata"
+    },
+    {
+      "path": "package.json",
+      "bytes": 789,
+      "sha256": "516487c469aa6333636021dec3373986242191d793e5919002889ce4a55344da",
+      "origin": "Original editable production source or metadata"
+    },
+    {
+      "path": "public/audio/canonical/S01-194483472668.wav",
+      "bytes": 460844,
+      "sha256": "0ce132617444c71c35bef8cc6098574d6fc5c7544902e545c109e48f96096e7b",
+      "origin": "Aliyun Bailian TTS"
+    },
+    {
+      "path": "public/audio/canonical/S02-71eb251b28a2.wav",
+      "bytes": 487724,
+      "sha256": "69ac3b5f3048b080d83c33521118a0af88d8db1c6d162d6a845658cba881d7f4",
+      "origin": "Aliyun Bailian TTS"
+    },
+    {
+      "path": "public/audio/canonical/S03-f0d2d8f0da36.wav",
+      "bytes": 464684,
+      "sha256": "fb1e58e3ffc05fb2006dd3d253e594c66158db3c1bc2c572a71162d4ed60b1bd",
+      "origin": "Aliyun Bailian TTS"
+    },
+    {
+      "path": "public/audio/canonical/S04-c59c766c0820.wav",
+      "bytes": 464684,
+      "sha256": "e6924a071dea904412645bec7d5442a64906784685d2e80556aa39bdd4716bcd",
+      "origin": "Aliyun Bailian TTS"
+    },
+    {
+      "path": "public/audio/canonical/S05-a40aa54fb7b5.wav",
+      "bytes": 403244,
+      "sha256": "96973c11e8a83231637103b9abace945378a6fd96558e186b723032f9c196740",
+      "origin": "Aliyun Bailian TTS"
+    },
+    {
+      "path": "public/audio/canonical/S06-fa5eeddda5b4.wav",
+      "bytes": 457004,
+      "sha256": "073b77d4bf1684d2b96958c53a645d32e6ebfa78a9c942baa8b294dbd3f8101e",
+      "origin": "Aliyun Bailian TTS"
+    },
+    {
+      "path": "public/audio/canonical/S07-aae67d84e35f.wav",
+      "bytes": 560684,
+      "sha256": "4ccbe75335b0402bc657fb0674d4bc419511590ddb5d49c94b7ab166686b44a4",
+      "origin": "Aliyun Bailian TTS"
+    },
+    {
+      "path": "public/audio/canonical/S08-faffb0a762a5.wav",
+      "bytes": 560684,
+      "sha256": "028eaa4019008c01697d671cabea770d0e7f3a6b67398ce5c7426bbe9fd6a549",
+      "origin": "Aliyun Bailian TTS"
+    },
+    {
+      "path": "public/audio/canonical/S09-31aea52fd460.wav",
+      "bytes": 518444,
+      "sha256": "cace4c6d48af1fc9bf3f957788a2d6fc7105a73b9bacfcb1e9fff669cdf91490",
+      "origin": "Aliyun Bailian TTS"
+    },
+    {
+      "path": "public/audio/cues/S01-194483472668.wav",
+      "bytes": 921678,
+      "sha256": "a4ce3d9ff8c8968978bd401f43259cf1dfaf320d28526ba8f629eb6c9a3a90c6",
+      "origin": "Aliyun Bailian TTS"
+    },
+    {
+      "path": "public/audio/cues/S02-71eb251b28a2.wav",
+      "bytes": 975438,
+      "sha256": "abe927ee356da3af9df462249e17d329711dcede671c7bb81c27eb1595865627",
+      "origin": "Aliyun Bailian TTS"
+    },
+    {
+      "path": "public/audio/cues/S03-f0d2d8f0da36.wav",
+      "bytes": 929358,
+      "sha256": "065a61a79b966c3ab54b4449b449d25196398c8bec755f325cd7f8f3f629900e",
+      "origin": "Aliyun Bailian TTS"
+    },
+    {
+      "path": "public/audio/cues/S04-c59c766c0820.wav",
+      "bytes": 929358,
+      "sha256": "010bc9d9e0c736f9d24fe7c0f04e183c63fe90821abd55da113299c7bb6fb40a",
+      "origin": "Aliyun Bailian TTS"
+    },
+    {
+      "path": "public/audio/cues/S05-a40aa54fb7b5.wav",
+      "bytes": 806478,
+      "sha256": "b8e567e996082b549356e1c2f6deb947cffa15c4e17f8d800fde84a599c6a9de",
+      "origin": "Aliyun Bailian TTS"
+    },
+    {
+      "path": "public/audio/cues/S06-fa5eeddda5b4.wav",
+      "bytes": 913998,
+      "sha256": "b222863cec8b20bf97101f0e57cacc1d89021f5ed0765d7d8091715c98036dc8",
+      "origin": "Aliyun Bailian TTS"
+    },
+    {
+      "path": "public/audio/cues/S07-aae67d84e35f.wav",
+      "bytes": 1121358,
+      "sha256": "642de361f7d06697d231bd0dd2bf88d2593e77fc8d6a19b88b728617a0c8a887",
+      "origin": "Aliyun Bailian TTS"
+    },
+    {
+      "path": "public/audio/cues/S08-faffb0a762a5.wav",
+      "bytes": 1121358,
+      "sha256": "a8c6492f959b510fe4e65258ca561b2699ad3c3b7d84a65b4e7a3724c87307e8",
+      "origin": "Aliyun Bailian TTS"
+    },
+    {
+      "path": "public/audio/cues/S09-31aea52fd460.wav",
+      "bytes": 1036878,
+      "sha256": "32d4dae4e53728787974f81865168e0b0702407a12191f281e62d5d248538b30",
+      "origin": "Aliyun Bailian TTS"
+    },
+    {
+      "path": "public/audio/history/preview-timing.json",
+      "bytes": 67,
+      "sha256": "b35b5cc987510b367fe5d9387c114538464bb89c1f8f2249dad0d2c28a6ca970",
+      "origin": "Original editable production source or metadata"
+    },
+    {
+      "path": "public/audio/master.wav",
+      "bytes": 23040044,
+      "sha256": "e363df87a52370d97da99e5e4825f6c11f76976875072d845eba9da1b155ef2d",
+      "origin": "Code-generated original soundscape"
+    },
+    {
+      "path": "public/audio/narration.wav",
+      "bytes": 23040044,
+      "sha256": "fdca32af04c1dda4968a336f60c233ea73519b32b5e5e920620149c9f16d314c",
+      "origin": "Code-generated original soundscape"
+    },
+    {
+      "path": "public/audio/provider-manifest.json",
+      "bytes": 23760,
+      "sha256": "dabc3d5196707fa848f43e9056651cf52b84a52d14bad21a994470c1bf61a813",
+      "origin": "Original editable production source or metadata"
+    },
+    {
+      "path": "public/audio/raw/S01-194483472668.wav",
+      "bytes": 460844,
+      "sha256": "0fcbd856472302f7f7d25006a9ade4a242332b57f080c49bf2f0fa52998cfc40",
+      "origin": "Aliyun Bailian TTS"
+    },
+    {
+      "path": "public/audio/raw/S02-71eb251b28a2.wav",
+      "bytes": 487724,
+      "sha256": "6c7a939a0972c9ebf99c1536dd150d143a5b3bf4e02a3d2f5e7b118a702c9deb",
+      "origin": "Aliyun Bailian TTS"
+    },
+    {
+      "path": "public/audio/raw/S03-f0d2d8f0da36.wav",
+      "bytes": 464684,
+      "sha256": "029f170b339454edbc66e4c3d49e702c41943698e3437c9acb055a0a9e422cdc",
+      "origin": "Aliyun Bailian TTS"
+    },
+    {
+      "path": "public/audio/raw/S04-c59c766c0820.wav",
+      "bytes": 464684,
+      "sha256": "e822bb7443595881a1e2e79bcc573f6ef542c4196b81381eff103dbfee8d4d04",
+      "origin": "Aliyun Bailian TTS"
+    },
+    {
+      "path": "public/audio/raw/S05-a40aa54fb7b5.wav",
+      "bytes": 403244,
+      "sha256": "c6ed5be5a4d0234e95eae324f6d20b3adaaa1e6cba38cac320e42244b7a841a3",
+      "origin": "Aliyun Bailian TTS"
+    },
+    {
+      "path": "public/audio/raw/S06-fa5eeddda5b4.wav",
+      "bytes": 457004,
+      "sha256": "b7414732192d0e700bd5b820a40a385a5c423e6c71354fbd1d339418105487c6",
+      "origin": "Aliyun Bailian TTS"
+    },
+    {
+      "path": "public/audio/raw/S07-aae67d84e35f.wav",
+      "bytes": 560684,
+      "sha256": "fec2cb75c0e30378d786dfaba07e2c27e973eaad2d31314edc5536ea45697904",
+      "origin": "Aliyun Bailian TTS"
+    },
+    {
+      "path": "public/audio/raw/S08-faffb0a762a5.wav",
+      "bytes": 560684,
+      "sha256": "6455a8030564851feb034fd6cd8566b0153a3685e3388f03be6f0f124e6cb48a",
+      "origin": "Aliyun Bailian TTS"
+    },
+    {
+      "path": "public/audio/raw/S09-31aea52fd460.wav",
+      "bytes": 518444,
+      "sha256": "5bfd49c827d8899187b08355e5fc86dfcc650f3bff2d27baa2967fbc088425e6",
+      "origin": "Aliyun Bailian TTS"
+    },
+    {
+      "path": "public/audio/score.wav",
+      "bytes": 23040044,
+      "sha256": "3840776d8d2f2c35a3028dcf09e1c470bd5a63dda02f65b118a9e4977f8cb612",
+      "origin": "Code-generated original soundscape"
+    },
+    {
+      "path": "public/audio/sfx.wav",
+      "bytes": 23040044,
+      "sha256": "b6d1d3cfc5ec609b0bd929bc242580b31019c08a5e89eb57e89b21fd64baf15c",
+      "origin": "Code-generated original soundscape"
+    },
+    {
+      "path": "public/audio/tts-input/S01-194483472668.txt",
+      "bytes": 120,
+      "sha256": "32c496e4a9a1e9b560e89dd5f91199049e9424fb5dfe97724db945414c9a0b23",
+      "origin": "Original editable production source or metadata"
+    },
+    {
+      "path": "public/audio/tts-input/S02-71eb251b28a2.txt",
+      "bytes": 129,
+      "sha256": "4515b631c0645280261dac43caafdf44dca9e053f9ed484303ec6f65e26a28f7",
+      "origin": "Original editable production source or metadata"
+    },
+    {
+      "path": "public/audio/tts-input/S03-f0d2d8f0da36.txt",
+      "bytes": 123,
+      "sha256": "d7a661a11f449509ec35252b271753d4485b73ff42182d49d4ff7694d8a7c520",
+      "origin": "Original editable production source or metadata"
+    },
+    {
+      "path": "public/audio/tts-input/S04-c59c766c0820.txt",
+      "bytes": 129,
+      "sha256": "79e0650fb9142077bf70b4764860ec4995f606ef3c41bb04b5f8f93a4f5c610d",
+      "origin": "Original editable production source or metadata"
+    },
+    {
+      "path": "public/audio/tts-input/S05-a40aa54fb7b5.txt",
+      "bytes": 120,
+      "sha256": "5f7d63a9d2d65445c595a46e9aab3ba56e2d5e04297f0c74b0ff6ad8e2f1cd8e",
+      "origin": "Original editable production source or metadata"
+    },
+    {
+      "path": "public/audio/tts-input/S06-fa5eeddda5b4.txt",
+      "bytes": 138,
+      "sha256": "1bde11d6f3f430aa4ef3de0e06b2ee9d888bd4f81d2d6290ff05a6e877555c96",
+      "origin": "Original editable production source or metadata"
+    },
+    {
+      "path": "public/audio/tts-input/S07-aae67d84e35f.txt",
+      "bytes": 165,
+      "sha256": "38934c3e1748267da3818449d0d209e30ab258fcc8f7edbea756a87b167b8b03",
+      "origin": "Original editable production source or metadata"
+    },
+    {
+      "path": "public/audio/tts-input/S08-faffb0a762a5.txt",
+      "bytes": 126,
+      "sha256": "3fefa35cf2d0a4a16022cce013de5ed227620f591c30d4bc8e4dae554523ff17",
+      "origin": "Original editable production source or metadata"
+    },
+    {
+      "path": "public/audio/tts-input/S09-31aea52fd460.txt",
+      "bytes": 153,
+      "sha256": "0c11ca8f147856ed1e40b79c73544baa3d1e8c939a85052b32eea15d11354956",
+      "origin": "Original editable production source or metadata"
+    },
+    {
+      "path": "scientific-notes.md",
+      "bytes": 1390,
+      "sha256": "19ac6510101d2c23cfb7eac7880ceac14e3bf994d84db5a6cac48ccf18ba1164",
+      "origin": "Original editable production source or metadata"
+    },
+    {
+      "path": "scripts/build_audio.py",
+      "bytes": 43484,
+      "sha256": "9da95050350c24fe83eecd35ee6b76018c32e4f64600d10e9968d02a22952dab",
+      "origin": "Original editable production source or metadata"
+    },
+    {
+      "path": "scripts/collect_qa.py",
+      "bytes": 3086,
+      "sha256": "4167e9c913fea44eb793498b5e1ad8eeacb9b52b7d5fac61ddcdb46b945102cc",
+      "origin": "Original editable production source or metadata"
+    },
+    {
+      "path": "scripts/composite_hand_redraw.py",
+      "bytes": 23024,
+      "sha256": "521cc7fbaa09c2566fe312314445909fcb554fb7f09a84110d1e399d554bb9d8",
+      "origin": "Original editable production source or metadata"
+    },
+    {
+      "path": "scripts/make_assets_manifest.py",
+      "bytes": 1079,
+      "sha256": "bc5206b61dc6d12106792945489d94310d9ed5df6faab428258af49a9401ddfd",
+      "origin": "Original editable production source or metadata"
+    },
+    {
+      "path": "scripts/mux.py",
+      "bytes": 1936,
+      "sha256": "4bc01ea5025851971de36a5a91eb4827a16589c31e868cfcea93d93b67593425",
+      "origin": "Original editable production source or metadata"
+    },
+    {
+      "path": "scripts/render.mjs",
+      "bytes": 5270,
+      "sha256": "15d40c557da4d98332b3eb31dc3e68e431985b17922e0d7f26e4279aa69e45e1",
+      "origin": "Original editable production source or metadata"
+    },
+    {
+      "path": "scripts/repair_frames.py",
+      "bytes": 22156,
+      "sha256": "0d7d2553704d755d6330624b53d3d20bfff3d5069f008bad93ffef301442fc6d",
+      "origin": "Original editable production source or metadata"
+    },
+    {
+      "path": "scripts/restore_probe.py",
+      "bytes": 2158,
+      "sha256": "0b89cb6ffcb674f261a30e8aa57d518f603952609081e0cce6cb2bd0da5bdfb1",
+      "origin": "Original editable production source or metadata"
+    },
+    {
+      "path": "scripts/scan_white_gutters.py",
+      "bytes": 1996,
+      "sha256": "ef7fdf560f694283f3b6b3ca87e5f85f0c6d3cf94832b53022dbd11895cab83e",
+      "origin": "Original editable production source or metadata"
+    },
+    {
+      "path": "scripts/synthesize.py",
+      "bytes": 27842,
+      "sha256": "2b3c0ce6dc25443c64a8febb654517407f85f74a5f12f03db13697a3353ac4a7",
+      "origin": "Original editable production source or metadata"
+    },
+    {
+      "path": "scripts/verify_project.py",
+      "bytes": 1549,
+      "sha256": "d2171704c87d0a97d328e372fb9f64baaf2c03cb8c3ccb11eb8ec6de43c1eacc",
+      "origin": "Original editable production source or metadata"
+    },
+    {
+      "path": "segments.json",
+      "bytes": 3833,
+      "sha256": "51fdcc90b1fd84c8ead2ae2dd6e424d0824ecb0ff395df37cb3af64c9e6d2188",
+      "origin": "Original editable production source or metadata"
+    },
+    {
+      "path": "src/Film.tsx",
+      "bytes": 4128,
+      "sha256": "23328405e3fbcba3b82c4d5df3023274e4b4f17e844bf80f58a32400e1f28daa",
+      "origin": "Original editable production source or metadata"
+    },
+    {
+      "path": "src/Geometry.tsx",
+      "bytes": 10109,
+      "sha256": "00c88ebfb93c20862bb0b4b92314b64a4744490ea1f6150bf43fbf74ac220812",
+      "origin": "Original editable production source or metadata"
+    },
+    {
+      "path": "src/Root.tsx",
+      "bytes": 299,
+      "sha256": "876b96b35023d218c284bf591d3d1fbbb2fc7925084bb4c5ffa5cfb7179524fc",
+      "origin": "Original editable production source or metadata"
+    },
+    {
+      "path": "src/index.ts",
+      "bytes": 88,
+      "sha256": "2e0e358282a1b998a65387c653b97c2bb2eb7aae94cf200fc0b8d919f7be73a6",
+      "origin": "Original editable production source or metadata"
+    },
+    {
+      "path": "timeline.json",
+      "bytes": 1411,
+      "sha256": "d97c2f952b5ff33104aeecb1338bc13da91c7ed3f7550fd1f3afbe2e75446b47",
+      "origin": "Original editable production source or metadata"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 315,
+      "sha256": "522ac46763476439555ea8ebe67a503254cc22cc4799c22c6163fa9172949625",
+      "origin": "Original editable production source or metadata"
+    }
+  ]
+}

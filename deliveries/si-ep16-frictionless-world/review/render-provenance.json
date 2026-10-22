@@ -1,0 +1,35 @@
+{
+  "capture": "Remotion4.0.534; local Google Chrome; native2160x3840; PNG frames; concurrency2; H264 crf18 presetfast; bt709/yuv420p",
+  "sourceSnapshots": [
+    {
+      "path": "review/render-source/Film.tsx",
+      "sha256": "07f1b8a6a07a0bda12aa58b5b6ce6a0305980b66486a7e984199eec03e04f3a7"
+    },
+    {
+      "path": "review/render-source/Geometry.tsx",
+      "sha256": "d0aa17ebbbcea2461f14652d584c3593c3c52e4ba614e20b601575d1016484f2"
+    },
+    {
+      "path": "review/render-source/Root.tsx",
+      "sha256": "876b96b35023d218c284bf591d3d1fbbb2fc7925084bb4c5ffa5cfb7179524fc"
+    },
+    {
+      "path": "review/render-source/index.ts",
+      "sha256": "2e0e358282a1b998a65387c653b97c2bb2eb7aae94cf200fc0b8d919f7be73a6"
+    }
+  ],
+  "snapshotNote": "Full render bundle uses the source at video job start. The retained Film snapshot reconstructs the then-current cover-only branch; subsequent headline positioning affects covers only. Non-cover video branch and Geometry unchanged.",
+  "master_sha256": "e363df87a52370d97da99e5e4825f6c11f76976875072d845eba9da1b155ef2d",
+  "audioTiming_sha256": "761f83d8041de269fb146a9ac7f396680d39b324fa559b005e7ca2a23ccd08ec",
+  "preflightReport": "review/preflight-transition-qc/report.json",
+  "preflightActualFrames": 180,
+  "preflightRealNarrationAndSound": true,
+  "modelSourceFrameReview": "review/source-final-contact.jpg",
+  "modelObservations": "Suspended tear, linked person slots, opening palm and expanding rings readable; captions within safe region. Flat white palette has no dark-gradient banding surface. This observation does not establish human listening or audience reception.",
+  "humanListening": "NOT_RUN",
+  "phonePlayback": "NOT_RUN",
+  "finalMovieSha256": "299b91acdabaed526c027f8268a350cfa4e0832a2dc16a925d7ed4176cecd690",
+  "finalRepair": "review/tile-repair.json",
+  "handRedraw": "review/hand-redraw-composite.json",
+  "supersededPreflightForHandCorrectness": true
+}

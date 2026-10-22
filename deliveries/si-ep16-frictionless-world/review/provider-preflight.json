@@ -1,0 +1,212 @@
+{
+  "version": 1,
+  "project": "si-ep16-frictionless-world",
+  "cli": {
+    "binary": "/Users/guoq/.local/n/bin/bl",
+    "version": "bl 2.5.0",
+    "skillVersion": "2.5.0",
+    "npmLatest": "2.5.0"
+  },
+  "authStatus": {
+    "authenticated": true,
+    "evidence": "review/preflight.json",
+    "secretsRecorded": false
+  },
+  "settings": {
+    "provider": "Aliyun Bailian",
+    "model_selection": "active profile default",
+    "effective_model": "cosyvoice-v3-flash",
+    "voice": "longtian_v3",
+    "rate": 1.0,
+    "format": "wav",
+    "sample_rate": 24000
+  },
+  "orderedTextSha256": "3bd4b3314b3ae2988fa55cbab31ccfc594be6df9cc650f75e1ea173aadac21b2",
+  "authorization": {
+    "file": "project/audio-authorization.json",
+    "sha256": "4781e56c458a5101496e6aee0f7266906ae9d83a6a4ab19bfc852746f190031a",
+    "scope": "EP16 S01 through S09 prepared tts_phonetic_text"
+  },
+  "calls": [
+    {
+      "segmentId": "S01",
+      "cacheKey": "19448347266873839d9f501030eddea3ab1d21e082a349ad0dd8dd178a2ee8a1",
+      "status": "succeeded",
+      "reportedModels": [
+        "cosyvoice-v3-flash"
+      ],
+      "reportedVoices": [
+        "longtian_v3"
+      ],
+      "rawPath": "public/audio/raw/S01-194483472668.wav",
+      "rawSha256": "0fcbd856472302f7f7d25006a9ade4a242332b57f080c49bf2f0fa52998cfc40",
+      "rawBytes": 460844,
+      "pcmSha256": "4d2cc813bd7d72bb283ef12de52212ff456c7245ee51fa90b812c6e13aafe2e7",
+      "actualSamples24k": 230400,
+      "actualDurationSeconds": 9.6,
+      "rawHeaderMatchesPayload": false,
+      "verifiedPcmOverflowRepair": true,
+      "secretsRecorded": false
+    },
+    {
+      "segmentId": "S02",
+      "cacheKey": "71eb251b28a2cccbaad0e20a99993c9f4c115062e2d0a2d356cda87161649c0a",
+      "status": "succeeded",
+      "reportedModels": [
+        "cosyvoice-v3-flash"
+      ],
+      "reportedVoices": [
+        "longtian_v3"
+      ],
+      "rawPath": "public/audio/raw/S02-71eb251b28a2.wav",
+      "rawSha256": "6c7a939a0972c9ebf99c1536dd150d143a5b3bf4e02a3d2f5e7b118a702c9deb",
+      "rawBytes": 487724,
+      "pcmSha256": "f268da1e7af09f30b528e3e1674832a58089cad07fc702249f99fb6a16e3fdf7",
+      "actualSamples24k": 243840,
+      "actualDurationSeconds": 10.16,
+      "rawHeaderMatchesPayload": false,
+      "verifiedPcmOverflowRepair": true,
+      "secretsRecorded": false
+    },
+    {
+      "segmentId": "S03",
+      "cacheKey": "f0d2d8f0da3684b28151b6f97c265e93b7f77d13d996194dad19e93262207cf4",
+      "status": "succeeded",
+      "reportedModels": [
+        "cosyvoice-v3-flash"
+      ],
+      "reportedVoices": [
+        "longtian_v3"
+      ],
+      "rawPath": "public/audio/raw/S03-f0d2d8f0da36.wav",
+      "rawSha256": "029f170b339454edbc66e4c3d49e702c41943698e3437c9acb055a0a9e422cdc",
+      "rawBytes": 464684,
+      "pcmSha256": "91b9098b7a49abc9df9c6694ff0ccfbc2130e127cc085c6ea182790d690066e5",
+      "actualSamples24k": 232320,
+      "actualDurationSeconds": 9.68,
+      "rawHeaderMatchesPayload": false,
+      "verifiedPcmOverflowRepair": true,
+      "secretsRecorded": false
+    },
+    {
+      "segmentId": "S04",
+      "cacheKey": "c59c766c0820aa91b51c02383edc2523ccd2a9e653335b11b7bdc26940223f5d",
+      "status": "succeeded",
+      "reportedModels": [
+        "cosyvoice-v3-flash"
+      ],
+      "reportedVoices": [
+        "longtian_v3"
+      ],
+      "rawPath": "public/audio/raw/S04-c59c766c0820.wav",
+      "rawSha256": "e822bb7443595881a1e2e79bcc573f6ef542c4196b81381eff103dbfee8d4d04",
+      "rawBytes": 464684,
+      "pcmSha256": "91b23affb1d0f7620ccb9dc103dac394deb32448d9d7ce5d9d187b99ff8e713e",
+      "actualSamples24k": 232320,
+      "actualDurationSeconds": 9.68,
+      "rawHeaderMatchesPayload": false,
+      "verifiedPcmOverflowRepair": true,
+      "secretsRecorded": false
+    },
+    {
+      "segmentId": "S05",
+      "cacheKey": "a40aa54fb7b5277b0e6274eaf96ab25478ebc747b7a5aaeabe33d52776970455",
+      "status": "succeeded",
+      "reportedModels": [
+        "cosyvoice-v3-flash"
+      ],
+      "reportedVoices": [
+        "longtian_v3"
+      ],
+      "rawPath": "public/audio/raw/S05-a40aa54fb7b5.wav",
+      "rawSha256": "c6ed5be5a4d0234e95eae324f6d20b3adaaa1e6cba38cac320e42244b7a841a3",
+      "rawBytes": 403244,
+      "pcmSha256": "05fba8c0ecac902e60ef14b783aabfd141f4aa2ba02ff0208b40fdc408987d2e",
+      "actualSamples24k": 201600,
+      "actualDurationSeconds": 8.4,
+      "rawHeaderMatchesPayload": false,
+      "verifiedPcmOverflowRepair": true,
+      "secretsRecorded": false
+    },
+    {
+      "segmentId": "S06",
+      "cacheKey": "fa5eeddda5b433fcfb9a1cbd81a54ec351ca2672249cb3b6e57f54d04bd636db",
+      "status": "succeeded",
+      "reportedModels": [
+        "cosyvoice-v3-flash"
+      ],
+      "reportedVoices": [
+        "longtian_v3"
+      ],
+      "rawPath": "public/audio/raw/S06-fa5eeddda5b4.wav",
+      "rawSha256": "b7414732192d0e700bd5b820a40a385a5c423e6c71354fbd1d339418105487c6",
+      "rawBytes": 457004,
+      "pcmSha256": "bad6bcabe3737f7c9cb0b8cb929089b9bf9420915deab9710997b27fa2cdcc17",
+      "actualSamples24k": 228480,
+      "actualDurationSeconds": 9.52,
+      "rawHeaderMatchesPayload": false,
+      "verifiedPcmOverflowRepair": true,
+      "secretsRecorded": false
+    },
+    {
+      "segmentId": "S07",
+      "cacheKey": "aae67d84e35f6a2a1d5cb3223d0aff1e0cad43cc79da4e1ce58fda15c0937428",
+      "status": "succeeded",
+      "reportedModels": [
+        "cosyvoice-v3-flash"
+      ],
+      "reportedVoices": [
+        "longtian_v3"
+      ],
+      "rawPath": "public/audio/raw/S07-aae67d84e35f.wav",
+      "rawSha256": "fec2cb75c0e30378d786dfaba07e2c27e973eaad2d31314edc5536ea45697904",
+      "rawBytes": 560684,
+      "pcmSha256": "d3b11338ab934680897a25df152b66b828428a0f8362a8b06ca8b74828fad86e",
+      "actualSamples24k": 280320,
+      "actualDurationSeconds": 11.68,
+      "rawHeaderMatchesPayload": false,
+      "verifiedPcmOverflowRepair": true,
+      "secretsRecorded": false
+    },
+    {
+      "segmentId": "S08",
+      "cacheKey": "faffb0a762a583eae28ee8c17e3adb3ba6fa8f1cc4514d0cb0fe4746509e0cbd",
+      "status": "succeeded",
+      "reportedModels": [
+        "cosyvoice-v3-flash"
+      ],
+      "reportedVoices": [
+        "longtian_v3"
+      ],
+      "rawPath": "public/audio/raw/S08-faffb0a762a5.wav",
+      "rawSha256": "6455a8030564851feb034fd6cd8566b0153a3685e3388f03be6f0f124e6cb48a",
+      "rawBytes": 560684,
+      "pcmSha256": "cff381577e2182878e4dbf03797a077da22dfaea13ef69bb979c61f94d95ae20",
+      "actualSamples24k": 280320,
+      "actualDurationSeconds": 11.68,
+      "rawHeaderMatchesPayload": false,
+      "verifiedPcmOverflowRepair": true,
+      "secretsRecorded": false
+    },
+    {
+      "segmentId": "S09",
+      "cacheKey": "31aea52fd4602bd6000960de74cd573793e18830722caa672a62fd281de46692",
+      "status": "succeeded",
+      "reportedModels": [
+        "cosyvoice-v3-flash"
+      ],
+      "reportedVoices": [
+        "longtian_v3"
+      ],
+      "rawPath": "public/audio/raw/S09-31aea52fd460.wav",
+      "rawSha256": "5bfd49c827d8899187b08355e5fc86dfcc650f3bff2d27baa2967fbc088425e6",
+      "rawBytes": 518444,
+      "pcmSha256": "b61078a97686c6aabc4de4f2c99abe77e9da057b7b109a1bf18fa16fac54f2fc",
+      "actualSamples24k": 259200,
+      "actualDurationSeconds": 10.8,
+      "rawHeaderMatchesPayload": false,
+      "verifiedPcmOverflowRepair": true,
+      "secretsRecorded": false
+    }
+  ]
+}

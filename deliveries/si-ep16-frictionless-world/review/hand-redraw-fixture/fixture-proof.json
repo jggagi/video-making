@@ -1,0 +1,160 @@
+{
+  "status": "PASSED",
+  "filter": "[1:v]setpts=PTS+2/TB[p];[0:v][p]overlay=x=0:y=0:format=auto:eof_action=pass:repeatlast=0:enable='between(n,2,3)'[v]",
+  "frameRate": 1,
+  "frameSize": [
+    64,
+    64
+  ],
+  "baseRgb": [
+    [
+      20,
+      30,
+      40
+    ],
+    [
+      50,
+      60,
+      70
+    ],
+    [
+      80,
+      90,
+      100
+    ],
+    [
+      110,
+      120,
+      130
+    ],
+    [
+      140,
+      150,
+      160
+    ]
+  ],
+  "patchRgb": [
+    [
+      201,
+      11,
+      21
+    ],
+    [
+      31,
+      211,
+      41
+    ]
+  ],
+  "expectedRgb": [
+    [
+      20,
+      30,
+      40
+    ],
+    [
+      50,
+      60,
+      70
+    ],
+    [
+      201,
+      11,
+      21
+    ],
+    [
+      31,
+      211,
+      41
+    ],
+    [
+      140,
+      150,
+      160
+    ]
+  ],
+  "replacedOutputFrames": [
+    2,
+    3
+  ],
+  "unchangedOutputFrames": [
+    0,
+    1,
+    4
+  ],
+  "maxPerFrameRgbDelta": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "rgbTolerance": 3,
+  "baseFrame0Sha256": "5196225ace6a2ffe67b8fcc4910144e530bf2c8872212acb6d4e4391b668ed78",
+  "patchFrame0Sha256": "52f26595216586b980b53d4fb2419fbe1b033371b34a5c29c76a59691635af7c",
+  "baseFfv1Sha256": "6b0da10bcd34913d06843736be5f4d0921e1ee5ae31e0f90bf17d693cc6367c7",
+  "patchFfv1Sha256": "a08cf0d65bd7e99ed9d8d21384e699d844700e8854c7de1a6882b39dad3bb69f",
+  "compositeSha256": "e959e517830305f8233bd96fd099cd6d8e556048e9128d56495b39c78748291c",
+  "probes": {
+    "base": {
+      "file": "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep16-frictionless-world/review/hand-redraw-fixture/base.mkv",
+      "codec": "ffv1",
+      "width": 64,
+      "height": 64,
+      "pixelFormat": "bgr0",
+      "rFrameRate": "1/1",
+      "avgFrameRate": "1/1",
+      "durationSeconds": 5.0,
+      "frames": 5,
+      "colorRange": "pc",
+      "colorSpace": "gbr",
+      "colorTransfer": null,
+      "colorPrimaries": null,
+      "audioStreams": 0,
+      "allStreamTypes": [
+        "video"
+      ],
+      "sizeBytes": 1496
+    },
+    "patch": {
+      "file": "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep16-frictionless-world/review/hand-redraw-fixture/patch.mkv",
+      "codec": "ffv1",
+      "width": 64,
+      "height": 64,
+      "pixelFormat": "bgr0",
+      "rFrameRate": "1000/1",
+      "avgFrameRate": "1/1",
+      "durationSeconds": 2.0,
+      "frames": 2,
+      "colorRange": "pc",
+      "colorSpace": "gbr",
+      "colorTransfer": null,
+      "colorPrimaries": null,
+      "audioStreams": 0,
+      "allStreamTypes": [
+        "video"
+      ],
+      "sizeBytes": 980
+    },
+    "composite": {
+      "file": "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep16-frictionless-world/review/hand-redraw-fixture/fixture-composite.mkv",
+      "codec": "ffv1",
+      "width": 64,
+      "height": 64,
+      "pixelFormat": "bgr0",
+      "rFrameRate": "1/1",
+      "avgFrameRate": "1/1",
+      "durationSeconds": 5.0,
+      "frames": 5,
+      "colorRange": "pc",
+      "colorSpace": "gbr",
+      "colorTransfer": null,
+      "colorPrimaries": null,
+      "audioStreams": 0,
+      "allStreamTypes": [
+        "video"
+      ],
+      "sizeBytes": 1496
+    }
+  },
+  "ffmpegVersion": "ffmpeg version 8.0.1 Copyright (c) 2000-2025 the FFmpeg developers"
+}

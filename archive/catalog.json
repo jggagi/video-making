@@ -4703,6 +4703,111 @@
           "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep14-ghost-in-posterior-bb31a8702522/si-ep14-ghost-in-posterior--deliveries--si-ep14-ghost-in-posterior-----si-ep14-ghost-in-posterior-xiaohongshu-90s-portrait--d56c8394eb08.mp4"
         }
       ]
+    },
+    {
+      "id": "si-ep16-frictionless-world",
+      "title": "零摩擦人间",
+      "release_tag": "film-si-ep16-frictionless-world-c78c4835aa0e",
+      "historical": false,
+      "duration_seconds": 120,
+      "project_path": "deliveries/si-ep16-frictionless-world/project",
+      "delivery_directory": "deliveries/si-ep16-frictionless-world",
+      "final_output_paths": {
+        "小红书": "deliveries/si-ep16-frictionless-world/小红书/si-ep16-frictionless-world-xiaohongshu-120s-portrait.mp4"
+      },
+      "final_output_dimensions": {
+        "小红书": [
+          2160,
+          3840
+        ]
+      },
+      "assets": [
+        {
+          "path": "deliveries/si-ep16-frictionless-world/review/candidate-01-rejected/original-video-only.mp4",
+          "name": "si-ep16-frictionless-world--deliveries--si-ep16-frictionless-world--review--candidate-01-rejected--original-video-only--ffd86279fabc.mp4",
+          "bytes": 18984569,
+          "sha256": "ffd86279fabcd0f96ec27dc2b77d41dcb475d4c434d66556dcae69087543f841",
+          "kind": "video",
+          "platform": "预览",
+          "measurements": {
+            "width": 2160,
+            "height": 3840,
+            "fps": "60/1",
+            "frames": "7200",
+            "video_duration_seconds": 120.0,
+            "container_duration_seconds": 120.0
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep16-frictionless-world-c78c4835aa0e/si-ep16-frictionless-world--deliveries--si-ep16-frictionless-world--review--candidate-01-rejected--original-video-only--ffd86279fabc.mp4"
+        },
+        {
+          "path": "deliveries/si-ep16-frictionless-world/review/candidate-02-rejected/before-tile-repair.mp4",
+          "name": "si-ep16-frictionless-world--deliveries--si-ep16-frictionless-world--review--candidate-02-rejected--before-tile-repair--1544f3b2cd1a.mp4",
+          "bytes": 26999901,
+          "sha256": "1544f3b2cd1a4e9ea2f37d3b8d8db4cf48deabb33eb5d52dc93602f01897d387",
+          "kind": "video",
+          "platform": "预览",
+          "measurements": {
+            "width": 2160,
+            "height": 3840,
+            "fps": "60/1",
+            "frames": "7200",
+            "video_duration_seconds": 120.0,
+            "container_duration_seconds": 120.0
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep16-frictionless-world-c78c4835aa0e/si-ep16-frictionless-world--deliveries--si-ep16-frictionless-world--review--candidate-02-rejected--before-tile-repair--1544f3b2cd1a.mp4"
+        },
+        {
+          "path": "deliveries/si-ep16-frictionless-world/review/motion-6300-6479.mp4",
+          "name": "si-ep16-frictionless-world--deliveries--si-ep16-frictionless-world--review--motion-6300-6479--443000674819.mp4",
+          "bytes": 513194,
+          "sha256": "4430006748194435571fa8a7d5e981a1779cefc2cf3de98f74b15232e0efcf87",
+          "kind": "video",
+          "platform": "预览",
+          "measurements": {
+            "width": 2160,
+            "height": 3840,
+            "fps": "60/1",
+            "frames": "180",
+            "video_duration_seconds": 3.0,
+            "container_duration_seconds": 3.008
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep16-frictionless-world-c78c4835aa0e/si-ep16-frictionless-world--deliveries--si-ep16-frictionless-world--review--motion-6300-6479--443000674819.mp4"
+        },
+        {
+          "path": "deliveries/si-ep16-frictionless-world/review/tile-repair-fixture/repaired-fixture.mp4",
+          "name": "si-ep16-frictionless-world--deliveries--si-ep16-frictionless-world--review--tile-repair-fixture--repaired-fixture--07a9227ccfcd.mp4",
+          "bytes": 1727,
+          "sha256": "07a9227ccfcd0d613535f8ee54d109f304570070366b09d23945de6bdb45ff0e",
+          "kind": "video",
+          "platform": "预览",
+          "measurements": {
+            "width": 64,
+            "height": 64,
+            "fps": "60/1",
+            "frames": "5",
+            "video_duration_seconds": 0.083333,
+            "container_duration_seconds": 0.083333
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep16-frictionless-world-c78c4835aa0e/si-ep16-frictionless-world--deliveries--si-ep16-frictionless-world--review--tile-repair-fixture--repaired-fixture--07a9227ccfcd.mp4"
+        },
+        {
+          "path": "deliveries/si-ep16-frictionless-world/小红书/si-ep16-frictionless-world-xiaohongshu-120s-portrait.mp4",
+          "name": "si-ep16-frictionless-world--deliveries--si-ep16-frictionless-world-----si-ep16-frictionless-world-xiaohongshu-120s-portrait--299b91acdaba.mp4",
+          "bytes": 25653992,
+          "sha256": "299b91acdabaed526c027f8268a350cfa4e0832a2dc16a925d7ed4176cecd690",
+          "kind": "video",
+          "platform": "小红书",
+          "measurements": {
+            "width": 2160,
+            "height": 3840,
+            "fps": "60/1",
+            "frames": "7200",
+            "video_duration_seconds": 120.0,
+            "container_duration_seconds": 120.0
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep16-frictionless-world-c78c4835aa0e/si-ep16-frictionless-world--deliveries--si-ep16-frictionless-world-----si-ep16-frictionless-world-xiaohongshu-120s-portrait--299b91acdaba.mp4"
+        }
+      ]
     }
   ]
 }

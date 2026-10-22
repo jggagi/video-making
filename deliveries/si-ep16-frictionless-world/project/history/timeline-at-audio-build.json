@@ -1,0 +1,70 @@
+{
+  "duration_seconds": 120,
+  "fps": 60,
+  "total_frames": 7200,
+  "sample_rate": 48000,
+  "samples_per_channel": 5760000,
+  "scenes": [
+    {
+      "id": "S01",
+      "startFrame": 0,
+      "endFrame": 720,
+      "name": "停尸房"
+    },
+    {
+      "id": "S02",
+      "startFrame": 720,
+      "endFrame": 1500,
+      "name": "精确幸福"
+    },
+    {
+      "id": "S03",
+      "startFrame": 1500,
+      "endFrame": 2280,
+      "name": "落不下的眼泪"
+    },
+    {
+      "id": "S04",
+      "startFrame": 2280,
+      "endFrame": 3060,
+      "name": "温柔驳回"
+    },
+    {
+      "id": "S05",
+      "startFrame": 3060,
+      "endFrame": 3900,
+      "name": "试错被取消"
+    },
+    {
+      "id": "S06",
+      "startFrame": 3900,
+      "endFrame": 4740,
+      "name": "最优与禁令"
+    },
+    {
+      "id": "S07",
+      "startFrame": 4740,
+      "endFrame": 5580,
+      "name": "按住钟摆"
+    },
+    {
+      "id": "S08",
+      "startFrame": 5580,
+      "endFrame": 6330,
+      "name": "第一次说是"
+    },
+    {
+      "id": "S09",
+      "startFrame": 6330,
+      "endFrame": 7200,
+      "name": "第一圈涟漪"
+    }
+  ],
+  "landmarks": {
+    "tearSuspendedFrame": 1530,
+    "handReleaseFrame": 6300,
+    "dropImpactFrame": 6360,
+    "ripplesFrame": 6420
+  },
+  "captions": "audio-timing.json uses measured PCM activity and estimated phrase weights"
+}

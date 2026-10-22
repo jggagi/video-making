@@ -1,0 +1,20 @@
+{
+  "path": "小红书/cover-A-headline.png",
+  "sha256": "fd181841bfcc59d41b2d61fe36834f6754690577da35619ed49672b99d4e7697",
+  "dimensions": [
+    2160,
+    3840
+  ],
+  "source": "Editable Film cover branch at absolute frame1800, matching final film suspended-tear scene; separate headline placement for crop safety",
+  "underlying_scene_frame": 1800,
+  "visible_hook": "当世界完美到没人再哭，为什么像停尸房？",
+  "all_main_headlines_within_logical_y": [
+    315,
+    1431
+  ],
+  "center_3_4_crop_vertical_range_logical": [
+    240,
+    1680
+  ],
+  "model_native_cover_review": "PASS; headline, eye, tear, question and work title legible, no overlap. Platform preview still required."
+}

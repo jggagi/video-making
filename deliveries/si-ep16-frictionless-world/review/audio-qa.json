@@ -1,0 +1,368 @@
+{
+  "version": 1,
+  "episode": "EP16",
+  "status": "MEASURED_PCM_QA",
+  "source": {
+    "segmentsSha256": "51fdcc90b1fd84c8ead2ae2dd6e424d0824ecb0ff395df37cb3af64c9e6d2188",
+    "timelineSha256": "d97c2f952b5ff33104aeecb1338bc13da91c7ed3f7550fd1f3afbe2e75446b47",
+    "authorizationSha256": "4781e56c458a5101496e6aee0f7266906ae9d83a6a4ab19bfc852746f190031a",
+    "providerManifestSha256": "dabc3d5196707fa848f43e9056651cf52b84a52d14bad21a994470c1bf61a813",
+    "providerPreflightSha256": "304fc4ed36b45e7a6d6b2bbbc0fa20662b8157c76fd202ee806eff280d30ba7b",
+    "environmentPreflightSha256": "5f9b646dab9e601e552c2a789e0366a5442402f31c30284ace01eb968a99a577",
+    "mixSettingsSha256": "cbd88cbbbfc016f4aaa433d65a1477114c61628669ae7209489b60947b26b841",
+    "timelineAtAudioBuildPath": "project/history/timeline-at-audio-build.json",
+    "timelineAtAudioBuildSha256": "7184e0ece394a9b9a22c94e4a12d4a94feb215d91025b10fdcaca57f3e37bb4c"
+  },
+  "provider": {
+    "provider": "Aliyun Bailian",
+    "modelSelection": "active profile default",
+    "effectiveModel": "cosyvoice-v3-flash",
+    "voice": "longtian_v3",
+    "rate": 1.0,
+    "sampleRateHz": 24000,
+    "callsRecorded": 9,
+    "allIdentitiesMatched": true
+  },
+  "speech": {
+    "allNineCuesCompleteAndUntrimmed": true,
+    "placement": "Each complete cue begins at its declared startFrame.",
+    "allSpeechFitsDeclaredAndNextActiveRanges": true,
+    "sampleRateHz": 48000,
+    "rate": 1.0,
+    "activeRanges": [
+      {
+        "id": "S01",
+        "startSample": 20523,
+        "endSampleExclusive": 460051
+      },
+      {
+        "id": "S02",
+        "startSample": 609834,
+        "endSampleExclusive": 1074574
+      },
+      {
+        "id": "S03",
+        "startSample": 1233572,
+        "endSampleExclusive": 1678892
+      },
+      {
+        "id": "S04",
+        "startSample": 1857620,
+        "endSampleExclusive": 2300771
+      },
+      {
+        "id": "S05",
+        "startSample": 2481659,
+        "endSampleExclusive": 2863599
+      },
+      {
+        "id": "S06",
+        "startSample": 3153658,
+        "endSampleExclusive": 3591548
+      },
+      {
+        "id": "S07",
+        "startSample": 3826923,
+        "endSampleExclusive": 4367124
+      },
+      {
+        "id": "S08",
+        "startSample": 4498139,
+        "endSampleExclusive": 5037811
+      },
+      {
+        "id": "S09",
+        "startSample": 5097476,
+        "endSampleExclusive": 5602549
+      }
+    ]
+  },
+  "stems": {
+    "narration.wav": {
+      "file": "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep16-frictionless-world/project/public/audio/narration.wav",
+      "sha256": "fdca32af04c1dda4968a336f60c233ea73519b32b5e5e920620149c9f16d314c",
+      "pcmSha256": "638ade891cd756aab874ff3cd68292f4a43e75f25fd14f77f67ef029274f370e",
+      "sizeBytes": 23040044,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleWidthBytes": 2,
+      "samplesPerChannel": 5760000,
+      "durationSeconds": 120,
+      "samplePeakPcm16": 19382,
+      "terminalSamplePeakPcm16": 0,
+      "final150msPeakPcm16": 0
+    },
+    "score.wav": {
+      "file": "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep16-frictionless-world/project/public/audio/score.wav",
+      "sha256": "3840776d8d2f2c35a3028dcf09e1c470bd5a63dda02f65b118a9e4977f8cb612",
+      "pcmSha256": "e7665b47fe8baea13222c79c6cb709990821fc9944bd1472feab43572f687b3c",
+      "sizeBytes": 23040044,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleWidthBytes": 2,
+      "samplesPerChannel": 5760000,
+      "durationSeconds": 120,
+      "samplePeakPcm16": 427,
+      "terminalSamplePeakPcm16": 0,
+      "final150msPeakPcm16": 0
+    },
+    "sfx.wav": {
+      "file": "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep16-frictionless-world/project/public/audio/sfx.wav",
+      "sha256": "b6d1d3cfc5ec609b0bd929bc242580b31019c08a5e89eb57e89b21fd64baf15c",
+      "pcmSha256": "85b9fac6707e6d2dd18f927eec081481b655a29244ef7e614927511f018be842",
+      "sizeBytes": 23040044,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleWidthBytes": 2,
+      "samplesPerChannel": 5760000,
+      "durationSeconds": 120,
+      "samplePeakPcm16": 6577,
+      "terminalSamplePeakPcm16": 0,
+      "final150msPeakPcm16": 0
+    }
+  },
+  "master": {
+    "file": "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep16-frictionless-world/project/public/audio/master.wav",
+    "sha256": "e363df87a52370d97da99e5e4825f6c11f76976875072d845eba9da1b155ef2d",
+    "pcmSha256": "ddb4a93902f7dea67aa76a33cfc3dea9b50f89212dea4493e7f5991a655c63c7",
+    "sizeBytes": 23040044,
+    "sampleRate": 48000,
+    "channels": 2,
+    "sampleWidthBytes": 2,
+    "samplesPerChannel": 5760000,
+    "durationSeconds": 120,
+    "samplePeakPcm16": 27891,
+    "terminalSamplePeakPcm16": 0,
+    "final150msPeakPcm16": 0,
+    "loudness": {
+      "integratedLUFS": -16.0,
+      "truePeakDBTP": -1.4
+    },
+    "limiter": {
+      "oversampleFactor": 4,
+      "processingSampleRate": 192000,
+      "ceilingDBTP": -1.5,
+      "limitAmplitude": 0.8413951416451951,
+      "explicitlyApplied": true
+    }
+  },
+  "soundDesign": {
+    "score": {
+      "kind": "procedural_clinical_drone_and_rigid_soft_clicks",
+      "startSample": 0,
+      "endSampleExclusive": 4464000,
+      "endSeconds": 93.0,
+      "droneComponentsHz": [
+        47.0,
+        94.0,
+        311.0
+      ],
+      "clickCount": 58,
+      "clickPeriodSeconds": 1.6,
+      "clickStartSamples": [
+        38400,
+        115200,
+        192000,
+        268800,
+        345600,
+        422400,
+        499200,
+        576000,
+        652800,
+        729600,
+        806400,
+        883200,
+        960000,
+        1036800,
+        1113600,
+        1190400,
+        1267200,
+        1344000,
+        1420800,
+        1497600,
+        1574400,
+        1651200,
+        1728000,
+        1804800,
+        1881600,
+        1958400,
+        2035200,
+        2112000,
+        2188800,
+        2265600,
+        2342400,
+        2419200,
+        2496000,
+        2572800,
+        2649600,
+        2726400,
+        2803200,
+        2880000,
+        2956800,
+        3033600,
+        3110400,
+        3187200,
+        3264000,
+        3340800,
+        3417600,
+        3494400,
+        3571200,
+        3648000,
+        3724800,
+        3801600,
+        3878400,
+        3955200,
+        4032000,
+        4108800,
+        4185600,
+        4262400,
+        4339200,
+        4416000
+      ],
+      "speechDuckDB": -3.0,
+      "suspension": {
+        "scoreAndSfxAbsentFromSeconds": 93.0,
+        "toDropFrame": 6401,
+        "choiceWindowSeconds": [
+          103.0,
+          105.0
+        ]
+      }
+    },
+    "sfx": {
+      "eventId": "single-original-water-drop",
+      "kind": "procedural_water_drop_with_airy_tail",
+      "startFrame": 6401,
+      "startSample": 5120800,
+      "startSeconds": 106.68333333333334,
+      "impactCount": 1,
+      "tailEndSampleExclusive": 5750400,
+      "tailEndSeconds": 119.8,
+      "terminalFadeSeconds": 0.45,
+      "deterministicSeed": "si-ep16-water-drop-air-tail-v1"
+    },
+    "speechDuckDB": -3.0,
+    "proceduralDeterministic": true
+  },
+  "captions": {
+    "srt": "小红书/captions.srt",
+    "timing": "project/audio-timing.json",
+    "timingQuality": "approximate_character_weighted",
+    "asrUsed": false,
+    "allSourceDisplayTextPreserved": true,
+    "maxLines": 2,
+    "maxCharactersPerLine": 13
+  },
+  "humanListening": {
+    "status": "NOT_RUN",
+    "claim": "No human listening review was performed by this build."
+  },
+  "scratch": {
+    "volume": "AgentDev APFS",
+    "temporaryFilesRemovedAfterSuccessfulPublication": true
+  },
+  "outputs": {
+    "narration.wav": {
+      "file": "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep16-frictionless-world/project/public/audio/narration.wav",
+      "sha256": "fdca32af04c1dda4968a336f60c233ea73519b32b5e5e920620149c9f16d314c",
+      "pcmSha256": "638ade891cd756aab874ff3cd68292f4a43e75f25fd14f77f67ef029274f370e",
+      "sizeBytes": 23040044,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleWidthBytes": 2,
+      "samplesPerChannel": 5760000,
+      "durationSeconds": 120,
+      "samplePeakPcm16": 19382,
+      "terminalSamplePeakPcm16": 0,
+      "final150msPeakPcm16": 0
+    },
+    "score.wav": {
+      "file": "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep16-frictionless-world/project/public/audio/score.wav",
+      "sha256": "3840776d8d2f2c35a3028dcf09e1c470bd5a63dda02f65b118a9e4977f8cb612",
+      "pcmSha256": "e7665b47fe8baea13222c79c6cb709990821fc9944bd1472feab43572f687b3c",
+      "sizeBytes": 23040044,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleWidthBytes": 2,
+      "samplesPerChannel": 5760000,
+      "durationSeconds": 120,
+      "samplePeakPcm16": 427,
+      "terminalSamplePeakPcm16": 0,
+      "final150msPeakPcm16": 0
+    },
+    "sfx.wav": {
+      "file": "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep16-frictionless-world/project/public/audio/sfx.wav",
+      "sha256": "b6d1d3cfc5ec609b0bd929bc242580b31019c08a5e89eb57e89b21fd64baf15c",
+      "pcmSha256": "85b9fac6707e6d2dd18f927eec081481b655a29244ef7e614927511f018be842",
+      "sizeBytes": 23040044,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleWidthBytes": 2,
+      "samplesPerChannel": 5760000,
+      "durationSeconds": 120,
+      "samplePeakPcm16": 6577,
+      "terminalSamplePeakPcm16": 0,
+      "final150msPeakPcm16": 0
+    },
+    "master.wav": {
+      "file": "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep16-frictionless-world/project/public/audio/master.wav",
+      "sha256": "e363df87a52370d97da99e5e4825f6c11f76976875072d845eba9da1b155ef2d",
+      "pcmSha256": "ddb4a93902f7dea67aa76a33cfc3dea9b50f89212dea4493e7f5991a655c63c7",
+      "sizeBytes": 23040044,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleWidthBytes": 2,
+      "samplesPerChannel": 5760000,
+      "durationSeconds": 120,
+      "samplePeakPcm16": 27891,
+      "terminalSamplePeakPcm16": 0,
+      "final150msPeakPcm16": 0
+    }
+  },
+  "premix": {
+    "file": "/Volumes/AgentDev/Scratch/tmp/si-ep16-audio-mgof9prx/premix.wav",
+    "sha256": "66d15be1a75f2d5b3b97eca8dd33f0770b7a49e075642e207b669070a123f424",
+    "pcmSha256": "b31b585aa033680968dd56944f221e840ca2e218cbee32d63bdb70d1b8e36dff",
+    "sizeBytes": 23040044,
+    "sampleRate": 48000,
+    "channels": 2,
+    "sampleWidthBytes": 2,
+    "samplesPerChannel": 5760000,
+    "durationSeconds": 120,
+    "samplePeakPcm16": 19264,
+    "terminalSamplePeakPcm16": 0,
+    "final150msPeakPcm16": 0
+  },
+  "scratchPublication": {
+    "narration.wav": {
+      "path": "public/audio/narration.wav",
+      "sha256": "fdca32af04c1dda4968a336f60c233ea73519b32b5e5e920620149c9f16d314c",
+      "status": "published from verified AgentDev scratch"
+    },
+    "score.wav": {
+      "path": "public/audio/score.wav",
+      "sha256": "3840776d8d2f2c35a3028dcf09e1c470bd5a63dda02f65b118a9e4977f8cb612",
+      "status": "published from verified AgentDev scratch"
+    },
+    "sfx.wav": {
+      "path": "public/audio/sfx.wav",
+      "sha256": "b6d1d3cfc5ec609b0bd929bc242580b31019c08a5e89eb57e89b21fd64baf15c",
+      "status": "published from verified AgentDev scratch"
+    },
+    "master.wav": {
+      "path": "public/audio/master.wav",
+      "sha256": "e363df87a52370d97da99e5e4825f6c11f76976875072d845eba9da1b155ef2d",
+      "status": "published from verified AgentDev scratch"
+    }
+  },
+  "postBuildMetadataCorrections": [
+    {
+      "field": "project/timeline.json landmarks.dropImpactFrame",
+      "before": 6360,
+      "after": 6401,
+      "reason": "6360 marks release; exact SFX was already built at6401 matching visible contact",
+      "audioChanged": false,
+      "originalTimelineRetained": "project/history/timeline-at-audio-build.json"
+    }
+  ]
+}

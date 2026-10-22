@@ -1,0 +1,152 @@
+{
+  "status": "READY",
+  "method": "Two-input full-frame patch overlay; no fps conversion; full stream re-encoded, so non-patch pixels are not claimed bit-identical.",
+  "range": {
+    "startFrameInclusive": 5580,
+    "endFrameInclusive": 6359,
+    "frameCount": 780,
+    "seconds": [
+      93.0,
+      106.0
+    ]
+  },
+  "filterComplex": "[1:v]setpts=PTS+93/TB[p];[0:v][p]overlay=x=0:y=0:format=auto:eof_action=pass:repeatlast=0:enable='between(n,5580,6359)'[v]",
+  "encoding": {
+    "codec": "libx264",
+    "crf": 15,
+    "preset": "fast",
+    "pixelFormat": "yuv420p",
+    "colorRange": "tv",
+    "colorSpace": "bt709",
+    "colorTransfer": "bt709",
+    "colorPrimaries": "bt709",
+    "threads": 4,
+    "filterComplexThreads": 2,
+    "fpsConversion": false,
+    "audio": "none"
+  },
+  "original": {
+    "path": "/Volumes/AgentDev/Scratch/tmp/si-ep16-native-0mY5t1/video-only.mp4",
+    "sha256": "ffd86279fabcd0f96ec27dc2b77d41dcb475d4c434d66556dcae69087543f841",
+    "bytes": 18984569,
+    "probe": {
+      "file": "/Volumes/AgentDev/Scratch/tmp/si-ep16-native-0mY5t1/video-only.mp4",
+      "codec": "h264",
+      "width": 2160,
+      "height": 3840,
+      "pixelFormat": "yuv420p",
+      "rFrameRate": "60/1",
+      "avgFrameRate": "60/1",
+      "durationSeconds": 120.0,
+      "frames": 7200,
+      "colorRange": "tv",
+      "colorSpace": "bt709",
+      "colorTransfer": "bt709",
+      "colorPrimaries": "bt709",
+      "audioStreams": 0,
+      "allStreamTypes": [
+        "video"
+      ],
+      "sizeBytes": 18984569
+    }
+  },
+  "patch": {
+    "path": "/Volumes/AgentDev/Scratch/tmp/si-ep16-native-ish5bU/video-only.mp4",
+    "sha256": "7aec53b2cbd67cd7609c0f9809c73784f3f4d2ff83460e8c8ac1f979753ef04a",
+    "bytes": 1858932,
+    "range": [
+      5580,
+      6359
+    ],
+    "probe": {
+      "file": "/Volumes/AgentDev/Scratch/tmp/si-ep16-native-ish5bU/video-only.mp4",
+      "codec": "h264",
+      "width": 2160,
+      "height": 3840,
+      "pixelFormat": "yuv420p",
+      "rFrameRate": "60/1",
+      "avgFrameRate": "60/1",
+      "durationSeconds": 13.0,
+      "frames": 780,
+      "colorRange": "tv",
+      "colorSpace": "bt709",
+      "colorTransfer": "bt709",
+      "colorPrimaries": "bt709",
+      "audioStreams": 0,
+      "allStreamTypes": [
+        "video"
+      ],
+      "sizeBytes": 1858932
+    }
+  },
+  "composite": {
+    "path": "/Volumes/AgentDev/Scratch/tmp/si-ep16-hand-composite-l1nm3bru/video-only.mp4",
+    "sha256": "460cef17591e0e22fe673e4d25937a702831fbc92b8a614ab573bdd6e4a18dcc",
+    "bytes": 22908366,
+    "probe": {
+      "file": "/Volumes/AgentDev/Scratch/tmp/si-ep16-hand-composite-l1nm3bru/video-only.mp4",
+      "codec": "h264",
+      "width": 2160,
+      "height": 3840,
+      "pixelFormat": "yuv420p",
+      "rFrameRate": "60/1",
+      "avgFrameRate": "60/1",
+      "durationSeconds": 120.0,
+      "frames": 7200,
+      "colorRange": "tv",
+      "colorSpace": "bt709",
+      "colorTransfer": "bt709",
+      "colorPrimaries": "bt709",
+      "audioStreams": 0,
+      "allStreamTypes": [
+        "video"
+      ],
+      "sizeBytes": 22908366
+    },
+    "strictDecode": "passed"
+  },
+  "candidate01Rejected": {
+    "video": {
+      "path": "review/candidate-01-rejected/original-video-only.mp4",
+      "sha256": "ffd86279fabcd0f96ec27dc2b77d41dcb475d4c434d66556dcae69087543f841",
+      "bytes": 18984569,
+      "copyMethod": "APFS clone via cp -c"
+    },
+    "oldRenderPointer": {
+      "path": "review/candidate-01-rejected/original-render-staging.json",
+      "sha256": "366d9017de0d62cf1dc88250a86992051968abbef2424c0239baacb0711f89dd",
+      "bytes": 545
+    }
+  },
+  "fixture": {
+    "proofPath": "review/hand-redraw-fixture/fixture-proof.json",
+    "status": "PASSED",
+    "sha256": "e959e517830305f8233bd96fd099cd6d8e556048e9128d56495b39c78748291c",
+    "replacedOutputFrames": [
+      2,
+      3
+    ],
+    "unchangedOutputFrames": [
+      0,
+      1,
+      4
+    ],
+    "maxPerFrameRgbDelta": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rgbTolerance": 3
+  },
+  "sourceGeometrySha256": "00c88ebfb93c20862bb0b4b92314b64a4744490ea1f6150bf43fbf74ac220812",
+  "audioMaster": {
+    "path": "public/audio/master.wav",
+    "sha256Before": "e363df87a52370d97da99e5e4825f6c11f76976875072d845eba9da1b155ef2d",
+    "sha256After": "e363df87a52370d97da99e5e4825f6c11f76976875072d845eba9da1b155ef2d",
+    "matchesOriginalRenderProvenance": true
+  },
+  "provenanceSha256": "7da9e4aa38a60ca69272ed939112bffd4b37e72fb2934f94792ab22e40e10018",
+  "stagingDirectoryRetained": "/Volumes/AgentDev/Scratch/tmp/si-ep16-hand-composite-l1nm3bru"
+}

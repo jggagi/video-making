@@ -1,0 +1,204 @@
+{
+  "status": "PASS",
+  "frames": [
+    {
+      "frame": 2414,
+      "sha256": "90cb806e05b02945eccbd6a845af6e397d85ffb08f10d103354585e17a005ae7",
+      "blank_counts": {
+        "right_blank_gutter": 0,
+        "top_blank_gap": 0,
+        "bottom_blank_margin": 0
+      }
+    },
+    {
+      "frame": 2996,
+      "sha256": "3e96525dae3ddc2aa6122321965f55ed8812f5faba5ab30fb7c40a113a6b24d4",
+      "blank_counts": {
+        "right_blank_gutter": 0,
+        "top_blank_gap": 0,
+        "bottom_blank_margin": 0
+      }
+    },
+    {
+      "frame": 3812,
+      "sha256": "3758e5a6d16e9462202a48d72d505b94e88db13355a0e006ad575bbec9960d60",
+      "blank_counts": {
+        "right_blank_gutter": 0,
+        "top_blank_gap": 0,
+        "bottom_blank_margin": 0
+      }
+    },
+    {
+      "frame": 5350,
+      "sha256": "e2b6444e3e30593feff4d1ec4052bd5f552f59016c37d388235172f53bd711da",
+      "blank_counts": {
+        "right_blank_gutter": 0,
+        "top_blank_gap": 0,
+        "bottom_blank_margin": 0
+      }
+    },
+    {
+      "frame": 5386,
+      "sha256": "3554c7f1e65f3ee500e78276d9ff31b2100ed824ce41830b5d08a38c5a8c478b",
+      "blank_counts": {
+        "right_blank_gutter": 0,
+        "top_blank_gap": 0,
+        "bottom_blank_margin": 0
+      }
+    },
+    {
+      "frame": 5399,
+      "sha256": "a12e545ddeedfa75aa6c70743460e66b81ecb628b558c1b05340ffa922b610d9",
+      "blank_counts": {
+        "right_blank_gutter": 0,
+        "top_blank_gap": 0,
+        "bottom_blank_margin": 0
+      }
+    },
+    {
+      "frame": 5459,
+      "sha256": "6c923ad65fae62a35db312a40ffde00d01ac92cce49b42e6a1df470e3eb63084",
+      "blank_counts": {
+        "right_blank_gutter": 0,
+        "top_blank_gap": 0,
+        "bottom_blank_margin": 0
+      }
+    },
+    {
+      "frame": 5466,
+      "sha256": "41bc6a293b81a21b07ccb0459d473257a78ccb0b5c5fe01b690d52403eb90411",
+      "blank_counts": {
+        "right_blank_gutter": 0,
+        "top_blank_gap": 0,
+        "bottom_blank_margin": 0
+      }
+    },
+    {
+      "frame": 5480,
+      "sha256": "05a8560fb4232cf3741940898f814f2274b2a9bfc0f7603ffe8cab00345a9671",
+      "blank_counts": {
+        "right_blank_gutter": 0,
+        "top_blank_gap": 0,
+        "bottom_blank_margin": 0
+      }
+    },
+    {
+      "frame": 5526,
+      "sha256": "3c61f929bba55efc019aea7aabd7666f655abe64fc03e884837110eb78e72b42",
+      "blank_counts": {
+        "right_blank_gutter": 0,
+        "top_blank_gap": 0,
+        "bottom_blank_margin": 0
+      }
+    },
+    {
+      "frame": 5537,
+      "sha256": "c0b63839cf48d7468dcf7317daf64d21d42ae346f94ed696b7adf8d3a7c87e5a",
+      "blank_counts": {
+        "right_blank_gutter": 0,
+        "top_blank_gap": 0,
+        "bottom_blank_margin": 0
+      }
+    },
+    {
+      "frame": 5785,
+      "sha256": "a84570c46d58fe1ff7c6276842dd7a7a04ca61aaa1077b42adb14976b58bb3af",
+      "blank_counts": {
+        "right_blank_gutter": 0,
+        "top_blank_gap": 0,
+        "bottom_blank_margin": 0
+      }
+    },
+    {
+      "frame": 5793,
+      "sha256": "06b30befef74c9bc5e62c7c6a9d989dafff9adbb78d2311738ab77eac3ea47ae",
+      "blank_counts": {
+        "right_blank_gutter": 0,
+        "top_blank_gap": 0,
+        "bottom_blank_margin": 0
+      }
+    },
+    {
+      "frame": 5801,
+      "sha256": "286bef66843ae1f5bf2815791a21e901d15b0d4d8e6cbe4ede282cfd08088cce",
+      "blank_counts": {
+        "right_blank_gutter": 0,
+        "top_blank_gap": 0,
+        "bottom_blank_margin": 0
+      }
+    },
+    {
+      "frame": 5824,
+      "sha256": "72be6db389b6a01094cfc208c2d214a8a540f700783f678ea4def27c5ebaeedb",
+      "blank_counts": {
+        "right_blank_gutter": 0,
+        "top_blank_gap": 0,
+        "bottom_blank_margin": 0
+      }
+    },
+    {
+      "frame": 6391,
+      "sha256": "22e0009918496eef67bf441aafa01a1f8b245fab082a428800e5e0b07fb70941",
+      "blank_counts": {
+        "right_blank_gutter": 0,
+        "top_blank_gap": 0,
+        "bottom_blank_margin": 0
+      }
+    },
+    {
+      "frame": 6411,
+      "sha256": "002bab124203bbbe309705d443fe89ecaf55f62ba25350868afd14b084a1cadd",
+      "blank_counts": {
+        "right_blank_gutter": 0,
+        "top_blank_gap": 0,
+        "bottom_blank_margin": 0
+      }
+    },
+    {
+      "frame": 6420,
+      "sha256": "8591941f1e370cdbeb881445455a62a4fbd925ff427fca985775d27d66ecfbcd",
+      "blank_counts": {
+        "right_blank_gutter": 0,
+        "top_blank_gap": 0,
+        "bottom_blank_margin": 0
+      }
+    },
+    {
+      "frame": 6428,
+      "sha256": "eaac9d744e171ad6097e99632e5b93016b1d635fdfb124392f37cd1fb7c61051",
+      "blank_counts": {
+        "right_blank_gutter": 0,
+        "top_blank_gap": 0,
+        "bottom_blank_margin": 0
+      }
+    },
+    {
+      "frame": 6430,
+      "sha256": "be582d43f2e46800e0132b31b1ca7537f60c1b292d0fc9be8c2e11cb870863b8",
+      "blank_counts": {
+        "right_blank_gutter": 0,
+        "top_blank_gap": 0,
+        "bottom_blank_margin": 0
+      }
+    },
+    {
+      "frame": 6432,
+      "sha256": "420f4bef439698f4d011eaf2d5cf9030e34f45875c5b87da00618d3b3d44d0b5",
+      "blank_counts": {
+        "right_blank_gutter": 0,
+        "top_blank_gap": 0,
+        "bottom_blank_margin": 0
+      }
+    },
+    {
+      "frame": 6471,
+      "sha256": "31e95ff3d56223f1bf0e2cf8aa07991639a2cebcf42df4db49ae1865656909d0",
+      "blank_counts": {
+        "right_blank_gutter": 0,
+        "top_blank_gap": 0,
+        "bottom_blank_margin": 0
+      }
+    }
+  ],
+  "scope": "Native same-frame redraws pass all authored blank-gutter regions; model visual review follows."
+}

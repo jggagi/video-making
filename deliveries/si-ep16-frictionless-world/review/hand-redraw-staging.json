@@ -1,0 +1,19 @@
+{
+  "status": "READY",
+  "file": "/Volumes/AgentDev/Scratch/tmp/si-ep16-native-ish5bU/video-only.mp4",
+  "sha256": "7aec53b2cbd67cd7609c0f9809c73784f3f4d2ff83460e8c8ac1f979753ef04a",
+  "bytes": 1858932,
+  "capture": {
+    "remotion": "4.0.534",
+    "chrome": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+    "imageFormat": "png",
+    "concurrency": 2,
+    "nativeWidth": 2160,
+    "nativeHeight": 3840
+  },
+  "absoluteRange": [
+    5580,
+    6359
+  ],
+  "scope": "Owned rebuildable native video track on verified AgentDev scratch; formal outputs remain in repository"
+}

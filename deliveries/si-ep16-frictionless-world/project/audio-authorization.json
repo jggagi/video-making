@@ -1,0 +1,8 @@
+{
+  "provider": "Aliyun Bailian",
+  "scope": "EP16 S01 through S09 prepared tts_phonetic_text",
+  "authorized": true,
+  "source": "Direct user confirmation in this EP16 chat on 2026-10-22: 授权，沿用系列百炼配音",
+  "voice": "longtian_v3",
+  "text_sha256": "3bd4b3314b3ae2988fa55cbab31ccfc594be6df9cc650f75e1ea173aadac21b2"
+}

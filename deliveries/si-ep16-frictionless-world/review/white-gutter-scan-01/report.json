@@ -1,0 +1,206 @@
+{
+  "media": "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep16-frictionless-world/\u5c0f\u7ea2\u4e66/si-ep16-frictionless-world-xiaohongshu-120s-portrait.mp4",
+  "sha256": "1544f3b2cd1a4e9ea2f37d3b8d8db4cf48deabb33eb5d52dc93602f01897d387",
+  "every_frame": true,
+  "frames": 7200,
+  "decode_return_code": 0,
+  "regions_540x960": {
+    "right_blank_gutter": [
+      497,
+      160,
+      535,
+      870
+    ],
+    "top_blank_gap": [
+      40,
+      221,
+      455,
+      239
+    ],
+    "bottom_blank_margin": [
+      40,
+      885,
+      530,
+      940
+    ]
+  },
+  "basis": "Regions intentionally contain only uniform #F8FAFC background in every authored non-cover frame. Any >5 pixels mean RGB<225 requires review. Source-shape checks and report do not assert every kind of capture flaw is detectable.",
+  "flagged_frames": [
+    {
+      "frame": 2414,
+      "dark_pixel_counts": {
+        "right_blank_gutter": 596,
+        "top_blank_gap": 0,
+        "bottom_blank_margin": 802
+      }
+    },
+    {
+      "frame": 2996,
+      "dark_pixel_counts": {
+        "right_blank_gutter": 599,
+        "top_blank_gap": 0,
+        "bottom_blank_margin": 800
+      }
+    },
+    {
+      "frame": 3812,
+      "dark_pixel_counts": {
+        "right_blank_gutter": 597,
+        "top_blank_gap": 0,
+        "bottom_blank_margin": 803
+      }
+    },
+    {
+      "frame": 5350,
+      "dark_pixel_counts": {
+        "right_blank_gutter": 598,
+        "top_blank_gap": 0,
+        "bottom_blank_margin": 799
+      }
+    },
+    {
+      "frame": 5386,
+      "dark_pixel_counts": {
+        "right_blank_gutter": 593,
+        "top_blank_gap": 0,
+        "bottom_blank_margin": 807
+      }
+    },
+    {
+      "frame": 5399,
+      "dark_pixel_counts": {
+        "right_blank_gutter": 595,
+        "top_blank_gap": 0,
+        "bottom_blank_margin": 808
+      }
+    },
+    {
+      "frame": 5459,
+      "dark_pixel_counts": {
+        "right_blank_gutter": 604,
+        "top_blank_gap": 0,
+        "bottom_blank_margin": 805
+      }
+    },
+    {
+      "frame": 5466,
+      "dark_pixel_counts": {
+        "right_blank_gutter": 593,
+        "top_blank_gap": 0,
+        "bottom_blank_margin": 805
+      }
+    },
+    {
+      "frame": 5480,
+      "dark_pixel_counts": {
+        "right_blank_gutter": 597,
+        "top_blank_gap": 0,
+        "bottom_blank_margin": 800
+      }
+    },
+    {
+      "frame": 5526,
+      "dark_pixel_counts": {
+        "right_blank_gutter": 593,
+        "top_blank_gap": 0,
+        "bottom_blank_margin": 800
+      }
+    },
+    {
+      "frame": 5537,
+      "dark_pixel_counts": {
+        "right_blank_gutter": 594,
+        "top_blank_gap": 0,
+        "bottom_blank_margin": 803
+      }
+    },
+    {
+      "frame": 5785,
+      "dark_pixel_counts": {
+        "right_blank_gutter": 597,
+        "top_blank_gap": 0,
+        "bottom_blank_margin": 801
+      }
+    },
+    {
+      "frame": 5793,
+      "dark_pixel_counts": {
+        "right_blank_gutter": 596,
+        "top_blank_gap": 0,
+        "bottom_blank_margin": 802
+      }
+    },
+    {
+      "frame": 5801,
+      "dark_pixel_counts": {
+        "right_blank_gutter": 596,
+        "top_blank_gap": 0,
+        "bottom_blank_margin": 803
+      }
+    },
+    {
+      "frame": 5824,
+      "dark_pixel_counts": {
+        "right_blank_gutter": 594,
+        "top_blank_gap": 0,
+        "bottom_blank_margin": 799
+      }
+    },
+    {
+      "frame": 6391,
+      "dark_pixel_counts": {
+        "right_blank_gutter": 591,
+        "top_blank_gap": 0,
+        "bottom_blank_margin": 808
+      }
+    },
+    {
+      "frame": 6411,
+      "dark_pixel_counts": {
+        "right_blank_gutter": 592,
+        "top_blank_gap": 0,
+        "bottom_blank_margin": 806
+      }
+    },
+    {
+      "frame": 6420,
+      "dark_pixel_counts": {
+        "right_blank_gutter": 595,
+        "top_blank_gap": 0,
+        "bottom_blank_margin": 802
+      }
+    },
+    {
+      "frame": 6428,
+      "dark_pixel_counts": {
+        "right_blank_gutter": 596,
+        "top_blank_gap": 0,
+        "bottom_blank_margin": 804
+      }
+    },
+    {
+      "frame": 6430,
+      "dark_pixel_counts": {
+        "right_blank_gutter": 602,
+        "top_blank_gap": 0,
+        "bottom_blank_margin": 806
+      }
+    },
+    {
+      "frame": 6432,
+      "dark_pixel_counts": {
+        "right_blank_gutter": 594,
+        "top_blank_gap": 0,
+        "bottom_blank_margin": 803
+      }
+    },
+    {
+      "frame": 6471,
+      "dark_pixel_counts": {
+        "right_blank_gutter": 596,
+        "top_blank_gap": 0,
+        "bottom_blank_margin": 808
+      }
+    }
+  ]
+}

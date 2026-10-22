@@ -1,0 +1,148 @@
+{
+  "media_sha256": "1544f3b2cd1a4e9ea2f37d3b8d8db4cf48deabb33eb5d52dc93602f01897d387",
+  "frames": [
+    0,
+    60,
+    180,
+    330,
+    780,
+    930,
+    1140,
+    1320,
+    1590,
+    1740,
+    2340,
+    2490,
+    3180,
+    3330,
+    3990,
+    4140,
+    4860,
+    5010,
+    5578,
+    5579,
+    5580,
+    5581,
+    5700,
+    5850,
+    6120,
+    6270,
+    6358,
+    6359,
+    6360,
+    6361,
+    6400,
+    6401,
+    6420,
+    6480,
+    6630,
+    6870,
+    7020,
+    7199
+  ],
+  "native": [
+    {
+      "frame": 1740,
+      "path": "review/encoded-qa-1544f3b2cd1a/native-1740.png",
+      "sha256": "cee1909defc4c0091f3df57234191b3928df046cd3c6e47d5b9c6c3f46736c5e"
+    },
+    {
+      "frame": 6270,
+      "path": "review/encoded-qa-1544f3b2cd1a/native-6270.png",
+      "sha256": "a45e6712bebb37f76a3ebbcefb9b98c97234d3b519ed8feed1bb1bf6990579f3"
+    },
+    {
+      "frame": 7020,
+      "path": "review/encoded-qa-1544f3b2cd1a/native-7020.png",
+      "sha256": "517cea975a89620338a522bf012e5f2c5dd1525a2d5a3f37632ac93eed7cafaa"
+    }
+  ],
+  "motion_pairs": [
+    {
+      "frames": [
+        180,
+        330
+      ],
+      "subjectCropMeanAbsDifference": 4.091712418300654,
+      "excludesCaptionsAndTelemetry": true
+    },
+    {
+      "frames": [
+        780,
+        930
+      ],
+      "subjectCropMeanAbsDifference": 4.236323780794369,
+      "excludesCaptionsAndTelemetry": true
+    },
+    {
+      "frames": [
+        1590,
+        1740
+      ],
+      "subjectCropMeanAbsDifference": 2.1978722976370033,
+      "excludesCaptionsAndTelemetry": true
+    },
+    {
+      "frames": [
+        2340,
+        2490
+      ],
+      "subjectCropMeanAbsDifference": 2.742763197586727,
+      "excludesCaptionsAndTelemetry": true
+    },
+    {
+      "frames": [
+        3180,
+        3330
+      ],
+      "subjectCropMeanAbsDifference": 1.8626566113624936,
+      "excludesCaptionsAndTelemetry": true
+    },
+    {
+      "frames": [
+        3990,
+        4140
+      ],
+      "subjectCropMeanAbsDifference": 4.118588235294117,
+      "excludesCaptionsAndTelemetry": true
+    },
+    {
+      "frames": [
+        4860,
+        5010
+      ],
+      "subjectCropMeanAbsDifference": 2.4608285570638513,
+      "excludesCaptionsAndTelemetry": true
+    },
+    {
+      "frames": [
+        6120,
+        6270
+      ],
+      "subjectCropMeanAbsDifference": 4.156166918049271,
+      "excludesCaptionsAndTelemetry": true
+    },
+    {
+      "frames": [
+        6480,
+        6630
+      ],
+      "subjectCropMeanAbsDifference": 2.049403720462544,
+      "excludesCaptionsAndTelemetry": true
+    },
+    {
+      "frames": [
+        6870,
+        7020
+      ],
+      "subjectCropMeanAbsDifference": 3.7974097536450477,
+      "excludesCaptionsAndTelemetry": true
+    }
+  ],
+  "captionTiming": "estimated phrase weights within measured source PCM",
+  "encodedLoudness": "\n\n  Integrated loudness:\n    I:         -16.0 LUFS\n    Threshold: -28.0 LUFS\n\n  Loudness range:\n    LRA:        11.6 LU\n    Threshold: -38.2 LUFS\n    LRA low:   -26.1 LUFS\n    LRA high:  -14.5 LUFS\n\n  True peak:\n    Peak:       -1.3 dBFS\n[out#0/null @ 0x7bc4c40300] video:0KiB audio:22500KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nsize=N/A time=00:02:00.00 bitrate=N/A speed= 304x elapsed=0:00:00.39    \n",
+  "model_visual_review": "PENDING",
+  "human_listening": "NOT_RUN",
+  "continuous_human_viewing": "NOT_RUN",
+  "phone_app_playback": "NOT_RUN"
+}

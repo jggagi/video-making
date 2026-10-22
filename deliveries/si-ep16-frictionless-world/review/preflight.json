@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-22",
+  "agentDevUUID": "F4DCCF30-ED44-4B5E-8DF9-ED2C039F2857",
+  "hostUUID": "7E4BC5BA-F525-344A-BECE-08C3272BB25B",
+  "agentDevFreeBytes": 95852830720,
+  "hostFreeBytes": 251248246784,
+  "internalFreeBytesWarningOnly": 7379488768,
+  "blCLI": "2.5.0",
+  "blSkill": "2.5.0",
+  "npmLatest": "2.5.0",
+  "authenticated": true,
+  "credentialsRecorded": false
+}

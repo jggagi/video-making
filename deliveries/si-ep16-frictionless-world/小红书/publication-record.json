@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "work": "si-ep16-frictionless-world",
+  "status": "READY_TO_SUBMIT_AFTER_ARCHIVE",
+  "account": "余问 QStory",
+  "platform": "小红书",
+  "authorization": {
+    "scope": "EP16 video upload and final publication",
+    "source": "Current user request: 扩展剧本做视频发小红书",
+    "authorized": true
+  },
+  "media": {
+    "path": "小红书/si-ep16-frictionless-world-xiaohongshu-120s-portrait.mp4",
+    "sha256": "299b91acdabaed526c027f8268a350cfa4e0832a2dc16a925d7ed4176cecd690",
+    "bytes": 25653992,
+    "duration_seconds": 120,
+    "video_duration_seconds": 120.0,
+    "audio_duration_seconds": 120.0,
+    "container_duration_seconds": 120.0
+  },
+  "prepared": {
+    "title": "完美到没人再哭，为什么像停尸房？",
+    "body": "【社会寓言｜科幻思想实验】\n没有堵车、没有失业、没有争吵，也没有任何惊喜。\n\n当超级智能把一切安排得刚刚好，连一滴眼泪都落不下来。换工作、开小店、绕远路，每一句“我想试试”，都被温柔地纠正。\n\n直到一个孩子故意松开手。第一圈涟漪，终于推开了完美。\n\n《感受 SI》EP.16《零摩擦人间》\n冷白临床 · 瑞士极简等高线。\n我们需要安稳，也需要试一次的自由。\n\n理论边界：帕累托有效不等于幸福，也不必然阻止创新；本片的“最优死锁”来自额外的虚构禁令。过阻尼通常无振荡回归平衡，不等于停止响应；σ²→0仅为寓言符号。\n画面为程序动画，旁白为AI合成，声景为原创程序音效。",
+    "topics": [
+      "科幻",
+      "人工智能",
+      "哲学",
+      "动画短片"
+    ],
+    "cover": "cover-A-headline.png",
+    "visibility": "公开",
+    "schedule": "立即发布",
+    "AI_declaration_required": true,
+    "account": "余问 QStory",
+    "authorization": "用户当前明确要求：扩展剧本做视频发小红书",
+    "duplicate_check": "当前账号管理页搜索零摩擦，显示没有找到相关笔记；提交前重新核对"
+  },
+  "duplicate_check": {
+    "query": "零摩擦",
+    "observed_result": "没有找到相关笔记",
+    "account": "余问 QStory",
+    "observed_at_utc": null,
+    "time_note": "Observed during this EP16 session before upload; exact timestamp was not captured."
+  },
+  "submission_attempted": false,
+  "submission_verified": false,
+  "publication_verified": false,
+  "public_visibility_verified": false,
+  "attempts": [],
+  "private_browser_evidence_location": "Private temporary directory only; never in Git or Releases",
+  "human_listening": "NOT_RUN",
+  "phone_app_playback": "NOT_RUN",
+  "upload_started_at_utc": "2026-10-22T15:29:50.195808+00:00",
+  "upload_history": [
+    {
+      "stage": "first candidate uploaded; never submitted",
+      "media": {
+        "path": "小红书/si-ep16-frictionless-world-xiaohongshu-120s-portrait.mp4",
+        "sha256": "1544f3b2cd1a4e9ea2f37d3b8d8db4cf48deabb33eb5d52dc93602f01897d387",
+        "bytes": 26999901,
+        "duration_seconds": 120,
+        "video_duration_seconds": 120.0,
+        "audio_duration_seconds": 120.0,
+        "container_duration_seconds": 120.0
+      },
+      "superseded_reason": "22 repeated-text tile capture frames observed; rejected before publication"
+    },
+    {
+      "stage": "repaired final selected in browser file chooser",
+      "recorded_at_utc": "2026-10-22T15:44:58.482301+00:00",
+      "media_sha256": "299b91acdabaed526c027f8268a350cfa4e0832a2dc16a925d7ed4176cecd690",
+      "bytes": 25653992
+    }
+  ],
+  "ui_readback": {
+    "account": "余问 QStory",
+    "title_matches_prepared": true,
+    "body_matches_prepared_ignoring_whitespace": true,
+    "associated_topics": [
+      "科幻",
+      "人工智能",
+      "哲学",
+      "动画短片"
+    ],
+    "AI_declaration": "笔记含AI合成内容",
+    "visibility": "公开可见",
+    "scheduled": false,
+    "preview_duration_seconds": 120,
+    "preview_dimensions": [
+      2160,
+      3840
+    ],
+    "custom_cover_retained_after_reupload": true,
+    "platform_cover_evaluation": "封面效果评估通过，未发现封面质量问题",
+    "private_evidence": "/private/tmp/si-ep16-xhs-publication-20261022/pre-submit.jpg",
+    "platform_does_not_report_local_sha256": true
+  }
+}

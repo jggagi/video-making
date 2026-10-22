@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "movie_sha256": "1544f3b2cd1a4e9ea2f37d3b8d8db4cf48deabb33eb5d52dc93602f01897d387",
+  "master_sha256": "e363df87a52370d97da99e5e4825f6c11f76976875072d845eba9da1b155ef2d",
+  "video_only_sha256": "460cef17591e0e22fe673e4d25937a702831fbc92b8a614ab573bdd6e4a18dcc",
+  "native_dimensions": [
+    2160,
+    3840
+  ],
+  "frames": 7200,
+  "video_duration": 120,
+  "audio_duration": "120.000000",
+  "container_duration": "120.000000",
+  "PCM_samples_per_channel": 5760000
+}

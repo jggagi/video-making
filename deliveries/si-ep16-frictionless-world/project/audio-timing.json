@@ -1,0 +1,672 @@
+{
+  "durationSeconds": 120,
+  "fps": 60,
+  "sampleRate": 48000,
+  "samplesPerChannel": 5760000,
+  "status": "MEASURED",
+  "captionTimingMethod": "Approximate character-weighted phrase timing within measured active PCM. No ASR or forced word alignment was performed.",
+  "activeBoundsMethod": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+  "segments": [
+    {
+      "id": "S01",
+      "startFrame": 12,
+      "declaredEndFrameExclusive": 720,
+      "cueStartSample": 9600,
+      "cueEndSampleExclusive": 470400,
+      "completeCueSamples48k": 460800,
+      "completeCueDurationSeconds": 9.6,
+      "activeOnsetOffsetSamples48k": 10923,
+      "activeEndOffsetSamples48kExclusive": 450451,
+      "activeStartSample": 20523,
+      "activeEndSampleExclusive": 460051,
+      "activeStartFrame": 25.65375,
+      "activeEndFrameExclusive": 575.06375,
+      "activeDurationSeconds": 9.156833333333333,
+      "activeBoundsMethod": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 75,
+        "windowSamples": 240
+      },
+      "completeCueFitsDeclaredWindow": true,
+      "activeSpeechEndsByDeclaredEndFrame": true,
+      "cueAvoidsNextActiveRange": true,
+      "effectiveModel": "cosyvoice-v3-flash",
+      "effectiveVoice": "longtian_v3",
+      "rate": 1.0,
+      "cueSha256": "a4ce3d9ff8c8968978bd401f43259cf1dfaf320d28526ba8f629eb6c9a3a90c6"
+    },
+    {
+      "id": "S02",
+      "startFrame": 750,
+      "declaredEndFrameExclusive": 1500,
+      "cueStartSample": 600000,
+      "cueEndSampleExclusive": 1087680,
+      "completeCueSamples48k": 487680,
+      "completeCueDurationSeconds": 10.16,
+      "activeOnsetOffsetSamples48k": 9834,
+      "activeEndOffsetSamples48kExclusive": 474574,
+      "activeStartSample": 609834,
+      "activeEndSampleExclusive": 1074574,
+      "activeStartFrame": 762.2925,
+      "activeEndFrameExclusive": 1343.2175,
+      "activeDurationSeconds": 9.682083333333333,
+      "activeBoundsMethod": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 98,
+        "windowSamples": 240
+      },
+      "completeCueFitsDeclaredWindow": true,
+      "activeSpeechEndsByDeclaredEndFrame": true,
+      "cueAvoidsNextActiveRange": true,
+      "effectiveModel": "cosyvoice-v3-flash",
+      "effectiveVoice": "longtian_v3",
+      "rate": 1.0,
+      "cueSha256": "abe927ee356da3af9df462249e17d329711dcede671c7bb81c27eb1595865627"
+    },
+    {
+      "id": "S03",
+      "startFrame": 1530,
+      "declaredEndFrameExclusive": 2280,
+      "cueStartSample": 1224000,
+      "cueEndSampleExclusive": 1688640,
+      "completeCueSamples48k": 464640,
+      "completeCueDurationSeconds": 9.68,
+      "activeOnsetOffsetSamples48k": 9572,
+      "activeEndOffsetSamples48kExclusive": 454892,
+      "activeStartSample": 1233572,
+      "activeEndSampleExclusive": 1678892,
+      "activeStartFrame": 1541.965,
+      "activeEndFrameExclusive": 2098.615,
+      "activeDurationSeconds": 9.2775,
+      "activeBoundsMethod": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 99,
+        "windowSamples": 240
+      },
+      "completeCueFitsDeclaredWindow": true,
+      "activeSpeechEndsByDeclaredEndFrame": true,
+      "cueAvoidsNextActiveRange": true,
+      "effectiveModel": "cosyvoice-v3-flash",
+      "effectiveVoice": "longtian_v3",
+      "rate": 1.0,
+      "cueSha256": "065a61a79b966c3ab54b4449b449d25196398c8bec755f325cd7f8f3f629900e"
+    },
+    {
+      "id": "S04",
+      "startFrame": 2310,
+      "declaredEndFrameExclusive": 3060,
+      "cueStartSample": 1848000,
+      "cueEndSampleExclusive": 2312640,
+      "completeCueSamples48k": 464640,
+      "completeCueDurationSeconds": 9.68,
+      "activeOnsetOffsetSamples48k": 9620,
+      "activeEndOffsetSamples48kExclusive": 452771,
+      "activeStartSample": 1857620,
+      "activeEndSampleExclusive": 2300771,
+      "activeStartFrame": 2322.025,
+      "activeEndFrameExclusive": 2875.96375,
+      "activeDurationSeconds": 9.2323125,
+      "activeBoundsMethod": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 94,
+        "windowSamples": 240
+      },
+      "completeCueFitsDeclaredWindow": true,
+      "activeSpeechEndsByDeclaredEndFrame": true,
+      "cueAvoidsNextActiveRange": true,
+      "effectiveModel": "cosyvoice-v3-flash",
+      "effectiveVoice": "longtian_v3",
+      "rate": 1.0,
+      "cueSha256": "010bc9d9e0c736f9d24fe7c0f04e183c63fe90821abd55da113299c7bb6fb40a"
+    },
+    {
+      "id": "S05",
+      "startFrame": 3090,
+      "declaredEndFrameExclusive": 3900,
+      "cueStartSample": 2472000,
+      "cueEndSampleExclusive": 2875200,
+      "completeCueSamples48k": 403200,
+      "completeCueDurationSeconds": 8.4,
+      "activeOnsetOffsetSamples48k": 9659,
+      "activeEndOffsetSamples48kExclusive": 391599,
+      "activeStartSample": 2481659,
+      "activeEndSampleExclusive": 2863599,
+      "activeStartFrame": 3102.07375,
+      "activeEndFrameExclusive": 3579.49875,
+      "activeDurationSeconds": 7.957083333333333,
+      "activeBoundsMethod": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 80,
+        "windowSamples": 240
+      },
+      "completeCueFitsDeclaredWindow": true,
+      "activeSpeechEndsByDeclaredEndFrame": true,
+      "cueAvoidsNextActiveRange": true,
+      "effectiveModel": "cosyvoice-v3-flash",
+      "effectiveVoice": "longtian_v3",
+      "rate": 1.0,
+      "cueSha256": "b8e567e996082b549356e1c2f6deb947cffa15c4e17f8d800fde84a599c6a9de"
+    },
+    {
+      "id": "S06",
+      "startFrame": 3930,
+      "declaredEndFrameExclusive": 4740,
+      "cueStartSample": 3144000,
+      "cueEndSampleExclusive": 3600960,
+      "completeCueSamples48k": 456960,
+      "completeCueDurationSeconds": 9.52,
+      "activeOnsetOffsetSamples48k": 9658,
+      "activeEndOffsetSamples48kExclusive": 447548,
+      "activeStartSample": 3153658,
+      "activeEndSampleExclusive": 3591548,
+      "activeStartFrame": 3942.0725,
+      "activeEndFrameExclusive": 4489.435,
+      "activeDurationSeconds": 9.122708333333334,
+      "activeBoundsMethod": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 89,
+        "windowSamples": 240
+      },
+      "completeCueFitsDeclaredWindow": true,
+      "activeSpeechEndsByDeclaredEndFrame": true,
+      "cueAvoidsNextActiveRange": true,
+      "effectiveModel": "cosyvoice-v3-flash",
+      "effectiveVoice": "longtian_v3",
+      "rate": 1.0,
+      "cueSha256": "b222863cec8b20bf97101f0e57cacc1d89021f5ed0765d7d8091715c98036dc8"
+    },
+    {
+      "id": "S07",
+      "startFrame": 4770,
+      "declaredEndFrameExclusive": 5580,
+      "cueStartSample": 3816000,
+      "cueEndSampleExclusive": 4376640,
+      "completeCueSamples48k": 560640,
+      "completeCueDurationSeconds": 11.68,
+      "activeOnsetOffsetSamples48k": 10923,
+      "activeEndOffsetSamples48kExclusive": 551124,
+      "activeStartSample": 3826923,
+      "activeEndSampleExclusive": 4367124,
+      "activeStartFrame": 4783.65375,
+      "activeEndFrameExclusive": 5458.905,
+      "activeDurationSeconds": 11.2541875,
+      "activeBoundsMethod": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 71,
+        "windowSamples": 240
+      },
+      "completeCueFitsDeclaredWindow": true,
+      "activeSpeechEndsByDeclaredEndFrame": true,
+      "cueAvoidsNextActiveRange": true,
+      "effectiveModel": "cosyvoice-v3-flash",
+      "effectiveVoice": "longtian_v3",
+      "rate": 1.0,
+      "cueSha256": "642de361f7d06697d231bd0dd2bf88d2593e77fc8d6a19b88b728617a0c8a887"
+    },
+    {
+      "id": "S08",
+      "startFrame": 5610,
+      "declaredEndFrameExclusive": 6330,
+      "cueStartSample": 4488000,
+      "cueEndSampleExclusive": 5048640,
+      "completeCueSamples48k": 560640,
+      "completeCueDurationSeconds": 11.68,
+      "activeOnsetOffsetSamples48k": 10139,
+      "activeEndOffsetSamples48kExclusive": 549811,
+      "activeStartSample": 4498139,
+      "activeEndSampleExclusive": 5037811,
+      "activeStartFrame": 5622.67375,
+      "activeEndFrameExclusive": 6297.26375,
+      "activeDurationSeconds": 11.243166666666667,
+      "activeBoundsMethod": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 92,
+        "windowSamples": 240
+      },
+      "completeCueFitsDeclaredWindow": true,
+      "activeSpeechEndsByDeclaredEndFrame": true,
+      "cueAvoidsNextActiveRange": true,
+      "effectiveModel": "cosyvoice-v3-flash",
+      "effectiveVoice": "longtian_v3",
+      "rate": 1.0,
+      "cueSha256": "a8c6492f959b510fe4e65258ca561b2699ad3c3b7d84a65b4e7a3724c87307e8"
+    },
+    {
+      "id": "S09",
+      "startFrame": 6360,
+      "declaredEndFrameExclusive": 7140,
+      "cueStartSample": 5088000,
+      "cueEndSampleExclusive": 5606400,
+      "completeCueSamples48k": 518400,
+      "completeCueDurationSeconds": 10.8,
+      "activeOnsetOffsetSamples48k": 9476,
+      "activeEndOffsetSamples48kExclusive": 514549,
+      "activeStartSample": 5097476,
+      "activeEndSampleExclusive": 5602549,
+      "activeStartFrame": 6371.845,
+      "activeEndFrameExclusive": 7003.18625,
+      "activeDurationSeconds": 10.522354166666666,
+      "activeBoundsMethod": {
+        "method": "5 ms sliding RMS; threshold=max(48 PCM16, 0.4% of cue peak)",
+        "thresholdPcm16": 75,
+        "windowSamples": 240
+      },
+      "completeCueFitsDeclaredWindow": true,
+      "activeSpeechEndsByDeclaredEndFrame": true,
+      "cueAvoidsNextActiveRange": true,
+      "effectiveModel": "cosyvoice-v3-flash",
+      "effectiveVoice": "longtian_v3",
+      "rate": 1.0,
+      "cueSha256": "32d4dae4e53728787974f81865168e0b0702407a12191f281e62d5d248538b30"
+    }
+  ],
+  "captions": [
+    {
+      "startFrame": 26,
+      "endFrame": 95,
+      "text": "这个世界，",
+      "segmentId": "S01",
+      "alignment": "approximate_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "startFrame": 95,
+      "endFrame": 164,
+      "text": "没有堵车，",
+      "segmentId": "S01",
+      "alignment": "approximate_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "startFrame": 164,
+      "endFrame": 232,
+      "text": "没有失业，",
+      "segmentId": "S01",
+      "alignment": "approximate_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "startFrame": 232,
+      "endFrame": 301,
+      "text": "没有争吵。",
+      "segmentId": "S01",
+      "alignment": "approximate_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "startFrame": 301,
+      "endFrame": 397,
+      "text": "可你走在街上，",
+      "segmentId": "S01",
+      "alignment": "approximate_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "startFrame": 397,
+      "endFrame": 576,
+      "text": "却像走进一座巨大的停尸房。",
+      "segmentId": "S01",
+      "alignment": "approximate_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "startFrame": 763,
+      "endFrame": 831,
+      "text": "超级智能，",
+      "segmentId": "S02",
+      "alignment": "approximate_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "startFrame": 831,
+      "endFrame": 1020,
+      "text": "替每个人安排了最合适\n的位置。",
+      "segmentId": "S02",
+      "alignment": "approximate_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "startFrame": 1020,
+      "endFrame": 1114,
+      "text": "绿灯永远准时，",
+      "segmentId": "S02",
+      "alignment": "approximate_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "startFrame": 1114,
+      "endFrame": 1209,
+      "text": "面包恰好够吃。",
+      "segmentId": "S02",
+      "alignment": "approximate_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "startFrame": 1209,
+      "endFrame": 1263,
+      "text": "连相遇，",
+      "segmentId": "S02",
+      "alignment": "approximate_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "startFrame": 1263,
+      "endFrame": 1344,
+      "text": "都从不出错。",
+      "segmentId": "S02",
+      "alignment": "approximate_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "startFrame": 1542,
+      "endFrame": 1610,
+      "text": "你的眼泪，",
+      "segmentId": "S03",
+      "alignment": "approximate_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "startFrame": 1610,
+      "endFrame": 1678,
+      "text": "还没流出，",
+      "segmentId": "S03",
+      "alignment": "approximate_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "startFrame": 1678,
+      "endFrame": 1827,
+      "text": "就被一句安慰精准拦住。",
+      "segmentId": "S03",
+      "alignment": "approximate_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "startFrame": 1827,
+      "endFrame": 1922,
+      "text": "水滴悬在半空。",
+      "segmentId": "S03",
+      "alignment": "approximate_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "startFrame": 1922,
+      "endFrame": 1977,
+      "text": "连悲伤，",
+      "segmentId": "S03",
+      "alignment": "approximate_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "startFrame": 1977,
+      "endFrame": 2099,
+      "text": "都没有落地的机会。",
+      "segmentId": "S03",
+      "alignment": "approximate_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "startFrame": 2323,
+      "endFrame": 2362,
+      "text": "起初，",
+      "segmentId": "S04",
+      "alignment": "approximate_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "startFrame": 2362,
+      "endFrame": 2464,
+      "text": "我们把这叫幸福。",
+      "segmentId": "S04",
+      "alignment": "approximate_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "startFrame": 2464,
+      "endFrame": 2503,
+      "text": "后来，",
+      "segmentId": "S04",
+      "alignment": "approximate_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "startFrame": 2503,
+      "endFrame": 2632,
+      "text": "一个女孩想换份工作。",
+      "segmentId": "S04",
+      "alignment": "approximate_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "startFrame": 2632,
+      "endFrame": 2683,
+      "text": "系统说：",
+      "segmentId": "S04",
+      "alignment": "approximate_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "startFrame": 2683,
+      "endFrame": 2812,
+      "text": "这会降低别人的效率。",
+      "segmentId": "S04",
+      "alignment": "approximate_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "startFrame": 2812,
+      "endFrame": 2876,
+      "text": "申请驳回。",
+      "segmentId": "S04",
+      "alignment": "approximate_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "startFrame": 3103,
+      "endFrame": 3270,
+      "text": "有人想开一家可能倒闭\n的小店。",
+      "segmentId": "S05",
+      "alignment": "approximate_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "startFrame": 3270,
+      "endFrame": 3413,
+      "text": "有人想走一条会绕远的路。",
+      "segmentId": "S05",
+      "alignment": "approximate_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "startFrame": 3413,
+      "endFrame": 3485,
+      "text": "每一次试试，",
+      "segmentId": "S05",
+      "alignment": "approximate_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "startFrame": 3485,
+      "endFrame": 3580,
+      "text": "都被温柔地纠正。",
+      "segmentId": "S05",
+      "alignment": "approximate_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "startFrame": 3943,
+      "endFrame": 4014,
+      "text": "帕累托最优，",
+      "segmentId": "S06",
+      "alignment": "approximate_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "startFrame": 4014,
+      "endFrame": 4050,
+      "text": "是说：",
+      "segmentId": "S06",
+      "alignment": "approximate_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "startFrame": 4050,
+      "endFrame": 4133,
+      "text": "想让一方更好，",
+      "segmentId": "S06",
+      "alignment": "approximate_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "startFrame": 4133,
+      "endFrame": 4252,
+      "text": "已无法不让他人变差。",
+      "segmentId": "S06",
+      "alignment": "approximate_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "startFrame": 4252,
+      "endFrame": 4300,
+      "text": "可这里，",
+      "segmentId": "S06",
+      "alignment": "approximate_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "startFrame": 4300,
+      "endFrame": 4431,
+      "text": "连自愿承担代价的改变，",
+      "segmentId": "S06",
+      "alignment": "approximate_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "startFrame": 4431,
+      "endFrame": 4490,
+      "text": "也被禁止。",
+      "segmentId": "S06",
+      "alignment": "approximate_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "startFrame": 4784,
+      "endFrame": 4919,
+      "text": "这不是效率的必然结局。",
+      "segmentId": "S07",
+      "alignment": "approximate_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "startFrame": 4919,
+      "endFrame": 5042,
+      "text": "系统又加了一条命令：",
+      "segmentId": "S07",
+      "alignment": "approximate_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "startFrame": 5042,
+      "endFrame": 5103,
+      "text": "不许波动。",
+      "segmentId": "S07",
+      "alignment": "approximate_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "startFrame": 5103,
+      "endFrame": 5238,
+      "text": "像过度阻尼让恢复变慢，",
+      "segmentId": "S07",
+      "alignment": "approximate_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "startFrame": 5238,
+      "endFrame": 5349,
+      "text": "寓言把它推到极端：",
+      "segmentId": "S07",
+      "alignment": "approximate_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "startFrame": 5349,
+      "endFrame": 5398,
+      "text": "连钟摆，",
+      "segmentId": "S07",
+      "alignment": "approximate_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "startFrame": 5398,
+      "endFrame": 5459,
+      "text": "也被按住。",
+      "segmentId": "S07",
+      "alignment": "approximate_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "startFrame": 5623,
+      "endFrame": 5735,
+      "text": "直到一个孩子，",
+      "segmentId": "S08",
+      "alignment": "approximate_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "startFrame": 5735,
+      "endFrame": 5848,
+      "text": "故意松开了手。",
+      "segmentId": "S08",
+      "alignment": "approximate_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "startFrame": 5848,
+      "endFrame": 5912,
+      "text": "系统问：",
+      "segmentId": "S08",
+      "alignment": "approximate_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "startFrame": 5912,
+      "endFrame": 6041,
+      "text": "这可能弄湿地面，",
+      "segmentId": "S08",
+      "alignment": "approximate_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "startFrame": 6041,
+      "endFrame": 6153,
+      "text": "是否仍要继续？",
+      "segmentId": "S08",
+      "alignment": "approximate_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "startFrame": 6153,
+      "endFrame": 6234,
+      "text": "他第一次，",
+      "segmentId": "S08",
+      "alignment": "approximate_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "startFrame": 6234,
+      "endFrame": 6298,
+      "text": "说了是。",
+      "segmentId": "S08",
+      "alignment": "approximate_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "startFrame": 6372,
+      "endFrame": 6434,
+      "text": "水滴落下。",
+      "segmentId": "S09",
+      "alignment": "approximate_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "startFrame": 6434,
+      "endFrame": 6508,
+      "text": "第一圈涟漪，",
+      "segmentId": "S09",
+      "alignment": "approximate_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "startFrame": 6508,
+      "endFrame": 6570,
+      "text": "慢慢推开。",
+      "segmentId": "S09",
+      "alignment": "approximate_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "startFrame": 6570,
+      "endFrame": 6657,
+      "text": "我们需要安稳，",
+      "segmentId": "S09",
+      "alignment": "approximate_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "startFrame": 6657,
+      "endFrame": 6781,
+      "text": "也需要试一次的自由。",
+      "segmentId": "S09",
+      "alignment": "approximate_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "startFrame": 6781,
+      "endFrame": 6831,
+      "text": "生命力，",
+      "segmentId": "S09",
+      "alignment": "approximate_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "startFrame": 6831,
+      "endFrame": 6917,
+      "text": "本来就生长在，",
+      "segmentId": "S09",
+      "alignment": "approximate_character_weighted_within_measured_active_PCM"
+    },
+    {
+      "startFrame": 6917,
+      "endFrame": 7004,
+      "text": "失控的裂缝里。",
+      "segmentId": "S09",
+      "alignment": "approximate_character_weighted_within_measured_active_PCM"
+    }
+  ],
+  "mixSettingsSha256": "cbd88cbbbfc016f4aaa433d65a1477114c61628669ae7209489b60947b26b841"
+}

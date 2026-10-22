@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-10-22T15:32:08.025114Z",
+  "status": "PASS",
+  "target_duration_seconds": 120,
+  "manifest_sha256": "4855ebcb340adebbfb2e8135ecbf3a1ce1d794a1293243b3cfd1cab66eaebcdb",
+  "checks": {
+    "manifest": "PASS",
+    "schema_version": "PASS",
+    "title": "PASS",
+    "duration_seconds": "PASS",
+    "slug": "PASS",
+    "fps": "PASS",
+    "duration_frame_alignment": "PASS",
+    "duration_sample_alignment": "PASS",
+    "total_frames": "PASS",
+    "audio_mode": "PASS",
+    "audio_master": "PASS",
+    "script_path": "PASS",
+    "script_hash": "PASS",
+    "script_sha256": "60692b6f6fb95bc4781c5772fea3b38b4fb42a23526807bff805d2b45a324603",
+    "platforms": "PASS",
+    "output_platforms": "PASS",
+    "xiaohongshu_manifest_dimensions": "PASS",
+    "visual_qc": "PASS"
+  },
+  "outputs": {
+    "xiaohongshu": {
+      "status": "PASS",
+      "path": "小红书/si-ep16-frictionless-world-xiaohongshu-120s-portrait.mp4",
+      "sha256": "1544f3b2cd1a4e9ea2f37d3b8d8db4cf48deabb33eb5d52dc93602f01897d387",
+      "measurements": {
+        "file_size_bytes": 26999901,
+        "video": {
+          "codec": "h264",
+          "pixel_format": "yuv420p",
+          "width": 2160,
+          "height": 3840,
+          "nominal_fps": "60/1",
+          "average_fps": "60/1",
+          "counted_frames": "7200",
+          "duration_seconds": 120.0
+        },
+        "audio_stream_count": 1,
+        "audio": {
+          "codec": "aac",
+          "sample_rate": 48000,
+          "channels": 2,
+          "duration_seconds": 120.0
+        },
+        "container": {
+          "duration_seconds": 120.0,
+          "padding_vs_video_seconds": 0.0
+        },
+        "mp4_atoms": {
+          "atom_types": [
+            "ftyp",
+            "moov",
+            "free",
+            "mdat"
+          ],
+          "moov_offset": 32,
+          "mdat_offset": 192950,
+          "moov_before_mdat": true
+        }
+      },
+      "checks": {
+        "manifest_dimensions": "PASS",
+        "media_file": "PASS",
+        "ffprobe": "PASS",
+        "video_stream_count": "PASS",
+        "dimensions": "PASS",
+        "codec": "PASS",
+        "pixel_format": "PASS",
+        "nominal_fps": "PASS",
+        "average_fps": "PASS",
+        "counted_frames": "PASS",
+        "video_duration": "PASS",
+        "audio_stream_count": "PASS",
+        "audio_codec": "PASS",
+        "audio_sample_rate": "PASS",
+        "audio_channels": "PASS",
+        "audio_duration": "PASS",
+        "container_duration": "PASS",
+        "moov_before_mdat": "PASS",
+        "strict_decode": "PASS"
+      },
+      "failures": []
+    }
+  },
+  "visual_qc": {
+    "status": "PASS",
+    "outputs": {
+      "xiaohongshu": {
+        "status": "PASS",
+        "report": "review/visual-qc-xiaohongshu/report.json",
+        "media_sha256": "1544f3b2cd1a4e9ea2f37d3b8d8db4cf48deabb33eb5d52dc93602f01897d387",
+        "decoded_frames": 7200,
+        "flagged_frames": 0,
+        "failures": []
+      }
+    },
+    "failures": []
+  },
+  "failures": [],
+  "human_review": {
+    "representative_frames": "pending",
+    "continuous_human_review": "pending",
+    "target_device_playback": "pending"
+  },
+  "source_scan": {
+    "status": "PASS",
+    "files_scanned": 20,
+    "matches": [],
+    "read_errors": []
+  }
+}

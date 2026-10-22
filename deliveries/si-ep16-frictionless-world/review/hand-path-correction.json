@@ -1,0 +1,23 @@
+{
+  "issue": "SVG Hand path template joined positive coordinate tokens without required separator spaces, so browser truncated part of the outline.",
+  "affected_absolute_frames": [
+    5580,
+    6359
+  ],
+  "root_cause_tokens": [
+    "Q10 <y>28 <y>",
+    "Q45 <y>40 <y>",
+    "Q58 <y>74 <y>",
+    "Q91 <y>81 <y>"
+  ],
+  "correction": "Inserted explicit separators; same absolute state redrawn at native dimensions.",
+  "corrected_source_sha256": "00c88ebfb93c20862bb0b4b92314b64a4744490ea1f6150bf43fbf74ac220812",
+  "corrected_native_still": {
+    "path": "review/source-6270.png",
+    "sha256": "a6fe26491ba6c0df8425f4b76b99f85d1a31266debde29ce2b633a2013178548",
+    "model_observation": "Complete five-finger outline, no crop or overlap with caption."
+  },
+  "historical_preflight_limit": "The original3-second capture preflight had no isolated frame glitch, but its hand shape was incomplete. It does not validate the corrected source; final composite requires fresh all-frame scan and encoded representative review.",
+  "speech_or_audio_changed": false,
+  "model_visual_checks_are_not_human_listening": true
+}

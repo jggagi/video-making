@@ -37,7 +37,7 @@ Final media SHA-256: `d56c8394eb08f30b1645981fc7fc951f714b3651e1fec813fc3ad2bbcc
 - Final encoded representative/model observation: PASS within stated scope. All22sample frames,8pairs, native membrane/engulfment/spore crops and final404–406neighbors were viewed. At360px width, key HUD/core labels/subtitles remain readable and unclipped; no3D distortion, repeated tile or severe dark-gradient banding was observed. Motion-ROI differences exclude HUD/subtitle/counter. See representative-review.json and encoded-qa-d56c8394eb08/.
 - Encoded audio:−16.0LUFS/−1.8dBTP; three PCM comparison windows have zero lag and correlations0.999846–0.999960. The lossless master has exact4320000samples/channel and exactzero blackout. AAC decoding includes256padding samples beyond the90s presentation timeline. AAC has low boundary residue during the blackout: leading25ms peak−71.46dBFS, trailing−108.67; interior−148.02. Absolute digitalzero is guaranteed in the PCM master, not lossy decodedAAC. Container/audio/video timelines remain exactly90s.
 - Captions: independent text audit confirms all33blocks round-trip exactly to approved display text,13characters/line maximum and measured active-voice bounds. Pronunciation has no human listening verdict.
-- Covers: native final-MP4 framesA2100/B3840 extracted; separate native headline variants generated and viewed. Hashes are in 小红书/publish-package.json. Package READY; account submission NOT_RUN.
+- Covers: native final-MP4 framesA2100/B3840 extracted; separate native headline variants generated and viewed. Hashes are in 小红书/publish-package.json. Package submitted after subsequent explicit user authorization; manager shows审核中.
 - Local final: PASS, verified APFS clone at final/si-ep14-ghost-in-posterior/小红书/ with the same61,925,852bytes/SHA-256.
 - Original GitHub archive: PASS, source commit026ed33c82352890f9dc4f0250a11c6c84532e43 pushed before uploads. EP14 published Release has6assets:1formal film and5review previews, including the retained rejected candidate. Fresh remote inventory, sizes and SHA-256 match; see github-film-verification.json. Uploader also verified the whole249asset archive.
 - Independent final backup: PASS, dedicated published final-si-ep14-ghost-in-posterior-bb31a8702522 Release contains only the formal film. Current final/backup-verification.json freshly checked all56local/remote assets across27Releases against catalog SHAff6b6aff43dbab482442b5290241b92549f8b7772db4d221f476d4a7351cc2be.
@@ -55,6 +55,6 @@ Continuous human viewing: NOT_RUN.
 Human listening and pronunciation review: NOT_RUN.
 Target-phone/App playback: NOT_RUN.
 Actual audience emotional response: NOT_COLLECTED.
-Xiaohongshu account upload/submission: NOT_RUN; a requested publication package will be delivered.
+Xiaohongshu account submission: VERIFIED, after the user explicitly requested 发布小红书. One submission to余问 QStory; matching title, CoverA and01:30 entry is审核中. Publication/public visibility NOT_VERIFIED. See ../小红书/publication-record.json; private UI screenshots remain outside Git.
 
 No source check, decode result, model observation or technical loudness measurement substitutes for those human/device gates.

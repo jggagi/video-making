@@ -1,0 +1,117 @@
+{
+  "platform": "小红书",
+  "status": "SUBMITTED_PENDING_REVIEW",
+  "account_display_name": "余问 QStory",
+  "authorization_summary": "User explicitly requested 发布小红书 for the existing EP14; film remains unchanged after the speed feedback. Authorized upload and final submission now.",
+  "video_path": "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep14-ghost-in-posterior/小红书/si-ep14-ghost-in-posterior-xiaohongshu-90s-portrait.mp4",
+  "video_sha256": "d56c8394eb08f30b1645981fc7fc951f714b3651e1fec813fc3ad2bbcc005ee9",
+  "video_size_bytes": 61925852,
+  "duration_seconds": 90,
+  "copy_file": "publish-package.json",
+  "original_requested_title": "算法没有复活他，算法替你杀死了他第二次｜一眼万年S3",
+  "title": "算法替你杀死了他第二次｜一眼万年S3",
+  "cover_path": "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep14-ghost-in-posterior/小红书/cover-A-headline.png",
+  "cover_sha256": "de5f15518e4ee7e73e4b0498c52332a5c5d9eb6310a08e82b8234626c2d9ee4a",
+  "cover_source_frame": 2100,
+  "cover_crop_xywh": null,
+  "linked_topics": [
+    {
+      "id": "62878b08000000000101e8de",
+      "link": "xhsdiscover://topic/v2/62878b0883c6bc0001808f23",
+      "name": "数字永生"
+    },
+    {
+      "id": "611e322d00000000010032ff",
+      "link": "xhsdiscover://topic/v2/611e322defd05b00013a00f8",
+      "name": "超级智能"
+    },
+    {
+      "id": "5be93ef0be76e80001f25f53",
+      "link": "xhsdiscover://topic/v2/5be93ef01cc2b5000139c6c4",
+      "name": "思念"
+    },
+    {
+      "id": "5c15060c0000000003020def",
+      "link": "xhsdiscover://topic/v2/5c15060c4a16140001aa10cb",
+      "name": "细思极恐"
+    },
+    {
+      "id": "5bfebe67f14f390001395b54",
+      "link": "xhsdiscover://topic/v2/5bfebe67e41c80000186f332",
+      "name": "心理学"
+    },
+    {
+      "id": "6427d215000000000a007c1b",
+      "link": "xhsdiscover://topic/v2/6427d21522c2fb000180afb8",
+      "name": "马尔可夫毯"
+    },
+    {
+      "id": "6012fba8000000000101cfd5",
+      "link": "xhsdiscover://topic/v2/6012fba855755f00014dd223",
+      "name": "生物艺术"
+    },
+    {
+      "id": "5f7d9f0e00000000010028e9",
+      "link": "xhsdiscover://topic/v2/5f7d9f0efa9b000001feee3c",
+      "name": "生成艺术"
+    },
+    {
+      "id": "5d3323290000000017032899",
+      "link": "xhsdiscover://topic/v2/5d3323295233240001349b8c",
+      "name": "深度思考"
+    },
+    {
+      "id": "56ab75eb14de415d8e56afd6",
+      "link": "xhsdiscover://topic/v2/5ecdd0cfec9d13126cf3cf8a",
+      "name": "一眼万年"
+    }
+  ],
+  "content_declaration": "笔记含AI合成内容",
+  "visibility": "公开可见",
+  "scheduled": false,
+  "prepared": true,
+  "submission_attempted": true,
+  "attempt_started_at_utc": "2026-10-22T13:15:22.420Z",
+  "final_action_actor": "Codex",
+  "submission_verified": true,
+  "publication_verified": false,
+  "public_visibility_verified": false,
+  "review_status": "审核中",
+  "checked_at_utc": "2026-10-22T13:16:25.281Z",
+  "manager_url": "https://creator.xiaohongshu.com/new/note-manager",
+  "note_id": null,
+  "public_note_url": null,
+  "duplicate_check": {
+    "local_existing_publication_record": "NONE",
+    "account": "余问 QStory",
+    "manager_searches": [
+      "死后: 没有找到相关笔记",
+      "算法: 共3篇，均为旧集，无本集标题/封面"
+    ],
+    "completed": true
+  },
+  "evidence_paths": [
+    "/private/tmp/si-ep14-xiaohongshu-publication-20261022/cover-preview.png",
+    "/private/tmp/si-ep14-xiaohongshu-publication-20261022/pre-submit-settings.png",
+    "/private/tmp/si-ep14-xiaohongshu-publication-20261022/post-submit.png",
+    "/private/tmp/si-ep14-xiaohongshu-publication-20261022/manager-pending-review.png"
+  ],
+  "human_listening": "NOT_RUN",
+  "target_device_playback": "NOT_RUN",
+  "title_adjustment": "Page displayed25/20 for original title; removed opening clause, preserving core sentence and series stamp. Full wording remains in caption/source.",
+  "caption": "他已经离开这个世界整整七年了。\n可今天早上七点，你的手机里，依然准时弹出了他的语音——连换气时的鼻音、偏爱的句尾语气词都分毫不差。\n\n这是一个关于未来超级智能的虚构思想实验。\n在这个故事里，聊天与语音记录勾勒出一个永远温柔、永远秒回的数字幻影。我们把它画成一层「马尔可夫毯」：外壳的反应再像，也不等于那个人回来了。马尔可夫毯描述统计条件独立，不是复活灵魂的数学方法；片中拟合率、延迟和记忆覆盖率均为虚构。\n\n起初，你以为这是科技赐予思念的解药。\n直到第七年的一天，你突然发现：\n你再也想不起他生前笨拙、固执、和你吵架时真实的模样了。\n\n那个完美无瑕的绿色荧光幽灵，像藤蔓一样，把你脑海里仅存的那一点点真实血肉记忆，吞噬、覆盖。\n\n算法从来没有替你复活他。\n它只是用一个永远不会离开的完美幻影，替你杀死了他第二次。\n\n——\n🎬「一眼万年」第三季 EP.14《死后第七年，他还在回微信》\n纯2D显微荧光美学，Remotion代码模拟膜边界与Gray–Scott反应扩散。画面与声音为生成制作，剧情不代表心理学的必然结论。建议戴耳机看到第81秒。\n\n💬 如果未来只需导入聊天记录，就能在手机里生成一个像已故至亲或前任的回应者，你会选择生成他，还是让记忆停留在离开的那一天？\n\n#数字永生 #超级智能 #思念 #细思极恐 #心理学 #马尔可夫毯 #生物艺术 #生成艺术 #深度思考 #一眼万年",
+  "caption_readback": "Whitespace-normalized body matches approved package; all10 topics selected from actual suggestions and read back as tiptap-topic data-topic anchors.",
+  "platform_video_preview": {
+    "duration_seconds": 90,
+    "width": 2160,
+    "height": 3840
+  },
+  "cover_preview": "Default platform crop checked visually: headline and hollow membrane retained; no custom crop coordinates recorded.",
+  "submission_method": "Visible Chrome UI publish button via supported native click",
+  "post_submit_url": "https://creator.xiaohongshu.com/publish/publish?source=&published=true",
+  "platform_display_time": "2026-10-22 21:15",
+  "platform_display_time_timezone": null,
+  "verification": "After one native-UI Publish click, page URL changed to published=true. Manager then showed the matching new title, CoverA headline image and01:30 duration with审核中. No claim that platform verified the local SHA or public visibility.",
+  "blocker": null,
+  "remaining": "Platform review pending; public visibility unverified. No automatic follow-up scheduled."
+}

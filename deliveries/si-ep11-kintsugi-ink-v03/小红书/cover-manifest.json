@@ -43,7 +43,10 @@
     "observations": "Complete two-line title, both hands, white hair and gold infinity remain visible in 3:4; no critical crop clipping. Platform reported 封面效果评估通过，未发现封面质量问题."
   },
   "v03PlatformWebPreview": {
-    "status": "NOT_RUN",
-    "note": "No v03 platform account operation has been performed."
+    "status": "MODEL_OBSERVED",
+    "observed_at_utc": "2026-10-22T00:08:18.093351+00:00",
+    "surface": "Xiaohongshu creator cover editor and feed mock preview",
+    "observations": "Complete two-line title, both hands, white hair and gold ring visible; cover quality check passed.",
+    "public_private_evidence_policy": "Account screenshots retained only in private temporary storage."
   }
 }

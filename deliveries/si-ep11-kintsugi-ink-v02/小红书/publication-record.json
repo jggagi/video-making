@@ -128,5 +128,15 @@
       "/private/tmp/ep11-v02-scheduled-0800-result.png",
       "/private/tmp/ep11-v02-scheduled-0800-result.txt"
     ]
+  },
+  "later_visibility_update": {
+    "work_replacement": "si-ep11-kintsugi-ink-v03",
+    "authorized_by": "User directly requested old same-title video off and new v03 on.",
+    "observed_at_utc": "2026-10-22T00:08:18.093351+00:00",
+    "status": "PRIVATE_VERIFIED",
+    "displayed_visibility": "仅自己可见",
+    "operation": "Reversible visibility change in creator manager; no permanent deletion",
+    "platform_toast": "权限设置修改成功",
+    "replacement_record": "deliveries/si-ep11-kintsugi-ink-v03/小红书/publication-record.json"
   }
 }

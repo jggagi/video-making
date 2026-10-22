@@ -34,6 +34,11 @@
   "continuousHumanReview": "NOT_RUN",
   "targetDevice": "NOT_RUN",
   "ordinaryAudienceFeedback": "NOT_RUN",
-  "platformAccountActions": "NOT_RUN",
-  "note": "The immutable editableZIP is the pre-upload source/QA snapshot; these post-upload receipts and completion records live in the canonical source repository."
+  "platformAccountActions": "NEW_SUBMITTED_UNDER_REVIEW_OLD_PRIVATE",
+  "note": "The immutable editableZIP is the pre-upload source/QA snapshot; these post-upload receipts and completion records live in the canonical source repository.",
+  "platformPublicationRecord": "小红书/publication-record.json",
+  "user_visual_feedback": {
+    "text": "视觉上很不错",
+    "source": "Direct user response after v03 delivery; visual approval only"
+  }
 }

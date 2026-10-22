@@ -1,0 +1,173 @@
+{
+  "platform": "小红书",
+  "work": "si-ep11-kintsugi-ink-v03",
+  "status": "NEW_SUBMITTED_UNDER_REVIEW_OLD_PRIVATE",
+  "account_display_name": "余问 QStory",
+  "authorization": {
+    "source": "User directly requested: 视觉上很不错，从小红书上下架之前的同名video，上架这个新的",
+    "authorized": true,
+    "scope": "Make previous same-title video private, publish this approved v03 now."
+  },
+  "title": "如果永远年轻，白头偕老还算誓言吗？",
+  "body_sha256": "f84bf3275abc6fd753c55f135884b04744e8740ab9a604a3e8e0c92766c8301f",
+  "planned_topics": [
+    "超级智能",
+    "抗衰老",
+    "白头偕老",
+    "数字金缮",
+    "科幻美学",
+    "数字艺术",
+    "深度思考",
+    "时间",
+    "一眼万年"
+  ],
+  "final_media": {
+    "path": "final/si-ep11-kintsugi-ink-v03/小红书/si-ep11-kintsugi-ink-v03-xiaohongshu-90s-portrait.mp4",
+    "bytes": 100931077,
+    "sha256": "8bc877ae8c69b76953e5eca1af056a4c851a1a7960473c73f5dd6e0771ba08e1",
+    "width": 2160,
+    "height": 3840,
+    "fps": 60,
+    "video_duration_seconds": 90
+  },
+  "cover": {
+    "path": "小红书/cover-3x4.png",
+    "sha256": "e89d65d718a65044ca0fb22bbc9158ca9d218daad399cfeba52e45c9ff8fd77e"
+  },
+  "previous_note": {
+    "note_id": "6ad78f82000000002900e27f",
+    "title": "如果永远年轻，白头偕老还算誓言吗？",
+    "displayed_time": "2026-10-21 08:00",
+    "duration": "01:30",
+    "visibility_change_attempted": true,
+    "private_verified": true,
+    "verified_at_utc": "2026-10-22T00:07:04.500758+00:00",
+    "displayed_visibility": "仅自己可见",
+    "platform_toast": "权限设置修改成功",
+    "method": "Reversible visibility change; no permanent deletion",
+    "private_evidence": [
+      "/private/tmp/ep11-v03-publication/old-private.png",
+      "/private/tmp/ep11-v03-publication/old-private.txt"
+    ]
+  },
+  "timing_plan": {
+    "kind": "publish_now",
+    "basis": "Latest direct request; prior 08:00 schedule is past."
+  },
+  "content_declaration_plan": "笔记含AI合成内容",
+  "visibility_plan": "公开可见",
+  "upload_attempted": true,
+  "submission_attempted": true,
+  "submission_verified": true,
+  "publication_verified": false,
+  "public_visibility_verified": false,
+  "recorded_at_utc": "2026-10-22T00:02:52.055595+00:00",
+  "qa": {
+    "media": "PASS; reused current completion and validation",
+    "final_file_identity": "fresh SHA256 and size match",
+    "user_visual_feedback": "视觉上很不错",
+    "human_listening": "NOT_RUN",
+    "target_device_playback": "NOT_RUN"
+  },
+  "account_actions_private_evidence": "Private temporary directory; never included in public repository.",
+  "pre_submit_check": {
+    "observed_at_utc": "2026-10-22T00:06:13.628141+00:00",
+    "account": "余问 QStory",
+    "uploaded_filename": "si-ep11-kintsugi-ink-v03-xiaohongshu-90s-portrait.mp4",
+    "preview_video": {
+      "width": 2160,
+      "height": 3840,
+      "duration_seconds": 90.005,
+      "ready_state": 4,
+      "error": null
+    },
+    "body_matches_ignoring_editor_whitespace": true,
+    "linked_topics": [
+      {
+        "id": "611e322d00000000010032ff",
+        "link": "xhsdiscover://topic/v2/611e322defd05b00013a00f8",
+        "name": "超级智能"
+      },
+      {
+        "id": "546b83f4d6e4a934fade87f3",
+        "link": "xhsdiscover://topic/v2/5be2bc7f65a68000010b1c69",
+        "name": "抗衰老"
+      },
+      {
+        "id": "5c75a14b000000000e029c01",
+        "link": "xhsdiscover://topic/v2/5c75a14b05723b000110ec49",
+        "name": "白头偕老"
+      },
+      {
+        "id": "6ad78f05000000002302f0e7",
+        "link": "xhsdiscover://topic/v2/6ad78f05023b000000000001",
+        "name": "数字金缮"
+      },
+      {
+        "id": "622337850000000001003d81",
+        "link": "xhsdiscover://topic/v2/62233785b74fce0001217a6a",
+        "name": "科幻美学"
+      },
+      {
+        "id": "5cf6304a000000000f00caa3",
+        "link": "xhsdiscover://topic/v2/5cf6304a98ea3a000109036c",
+        "name": "数字艺术"
+      },
+      {
+        "id": "5d3323290000000017032899",
+        "link": "xhsdiscover://topic/v2/5d3323295233240001349b8c",
+        "name": "深度思考"
+      },
+      {
+        "id": "5befea172634690001b6bb32",
+        "link": "xhsdiscover://topic/v2/5befea178dde1f0001448474",
+        "name": "时间"
+      },
+      {
+        "id": "56ab75eb14de415d8e56afd6",
+        "link": "xhsdiscover://topic/v2/5ecdd0cfec9d13126cf3cf8a",
+        "name": "一眼万年"
+      }
+    ],
+    "content_declaration": "笔记含AI合成内容",
+    "visibility": "公开可见",
+    "timer_enabled": false,
+    "cover_web_preview": "MODEL_OBSERVED: complete two-line title, both hands, white hair and gold ring visible; platform cover quality assessment passed",
+    "activity": "Automatically associated unrelated activity was canceled",
+    "private_evidence": [
+      "/private/tmp/ep11-v03-publication/preflight-settings.png",
+      "/private/tmp/ep11-v03-publication/preflight-body.json"
+    ],
+    "note": "No platform-transcode-byte identity or public visibility inferred from browser decoding."
+  },
+  "attempt_started_at_utc": "2026-10-22T00:07:04.500758+00:00",
+  "submission_dispatched_at_utc": "2026-10-22T00:07:17.949998+00:00",
+  "submission_result": "Publish UI returned published=true, then creator manager count increased13to14; new same-title90s note shows审核中 at2026-10-22 08:07, while prior2026-10-21 08:00 note shows仅自己可见.",
+  "verified_at_utc": "2026-10-22T00:08:18.093351+00:00",
+  "note_id": null,
+  "note_url": null,
+  "verification": {
+    "surface": "Xiaohongshu creator note manager",
+    "url": "https://creator.xiaohongshu.com/new/note-manager",
+    "account": "余问 QStory",
+    "matching_new_title": "如果永远年轻，白头偕老还算誓言吗？",
+    "new_displayed_status": "审核中",
+    "new_displayed_time": "2026-10-22 08:07",
+    "new_displayed_duration": "01:30",
+    "new_cover": "Matches uploaded hand, white-hair and gold-ring cover",
+    "old_displayed_visibility": "仅自己可见",
+    "old_displayed_time": "2026-10-21 08:00",
+    "note_count_before": 13,
+    "note_count_after": 14,
+    "private_evidence": [
+      "/private/tmp/ep11-v03-publication/new-review-pending.png",
+      "/private/tmp/ep11-v03-publication/result-manager.txt",
+      "/private/tmp/ep11-v03-publication/old-private.png"
+    ],
+    "identity_limit": "New note ID/public URL not exposed in observed pending-review row. Source file identity verified before upload; no platform transcode digest asserted."
+  },
+  "remaining": [
+    "Platform content review; public publication and public visibility have not yet been observed."
+  ],
+  "monitoring": "No repeated polling or automation requested; stopped after authoritative review-pending state."
+}

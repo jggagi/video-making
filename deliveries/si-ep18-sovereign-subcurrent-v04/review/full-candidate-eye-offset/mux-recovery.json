@@ -1,0 +1,15 @@
+{
+  "status": "RECOVERED_PASS",
+  "cause": "ffmpeg returned ENOSPC during internal partial mux; no formal movie created",
+  "renderReused": "/Volumes/AgentDev/Scratch/tmp/si-ep18-sovereign-subcurrent-v04-native-gEda0b/video-only.mp4",
+  "renderSha256": "ede6f40ebed1a706c579bf6b576b2b56c57e09621b81676e19bb1b46cb1a9dab",
+  "partialBytes": 6553648,
+  "partialSha256": "18e84b5c7040bf4ed35d35769b0ea05dd0ef01bae53c4d72cacc2cd8293d8200",
+  "partialPreservedAt": "/Volumes/AgentDev/Scratch/tmp/si-ep18-sovereign-subcurrent-v04-native-gEda0b/failed-internal-mux-partial.mp4",
+  "oldPartialRemovedOnlyAfterFullCopyHashVerification": true,
+  "oldVersionsModified": false,
+  "nextStep": "Mux on verified AgentDev scratch, then copy verified complete movie into delivery; no need to rerender or change narration.",
+  "formalMovieSha256": "718f95a6e6abab70ac9f2fda7edb25f5dc7bc51975cba5eb441c250adac3f350",
+  "formalMovieBytes": 31740998,
+  "verifiedExternalMuxThenLocalCopy": true
+}

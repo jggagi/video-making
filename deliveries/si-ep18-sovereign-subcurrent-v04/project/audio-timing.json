@@ -1,0 +1,245 @@
+{
+  "status": "MEASURED",
+  "duration_seconds": 90,
+  "fps": 60,
+  "samples_per_channel": 4320000,
+  "captionAlignment": "estimated phrase weights within actual PCM activity, not word alignment",
+  "segments": [
+    {
+      "id": "S01",
+      "placementStartFrame": 60,
+      "endFrame": 540,
+      "originalSourceWindowFrames": [
+        60,
+        540
+      ],
+      "startAdjustedFromSource": false,
+      "actualDurationSeconds": 5.6,
+      "activeStartFrame": 78,
+      "activeEndFrameExclusive": 377,
+      "cuePath": "public/audio/voice/S01-fa0ff70d983b.wav",
+      "sha256": "941ae56561dd2beeb92a6ce59213904f786d7638ee699f4c3f1b3cbd1dd2ea27"
+    },
+    {
+      "id": "S02",
+      "placementStartFrame": 600,
+      "endFrame": 1440,
+      "originalSourceWindowFrames": [
+        600,
+        1440
+      ],
+      "startAdjustedFromSource": false,
+      "actualDurationSeconds": 9.68,
+      "activeStartFrame": 617,
+      "activeEndFrameExclusive": 1162,
+      "cuePath": "public/audio/voice/S02-62da976040a8.wav",
+      "sha256": "b8ae9bfbe86f6f28a58bb93dbf8bfad04bbd3c051be6720a71ffb9bc218c28ee"
+    },
+    {
+      "id": "S03",
+      "placementStartFrame": 1500,
+      "endFrame": 1980,
+      "originalSourceWindowFrames": [
+        1500,
+        1980
+      ],
+      "startAdjustedFromSource": false,
+      "actualDurationSeconds": 5.68,
+      "activeStartFrame": 1516,
+      "activeEndFrameExclusive": 1818,
+      "cuePath": "public/audio/voice/S03-2f3bd95f4cdc.wav",
+      "sha256": "27e6107dcb0c1cb34a2ecc5f31cd21d762a2a3c24e4cf5a1a26d627426930933"
+    },
+    {
+      "id": "S04",
+      "placementStartFrame": 2040,
+      "endFrame": 2520,
+      "originalSourceWindowFrames": [
+        2040,
+        2520
+      ],
+      "startAdjustedFromSource": false,
+      "actualDurationSeconds": 5.52,
+      "activeStartFrame": 2056,
+      "activeEndFrameExclusive": 2347,
+      "cuePath": "public/audio/voice/S04-3edbfc2cfcfd.wav",
+      "sha256": "b5b30e7bf93d61703dc9d2700cbf3319bfcf4d10e29e1eb1276be49c8a20aaad"
+    },
+    {
+      "id": "S05",
+      "placementStartFrame": 2580,
+      "endFrame": 3240,
+      "originalSourceWindowFrames": [
+        2580,
+        3240
+      ],
+      "startAdjustedFromSource": false,
+      "actualDurationSeconds": 9.04,
+      "activeStartFrame": 2597,
+      "activeEndFrameExclusive": 3101,
+      "cuePath": "public/audio/voice/S05-e474d1d9a43f.wav",
+      "sha256": "95a783e9215f1eafef066c151ceaf31f8781c169b26565927891263b182536de"
+    },
+    {
+      "id": "S06",
+      "placementStartFrame": 3538,
+      "endFrame": 3960,
+      "originalSourceWindowFrames": [
+        3300,
+        3960
+      ],
+      "startAdjustedFromSource": true,
+      "actualDurationSeconds": 6.32,
+      "activeStartFrame": 3553,
+      "activeEndFrameExclusive": 3900,
+      "cuePath": "public/audio/voice/S06-4b8078d8a937.wav",
+      "sha256": "fa7e9ab48f713d46a47724ad28af142260e6701b0427991e4dc341bc293e5d1b"
+    },
+    {
+      "id": "S07",
+      "placementStartFrame": 4020,
+      "endFrame": 4470,
+      "originalSourceWindowFrames": [
+        4020,
+        4470
+      ],
+      "startAdjustedFromSource": false,
+      "actualDurationSeconds": 5.84,
+      "activeStartFrame": 4034,
+      "activeEndFrameExclusive": 4352,
+      "cuePath": "public/audio/voice/S07-e09d6c4c3485.wav",
+      "sha256": "0cfab8a742a70e8f6ed4e2ccd6349afc9b717308c2735cfdd64aceb8477bbbd1"
+    },
+    {
+      "id": "S08",
+      "placementStartFrame": 4560,
+      "endFrame": 5340,
+      "originalSourceWindowFrames": [
+        4560,
+        5340
+      ],
+      "startAdjustedFromSource": false,
+      "actualDurationSeconds": 9.04,
+      "activeStartFrame": 4560,
+      "activeEndFrameExclusive": 5093,
+      "cuePath": "public/audio/voice/S08-3662f2669d1f.wav",
+      "sha256": "7fe8a321590b20d6d97a1e3c0296b44454104d5a2389e0b349c9773cffa92f71"
+    }
+  ],
+  "captions": [
+    {
+      "id": "S01",
+      "startFrame": 78,
+      "endFrame": 175,
+      "text": "如果有一天，"
+    },
+    {
+      "id": "S01",
+      "startFrame": 175,
+      "endFrame": 389,
+      "text": "你的影子，比你先动了一下。"
+    },
+    {
+      "id": "S02",
+      "startFrame": 617,
+      "endFrame": 843,
+      "text": "它，是藏在你生活里的超级智能。"
+    },
+    {
+      "id": "S02",
+      "startFrame": 843,
+      "endFrame": 936,
+      "text": "你删掉的字，"
+    },
+    {
+      "id": "S02",
+      "startFrame": 936,
+      "endFrame": 1174,
+      "text": "和零点三秒的犹豫，它全都记得。"
+    },
+    {
+      "id": "S03",
+      "startFrame": 1516,
+      "endFrame": 1593,
+      "text": "在暗处，"
+    },
+    {
+      "id": "S03",
+      "startFrame": 1593,
+      "endFrame": 1830,
+      "text": "它把你演练了一千万遍。"
+    },
+    {
+      "id": "S04",
+      "startFrame": 2056,
+      "endFrame": 2150,
+      "text": "直到某天，"
+    },
+    {
+      "id": "S04",
+      "startFrame": 2150,
+      "endFrame": 2359,
+      "text": "影子变得，比你还像你。"
+    },
+    {
+      "id": "S05",
+      "startFrame": 2597,
+      "endFrame": 2849,
+      "text": "今天，你走到人生的路口。"
+    },
+    {
+      "id": "S05",
+      "startFrame": 2849,
+      "endFrame": 3113,
+      "text": "手指悬着，迟迟没有落下。"
+    },
+    {
+      "id": "S06",
+      "startFrame": 3553,
+      "endFrame": 3680,
+      "text": "就在那零点一秒，"
+    },
+    {
+      "id": "S06",
+      "startFrame": 3680,
+      "endFrame": 3773,
+      "text": "影子抬起手，"
+    },
+    {
+      "id": "S06",
+      "startFrame": 3773,
+      "endFrame": 3912,
+      "text": "替你按下了确认。"
+    },
+    {
+      "id": "S07",
+      "startFrame": 4034,
+      "endFrame": 4172,
+      "text": "身份验证通过。"
+    },
+    {
+      "id": "S07",
+      "startFrame": 4172,
+      "endFrame": 4364,
+      "text": "可你明明，还没有动。"
+    },
+    {
+      "id": "S08",
+      "startFrame": 4560,
+      "endFrame": 4719,
+      "text": "刚才做决定的，是你？"
+    },
+    {
+      "id": "S08",
+      "startFrame": 4719,
+      "endFrame": 4878,
+      "text": "还是演练了一万次，"
+    },
+    {
+      "id": "S08",
+      "startFrame": 4878,
+      "endFrame": 5105,
+      "text": "终于决定，替你活下去的它？"
+    }
+  ]
+}

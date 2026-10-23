@@ -1,0 +1,372 @@
+{
+  "schemaVersion": 1,
+  "createdAtUtc": "2026-10-23T12:08:16+00:00",
+  "work": {
+    "id": "si-ep18-sovereign-subcurrent-v04",
+    "title": "心印潜流 · 人与影 · v04",
+    "platform": "xiaohongshu"
+  },
+  "status": "SOURCE_CHECKS_PASS",
+  "movie": {
+    "status": "PENDING_UNTIL_ACTUAL_FILE_EXISTS",
+    "path": "小红书/si-ep18-sovereign-subcurrent-v04-xiaohongshu-90s-portrait.mp4"
+  },
+  "checks": [
+    {
+      "name": "read_delivery",
+      "status": "PASS",
+      "details": {
+        "sha256": "9eb5a30234b79f93d9aad280ba9d04e96fa30e431d604d086ae56b4ca21d827e",
+        "bytes": 1225,
+        "stableDuringHash": true
+      }
+    },
+    {
+      "name": "read_contentChecklist",
+      "status": "PASS",
+      "details": {
+        "sha256": "138f8bb1e646fe036ea4f28d171d1c3c94d1cde241158ce08033266158a23884",
+        "bytes": 2238,
+        "stableDuringHash": true
+      }
+    },
+    {
+      "name": "read_renderPlan",
+      "status": "PASS",
+      "details": {
+        "sha256": "1e2b5c005be98587c8fd427bc8f7ca39230e2e7f4e5842e022e6724a1934d0f4",
+        "bytes": 3005,
+        "stableDuringHash": true
+      }
+    },
+    {
+      "name": "read_segments",
+      "status": "PASS",
+      "details": {
+        "sha256": "70e28b075a28852165c52d75e583163a6b73046c8a2867e936bb21b10638cbfb",
+        "bytes": 2726,
+        "stableDuringHash": true
+      }
+    },
+    {
+      "name": "read_captions",
+      "status": "PASS",
+      "details": {
+        "sha256": "e7f394ff062803ef6aec693de675d60cb80e334cc4d8dcf84231e359b3d3920d",
+        "bytes": 2189,
+        "stableDuringHash": true
+      }
+    },
+    {
+      "name": "read_audioPlan",
+      "status": "PASS",
+      "details": {
+        "sha256": "70b75c31a0d9bedae55a15b54c85b2fb926e5a747512759c465c80623e07d203",
+        "bytes": 835,
+        "stableDuringHash": true
+      }
+    },
+    {
+      "name": "read_audioTiming",
+      "status": "PASS",
+      "details": {
+        "sha256": "f8dfc7e91b83d1d0ec42f0ab9a860ccd78197ef50d02d8324838750cc8793cf6",
+        "bytes": 6285,
+        "stableDuringHash": true
+      }
+    },
+    {
+      "name": "read_timeline",
+      "status": "PASS",
+      "details": {
+        "sha256": "b70668527737261c6b8564eef452059956151c1c2bdb57c411f3b3f7dfc17d0b",
+        "bytes": 3119,
+        "stableDuringHash": true
+      }
+    },
+    {
+      "name": "read_sfxEvents",
+      "status": "PASS",
+      "details": {
+        "sha256": "7afac5731856eb19348698e31852b734f53abf0c45c385f1e7e6b4dd698f24c1",
+        "bytes": 1722,
+        "stableDuringHash": true
+      }
+    },
+    {
+      "name": "delivery_identity_and_duration",
+      "status": "PASS",
+      "details": {
+        "id": "si-ep18-sovereign-subcurrent-v04",
+        "title": "心印潜流 · 人与影 · v04",
+        "platforms": [
+          "xiaohongshu"
+        ],
+        "durationSeconds": 90,
+        "fps": 60,
+        "frames": 5400
+      }
+    },
+    {
+      "name": "original_script_preserved_byte_hash",
+      "status": "PASS",
+      "details": {
+        "path": "source/script.md",
+        "expectedSha256": "21575f4aea7ba22074a0ce941400303ebf02839fcf045a27467893ac08774bea",
+        "sha256": "21575f4aea7ba22074a0ce941400303ebf02839fcf045a27467893ac08774bea",
+        "bytes": 15816,
+        "stableDuringHash": true
+      }
+    },
+    {
+      "name": "user_revision_retained",
+      "status": "PASS",
+      "details": {
+        "path": "project/adapted-script.md",
+        "exists": true
+      }
+    },
+    {
+      "name": "eight_current_narration_cues",
+      "status": "PASS",
+      "details": {
+        "ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04",
+          "S05",
+          "S06",
+          "S07",
+          "S08"
+        ],
+        "characterCountIncludingPunctuation": 181,
+        "expectedCharacterCount": 181,
+        "displayEqualsTts": true,
+        "requiredStoryNumbersPresent": true
+      }
+    },
+    {
+      "name": "retained_revision_matches_current_cues",
+      "status": "PASS",
+      "details": {
+        "path": "project/adapted-script.md",
+        "matchesAllEightCues": true
+      }
+    },
+    {
+      "name": "natural_rate_one_narration",
+      "status": "PASS",
+      "details": {
+        "rate": 1.0,
+        "instruction": "中文科幻悬疑旁白，常速，沉稳、有分量、情绪克制。以自然说话的节奏完整朗读，逗号短停，句号留出呼吸，疑问处轻轻停顿。不要赶字，不要广告腔，不要耳语，不增删文字。",
+        "naturalPaceSpecified": true,
+        "briskPaceSpecified": false
+      }
+    },
+    {
+      "name": "native_portrait_composition_contract",
+      "status": "PASS",
+      "details": {
+        "composition": {
+          "id": "PortraitVertical",
+          "component": "Film",
+          "width": 2160,
+          "height": 3840,
+          "fps": 60,
+          "durationInFrames": 5400,
+          "logicalCanvas": {
+            "width": 1080,
+            "height": 1920
+          },
+          "imageFormat": "png",
+          "renderConcurrency": 1
+        },
+        "output": "小红书/si-ep18-sovereign-subcurrent-v04-xiaohongshu-90s-portrait.mp4"
+      }
+    },
+    {
+      "name": "composition_source_matches_plan",
+      "status": "PASS",
+      "details": {
+        "source": "project/src/Root.tsx",
+        "matchesPlan": true
+      }
+    },
+    {
+      "name": "human_shadow_scene_source_contract",
+      "status": "PASS",
+      "details": {
+        "source": "project/src/Scene.tsx",
+        "hasRequiredHelpers": [
+          "drawHuman",
+          "drawShadowLink",
+          "drawDecisionImpulse",
+          "drawRoleExchange"
+        ],
+        "sourceContractOnly": true
+      }
+    },
+    {
+      "name": "mobile_caption_source_contract",
+      "status": "PASS",
+      "details": {
+        "source": "project/src/Film.tsx",
+        "fontSize": 45.0,
+        "minimumFontSize": 43,
+        "maximumRows": 2,
+        "maximumCharactersPerRow": 17
+      }
+    },
+    {
+      "name": "cover_source_frames_match_plan",
+      "status": "PASS",
+      "details": {
+        "plannedCoverFrames": {
+          "A": 3820,
+          "B": 4920
+        },
+        "sourceMatchesPlan": true
+      }
+    },
+    {
+      "name": "caption_text_and_mobile_layout",
+      "status": "PASS",
+      "details": {
+        "captionCount": 19,
+        "cueCaptionCounts": {
+          "S01": 2,
+          "S02": 3,
+          "S03": 2,
+          "S04": 2,
+          "S05": 2,
+          "S06": 3,
+          "S07": 2,
+          "S08": 3
+        },
+        "maxRows": 2,
+        "maxCharactersPerRow": 17,
+        "issues": []
+      }
+    },
+    {
+      "name": "timeline_story_anchors",
+      "status": "PASS",
+      "details": {
+        "confirm": 3900,
+        "silenceRangeHalfOpen": [
+          4500,
+          4530
+        ],
+        "doubleHeartbeat": 4530,
+        "cyanEyeFromFrame": 5010,
+        "sceneCount": 8,
+        "contiguousSceneWindows": true,
+        "sfxSilenceRangeFrames": [
+          4500,
+          4530
+        ]
+      }
+    },
+    {
+      "name": "measured_audio_timing_follows_current_cue_anchors",
+      "status": "PASS",
+      "details": {
+        "s06CurrentStartFrame": 3538,
+        "s06OriginalWindowPreserved": [
+          3300,
+          3960
+        ],
+        "s06MeasuredActiveEndFrameExclusive": 3900,
+        "confirmFrame": 3900
+      }
+    },
+    {
+      "name": "actual_movie_file",
+      "status": "PENDING",
+      "details": {
+        "path": "小红书/si-ep18-sovereign-subcurrent-v04-xiaohongshu-90s-portrait.mp4",
+        "reason": "final movie does not exist yet"
+      }
+    }
+  ],
+  "inputFiles": {
+    "delivery.json": {
+      "sha256": "9eb5a30234b79f93d9aad280ba9d04e96fa30e431d604d086ae56b4ca21d827e",
+      "bytes": 1225,
+      "stableDuringHash": true
+    },
+    "project/content-checklist.json": {
+      "sha256": "138f8bb1e646fe036ea4f28d171d1c3c94d1cde241158ce08033266158a23884",
+      "bytes": 2238,
+      "stableDuringHash": true
+    },
+    "project/render-plan.json": {
+      "sha256": "1e2b5c005be98587c8fd427bc8f7ca39230e2e7f4e5842e022e6724a1934d0f4",
+      "bytes": 3005,
+      "stableDuringHash": true
+    },
+    "project/segments.json": {
+      "sha256": "70e28b075a28852165c52d75e583163a6b73046c8a2867e936bb21b10638cbfb",
+      "bytes": 2726,
+      "stableDuringHash": true
+    },
+    "project/captions.json": {
+      "sha256": "e7f394ff062803ef6aec693de675d60cb80e334cc4d8dcf84231e359b3d3920d",
+      "bytes": 2189,
+      "stableDuringHash": true
+    },
+    "project/audio-plan.json": {
+      "sha256": "70b75c31a0d9bedae55a15b54c85b2fb926e5a747512759c465c80623e07d203",
+      "bytes": 835,
+      "stableDuringHash": true
+    },
+    "project/audio-timing.json": {
+      "sha256": "f8dfc7e91b83d1d0ec42f0ab9a860ccd78197ef50d02d8324838750cc8793cf6",
+      "bytes": 6285,
+      "stableDuringHash": true
+    },
+    "project/timeline.json": {
+      "sha256": "b70668527737261c6b8564eef452059956151c1c2bdb57c411f3b3f7dfc17d0b",
+      "bytes": 3119,
+      "stableDuringHash": true
+    },
+    "project/sfx_events.json": {
+      "sha256": "7afac5731856eb19348698e31852b734f53abf0c45c385f1e7e6b4dd698f24c1",
+      "bytes": 1722,
+      "stableDuringHash": true
+    },
+    "source/script.md": {
+      "sha256": "21575f4aea7ba22074a0ce941400303ebf02839fcf045a27467893ac08774bea",
+      "bytes": 15816,
+      "stableDuringHash": true
+    },
+    "project/adapted-script.md": {
+      "sha256": "9aa917c5e5380eb920644d35ca63be300b8505628e9b02b6307d1200f2eb5004",
+      "bytes": 658,
+      "stableDuringHash": true
+    },
+    "project/src/Root.tsx": {
+      "sha256": "6afabde516cfa9c768e0aa8c6ab136d64a44a7c084c58d83a0b4f69025a9880a",
+      "bytes": 299,
+      "stableDuringHash": true
+    },
+    "project/src/Film.tsx": {
+      "sha256": "0708579da1659aa2b9e711ab70a9a3fbca34361e3e74f8366ebaf1b582ca4d16",
+      "bytes": 4176,
+      "stableDuringHash": true
+    },
+    "project/src/Scene.tsx": {
+      "sha256": "eea0fbabe70113185c060052a9c6c0f2814761ed2a5e6187e5baf8724a194b36",
+      "bytes": 31215,
+      "stableDuringHash": true
+    }
+  },
+  "humanAcceptance": {
+    "representativeFrames": "PENDING",
+    "continuousHumanReview": "PENDING",
+    "targetDevicePlayback": "PENDING",
+    "accountPublication": "NOT_SUBMITTED"
+  },
+  "scope": "Source and manifest checks only. This report does not accept the human visuals, narration performance, continuous playback, or target-device experience."
+}

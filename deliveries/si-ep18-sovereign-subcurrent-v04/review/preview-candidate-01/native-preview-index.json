@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "work": {
+    "id": "si-ep18-sovereign-subcurrent-v04",
+    "title": "心印潜流 · 人与影 · v04"
+  },
+  "intervalConvention": "[startFrame,endFrameExclusive)",
+  "previews": [
+    {
+      "path": "review/motion-60-539.mp4",
+      "label": "opening shadow leads and full first narration cue",
+      "absoluteFramesHalfOpen": [
+        60,
+        540
+      ],
+      "absoluteFramesInclusive": [
+        60,
+        539
+      ],
+      "sha256": "444948b50b5776e6e6287496ad6fb466b66529ff0d223c2515301826dbd273ea",
+      "bytes": 2794973,
+      "audioSource": "project/public/audio/master.wav",
+      "audioMasterSha256": "5f04aa43471dec6b57b35d64ae8fe126646f43e14274461ad2df6cdfc957f658",
+      "audioSourceSamplesPerChannelHalfOpen": [
+        48000,
+        432000
+      ]
+    },
+    {
+      "path": "review/motion-3600-4019.mp4",
+      "label": "shadow presses confirm",
+      "absoluteFramesHalfOpen": [
+        3600,
+        4020
+      ],
+      "absoluteFramesInclusive": [
+        3600,
+        4019
+      ],
+      "sha256": "e1ad010427d87669a878cf4b98a242a9094e1ca62187849f893b8f4ffa8b6d35",
+      "bytes": 2491705,
+      "audioSource": "project/public/audio/master.wav",
+      "audioMasterSha256": "5f04aa43471dec6b57b35d64ae8fe126646f43e14274461ad2df6cdfc957f658",
+      "audioSourceSamplesPerChannelHalfOpen": [
+        2880000,
+        3216000
+      ]
+    },
+    {
+      "path": "review/motion-4500-5159.mp4",
+      "label": "silence and full final narration cue",
+      "absoluteFramesHalfOpen": [
+        4500,
+        5160
+      ],
+      "absoluteFramesInclusive": [
+        4500,
+        5159
+      ],
+      "sha256": "0c6c4085313b8e5ee454b4c394e278ab793b4cf2c3ee9ac7fb76b39d336e8474",
+      "bytes": 3270436,
+      "audioSource": "project/public/audio/master.wav",
+      "audioMasterSha256": "5f04aa43471dec6b57b35d64ae8fe126646f43e14274461ad2df6cdfc957f658",
+      "audioSourceSamplesPerChannelHalfOpen": [
+        3600000,
+        4128000
+      ]
+    }
+  ],
+  "master": {
+    "path": "project/public/audio/master.wav",
+    "sha256": "5f04aa43471dec6b57b35d64ae8fe126646f43e14274461ad2df6cdfc957f658",
+    "format": {
+      "sampleRateHz": 48000,
+      "channels": 2,
+      "sampleWidthBytes": 2,
+      "sampleFramesPerChannel": 4320000,
+      "compression": "NONE"
+    },
+    "sourceClock": "Preview audio uses its absolute frame range from the current PCM master."
+  },
+  "acceptance": {
+    "representativeVisualReview": "PENDING",
+    "continuousHumanReview": "PENDING",
+    "targetDevicePlayback": "PENDING"
+  }
+}

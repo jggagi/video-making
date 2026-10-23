@@ -1,0 +1,91 @@
+[
+  {
+    "id": "S01",
+    "startFrame": 60,
+    "endFrame": 540,
+    "display_subtitle": "如果有一天，你的影子，比你先动了一下。",
+    "tts_phonetic_text": "如果有一天，你的影子，比你先动了一下。",
+    "originalWindow": [
+      60,
+      540
+    ]
+  },
+  {
+    "id": "S02",
+    "startFrame": 600,
+    "endFrame": 1440,
+    "display_subtitle": "它，是藏在你生活里的超级智能。你删掉的字，和零点三秒的犹豫，它全都记得。",
+    "tts_phonetic_text": "它，是藏在你生活里的超级智能。你删掉的字，和零点三秒的犹豫，它全都记得。",
+    "originalWindow": [
+      600,
+      1440
+    ]
+  },
+  {
+    "id": "S03",
+    "startFrame": 1500,
+    "endFrame": 1980,
+    "display_subtitle": "在暗处，它把你演练了一千万遍。",
+    "tts_phonetic_text": "在暗处，它把你演练了一千万遍。",
+    "originalWindow": [
+      1500,
+      1980
+    ]
+  },
+  {
+    "id": "S04",
+    "startFrame": 2040,
+    "endFrame": 2520,
+    "display_subtitle": "直到某天，影子变得，比你还像你。",
+    "tts_phonetic_text": "直到某天，影子变得，比你还像你。",
+    "originalWindow": [
+      2040,
+      2520
+    ]
+  },
+  {
+    "id": "S05",
+    "startFrame": 2580,
+    "endFrame": 3240,
+    "display_subtitle": "今天，你走到人生的路口。手指悬着，迟迟没有落下。",
+    "tts_phonetic_text": "今天，你走到人生的路口。手指悬着，迟迟没有落下。",
+    "originalWindow": [
+      2580,
+      3240
+    ]
+  },
+  {
+    "id": "S06",
+    "startFrame": 3538,
+    "endFrame": 3960,
+    "display_subtitle": "就在那零点一秒，影子抬起手，替你按下了确认。",
+    "tts_phonetic_text": "就在那零点一秒，影子抬起手，替你按下了确认。",
+    "originalWindow": [
+      3300,
+      3960
+    ],
+    "timingReason": "Measured PCM active end is362frames aftercueanchor; shiftanchor238frames so the spoken confirmation endsat3900, matching the shadowbuttoncontact; waveform unchanged."
+  },
+  {
+    "id": "S07",
+    "startFrame": 4020,
+    "endFrame": 4470,
+    "display_subtitle": "身份验证通过。可你明明，还没有动。",
+    "tts_phonetic_text": "身份验证通过。可你明明，还没有动。",
+    "originalWindow": [
+      4020,
+      4470
+    ]
+  },
+  {
+    "id": "S08",
+    "startFrame": 4560,
+    "endFrame": 5340,
+    "display_subtitle": "刚才做决定的，是你？还是演练了一万次，终于决定，替你活下去的它？",
+    "tts_phonetic_text": "刚才做决定的，是你？还是演练了一万次，终于决定，替你活下去的它？",
+    "originalWindow": [
+      4560,
+      5340
+    ]
+  }
+]

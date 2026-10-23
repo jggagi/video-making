@@ -1,0 +1,10 @@
+{
+  "authorized": true,
+  "provider": "Aliyun Bailian",
+  "model": "qwen-audio-3.0-tts-plus",
+  "voice": "qwen-audio-3.0-tts-plus-longlangmoyue",
+  "scope": "EP18 v04 exact current S01-S08 prepared narration at rate 1.0",
+  "source": "Direct human confirmation in this chat on 2026-10-23 after reviewing v04 adapted-script.md: 授权，生成 v04 常速八段配音. Covers only the current eight181-character narration texts sent to Aliyun Bailian qwen-audio-3.0-tts-plus / qwen-audio-3.0-tts-plus-longlangmoyue at rate1.0 and routine TTS fees. No audio/video/private-material upload, ASR, cloning, other provider or account publication.",
+  "ordered_text_sha256": "da4ac535cfec9f2a6ffc3188f5aeceffb76a9fb1cf57a88f472fdcc67e97ca96",
+  "initial_auto_review": "Initial S01 request rejected because v03 exact-text consent did not cover rewritten v04 text; direct explicit v04 consent then obtained before retry."
+}

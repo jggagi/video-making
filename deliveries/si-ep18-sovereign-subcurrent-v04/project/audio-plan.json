@@ -1,0 +1,9 @@
+{
+  "model": "qwen-audio-3.0-tts-plus",
+  "voice": "qwen-audio-3.0-tts-plus-longlangmoyue",
+  "sample_rate": 24000,
+  "format": "wav",
+  "rate": 1.0,
+  "instruction": "中文科幻悬疑旁白，常速，沉稳、有分量、情绪克制。以自然说话的节奏完整朗读，逗号短停，句号留出呼吸，疑问处轻轻停顿。不要赶字，不要广告腔，不要耳语，不增删文字。",
+  "authorization": "Direct human confirmation in this chat on 2026-10-23 after reviewing v04 adapted-script.md: 授权，生成 v04 常速八段配音. Covers only the current eight181-character narration texts sent to Aliyun Bailian qwen-audio-3.0-tts-plus / qwen-audio-3.0-tts-plus-longlangmoyue at rate1.0 and routine TTS fees. No audio/video/private-material upload, ASR, cloning, other provider or account publication."
+}

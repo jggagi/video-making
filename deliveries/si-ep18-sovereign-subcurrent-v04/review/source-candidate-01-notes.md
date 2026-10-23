@@ -1,0 +1,1 @@
+First source still study only, not final media. Root found opening SVG title inherited the SVG default black fill, and the initial human head silhouette was too elongated. Fixed explicit ivory SVG fill and compressed head profile around its neck anchor; other depicted geometry retained. Retained these rejected source studies for provenance.

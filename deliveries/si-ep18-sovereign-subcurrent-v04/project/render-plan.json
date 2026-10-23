@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "work": {
+    "id": "si-ep18-sovereign-subcurrent-v04",
+    "title": "心印潜流 · 人与影 · v04",
+    "platform": "xiaohongshu"
+  },
+  "output": {
+    "path": "小红书/si-ep18-sovereign-subcurrent-v04-xiaohongshu-90s-portrait.mp4"
+  },
+  "composition": {
+    "id": "PortraitVertical",
+    "component": "Film",
+    "width": 2160,
+    "height": 3840,
+    "fps": 60,
+    "durationInFrames": 5400,
+    "logicalCanvas": {
+      "width": 1080,
+      "height": 1920
+    },
+    "imageFormat": "png",
+    "renderConcurrency": 1
+  },
+  "sceneContract": {
+    "export": "drawScene(context, frame)",
+    "requiredHumanShadowHelpers": [
+      "drawHuman",
+      "drawShadowLink",
+      "drawDecisionImpulse",
+      "drawRoleExchange"
+    ],
+    "stageBoundsLogical": {
+      "x": [
+        90,
+        900
+      ],
+      "y": [
+        430,
+        1290
+      ]
+    },
+    "titleSafeY": [
+      180,
+      410
+    ],
+    "subtitleSafeY": [
+      1375,
+      1490
+    ]
+  },
+  "content": {
+    "segmentCount": 8,
+    "requiredNarrationCharacterCount": 181
+  },
+  "frames": {
+    "stillFrameNumbers": [
+      0,
+      180,
+      600,
+      840,
+      1440,
+      1800,
+      2400,
+      2760,
+      3300,
+      3660,
+      3820,
+      3899,
+      3900,
+      4020,
+      4500,
+      4530,
+      4920,
+      5280,
+      5399
+    ],
+    "segmentRepresentativePairs": {
+      "intervalConvention": "[startFrame,endFrame)",
+      "startOffsetFrames": 30,
+      "gapFrames": 150
+    },
+    "coverFrames": {
+      "A": 3820,
+      "B": 4920
+    },
+    "nativeReviewFrames": [
+      {
+        "frame": 1800,
+        "label": "shadow rehearsal"
+      },
+      {
+        "frame": 3820,
+        "label": "shadow reaches confirmation"
+      },
+      {
+        "frame": 4920,
+        "label": "human and shadow after the exchange"
+      },
+      {
+        "frame": 5280,
+        "label": "visible cyan eye in the forward figure"
+      }
+    ],
+    "anchors": {
+      "confirm": 3900,
+      "silenceRangeHalfOpen": [
+        4500,
+        4530
+      ],
+      "doubleHeartbeat": 4530,
+      "cyanEyeDetailFromFrame": 5010
+    }
+  },
+  "previews": {
+    "intervalConvention": "[startFrame,endFrameExclusive)",
+    "nativeRanges": [
+      {
+        "startFrame": 60,
+        "endFrameExclusive": 540,
+        "label": "opening shadow leads and full first narration cue"
+      },
+      {
+        "startFrame": 3600,
+        "endFrameExclusive": 4020,
+        "label": "shadow presses confirm"
+      },
+      {
+        "startFrame": 4500,
+        "endFrameExclusive": 5160,
+        "label": "silence and full final narration cue"
+      }
+    ],
+    "audioClock": "Use the current stereo 48 kHz PCM master at the same absolute frame offset."
+  },
+  "capture": {
+    "codec": "h264",
+    "audioCodec": "aac",
+    "audioSampleRateHz": 48000,
+    "audioChannels": 2,
+    "pixelFormat": "yuv420p",
+    "colorSpace": "bt709",
+    "scale": 1,
+    "concurrency": 1
+  }
+}

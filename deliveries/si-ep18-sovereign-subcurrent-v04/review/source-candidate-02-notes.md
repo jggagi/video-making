@@ -1,0 +1,1 @@
+Second source study fixed title/head; root increased the articulated figure scale by20percent around its foot anchor so the human and shadow occupy more mobile screen space. World-space hand targets preserved. This candidate is not final media.

@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "workId": "si-ep18-sovereign-subcurrent-v04",
+  "sourcePreservation": {
+    "originalScriptPath": "source/script.md",
+    "hashSource": "delivery.json:script.sha256",
+    "mustMatchByteHash": true,
+    "userRevisionPath": "project/adapted-script.md",
+    "revisionMustBeRetained": true
+  },
+  "narration": {
+    "segmentCount": 8,
+    "orderedIds": [
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "S05",
+      "S06",
+      "S07",
+      "S08"
+    ],
+    "characterCount": 181,
+    "characterCountBasis": "Concatenate the eight display_subtitle values in order; count Unicode characters including punctuation and excluding no characters.",
+    "ttsTextMustExactlyMatchDisplaySubtitle": true,
+    "requiredStoryNumbers": [
+      [
+        "零点三秒",
+        "0.3秒"
+      ],
+      [
+        "零点一秒",
+        "0.1秒"
+      ],
+      [
+        "一千万",
+        "1000万"
+      ],
+      [
+        "一万次",
+        "10000次"
+      ]
+    ],
+    "audioPlanRate": 1.0,
+    "audioInstructionMustDescribeNaturalPace": true,
+    "audioInstructionMustNotSpecifyBriskPace": true
+  },
+  "scene": {
+    "compositionId": "PortraitVertical",
+    "component": "Film",
+    "width": 2160,
+    "height": 3840,
+    "fps": 60,
+    "durationInFrames": 5400,
+    "drawSceneExport": "drawScene(context, frame)",
+    "requiredHumanShadowHelpers": [
+      "drawHuman",
+      "drawShadowLink",
+      "drawDecisionImpulse",
+      "drawRoleExchange"
+    ],
+    "captionMinimumFontSize": 43,
+    "captionMaximumRows": 2,
+    "captionMaximumCharactersPerRow": 17
+  },
+  "storyAnchors": {
+    "confirmFrame": 3900,
+    "silenceRangeHalfOpen": [
+      4500,
+      4530
+    ],
+    "doubleHeartbeatFrame": 4530,
+    "cyanEyeDetailFromFrame": 5010,
+    "coverFrames": {
+      "A": 3820,
+      "B": 4920
+    }
+  },
+  "acceptance": {
+    "movie": "PENDING_UNTIL_ACTUAL_FILE_EXISTS",
+    "representativeVisualReview": "PENDING",
+    "continuousHumanReview": "PENDING",
+    "targetDevicePlayback": "PENDING",
+    "accountPublication": "NOT_SUBMITTED"
+  },
+  "scope": "Source criteria only. Passing these checks does not accept the human visuals, narration performance, continuous playback, or target-device experience."
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "title": "心印潜流 · 人与影 · v04",
+  "slug": "si-ep18-sovereign-subcurrent-v04",
+  "platforms": [
+    "xiaohongshu"
+  ],
+  "duration_seconds": 90,
+  "fps": 60,
+  "total_frames": 5400,
+  "script": {
+    "path": "source/script.md",
+    "sha256": "21575f4aea7ba22074a0ce941400303ebf02839fcf045a27467893ac08774bea"
+  },
+  "audio": {
+    "mode": "narrated",
+    "master": "project/public/audio/master.wav"
+  },
+  "outputs": {
+    "xiaohongshu": {
+      "path": "小红书/si-ep18-sovereign-subcurrent-v04-xiaohongshu-90s-portrait.mp4",
+      "width": 2160,
+      "height": 3840
+    }
+  },
+  "qa": {
+    "automated": "pass",
+    "representative_frames": "model_review_pass_with_limitation",
+    "continuous_human_review": "pending",
+    "target_device_playback": "pending"
+  },
+  "visual_qc": {
+    "required": true,
+    "reports": {
+      "xiaohongshu": "review/visual-qc-xiaohongshu/report.json"
+    }
+  },
+  "production_notes": {
+    "revision": "Direct user feedback: narration too fast; represent the story with one human and his SI shadow. Rewritten concise narration, natural rate1.0, human silhouette replaces abstract fingerprint. Prior editions preserved.",
+    "account_publication": "NOT_SUBMITTED",
+    "eye_correction": "Native review found the cyan core outside the face after head reproportion. Both eye arc centers moved from x24 to x10 within the deterministic head frame. Prior full candidate retained under review/full-candidate-eye-offset; corrected full native render and mux completed.",
+    "narration": "Eight rewritten cues,181 display characters including punctuation; authorized Bailian Qwen Plus/LongLangMoYue TTS at rate1.0. No waveform speedup or word trimming.",
+    "selected_cover": "小红书/cover-B-headline.png",
+    "visual_treatment": "Personified stage shadow, not a realistic cast projection. Independent reviewer noted isolated static frames can read as two upright characters; opening text, cyan labeling and narration establish the relationship. Audience comprehension remains pending.",
+    "caption_timing": "PCM activity-boundary phrase estimates, not ASR word alignment."
+  },
+  "final_movie_sha256": "8dc2486d7936e9547e29e087de0b5d3bd9b4037bacaf10fbaaa47f8d44500bdb"
+}

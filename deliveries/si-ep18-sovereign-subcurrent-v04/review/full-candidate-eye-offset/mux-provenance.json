@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "work": "si-ep18-sovereign-subcurrent-v04",
+  "title": "心印潜流 · 人与影 · v04",
+  "platform": "xiaohongshu",
+  "movie": "小红书/si-ep18-sovereign-subcurrent-v04-xiaohongshu-90s-portrait.mp4",
+  "movieSha256": "718f95a6e6abab70ac9f2fda7edb25f5dc7bc51975cba5eb441c250adac3f350",
+  "masterSha256": "5f04aa43471dec6b57b35d64ae8fe126646f43e14274461ad2df6cdfc957f658",
+  "videoOnlySha256": "ede6f40ebed1a706c579bf6b576b2b56c57e09621b81676e19bb1b46cb1a9dab",
+  "verifiedMuxScratchPath": "/Volumes/AgentDev/Scratch/tmp/si-ep18-sovereign-subcurrent-v04-native-gEda0b/si-ep18-sovereign-subcurrent-v04-xiaohongshu-90s-portrait.mux-partial.mp4",
+  "localCopyVerifiedBeforePublishing": true,
+  "audioMixQaSha256": "fae5acbb4c90cf889a6eb3a785a70b2a393aa5704f2000b5bada1523cbe47e7a",
+  "video": {
+    "codec": "h264",
+    "pixelFormat": "yuv420p",
+    "width": 2160,
+    "height": 3840,
+    "fps": "60/1",
+    "frames": 5400,
+    "durationSeconds": 90.0
+  },
+  "audio": {
+    "codec": "aac",
+    "sampleRateHz": 48000,
+    "channels": 2,
+    "durationSeconds": 90.0,
+    "pcmSamplesPerChannel": 4320000
+  },
+  "containerDurationSeconds": 90.0
+}

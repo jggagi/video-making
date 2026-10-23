@@ -1,0 +1,35 @@
+{
+  "status": "READY",
+  "file": "/Volumes/AgentDev/Scratch/tmp/si-ep18-sovereign-subcurrent-v04-native-o63ATk/video-only.mp4",
+  "sha256": "1ef2598df616c1ff4c56ecad1a18bb303ea8ce5608241483adf47192b07ff60d",
+  "bytes": 29034944,
+  "capture": {
+    "remotion": "4.0.534",
+    "chrome": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+    "chromeVersion": "Google Chrome 156.0.8078.47",
+    "imageFormat": "png",
+    "concurrency": 1,
+    "nativeWidth": 2160,
+    "nativeHeight": 3840,
+    "pixelFormat": "yuv420p",
+    "colorSpace": "bt709"
+  },
+  "absoluteRange": [
+    0,
+    5399
+  ],
+  "source": {
+    "title": "心印潜流 · 人与影 · v04",
+    "slug": "si-ep18-sovereign-subcurrent-v04",
+    "narrationCues": 8,
+    "hashes": {
+      "src/Scene.tsx": "aded23c41595edbaafc0641b0561e0574d4f1fd5abcddc7df9289f1676325a6a",
+      "src/Film.tsx": "738e5cc1ec3836cf09413a7326357e94ed85d853c5337e14e012c07b1c15e89e",
+      "src/Root.tsx": "6afabde516cfa9c768e0aa8c6ab136d64a44a7c084c58d83a0b4f69025a9880a",
+      "segments.json": "70e28b075a28852165c52d75e583163a6b73046c8a2867e936bb21b10638cbfb",
+      "captions.json": "e7f394ff062803ef6aec693de675d60cb80e334cc4d8dcf84231e359b3d3920d",
+      "public/audio/master.wav": "5f04aa43471dec6b57b35d64ae8fe126646f43e14274461ad2df6cdfc957f658"
+    }
+  },
+  "scope": "EP18 native video track on verified AgentDev scratch; formal output remains in the delivery folder"
+}

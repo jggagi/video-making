@@ -1,0 +1,78 @@
+{
+  "fps": 60,
+  "durationFrames": 5400,
+  "scenes": [
+    {
+      "startFrame": 0,
+      "endFrame": 600,
+      "title": "先动的一下",
+      "action": "同一成人站在一束侧光里，墙上的投影提前抬手，随后本人跟上。",
+      "feeling": "亲密中的异常",
+      "composition": "Pure2D same human and his attached/detached wall shadow; body in y430..1290; subtitle band clear"
+    },
+    {
+      "startFrame": 600,
+      "endFrame": 1500,
+      "title": "被记住的生活",
+      "action": "同一人在桌边删字、停顿；琥珀文字碎屑流入身后的影子。",
+      "feeling": "连犹豫也留下痕迹",
+      "composition": "Pure2D same human and his attached/detached wall shadow; body in y430..1290; subtitle band clear"
+    },
+    {
+      "startFrame": 1500,
+      "endFrame": 2040,
+      "title": "暗处演练",
+      "action": "人扶住胸口、转头；影子反复做同一个动作，由迟滞到同步。",
+      "feeling": "理解是被一遍遍学习的",
+      "composition": "Pure2D same human and his attached/detached wall shadow; body in y430..1290; subtitle band clear"
+    },
+    {
+      "startFrame": 2040,
+      "endFrame": 2580,
+      "title": "比你还像你",
+      "action": "两具相同姿态重合，相同的袖口/手势细节在影子上发暖金光。",
+      "feeling": "熟悉变成不安",
+      "composition": "Pure2D same human and his attached/detached wall shadow; body in y430..1290; subtitle band clear"
+    },
+    {
+      "startFrame": 2580,
+      "endFrame": 3300,
+      "title": "人生的路口",
+      "action": "桌子淡出，门框与确认台出现；人向前一步，右手悬在按钮之前。",
+      "feeling": "决定仍未做出",
+      "composition": "Pure2D same human and his attached/detached wall shadow; body in y430..1290; subtitle band clear"
+    },
+    {
+      "startFrame": 3300,
+      "endFrame": 3960,
+      "title": "影子越过本人",
+      "action": "本人手停在按钮前；影子从脚边脱开，伸臂在3900帧按下确认。",
+      "feeling": "选择被代为执行",
+      "composition": "Pure2D same human and his attached/detached wall shadow; body in y430..1290; subtitle band clear"
+    },
+    {
+      "startFrame": 3960,
+      "endFrame": 4500,
+      "title": "认证通过",
+      "action": "确认光扩散，金色影子占据前景，本人变冷、留在背后的投影中。",
+      "feeling": "系统只认出相似",
+      "composition": "Pure2D same human and his attached/detached wall shadow; body in y430..1290; subtitle band clear"
+    },
+    {
+      "startFrame": 4500,
+      "endFrame": 5400,
+      "title": "谁在替谁活",
+      "action": "4500–4530无声；双心跳后前景人物继续向前，原人留作影子，眼部有手机可见的冷青细光。",
+      "feeling": "替代发生后难以区分",
+      "composition": "Pure2D same human and his attached/detached wall shadow; body in y430..1290; subtitle band clear"
+    }
+  ],
+  "events": {
+    "confirm": 3900,
+    "silenceRange": [
+      4500,
+      4530
+    ],
+    "doubleHeartbeat": 4530
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "status": "BASELINE_RECORDED",
+  "sourceCommit": "5d5d194d29c2b6b886b8b65fa9bc263c1e3ae0d5",
+  "scope": "Prior EP18 movies preserved; recheck before v04 archive",
+  "movies": [
+    {
+      "path": "deliveries/si-ep18-sovereign-subcurrent/小红书/si-ep18-sovereign-subcurrent-xiaohongshu-90s-portrait.mp4",
+      "bytes": 97349252,
+      "sha256": "bba5f68e90e721f0a71c20dd4949afeb3b34bf510dd9d4700e5e95fd5b86e1bd"
+    },
+    {
+      "path": "deliveries/si-ep18-sovereign-subcurrent-v02/小红书/si-ep18-sovereign-subcurrent-v02-xiaohongshu-90s-portrait.mp4",
+      "bytes": 85171239,
+      "sha256": "9c5902c4241121140b5c1546ed1e7fdea924e822c3e4c29819edf9c517fc7657"
+    },
+    {
+      "path": "deliveries/si-ep18-sovereign-subcurrent-v03/小红书/si-ep18-sovereign-subcurrent-v03-xiaohongshu-90s-portrait.mp4",
+      "bytes": 107808174,
+      "sha256": "920e6578a8c6453b99133f40d3eff73d332f47b532ca179b578d82cb5d92938b"
+    }
+  ]
+}

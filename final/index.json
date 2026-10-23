@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "generated_by": "scripts/build-final-library.py",
-  "total_files": 62,
-  "logical_bytes": 9359296370,
+  "total_files": 63,
+  "logical_bytes": 9391038313,
   "files": [
     {
       "source_path": "out/extended/兰亭集序-展厅增强版-1080p.mp4",
@@ -871,6 +871,21 @@
       "backup_release_tag": "final-si-ep18-sovereign-subcurrent-v03-505494230043",
       "backup_release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep18-sovereign-subcurrent-v03-505494230043",
       "backup_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep18-sovereign-subcurrent-v03-505494230043/final--si-ep18-sovereign-subcurrent-v03--deliveries--si-ep18-sovereign-subcurrent-v03-----si-ep18-sovereign-subcurrent-v03-xiaohongshu-90s-portrait--920e6578a8c6.mp4",
+      "materialization": "APFS clonefile for new files; existing independent matches are retained",
+      "verification": "SHA-256 matches archive catalog; stable stat and inode checks passed"
+    },
+    {
+      "source_path": "deliveries/si-ep18-sovereign-subcurrent-v04/小红书/si-ep18-sovereign-subcurrent-v04-xiaohongshu-90s-portrait.mp4",
+      "final_path": "final/si-ep18-sovereign-subcurrent-v04/小红书/si-ep18-sovereign-subcurrent-v04-xiaohongshu-90s-portrait.mp4",
+      "work_id": "si-ep18-sovereign-subcurrent-v04",
+      "title": "心印潜流 · 人与影 · v04",
+      "platform": "小红书",
+      "bytes": 31741943,
+      "sha256": "8dc2486d7936e9547e29e087de0b5d3bd9b4037bacaf10fbaaa47f8d44500bdb",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep18-sovereign-subcurrent-v04-d448a562ca14/si-ep18-sovereign-subcurrent-v04--deliveries--si-ep18-sovereign-subcurrent-v04-----si-ep18-sovereign-subcurrent-v04-xiaohongshu-90s-portrait--8dc2486d7936.mp4",
+      "backup_release_tag": "final-si-ep18-sovereign-subcurrent-v04-d448a562ca14",
+      "backup_release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep18-sovereign-subcurrent-v04-d448a562ca14",
+      "backup_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep18-sovereign-subcurrent-v04-d448a562ca14/final--si-ep18-sovereign-subcurrent-v04--deliveries--si-ep18-sovereign-subcurrent-v04-----si-ep18-sovereign-subcurrent-v04-xiaohongshu-90s-portrait--8dc2486d7936.mp4",
       "materialization": "APFS clonefile for new files; existing independent matches are retained",
       "verification": "SHA-256 matches archive catalog; stable stat and inode checks passed"
     },

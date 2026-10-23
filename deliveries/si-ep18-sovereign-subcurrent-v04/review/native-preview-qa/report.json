@@ -1,0 +1,79 @@
+{
+  "status": "MEASUREMENTS_PASS",
+  "previews": [
+    {
+      "path": "review/motion-60-539.mp4",
+      "label": "opening shadow leads and full first narration cue",
+      "absoluteFramesHalfOpen": [
+        60,
+        540
+      ],
+      "frames": 480,
+      "nativeSize": [
+        2160,
+        3840
+      ],
+      "absoluteSourceClockCorrelation": 0.999985301699929,
+      "sha256": "444948b50b5776e6e6287496ad6fb466b66529ff0d223c2515301826dbd273ea",
+      "globalReviewFrames": [
+        60,
+        220,
+        380,
+        539
+      ]
+    },
+    {
+      "path": "review/motion-3600-4019.mp4",
+      "label": "shadow presses confirm",
+      "absoluteFramesHalfOpen": [
+        3600,
+        4020
+      ],
+      "frames": 420,
+      "nativeSize": [
+        2160,
+        3840
+      ],
+      "absoluteSourceClockCorrelation": 0.999800008985119,
+      "sha256": "ca7bdcc3e3fa1070bed4f59e51c1507b8b44e9a0c1d2be1cfbc24b3c4185b737",
+      "globalReviewFrames": [
+        3600,
+        3740,
+        3880,
+        3900,
+        4019
+      ]
+    },
+    {
+      "path": "review/motion-4500-5159.mp4",
+      "label": "silence and full final narration cue",
+      "absoluteFramesHalfOpen": [
+        4500,
+        5160
+      ],
+      "frames": 660,
+      "nativeSize": [
+        2160,
+        3840
+      ],
+      "absoluteSourceClockCorrelation": 0.9999789559650237,
+      "sha256": "22e77f3783eacebcb24f75b9d5e05b26b215d1b29ea9ff621f60221ecfb67270",
+      "globalReviewFrames": [
+        4500,
+        4530,
+        4720,
+        4940,
+        5010,
+        5159
+      ]
+    }
+  ],
+  "contactSheets": [
+    "contact-1.jpg",
+    "contact-2.jpg"
+  ],
+  "representativeVisualReview": "PENDING",
+  "continuousHumanReview": "PENDING",
+  "targetDevicePlayback": "PENDING",
+  "scope": "Native encoded media and absolute PCM source-clock measurements; collected frames are evidence for review, not a human visual or listening acceptance claim."
+}

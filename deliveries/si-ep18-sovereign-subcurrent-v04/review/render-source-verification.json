@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "scope": "Render-staging source hashes match current source/audio after the full final render.",
+  "files": [
+    {
+      "path": "project/src/Scene.tsx",
+      "sha256": "aded23c41595edbaafc0641b0561e0574d4f1fd5abcddc7df9289f1676325a6a"
+    },
+    {
+      "path": "project/src/Film.tsx",
+      "sha256": "738e5cc1ec3836cf09413a7326357e94ed85d853c5337e14e012c07b1c15e89e"
+    },
+    {
+      "path": "project/src/Root.tsx",
+      "sha256": "6afabde516cfa9c768e0aa8c6ab136d64a44a7c084c58d83a0b4f69025a9880a"
+    },
+    {
+      "path": "project/segments.json",
+      "sha256": "70e28b075a28852165c52d75e583163a6b73046c8a2867e936bb21b10638cbfb"
+    },
+    {
+      "path": "project/captions.json",
+      "sha256": "e7f394ff062803ef6aec693de675d60cb80e334cc4d8dcf84231e359b3d3920d"
+    },
+    {
+      "path": "project/public/audio/master.wav",
+      "sha256": "5f04aa43471dec6b57b35d64ae8fe126646f43e14274461ad2df6cdfc957f658"
+    }
+  ]
+}

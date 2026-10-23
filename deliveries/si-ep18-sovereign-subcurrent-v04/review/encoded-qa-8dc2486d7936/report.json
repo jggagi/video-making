@@ -1,0 +1,414 @@
+{
+  "schemaVersion": 1,
+  "createdAtUtc": "2026-10-23T12:55:06+00:00",
+  "work": {
+    "id": "si-ep18-sovereign-subcurrent-v04",
+    "title": "心印潜流 · 人与影 · v04",
+    "cueIds": [
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "S05",
+      "S06",
+      "S07",
+      "S08"
+    ]
+  },
+  "movie": {
+    "manifestPath": "小红书/si-ep18-sovereign-subcurrent-v04-xiaohongshu-90s-portrait.mp4",
+    "sha256": "8dc2486d7936e9547e29e087de0b5d3bd9b4037bacaf10fbaaa47f8d44500bdb",
+    "bytes": 31741943
+  },
+  "encodedMediaMeasurements": {
+    "video": {
+      "codec": "h264",
+      "pixelFormat": "yuv420p",
+      "width": 2160,
+      "height": 3840,
+      "averageFrameRate": "60/1",
+      "countedFrames": 5400,
+      "durationSeconds": 90.0
+    },
+    "audio": {
+      "streamCount": 1,
+      "codec": "aac",
+      "sampleRateHz": 48000,
+      "channels": 2,
+      "durationSeconds": 90.0
+    },
+    "container": {
+      "durationSeconds": 90.0,
+      "sizeBytes": 31741943
+    }
+  },
+  "ebuR128": {
+    "integratedLoudnessLufs": -16.1,
+    "truePeakDbfs": -1.6,
+    "summaryTail": "Summary:\n\n  Integrated loudness:\n    I:         -16.1 LUFS\n    Threshold: -29.1 LUFS\n\n  Loudness range:\n    LRA:        17.2 LU\n    Threshold: -39.2 LUFS\n    LRA low:   -32.4 LUFS\n    LRA high:  -15.2 LUFS\n\n  True peak:\n    Peak:       -1.6 dBFS\n[out#0/null @ 0x7618c40300] video:0KiB audio:16876KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nsize=N/A time=00:01:30.00 bitrate=N/A speed= 304x elapsed=0:00:00.29    "
+  },
+  "checks": [
+    {
+      "name": "encoded_native_media_spec",
+      "status": "PASS",
+      "measured": {
+        "video": {
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "width": 2160,
+          "height": 3840,
+          "averageFrameRate": "60/1",
+          "countedFrames": 5400,
+          "durationSeconds": 90.0
+        },
+        "audio": {
+          "streamCount": 1,
+          "codec": "aac",
+          "sampleRateHz": 48000,
+          "channels": 2,
+          "durationSeconds": 90.0
+        },
+        "container": {
+          "durationSeconds": 90.0,
+          "sizeBytes": 31741943
+        }
+      }
+    },
+    {
+      "name": "movie_unchanged_during_collection",
+      "status": "PASS",
+      "sha256Before": "8dc2486d7936e9547e29e087de0b5d3bd9b4037bacaf10fbaaa47f8d44500bdb",
+      "sha256After": "8dc2486d7936e9547e29e087de0b5d3bd9b4037bacaf10fbaaa47f8d44500bdb"
+    }
+  ],
+  "frameCollection": {
+    "status": "COLLECTED",
+    "phoneThumbnailSize": [
+      360,
+      640
+    ],
+    "requiredPhoneFrameNumbers": [
+      0,
+      180,
+      600,
+      840,
+      1440,
+      1800,
+      2400,
+      2760,
+      3300,
+      3660,
+      3820,
+      3899,
+      3900,
+      4020,
+      4500,
+      4530,
+      4920,
+      5280,
+      5399
+    ],
+    "phoneFrameNumbers": [
+      0,
+      90,
+      180,
+      240,
+      600,
+      630,
+      780,
+      840,
+      1440,
+      1530,
+      1680,
+      1800,
+      2070,
+      2220,
+      2400,
+      2610,
+      2760,
+      3300,
+      3568,
+      3660,
+      3718,
+      3820,
+      3899,
+      3900,
+      4020,
+      4050,
+      4200,
+      4500,
+      4530,
+      4590,
+      4740,
+      4920,
+      5280,
+      5399
+    ],
+    "phoneFrameFiles": [
+      "phone/frame_0000.png",
+      "phone/frame_0090.png",
+      "phone/frame_0180.png",
+      "phone/frame_0240.png",
+      "phone/frame_0600.png",
+      "phone/frame_0630.png",
+      "phone/frame_0780.png",
+      "phone/frame_0840.png",
+      "phone/frame_1440.png",
+      "phone/frame_1530.png",
+      "phone/frame_1680.png",
+      "phone/frame_1800.png",
+      "phone/frame_2070.png",
+      "phone/frame_2220.png",
+      "phone/frame_2400.png",
+      "phone/frame_2610.png",
+      "phone/frame_2760.png",
+      "phone/frame_3300.png",
+      "phone/frame_3568.png",
+      "phone/frame_3660.png",
+      "phone/frame_3718.png",
+      "phone/frame_3820.png",
+      "phone/frame_3899.png",
+      "phone/frame_3900.png",
+      "phone/frame_4020.png",
+      "phone/frame_4050.png",
+      "phone/frame_4200.png",
+      "phone/frame_4500.png",
+      "phone/frame_4530.png",
+      "phone/frame_4590.png",
+      "phone/frame_4740.png",
+      "phone/frame_4920.png",
+      "phone/frame_5280.png",
+      "phone/frame_5399.png"
+    ],
+    "nativeFrameNumbers2160x3840": [
+      1800,
+      3820,
+      4920,
+      5280
+    ],
+    "nativeFrameFiles": [
+      "native/frame_1800.png",
+      "native/frame_3820.png",
+      "native/frame_4920.png",
+      "native/frame_5280.png"
+    ],
+    "chronologicalNativeFrameLabels": [
+      {
+        "frame": 1800,
+        "label": "shadow rehearsal"
+      },
+      {
+        "frame": 3820,
+        "label": "shadow reaches confirmation"
+      },
+      {
+        "frame": 4920,
+        "label": "human and shadow after the exchange"
+      },
+      {
+        "frame": 5280,
+        "label": "visible cyan eye in the forward figure"
+      }
+    ],
+    "covers": {
+      "A": {
+        "frame": 3820,
+        "nativeFrameFile": "native/frame_3820.png"
+      },
+      "B": {
+        "frame": 4920,
+        "nativeFrameFile": "native/frame_4920.png"
+      }
+    },
+    "phoneContactSheets": [
+      "phone-contact-01.jpg",
+      "phone-contact-02.jpg",
+      "phone-contact-03.jpg",
+      "phone-contact-04.jpg"
+    ]
+  },
+  "motionHeuristics": {
+    "status": "MEASURED_HEURISTIC_ONLY",
+    "method": "Mean absolute RGB difference in the human-and-shadow stage crop (logical x=90..900, y=430..1290, mapped to 360x640 phone pixels).",
+    "pairs": [
+      {
+        "act": "S01-human-shadow-stage",
+        "frames": [
+          90,
+          240
+        ],
+        "cropXyxyOn360x640PhoneFrame": [
+          30,
+          143,
+          300,
+          430
+        ],
+        "sourceCropXyxyOn1080x1920LogicalFrame": [
+          90,
+          430,
+          900,
+          1290
+        ],
+        "meanAbsoluteRgbDifference0To255": 3.596206,
+        "interpretation": "human-and-shadow stage measurement only; not a visual pass or proof of meaningful motion"
+      },
+      {
+        "act": "S02-human-shadow-stage",
+        "frames": [
+          630,
+          780
+        ],
+        "cropXyxyOn360x640PhoneFrame": [
+          30,
+          143,
+          300,
+          430
+        ],
+        "sourceCropXyxyOn1080x1920LogicalFrame": [
+          90,
+          430,
+          900,
+          1290
+        ],
+        "meanAbsoluteRgbDifference0To255": 5.547499,
+        "interpretation": "human-and-shadow stage measurement only; not a visual pass or proof of meaningful motion"
+      },
+      {
+        "act": "S03-human-shadow-stage",
+        "frames": [
+          1530,
+          1680
+        ],
+        "cropXyxyOn360x640PhoneFrame": [
+          30,
+          143,
+          300,
+          430
+        ],
+        "sourceCropXyxyOn1080x1920LogicalFrame": [
+          90,
+          430,
+          900,
+          1290
+        ],
+        "meanAbsoluteRgbDifference0To255": 4.5247,
+        "interpretation": "human-and-shadow stage measurement only; not a visual pass or proof of meaningful motion"
+      },
+      {
+        "act": "S04-human-shadow-stage",
+        "frames": [
+          2070,
+          2220
+        ],
+        "cropXyxyOn360x640PhoneFrame": [
+          30,
+          143,
+          300,
+          430
+        ],
+        "sourceCropXyxyOn1080x1920LogicalFrame": [
+          90,
+          430,
+          900,
+          1290
+        ],
+        "meanAbsoluteRgbDifference0To255": 2.917409,
+        "interpretation": "human-and-shadow stage measurement only; not a visual pass or proof of meaningful motion"
+      },
+      {
+        "act": "S05-human-shadow-stage",
+        "frames": [
+          2610,
+          2760
+        ],
+        "cropXyxyOn360x640PhoneFrame": [
+          30,
+          143,
+          300,
+          430
+        ],
+        "sourceCropXyxyOn1080x1920LogicalFrame": [
+          90,
+          430,
+          900,
+          1290
+        ],
+        "meanAbsoluteRgbDifference0To255": 7.445236,
+        "interpretation": "human-and-shadow stage measurement only; not a visual pass or proof of meaningful motion"
+      },
+      {
+        "act": "S06-human-shadow-stage",
+        "frames": [
+          3568,
+          3718
+        ],
+        "cropXyxyOn360x640PhoneFrame": [
+          30,
+          143,
+          300,
+          430
+        ],
+        "sourceCropXyxyOn1080x1920LogicalFrame": [
+          90,
+          430,
+          900,
+          1290
+        ],
+        "meanAbsoluteRgbDifference0To255": 3.680755,
+        "interpretation": "human-and-shadow stage measurement only; not a visual pass or proof of meaningful motion"
+      },
+      {
+        "act": "S07-human-shadow-stage",
+        "frames": [
+          4050,
+          4200
+        ],
+        "cropXyxyOn360x640PhoneFrame": [
+          30,
+          143,
+          300,
+          430
+        ],
+        "sourceCropXyxyOn1080x1920LogicalFrame": [
+          90,
+          430,
+          900,
+          1290
+        ],
+        "meanAbsoluteRgbDifference0To255": 7.163935,
+        "interpretation": "human-and-shadow stage measurement only; not a visual pass or proof of meaningful motion"
+      },
+      {
+        "act": "S08-human-shadow-stage",
+        "frames": [
+          4590,
+          4740
+        ],
+        "cropXyxyOn360x640PhoneFrame": [
+          30,
+          143,
+          300,
+          430
+        ],
+        "sourceCropXyxyOn1080x1920LogicalFrame": [
+          90,
+          430,
+          900,
+          1290
+        ],
+        "meanAbsoluteRgbDifference0To255": 3.769157,
+        "interpretation": "human-and-shadow stage measurement only; not a visual pass or proof of meaningful motion"
+      }
+    ],
+    "notAVisualPass": true
+  },
+  "visualScan": {
+    "status": "NOT_RUN_BY_THIS_COLLECTOR",
+    "reportPath": "review/visual-qc-xiaohongshu/report.json"
+  },
+  "humanAcceptance": {
+    "representativeFrames": "PENDING",
+    "continuousHumanReview": "PENDING",
+    "targetDevicePlayback": "PENDING"
+  }
+}

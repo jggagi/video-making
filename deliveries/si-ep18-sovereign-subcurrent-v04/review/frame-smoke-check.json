@@ -1,0 +1,22 @@
+{
+  "check": "EP18 v04 all-frame drawScene runtime smoke",
+  "contract": "Named drawScene(context, frame) export from project/src/Scene.tsx; logical canvas dimensions come from render-plan.json.",
+  "status": "passed",
+  "framesExpected": 5400,
+  "framesExecuted": 5400,
+  "failure": null,
+  "runtimeMs": 269.51,
+  "logicalCanvasSize": {
+    "width": 1080,
+    "height": 1920
+  },
+  "backingCanvasSize": {
+    "width": 2160,
+    "height": 3840
+  },
+  "canvasCalls": 3913495,
+  "finiteNumericArgumentsChecked": 10066295,
+  "sourceSha256": {
+    "project/src/Scene.tsx": "aded23c41595edbaafc0641b0561e0574d4f1fd5abcddc7df9289f1676325a6a"
+  }
+}

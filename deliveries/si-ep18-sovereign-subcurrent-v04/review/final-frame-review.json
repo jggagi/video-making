@@ -1,0 +1,24 @@
+{
+  "status": "MODEL_REVIEW_PASS_WITH_LIMITATION",
+  "movieSha256": "8dc2486d7936e9547e29e087de0b5d3bd9b4037bacaf10fbaaa47f8d44500bdb",
+  "scope": "Model observation of actual final-encode contact sheets01–04, four native frames1800/3820/4920/5280, final-encode eye crop, and phone cover contact. Not continuous human review or target-device acceptance.",
+  "observations": [
+    "Opening caption and repeated cyan human contour establish a personified shadow. The shadow hand changes pose while warm figure remains at an earlier pose.",
+    "At3820, cyan-rimmed arm belongs to the taller figure and reaches the visible confirmation button; warm arm ends separately before the button.3899/3900 show the button state change.",
+    "After exchange, gold figure is right/forward and dim cyan figure left/behind; cyan eye core and halo are inside the face at5280.",
+    "No major limb clipping, gross geometry defect, subtitle clipping or detached eye core in reviewed final samples.",
+    "CoverB headline is phone-readable and does not mask the figure head; selected."
+  ],
+  "independentReviewer": "/root/ep18_baseline_audit",
+  "independentObservations": [
+    "Contacts02/04: separate upright figures can read as two characters in isolated frames; foot connection is subtle. No major limb-geometry defect.",
+    "Additional contacts01/03/native3820: opening wording and cool figure establish personified shadow, and cyan arm at confirmation remains distinguishable. No new major geometric occlusion."
+  ],
+  "rootDecision": "Accept the personified stage-shadow treatment for this revision, with relationship reinforced by opening title, cyan labeling, narration and repeated contour. Do not characterize it as a strong realistic cast-shadow projection; audience comprehension remains human-review pending.",
+  "remainingStates": {
+    "continuousHumanViewAndListen": "PENDING",
+    "pronunciationAndPerceivedPace": "PENDING",
+    "targetPhoneOrXiaohongshuPlayback": "PENDING",
+    "accountPublication": "NOT_SUBMITTED"
+  }
+}

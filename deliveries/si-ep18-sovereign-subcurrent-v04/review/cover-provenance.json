@@ -1,0 +1,21 @@
+{
+  "movieSha256": "8dc2486d7936e9547e29e087de0b5d3bd9b4037bacaf10fbaaa47f8d44500bdb",
+  "selected": "B-headline",
+  "rawCovers": [
+    {
+      "name": "A",
+      "sourceFrame": 3820,
+      "rawPath": "小红书/cover-A.png",
+      "sha256": "3a0527736dec59da51b429eaaddf0e44fe9a1c218937c2a217d9e6fd1408bdab"
+    },
+    {
+      "name": "B",
+      "sourceFrame": 4920,
+      "rawPath": "小红书/cover-B.png",
+      "sha256": "24397cf60a7e7ed17acb922936b1c7a699b9fd7ee8b595842514ac43e15e1947"
+    }
+  ],
+  "headlineScope": "Source-rendered covers at frames3820/4920, both before the eye-only branch at5010; raw covers independently extracted from actual final encode.",
+  "phoneContact": "review/encoded-qa-8dc2486d7936/cover-phone-contact.jpg",
+  "selectionReason": "Phone contact review: B preserves the complete head and shows the role exchange; A headline panel partly masks the top of the taller head and remains an unselected alternative."
+}

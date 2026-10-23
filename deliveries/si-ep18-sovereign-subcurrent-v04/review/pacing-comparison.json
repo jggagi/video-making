@@ -1,0 +1,36 @@
+{
+  "status": "MEASURED_TEXT_DENSITY_PROXY",
+  "scope": "Source text character counts divided by threshold-defined active PCM seconds; not human perceived pace, pronunciation verification, ASR, or measured syllables. Same provider/model/voice, rate1.65->1.0.",
+  "versions": [
+    {
+      "version": "v03",
+      "configuredRate": 1.65,
+      "charactersIncludingPunctuation": 361,
+      "charactersExcludingPunctuationAndWhitespace": 316,
+      "summedCanonicalPcmSeconds": 60.7515,
+      "thresholdDefinedActivePcmSeconds": 57.86108333333333,
+      "textCharacterPerActiveSecondProxy": 5.461356438481247,
+      "providerReportedModel": [
+        "qwen-audio-3.0-tts-plus"
+      ],
+      "providerReportedVoice": [
+        "qwen-audio-3.0-tts-plus-longlangmoyue"
+      ]
+    },
+    {
+      "version": "v04",
+      "configuredRate": 1.0,
+      "charactersIncludingPunctuation": 181,
+      "charactersExcludingPunctuationAndWhitespace": 153,
+      "summedCanonicalPcmSeconds": 56.72,
+      "thresholdDefinedActivePcmSeconds": 52.2055625,
+      "textCharacterPerActiveSecondProxy": 2.9307221811851947,
+      "providerReportedModel": [
+        "qwen-audio-3.0-tts-plus"
+      ],
+      "providerReportedVoice": [
+        "qwen-audio-3.0-tts-plus-longlangmoyue"
+      ]
+    }
+  ]
+}

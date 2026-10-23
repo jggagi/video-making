@@ -1,0 +1,30 @@
+[
+  {
+    "path": "public/fonts/NotoSerifSC.ttf",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/notoserifsc/NotoSerifSC%5Bwght%5D.ttf",
+    "sha256": "050080d9255a86808f2945bffac582b31ef32bc36411ce29563b4961670c66f9",
+    "bytes": 25125512,
+    "license": "SIL Open Font License 1.1"
+  },
+  {
+    "path": "public/fonts/NotoSerifSC-OFL.txt",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/notoserifsc/OFL.txt",
+    "sha256": "5e0da210fb04058a8c0087985d2d456b931c2579811a49655721d3cf0c36b6d6",
+    "bytes": 4350,
+    "license": "SIL Open Font License 1.1"
+  },
+  {
+    "path": "public/fonts/RobotoMono.ttf",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/robotomono/RobotoMono%5Bwght%5D.ttf",
+    "sha256": "66a80e79d17e4c7cabd162e2916578a4cc08fd19eef6e2a643305eae9c567b2b",
+    "bytes": 183700,
+    "license": "SIL Open Font License 1.1"
+  },
+  {
+    "path": "public/fonts/RobotoMono-OFL.txt",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/robotomono/OFL.txt",
+    "sha256": "50ab8dd54680d3473f649c9db86fece88434d097c7834475c1c72d2f8c429215",
+    "bytes": 4395,
+    "license": "SIL Open Font License 1.1"
+  }
+]

@@ -1,0 +1,1 @@
+Initial encoded QA used cue midpoint spacing (some exceeded3seconds). Retained that report as an initial sampling snapshot, then corrected the collector/plan to exactly150frames=2.5seconds within each cue. The final MP4 is unchanged; the canonical encoded-qa-718f95a6e6ab report is regenerated with corrected pairs.

@@ -1,0 +1,16 @@
+{
+  "status": "PASS_WITH_INTERNAL_SPACE_WARNING",
+  "scope": "Local Mac preflight for authorized v04 render/archive. Full host storage inventory retained locally and excluded from Git.",
+  "agentDev": {
+    "mounted": true,
+    "expectedApfsIdentityMatched": true,
+    "minimumFree20GiBPassed": true
+  },
+  "backingVolume": {
+    "mounted": true,
+    "expectedIdentityMatched": true,
+    "minimumFree100GiBPassed": true
+  },
+  "internalSpace": "Warning only per user instruction; capacity rechecked before final copy. No unrelated cleanup/move/process interruption.",
+  "jobs": "One full native4K render at a time; completed through agent-dev run."
+}

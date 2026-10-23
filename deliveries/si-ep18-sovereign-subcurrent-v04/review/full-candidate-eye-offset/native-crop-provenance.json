@@ -1,0 +1,36 @@
+{
+  "movieSha256": "718f95a6e6abab70ac9f2fda7edb25f5dc7bc51975cba5eb441c250adac3f350",
+  "source": "Native frames from actual final MP4, initial sampling uses the same formal movie SHA; pair-spacing correction does not change film or native frames.",
+  "crops": [
+    {
+      "frame": 3820,
+      "xyxyNative": [
+        1000,
+        1500,
+        1830,
+        2250
+      ],
+      "path": "confirm-native-crop.png"
+    },
+    {
+      "frame": 5280,
+      "xyxyNative": [
+        1300,
+        1100,
+        1600,
+        1450
+      ],
+      "path": "eye-native-crop.png"
+    },
+    {
+      "frame": 1800,
+      "xyxyNative": [
+        200,
+        1000,
+        950,
+        1700
+      ],
+      "path": "dark-native-crop.png"
+    }
+  ]
+}

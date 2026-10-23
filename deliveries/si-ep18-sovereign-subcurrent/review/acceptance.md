@@ -36,4 +36,10 @@ S08首轮实测9.76秒，无法放入半秒静音后的窗口；已保留原音�
 
 ## 归档
 
-本地final已完成APFS克隆并核对源文件；总库60份正式成片，新增1份、跳过59份，历史作品保持不变。作品清单与final清单均通过本地dry-run；本次作品Release6个资产（1成片、5样片），独立final Release仅1成片。GitHub上传、远端校验与新增影片恢复抽测待执行。
+本地final已完成APFS克隆并核对源文件；总库60份正式成片，新增1份、跳过59份，历史作品保持不变。作品清单与final清单均通过本地dry-run；本次作品Release6个资产（1成片、5样片），独立final Release仅1成片。GitHub两份Release均已公开；作品清单275资产、final清单60资产的远端大小与SHA-256均核对通过。新增本片97,349,252字节已实际下载恢复，SHA-256一致；重复恢复跳过匹配文件并保持inode，隔离临时目录已清理。本次真实下载抽测仅覆盖EP18，不声称历史59份均重新下载。
+
+源码提交：`0d347ea38db50f62528a03293e62058e3a25c7b4`。
+
+- [作品Release](https://github.com/jggagi/video-making/releases/tag/film-si-ep18-sovereign-subcurrent-250e8e7ea6f1)
+- [独立final Release](https://github.com/jggagi/video-making/releases/tag/final-si-ep18-sovereign-subcurrent-250e8e7ea6f1)
+- 当前final清单哈希绑定的总核验：`final/backup-verification.json`；本片恢复证据：`final-restore-probe.json`。

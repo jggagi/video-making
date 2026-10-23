@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "scope": "Only the single EP18 portrait final catalog asset was restored; no claim that historical movies were restored.",
+  "workId": "si-ep18-sovereign-subcurrent",
+  "workTitle": "Final 成片备份 · 心印潜流",
+  "deliveryTitle": "心印潜流",
+  "deliveryFinalMovieSha256": "bba5f68e90e721f0a71c20dd4949afeb3b34bf510dd9d4700e5e95fd5b86e1bd",
+  "catalogSha256": "7dc1cd14342836d334a77a067ea5f744759bf40998ef4a6ebdb7c4b1fc556d65",
+  "releaseTag": "final-si-ep18-sovereign-subcurrent-250e8e7ea6f1",
+  "assetName": "final--si-ep18-sovereign-subcurrent--deliveries--si-ep18-sovereign-subcurrent-----si-ep18-sovereign-subcurrent-xiaohongshu-90s-portrait--bba5f68e90e7.mp4",
+  "restoredRelativePath": "final/si-ep18-sovereign-subcurrent/小红书/si-ep18-sovereign-subcurrent-xiaohongshu-90s-portrait.mp4",
+  "bytes": 97349252,
+  "sha256": "bba5f68e90e721f0a71c20dd4949afeb3b34bf510dd9d4700e5e95fd5b86e1bd",
+  "firstRunStdout": "Restored: final/si-ep18-sovereign-subcurrent/小红书/si-ep18-sovereign-subcurrent-xiaohongshu-90s-portrait.mp4 (97,349,252 bytes)\nRestore complete: 0 already verified, 1 downloaded",
+  "secondRunStdout": "Restore complete: 1 already verified, 0 downloaded",
+  "secondRunSkippedMatchingFile": true,
+  "repeatPreservedFileInode": true,
+  "isolatedTemporaryDirectoryCleanedAfterVerification": true
+}

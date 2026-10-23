@@ -1,0 +1,72 @@
+{
+  "status": "PASS",
+  "scope": "Fresh uploader remote verification of all275catalogassets; this compact report identifies only EP18 new6assets. Existing matching assets skipped, no clobber.",
+  "sourceCommit": "0d347ea38db50f62528a03293e62058e3a25c7b4",
+  "catalogSha256": "4384637ec28d7c2f956aaa54d62eea8dd7e6d1af4d91d1245715dd67be72621e",
+  "release": "https://github.com/jggagi/video-making/releases/tag/film-si-ep18-sovereign-subcurrent-250e8e7ea6f1",
+  "releaseTag": "film-si-ep18-sovereign-subcurrent-250e8e7ea6f1",
+  "draft": false,
+  "assets": [
+    {
+      "name": "si-ep18-sovereign-subcurrent--deliveries--si-ep18-sovereign-subcurrent--review--motion-0-179--41e7da75d341.mp4",
+      "bytes": 2133073,
+      "digest": "sha256:41e7da75d341cb1445905287fa3b03146a60d4916c67f9abb21eed74b2ea30c1",
+      "kind": "video",
+      "platform": "预览",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep18-sovereign-subcurrent-250e8e7ea6f1/si-ep18-sovereign-subcurrent--deliveries--si-ep18-sovereign-subcurrent--review--motion-0-179--41e7da75d341.mp4",
+      "browser_download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep18-sovereign-subcurrent-250e8e7ea6f1/si-ep18-sovereign-subcurrent--deliveries--si-ep18-sovereign-subcurrent--review--motion-0-179--41e7da75d341.mp4",
+      "id": 668526174
+    },
+    {
+      "name": "si-ep18-sovereign-subcurrent--deliveries--si-ep18-sovereign-subcurrent--review--motion-1980-2159--619b5770efb1.mp4",
+      "bytes": 3471307,
+      "digest": "sha256:619b5770efb111f0db6bd729da788432b51cac2ad595352e822ee26211f485c4",
+      "kind": "video",
+      "platform": "预览",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep18-sovereign-subcurrent-250e8e7ea6f1/si-ep18-sovereign-subcurrent--deliveries--si-ep18-sovereign-subcurrent--review--motion-1980-2159--619b5770efb1.mp4",
+      "browser_download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep18-sovereign-subcurrent-250e8e7ea6f1/si-ep18-sovereign-subcurrent--deliveries--si-ep18-sovereign-subcurrent--review--motion-1980-2159--619b5770efb1.mp4",
+      "id": 668526309
+    },
+    {
+      "name": "si-ep18-sovereign-subcurrent--deliveries--si-ep18-sovereign-subcurrent--review--motion-3780-4019--ae6bd48a413e.mp4",
+      "bytes": 4466440,
+      "digest": "sha256:ae6bd48a413e2c8fa5470584a7a6a2ef42a64592a2e45115dfe0d847fc714b67",
+      "kind": "video",
+      "platform": "预览",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep18-sovereign-subcurrent-250e8e7ea6f1/si-ep18-sovereign-subcurrent--deliveries--si-ep18-sovereign-subcurrent--review--motion-3780-4019--ae6bd48a413e.mp4",
+      "browser_download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep18-sovereign-subcurrent-250e8e7ea6f1/si-ep18-sovereign-subcurrent--deliveries--si-ep18-sovereign-subcurrent--review--motion-3780-4019--ae6bd48a413e.mp4",
+      "id": 668526453
+    },
+    {
+      "name": "si-ep18-sovereign-subcurrent--deliveries--si-ep18-sovereign-subcurrent--review--motion-4800-5039--d385f1d9ff3f.mp4",
+      "bytes": 3784942,
+      "digest": "sha256:d385f1d9ff3f16d12cd27b56cecaa9691d9a71bd83a39d8dd9e33aeebf58b70d",
+      "kind": "video",
+      "platform": "预览",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep18-sovereign-subcurrent-250e8e7ea6f1/si-ep18-sovereign-subcurrent--deliveries--si-ep18-sovereign-subcurrent--review--motion-4800-5039--d385f1d9ff3f.mp4",
+      "browser_download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep18-sovereign-subcurrent-250e8e7ea6f1/si-ep18-sovereign-subcurrent--deliveries--si-ep18-sovereign-subcurrent--review--motion-4800-5039--d385f1d9ff3f.mp4",
+      "id": 668526525
+    },
+    {
+      "name": "si-ep18-sovereign-subcurrent--deliveries--si-ep18-sovereign-subcurrent--review--motion-4860-4979--203fa17c9648.mp4",
+      "bytes": 1729097,
+      "digest": "sha256:203fa17c9648a9f39009a14174abd53304372182c3ece6fcbab3a9b2722c7f3f",
+      "kind": "video",
+      "platform": "预览",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep18-sovereign-subcurrent-250e8e7ea6f1/si-ep18-sovereign-subcurrent--deliveries--si-ep18-sovereign-subcurrent--review--motion-4860-4979--203fa17c9648.mp4",
+      "browser_download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep18-sovereign-subcurrent-250e8e7ea6f1/si-ep18-sovereign-subcurrent--deliveries--si-ep18-sovereign-subcurrent--review--motion-4860-4979--203fa17c9648.mp4",
+      "id": 668526613
+    },
+    {
+      "name": "si-ep18-sovereign-subcurrent--deliveries--si-ep18-sovereign-subcurrent-----si-ep18-sovereign-subcurrent-xiaohongshu-90s-portrait--bba5f68e90e7.mp4",
+      "bytes": 97349252,
+      "digest": "sha256:bba5f68e90e721f0a71c20dd4949afeb3b34bf510dd9d4700e5e95fd5b86e1bd",
+      "kind": "video",
+      "platform": "小红书",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep18-sovereign-subcurrent-250e8e7ea6f1/si-ep18-sovereign-subcurrent--deliveries--si-ep18-sovereign-subcurrent-----si-ep18-sovereign-subcurrent-xiaohongshu-90s-portrait--bba5f68e90e7.mp4",
+      "browser_download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep18-sovereign-subcurrent-250e8e7ea6f1/si-ep18-sovereign-subcurrent--deliveries--si-ep18-sovereign-subcurrent-----si-ep18-sovereign-subcurrent-xiaohongshu-90s-portrait--bba5f68e90e7.mp4",
+      "id": 668526664
+    }
+  ],
+  "verificationMethod": "RemoteGitHubassetsize+serverSHA256digest comparedtoeachlocalcatalogfile; independentfinalrestore recordedseparately."
+}

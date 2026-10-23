@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "verified_at_utc": "2026-10-23T09:42:52.109809+00:00",
+  "verification": "Root reread actual files, rehashed, checked exact PCM assembly and silence, independently decoded and remeasured both final WAVs",
+  "qa_sha256": "20900b88d494a943c9466ee6090151e01b1689ce2a264f90495c0c824256f22e",
+  "outputs": {
+    "A": {
+      "sha256": "c1f790f0c6ca973d6c3bf8caad8acb0a0a263dbf9592806a35f547cba2710578",
+      "bytes": 3233324,
+      "pcm_samples": 1616640,
+      "duration_seconds": 33.68,
+      "integrated_lufs": -23.43,
+      "true_peak_dbtp": -1.6,
+      "strict_decode": "PASS",
+      "output_pcm_matches_complete_normalized_segments_and_exact_gaps": true
+    },
+    "B": {
+      "sha256": "06b4de87ef3fcaca2ccede25f3526609dc8aef49150fdb9c89ad6ab8d8344b32",
+      "bytes": 2910764,
+      "pcm_samples": 1455360,
+      "duration_seconds": 30.32,
+      "integrated_lufs": -23.41,
+      "true_peak_dbtp": -4.56,
+      "strict_decode": "PASS",
+      "output_pcm_matches_complete_normalized_segments_and_exact_gaps": true
+    }
+  },
+  "human_listening": "PENDING_USER_AUDITION",
+  "original_published_movie_modified": false
+}

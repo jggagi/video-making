@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "provider": "Aliyun Bailian",
+  "model": "qwen-audio-3.0-tts-plus",
+  "voice": "longanlufeng",
+  "rate": 1.0,
+  "format": "wav",
+  "sample_rate": 24000,
+  "items": [
+    {
+      "segment_id": "S01",
+      "scene": "停尸房",
+      "text": "这个世界，没有堵车，没有失业，没有争吵。可你走在街上，却像走进一座巨大的停尸房。",
+      "text_file": "text/S01.txt",
+      "text_sha256": "32c496e4a9a1e9b560e89dd5f91199049e9424fb5dfe97724db945414c9a0b23",
+      "instruction": "请用普通话男声做科幻寓言旁白。语速从容自然，语气冷静、克制，句子有清楚的层次；说到停尸房时略微压低语气。不要夸张表演，不要广告播音腔，不加额外词句。"
+    },
+    {
+      "segment_id": "S08",
+      "scene": "第一次说是",
+      "text": "直到一个孩子，故意松开了手。系统问：这可能弄湿地面，是否仍要继续？他第一次，说了是。",
+      "text_file": "text/S08.txt",
+      "text_sha256": "3fefa35cf2d0a4a16022cce013de5ed227620f591c30d4bc8e4dae554523ff17",
+      "instruction": "请用普通话男声做科幻寓言旁白。语速从容自然，开头平静，系统的提问带一点冷静的疑问，最后说了是时表现轻微迟疑后的坚定。情绪克制，不喊叫，不加额外词句。"
+    },
+    {
+      "segment_id": "S09",
+      "scene": "第一圈涟漪",
+      "text": "水滴落下。第一圈涟漪，慢慢推开。我们需要安稳，也需要试一次的自由。生命力，本来就生长在，失控的裂缝里。",
+      "text_file": "text/S09.txt",
+      "text_sha256": "0c11ca8f147856ed1e40b79c73544baa3d1e8c939a85052b32eea15d11354956",
+      "instruction": "请用普通话男声做科幻寓言旁白。语速从容自然，开头安静，逐渐带一点温度，结尾温和、坚定地收束。不要煽情，不要广告播音腔，不加额外词句。"
+    }
+  ],
+  "comparison_design": {
+    "type": "production-setup audition, not voice-matched model benchmark",
+    "same_text": true,
+    "different_voices": true,
+    "no_music": true,
+    "no_speed_change_or_speech_trimming": true,
+    "target_lufs": -18.0,
+    "peak_ceiling_dbtp": -1.5,
+    "gap_seconds": 0.8
+  },
+  "authorization": {
+    "provider": "Aliyun Bailian",
+    "model": "qwen-audio-3.0-tts-plus",
+    "voice": "longanlufeng",
+    "purpose": "Three-segment EP16 narration audition against existing CosyVoice dry cues; no full movie replacement or account publication",
+    "authorized": true,
+    "source": "Current conversation: assistant proposed about 30 seconds of matched-loudness comparison; user replied 好 试听. User explicitly approved CLI 2.5.1 upgrade.",
+    "text_scope": [
+      "S01",
+      "S08",
+      "S09"
+    ],
+    "cloud_calls_planned": 3,
+    "estimated_cost_basis": "Beijing list price CNY1.4/10000 billing characters, Han=2; excludes free quota and any extra retries",
+    "created_at_utc": "2026-10-23T09:31:04.799375+00:00"
+  }
+}

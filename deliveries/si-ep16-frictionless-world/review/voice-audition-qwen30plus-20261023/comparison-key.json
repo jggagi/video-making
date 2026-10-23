@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "provider_by_group": {
+    "A": "CosyVoice",
+    "B": "Qwen"
+  },
+  "normalization": {
+    "formula": "min(-18.0, -1.5 - max(input_true_peak_dbtp - input_integrated_lufs))",
+    "input_analysis_by_provider": {
+      "Qwen": {
+        "integrated_lufs": -21.41,
+        "true_peak_dbtp": -2.56,
+        "loudness_range_lu": 3.5,
+        "threshold_lufs": -31.91
+      },
+      "CosyVoice": {
+        "integrated_lufs": -24.92,
+        "true_peak_dbtp": -3.11,
+        "loudness_range_lu": 7.8,
+        "threshold_lufs": -35.46
+      }
+    },
+    "initial_common_target_lufs": -23.310000000000002,
+    "final_common_target_lufs": -23.410000000000004,
+    "safety_adjustments_down_0_1_lu": 1,
+    "constant_gain_db_by_group": {
+      "A": 1.509999999999998,
+      "B": -2.0000000000000036
+    }
+  }
+}

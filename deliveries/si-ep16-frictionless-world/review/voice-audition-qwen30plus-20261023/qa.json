@@ -1,0 +1,329 @@
+{
+  "version": 1,
+  "status": "PASS",
+  "design": {
+    "same_text_segments": [
+      "S01",
+      "S08",
+      "S09"
+    ],
+    "ordered_complete_cues": true,
+    "gap_seconds": 0.8,
+    "sample_rate_hz": 48000,
+    "channels": 1,
+    "bits_per_sample": 16,
+    "no_music": true,
+    "no_speed_change": true,
+    "no_speech_trimming": true,
+    "no_eq_compression_limiter": true,
+    "output_processing": "constant linear volume gain followed by FFmpeg SWR resampling (filter_size=64, phase_shift=10, cutoff=0.97, exact_rational=1); output assembled with exact PCM silence gaps",
+    "loudnorm_usage": "measurement only on full concatenated inputs and final outputs; no loudnorm processing saved to audition files"
+  },
+  "source_validation": {
+    "Qwen": {
+      "segments": {
+        "S01": {
+          "path": "si-ep16-frictionless-world/review/voice-audition-qwen30plus-20261023/qwen-raw/S01-418212fd37f1-canonical.wav",
+          "full_sha256": "5b18ab7e638e593dbfe372ddcf9baa62fe9437bf00e5165af9170be0bd48f7a5",
+          "manifest_full_sha256": "5b18ab7e638e593dbfe372ddcf9baa62fe9437bf00e5165af9170be0bd48f7a5",
+          "full_sha_matches_manifest": true,
+          "pcm_sha256": "6c43c929253df9f5cb3bf1b3e9ecbe767a54a9c86dc24f4287badc7b935f509f",
+          "manifest_pcm_sha256": "6c43c929253df9f5cb3bf1b3e9ecbe767a54a9c86dc24f4287badc7b935f509f",
+          "pcm_sha_matches_manifest": true,
+          "file_bytes": 418604,
+          "pcm_samples_24k": 209280,
+          "manifest_pcm_samples_24k": 209280,
+          "pcm_samples_match_manifest": true,
+          "duration_seconds": 8.72,
+          "sample_rate_hz": 24000,
+          "channels": 1,
+          "bits_per_sample": 16
+        },
+        "S08": {
+          "path": "si-ep16-frictionless-world/review/voice-audition-qwen30plus-20261023/qwen-raw/S08-e70a0c9cb75a-canonical.wav",
+          "full_sha256": "ee2ddb6963da661188d77dfcb15b0a6dc98570ad8c5d2552c7b06158a2e7e65f",
+          "manifest_full_sha256": "ee2ddb6963da661188d77dfcb15b0a6dc98570ad8c5d2552c7b06158a2e7e65f",
+          "full_sha_matches_manifest": true,
+          "pcm_sha256": "5f1ae099f11b641767fc7fb599e35c1d0119ddc6287af1f4550f5a1a196ca0e4",
+          "manifest_pcm_sha256": "5f1ae099f11b641767fc7fb599e35c1d0119ddc6287af1f4550f5a1a196ca0e4",
+          "pcm_sha_matches_manifest": true,
+          "file_bytes": 437804,
+          "pcm_samples_24k": 218880,
+          "manifest_pcm_samples_24k": 218880,
+          "pcm_samples_match_manifest": true,
+          "duration_seconds": 9.12,
+          "sample_rate_hz": 24000,
+          "channels": 1,
+          "bits_per_sample": 16
+        },
+        "S09": {
+          "path": "si-ep16-frictionless-world/review/voice-audition-qwen30plus-20261023/qwen-raw/S09-02fbbcb7d572-canonical.wav",
+          "full_sha256": "1ab718aa5cc41d81d10ff03ee341c01f444a700971c868cf33784b7b1d686fa8",
+          "manifest_full_sha256": "1ab718aa5cc41d81d10ff03ee341c01f444a700971c868cf33784b7b1d686fa8",
+          "full_sha_matches_manifest": true,
+          "pcm_sha256": "42ba5638a3cd96b929fc19c486728832f9a833cdf8388214135290f9941ba680",
+          "manifest_pcm_sha256": "42ba5638a3cd96b929fc19c486728832f9a833cdf8388214135290f9941ba680",
+          "pcm_sha_matches_manifest": true,
+          "file_bytes": 522284,
+          "pcm_samples_24k": 261120,
+          "manifest_pcm_samples_24k": 261120,
+          "pcm_samples_match_manifest": true,
+          "duration_seconds": 10.88,
+          "sample_rate_hz": 24000,
+          "channels": 1,
+          "bits_per_sample": 16
+        }
+      },
+      "concatenated_input_loudness_analysis": {
+        "integrated_lufs": -21.41,
+        "true_peak_dbtp": -2.56,
+        "loudness_range_lu": 3.5,
+        "threshold_lufs": -31.91
+      }
+    },
+    "CosyVoice": {
+      "segments": {
+        "S01": {
+          "path": "si-ep16-frictionless-world/project/public/audio/canonical/S01-194483472668.wav",
+          "full_sha256": "0ce132617444c71c35bef8cc6098574d6fc5c7544902e545c109e48f96096e7b",
+          "manifest_full_sha256": "0ce132617444c71c35bef8cc6098574d6fc5c7544902e545c109e48f96096e7b",
+          "full_sha_matches_manifest": true,
+          "pcm_sha256": "4d2cc813bd7d72bb283ef12de52212ff456c7245ee51fa90b812c6e13aafe2e7",
+          "manifest_pcm_sha256": "4d2cc813bd7d72bb283ef12de52212ff456c7245ee51fa90b812c6e13aafe2e7",
+          "pcm_sha_matches_manifest": true,
+          "file_bytes": 460844,
+          "pcm_samples_24k": 230400,
+          "manifest_pcm_samples_24k": 230400,
+          "pcm_samples_match_manifest": true,
+          "duration_seconds": 9.6,
+          "sample_rate_hz": 24000,
+          "channels": 1,
+          "bits_per_sample": 16
+        },
+        "S08": {
+          "path": "si-ep16-frictionless-world/project/public/audio/canonical/S08-faffb0a762a5.wav",
+          "full_sha256": "028eaa4019008c01697d671cabea770d0e7f3a6b67398ce5c7426bbe9fd6a549",
+          "manifest_full_sha256": "028eaa4019008c01697d671cabea770d0e7f3a6b67398ce5c7426bbe9fd6a549",
+          "full_sha_matches_manifest": true,
+          "pcm_sha256": "cff381577e2182878e4dbf03797a077da22dfaea13ef69bb979c61f94d95ae20",
+          "manifest_pcm_sha256": "cff381577e2182878e4dbf03797a077da22dfaea13ef69bb979c61f94d95ae20",
+          "pcm_sha_matches_manifest": true,
+          "file_bytes": 560684,
+          "pcm_samples_24k": 280320,
+          "manifest_pcm_samples_24k": 280320,
+          "pcm_samples_match_manifest": true,
+          "duration_seconds": 11.68,
+          "sample_rate_hz": 24000,
+          "channels": 1,
+          "bits_per_sample": 16
+        },
+        "S09": {
+          "path": "si-ep16-frictionless-world/project/public/audio/canonical/S09-31aea52fd460.wav",
+          "full_sha256": "cace4c6d48af1fc9bf3f957788a2d6fc7105a73b9bacfcb1e9fff669cdf91490",
+          "manifest_full_sha256": "cace4c6d48af1fc9bf3f957788a2d6fc7105a73b9bacfcb1e9fff669cdf91490",
+          "full_sha_matches_manifest": true,
+          "pcm_sha256": "b61078a97686c6aabc4de4f2c99abe77e9da057b7b109a1bf18fa16fac54f2fc",
+          "manifest_pcm_sha256": "b61078a97686c6aabc4de4f2c99abe77e9da057b7b109a1bf18fa16fac54f2fc",
+          "pcm_sha_matches_manifest": true,
+          "file_bytes": 518444,
+          "pcm_samples_24k": 259200,
+          "manifest_pcm_samples_24k": 259200,
+          "pcm_samples_match_manifest": true,
+          "duration_seconds": 10.8,
+          "sample_rate_hz": 24000,
+          "channels": 1,
+          "bits_per_sample": 16
+        }
+      },
+      "concatenated_input_loudness_analysis": {
+        "integrated_lufs": -24.92,
+        "true_peak_dbtp": -3.11,
+        "loudness_range_lu": 7.8,
+        "threshold_lufs": -35.46
+      }
+    }
+  },
+  "normalized_segments_by_group": {
+    "A": {
+      "S01": {
+        "path": "normalized/A/S01.wav",
+        "sha256": "39a0e51cd17812205d7b94e9d69b9dea35db10bd28cffba2c17a90e669d027f8",
+        "pcm_sha256": "ba01eed60519506f8396ab364ab4762fc2745768cd39adbfc9063237aa68e513",
+        "file_bytes": 921678,
+        "pcm_samples_48k": 460800
+      },
+      "S08": {
+        "path": "normalized/A/S08.wav",
+        "sha256": "b20bb1fa6391d3495676a4cf1dc3b6b2bb17cbe744ec965e7fa7ba472b84513e",
+        "pcm_sha256": "dcd3545f85efb3e441cf27f509db7a1c8a8afb57264e61c85067cfcb1f2c5f34",
+        "file_bytes": 1121358,
+        "pcm_samples_48k": 560640
+      },
+      "S09": {
+        "path": "normalized/A/S09.wav",
+        "sha256": "f470da4bd4628b80272518185adb15f62e12584565738cafa547df4577e95100",
+        "pcm_sha256": "87a5d20a43103cf953d8b91a15910f31c14416f3d834277014f428eae6c6ead0",
+        "file_bytes": 1036878,
+        "pcm_samples_48k": 518400
+      }
+    },
+    "B": {
+      "S01": {
+        "path": "normalized/B/S01.wav",
+        "sha256": "8af89c869b70b42b84e83b7076d94b1aa70ef6670df2a70a7e7b03953c6b0fbc",
+        "pcm_sha256": "8c1f0bc9f1c2b264ab4ed637cc883bb55b8ac2893dd4d97516cb2d82fd456c41",
+        "file_bytes": 837198,
+        "pcm_samples_48k": 418560
+      },
+      "S08": {
+        "path": "normalized/B/S08.wav",
+        "sha256": "441609a48100e3620e3f599025224b908c4631ae8ba63077939d02c96111d9e7",
+        "pcm_sha256": "2b95a8793a2135288a3b56f684c1457e1e2fbd4ad93b00150fe65f4c8ccc89f1",
+        "file_bytes": 875598,
+        "pcm_samples_48k": 437760
+      },
+      "S09": {
+        "path": "normalized/B/S09.wav",
+        "sha256": "b9481a7236094674adcc59cc7d12b9f254292cbd4717edde3784946f3c654283",
+        "pcm_sha256": "d7ec877b8e00eec4774084d900d134ecd5ab551a7f42061b94ade9750b974259",
+        "file_bytes": 1044558,
+        "pcm_samples_48k": 522240
+      }
+    }
+  },
+  "normalization": {
+    "formula": "min(-18.0, -1.5 - max(input_true_peak_dbtp - input_integrated_lufs))",
+    "initial_formula_target_lufs": -23.310000000000002,
+    "final_common_target_lufs": -23.410000000000004,
+    "safety_adjustments_down_0_1_lu": 1,
+    "target_lufs_ceiling": -18.0,
+    "true_peak_ceiling_dbtp": -1.5,
+    "max_final_integrated_loudness_delta_lu": 0.019999999999999574
+  },
+  "outputs": {
+    "A": {
+      "file": "audition-A.wav",
+      "sha256": "c1f790f0c6ca973d6c3bf8caad8acb0a0a263dbf9592806a35f547cba2710578",
+      "file_bytes": 3233324,
+      "pcm_sha256": "171730e22b7fce3dda594f90630ee54f8f03503eb0d0091f0eb9c225b5639c19",
+      "pcm_samples_48k": 1616640,
+      "duration_seconds": 33.68,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "segment_positions": [
+        {
+          "segment_id": "S01",
+          "start_sample_48k": 0,
+          "end_sample_48k_exclusive": 460800,
+          "pcm_samples_48k": 460800,
+          "duration_seconds": 9.6
+        },
+        {
+          "segment_id": "S08",
+          "start_sample_48k": 499200,
+          "end_sample_48k_exclusive": 1059840,
+          "pcm_samples_48k": 560640,
+          "duration_seconds": 11.68
+        },
+        {
+          "segment_id": "S09",
+          "start_sample_48k": 1098240,
+          "end_sample_48k_exclusive": 1616640,
+          "pcm_samples_48k": 518400,
+          "duration_seconds": 10.8
+        }
+      ],
+      "gaps": [
+        {
+          "after_segment": "S01",
+          "start_sample_48k": 460800,
+          "samples": 38400
+        },
+        {
+          "after_segment": "S08",
+          "start_sample_48k": 1059840,
+          "samples": 38400
+        }
+      ],
+      "probe": {
+        "codec_name": "pcm_s16le",
+        "codec_type": "audio",
+        "sample_rate": 48000,
+        "channels": 1,
+        "bits_per_sample": 16,
+        "sample_fmt": "s16",
+        "format_duration_seconds": 33.68,
+        "format_size_bytes": 3233324
+      },
+      "strict_decode": "PASS",
+      "measured_integrated_lufs": -23.43,
+      "measured_true_peak_dbtp": -1.6
+    },
+    "B": {
+      "file": "audition-B.wav",
+      "sha256": "06b4de87ef3fcaca2ccede25f3526609dc8aef49150fdb9c89ad6ab8d8344b32",
+      "file_bytes": 2910764,
+      "pcm_sha256": "1cae3dcd3eb8f76c1ba384048fb4a7736a39dd1af356a0348828f49b7c708a71",
+      "pcm_samples_48k": 1455360,
+      "duration_seconds": 30.32,
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "bits_per_sample": 16,
+      "segment_positions": [
+        {
+          "segment_id": "S01",
+          "start_sample_48k": 0,
+          "end_sample_48k_exclusive": 418560,
+          "pcm_samples_48k": 418560,
+          "duration_seconds": 8.72
+        },
+        {
+          "segment_id": "S08",
+          "start_sample_48k": 456960,
+          "end_sample_48k_exclusive": 894720,
+          "pcm_samples_48k": 437760,
+          "duration_seconds": 9.12
+        },
+        {
+          "segment_id": "S09",
+          "start_sample_48k": 933120,
+          "end_sample_48k_exclusive": 1455360,
+          "pcm_samples_48k": 522240,
+          "duration_seconds": 10.88
+        }
+      ],
+      "gaps": [
+        {
+          "after_segment": "S01",
+          "start_sample_48k": 418560,
+          "samples": 38400
+        },
+        {
+          "after_segment": "S08",
+          "start_sample_48k": 894720,
+          "samples": 38400
+        }
+      ],
+      "probe": {
+        "codec_name": "pcm_s16le",
+        "codec_type": "audio",
+        "sample_rate": 48000,
+        "channels": 1,
+        "bits_per_sample": 16,
+        "sample_fmt": "s16",
+        "format_duration_seconds": 30.32,
+        "format_size_bytes": 2910764
+      },
+      "strict_decode": "PASS",
+      "measured_integrated_lufs": -23.41,
+      "measured_true_peak_dbtp": -4.56
+    }
+  },
+  "limitations": [
+    "This compares production setups, not a voice-matched model benchmark: the providers use different voices.",
+    "Qwen generation used per-segment expressive instructions; the existing CosyVoice cues were produced under the series voice setup, so instruction differences also affect the comparison.",
+    "No human listening claim is made; human auditory acceptance remains NOT_RUN."
+  ],
+  "source_paths_relative_to_repository": "deliveries/"
+}

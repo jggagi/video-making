@@ -1,0 +1,144 @@
+{
+  "version": 1,
+  "cli_version": "2.5.1",
+  "skill_version": "2.5.1",
+  "authorization": {
+    "provider": "Aliyun Bailian",
+    "model": "qwen-audio-3.0-tts-plus",
+    "voice": "longanlufeng",
+    "purpose": "Three-segment EP16 narration audition against existing CosyVoice dry cues; no full movie replacement or account publication",
+    "authorized": true,
+    "source": "Current conversation: assistant proposed about 30 seconds of matched-loudness comparison; user replied 好 试听. User explicitly approved CLI 2.5.1 upgrade.",
+    "text_scope": [
+      "S01",
+      "S08",
+      "S09"
+    ],
+    "cloud_calls_planned": 3,
+    "estimated_cost_basis": "Beijing list price CNY1.4/10000 billing characters, Han=2; excludes free quota and any extra retries",
+    "created_at_utc": "2026-10-23T09:31:04.799375+00:00"
+  },
+  "calls": [
+    {
+      "segment_id": "S01",
+      "cache_key": "418212fd37f17642976ea00f8918440069577d4fb28762c44449b10564536404",
+      "started_at_utc": "2026-10-23T09:34:12.696659+00:00",
+      "requested_settings": {
+        "model": "qwen-audio-3.0-tts-plus",
+        "voice": "longanlufeng",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "requested_instruction": "请用普通话男声做科幻寓言旁白。语速从容自然，语气冷静、克制，句子有清楚的层次；说到停尸房时略微压低语气。不要夸张表演，不要广告播音腔，不加额外词句。",
+      "text_sha256": "32c496e4a9a1e9b560e89dd5f91199049e9424fb5dfe97724db945414c9a0b23",
+      "status": "PASS",
+      "cli_exit_code": 0,
+      "reported_models": [
+        "qwen-audio-3.0-tts-plus"
+      ],
+      "reported_voices": [
+        "longanlufeng"
+      ],
+      "identity_source": "CLI response fields; not an independent acoustic identity test",
+      "raw_path": "qwen-raw/S01-418212fd37f1.wav",
+      "canonical_path": "qwen-raw/S01-418212fd37f1-canonical.wav",
+      "raw_sha256": "c284d6f3d522a649be8de79db35b229491fff94b245f65946c581368c8a3df65",
+      "canonical_sha256": "5b18ab7e638e593dbfe372ddcf9baa62fe9437bf00e5165af9170be0bd48f7a5",
+      "pcm": {
+        "actualSamples24k": 209280,
+        "actualDurationSeconds": 8.72,
+        "pcmSha256": "6c43c929253df9f5cb3bf1b3e9ecbe767a54a9c86dc24f4287badc7b935f509f",
+        "rawHeaderMatchesPayload": false,
+        "verifiedPcmOverflowRepair": true,
+        "declaredRiffBytesAfterHeader": 2147483583,
+        "actualRiffBytesAfterHeader": 418596,
+        "declaredDataBytes": 2147483547,
+        "actualDataBytes": 418560
+      },
+      "completed_at_utc": "2026-10-23T09:34:15.675641+00:00"
+    },
+    {
+      "segment_id": "S08",
+      "cache_key": "e70a0c9cb75a1992a0ec75bab973a5a67b11aaaa3f01f3bfdee6edc3842bc5e2",
+      "started_at_utc": "2026-10-23T09:34:15.676204+00:00",
+      "requested_settings": {
+        "model": "qwen-audio-3.0-tts-plus",
+        "voice": "longanlufeng",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "requested_instruction": "请用普通话男声做科幻寓言旁白。语速从容自然，开头平静，系统的提问带一点冷静的疑问，最后说了是时表现轻微迟疑后的坚定。情绪克制，不喊叫，不加额外词句。",
+      "text_sha256": "3fefa35cf2d0a4a16022cce013de5ed227620f591c30d4bc8e4dae554523ff17",
+      "status": "PASS",
+      "cli_exit_code": 0,
+      "reported_models": [
+        "qwen-audio-3.0-tts-plus"
+      ],
+      "reported_voices": [
+        "longanlufeng"
+      ],
+      "identity_source": "CLI response fields; not an independent acoustic identity test",
+      "raw_path": "qwen-raw/S08-e70a0c9cb75a.wav",
+      "canonical_path": "qwen-raw/S08-e70a0c9cb75a-canonical.wav",
+      "raw_sha256": "75ea4be72b4983ebdb0ca1df1215b53c05e35004ebbc8ab0f421764600410343",
+      "canonical_sha256": "ee2ddb6963da661188d77dfcb15b0a6dc98570ad8c5d2552c7b06158a2e7e65f",
+      "pcm": {
+        "actualSamples24k": 218880,
+        "actualDurationSeconds": 9.12,
+        "pcmSha256": "5f1ae099f11b641767fc7fb599e35c1d0119ddc6287af1f4550f5a1a196ca0e4",
+        "rawHeaderMatchesPayload": false,
+        "verifiedPcmOverflowRepair": true,
+        "declaredRiffBytesAfterHeader": 2147483583,
+        "actualRiffBytesAfterHeader": 437796,
+        "declaredDataBytes": 2147483547,
+        "actualDataBytes": 437760
+      },
+      "completed_at_utc": "2026-10-23T09:34:18.914167+00:00"
+    },
+    {
+      "segment_id": "S09",
+      "cache_key": "02fbbcb7d57270ec84acecb45331351f29efd96eeb81769dba8076c0e378571a",
+      "started_at_utc": "2026-10-23T09:34:18.915451+00:00",
+      "requested_settings": {
+        "model": "qwen-audio-3.0-tts-plus",
+        "voice": "longanlufeng",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "requested_instruction": "请用普通话男声做科幻寓言旁白。语速从容自然，开头安静，逐渐带一点温度，结尾温和、坚定地收束。不要煽情，不要广告播音腔，不加额外词句。",
+      "text_sha256": "0c11ca8f147856ed1e40b79c73544baa3d1e8c939a85052b32eea15d11354956",
+      "status": "PASS",
+      "cli_exit_code": 0,
+      "reported_models": [
+        "qwen-audio-3.0-tts-plus"
+      ],
+      "reported_voices": [
+        "longanlufeng"
+      ],
+      "identity_source": "CLI response fields; not an independent acoustic identity test",
+      "raw_path": "qwen-raw/S09-02fbbcb7d572.wav",
+      "canonical_path": "qwen-raw/S09-02fbbcb7d572-canonical.wav",
+      "raw_sha256": "6cc5ca69b35c8e0af13dbd136cc9e659cb00660868feaa991359a847b32c2719",
+      "canonical_sha256": "1ab718aa5cc41d81d10ff03ee341c01f444a700971c868cf33784b7b1d686fa8",
+      "pcm": {
+        "actualSamples24k": 261120,
+        "actualDurationSeconds": 10.88,
+        "pcmSha256": "42ba5638a3cd96b929fc19c486728832f9a833cdf8388214135290f9941ba680",
+        "rawHeaderMatchesPayload": false,
+        "verifiedPcmOverflowRepair": true,
+        "declaredRiffBytesAfterHeader": 2147483583,
+        "actualRiffBytesAfterHeader": 522276,
+        "declaredDataBytes": 2147483547,
+        "actualDataBytes": 522240
+      },
+      "completed_at_utc": "2026-10-23T09:34:22.294367+00:00"
+    }
+  ],
+  "raw_responses_or_signed_urls_saved": false,
+  "auth_status_preflight": "authenticated=true",
+  "voice_list_preflight": "longanlufeng listed for qwen-audio-3.0-tts-plus",
+  "environment_change": "User-authorized CLI update 2.5.0 to 2.5.1; installed Bailian skills synchronized"
+}

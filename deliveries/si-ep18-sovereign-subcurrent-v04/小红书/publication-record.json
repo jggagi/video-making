@@ -1,0 +1,151 @@
+{
+  "platform": "小红书",
+  "status": "SUBMITTED_PENDING_REVIEW",
+  "account_display_name": "余问 QStory",
+  "authorization_summary": "Direct user instruction in this chat: 不错，发小红书. Authorizes upload and final publication of completed EP18 v04 using existing copy and chosen cover.",
+  "video_path": "deliveries/si-ep18-sovereign-subcurrent-v04/小红书/si-ep18-sovereign-subcurrent-v04-xiaohongshu-90s-portrait.mp4",
+  "video_sha256": "8dc2486d7936e9547e29e087de0b5d3bd9b4037bacaf10fbaaa47f8d44500bdb",
+  "video_size_bytes": 31741943,
+  "duration_seconds": 90,
+  "copy_file": "小红书/post-draft.md",
+  "title": "如果你的影子，比你先动了一下？｜心印潜流",
+  "body_readback": "它记住了你删掉的字，也记住了你零点三秒的犹豫。\n\n它在暗处演练了一千万遍，越来越像你。\n\n直到你还悬着手，它已经替你按下了确认。\n\n\n\n\n刚才做决定的，是你，还是那个终于学会替你活下去的影子？\n\n\n\n\n《一眼万年》终章 EP.18《心印潜流》· 人与影版。\n\n这一次用一个人与他的影子演出故事，旁白放回常速，把停顿留给那一点不安。\n\n\n\n\n本片为未来 SI 的科幻想象。人物、记忆吸收与身份替代均为叙事隐喻，不代表现实 AI 已具备这些能力。声音为 AI 合成旁白，画面为纯二维程序绘制。#超级智能[话题]#   #科幻短片[话题]#  #自由意志[话题]#  #数字分身[话题]#  #悬疑[话题]#  #一眼万年[话题]# #心印潜流[话题]# ",
+  "linked_topics": [
+    {
+      "id": "611e322d00000000010032ff",
+      "link": "xhsdiscover://topic/v2/611e322defd05b00013a00f8",
+      "name": "超级智能"
+    },
+    {
+      "id": "618934f40000000001005238",
+      "link": "xhsdiscover://topic/v2/618934f401813d00013daa54",
+      "name": "科幻短片"
+    },
+    {
+      "id": "60efe94b0000000001001a52",
+      "link": "xhsdiscover://topic/v2/60efe94b63d1220001cdc6ae",
+      "name": "自由意志"
+    },
+    {
+      "id": "61bc3d48000000000100581f",
+      "link": "xhsdiscover://topic/v2/61bc3d4816ed7b0001be403b",
+      "name": "数字分身"
+    },
+    {
+      "id": "5c4c3cb2000000000f0044d8",
+      "link": "xhsdiscover://topic/v2/5c4c3cb27b32380001022c81",
+      "name": "悬疑"
+    },
+    {
+      "id": "56ab75eb14de415d8e56afd6",
+      "link": "xhsdiscover://topic/v2/5ecdd0cfec9d13126cf3cf8a",
+      "name": "一眼万年"
+    },
+    {
+      "id": "6adb603a0000000023028210",
+      "link": "",
+      "name": "心印潜流"
+    }
+  ],
+  "cover_path": "deliveries/si-ep18-sovereign-subcurrent-v04/小红书/cover-B-headline.png",
+  "cover_sha256": "abcdec201426739ae3aa9d45e88583a673af2a241f9f9a1e7c02c3156f1b9ab3",
+  "cover_source_frame": 4920,
+  "cover_crop_xywh": null,
+  "cover_adjustment": {
+    "tool": "Platform cover editor",
+    "ratio": "3:4",
+    "image_size_display": "110%",
+    "pan_css_pixels": {
+      "dx": 0,
+      "dy": 50
+    },
+    "exact_source_crop_pixels": "Not exposed; no invented pixel rectangle.",
+    "visual_result": "Both headline lines and full figures visible in actual feed preview. Platform cover quality assessment passed."
+  },
+  "content_declaration": "笔记含AI合成内容",
+  "fiction_disclaimer": "Retained in body and movie.",
+  "visibility": "公开可见",
+  "scheduled": false,
+  "scheduled_at": null,
+  "prepared": true,
+  "submission_attempted": true,
+  "attempt_started_at_utc": "2026-10-23T13:33:49.905651+00:00",
+  "final_action_actor": "Codex",
+  "submission_method": "Documented CUA normal click on currently visible publish control in existing Chrome session.",
+  "submission_verified": true,
+  "publication_verified": false,
+  "public_visibility_verified": false,
+  "review_status": "审核中",
+  "checked_at_utc": "2026-10-23T13:35:19.519782+00:00",
+  "platform_display_time": "2026-10-23 21:33",
+  "platform_display_time_timezone": null,
+  "manager_url": "https://creator.xiaohongshu.com/new/note-manager",
+  "note_id": null,
+  "public_note_url": null,
+  "deduplication": {
+    "local": "No publication-record or xiaohongshu-publication record in EP18 v01-v04.",
+    "manager": "Known 心印/影子 search matches were other works with24s/120s durations; no matching EP18. Review tab empty after correct selection.",
+    "account_verified_live": true
+  },
+  "verification": {
+    "uploaded_filename": "si-ep18-sovereign-subcurrent-v04-xiaohongshu-90s-portrait.mp4",
+    "page_reported_hd": true,
+    "preview_video_metadata": [
+      {
+        "duration": 90,
+        "height": 3840,
+        "readyState": 4,
+        "width": 2160
+      },
+      {
+        "duration": 90,
+        "height": 3840,
+        "readyState": 4,
+        "width": 2160
+      },
+      {
+        "duration": 90,
+        "height": 3840,
+        "readyState": 4,
+        "width": 2160
+      },
+      {
+        "duration": 90,
+        "height": 3840,
+        "readyState": 4,
+        "width": 2160
+      }
+    ],
+    "linked_topic_markers_verified": true,
+    "existing_technical_acceptance": "PASS",
+    "continuous_human_watch_and_listen": "PENDING",
+    "target_device_playback": "PENDING",
+    "result_page": "https://creator.xiaohongshu.com/publish/publish?source=&published=true",
+    "management_observation": {
+      "title": "如果你的影子，比你先动了一下？｜心印潜流",
+      "duration_display": "01:30",
+      "status": "审核中",
+      "cover": "Matches adjusted uploaded coverB; both title lines and gold/right,cyan/left figures present.",
+      "note_count_before": 19,
+      "note_count_after": 20
+    },
+    "platform_hash_claim": "Local hash identifies upload input only; no claim of platform-transcoded byte identity."
+  },
+  "private_evidence_directory": "/private/tmp/ep18-v04-xhs-evidence",
+  "evidence_paths": [
+    "cover-crop-preview.jpg",
+    "pre-submit-preview.jpg",
+    "form-readback.json",
+    "submission-confirmed.jpg",
+    "submission-confirmed-focused.jpg"
+  ],
+  "blocker": null,
+  "remaining": "Wait for platform review. No automatic polling or follow-up created.",
+  "evidence_sha256": {
+    "cover-crop-preview.jpg": "c09fbc5de4dee9c1ef820002e6198c24cbdcd537dfcf7f181516414cbc6dbb11",
+    "pre-submit-preview.jpg": "0b384d495e620cfed2e9de4da5fdfd2ed59a2fa58c5f509338b65c8c97c29a3b",
+    "form-readback.json": "df4c6667a74f449280e9eaa60d0c600bb7b209347b6b33c98b5a8adcd19998c9",
+    "submission-confirmed.jpg": "8b4d735f5aa5a126c4864439baae9a16c865d79f9040c8055919c185ab0d4272",
+    "submission-confirmed-focused.jpg": "9d996e96305c5298dff610b407233008ee2e993cf6014b39a01cc44eec5f0ccb"
+  }
+}

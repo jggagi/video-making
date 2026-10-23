@@ -37,4 +37,6 @@ final首轮上传失败时只留下空草稿；同一清单/源码目标第二�
 
 v04连续人工观看/听音：PENDING。发音、真实听感与观众体验：PENDING。目标手机/小红书App播放：PENDING。模型代表帧及自动测量不替代这些状态。用户对v03的反馈不当作用户已验收v04。
 
-账号发布：NOT_SUBMITTED。
+账号发布（制作归档时）：NOT_SUBMITTED。
+
+后续用户明确授权“不错，发小红书”。本次已提交至余问 QStory，管理页核对匹配标题、封面B及01:30时长，状态为“审核中”。页面原文时间2026-10-23 21:33，未推断页面时区。submission_verified=true，publication_verified=false，public_visibility_verified=false。七个话题已形成编辑器关联项，选用“笔记含AI合成内容”，公开可见、非定时；封面在平台3:4裁切下保持110%缩放并下移50CSS像素，使标题和完整人物可见。详见小红书/publication-record.json。原始管理页/预览截图仅在私有临时目录，不进入Git/Release。人工连续听看和目标设备验收仍保持PENDING。

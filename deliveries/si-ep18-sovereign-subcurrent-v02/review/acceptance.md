@@ -29,4 +29,10 @@
 
 ## 归档
 
-本地final已通过APFS克隆加入，总库61份正式视频，新增1份、跳过60份。源成片与本地final散列匹配；旧31部作品清单逐项保持一致。GitHub作品与独立final备份、实际下载恢复：待执行。
+本地final已通过APFS克隆加入，总库61份正式视频，新增1份、跳过60份。源成片与本地final散列匹配；旧31部作品清单逐项保持一致。GitHub作品归档278个资产、final备份61个资产的远端大小与SHA-256均已核对。本版作品Release含2段样片及1份正式成片；独立final Release仅1份成片。新版85,171,239字节已实际下载恢复，散列一致；重复恢复跳过匹配文件、保持inode，并清理隔离临时目录。下载抽测仅覆盖新v02，不代表历史60份均重新下载。
+
+源码归档提交：`89fac544b917d4f550d0eb7d07ab4e0246e3090c`。
+
+- [作品Release](https://github.com/jggagi/video-making/releases/tag/film-si-ep18-sovereign-subcurrent-v02-8272756b62fd)
+- [独立final Release](https://github.com/jggagi/video-making/releases/tag/final-si-ep18-sovereign-subcurrent-v02-8272756b62fd)
+- 当前总核验：`final/backup-verification.json`；本版恢复证据：`final-restore-probe.json`。

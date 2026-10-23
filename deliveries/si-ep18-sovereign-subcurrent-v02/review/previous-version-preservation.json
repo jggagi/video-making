@@ -1,7 +1,8 @@
 {
-  "status": "VERIFIED_BEFORE_REVISION",
+  "status": "VERIFIED_BEFORE_AND_AFTER_REVISION",
   "old_work": "si-ep18-sovereign-subcurrent",
   "old_movie_sha256": "bba5f68e90e721f0a71c20dd4949afeb3b34bf510dd9d4700e5e95fd5b86e1bd",
   "old_scene_sha256": "f12153a8c707d33e3f69565b3409a77c24b058021f20f7ef4b1bd3f9acd34450",
-  "policy": "Original v01 paths remain; new v02 gets independent source, output and final archive."
+  "policy": "Original v01 paths remain; new v02 gets independent source, output and final archive.",
+  "old_movie_sha256_after": "bba5f68e90e721f0a71c20dd4949afeb3b34bf510dd9d4700e5e95fd5b86e1bd"
 }

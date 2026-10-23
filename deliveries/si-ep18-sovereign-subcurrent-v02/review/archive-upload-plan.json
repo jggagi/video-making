@@ -74,9 +74,15 @@
       "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep18-sovereign-subcurrent-v02-8272756b62fd/final--si-ep18-sovereign-subcurrent-v02--deliveries--si-ep18-sovereign-subcurrent-v02-----si-ep18-sovereign-subcurrent-v02-xiaohongshu-90s-portrait--9c5902c42411.mp4"
     }
   ],
-  "sourceCommitPushed": false,
-  "remoteUploadComplete": false,
+  "sourceCommitPushed": true,
+  "remoteUploadComplete": true,
   "previousWorksUnchanged": 31,
   "allCatalogAssets": 278,
-  "allFinalAssets": 61
+  "allFinalAssets": 61,
+  "sourceCommit": "89fac544b917d4f550d0eb7d07ab4e0246e3090c",
+  "workAssetsVerified": 3,
+  "allCatalogAssetsVerified": 278,
+  "independentFinalAssetsVerified": 1,
+  "allFinalAssetsVerified": 61,
+  "actualNewFilmRestore": "PASS"
 }

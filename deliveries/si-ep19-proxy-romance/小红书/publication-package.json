@@ -1,0 +1,96 @@
+{
+  "title_original": "当影子在阳光下学会了相爱，而你成了它的影子｜一眼万年S4",
+  "caption_original": "我们把敷衍的寒暄、疲惫的社交，甚至内心的试探，全部外包给了最懂我们的 AI 替身。\n起初，这只是为了偷懒。\n直到有一天，空间倒置了：真正的肉身被剥离了色彩，像粉笔灰一样沉入水底；而那个被你豢养的影子，却越过地平线，走进了热烈的人间。\n\n你的每一次沉默与逃避，都在从胸口抽出一根根温润的金丝，化作影子身上华丽的嫁衣。\n它们在云端炽烈相爱、拥抱、交换颤抖的心跳数值，而坐在餐桌两端的你们，连手指都懒得再抬一下。\n甚至连你脸上礼貌而空洞的微笑，都需要头顶那尊完美的影子，用一根无形的金丝在暗中勉强提线。\n\n直到有一天，金丝悄然绷断，影子转身，走向属于它们真正的人生……\n\n起初，我们只是派影子去应付敷衍的寒暄；\n后来，影子在阳光下学会了相爱，而躲在暗处的我们，连怎么拥抱都忘了。\n\n——\n🎬 「一眼万年」第四季开篇 · EP.19《替身社交》\n全片采用纯 2D 倒悬地平线与蚕丝剥离美学（Remotion 纯代码生成极简现代主义剧场）。备好纸巾，建议戴耳机观看。\n\n💬 深夜提问：如果未来你的 AI 替身能比你更幽默、更体贴、更完美地处理好你所有的社交关系，你会选择把整个人生都托付给它吗？\n\n#赛博朋克 #社交恐惧 #人工智能 #深度思考 #现代人的困境 #生成艺术 #极简美学 #一眼万年",
+  "cover_headline": "我们派 AI 替身去谈恋爱，最后却连怎么拥抱都忘了",
+  "covers": {
+    "A": {
+      "frame": 2100,
+      "source": "final encoded MP4",
+      "raw_path": "cover-A.png",
+      "raw_sha256": "cbe4e34989caa1fa81185f630b7c4cb6c35d8608d7af594fabec3cf2177dd137",
+      "headline_path": "cover-A-headline-v03.png",
+      "headline_sha256": "305f7a7f80807bca28e365f174a096f5391b5295f5aeb044e1e30132f6c1738d",
+      "headline_method": "Typography over actual encoded frame; original quote and subtitle regions masked; raw frame preserved"
+    },
+    "B": {
+      "frame": 5040,
+      "source": "final encoded MP4",
+      "raw_path": "cover-B.png",
+      "raw_sha256": "3bf51701fd72e968bd46fba5afa86770f097fee7a82e45584162110666824c1b",
+      "headline_path": "cover-B-headline-v03.png",
+      "headline_sha256": "85f3742ceef5dd3a35ed9a77e914e83cfe034b442c3bf6bed179550ef2c14e4a",
+      "headline_method": "Typography over actual encoded frame; original quote and subtitle regions masked; raw frame preserved"
+    }
+  },
+  "topics": [
+    "赛博朋克",
+    "社交恐惧",
+    "人工智能",
+    "深度思考",
+    "现代人的困境",
+    "生成艺术",
+    "极简美学",
+    "一眼万年"
+  ],
+  "ai_declaration_required": true,
+  "submission_attempted": false,
+  "submission_verified": false,
+  "publication_verified": false,
+  "public_visibility_verified": false,
+  "visibility": "公开可见",
+  "selected_cover": "cover-A-headline-v03.png",
+  "selected_cover_kind": "A",
+  "user_authorized_public_submission": true,
+  "authorization": "Direct user in this chat: 现在上传并提交小红书（推荐）",
+  "upload_status": "UPLOADED_EDITOR",
+  "scheduled": false,
+  "account_display_name": "余问 QStory",
+  "associated_topics": [
+    {
+      "id": "5bfc1cbfed2502000149c629",
+      "link": "xhsdiscover://topic/v2/5bfc1cbf71f1ee00019022bc",
+      "name": "赛博朋克"
+    },
+    {
+      "id": "5c111f165237920001cb2d81",
+      "link": "xhsdiscover://topic/v2/5c111f1624e1fc00014d88c1",
+      "name": "社交恐惧"
+    },
+    {
+      "id": "620cd421000000000100130c",
+      "link": "xhsdiscover://topic/v2/620cd4214ce6550001a0fd2c",
+      "name": "人工智能"
+    },
+    {
+      "id": "5d3323290000000017032899",
+      "link": "xhsdiscover://topic/v2/5d3323295233240001349b8c",
+      "name": "深度思考"
+    },
+    {
+      "id": "661f3dbd000000001b02c178",
+      "link": "xhsdiscover://topic/v2/661f3dbdc5b68100015ea639",
+      "name": "现代人的困境"
+    },
+    {
+      "id": "5f7d9f0e00000000010028e9",
+      "link": "xhsdiscover://topic/v2/5f7d9f0efa9b000001feee3c",
+      "name": "生成艺术"
+    },
+    {
+      "id": "5e953ac00000000001006f7f",
+      "link": "xhsdiscover://topic/v2/5e953ac0fc46fb00015527d1",
+      "name": "极简美学"
+    },
+    {
+      "id": "56ab75eb14de415d8e56afd6",
+      "link": "xhsdiscover://topic/v2/5ecdd0cfec9d13126cf3cf8a",
+      "name": "一眼万年"
+    }
+  ],
+  "caption_text_readback_verified": true,
+  "content_declaration": "笔记含AI合成内容",
+  "cover_platform_crop": "3:4",
+  "cover_applied": true,
+  "observed_at_utc": "2026-10-23T15:32:55.135Z",
+  "title_status": "ORIGINAL_27_OVER_PAGE_LIMIT_20_AWAITING_USER_SHORT_TITLE"
+}

@@ -1,0 +1,99 @@
+{
+  "id": "si-ep19-proxy-romance",
+  "title": "替身社交：倒悬在阳光下的影子",
+  "release_tag": "film-si-ep19-proxy-romance-fe2f525675d6",
+  "historical": false,
+  "duration_seconds": 90,
+  "project_path": "deliveries/si-ep19-proxy-romance/project",
+  "delivery_directory": "deliveries/si-ep19-proxy-romance",
+  "final_output_paths": {
+    "小红书": "deliveries/si-ep19-proxy-romance/小红书/si-ep19-proxy-romance-xiaohongshu-90s-portrait.mp4"
+  },
+  "final_output_dimensions": {
+    "小红书": [
+      2160,
+      3840
+    ]
+  },
+  "assets": [
+    {
+      "path": "deliveries/si-ep19-proxy-romance/review/motion-0-179.mp4",
+      "name": "si-ep19-proxy-romance--deliveries--si-ep19-proxy-romance--review--motion-0-179--a9fe64182d5e.mp4",
+      "bytes": 626924,
+      "sha256": "a9fe64182d5e4b515e16557de738b236f300267b55355a4bfe78da85184995a2",
+      "kind": "video",
+      "platform": "预览",
+      "measurements": {
+        "width": 2160,
+        "height": 3840,
+        "fps": "60/1",
+        "frames": "180",
+        "video_duration_seconds": 3.0,
+        "container_duration_seconds": 3.008
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep19-proxy-romance-fe2f525675d6/si-ep19-proxy-romance--deliveries--si-ep19-proxy-romance--review--motion-0-179--a9fe64182d5e.mp4"
+    },
+    {
+      "path": "deliveries/si-ep19-proxy-romance/review/motion-2760-2939.mp4",
+      "name": "si-ep19-proxy-romance--deliveries--si-ep19-proxy-romance--review--motion-2760-2939--8a0b04dbac41.mp4",
+      "bytes": 1442282,
+      "sha256": "8a0b04dbac415c924bd0aab8f6db7f93bc8d7f6e752da5aeefed171a8bf630fd",
+      "kind": "video",
+      "platform": "预览",
+      "measurements": {
+        "width": 2160,
+        "height": 3840,
+        "fps": "60/1",
+        "frames": "180",
+        "video_duration_seconds": 3.0,
+        "container_duration_seconds": 3.008
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep19-proxy-romance-fe2f525675d6/si-ep19-proxy-romance--deliveries--si-ep19-proxy-romance--review--motion-2760-2939--8a0b04dbac41.mp4"
+    },
+    {
+      "path": "deliveries/si-ep19-proxy-romance/review/motion-4800-4979.mp4",
+      "name": "si-ep19-proxy-romance--deliveries--si-ep19-proxy-romance--review--motion-4800-4979--620b5513c6a3.mp4",
+      "bytes": 626426,
+      "sha256": "620b5513c6a3ea6ca3de6696537e537102590dcae3eb703f58777c130521b258",
+      "kind": "video",
+      "platform": "预览",
+      "measurements": {
+        "width": 2160,
+        "height": 3840,
+        "fps": "60/1",
+        "frames": "180",
+        "video_duration_seconds": 3.0,
+        "container_duration_seconds": 3.008
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep19-proxy-romance-fe2f525675d6/si-ep19-proxy-romance--deliveries--si-ep19-proxy-romance--review--motion-4800-4979--620b5513c6a3.mp4"
+    },
+    {
+      "path": "deliveries/si-ep19-proxy-romance/si-ep19-proxy-romance-editable-project.zip",
+      "name": "si-ep19-proxy-romance--deliveries--si-ep19-proxy-romance--si-ep19-proxy-romance-editable-project--bea554f4eb04.zip",
+      "bytes": 50799894,
+      "sha256": "bea554f4eb0497814dc78b7c7f87c8b610a58651845a84da8c7442cf23821db2",
+      "kind": "project",
+      "platform": "工程",
+      "measurements": {},
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep19-proxy-romance-fe2f525675d6/si-ep19-proxy-romance--deliveries--si-ep19-proxy-romance--si-ep19-proxy-romance-editable-project--bea554f4eb04.zip"
+    },
+    {
+      "path": "deliveries/si-ep19-proxy-romance/小红书/si-ep19-proxy-romance-xiaohongshu-90s-portrait.mp4",
+      "name": "si-ep19-proxy-romance--deliveries--si-ep19-proxy-romance-----si-ep19-proxy-romance-xiaohongshu-90s-portrait--5bc9d8fe30c4.mp4",
+      "bytes": 37875218,
+      "sha256": "5bc9d8fe30c485ca44b97cd3fac352ba21f726eb476caf62e72ff0bc83b9b758",
+      "kind": "video",
+      "platform": "小红书",
+      "measurements": {
+        "width": 2160,
+        "height": 3840,
+        "fps": "60/1",
+        "frames": "5400",
+        "video_duration_seconds": 90.0,
+        "container_duration_seconds": 90.0
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep19-proxy-romance-fe2f525675d6/si-ep19-proxy-romance--deliveries--si-ep19-proxy-romance-----si-ep19-proxy-romance-xiaohongshu-90s-portrait--5bc9d8fe30c4.mp4"
+    }
+  ],
+  "generated_by": "scripts/build-archive-catalog.py"
+}

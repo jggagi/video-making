@@ -1,0 +1,38 @@
+{
+  "durationFrames": 5400,
+  "fps": 60,
+  "acts": [
+    {
+      "startFrame": 0,
+      "endFrame": 1320,
+      "motion": "stiff figures; reflection initiates hand movement; waterline translation"
+    },
+    {
+      "startFrame": 1320,
+      "endFrame": 2820,
+      "motion": "shadows cross upward; hosts sink; chest silk begins"
+    },
+    {
+      "startFrame": 2820,
+      "endFrame": 4380,
+      "motion": "golden embrace; silk extraction then mouth/wrist puppetry"
+    },
+    {
+      "startFrame": 4380,
+      "endFrame": 5400,
+      "motion": "departing lovers; snap at4860; still shells plus descending traces and quote translation"
+    }
+  ],
+  "disclaimer": [
+    5160,
+    5400
+  ],
+  "silence": [
+    4860,
+    4890
+  ],
+  "coverFrames": [
+    2100,
+    5040
+  ]
+}

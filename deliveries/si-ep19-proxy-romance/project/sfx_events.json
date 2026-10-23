@@ -1,0 +1,264 @@
+{
+  "sampleRate": 48000,
+  "frameRate": 60,
+  "samplesPerFrame": 800,
+  "events": [
+    {
+      "frame": 60,
+      "name": "glass_slide_dark_bowed_cello",
+      "durationFrames": 126,
+      "kind": "glass_slide",
+      "gain": 0.055,
+      "components": [
+        [
+          690.0,
+          470.0,
+          0.68
+        ],
+        [
+          110.0,
+          108.0,
+          0.55
+        ],
+        [
+          220.0,
+          217.0,
+          0.15
+        ]
+      ],
+      "envelope": "short_attack_exponential_room_tail",
+      "pan": -0.12,
+      "startSample": 48000,
+      "endSampleExclusive": 148800
+    },
+    {
+      "frame": 840,
+      "name": "inverted_mirror_reverse_reverb_rise",
+      "durationFrames": 210,
+      "kind": "reverse_rise",
+      "gain": 0.043,
+      "components": [
+        [
+          180.0,
+          660.0,
+          0.55
+        ],
+        [
+          360.0,
+          1320.0,
+          0.2
+        ]
+      ],
+      "envelope": "slow_quadratic_rise_with_soft_release",
+      "pan": 0.1,
+      "startSample": 672000,
+      "endSampleExclusive": 840000
+    },
+    {
+      "frame": 1500,
+      "name": "water_surface_tension_break_low_thud",
+      "durationFrames": 90,
+      "kind": "water_thud",
+      "gain": 0.07,
+      "components": [
+        [
+          58.0,
+          39.0,
+          0.78
+        ],
+        [
+          510.0,
+          390.0,
+          0.18
+        ],
+        [
+          1020.0,
+          780.0,
+          0.08
+        ]
+      ],
+      "envelope": "low_thud_with_damped_surface_ripples",
+      "pan": 0.0,
+      "startSample": 1200000,
+      "endSampleExclusive": 1272000
+    },
+    {
+      "frame": 2220,
+      "name": "silk_unspooling_warm_golden_shimmer",
+      "durationFrames": 150,
+      "kind": "silk_shimmer",
+      "gain": 0.041,
+      "components": [
+        [
+          720.0,
+          910.0,
+          0.42
+        ],
+        [
+          1080.0,
+          1365.0,
+          0.28
+        ],
+        [
+          1440.0,
+          1820.0,
+          0.12
+        ]
+      ],
+      "envelope": "breathing_pulses_with_gentle_release",
+      "pan": 0.16,
+      "startSample": 1776000,
+      "endSampleExclusive": 1896000
+    },
+    {
+      "frame": 2940,
+      "name": "interlocking_melancholic_pad_swell",
+      "durationFrames": 360,
+      "kind": "pad_swell",
+      "gain": 0.03,
+      "components": [
+        [
+          110.0,
+          110.0,
+          0.48
+        ],
+        [
+          146.83,
+          146.83,
+          0.42
+        ],
+        [
+          164.81,
+          164.81,
+          0.38
+        ],
+        [
+          329.62,
+          329.62,
+          0.1
+        ]
+      ],
+      "envelope": "slow_interlocking_two_phase_swell",
+      "pan": -0.04,
+      "startSample": 2352000,
+      "endSampleExclusive": 2640000
+    },
+    {
+      "frame": 3900,
+      "name": "puppet_string_tension_snap_cold_glass",
+      "durationFrames": 42,
+      "kind": "string_snap",
+      "gain": 0.06,
+      "components": [
+        [
+          1420.0,
+          820.0,
+          0.62
+        ],
+        [
+          710.0,
+          410.0,
+          0.23
+        ],
+        [
+          110.0,
+          72.0,
+          0.15
+        ]
+      ],
+      "envelope": "sharp_tension_pulse_and_short_decay",
+      "pan": 0.1,
+      "startSample": 3120000,
+      "endSampleExclusive": 3153600
+    },
+    {
+      "frame": 4500,
+      "name": "suspended_ethereal_string_harmonic",
+      "durationFrames": 360,
+      "kind": "suspended_harmonic",
+      "gain": 0.027,
+      "components": [
+        [
+          440.0,
+          440.0,
+          0.52
+        ],
+        [
+          660.0,
+          659.0,
+          0.38
+        ],
+        [
+          880.0,
+          882.0,
+          0.16
+        ]
+      ],
+      "envelope": "breathless_hold_and_long_fade",
+      "pan": -0.08,
+      "startSample": 3600000,
+      "endSampleExclusive": 3888000
+    },
+    {
+      "frame": 4860,
+      "name": "absolute_silence_all_stems",
+      "durationFrames": 30,
+      "kind": "absolute_silence_marker",
+      "gain": 0.0,
+      "components": [],
+      "envelope": "exact_zero_samples_on_every_stem",
+      "pan": 0.0,
+      "startSample": 3888000,
+      "endSampleExclusive": 3912000
+    },
+    {
+      "frame": 4890,
+      "name": "single_descending_pizzicato_warm_room_tail",
+      "durationFrames": 450,
+      "kind": "descending_pizzicato",
+      "gain": 0.083,
+      "components": [
+        [
+          164.81,
+          110.0,
+          0.76
+        ],
+        [
+          329.62,
+          220.0,
+          0.25
+        ],
+        [
+          494.43,
+          330.0,
+          0.09
+        ]
+      ],
+      "envelope": "single_pluck_short_body_tiny_warm_room_fade",
+      "pan": 0.0,
+      "echoes": [
+        [
+          0.105,
+          0.2
+        ],
+        [
+          0.19,
+          0.11
+        ],
+        [
+          0.315,
+          0.055
+        ]
+      ],
+      "startSample": 3912000,
+      "endSampleExclusive": 4272000
+    }
+  ],
+  "absoluteSilence": {
+    "startFrame": 4860,
+    "endFrameExclusive": 4890,
+    "startSample": 3888000,
+    "endSampleExclusive": 3912000,
+    "allStemSamplesExactZero": true
+  }
+}

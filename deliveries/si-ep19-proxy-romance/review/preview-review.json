@@ -1,0 +1,65 @@
+{
+  "status": "TECHNICAL_PREVIEWS_PLAYED",
+  "player": "local in-app HTML5 browser",
+  "reviewWidth": "360px frame contact sheets; browser player responsive to viewport",
+  "previews": [
+    {
+      "rangeInclusive": [
+        0,
+        179
+      ],
+      "duration": 3.008,
+      "videoWidth": 2160,
+      "videoHeight": 3840,
+      "playedToEnd": true,
+      "error": null
+    },
+    {
+      "rangeInclusive": [
+        2760,
+        2939
+      ],
+      "duration": 3.008,
+      "videoWidth": 2160,
+      "videoHeight": 3840,
+      "playedToEnd": true,
+      "error": null
+    },
+    {
+      "rangeInclusive": [
+        4800,
+        4979
+      ],
+      "duration": 3.008,
+      "videoWidth": 2160,
+      "videoHeight": 3840,
+      "playedToEnd": true,
+      "error": null
+    }
+  ],
+  "modelFrameObservations": [
+    "Clean safe three-line HUD; stage stays below header",
+    "Gold and silver outlines cross one2D horizon, with inverted dark host drawings beneath",
+    "Silk threads converge from lower chest region to golden figures",
+    "Final quote preserves full original wording, disclaimer appears only from5160 and footer bounds stay safe"
+  ],
+  "limits": [
+    "Playback completion and representative image observation do not establish human auditory acceptance",
+    "No real audience response or phone App playback"
+  ],
+  "audioVersion": "mix-v01, before final softened-SFX master; these three previews do not validate the final audio mix",
+  "finalAudioEvidence": "review/encoded-audio-qa.json",
+  "finalMoviePlayback": {
+    "observed_at_utc": "2026-10-23T15:34:28.727020+00:00",
+    "movie_sha256": "5bc9d8fe30c485ca44b97cd3fac352ba21f726eb476caf62e72ff0bc83b9b758",
+    "currentTime": 90,
+    "duration": 90,
+    "ended": true,
+    "error": null,
+    "paused": true,
+    "src": "小红书/si-ep19-proxy-romance-xiaohongshu-90s-portrait.mp4",
+    "videoHeight": 3840,
+    "videoWidth": 2160,
+    "human_review": "NOT_RUN"
+  }
+}

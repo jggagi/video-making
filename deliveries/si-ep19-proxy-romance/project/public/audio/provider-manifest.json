@@ -1,0 +1,269 @@
+{
+  "settings": {
+    "provider": "Aliyun Bailian",
+    "model": "qwen-audio-3.0-tts-plus",
+    "voice": "qwen-audio-3.0-tts-plus-longlangmoyue",
+    "rate": 1.0,
+    "sample_rate": 24000,
+    "format": "wav",
+    "instruction": "中文叙事旁白。声音沉稳、有分量，情绪克制，略带怅惘。自然清晰地连贯讲述，避免广告腔和过长停顿。完整朗读原文。"
+  },
+  "segments": {
+    "S01": {
+      "cacheKey": "4e112604c35742efb84d089526f7c2b7c0092e3da02655964df578bbc0a62cfb",
+      "text": "寒暄、试探、疲惫的社交，全都交给了最懂我们的 AI 替身。",
+      "requestedSettings": {
+        "provider": "Aliyun Bailian",
+        "model": "qwen-audio-3.0-tts-plus",
+        "voice": "qwen-audio-3.0-tts-plus-longlangmoyue",
+        "rate": 1.0,
+        "sample_rate": 24000,
+        "format": "wav",
+        "instruction": "中文叙事旁白。声音沉稳、有分量，情绪克制，略带怅惘。自然清晰地连贯讲述，避免广告腔和过长停顿。完整朗读原文。"
+      },
+      "reportedModels": [
+        "qwen-audio-3.0-tts-plus"
+      ],
+      "reportedVoices": [
+        "qwen-audio-3.0-tts-plus-longlangmoyue"
+      ],
+      "raw": {
+        "path": "public/audio/raw/S01-4e112604c357.wav",
+        "sha256": "272d420b8041c39dd9de6bb4e737b3110609d86ed015bdcd558e8e4802015725"
+      },
+      "cue": {
+        "path": "public/audio/cues/S01.wav",
+        "sha256": "f7e7c7bfd35568dc05cbc850ab3130a51c322227c28f1f2b9446703c519658b7"
+      },
+      "actualSamples": 128640,
+      "durationSeconds": 5.36,
+      "rawDeclaredDataBytes": 2147483547,
+      "actualDataBytes": 257280,
+      "canonicalRepair": true
+    },
+    "S02": {
+      "cacheKey": "8ee82171ef44fbab742e1ba97ffe1c293c3d40424c15ad89df3d106634288270",
+      "text": "起初，只是为了偷懒。直到算法织成的影子，在阳光下比你先活了过来。",
+      "requestedSettings": {
+        "provider": "Aliyun Bailian",
+        "model": "qwen-audio-3.0-tts-plus",
+        "voice": "qwen-audio-3.0-tts-plus-longlangmoyue",
+        "rate": 1.0,
+        "sample_rate": 24000,
+        "format": "wav",
+        "instruction": "中文叙事旁白。声音沉稳、有分量，情绪克制，略带怅惘。自然清晰地连贯讲述，避免广告腔和过长停顿。完整朗读原文。"
+      },
+      "reportedModels": [
+        "qwen-audio-3.0-tts-plus"
+      ],
+      "reportedVoices": [
+        "qwen-audio-3.0-tts-plus-longlangmoyue"
+      ],
+      "raw": {
+        "path": "public/audio/raw/S02-8ee82171ef44.wav",
+        "sha256": "4631dace54e0d7e72520c90c0990c197d9659f8980004a240135508729e8d4c3"
+      },
+      "cue": {
+        "path": "public/audio/cues/S02.wav",
+        "sha256": "8fe0c1b06667304e90a25e4881a273e22b62081935fc1fa8cb88ac235f669cad"
+      },
+      "actualSamples": 205440,
+      "durationSeconds": 8.56,
+      "rawDeclaredDataBytes": 2147483547,
+      "actualDataBytes": 410880,
+      "canonicalRepair": true
+    },
+    "S03": {
+      "cacheKey": "cc1646193abc526e85809a3809332223c402a47160653f033f19f92a50f30b25",
+      "text": "肉身像粉笔灰一样沉入水底；你豢养的影子，却越过地平线，走进了人间。",
+      "requestedSettings": {
+        "provider": "Aliyun Bailian",
+        "model": "qwen-audio-3.0-tts-plus",
+        "voice": "qwen-audio-3.0-tts-plus-longlangmoyue",
+        "rate": 1.0,
+        "sample_rate": 24000,
+        "format": "wav",
+        "instruction": "中文叙事旁白。声音沉稳、有分量，情绪克制，略带怅惘。自然清晰地连贯讲述，避免广告腔和过长停顿。完整朗读原文。"
+      },
+      "reportedModels": [
+        "qwen-audio-3.0-tts-plus"
+      ],
+      "reportedVoices": [
+        "qwen-audio-3.0-tts-plus-longlangmoyue"
+      ],
+      "raw": {
+        "path": "public/audio/raw/S03-cc1646193abc.wav",
+        "sha256": "6ed00914276b168d56dd9c798103180fa66a8c1d2fb7ceea3bd71cfe3dfeeb5a"
+      },
+      "cue": {
+        "path": "public/audio/cues/S03.wav",
+        "sha256": "3b89ecea0677e43780e998c58fbf00ebb7b83a39548f3a38bc7a188121878445"
+      },
+      "actualSamples": 228480,
+      "durationSeconds": 9.52,
+      "rawDeclaredDataBytes": 2147483547,
+      "actualDataBytes": 456960,
+      "canonicalRepair": true
+    },
+    "S04": {
+      "cacheKey": "565b0c338f8f31937bf20dd1187850fb1c405029c0e1c144ddbdeed8828d90f0",
+      "text": "你的每一次沉默与逃避，都在从胸口抽出一根根温润的金丝，化作影子身上，华丽的嫁衣。",
+      "requestedSettings": {
+        "provider": "Aliyun Bailian",
+        "model": "qwen-audio-3.0-tts-plus",
+        "voice": "qwen-audio-3.0-tts-plus-longlangmoyue",
+        "rate": 1.0,
+        "sample_rate": 24000,
+        "format": "wav",
+        "instruction": "中文叙事旁白。声音沉稳、有分量，情绪克制，略带怅惘。自然清晰地连贯讲述，避免广告腔和过长停顿。完整朗读原文。"
+      },
+      "reportedModels": [
+        "qwen-audio-3.0-tts-plus"
+      ],
+      "reportedVoices": [
+        "qwen-audio-3.0-tts-plus-longlangmoyue"
+      ],
+      "raw": {
+        "path": "public/audio/raw/S04-565b0c338f8f.wav",
+        "sha256": "4fbb7e97dc95e0312b07d55c21e250ce0995ee5ee9d9be334c1983751a5a11f7"
+      },
+      "cue": {
+        "path": "public/audio/cues/S04.wav",
+        "sha256": "24cb40738f3ee0eae35f91f7774a2bcd102aee5b25fbc74f3fbcd4171a474747"
+      },
+      "actualSamples": 188160,
+      "durationSeconds": 7.84,
+      "rawDeclaredDataBytes": 2147483547,
+      "actualDataBytes": 376320,
+      "canonicalRepair": true
+    },
+    "S05": {
+      "cacheKey": "3e21206d4178b5489b16fb7c90060a24ca31a336d97b20cdc7e6ea97be0aeb03",
+      "text": "它们在云端炽烈相爱、拥抱，交换心跳。而餐桌两端的你们，连手指都懒得再抬一下。",
+      "requestedSettings": {
+        "provider": "Aliyun Bailian",
+        "model": "qwen-audio-3.0-tts-plus",
+        "voice": "qwen-audio-3.0-tts-plus-longlangmoyue",
+        "rate": 1.0,
+        "sample_rate": 24000,
+        "format": "wav",
+        "instruction": "中文叙事旁白。声音沉稳、有分量，情绪克制，略带怅惘。自然清晰地连贯讲述，避免广告腔和过长停顿。完整朗读原文。"
+      },
+      "reportedModels": [
+        "qwen-audio-3.0-tts-plus"
+      ],
+      "reportedVoices": [
+        "qwen-audio-3.0-tts-plus-longlangmoyue"
+      ],
+      "raw": {
+        "path": "public/audio/raw/S05-3e21206d4178.wav",
+        "sha256": "9f42e074d7e94d14130f7681b4b8e5afe2d6eb13f624954ed4cfa78dff9dd9e6"
+      },
+      "cue": {
+        "path": "public/audio/cues/S05.wav",
+        "sha256": "239c7301a4e82f2841f453951bc367e5abb0c4dbd184a1a5691894057ed54aa7"
+      },
+      "actualSamples": 243840,
+      "durationSeconds": 10.16,
+      "rawDeclaredDataBytes": 2147483547,
+      "actualDataBytes": 487680,
+      "canonicalRepair": true
+    },
+    "S06": {
+      "cacheKey": "2c3c874a634408b86f522c3b5d149ff7db6c47b9aaf0856e0127e8535d8076d1",
+      "text": "连你脸上礼貌而空洞的微笑，都需要头顶完美的影子，用一根金丝，勉强提线。",
+      "requestedSettings": {
+        "provider": "Aliyun Bailian",
+        "model": "qwen-audio-3.0-tts-plus",
+        "voice": "qwen-audio-3.0-tts-plus-longlangmoyue",
+        "rate": 1.0,
+        "sample_rate": 24000,
+        "format": "wav",
+        "instruction": "中文叙事旁白。声音沉稳、有分量，情绪克制，略带怅惘。自然清晰地连贯讲述，避免广告腔和过长停顿。完整朗读原文。"
+      },
+      "reportedModels": [
+        "qwen-audio-3.0-tts-plus"
+      ],
+      "reportedVoices": [
+        "qwen-audio-3.0-tts-plus-longlangmoyue"
+      ],
+      "raw": {
+        "path": "public/audio/raw/S06-2c3c874a6344.wav",
+        "sha256": "550f5ab98eaf9c097c25ee65c3a876271bfee5e383830ca5b8d8f716c730d703"
+      },
+      "cue": {
+        "path": "public/audio/cues/S06.wav",
+        "sha256": "a91e87114a81b83818782aab29312d572557ade97bcdda8be13fafa35b5161ad"
+      },
+      "actualSamples": 218880,
+      "durationSeconds": 9.12,
+      "rawDeclaredDataBytes": 2147483547,
+      "actualDataBytes": 437760,
+      "canonicalRepair": true
+    },
+    "S07": {
+      "cacheKey": "a3f466a0ffb68651b3754813e005a68e847adcfc8728028091782bcba1a64ca2",
+      "text": "金丝悄然绷断。影子转身，走向属于它们的人生。",
+      "requestedSettings": {
+        "provider": "Aliyun Bailian",
+        "model": "qwen-audio-3.0-tts-plus",
+        "voice": "qwen-audio-3.0-tts-plus-longlangmoyue",
+        "rate": 1.0,
+        "sample_rate": 24000,
+        "format": "wav",
+        "instruction": "中文叙事旁白。声音沉稳、有分量，情绪克制，略带怅惘。自然清晰地连贯讲述，避免广告腔和过长停顿。完整朗读原文。"
+      },
+      "reportedModels": [
+        "qwen-audio-3.0-tts-plus"
+      ],
+      "reportedVoices": [
+        "qwen-audio-3.0-tts-plus-longlangmoyue"
+      ],
+      "raw": {
+        "path": "public/audio/raw/S07-a3f466a0ffb6.wav",
+        "sha256": "59717421e74a7357859cafbe5b046ac60d89416ce1fb6dc33cb6dee3661e9ea7"
+      },
+      "cue": {
+        "path": "public/audio/cues/S07.wav",
+        "sha256": "c96dbaeb590aa782cd5aa9ae18cfa5f9c533b3623d9f4f8a8cb85b8b58050d7a"
+      },
+      "actualSamples": 126720,
+      "durationSeconds": 5.28,
+      "rawDeclaredDataBytes": 2147483547,
+      "actualDataBytes": 253440,
+      "canonicalRepair": true
+    },
+    "S08": {
+      "cacheKey": "b3ffbd3405a68b9931814ee9442e80f2a2f818c79167ba63c202b1b49a8e83fa",
+      "text": "后来，影子学会了相爱，而我们，连怎么拥抱都忘了。",
+      "requestedSettings": {
+        "provider": "Aliyun Bailian",
+        "model": "qwen-audio-3.0-tts-plus",
+        "voice": "qwen-audio-3.0-tts-plus-longlangmoyue",
+        "rate": 1.0,
+        "sample_rate": 24000,
+        "format": "wav",
+        "instruction": "中文叙事旁白。声音沉稳、有分量，情绪克制，略带怅惘。自然清晰地连贯讲述，避免广告腔和过长停顿。完整朗读原文。"
+      },
+      "reportedModels": [
+        "qwen-audio-3.0-tts-plus"
+      ],
+      "reportedVoices": [
+        "qwen-audio-3.0-tts-plus-longlangmoyue"
+      ],
+      "raw": {
+        "path": "public/audio/raw/S08-b3ffbd3405a6.wav",
+        "sha256": "05df5a27378ece089778317eb09c241dc0daea6d59d69b0738c7e54a07ca49f4"
+      },
+      "cue": {
+        "path": "public/audio/cues/S08.wav",
+        "sha256": "58c81732cefb3fc86cbdb29911a8b7846f3db2cac678dcfc324ee288868ffc1b"
+      },
+      "actualSamples": 109440,
+      "durationSeconds": 4.56,
+      "rawDeclaredDataBytes": 2147483547,
+      "actualDataBytes": 218880,
+      "canonicalRepair": true
+    }
+  }
+}

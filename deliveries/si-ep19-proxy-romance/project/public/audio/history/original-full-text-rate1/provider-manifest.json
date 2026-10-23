@@ -1,0 +1,77 @@
+{
+  "settings": {
+    "provider": "Aliyun Bailian",
+    "model": "qwen-audio-3.0-tts-plus",
+    "voice": "qwen-audio-3.0-tts-plus-longlangmoyue",
+    "rate": 1.0,
+    "sample_rate": 24000,
+    "format": "wav",
+    "instruction": "中文叙事旁白。声音沉稳、有分量，情绪克制，略带怅惘。自然清晰地连贯讲述，避免广告腔和过长停顿。完整朗读原文。"
+  },
+  "segments": {
+    "S01": {
+      "cacheKey": "9855e83f2eda02937e25841c55db8410e031e9fa34ad8bfc0506c82dc0d84af9",
+      "text": "我们把敷衍的寒暄、疲惫的社交，甚至内心的试探，全部外包给了，最懂我们的 AI 替身。",
+      "requestedSettings": {
+        "provider": "Aliyun Bailian",
+        "model": "qwen-audio-3.0-tts-plus",
+        "voice": "qwen-audio-3.0-tts-plus-longlangmoyue",
+        "rate": 1.0,
+        "sample_rate": 24000,
+        "format": "wav",
+        "instruction": "中文叙事旁白。声音沉稳、有分量，情绪克制，略带怅惘。自然清晰地连贯讲述，避免广告腔和过长停顿。完整朗读原文。"
+      },
+      "reportedModels": [
+        "qwen-audio-3.0-tts-plus"
+      ],
+      "reportedVoices": [
+        "qwen-audio-3.0-tts-plus-longlangmoyue"
+      ],
+      "raw": {
+        "path": "public/audio/raw/S01-9855e83f2eda.wav",
+        "sha256": "40fac317311d40808599d415f2ac3cad70593269b6ce59ab799014007a187998"
+      },
+      "cue": {
+        "path": "public/audio/cues/S01.wav",
+        "sha256": "80b7cc2e0559c30db532c615af46cf31424eceea11d50369141e90e220ff0a19"
+      },
+      "actualSamples": 228480,
+      "durationSeconds": 9.52,
+      "rawDeclaredDataBytes": 2147483547,
+      "actualDataBytes": 456960,
+      "canonicalRepair": true
+    },
+    "S08": {
+      "cacheKey": "b52497b27309d910c36808dc2bc189728fb24901efa686a983cfbd721d5c2055",
+      "text": "起初，我们只是派影子去应付敷衍的寒暄；后来，影子在阳光下学会了相爱，而躲在暗处的我们，连怎么拥抱都忘了。",
+      "requestedSettings": {
+        "provider": "Aliyun Bailian",
+        "model": "qwen-audio-3.0-tts-plus",
+        "voice": "qwen-audio-3.0-tts-plus-longlangmoyue",
+        "rate": 1.0,
+        "sample_rate": 24000,
+        "format": "wav",
+        "instruction": "中文叙事旁白。声音沉稳、有分量，情绪克制，略带怅惘。自然清晰地连贯讲述，避免广告腔和过长停顿。完整朗读原文。"
+      },
+      "reportedModels": [
+        "qwen-audio-3.0-tts-plus"
+      ],
+      "reportedVoices": [
+        "qwen-audio-3.0-tts-plus-longlangmoyue"
+      ],
+      "raw": {
+        "path": "public/audio/raw/S08-b52497b27309.wav",
+        "sha256": "3d34388514d26127a208676c3f9e5011ab59c580ecbb0b4db9d3e213cff37dd6"
+      },
+      "cue": {
+        "path": "public/audio/cues/S08.wav",
+        "sha256": "51fee64500cc8a8ad6fddb3489ca7e8293c0ac4456e35e23fc96c4f6ca6b58e9"
+      },
+      "actualSamples": 359040,
+      "durationSeconds": 14.96,
+      "rawDeclaredDataBytes": 2147483547,
+      "actualDataBytes": 718080,
+      "canonicalRepair": true
+    }
+  }
+}

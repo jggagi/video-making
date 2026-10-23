@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "repository": "jggagi/video-making",
+  "generated_by": "scripts/build-archive-catalog.py",
+  "works": [
+    {
+      "id": "si-ep19-proxy-romance",
+      "title": "替身社交：倒悬在阳光下的影子",
+      "release_tag": "film-si-ep19-proxy-romance-fe2f525675d6",
+      "historical": false,
+      "duration_seconds": 90,
+      "project_path": "deliveries/si-ep19-proxy-romance/project",
+      "delivery_directory": "deliveries/si-ep19-proxy-romance",
+      "final_output_paths": {
+        "小红书": "deliveries/si-ep19-proxy-romance/小红书/si-ep19-proxy-romance-xiaohongshu-90s-portrait.mp4"
+      },
+      "final_output_dimensions": {
+        "小红书": [
+          2160,
+          3840
+        ]
+      },
+      "assets": [
+        {
+          "path": "deliveries/si-ep19-proxy-romance/小红书/si-ep19-proxy-romance-xiaohongshu-90s-portrait.mp4",
+          "name": "si-ep19-proxy-romance--deliveries--si-ep19-proxy-romance-----si-ep19-proxy-romance-xiaohongshu-90s-portrait--5bc9d8fe30c4.mp4",
+          "bytes": 37875218,
+          "sha256": "5bc9d8fe30c485ca44b97cd3fac352ba21f726eb476caf62e72ff0bc83b9b758",
+          "kind": "video",
+          "platform": "小红书",
+          "measurements": {
+            "width": 2160,
+            "height": 3840,
+            "fps": "60/1",
+            "frames": "5400",
+            "video_duration_seconds": 90.0,
+            "container_duration_seconds": 90.0
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep19-proxy-romance-fe2f525675d6/si-ep19-proxy-romance--deliveries--si-ep19-proxy-romance-----si-ep19-proxy-romance-xiaohongshu-90s-portrait--5bc9d8fe30c4.mp4"
+        }
+      ]
+    }
+  ]
+}

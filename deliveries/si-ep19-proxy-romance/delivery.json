@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "title": "替身社交：倒悬在阳光下的影子",
+  "slug": "si-ep19-proxy-romance",
+  "platforms": [
+    "xiaohongshu"
+  ],
+  "duration_seconds": 90,
+  "fps": 60,
+  "total_frames": 5400,
+  "script": {
+    "path": "source/script.md",
+    "sha256": "70190d9ace1e45afb30e4e923aca13970531b434e2049a15318b2b8be66b9405"
+  },
+  "audio": {
+    "mode": "narrated",
+    "master": "project/public/audio/master.wav",
+    "master_sha256": "00806f9fa2263256383f43551c9b527f5bd61d608272c653d4388f19ad3285e8",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples_per_channel": 4320000,
+    "narration_provider": "Aliyun Bailian",
+    "effective_model": "qwen-audio-3.0-tts-plus",
+    "voice": "qwen-audio-3.0-tts-plus-longlangmoyue",
+    "integrated_lufs": -16.0,
+    "true_peak_dbtp": -1.5
+  },
+  "outputs": {
+    "xiaohongshu": {
+      "path": "小红书/si-ep19-proxy-romance-xiaohongshu-90s-portrait.mp4",
+      "width": 2160,
+      "height": 3840
+    }
+  },
+  "qa": {
+    "automated": "PASS",
+    "representative_frames": "MODEL_OBSERVED",
+    "continuous_human_review": "NOT_RUN",
+    "target_device_playback": "NOT_RUN",
+    "human_listening": "NOT_RUN",
+    "local_final": "PASS",
+    "github_film_archive": "PENDING",
+    "github_final_backup": "PENDING",
+    "final_restore_probe": "PENDING"
+  },
+  "visual_qc": {
+    "required": true,
+    "reports": {
+      "xiaohongshu": "review/visual-qc-xiaohongshu/report.json"
+    }
+  },
+  "final_movie_sha256": "5bc9d8fe30c485ca44b97cd3fac352ba21f726eb476caf62e72ff0bc83b9b758"
+}

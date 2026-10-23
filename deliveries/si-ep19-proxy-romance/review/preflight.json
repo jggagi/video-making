@@ -1,0 +1,14 @@
+{
+  "blCLI": "2.5.1",
+  "blSkill": "2.5.1",
+  "npmLatest": "2.5.1",
+  "authenticated": true,
+  "credentialsRecorded": false,
+  "volumeEvidence": {
+    "configuredIdentitiesMatched": true,
+    "filesystemsVerified": true,
+    "AgentDevAtFullRenderStartGiB": 21.245,
+    "hostAbove100GiB": true
+  },
+  "hudAdjustment": "Direct user accepted concise3line HUD at360px; full brief preserved"
+}

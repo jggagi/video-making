@@ -1,0 +1,19 @@
+{
+  "status": "MUXED",
+  "file": "/Volumes/AgentDev/Scratch/tmp/si-ep19-native-YtT913/video-only.mp4",
+  "sha256": "947d5bb926e1a5e539a4c94fab80f2e4827d559461fd979cd40168daeecd9fc0",
+  "bytes": 34839459,
+  "capture": {
+    "remotion": "4.0.534",
+    "chrome": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+    "imageFormat": "png",
+    "concurrency": 1,
+    "nativeWidth": 2160,
+    "nativeHeight": 3840
+  },
+  "scope": "Owned rebuildable native video track on verified AgentDev scratch; formal outputs remain in repository",
+  "final_movie_sha256": "5bc9d8fe30c485ca44b97cd3fac352ba21f726eb476caf62e72ff0bc83b9b758",
+  "scratch_cache_status": "REMOVED_AFTER_VERIFIED_MUX_AND_FULL_MEDIA_QA",
+  "scratch_cache_bytes_removed": 69720948,
+  "scratch_cleanup_at_utc": "2026-10-23T15:33:36.447842+00:00"
+}

@@ -1,0 +1,9 @@
+{
+  "authorized": true,
+  "provider": "Aliyun Bailian",
+  "model": "qwen-audio-3.0-tts-plus",
+  "voice": "qwen-audio-3.0-tts-plus-longlangmoyue",
+  "scope": "EP19 S01-S08 tts_phonetic_text only, ordinary narration generation",
+  "source": "Direct user in this chat explicitly authorized EP19 S01-S08 Aliyun Bailian TTS with ordinary fees, then authorized concise adapted narration/subtitles while retaining90s. Includes approved same-meaning current adapted texts.",
+  "text_sha256": "3d6e0fb2a34399e1871c6bc1e8557113bfb6def860d3e4f3e148a85989ab7ca9"
+}

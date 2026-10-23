@@ -1,0 +1,297 @@
+{
+  "status": "PASS",
+  "duration": 90,
+  "fps": 60,
+  "totalFrames": 5400,
+  "deterministicRenderSamples": [
+    {
+      "frame": 0,
+      "sha256": "1d8676f59b6e392ad309ae412164d12a4b95475062d692d8c2d78f8b3bf7e5c3"
+    },
+    {
+      "frame": 60,
+      "sha256": "9ebc6fd510ad2a191b58db79cdd36c9d9ac3a2ae820f7d2fc25f4e0372376d10"
+    },
+    {
+      "frame": 180,
+      "sha256": "20d999c0a4f843b0a08c1c54fcca5227414194fb54ba27d81d564e204544f89d"
+    },
+    {
+      "frame": 1320,
+      "sha256": "202fb3404ec785bf3a3f0306537fc542cf043be8b6881641a4734e24acfbf33c"
+    },
+    {
+      "frame": 1500,
+      "sha256": "dfd01c65fcc785a9e51101429f73e905d17ccf95e583620b5dc4852a0ab19c6f"
+    },
+    {
+      "frame": 2100,
+      "sha256": "041f3047e4a56e638b81fc9e681a6394960cf6368fd4b150fcefd7c8b10f164c"
+    },
+    {
+      "frame": 2219,
+      "sha256": "7c4f4c016c08c41b973002db389fc8a461ab460c118bcb070700b522b30119b5"
+    },
+    {
+      "frame": 2220,
+      "sha256": "b7765a71b726d077374abce67804f938fca1b0faf60c2dcfb42fe42a0f5df77c"
+    },
+    {
+      "frame": 2819,
+      "sha256": "101a96302ce0de60483de8877b04207599eb5e785adb0d14655420149fbf48b9"
+    },
+    {
+      "frame": 2820,
+      "sha256": "5bcccbb39eea62a7c66ce4de9488e90d07fd4ff18036f7757d15f7393be1f47c"
+    },
+    {
+      "frame": 2940,
+      "sha256": "bd340351d457d66c0beb1c2543c5d07bde81bd5388eb9d554a2e6cd76cbf3295"
+    },
+    {
+      "frame": 3600,
+      "sha256": "7cfa3039d82bbde5f46792ab9598814759a9c5b9274a61e6c1c6d11de979dcc9"
+    },
+    {
+      "frame": 3900,
+      "sha256": "447124cbce303aefec9dabeb04898c2c4302dc9ea5caf65b893746284a8e3a0b"
+    },
+    {
+      "frame": 4379,
+      "sha256": "6038fc774bce4192699432892ef85a0f29a599e483b37555e88b52e42ef80f03"
+    },
+    {
+      "frame": 4380,
+      "sha256": "021eedddd01e51c9bdda12665388c84d768989df6587ef3e1df3ca86f4d1c660"
+    },
+    {
+      "frame": 4500,
+      "sha256": "1af1cec12975e541ecd5eb435f20757d70fea41492996a1b175c8c55db5757c3"
+    },
+    {
+      "frame": 4859,
+      "sha256": "afb15fdbba3556da5adc41b301a5631aec97e430b8ec0ee6e97ccdeb5c8eb985"
+    },
+    {
+      "frame": 4860,
+      "sha256": "df74456b02d6af609660d433d2ea98de17c7c9fae17fd1c7ab54a1500e3f5e21"
+    },
+    {
+      "frame": 5040,
+      "sha256": "b527750dca6eb7ef14e3cd2080a2a0fe1332fd66aebda9d9f94d2e7e4b231178"
+    },
+    {
+      "frame": 5160,
+      "sha256": "5bf3ba8d64f4f81e9ca54f623e10bca5fb0248271e0be38a7097a75b3dae2da0"
+    },
+    {
+      "frame": 5399,
+      "sha256": "2f0012b88da1c72e80b81307737385431aed05e238ec8b0f5a61e9c5a4ea6113"
+    }
+  ],
+  "spatialMotionPairs": [
+    {
+      "first": 0,
+      "last": 150,
+      "geometryChanged": true
+    },
+    {
+      "first": 150,
+      "last": 300,
+      "geometryChanged": true
+    },
+    {
+      "first": 300,
+      "last": 450,
+      "geometryChanged": true
+    },
+    {
+      "first": 450,
+      "last": 600,
+      "geometryChanged": true
+    },
+    {
+      "first": 600,
+      "last": 750,
+      "geometryChanged": true
+    },
+    {
+      "first": 750,
+      "last": 900,
+      "geometryChanged": true
+    },
+    {
+      "first": 900,
+      "last": 1050,
+      "geometryChanged": true
+    },
+    {
+      "first": 1050,
+      "last": 1200,
+      "geometryChanged": true
+    },
+    {
+      "first": 1200,
+      "last": 1350,
+      "geometryChanged": true
+    },
+    {
+      "first": 1350,
+      "last": 1500,
+      "geometryChanged": true
+    },
+    {
+      "first": 1500,
+      "last": 1650,
+      "geometryChanged": true
+    },
+    {
+      "first": 1650,
+      "last": 1800,
+      "geometryChanged": true
+    },
+    {
+      "first": 1800,
+      "last": 1950,
+      "geometryChanged": true
+    },
+    {
+      "first": 1950,
+      "last": 2100,
+      "geometryChanged": true
+    },
+    {
+      "first": 2100,
+      "last": 2250,
+      "geometryChanged": true
+    },
+    {
+      "first": 2250,
+      "last": 2400,
+      "geometryChanged": true
+    },
+    {
+      "first": 2400,
+      "last": 2550,
+      "geometryChanged": true
+    },
+    {
+      "first": 2550,
+      "last": 2700,
+      "geometryChanged": true
+    },
+    {
+      "first": 2700,
+      "last": 2850,
+      "geometryChanged": true
+    },
+    {
+      "first": 2850,
+      "last": 3000,
+      "geometryChanged": true
+    },
+    {
+      "first": 3000,
+      "last": 3150,
+      "geometryChanged": true
+    },
+    {
+      "first": 3150,
+      "last": 3300,
+      "geometryChanged": true
+    },
+    {
+      "first": 3300,
+      "last": 3450,
+      "geometryChanged": true
+    },
+    {
+      "first": 3450,
+      "last": 3600,
+      "geometryChanged": true
+    },
+    {
+      "first": 3600,
+      "last": 3750,
+      "geometryChanged": true
+    },
+    {
+      "first": 3750,
+      "last": 3900,
+      "geometryChanged": true
+    },
+    {
+      "first": 3900,
+      "last": 4050,
+      "geometryChanged": true
+    },
+    {
+      "first": 4050,
+      "last": 4200,
+      "geometryChanged": true
+    },
+    {
+      "first": 4200,
+      "last": 4350,
+      "geometryChanged": true
+    },
+    {
+      "first": 4350,
+      "last": 4500,
+      "geometryChanged": true
+    },
+    {
+      "first": 4500,
+      "last": 4650,
+      "geometryChanged": true
+    },
+    {
+      "first": 4650,
+      "last": 4800,
+      "geometryChanged": true
+    },
+    {
+      "first": 4800,
+      "last": 4859,
+      "geometryChanged": true
+    }
+  ],
+  "motionCoverage": "150-frame authored geometry pairs through4860; closing quote continuous2D translation4860-5400; does not substitute continuous viewing",
+  "safeZones": {
+    "hud": {
+      "left": 65,
+      "top": 173,
+      "fontSize360px": 10,
+      "lineHeight30px": true
+    },
+    "subtitle": {
+      "left": 65,
+      "right": 173,
+      "bottom": 480,
+      "fontSize360px": 14,
+      "maxLines": 2
+    },
+    "closingDisclaimer": {
+      "top": 1355,
+      "bottom": 1449,
+      "fontSize360px": 13,
+      "frames": [
+        5160,
+        5400
+      ],
+      "opacity": 0.35
+    },
+    "stamp": {
+      "top": 1460,
+      "bottom": 1492
+    }
+  },
+  "sourceHashes": {
+    "root": "1f4f19aeb4784d545d2257d5868e25a71efa5f35f5fd2eec66aa0d53908f0a7e",
+    "world": "d072a674e7b87190b176ace8339f309bf960157f0c992b36da0113de44cdde77",
+    "segments": "ab85aac4fc1bf45084263750b7289af2bce94dd367abc1a1ea7695992c142aab",
+    "timing": "be61635d40f7d05871ff5ae764495cad355ab6c5af8f9eda7367ebdca35c3da0"
+  },
+  "humanListening": "NOT_RUN",
+  "actualPhoneApp": "NOT_RUN"
+}

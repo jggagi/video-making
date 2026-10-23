@@ -1,0 +1,66 @@
+{
+  "status": "AUTOMATED_AUDIO_QA_ONLY",
+  "humanReviewStatus": "NOT_REVIEWED",
+  "humanListeningRequired": true,
+  "master": {
+    "path": "public/audio/master.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "samplesPerChannel": 4320000,
+    "durationSeconds": 90.0,
+    "sha256": "5ba2aaae5467bb7b5b46bd98919baf7f97f2a6c0ab4b21d77e03fa62ca596991"
+  },
+  "stems": {
+    "narration": {
+      "path": "public/audio/narration.wav",
+      "sampleRate": 48000,
+      "channels": 2,
+      "samplesPerChannel": 4320000,
+      "sha256": "f18e2d3a4e947dc6e7f78ee9a01735c44a812ee562472157ab502ef228f85fd0"
+    },
+    "score": {
+      "path": "public/audio/score.wav",
+      "sampleRate": 48000,
+      "channels": 2,
+      "samplesPerChannel": 4320000,
+      "sha256": "ba59ee849abb7bfbdf4cfeb1fe20a455041de8248b465948225f28664a59f40d"
+    },
+    "sfx": {
+      "path": "public/audio/sfx.wav",
+      "sampleRate": 48000,
+      "channels": 2,
+      "samplesPerChannel": 4320000,
+      "sha256": "973027ed1d893c60e885e6000640361a09dbe803f73a9f39286f2e80468ef02b"
+    }
+  },
+  "measurements": {
+    "integratedLufs": -16.0,
+    "loudnessRangeLu": 10.8,
+    "truePeakDbtp": -1.5
+  },
+  "normalization": {
+    "targetIntegratedLufs": -16.0,
+    "targetTruePeakDbtp": -1.5,
+    "linearCalibrationAppliedIfNeeded": true,
+    "twoPassLoudnorm": {
+      "input_i": "-25.12",
+      "input_tp": "-7.79",
+      "input_lra": "9.40",
+      "input_thresh": "-36.93",
+      "output_i": "-16.10",
+      "output_tp": "-1.50",
+      "output_lra": "14.00",
+      "output_thresh": "-27.83",
+      "normalization_type": "dynamic",
+      "target_offset": "0.10"
+    }
+  },
+  "exactSilence": {
+    "startFrame": 4860,
+    "endFrameExclusive": 4890,
+    "startSample": 3888000,
+    "endSampleExclusive": 3912000,
+    "allStemsAndMasterAreExactZero": true
+  },
+  "ebur128Report": "1.5  -1.5 dBFS\n[Parsed_ebur128_0 @ 0x7933008d80] t: 89.099979  TARGET:-23 LUFS    M:-146.3 S: -88.8     I: -16.0 LUFS       LRA:  10.8 LU  FTPK:  -inf  -inf dBFS  TPK:  -1.5  -1.5 dBFS\n[Parsed_ebur128_0 @ 0x7933008d80] t: 89.199979  TARGET:-23 LUFS    M:-146.3 S: -90.4     I: -16.0 LUFS       LRA:  10.8 LU  FTPK:  -inf  -inf dBFS  TPK:  -1.5  -1.5 dBFS\n[Parsed_ebur128_0 @ 0x7933008d80] t: 89.299979  TARGET:-23 LUFS    M:-146.3 S: -92.8     I: -16.0 LUFS       LRA:  10.8 LU  FTPK:  -inf  -inf dBFS  TPK:  -1.5  -1.5 dBFS\n[Parsed_ebur128_0 @ 0x7933008d80] t: 89.399979  TARGET:-23 LUFS    M:-146.3 S: -95.7     I: -16.0 LUFS       LRA:  10.8 LU  FTPK:  -inf  -inf dBFS  TPK:  -1.5  -1.5 dBFS\n[Parsed_ebur128_0 @ 0x7933008d80] t: 89.499979  TARGET:-23 LUFS    M:-146.3 S: -99.3     I: -16.0 LUFS       LRA:  10.8 LU  FTPK:  -inf  -inf dBFS  TPK:  -1.5  -1.5 dBFS\n[Parsed_ebur128_0 @ 0x7933008d80] t: 89.599979  TARGET:-23 LUFS    M:-146.3 S:-103.4     I: -16.0 LUFS       LRA:  10.8 LU  FTPK:  -inf  -inf dBFS  TPK:  -1.5  -1.5 dBFS\n[Parsed_ebur128_0 @ 0x7933008d80] t: 89.699979  TARGET:-23 LUFS    M:-146.3 S:-109.1     I: -16.0 LUFS       LRA:  10.8 LU  FTPK:  -inf  -inf dBFS  TPK:  -1.5  -1.5 dBFS\n[Parsed_ebur128_0 @ 0x7933008d80] t: 89.799979  TARGET:-23 LUFS    M:-146.3 S:-121.3     I: -16.0 LUFS       LRA:  10.8 LU  FTPK:  -inf  -inf dBFS  TPK:  -1.5  -1.5 dBFS\n[Parsed_ebur128_0 @ 0x7933008d80] t: 89.899979  TARGET:-23 LUFS    M:-146.3 S:-152.8     I: -16.0 LUFS       LRA:  10.8 LU  FTPK:  -inf  -inf dBFS  TPK:  -1.5  -1.5 dBFS\n[Parsed_ebur128_0 @ 0x7933008d80] t: 89.999979  TARGET:-23 LUFS    M:-146.3 S:-152.8     I: -16.0 LUFS       LRA:  10.8 LU  FTPK:  -inf  -inf dBFS  TPK:  -1.5  -1.5 dBFS\n[Parsed_ebur128_0 @ 0x7933008d80] Summary:\n\n  Integrated loudness:\n    I:         -16.0 LUFS\n    Threshold: -27.7 LUFS\n\n  Loudness range:\n    LRA:        10.8 LU\n    Threshold: -37.8 LUFS\n    LRA low:   -25.8 LUFS\n    LRA high:  -15.0 LUFS\n\n  True peak:\n    Peak:       -1.5 dBFS\n[out#0/null @ 0x7933008600] video:0KiB audio:16875KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nsize=N/A time=00:01:30.00 bitrate=N/A speed= 308x elapsed=0:00:00.29    \n"
+}

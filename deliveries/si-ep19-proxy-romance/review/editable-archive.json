@@ -1,0 +1,15 @@
+{
+  "path": "si-ep19-proxy-romance-editable-project.zip",
+  "bytes": 50799894,
+  "sha256": "bea554f4eb0497814dc78b7c7f87c8b610a58651845a84da8c7442cf23821db2",
+  "files": 78,
+  "all_source_file_hashes_verified": true,
+  "excludes": [
+    "media MP4",
+    "node_modules",
+    "credentials",
+    "private browser screenshots",
+    "transient logs"
+  ],
+  "note": "Creative source snapshot; live publication and archive receipts remain beside it in the repository."
+}

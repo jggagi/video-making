@@ -1,0 +1,25 @@
+{
+  "initialCandidates": [
+    {
+      "file": "cover-A-headline.png",
+      "sha256": "d1a5b1ba71763e0fcde97bb94c8ce08f4e90c00e2f4a8cfb0a4540cdf3d4c333",
+      "replacedBy": "cover-A-headline-v02.png"
+    },
+    {
+      "file": "cover-B-headline.png",
+      "sha256": "fc8ca69b99f30fdc601df2e9feee8d8cf64913e7d8371f0758fd9e94b05467e6",
+      "replacedBy": "cover-B-headline-v02.png"
+    }
+  ],
+  "reason": "CoverB headlineoverlapped closingquote; separatecovercomposition uses actualfinalMP4 backgrounds andexplicit textmask",
+  "originalRawCoversUnchanged": true,
+  "v02": {
+    "replacedBy": "v03",
+    "reason": "Bottom mask began too low and left a partial subtitle fragment on B. Final mask begins at logical y1320; inverted hosts end above y1320."
+  },
+  "final": {
+    "version": "v03",
+    "model_mobile_observation": "No headline overlap or residual text observed in both covers",
+    "rawFramesUnchanged": true
+  }
+}

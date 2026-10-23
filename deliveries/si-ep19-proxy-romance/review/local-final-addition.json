@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "work_id": "si-ep19-proxy-romance",
+  "title": "替身社交：倒悬在阳光下的影子",
+  "fallback": "The standard builder stops on a historical migrated-out source symlink. This one-off addition reconstructed prior generated entries from the existing index and current archive catalog, verified the existing local final files, and did not follow, move, or revalidate historical source files.",
+  "historical_source_files_revalidated": false,
+  "historical_final_files_sha256_rechecked": 63,
+  "historical_index_records_preserved_exactly": 63,
+  "historical_backup_works_preserved_exactly": 34,
+  "new_asset": {
+    "source_path": "deliveries/si-ep19-proxy-romance/小红书/si-ep19-proxy-romance-xiaohongshu-90s-portrait.mp4",
+    "final_path": "final/si-ep19-proxy-romance/小红书/si-ep19-proxy-romance-xiaohongshu-90s-portrait.mp4",
+    "bytes": 37875218,
+    "sha256": "5bc9d8fe30c485ca44b97cd3fac352ba21f726eb476caf62e72ff0bc83b9b758",
+    "independent_inode_clone_verified": true,
+    "source_inode": [
+      16777239,
+      1276104
+    ],
+    "final_inode": [
+      16777239,
+      1278144
+    ]
+  },
+  "remote_upload_performed": false,
+  "generated_metadata": [
+    "final/index.json",
+    "final/backup-catalog.json",
+    "final/README.md"
+  ],
+  "scoped_catalog": "archive/ep19-final-input.json"
+}

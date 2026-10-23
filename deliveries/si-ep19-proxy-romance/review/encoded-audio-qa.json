@@ -1,0 +1,274 @@
+{
+  "status": "PASS",
+  "scope": {
+    "verification": "automated_encoded_audio_only",
+    "humanListeningPerformed": false,
+    "humanAcceptance": "NOT_ASSESSED",
+    "targetDevicePlaybackPerformed": false
+  },
+  "deliveryManifest": {
+    "path": "/Volumes/AgentDev/Projects/video/deliveries/si-ep19-proxy-romance/delivery.json",
+    "sha256": "932aadcdeb50a31ea691f82b84a61493c6c4e1a6dcbfb67a5669c0462aeccc3c",
+    "slug": "si-ep19-proxy-romance",
+    "title": "替身社交：倒悬在阳光下的影子",
+    "videoPath": "/Volumes/AgentDev/Projects/video/deliveries/si-ep19-proxy-romance/小红书/si-ep19-proxy-romance-xiaohongshu-90s-portrait.mp4",
+    "masterPath": "/Volumes/AgentDev/Projects/video/deliveries/si-ep19-proxy-romance/project/public/audio/master.wav"
+  },
+  "checks": {
+    "videoAndAudioStreamSpecs": true,
+    "masterCorrelation": true,
+    "masterPcmLengthAndSilence": true,
+    "stemLengthsAndSilence": true,
+    "encodedLoudness": true
+  },
+  "errors": [],
+  "masterPcm": {
+    "path": "/Volumes/AgentDev/Projects/video/deliveries/si-ep19-proxy-romance/project/public/audio/master.wav",
+    "sampleRate": 48000,
+    "channels": 2,
+    "sampleCountPerChannel": 4320000,
+    "bytesOfPcmData": 17280000,
+    "sha256": "00806f9fa2263256383f43551c9b527f5bd61d608272c653d4388f19ad3285e8",
+    "expectedSamplesPerChannel": 4320000,
+    "exactSampleCount": true,
+    "absoluteSilence": {
+      "sampleStart": 3888000,
+      "sampleEndExclusive": 3912000,
+      "sampleFrames": 24000,
+      "scalarSamples": 48000,
+      "nonZeroScalarSamples": 0,
+      "nonZeroFrames": 0,
+      "maxAbsSample": 0,
+      "rmsLinear": 0.0,
+      "rmsDbfs": null,
+      "digitalZero": true,
+      "rangeComplete": true
+    },
+    "passes": true
+  },
+  "stems": {
+    "narration": {
+      "path": "/Volumes/AgentDev/Projects/video/deliveries/si-ep19-proxy-romance/project/public/audio/narration.wav",
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleCountPerChannel": 4320000,
+      "bytesOfPcmData": 17280000,
+      "sha256": "f18e2d3a4e947dc6e7f78ee9a01735c44a812ee562472157ab502ef228f85fd0",
+      "expectedSamplesPerChannel": 4320000,
+      "exactSampleCount": true,
+      "absoluteSilence": {
+        "sampleStart": 3888000,
+        "sampleEndExclusive": 3912000,
+        "sampleFrames": 24000,
+        "scalarSamples": 48000,
+        "nonZeroScalarSamples": 0,
+        "nonZeroFrames": 0,
+        "maxAbsSample": 0,
+        "rmsLinear": 0.0,
+        "rmsDbfs": null,
+        "digitalZero": true,
+        "rangeComplete": true
+      },
+      "passes": true
+    },
+    "score": {
+      "path": "/Volumes/AgentDev/Projects/video/deliveries/si-ep19-proxy-romance/project/public/audio/score.wav",
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleCountPerChannel": 4320000,
+      "bytesOfPcmData": 17280000,
+      "sha256": "b26c5e73cd97d129acd3d3321f0ccceba45c67e1fa9752a3d76df7dda562eaa1",
+      "expectedSamplesPerChannel": 4320000,
+      "exactSampleCount": true,
+      "absoluteSilence": {
+        "sampleStart": 3888000,
+        "sampleEndExclusive": 3912000,
+        "sampleFrames": 24000,
+        "scalarSamples": 48000,
+        "nonZeroScalarSamples": 0,
+        "nonZeroFrames": 0,
+        "maxAbsSample": 0,
+        "rmsLinear": 0.0,
+        "rmsDbfs": null,
+        "digitalZero": true,
+        "rangeComplete": true
+      },
+      "passes": true
+    },
+    "sfx": {
+      "path": "/Volumes/AgentDev/Projects/video/deliveries/si-ep19-proxy-romance/project/public/audio/sfx.wav",
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleCountPerChannel": 4320000,
+      "bytesOfPcmData": 17280000,
+      "sha256": "1a1dc4033d440c8a0a3db7cee03114628230f8feb3771c57b1670b8ae146211f",
+      "expectedSamplesPerChannel": 4320000,
+      "exactSampleCount": true,
+      "absoluteSilence": {
+        "sampleStart": 3888000,
+        "sampleEndExclusive": 3912000,
+        "sampleFrames": 24000,
+        "scalarSamples": 48000,
+        "nonZeroScalarSamples": 0,
+        "nonZeroFrames": 0,
+        "maxAbsSample": 0,
+        "rmsLinear": 0.0,
+        "rmsDbfs": null,
+        "digitalZero": true,
+        "rangeComplete": true
+      },
+      "passes": true
+    }
+  },
+  "videoFile": {
+    "path": "/Volumes/AgentDev/Projects/video/deliveries/si-ep19-proxy-romance/小红书/si-ep19-proxy-romance-xiaohongshu-90s-portrait.mp4",
+    "bytes": 37875218,
+    "sha256": "5bc9d8fe30c485ca44b97cd3fac352ba21f726eb476caf62e72ff0bc83b9b758"
+  },
+  "ffprobe": {
+    "video": {
+      "codec": "h264",
+      "width": 2160,
+      "height": 3840,
+      "avgFrameRate": "60/1",
+      "nominalFrameRate": "60/1",
+      "frameCount": 5400,
+      "durationSeconds": 90.0,
+      "durationSource": "stream.duration"
+    },
+    "audio": {
+      "codec": "aac",
+      "sampleRate": "48000",
+      "channels": 2,
+      "channelLayout": "stereo",
+      "streamDurationSeconds": 90.0
+    },
+    "containerDurationSeconds": 90.0,
+    "videoStreamCount": 1,
+    "audioStreamCount": 1
+  },
+  "decodedAac": {
+    "decodedFormat": "PCM16",
+    "sampleRate": 48000,
+    "channels": 2,
+    "actualSampleCountPerChannel": 4320256,
+    "expectedSampleCountPerChannel": 4320000,
+    "sampleCountDelta": 256,
+    "durationSeconds": 90.00533333333334,
+    "ffmpegDecodeLog": ""
+  },
+  "encodedSilenceMetrics": {
+    "timelineSilence81to81_5Seconds": {
+      "sampleStart": 3888000,
+      "sampleEndExclusive": 3912000,
+      "sampleFrames": 24000,
+      "scalarSamples": 48000,
+      "nonZeroScalarSamples": 338,
+      "nonZeroFrames": 194,
+      "maxAbsSample": 13,
+      "rmsLinear": 1.5458390944837098e-05,
+      "rmsDbfs": -96.21671427063862,
+      "digitalZero": false,
+      "rangeComplete": true
+    },
+    "interior81_05to81_45Seconds": {
+      "sampleStart": 3890400,
+      "sampleEndExclusive": 3909600,
+      "sampleFrames": 19200,
+      "scalarSamples": 38400,
+      "nonZeroScalarSamples": 0,
+      "nonZeroFrames": 0,
+      "maxAbsSample": 0,
+      "rmsLinear": 0.0,
+      "rmsDbfs": null,
+      "digitalZero": true,
+      "rangeComplete": true
+    }
+  },
+  "encodedLoudness": {
+    "integratedLufs": -16.0,
+    "loudnessRangeLu": 11.3,
+    "truePeakDbtp": -1.4,
+    "ebur128Report": "4  -1.4 dBFS\n[Parsed_ebur128_0 @ 0x78bf024a80] t: 89.099979  TARGET:-23 LUFS    M: -86.8 S: -68.4     I: -16.0 LUFS       LRA:  11.3 LU  FTPK: -113.9 -113.9 dBFS  TPK:  -1.4  -1.4 dBFS\n[Parsed_ebur128_0 @ 0x78bf024a80] t: 89.199979  TARGET:-23 LUFS    M: -88.8 S: -69.6     I: -16.0 LUFS       LRA:  11.3 LU  FTPK:  -inf  -inf dBFS  TPK:  -1.4  -1.4 dBFS\n[Parsed_ebur128_0 @ 0x78bf024a80] t: 89.299979  TARGET:-23 LUFS    M: -91.8 S: -70.5     I: -16.0 LUFS       LRA:  11.3 LU  FTPK:  -inf  -inf dBFS  TPK:  -1.4  -1.4 dBFS\n[Parsed_ebur128_0 @ 0x78bf024a80] t: 89.399979  TARGET:-23 LUFS    M:-115.9 S: -71.3     I: -16.0 LUFS       LRA:  11.3 LU  FTPK:  -inf  -inf dBFS  TPK:  -1.4  -1.4 dBFS\n[Parsed_ebur128_0 @ 0x78bf024a80] t: 89.499979  TARGET:-23 LUFS    M:-149.4 S: -71.9     I: -16.0 LUFS       LRA:  11.3 LU  FTPK:  -inf  -inf dBFS  TPK:  -1.4  -1.4 dBFS\n[Parsed_ebur128_0 @ 0x78bf024a80] t: 89.599979  TARGET:-23 LUFS    M:-149.4 S: -72.3     I: -16.0 LUFS       LRA:  11.3 LU  FTPK:  -inf  -inf dBFS  TPK:  -1.4  -1.4 dBFS\n[Parsed_ebur128_0 @ 0x78bf024a80] t: 89.699979  TARGET:-23 LUFS    M:-149.4 S: -72.8     I: -16.0 LUFS       LRA:  11.3 LU  FTPK:  -inf  -inf dBFS  TPK:  -1.4  -1.4 dBFS\n[Parsed_ebur128_0 @ 0x78bf024a80] t: 89.799979  TARGET:-23 LUFS    M:-149.4 S: -73.5     I: -16.0 LUFS       LRA:  11.3 LU  FTPK:  -inf  -inf dBFS  TPK:  -1.4  -1.4 dBFS\n[Parsed_ebur128_0 @ 0x78bf024a80] t: 89.899979  TARGET:-23 LUFS    M:-149.4 S: -74.5     I: -16.0 LUFS       LRA:  11.3 LU  FTPK:  -inf  -inf dBFS  TPK:  -1.4  -1.4 dBFS\n[Parsed_ebur128_0 @ 0x78bf024a80] t: 89.999979  TARGET:-23 LUFS    M:-149.4 S: -75.4     I: -16.0 LUFS       LRA:  11.3 LU  FTPK:  -inf  -inf dBFS  TPK:  -1.4  -1.4 dBFS\n[Parsed_ebur128_0 @ 0x78bf024a80] Summary:\n\n  Integrated loudness:\n    I:         -16.0 LUFS\n    Threshold: -27.8 LUFS\n\n  Loudness range:\n    LRA:        11.3 LU\n    Threshold: -37.9 LUFS\n    LRA low:   -26.4 LUFS\n    LRA high:  -15.1 LUFS\n\n  True peak:\n    Peak:       -1.4 dBFS\n[out#0/null @ 0x78bf024300] video:0KiB audio:16876KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nsize=N/A time=00:01:30.00 bitrate=N/A speed= 129x elapsed=0:00:00.69    \n"
+  },
+  "masterComparison": {
+    "method": "mono_downmix_normalized_cross_correlation",
+    "lagConvention": "positive means decoded AAC sample index is shifted later than the master index",
+    "maxSearchLagSamples": 2048,
+    "globalBestLagSamples": 0,
+    "globalBestLagSeconds": 0.0,
+    "globalMeanCorrelation": 0.9999819965424911,
+    "windows": [
+      {
+        "startSeconds": 2.0,
+        "endSeconds": 5.0,
+        "sampleStart": 96000,
+        "sampleEndExclusive": 240000,
+        "globalLagSamples": 0,
+        "correlationAtGlobalLag": 0.9999713572209065,
+        "localBestLagSamples": 0,
+        "localBestCorrelation": 0.9999713572209065,
+        "masterRmsLinear": 0.1293946758084332,
+        "encodedRmsLinear": 0.12921996714143222,
+        "rmsScaleLinear": 0.9986498001876087,
+        "rmsScaleDb": -0.011735611053766387
+      },
+      {
+        "startSeconds": 40.0,
+        "endSeconds": 43.0,
+        "sampleStart": 1920000,
+        "sampleEndExclusive": 2064000,
+        "globalLagSamples": 0,
+        "correlationAtGlobalLag": 0.9999881433247366,
+        "localBestLagSamples": 0,
+        "localBestCorrelation": 0.9999881433247366,
+        "masterRmsLinear": 0.08755610535870634,
+        "encodedRmsLinear": 0.08748303221719261,
+        "rmsScaleLinear": 0.9991654135229707,
+        "rmsScaleDb": -0.007252152728319676
+      },
+      {
+        "startSeconds": 82.0,
+        "endSeconds": 85.0,
+        "sampleStart": 3936000,
+        "sampleEndExclusive": 4080000,
+        "globalLagSamples": 0,
+        "correlationAtGlobalLag": 0.99998648908183,
+        "localBestLagSamples": 0,
+        "localBestCorrelation": 0.99998648908183,
+        "masterRmsLinear": 0.10633385666608466,
+        "encodedRmsLinear": 0.10627531476467177,
+        "rmsScaleLinear": 0.9994494519126045,
+        "rmsScaleDb": -0.004783316771368361
+      }
+    ]
+  },
+  "encodedSilenceMetricsAlignedToMaster": {
+    "masterSilenceAlignedToDecodedSamples": {
+      "sampleStart": 3888000,
+      "sampleEndExclusive": 3912000,
+      "sampleFrames": 24000,
+      "scalarSamples": 48000,
+      "nonZeroScalarSamples": 338,
+      "nonZeroFrames": 194,
+      "maxAbsSample": 13,
+      "rmsLinear": 1.5458390944837098e-05,
+      "rmsDbfs": -96.21671427063862,
+      "digitalZero": false,
+      "rangeComplete": true
+    },
+    "masterInteriorAlignedToDecodedSamples": {
+      "sampleStart": 3890400,
+      "sampleEndExclusive": 3909600,
+      "sampleFrames": 19200,
+      "scalarSamples": 38400,
+      "nonZeroScalarSamples": 0,
+      "nonZeroFrames": 0,
+      "maxAbsSample": 0,
+      "rmsLinear": 0.0,
+      "rmsDbfs": null,
+      "digitalZero": true,
+      "rangeComplete": true
+    }
+  }
+}

@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "generated_by": "scripts/build-final-library.py",
-  "total_files": 63,
-  "logical_bytes": 9391038313,
+  "total_files": 64,
+  "logical_bytes": 9428913531,
   "files": [
     {
       "source_path": "out/extended/兰亭集序-展厅增强版-1080p.mp4",
@@ -886,6 +886,21 @@
       "backup_release_tag": "final-si-ep18-sovereign-subcurrent-v04-d448a562ca14",
       "backup_release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep18-sovereign-subcurrent-v04-d448a562ca14",
       "backup_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep18-sovereign-subcurrent-v04-d448a562ca14/final--si-ep18-sovereign-subcurrent-v04--deliveries--si-ep18-sovereign-subcurrent-v04-----si-ep18-sovereign-subcurrent-v04-xiaohongshu-90s-portrait--8dc2486d7936.mp4",
+      "materialization": "APFS clonefile for new files; existing independent matches are retained",
+      "verification": "SHA-256 matches archive catalog; stable stat and inode checks passed"
+    },
+    {
+      "source_path": "deliveries/si-ep19-proxy-romance/小红书/si-ep19-proxy-romance-xiaohongshu-90s-portrait.mp4",
+      "final_path": "final/si-ep19-proxy-romance/小红书/si-ep19-proxy-romance-xiaohongshu-90s-portrait.mp4",
+      "work_id": "si-ep19-proxy-romance",
+      "title": "替身社交：倒悬在阳光下的影子",
+      "platform": "小红书",
+      "bytes": 37875218,
+      "sha256": "5bc9d8fe30c485ca44b97cd3fac352ba21f726eb476caf62e72ff0bc83b9b758",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep19-proxy-romance-fe2f525675d6/si-ep19-proxy-romance--deliveries--si-ep19-proxy-romance-----si-ep19-proxy-romance-xiaohongshu-90s-portrait--5bc9d8fe30c4.mp4",
+      "backup_release_tag": "final-si-ep19-proxy-romance-fe2f525675d6",
+      "backup_release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep19-proxy-romance-fe2f525675d6",
+      "backup_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep19-proxy-romance-fe2f525675d6/final--si-ep19-proxy-romance--deliveries--si-ep19-proxy-romance-----si-ep19-proxy-romance-xiaohongshu-90s-portrait--5bc9d8fe30c4.mp4",
       "materialization": "APFS clonefile for new files; existing independent matches are retained",
       "verification": "SHA-256 matches archive catalog; stable stat and inode checks passed"
     },

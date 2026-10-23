@@ -1,0 +1,12 @@
+{
+  "reason": "Respect final silence->singlepluck->roomfade: score must end at81s rather than resume afterhalf-second silence",
+  "changes": [
+    "Score fadesout byframe4860 and stays absentafter",
+    "Long solitary descendingpizzicato withroomtail afterframe4890",
+    "Softened1–4kHz bandstop onSFX preservesnarration intelligibility"
+  ],
+  "preserved": "public/audio/history/mix-v01",
+  "voiceSourceUnchanged": true,
+  "voiceTimingUnchanged": true,
+  "visualSourceUnchanged": true
+}

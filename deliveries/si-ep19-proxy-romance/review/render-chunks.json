@@ -1,0 +1,344 @@
+{
+  "strategy": "native180-frame ranges; absolute frame clock; same capture settings; lossless encoded-track concat",
+  "chunks": [
+    {
+      "startFrame": 0,
+      "endFrameExclusive": 180,
+      "file": "/Volumes/AgentDev/Scratch/tmp/si-ep19-native-YtT913/chunk-0000.mp4",
+      "sha256": "3a29b4ba80289e0b9dbcb31abdabffb9c404eeb73c2c67398c7e911af49bcfd3"
+    },
+    {
+      "startFrame": 180,
+      "endFrameExclusive": 360,
+      "file": "/Volumes/AgentDev/Scratch/tmp/si-ep19-native-YtT913/chunk-0180.mp4",
+      "sha256": "a415c07ba50f860982d5db3adbe24c641f9c356d801e0b0e99542ca7df46dd4a"
+    },
+    {
+      "startFrame": 360,
+      "endFrameExclusive": 540,
+      "file": "/Volumes/AgentDev/Scratch/tmp/si-ep19-native-YtT913/chunk-0360.mp4",
+      "sha256": "391b02854d368caeb59b4315259f21893d337b5f8cfa225f88c94c09dd4d65f0"
+    },
+    {
+      "startFrame": 540,
+      "endFrameExclusive": 720,
+      "file": "/Volumes/AgentDev/Scratch/tmp/si-ep19-native-YtT913/chunk-0540.mp4",
+      "sha256": "01e1980a0e2bb8b8d0341a95341193199c1d760075cfb0eb552f10959988618d"
+    },
+    {
+      "startFrame": 720,
+      "endFrameExclusive": 900,
+      "file": "/Volumes/AgentDev/Scratch/tmp/si-ep19-native-YtT913/chunk-0720.mp4",
+      "sha256": "58033bcca10ece195e77bb4b06fa2b917fe5b06a6c6b5d26476e2f1c1c9f3e4b"
+    },
+    {
+      "startFrame": 900,
+      "endFrameExclusive": 1080,
+      "file": "/Volumes/AgentDev/Scratch/tmp/si-ep19-native-YtT913/chunk-0900.mp4",
+      "sha256": "9b7d4436952ef242a59ab734467b0c86a709c66d8d79354bc1184777ade2042f"
+    },
+    {
+      "startFrame": 1080,
+      "endFrameExclusive": 1260,
+      "file": "/Volumes/AgentDev/Scratch/tmp/si-ep19-native-YtT913/chunk-1080.mp4",
+      "sha256": "cf5fce36574525964daf912604ad2b1dd5f672fb13dc2f7f186d09db3c5d216c"
+    },
+    {
+      "startFrame": 1260,
+      "endFrameExclusive": 1440,
+      "file": "/Volumes/AgentDev/Scratch/tmp/si-ep19-native-YtT913/chunk-1260.mp4",
+      "sha256": "d6c8f1ac44b3bdb97ecaa11e7f86fa9d1bf43dda5c0bd96b1db4747c17766db1"
+    },
+    {
+      "startFrame": 1440,
+      "endFrameExclusive": 1620,
+      "file": "/Volumes/AgentDev/Scratch/tmp/si-ep19-native-YtT913/chunk-1440.mp4",
+      "sha256": "21bc03e4f00ecbae5f640fdf790e80fc7b574041c878156839bf8908d213cddc"
+    },
+    {
+      "startFrame": 1620,
+      "endFrameExclusive": 1800,
+      "file": "/Volumes/AgentDev/Scratch/tmp/si-ep19-native-YtT913/chunk-1620.mp4",
+      "sha256": "2b7deddc2b3db7922fc34e2bd622666135087d3210e63bfc194991787253cab8"
+    },
+    {
+      "startFrame": 1800,
+      "endFrameExclusive": 1980,
+      "file": "/Volumes/AgentDev/Scratch/tmp/si-ep19-native-YtT913/chunk-1800.mp4",
+      "sha256": "bae5349210fd51b2b767a1208dfc8505cc73ca93e804f46f3400c08be59cb115"
+    },
+    {
+      "startFrame": 1980,
+      "endFrameExclusive": 2160,
+      "file": "/Volumes/AgentDev/Scratch/tmp/si-ep19-native-YtT913/chunk-1980.mp4",
+      "sha256": "1a7cd68405a37fa866d9296fd9ce1628b3ac4b138153c52d9c5c99fdc607fb0a"
+    },
+    {
+      "startFrame": 2160,
+      "endFrameExclusive": 2340,
+      "file": "/Volumes/AgentDev/Scratch/tmp/si-ep19-native-YtT913/chunk-2160.mp4",
+      "sha256": "df48f7a70fc0807f29937e0ae8d6342abff279dc9a17aadf967bb378e3ea3256"
+    },
+    {
+      "startFrame": 2340,
+      "endFrameExclusive": 2520,
+      "file": "/Volumes/AgentDev/Scratch/tmp/si-ep19-native-YtT913/chunk-2340.mp4",
+      "sha256": "183ae4b6ceccfccd9d37ac3b3b0704390d096151e10ef0220591f4ba8549bd11"
+    },
+    {
+      "startFrame": 2520,
+      "endFrameExclusive": 2700,
+      "file": "/Volumes/AgentDev/Scratch/tmp/si-ep19-native-YtT913/chunk-2520.mp4",
+      "sha256": "2ac20b4fb39338203464acda37f593f973245cba7134e0c0773ccd95ce35c59f"
+    },
+    {
+      "startFrame": 2700,
+      "endFrameExclusive": 2880,
+      "file": "/Volumes/AgentDev/Scratch/tmp/si-ep19-native-YtT913/chunk-2700.mp4",
+      "sha256": "33e1b822cfcfcfa6c66edddf03ea7c094202fcce9ba8a2d3a7c300ea66efdebc"
+    },
+    {
+      "startFrame": 2880,
+      "endFrameExclusive": 3060,
+      "file": "/Volumes/AgentDev/Scratch/tmp/si-ep19-native-YtT913/chunk-2880.mp4",
+      "sha256": "b00bfa67526f72bf6955966309b088ec0a9a30d95fa205864fff3290acfe2409"
+    },
+    {
+      "startFrame": 3060,
+      "endFrameExclusive": 3240,
+      "file": "/Volumes/AgentDev/Scratch/tmp/si-ep19-native-YtT913/chunk-3060.mp4",
+      "sha256": "0f3df0dddf1dbd4e15cee86efbc7ae8a4734bd809e052f621af6df6c2c0a7757"
+    },
+    {
+      "startFrame": 3240,
+      "endFrameExclusive": 3420,
+      "file": "/Volumes/AgentDev/Scratch/tmp/si-ep19-native-YtT913/chunk-3240.mp4",
+      "sha256": "ca4403b0783582454e5b6eec192396053d89493c2d536ef51d1fd5424c67a11a"
+    },
+    {
+      "startFrame": 3420,
+      "endFrameExclusive": 3600,
+      "file": "/Volumes/AgentDev/Scratch/tmp/si-ep19-native-YtT913/chunk-3420.mp4",
+      "sha256": "3d53cfffcb0c7808292fb448b960591427ae4f1c18d44844b589116d62fac1b5"
+    },
+    {
+      "startFrame": 3600,
+      "endFrameExclusive": 3780,
+      "file": "/Volumes/AgentDev/Scratch/tmp/si-ep19-native-YtT913/chunk-3600.mp4",
+      "sha256": "340ba1451e98121ebf07069d9bd93a819c3bc36abad1ded59ad76cde77d47e16"
+    },
+    {
+      "startFrame": 3780,
+      "endFrameExclusive": 3960,
+      "file": "/Volumes/AgentDev/Scratch/tmp/si-ep19-native-YtT913/chunk-3780.mp4",
+      "sha256": "84a4a59f28191a3b4505a23bc1324abb2e2e1a1e3cd432a6f59b5c13a12d9327"
+    },
+    {
+      "startFrame": 3960,
+      "endFrameExclusive": 4140,
+      "file": "/Volumes/AgentDev/Scratch/tmp/si-ep19-native-YtT913/chunk-3960.mp4",
+      "sha256": "a070714befd542750c825c1a211bf46d13627d7e6822bf63e14abb3cc58bbc57"
+    },
+    {
+      "startFrame": 4140,
+      "endFrameExclusive": 4320,
+      "file": "/Volumes/AgentDev/Scratch/tmp/si-ep19-native-YtT913/chunk-4140.mp4",
+      "sha256": "d41a7f2f92c573757946d2604a20a7ef60ed0ddc1b0b3bc7141d4c4d86fb2c78"
+    },
+    {
+      "startFrame": 4320,
+      "endFrameExclusive": 4500,
+      "file": "/Volumes/AgentDev/Scratch/tmp/si-ep19-native-YtT913/chunk-4320.mp4",
+      "sha256": "f8197f747dd37d22fd336e063b5d555552a971a92c466d2e4334dd1b0d39867c"
+    },
+    {
+      "startFrame": 4500,
+      "endFrameExclusive": 4680,
+      "file": "/Volumes/AgentDev/Scratch/tmp/si-ep19-native-YtT913/chunk-4500.mp4",
+      "sha256": "923e599abb8fc2390c30cf7e35de0db9b57dd8d51dc4aa35b2f110a3e862723a"
+    },
+    {
+      "startFrame": 4680,
+      "endFrameExclusive": 4860,
+      "file": "/Volumes/AgentDev/Scratch/tmp/si-ep19-native-YtT913/chunk-4680.mp4",
+      "sha256": "14c8925ea90d0a78aacf8b54e063d5c3a132031433f5063dadee1c8c61decca5"
+    },
+    {
+      "startFrame": 4860,
+      "endFrameExclusive": 5040,
+      "file": "/Volumes/AgentDev/Scratch/tmp/si-ep19-native-YtT913/chunk-4860.mp4",
+      "sha256": "5484ad340b021d675f5d0919a498e4aa26837c9515d4df96d383bbb42278436f"
+    },
+    {
+      "startFrame": 5040,
+      "endFrameExclusive": 5220,
+      "file": "/Volumes/AgentDev/Scratch/tmp/si-ep19-native-YtT913/chunk-5040.mp4",
+      "sha256": "25281f3cce63a19f0ff4aec3ea6e36bde2969d60a7ea24b4051664a7e5a2e9fe"
+    },
+    {
+      "startFrame": 5220,
+      "endFrameExclusive": 5400,
+      "file": "/Volumes/AgentDev/Scratch/tmp/si-ep19-native-YtT913/chunk-5220.mp4",
+      "sha256": "5c32cc18a4de166f779f2103dd2573df9727337321bf2e1ea09dae68f860a290"
+    }
+  ],
+  "disk": [
+    {
+      "first": 0,
+      "before": 22696402944,
+      "after": 22639636480
+    },
+    {
+      "first": 180,
+      "before": 22640775168,
+      "after": 22639190016
+    },
+    {
+      "first": 360,
+      "before": 22640238592,
+      "after": 22638346240
+    },
+    {
+      "first": 540,
+      "before": 22639542272,
+      "after": 22633984000
+    },
+    {
+      "first": 720,
+      "before": 22634852352,
+      "after": 22636802048
+    },
+    {
+      "first": 900,
+      "before": 22637801472,
+      "after": 22636351488
+    },
+    {
+      "first": 1080,
+      "before": 22637309952,
+      "after": 22635872256
+    },
+    {
+      "first": 1260,
+      "before": 22636777472,
+      "after": 22633955328
+    },
+    {
+      "first": 1440,
+      "before": 22635786240,
+      "after": 22631116800
+    },
+    {
+      "first": 1620,
+      "before": 22634721280,
+      "after": 22633078784
+    },
+    {
+      "first": 1800,
+      "before": 22636597248,
+      "after": 22631518208
+    },
+    {
+      "first": 1980,
+      "before": 22635122688,
+      "after": 22630637568
+    },
+    {
+      "first": 2160,
+      "before": 22633975808,
+      "after": 22629224448
+    },
+    {
+      "first": 2340,
+      "before": 22632550400,
+      "after": 22627667968
+    },
+    {
+      "first": 2520,
+      "before": 22631170048,
+      "after": 22626156544
+    },
+    {
+      "first": 2700,
+      "before": 22629666816,
+      "after": 22624751616
+    },
+    {
+      "first": 2880,
+      "before": 22628184064,
+      "after": 22622887936
+    },
+    {
+      "first": 3060,
+      "before": 22626570240,
+      "after": 22620971008
+    },
+    {
+      "first": 3240,
+      "before": 22624735232,
+      "after": 22619197440
+    },
+    {
+      "first": 3420,
+      "before": 22622978048,
+      "after": 22617772032
+    },
+    {
+      "first": 3600,
+      "before": 22621356032,
+      "after": 22615822336
+    },
+    {
+      "first": 3780,
+      "before": 22619594752,
+      "after": 22613618688
+    },
+    {
+      "first": 3960,
+      "before": 22617624576,
+      "after": 22610767872
+    },
+    {
+      "first": 4140,
+      "before": 22614761472,
+      "after": 22608920576
+    },
+    {
+      "first": 4320,
+      "before": 22612889600,
+      "after": 22605508608
+    },
+    {
+      "first": 4500,
+      "before": 22610759680,
+      "after": 22605258752
+    },
+    {
+      "first": 4680,
+      "before": 22609014784,
+      "after": 22606884864
+    },
+    {
+      "first": 4860,
+      "before": 22608318464,
+      "after": 22606979072
+    },
+    {
+      "first": 5040,
+      "before": 22607843328,
+      "after": 22606659584
+    },
+    {
+      "first": 5220,
+      "before": 22607441920,
+      "after": 22606245888
+    }
+  ],
+  "visualSourceHashes": {
+    "root": "1f4f19aeb4784d545d2257d5868e25a71efa5f35f5fd2eec66aa0d53908f0a7e",
+    "world": "d072a674e7b87190b176ace8339f309bf960157f0c992b36da0113de44cdde77",
+    "segments": "ab85aac4fc1bf45084263750b7289af2bce94dd367abc1a1ea7695992c142aab",
+    "timing": "be61635d40f7d05871ff5ae764495cad355ab6c5af8f9eda7367ebdca35c3da0"
+  },
+  "finalMovieSHA256": "5bc9d8fe30c485ca44b97cd3fac352ba21f726eb476caf62e72ff0bc83b9b758"
+}

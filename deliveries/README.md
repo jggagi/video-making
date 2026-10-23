@@ -38,3 +38,4 @@
 - [心印潜流 · v02](si-ep18-sovereign-subcurrent-v02/README.md)：3 个视频/工程资产。
 - [心印潜流 · v03](si-ep18-sovereign-subcurrent-v03/README.md)：4 个视频/工程资产。
 - [心印潜流 · 人与影 · v04](si-ep18-sovereign-subcurrent-v04/README.md)：11 个视频/工程资产。
+- [替身社交：倒悬在阳光下的影子](si-ep19-proxy-romance/README.md)：5 个视频/工程资产。

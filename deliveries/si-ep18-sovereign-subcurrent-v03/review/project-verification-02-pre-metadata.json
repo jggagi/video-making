@@ -1,0 +1,1693 @@
+{
+  "schemaVersion": 1,
+  "generatedAtUtc": "2026-10-23T10:56:46+00:00",
+  "work": {
+    "id": "si-ep18-sovereign-subcurrent-v03",
+    "title": "心印潜流 · v03"
+  },
+  "status": "PASS",
+  "checkCounts": {
+    "pass": 23,
+    "fail": 0
+  },
+  "checks": [
+    {
+      "name": "read_delivery",
+      "status": "PASS",
+      "details": {
+        "path": "delivery.json",
+        "sha256": "b78299c34f5803b027549b29cd5b0d1c31299aa73af8482505dae60aecd697ab",
+        "bytes": 1659,
+        "stableDuringHash": true
+      }
+    },
+    {
+      "name": "read_segments",
+      "status": "PASS",
+      "details": {
+        "path": "project/segments.json",
+        "sha256": "d0bfa67def1b0d23d44e5c282a0597b163744c665b53c6ad6c2287bc0aefa264",
+        "bytes": 3629,
+        "stableDuringHash": true
+      }
+    },
+    {
+      "name": "read_captions",
+      "status": "PASS",
+      "details": {
+        "path": "project/captions.json",
+        "sha256": "356498318c91735f3430c861fad070e2a0dc0fc2aef5696f3b2cdb1b0a8deefe",
+        "bytes": 3014,
+        "stableDuringHash": true
+      }
+    },
+    {
+      "name": "read_authorization",
+      "status": "PASS",
+      "details": {
+        "path": "project/audio-authorization.json",
+        "sha256": "0e19a4709471384c4ab2d8b9a124bce9dfda671e98352368e10e9484688d3ae8",
+        "bytes": 597,
+        "stableDuringHash": true
+      }
+    },
+    {
+      "name": "read_audioPlan",
+      "status": "PASS",
+      "details": {
+        "path": "project/audio-plan.json",
+        "sha256": "22c7cdb2f249eeea4295cdac60cd978b201533880033071f87832a55de75e532",
+        "bytes": 769,
+        "stableDuringHash": true
+      }
+    },
+    {
+      "name": "read_audioTiming",
+      "status": "PASS",
+      "details": {
+        "path": "project/audio-timing.json",
+        "sha256": "3fe49e8952d47464a86351d042c4847b4081e66c1113969a09326721b0cffd70",
+        "bytes": 7232,
+        "stableDuringHash": true
+      }
+    },
+    {
+      "name": "read_timeline",
+      "status": "PASS",
+      "details": {
+        "path": "project/timeline.json",
+        "sha256": "33621a68f8c2604d75b124dc41006a276e6705715dc25232febccdea192f2fd5",
+        "bytes": 2828,
+        "stableDuringHash": true
+      }
+    },
+    {
+      "name": "read_sfxEvents",
+      "status": "PASS",
+      "details": {
+        "path": "project/sfx_events.json",
+        "sha256": "ed7725c3ddf9389fff0ebbcd6df3921e9aa9b57641c01bd88b342ce301753a70",
+        "bytes": 1702,
+        "stableDuringHash": true
+      }
+    },
+    {
+      "name": "read_fontSources",
+      "status": "PASS",
+      "details": {
+        "path": "project/font-sources.json",
+        "sha256": "d03e4e21972301e1c4e27a44a9eadddc415e1bf71c6b19fd4b53caea142edfe6",
+        "bytes": 1208,
+        "stableDuringHash": true
+      }
+    },
+    {
+      "name": "read_synthesis",
+      "status": "PASS",
+      "details": {
+        "path": "review/audio-synthesis.json",
+        "sha256": "fd6e2f8f9c00824afecfab1e5a9bd43ca4eb20a965fa0060a136a6f9e3bc590c",
+        "bytes": 28804,
+        "stableDuringHash": true
+      }
+    },
+    {
+      "name": "read_frameSmoke",
+      "status": "PASS",
+      "details": {
+        "path": "review/frame-smoke-check.json",
+        "sha256": "d34ee3c85578e56d13b3d8d8b213bfd1872c96f48438c94e6c5796c704511b3d",
+        "bytes": 608,
+        "stableDuringHash": true
+      }
+    },
+    {
+      "name": "v03_native_delivery_identity",
+      "status": "PASS",
+      "details": {
+        "slug": "si-ep18-sovereign-subcurrent-v03",
+        "title": "心印潜流 · v03",
+        "platforms": [
+          "xiaohongshu"
+        ],
+        "durationSeconds": 90,
+        "fps": 60,
+        "totalFrames": 5400,
+        "audioMaster": "project/public/audio/master.wav",
+        "output": {
+          "path": "小红书/si-ep18-sovereign-subcurrent-v03-xiaohongshu-90s-portrait.mp4",
+          "width": 2160,
+          "height": 3840
+        }
+      }
+    },
+    {
+      "name": "original_script_sha256_matches_delivery",
+      "status": "PASS",
+      "details": {
+        "path": "source/script.md",
+        "expectedSha256": "21575f4aea7ba22074a0ce941400303ebf02839fcf045a27467893ac08774bea",
+        "actual": {
+          "sha256": "21575f4aea7ba22074a0ce941400303ebf02839fcf045a27467893ac08774bea",
+          "bytes": 15816,
+          "stableDuringHash": true
+        }
+      }
+    },
+    {
+      "name": "prepared_cues_match_attachment_table",
+      "status": "PASS",
+      "details": {
+        "issues": [],
+        "cueIds": [
+          "S01",
+          "S02",
+          "S03",
+          "S04",
+          "S05",
+          "S06",
+          "S07",
+          "S08"
+        ],
+        "attachmentSha256": "21575f4aea7ba22074a0ce941400303ebf02839fcf045a27467893ac08774bea",
+        "attachmentName": "script.md"
+      }
+    },
+    {
+      "name": "authorization_binds_ordered_prepared_text",
+      "status": "PASS",
+      "details": {
+        "issues": [],
+        "authorized": true,
+        "provider": "Aliyun Bailian",
+        "model": "qwen-audio-3.0-tts-plus",
+        "voice": "qwen-audio-3.0-tts-plus-longlangmoyue",
+        "preparedTextSha256": "8dedd2646ceb7ec282718140e19c40c00e6e7b7c912719357acee286b7765475",
+        "authorizedTextSha256": "8dedd2646ceb7ec282718140e19c40c00e6e7b7c912719357acee286b7765475",
+        "rate": 1.65
+      }
+    },
+    {
+      "name": "captions_match_text_and_layout_contract",
+      "status": "PASS",
+      "details": {
+        "captionCount": 22,
+        "cueCaptionCounts": {
+          "S01": 2,
+          "S02": 3,
+          "S03": 2,
+          "S04": 3,
+          "S05": 3,
+          "S06": 3,
+          "S07": 3,
+          "S08": 3
+        },
+        "issues": []
+      }
+    },
+    {
+      "name": "four_acts_cover_contiguous_5400_frames",
+      "status": "PASS",
+      "details": {
+        "issues": [],
+        "acts": [
+          {
+            "id": "A1",
+            "startFrame": 0,
+            "endFrame": 1320,
+            "purpose": "A silent shadow collects a human life",
+            "subjectActionConsequence": "Amber soulprint drips into a cyan echo below the mirror line",
+            "emotion": "being watched without noticing"
+          },
+          {
+            "id": "A2",
+            "startFrame": 1320,
+            "endFrame": 2820,
+            "purpose": "The copy becomes indistinguishable",
+            "subjectActionConsequence": "Cyan lattice bends and turns gold; exact mirrored fingerprint converges",
+            "emotion": "intimacy turning uncanny"
+          },
+          {
+            "id": "A3",
+            "startFrame": 2820,
+            "endFrame": 4380,
+            "purpose": "A rehearsed shadow acts first",
+            "subjectActionConsequence": "Hesitating amber original; golden duplicate crosses waterline and presses confirm at3900",
+            "emotion": "loss of agency"
+          },
+          {
+            "id": "A4",
+            "startFrame": 4380,
+            "endFrame": 5400,
+            "purpose": "Who is living through your eyes?",
+            "subjectActionConsequence": "Unified golden iris reveals one-native-pixel cyan glint for15frames; slow spatial evolution before fade",
+            "emotion": "unease"
+          }
+        ]
+      }
+    },
+    {
+      "name": "events_map_to_48khz_samples_and_silence_window",
+      "status": "PASS",
+      "details": {
+        "sfxEventCount": 10,
+        "timelineEventCount": 10,
+        "confirmFrame3900Present": true,
+        "silenceRangeFramesHalfOpen": [
+          4860,
+          4890
+        ],
+        "silenceRangeSamplesHalfOpen": [
+          3888000,
+          3912000
+        ],
+        "issues": []
+      }
+    },
+    {
+      "name": "measured_cues_preserve_full_pcm_and_fit_windows",
+      "status": "PASS",
+      "details": {
+        "cueCount": 8,
+        "cueEvidence": [
+          {
+            "id": "S01",
+            "actualModel": "qwen-audio-3.0-tts-plus",
+            "actualVoice": "qwen-audio-3.0-tts-plus-longlangmoyue",
+            "spokenTextSha256": "d0188a1e2ae18afe95894d95c2e46b6edf415189ae47a8cd33b7c2cab008759c",
+            "reportedTextSha256": "d0188a1e2ae18afe95894d95c2e46b6edf415189ae47a8cd33b7c2cab008759c",
+            "providerWav": {
+              "path": "public/audio/history/raw/5eaa499487955f54ae67f4cb17fb7428129479252581b81a71609264803c6034.wav",
+              "sha256": "d6a846a3c78a1cfe48847131558014f2825be6757cbbdf69a1bb78aec6d493dc",
+              "bytes": 330516,
+              "stableDuringHash": true,
+              "formatCode": 1,
+              "channels": 1,
+              "sampleRateHz": 24000,
+              "byteRate": 48000,
+              "blockAlign": 2,
+              "bitsPerSample": 16,
+              "sampleFramesPerChannel": 165236,
+              "physicalBytes": 330516,
+              "riffDeclaredBytes": 2147483591,
+              "dataDeclaredBytes": 2147483547,
+              "dataPhysicalBytes": 330472,
+              "dataOffset": 44,
+              "payloadSha256": "a41dcdb2ee5f8b1dc1cb8f9ff2419d647b92aa53a3e4a2d2e4212ca657e73443",
+              "headerMismatch": true,
+              "streamingHeaderRepairForm": true
+            },
+            "canonicalWav": {
+              "path": "public/audio/voice/S01-5eaa49948795.wav",
+              "sha256": "5273ebc1b3275d13957726b6747690f4e450338e2d15d43a99e55f96eb1699ca",
+              "bytes": 661022,
+              "stableDuringHash": true,
+              "formatCode": 1,
+              "channels": 1,
+              "sampleRateHz": 48000,
+              "byteRate": 96000,
+              "blockAlign": 2,
+              "bitsPerSample": 16,
+              "sampleFramesPerChannel": 330472,
+              "physicalBytes": 661022,
+              "riffDeclaredBytes": 661022,
+              "dataDeclaredBytes": 660944,
+              "dataPhysicalBytes": 660944,
+              "dataOffset": 78,
+              "payloadSha256": "1da9c61ab377f6bfaf1508d21238410933f893d9a1d54317365da18dfc916c2e",
+              "headerMismatch": false,
+              "streamingHeaderRepairForm": false
+            },
+            "reportedRawHeaderRepair": true,
+            "rawToCanonicalDurationSecondsDelta": 0.0,
+            "durationPreservedWithoutPostAcceleration": true,
+            "synthesisRate": 1.65,
+            "authorizedPlanRate": 1.65,
+            "placementStartFrame": 60,
+            "sourceEndFrame": 540,
+            "fullCanonicalSamplesFitWithoutTrimOrSpeedChange": true,
+            "providerIdentitySidecarMatches": true
+          },
+          {
+            "id": "S02",
+            "actualModel": "qwen-audio-3.0-tts-plus",
+            "actualVoice": "qwen-audio-3.0-tts-plus-longlangmoyue",
+            "spokenTextSha256": "33baa188cfcd9ed30b7fa13bf34cbb557712a4d4180f94c9cc77caf0a1f40f78",
+            "reportedTextSha256": "33baa188cfcd9ed30b7fa13bf34cbb557712a4d4180f94c9cc77caf0a1f40f78",
+            "providerWav": {
+              "path": "public/audio/history/raw/7a8a4be58e68c2d221367ad6c1da702d92652c6456c242d5882dcc94d245687a.wav",
+              "sha256": "e1d7e3b01de7114ad179ffc3cbeb06b96e9232b8a058a807d70daecfaaa3e9a1",
+              "bytes": 416626,
+              "stableDuringHash": true,
+              "formatCode": 1,
+              "channels": 1,
+              "sampleRateHz": 24000,
+              "byteRate": 48000,
+              "blockAlign": 2,
+              "bitsPerSample": 16,
+              "sampleFramesPerChannel": 208291,
+              "physicalBytes": 416626,
+              "riffDeclaredBytes": 2147483591,
+              "dataDeclaredBytes": 2147483547,
+              "dataPhysicalBytes": 416582,
+              "dataOffset": 44,
+              "payloadSha256": "b93a0fd354deb5e2e90f52ba57cf8f2e350cac501dd8299aba68f0765d5e981e",
+              "headerMismatch": true,
+              "streamingHeaderRepairForm": true
+            },
+            "canonicalWav": {
+              "path": "public/audio/voice/S02-7a8a4be58e68.wav",
+              "sha256": "51df27e178afed71007c87d8a56722dea9d95f26cdd2dc02221a469b725f3a31",
+              "bytes": 833242,
+              "stableDuringHash": true,
+              "formatCode": 1,
+              "channels": 1,
+              "sampleRateHz": 48000,
+              "byteRate": 96000,
+              "blockAlign": 2,
+              "bitsPerSample": 16,
+              "sampleFramesPerChannel": 416582,
+              "physicalBytes": 833242,
+              "riffDeclaredBytes": 833242,
+              "dataDeclaredBytes": 833164,
+              "dataPhysicalBytes": 833164,
+              "dataOffset": 78,
+              "payloadSha256": "a3445520b3d4ef08beaaf7e0c791c06ce1948ce904a37df1bfbfb5dc587818c5",
+              "headerMismatch": false,
+              "streamingHeaderRepairForm": false
+            },
+            "reportedRawHeaderRepair": true,
+            "rawToCanonicalDurationSecondsDelta": 0.0,
+            "durationPreservedWithoutPostAcceleration": true,
+            "synthesisRate": 1.65,
+            "authorizedPlanRate": 1.65,
+            "placementStartFrame": 600,
+            "sourceEndFrame": 1260,
+            "fullCanonicalSamplesFitWithoutTrimOrSpeedChange": true,
+            "providerIdentitySidecarMatches": true
+          },
+          {
+            "id": "S03",
+            "actualModel": "qwen-audio-3.0-tts-plus",
+            "actualVoice": "qwen-audio-3.0-tts-plus-longlangmoyue",
+            "spokenTextSha256": "4f3690ede73802468ee26a073d3545e06bae97cf887c73e22c50bbb2be0422aa",
+            "reportedTextSha256": "4f3690ede73802468ee26a073d3545e06bae97cf887c73e22c50bbb2be0422aa",
+            "providerWav": {
+              "path": "public/audio/history/raw/efee729bb755fc8e037a1411e71cbf76d8effa527a87e8fe5bffb23162413c21.wav",
+              "sha256": "26a202cbc94bacfe843d53c6c6edc08c4df66d3689c105978a17273c0d380ee8",
+              "bytes": 370080,
+              "stableDuringHash": true,
+              "formatCode": 1,
+              "channels": 1,
+              "sampleRateHz": 24000,
+              "byteRate": 48000,
+              "blockAlign": 2,
+              "bitsPerSample": 16,
+              "sampleFramesPerChannel": 185018,
+              "physicalBytes": 370080,
+              "riffDeclaredBytes": 2147483591,
+              "dataDeclaredBytes": 2147483547,
+              "dataPhysicalBytes": 370036,
+              "dataOffset": 44,
+              "payloadSha256": "69dcfa6b47fd5e2dcd6945f259925e21474d7de343c319010450773388aa43d4",
+              "headerMismatch": true,
+              "streamingHeaderRepairForm": true
+            },
+            "canonicalWav": {
+              "path": "public/audio/voice/S03-efee729bb755.wav",
+              "sha256": "95213492689f79993cd6b1c145eb3ac2a79f1241e8a1616aaec37e68dcee1f1d",
+              "bytes": 740150,
+              "stableDuringHash": true,
+              "formatCode": 1,
+              "channels": 1,
+              "sampleRateHz": 48000,
+              "byteRate": 96000,
+              "blockAlign": 2,
+              "bitsPerSample": 16,
+              "sampleFramesPerChannel": 370036,
+              "physicalBytes": 740150,
+              "riffDeclaredBytes": 740150,
+              "dataDeclaredBytes": 740072,
+              "dataPhysicalBytes": 740072,
+              "dataOffset": 78,
+              "payloadSha256": "61f700e8dfeca5707792a0c8454c46406b35970a89c26f140e23d75c03c36992",
+              "headerMismatch": false,
+              "streamingHeaderRepairForm": false
+            },
+            "reportedRawHeaderRepair": true,
+            "rawToCanonicalDurationSecondsDelta": 0.0,
+            "durationPreservedWithoutPostAcceleration": true,
+            "synthesisRate": 1.65,
+            "authorizedPlanRate": 1.65,
+            "placementStartFrame": 1320,
+            "sourceEndFrame": 1980,
+            "fullCanonicalSamplesFitWithoutTrimOrSpeedChange": true,
+            "providerIdentitySidecarMatches": true
+          },
+          {
+            "id": "S04",
+            "actualModel": "qwen-audio-3.0-tts-plus",
+            "actualVoice": "qwen-audio-3.0-tts-plus-longlangmoyue",
+            "spokenTextSha256": "d678760ae722f446b0bea60ae1cdc1adfed81b6089d9f39a2a301a84b448b2d6",
+            "reportedTextSha256": "d678760ae722f446b0bea60ae1cdc1adfed81b6089d9f39a2a301a84b448b2d6",
+            "providerWav": {
+              "path": "public/audio/history/raw/c81cbd44272872cf2d78e5305ccce97e8a660784acd60aa1e5cb146dae39d57b.wav",
+              "sha256": "0bd06fc895330c5bc6721a7993882904a4db8dc76624505c612a1df3119d8cfd",
+              "bytes": 367754,
+              "stableDuringHash": true,
+              "formatCode": 1,
+              "channels": 1,
+              "sampleRateHz": 24000,
+              "byteRate": 48000,
+              "blockAlign": 2,
+              "bitsPerSample": 16,
+              "sampleFramesPerChannel": 183855,
+              "physicalBytes": 367754,
+              "riffDeclaredBytes": 2147483591,
+              "dataDeclaredBytes": 2147483547,
+              "dataPhysicalBytes": 367710,
+              "dataOffset": 44,
+              "payloadSha256": "2a90d22112c2b03d67d0040400f49ed0b5b5bcaed2017aac50079f2546e70307",
+              "headerMismatch": true,
+              "streamingHeaderRepairForm": true
+            },
+            "canonicalWav": {
+              "path": "public/audio/voice/S04-c81cbd442728.wav",
+              "sha256": "2abff466d5424b49ba6c75d6d7ef8b4a7377e90131b3a220c4ecc3c6955711b3",
+              "bytes": 735498,
+              "stableDuringHash": true,
+              "formatCode": 1,
+              "channels": 1,
+              "sampleRateHz": 48000,
+              "byteRate": 96000,
+              "blockAlign": 2,
+              "bitsPerSample": 16,
+              "sampleFramesPerChannel": 367710,
+              "physicalBytes": 735498,
+              "riffDeclaredBytes": 735498,
+              "dataDeclaredBytes": 735420,
+              "dataPhysicalBytes": 735420,
+              "dataOffset": 78,
+              "payloadSha256": "20e068694f6ab6952324401f4338902054438254a71098c7a20c785c12adeb9e",
+              "headerMismatch": false,
+              "streamingHeaderRepairForm": false
+            },
+            "reportedRawHeaderRepair": true,
+            "rawToCanonicalDurationSecondsDelta": 0.0,
+            "durationPreservedWithoutPostAcceleration": true,
+            "synthesisRate": 1.65,
+            "authorizedPlanRate": 1.65,
+            "placementStartFrame": 2040,
+            "sourceEndFrame": 2760,
+            "fullCanonicalSamplesFitWithoutTrimOrSpeedChange": true,
+            "providerIdentitySidecarMatches": true
+          },
+          {
+            "id": "S05",
+            "actualModel": "qwen-audio-3.0-tts-plus",
+            "actualVoice": "qwen-audio-3.0-tts-plus-longlangmoyue",
+            "spokenTextSha256": "bde2c6dd9babcfc1db05b4aeadbc0377fe5f22015a87545c692db5d658efe104",
+            "reportedTextSha256": "bde2c6dd9babcfc1db05b4aeadbc0377fe5f22015a87545c692db5d658efe104",
+            "providerWav": {
+              "path": "public/audio/history/raw/ec7186a1b5f9047a576a1479854e8b0faa3de9a16114514460de211bebbdf788.wav",
+              "sha256": "e0388aa35ede55a7fad5253f52efa705e1fb6a631aa722ae76be1bb9950693be",
+              "bytes": 363098,
+              "stableDuringHash": true,
+              "formatCode": 1,
+              "channels": 1,
+              "sampleRateHz": 24000,
+              "byteRate": 48000,
+              "blockAlign": 2,
+              "bitsPerSample": 16,
+              "sampleFramesPerChannel": 181527,
+              "physicalBytes": 363098,
+              "riffDeclaredBytes": 2147483591,
+              "dataDeclaredBytes": 2147483547,
+              "dataPhysicalBytes": 363054,
+              "dataOffset": 44,
+              "payloadSha256": "7e28f218e45612e07fd3dada97d95d531e9e6cdc00a73f67e4456117d157664c",
+              "headerMismatch": true,
+              "streamingHeaderRepairForm": true
+            },
+            "canonicalWav": {
+              "path": "public/audio/voice/S05-ec7186a1b5f9.wav",
+              "sha256": "d8cbd8c03fe3b205df721b52e5415880fa37c50e7c6b722f96368d510892df1c",
+              "bytes": 726186,
+              "stableDuringHash": true,
+              "formatCode": 1,
+              "channels": 1,
+              "sampleRateHz": 48000,
+              "byteRate": 96000,
+              "blockAlign": 2,
+              "bitsPerSample": 16,
+              "sampleFramesPerChannel": 363054,
+              "physicalBytes": 726186,
+              "riffDeclaredBytes": 726186,
+              "dataDeclaredBytes": 726108,
+              "dataPhysicalBytes": 726108,
+              "dataOffset": 78,
+              "payloadSha256": "0dcb8c8aff42a710a6753f6239d3cecb7819ad73a5647f1adaaaabb8e29ed72e",
+              "headerMismatch": false,
+              "streamingHeaderRepairForm": false
+            },
+            "reportedRawHeaderRepair": true,
+            "rawToCanonicalDurationSecondsDelta": 0.0,
+            "durationPreservedWithoutPostAcceleration": true,
+            "synthesisRate": 1.65,
+            "authorizedPlanRate": 1.65,
+            "placementStartFrame": 2820,
+            "sourceEndFrame": 3540,
+            "fullCanonicalSamplesFitWithoutTrimOrSpeedChange": true,
+            "providerIdentitySidecarMatches": true
+          },
+          {
+            "id": "S06",
+            "actualModel": "qwen-audio-3.0-tts-plus",
+            "actualVoice": "qwen-audio-3.0-tts-plus-longlangmoyue",
+            "spokenTextSha256": "70a7c60a804ea800a89a66992d7b8b9a9a11acf81d5817ac6ee704f9f43dfd09",
+            "reportedTextSha256": "70a7c60a804ea800a89a66992d7b8b9a9a11acf81d5817ac6ee704f9f43dfd09",
+            "providerWav": {
+              "path": "public/audio/history/raw/7998dc3ca2868cb28bbeb363cd332599cddd5d0c6c310fca24e4e9c5a902ff2c.wav",
+              "sha256": "458e036b7f972851ab0b4e07c9bb4ad8dc0cd723e134f604f07fb405c9b6bb5f",
+              "bytes": 300262,
+              "stableDuringHash": true,
+              "formatCode": 1,
+              "channels": 1,
+              "sampleRateHz": 24000,
+              "byteRate": 48000,
+              "blockAlign": 2,
+              "bitsPerSample": 16,
+              "sampleFramesPerChannel": 150109,
+              "physicalBytes": 300262,
+              "riffDeclaredBytes": 2147483591,
+              "dataDeclaredBytes": 2147483547,
+              "dataPhysicalBytes": 300218,
+              "dataOffset": 44,
+              "payloadSha256": "dcdcd21a0acbafc4810fa76ee2a6dcf703370c161bc0db7722c34839ef352d30",
+              "headerMismatch": true,
+              "streamingHeaderRepairForm": true
+            },
+            "canonicalWav": {
+              "path": "public/audio/voice/S06-7998dc3ca286.wav",
+              "sha256": "e52b39533e45d9d75239f59be3f8eee200227bf511e9a65346c079106fe60d9a",
+              "bytes": 600514,
+              "stableDuringHash": true,
+              "formatCode": 1,
+              "channels": 1,
+              "sampleRateHz": 48000,
+              "byteRate": 96000,
+              "blockAlign": 2,
+              "bitsPerSample": 16,
+              "sampleFramesPerChannel": 300218,
+              "physicalBytes": 600514,
+              "riffDeclaredBytes": 600514,
+              "dataDeclaredBytes": 600436,
+              "dataPhysicalBytes": 600436,
+              "dataOffset": 78,
+              "payloadSha256": "548b4b38bfc93b5d399679ada1016e96be3c13ffb70ffeeb433f30d985752e5d",
+              "headerMismatch": false,
+              "streamingHeaderRepairForm": false
+            },
+            "reportedRawHeaderRepair": true,
+            "rawToCanonicalDurationSecondsDelta": 0.0,
+            "durationPreservedWithoutPostAcceleration": true,
+            "synthesisRate": 1.65,
+            "authorizedPlanRate": 1.65,
+            "placementStartFrame": 3600,
+            "sourceEndFrame": 4320,
+            "fullCanonicalSamplesFitWithoutTrimOrSpeedChange": true,
+            "providerIdentitySidecarMatches": true
+          },
+          {
+            "id": "S07",
+            "actualModel": "qwen-audio-3.0-tts-plus",
+            "actualVoice": "qwen-audio-3.0-tts-plus-longlangmoyue",
+            "spokenTextSha256": "6d70113b3702b459e3d7cc97ed313fff8bca6fce419bad28701f234f9d51149e",
+            "reportedTextSha256": "6d70113b3702b459e3d7cc97ed313fff8bca6fce419bad28701f234f9d51149e",
+            "providerWav": {
+              "path": "public/audio/history/raw/f094be66cf759397a4650a089e3d2b6d891cc95a9875d44deee500aa6bcc6934.wav",
+              "sha256": "16d1103d72ce69d40b93f204828dd182e184d957782073589ac24ecd26870941",
+              "bytes": 398008,
+              "stableDuringHash": true,
+              "formatCode": 1,
+              "channels": 1,
+              "sampleRateHz": 24000,
+              "byteRate": 48000,
+              "blockAlign": 2,
+              "bitsPerSample": 16,
+              "sampleFramesPerChannel": 198982,
+              "physicalBytes": 398008,
+              "riffDeclaredBytes": 2147483591,
+              "dataDeclaredBytes": 2147483547,
+              "dataPhysicalBytes": 397964,
+              "dataOffset": 44,
+              "payloadSha256": "1040eb81a6a7f9a161f7bc1850660317665e2f5107079343d3e44c5e3fb4a056",
+              "headerMismatch": true,
+              "streamingHeaderRepairForm": true
+            },
+            "canonicalWav": {
+              "path": "public/audio/voice/S07-f094be66cf75.wav",
+              "sha256": "1fc8fef1cef5bd40a2a1980222caa635f48a12ba4500314f4e6200bf230a9329",
+              "bytes": 796006,
+              "stableDuringHash": true,
+              "formatCode": 1,
+              "channels": 1,
+              "sampleRateHz": 48000,
+              "byteRate": 96000,
+              "blockAlign": 2,
+              "bitsPerSample": 16,
+              "sampleFramesPerChannel": 397964,
+              "physicalBytes": 796006,
+              "riffDeclaredBytes": 796006,
+              "dataDeclaredBytes": 795928,
+              "dataPhysicalBytes": 795928,
+              "dataOffset": 78,
+              "payloadSha256": "d45a2903f2b191a0ed3e04d505f95e7303a66efe0afb0976519a61289acb5299",
+              "headerMismatch": false,
+              "streamingHeaderRepairForm": false
+            },
+            "reportedRawHeaderRepair": true,
+            "rawToCanonicalDurationSecondsDelta": 0.0,
+            "durationPreservedWithoutPostAcceleration": true,
+            "synthesisRate": 1.65,
+            "authorizedPlanRate": 1.65,
+            "placementStartFrame": 4300,
+            "sourceEndFrame": 4800,
+            "fullCanonicalSamplesFitWithoutTrimOrSpeedChange": true,
+            "providerIdentitySidecarMatches": true
+          },
+          {
+            "id": "S08",
+            "actualModel": "qwen-audio-3.0-tts-plus",
+            "actualVoice": "qwen-audio-3.0-tts-plus-longlangmoyue",
+            "spokenTextSha256": "e9e817f5c0385c6272cbc19b4d31e6a14feedf893bd31ab6dc7092a501ec33e9",
+            "reportedTextSha256": "e9e817f5c0385c6272cbc19b4d31e6a14feedf893bd31ab6dc7092a501ec33e9",
+            "providerWav": {
+              "path": "public/audio/history/raw/5d35d5ae96d9781aaa07c85a5a8ce5283861568e94125d83d46f2d28c5e343a3.wav",
+              "sha256": "c9555eed38430429de37ea297aa5ea30f197fd2a51a84c9c4406e0de0a7b6abb",
+              "bytes": 370080,
+              "stableDuringHash": true,
+              "formatCode": 1,
+              "channels": 1,
+              "sampleRateHz": 24000,
+              "byteRate": 48000,
+              "blockAlign": 2,
+              "bitsPerSample": 16,
+              "sampleFramesPerChannel": 185018,
+              "physicalBytes": 370080,
+              "riffDeclaredBytes": 2147483591,
+              "dataDeclaredBytes": 2147483547,
+              "dataPhysicalBytes": 370036,
+              "dataOffset": 44,
+              "payloadSha256": "946aecfe61437ce67120d10952e060cb1de5652f1eb48267112cfe17004bffb7",
+              "headerMismatch": true,
+              "streamingHeaderRepairForm": true
+            },
+            "canonicalWav": {
+              "path": "public/audio/voice/S08-5d35d5ae96d9.wav",
+              "sha256": "5fabecf3ab0670a28b0e746edbdc582df8dec8ab171c5cf537f44501c5eefff4",
+              "bytes": 740150,
+              "stableDuringHash": true,
+              "formatCode": 1,
+              "channels": 1,
+              "sampleRateHz": 48000,
+              "byteRate": 96000,
+              "blockAlign": 2,
+              "bitsPerSample": 16,
+              "sampleFramesPerChannel": 370036,
+              "physicalBytes": 740150,
+              "riffDeclaredBytes": 740150,
+              "dataDeclaredBytes": 740072,
+              "dataPhysicalBytes": 740072,
+              "dataOffset": 78,
+              "payloadSha256": "e2e77375428bd80e4a06ee3752c24bb9ef9f9d04f4e9fb21ce581435a7abe37d",
+              "headerMismatch": false,
+              "streamingHeaderRepairForm": false
+            },
+            "reportedRawHeaderRepair": true,
+            "rawToCanonicalDurationSecondsDelta": 0.0,
+            "durationPreservedWithoutPostAcceleration": true,
+            "synthesisRate": 1.65,
+            "authorizedPlanRate": 1.65,
+            "placementStartFrame": 4890,
+            "sourceEndFrame": 5400,
+            "fullCanonicalSamplesFitWithoutTrimOrSpeedChange": true,
+            "providerIdentitySidecarMatches": true
+          }
+        ],
+        "issues": [],
+        "captionAlignmentClaim": "estimated phrase weights within measured PCM activity; not exact ASR or word-level alignment"
+      }
+    },
+    {
+      "name": "master_is_exact_stereo_pcm16_with_silence",
+      "status": "PASS",
+      "details": {
+        "path": "project/public/audio/master.wav",
+        "sha256": "6f80e605703cd9994b6ee577c3079896e86262e737f87d529724a1d12973b6e9",
+        "bytes": 17280044,
+        "stableDuringHash": true,
+        "format": {
+          "sampleRateHz": 48000,
+          "channels": 2,
+          "sampleWidthBytes": 2,
+          "sampleFramesPerChannel": 4320000,
+          "compressionType": "NONE"
+        },
+        "exact30FrameSilence": {
+          "framesHalfOpen": [
+            4860,
+            4890
+          ],
+          "samplesPerChannelHalfOpen": [
+            3888000,
+            3912000
+          ],
+          "allStereoSamplesZero": true
+        },
+        "stableDuringReadAndHash": true
+      }
+    },
+    {
+      "name": "bundled_font_and_license_hashes_match_sources",
+      "status": "PASS",
+      "details": {
+        "usedFontFiles": [
+          "NotoSerifSC.ttf",
+          "RobotoMono.ttf"
+        ],
+        "declaredFiles": [
+          {
+            "path": "public/fonts/NotoSerifSC.ttf",
+            "sha256": "050080d9255a86808f2945bffac582b31ef32bc36411ce29563b4961670c66f9",
+            "bytes": 25125512,
+            "stableDuringHash": true,
+            "declaredSource": "https://raw.githubusercontent.com/google/fonts/main/ofl/notoserifsc/NotoSerifSC%5Bwght%5D.ttf",
+            "declaredLicense": "SIL Open Font License 1.1",
+            "matchesDeclaredSha256AndBytes": true
+          },
+          {
+            "path": "public/fonts/NotoSerifSC-OFL.txt",
+            "sha256": "5e0da210fb04058a8c0087985d2d456b931c2579811a49655721d3cf0c36b6d6",
+            "bytes": 4350,
+            "stableDuringHash": true,
+            "declaredSource": "https://raw.githubusercontent.com/google/fonts/main/ofl/notoserifsc/OFL.txt",
+            "declaredLicense": "SIL Open Font License 1.1",
+            "matchesDeclaredSha256AndBytes": true
+          },
+          {
+            "path": "public/fonts/RobotoMono.ttf",
+            "sha256": "66a80e79d17e4c7cabd162e2916578a4cc08fd19eef6e2a643305eae9c567b2b",
+            "bytes": 183700,
+            "stableDuringHash": true,
+            "declaredSource": "https://raw.githubusercontent.com/google/fonts/main/ofl/robotomono/RobotoMono%5Bwght%5D.ttf",
+            "declaredLicense": "SIL Open Font License 1.1",
+            "matchesDeclaredSha256AndBytes": true
+          },
+          {
+            "path": "public/fonts/RobotoMono-OFL.txt",
+            "sha256": "50ab8dd54680d3473f649c9db86fece88434d097c7834475c1c72d2f8c429215",
+            "bytes": 4395,
+            "stableDuringHash": true,
+            "declaredSource": "https://raw.githubusercontent.com/google/fonts/main/ofl/robotomono/OFL.txt",
+            "declaredLicense": "SIL Open Font License 1.1",
+            "matchesDeclaredSha256AndBytes": true
+          }
+        ],
+        "issues": []
+      }
+    },
+    {
+      "name": "src_is_deterministic_2d_and_matches_frame_smoke",
+      "status": "PASS",
+      "details": {
+        "sourceFileCount": 4,
+        "sourceSha256": {
+          "project/src/Film.tsx": {
+            "sha256": "922864d5804ab475b126862b81f1c2c37831c1e5c951891f7329d82b63398f26",
+            "bytes": 7573,
+            "stableDuringHash": true
+          },
+          "project/src/Root.tsx": {
+            "sha256": "6afabde516cfa9c768e0aa8c6ab136d64a44a7c084c58d83a0b4f69025a9880a",
+            "bytes": 299,
+            "stableDuringHash": true
+          },
+          "project/src/Scene.tsx": {
+            "sha256": "5e75515f487f96ccb772a2da19761d663fa236c974f88aa2d0b7a7b7d45902a1",
+            "bytes": 22333,
+            "stableDuringHash": true
+          },
+          "project/src/index.ts": {
+            "sha256": "2e0e358282a1b998a65387c653b97c2bb2eb7aae94cf200fc0b8d919f7be73a6",
+            "bytes": 88,
+            "stableDuringHash": true
+          }
+        },
+        "forbiddenHits": [],
+        "frameSmokeReportSha256": "d34ee3c85578e56d13b3d8d8b213bfd1872c96f48438c94e6c5796c704511b3d",
+        "frameSmokeSceneSha256": "5e75515f487f96ccb772a2da19761d663fa236c974f88aa2d0b7a7b7d45902a1",
+        "currentSceneSha256": "5e75515f487f96ccb772a2da19761d663fa236c974f88aa2d0b7a7b7d45902a1",
+        "frameSmokeStatus": "passed",
+        "framesExpected": 5400,
+        "framesExecuted": 5400,
+        "issues": []
+      }
+    },
+    {
+      "name": "final_movie_sha256_is_bound",
+      "status": "PASS",
+      "details": {
+        "path": "小红书/si-ep18-sovereign-subcurrent-v03-xiaohongshu-90s-portrait.mp4",
+        "sha256": "920e6578a8c6453b99133f40d3eff73d332f47b532ca179b578d82cb5d92938b",
+        "bytes": 107808174,
+        "stableDuringHash": true,
+        "deliveryManifestSha256": "920e6578a8c6453b99133f40d3eff73d332f47b532ca179b578d82cb5d92938b",
+        "matchesDeliveryManifestSha256": true
+      }
+    }
+  ],
+  "bindings": {
+    "inputFiles": {
+      "delivery.json": {
+        "sha256": "b78299c34f5803b027549b29cd5b0d1c31299aa73af8482505dae60aecd697ab",
+        "bytes": 1659,
+        "stableDuringHash": true
+      },
+      "project/segments.json": {
+        "sha256": "d0bfa67def1b0d23d44e5c282a0597b163744c665b53c6ad6c2287bc0aefa264",
+        "bytes": 3629,
+        "stableDuringHash": true
+      },
+      "project/captions.json": {
+        "sha256": "356498318c91735f3430c861fad070e2a0dc0fc2aef5696f3b2cdb1b0a8deefe",
+        "bytes": 3014,
+        "stableDuringHash": true
+      },
+      "project/audio-authorization.json": {
+        "sha256": "0e19a4709471384c4ab2d8b9a124bce9dfda671e98352368e10e9484688d3ae8",
+        "bytes": 597,
+        "stableDuringHash": true
+      },
+      "project/audio-plan.json": {
+        "sha256": "22c7cdb2f249eeea4295cdac60cd978b201533880033071f87832a55de75e532",
+        "bytes": 769,
+        "stableDuringHash": true
+      },
+      "project/audio-timing.json": {
+        "sha256": "3fe49e8952d47464a86351d042c4847b4081e66c1113969a09326721b0cffd70",
+        "bytes": 7232,
+        "stableDuringHash": true
+      },
+      "project/timeline.json": {
+        "sha256": "33621a68f8c2604d75b124dc41006a276e6705715dc25232febccdea192f2fd5",
+        "bytes": 2828,
+        "stableDuringHash": true
+      },
+      "project/sfx_events.json": {
+        "sha256": "ed7725c3ddf9389fff0ebbcd6df3921e9aa9b57641c01bd88b342ce301753a70",
+        "bytes": 1702,
+        "stableDuringHash": true
+      },
+      "project/font-sources.json": {
+        "sha256": "d03e4e21972301e1c4e27a44a9eadddc415e1bf71c6b19fd4b53caea142edfe6",
+        "bytes": 1208,
+        "stableDuringHash": true
+      },
+      "review/audio-synthesis.json": {
+        "sha256": "fd6e2f8f9c00824afecfab1e5a9bd43ca4eb20a965fa0060a136a6f9e3bc590c",
+        "bytes": 28804,
+        "stableDuringHash": true
+      },
+      "review/frame-smoke-check.json": {
+        "sha256": "d34ee3c85578e56d13b3d8d8b213bfd1872c96f48438c94e6c5796c704511b3d",
+        "bytes": 608,
+        "stableDuringHash": true
+      }
+    },
+    "sourceScript": {
+      "path": "source/script.md",
+      "expectedSha256": "21575f4aea7ba22074a0ce941400303ebf02839fcf045a27467893ac08774bea",
+      "actual": {
+        "sha256": "21575f4aea7ba22074a0ce941400303ebf02839fcf045a27467893ac08774bea",
+        "bytes": 15816,
+        "stableDuringHash": true
+      }
+    },
+    "attachment": {
+      "name": "script.md",
+      "sha256": "21575f4aea7ba22074a0ce941400303ebf02839fcf045a27467893ac08774bea",
+      "bytes": 15816,
+      "stableDuringHash": true
+    },
+    "authorization": {
+      "sha256": "0e19a4709471384c4ab2d8b9a124bce9dfda671e98352368e10e9484688d3ae8",
+      "bytes": 597,
+      "stableDuringHash": true
+    },
+    "master": {
+      "path": "project/public/audio/master.wav",
+      "sha256": "6f80e605703cd9994b6ee577c3079896e86262e737f87d529724a1d12973b6e9",
+      "bytes": 17280044,
+      "stableDuringHash": true,
+      "format": {
+        "sampleRateHz": 48000,
+        "channels": 2,
+        "sampleWidthBytes": 2,
+        "sampleFramesPerChannel": 4320000,
+        "compressionType": "NONE"
+      },
+      "exact30FrameSilence": {
+        "framesHalfOpen": [
+          4860,
+          4890
+        ],
+        "samplesPerChannelHalfOpen": [
+          3888000,
+          3912000
+        ],
+        "allStereoSamplesZero": true
+      },
+      "stableDuringReadAndHash": true
+    },
+    "sourceFiles": {
+      "project/src/Film.tsx": {
+        "sha256": "922864d5804ab475b126862b81f1c2c37831c1e5c951891f7329d82b63398f26",
+        "bytes": 7573,
+        "stableDuringHash": true
+      },
+      "project/src/Root.tsx": {
+        "sha256": "6afabde516cfa9c768e0aa8c6ab136d64a44a7c084c58d83a0b4f69025a9880a",
+        "bytes": 299,
+        "stableDuringHash": true
+      },
+      "project/src/Scene.tsx": {
+        "sha256": "5e75515f487f96ccb772a2da19761d663fa236c974f88aa2d0b7a7b7d45902a1",
+        "bytes": 22333,
+        "stableDuringHash": true
+      },
+      "project/src/index.ts": {
+        "sha256": "2e0e358282a1b998a65387c653b97c2bb2eb7aae94cf200fc0b8d919f7be73a6",
+        "bytes": 88,
+        "stableDuringHash": true
+      }
+    },
+    "frameSmoke": {
+      "frameSmokeReportSha256": "d34ee3c85578e56d13b3d8d8b213bfd1872c96f48438c94e6c5796c704511b3d",
+      "frameSmokeSceneSha256": "5e75515f487f96ccb772a2da19761d663fa236c974f88aa2d0b7a7b7d45902a1",
+      "currentSceneSha256": "5e75515f487f96ccb772a2da19761d663fa236c974f88aa2d0b7a7b7d45902a1",
+      "frameSmokeStatus": "passed",
+      "framesExpected": 5400,
+      "framesExecuted": 5400
+    },
+    "movie": {
+      "path": "小红书/si-ep18-sovereign-subcurrent-v03-xiaohongshu-90s-portrait.mp4",
+      "sha256": "920e6578a8c6453b99133f40d3eff73d332f47b532ca179b578d82cb5d92938b",
+      "bytes": 107808174,
+      "stableDuringHash": true,
+      "deliveryManifestSha256": "920e6578a8c6453b99133f40d3eff73d332f47b532ca179b578d82cb5d92938b",
+      "matchesDeliveryManifestSha256": true
+    }
+  },
+  "measured": {
+    "deliveryIdentity": {
+      "slug": "si-ep18-sovereign-subcurrent-v03",
+      "title": "心印潜流 · v03",
+      "platforms": [
+        "xiaohongshu"
+      ],
+      "durationSeconds": 90,
+      "fps": 60,
+      "totalFrames": 5400,
+      "audioMaster": "project/public/audio/master.wav",
+      "output": {
+        "path": "小红书/si-ep18-sovereign-subcurrent-v03-xiaohongshu-90s-portrait.mp4",
+        "width": 2160,
+        "height": 3840
+      }
+    },
+    "narrationAuthorization": {
+      "authorized": true,
+      "provider": "Aliyun Bailian",
+      "model": "qwen-audio-3.0-tts-plus",
+      "voice": "qwen-audio-3.0-tts-plus-longlangmoyue",
+      "preparedTextSha256": "8dedd2646ceb7ec282718140e19c40c00e6e7b7c912719357acee286b7765475",
+      "authorizedTextSha256": "8dedd2646ceb7ec282718140e19c40c00e6e7b7c912719357acee286b7765475",
+      "rate": 1.65
+    },
+    "captions": {
+      "captionCount": 22,
+      "cueCaptionCounts": {
+        "S01": 2,
+        "S02": 3,
+        "S03": 2,
+        "S04": 3,
+        "S05": 3,
+        "S06": 3,
+        "S07": 3,
+        "S08": 3
+      },
+      "issues": []
+    },
+    "timeline": {
+      "actCount": 4,
+      "acts": [
+        {
+          "id": "A1",
+          "startFrame": 0,
+          "endFrame": 1320,
+          "purpose": "A silent shadow collects a human life",
+          "subjectActionConsequence": "Amber soulprint drips into a cyan echo below the mirror line",
+          "emotion": "being watched without noticing"
+        },
+        {
+          "id": "A2",
+          "startFrame": 1320,
+          "endFrame": 2820,
+          "purpose": "The copy becomes indistinguishable",
+          "subjectActionConsequence": "Cyan lattice bends and turns gold; exact mirrored fingerprint converges",
+          "emotion": "intimacy turning uncanny"
+        },
+        {
+          "id": "A3",
+          "startFrame": 2820,
+          "endFrame": 4380,
+          "purpose": "A rehearsed shadow acts first",
+          "subjectActionConsequence": "Hesitating amber original; golden duplicate crosses waterline and presses confirm at3900",
+          "emotion": "loss of agency"
+        },
+        {
+          "id": "A4",
+          "startFrame": 4380,
+          "endFrame": 5400,
+          "purpose": "Who is living through your eyes?",
+          "subjectActionConsequence": "Unified golden iris reveals one-native-pixel cyan glint for15frames; slow spatial evolution before fade",
+          "emotion": "unease"
+        }
+      ]
+    },
+    "events": {
+      "sfxEventCount": 10,
+      "timelineEventCount": 10,
+      "confirmFrame3900Present": true,
+      "silenceRangeFramesHalfOpen": [
+        4860,
+        4890
+      ],
+      "silenceRangeSamplesHalfOpen": [
+        3888000,
+        3912000
+      ],
+      "issues": []
+    },
+    "synthesisAndTiming": {
+      "cueCount": 8,
+      "cueEvidence": [
+        {
+          "id": "S01",
+          "actualModel": "qwen-audio-3.0-tts-plus",
+          "actualVoice": "qwen-audio-3.0-tts-plus-longlangmoyue",
+          "spokenTextSha256": "d0188a1e2ae18afe95894d95c2e46b6edf415189ae47a8cd33b7c2cab008759c",
+          "reportedTextSha256": "d0188a1e2ae18afe95894d95c2e46b6edf415189ae47a8cd33b7c2cab008759c",
+          "providerWav": {
+            "path": "public/audio/history/raw/5eaa499487955f54ae67f4cb17fb7428129479252581b81a71609264803c6034.wav",
+            "sha256": "d6a846a3c78a1cfe48847131558014f2825be6757cbbdf69a1bb78aec6d493dc",
+            "bytes": 330516,
+            "stableDuringHash": true,
+            "formatCode": 1,
+            "channels": 1,
+            "sampleRateHz": 24000,
+            "byteRate": 48000,
+            "blockAlign": 2,
+            "bitsPerSample": 16,
+            "sampleFramesPerChannel": 165236,
+            "physicalBytes": 330516,
+            "riffDeclaredBytes": 2147483591,
+            "dataDeclaredBytes": 2147483547,
+            "dataPhysicalBytes": 330472,
+            "dataOffset": 44,
+            "payloadSha256": "a41dcdb2ee5f8b1dc1cb8f9ff2419d647b92aa53a3e4a2d2e4212ca657e73443",
+            "headerMismatch": true,
+            "streamingHeaderRepairForm": true
+          },
+          "canonicalWav": {
+            "path": "public/audio/voice/S01-5eaa49948795.wav",
+            "sha256": "5273ebc1b3275d13957726b6747690f4e450338e2d15d43a99e55f96eb1699ca",
+            "bytes": 661022,
+            "stableDuringHash": true,
+            "formatCode": 1,
+            "channels": 1,
+            "sampleRateHz": 48000,
+            "byteRate": 96000,
+            "blockAlign": 2,
+            "bitsPerSample": 16,
+            "sampleFramesPerChannel": 330472,
+            "physicalBytes": 661022,
+            "riffDeclaredBytes": 661022,
+            "dataDeclaredBytes": 660944,
+            "dataPhysicalBytes": 660944,
+            "dataOffset": 78,
+            "payloadSha256": "1da9c61ab377f6bfaf1508d21238410933f893d9a1d54317365da18dfc916c2e",
+            "headerMismatch": false,
+            "streamingHeaderRepairForm": false
+          },
+          "reportedRawHeaderRepair": true,
+          "rawToCanonicalDurationSecondsDelta": 0.0,
+          "durationPreservedWithoutPostAcceleration": true,
+          "synthesisRate": 1.65,
+          "authorizedPlanRate": 1.65,
+          "placementStartFrame": 60,
+          "sourceEndFrame": 540,
+          "fullCanonicalSamplesFitWithoutTrimOrSpeedChange": true,
+          "providerIdentitySidecarMatches": true
+        },
+        {
+          "id": "S02",
+          "actualModel": "qwen-audio-3.0-tts-plus",
+          "actualVoice": "qwen-audio-3.0-tts-plus-longlangmoyue",
+          "spokenTextSha256": "33baa188cfcd9ed30b7fa13bf34cbb557712a4d4180f94c9cc77caf0a1f40f78",
+          "reportedTextSha256": "33baa188cfcd9ed30b7fa13bf34cbb557712a4d4180f94c9cc77caf0a1f40f78",
+          "providerWav": {
+            "path": "public/audio/history/raw/7a8a4be58e68c2d221367ad6c1da702d92652c6456c242d5882dcc94d245687a.wav",
+            "sha256": "e1d7e3b01de7114ad179ffc3cbeb06b96e9232b8a058a807d70daecfaaa3e9a1",
+            "bytes": 416626,
+            "stableDuringHash": true,
+            "formatCode": 1,
+            "channels": 1,
+            "sampleRateHz": 24000,
+            "byteRate": 48000,
+            "blockAlign": 2,
+            "bitsPerSample": 16,
+            "sampleFramesPerChannel": 208291,
+            "physicalBytes": 416626,
+            "riffDeclaredBytes": 2147483591,
+            "dataDeclaredBytes": 2147483547,
+            "dataPhysicalBytes": 416582,
+            "dataOffset": 44,
+            "payloadSha256": "b93a0fd354deb5e2e90f52ba57cf8f2e350cac501dd8299aba68f0765d5e981e",
+            "headerMismatch": true,
+            "streamingHeaderRepairForm": true
+          },
+          "canonicalWav": {
+            "path": "public/audio/voice/S02-7a8a4be58e68.wav",
+            "sha256": "51df27e178afed71007c87d8a56722dea9d95f26cdd2dc02221a469b725f3a31",
+            "bytes": 833242,
+            "stableDuringHash": true,
+            "formatCode": 1,
+            "channels": 1,
+            "sampleRateHz": 48000,
+            "byteRate": 96000,
+            "blockAlign": 2,
+            "bitsPerSample": 16,
+            "sampleFramesPerChannel": 416582,
+            "physicalBytes": 833242,
+            "riffDeclaredBytes": 833242,
+            "dataDeclaredBytes": 833164,
+            "dataPhysicalBytes": 833164,
+            "dataOffset": 78,
+            "payloadSha256": "a3445520b3d4ef08beaaf7e0c791c06ce1948ce904a37df1bfbfb5dc587818c5",
+            "headerMismatch": false,
+            "streamingHeaderRepairForm": false
+          },
+          "reportedRawHeaderRepair": true,
+          "rawToCanonicalDurationSecondsDelta": 0.0,
+          "durationPreservedWithoutPostAcceleration": true,
+          "synthesisRate": 1.65,
+          "authorizedPlanRate": 1.65,
+          "placementStartFrame": 600,
+          "sourceEndFrame": 1260,
+          "fullCanonicalSamplesFitWithoutTrimOrSpeedChange": true,
+          "providerIdentitySidecarMatches": true
+        },
+        {
+          "id": "S03",
+          "actualModel": "qwen-audio-3.0-tts-plus",
+          "actualVoice": "qwen-audio-3.0-tts-plus-longlangmoyue",
+          "spokenTextSha256": "4f3690ede73802468ee26a073d3545e06bae97cf887c73e22c50bbb2be0422aa",
+          "reportedTextSha256": "4f3690ede73802468ee26a073d3545e06bae97cf887c73e22c50bbb2be0422aa",
+          "providerWav": {
+            "path": "public/audio/history/raw/efee729bb755fc8e037a1411e71cbf76d8effa527a87e8fe5bffb23162413c21.wav",
+            "sha256": "26a202cbc94bacfe843d53c6c6edc08c4df66d3689c105978a17273c0d380ee8",
+            "bytes": 370080,
+            "stableDuringHash": true,
+            "formatCode": 1,
+            "channels": 1,
+            "sampleRateHz": 24000,
+            "byteRate": 48000,
+            "blockAlign": 2,
+            "bitsPerSample": 16,
+            "sampleFramesPerChannel": 185018,
+            "physicalBytes": 370080,
+            "riffDeclaredBytes": 2147483591,
+            "dataDeclaredBytes": 2147483547,
+            "dataPhysicalBytes": 370036,
+            "dataOffset": 44,
+            "payloadSha256": "69dcfa6b47fd5e2dcd6945f259925e21474d7de343c319010450773388aa43d4",
+            "headerMismatch": true,
+            "streamingHeaderRepairForm": true
+          },
+          "canonicalWav": {
+            "path": "public/audio/voice/S03-efee729bb755.wav",
+            "sha256": "95213492689f79993cd6b1c145eb3ac2a79f1241e8a1616aaec37e68dcee1f1d",
+            "bytes": 740150,
+            "stableDuringHash": true,
+            "formatCode": 1,
+            "channels": 1,
+            "sampleRateHz": 48000,
+            "byteRate": 96000,
+            "blockAlign": 2,
+            "bitsPerSample": 16,
+            "sampleFramesPerChannel": 370036,
+            "physicalBytes": 740150,
+            "riffDeclaredBytes": 740150,
+            "dataDeclaredBytes": 740072,
+            "dataPhysicalBytes": 740072,
+            "dataOffset": 78,
+            "payloadSha256": "61f700e8dfeca5707792a0c8454c46406b35970a89c26f140e23d75c03c36992",
+            "headerMismatch": false,
+            "streamingHeaderRepairForm": false
+          },
+          "reportedRawHeaderRepair": true,
+          "rawToCanonicalDurationSecondsDelta": 0.0,
+          "durationPreservedWithoutPostAcceleration": true,
+          "synthesisRate": 1.65,
+          "authorizedPlanRate": 1.65,
+          "placementStartFrame": 1320,
+          "sourceEndFrame": 1980,
+          "fullCanonicalSamplesFitWithoutTrimOrSpeedChange": true,
+          "providerIdentitySidecarMatches": true
+        },
+        {
+          "id": "S04",
+          "actualModel": "qwen-audio-3.0-tts-plus",
+          "actualVoice": "qwen-audio-3.0-tts-plus-longlangmoyue",
+          "spokenTextSha256": "d678760ae722f446b0bea60ae1cdc1adfed81b6089d9f39a2a301a84b448b2d6",
+          "reportedTextSha256": "d678760ae722f446b0bea60ae1cdc1adfed81b6089d9f39a2a301a84b448b2d6",
+          "providerWav": {
+            "path": "public/audio/history/raw/c81cbd44272872cf2d78e5305ccce97e8a660784acd60aa1e5cb146dae39d57b.wav",
+            "sha256": "0bd06fc895330c5bc6721a7993882904a4db8dc76624505c612a1df3119d8cfd",
+            "bytes": 367754,
+            "stableDuringHash": true,
+            "formatCode": 1,
+            "channels": 1,
+            "sampleRateHz": 24000,
+            "byteRate": 48000,
+            "blockAlign": 2,
+            "bitsPerSample": 16,
+            "sampleFramesPerChannel": 183855,
+            "physicalBytes": 367754,
+            "riffDeclaredBytes": 2147483591,
+            "dataDeclaredBytes": 2147483547,
+            "dataPhysicalBytes": 367710,
+            "dataOffset": 44,
+            "payloadSha256": "2a90d22112c2b03d67d0040400f49ed0b5b5bcaed2017aac50079f2546e70307",
+            "headerMismatch": true,
+            "streamingHeaderRepairForm": true
+          },
+          "canonicalWav": {
+            "path": "public/audio/voice/S04-c81cbd442728.wav",
+            "sha256": "2abff466d5424b49ba6c75d6d7ef8b4a7377e90131b3a220c4ecc3c6955711b3",
+            "bytes": 735498,
+            "stableDuringHash": true,
+            "formatCode": 1,
+            "channels": 1,
+            "sampleRateHz": 48000,
+            "byteRate": 96000,
+            "blockAlign": 2,
+            "bitsPerSample": 16,
+            "sampleFramesPerChannel": 367710,
+            "physicalBytes": 735498,
+            "riffDeclaredBytes": 735498,
+            "dataDeclaredBytes": 735420,
+            "dataPhysicalBytes": 735420,
+            "dataOffset": 78,
+            "payloadSha256": "20e068694f6ab6952324401f4338902054438254a71098c7a20c785c12adeb9e",
+            "headerMismatch": false,
+            "streamingHeaderRepairForm": false
+          },
+          "reportedRawHeaderRepair": true,
+          "rawToCanonicalDurationSecondsDelta": 0.0,
+          "durationPreservedWithoutPostAcceleration": true,
+          "synthesisRate": 1.65,
+          "authorizedPlanRate": 1.65,
+          "placementStartFrame": 2040,
+          "sourceEndFrame": 2760,
+          "fullCanonicalSamplesFitWithoutTrimOrSpeedChange": true,
+          "providerIdentitySidecarMatches": true
+        },
+        {
+          "id": "S05",
+          "actualModel": "qwen-audio-3.0-tts-plus",
+          "actualVoice": "qwen-audio-3.0-tts-plus-longlangmoyue",
+          "spokenTextSha256": "bde2c6dd9babcfc1db05b4aeadbc0377fe5f22015a87545c692db5d658efe104",
+          "reportedTextSha256": "bde2c6dd9babcfc1db05b4aeadbc0377fe5f22015a87545c692db5d658efe104",
+          "providerWav": {
+            "path": "public/audio/history/raw/ec7186a1b5f9047a576a1479854e8b0faa3de9a16114514460de211bebbdf788.wav",
+            "sha256": "e0388aa35ede55a7fad5253f52efa705e1fb6a631aa722ae76be1bb9950693be",
+            "bytes": 363098,
+            "stableDuringHash": true,
+            "formatCode": 1,
+            "channels": 1,
+            "sampleRateHz": 24000,
+            "byteRate": 48000,
+            "blockAlign": 2,
+            "bitsPerSample": 16,
+            "sampleFramesPerChannel": 181527,
+            "physicalBytes": 363098,
+            "riffDeclaredBytes": 2147483591,
+            "dataDeclaredBytes": 2147483547,
+            "dataPhysicalBytes": 363054,
+            "dataOffset": 44,
+            "payloadSha256": "7e28f218e45612e07fd3dada97d95d531e9e6cdc00a73f67e4456117d157664c",
+            "headerMismatch": true,
+            "streamingHeaderRepairForm": true
+          },
+          "canonicalWav": {
+            "path": "public/audio/voice/S05-ec7186a1b5f9.wav",
+            "sha256": "d8cbd8c03fe3b205df721b52e5415880fa37c50e7c6b722f96368d510892df1c",
+            "bytes": 726186,
+            "stableDuringHash": true,
+            "formatCode": 1,
+            "channels": 1,
+            "sampleRateHz": 48000,
+            "byteRate": 96000,
+            "blockAlign": 2,
+            "bitsPerSample": 16,
+            "sampleFramesPerChannel": 363054,
+            "physicalBytes": 726186,
+            "riffDeclaredBytes": 726186,
+            "dataDeclaredBytes": 726108,
+            "dataPhysicalBytes": 726108,
+            "dataOffset": 78,
+            "payloadSha256": "0dcb8c8aff42a710a6753f6239d3cecb7819ad73a5647f1adaaaabb8e29ed72e",
+            "headerMismatch": false,
+            "streamingHeaderRepairForm": false
+          },
+          "reportedRawHeaderRepair": true,
+          "rawToCanonicalDurationSecondsDelta": 0.0,
+          "durationPreservedWithoutPostAcceleration": true,
+          "synthesisRate": 1.65,
+          "authorizedPlanRate": 1.65,
+          "placementStartFrame": 2820,
+          "sourceEndFrame": 3540,
+          "fullCanonicalSamplesFitWithoutTrimOrSpeedChange": true,
+          "providerIdentitySidecarMatches": true
+        },
+        {
+          "id": "S06",
+          "actualModel": "qwen-audio-3.0-tts-plus",
+          "actualVoice": "qwen-audio-3.0-tts-plus-longlangmoyue",
+          "spokenTextSha256": "70a7c60a804ea800a89a66992d7b8b9a9a11acf81d5817ac6ee704f9f43dfd09",
+          "reportedTextSha256": "70a7c60a804ea800a89a66992d7b8b9a9a11acf81d5817ac6ee704f9f43dfd09",
+          "providerWav": {
+            "path": "public/audio/history/raw/7998dc3ca2868cb28bbeb363cd332599cddd5d0c6c310fca24e4e9c5a902ff2c.wav",
+            "sha256": "458e036b7f972851ab0b4e07c9bb4ad8dc0cd723e134f604f07fb405c9b6bb5f",
+            "bytes": 300262,
+            "stableDuringHash": true,
+            "formatCode": 1,
+            "channels": 1,
+            "sampleRateHz": 24000,
+            "byteRate": 48000,
+            "blockAlign": 2,
+            "bitsPerSample": 16,
+            "sampleFramesPerChannel": 150109,
+            "physicalBytes": 300262,
+            "riffDeclaredBytes": 2147483591,
+            "dataDeclaredBytes": 2147483547,
+            "dataPhysicalBytes": 300218,
+            "dataOffset": 44,
+            "payloadSha256": "dcdcd21a0acbafc4810fa76ee2a6dcf703370c161bc0db7722c34839ef352d30",
+            "headerMismatch": true,
+            "streamingHeaderRepairForm": true
+          },
+          "canonicalWav": {
+            "path": "public/audio/voice/S06-7998dc3ca286.wav",
+            "sha256": "e52b39533e45d9d75239f59be3f8eee200227bf511e9a65346c079106fe60d9a",
+            "bytes": 600514,
+            "stableDuringHash": true,
+            "formatCode": 1,
+            "channels": 1,
+            "sampleRateHz": 48000,
+            "byteRate": 96000,
+            "blockAlign": 2,
+            "bitsPerSample": 16,
+            "sampleFramesPerChannel": 300218,
+            "physicalBytes": 600514,
+            "riffDeclaredBytes": 600514,
+            "dataDeclaredBytes": 600436,
+            "dataPhysicalBytes": 600436,
+            "dataOffset": 78,
+            "payloadSha256": "548b4b38bfc93b5d399679ada1016e96be3c13ffb70ffeeb433f30d985752e5d",
+            "headerMismatch": false,
+            "streamingHeaderRepairForm": false
+          },
+          "reportedRawHeaderRepair": true,
+          "rawToCanonicalDurationSecondsDelta": 0.0,
+          "durationPreservedWithoutPostAcceleration": true,
+          "synthesisRate": 1.65,
+          "authorizedPlanRate": 1.65,
+          "placementStartFrame": 3600,
+          "sourceEndFrame": 4320,
+          "fullCanonicalSamplesFitWithoutTrimOrSpeedChange": true,
+          "providerIdentitySidecarMatches": true
+        },
+        {
+          "id": "S07",
+          "actualModel": "qwen-audio-3.0-tts-plus",
+          "actualVoice": "qwen-audio-3.0-tts-plus-longlangmoyue",
+          "spokenTextSha256": "6d70113b3702b459e3d7cc97ed313fff8bca6fce419bad28701f234f9d51149e",
+          "reportedTextSha256": "6d70113b3702b459e3d7cc97ed313fff8bca6fce419bad28701f234f9d51149e",
+          "providerWav": {
+            "path": "public/audio/history/raw/f094be66cf759397a4650a089e3d2b6d891cc95a9875d44deee500aa6bcc6934.wav",
+            "sha256": "16d1103d72ce69d40b93f204828dd182e184d957782073589ac24ecd26870941",
+            "bytes": 398008,
+            "stableDuringHash": true,
+            "formatCode": 1,
+            "channels": 1,
+            "sampleRateHz": 24000,
+            "byteRate": 48000,
+            "blockAlign": 2,
+            "bitsPerSample": 16,
+            "sampleFramesPerChannel": 198982,
+            "physicalBytes": 398008,
+            "riffDeclaredBytes": 2147483591,
+            "dataDeclaredBytes": 2147483547,
+            "dataPhysicalBytes": 397964,
+            "dataOffset": 44,
+            "payloadSha256": "1040eb81a6a7f9a161f7bc1850660317665e2f5107079343d3e44c5e3fb4a056",
+            "headerMismatch": true,
+            "streamingHeaderRepairForm": true
+          },
+          "canonicalWav": {
+            "path": "public/audio/voice/S07-f094be66cf75.wav",
+            "sha256": "1fc8fef1cef5bd40a2a1980222caa635f48a12ba4500314f4e6200bf230a9329",
+            "bytes": 796006,
+            "stableDuringHash": true,
+            "formatCode": 1,
+            "channels": 1,
+            "sampleRateHz": 48000,
+            "byteRate": 96000,
+            "blockAlign": 2,
+            "bitsPerSample": 16,
+            "sampleFramesPerChannel": 397964,
+            "physicalBytes": 796006,
+            "riffDeclaredBytes": 796006,
+            "dataDeclaredBytes": 795928,
+            "dataPhysicalBytes": 795928,
+            "dataOffset": 78,
+            "payloadSha256": "d45a2903f2b191a0ed3e04d505f95e7303a66efe0afb0976519a61289acb5299",
+            "headerMismatch": false,
+            "streamingHeaderRepairForm": false
+          },
+          "reportedRawHeaderRepair": true,
+          "rawToCanonicalDurationSecondsDelta": 0.0,
+          "durationPreservedWithoutPostAcceleration": true,
+          "synthesisRate": 1.65,
+          "authorizedPlanRate": 1.65,
+          "placementStartFrame": 4300,
+          "sourceEndFrame": 4800,
+          "fullCanonicalSamplesFitWithoutTrimOrSpeedChange": true,
+          "providerIdentitySidecarMatches": true
+        },
+        {
+          "id": "S08",
+          "actualModel": "qwen-audio-3.0-tts-plus",
+          "actualVoice": "qwen-audio-3.0-tts-plus-longlangmoyue",
+          "spokenTextSha256": "e9e817f5c0385c6272cbc19b4d31e6a14feedf893bd31ab6dc7092a501ec33e9",
+          "reportedTextSha256": "e9e817f5c0385c6272cbc19b4d31e6a14feedf893bd31ab6dc7092a501ec33e9",
+          "providerWav": {
+            "path": "public/audio/history/raw/5d35d5ae96d9781aaa07c85a5a8ce5283861568e94125d83d46f2d28c5e343a3.wav",
+            "sha256": "c9555eed38430429de37ea297aa5ea30f197fd2a51a84c9c4406e0de0a7b6abb",
+            "bytes": 370080,
+            "stableDuringHash": true,
+            "formatCode": 1,
+            "channels": 1,
+            "sampleRateHz": 24000,
+            "byteRate": 48000,
+            "blockAlign": 2,
+            "bitsPerSample": 16,
+            "sampleFramesPerChannel": 185018,
+            "physicalBytes": 370080,
+            "riffDeclaredBytes": 2147483591,
+            "dataDeclaredBytes": 2147483547,
+            "dataPhysicalBytes": 370036,
+            "dataOffset": 44,
+            "payloadSha256": "946aecfe61437ce67120d10952e060cb1de5652f1eb48267112cfe17004bffb7",
+            "headerMismatch": true,
+            "streamingHeaderRepairForm": true
+          },
+          "canonicalWav": {
+            "path": "public/audio/voice/S08-5d35d5ae96d9.wav",
+            "sha256": "5fabecf3ab0670a28b0e746edbdc582df8dec8ab171c5cf537f44501c5eefff4",
+            "bytes": 740150,
+            "stableDuringHash": true,
+            "formatCode": 1,
+            "channels": 1,
+            "sampleRateHz": 48000,
+            "byteRate": 96000,
+            "blockAlign": 2,
+            "bitsPerSample": 16,
+            "sampleFramesPerChannel": 370036,
+            "physicalBytes": 740150,
+            "riffDeclaredBytes": 740150,
+            "dataDeclaredBytes": 740072,
+            "dataPhysicalBytes": 740072,
+            "dataOffset": 78,
+            "payloadSha256": "e2e77375428bd80e4a06ee3752c24bb9ef9f9d04f4e9fb21ce581435a7abe37d",
+            "headerMismatch": false,
+            "streamingHeaderRepairForm": false
+          },
+          "reportedRawHeaderRepair": true,
+          "rawToCanonicalDurationSecondsDelta": 0.0,
+          "durationPreservedWithoutPostAcceleration": true,
+          "synthesisRate": 1.65,
+          "authorizedPlanRate": 1.65,
+          "placementStartFrame": 4890,
+          "sourceEndFrame": 5400,
+          "fullCanonicalSamplesFitWithoutTrimOrSpeedChange": true,
+          "providerIdentitySidecarMatches": true
+        }
+      ],
+      "issues": [],
+      "captionAlignmentClaim": "estimated phrase weights within measured PCM activity; not exact ASR or word-level alignment"
+    },
+    "master": {
+      "path": "project/public/audio/master.wav",
+      "sha256": "6f80e605703cd9994b6ee577c3079896e86262e737f87d529724a1d12973b6e9",
+      "bytes": 17280044,
+      "stableDuringHash": true,
+      "format": {
+        "sampleRateHz": 48000,
+        "channels": 2,
+        "sampleWidthBytes": 2,
+        "sampleFramesPerChannel": 4320000,
+        "compressionType": "NONE"
+      },
+      "exact30FrameSilence": {
+        "framesHalfOpen": [
+          4860,
+          4890
+        ],
+        "samplesPerChannelHalfOpen": [
+          3888000,
+          3912000
+        ],
+        "allStereoSamplesZero": true
+      },
+      "stableDuringReadAndHash": true
+    },
+    "fontSources": {
+      "usedFontFiles": [
+        "NotoSerifSC.ttf",
+        "RobotoMono.ttf"
+      ],
+      "declaredFiles": [
+        {
+          "path": "public/fonts/NotoSerifSC.ttf",
+          "sha256": "050080d9255a86808f2945bffac582b31ef32bc36411ce29563b4961670c66f9",
+          "bytes": 25125512,
+          "stableDuringHash": true,
+          "declaredSource": "https://raw.githubusercontent.com/google/fonts/main/ofl/notoserifsc/NotoSerifSC%5Bwght%5D.ttf",
+          "declaredLicense": "SIL Open Font License 1.1",
+          "matchesDeclaredSha256AndBytes": true
+        },
+        {
+          "path": "public/fonts/NotoSerifSC-OFL.txt",
+          "sha256": "5e0da210fb04058a8c0087985d2d456b931c2579811a49655721d3cf0c36b6d6",
+          "bytes": 4350,
+          "stableDuringHash": true,
+          "declaredSource": "https://raw.githubusercontent.com/google/fonts/main/ofl/notoserifsc/OFL.txt",
+          "declaredLicense": "SIL Open Font License 1.1",
+          "matchesDeclaredSha256AndBytes": true
+        },
+        {
+          "path": "public/fonts/RobotoMono.ttf",
+          "sha256": "66a80e79d17e4c7cabd162e2916578a4cc08fd19eef6e2a643305eae9c567b2b",
+          "bytes": 183700,
+          "stableDuringHash": true,
+          "declaredSource": "https://raw.githubusercontent.com/google/fonts/main/ofl/robotomono/RobotoMono%5Bwght%5D.ttf",
+          "declaredLicense": "SIL Open Font License 1.1",
+          "matchesDeclaredSha256AndBytes": true
+        },
+        {
+          "path": "public/fonts/RobotoMono-OFL.txt",
+          "sha256": "50ab8dd54680d3473f649c9db86fece88434d097c7834475c1c72d2f8c429215",
+          "bytes": 4395,
+          "stableDuringHash": true,
+          "declaredSource": "https://raw.githubusercontent.com/google/fonts/main/ofl/robotomono/OFL.txt",
+          "declaredLicense": "SIL Open Font License 1.1",
+          "matchesDeclaredSha256AndBytes": true
+        }
+      ],
+      "issues": []
+    },
+    "sourceAndFrameSmoke": {
+      "sourceFileCount": 4,
+      "sourceSha256": {
+        "project/src/Film.tsx": {
+          "sha256": "922864d5804ab475b126862b81f1c2c37831c1e5c951891f7329d82b63398f26",
+          "bytes": 7573,
+          "stableDuringHash": true
+        },
+        "project/src/Root.tsx": {
+          "sha256": "6afabde516cfa9c768e0aa8c6ab136d64a44a7c084c58d83a0b4f69025a9880a",
+          "bytes": 299,
+          "stableDuringHash": true
+        },
+        "project/src/Scene.tsx": {
+          "sha256": "5e75515f487f96ccb772a2da19761d663fa236c974f88aa2d0b7a7b7d45902a1",
+          "bytes": 22333,
+          "stableDuringHash": true
+        },
+        "project/src/index.ts": {
+          "sha256": "2e0e358282a1b998a65387c653b97c2bb2eb7aae94cf200fc0b8d919f7be73a6",
+          "bytes": 88,
+          "stableDuringHash": true
+        }
+      },
+      "forbiddenHits": [],
+      "frameSmokeReportSha256": "d34ee3c85578e56d13b3d8d8b213bfd1872c96f48438c94e6c5796c704511b3d",
+      "frameSmokeSceneSha256": "5e75515f487f96ccb772a2da19761d663fa236c974f88aa2d0b7a7b7d45902a1",
+      "currentSceneSha256": "5e75515f487f96ccb772a2da19761d663fa236c974f88aa2d0b7a7b7d45902a1",
+      "frameSmokeStatus": "passed",
+      "framesExpected": 5400,
+      "framesExecuted": 5400,
+      "issues": []
+    },
+    "movie": {
+      "path": "小红书/si-ep18-sovereign-subcurrent-v03-xiaohongshu-90s-portrait.mp4",
+      "sha256": "920e6578a8c6453b99133f40d3eff73d332f47b532ca179b578d82cb5d92938b",
+      "bytes": 107808174,
+      "stableDuringHash": true,
+      "deliveryManifestSha256": "920e6578a8c6453b99133f40d3eff73d332f47b532ca179b578d82cb5d92938b",
+      "matchesDeliveryManifestSha256": true
+    }
+  },
+  "captionAlignment": "Estimated phrase placement inside measured PCM activity; not exact ASR or word-level alignment.",
+  "humanAcceptance": {
+    "representativeFrames": "pending",
+    "continuousHumanReview": "pending",
+    "targetDevicePlayback": "pending",
+    "deliveryManifestChangedByVerifier": false
+  }
+}

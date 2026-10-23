@@ -1,0 +1,72 @@
+{
+  "status": "MEASUREMENTS_PASS",
+  "previews": [
+    {
+      "path": "review/motion-60-239.mp4",
+      "absoluteFramesInclusive": [
+        60,
+        239
+      ],
+      "frames": 180,
+      "nativeSize": [
+        2160,
+        3840
+      ],
+      "aacPcmCorrelationAtExactGlobalOffset": 0.9999744864305025,
+      "sha256": "35f705c890e54439e9a9486acd0d53d35041a46a75e997ba093fefbf3a3bfc65",
+      "globalReviewFrames": [
+        60,
+        120,
+        180,
+        239
+      ]
+    },
+    {
+      "path": "review/motion-3600-3959.mp4",
+      "absoluteFramesInclusive": [
+        3600,
+        3959
+      ],
+      "frames": 360,
+      "nativeSize": [
+        2160,
+        3840
+      ],
+      "aacPcmCorrelationAtExactGlobalOffset": 0.9999054646952646,
+      "sha256": "53dabbf5c807928b52d038e5038828e1c2f8a8610fb7bef3738c0d660da0a667",
+      "globalReviewFrames": [
+        3600,
+        3720,
+        3840,
+        3959
+      ]
+    },
+    {
+      "path": "review/motion-4800-4979.mp4",
+      "absoluteFramesInclusive": [
+        4800,
+        4979
+      ],
+      "frames": 180,
+      "nativeSize": [
+        2160,
+        3840
+      ],
+      "aacPcmCorrelationAtExactGlobalOffset": 0.9999791444570233,
+      "sha256": "475eefa672930d9ad7ed7a383cc4d6941dd50444ad9391ba92ab03cfe0304077",
+      "globalReviewFrames": [
+        4859,
+        4860,
+        4889,
+        4890,
+        4897,
+        4904,
+        4905,
+        4979
+      ]
+    }
+  ],
+  "humanListening": "PENDING",
+  "modelFrameReview": "see acceptance.md",
+  "scope": "Exact native spec and audio-clock check; representative actual encoded frames collected. No pronunciation or human experience claim."
+}

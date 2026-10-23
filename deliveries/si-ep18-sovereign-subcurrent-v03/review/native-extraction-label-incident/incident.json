@@ -1,0 +1,6 @@
+{
+  "status": "REJECTED_NATIVE_LABELS",
+  "reason": "Unsorted NATIVE_FRAMES tuple was zipped to FFmpeg chronological output, mislabeling4nativeframes. Phone tuples were sorted and phone contacts correct.",
+  "fix": "Sort native frame IDs and assert sorted/unique before extracting; rerun current collector. Movie was unchanged. No archive uploaded.",
+  "movieSha256": "920e6578a8c6453b99133f40d3eff73d332f47b532ca179b578d82cb5d92938b"
+}

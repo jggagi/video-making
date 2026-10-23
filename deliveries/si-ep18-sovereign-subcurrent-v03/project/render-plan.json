@@ -1,0 +1,39 @@
+{
+  "nativeSize": [
+    2160,
+    3840
+  ],
+  "fps": 60,
+  "durationFrames": 5400,
+  "intermediate": "png",
+  "concurrency": 1,
+  "codec": "H.264 yuv420p bt709 CRF19 fast",
+  "previewRangesHalfOpen": [
+    [
+      60,
+      240
+    ],
+    [
+      3600,
+      3960
+    ],
+    [
+      4800,
+      4980
+    ]
+  ],
+  "expectedEvents": {
+    "surge": 3660,
+    "confirm": 3900,
+    "silence": [
+      4860,
+      4890
+    ],
+    "glint": [
+      4890,
+      4905
+    ]
+  },
+  "reviewOrder": "Typecheck/content/PCM fit, native stills, audible native previews, full capture, mux, final scans and encoded sampling",
+  "fullRenderConcurrencyLimit": 1
+}

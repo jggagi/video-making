@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "title": "心印潜流 · v03",
+  "slug": "si-ep18-sovereign-subcurrent-v03",
+  "platforms": [
+    "xiaohongshu"
+  ],
+  "duration_seconds": 90,
+  "fps": 60,
+  "total_frames": 5400,
+  "script": {
+    "path": "source/script.md",
+    "sha256": "21575f4aea7ba22074a0ce941400303ebf02839fcf045a27467893ac08774bea"
+  },
+  "audio": {
+    "mode": "narrated",
+    "master": "project/public/audio/master.wav"
+  },
+  "outputs": {
+    "xiaohongshu": {
+      "path": "小红书/si-ep18-sovereign-subcurrent-v03-xiaohongshu-90s-portrait.mp4",
+      "width": 2160,
+      "height": 3840
+    }
+  },
+  "qa": {
+    "automated": "pass",
+    "representative_frames": "model_review_pass",
+    "continuous_human_review": "pending",
+    "target_device_playback": "pending"
+  },
+  "visual_qc": {
+    "required": true,
+    "reports": {
+      "xiaohongshu": "review/visual-qc-xiaohongshu/report.json"
+    }
+  },
+  "production_notes": {
+    "original_script_preserved": true,
+    "revision": "New attachment suspense storyline; v01/v02 preserved. Full narration and display text retained.",
+    "narration": "Direct human authorization in this chat for eight prepared Bailian Qwen Plus/Longlangmoyue cues; source rate candidates retained, no waveform speed changes or word trims.",
+    "caption_alignment": "Estimated phrases within measured PCM activity, no ASR.",
+    "account_publication": "NOT_SUBMITTED; render/QA/archive only",
+    "timing_adjustments": [
+      "S07 full PCM8.290917s: placement4300..4800 instead of original4380..4800; all speech intact, no waveform speed change.",
+      "S08 starts4890 to preserve81.0..81.5s absolute master silence."
+    ],
+    "selected_cover": "小红书/cover-A-headline.png",
+    "glint": "Source1nativepixel at4890..4904, actual encoded frame4897 retains a desaturated tiny point; too small to judge at360px. Requested CoverB4920 retained, supplemental4897 supplied."
+  },
+  "final_movie_sha256": "920e6578a8c6453b99133f40d3eff73d332f47b532ca179b578d82cb5d92938b"
+}

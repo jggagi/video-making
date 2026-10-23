@@ -36,3 +36,4 @@
 - [啃食尾巴的神](si-ep17-godel-ouroboros/README.md)：11 个视频/工程资产。
 - [心印潜流](si-ep18-sovereign-subcurrent/README.md)：6 个视频/工程资产。
 - [心印潜流 · v02](si-ep18-sovereign-subcurrent-v02/README.md)：3 个视频/工程资产。
+- [心印潜流 · v03](si-ep18-sovereign-subcurrent-v03/README.md)：4 个视频/工程资产。

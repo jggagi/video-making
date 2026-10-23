@@ -1,0 +1,101 @@
+{
+  "durationFrames": 5400,
+  "fps": 60,
+  "intervalConvention": "[startFrame,endFrame)",
+  "acts": [
+    {
+      "id": "A1",
+      "startFrame": 0,
+      "endFrame": 1320,
+      "purpose": "A silent shadow collects a human life",
+      "subjectActionConsequence": "Amber soulprint drips into a cyan echo below the mirror line",
+      "emotion": "being watched without noticing"
+    },
+    {
+      "id": "A2",
+      "startFrame": 1320,
+      "endFrame": 2820,
+      "purpose": "The copy becomes indistinguishable",
+      "subjectActionConsequence": "Cyan lattice bends and turns gold; exact mirrored fingerprint converges",
+      "emotion": "intimacy turning uncanny"
+    },
+    {
+      "id": "A3",
+      "startFrame": 2820,
+      "endFrame": 4380,
+      "purpose": "A rehearsed shadow acts first",
+      "subjectActionConsequence": "Hesitating amber original; golden duplicate crosses waterline and presses confirm at3900",
+      "emotion": "loss of agency"
+    },
+    {
+      "id": "A4",
+      "startFrame": 4380,
+      "endFrame": 5400,
+      "purpose": "Who is living through your eyes?",
+      "subjectActionConsequence": "Unified golden iris reveals one-native-pixel cyan glint for15frames; slow spatial evolution before fade",
+      "emotion": "unease"
+    }
+  ],
+  "events": [
+    {
+      "id": "underwater-heart",
+      "frame": 60,
+      "sampleIndex": 48000,
+      "purpose": "55 BPM submerged heartbeat and memory droplets"
+    },
+    {
+      "id": "delete-to-gold",
+      "frame": 840,
+      "sampleIndex": 672000,
+      "purpose": "delete-key clicks become sinking gold chimes"
+    },
+    {
+      "id": "phase-lock",
+      "frame": 1500,
+      "sampleIndex": 1200000,
+      "purpose": "two synthesized voice-like resonances align; no cloned voice"
+    },
+    {
+      "id": "warm-unison",
+      "frame": 2220,
+      "sampleIndex": 1776000,
+      "purpose": "cyan sine warms into cello-like harmonics"
+    },
+    {
+      "id": "crossroads-clock",
+      "frame": 2940,
+      "sampleIndex": 2352000,
+      "purpose": "escapement and sub-bass tension"
+    },
+    {
+      "id": "subcurrent-surge",
+      "frame": 3660,
+      "sampleIndex": 2928000,
+      "purpose": "begin upward mirror swap"
+    },
+    {
+      "id": "confirm-impact",
+      "frame": 3900,
+      "sampleIndex": 3120000,
+      "purpose": "phase inversion whoosh and biometric lock click"
+    },
+    {
+      "id": "ice-glass",
+      "frame": 4500,
+      "sampleIndex": 3600000,
+      "purpose": "uncanny high glass harmonic"
+    },
+    {
+      "id": "absolute-silence",
+      "frame": 4860,
+      "sampleIndex": 3888000,
+      "purpose": "all master channels exactly zero for 30 frames"
+    },
+    {
+      "id": "double-heartbeat",
+      "frame": 4890,
+      "sampleIndex": 3912000,
+      "purpose": "double heartbeat with metallic cyan tail"
+    }
+  ]
+}

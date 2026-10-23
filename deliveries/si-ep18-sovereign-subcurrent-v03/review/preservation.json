@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "existingFormalMovies": [
+    {
+      "work": "si-ep18-sovereign-subcurrent",
+      "path": "deliveries/si-ep18-sovereign-subcurrent/小红书/si-ep18-sovereign-subcurrent-xiaohongshu-90s-portrait.mp4",
+      "bytes": 97349252,
+      "sha256": "bba5f68e90e721f0a71c20dd4949afeb3b34bf510dd9d4700e5e95fd5b86e1bd",
+      "matchesExistingCatalog": true
+    },
+    {
+      "work": "si-ep18-sovereign-subcurrent-v02",
+      "path": "deliveries/si-ep18-sovereign-subcurrent-v02/小红书/si-ep18-sovereign-subcurrent-v02-xiaohongshu-90s-portrait.mp4",
+      "bytes": 85171239,
+      "sha256": "9c5902c4241121140b5c1546ed1e7fdea924e822c3e4c29819edf9c517fc7657",
+      "matchesExistingCatalog": true
+    }
+  ],
+  "trackedSourceChangesInOldVersions": [],
+  "scope": "Both previous formal movie hashes match preexisting archive catalog; no tracked source differences in those two editions. Parallel unrelated working files were excluded."
+}

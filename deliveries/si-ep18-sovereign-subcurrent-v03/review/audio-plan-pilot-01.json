@@ -1,0 +1,9 @@
+{
+  "model": "qwen-audio-3.0-tts-plus",
+  "voice": "qwen-audio-3.0-tts-plus-longlangmoyue",
+  "sample_rate": 24000,
+  "format": "wav",
+  "rate": 1.15,
+  "instruction": "请用沉稳、有分量、情绪克制的中文男声，讲述科幻悬疑独白。语速中快，字音清楚，短停顿，叙述连贯；结尾带一点寒意和疑问。不要轻快、不要广告腔，不添加文本。",
+  "authorization": "Direct human confirmation in this chat on2026-10-23: 授权，按此方案生成八段配音. Scope: exact S01-S08 prepared narration text sent only to Aliyun Bailian qwen-audio-3.0-tts-plus / qwen-audio-3.0-tts-plus-longlangmoyue; routine TTS fees. No audio/video/private-file upload."
+}

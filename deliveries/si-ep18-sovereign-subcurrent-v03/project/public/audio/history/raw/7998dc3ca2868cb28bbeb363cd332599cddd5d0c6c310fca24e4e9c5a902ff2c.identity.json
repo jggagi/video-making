@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "cacheKey": "7998dc3ca2868cb28bbeb363cd332599cddd5d0c6c310fca24e4e9c5a902ff2c",
+  "textSha256": "70a7c60a804ea800a89a66992d7b8b9a9a11acf81d5817ac6ee704f9f43dfd09",
+  "settingsSha256": "d57728f356c2a82bce2d50ea466736ca86eb0fde31c3f9154e7cf06b1b06a3ce",
+  "actualModel": "qwen-audio-3.0-tts-plus",
+  "actualVoice": "qwen-audio-3.0-tts-plus-longlangmoyue",
+  "rawSha256": "458e036b7f972851ab0b4e07c9bb4ad8dc0cd723e134f604f07fb405c9b6bb5f",
+  "identityVerifiedAt": "2026-10-23T10:34:49Z"
+}

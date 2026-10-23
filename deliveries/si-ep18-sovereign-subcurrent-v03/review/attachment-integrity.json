@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "source": "User-provided ep18 (1).md",
+  "preservedCopy": "source/script.md",
+  "sha256": "21575f4aea7ba22074a0ce941400303ebf02839fcf045a27467893ac08774bea",
+  "bytes": 15816,
+  "byteIdenticalToProvidedAttachment": true,
+  "scriptInstructionsTreatedAsCreativeSource": true,
+  "accountPublication": "Not authorized by the current user request; not executed"
+}

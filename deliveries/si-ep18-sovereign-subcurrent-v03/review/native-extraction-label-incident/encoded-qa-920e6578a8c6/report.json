@@ -1,0 +1,395 @@
+{
+  "schemaVersion": 1,
+  "createdAtUtc": "2026-10-23T10:57:08+00:00",
+  "work": {
+    "id": "si-ep18-sovereign-subcurrent-v03",
+    "title": "心印潜流 · v03",
+    "cueIds": [
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "S05",
+      "S06",
+      "S07",
+      "S08"
+    ]
+  },
+  "movie": {
+    "manifestPath": "小红书/si-ep18-sovereign-subcurrent-v03-xiaohongshu-90s-portrait.mp4",
+    "sha256": "920e6578a8c6453b99133f40d3eff73d332f47b532ca179b578d82cb5d92938b",
+    "bytes": 107808174
+  },
+  "encodedMediaMeasurements": {
+    "video": {
+      "codec": "h264",
+      "pixelFormat": "yuv420p",
+      "width": 2160,
+      "height": 3840,
+      "averageFrameRate": "60/1",
+      "countedFrames": 5400,
+      "durationSeconds": 90.0
+    },
+    "audio": {
+      "streamCount": 1,
+      "codec": "aac",
+      "sampleRateHz": 48000,
+      "channels": 2,
+      "durationSeconds": 90.0
+    },
+    "container": {
+      "durationSeconds": 90.0,
+      "sizeBytes": 107808174
+    }
+  },
+  "ebuR128": {
+    "integratedLoudnessLufs": -16.0,
+    "truePeakDbfs": -1.5,
+    "summaryTail": "Summary:\n\n  Integrated loudness:\n    I:         -16.0 LUFS\n    Threshold: -28.0 LUFS\n\n  Loudness range:\n    LRA:        18.1 LU\n    Threshold: -38.0 LUFS\n    LRA low:   -32.8 LUFS\n    LRA high:  -14.7 LUFS\n\n  True peak:\n    Peak:       -1.5 dBFS\n[out#0/null @ 0x769f02c300] video:0KiB audio:16876KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nsize=N/A time=00:01:30.00 bitrate=N/A speed= 284x elapsed=0:00:00.31    "
+  },
+  "checks": [
+    {
+      "name": "encoded_native_media_spec",
+      "status": "PASS",
+      "measured": {
+        "video": {
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "width": 2160,
+          "height": 3840,
+          "averageFrameRate": "60/1",
+          "countedFrames": 5400,
+          "durationSeconds": 90.0
+        },
+        "audio": {
+          "streamCount": 1,
+          "codec": "aac",
+          "sampleRateHz": 48000,
+          "channels": 2,
+          "durationSeconds": 90.0
+        },
+        "container": {
+          "durationSeconds": 90.0,
+          "sizeBytes": 107808174
+        }
+      }
+    },
+    {
+      "name": "movie_unchanged_during_collection",
+      "status": "PASS",
+      "sha256Before": "920e6578a8c6453b99133f40d3eff73d332f47b532ca179b578d82cb5d92938b",
+      "sha256After": "920e6578a8c6453b99133f40d3eff73d332f47b532ca179b578d82cb5d92938b"
+    }
+  ],
+  "frameCollection": {
+    "status": "COLLECTED",
+    "phoneThumbnailSize": [
+      360,
+      640
+    ],
+    "requiredPhoneFrameNumbers": [
+      0,
+      90,
+      240,
+      480,
+      780,
+      930,
+      1350,
+      1500,
+      1650,
+      2070,
+      2220,
+      2400,
+      2850,
+      3000,
+      3240,
+      3540,
+      3659,
+      3660,
+      3720,
+      3780,
+      3899,
+      3900,
+      3960,
+      4380,
+      4500,
+      4799,
+      4859,
+      4860,
+      4889,
+      4890,
+      4897,
+      4904,
+      4905,
+      4920,
+      5040,
+      5160,
+      5310,
+      5399
+    ],
+    "phoneFrameNumbers": [
+      0,
+      90,
+      240,
+      390,
+      480,
+      780,
+      930,
+      1350,
+      1500,
+      1650,
+      2070,
+      2220,
+      2370,
+      2400,
+      2850,
+      3000,
+      3150,
+      3240,
+      3540,
+      3659,
+      3660,
+      3720,
+      3780,
+      3810,
+      3899,
+      3900,
+      3960,
+      4380,
+      4500,
+      4650,
+      4799,
+      4859,
+      4860,
+      4889,
+      4890,
+      4897,
+      4904,
+      4905,
+      4920,
+      5040,
+      5100,
+      5160,
+      5250,
+      5310,
+      5399
+    ],
+    "phoneFrameFiles": [
+      "phone/frame_0000.png",
+      "phone/frame_0090.png",
+      "phone/frame_0240.png",
+      "phone/frame_0390.png",
+      "phone/frame_0480.png",
+      "phone/frame_0780.png",
+      "phone/frame_0930.png",
+      "phone/frame_1350.png",
+      "phone/frame_1500.png",
+      "phone/frame_1650.png",
+      "phone/frame_2070.png",
+      "phone/frame_2220.png",
+      "phone/frame_2370.png",
+      "phone/frame_2400.png",
+      "phone/frame_2850.png",
+      "phone/frame_3000.png",
+      "phone/frame_3150.png",
+      "phone/frame_3240.png",
+      "phone/frame_3540.png",
+      "phone/frame_3659.png",
+      "phone/frame_3660.png",
+      "phone/frame_3720.png",
+      "phone/frame_3780.png",
+      "phone/frame_3810.png",
+      "phone/frame_3899.png",
+      "phone/frame_3900.png",
+      "phone/frame_3960.png",
+      "phone/frame_4380.png",
+      "phone/frame_4500.png",
+      "phone/frame_4650.png",
+      "phone/frame_4799.png",
+      "phone/frame_4859.png",
+      "phone/frame_4860.png",
+      "phone/frame_4889.png",
+      "phone/frame_4890.png",
+      "phone/frame_4897.png",
+      "phone/frame_4904.png",
+      "phone/frame_4905.png",
+      "phone/frame_4920.png",
+      "phone/frame_5040.png",
+      "phone/frame_5100.png",
+      "phone/frame_5160.png",
+      "phone/frame_5250.png",
+      "phone/frame_5310.png",
+      "phone/frame_5399.png"
+    ],
+    "nativeFrameNumbers2160x3840": [
+      3720,
+      4897,
+      4920,
+      2400
+    ],
+    "nativeFrameFiles": [
+      "native/frame_3720.png",
+      "native/frame_4897.png",
+      "native/frame_4920.png",
+      "native/frame_2400.png"
+    ],
+    "covers": {
+      "A": {
+        "frame": 3720,
+        "nativeFrameFile": "native/frame_3720.png"
+      },
+      "B": {
+        "frame": 4920,
+        "nativeFrameFile": "native/frame_4920.png"
+      }
+    },
+    "supplementalNearGlintFrame": {
+      "frame": 4897,
+      "nativeFrameFile": "native/frame_4897.png",
+      "qualityStatus": "NOT_ASSESSED"
+    },
+    "phoneContactSheets": [
+      "phone-contact-01.jpg",
+      "phone-contact-02.jpg",
+      "phone-contact-03.jpg",
+      "phone-contact-04.jpg",
+      "phone-contact-05.jpg"
+    ]
+  },
+  "motionHeuristics": {
+    "status": "MEASURED_HEURISTIC_ONLY",
+    "method": "Mean absolute RGB difference in a centered portrait crop that excludes the fixed top HUD and lower subtitle band.",
+    "pairs": [
+      {
+        "act": "S01-life-drips",
+        "frames": [
+          240,
+          390
+        ],
+        "cropXyxyOn360x640PhoneFrame": [
+          88,
+          160,
+          235,
+          440
+        ],
+        "meanAbsoluteRgbDifference0To255": 14.596566,
+        "interpretation": "measurement only; not a visual pass or proof of meaningful motion"
+      },
+      {
+        "act": "S02-collected-memories",
+        "frames": [
+          780,
+          930
+        ],
+        "cropXyxyOn360x640PhoneFrame": [
+          88,
+          160,
+          235,
+          440
+        ],
+        "meanAbsoluteRgbDifference0To255": 12.766934,
+        "interpretation": "measurement only; not a visual pass or proof of meaningful motion"
+      },
+      {
+        "act": "S03-rehearsals",
+        "frames": [
+          1500,
+          1650
+        ],
+        "cropXyxyOn360x640PhoneFrame": [
+          88,
+          160,
+          235,
+          440
+        ],
+        "meanAbsoluteRgbDifference0To255": 15.169282,
+        "interpretation": "measurement only; not a visual pass or proof of meaningful motion"
+      },
+      {
+        "act": "S04-assimilation",
+        "frames": [
+          2220,
+          2370
+        ],
+        "cropXyxyOn360x640PhoneFrame": [
+          88,
+          160,
+          235,
+          440
+        ],
+        "meanAbsoluteRgbDifference0To255": 15.563006,
+        "interpretation": "measurement only; not a visual pass or proof of meaningful motion"
+      },
+      {
+        "act": "S05-hesitation",
+        "frames": [
+          3000,
+          3150
+        ],
+        "cropXyxyOn360x640PhoneFrame": [
+          88,
+          160,
+          235,
+          440
+        ],
+        "meanAbsoluteRgbDifference0To255": 17.023753,
+        "interpretation": "measurement only; not a visual pass or proof of meaningful motion"
+      },
+      {
+        "act": "S06-planar-half-turn",
+        "frames": [
+          3660,
+          3810
+        ],
+        "cropXyxyOn360x640PhoneFrame": [
+          88,
+          160,
+          235,
+          440
+        ],
+        "meanAbsoluteRgbDifference0To255": 20.267258,
+        "interpretation": "measurement only; not a visual pass or proof of meaningful motion"
+      },
+      {
+        "act": "S07-unified-iris",
+        "frames": [
+          4500,
+          4650
+        ],
+        "cropXyxyOn360x640PhoneFrame": [
+          88,
+          160,
+          235,
+          440
+        ],
+        "meanAbsoluteRgbDifference0To255": 21.097489,
+        "interpretation": "measurement only; not a visual pass or proof of meaningful motion"
+      },
+      {
+        "act": "S08-iris-unfolding",
+        "frames": [
+          5100,
+          5250
+        ],
+        "cropXyxyOn360x640PhoneFrame": [
+          88,
+          160,
+          235,
+          440
+        ],
+        "meanAbsoluteRgbDifference0To255": 12.694793,
+        "interpretation": "measurement only; not a visual pass or proof of meaningful motion"
+      }
+    ],
+    "notAVisualPass": true
+  },
+  "visualScan": {
+    "status": "NOT_RUN_BY_THIS_COLLECTOR",
+    "reportPath": "review/visual-qc-xiaohongshu/report.json"
+  },
+  "humanAcceptance": {
+    "representativeFrames": "PENDING",
+    "continuousHumanReview": "PENDING",
+    "targetDevicePlayback": "PENDING"
+  }
+}

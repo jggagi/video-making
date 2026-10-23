@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "cli_version": "2.5.1",
+  "skill_version": "2.5.1",
+  "npm_latest": "2.5.1",
+  "authenticated": true,
+  "profile": "default",
+  "profile_changed": false,
+  "binary": "/Users/guoq/.local/n/bin/bl",
+  "secrets_saved": false,
+  "voice_selection": "Current repository skills/xiaohongshu-video/SKILL.md selected Longlangmoyue on2026-10-23; official base catalog validated in EP16 audition; no new provider or voice clone"
+}

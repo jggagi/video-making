@@ -1,0 +1,15 @@
+{
+  "frame": 4897,
+  "sourceOnePixelCoordinate": [
+    980,
+    1768
+  ],
+  "encodedCenterRgb": [
+    127,
+    143,
+    141
+  ],
+  "encodedChromaNote": "H.264 yuv420p chroma can spread source1pixel color to neighboring pixels; exact encoded QA zoom retained.",
+  "nearbyCyanLikePixelsIn9x9": 1,
+  "originalMovieSha256": "920e6578a8c6453b99133f40d3eff73d332f47b532ca179b578d82cb5d92938b"
+}

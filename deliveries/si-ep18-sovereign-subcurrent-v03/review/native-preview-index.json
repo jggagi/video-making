@@ -1,0 +1,36 @@
+{
+  "previews": [
+    {
+      "path": "review/motion-60-239.mp4",
+      "absoluteFramesInclusive": [
+        60,
+        239
+      ],
+      "sha256": "35f705c890e54439e9a9486acd0d53d35041a46a75e997ba093fefbf3a3bfc65",
+      "bytes": 3320554,
+      "audio": "Current verified master; same absolute frame clock"
+    },
+    {
+      "path": "review/motion-3600-3959.mp4",
+      "absoluteFramesInclusive": [
+        3600,
+        3959
+      ],
+      "sha256": "53dabbf5c807928b52d038e5038828e1c2f8a8610fb7bef3738c0d660da0a667",
+      "bytes": 7627580,
+      "audio": "Current verified master; same absolute frame clock"
+    },
+    {
+      "path": "review/motion-4800-4979.mp4",
+      "absoluteFramesInclusive": [
+        4800,
+        4979
+      ],
+      "sha256": "475eefa672930d9ad7ed7a383cc4d6941dd50444ad9391ba92ab03cfe0304077",
+      "bytes": 3249222,
+      "audio": "Current verified master; same absolute frame clock"
+    }
+  ],
+  "masterSha256": "6f80e605703cd9994b6ee577c3079896e86262e737f87d529724a1d12973b6e9",
+  "scope": "Native encoded previews, not continuous human listening acceptance"
+}

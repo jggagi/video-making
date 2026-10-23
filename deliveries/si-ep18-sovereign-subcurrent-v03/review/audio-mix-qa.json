@@ -1,0 +1,220 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-23T10:38:09Z",
+  "status": "pass",
+  "master": "public/audio/master.wav",
+  "sampleRate": 48000,
+  "channels": 2,
+  "bitsPerSample": 16,
+  "sampleFramesPerChannel": 4320000,
+  "durationSeconds": 90.0,
+  "targetLufs": -16.0,
+  "targetLra": 11,
+  "targetTruePeakDbtp": -1.6,
+  "measuredInputLoudnorm": {
+    "input_i": "-20.04",
+    "input_lra": "15.90",
+    "input_tp": "-2.14",
+    "input_thresh": "-32.05",
+    "target_offset": "0.27"
+  },
+  "measuredFinalIntegratedLufs": -16.0,
+  "measuredFinalTruePeakDbtp": -1.6,
+  "integratedLufsTolerance": {
+    "target": -16.0,
+    "plusMinus": 0.15,
+    "passed": true
+  },
+  "requiredMaximumTruePeakDbtp": -1.0,
+  "postGainCorrections": [],
+  "correctionPolicy": {
+    "maxPasses": 2,
+    "maxGainDbPerPass": 2.0,
+    "limiterCeilingDbtp": -1.4,
+    "limiterLinear": 0.8511380382023764,
+    "oversampleRateHz": 192000
+  },
+  "absoluteSilenceVerified": {
+    "startFrame": 4860,
+    "endFrame": 4890,
+    "samplesPerChannel": 24000
+  },
+  "stems": {
+    "narration": "public/audio/stems/narration.wav",
+    "score": "public/audio/stems/score.wav",
+    "sfx": "public/audio/stems/sfx.wav"
+  },
+  "voiceActiveRanges": [
+    {
+      "id": "S01",
+      "startSample": 57414,
+      "endSampleExclusive": 372378
+    },
+    {
+      "id": "S02",
+      "startSample": 488921,
+      "endSampleExclusive": 886303
+    },
+    {
+      "id": "S03",
+      "startSample": 1065144,
+      "endSampleExclusive": 1415794
+    },
+    {
+      "id": "S04",
+      "startSample": 1641383,
+      "endSampleExclusive": 1991413
+    },
+    {
+      "id": "S05",
+      "startSample": 2263932,
+      "endSampleExclusive": 2611126
+    },
+    {
+      "id": "S06",
+      "startSample": 2887843,
+      "endSampleExclusive": 3172752
+    },
+    {
+      "id": "S07",
+      "startSample": 3448797,
+      "endSampleExclusive": 3828028
+    },
+    {
+      "id": "S08",
+      "startSample": 3920782,
+      "endSampleExclusive": 4273754
+    }
+  ],
+  "narrationCueFit": [
+    {
+      "id": "S01",
+      "sourceSampleCount": 330472,
+      "activeStartSample": 9414,
+      "activeEndSampleExclusive": 324378,
+      "placementStartFrameForFit": 60,
+      "windowEndFrame": 540,
+      "windowSeconds": 8.0,
+      "canonicalSampleCount": 330472,
+      "windowSampleCapacity": 384000,
+      "fitsFullCanonicalWindowWithoutTrimOrSpeedChange": true,
+      "activeStartFrame": 71,
+      "activeEndFrameExclusive": 466,
+      "activeDurationSeconds": 6.56175,
+      "fitsOriginalWindowWithoutTrimOrSpeedChange": true
+    },
+    {
+      "id": "S02",
+      "sourceSampleCount": 416582,
+      "activeStartSample": 8921,
+      "activeEndSampleExclusive": 406303,
+      "placementStartFrameForFit": 600,
+      "windowEndFrame": 1260,
+      "windowSeconds": 11.0,
+      "canonicalSampleCount": 416582,
+      "windowSampleCapacity": 528000,
+      "fitsFullCanonicalWindowWithoutTrimOrSpeedChange": true,
+      "activeStartFrame": 611,
+      "activeEndFrameExclusive": 1108,
+      "activeDurationSeconds": 8.278791666666667,
+      "fitsOriginalWindowWithoutTrimOrSpeedChange": true
+    },
+    {
+      "id": "S03",
+      "sourceSampleCount": 370036,
+      "activeStartSample": 9144,
+      "activeEndSampleExclusive": 359794,
+      "placementStartFrameForFit": 1320,
+      "windowEndFrame": 1980,
+      "windowSeconds": 11.0,
+      "canonicalSampleCount": 370036,
+      "windowSampleCapacity": 528000,
+      "fitsFullCanonicalWindowWithoutTrimOrSpeedChange": true,
+      "activeStartFrame": 1331,
+      "activeEndFrameExclusive": 1770,
+      "activeDurationSeconds": 7.305208333333334,
+      "fitsOriginalWindowWithoutTrimOrSpeedChange": true
+    },
+    {
+      "id": "S04",
+      "sourceSampleCount": 367710,
+      "activeStartSample": 9383,
+      "activeEndSampleExclusive": 359413,
+      "placementStartFrameForFit": 2040,
+      "windowEndFrame": 2760,
+      "windowSeconds": 12.0,
+      "canonicalSampleCount": 367710,
+      "windowSampleCapacity": 576000,
+      "fitsFullCanonicalWindowWithoutTrimOrSpeedChange": true,
+      "activeStartFrame": 2051,
+      "activeEndFrameExclusive": 2490,
+      "activeDurationSeconds": 7.292291666666666,
+      "fitsOriginalWindowWithoutTrimOrSpeedChange": true
+    },
+    {
+      "id": "S05",
+      "sourceSampleCount": 363054,
+      "activeStartSample": 7932,
+      "activeEndSampleExclusive": 355126,
+      "placementStartFrameForFit": 2820,
+      "windowEndFrame": 3540,
+      "windowSeconds": 12.0,
+      "canonicalSampleCount": 363054,
+      "windowSampleCapacity": 576000,
+      "fitsFullCanonicalWindowWithoutTrimOrSpeedChange": true,
+      "activeStartFrame": 2829,
+      "activeEndFrameExclusive": 3264,
+      "activeDurationSeconds": 7.233208333333334,
+      "fitsOriginalWindowWithoutTrimOrSpeedChange": true
+    },
+    {
+      "id": "S06",
+      "sourceSampleCount": 300218,
+      "activeStartSample": 7843,
+      "activeEndSampleExclusive": 292752,
+      "placementStartFrameForFit": 3600,
+      "windowEndFrame": 4320,
+      "windowSeconds": 12.0,
+      "canonicalSampleCount": 300218,
+      "windowSampleCapacity": 576000,
+      "fitsFullCanonicalWindowWithoutTrimOrSpeedChange": true,
+      "activeStartFrame": 3609,
+      "activeEndFrameExclusive": 3966,
+      "activeDurationSeconds": 5.935604166666667,
+      "fitsOriginalWindowWithoutTrimOrSpeedChange": true
+    },
+    {
+      "id": "S07",
+      "sourceSampleCount": 397964,
+      "activeStartSample": 8797,
+      "activeEndSampleExclusive": 388028,
+      "placementStartFrameForFit": 4300,
+      "windowEndFrame": 4800,
+      "windowSeconds": 8.333333333333334,
+      "canonicalSampleCount": 397964,
+      "windowSampleCapacity": 400000,
+      "fitsFullCanonicalWindowWithoutTrimOrSpeedChange": true,
+      "activeStartFrame": 4310,
+      "activeEndFrameExclusive": 4786,
+      "activeDurationSeconds": 7.900645833333333,
+      "fitsOriginalWindowWithoutTrimOrSpeedChange": true
+    },
+    {
+      "id": "S08",
+      "sourceSampleCount": 370036,
+      "activeStartSample": 8782,
+      "activeEndSampleExclusive": 361754,
+      "placementStartFrameForFit": 4890,
+      "windowEndFrame": 5400,
+      "windowSeconds": 8.5,
+      "canonicalSampleCount": 370036,
+      "windowSampleCapacity": 408000,
+      "fitsFullCanonicalWindowWithoutTrimOrSpeedChange": true,
+      "activeStartFrame": 4900,
+      "activeEndFrameExclusive": 5343,
+      "activeDurationSeconds": 7.353583333333333,
+      "fitsOriginalWindowWithoutTrimOrSpeedChange": true
+    }
+  ],
+  "masterSha256": "6f80e605703cd9994b6ee577c3079896e86262e737f87d529724a1d12973b6e9"
+}

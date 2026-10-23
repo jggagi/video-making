@@ -1,0 +1,7 @@
+{
+  "status": "RETAINED_NOT_USED",
+  "cue": "S01",
+  "reason": "Recognized Qwen unknown-length streaming WAV header; parser initially rejected. No new S08 call occurred. S01 physical PCM was13.843458s, exceeds8s window. First raw immutable. Next candidate changes synthesis rate/instruction, never accelerates an existing waveform.",
+  "rawFile": "project/public/audio/history/raw/28487fe9d8631029fc86b0f8494e914f1422254df3254a5efb8faf69c670eeb7.wav",
+  "cliIdentityEvidence": "CLI identity check returned before parser error, but original version did not persist allowlisted sidecar. This rejected candidate is not assigned a verified reusable synthesis cue."
+}

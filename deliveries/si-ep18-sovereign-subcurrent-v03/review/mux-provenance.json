@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "work": "si-ep18-sovereign-subcurrent-v03",
+  "title": "心印潜流 · v03",
+  "platform": "xiaohongshu",
+  "movie": "小红书/si-ep18-sovereign-subcurrent-v03-xiaohongshu-90s-portrait.mp4",
+  "movieSha256": "920e6578a8c6453b99133f40d3eff73d332f47b532ca179b578d82cb5d92938b",
+  "masterSha256": "6f80e605703cd9994b6ee577c3079896e86262e737f87d529724a1d12973b6e9",
+  "videoOnlySha256": "ed18d2e766f172dfa348ae98581aca36ffa531c412055dd6d75409a94a86b04b",
+  "audioMixQaSha256": "b5e47fb127cdd0ae79a50ff88aaffeb72567fea050bb7faeb7ff585ecee8eb18",
+  "video": {
+    "codec": "h264",
+    "pixelFormat": "yuv420p",
+    "width": 2160,
+    "height": 3840,
+    "fps": "60/1",
+    "frames": 5400,
+    "durationSeconds": 90.0
+  },
+  "audio": {
+    "codec": "aac",
+    "sampleRateHz": 48000,
+    "channels": 2,
+    "durationSeconds": 90.0,
+    "pcmSamplesPerChannel": 4320000
+  },
+  "containerDurationSeconds": 90.0
+}

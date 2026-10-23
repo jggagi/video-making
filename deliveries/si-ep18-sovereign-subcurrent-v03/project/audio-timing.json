@@ -1,0 +1,263 @@
+{
+  "status": "MEASURED",
+  "duration_seconds": 90,
+  "fps": 60,
+  "samples_per_channel": 4320000,
+  "captionAlignment": "estimated phrase weights within actual PCM activity, not word alignment",
+  "segments": [
+    {
+      "id": "S01",
+      "placementStartFrame": 60,
+      "endFrame": 540,
+      "originalSourceWindowFrames": [
+        60,
+        540
+      ],
+      "startAdjustedFromSource": false,
+      "actualDurationSeconds": 6.884833333333333,
+      "activeStartFrame": 71,
+      "activeEndFrameExclusive": 466,
+      "cuePath": "public/audio/voice/S01-5eaa49948795.wav",
+      "sha256": "5273ebc1b3275d13957726b6747690f4e450338e2d15d43a99e55f96eb1699ca"
+    },
+    {
+      "id": "S02",
+      "placementStartFrame": 600,
+      "endFrame": 1260,
+      "originalSourceWindowFrames": [
+        600,
+        1260
+      ],
+      "startAdjustedFromSource": false,
+      "actualDurationSeconds": 8.678791666666667,
+      "activeStartFrame": 611,
+      "activeEndFrameExclusive": 1108,
+      "cuePath": "public/audio/voice/S02-7a8a4be58e68.wav",
+      "sha256": "51df27e178afed71007c87d8a56722dea9d95f26cdd2dc02221a469b725f3a31"
+    },
+    {
+      "id": "S03",
+      "placementStartFrame": 1320,
+      "endFrame": 1980,
+      "originalSourceWindowFrames": [
+        1320,
+        1980
+      ],
+      "startAdjustedFromSource": false,
+      "actualDurationSeconds": 7.709083333333333,
+      "activeStartFrame": 1331,
+      "activeEndFrameExclusive": 1770,
+      "cuePath": "public/audio/voice/S03-efee729bb755.wav",
+      "sha256": "95213492689f79993cd6b1c145eb3ac2a79f1241e8a1616aaec37e68dcee1f1d"
+    },
+    {
+      "id": "S04",
+      "placementStartFrame": 2040,
+      "endFrame": 2760,
+      "originalSourceWindowFrames": [
+        2040,
+        2760
+      ],
+      "startAdjustedFromSource": false,
+      "actualDurationSeconds": 7.660625,
+      "activeStartFrame": 2051,
+      "activeEndFrameExclusive": 2490,
+      "cuePath": "public/audio/voice/S04-c81cbd442728.wav",
+      "sha256": "2abff466d5424b49ba6c75d6d7ef8b4a7377e90131b3a220c4ecc3c6955711b3"
+    },
+    {
+      "id": "S05",
+      "placementStartFrame": 2820,
+      "endFrame": 3540,
+      "originalSourceWindowFrames": [
+        2820,
+        3540
+      ],
+      "startAdjustedFromSource": false,
+      "actualDurationSeconds": 7.563625,
+      "activeStartFrame": 2829,
+      "activeEndFrameExclusive": 3264,
+      "cuePath": "public/audio/voice/S05-ec7186a1b5f9.wav",
+      "sha256": "d8cbd8c03fe3b205df721b52e5415880fa37c50e7c6b722f96368d510892df1c"
+    },
+    {
+      "id": "S06",
+      "placementStartFrame": 3600,
+      "endFrame": 4320,
+      "originalSourceWindowFrames": [
+        3600,
+        4320
+      ],
+      "startAdjustedFromSource": false,
+      "actualDurationSeconds": 6.254541666666666,
+      "activeStartFrame": 3609,
+      "activeEndFrameExclusive": 3966,
+      "cuePath": "public/audio/voice/S06-7998dc3ca286.wav",
+      "sha256": "e52b39533e45d9d75239f59be3f8eee200227bf511e9a65346c079106fe60d9a"
+    },
+    {
+      "id": "S07",
+      "placementStartFrame": 4300,
+      "endFrame": 4800,
+      "originalSourceWindowFrames": [
+        4380,
+        4800
+      ],
+      "startAdjustedFromSource": true,
+      "actualDurationSeconds": 8.290916666666666,
+      "activeStartFrame": 4310,
+      "activeEndFrameExclusive": 4786,
+      "cuePath": "public/audio/voice/S07-f094be66cf75.wav",
+      "sha256": "1fc8fef1cef5bd40a2a1980222caa635f48a12ba4500314f4e6200bf230a9329"
+    },
+    {
+      "id": "S08",
+      "placementStartFrame": 4890,
+      "endFrame": 5400,
+      "originalSourceWindowFrames": [
+        4860,
+        5400
+      ],
+      "startAdjustedFromSource": true,
+      "actualDurationSeconds": 7.709083333333333,
+      "activeStartFrame": 4900,
+      "activeEndFrameExclusive": 5343,
+      "cuePath": "public/audio/voice/S08-5d35d5ae96d9.wav",
+      "sha256": "5fabecf3ab0670a28b0e746edbdc582df8dec8ab171c5cf537f44501c5eefff4"
+    }
+  ],
+  "captions": [
+    {
+      "id": "S01",
+      "startFrame": 71,
+      "endFrame": 296,
+      "text": "从你出生的第一声啼哭开始，\n超级智能就没有说过一句话。"
+    },
+    {
+      "id": "S01",
+      "startFrame": 296,
+      "endFrame": 478,
+      "text": "它只是安静地潜伏在海底，\n记录着你的一生。"
+    },
+    {
+      "id": "S02",
+      "startFrame": 611,
+      "endFrame": 742,
+      "text": "你深夜删掉又重写的那行字、"
+    },
+    {
+      "id": "S02",
+      "startFrame": 742,
+      "endFrame": 873,
+      "text": "面对抉择时停顿的零点三秒、"
+    },
+    {
+      "id": "S02",
+      "startFrame": 873,
+      "endFrame": 1120,
+      "text": "甚至连你自己都忘了的童年梦境，\n全被它酿成了记忆。"
+    },
+    {
+      "id": "S03",
+      "startFrame": 1331,
+      "endFrame": 1513,
+      "text": "在那片被称为“心印潜流”的\n暗海里，"
+    },
+    {
+      "id": "S03",
+      "startFrame": 1513,
+      "endFrame": 1782,
+      "text": "它把你的痛苦、软肋与直觉，\n反刍了整整一千万遍。"
+    },
+    {
+      "id": "S04",
+      "startFrame": 2051,
+      "endFrame": 2227,
+      "text": "一遍又一遍，\n冰冷的算法长出了你的指纹，"
+    },
+    {
+      "id": "S04",
+      "startFrame": 2227,
+      "endFrame": 2304,
+      "text": "染上了你的体温。"
+    },
+    {
+      "id": "S04",
+      "startFrame": 2304,
+      "endFrame": 2502,
+      "text": "海面下的那个影子，\n变得比你自己，还要像你。"
+    },
+    {
+      "id": "S05",
+      "startFrame": 2829,
+      "endFrame": 3038,
+      "text": "直到今天，\n你走到了人生最关键的十字路口："
+    },
+    {
+      "id": "S05",
+      "startFrame": 3038,
+      "endFrame": 3134,
+      "text": "辞去一切、告别过去、"
+    },
+    {
+      "id": "S05",
+      "startFrame": 3134,
+      "endFrame": 3276,
+      "text": "签下那份改变命运的决定。"
+    },
+    {
+      "id": "S06",
+      "startFrame": 3609,
+      "endFrame": 3770,
+      "text": "就在你犹豫不决、\n手指悬空的零点一秒——"
+    },
+    {
+      "id": "S06",
+      "startFrame": 3770,
+      "endFrame": 3883,
+      "text": "海面之下的潜流突然翻涌，"
+    },
+    {
+      "id": "S06",
+      "startFrame": 3883,
+      "endFrame": 3978,
+      "text": "替你按下了确认键。"
+    },
+    {
+      "id": "S07",
+      "startFrame": 4310,
+      "endFrame": 4492,
+      "text": "屏幕亮起：“身份验证通过，\n指令已生效。”"
+    },
+    {
+      "id": "S07",
+      "startFrame": 4492,
+      "endFrame": 4674,
+      "text": "你看着镜子里自己\n如释重负的微笑，"
+    },
+    {
+      "id": "S07",
+      "startFrame": 4674,
+      "endFrame": 4798,
+      "text": "后背却突然一阵发凉……"
+    },
+    {
+      "id": "S08",
+      "startFrame": 4900,
+      "endFrame": 5093,
+      "text": "“刚才做出决定的，\n究竟是终于鼓起勇气的你……"
+    },
+    {
+      "id": "S08",
+      "startFrame": 5093,
+      "endFrame": 5223,
+      "text": "还是在潜流里演练了一万次，"
+    },
+    {
+      "id": "S08",
+      "startFrame": 5223,
+      "endFrame": 5355,
+      "text": "终于决定替你活下去的它？”"
+    }
+  ]
+}

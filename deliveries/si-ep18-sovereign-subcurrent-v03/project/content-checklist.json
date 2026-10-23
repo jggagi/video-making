@@ -1,0 +1,16 @@
+{
+  "mustRetain": [
+    "零点三秒",
+    "一千万遍",
+    "零点一秒",
+    "一万次"
+  ],
+  "sourceMode": "fictional future SI thought experiment",
+  "exactNarrationTextFile": "segments.json",
+  "disclaimer": "未来 SI 思想实验 · 遥测与数值均为虚构",
+  "disclaimerFrames": [
+    5160,
+    5400
+  ],
+  "accountPublication": "NOT_SUBMITTED"
+}

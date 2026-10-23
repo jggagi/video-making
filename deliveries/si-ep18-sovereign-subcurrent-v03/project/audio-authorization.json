@@ -1,0 +1,9 @@
+{
+  "authorized": true,
+  "provider": "Aliyun Bailian",
+  "model": "qwen-audio-3.0-tts-plus",
+  "voice": "qwen-audio-3.0-tts-plus-longlangmoyue",
+  "scope": "EP18 v03 exact S01-S08 prepared narration",
+  "source": "Direct human confirmation in this chat on2026-10-23: 授权，按此方案生成八段配音. Scope: exact S01-S08 prepared narration text sent only to Aliyun Bailian qwen-audio-3.0-tts-plus / qwen-audio-3.0-tts-plus-longlangmoyue; routine TTS fees. No audio/video/private-file upload.",
+  "ordered_text_sha256": "8dedd2646ceb7ec282718140e19c40c00e6e7b7c912719357acee286b7765475"
+}

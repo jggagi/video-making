@@ -1,0 +1,19 @@
+{
+  "firstCandidate": {
+    "rate": 1.15,
+    "S01seconds": 13.843458333333333,
+    "used": false
+  },
+  "secondCandidate": {
+    "rate": 2.0,
+    "S01seconds": 6.16,
+    "S08seconds": 6.12,
+    "used": false,
+    "reason": "Fits but faster than needed, leaves two seconds unused in each short window"
+  },
+  "productionCandidate": {
+    "rate": 1.65,
+    "reason": "Controlled synthesis at a more moderate pace should fit exact short windows while retaining full narration; will measure all8 before acceptance"
+  },
+  "waveformSpeedChange": false
+}

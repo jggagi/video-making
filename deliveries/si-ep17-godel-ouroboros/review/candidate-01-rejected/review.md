@@ -1,0 +1,1 @@
+First source-still candidate rejected by root: reflected regular faces overlapped into a central web; Droste too dim/small; main Chinese heading inherited SVG black fill. Source has been corrected using the Schwarz fundamental triangle, brighter self-similar windows, explicit ivory typography. No formal movie produced from this candidate.

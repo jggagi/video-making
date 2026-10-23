@@ -1,0 +1,170 @@
+{
+  "duration_seconds": 90,
+  "fps": 60,
+  "total_frames": 5400,
+  "sample_rate": 48000,
+  "samples_per_channel": 4320000,
+  "acts": [
+    {
+      "id": "I",
+      "startFrame": 0,
+      "endFrame": 1320,
+      "action": "Poincare cosmos turns inward"
+    },
+    {
+      "id": "II",
+      "startFrame": 1320,
+      "endFrame": 2820,
+      "action": "Impossible proof ribbon"
+    },
+    {
+      "id": "III",
+      "startFrame": 2820,
+      "endFrame": 4380,
+      "action": "Droste recursion to Ouroboros"
+    },
+    {
+      "id": "IV",
+      "startFrame": 4380,
+      "endFrame": 5400,
+      "action": "Lock, silence, external amber ripple"
+    }
+  ],
+  "events": [
+    {
+      "id": "relay-cut",
+      "frame": 4860,
+      "sample": 3888000
+    },
+    {
+      "id": "warm-pluck",
+      "frame": 4890,
+      "sample": 3912000
+    }
+  ],
+  "disclaimer": {
+    "startFrame": 5160,
+    "endFrame": 5400
+  },
+  "narration": [
+    {
+      "id": "S01",
+      "sourceSegmentId": "S01",
+      "startFrame": 30,
+      "endFrame": 600
+    },
+    {
+      "id": "S02",
+      "sourceSegmentId": "S02",
+      "startFrame": 600,
+      "endFrame": 1260
+    },
+    {
+      "id": "S03",
+      "sourceSegmentId": "S03",
+      "startFrame": 1320,
+      "endFrame": 1980
+    },
+    {
+      "id": "S04",
+      "sourceSegmentId": "S04",
+      "startFrame": 2040,
+      "endFrame": 2820
+    },
+    {
+      "id": "S05",
+      "sourceSegmentId": "S05",
+      "startFrame": 2820,
+      "endFrame": 3540
+    },
+    {
+      "id": "S06",
+      "sourceSegmentId": "S06",
+      "startFrame": 3600,
+      "endFrame": 4260
+    },
+    {
+      "id": "S07",
+      "sourceSegmentId": "S07",
+      "startFrame": 4260,
+      "endFrame": 4530
+    },
+    {
+      "id": "S08A",
+      "sourceSegmentId": "S08",
+      "startFrame": 4530,
+      "endFrame": 4860
+    },
+    {
+      "id": "S08B",
+      "sourceSegmentId": "S08",
+      "startFrame": 4890,
+      "endFrame": 5400
+    }
+  ],
+  "motion_policy": "continuous in-plane translation, shape/scale evolution and path motion; locked serpent after4860 with external ripples beginning4890",
+  "sound_events": [
+    {
+      "id": "lens-iris",
+      "frame": 840,
+      "kind": "low-inward-sweep",
+      "seconds": 2.8,
+      "levelDbfs": -27
+    },
+    {
+      "id": "logical-fracture",
+      "frame": 1500,
+      "kind": "metallic-snap-and-tritone",
+      "seconds": 1.7,
+      "levelDbfs": -28
+    },
+    {
+      "id": "crab-canon",
+      "frame": 2220,
+      "kind": "forward-reverse-harpsichord",
+      "seconds": 22.0,
+      "levelDbfs": -31
+    },
+    {
+      "id": "shepard-descent",
+      "frame": 2940,
+      "kind": "descending-shepard-risset",
+      "seconds": 24.0,
+      "levelDbfs": -30
+    },
+    {
+      "id": "stack-overflow",
+      "frame": 3900,
+      "kind": "rising-digital-cycle",
+      "seconds": 3.5,
+      "levelDbfs": -29
+    },
+    {
+      "id": "accelerating-ticks",
+      "frame": 4500,
+      "kind": "deterministic-polyrhythmic-ticks",
+      "seconds": 6.0,
+      "levelDbfs": -32
+    },
+    {
+      "id": "relay-cut",
+      "frame": 4860,
+      "kind": "hard-cut-to-absolute-silence",
+      "seconds": 0.5,
+      "levelDbfs": null
+    },
+    {
+      "id": "external-warm-pluck",
+      "frame": 4890,
+      "kind": "warm-harp-pluck",
+      "seconds": 1.8,
+      "levelDbfs": -27
+    }
+  ],
+  "event_alignment_notes": {
+    "fracture": "Crimson fault lines first appear atframe1500, matched to metal/tritone transient.",
+    "overflow": "Crimson head and early ring-phase begin atframe3900.",
+    "relay": "Ring state locked at4860; master frames4860..4890 exactlyzero.",
+    "ink": "First amber drop/ripple at4890; warm pluck anchored tosame sample3912000."
+  }
+}

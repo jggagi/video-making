@@ -1,0 +1,370 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-23T03:48:07Z",
+  "status": "PASS",
+  "deliveryManifest": "delivery.json",
+  "deliveryManifestSha256": "251ecbfbfa246aef7fcb62e277a1c2cd43e7da324f852b88b48507142a15f5ee",
+  "movie": {
+    "path": "小红书/si-ep17-godel-ouroboros-xiaohongshu-90s-portrait.mp4",
+    "sha256": "2b5676d8e1eb92911d290866326daf14fb69dc286e2e38e964a888727d4814cd",
+    "bytes": 100451279,
+    "audioMetadata": {
+      "codec_name": "aac",
+      "sample_rate": "48000",
+      "channels": 2,
+      "channel_layout": "stereo",
+      "start_time": "0.000000",
+      "duration": "90.000000",
+      "start_pts": 0,
+      "duration_ts": 4320000,
+      "time_base": "1/48000",
+      "nb_frames": "4220",
+      "bit_rate": "235766",
+      "formatDuration": "90.000000",
+      "formatStartTime": "0.000000"
+    },
+    "decodedAudio": {
+      "sampleRateHz": 48000,
+      "channelsDecoded": 2,
+      "sampleFormat": "f32le",
+      "decodedPayloadBytes": 34562048,
+      "decodedSamplesPerChannel": 4320256,
+      "decodedDurationSeconds": 90.00533333333334,
+      "monoRms": 0.09648321421596895,
+      "monoPeak": 0.8594139218330383
+    },
+    "stableDuringValidation": true
+  },
+  "master": {
+    "path": "project/public/audio/master.wav",
+    "sha256": "91a0ecf2c4d18aadf6da3fb5ce39e1c2c381bec214eb2ecdd4aa7a52a1441257",
+    "bytes": 17280044,
+    "mixQaStatus": "pass",
+    "mixQaMasterSha256": "91a0ecf2c4d18aadf6da3fb5ce39e1c2c381bec214eb2ecdd4aa7a52a1441257",
+    "mixQaReportSha256": "2dcebdfeddabc02684ea71944b84d7fc8c7d05309f74ca4ae1b19ae6f4e0103f",
+    "format": {
+      "sampleRateHz": 48000,
+      "channels": 2,
+      "sampleWidthBytes": 2,
+      "compression": "NONE",
+      "sampleFramesPerChannel": 4320000
+    },
+    "pcmSilence": {
+      "rangeSamplesPerChannel": [
+        3888000,
+        3912000
+      ],
+      "samplesPerChannel": 24000,
+      "exactZero": true
+    },
+    "stableDuringValidation": true
+  },
+  "method": {
+    "comparison": "mono average of accepted PCM master versus mono average of decoded final-MP4 AAC",
+    "fftCorrelation": true,
+    "lagSearchSamples": [
+      -2400,
+      2400
+    ],
+    "lagConvention": "positive means encoded AAC is delayed relative to PCM master",
+    "passCriteria": {
+      "maxAbsoluteLagSamples": 800,
+      "minimumCorrelation": 0.95,
+      "masterWindowMustHaveEnergy": true
+    },
+    "windowLengthSamplesPerChannel": 96000,
+    "windowAnchors": [
+      {
+        "id": "opening",
+        "frame": 60
+      },
+      {
+        "id": "logical-fracture",
+        "frame": 1500
+      },
+      {
+        "id": "accelerating-ticks",
+        "frame": 4500
+      },
+      {
+        "id": "warm-pluck-and-S08B",
+        "frame": 4890
+      }
+    ]
+  },
+  "checks": [
+    {
+      "name": "accepted_master_hash",
+      "status": "PASS",
+      "details": {
+        "mixQaStatus": "pass",
+        "mixQaShaMatches": true
+      }
+    },
+    {
+      "name": "master_pcm_format",
+      "status": "PASS",
+      "details": {
+        "sampleRateHz": 48000,
+        "channels": 2,
+        "sampleWidthBytes": 2,
+        "compression": "NONE",
+        "sampleFramesPerChannel": 4320000
+      }
+    },
+    {
+      "name": "master_file_stable",
+      "status": "PASS",
+      "details": {
+        "stableDuringRead": true
+      }
+    },
+    {
+      "name": "pcm_silence_exact_zero",
+      "status": "PASS",
+      "details": {
+        "rangeSamplesPerChannel": [
+          3888000,
+          3912000
+        ],
+        "samplesPerChannel": 24000,
+        "exactZero": true
+      }
+    },
+    {
+      "name": "mix_qa_metrics_accepted",
+      "status": "PASS",
+      "details": {
+        "measuredFinalIntegratedLufs": -16.0,
+        "measuredFinalTruePeakDbtp": -1.4
+      }
+    },
+    {
+      "name": "final_movie_aac_stream",
+      "status": "PASS",
+      "details": {
+        "codec": "aac",
+        "sampleRate": "48000",
+        "channels": 2
+      }
+    },
+    {
+      "name": "decoded_aac_samples",
+      "status": "PASS",
+      "details": {
+        "samplesPerChannel": 4320256,
+        "decodedDurationSeconds": 90.00533333333334
+      }
+    },
+    {
+      "name": "encoded_audio_window_sync",
+      "status": "PASS",
+      "details": [
+        {
+          "id": "opening",
+          "frame": 60,
+          "centerSample": 48000,
+          "windowSamplesPerChannel": 96000,
+          "windowStartSample": 2400,
+          "windowEndSampleExclusive": 98400,
+          "windowCenterOffsetFromAnchorSamples": 2400,
+          "masterWindowRms": 0.14631346817504978,
+          "encodedWindowRms": 0.14593329627330864,
+          "maxLagSamples": 2400,
+          "maxLagMilliseconds": 50.0,
+          "lagConvention": "positive means encoded AAC is delayed relative to PCM master",
+          "requiredMaxAbsLagSamples": 800,
+          "requiredCorrelation": 0.95,
+          "bestLagSamples": 0,
+          "bestLagMilliseconds": 0.0,
+          "bestCorrelation": 0.9999264655342535,
+          "lagPass": true,
+          "correlationPass": true,
+          "status": "PASS"
+        },
+        {
+          "id": "logical-fracture",
+          "frame": 1500,
+          "centerSample": 1200000,
+          "windowSamplesPerChannel": 96000,
+          "windowStartSample": 1152000,
+          "windowEndSampleExclusive": 1248000,
+          "windowCenterOffsetFromAnchorSamples": 0,
+          "masterWindowRms": 0.09114817676887914,
+          "encodedWindowRms": 0.09100065082617079,
+          "maxLagSamples": 2400,
+          "maxLagMilliseconds": 50.0,
+          "lagConvention": "positive means encoded AAC is delayed relative to PCM master",
+          "requiredMaxAbsLagSamples": 800,
+          "requiredCorrelation": 0.95,
+          "bestLagSamples": 0,
+          "bestLagMilliseconds": 0.0,
+          "bestCorrelation": 0.9999288893015272,
+          "lagPass": true,
+          "correlationPass": true,
+          "status": "PASS"
+        },
+        {
+          "id": "accelerating-ticks",
+          "frame": 4500,
+          "centerSample": 3600000,
+          "windowSamplesPerChannel": 96000,
+          "windowStartSample": 3552000,
+          "windowEndSampleExclusive": 3648000,
+          "windowCenterOffsetFromAnchorSamples": 0,
+          "masterWindowRms": 0.08855068835106449,
+          "encodedWindowRms": 0.08843007955191856,
+          "maxLagSamples": 2400,
+          "maxLagMilliseconds": 50.0,
+          "lagConvention": "positive means encoded AAC is delayed relative to PCM master",
+          "requiredMaxAbsLagSamples": 800,
+          "requiredCorrelation": 0.95,
+          "bestLagSamples": 0,
+          "bestLagMilliseconds": 0.0,
+          "bestCorrelation": 0.9999404669162426,
+          "lagPass": true,
+          "correlationPass": true,
+          "status": "PASS"
+        },
+        {
+          "id": "warm-pluck-and-S08B",
+          "frame": 4890,
+          "centerSample": 3912000,
+          "windowSamplesPerChannel": 96000,
+          "windowStartSample": 3864000,
+          "windowEndSampleExclusive": 3960000,
+          "windowCenterOffsetFromAnchorSamples": 0,
+          "masterWindowRms": 0.11022283907077045,
+          "encodedWindowRms": 0.1100967643077009,
+          "maxLagSamples": 2400,
+          "maxLagMilliseconds": 50.0,
+          "lagConvention": "positive means encoded AAC is delayed relative to PCM master",
+          "requiredMaxAbsLagSamples": 800,
+          "requiredCorrelation": 0.95,
+          "bestLagSamples": 0,
+          "bestLagMilliseconds": 0.0,
+          "bestCorrelation": 0.9999265971410363,
+          "lagPass": true,
+          "correlationPass": true,
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "name": "movie_stable_during_validation",
+      "status": "PASS",
+      "details": {
+        "sha256Before": "2b5676d8e1eb92911d290866326daf14fb69dc286e2e38e964a888727d4814cd",
+        "sha256After": "2b5676d8e1eb92911d290866326daf14fb69dc286e2e38e964a888727d4814cd",
+        "stable": true
+      }
+    },
+    {
+      "name": "master_stable_during_validation",
+      "status": "PASS",
+      "details": {
+        "stable": true
+      }
+    }
+  ],
+  "windows": [
+    {
+      "id": "opening",
+      "frame": 60,
+      "centerSample": 48000,
+      "windowSamplesPerChannel": 96000,
+      "windowStartSample": 2400,
+      "windowEndSampleExclusive": 98400,
+      "windowCenterOffsetFromAnchorSamples": 2400,
+      "masterWindowRms": 0.14631346817504978,
+      "encodedWindowRms": 0.14593329627330864,
+      "maxLagSamples": 2400,
+      "maxLagMilliseconds": 50.0,
+      "lagConvention": "positive means encoded AAC is delayed relative to PCM master",
+      "requiredMaxAbsLagSamples": 800,
+      "requiredCorrelation": 0.95,
+      "bestLagSamples": 0,
+      "bestLagMilliseconds": 0.0,
+      "bestCorrelation": 0.9999264655342535,
+      "lagPass": true,
+      "correlationPass": true,
+      "status": "PASS"
+    },
+    {
+      "id": "logical-fracture",
+      "frame": 1500,
+      "centerSample": 1200000,
+      "windowSamplesPerChannel": 96000,
+      "windowStartSample": 1152000,
+      "windowEndSampleExclusive": 1248000,
+      "windowCenterOffsetFromAnchorSamples": 0,
+      "masterWindowRms": 0.09114817676887914,
+      "encodedWindowRms": 0.09100065082617079,
+      "maxLagSamples": 2400,
+      "maxLagMilliseconds": 50.0,
+      "lagConvention": "positive means encoded AAC is delayed relative to PCM master",
+      "requiredMaxAbsLagSamples": 800,
+      "requiredCorrelation": 0.95,
+      "bestLagSamples": 0,
+      "bestLagMilliseconds": 0.0,
+      "bestCorrelation": 0.9999288893015272,
+      "lagPass": true,
+      "correlationPass": true,
+      "status": "PASS"
+    },
+    {
+      "id": "accelerating-ticks",
+      "frame": 4500,
+      "centerSample": 3600000,
+      "windowSamplesPerChannel": 96000,
+      "windowStartSample": 3552000,
+      "windowEndSampleExclusive": 3648000,
+      "windowCenterOffsetFromAnchorSamples": 0,
+      "masterWindowRms": 0.08855068835106449,
+      "encodedWindowRms": 0.08843007955191856,
+      "maxLagSamples": 2400,
+      "maxLagMilliseconds": 50.0,
+      "lagConvention": "positive means encoded AAC is delayed relative to PCM master",
+      "requiredMaxAbsLagSamples": 800,
+      "requiredCorrelation": 0.95,
+      "bestLagSamples": 0,
+      "bestLagMilliseconds": 0.0,
+      "bestCorrelation": 0.9999404669162426,
+      "lagPass": true,
+      "correlationPass": true,
+      "status": "PASS"
+    },
+    {
+      "id": "warm-pluck-and-S08B",
+      "frame": 4890,
+      "centerSample": 3912000,
+      "windowSamplesPerChannel": 96000,
+      "windowStartSample": 3864000,
+      "windowEndSampleExclusive": 3960000,
+      "windowCenterOffsetFromAnchorSamples": 0,
+      "masterWindowRms": 0.11022283907077045,
+      "encodedWindowRms": 0.1100967643077009,
+      "maxLagSamples": 2400,
+      "maxLagMilliseconds": 50.0,
+      "lagConvention": "positive means encoded AAC is delayed relative to PCM master",
+      "requiredMaxAbsLagSamples": 800,
+      "requiredCorrelation": 0.95,
+      "bestLagSamples": 0,
+      "bestLagMilliseconds": 0.0,
+      "bestCorrelation": 0.9999265971410363,
+      "lagPass": true,
+      "correlationPass": true,
+      "status": "PASS"
+    }
+  ],
+  "aacInteriorSilenceRms": {
+    "rangeSamplesPerChannel": [
+      3888000,
+      3912000
+    ],
+    "samplesPerChannel": 24000,
+    "rms": 7.199946871150674e-06,
+    "rmsDbfs": -102.85341416485025,
+    "bitExactZeroClaimed": false
+  }
+}

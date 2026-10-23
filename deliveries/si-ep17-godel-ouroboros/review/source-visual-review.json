@@ -1,0 +1,23 @@
+{
+  "status": "SOURCE_LAYOUT_REVIEWED_PENDING_FINAL_ENCODED_CHECK",
+  "reviewer": "root model image observation",
+  "evidence": [
+    "mobile-source-review.jpg",
+    "cover-A-360.jpg",
+    "cover-B-360.jpg",
+    "ending-source-review.jpg"
+  ],
+  "observations": [
+    "Three condensed HUD lines fit the visible phone-width boundary and remain separate from the title.",
+    "Caption phrasing uses intentional line breaks, with no split within 神明 or 衔尾蛇.",
+    "True Schwarz-triangle disk no longer overlaps into the rejected central web.",
+    "The serpent head, tail and jaw contact are visible at360px; no 3D view or perspective is used.",
+    "The amber drop at4890 is visible on the right rim. Later ripples and a traveling gold seam give the locked ring a visible consequence."
+  ],
+  "limits": [
+    "These are source-frame observations; final encoded frames and continuous all-frame screening remain required.",
+    "Model observation does not establish listening, pronunciation, continuous human viewing, audience response or real-device playback."
+  ],
+  "human_listening": "NOT_RUN",
+  "target_phone_app": "NOT_RUN"
+}

@@ -1,0 +1,10 @@
+{
+  "provider": "Aliyun Bailian",
+  "voice": "longtian_v3",
+  "authorized": true,
+  "scope": "EP17 eight source narration sections, physically split into9 cues; routine local re-records",
+  "source": "Direct user confirmation in this chat: 授权，沿用百炼 longtian_v3; followed by authorization to adapt within90seconds",
+  "extra_asr_authorized": false,
+  "new_provider_authorized": false,
+  "text_sha256": "03f0fd7e6930c1c2690819510961ef6a8657a51fb4d840a3736f71ef74ae443a"
+}

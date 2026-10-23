@@ -1,0 +1,13 @@
+{
+  "sourceExactLines": [
+    "EXTERNAL UNIVERSE THEOREMS: 100.000% PROVED [OMEGA COMPLETE]",
+    "TARGET QUERY: SELF_CONSISTENCY(SI) // GÖDEL SENTENCE G = ¬Prov(G)",
+    "HALTING PROBLEM STATE: [INFINITE STRANGE LOOP // STACK DEPTH -> ∞]"
+  ],
+  "mobileDisplay": [
+    "COSMOS // 100.000% PROVED",
+    "SELF // G = ¬Prov(G)",
+    "HALTING // UNDECIDABLE"
+  ],
+  "reason": "Exact long source lines cannot fit a fixed 3-line 78%-width HUD at mobile minimum 10px. Condense displayed English while retaining source strings, three lines, semantics and palette. Fiction context is visible in season plate."
+}

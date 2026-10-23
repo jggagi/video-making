@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-10-23T03:50:50.653335Z",
+  "status": "PASS",
+  "target_duration_seconds": 90,
+  "manifest_sha256": "dd7496c916c7dbf4ddb5c815726c8a0a9e8ff2c726a79350e4e3f43f0ce7c34f",
+  "checks": {
+    "manifest": "PASS",
+    "schema_version": "PASS",
+    "title": "PASS",
+    "duration_seconds": "PASS",
+    "slug": "PASS",
+    "fps": "PASS",
+    "duration_frame_alignment": "PASS",
+    "duration_sample_alignment": "PASS",
+    "total_frames": "PASS",
+    "audio_mode": "PASS",
+    "audio_master": "PASS",
+    "script_path": "PASS",
+    "script_hash": "PASS",
+    "script_sha256": "8be9cab6b2f862aeaaa4fdb8564d621043611a474987746e4296a7b48702c6ef",
+    "platforms": "PASS",
+    "output_platforms": "PASS",
+    "xiaohongshu_manifest_dimensions": "PASS",
+    "visual_qc": "PASS"
+  },
+  "outputs": {
+    "xiaohongshu": {
+      "status": "PASS",
+      "path": "小红书/si-ep17-godel-ouroboros-xiaohongshu-90s-portrait.mp4",
+      "sha256": "2b5676d8e1eb92911d290866326daf14fb69dc286e2e38e964a888727d4814cd",
+      "measurements": {
+        "file_size_bytes": 100451279,
+        "video": {
+          "codec": "h264",
+          "pixel_format": "yuv420p",
+          "width": 2160,
+          "height": 3840,
+          "nominal_fps": "60/1",
+          "average_fps": "60/1",
+          "counted_frames": "5400",
+          "duration_seconds": 90.0
+        },
+        "audio_stream_count": 1,
+        "audio": {
+          "codec": "aac",
+          "sample_rate": 48000,
+          "channels": 2,
+          "duration_seconds": 90.0
+        },
+        "container": {
+          "duration_seconds": 90.0,
+          "padding_vs_video_seconds": 0.0
+        },
+        "mp4_atoms": {
+          "atom_types": [
+            "ftyp",
+            "moov",
+            "free",
+            "mdat"
+          ],
+          "moov_offset": 32,
+          "mdat_offset": 143670,
+          "moov_before_mdat": true
+        }
+      },
+      "checks": {
+        "manifest_dimensions": "PASS",
+        "media_file": "PASS",
+        "ffprobe": "PASS",
+        "video_stream_count": "PASS",
+        "dimensions": "PASS",
+        "codec": "PASS",
+        "pixel_format": "PASS",
+        "nominal_fps": "PASS",
+        "average_fps": "PASS",
+        "counted_frames": "PASS",
+        "video_duration": "PASS",
+        "audio_stream_count": "PASS",
+        "audio_codec": "PASS",
+        "audio_sample_rate": "PASS",
+        "audio_channels": "PASS",
+        "audio_duration": "PASS",
+        "container_duration": "PASS",
+        "moov_before_mdat": "PASS",
+        "strict_decode": "PASS"
+      },
+      "failures": []
+    }
+  },
+  "visual_qc": {
+    "status": "PASS",
+    "outputs": {
+      "xiaohongshu": {
+        "status": "PASS",
+        "report": "review/visual-qc-xiaohongshu/report.json",
+        "media_sha256": "2b5676d8e1eb92911d290866326daf14fb69dc286e2e38e964a888727d4814cd",
+        "decoded_frames": 5400,
+        "flagged_frames": 0,
+        "failures": []
+      }
+    },
+    "failures": []
+  },
+  "failures": [],
+  "human_review": {
+    "representative_frames": "pending",
+    "continuous_human_review": "pending",
+    "target_device_playback": "pending"
+  },
+  "source_scan": {
+    "status": "PASS",
+    "files_scanned": 20,
+    "matches": [],
+    "read_errors": []
+  }
+}

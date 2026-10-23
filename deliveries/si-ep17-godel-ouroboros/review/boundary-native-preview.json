@@ -1,0 +1,30 @@
+{
+  "status": "ENCODED_BOUNDARY_SAMPLES_EXTRACTED",
+  "frames": [
+    1260,
+    1272,
+    1300,
+    1350,
+    2760,
+    2772,
+    2800,
+    2850
+  ],
+  "contact_sha256": "77c1b799cdb77a70024bf3a8b0222552c504751805ef1d21e5493183448d8508",
+  "previews": [
+    {
+      "path": "review/motion-1260-1350.mp4",
+      "sha256": "03cf3e4e1e86164e24c1ced9f9c4a46f0de3975fd055941c141ad8e1eb07329d"
+    },
+    {
+      "path": "review/motion-2760-2850.mp4",
+      "sha256": "7c0e99fbf0b76a4930bedb5f9b0ced36640ac534838b9e829974d813e3e63dfe"
+    }
+  ],
+  "model_review": {
+    "status": "PASS",
+    "observations": "Viewed all eight encoded boundary frames; mesh-to-triangle and triangle-to-recursion states blend and persist; no missing canvas, clipped main subject or displaced text observed. Runtime smoke independently covered all5400frames.",
+    "continuous_human_watch": "NOT_RUN",
+    "device_playback": "NOT_RUN"
+  }
+}

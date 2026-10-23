@@ -1,0 +1,19 @@
+{
+  "check": "EP17 all-frame real drawEngraving runtime smoke",
+  "status": "passed",
+  "frames_expected": 5400,
+  "frames_executed": 5400,
+  "failure": null,
+  "runtime_ms": 16928.47,
+  "canvas_size": {
+    "width": 2160,
+    "height": 3840
+  },
+  "canvas_calls": 27396925,
+  "path_calls": 8022240,
+  "finite_numeric_arguments_checked": 104448976,
+  "sources": {
+    "project/src/Engraving.tsx": "19264d3ef446f30b913fcb4cfc2349ab7e34c42e9fa474e19b12ecf77f2bf21e",
+    "project/src/hyperbolic.ts": "c941127943e273ffa5962e359b5ae4eb52ea8453bdc315ec37bf0e142ce3b056"
+  }
+}

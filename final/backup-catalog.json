@@ -1118,6 +1118,30 @@
       ]
     },
     {
+      "id": "si-ep17-godel-ouroboros",
+      "title": "Final 成片备份 · 啃食尾巴的神",
+      "release_tag": "final-si-ep17-godel-ouroboros-2e765a7201af",
+      "assets": [
+        {
+          "path": "final/si-ep17-godel-ouroboros/小红书/si-ep17-godel-ouroboros-xiaohongshu-90s-portrait.mp4",
+          "name": "final--si-ep17-godel-ouroboros--deliveries--si-ep17-godel-ouroboros-----si-ep17-godel-ouroboros-xiaohongshu-90s-portrait--2b5676d8e1eb.mp4",
+          "bytes": 100451279,
+          "sha256": "2b5676d8e1eb92911d290866326daf14fb69dc286e2e38e964a888727d4814cd",
+          "kind": "video",
+          "platform": "小红书",
+          "measurements": {
+            "width": 2160,
+            "height": 3840,
+            "fps": "60/1",
+            "frames": "5400",
+            "video_duration_seconds": 90.0,
+            "container_duration_seconds": 90.0
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep17-godel-ouroboros-2e765a7201af/final--si-ep17-godel-ouroboros--deliveries--si-ep17-godel-ouroboros-----si-ep17-godel-ouroboros-xiaohongshu-90s-portrait--2b5676d8e1eb.mp4"
+        }
+      ]
+    },
+    {
       "id": "si-eternity",
       "title": "Final 成片备份 · 一眼万年",
       "release_tag": "final-si-eternity-66d480b1c859",

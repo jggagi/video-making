@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "title": "啃食尾巴的神",
+  "slug": "si-ep17-godel-ouroboros",
+  "platforms": [
+    "xiaohongshu"
+  ],
+  "duration_seconds": 90,
+  "fps": 60,
+  "total_frames": 5400,
+  "script": {
+    "path": "source/script.md",
+    "sha256": "8be9cab6b2f862aeaaa4fdb8564d621043611a474987746e4296a7b48702c6ef"
+  },
+  "audio": {
+    "mode": "narrated",
+    "master": "project/public/audio/master.wav"
+  },
+  "outputs": {
+    "xiaohongshu": {
+      "path": "小红书/si-ep17-godel-ouroboros-xiaohongshu-90s-portrait.mp4",
+      "width": 2160,
+      "height": 3840
+    }
+  },
+  "qa": {
+    "automated": "pass",
+    "representative_frames": "model_review_pass",
+    "continuous_human_review": "pending",
+    "target_device_playback": "pending"
+  },
+  "visual_qc": {
+    "required": true,
+    "reports": {
+      "xiaohongshu": "review/visual-qc-xiaohongshu/report.json"
+    }
+  },
+  "production_notes": {
+    "original_script_preserved": true,
+    "adaptation_authorized": true,
+    "narration": "Bailian cosyvoice-v3-flash / longtian_v3; direct authorization in this chat",
+    "physical_voice_cues": 9,
+    "source_narration_sections": 8,
+    "caption_alignment": "Estimated phrase timing within measured PCM; no word-level ASR or forced alignment",
+    "account_publication": "NOT_SUBMITTED; package preparation only"
+  },
+  "final_movie_sha256": "2b5676d8e1eb92911d290866326daf14fb69dc286e2e38e964a888727d4814cd"
+}

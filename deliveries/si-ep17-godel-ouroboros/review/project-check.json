@@ -1,0 +1,275 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-10-23T03:32:56+00:00",
+  "project": "si-ep17-godel-ouroboros",
+  "automated_status": "PASS",
+  "checks_summary": {
+    "passed": 17,
+    "failed": 0,
+    "skipped": 0
+  },
+  "checks": [
+    {
+      "name": "read_delivery",
+      "status": "PASS",
+      "details": "delivery.json"
+    },
+    {
+      "name": "read_timeline",
+      "status": "PASS",
+      "details": "project/timeline.json"
+    },
+    {
+      "name": "read_segments",
+      "status": "PASS",
+      "details": "project/segments.json"
+    },
+    {
+      "name": "read_captions",
+      "status": "PASS",
+      "details": "project/captions.json"
+    },
+    {
+      "name": "read_audio_timing",
+      "status": "PASS",
+      "details": "project/audio-timing.json"
+    },
+    {
+      "name": "xiaohongshu_only",
+      "status": "PASS",
+      "details": {
+        "platforms": [
+          "xiaohongshu"
+        ],
+        "output_platforms": [
+          "xiaohongshu"
+        ]
+      }
+    },
+    {
+      "name": "native_project_spec",
+      "status": "PASS",
+      "details": {
+        "duration_seconds": 90,
+        "fps": 60,
+        "total_frames": 5400,
+        "width": 2160,
+        "height": 3840,
+        "timeline_duration_seconds": 90,
+        "timeline_fps": 60,
+        "timeline_total_frames": 5400,
+        "sample_rate_hz": 48000,
+        "samples_per_channel": 4320000
+      }
+    },
+    {
+      "name": "integer_timeline_boundaries",
+      "status": "PASS",
+      "details": "All declared frame/sample boundaries are integers."
+    },
+    {
+      "name": "segment_windows_and_bounds",
+      "status": "PASS",
+      "details": "Segment windows are integer, in-bounds, and non-overlapping."
+    },
+    {
+      "name": "caption_line_limits",
+      "status": "PASS",
+      "details": "All captions fit within two lines of at most 17 characters each."
+    },
+    {
+      "name": "caption_overlap_windows_bounds",
+      "status": "PASS",
+      "details": "Captions are non-overlapping and within their segment and project bounds."
+    },
+    {
+      "name": "caption_text_matches_segments",
+      "status": "PASS",
+      "details": "Punctuation and wording match each display_subtitle after removing line breaks."
+    },
+    {
+      "name": "audio_timing_measured_fields",
+      "status": "PASS",
+      "details": {
+        "status": "MEASURED",
+        "duration_seconds": 90,
+        "fps": 60,
+        "samples_per_channel": 4320000,
+        "caption_alignment_note": "estimated phrase-character weights within measured active PCM boundaries; not word-level forced alignment"
+      }
+    },
+    {
+      "name": "captions_match_audio_timing",
+      "status": "PASS",
+      "details": "audio-timing.json captions match captions.json"
+    },
+    {
+      "name": "original_source_hash_matches",
+      "status": "PASS",
+      "details": {
+        "path": "source/script.md",
+        "expected_sha256": "8be9cab6b2f862aeaaa4fdb8564d621043611a474987746e4296a7b48702c6ef",
+        "actual_sha256": "8be9cab6b2f862aeaaa4fdb8564d621043611a474987746e4296a7b48702c6ef"
+      }
+    },
+    {
+      "name": "source_forbidden_patterns",
+      "status": "PASS",
+      "details": "No forbidden nondeterministic/3D/WebGL patterns found under src/."
+    },
+    {
+      "name": "audio_master_pcm",
+      "status": "PASS",
+      "details": {
+        "status": "PASS",
+        "measured": {
+          "sample_rate_hz": 48000,
+          "channels": 2,
+          "sample_width_bytes": 2,
+          "sample_frames_per_channel": 4320000,
+          "compression_type": "NONE",
+          "compression_name": "not compressed"
+        },
+        "zero_window": {
+          "range_samples_per_channel": [
+            3888000,
+            3912000
+          ],
+          "range_is_half_open": true,
+          "samples_per_channel_expected": 24000,
+          "frames_read": 24000,
+          "zero_samples_per_channel": [
+            24000,
+            24000
+          ],
+          "all_zero_per_channel": true
+        },
+        "file_stable_during_read": true
+      }
+    }
+  ],
+  "measured": {
+    "project_spec": {
+      "duration_seconds": 90,
+      "fps": 60,
+      "total_frames": 5400,
+      "width": 2160,
+      "height": 3840,
+      "timeline_duration_seconds": 90,
+      "timeline_fps": 60,
+      "timeline_total_frames": 5400,
+      "sample_rate_hz": 48000,
+      "samples_per_channel": 4320000
+    },
+    "audio_timing": {
+      "status": "MEASURED",
+      "duration_seconds": 90,
+      "fps": 60,
+      "samples_per_channel": 4320000,
+      "caption_alignment_note": "estimated phrase-character weights within measured active PCM boundaries; not word-level forced alignment",
+      "segments": [
+        {
+          "id": "S01",
+          "actual_duration_seconds": 7.6,
+          "active_start_frame": 43,
+          "active_end_frame_exclusive": 471,
+          "cue_sha256": "3ad63488f9a9fc819ced10cddd7c3ecf9a61ad38c14e911413e2f5a303c19311"
+        },
+        {
+          "id": "S02",
+          "actual_duration_seconds": 8.56,
+          "active_start_frame": 613,
+          "active_end_frame_exclusive": 1102,
+          "cue_sha256": "257078f0b16a152b742bebada9252606ac5ec6694512a57eea989cd0c33f1a56"
+        },
+        {
+          "id": "S03",
+          "actual_duration_seconds": 8.0,
+          "active_start_frame": 1332,
+          "active_end_frame_exclusive": 1792,
+          "cue_sha256": "2ce7f3a834419d684132e6cc4d1ed338f6252189c1b977a2583eedea2a8b4d3f"
+        },
+        {
+          "id": "S04",
+          "actual_duration_seconds": 12.88,
+          "active_start_frame": 2052,
+          "active_end_frame_exclusive": 2804,
+          "cue_sha256": "5410f3bb5124793dd1da85f87207cf7b3b15ae0e9459ec2c4ad87d2451577410"
+        },
+        {
+          "id": "S05",
+          "actual_duration_seconds": 11.28,
+          "active_start_frame": 2833,
+          "active_end_frame_exclusive": 3490,
+          "cue_sha256": "ea840bf0e9e59668c88babe6db6a1c143e2fd299020eb1106f83fca3fbf941ef"
+        },
+        {
+          "id": "S06",
+          "actual_duration_seconds": 8.88,
+          "active_start_frame": 3613,
+          "active_end_frame_exclusive": 4120,
+          "cue_sha256": "3452ed432be97e2115fd05c0f4eb523e72e50500e8cb49d8394995409e057e16"
+        },
+        {
+          "id": "S07",
+          "actual_duration_seconds": 3.44,
+          "active_start_frame": 4272,
+          "active_end_frame_exclusive": 4456,
+          "cue_sha256": "8cbf091d68588436fe124b349ea218cdd895edab0ea2c75aaedb6e18f6ddc271"
+        },
+        {
+          "id": "S08A",
+          "actual_duration_seconds": 5.04,
+          "active_start_frame": 4542,
+          "active_end_frame_exclusive": 4821,
+          "cue_sha256": "d194668e3dd64f6f988fb2c5bebe987c352a9ef96cec305b205291f649bc8abc"
+        },
+        {
+          "id": "S08B",
+          "actual_duration_seconds": 6.16,
+          "active_start_frame": 4902,
+          "active_end_frame_exclusive": 5247,
+          "cue_sha256": "8ad348a6ce07993531f49d4158ff765a134597fec31996e0e78376dd5764ef66"
+        }
+      ]
+    },
+    "source_hash": {
+      "path": "source/script.md",
+      "expected_sha256": "8be9cab6b2f862aeaaa4fdb8564d621043611a474987746e4296a7b48702c6ef",
+      "actual_sha256": "8be9cab6b2f862aeaaa4fdb8564d621043611a474987746e4296a7b48702c6ef"
+    },
+    "audio_master": {
+      "status": "PASS",
+      "measured": {
+        "sample_rate_hz": 48000,
+        "channels": 2,
+        "sample_width_bytes": 2,
+        "sample_frames_per_channel": 4320000,
+        "compression_type": "NONE",
+        "compression_name": "not compressed"
+      },
+      "zero_window": {
+        "range_samples_per_channel": [
+          3888000,
+          3912000
+        ],
+        "range_is_half_open": true,
+        "samples_per_channel_expected": 24000,
+        "frames_read": 24000,
+        "zero_samples_per_channel": [
+          24000,
+          24000
+        ],
+        "all_zero_per_channel": true
+      },
+      "file_stable_during_read": true
+    }
+  },
+  "human_acceptance": {
+    "representative_frames": "PENDING",
+    "continuous_human_review": "PENDING",
+    "target_device_playback": "PENDING",
+    "model_visual_review": "NOT_RUN"
+  },
+  "report_path": "review/project-check.json"
+}

@@ -1,0 +1,60 @@
+{
+  "renderer": "Remotion4.0.534",
+  "native": [
+    2160,
+    3840
+  ],
+  "fps": 60,
+  "frames": 5400,
+  "canvas": "Canvas2D with synchronous per-frame layout effect; SVG typography after document.fonts.ready",
+  "capture": {
+    "browser": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+    "image_format": "png",
+    "concurrency": 2,
+    "scale": 1,
+    "chrome_version": "156.0.8078.47",
+    "macos_version": "27.0.1"
+  },
+  "inputs": [
+    {
+      "path": "project/src/Engraving.tsx",
+      "sha256": "265bc70205c60a4107103c70ae93ecb2dc5cb432c388f2a06005b83e14da2175"
+    },
+    {
+      "path": "project/src/Film.tsx",
+      "sha256": "b901553388c9d4c62a76e3a5b33011d0742ae0b5e1fc29dea5ebfed278edbc00"
+    },
+    {
+      "path": "project/src/Root.tsx",
+      "sha256": "6afabde516cfa9c768e0aa8c6ab136d64a44a7c084c58d83a0b4f69025a9880a"
+    },
+    {
+      "path": "project/src/hyperbolic.ts",
+      "sha256": "c941127943e273ffa5962e359b5ae4eb52ea8453bdc315ec37bf0e142ce3b056"
+    },
+    {
+      "path": "project/src/index.ts",
+      "sha256": "2e0e358282a1b998a65387c653b97c2bb2eb7aae94cf200fc0b8d919f7be73a6"
+    },
+    {
+      "path": "project/captions.json",
+      "sha256": "bd6334ba6a13848217d94507f75d9e318d524a241453ea4e6de0e43f827fd13f"
+    },
+    {
+      "path": "project/segments.json",
+      "sha256": "b0030f342d6173777028178448e72f95b1a52ccd24acb81f7f757a45b2beaa08"
+    },
+    {
+      "path": "project/timeline.json",
+      "sha256": "b062e98c86754dd311fd5fdd2be3c6f7035b36f2f3a0521cb6a06547396bf961"
+    },
+    {
+      "path": "project/package-lock.json",
+      "sha256": "e3239217b17ea80f2bbe86d4483da3d728ca4ad1b47a1c28cd251eb1cde36f5c"
+    },
+    {
+      "path": "project/public/audio/master.wav",
+      "sha256": "91a0ecf2c4d18aadf6da3fb5ce39e1c2c381bec214eb2ecdd4aa7a52a1441257"
+    }
+  ]
+}

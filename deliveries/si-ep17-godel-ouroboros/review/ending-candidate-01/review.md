@@ -1,0 +1,1 @@
+Ending refinement: the initial ripples faded too early for a clear visible consequence and sustained spatial motion. Keep this sample locally; accepted source adds a traveling kintsugi seam and staggered ripples through the last frame.

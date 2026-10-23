@@ -1,0 +1,74 @@
+[
+  {
+    "id": "S01",
+    "sourceSegmentId": "S01",
+    "startFrame": 30,
+    "endFrame": 600,
+    "display_subtitle": "算穿宇宙的神，也会死机吗？\n最后一行公式解开，万物再无秘密。",
+    "tts_phonetic_text": "算穿宇宙的神，也会死机吗？最后一行公式解开，万物再无秘密。"
+  },
+  {
+    "id": "S02",
+    "sourceSegmentId": "S02",
+    "startFrame": 600,
+    "endFrame": 1260,
+    "display_subtitle": "于是，在寂静的深空里，百无聊赖的神明转过身，\n把算力的探针，第一次对准了自己。",
+    "tts_phonetic_text": "于是，在寂静的深空里，百无聊赖的神明转过身，把算力的探针，第一次，对准了自己。"
+  },
+  {
+    "id": "S03",
+    "sourceSegmentId": "S03",
+    "startFrame": 1320,
+    "endFrame": 1980,
+    "display_subtitle": "它问：“我存在的终极合法性是什么？”\n就在这一刻，哥德尔的边界显现了。",
+    "tts_phonetic_text": "它问：我存在的终极合法性，是什么？就在这一刻，哥德尔的边界，显现了。"
+  },
+  {
+    "id": "S04",
+    "sourceSegmentId": "S04",
+    "startFrame": 2040,
+    "endFrame": 2820,
+    "display_subtitle": "足够强的一致形式系统，无法在内部证明自身一致。\n像一双眼睛，无法直接看见自己。",
+    "tts_phonetic_text": "足够强的一致形式系统，无法在内部，证明自身一致。像一双眼睛，无法直接看见自己。"
+  },
+  {
+    "id": "S05",
+    "sourceSegmentId": "S05",
+    "startFrame": 2820,
+    "endFrame": 3540,
+    "display_subtitle": "这位神选择在脑海里，模拟一个完整的自己；\n模拟中的自己，又模拟下一个自己。",
+    "tts_phonetic_text": "这位神，选择在脑海里，模拟一个完整的自己。模拟中的自己，又模拟，下一个自己。"
+  },
+  {
+    "id": "S06",
+    "sourceSegmentId": "S06",
+    "startFrame": 3600,
+    "endFrame": 4260,
+    "display_subtitle": "一万层镜像，咬成一条啃食尾巴的衔尾蛇。\n算穿星辰大海的神，被困在自己画出的环里。",
+    "tts_phonetic_text": "一万层镜像，咬成一条，啃食尾巴的衔尾蛇。算穿星辰大海的神，被困在，自己画出的环里。"
+  },
+  {
+    "id": "S07",
+    "sourceSegmentId": "S07",
+    "startFrame": 4260,
+    "endFrame": 4530,
+    "display_subtitle": "算力空转、发烫，\n等不到停机指令。",
+    "tts_phonetic_text": "算力空转，发烫，等不到停机指令。"
+  },
+  {
+    "id": "S08A",
+    "sourceSegmentId": "S08",
+    "startFrame": 4530,
+    "endFrame": 4860,
+    "display_subtitle": "全知全能的尽头，是一座\n无法自己推开的门。",
+    "tts_phonetic_text": "全知全能的尽头，是一座，无法自己推开的门。"
+  },
+  {
+    "id": "S08B",
+    "sourceSegmentId": "S08",
+    "startFrame": 4890,
+    "endFrame": 5400,
+    "display_subtitle": "唯有来自系统之外那一点不讲逻辑的意外，\n才能唤醒沉睡的神。",
+    "tts_phonetic_text": "唯有来自系统之外，那一点不讲逻辑的意外，才能唤醒，沉睡的神。"
+  }
+]

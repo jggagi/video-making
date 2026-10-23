@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "generated_by": "scripts/build-final-library.py",
-  "total_files": 58,
-  "logical_bytes": 8968516426,
+  "total_files": 59,
+  "logical_bytes": 9068967705,
   "files": [
     {
       "source_path": "out/extended/兰亭集序-展厅增强版-1080p.mp4",
@@ -811,6 +811,21 @@
       "backup_release_tag": "final-si-ep16-frictionless-world-c78c4835aa0e",
       "backup_release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep16-frictionless-world-c78c4835aa0e",
       "backup_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep16-frictionless-world-c78c4835aa0e/final--si-ep16-frictionless-world--deliveries--si-ep16-frictionless-world-----si-ep16-frictionless-world-xiaohongshu-120s-portrait--299b91acdaba.mp4",
+      "materialization": "APFS clonefile for new files; existing independent matches are retained",
+      "verification": "SHA-256 matches archive catalog; stable stat and inode checks passed"
+    },
+    {
+      "source_path": "deliveries/si-ep17-godel-ouroboros/小红书/si-ep17-godel-ouroboros-xiaohongshu-90s-portrait.mp4",
+      "final_path": "final/si-ep17-godel-ouroboros/小红书/si-ep17-godel-ouroboros-xiaohongshu-90s-portrait.mp4",
+      "work_id": "si-ep17-godel-ouroboros",
+      "title": "啃食尾巴的神",
+      "platform": "小红书",
+      "bytes": 100451279,
+      "sha256": "2b5676d8e1eb92911d290866326daf14fb69dc286e2e38e964a888727d4814cd",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep17-godel-ouroboros-2e765a7201af/si-ep17-godel-ouroboros--deliveries--si-ep17-godel-ouroboros-----si-ep17-godel-ouroboros-xiaohongshu-90s-portrait--2b5676d8e1eb.mp4",
+      "backup_release_tag": "final-si-ep17-godel-ouroboros-2e765a7201af",
+      "backup_release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep17-godel-ouroboros-2e765a7201af",
+      "backup_download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep17-godel-ouroboros-2e765a7201af/final--si-ep17-godel-ouroboros--deliveries--si-ep17-godel-ouroboros-----si-ep17-godel-ouroboros-xiaohongshu-90s-portrait--2b5676d8e1eb.mp4",
       "materialization": "APFS clonefile for new files; existing independent matches are retained",
       "verification": "SHA-256 matches archive catalog; stable stat and inode checks passed"
     },

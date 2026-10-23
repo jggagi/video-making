@@ -1,0 +1,7 @@
+{
+  "status": "COPIED_HASH_VERIFIED_SOURCE_FILES_REMOVED",
+  "recovery_manifest": "/Volumes/AgentDev/scratch/si-ep17-recovery-20261023/recovery-manifest.json",
+  "files": 24,
+  "bytes_reclaimed": 275042615,
+  "note": "Only generated scratch/cache removed; original narration, accepted audio, compact QA and source retained"
+}

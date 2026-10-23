@@ -1,0 +1,15 @@
+{
+  "status": "FAILED_NO_FORMAL_MOVIE",
+  "failure_frame": 1272,
+  "cause": "Penrose crossfade called before frame1320; JavaScript negative remainder indexed vertex -1",
+  "correction": "Normalize periodic phases into [0,1), including Droste pre-start crossfade",
+  "storage": "Internal no-space failure during subsequent source write; source hash unchanged; recovered only verified generated scratch/cache",
+  "retry_configuration": {
+    "concurrency": 1,
+    "native": [
+      2160,
+      3840
+    ],
+    "frames": 5400
+  }
+}

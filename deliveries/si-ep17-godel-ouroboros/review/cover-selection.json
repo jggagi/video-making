@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "movie_sha256": "2b5676d8e1eb92911d290866326daf14fb69dc286e2e38e964a888727d4814cd",
+  "raw_extraction": "Sequential final-MP4 decode selecting exact n; no time seek",
+  "preferred": "A-headline",
+  "covers": [
+    {
+      "cover": "A",
+      "absolute_frame": 3960,
+      "seconds": 66.0,
+      "raw_final_frame": "小红书/cover-A.png",
+      "raw_sha256": "7c677135827375b8e2ff777c717845122f21fa1a2c6e0ced95b06a9261566213",
+      "source_still_preserved": "小红书/cover-A-source.png",
+      "headline_variant": "小红书/cover-A-headline.png",
+      "headline_sha256": "5f8580b59d0a889bec8c96b86b7e7d82a71ec2adc437aef93e75b596e6d9507c",
+      "headline_note": "Native separately composed title variant at the same absolute event frame"
+    },
+    {
+      "cover": "B",
+      "absolute_frame": 2160,
+      "seconds": 36.0,
+      "raw_final_frame": "小红书/cover-B.png",
+      "raw_sha256": "46d4aac039015cfd7e0ba2514199759eac85dce8874b3f40c0ccab0a84ec5d61",
+      "source_still_preserved": "小红书/cover-B-source.png",
+      "headline_variant": "小红书/cover-B-headline.png",
+      "headline_sha256": "d367d6a43c00ae820dbdcd15bda255cfe26c66cb19f5f628cb5c2342d2600c51",
+      "headline_note": "Native separately composed title variant at the same absolute event frame"
+    }
+  ]
+}

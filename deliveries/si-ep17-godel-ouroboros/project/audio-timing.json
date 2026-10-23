@@ -1,0 +1,197 @@
+{
+  "status": "MEASURED",
+  "duration_seconds": 90,
+  "fps": 60,
+  "samples_per_channel": 4320000,
+  "captionAlignment": "estimated phrase-character weights within measured active PCM boundaries; not word-level forced alignment",
+  "segments": [
+    {
+      "id": "S01",
+      "startFrame": 30,
+      "endFrame": 600,
+      "actualDurationSeconds": 7.6,
+      "activeStartFrame": 43,
+      "activeEndFrameExclusive": 471,
+      "cuePath": "public/audio/voice/S01-730f61e561e8.wav",
+      "sha256": "3ad63488f9a9fc819ced10cddd7c3ecf9a61ad38c14e911413e2f5a303c19311"
+    },
+    {
+      "id": "S02",
+      "startFrame": 600,
+      "endFrame": 1260,
+      "actualDurationSeconds": 8.56,
+      "activeStartFrame": 613,
+      "activeEndFrameExclusive": 1102,
+      "cuePath": "public/audio/voice/S02-752f36cb7174.wav",
+      "sha256": "257078f0b16a152b742bebada9252606ac5ec6694512a57eea989cd0c33f1a56"
+    },
+    {
+      "id": "S03",
+      "startFrame": 1320,
+      "endFrame": 1980,
+      "actualDurationSeconds": 8.0,
+      "activeStartFrame": 1332,
+      "activeEndFrameExclusive": 1792,
+      "cuePath": "public/audio/voice/S03-34496837b512.wav",
+      "sha256": "2ce7f3a834419d684132e6cc4d1ed338f6252189c1b977a2583eedea2a8b4d3f"
+    },
+    {
+      "id": "S04",
+      "startFrame": 2040,
+      "endFrame": 2820,
+      "actualDurationSeconds": 12.88,
+      "activeStartFrame": 2052,
+      "activeEndFrameExclusive": 2804,
+      "cuePath": "public/audio/voice/S04-96cd9070edc4.wav",
+      "sha256": "5410f3bb5124793dd1da85f87207cf7b3b15ae0e9459ec2c4ad87d2451577410"
+    },
+    {
+      "id": "S05",
+      "startFrame": 2820,
+      "endFrame": 3540,
+      "actualDurationSeconds": 11.28,
+      "activeStartFrame": 2833,
+      "activeEndFrameExclusive": 3490,
+      "cuePath": "public/audio/voice/S05-9ac84aa14d18.wav",
+      "sha256": "ea840bf0e9e59668c88babe6db6a1c143e2fd299020eb1106f83fca3fbf941ef"
+    },
+    {
+      "id": "S06",
+      "startFrame": 3600,
+      "endFrame": 4260,
+      "actualDurationSeconds": 8.88,
+      "activeStartFrame": 3613,
+      "activeEndFrameExclusive": 4120,
+      "cuePath": "public/audio/voice/S06-c9f084b07c7e.wav",
+      "sha256": "3452ed432be97e2115fd05c0f4eb523e72e50500e8cb49d8394995409e057e16"
+    },
+    {
+      "id": "S07",
+      "startFrame": 4260,
+      "endFrame": 4530,
+      "actualDurationSeconds": 3.44,
+      "activeStartFrame": 4272,
+      "activeEndFrameExclusive": 4456,
+      "cuePath": "public/audio/voice/S07-83b5eee76ad3.wav",
+      "sha256": "8cbf091d68588436fe124b349ea218cdd895edab0ea2c75aaedb6e18f6ddc271"
+    },
+    {
+      "id": "S08A",
+      "startFrame": 4530,
+      "endFrame": 4860,
+      "actualDurationSeconds": 5.04,
+      "activeStartFrame": 4542,
+      "activeEndFrameExclusive": 4821,
+      "cuePath": "public/audio/voice/S08A-bfc2929024bd.wav",
+      "sha256": "d194668e3dd64f6f988fb2c5bebe987c352a9ef96cec305b205291f649bc8abc"
+    },
+    {
+      "id": "S08B",
+      "startFrame": 4890,
+      "endFrame": 5400,
+      "actualDurationSeconds": 6.16,
+      "activeStartFrame": 4902,
+      "activeEndFrameExclusive": 5247,
+      "cuePath": "public/audio/voice/S08B-1fcb7d44a414.wav",
+      "sha256": "8ad348a6ce07993531f49d4158ff765a134597fec31996e0e78376dd5764ef66"
+    }
+  ],
+  "captions": [
+    {
+      "id": "S01",
+      "startFrame": 43,
+      "endFrame": 232,
+      "text": "算穿宇宙的神，也会死机吗？"
+    },
+    {
+      "id": "S01",
+      "startFrame": 232,
+      "endFrame": 493,
+      "text": "最后一行公式解开，\n万物再无秘密。"
+    },
+    {
+      "id": "S02",
+      "startFrame": 613,
+      "endFrame": 893,
+      "text": "于是，在寂静的深空里，\n百无聊赖的神明转过身，"
+    },
+    {
+      "id": "S02",
+      "startFrame": 893,
+      "endFrame": 1124,
+      "text": "把算力的探针，\n第一次对准了自己。"
+    },
+    {
+      "id": "S03",
+      "startFrame": 1332,
+      "endFrame": 1562,
+      "text": "它问：“我存在的终极合法性\n是什么？”"
+    },
+    {
+      "id": "S03",
+      "startFrame": 1562,
+      "endFrame": 1814,
+      "text": "就在这一刻，\n哥德尔的边界显现了。"
+    },
+    {
+      "id": "S04",
+      "startFrame": 2052,
+      "endFrame": 2513,
+      "text": "足够强的一致形式系统，\n无法在内部证明自身一致。"
+    },
+    {
+      "id": "S04",
+      "startFrame": 2513,
+      "endFrame": 2820,
+      "text": "像一双眼睛，\n无法直接看见自己。"
+    },
+    {
+      "id": "S05",
+      "startFrame": 2833,
+      "endFrame": 3201,
+      "text": "这位神选择在脑海里，\n模拟一个完整的自己；"
+    },
+    {
+      "id": "S05",
+      "startFrame": 3201,
+      "endFrame": 3512,
+      "text": "模拟中的自己，\n又模拟下一个自己。"
+    },
+    {
+      "id": "S06",
+      "startFrame": 3613,
+      "endFrame": 3859,
+      "text": "一万层镜像，\n咬成一条啃食尾巴的衔尾蛇。"
+    },
+    {
+      "id": "S06",
+      "startFrame": 3859,
+      "endFrame": 4142,
+      "text": "算穿星辰大海的神，\n被困在自己画出的环里。"
+    },
+    {
+      "id": "S07",
+      "startFrame": 4272,
+      "endFrame": 4478,
+      "text": "算力空转、发烫，\n等不到停机指令。"
+    },
+    {
+      "id": "S08A",
+      "startFrame": 4542,
+      "endFrame": 4843,
+      "text": "全知全能的尽头，\n是一座无法自己推开的门。"
+    },
+    {
+      "id": "S08B",
+      "startFrame": 4902,
+      "endFrame": 5138,
+      "text": "唯有来自系统之外\n那一点不讲逻辑的意外，"
+    },
+    {
+      "id": "S08B",
+      "startFrame": 5138,
+      "endFrame": 5269,
+      "text": "才能唤醒沉睡的神。"
+    }
+  ]
+}

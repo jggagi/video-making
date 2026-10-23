@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "source": "segments-original.json",
+  "cues": [
+    {
+      "id": "S01",
+      "spokenText": "当超级智能，解开了宇宙的最后一行公式，世间万物，再也没有任何秘密可言。",
+      "sourceSegmentFile": "segments-original.json",
+      "sourceStartFrame": 60,
+      "sourceEndFrame": 540,
+      "placementStartFrameForFit": 60,
+      "windowEndFrame": 540,
+      "windowSeconds": 8.0,
+      "provider": "Aliyun Bailian",
+      "requestedModel": null,
+      "actualModel": "cosyvoice-v3-flash",
+      "voice": "longtian_v3",
+      "actualVoice": "longtian_v3",
+      "identityEvidencePaths": {
+        "modelPaths": [
+          "$.model"
+        ],
+        "voicePaths": [
+          "$.voice"
+        ]
+      },
+      "rate": 1.0,
+      "formatRequested": "wav",
+      "providerSampleRate": 24000,
+      "providerChannels": 1,
+      "providerBitsPerSample": 16,
+      "rawAudioFile": "public/audio/history/raw/3d37c65886b3e689ee1e5e0759f20f26990e0e18d159c36a4cdb9982cd12ebd0.wav",
+      "rawSha256": "c2549bcdb57dbae9193326f90e00aba419beaa014d7323b500d0ce7c72aa0d81",
+      "rawSampleCount": 220800,
+      "rawDurationSeconds": 9.2,
+      "rawHeaderMismatchRepairedForCanonical": true,
+      "canonicalAudioFile": "public/audio/original-samples/S01-3d37c65886b3.wav",
+      "canonicalSha256": "60e99c550ef10567dae1a2a9633db25c596f4a8d73c4ca0c90489ed8240f4c4d",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitsPerSample": 16,
+      "sampleCount": 441600,
+      "durationSeconds": 9.2,
+      "activeThresholdPcm16": 32,
+      "activeStartSample": 9984,
+      "activeEndSampleExclusive": 430198,
+      "activeStartFrame": 72,
+      "activeEndFrameExclusive": 598,
+      "activeDurationSeconds": 8.754458333333334,
+      "fitsOriginalWindowWithoutTrimOrSpeedChange": false,
+      "cacheKey": "3d37c65886b3e689ee1e5e0759f20f26990e0e18d159c36a4cdb9982cd12ebd0",
+      "textFile": "public/audio/text/S01-3d37c65886b3.txt",
+      "textSha256": "ef33cd2ebcfb99b6ded10e86ca5ba06738ec795187c37351cb38b947f376c149",
+      "cacheReuse": false,
+      "generatedAt": "2026-10-23T02:47:31Z"
+    },
+    {
+      "id": "S08",
+      "spokenText": "全知全能的尽头，是一座，无法自己推开的门。唯有来自系统之外，那一点不讲逻辑的意外，才能唤醒，沉睡的神。",
+      "sourceSegmentFile": "segments-original.json",
+      "sourceStartFrame": 4860,
+      "sourceEndFrame": 5400,
+      "placementStartFrameForFit": 4890,
+      "windowEndFrame": 5400,
+      "windowSeconds": 8.5,
+      "provider": "Aliyun Bailian",
+      "requestedModel": null,
+      "actualModel": "cosyvoice-v3-flash",
+      "voice": "longtian_v3",
+      "actualVoice": "longtian_v3",
+      "identityEvidencePaths": {
+        "modelPaths": [
+          "$.model"
+        ],
+        "voicePaths": [
+          "$.voice"
+        ]
+      },
+      "rate": 1.0,
+      "formatRequested": "wav",
+      "providerSampleRate": 24000,
+      "providerChannels": 1,
+      "providerBitsPerSample": 16,
+      "rawAudioFile": "public/audio/history/raw/ea914d1743fdf2c245d08a6e8a3f21745c85fdb2d9a8492e12cf65605e9749ae.wav",
+      "rawSha256": "6601457c79024ef2534cea7eccedfb6cb4dc6f758fd9a185316e6468d90b91da",
+      "rawSampleCount": 282240,
+      "rawDurationSeconds": 11.76,
+      "rawHeaderMismatchRepairedForCanonical": true,
+      "canonicalAudioFile": "public/audio/original-samples/S08-ea914d1743fd.wav",
+      "canonicalSha256": "df0e6e7997883028804265db3a6951db4d5658a955fd5c127d3cb8d80582d001",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitsPerSample": 16,
+      "sampleCount": 564480,
+      "durationSeconds": 11.76,
+      "activeThresholdPcm16": 32,
+      "activeStartSample": 10067,
+      "activeEndSampleExclusive": 557802,
+      "activeStartFrame": 4902,
+      "activeEndFrameExclusive": 5588,
+      "activeDurationSeconds": 11.411145833333334,
+      "fitsOriginalWindowWithoutTrimOrSpeedChange": false,
+      "cacheKey": "ea914d1743fdf2c245d08a6e8a3f21745c85fdb2d9a8492e12cf65605e9749ae",
+      "textFile": "public/audio/text/S08-ea914d1743fd.txt",
+      "textSha256": "8799e1cc2c9e1f5bb69693e35d9ae3ab8da1c2019b4d4cbe67293c4cf315452a",
+      "cacheReuse": false,
+      "generatedAt": "2026-10-23T02:47:34Z"
+    }
+  ],
+  "settings": {
+    "provider": "Aliyun Bailian",
+    "requestedModel": null,
+    "expectedEffectiveModel": "cosyvoice-v3-flash",
+    "voice": "longtian_v3",
+    "rate": 1.0,
+    "format": "wav",
+    "sampleRate": 24000,
+    "language": "zh",
+    "concurrent": 1
+  },
+  "updatedAt": "2026-10-23T02:47:34Z"
+}

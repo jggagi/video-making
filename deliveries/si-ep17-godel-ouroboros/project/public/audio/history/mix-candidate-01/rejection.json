@@ -1,0 +1,5 @@
+{
+  "status": "REJECTED",
+  "reason": "Measured integrated loudness -16.4 LUFS, outside -16\u00b10.15. Audio timing/stems kept for provenance. Cold arpeggio/tick envelope/Shepard phase also revised before accepted mix.",
+  "master_sha256": "1f9fbd1ffc76979a9dfa19d37466cc46816a6edbd2ba8bcc1d5adbc1e7572bc3"
+}

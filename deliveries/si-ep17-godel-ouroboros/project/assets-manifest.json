@@ -1,0 +1,436 @@
+{
+  "work": "si-ep17-godel-ouroboros",
+  "generation": "Native deterministic Canvas2D/SVG code; no generated raster image or 3D asset",
+  "visual_source": {
+    "src/Engraving.tsx": "19264d3ef446f30b913fcb4cfc2349ab7e34c42e9fa474e19b12ecf77f2bf21e",
+    "src/Film.tsx": "b901553388c9d4c62a76e3a5b33011d0742ae0b5e1fc29dea5ebfed278edbc00",
+    "src/Root.tsx": "6afabde516cfa9c768e0aa8c6ab136d64a44a7c084c58d83a0b4f69025a9880a",
+    "src/hyperbolic.ts": "c941127943e273ffa5962e359b5ae4eb52ea8453bdc315ec37bf0e142ce3b056",
+    "src/index.ts": "2e0e358282a1b998a65387c653b97c2bb2eb7aae94cf200fc0b8d919f7be73a6"
+  },
+  "typography": {
+    "families": [
+      "Songti SC",
+      "PingFang SC",
+      "Menlo"
+    ],
+    "source": "Local macOS fonts; not redistributed; alternate machines need layout verification"
+  },
+  "narration_provider": "Aliyun Bailian",
+  "actual_model": "cosyvoice-v3-flash",
+  "voice": "longtian_v3",
+  "synthesis_evidence": "../review/audio-synthesis.json",
+  "music_and_sfx": "Local original deterministic procedural score, no sampled commercial recording",
+  "assets": [
+    {
+      "id": "audio/history/raw/1fcb7d44a4148a05220db2daa82344fea2690c39b82541d3f20c01bc593ecfed.wav",
+      "path": "public/audio/history/raw/1fcb7d44a4148a05220db2daa82344fea2690c39b82541d3f20c01bc593ecfed.wav",
+      "sha256": "a5c7cc126fb3e4a3364c152224e3f55f4d716c103537b3f2d8059d6fddd4ad93",
+      "bytes": 295724,
+      "measuredWav": {
+        "sample_rate": 24000,
+        "channels": 1,
+        "sample_width": 2,
+        "declared_samples": 1073741773,
+        "actual_decoded_bytes": 295680
+      }
+    },
+    {
+      "id": "audio/history/raw/34496837b512f6178123dd803c5f47596aa2b25d78027cf0e2c6a0b495cb264f.wav",
+      "path": "public/audio/history/raw/34496837b512f6178123dd803c5f47596aa2b25d78027cf0e2c6a0b495cb264f.wav",
+      "sha256": "f469760c9537beb2359b1c3878c39ebdc123bf1b8e94ce284dc3165bf6a62306",
+      "bytes": 384044,
+      "measuredWav": {
+        "sample_rate": 24000,
+        "channels": 1,
+        "sample_width": 2,
+        "declared_samples": 1073741773,
+        "actual_decoded_bytes": 384000
+      }
+    },
+    {
+      "id": "audio/history/raw/3d37c65886b3e689ee1e5e0759f20f26990e0e18d159c36a4cdb9982cd12ebd0.wav",
+      "path": "public/audio/history/raw/3d37c65886b3e689ee1e5e0759f20f26990e0e18d159c36a4cdb9982cd12ebd0.wav",
+      "sha256": "c2549bcdb57dbae9193326f90e00aba419beaa014d7323b500d0ce7c72aa0d81",
+      "bytes": 441644,
+      "measuredWav": {
+        "sample_rate": 24000,
+        "channels": 1,
+        "sample_width": 2,
+        "declared_samples": 1073741773,
+        "actual_decoded_bytes": 441600
+      }
+    },
+    {
+      "id": "audio/history/raw/730f61e561e8b931fbfdeadee1cc3af9a0b0d56a37958789f3714558cb9931d2.wav",
+      "path": "public/audio/history/raw/730f61e561e8b931fbfdeadee1cc3af9a0b0d56a37958789f3714558cb9931d2.wav",
+      "sha256": "7e87fcf49b0801b855a7cb98f8692580781dfac946e16356959e83791832e9f3",
+      "bytes": 364844,
+      "measuredWav": {
+        "sample_rate": 24000,
+        "channels": 1,
+        "sample_width": 2,
+        "declared_samples": 1073741773,
+        "actual_decoded_bytes": 364800
+      }
+    },
+    {
+      "id": "audio/history/raw/752f36cb7174991f23c073dcba66902448223a89e468f42ac3c32c9cfcd192b1.wav",
+      "path": "public/audio/history/raw/752f36cb7174991f23c073dcba66902448223a89e468f42ac3c32c9cfcd192b1.wav",
+      "sha256": "3b9903ee316c2f69eaa5f4885210a6c8043c6b26a5ef2e92f9591a537bf5264d",
+      "bytes": 410924,
+      "measuredWav": {
+        "sample_rate": 24000,
+        "channels": 1,
+        "sample_width": 2,
+        "declared_samples": 1073741773,
+        "actual_decoded_bytes": 410880
+      }
+    },
+    {
+      "id": "audio/history/raw/83b5eee76ad3775d04dccd62f2d08fb1153f44df458daea8cdf4c8db82588217.wav",
+      "path": "public/audio/history/raw/83b5eee76ad3775d04dccd62f2d08fb1153f44df458daea8cdf4c8db82588217.wav",
+      "sha256": "0bafe26e12277761d2d840e7bbbecfcb4bec837029d98e90165d0ecf5bd2e298",
+      "bytes": 165164,
+      "measuredWav": {
+        "sample_rate": 24000,
+        "channels": 1,
+        "sample_width": 2,
+        "declared_samples": 1073741773,
+        "actual_decoded_bytes": 165120
+      }
+    },
+    {
+      "id": "audio/history/raw/96cd9070edc49917847785ff7a6c8f1f26f8a830613939c0019dfdc43ea35c9b.wav",
+      "path": "public/audio/history/raw/96cd9070edc49917847785ff7a6c8f1f26f8a830613939c0019dfdc43ea35c9b.wav",
+      "sha256": "3c6b5a05339edaf961ff60cb9d0a1b09155c6746f2682646330318456eab9593",
+      "bytes": 618284,
+      "measuredWav": {
+        "sample_rate": 24000,
+        "channels": 1,
+        "sample_width": 2,
+        "declared_samples": 1073741773,
+        "actual_decoded_bytes": 618240
+      }
+    },
+    {
+      "id": "audio/history/raw/9ac84aa14d18387dd69e1353adbf331b4cec501b1e28a2f242d60d5efc2aa960.wav",
+      "path": "public/audio/history/raw/9ac84aa14d18387dd69e1353adbf331b4cec501b1e28a2f242d60d5efc2aa960.wav",
+      "sha256": "9e8d883ef1db48948d3d93727a4de44ff9bcabb2c14b6ee54b2ee402b151b268",
+      "bytes": 541484,
+      "measuredWav": {
+        "sample_rate": 24000,
+        "channels": 1,
+        "sample_width": 2,
+        "declared_samples": 1073741773,
+        "actual_decoded_bytes": 541440
+      }
+    },
+    {
+      "id": "audio/history/raw/bfc2929024bd7fc5e06488746e2a7ed3f55dcfa7e50bf9184cc088f35bce8f09.wav",
+      "path": "public/audio/history/raw/bfc2929024bd7fc5e06488746e2a7ed3f55dcfa7e50bf9184cc088f35bce8f09.wav",
+      "sha256": "a16cbddccb3f40b42b9cb1bfb470c5d87ea019bf26c52995a54b20a2ec79ac51",
+      "bytes": 241964,
+      "measuredWav": {
+        "sample_rate": 24000,
+        "channels": 1,
+        "sample_width": 2,
+        "declared_samples": 1073741773,
+        "actual_decoded_bytes": 241920
+      }
+    },
+    {
+      "id": "audio/history/raw/c9f084b07c7eb031ff3cb5df38f3a83de36bd5c99d590d664b4d9f8e60e5abe8.wav",
+      "path": "public/audio/history/raw/c9f084b07c7eb031ff3cb5df38f3a83de36bd5c99d590d664b4d9f8e60e5abe8.wav",
+      "sha256": "38fe4352b280de096181fd0f290f53521154e7b52a002177634c888a8ddc1aff",
+      "bytes": 426284,
+      "measuredWav": {
+        "sample_rate": 24000,
+        "channels": 1,
+        "sample_width": 2,
+        "declared_samples": 1073741773,
+        "actual_decoded_bytes": 426240
+      }
+    },
+    {
+      "id": "audio/history/raw/ea914d1743fdf2c245d08a6e8a3f21745c85fdb2d9a8492e12cf65605e9749ae.wav",
+      "path": "public/audio/history/raw/ea914d1743fdf2c245d08a6e8a3f21745c85fdb2d9a8492e12cf65605e9749ae.wav",
+      "sha256": "6601457c79024ef2534cea7eccedfb6cb4dc6f758fd9a185316e6468d90b91da",
+      "bytes": 564524,
+      "measuredWav": {
+        "sample_rate": 24000,
+        "channels": 1,
+        "sample_width": 2,
+        "declared_samples": 1073741773,
+        "actual_decoded_bytes": 564480
+      }
+    },
+    {
+      "id": "audio/master.wav",
+      "path": "public/audio/master.wav",
+      "sha256": "91a0ecf2c4d18aadf6da3fb5ce39e1c2c381bec214eb2ecdd4aa7a52a1441257",
+      "bytes": 17280044,
+      "measuredWav": {
+        "sample_rate": 48000,
+        "channels": 2,
+        "sample_width": 2,
+        "declared_samples": 4320000,
+        "actual_decoded_bytes": 17280000
+      }
+    },
+    {
+      "id": "audio/original-samples/S01-3d37c65886b3.wav",
+      "path": "public/audio/original-samples/S01-3d37c65886b3.wav",
+      "sha256": "60e99c550ef10567dae1a2a9633db25c596f4a8d73c4ca0c90489ed8240f4c4d",
+      "bytes": 883278,
+      "measuredWav": {
+        "sample_rate": 48000,
+        "channels": 1,
+        "sample_width": 2,
+        "declared_samples": 441600,
+        "actual_decoded_bytes": 883200
+      }
+    },
+    {
+      "id": "audio/original-samples/S08-ea914d1743fd.wav",
+      "path": "public/audio/original-samples/S08-ea914d1743fd.wav",
+      "sha256": "df0e6e7997883028804265db3a6951db4d5658a955fd5c127d3cb8d80582d001",
+      "bytes": 1129038,
+      "measuredWav": {
+        "sample_rate": 48000,
+        "channels": 1,
+        "sample_width": 2,
+        "declared_samples": 564480,
+        "actual_decoded_bytes": 1128960
+      }
+    },
+    {
+      "id": "audio/sfx_events.json",
+      "path": "public/audio/sfx_events.json",
+      "sha256": "09c67bd86d409f5939cd139f6fe1717de918729280ee77d5f0ce69872b5b7248",
+      "bytes": 1550
+    },
+    {
+      "id": "audio/stems/narration.wav",
+      "path": "public/audio/stems/narration.wav",
+      "sha256": "c1997b4b23c18e196de5699c6c263e7ff0362ad7468a3ffbed7dca431afdf188",
+      "bytes": 17280044,
+      "measuredWav": {
+        "sample_rate": 48000,
+        "channels": 2,
+        "sample_width": 2,
+        "declared_samples": 4320000,
+        "actual_decoded_bytes": 17280000
+      }
+    },
+    {
+      "id": "audio/stems/score.wav",
+      "path": "public/audio/stems/score.wav",
+      "sha256": "75463a6bd480f36e26b32c135d41b705ddabf313991ff4daa5ad4c91cb68b969",
+      "bytes": 17280044,
+      "measuredWav": {
+        "sample_rate": 48000,
+        "channels": 2,
+        "sample_width": 2,
+        "declared_samples": 4320000,
+        "actual_decoded_bytes": 17280000
+      }
+    },
+    {
+      "id": "audio/stems/sfx.wav",
+      "path": "public/audio/stems/sfx.wav",
+      "sha256": "a97af1652599afe7b2b120047634486727e5270ee02980046b4bf5016b51a67b",
+      "bytes": 17280044,
+      "measuredWav": {
+        "sample_rate": 48000,
+        "channels": 2,
+        "sample_width": 2,
+        "declared_samples": 4320000,
+        "actual_decoded_bytes": 17280000
+      }
+    },
+    {
+      "id": "audio/text/S01-3d37c65886b3.txt",
+      "path": "public/audio/text/S01-3d37c65886b3.txt",
+      "sha256": "ef33cd2ebcfb99b6ded10e86ca5ba06738ec795187c37351cb38b947f376c149",
+      "bytes": 105
+    },
+    {
+      "id": "audio/text/S01-730f61e561e8.txt",
+      "path": "public/audio/text/S01-730f61e561e8.txt",
+      "sha256": "c894fc62d74f6a66231b17ea319842aa0d2b7f73d5fd7f5d7d3c458eb9140e4e",
+      "bytes": 87
+    },
+    {
+      "id": "audio/text/S02-752f36cb7174.txt",
+      "path": "public/audio/text/S02-752f36cb7174.txt",
+      "sha256": "53fc90f10055fa24239e1ad3a49fe105afae34b0ac5fc7d60dae724306222c73",
+      "bytes": 117
+    },
+    {
+      "id": "audio/text/S03-34496837b512.txt",
+      "path": "public/audio/text/S03-34496837b512.txt",
+      "sha256": "1aa3a7267cc2d5748f434a4acd672d53dcb3937f4abdc55a1e3872cf7fb0f0cc",
+      "bytes": 102
+    },
+    {
+      "id": "audio/text/S04-96cd9070edc4.txt",
+      "path": "public/audio/text/S04-96cd9070edc4.txt",
+      "sha256": "40d5305f498828fca0da2fa32d8cca2cc6cb675526c4bb391213e1326ff311dd",
+      "bytes": 117
+    },
+    {
+      "id": "audio/text/S05-9ac84aa14d18.txt",
+      "path": "public/audio/text/S05-9ac84aa14d18.txt",
+      "sha256": "5dd996e95e682a8cc377d4225d493a1c85a8c678b5ca9b91b80d8c6bc49738b9",
+      "bytes": 114
+    },
+    {
+      "id": "audio/text/S06-c9f084b07c7e.txt",
+      "path": "public/audio/text/S06-c9f084b07c7e.txt",
+      "sha256": "21796d31b7afe97bb6eec68b18195db7381e4757829d53d7b728455ba209adbb",
+      "bytes": 123
+    },
+    {
+      "id": "audio/text/S07-83b5eee76ad3.txt",
+      "path": "public/audio/text/S07-83b5eee76ad3.txt",
+      "sha256": "3b0f22ece50c0a16449dd529ecac2c05505bec917504d7060826050a52a843a6",
+      "bytes": 48
+    },
+    {
+      "id": "audio/text/S08-ea914d1743fd.txt",
+      "path": "public/audio/text/S08-ea914d1743fd.txt",
+      "sha256": "8799e1cc2c9e1f5bb69693e35d9ae3ab8da1c2019b4d4cbe67293c4cf315452a",
+      "bytes": 153
+    },
+    {
+      "id": "audio/text/S08A-bfc2929024bd.txt",
+      "path": "public/audio/text/S08A-bfc2929024bd.txt",
+      "sha256": "456f2b27bc4f6278f58b15497b9c19ffe9ea7aca7a286b1dad26783ce2491ecb",
+      "bytes": 63
+    },
+    {
+      "id": "audio/text/S08B-1fcb7d44a414.txt",
+      "path": "public/audio/text/S08B-1fcb7d44a414.txt",
+      "sha256": "d89f409440b72b945429772e5b137686fbdc9302b7a24a256164d35c9361c368",
+      "bytes": 90
+    },
+    {
+      "id": "audio/voice/S01-730f61e561e8.wav",
+      "path": "public/audio/voice/S01-730f61e561e8.wav",
+      "sha256": "3ad63488f9a9fc819ced10cddd7c3ecf9a61ad38c14e911413e2f5a303c19311",
+      "bytes": 729678,
+      "measuredWav": {
+        "sample_rate": 48000,
+        "channels": 1,
+        "sample_width": 2,
+        "declared_samples": 364800,
+        "actual_decoded_bytes": 729600
+      }
+    },
+    {
+      "id": "audio/voice/S02-752f36cb7174.wav",
+      "path": "public/audio/voice/S02-752f36cb7174.wav",
+      "sha256": "257078f0b16a152b742bebada9252606ac5ec6694512a57eea989cd0c33f1a56",
+      "bytes": 821838,
+      "measuredWav": {
+        "sample_rate": 48000,
+        "channels": 1,
+        "sample_width": 2,
+        "declared_samples": 410880,
+        "actual_decoded_bytes": 821760
+      }
+    },
+    {
+      "id": "audio/voice/S03-34496837b512.wav",
+      "path": "public/audio/voice/S03-34496837b512.wav",
+      "sha256": "2ce7f3a834419d684132e6cc4d1ed338f6252189c1b977a2583eedea2a8b4d3f",
+      "bytes": 768078,
+      "measuredWav": {
+        "sample_rate": 48000,
+        "channels": 1,
+        "sample_width": 2,
+        "declared_samples": 384000,
+        "actual_decoded_bytes": 768000
+      }
+    },
+    {
+      "id": "audio/voice/S04-96cd9070edc4.wav",
+      "path": "public/audio/voice/S04-96cd9070edc4.wav",
+      "sha256": "5410f3bb5124793dd1da85f87207cf7b3b15ae0e9459ec2c4ad87d2451577410",
+      "bytes": 1236558,
+      "measuredWav": {
+        "sample_rate": 48000,
+        "channels": 1,
+        "sample_width": 2,
+        "declared_samples": 618240,
+        "actual_decoded_bytes": 1236480
+      }
+    },
+    {
+      "id": "audio/voice/S05-9ac84aa14d18.wav",
+      "path": "public/audio/voice/S05-9ac84aa14d18.wav",
+      "sha256": "ea840bf0e9e59668c88babe6db6a1c143e2fd299020eb1106f83fca3fbf941ef",
+      "bytes": 1082958,
+      "measuredWav": {
+        "sample_rate": 48000,
+        "channels": 1,
+        "sample_width": 2,
+        "declared_samples": 541440,
+        "actual_decoded_bytes": 1082880
+      }
+    },
+    {
+      "id": "audio/voice/S06-c9f084b07c7e.wav",
+      "path": "public/audio/voice/S06-c9f084b07c7e.wav",
+      "sha256": "3452ed432be97e2115fd05c0f4eb523e72e50500e8cb49d8394995409e057e16",
+      "bytes": 852558,
+      "measuredWav": {
+        "sample_rate": 48000,
+        "channels": 1,
+        "sample_width": 2,
+        "declared_samples": 426240,
+        "actual_decoded_bytes": 852480
+      }
+    },
+    {
+      "id": "audio/voice/S07-83b5eee76ad3.wav",
+      "path": "public/audio/voice/S07-83b5eee76ad3.wav",
+      "sha256": "8cbf091d68588436fe124b349ea218cdd895edab0ea2c75aaedb6e18f6ddc271",
+      "bytes": 330318,
+      "measuredWav": {
+        "sample_rate": 48000,
+        "channels": 1,
+        "sample_width": 2,
+        "declared_samples": 165120,
+        "actual_decoded_bytes": 330240
+      }
+    },
+    {
+      "id": "audio/voice/S08A-bfc2929024bd.wav",
+      "path": "public/audio/voice/S08A-bfc2929024bd.wav",
+      "sha256": "d194668e3dd64f6f988fb2c5bebe987c352a9ef96cec305b205291f649bc8abc",
+      "bytes": 483918,
+      "measuredWav": {
+        "sample_rate": 48000,
+        "channels": 1,
+        "sample_width": 2,
+        "declared_samples": 241920,
+        "actual_decoded_bytes": 483840
+      }
+    },
+    {
+      "id": "audio/voice/S08B-1fcb7d44a414.wav",
+      "path": "public/audio/voice/S08B-1fcb7d44a414.wav",
+      "sha256": "8ad348a6ce07993531f49d4158ff765a134597fec31996e0e78376dd5764ef66",
+      "bytes": 591438,
+      "measuredWav": {
+        "sample_rate": 48000,
+        "channels": 1,
+        "sample_width": 2,
+        "declared_samples": 295680,
+        "actual_decoded_bytes": 591360
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "status": "MUXED",
+  "file": "/Volumes/AgentDev/Scratch/tmp/si-ep17-native-2JX008/video-only.mp4",
+  "sha256": "86e4be1e8f6cf5a0882a17df94185cca3c4ed2662283fcc42256f4df00b7112d",
+  "bytes": 97719986,
+  "capture": {
+    "remotion": "4.0.534",
+    "chrome": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+    "imageFormat": "png",
+    "concurrency": 1,
+    "nativeWidth": 2160,
+    "nativeHeight": 3840
+  },
+  "absoluteRange": [
+    0,
+    5399
+  ],
+  "scope": "Owned rebuildable native video track on verified AgentDev scratch; formal outputs remain in repository",
+  "final_movie_sha256": "2b5676d8e1eb92911d290866326daf14fb69dc286e2e38e964a888727d4814cd"
+}

@@ -1,0 +1,7 @@
+# Keep compact review evidence; native source stills remain reproducible locally.
+review/source-*.png
+review/candidate-01-rejected/*.png
+review/native-redraw/
+# Retain rejected audio locally; its reason and identity stay in Git.
+project/public/audio/history/mix-candidate-*/*.wav
+project/public/audio/history/mix-candidate-*/stems/*.wav

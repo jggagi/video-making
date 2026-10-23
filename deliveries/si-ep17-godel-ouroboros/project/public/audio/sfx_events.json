@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "fps": 60,
+  "sampleRate": 48000,
+  "events": [
+    {
+      "id": "lens-iris",
+      "frame": 840,
+      "kind": "low-inward-sweep",
+      "seconds": 2.8,
+      "levelDbfs": -27
+    },
+    {
+      "id": "logical-fracture",
+      "frame": 1500,
+      "kind": "metallic-snap-and-tritone",
+      "seconds": 1.7,
+      "levelDbfs": -28
+    },
+    {
+      "id": "crab-canon",
+      "frame": 2220,
+      "kind": "forward-reverse-harpsichord",
+      "seconds": 22.0,
+      "levelDbfs": -31
+    },
+    {
+      "id": "shepard-descent",
+      "frame": 2940,
+      "kind": "descending-shepard-risset",
+      "seconds": 24.0,
+      "levelDbfs": -30
+    },
+    {
+      "id": "stack-overflow",
+      "frame": 3900,
+      "kind": "rising-digital-cycle",
+      "seconds": 3.5,
+      "levelDbfs": -29
+    },
+    {
+      "id": "accelerating-ticks",
+      "frame": 4500,
+      "kind": "deterministic-polyrhythmic-ticks",
+      "seconds": 6.0,
+      "levelDbfs": -32
+    },
+    {
+      "id": "relay-cut",
+      "frame": 4860,
+      "kind": "hard-cut-to-absolute-silence",
+      "seconds": 0.5,
+      "levelDbfs": null
+    },
+    {
+      "id": "external-warm-pluck",
+      "frame": 4890,
+      "kind": "warm-harp-pluck",
+      "seconds": 1.8,
+      "levelDbfs": -27
+    }
+  ],
+  "vocalBandProtection": {
+    "method": "static attenuation",
+    "bandHz": [
+      1000,
+      4000
+    ],
+    "gainDb": -4
+  },
+  "absoluteSilence": {
+    "startFrame": 4860,
+    "endFrame": 4890,
+    "startSample": 3888000,
+    "endSampleExclusive": 3912000
+  }
+}

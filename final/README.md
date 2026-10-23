@@ -152,6 +152,10 @@ python3 scripts/fetch-archive-assets.py --root . --catalog final/backup-catalog.
 
 - [小红书 · si-ep16-frictionless-world-xiaohongshu-120s-portrait.mp4](si-ep16-frictionless-world/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep16-frictionless-world-xiaohongshu-120s-portrait.mp4) · [GitHub final 备份](https://github.com/jggagi/video-making/releases/download/final-si-ep16-frictionless-world-c78c4835aa0e/final--si-ep16-frictionless-world--deliveries--si-ep16-frictionless-world-----si-ep16-frictionless-world-xiaohongshu-120s-portrait--299b91acdaba.mp4) · [原归档](https://github.com/jggagi/video-making/releases/download/film-si-ep16-frictionless-world-c78c4835aa0e/si-ep16-frictionless-world--deliveries--si-ep16-frictionless-world-----si-ep16-frictionless-world-xiaohongshu-120s-portrait--299b91acdaba.mp4)
 
+## 啃食尾巴的神 (`si-ep17-godel-ouroboros`)
+
+- [小红书 · si-ep17-godel-ouroboros-xiaohongshu-90s-portrait.mp4](si-ep17-godel-ouroboros/%E5%B0%8F%E7%BA%A2%E4%B9%A6/si-ep17-godel-ouroboros-xiaohongshu-90s-portrait.mp4) · [GitHub final 备份](https://github.com/jggagi/video-making/releases/download/final-si-ep17-godel-ouroboros-2e765a7201af/final--si-ep17-godel-ouroboros--deliveries--si-ep17-godel-ouroboros-----si-ep17-godel-ouroboros-xiaohongshu-90s-portrait--2b5676d8e1eb.mp4) · [原归档](https://github.com/jggagi/video-making/releases/download/film-si-ep17-godel-ouroboros-2e765a7201af/si-ep17-godel-ouroboros--deliveries--si-ep17-godel-ouroboros-----si-ep17-godel-ouroboros-xiaohongshu-90s-portrait--2b5676d8e1eb.mp4)
+
 ## 一眼万年 (`si-eternity`)
 
 - [B站 · one-blink-ten-millennia-v3.mp4](%E4%B8%80%E7%9C%BC%E4%B8%87%E5%B9%B4/B%E7%AB%99/one-blink-ten-millennia-v3.mp4) · [GitHub final 备份](https://github.com/jggagi/video-making/releases/download/final-si-eternity-66d480b1c859/final--si-eternity--si-eternity--out--one-blink-ten-millennia-v3--4ef2326bf22b.mp4) · [原归档](https://github.com/jggagi/video-making/releases/download/archive-si-eternity-v1/si-eternity--si-eternity--out--one-blink-ten-millennia-v3--4ef2326bf22b.mp4)

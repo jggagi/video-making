@@ -1,0 +1,112 @@
+{
+  "status": "TECHNICAL_SAMPLE_CHECKS_PASSED",
+  "native": [
+    2160,
+    3840
+  ],
+  "fps": 60,
+  "clips": [
+    {
+      "path": "review/motion-0-239.mp4",
+      "sha256": "bca037c963cb7ebe70ef8e9d1ec2a50eabe85e85673f55e88a5e26a5545055e2",
+      "frames": 240,
+      "native": [
+        2160,
+        3840
+      ],
+      "audio": [
+        "aac",
+        "48000",
+        2
+      ]
+    },
+    {
+      "path": "review/motion-2820-2999.mp4",
+      "sha256": "82aacdf23a04fdf271a32340e4cfa9bc49c418ed4cbb00fc4c7ce69ca1e51682",
+      "frames": 180,
+      "native": [
+        2160,
+        3840
+      ],
+      "audio": [
+        "aac",
+        "48000",
+        2
+      ]
+    },
+    {
+      "path": "review/motion-3900-4079.mp4",
+      "sha256": "6bcdf696a69e525373eac3e8261750d65c8ca0987d39d0e8dda6b222eefb1308",
+      "frames": 180,
+      "native": [
+        2160,
+        3840
+      ],
+      "audio": [
+        "aac",
+        "48000",
+        2
+      ]
+    },
+    {
+      "path": "review/motion-4800-5039.mp4",
+      "sha256": "455e9b1a12a98f94146dfcd0ef5a3d26bdf42335beac2fd6b708632892a45cc1",
+      "frames": 240,
+      "native": [
+        2160,
+        3840
+      ],
+      "audio": [
+        "aac",
+        "48000",
+        2
+      ]
+    },
+    {
+      "path": "review/motion-5100-5339.mp4",
+      "sha256": "cdd33056191bbb39fa9b998cfdb107cc5ebb01ca9f1216c5310a9ea899ff6a01",
+      "frames": 240,
+      "native": [
+        2160,
+        3840
+      ],
+      "audio": [
+        "aac",
+        "48000",
+        2
+      ]
+    }
+  ],
+  "master_sha256": "91a0ecf2c4d18aadf6da3fb5ce39e1c2c381bec214eb2ecdd4aa7a52a1441257",
+  "observed_frames": [
+    60,
+    2939,
+    2940,
+    2941,
+    3960,
+    4889,
+    4890,
+    4950,
+    5160,
+    5310
+  ],
+  "model_visual_review": {
+    "status": "REVIEWED",
+    "evidence": "review/native-preview-qa/contact.jpg",
+    "scope": "Encoded sample frame observations only",
+    "observations": [
+      "Opening hook and full episode title readable within safe title plate.",
+      "No one-frame disappearance of recursive windows around2939/2940/2941 after template correction.",
+      "Ouroboros head/tail contact visible at3960; warm ink appears at4890 with continued golden spatial propagation in5160/5310.",
+      "No HUD clipping or 3D distortion observed in reviewed sample frames."
+    ],
+    "dyadic_wrap_thumbnail_differences": {
+      "at_wrap": 2.660081699346405,
+      "following_frame": 2.7111383442265797
+    },
+    "human_continuous_listening": "NOT_RUN",
+    "target_app": "NOT_RUN"
+  },
+  "human_listening": "NOT_RUN",
+  "real_device_playback": "NOT_RUN"
+}

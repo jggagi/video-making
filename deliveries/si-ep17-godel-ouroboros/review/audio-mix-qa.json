@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-23T03:02:49Z",
+  "status": "pass",
+  "master": "public/audio/master.wav",
+  "sampleRate": 48000,
+  "channels": 2,
+  "bitsPerSample": 16,
+  "sampleFramesPerChannel": 4320000,
+  "durationSeconds": 90.0,
+  "targetLufs": -16.0,
+  "targetLra": 11,
+  "targetTruePeakDbtp": -1.6,
+  "measuredInputLoudnorm": {
+    "input_i": "-20.85",
+    "input_lra": "12.20",
+    "input_tp": "-2.14",
+    "input_thresh": "-32.91",
+    "target_offset": "1.17"
+  },
+  "measuredFinalIntegratedLufs": -16.0,
+  "measuredFinalTruePeakDbtp": -1.4,
+  "integratedLufsTolerance": {
+    "target": -16.0,
+    "plusMinus": 0.15,
+    "passed": true
+  },
+  "requiredMaximumTruePeakDbtp": -1.0,
+  "postGainCorrections": [
+    {
+      "pass": 1,
+      "gainCorrectionDb": 0.3,
+      "measuredBefore": {
+        "integratedLufs": -16.3,
+        "truePeakDbtp": -1.6
+      },
+      "measuredAfter": {
+        "integratedLufs": -16.0,
+        "truePeakDbtp": -1.4
+      }
+    }
+  ],
+  "correctionPolicy": {
+    "maxPasses": 2,
+    "maxGainDbPerPass": 2.0,
+    "limiterCeilingDbtp": -1.4,
+    "limiterLinear": 0.8511380382023764,
+    "oversampleRateHz": 192000
+  },
+  "absoluteSilenceVerified": {
+    "startFrame": 4860,
+    "endFrame": 4890,
+    "samplesPerChannel": 24000
+  },
+  "stems": {
+    "narration": "public/audio/stems/narration.wav",
+    "score": "public/audio/stems/score.wav",
+    "sfx": "public/audio/stems/sfx.wav"
+  },
+  "voiceActiveRanges": [
+    {
+      "id": "S01",
+      "startSample": 34482,
+      "endSampleExclusive": 376657
+    },
+    {
+      "id": "S02",
+      "startSample": 490528,
+      "endSampleExclusive": 881571
+    },
+    {
+      "id": "S03",
+      "startSample": 1065854,
+      "endSampleExclusive": 1433454
+    },
+    {
+      "id": "S04",
+      "startSample": 1641771,
+      "endSampleExclusive": 2243148
+    },
+    {
+      "id": "S05",
+      "startSample": 2267000,
+      "endSampleExclusive": 2791253
+    },
+    {
+      "id": "S06",
+      "startSample": 2890598,
+      "endSampleExclusive": 3295908
+    },
+    {
+      "id": "S07",
+      "startSample": 3417690,
+      "endSampleExclusive": 3564721
+    },
+    {
+      "id": "S08A",
+      "startSample": 3634066,
+      "endSampleExclusive": 3856541
+    },
+    {
+      "id": "S08B",
+      "startSample": 3922092,
+      "endSampleExclusive": 4197169
+    }
+  ],
+  "masterSha256": "91a0ecf2c4d18aadf6da3fb5ce39e1c2c381bec214eb2ecdd4aa7a52a1441257"
+}

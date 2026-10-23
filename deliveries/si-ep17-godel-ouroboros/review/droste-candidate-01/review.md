@@ -1,0 +1,1 @@
+Encoded neighbor review found a texture/opacity discontinuity at the dyadic wrap: floor(logScale) changed all nested circuit roles together. Root replaced the scale-band branches and variable partition count with an identical smoothly scaled template.

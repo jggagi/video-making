@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "authenticated": true,
+  "cli_version": "2.5.1",
+  "skill_version": "2.5.1",
+  "version_preflight": "Cached from the earlier audition in this session after user-authorized upgrade; npm latest then2.5.1",
+  "new_cloud_calls_planned": 3,
+  "model": "qwen-audio-3.0-tts-plus",
+  "voice": "qwen-audio-3.0-tts-plus-longlangmoyue",
+  "voice_catalog_scope": "Official base voice catalog; not one of two built-in system voices",
+  "credentials_saved": false,
+  "profile_changes": false
+}

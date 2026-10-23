@@ -1,0 +1,144 @@
+{
+  "version": 1,
+  "cli_version": "2.5.1",
+  "skill_version": "2.5.1",
+  "authorization": {
+    "provider": "Aliyun Bailian",
+    "model": "qwen-audio-3.0-tts-plus",
+    "voice": "qwen-audio-3.0-tts-plus-longlangmoyue",
+    "purpose": "Three-segment EP16 narration audition against existing CosyVoice dry cues; no full movie replacement or account publication",
+    "authorized": true,
+    "source": "Current user selected 事实**龙朗沫玥**, interpreted in the ongoing audition context as 试试龙朗沫玥; same provider/model and three prepared EP16 cue texts.",
+    "text_scope": [
+      "S01",
+      "S08",
+      "S09"
+    ],
+    "cloud_calls_planned": 3,
+    "estimated_cost_basis": "Beijing list price CNY1.4/10000 billing characters, Han=2; excludes free quota and any extra retries",
+    "created_at_utc": "2026-10-23T09:53:41.278270+00:00"
+  },
+  "calls": [
+    {
+      "segment_id": "S01",
+      "cache_key": "47ba0f60ad31daca02dbfff72dae6164c8e43d4cc200612c9066e0ff6e1867ea",
+      "started_at_utc": "2026-10-23T09:53:55.143958+00:00",
+      "requested_settings": {
+        "model": "qwen-audio-3.0-tts-plus",
+        "voice": "qwen-audio-3.0-tts-plus-longlangmoyue",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "requested_instruction": "请用普通话男声做科幻寓言旁白。语速从容自然，语气冷静、克制，句子有清楚的层次；说到停尸房时略微压低语气。不要夸张表演，不要广告播音腔，不加额外词句。",
+      "text_sha256": "32c496e4a9a1e9b560e89dd5f91199049e9424fb5dfe97724db945414c9a0b23",
+      "status": "PASS",
+      "cli_exit_code": 0,
+      "reported_models": [
+        "qwen-audio-3.0-tts-plus"
+      ],
+      "reported_voices": [
+        "qwen-audio-3.0-tts-plus-longlangmoyue"
+      ],
+      "identity_source": "CLI response fields; not an independent acoustic identity test",
+      "raw_path": "qwen-raw/S01-47ba0f60ad31.wav",
+      "canonical_path": "qwen-raw/S01-47ba0f60ad31-canonical.wav",
+      "raw_sha256": "274c4bbebf36980333f89baf951a87147554e66b1c9b2cc26d0adc95ff7243fd",
+      "canonical_sha256": "1f3112e2fa212488ee08691d4bbc7e96253124e42d59c3f1215e141934d6b875",
+      "pcm": {
+        "actualSamples24k": 276480,
+        "actualDurationSeconds": 11.52,
+        "pcmSha256": "a3c245fc48eb00678bb643e8ecb9343af3e647b64c04622224b9616b8f2e246c",
+        "rawHeaderMatchesPayload": false,
+        "verifiedPcmOverflowRepair": true,
+        "declaredRiffBytesAfterHeader": 2147483583,
+        "actualRiffBytesAfterHeader": 552996,
+        "declaredDataBytes": 2147483547,
+        "actualDataBytes": 552960
+      },
+      "completed_at_utc": "2026-10-23T09:54:01.556707+00:00"
+    },
+    {
+      "segment_id": "S08",
+      "cache_key": "11061bad5c94084c578f111e4d94124dcaba6c0381106bbc652c7fa11c7801ef",
+      "started_at_utc": "2026-10-23T09:54:01.557313+00:00",
+      "requested_settings": {
+        "model": "qwen-audio-3.0-tts-plus",
+        "voice": "qwen-audio-3.0-tts-plus-longlangmoyue",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "requested_instruction": "请用普通话男声做科幻寓言旁白。语速从容自然，开头平静，系统的提问带一点冷静的疑问，最后说了是时表现轻微迟疑后的坚定。情绪克制，不喊叫，不加额外词句。",
+      "text_sha256": "3fefa35cf2d0a4a16022cce013de5ed227620f591c30d4bc8e4dae554523ff17",
+      "status": "PASS",
+      "cli_exit_code": 0,
+      "reported_models": [
+        "qwen-audio-3.0-tts-plus"
+      ],
+      "reported_voices": [
+        "qwen-audio-3.0-tts-plus-longlangmoyue"
+      ],
+      "identity_source": "CLI response fields; not an independent acoustic identity test",
+      "raw_path": "qwen-raw/S08-11061bad5c94.wav",
+      "canonical_path": "qwen-raw/S08-11061bad5c94-canonical.wav",
+      "raw_sha256": "656e656b5ba72e91d6df227350e80d497f47019d8fc96bac74f5d765d4a03004",
+      "canonical_sha256": "af0e77d896e45d98569708cf75b353e82d9444f9d734400bb1945b7d7ef607f1",
+      "pcm": {
+        "actualSamples24k": 291840,
+        "actualDurationSeconds": 12.16,
+        "pcmSha256": "45a09c7cfb042745a3d2a5233d4f6834ddf399ee0ffd125c7a36a25a6c009a4a",
+        "rawHeaderMatchesPayload": false,
+        "verifiedPcmOverflowRepair": true,
+        "declaredRiffBytesAfterHeader": 2147483583,
+        "actualRiffBytesAfterHeader": 583716,
+        "declaredDataBytes": 2147483547,
+        "actualDataBytes": 583680
+      },
+      "completed_at_utc": "2026-10-23T09:54:06.251649+00:00"
+    },
+    {
+      "segment_id": "S09",
+      "cache_key": "490af3ec820b9ba8c60bb060e907da67bf68094f4aee7c192e405168544b67ee",
+      "started_at_utc": "2026-10-23T09:54:06.252174+00:00",
+      "requested_settings": {
+        "model": "qwen-audio-3.0-tts-plus",
+        "voice": "qwen-audio-3.0-tts-plus-longlangmoyue",
+        "rate": 1.0,
+        "format": "wav",
+        "sample_rate": 24000
+      },
+      "requested_instruction": "请用普通话男声做科幻寓言旁白。语速从容自然，开头安静，逐渐带一点温度，结尾温和、坚定地收束。不要煽情，不要广告播音腔，不加额外词句。",
+      "text_sha256": "0c11ca8f147856ed1e40b79c73544baa3d1e8c939a85052b32eea15d11354956",
+      "status": "PASS",
+      "cli_exit_code": 0,
+      "reported_models": [
+        "qwen-audio-3.0-tts-plus"
+      ],
+      "reported_voices": [
+        "qwen-audio-3.0-tts-plus-longlangmoyue"
+      ],
+      "identity_source": "CLI response fields; not an independent acoustic identity test",
+      "raw_path": "qwen-raw/S09-490af3ec820b.wav",
+      "canonical_path": "qwen-raw/S09-490af3ec820b-canonical.wav",
+      "raw_sha256": "6c424dd778b5a6bf95568fcb29839fbd43760249c1c99484557d855d171825ed",
+      "canonical_sha256": "97286e67efb9752571ca5ed8014937442701b08968fbed9ff286122c70466726",
+      "pcm": {
+        "actualSamples24k": 334080,
+        "actualDurationSeconds": 13.92,
+        "pcmSha256": "db1a679154fcb8179e07f7397968a41a707477aa04263a572df97b425feae16d",
+        "rawHeaderMatchesPayload": false,
+        "verifiedPcmOverflowRepair": true,
+        "declaredRiffBytesAfterHeader": 2147483583,
+        "actualRiffBytesAfterHeader": 668196,
+        "declaredDataBytes": 2147483547,
+        "actualDataBytes": 668160
+      },
+      "completed_at_utc": "2026-10-23T09:54:11.641514+00:00"
+    }
+  ],
+  "raw_responses_or_signed_urls_saved": false,
+  "auth_status_preflight": "authenticated=true",
+  "voice_list_preflight": "Selected voice verified in official Qwen Plus base voice XLSX, row553; system --list-voices does not enumerate this base catalog",
+  "environment_change": "Reuses the already updated CLI2.5.1 and synchronized skills; no new profile changes"
+}

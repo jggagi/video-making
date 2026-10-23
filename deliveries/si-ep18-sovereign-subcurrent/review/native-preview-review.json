@@ -1,0 +1,59 @@
+{
+  "status": "MODEL_SEQUENCE_REVIEW",
+  "nativeDimensions": [
+    2160,
+    3840
+  ],
+  "audio": "Real accepted90sPCMmaster included in all4previews",
+  "previewRanges": [
+    [
+      0,
+      180
+    ],
+    [
+      1980,
+      2160
+    ],
+    [
+      3780,
+      4020
+    ],
+    [
+      4800,
+      5040
+    ]
+  ],
+  "intervalConvention": "half-open",
+  "sequenceSheet": "native-preview-overview.png",
+  "observations": [
+    "Opening introduces transparent surface and closed gold core; caption remains legible at360px.",
+    "Act2 seal is visibly larger and warm golden subcurrent remains behind readable captions.",
+    "3780-4019 risinggoldfilament reachesloop, visiblefractures/shards appear; privatecore remainsclosed.",
+    "At4860 worldclears toblackandseal; caption resumes aftersilentwindow.",
+    "Final60BPMscale pulse replaces prior slowcadence; additionalnativepreview4860-4979 toverify samepath."
+  ],
+  "humanContinuousPlayback": "PENDING",
+  "humanListening": "PENDING",
+  "actualPhoneApp": "PENDING",
+  "additionalNativePreview": {
+    "range": [
+      4860,
+      4980
+    ],
+    "file": "motion-4860-4979.mp4",
+    "purpose": "final60BPMseal-scale pulse on acceptedcapturepath"
+  },
+  "covers": {
+    "A": {
+      "sourceFrame": 3960,
+      "file": "../小红书/cover-A-headline.png"
+    },
+    "B": {
+      "sourceFrame": 2160,
+      "file": "../小红书/cover-B-headline.png"
+    },
+    "selected": "A",
+    "phoneEvidence": "cover-phone-overview.png",
+    "observation": "Shortheadlinevisibleabovehorizon;bothgoldsealandsubmergedicebergvisible;Aincludesrisingintentandicefracture."
+  }
+}

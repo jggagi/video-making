@@ -1,0 +1,64 @@
+{
+  "scope": "EP18 new6movieassets +1independentfinalbackup; everypreviouscatalogworkunchanged",
+  "workReleaseTag": "film-si-ep18-sovereign-subcurrent-250e8e7ea6f1",
+  "filmAssets": [
+    {
+      "path": "deliveries/si-ep18-sovereign-subcurrent/review/motion-0-179.mp4",
+      "bytes": 2133073,
+      "sha256": "41e7da75d341cb1445905287fa3b03146a60d4916c67f9abb21eed74b2ea30c1",
+      "kind": "预览"
+    },
+    {
+      "path": "deliveries/si-ep18-sovereign-subcurrent/review/motion-1980-2159.mp4",
+      "bytes": 3471307,
+      "sha256": "619b5770efb111f0db6bd729da788432b51cac2ad595352e822ee26211f485c4",
+      "kind": "预览"
+    },
+    {
+      "path": "deliveries/si-ep18-sovereign-subcurrent/review/motion-3780-4019.mp4",
+      "bytes": 4466440,
+      "sha256": "ae6bd48a413e2c8fa5470584a7a6a2ef42a64592a2e45115dfe0d847fc714b67",
+      "kind": "预览"
+    },
+    {
+      "path": "deliveries/si-ep18-sovereign-subcurrent/review/motion-4800-5039.mp4",
+      "bytes": 3784942,
+      "sha256": "d385f1d9ff3f16d12cd27b56cecaa9691d9a71bd83a39d8dd9e33aeebf58b70d",
+      "kind": "预览"
+    },
+    {
+      "path": "deliveries/si-ep18-sovereign-subcurrent/review/motion-4860-4979.mp4",
+      "bytes": 1729097,
+      "sha256": "203fa17c9648a9f39009a14174abd53304372182c3ece6fcbab3a9b2722c7f3f",
+      "kind": "预览"
+    },
+    {
+      "path": "deliveries/si-ep18-sovereign-subcurrent/小红书/si-ep18-sovereign-subcurrent-xiaohongshu-90s-portrait.mp4",
+      "bytes": 97349252,
+      "sha256": "bba5f68e90e721f0a71c20dd4949afeb3b34bf510dd9d4700e5e95fd5b86e1bd",
+      "kind": "小红书"
+    }
+  ],
+  "finalReleaseTag": "final-si-ep18-sovereign-subcurrent-250e8e7ea6f1",
+  "finalAssets": [
+    {
+      "path": "final/si-ep18-sovereign-subcurrent/小红书/si-ep18-sovereign-subcurrent-xiaohongshu-90s-portrait.mp4",
+      "name": "final--si-ep18-sovereign-subcurrent--deliveries--si-ep18-sovereign-subcurrent-----si-ep18-sovereign-subcurrent-xiaohongshu-90s-portrait--bba5f68e90e7.mp4",
+      "bytes": 97349252,
+      "sha256": "bba5f68e90e721f0a71c20dd4949afeb3b34bf510dd9d4700e5e95fd5b86e1bd",
+      "kind": "video",
+      "platform": "小红书",
+      "measurements": {
+        "width": 2160,
+        "height": 3840,
+        "fps": "60/1",
+        "frames": "5400",
+        "video_duration_seconds": 90.0,
+        "container_duration_seconds": 90.0
+      },
+      "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep18-sovereign-subcurrent-250e8e7ea6f1/final--si-ep18-sovereign-subcurrent--deliveries--si-ep18-sovereign-subcurrent-----si-ep18-sovereign-subcurrent-xiaohongshu-90s-portrait--bba5f68e90e7.mp4"
+    }
+  ],
+  "sourceCommitPushed": false,
+  "remoteUploadComplete": false
+}

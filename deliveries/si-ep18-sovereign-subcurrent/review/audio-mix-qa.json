@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-23T08:01:56Z",
+  "status": "pass",
+  "master": "public/audio/master.wav",
+  "sampleRate": 48000,
+  "channels": 2,
+  "bitsPerSample": 16,
+  "sampleFramesPerChannel": 4320000,
+  "durationSeconds": 90.0,
+  "targetLufs": -16.0,
+  "targetLra": 11,
+  "targetTruePeakDbtp": -1.6,
+  "measuredInputLoudnorm": {
+    "input_i": "-22.23",
+    "input_lra": "7.20",
+    "input_tp": "-2.71",
+    "input_thresh": "-33.77",
+    "target_offset": "0.56"
+  },
+  "measuredFinalIntegratedLufs": -16.0,
+  "measuredFinalTruePeakDbtp": -1.4,
+  "integratedLufsTolerance": {
+    "target": -16.0,
+    "plusMinus": 0.15,
+    "passed": true
+  },
+  "requiredMaximumTruePeakDbtp": -1.0,
+  "postGainCorrections": [
+    {
+      "pass": 1,
+      "gainCorrectionDb": 0.2,
+      "measuredBefore": {
+        "integratedLufs": -16.2,
+        "truePeakDbtp": -1.6
+      },
+      "measuredAfter": {
+        "integratedLufs": -16.0,
+        "truePeakDbtp": -1.4
+      }
+    }
+  ],
+  "correctionPolicy": {
+    "maxPasses": 2,
+    "maxGainDbPerPass": 2.0,
+    "limiterCeilingDbtp": -1.4,
+    "limiterLinear": 0.8511380382023764,
+    "oversampleRateHz": 192000
+  },
+  "absoluteSilenceVerified": {
+    "startFrame": 4860,
+    "endFrame": 4890,
+    "samplesPerChannel": 24000
+  },
+  "stems": {
+    "narration": "public/audio/stems/narration.wav",
+    "score": "public/audio/stems/score.wav",
+    "sfx": "public/audio/stems/sfx.wav"
+  },
+  "voiceActiveRanges": [
+    {
+      "id": "S01",
+      "startSample": 57680,
+      "endSampleExclusive": 391137
+    },
+    {
+      "id": "S02",
+      "startSample": 489575,
+      "endSampleExclusive": 927749
+    },
+    {
+      "id": "S03",
+      "startSample": 1066507,
+      "endSampleExclusive": 1558675
+    },
+    {
+      "id": "S04",
+      "startSample": 1641754,
+      "endSampleExclusive": 2037405
+    },
+    {
+      "id": "S05",
+      "startSample": 2265742,
+      "endSampleExclusive": 2714325
+    },
+    {
+      "id": "S06",
+      "startSample": 2793763,
+      "endSampleExclusive": 3466622
+    },
+    {
+      "id": "S07",
+      "startSample": 3513936,
+      "endSampleExclusive": 3831911
+    },
+    {
+      "id": "S08",
+      "startSample": 3933766,
+      "endSampleExclusive": 4270766
+    }
+  ],
+  "narrationCueFit": [
+    {
+      "id": "S01",
+      "sourceSampleCount": 353280,
+      "activeStartSample": 9680,
+      "activeEndSampleExclusive": 343137,
+      "placementStartFrameForFit": 60,
+      "windowEndFrame": 540,
+      "windowSeconds": 8.0,
+      "activeStartFrame": 72,
+      "activeEndFrameExclusive": 489,
+      "activeDurationSeconds": 6.947020833333333,
+      "fitsOriginalWindowWithoutTrimOrSpeedChange": true
+    },
+    {
+      "id": "S02",
+      "sourceSampleCount": 456960,
+      "activeStartSample": 9575,
+      "activeEndSampleExclusive": 447749,
+      "placementStartFrameForFit": 600,
+      "windowEndFrame": 1260,
+      "windowSeconds": 11.0,
+      "activeStartFrame": 611,
+      "activeEndFrameExclusive": 1160,
+      "activeDurationSeconds": 9.128625,
+      "fitsOriginalWindowWithoutTrimOrSpeedChange": true
+    },
+    {
+      "id": "S03",
+      "sourceSampleCount": 514560,
+      "activeStartSample": 10507,
+      "activeEndSampleExclusive": 502675,
+      "placementStartFrameForFit": 1320,
+      "windowEndFrame": 1980,
+      "windowSeconds": 11.0,
+      "activeStartFrame": 1333,
+      "activeEndFrameExclusive": 1949,
+      "activeDurationSeconds": 10.2535,
+      "fitsOriginalWindowWithoutTrimOrSpeedChange": true
+    },
+    {
+      "id": "S04",
+      "sourceSampleCount": 414720,
+      "activeStartSample": 9754,
+      "activeEndSampleExclusive": 405405,
+      "placementStartFrameForFit": 2040,
+      "windowEndFrame": 2760,
+      "windowSeconds": 12.0,
+      "activeStartFrame": 2052,
+      "activeEndFrameExclusive": 2547,
+      "activeDurationSeconds": 8.242729166666667,
+      "fitsOriginalWindowWithoutTrimOrSpeedChange": true
+    },
+    {
+      "id": "S05",
+      "sourceSampleCount": 464640,
+      "activeStartSample": 9742,
+      "activeEndSampleExclusive": 458325,
+      "placementStartFrameForFit": 2820,
+      "windowEndFrame": 3420,
+      "windowSeconds": 10.0,
+      "activeStartFrame": 2832,
+      "activeEndFrameExclusive": 3393,
+      "activeDurationSeconds": 9.345479166666667,
+      "fitsOriginalWindowWithoutTrimOrSpeedChange": true
+    },
+    {
+      "id": "S06",
+      "sourceSampleCount": 691200,
+      "activeStartSample": 9763,
+      "activeEndSampleExclusive": 682622,
+      "placementStartFrameForFit": 3480,
+      "windowEndFrame": 4350,
+      "windowSeconds": 14.5,
+      "activeStartFrame": 3492,
+      "activeEndFrameExclusive": 4334,
+      "activeDurationSeconds": 14.017895833333334,
+      "fitsOriginalWindowWithoutTrimOrSpeedChange": true
+    },
+    {
+      "id": "S07",
+      "sourceSampleCount": 334080,
+      "activeStartSample": 9936,
+      "activeEndSampleExclusive": 327911,
+      "placementStartFrameForFit": 4380,
+      "windowEndFrame": 4800,
+      "windowSeconds": 7.0,
+      "activeStartFrame": 4392,
+      "activeEndFrameExclusive": 4790,
+      "activeDurationSeconds": 6.624479166666666,
+      "fitsOriginalWindowWithoutTrimOrSpeedChange": true
+    },
+    {
+      "id": "S08",
+      "sourceSampleCount": 357120,
+      "activeStartSample": 9766,
+      "activeEndSampleExclusive": 346766,
+      "placementStartFrameForFit": 4905,
+      "windowEndFrame": 5370,
+      "windowSeconds": 7.75,
+      "activeStartFrame": 4917,
+      "activeEndFrameExclusive": 5339,
+      "activeDurationSeconds": 7.020833333333333,
+      "fitsOriginalWindowWithoutTrimOrSpeedChange": true
+    }
+  ],
+  "masterSha256": "64c6b71729ed1a1bd948149d1051c2682a7237bd57aff59c9c752d0122b6f02d"
+}

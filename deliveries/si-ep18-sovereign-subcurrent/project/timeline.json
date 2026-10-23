@@ -1,0 +1,75 @@
+{
+  "duration_seconds": 90,
+  "fps": 60,
+  "totalFrames": 5400,
+  "intervalConvention": "[startFrame,endFrame)",
+  "scenes": [
+    {
+      "startFrame": 0,
+      "endFrame": 1320,
+      "title": "透明海面与私密深海",
+      "action": "扫描触及边界停止，冰山下部与金光显现",
+      "continuousSpatialMotion": "扫描位移、流线漂移、轮廓慢变"
+    },
+    {
+      "startFrame": 1320,
+      "endFrame": 2820,
+      "title": "心印与墨流",
+      "action": "金色纹样围绕封闭核心持续生长",
+      "continuousSpatialMotion": "二维推近、墨流与纹样形变"
+    },
+    {
+      "startFrame": 2820,
+      "endFrame": 4380,
+      "title": "金线与冰环",
+      "action": "3660开始上升、3900触及冰环、3960裂开、4320形成和声玫瑰",
+      "continuousSpatialMotion": "上升、裂纹扩展、路径重组"
+    },
+    {
+      "startFrame": 4380,
+      "endFrame": 4860,
+      "title": "共存",
+      "action": "金青曲线交织，深海核心保持封闭",
+      "continuousSpatialMotion": "两层漂移与曲线空间演进"
+    },
+    {
+      "startFrame": 4860,
+      "endFrame": 5400,
+      "title": "收官",
+      "action": "HUD撤除，金印留下",
+      "continuousSpatialMotion": "轮廓慢变与二维漂移"
+    }
+  ],
+  "events": [
+    {
+      "id": "golden-intent-launch",
+      "frame": 3660
+    },
+    {
+      "id": "ice-fracture",
+      "frame": 3900
+    },
+    {
+      "id": "cover-A",
+      "frame": 3960
+    },
+    {
+      "id": "cover-B",
+      "frame": 2160
+    },
+    {
+      "id": "absolute-silence-start",
+      "frame": 4860
+    },
+    {
+      "id": "bell-heartbeat",
+      "frame": 4890
+    }
+  ],
+  "nativeCanvas": [
+    2160,
+    3840
+  ],
+  "waterlineFraction": 0.38,
+  "humanAcceptance": "pending"
+}

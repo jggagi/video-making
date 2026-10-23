@@ -1,0 +1,57 @@
+{
+  "reason": "9.76s source cue exceeds available8.25s; original retained; no speed change or truncation",
+  "cues": [
+    {
+      "id": "S08",
+      "spokenText": "把计算交给神明，把心印留给自己。世界再透明，你也有权决定，哪扇门为谁打开。",
+      "sourceSegmentFile": "segments.json",
+      "sourceStartFrame": 4905,
+      "sourceEndFrame": 5350,
+      "placementStartFrameForFit": 4905,
+      "windowEndFrame": 5350,
+      "windowSeconds": 7.416666666666667,
+      "activeStartFrame": 4917,
+      "activeEndFrameExclusive": 5478,
+      "activeDurationSeconds": 9.344125,
+      "fitsOriginalWindowWithoutTrimOrSpeedChange": false,
+      "provider": "Aliyun Bailian",
+      "requestedModel": null,
+      "actualModel": "cosyvoice-v3-flash",
+      "voice": "longtian_v3",
+      "actualVoice": "longtian_v3",
+      "identityEvidencePaths": {
+        "modelPaths": [
+          "$.model"
+        ],
+        "voicePaths": [
+          "$.voice"
+        ]
+      },
+      "rate": 1.0,
+      "formatRequested": "wav",
+      "providerSampleRate": 24000,
+      "providerChannels": 1,
+      "providerBitsPerSample": 16,
+      "rawAudioFile": "public/audio/history/raw/a689471a08e542222d11ac34593a815752a7a6957483a0e510ef1d7ddf7a60a9.wav",
+      "rawSha256": "868dcd7b1b4bf8504ee3a8a55a260d9e4ac74937b07a85cf645e6fbca16978e9",
+      "rawSampleCount": 234240,
+      "rawDurationSeconds": 9.76,
+      "rawHeaderMismatchRepairedForCanonical": true,
+      "canonicalAudioFile": "public/audio/voice/S08-a689471a08e5.wav",
+      "canonicalSha256": "fef299f6e15f543ac858dd9fb5166e202a65913992cd2152c1ebcd40ba282c12",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitsPerSample": 16,
+      "sampleCount": 468480,
+      "durationSeconds": 9.76,
+      "activeThresholdPcm16": 32,
+      "activeStartSample": 9770,
+      "activeEndSampleExclusive": 458288,
+      "cacheKey": "a689471a08e542222d11ac34593a815752a7a6957483a0e510ef1d7ddf7a60a9",
+      "textFile": "public/audio/text/S08-a689471a08e5.txt",
+      "textSha256": "4c3503dba8e35ae9188036805d4eedfd5e762ecc4029ce4af9ae37e7da76994f",
+      "cacheReuse": false,
+      "generatedAt": "2026-10-23T07:55:54Z"
+    }
+  ]
+}

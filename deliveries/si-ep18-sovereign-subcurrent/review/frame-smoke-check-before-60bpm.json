@@ -1,0 +1,22 @@
+{
+  "check": "EP18 all-frame drawScene runtime smoke",
+  "contract": "Named drawScene(ctx, frame) export from project/src/Scene.tsx; logical canvas 1080x1920.",
+  "status": "passed",
+  "framesExpected": 5400,
+  "framesExecuted": 5400,
+  "failure": null,
+  "runtimeMs": 2706.32,
+  "logicalCanvasSize": {
+    "width": 1080,
+    "height": 1920
+  },
+  "backingCanvasSize": {
+    "width": 2160,
+    "height": 3840
+  },
+  "canvasCalls": 59600970,
+  "finiteNumericArgumentsChecked": 119625292,
+  "sourceSha256": {
+    "project/src/Scene.tsx": "d2e6cacdb781d9242766e041777376e9b235966aa1d9c0610d8082436f5f31e2"
+  }
+}

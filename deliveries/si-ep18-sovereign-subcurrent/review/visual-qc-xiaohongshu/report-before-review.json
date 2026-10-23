@@ -1,0 +1,3399 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-10-23T08:28:23.183367+00:00",
+  "media_path": "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep18-sovereign-subcurrent/小红书/si-ep18-sovereign-subcurrent-xiaohongshu-90s-portrait.mp4",
+  "media_sha256": "bba5f68e90e721f0a71c20dd4949afeb3b34bf510dd9d4700e5e95fd5b86e1bd",
+  "probe": {
+    "codec_name": "h264",
+    "width": 2160,
+    "height": 3840,
+    "fps": {
+      "numerator": 60,
+      "denominator": 1,
+      "decimal": 60.0
+    },
+    "fps_source": "avg_frame_rate",
+    "duration_seconds": 90.0,
+    "nb_frames": "5400",
+    "geometry_basis": "FFprobe coded video dimensions; FFmpeg autorotation is disabled"
+  },
+  "scan": {
+    "mode": "continuous_from_start",
+    "every_frame": true,
+    "no_input_seek": true,
+    "decoded_frames": 5400,
+    "expected_frames": 5400,
+    "return_code": 0,
+    "analysis": [
+      "isolated_full_frame_jump",
+      "stable_roi",
+      "dark_roi"
+    ],
+    "scaled_width": 360,
+    "scaled_height": 640,
+    "config": {
+      "width_requested": 360,
+      "stable_roi_normalized_xywh": [
+        0.055,
+        0.09,
+        0.73,
+        0.066
+      ],
+      "dark_roi_normalized_xywh": [
+        0.9,
+        0.81,
+        0.09,
+        0.15
+      ],
+      "isolated_jump_mae_floor": 12.0,
+      "isolated_jump_neighbor_limit": "max(3, 0.35 * min(prev_middle_mae, middle_next_mae))",
+      "stable_roi_threshold": "median + 8 * (1.4826 * MAD), floor 8 RGB MAE",
+      "dark_roi_threshold": "median + 8 * (1.4826 * MAD), floor 50 pixels with luma > 100",
+      "dark_roi_bright_luma_threshold_exclusive": 100.0,
+      "ffmpeg_threads": 2,
+      "ffmpeg_filter_threads": 2,
+      "pixel_format": "rgb24",
+      "autorotate": false
+    },
+    "partial_frame_bytes": 0,
+    "frame_count_matches_expected": true,
+    "media_sha256_after": "bba5f68e90e721f0a71c20dd4949afeb3b34bf510dd9d4700e5e95fd5b86e1bd",
+    "media_sha256_matches": true,
+    "complete": true,
+    "decode_error": null,
+    "incomplete_reasons": [],
+    "stderr_tail": ""
+  },
+  "roi_thresholds": {
+    "stable_roi_template_mae_rgb": {
+      "median": 0.291432,
+      "mad": 0.0027309999999999834,
+      "threshold": 8.0,
+      "floor": 8.0
+    },
+    "stable_roi_consecutive_mae_rgb": {
+      "median": 0.0,
+      "mad": 0.0,
+      "threshold": 8.0,
+      "floor": 8.0
+    },
+    "dark_roi_bright_pixels_gt100": {
+      "median": 0.0,
+      "mad": 0.0,
+      "threshold": 50.0,
+      "floor": 50.0
+    }
+  },
+  "flagged_frames": [
+    {
+      "frame": 4860,
+      "reasons": [
+        "stable_roi_template_outlier",
+        "stable_roi_consecutive_outlier"
+      ]
+    },
+    {
+      "frame": 4861,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4862,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4863,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4864,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4865,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4866,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4867,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4868,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4869,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4870,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4871,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4872,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4873,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4874,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4875,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4876,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4877,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4878,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4879,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4880,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4881,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4882,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4883,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4884,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4885,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4886,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4887,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4888,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4889,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4890,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4891,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4892,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4893,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4894,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4895,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4896,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4897,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4898,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4899,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4900,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4901,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4902,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4903,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4904,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4905,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4906,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4907,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4908,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4909,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4910,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4911,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4912,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4913,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4914,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4915,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4916,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4917,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4918,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4919,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4920,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4921,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4922,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4923,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4924,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4925,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4926,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4927,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4928,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4929,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4930,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4931,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4932,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4933,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4934,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4935,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4936,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4937,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4938,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4939,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4940,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4941,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4942,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4943,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4944,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4945,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4946,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4947,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4948,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4949,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4950,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4951,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4952,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4953,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4954,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4955,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4956,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4957,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4958,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4959,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4960,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4961,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4962,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4963,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4964,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4965,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4966,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4967,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4968,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4969,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4970,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4971,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4972,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4973,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4974,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4975,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4976,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4977,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4978,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4979,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4980,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4981,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4982,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4983,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4984,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4985,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4986,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4987,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4988,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4989,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4990,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4991,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4992,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4993,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4994,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4995,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4996,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4997,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4998,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 4999,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5000,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5001,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5002,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5003,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5004,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5005,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5006,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5007,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5008,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5009,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5010,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5011,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5012,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5013,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5014,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5015,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5016,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5017,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5018,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5019,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5020,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5021,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5022,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5023,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5024,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5025,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5026,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5027,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5028,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5029,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5030,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5031,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5032,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5033,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5034,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5035,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5036,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5037,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5038,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5039,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5040,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5041,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5042,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5043,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5044,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5045,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5046,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5047,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5048,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5049,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5050,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5051,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5052,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5053,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5054,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5055,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5056,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5057,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5058,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5059,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5060,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5061,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5062,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5063,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5064,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5065,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5066,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5067,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5068,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5069,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5070,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5071,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5072,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5073,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5074,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5075,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5076,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5077,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5078,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5079,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5080,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5081,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5082,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5083,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5084,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5085,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5086,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5087,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5088,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5089,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5090,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5091,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5092,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5093,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5094,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5095,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5096,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5097,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5098,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5099,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5100,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5101,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5102,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5103,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5104,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5105,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5106,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5107,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5108,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5109,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5110,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5111,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5112,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5113,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5114,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5115,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5116,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5117,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5118,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5119,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5120,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5121,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5122,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5123,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5124,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5125,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5126,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5127,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5128,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5129,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5130,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5131,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5132,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5133,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5134,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5135,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5136,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5137,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5138,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5139,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5140,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5141,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5142,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5143,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5144,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5145,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5146,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5147,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5148,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5149,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5150,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5151,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5152,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5153,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5154,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5155,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5156,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5157,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5158,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5159,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5160,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5161,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5162,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5163,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5164,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5165,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5166,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5167,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5168,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5169,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5170,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5171,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5172,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5173,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5174,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5175,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5176,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5177,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5178,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5179,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5180,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5181,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5182,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5183,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5184,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5185,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5186,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5187,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5188,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5189,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5190,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5191,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5192,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5193,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5194,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5195,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5196,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5197,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5198,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5199,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5200,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5201,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5202,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5203,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5204,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5205,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5206,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5207,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5208,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5209,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5210,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5211,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5212,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5213,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5214,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5215,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5216,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5217,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5218,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5219,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5220,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5221,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5222,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5223,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5224,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5225,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5226,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5227,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5228,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5229,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5230,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5231,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5232,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5233,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5234,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5235,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5236,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5237,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5238,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5239,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5240,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5241,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5242,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5243,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5244,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5245,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5246,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5247,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5248,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5249,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5250,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5251,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5252,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5253,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5254,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5255,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5256,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5257,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5258,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5259,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5260,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5261,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5262,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5263,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5264,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5265,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5266,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5267,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5268,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5269,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5270,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5271,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5272,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5273,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5274,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5275,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5276,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5277,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5278,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5279,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5280,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5281,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5282,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5283,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5284,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5285,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5286,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5287,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5288,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5289,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5290,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5291,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5292,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5293,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5294,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5295,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5296,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5297,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5298,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5299,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5300,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5301,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5302,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5303,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5304,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5305,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5306,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5307,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5308,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5309,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5310,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5311,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5312,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5313,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5314,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5315,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5316,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5317,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5318,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5319,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5320,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5321,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5322,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5323,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5324,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5325,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5326,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5327,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5328,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5329,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5330,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5331,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5332,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5333,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5334,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5335,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5336,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5337,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5338,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5339,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5340,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5341,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5342,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5343,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5344,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5345,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5346,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5347,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5348,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5349,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5350,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5351,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5352,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5353,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5354,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5355,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5356,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5357,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5358,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5359,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5360,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5361,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5362,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5363,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5364,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5365,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5366,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5367,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5368,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5369,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5370,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5371,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5372,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5373,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5374,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5375,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5376,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5377,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5378,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5379,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5380,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5381,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5382,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5383,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5384,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5385,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5386,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5387,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5388,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5389,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5390,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5391,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5392,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5393,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5394,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5395,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5396,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5397,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5398,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    },
+    {
+      "frame": 5399,
+      "reasons": [
+        "stable_roi_template_outlier"
+      ]
+    }
+  ],
+  "flag_reviews": [],
+  "limitations": [
+    "Screening uses scaled RGB heuristics and does not replace full-resolution perceptual review.",
+    "The scan does not establish human review, listening, or device playback acceptance.",
+    "A frame with no heuristic flags may still contain visual defects outside these checks."
+  ],
+  "evidence_files": {
+    "metrics_csv": "metrics.csv",
+    "suspicious_contact_jpeg": "suspicious-contact.jpg"
+  },
+  "commands": {
+    "ffprobe": [
+      "/opt/homebrew/bin/ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_entries",
+      "stream=codec_name,width,height,avg_frame_rate,r_frame_rate,duration,nb_frames",
+      "-show_entries",
+      "format=duration",
+      "-of",
+      "json",
+      "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep18-sovereign-subcurrent/小红书/si-ep18-sovereign-subcurrent-xiaohongshu-90s-portrait.mp4"
+    ],
+    "ffmpeg": [
+      "/opt/homebrew/bin/ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-nostdin",
+      "-threads",
+      "2",
+      "-filter_threads",
+      "2",
+      "-noautorotate",
+      "-i",
+      "/Users/guoq/Documents/ChatGPT/video/deliveries/si-ep18-sovereign-subcurrent/小红书/si-ep18-sovereign-subcurrent-xiaohongshu-90s-portrait.mp4",
+      "-map",
+      "0:v:0",
+      "-an",
+      "-sn",
+      "-dn",
+      "-vf",
+      "scale=360:640:flags=bilinear",
+      "-vsync",
+      "0",
+      "-pix_fmt",
+      "rgb24",
+      "-f",
+      "rawvideo",
+      "pipe:1"
+    ]
+  },
+  "summary": {
+    "flagged_frame_count": 540,
+    "contact_sheet_frame_numbers": [
+      4860,
+      4861,
+      4862,
+      4863,
+      4864,
+      4865,
+      4866,
+      4867,
+      4868,
+      4869
+    ]
+  }
+}

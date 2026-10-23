@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "title": "心印潜流",
+  "slug": "si-ep18-sovereign-subcurrent",
+  "platforms": [
+    "xiaohongshu"
+  ],
+  "duration_seconds": 90,
+  "fps": 60,
+  "total_frames": 5400,
+  "script": {
+    "path": "source/script.md",
+    "sha256": "0fa90261692cfac42ed78c021e17cee46011024d42c831d1210e713ef287f99b"
+  },
+  "audio": {
+    "mode": "narrated",
+    "master": "project/public/audio/master.wav"
+  },
+  "outputs": {
+    "xiaohongshu": {
+      "path": "小红书/si-ep18-sovereign-subcurrent-xiaohongshu-90s-portrait.mp4",
+      "width": 2160,
+      "height": 3840
+    }
+  },
+  "qa": {
+    "automated": "pass",
+    "representative_frames": "model_review_pass",
+    "continuous_human_review": "pending",
+    "target_device_playback": "pending"
+  },
+  "visual_qc": {
+    "required": true,
+    "reports": {
+      "xiaohongshu": "review/visual-qc-xiaohongshu/report.json"
+    }
+  },
+  "production_notes": {
+    "original_script_preserved": true,
+    "adaptation_authorized": true,
+    "authorization": "User requested scientific review, then said 开始制作 after receiving review and full adapted script.",
+    "narration": "Existing longtian_v3 routine TTS authorization in repository skill; provider identity verified per request.",
+    "caption_alignment": "Phrase estimates within actual PCM boundaries; no ASR authorized or used.",
+    "account_publication": "NOT_SUBMITTED; production only",
+    "physical_voice_cues": 8,
+    "source_narration_sections": 8,
+    "timing_adjustments": [
+      "S06 measured14.40s; shifted to58s withoutspeedchangeortrim.",
+      "S08 firstcandidate9.76s retained; closingphrasecompressedandre-recorded7.44s."
+    ],
+    "selected_cover": "小红书/cover-A-headline.png"
+  },
+  "final_movie_sha256": "bba5f68e90e721f0a71c20dd4949afeb3b34bf510dd9d4700e5e95fd5b86e1bd"
+}

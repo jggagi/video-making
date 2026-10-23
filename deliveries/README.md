@@ -34,3 +34,4 @@
 - [死后第七年，他还在回微信](si-ep14-ghost-in-posterior/README.md)：6 个视频/工程资产。
 - [零摩擦人间](si-ep16-frictionless-world/README.md)：5 个视频/工程资产。
 - [啃食尾巴的神](si-ep17-godel-ouroboros/README.md)：11 个视频/工程资产。
+- [心印潜流](si-ep18-sovereign-subcurrent/README.md)：6 个视频/工程资产。

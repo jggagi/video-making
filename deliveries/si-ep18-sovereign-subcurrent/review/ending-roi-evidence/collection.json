@@ -1,0 +1,22 @@
+{
+  "mediaSha256": "bba5f68e90e721f0a71c20dd4949afeb3b34bf510dd9d4700e5e95fd5b86e1bd",
+  "flaggedFrames": 540,
+  "decodedRange": [
+    4859,
+    5400
+  ],
+  "roiBoundsOn360x640": [
+    19,
+    57,
+    283,
+    100
+  ],
+  "maxRgbAcrossAllFlaggedRois": 8,
+  "distinctEndingRoiHashes": 1,
+  "sourceRules": [
+    "Film hidesHUD atframe4860",
+    "Scene clearsworld atframe4860 anddrawsseal only"
+  ],
+  "flagReviewsWritten": false,
+  "limitations": "ROI evidence and neighbor pixel identity do not replace full-frame or human playback review."
+}

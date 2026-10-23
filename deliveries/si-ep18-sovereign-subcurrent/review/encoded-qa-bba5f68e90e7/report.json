@@ -1,0 +1,370 @@
+{
+  "schemaVersion": 1,
+  "createdAtUtc": "2026-10-23T08:28:04+00:00",
+  "work": {
+    "id": "si-ep18-sovereign-subcurrent",
+    "title": "心印潜流",
+    "cueIds": [
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "S05",
+      "S06",
+      "S07",
+      "S08"
+    ]
+  },
+  "movie": {
+    "manifestPath": "小红书/si-ep18-sovereign-subcurrent-xiaohongshu-90s-portrait.mp4",
+    "sha256": "bba5f68e90e721f0a71c20dd4949afeb3b34bf510dd9d4700e5e95fd5b86e1bd",
+    "bytes": 97349252
+  },
+  "ffprobe": {
+    "video": {
+      "codecName": "h264",
+      "width": 2160,
+      "height": 3840,
+      "pixelFormat": "yuv420p",
+      "avgFrameRate": "60/1",
+      "rFrameRate": "60/1",
+      "countedFrames": 5400,
+      "streamDurationSeconds": 90.0,
+      "durationFromFramesSeconds": 90.0
+    },
+    "audio": {
+      "codecName": "aac",
+      "sampleRateHz": 48000,
+      "channels": 2,
+      "channelLayout": "stereo",
+      "streamDurationSeconds": 90.0
+    },
+    "container": {
+      "formatName": "mov,mp4,m4a,3gp,3g2,mj2",
+      "sizeBytes": 97349252,
+      "durationSeconds": 90.0
+    }
+  },
+  "ebuR128": {
+    "integratedLoudnessLufs": -16.0,
+    "truePeakDbfs": -1.3,
+    "summaryTail": "Summary:\n\n  Integrated loudness:\n    I:         -16.0 LUFS\n    Threshold: -27.2 LUFS\n\n  Loudness range:\n    LRA:         5.7 LU\n    Threshold: -37.3 LUFS\n    LRA low:   -20.6 LUFS\n    LRA high:  -14.9 LUFS\n\n  True peak:\n    Peak:       -1.3 dBFS\n[out#0/null @ 0x7c6b008780] video:0KiB audio:16876KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nsize=N/A time=00:01:30.00 bitrate=N/A speed= 295x elapsed=0:00:00.30    "
+  },
+  "checks": [
+    {
+      "name": "encoded_native_media_spec",
+      "status": "PASS",
+      "details": {
+        "expected": {
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "width": 2160,
+          "height": 3840,
+          "fps": "60/1",
+          "frames": 5400,
+          "durationSeconds": 90,
+          "audioCodec": "aac",
+          "audioSampleRateHz": 48000,
+          "audioChannels": 2
+        },
+        "measured": {
+          "video": {
+            "codecName": "h264",
+            "width": 2160,
+            "height": 3840,
+            "pixelFormat": "yuv420p",
+            "avgFrameRate": "60/1",
+            "rFrameRate": "60/1",
+            "countedFrames": 5400,
+            "streamDurationSeconds": 90.0,
+            "durationFromFramesSeconds": 90.0
+          },
+          "audio": {
+            "codecName": "aac",
+            "sampleRateHz": 48000,
+            "channels": 2,
+            "channelLayout": "stereo",
+            "streamDurationSeconds": 90.0
+          },
+          "container": {
+            "formatName": "mov,mp4,m4a,3gp,3g2,mj2",
+            "sizeBytes": 97349252,
+            "durationSeconds": 90.0
+          }
+        }
+      }
+    },
+    {
+      "name": "movie_unchanged_during_collection",
+      "status": "PASS",
+      "details": {
+        "sha256Before": "bba5f68e90e721f0a71c20dd4949afeb3b34bf510dd9d4700e5e95fd5b86e1bd",
+        "sha256After": "bba5f68e90e721f0a71c20dd4949afeb3b34bf510dd9d4700e5e95fd5b86e1bd"
+      }
+    }
+  ],
+  "frameCollection": {
+    "status": "COLLECTED",
+    "decodeMethod": "Sequential ffmpeg frame-select passes: phone-sized thumbnails for all cue windows and native 2160x3840 frames for named scene/covers.",
+    "phoneThumbnailSize": [
+      360,
+      640
+    ],
+    "phoneFrameNumbers": [
+      0,
+      90,
+      240,
+      299,
+      539,
+      630,
+      780,
+      929,
+      1259,
+      1350,
+      1500,
+      1649,
+      1979,
+      2070,
+      2160,
+      2220,
+      2399,
+      2759,
+      2850,
+      3000,
+      3119,
+      3419,
+      3510,
+      3660,
+      3914,
+      3960,
+      4349,
+      4410,
+      4560,
+      4589,
+      4799,
+      4859,
+      4860,
+      4889,
+      4890,
+      4935,
+      5085,
+      5137,
+      5369,
+      5399
+    ],
+    "nativeFrameNumbers2160x3840": [
+      1650,
+      2160,
+      2400,
+      3960
+    ],
+    "nativeFrameFiles": [
+      "native/frame_1650.png",
+      "native/frame_2160.png",
+      "native/frame_2400.png",
+      "native/frame_3960.png"
+    ],
+    "nativeInspectionCrops": [
+      {
+        "cueId": "S03-private-current",
+        "frame": 1650,
+        "sourceNativeFrame": "native/frame_1650.png",
+        "cropFile": "native-crops/s03-private-current-frame-1650-native-pixels.png",
+        "cropBoxXyxy2160x3840": [
+          240,
+          840,
+          1920,
+          3000
+        ],
+        "pixelDimensions": [
+          1680,
+          2160
+        ],
+        "qualityStatus": "NOT_ASSESSED"
+      },
+      {
+        "cueId": "S04-memory-boundary",
+        "frame": 2400,
+        "sourceNativeFrame": "native/frame_2400.png",
+        "cropFile": "native-crops/s04-memory-boundary-frame-2400-native-pixels.png",
+        "cropBoxXyxy2160x3840": [
+          240,
+          840,
+          1920,
+          3000
+        ],
+        "pixelDimensions": [
+          1680,
+          2160
+        ],
+        "qualityStatus": "NOT_ASSESSED"
+      }
+    ],
+    "contactSheetGrid": [
+      3,
+      3
+    ],
+    "phoneContactSheets": [
+      "phone-contact-01.jpg",
+      "phone-contact-02.jpg",
+      "phone-contact-03.jpg",
+      "phone-contact-04.jpg",
+      "phone-contact-05.jpg"
+    ]
+  },
+  "motionHeuristics": {
+    "status": "MEASURED_HEURISTIC_ONLY",
+    "method": "Mean absolute RGB difference inside the same 252x236 central phone-frame crop for one pair in each of the eight EP18 cue windows.",
+    "pairs": [
+      {
+        "cueId": "S01",
+        "frames": [
+          90,
+          240
+        ],
+        "cropXyxyOn360x640PhoneFrame": [
+          40,
+          180,
+          292,
+          416
+        ],
+        "meanAbsoluteRgbDifference0To255": 4.075509,
+        "interpretation": "measurement only; not a visual pass or proof of meaningful motion"
+      },
+      {
+        "cueId": "S02",
+        "frames": [
+          630,
+          780
+        ],
+        "cropXyxyOn360x640PhoneFrame": [
+          40,
+          180,
+          292,
+          416
+        ],
+        "meanAbsoluteRgbDifference0To255": 7.301088,
+        "interpretation": "measurement only; not a visual pass or proof of meaningful motion"
+      },
+      {
+        "cueId": "S03",
+        "frames": [
+          1350,
+          1500
+        ],
+        "cropXyxyOn360x640PhoneFrame": [
+          40,
+          180,
+          292,
+          416
+        ],
+        "meanAbsoluteRgbDifference0To255": 15.842985,
+        "interpretation": "measurement only; not a visual pass or proof of meaningful motion"
+      },
+      {
+        "cueId": "S04",
+        "frames": [
+          2070,
+          2220
+        ],
+        "cropXyxyOn360x640PhoneFrame": [
+          40,
+          180,
+          292,
+          416
+        ],
+        "meanAbsoluteRgbDifference0To255": 11.435521,
+        "interpretation": "measurement only; not a visual pass or proof of meaningful motion"
+      },
+      {
+        "cueId": "S05",
+        "frames": [
+          2850,
+          3000
+        ],
+        "cropXyxyOn360x640PhoneFrame": [
+          40,
+          180,
+          292,
+          416
+        ],
+        "meanAbsoluteRgbDifference0To255": 11.183565,
+        "interpretation": "measurement only; not a visual pass or proof of meaningful motion"
+      },
+      {
+        "cueId": "S06",
+        "frames": [
+          3510,
+          3660
+        ],
+        "cropXyxyOn360x640PhoneFrame": [
+          40,
+          180,
+          292,
+          416
+        ],
+        "meanAbsoluteRgbDifference0To255": 9.068503,
+        "interpretation": "measurement only; not a visual pass or proof of meaningful motion"
+      },
+      {
+        "cueId": "S07",
+        "frames": [
+          4410,
+          4560
+        ],
+        "cropXyxyOn360x640PhoneFrame": [
+          40,
+          180,
+          292,
+          416
+        ],
+        "meanAbsoluteRgbDifference0To255": 11.232423,
+        "interpretation": "measurement only; not a visual pass or proof of meaningful motion"
+      },
+      {
+        "cueId": "S08",
+        "frames": [
+          4935,
+          5085
+        ],
+        "cropXyxyOn360x640PhoneFrame": [
+          40,
+          180,
+          292,
+          416
+        ],
+        "meanAbsoluteRgbDifference0To255": 12.463266,
+        "interpretation": "measurement only; not a visual pass or proof of meaningful motion"
+      }
+    ],
+    "notAVisualPass": true
+  },
+  "visualObservations": {
+    "reviewer": "Codex model assisted frame review",
+    "phoneSheetsViewed": [
+      "phone-contact-01.jpg",
+      "phone-contact-02.jpg",
+      "phone-contact-03.jpg",
+      "phone-contact-04.jpg",
+      "phone-contact-05.jpg"
+    ],
+    "observations": [
+      "360pxcaptionsreadable,max2lines;HUDnotclipped;keytextwithinsafearea.",
+      "Goldsubcurrents,seal-scaletransition,risingfilament,icefractureandgold-cyanrosevisible;privatecorestaysenclosed.",
+      "Eight2.5secondpairsviewed;sealshape/scaleorflowgeometryevolvesbeyondHUDandcaptionchanges.",
+      "Firstandlastframesviewed;endingcaptionfinishesbeforemediaendandseal/stampcontinue."
+    ],
+    "nativePixelDetailsViewed": [
+      "native-detail-1650.png",
+      "native-detail-2400.png"
+    ],
+    "nativeObservation": "查看750×750原生像素裁切；金线与暗部轮廓清楚，未观察到严重光晕色带。非全画面逐像素感知检查。",
+    "humanContinuousReview": "PENDING",
+    "actualPhonePlayback": "PENDING"
+  },
+  "humanAcceptance": {
+    "representativeFrames": "PENDING",
+    "continuousHumanReview": "PENDING",
+    "targetDevicePlayback": "PENDING"
+  }
+}

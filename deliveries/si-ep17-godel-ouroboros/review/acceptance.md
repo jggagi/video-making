@@ -10,7 +10,7 @@
 - 全片连续视觉筛查：PASS：从第0帧连续解码全部5400帧，完整扫描且0标记；固定首行HUD和暗角ROI来自本片布局，报告绑定最终SHA。
 - 最终编码手机/原尺寸抽帧观察：PASS（模型代表帧观察）：最终MP4的39张360px样本、4张补充字幕样本及3个原尺寸像素裁片均已查看；HUD/字幕无裁切，主体与九组运动成对帧可见空间演进，暗底裁片未见严重色带。物理大屏和真机仍待确认。
 - 编码后音量/真峰值、声轨与母带相关对齐：声轨相关对齐PASS：f60/f1500/f4500/f4890四个窗口均0样本延迟，相关系数>0.9999。PCM静音为精确零，AAC在同窗RMS约-102.85dBFS，不声称有损编码逐样本为零；编码后实测-16.1LUFS、-1.3dBTP，满足目标容差与真峰值上限。
-- 本地final与GitHub作品/final备份、真实恢复：本地final PASS：新增1个已校验APFS克隆，其余58份保留；GitHub两套清单dry-run通过，待本次source commit推送后上传和真实恢复。
+- 本地final与GitHub作品/final备份、真实恢复：**PASS**。本地新增1个APFS克隆，历史58份保留；作品Release的11个资产已独立核验，当前全部59个final文件/30个Release的大小、SHA-256和完整集合均匹配。本片100451279字节的final资产真实下载恢复成功，第二次恢复跳过且inode不变，隔离目录已清理。范围与身份见archive-verification.json、final-restore-probe.json和仓库final/backup-verification.json。
 
 模型代表帧留下的画面是：一张向外铺满的知识圆盘，转向自己后折成不可能三角；递归窗口最终咬成衔尾蛇；半秒停顿后，一点琥珀从圆外触及边界，金线沿锁住的环传播。数学公式是限定与线索，主要叙事动作无需逐项阅读HUD。该观察不能替代普通观众的一遍观看反馈。
 
@@ -19,3 +19,5 @@
 第一轮全片渲染在f1272因提前淡入的负余数索引失败，没有生成正式媒体。源码归一化两个跨幕周期后，补做了全部5400帧运行检查和同配置原生跨幕样片，重新完整渲染。废弃候选和失败记录保留其身份/原因；正式成片只依据新的媒体哈希验收。存储恢复仅涉及已复制并逐文件核验的生成草稿/缓存，见storage-recovery.json。
 
 最终成片SHA-256：`2b5676d8e1eb92911d290866326daf14fb69dc286e2e38e964a888727d4814cd`。完整严格媒体校验和源码扫描PASS，报告media-validation-20261023T035050.653524Z.json。Cover A/B来自最终编码的精确3960/2160帧；推荐A加标题版，封面身份见cover-selection.json。
+
+GitHub源提交：b63b3d8450e51ea850ad85e15b00335d54a118da；作品Release：film-si-ep17-godel-ouroboros-2e765a7201af；独立final备份Release：final-si-ep17-godel-ouroboros-2e765a7201af。两份上传使用独立receipt，均COMPLETE。

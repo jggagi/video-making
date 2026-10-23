@@ -1,0 +1,129 @@
+{
+  "status": "COMPLETE",
+  "scope": "Only EP17 film Release freshly checked here; full uploader receipt separately verifies all269assets",
+  "verified_at_utc": "2026-10-23T04:00:56.681705+00:00",
+  "source_commit": "b63b3d8450e51ea850ad85e15b00335d54a118da",
+  "catalog_sha256": "fa3efdb7addde838994329cfa81bb5b017a158dc478b337a8ffe6cdc2b5d5c77",
+  "upload_receipt_sha256": "5dc78ad07dc44721df88743d166427476646d214ce061cbd248e3f5d85e0ae35",
+  "verified_files": 11,
+  "work": {
+    "id": "si-ep17-godel-ouroboros",
+    "title": "啃食尾巴的神",
+    "release_tag": "film-si-ep17-godel-ouroboros-2e765a7201af",
+    "release_url": "https://github.com/jggagi/video-making/releases/tag/film-si-ep17-godel-ouroboros-2e765a7201af",
+    "release_target": "b63b3d8450e51ea850ad85e15b00335d54a118da",
+    "release_draft": false,
+    "assets": [
+      {
+        "path": "deliveries/si-ep17-godel-ouroboros/review/droste-candidate-01/motion-2820-2999.mp4",
+        "name": "si-ep17-godel-ouroboros--deliveries--si-ep17-godel-ouroboros--review--droste-candidate-01--motion-2820-2999--21859742a186.mp4",
+        "bytes": 6478146,
+        "sha256": "21859742a1862c7782e2471c90c45fa71d941fc0c7c83e0db62205e099907fe1",
+        "github_digest": "sha256:21859742a1862c7782e2471c90c45fa71d941fc0c7c83e0db62205e099907fe1",
+        "github_asset_id": 667899615,
+        "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep17-godel-ouroboros-2e765a7201af/si-ep17-godel-ouroboros--deliveries--si-ep17-godel-ouroboros--review--droste-candidate-01--motion-2820-2999--21859742a186.mp4",
+        "local_and_remote_match": true
+      },
+      {
+        "path": "deliveries/si-ep17-godel-ouroboros/review/ending-candidate-01/motion-4800-5039.mp4",
+        "name": "si-ep17-godel-ouroboros--deliveries--si-ep17-godel-ouroboros--review--ending-candidate-01--motion-4800-5039--c1e5209da2cc.mp4",
+        "bytes": 2036048,
+        "sha256": "c1e5209da2cc797c095ba1022c447681c22f4d716f52ddfa8e2b4c3a028ffdc9",
+        "github_digest": "sha256:c1e5209da2cc797c095ba1022c447681c22f4d716f52ddfa8e2b4c3a028ffdc9",
+        "github_asset_id": 667899668,
+        "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep17-godel-ouroboros-2e765a7201af/si-ep17-godel-ouroboros--deliveries--si-ep17-godel-ouroboros--review--ending-candidate-01--motion-4800-5039--c1e5209da2cc.mp4",
+        "local_and_remote_match": true
+      },
+      {
+        "path": "deliveries/si-ep17-godel-ouroboros/review/motion-0-239.mp4",
+        "name": "si-ep17-godel-ouroboros--deliveries--si-ep17-godel-ouroboros--review--motion-0-239--bca037c963cb.mp4",
+        "bytes": 7161933,
+        "sha256": "bca037c963cb7ebe70ef8e9d1ec2a50eabe85e85673f55e88a5e26a5545055e2",
+        "github_digest": "sha256:bca037c963cb7ebe70ef8e9d1ec2a50eabe85e85673f55e88a5e26a5545055e2",
+        "github_asset_id": 667899729,
+        "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep17-godel-ouroboros-2e765a7201af/si-ep17-godel-ouroboros--deliveries--si-ep17-godel-ouroboros--review--motion-0-239--bca037c963cb.mp4",
+        "local_and_remote_match": true
+      },
+      {
+        "path": "deliveries/si-ep17-godel-ouroboros/review/motion-1260-1350.mp4",
+        "name": "si-ep17-godel-ouroboros--deliveries--si-ep17-godel-ouroboros--review--motion-1260-1350--03cf3e4e1e86.mp4",
+        "bytes": 2334588,
+        "sha256": "03cf3e4e1e86164e24c1ced9f9c4a46f0de3975fd055941c141ad8e1eb07329d",
+        "github_digest": "sha256:03cf3e4e1e86164e24c1ced9f9c4a46f0de3975fd055941c141ad8e1eb07329d",
+        "github_asset_id": 667899825,
+        "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep17-godel-ouroboros-2e765a7201af/si-ep17-godel-ouroboros--deliveries--si-ep17-godel-ouroboros--review--motion-1260-1350--03cf3e4e1e86.mp4",
+        "local_and_remote_match": true
+      },
+      {
+        "path": "deliveries/si-ep17-godel-ouroboros/review/motion-2760-2850.mp4",
+        "name": "si-ep17-godel-ouroboros--deliveries--si-ep17-godel-ouroboros--review--motion-2760-2850--7c0e99fbf0b7.mp4",
+        "bytes": 2146747,
+        "sha256": "7c0e99fbf0b76a4930bedb5f9b0ced36640ac534838b9e829974d813e3e63dfe",
+        "github_digest": "sha256:7c0e99fbf0b76a4930bedb5f9b0ced36640ac534838b9e829974d813e3e63dfe",
+        "github_asset_id": 667899888,
+        "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep17-godel-ouroboros-2e765a7201af/si-ep17-godel-ouroboros--deliveries--si-ep17-godel-ouroboros--review--motion-2760-2850--7c0e99fbf0b7.mp4",
+        "local_and_remote_match": true
+      },
+      {
+        "path": "deliveries/si-ep17-godel-ouroboros/review/motion-2820-2999.mp4",
+        "name": "si-ep17-godel-ouroboros--deliveries--si-ep17-godel-ouroboros--review--motion-2820-2999--82aacdf23a04.mp4",
+        "bytes": 4145267,
+        "sha256": "82aacdf23a04fdf271a32340e4cfa9bc49c418ed4cbb00fc4c7ce69ca1e51682",
+        "github_digest": "sha256:82aacdf23a04fdf271a32340e4cfa9bc49c418ed4cbb00fc4c7ce69ca1e51682",
+        "github_asset_id": 667899935,
+        "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep17-godel-ouroboros-2e765a7201af/si-ep17-godel-ouroboros--deliveries--si-ep17-godel-ouroboros--review--motion-2820-2999--82aacdf23a04.mp4",
+        "local_and_remote_match": true
+      },
+      {
+        "path": "deliveries/si-ep17-godel-ouroboros/review/motion-3900-4079.mp4",
+        "name": "si-ep17-godel-ouroboros--deliveries--si-ep17-godel-ouroboros--review--motion-3900-4079--6bcdf696a69e.mp4",
+        "bytes": 3637686,
+        "sha256": "6bcdf696a69e525373eac3e8261750d65c8ca0987d39d0e8dda6b222eefb1308",
+        "github_digest": "sha256:6bcdf696a69e525373eac3e8261750d65c8ca0987d39d0e8dda6b222eefb1308",
+        "github_asset_id": 667899989,
+        "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep17-godel-ouroboros-2e765a7201af/si-ep17-godel-ouroboros--deliveries--si-ep17-godel-ouroboros--review--motion-3900-4079--6bcdf696a69e.mp4",
+        "local_and_remote_match": true
+      },
+      {
+        "path": "deliveries/si-ep17-godel-ouroboros/review/motion-4800-5039.mp4",
+        "name": "si-ep17-godel-ouroboros--deliveries--si-ep17-godel-ouroboros--review--motion-4800-5039--455e9b1a12a9.mp4",
+        "bytes": 1894790,
+        "sha256": "455e9b1a12a98f94146dfcd0ef5a3d26bdf42335beac2fd6b708632892a45cc1",
+        "github_digest": "sha256:455e9b1a12a98f94146dfcd0ef5a3d26bdf42335beac2fd6b708632892a45cc1",
+        "github_asset_id": 667900061,
+        "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep17-godel-ouroboros-2e765a7201af/si-ep17-godel-ouroboros--deliveries--si-ep17-godel-ouroboros--review--motion-4800-5039--455e9b1a12a9.mp4",
+        "local_and_remote_match": true
+      },
+      {
+        "path": "deliveries/si-ep17-godel-ouroboros/review/motion-5100-5339.mp4",
+        "name": "si-ep17-godel-ouroboros--deliveries--si-ep17-godel-ouroboros--review--motion-5100-5339--cdd33056191b.mp4",
+        "bytes": 2590694,
+        "sha256": "cdd33056191bbb39fa9b998cfdb107cc5ebb01ca9f1216c5310a9ea899ff6a01",
+        "github_digest": "sha256:cdd33056191bbb39fa9b998cfdb107cc5ebb01ca9f1216c5310a9ea899ff6a01",
+        "github_asset_id": 667900112,
+        "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep17-godel-ouroboros-2e765a7201af/si-ep17-godel-ouroboros--deliveries--si-ep17-godel-ouroboros--review--motion-5100-5339--cdd33056191b.mp4",
+        "local_and_remote_match": true
+      },
+      {
+        "path": "deliveries/si-ep17-godel-ouroboros/review/opening-candidate-01/motion-0-239.mp4",
+        "name": "si-ep17-godel-ouroboros--deliveries--si-ep17-godel-ouroboros--review--opening-candidate-01--motion-0-239--698fa2990a16.mp4",
+        "bytes": 7170971,
+        "sha256": "698fa2990a16ef769336c3cc6153be6c225a8ad8195d9618c3d7d39de87b6d59",
+        "github_digest": "sha256:698fa2990a16ef769336c3cc6153be6c225a8ad8195d9618c3d7d39de87b6d59",
+        "github_asset_id": 667900151,
+        "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep17-godel-ouroboros-2e765a7201af/si-ep17-godel-ouroboros--deliveries--si-ep17-godel-ouroboros--review--opening-candidate-01--motion-0-239--698fa2990a16.mp4",
+        "local_and_remote_match": true
+      },
+      {
+        "path": "deliveries/si-ep17-godel-ouroboros/小红书/si-ep17-godel-ouroboros-xiaohongshu-90s-portrait.mp4",
+        "name": "si-ep17-godel-ouroboros--deliveries--si-ep17-godel-ouroboros-----si-ep17-godel-ouroboros-xiaohongshu-90s-portrait--2b5676d8e1eb.mp4",
+        "bytes": 100451279,
+        "sha256": "2b5676d8e1eb92911d290866326daf14fb69dc286e2e38e964a888727d4814cd",
+        "github_digest": "sha256:2b5676d8e1eb92911d290866326daf14fb69dc286e2e38e964a888727d4814cd",
+        "github_asset_id": 667900199,
+        "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep17-godel-ouroboros-2e765a7201af/si-ep17-godel-ouroboros--deliveries--si-ep17-godel-ouroboros-----si-ep17-godel-ouroboros-xiaohongshu-90s-portrait--2b5676d8e1eb.mp4",
+        "local_and_remote_match": true
+      }
+    ]
+  }
+}

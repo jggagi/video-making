@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "scope": "Only the single EP17 portrait final catalog asset was restored; no claim that historical movies were restored.",
+  "work_id": "si-ep17-godel-ouroboros",
+  "work_title": "Final 成片备份 · 啃食尾巴的神",
+  "delivery_title": "啃食尾巴的神",
+  "delivery_final_movie_sha256": "2b5676d8e1eb92911d290866326daf14fb69dc286e2e38e964a888727d4814cd",
+  "catalog_sha256": "6920a9e8c3ab68d463326b57f646e8d7ea9de5a11bec9c01da8b47292061547a",
+  "release_tag": "final-si-ep17-godel-ouroboros-2e765a7201af",
+  "asset_name": "final--si-ep17-godel-ouroboros--deliveries--si-ep17-godel-ouroboros-----si-ep17-godel-ouroboros-xiaohongshu-90s-portrait--2b5676d8e1eb.mp4",
+  "restored_relative_path": "final/si-ep17-godel-ouroboros/小红书/si-ep17-godel-ouroboros-xiaohongshu-90s-portrait.mp4",
+  "bytes": 100451279,
+  "sha256": "2b5676d8e1eb92911d290866326daf14fb69dc286e2e38e964a888727d4814cd",
+  "first_run_stdout": "Restored: final/si-ep17-godel-ouroboros/小红书/si-ep17-godel-ouroboros-xiaohongshu-90s-portrait.mp4 (100,451,279 bytes)\nRestore complete: 0 already verified, 1 downloaded",
+  "second_run_stdout": "Restore complete: 1 already verified, 0 downloaded",
+  "second_run_skipped_matching_file": true,
+  "repeat_preserved_file_inode": true,
+  "isolated_temporary_directory_cleaned_after_verification": true
+}

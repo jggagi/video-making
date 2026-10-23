@@ -47,4 +47,4 @@ python3 <本技能目录>/scripts/audit_audio.py soundtrack.wav --fps 24 --outpu
 
 音轨交付同时保留可编辑文本、逐段素材、缓存清单、字幕／时间轴和混音参数。报告实际完成的阶段：生成成功、文件检查、转写核对、人工试听与最终播放器检查分别列明；“已配置”“返回文件”“ASR相近”均不能替代真实试听。视频编排与成片导出需要时结合 `remotion`，不因此扩大为重做全片。
 
-本任务包含重新导出 `jggagi/video-making` 仓库的正式视频时，配合视频制作流程更新本地 `final/` 和GitHub专用 `final-*` Release 实际影片备份，核对大小、SHA-256与新增影片恢复抽测，见 [仓库归档约定](../dual-platform-video/references/github-archive.md)。纯音频任务按原范围交付；final成片库只收正式视频，音频、缓存和stem继续保留在对应工程中。
+本任务包含重新导出 `jggagi/video-making` 仓库的正式视频时，配合视频制作流程更新本地 `final/` 和GitHub专用 `final-*` Release 实际影片备份，核对大小、SHA-256与新增影片恢复抽测，见 [仓库归档约定](../xiaohongshu-video/references/github-archive.md)。纯音频任务按原范围交付；final成片库只收正式视频，音频、缓存和stem继续保留在对应工程中。

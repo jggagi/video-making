@@ -38,7 +38,7 @@ PLATFORM_FOLDERS = {"bilibili": "B站", "xiaohongshu": "小红书"}
 PLATFORM_LINK_LABELS = {"B站": "B站横屏", "小红书": "小红书竖屏"}
 
 _VISUAL_QC_PATH = (
-    Path(__file__).resolve().parents[1] / "skills" / "dual-platform-video"
+    Path(__file__).resolve().parents[1] / "skills" / "xiaohongshu-video"
     / "scripts" / "visual_qc.py"
 )
 _VISUAL_QC_SPEC = importlib.util.spec_from_file_location("archive_visual_qc", _VISUAL_QC_PATH)

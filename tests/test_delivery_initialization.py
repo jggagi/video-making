@@ -11,7 +11,7 @@ from unittest.mock import patch
 SCRIPT = (
     Path(__file__).resolve().parents[1]
     / "skills"
-    / "dual-platform-video"
+    / "xiaohongshu-video"
     / "scripts"
     / "init_delivery.py"
 )
@@ -23,20 +23,22 @@ spec.loader.exec_module(mod)
 
 class DeliveryInitializationTests(unittest.TestCase):
     def manifest(self, duration=mod.DEFAULT_DURATION_SECONDS, fps=60,
-                 platforms=mod.PLATFORMS):
-        return mod.build_manifest(
+                 platforms=None):
+        arguments = dict(
             slug="test-film",
             title="Test film",
             fps=fps,
             audio_mode="narrated",
             script_bytes=b"source script\n",
             duration_seconds=duration,
-            platforms=platforms,
         )
+        if platforms is not None:
+            arguments["platforms"] = platforms
+        return mod.build_manifest(**arguments)
 
     def args(self, output_root, script, duration=mod.DEFAULT_DURATION_SECONDS,
-             platforms=mod.PLATFORMS):
-        return mod.argparse.Namespace(
+             platforms=None):
+        arguments = dict(
             output_root=output_root,
             slug="test-film",
             title="Test film",
@@ -44,14 +46,33 @@ class DeliveryInitializationTests(unittest.TestCase):
             fps=60,
             audio_mode="narrated",
             duration_seconds=duration,
-            platforms=list(platforms),
         )
+        if platforms is not None:
+            arguments["platforms"] = list(platforms)
+        return mod.argparse.Namespace(**arguments)
 
-    def test_default_120_second_outputs_use_4k_dimensions_and_existing_filenames(self):
+    def test_default_manifest_is_xiaohongshu_only_at_120_seconds(self):
         manifest = self.manifest()
-        self.assertEqual(manifest["platforms"], ["bilibili", "xiaohongshu"])
+        self.assertEqual(manifest["platforms"], ["xiaohongshu"])
         self.assertEqual(manifest["duration_seconds"], 120)
         self.assertEqual(manifest["total_frames"], 7_200)
+        self.assertEqual(set(manifest["outputs"]), {"xiaohongshu"})
+        self.assertEqual(
+            (manifest["outputs"]["xiaohongshu"]["width"],
+             manifest["outputs"]["xiaohongshu"]["height"]),
+            (2160, 3840),
+        )
+        self.assertEqual(
+            manifest["outputs"]["xiaohongshu"]["path"],
+            "小红书/test-film-xiaohongshu-120s-portrait.mp4",
+        )
+        self.assertEqual(
+            set(manifest["visual_qc"]["reports"]), {"xiaohongshu"}
+        )
+
+    def test_explicit_dual_platform_manifest_preserves_both_4k_outputs(self):
+        manifest = self.manifest(platforms=mod.PLATFORMS)
+        self.assertEqual(manifest["platforms"], ["bilibili", "xiaohongshu"])
         self.assertEqual(
             (manifest["outputs"]["bilibili"]["width"],
              manifest["outputs"]["bilibili"]["height"]),
@@ -66,16 +87,12 @@ class DeliveryInitializationTests(unittest.TestCase):
              manifest["outputs"]["xiaohongshu"]["height"]),
             (2160, 3840),
         )
-        self.assertEqual(
-            manifest["outputs"]["xiaohongshu"]["path"],
-            "小红书/test-film-xiaohongshu-120s-portrait.mp4",
-        )
 
     def test_180_and_fractional_durations_use_matching_frame_counts(self):
         long_manifest = self.manifest(180)
         self.assertEqual(long_manifest["duration_seconds"], 180)
         self.assertEqual(long_manifest["total_frames"], 10_800)
-        self.assertIn("180s", long_manifest["outputs"]["bilibili"]["path"])
+        self.assertIn("180s", long_manifest["outputs"]["xiaohongshu"]["path"])
 
         fractional_manifest = self.manifest(120.5)
         self.assertEqual(fractional_manifest["duration_seconds"], 120.5)
@@ -92,9 +109,79 @@ class DeliveryInitializationTests(unittest.TestCase):
         with patch.object(sys, "argv", base + ["--duration-seconds", "180"]):
             self.assertEqual(mod.parse_args().duration_seconds, 180)
         with patch.object(sys, "argv", base):
-            self.assertEqual(mod.parse_args().platforms, ["bilibili", "xiaohongshu"])
+            self.assertEqual(mod.parse_args().platforms, ["xiaohongshu"])
         with patch.object(sys, "argv", base + ["--platforms", "xiaohongshu"]):
             self.assertEqual(mod.parse_args().platforms, ["xiaohongshu"])
+
+    def test_cli_default_creates_only_xiaohongshu_directory_output_and_qc_report(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            script = root / "script.md"
+            script.write_text("default CLI source\n", encoding="utf-8")
+            output_root = root / "deliveries"
+            argv = [
+                "init_delivery.py", "--output-root", str(output_root),
+                "--slug", "test-film", "--title", "Test film",
+                "--script", str(script),
+            ]
+            with patch.object(sys, "argv", argv):
+                self.assertEqual(mod.main(), 0)
+
+            target = output_root / "test-film"
+            self.assertTrue((target / "小红书").is_dir())
+            self.assertFalse((target / "B站").exists())
+            manifest = json.loads(
+                (target / "delivery.json").read_text(encoding="utf-8")
+            )
+            self.assertEqual(manifest["platforms"], ["xiaohongshu"])
+            self.assertEqual(set(manifest["outputs"]), {"xiaohongshu"})
+            self.assertEqual(
+                set(manifest["visual_qc"]["reports"]), {"xiaohongshu"}
+            )
+
+    def test_create_delivery_without_platforms_defaults_to_xiaohongshu(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            script = root / "script.md"
+            script.write_text("default helper source\n", encoding="utf-8")
+            target = mod.create_delivery(self.args(root / "deliveries", script))
+
+            self.assertTrue((target / "小红书").is_dir())
+            self.assertFalse((target / "B站").exists())
+            manifest = json.loads(
+                (target / "delivery.json").read_text(encoding="utf-8")
+            )
+            self.assertEqual(manifest["platforms"], ["xiaohongshu"])
+            self.assertEqual(set(manifest["outputs"]), {"xiaohongshu"})
+            self.assertEqual(
+                set(manifest["visual_qc"]["reports"]), {"xiaohongshu"}
+            )
+
+    def test_explicit_dual_and_bilibili_only_delivery_initialization_still_work(self):
+        cases = (
+            (mod.PLATFORMS, {"B站", "小红书"}, {"bilibili", "xiaohongshu"}),
+            (("bilibili",), {"B站"}, {"bilibili"}),
+        )
+        for platforms, expected_directories, expected_keys in cases:
+            with self.subTest(platforms=platforms), tempfile.TemporaryDirectory() as tmp:
+                root = Path(tmp)
+                script = root / "script.md"
+                script.write_text("explicit selection source\n", encoding="utf-8")
+                target = mod.create_delivery(
+                    self.args(root / "deliveries", script, platforms=platforms)
+                )
+                created_directories = {
+                    name for name in ("B站", "小红书") if (target / name).is_dir()
+                }
+                manifest = json.loads(
+                    (target / "delivery.json").read_text(encoding="utf-8")
+                )
+                self.assertEqual(created_directories, expected_directories)
+                self.assertEqual(set(manifest["outputs"]), expected_keys)
+                self.assertEqual(
+                    set(manifest["visual_qc"]["reports"]), expected_keys
+                )
+                self.assertEqual(set(manifest["platforms"]), expected_keys)
 
     def test_portrait_only_90_second_manifest_and_initializer(self):
         manifest = self.manifest(90, platforms=["xiaohongshu"])

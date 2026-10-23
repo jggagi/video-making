@@ -22,15 +22,15 @@ def load_module(name, path):
 
 QC = load_module(
     "visual_qc_under_test",
-    REPOSITORY_ROOT / "skills" / "dual-platform-video" / "scripts" / "visual_qc.py",
+    REPOSITORY_ROOT / "skills" / "xiaohongshu-video" / "scripts" / "visual_qc.py",
 )
 VALIDATOR = load_module(
     "visual_qc_validator_under_test",
-    REPOSITORY_ROOT / "skills" / "dual-platform-video" / "scripts" / "validate_delivery.py",
+    REPOSITORY_ROOT / "skills" / "xiaohongshu-video" / "scripts" / "validate_delivery.py",
 )
 INITIALIZER = load_module(
     "visual_qc_initializer_under_test",
-    REPOSITORY_ROOT / "skills" / "dual-platform-video" / "scripts" / "init_delivery.py",
+    REPOSITORY_ROOT / "skills" / "xiaohongshu-video" / "scripts" / "init_delivery.py",
 )
 ARCHIVE = load_module(
     "visual_qc_archive_under_test",
@@ -350,7 +350,13 @@ class VisualQCTests(unittest.TestCase):
             slug="new-work", title="New work", fps=60, audio_mode="silent",
             script_bytes=b"script", duration_seconds=120,
         )
-        self.assertEqual(manifest["visual_qc"], {"required": True, "reports": REPORTS})
+        self.assertEqual(
+            manifest["visual_qc"],
+            {
+                "required": True,
+                "reports": {"xiaohongshu": REPORTS["xiaohongshu"]},
+            },
+        )
         portrait = INITIALIZER.build_manifest(
             slug="portrait-work", title="Portrait work", fps=60, audio_mode="silent",
             script_bytes=b"script", duration_seconds=90, platforms=["xiaohongshu"],

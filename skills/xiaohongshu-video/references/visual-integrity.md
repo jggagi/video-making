@@ -13,20 +13,19 @@ EP05 v02 的 MP4 能正常严格解码，却混入偶发重复文字块；稀疏
 - 画面是绝对帧号与固定种子的函数；相同帧重画应相同，乱序渲染也应正确。避免依赖前一帧、真实时钟、未固定随机数、CSS 自行动画和渲染中远程数据。
 - 用项目版本支持的媒体组件和 `delayRender` / `continueRender`（或 `useDelayRender`）等待素材与字体；字体就绪后再测量文字。Canvas 必须先完成当前帧绘制，再释放捕获。必要时等待绘制 tick，但不能用固定睡眠替代资源就绪信号；取消、异常和卸载路径也要释放或取消句柄。
 - 记录实际 Remotion/Chrome 版本、原生尺寸、浏览器参数、中间帧格式、并发、字体、源文件和 PCM 母带哈希。复用已验证配置，调整时单独验证，不顺手升级依赖。
-- 在 Q 的 16 GiB Mac 上串行渲染两份完整 4K；浏览器捕获从较低并发开始，按当前负载和原生样片结果选择。不要把“并发 1”或禁用 GPU 作为确定性证明。需要 WebGL 的工程尤其不能照搬 CPU 开关。
+- 在 Q 的 16 GiB Mac 上同一时刻只跑一项完整 4K 渲染；默认只做小红书，明确增加其他画幅时串行执行；浏览器捕获从较低并发开始，按当前负载和原生样片结果选择。不要把“并发 1”或禁用 GPU 作为确定性证明。需要 WebGL 的工程尤其不能照搬 CPU 开关。
 - 对新捕获路径，用**最终原生分辨率**制作覆盖字体首次出现、密集画面、快速运动和转场的短片，带实际字幕与声音。先检查再跑全片；全片仍需独立扫描。
 
 Remotion 官方解释了帧驱动、并发和等待素材的关系：[闪烁排查](https://www.remotion.dev/docs/flickering)、[渲染就绪控制](https://www.remotion.dev/docs/delay-render)。双 RAF、CPU Canvas 和 PNG 中间帧是可测试的具体措施，不是跨机器保证。
 
 ## 扫描最终编码
 
-初始化器为新片加入：
+初始化器默认只为小红书新片加入以下必需报告。`platforms`、`outputs` 和 `visual_qc.reports` 的键保持一致；明确增加其他平台时逐个补充对应报告与完整扫描，历史双平台清单继续按原声明检查：
 
 ```json
 "visual_qc": {
   "required": true,
   "reports": {
-    "bilibili": "review/visual-qc-bilibili/report.json",
     "xiaohongshu": "review/visual-qc-xiaohongshu/report.json"
   }
 }
@@ -35,9 +34,6 @@ Remotion 官方解释了帧驱动、并发和等待素材的关系：[闪烁排�
 从作品目录执行，`N` 使用清单 `total_frames`，不固定写死 7200。每次选择新的报告目录，并将清单中的报告路径指向这次结果：
 
 ```sh
-python3 <技能目录>/scripts/scan_visual_qc.py \
-  --media B站/<最终横版>.mp4 --expected-frames <N> \
-  --output-dir review/visual-qc-bilibili
 python3 <技能目录>/scripts/scan_visual_qc.py \
   --media 小红书/<最终竖版>.mp4 --expected-frames <N> \
   --output-dir review/visual-qc-xiaohongshu

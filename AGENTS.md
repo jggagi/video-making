@@ -4,14 +4,14 @@ Canonical GitHub repository: https://github.com/jggagi/video-making
 
 Q has explicitly requested that this repository retain the skill, all existing
 short films in this workspace, and future films produced with
-`dual-platform-video`. This authorizes scoped commits, pushes and media uploads
+`xiaohongshu-video`. This authorizes scoped commits, pushes and media uploads
 to this repository as part of completing a film. It does not authorize posting
 to B站/小红书 accounts or changing repository visibility/settings.
 
-- Use `skills/dual-platform-video/SKILL.md` for new script-to-video work. Q's
-  2026-10-22 instruction overrides its dual-platform default: produce only
+- Use `skills/xiaohongshu-video/SKILL.md` for new script-to-video work. Q's
+  2026-10-22 instruction is its default: produce only
   小红书, native portrait 4K (2160x3840), default 120 seconds unless the current
-  brief specifies otherwise. Initialize with `--platforms xiaohongshu` and keep
+  brief specifies otherwise. The initializer defaults to `xiaohongshu`; keep
   the manifest, rendering, QA and archive limited to that platform. An explicit
   future request may add another platform; preserve historical editions.
 - Optimize new films for 小红书 discovery and watching: align cover, title,

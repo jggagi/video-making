@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Create a fresh, editable dual-platform video delivery workspace."""
+"""Create a fresh, editable Xiaohongshu-first video delivery workspace."""
 
 from __future__ import annotations
 
@@ -18,6 +18,7 @@ import unicodedata
 FPS_CHOICES = (24, 25, 30, 50, 60)
 AUDIO_MODES = ("narrated", "provided", "silent")
 PLATFORMS = ("bilibili", "xiaohongshu")
+DEFAULT_PLATFORMS = ("xiaohongshu",)
 PLATFORM_DETAILS = {
     "bilibili": ("B站", 3840, 2160, "bilibili", "4k"),
     "xiaohongshu": ("小红书", 2160, 3840, "xiaohongshu", "portrait"),
@@ -32,7 +33,7 @@ class InputError(ValueError):
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Initialize a fresh B站 and 小红书 delivery folder."
+        description="Initialize a fresh 小红书 delivery folder by default."
     )
     parser.add_argument("--output-root", required=True, type=Path)
     parser.add_argument("--slug", required=True)
@@ -47,8 +48,8 @@ def parse_args() -> argparse.Namespace:
         "--audio-mode", choices=AUDIO_MODES, default="narrated"
     )
     parser.add_argument(
-        "--platforms", nargs="+", choices=PLATFORMS, default=list(PLATFORMS),
-        help="target platform editions (default: bilibili xiaohongshu)",
+        "--platforms", nargs="+", choices=PLATFORMS, default=list(DEFAULT_PLATFORMS),
+        help="target platform editions (default: xiaohongshu)",
     )
     return parser.parse_args()
 
@@ -126,7 +127,7 @@ def validate_platforms(value: object) -> tuple[str, ...]:
 def build_manifest(
     *, slug: str, title: str, fps: int, audio_mode: str, script_bytes: bytes,
     duration_seconds: int | float = DEFAULT_DURATION_SECONDS,
-    platforms: list[str] | tuple[str, ...] = PLATFORMS,
+    platforms: list[str] | tuple[str, ...] = DEFAULT_PLATFORMS,
 ) -> dict:
     selected_platforms = validate_platforms(platforms)
     duration, total_frames = target_duration(duration_seconds, fps)
@@ -201,7 +202,9 @@ def create_delivery(args: argparse.Namespace) -> Path:
     if args.audio_mode not in AUDIO_MODES:
         raise InputError(f"--audio-mode must be one of {', '.join(AUDIO_MODES)}.")
     duration_seconds = getattr(args, "duration_seconds", DEFAULT_DURATION_SECONDS)
-    selected_platforms = validate_platforms(getattr(args, "platforms", PLATFORMS))
+    selected_platforms = validate_platforms(
+        getattr(args, "platforms", DEFAULT_PLATFORMS)
+    )
     # Reject invalid timing before reading or creating any delivery files.
     target_duration(duration_seconds, args.fps)
 

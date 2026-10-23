@@ -15,7 +15,7 @@ from unittest.mock import patch
 
 REPOSITORY_ROOT = Path(__file__).resolve().parents[1]
 VALIDATOR_PATH = (
-    REPOSITORY_ROOT / "skills" / "dual-platform-video" / "scripts"
+    REPOSITORY_ROOT / "skills" / "xiaohongshu-video" / "scripts"
     / "validate_delivery.py"
 )
 SPEC = importlib.util.spec_from_file_location("validate_delivery", VALIDATOR_PATH)

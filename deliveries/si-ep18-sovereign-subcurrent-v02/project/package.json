@@ -1,0 +1,27 @@
+{
+  "name": "si-ep18-sovereign-subcurrent-v02",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Pure 2D abyssal iceberg and Kintsugi subcurrent / privacy and human intent",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "stills": "node scripts/render.mjs stills",
+    "render": "node scripts/render.mjs video",
+    "covers": "node scripts/render.mjs covers",
+    "audio": "python3 scripts/audio_pipeline.py mix"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.534",
+    "@remotion/renderer": "4.0.534",
+    "@remotion/bundler": "4.0.534",
+    "remotion": "4.0.534",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.0",
+    "@types/react-dom": "19.1.0",
+    "typescript": "5.9.3"
+  },
+  "type": "module"
+}

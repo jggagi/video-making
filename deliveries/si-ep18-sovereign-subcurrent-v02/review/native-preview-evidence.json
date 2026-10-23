@@ -1,0 +1,72 @@
+{
+  "previews": [
+    {
+      "file": "motion-0-179.mp4",
+      "rangeHalfOpen": [
+        0,
+        180
+      ],
+      "sha256": "2de5cef22bd4d667ae21606885a9c38f0c0269f0c899b929633334d589777954",
+      "width": 2160,
+      "height": 3840,
+      "frames": 180,
+      "audioRate": "48000",
+      "audioChannels": 2,
+      "sampleAbsoluteFrames": [
+        0,
+        44,
+        89,
+        134,
+        179
+      ]
+    },
+    {
+      "file": "motion-3780-4019.mp4",
+      "rangeHalfOpen": [
+        3780,
+        4020
+      ],
+      "sha256": "e7944f648a5f8bb6aa4aec3f1a9d8ccaff30d17bfd1e11f22a91801c6d09fee2",
+      "width": 2160,
+      "height": 3840,
+      "frames": 240,
+      "audioRate": "48000",
+      "audioChannels": 2,
+      "sampleAbsoluteFrames": [
+        3780,
+        3839,
+        3899,
+        3959,
+        4019
+      ]
+    }
+  ],
+  "sourceSceneSha256": "b9eeeb3d4411461fdc6f546dc164dfe1b6233b508ad1a0e420cb9bf4c13ce08a",
+  "audio": "Exact reused PCM master included, verified before render",
+  "humanListening": "PENDING",
+  "continuousHumanReview": "PENDING",
+  "modelSequenceReview": {
+    "status": "PASS",
+    "contactSheet": "native-preview-overview.jpg",
+    "observations": [
+      "Broad two-ridge crown and joined fractured underwater body read as an iceberg at360px.",
+      "Opening text remains readable against the dark left ice slope.",
+      "Seal and gold currents remain clear against blue shadow planes.",
+      "Gold filament rises from3780 to3899; fractures persist after3900, without opening the entire core."
+    ],
+    "limitations": "Sequence-frame observation; not human listening or continuous normal-speed playback."
+  },
+  "covers": {
+    "selected": "A",
+    "A": {
+      "frame": 3960,
+      "file": "../小红书/cover-A-headline.png"
+    },
+    "B": {
+      "frame": 2160,
+      "file": "../小红书/cover-B-headline.png"
+    },
+    "modelReview": "Both phone-sized headline covers viewed; ice crown, golden core and A rising filament readable.",
+    "evidence": "cover-phone-overview.jpg"
+  }
+}

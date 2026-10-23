@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "scope": "Exact byte comparison against v01; audio master hash in audio-reuse.json",
+  "files": [
+    {
+      "path": "source/script.md",
+      "unchanged": true,
+      "sha256": "0fa90261692cfac42ed78c021e17cee46011024d42c831d1210e713ef287f99b"
+    },
+    {
+      "path": "project/segments.json",
+      "unchanged": true,
+      "sha256": "5a17ad2e155935262f0790cd069deefce55d781440b700caec38cc9d14c01dc4"
+    },
+    {
+      "path": "project/captions.json",
+      "unchanged": true,
+      "sha256": "e9b0460cbf15ff12f16941136b3f73a910e3f300bcec363bd690f0a3eb0a3587"
+    },
+    {
+      "path": "project/audio-timing.json",
+      "unchanged": true,
+      "sha256": "11ded183833ab7f91d835c6852bae375fd6ef153b80453732b2de5388588e9b1"
+    },
+    {
+      "path": "project/timeline.json",
+      "unchanged": true,
+      "sha256": "43cdaed749015f57ba15eb8fde53b3de789f0fcc528531113b77cc381e7193fb"
+    },
+    {
+      "path": "project/src/Film.tsx",
+      "unchanged": true,
+      "sha256": "7b59da602429849905379fb0bb417e627809df0e10aca2ca25c16ecbc18e890f"
+    },
+    {
+      "path": "project/src/Root.tsx",
+      "unchanged": true,
+      "sha256": "6afabde516cfa9c768e0aa8c6ab136d64a44a7c084c58d83a0b4f69025a9880a"
+    },
+    {
+      "path": "小红书/captions.srt",
+      "unchanged": true,
+      "sha256": "9f27421b72c628a9834b60ff6cbedbfee4504f263d33e9938673a63278ac4c35"
+    }
+  ],
+  "unchanged_scene_regions": [
+    "drawBackground",
+    "flowField and every subsequent function, including seal, currents, filament, loop, rose, ending and drawScene"
+  ],
+  "unchanged_scene_tail_sha256": "1684b5e4fb0741811955bbad7b279874a1538c77690b850b7d631327dcadfd88"
+}

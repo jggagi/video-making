@@ -1,0 +1,419 @@
+{
+  "schemaVersion": 1,
+  "work": {
+    "id": "si-ep18-sovereign-subcurrent-v02",
+    "title": "心印潜流 · v02",
+    "platforms": [
+      "xiaohongshu"
+    ]
+  },
+  "generation": "Local deterministic 2D Canvas2D/SVG source; assets listed from the current project public directory.",
+  "visualSource": {
+    "src/Film.tsx": {
+      "sha256": "7b59da602429849905379fb0bb417e627809df0e10aca2ca25c16ecbc18e890f",
+      "bytes": 4325
+    },
+    "src/Root.tsx": {
+      "sha256": "6afabde516cfa9c768e0aa8c6ab136d64a44a7c084c58d83a0b4f69025a9880a",
+      "bytes": 299
+    },
+    "src/Scene.tsx": {
+      "sha256": "b9eeeb3d4411461fdc6f546dc164dfe1b6233b508ad1a0e420cb9bf4c13ce08a",
+      "bytes": 34622
+    },
+    "src/index.ts": {
+      "sha256": "2e0e358282a1b998a65387c653b97c2bb2eb7aae94cf200fc0b8d919f7be73a6",
+      "bytes": 88
+    }
+  },
+  "typography": {
+    "source": "System fonts are provided by the rendering machine and are not copied into this project; another machine must verify its rendered layout."
+  },
+  "narrationAuthorization": {
+    "path": "audio-authorization.json",
+    "sha256": "2f3ad8e1a76b7f1c85b9b0f70a4c7effdd334743e9552794e8d210b9423042a0",
+    "provider": "Aliyun Bailian",
+    "voice": "longtian_v3",
+    "expectedEffectiveModel": "cosyvoice-v3-flash",
+    "actualModelsFromSynthesisEvidence": [
+      "cosyvoice-v3-flash"
+    ],
+    "actualVoicesFromSynthesisEvidence": [
+      "longtian_v3"
+    ],
+    "synthesisEvidence": "review/audio-synthesis.json",
+    "synthesisEvidenceSha256": "6060f03bc98d5ec72d03761507222048cbddda2d5e59275bcb89ec126f006896",
+    "synthesisCueCount": 8
+  },
+  "musicAndSfx": "See current project audio pipeline and its generated mix QA; no additional source identity or acceptance is inferred here.",
+  "assets": [
+    {
+      "id": "audio/history/raw/18eefd789b3a41c12aa5e3e972d34d5ae39c3654f37adfc57c17bc5631dd56a6.wav",
+      "path": "public/audio/history/raw/18eefd789b3a41c12aa5e3e972d34d5ae39c3654f37adfc57c17bc5631dd56a6.wav",
+      "sha256": "83813bcd77cbc22770c17e0f009dc87effdebd24e66ac4f6e688215dde9e5709",
+      "bytes": 353324,
+      "measuredWav": {
+        "sampleRateHz": 24000,
+        "channels": 1,
+        "sampleWidthBytes": 2,
+        "declaredSampleFramesPerChannel": 1073741773,
+        "compressionType": "NONE",
+        "compressionName": "not compressed"
+      }
+    },
+    {
+      "id": "audio/history/raw/422f12f4f38500ed5512f2f3837d37f41f3e509ba924fdc665d5a93388f2284a.wav",
+      "path": "public/audio/history/raw/422f12f4f38500ed5512f2f3837d37f41f3e509ba924fdc665d5a93388f2284a.wav",
+      "sha256": "55aac2c8861a5dbed19a02526356ea3a87d2ae1b8281af897bc8736f58567f07",
+      "bytes": 464684,
+      "measuredWav": {
+        "sampleRateHz": 24000,
+        "channels": 1,
+        "sampleWidthBytes": 2,
+        "declaredSampleFramesPerChannel": 1073741773,
+        "compressionType": "NONE",
+        "compressionName": "not compressed"
+      }
+    },
+    {
+      "id": "audio/history/raw/54c8f880169d1f2556aea8bfa68341097b58210b42111fb317f99aa745c68cbc.wav",
+      "path": "public/audio/history/raw/54c8f880169d1f2556aea8bfa68341097b58210b42111fb317f99aa745c68cbc.wav",
+      "sha256": "7685e8b544067eb67adbd55fe2e97381f4853bb144a6bc4707703cc731d9abb0",
+      "bytes": 334124,
+      "measuredWav": {
+        "sampleRateHz": 24000,
+        "channels": 1,
+        "sampleWidthBytes": 2,
+        "declaredSampleFramesPerChannel": 1073741773,
+        "compressionType": "NONE",
+        "compressionName": "not compressed"
+      }
+    },
+    {
+      "id": "audio/history/raw/8421ab3468b23168f68c57b7a958a28d45c9755d54c55a190e61ea7980bd9659.wav",
+      "path": "public/audio/history/raw/8421ab3468b23168f68c57b7a958a28d45c9755d54c55a190e61ea7980bd9659.wav",
+      "sha256": "8ee1e353ca3f99f747350e68acdf7e6acf52f755f6e9260ea71bf64c5af4e502",
+      "bytes": 357164,
+      "measuredWav": {
+        "sampleRateHz": 24000,
+        "channels": 1,
+        "sampleWidthBytes": 2,
+        "declaredSampleFramesPerChannel": 1073741773,
+        "compressionType": "NONE",
+        "compressionName": "not compressed"
+      }
+    },
+    {
+      "id": "audio/history/raw/86d94d22019f4ed0098e04d810a87b1bb04b3e00a6faf63eb1d71a61b99df7eb.wav",
+      "path": "public/audio/history/raw/86d94d22019f4ed0098e04d810a87b1bb04b3e00a6faf63eb1d71a61b99df7eb.wav",
+      "sha256": "573e9a8c8a0703213d17c9d8eca26de60e0e46efbe7c94c9e60a8e5885b9a000",
+      "bytes": 414764,
+      "measuredWav": {
+        "sampleRateHz": 24000,
+        "channels": 1,
+        "sampleWidthBytes": 2,
+        "declaredSampleFramesPerChannel": 1073741773,
+        "compressionType": "NONE",
+        "compressionName": "not compressed"
+      }
+    },
+    {
+      "id": "audio/history/raw/98d674465436c920b38d1721d1836aa28a8a27e09e3b923b81b2327d9da0f4e7.wav",
+      "path": "public/audio/history/raw/98d674465436c920b38d1721d1836aa28a8a27e09e3b923b81b2327d9da0f4e7.wav",
+      "sha256": "33793d3b509c20ebb9805594422196c85c27618a4a6d766c3a660834322b242d",
+      "bytes": 514604,
+      "measuredWav": {
+        "sampleRateHz": 24000,
+        "channels": 1,
+        "sampleWidthBytes": 2,
+        "declaredSampleFramesPerChannel": 1073741773,
+        "compressionType": "NONE",
+        "compressionName": "not compressed"
+      }
+    },
+    {
+      "id": "audio/history/raw/a5b974fa2059bd0e3ee24fef574b885ccb26470f52f90685e17027a5bab6767e.wav",
+      "path": "public/audio/history/raw/a5b974fa2059bd0e3ee24fef574b885ccb26470f52f90685e17027a5bab6767e.wav",
+      "sha256": "c9ab127924bbe4b4bf7d1d64f0a2776892884bf2f2dfcabfdc984a0c033dc44e",
+      "bytes": 457004,
+      "measuredWav": {
+        "sampleRateHz": 24000,
+        "channels": 1,
+        "sampleWidthBytes": 2,
+        "declaredSampleFramesPerChannel": 1073741773,
+        "compressionType": "NONE",
+        "compressionName": "not compressed"
+      }
+    },
+    {
+      "id": "audio/history/raw/a689471a08e542222d11ac34593a815752a7a6957483a0e510ef1d7ddf7a60a9.wav",
+      "path": "public/audio/history/raw/a689471a08e542222d11ac34593a815752a7a6957483a0e510ef1d7ddf7a60a9.wav",
+      "sha256": "868dcd7b1b4bf8504ee3a8a55a260d9e4ac74937b07a85cf645e6fbca16978e9",
+      "bytes": 468524,
+      "measuredWav": {
+        "sampleRateHz": 24000,
+        "channels": 1,
+        "sampleWidthBytes": 2,
+        "declaredSampleFramesPerChannel": 1073741773,
+        "compressionType": "NONE",
+        "compressionName": "not compressed"
+      }
+    },
+    {
+      "id": "audio/history/raw/d124276c0129deceab71a6e57b57249ecd24d33b70cdcd2fd97f1c3f56254a11.wav",
+      "path": "public/audio/history/raw/d124276c0129deceab71a6e57b57249ecd24d33b70cdcd2fd97f1c3f56254a11.wav",
+      "sha256": "d30c1ba6eefeb23cc9bd1e51f3e5ddf5e8b6f320032d53053f0a93ca233eacd4",
+      "bytes": 691244,
+      "measuredWav": {
+        "sampleRateHz": 24000,
+        "channels": 1,
+        "sampleWidthBytes": 2,
+        "declaredSampleFramesPerChannel": 1073741773,
+        "compressionType": "NONE",
+        "compressionName": "not compressed"
+      }
+    },
+    {
+      "id": "audio/master.wav",
+      "path": "public/audio/master.wav",
+      "sha256": "64c6b71729ed1a1bd948149d1051c2682a7237bd57aff59c9c752d0122b6f02d",
+      "bytes": 17280044,
+      "measuredWav": {
+        "sampleRateHz": 48000,
+        "channels": 2,
+        "sampleWidthBytes": 2,
+        "declaredSampleFramesPerChannel": 4320000,
+        "compressionType": "NONE",
+        "compressionName": "not compressed"
+      }
+    },
+    {
+      "id": "audio/sfx_events.json",
+      "path": "public/audio/sfx_events.json",
+      "sha256": "e0533a1026c8b11744d4bb15e1126ddab33ac731c80beb3f8149e3bc5d38a085",
+      "bytes": 2356
+    },
+    {
+      "id": "audio/stems/narration.wav",
+      "path": "public/audio/stems/narration.wav",
+      "sha256": "72008875b97940e0c987a2128c6049d0d2fe3994867141d0d4527bf3562a6631",
+      "bytes": 17280044,
+      "measuredWav": {
+        "sampleRateHz": 48000,
+        "channels": 2,
+        "sampleWidthBytes": 2,
+        "declaredSampleFramesPerChannel": 4320000,
+        "compressionType": "NONE",
+        "compressionName": "not compressed"
+      }
+    },
+    {
+      "id": "audio/stems/score.wav",
+      "path": "public/audio/stems/score.wav",
+      "sha256": "2a2917f161374bf04777a8c0f79008a1a31824ea7fdd28985109e6e3b58f6362",
+      "bytes": 17280044,
+      "measuredWav": {
+        "sampleRateHz": 48000,
+        "channels": 2,
+        "sampleWidthBytes": 2,
+        "declaredSampleFramesPerChannel": 4320000,
+        "compressionType": "NONE",
+        "compressionName": "not compressed"
+      }
+    },
+    {
+      "id": "audio/stems/sfx.wav",
+      "path": "public/audio/stems/sfx.wav",
+      "sha256": "1ca759d2d64093976f09a855b16b8b392dc09648fa79df70cb8705118e2bac9a",
+      "bytes": 17280044,
+      "measuredWav": {
+        "sampleRateHz": 48000,
+        "channels": 2,
+        "sampleWidthBytes": 2,
+        "declaredSampleFramesPerChannel": 4320000,
+        "compressionType": "NONE",
+        "compressionName": "not compressed"
+      }
+    },
+    {
+      "id": "audio/text/S01-18eefd789b3a.txt",
+      "path": "public/audio/text/S01-18eefd789b3a.txt",
+      "sha256": "9f54fc7f2e99beaef463b05fdf670a0601c54ad5fcc8f78d63cb93a9203169bc",
+      "bytes": 102
+    },
+    {
+      "id": "audio/text/S02-a5b974fa2059.txt",
+      "path": "public/audio/text/S02-a5b974fa2059.txt",
+      "sha256": "00a722a03e30eb015e4138a1cce480bf054f3c1075cfa03a7ab57e97b5aef674",
+      "bytes": 135
+    },
+    {
+      "id": "audio/text/S03-98d674465436.txt",
+      "path": "public/audio/text/S03-98d674465436.txt",
+      "sha256": "ee007db4c33e28446d7c804cb2ddcee72b67daa0fb516b9d6354209149c6282e",
+      "bytes": 126
+    },
+    {
+      "id": "audio/text/S04-86d94d22019f.txt",
+      "path": "public/audio/text/S04-86d94d22019f.txt",
+      "sha256": "025352128ddba781246fb9650138c58fb5bb76da43bc29b9babb16a80f8db4a2",
+      "bytes": 126
+    },
+    {
+      "id": "audio/text/S05-422f12f4f385.txt",
+      "path": "public/audio/text/S05-422f12f4f385.txt",
+      "sha256": "b8879af87807668a9c0c63a6f9c09bad81d3ef43c774d225d77178c6ee5a6ccf",
+      "bytes": 132
+    },
+    {
+      "id": "audio/text/S06-d124276c0129.txt",
+      "path": "public/audio/text/S06-d124276c0129.txt",
+      "sha256": "0140e666cb180991639abfb47e9ff61080a1017a39f2460c14890a693e351f01",
+      "bytes": 144
+    },
+    {
+      "id": "audio/text/S07-54c8f880169d.txt",
+      "path": "public/audio/text/S07-54c8f880169d.txt",
+      "sha256": "d6f394e90982700832afa423f2c98be08ceaa3c925ec2824d92820e068a03b63",
+      "bytes": 117
+    },
+    {
+      "id": "audio/text/S08-8421ab3468b2.txt",
+      "path": "public/audio/text/S08-8421ab3468b2.txt",
+      "sha256": "9d06d22900a32b938407a8a7493c37aa01be6391c63bcc9b22bc1ec1dfa899a0",
+      "bytes": 87
+    },
+    {
+      "id": "audio/text/S08-a689471a08e5.txt",
+      "path": "public/audio/text/S08-a689471a08e5.txt",
+      "sha256": "4c3503dba8e35ae9188036805d4eedfd5e762ecc4029ce4af9ae37e7da76994f",
+      "bytes": 111
+    },
+    {
+      "id": "audio/voice/S01-18eefd789b3a.wav",
+      "path": "public/audio/voice/S01-18eefd789b3a.wav",
+      "sha256": "08f1e2e392bddba82ba88434ae60ccd608f107b17bb2724f714b57be4994a915",
+      "bytes": 706638,
+      "measuredWav": {
+        "sampleRateHz": 48000,
+        "channels": 1,
+        "sampleWidthBytes": 2,
+        "declaredSampleFramesPerChannel": 353280,
+        "compressionType": "NONE",
+        "compressionName": "not compressed"
+      }
+    },
+    {
+      "id": "audio/voice/S02-a5b974fa2059.wav",
+      "path": "public/audio/voice/S02-a5b974fa2059.wav",
+      "sha256": "1007d6e079a8f1d79abc81c7f8bccc3ef0434be9c6b01e8a434636b392edd39b",
+      "bytes": 913998,
+      "measuredWav": {
+        "sampleRateHz": 48000,
+        "channels": 1,
+        "sampleWidthBytes": 2,
+        "declaredSampleFramesPerChannel": 456960,
+        "compressionType": "NONE",
+        "compressionName": "not compressed"
+      }
+    },
+    {
+      "id": "audio/voice/S03-98d674465436.wav",
+      "path": "public/audio/voice/S03-98d674465436.wav",
+      "sha256": "b0e1c6896ddd38d9f19dc641aabcff21895d6f150a6303af803daaa16e7ff986",
+      "bytes": 1029198,
+      "measuredWav": {
+        "sampleRateHz": 48000,
+        "channels": 1,
+        "sampleWidthBytes": 2,
+        "declaredSampleFramesPerChannel": 514560,
+        "compressionType": "NONE",
+        "compressionName": "not compressed"
+      }
+    },
+    {
+      "id": "audio/voice/S04-86d94d22019f.wav",
+      "path": "public/audio/voice/S04-86d94d22019f.wav",
+      "sha256": "fcaf36dd6e02764de50357c215d4838bd9da9dc429f8d3072ea1b0b02fc8f24d",
+      "bytes": 829518,
+      "measuredWav": {
+        "sampleRateHz": 48000,
+        "channels": 1,
+        "sampleWidthBytes": 2,
+        "declaredSampleFramesPerChannel": 414720,
+        "compressionType": "NONE",
+        "compressionName": "not compressed"
+      }
+    },
+    {
+      "id": "audio/voice/S05-422f12f4f385.wav",
+      "path": "public/audio/voice/S05-422f12f4f385.wav",
+      "sha256": "c4751c4f266df14da69001f176eb16b3be8335e40554d560f2e368e67f909a54",
+      "bytes": 929358,
+      "measuredWav": {
+        "sampleRateHz": 48000,
+        "channels": 1,
+        "sampleWidthBytes": 2,
+        "declaredSampleFramesPerChannel": 464640,
+        "compressionType": "NONE",
+        "compressionName": "not compressed"
+      }
+    },
+    {
+      "id": "audio/voice/S06-d124276c0129.wav",
+      "path": "public/audio/voice/S06-d124276c0129.wav",
+      "sha256": "093b34dcb3f775dc1d7b44259d5f32793add77cb6211e19e456914c99cb3f13c",
+      "bytes": 1382478,
+      "measuredWav": {
+        "sampleRateHz": 48000,
+        "channels": 1,
+        "sampleWidthBytes": 2,
+        "declaredSampleFramesPerChannel": 691200,
+        "compressionType": "NONE",
+        "compressionName": "not compressed"
+      }
+    },
+    {
+      "id": "audio/voice/S07-54c8f880169d.wav",
+      "path": "public/audio/voice/S07-54c8f880169d.wav",
+      "sha256": "ad9f62b3bf747aedc1034f007919174bfad88c84056d9cb8f4fae87d5e329ea6",
+      "bytes": 668238,
+      "measuredWav": {
+        "sampleRateHz": 48000,
+        "channels": 1,
+        "sampleWidthBytes": 2,
+        "declaredSampleFramesPerChannel": 334080,
+        "compressionType": "NONE",
+        "compressionName": "not compressed"
+      }
+    },
+    {
+      "id": "audio/voice/S08-8421ab3468b2.wav",
+      "path": "public/audio/voice/S08-8421ab3468b2.wav",
+      "sha256": "51eb9fc0049ceb6584b9e2f4a37c7fe8bd124012c7d55b93bae923b26e4e291d",
+      "bytes": 714318,
+      "measuredWav": {
+        "sampleRateHz": 48000,
+        "channels": 1,
+        "sampleWidthBytes": 2,
+        "declaredSampleFramesPerChannel": 357120,
+        "compressionType": "NONE",
+        "compressionName": "not compressed"
+      }
+    },
+    {
+      "id": "audio/voice/S08-a689471a08e5.wav",
+      "path": "public/audio/voice/S08-a689471a08e5.wav",
+      "sha256": "fef299f6e15f543ac858dd9fb5166e202a65913992cd2152c1ebcd40ba282c12",
+      "bytes": 937038,
+      "measuredWav": {
+        "sampleRateHz": 48000,
+        "channels": 1,
+        "sampleWidthBytes": 2,
+        "declaredSampleFramesPerChannel": 468480,
+        "compressionType": "NONE",
+        "compressionName": "not compressed"
+      }
+    }
+  ]
+}

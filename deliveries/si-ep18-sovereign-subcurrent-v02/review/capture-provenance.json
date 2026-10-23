@@ -1,0 +1,49 @@
+{
+  "capture": {
+    "remotion": "4.0.534",
+    "chrome": "Google Chrome 156.0.8078.47",
+    "imageFormat": "png",
+    "concurrency": 1,
+    "nativeWidth": 2160,
+    "nativeHeight": 3840,
+    "canvasBacking": [
+      2160,
+      3840
+    ],
+    "logicalGeometry": [
+      1080,
+      1920
+    ],
+    "frameReadiness": "synchronous Canvas draw inside useLayoutEffect; per-frame delayRender/continueRender; document.fonts.ready"
+  },
+  "sourceSha256": {
+    "src/Film.tsx": "7b59da602429849905379fb0bb417e627809df0e10aca2ca25c16ecbc18e890f",
+    "src/Root.tsx": "6afabde516cfa9c768e0aa8c6ab136d64a44a7c084c58d83a0b4f69025a9880a",
+    "src/Scene.tsx": "b9eeeb3d4411461fdc6f546dc164dfe1b6233b508ad1a0e420cb9bf4c13ce08a",
+    "src/index.ts": "2e0e358282a1b998a65387c653b97c2bb2eb7aae94cf200fc0b8d919f7be73a6"
+  },
+  "pcmMasterSha256": "64c6b71729ed1a1bd948149d1051c2682a7237bd57aff59c9c752d0122b6f02d",
+  "revision": "v02 visual-only iceberg; v01 retained",
+  "audio": "Exact v01 master reused; no new generation; see audio-reuse.json",
+  "fonts": {
+    "families": [
+      "Songti SC",
+      "PingFang SC",
+      "Menlo"
+    ],
+    "origin": "Local macOS system fonts, not redistributed"
+  },
+  "finalSealPulseBpm": 60,
+  "storage": {
+    "preflight": "Live AgentDev APFS and WD_BLACK host UUIDs match workstation records; no volume errors",
+    "internalCapacity": "warning-only; no maintenance performed"
+  },
+  "actualEncodedColor": {
+    "pix_fmt": "yuv420p",
+    "color_range": "tv",
+    "color_space": "bt709",
+    "color_transfer": "bt709",
+    "color_primaries": "bt709"
+  },
+  "actualEncodedColorEvidence": "Fresh final MP4 ffprobe"
+}

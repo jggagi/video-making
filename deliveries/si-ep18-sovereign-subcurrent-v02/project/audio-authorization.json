@@ -1,0 +1,9 @@
+{
+  "provider": "Aliyun Bailian",
+  "voice": "longtian_v3",
+  "source": "Repository xiaohongshu-video/voiceover default authorization dated2026-10-20; current user 开始制作",
+  "scope": "EP18 revised8narration sections; routine local re-records if required; no ASR, voice cloning, or account publishing",
+  "requestedModel": null,
+  "expectedEffectiveModel": "cosyvoice-v3-flash",
+  "rate": 1.0
+}

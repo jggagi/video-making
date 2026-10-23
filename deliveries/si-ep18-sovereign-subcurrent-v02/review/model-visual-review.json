@@ -1,0 +1,27 @@
+{
+  "status": "MODEL_REVIEW_PASS",
+  "movieSha256": "9c5902c4241121140b5c1546ed1e7fdea924e822c3e4c29819edf9c517fc7657",
+  "phoneContactSheets": [
+    "encoded-qa-9c5902c42411/phone-contact-01.jpg",
+    "encoded-qa-9c5902c42411/phone-contact-02.jpg",
+    "encoded-qa-9c5902c42411/phone-contact-03.jpg",
+    "encoded-qa-9c5902c42411/phone-contact-04.jpg",
+    "encoded-qa-9c5902c42411/phone-contact-05.jpg"
+  ],
+  "observations": [
+    "Angular two-ridge iceberg remains readable throughout the final encoding; pale faces, fractures and joined underwater mass are visible.",
+    "Captions remain legible at360px; full final-line and science disclaimer appear with no cropped glyphs.",
+    "Eight 2.5s pairs and event neighbors show seal scale/contour, currents, filament, loop fracture and rose changes.",
+    "4860 authored clearing persists; final5399 frame remains clean.",
+    "Viewed two750x750 native pixel crops of crown and shoulder; no severe dark gradient banding observed. Also viewed1650/2400 enlarged-region overviews."
+  ],
+  "pixelCrops": [
+    "encoded-qa-9c5902c42411/native-crops/ice-crown-frame-3960.png",
+    "encoded-qa-9c5902c42411/native-crops/ice-shoulder-frame-3960.png"
+  ],
+  "beforeAfter": "iceberg-before-after.jpg",
+  "limitations": "Sampled images and automatic full-frame screening cannot replace continuous human viewing, listening or actual device playback.",
+  "humanReview": "PENDING",
+  "actualDevice": "PENDING",
+  "metadataChange": "Only final QA status fields changed after encoded measurements; original byte-identical measurement manifest preserved in manifest-at-encoded-measurement.json."
+}

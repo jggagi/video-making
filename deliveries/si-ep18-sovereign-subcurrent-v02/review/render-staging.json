@@ -1,0 +1,26 @@
+{
+  "status": "READY",
+  "file": "/Volumes/AgentDev/Scratch/tmp/si-ep18-sovereign-subcurrent-v02-native-Xvszgv/video-only.mp4",
+  "sha256": "4b5c866dcfb2fbc46fd403c6b04c4e49ade92afe57bb8dd72b5ccbc5414d0378",
+  "bytes": 82341422,
+  "capture": {
+    "remotion": "4.0.534",
+    "chrome": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+    "imageFormat": "png",
+    "concurrency": 1,
+    "nativeWidth": 2160,
+    "nativeHeight": 3840,
+    "pixelFormat": "yuv420p",
+    "colorSpace": "bt709"
+  },
+  "absoluteRange": [
+    0,
+    5399
+  ],
+  "source": {
+    "title": "心印潜流 · v02",
+    "slug": "si-ep18-sovereign-subcurrent-v02",
+    "narrationCues": 8
+  },
+  "scope": "EP18 native video track on verified AgentDev scratch; formal output remains in the delivery folder"
+}

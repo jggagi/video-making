@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "generatedAtUtc": "2026-10-23T09:33:16+00:00",
+  "project": "si-ep18-sovereign-subcurrent-v02",
+  "automatedStatus": "PASS",
+  "checksSummary": {
+    "pass": 13,
+    "fail": 0,
+    "skipped": 0
+  },
+  "checks": [
+    {
+      "name": "read_delivery",
+      "status": "PASS",
+      "details": "delivery.json"
+    },
+    {
+      "name": "read_segments",
+      "status": "PASS",
+      "details": "project/segments.json"
+    },
+    {
+      "name": "read_captions",
+      "status": "PASS",
+      "details": "project/captions.json"
+    },
+    {
+      "name": "read_authorization",
+      "status": "PASS",
+      "details": "project/audio-authorization.json"
+    },
+    {
+      "name": "read_package",
+      "status": "PASS",
+      "details": "project/package.json"
+    },
+    {
+      "name": "native_delivery_identity",
+      "status": "PASS",
+      "details": {
+        "slug": "si-ep18-sovereign-subcurrent-v02",
+        "title": "心印潜流 · v02",
+        "platforms": [
+          "xiaohongshu"
+        ],
+        "outputPlatforms": [
+          "xiaohongshu"
+        ],
+        "durationSeconds": 90,
+        "fps": 60,
+        "totalFrames": 5400,
+        "outputPath": "小红书/si-ep18-sovereign-subcurrent-v02-xiaohongshu-90s-portrait.mp4",
+        "dimensions": [
+          2160,
+          3840
+        ],
+        "remotionVersion": "4.0.534"
+      }
+    },
+    {
+      "name": "eight_cue_windows",
+      "status": "PASS",
+      "details": {
+        "ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04",
+          "S05",
+          "S06",
+          "S07",
+          "S08"
+        ],
+        "cueCount": 8
+      }
+    },
+    {
+      "name": "caption_cue_alignment",
+      "status": "PASS",
+      "details": {
+        "captionCount": 23
+      }
+    },
+    {
+      "name": "source_script_hash",
+      "status": "PASS",
+      "details": {
+        "path": "source/script.md",
+        "expectedSha256": "0fa90261692cfac42ed78c021e17cee46011024d42c831d1210e713ef287f99b",
+        "actualSha256": "0fa90261692cfac42ed78c021e17cee46011024d42c831d1210e713ef287f99b"
+      }
+    },
+    {
+      "name": "deterministic_2d_source_scan",
+      "status": "PASS",
+      "details": {
+        "filesScanned": 4
+      }
+    },
+    {
+      "name": "measured_synthesis_identity",
+      "status": "PASS",
+      "details": {
+        "sha256": "6060f03bc98d5ec72d03761507222048cbddda2d5e59275bcb89ec126f006896",
+        "cueIds": [
+          "S01",
+          "S02",
+          "S03",
+          "S04",
+          "S05",
+          "S06",
+          "S07",
+          "S08"
+        ],
+        "cueCount": 8
+      }
+    },
+    {
+      "name": "pcm_master_format_and_silence",
+      "status": "PASS",
+      "details": {
+        "path": "project/public/audio/master.wav",
+        "sha256": "64c6b71729ed1a1bd948149d1051c2682a7237bd57aff59c9c752d0122b6f02d",
+        "format": {
+          "sampleRateHz": 48000,
+          "channels": 2,
+          "sampleWidthBytes": 2,
+          "sampleFramesPerChannel": 4320000,
+          "compressionType": "NONE"
+        },
+        "exactSilence": {
+          "rangeSamplesPerChannel": [
+            3888000,
+            3912000
+          ],
+          "rangeIsHalfOpen": true,
+          "framesRead": 24000,
+          "allStereoSamplesExactZero": true
+        },
+        "stableDuringRead": true
+      }
+    },
+    {
+      "name": "audio_mix_qa_bound_to_master",
+      "status": "PASS",
+      "details": {
+        "status": "pass",
+        "masterShaMatches": true
+      }
+    }
+  ],
+  "measured": {
+    "identity": {
+      "slug": "si-ep18-sovereign-subcurrent-v02",
+      "title": "心印潜流 · v02",
+      "platforms": [
+        "xiaohongshu"
+      ],
+      "outputPlatforms": [
+        "xiaohongshu"
+      ],
+      "durationSeconds": 90,
+      "fps": 60,
+      "totalFrames": 5400,
+      "outputPath": "小红书/si-ep18-sovereign-subcurrent-v02-xiaohongshu-90s-portrait.mp4",
+      "dimensions": [
+        2160,
+        3840
+      ],
+      "remotionVersion": "4.0.534"
+    },
+    "sourceScript": {
+      "path": "source/script.md",
+      "expectedSha256": "0fa90261692cfac42ed78c021e17cee46011024d42c831d1210e713ef287f99b",
+      "actualSha256": "0fa90261692cfac42ed78c021e17cee46011024d42c831d1210e713ef287f99b"
+    },
+    "audioMaster": {
+      "path": "project/public/audio/master.wav",
+      "sha256": "64c6b71729ed1a1bd948149d1051c2682a7237bd57aff59c9c752d0122b6f02d",
+      "format": {
+        "sampleRateHz": 48000,
+        "channels": 2,
+        "sampleWidthBytes": 2,
+        "sampleFramesPerChannel": 4320000,
+        "compressionType": "NONE"
+      },
+      "exactSilence": {
+        "rangeSamplesPerChannel": [
+          3888000,
+          3912000
+        ],
+        "rangeIsHalfOpen": true,
+        "framesRead": 24000,
+        "allStereoSamplesExactZero": true
+      },
+      "stableDuringRead": true
+    }
+  },
+  "humanAcceptance": {
+    "representativeFrames": "MODEL_REVIEW_PASS",
+    "continuousHumanReview": "PENDING",
+    "targetDevicePlayback": "PENDING",
+    "automatedQa": "PASS"
+  },
+  "reportPath": "review/project-check.json"
+}

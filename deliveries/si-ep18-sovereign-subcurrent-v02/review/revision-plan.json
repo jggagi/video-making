@@ -1,0 +1,32 @@
+{
+  "revision": "v02",
+  "request": "冰山能做得更像些吗",
+  "source_work": "si-ep18-sovereign-subcurrent",
+  "preserve": [
+    "script",
+    "narration",
+    "master",
+    "captions",
+    "90s timeline",
+    "2D style",
+    "seal and sharing action"
+  ],
+  "visual_changes": [
+    "angular asymmetric iceberg silhouette",
+    "multi-peak crown",
+    "planar blue ice fracture faces",
+    "layered ice striations and crevasses"
+  ],
+  "qc_plan": {
+    "full_frame": true,
+    "dark_roi": [
+      0.9,
+      0.81,
+      0.09,
+      0.15
+    ],
+    "stable_roi": null,
+    "reason": "HUD intentionally disappears at4860; no whole-film stable content ROI."
+  },
+  "audio_reuse_evidence": "review/audio-reuse.json"
+}

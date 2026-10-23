@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "fps": 60,
+  "sampleRate": 48000,
+  "events": [
+    {
+      "id": "subcurrent-pressure",
+      "frame": 60,
+      "kind": "synthetic-42hz-underwater-pressure-glide",
+      "seconds": 8.0,
+      "levelDbfs": -30,
+      "sampleIndex": 48000
+    },
+    {
+      "id": "sonar-shield",
+      "frame": 840,
+      "kind": "soft-sonar-ring-and-resonant-shield",
+      "seconds": 3.6,
+      "levelDbfs": -29,
+      "sampleIndex": 672000
+    },
+    {
+      "id": "vault-heartbeat",
+      "frame": 1500,
+      "kind": "vault-close-and-warm-heartbeat",
+      "seconds": 3.2,
+      "levelDbfs": -30,
+      "sampleIndex": 1200000
+    },
+    {
+      "id": "warm-string-plucks",
+      "frame": 2220,
+      "kind": "synthetic-guqin-cello-like-plucks",
+      "seconds": 5.0,
+      "levelDbfs": -34,
+      "sampleIndex": 1776000
+    },
+    {
+      "id": "crystalline-stasis",
+      "frame": 2940,
+      "kind": "crystalline-stasis-bells",
+      "seconds": 5.0,
+      "levelDbfs": -32,
+      "sampleIndex": 2352000
+    },
+    {
+      "id": "golden-intent-rise",
+      "frame": 3660,
+      "kind": "rising-warm-gliss",
+      "seconds": 6.0,
+      "levelDbfs": -30,
+      "sampleIndex": 2928000
+    },
+    {
+      "id": "ice-fracture",
+      "frame": 3900,
+      "kind": "deterministic-ice-crack",
+      "seconds": 0.8,
+      "levelDbfs": -30,
+      "sampleIndex": 3120000
+    },
+    {
+      "id": "gold-cyan-convergence",
+      "frame": 4500,
+      "kind": "low-symphonic-gold-cyan-convergence",
+      "seconds": 6.0,
+      "levelDbfs": -30,
+      "sampleIndex": 3600000
+    },
+    {
+      "id": "relay-silence",
+      "frame": 4860,
+      "kind": "absolute-digital-silence",
+      "seconds": 0.5,
+      "levelDbfs": null,
+      "sampleIndex": 3888000
+    },
+    {
+      "id": "gold-bell-heartbeat",
+      "frame": 4890,
+      "kind": "single-synthetic-gold-bell-and-heartbeat",
+      "seconds": 2.4,
+      "levelDbfs": -29,
+      "sampleIndex": 3912000
+    }
+  ],
+  "vocalBandProtection": {
+    "method": "static attenuation",
+    "bandHz": [
+      1000,
+      4000
+    ],
+    "gainDb": -4
+  },
+  "absoluteSilence": {
+    "startFrame": 4860,
+    "endFrame": 4890,
+    "startSample": 3888000,
+    "endSampleExclusive": 3912000
+  },
+  "synthesis": "deterministic procedural tones and fixed partial transients; no sampled instruments or random source"
+}

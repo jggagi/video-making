@@ -1,0 +1,66 @@
+[
+  {
+    "id": "S01",
+    "sourceSegmentId": "S01",
+    "startFrame": 60,
+    "endFrame": 540,
+    "display_subtitle": "海面上的世界，被超级智能照得透亮。\n可你心里，还有一片不必公开的暗海。",
+    "tts_phonetic_text": "海面上的世界，被超级智能照得透亮。可你心里，还有一片不必公开的暗海。"
+  },
+  {
+    "id": "S02",
+    "sourceSegmentId": "S02",
+    "startFrame": 600,
+    "endFrame": 1260,
+    "display_subtitle": "我们不必赢过机器，才有资格决定自己的人生。\n冰山之下，藏着一句朴素的话：这部分，我选择保留。",
+    "tts_phonetic_text": "我们不必赢过机器，才有资格决定自己的人生。冰山之下，藏着一句朴素的话：这部分，我选择保留。"
+  },
+  {
+    "id": "S03",
+    "sourceSegmentId": "S03",
+    "startFrame": 1320,
+    "endFrame": 1980,
+    "display_subtitle": "于是，有人不再把秘密、软肋和梦境全部上传。\n那片由自己守护的暗海，我们叫它：心印潜流。",
+    "tts_phonetic_text": "于是，有人不再把秘密、软肋和梦境全部上传。那片由自己守护的暗海，我们叫它：心印潜流。"
+  },
+  {
+    "id": "S04",
+    "sourceSegmentId": "S04",
+    "startFrame": 2040,
+    "endFrame": 2760,
+    "display_subtitle": "那里有没说出口的暗恋，也有童年的伤疤。\n算法也许能猜中一些，却不因此，就有权替你决定。",
+    "tts_phonetic_text": "那里有没说出口的暗恋，也有童年的伤疤。算法也许能猜中一些，却不因此，就有权替你决定。"
+  },
+  {
+    "id": "S05",
+    "sourceSegmentId": "S05",
+    "startFrame": 2820,
+    "endFrame": 3420,
+    "display_subtitle": "而海面之上，推演的光环仍在一遍遍回旋。\n它能列出无数条路，却在这里停下：我们究竟想去哪里？",
+    "tts_phonetic_text": "而海面之上，推演的光环仍在一遍遍回旋。它能列出无数条路，却在这里停下：我们究竟想去哪里？"
+  },
+  {
+    "id": "S06",
+    "sourceSegmentId": "S06",
+    "startFrame": 3480,
+    "endFrame": 4350,
+    "display_subtitle": "一缕金光，从深海升上海面。\n它没有破解所有难题，只带来一个人的选择：我想往这里走。\n坚冰，终于裂开。",
+    "tts_phonetic_text": "一缕金光，从深海升上海面。它没有破解所有难题，只带来一个人的选择：我想往这里走。坚冰，终于裂开。"
+  },
+  {
+    "id": "S07",
+    "sourceSegmentId": "S07",
+    "startFrame": 4380,
+    "endFrame": 4800,
+    "display_subtitle": "超级智能，可以帮我们走得更远。\n而你珍惜什么、愿意交出什么，仍该由你，亲口说出。",
+    "tts_phonetic_text": "超级智能，可以帮我们走得更远。而你珍惜什么、愿意交出什么，仍该由你，亲口说出。"
+  },
+  {
+    "id": "S08",
+    "sourceSegmentId": "S08",
+    "startFrame": 4905,
+    "endFrame": 5370,
+    "display_subtitle": "把计算交给神明，把心印留给自己。\n哪扇门为谁打开，由你决定。",
+    "tts_phonetic_text": "把计算交给神明，把心印留给自己。哪扇门为谁打开，由你决定。"
+  }
+]

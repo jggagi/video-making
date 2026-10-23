@@ -1166,6 +1166,30 @@
       ]
     },
     {
+      "id": "si-ep18-sovereign-subcurrent-v02",
+      "title": "Final 成片备份 · 心印潜流 · v02",
+      "release_tag": "final-si-ep18-sovereign-subcurrent-v02-8272756b62fd",
+      "assets": [
+        {
+          "path": "final/si-ep18-sovereign-subcurrent-v02/小红书/si-ep18-sovereign-subcurrent-v02-xiaohongshu-90s-portrait.mp4",
+          "name": "final--si-ep18-sovereign-subcurrent-v02--deliveries--si-ep18-sovereign-subcurrent-v02-----si-ep18-sovereign-subcurrent-v02-xiaohongshu-90s-portrait--9c5902c42411.mp4",
+          "bytes": 85171239,
+          "sha256": "9c5902c4241121140b5c1546ed1e7fdea924e822c3e4c29819edf9c517fc7657",
+          "kind": "video",
+          "platform": "小红书",
+          "measurements": {
+            "width": 2160,
+            "height": 3840,
+            "fps": "60/1",
+            "frames": "5400",
+            "video_duration_seconds": 90.0,
+            "container_duration_seconds": 90.0
+          },
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep18-sovereign-subcurrent-v02-8272756b62fd/final--si-ep18-sovereign-subcurrent-v02--deliveries--si-ep18-sovereign-subcurrent-v02-----si-ep18-sovereign-subcurrent-v02-xiaohongshu-90s-portrait--9c5902c42411.mp4"
+        }
+      ]
+    },
+    {
       "id": "si-eternity",
       "title": "Final 成片备份 · 一眼万年",
       "release_tag": "final-si-eternity-66d480b1c859",

@@ -1,0 +1,12 @@
+{
+  "capturedAt": "2026-10-23T08:01:14Z",
+  "provider": "Aliyun Bailian",
+  "cliVersion": "2.5.0",
+  "skillVersion": "2.5.0",
+  "latestPublishedVersionAtPreflight": "2.5.0",
+  "authenticated": true,
+  "authCheckExitCode": 0,
+  "rawProviderOutputRetained": false,
+  "authEvidence": "allowlisted boolean from bl auth status --output json",
+  "ttsIdentityCheck": "per-request returned model and voice are verified before canonicalization"
+}

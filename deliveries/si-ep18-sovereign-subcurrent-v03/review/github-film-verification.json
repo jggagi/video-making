@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "sourceCommit": "4810fd90f491b505dbab3fc2634071b6e3472edc",
+  "releaseTag": "film-si-ep18-sovereign-subcurrent-v03-505494230043",
+  "releaseUrl": "https://github.com/jggagi/video-making/releases/tag/film-si-ep18-sovereign-subcurrent-v03-505494230043",
+  "draft": false,
+  "exactAssetSet": true,
+  "assets": [
+    {
+      "digest": "sha256:920e6578a8c6453b99133f40d3eff73d332f47b532ca179b578d82cb5d92938b",
+      "id": 668873662,
+      "name": "si-ep18-sovereign-subcurrent-v03--deliveries--si-ep18-sovereign-subcurrent-v03-----si-ep18-sovereign-subcurrent-v03-xiaohongshu-90s-portrait--920e6578a8c6.mp4",
+      "size": 107808174
+    },
+    {
+      "digest": "sha256:53dabbf5c807928b52d038e5038828e1c2f8a8610fb7bef3738c0d660da0a667",
+      "id": 668873460,
+      "name": "si-ep18-sovereign-subcurrent-v03--deliveries--si-ep18-sovereign-subcurrent-v03--review--motion-3600-3959--53dabbf5c807.mp4",
+      "size": 7627580
+    },
+    {
+      "digest": "sha256:475eefa672930d9ad7ed7a383cc4d6941dd50444ad9391ba92ab03cfe0304077",
+      "id": 668873533,
+      "name": "si-ep18-sovereign-subcurrent-v03--deliveries--si-ep18-sovereign-subcurrent-v03--review--motion-4800-4979--475eefa67293.mp4",
+      "size": 3249222
+    },
+    {
+      "digest": "sha256:35f705c890e54439e9a9486acd0d53d35041a46a75e997ba093fefbf3a3bfc65",
+      "id": 668873576,
+      "name": "si-ep18-sovereign-subcurrent-v03--deliveries--si-ep18-sovereign-subcurrent-v03--review--motion-60-239--35f705c890e5.mp4",
+      "size": 3320554
+    }
+  ],
+  "scope": "Fresh GitHub API after publishing; every new work asset size and digest matches archive/catalog.json"
+}

@@ -26,4 +26,4 @@
 
 账号发布：NOT_SUBMITTED，本任务只有制作、验收、归档。
 
-归档状态：本地技术制作与本地final已完成；两个上传清单只读预检通过。作品Release、独立final备份及恢复抽测待源码提交后执行并追加实际证据。
+归档状态：COMPLETE。源码提交 `4810fd90f491b505dbab3fc2634071b6e3472edc` 已推送；[作品Release](https://github.com/jggagi/video-making/releases/tag/film-si-ep18-sovereign-subcurrent-v03-505494230043)的4项资产与[独立final备份](https://github.com/jggagi/video-making/releases/tag/final-si-ep18-sovereign-subcurrent-v03-505494230043)的正式成片已发布并核对远端大小和SHA-256。本地final已核对完整哈希；当前final清单SHA-256为 `96d76e7384aaff3f69e0c5dfe3cdb98229df28ae03d491cc966e8d329666c26e`，独立新鲜API复核33个Release、62项资产全部匹配。对本片107,808,174字节备份做了真实下载恢复，完整哈希一致；重复执行0下载、1跳过且文件身份未变，隔离临时目录已清理。该恢复抽测仅覆盖本片，不声称恢复过全部历史作品。证据见github-archive-verification.json、github-film-verification.json、final-restore-probe.json及根目录final/backup-verification.json。

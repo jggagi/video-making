@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
   "status": "COMPLETE",
-  "verified_at_utc": "2026-10-23T09:43:29.693987+00:00",
+  "verified_at_utc": "2026-10-23T11:13:29.731956+00:00",
   "repository": "jggagi/video-making",
-  "source_commit": "89fac544b917d4f550d0eb7d07ab4e0246e3090c",
+  "source_commit": "4810fd90f491b505dbab3fc2634071b6e3472edc",
   "catalog_path": "final/backup-catalog.json",
-  "catalog_sha256": "e4054aaedfdba65627b36f593e309f6e116a5073a8845001892c5e1500f9892a",
-  "upload_receipt_sha256": "9a4a26000fe2262ddaeee3d34da9f517bc9e2b7a1e19a9c5efa05ea1d060565c",
+  "catalog_sha256": "96d76e7384aaff3f69e0c5dfe3cdb98229df28ae03d491cc966e8d329666c26e",
+  "upload_receipt_sha256": "1e9cbd9fafdbf090eb3f41240a5845da81e34f29bddec262f4c89e1bacbba8af",
   "verification_method": "Fresh published GitHub Release API inventory plus all local final file hashes; every remote size, SHA-256 digest and URL matched the current catalog.",
-  "verified_releases": 32,
-  "verified_files": 61,
-  "verified_bytes": 9251488196,
+  "verified_releases": 33,
+  "verified_files": 62,
+  "verified_bytes": 9359296370,
   "works": [
     {
       "id": "lanting",
@@ -893,6 +893,26 @@
       ]
     },
     {
+      "id": "si-ep18-sovereign-subcurrent-v03",
+      "title": "Final 成片备份 · 心印潜流 · v03",
+      "release_tag": "final-si-ep18-sovereign-subcurrent-v03-505494230043",
+      "release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep18-sovereign-subcurrent-v03-505494230043",
+      "release_target": "4810fd90f491b505dbab3fc2634071b6e3472edc",
+      "release_draft": false,
+      "assets": [
+        {
+          "path": "final/si-ep18-sovereign-subcurrent-v03/小红书/si-ep18-sovereign-subcurrent-v03-xiaohongshu-90s-portrait.mp4",
+          "name": "final--si-ep18-sovereign-subcurrent-v03--deliveries--si-ep18-sovereign-subcurrent-v03-----si-ep18-sovereign-subcurrent-v03-xiaohongshu-90s-portrait--920e6578a8c6.mp4",
+          "bytes": 107808174,
+          "sha256": "920e6578a8c6453b99133f40d3eff73d332f47b532ca179b578d82cb5d92938b",
+          "github_digest": "sha256:920e6578a8c6453b99133f40d3eff73d332f47b532ca179b578d82cb5d92938b",
+          "github_asset_id": 668878768,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep18-sovereign-subcurrent-v03-505494230043/final--si-ep18-sovereign-subcurrent-v03--deliveries--si-ep18-sovereign-subcurrent-v03-----si-ep18-sovereign-subcurrent-v03-xiaohongshu-90s-portrait--920e6578a8c6.mp4",
+          "local_and_remote_match": true
+        }
+      ]
+    },
+    {
       "id": "si-eternity",
       "title": "Final 成片备份 · 一眼万年",
       "release_tag": "final-si-eternity-66d480b1c859",
@@ -945,12 +965,13 @@
   ],
   "restore_probe": {
     "status": "PASS",
-    "scope": "Actual download and repeat-skip probe of only the newly added EP18v02 final; no claim that all61movies were downloaded.",
-    "work_id": "si-ep18-sovereign-subcurrent-v02",
-    "report_path": "deliveries/si-ep18-sovereign-subcurrent-v02/review/final-restore-probe.json",
-    "report_sha256": "7376eebd7b070f5611967e04093ef3b3622e4a7bdf5de956148330a3da754311",
-    "sha256": "9c5902c4241121140b5c1546ed1e7fdea924e822c3e4c29819edf9c517fc7657",
-    "bytes": 85171239,
-    "second_run_skipped_matching_file": true
+    "scope": "Only the single EP18 v03 Xiaohongshu final catalog asset was restored; no claim that historical movies were restored.",
+    "work_id": "si-ep18-sovereign-subcurrent-v03",
+    "report_path": "deliveries/si-ep18-sovereign-subcurrent-v03/review/final-restore-probe.json",
+    "report_sha256": "740fed8152a615b567ecb8d723c2f258394ed0c3e79596d511a1bd01b3d1405f",
+    "sha256": "920e6578a8c6453b99133f40d3eff73d332f47b532ca179b578d82cb5d92938b",
+    "bytes": 107808174,
+    "second_run_skipped_matching_file": true,
+    "repeat_preserved_file_identity": true
   }
 }

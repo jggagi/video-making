@@ -1,0 +1,20 @@
+{
+  "status": "RECOVERED",
+  "failure": "First final asset upload returned gh exit1. No raw stderr or credentials stored.",
+  "failedReceiptPath": "archive/upload-receipt-final-ep18-v04-52b1334a6ab473f8ea5d1228765a2a94c10a20fb-attempt01-failed.json",
+  "failedReceiptSha256": "b0c3e55bac50ef8b3ed7fdc2b72117c7f7a119d3fec6b6d1334a90fa714189d9",
+  "inspection": {
+    "releaseId": 421854077,
+    "draft": true,
+    "target": "52b1334a6ab473f8ea5d1228765a2a94c10a20fb",
+    "remoteAssets": 0
+  },
+  "nextAction": "Retry the same catalog/target/tag and receipt. No remote deletion, clobber or history rewrite.",
+  "attempts": 2,
+  "completedReceiptPath": "archive/upload-receipt-final-ep18-v04-52b1334a6ab473f8ea5d1228765a2a94c10a20fb.json",
+  "completedReceiptSha256": "a28afe53b87f6dac769d38135b9d55ad7c5bb4afb2d5c55ea046674766cb9529",
+  "publishedRelease": "https://github.com/jggagi/video-making/releases/tag/final-si-ep18-sovereign-subcurrent-v04-d448a562ca14",
+  "remoteAssetBytes": 31741943,
+  "remoteAssetSha256": "8dc2486d7936e9547e29e087de0b5d3bd9b4037bacaf10fbaaa47f8d44500bdb",
+  "noRemoteOverwriteOrDeletion": true
+}

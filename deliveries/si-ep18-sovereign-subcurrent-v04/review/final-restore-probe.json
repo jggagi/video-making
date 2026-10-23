@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS",
+  "scope": "Only the single EP18 v04 Xiaohongshu final catalog asset was restored; no claim that historical movies were restored.",
+  "workId": "si-ep18-sovereign-subcurrent-v04",
+  "workTitle": "心印潜流 · 人与影 · v04",
+  "deliveryFinalMovieSha256": "8dc2486d7936e9547e29e087de0b5d3bd9b4037bacaf10fbaaa47f8d44500bdb",
+  "catalogSha256": "f99fd161c2efc6f5deac4c5d80af4d6d98794d682608dec2367de9b4c63e834d",
+  "releaseTag": "final-si-ep18-sovereign-subcurrent-v04-d448a562ca14",
+  "assetName": "final--si-ep18-sovereign-subcurrent-v04--deliveries--si-ep18-sovereign-subcurrent-v04-----si-ep18-sovereign-subcurrent-v04-xiaohongshu-90s-portrait--8dc2486d7936.mp4",
+  "restoredRelativePath": "final/si-ep18-sovereign-subcurrent-v04/小红书/si-ep18-sovereign-subcurrent-v04-xiaohongshu-90s-portrait.mp4",
+  "bytes": 31741943,
+  "sha256": "8dc2486d7936e9547e29e087de0b5d3bd9b4037bacaf10fbaaa47f8d44500bdb",
+  "firstRunSummary": "Restore complete: 0 already verified, 1 downloaded",
+  "secondRunSummary": "Restore complete: 1 already verified, 0 downloaded",
+  "secondRunSkippedMatchingFile": true,
+  "repeatPreservedFileIdentity": true,
+  "isolatedTemporaryDirectoryCleanedAfterVerification": true
+}

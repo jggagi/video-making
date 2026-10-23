@@ -27,7 +27,11 @@
 
 旧版保护：v01–v03正式电影字节/SHA及三个目录的已跟踪源码重新核对通过（preservation.json）。首次完整候选虽技术检查通过，但青色眼芯在脸外，被否决并保留于full-candidate-eye-offset；当前正式证据只对应上述新SHA。
 
-归档状态：PENDING。本地final、两个GitHub Release、远端大小/SHA核对及真实恢复抽测待完成后补记。
+归档状态：COMPLETE。本地final已新增经过校验的APFS克隆；全部历史正式版本保留，当前63份正式成片。源码提交`52b1334a6ab473f8ea5d1228765a2a94c10a20fb`已推送。
+
+作品Release `film-si-ep18-sovereign-subcurrent-v04-d448a562ca14`公开，11个本版媒体资产逐项核对大小及SHA；独立final Release `final-si-ep18-sovereign-subcurrent-v04-d448a562ca14`公开，仅含本版正式片。当前final备份清单绑定的34个Release、63个文件、9,391,038,313字节全部通过新鲜远端API与本地哈希核对。真实恢复抽测只覆盖新增v04：下载31,741,943字节与原SHA一致；第二次0下载/1跳过，同一文件身份保持；隔离临时目录已清理。没有把单份恢复说成全部影片都已下载恢复。
+
+final首轮上传失败时只留下空草稿；同一清单/源码目标第二次续传成功，没有删除/覆盖远端资产，失败回执已保留。完整证据见github-archive-verification.json、github-film-verification.json、final-restore-probe.json、final-upload-recovery.json及仓库final/backup-verification.json。
 
 ## 人工和设备状态
 

@@ -4,6 +4,11 @@
   "selected_baseline": "cosyvoice-v3-flash / longtian_v3",
   "reason_quote": "主要是 B 的音色太轻浮了",
   "current_audition_selected_voice": "qwen-audio-3.0-tts-plus-longlangmoyue",
-  "current_audition_feedback": "PENDING",
-  "scope": "Project audition feedback only; no persistent personal-memory write or global voice-default change"
+  "current_audition_feedback": "USER_SELECTED_FUTURE_DEFAULT",
+  "scope": "Project audition decision and requested skill-default update; no personal-memory write or CLI Profile mutation",
+  "selection_quote": "之后用龙朗沫玥，update skill",
+  "selected_model": "qwen-audio-3.0-tts-plus",
+  "selected_voice": "qwen-audio-3.0-tts-plus-longlangmoyue",
+  "recorded_at_utc": "2026-10-23T10:01:40.364289+00:00",
+  "acceptance_scope": "User selected the voice for future narration; this is not a word-by-word transcript or target-device QA claim."
 }

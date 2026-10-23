@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
   "status": "COMPLETE",
-  "verified_at_utc": "2026-10-23T13:10:40.158854+00:00",
+  "verified_at_utc": "2026-10-23T15:40:40.354367+00:00",
   "repository": "jggagi/video-making",
-  "source_commit": "52b1334a6ab473f8ea5d1228765a2a94c10a20fb",
+  "source_commit": "8f29e5aef4b4dc892d1bfe97f59cec3f44187c68",
   "catalog_path": "final/backup-catalog.json",
-  "catalog_sha256": "f99fd161c2efc6f5deac4c5d80af4d6d98794d682608dec2367de9b4c63e834d",
-  "upload_receipt_sha256": "a28afe53b87f6dac769d38135b9d55ad7c5bb4afb2d5c55ea046674766cb9529",
+  "catalog_sha256": "008efaed250799b034d338f9f63f30b9420dcb48261849103588f85e985c2620",
+  "upload_receipt_sha256": "5be34f89e1189c9699e23b6bf91f16649b22d8454b481a4a838c18be805e3337",
   "verification_method": "Fresh published GitHub Release API inventory plus all local final file hashes; every remote size, SHA-256 digest and URL matched the current catalog.",
-  "verified_releases": 34,
-  "verified_files": 63,
-  "verified_bytes": 9391038313,
+  "verified_releases": 35,
+  "verified_files": 64,
+  "verified_bytes": 9428913531,
   "works": [
     {
       "id": "lanting",
@@ -933,6 +933,26 @@
       ]
     },
     {
+      "id": "si-ep19-proxy-romance",
+      "title": "Final 成片备份 · 替身社交：倒悬在阳光下的影子",
+      "release_tag": "final-si-ep19-proxy-romance-fe2f525675d6",
+      "release_url": "https://github.com/jggagi/video-making/releases/tag/final-si-ep19-proxy-romance-fe2f525675d6",
+      "release_target": "8f29e5aef4b4dc892d1bfe97f59cec3f44187c68",
+      "release_draft": false,
+      "assets": [
+        {
+          "path": "final/si-ep19-proxy-romance/小红书/si-ep19-proxy-romance-xiaohongshu-90s-portrait.mp4",
+          "name": "final--si-ep19-proxy-romance--deliveries--si-ep19-proxy-romance-----si-ep19-proxy-romance-xiaohongshu-90s-portrait--5bc9d8fe30c4.mp4",
+          "bytes": 37875218,
+          "sha256": "5bc9d8fe30c485ca44b97cd3fac352ba21f726eb476caf62e72ff0bc83b9b758",
+          "github_digest": "sha256:5bc9d8fe30c485ca44b97cd3fac352ba21f726eb476caf62e72ff0bc83b9b758",
+          "github_asset_id": 669572487,
+          "download_url": "https://github.com/jggagi/video-making/releases/download/final-si-ep19-proxy-romance-fe2f525675d6/final--si-ep19-proxy-romance--deliveries--si-ep19-proxy-romance-----si-ep19-proxy-romance-xiaohongshu-90s-portrait--5bc9d8fe30c4.mp4",
+          "local_and_remote_match": true
+        }
+      ]
+    },
+    {
       "id": "si-eternity",
       "title": "Final 成片备份 · 一眼万年",
       "release_tag": "final-si-eternity-66d480b1c859",
@@ -985,12 +1005,12 @@
   ],
   "restore_probe": {
     "status": "PASS",
-    "scope": "Only the single EP18 v04 Xiaohongshu final catalog asset was restored; no claim that historical movies were restored.",
-    "work_id": "si-ep18-sovereign-subcurrent-v04",
-    "report_path": "deliveries/si-ep18-sovereign-subcurrent-v04/review/final-restore-probe.json",
-    "report_sha256": "b2701d3a9b8b1cedc30736dd611c9c475bb9991a7741f83143be70cdceee416a",
-    "sha256": "8dc2486d7936e9547e29e087de0b5d3bd9b4037bacaf10fbaaa47f8d44500bdb",
-    "bytes": 31741943,
+    "scope": "Exactly one EP19 Xiaohongshu final movie was restored into isolated scratch; no other work or asset was restored.",
+    "work_id": "si-ep19-proxy-romance",
+    "report_path": "deliveries/si-ep19-proxy-romance/review/final-restore-probe.json",
+    "report_sha256": "4f78d91ce4380f82ef88488f94ee1aaa59db0addc67cde9a8ad3c63622f5a748",
+    "sha256": "5bc9d8fe30c485ca44b97cd3fac352ba21f726eb476caf62e72ff0bc83b9b758",
+    "bytes": 37875218,
     "second_run_skipped_matching_file": true,
     "repeat_preserved_file_identity": true
   }

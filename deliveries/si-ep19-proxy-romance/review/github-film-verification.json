@@ -1,0 +1,63 @@
+{
+  "status": "PASS",
+  "verified_at_utc": "2026-10-23T15:38:38.954371+00:00",
+  "catalog_sha256": "c033acbb0ff698aef8e3342e781389855e6fd9d6b2edf8a77a731da11ab309f4",
+  "work_id": "si-ep19-proxy-romance",
+  "release_url": "https://github.com/jggagi/video-making/releases/tag/film-si-ep19-proxy-romance-fe2f525675d6",
+  "release_target": "8f29e5aef4b4dc892d1bfe97f59cec3f44187c68",
+  "release_draft": false,
+  "exact_asset_inventory_match": true,
+  "assets": [
+    {
+      "path": "deliveries/si-ep19-proxy-romance/review/motion-0-179.mp4",
+      "name": "si-ep19-proxy-romance--deliveries--si-ep19-proxy-romance--review--motion-0-179--a9fe64182d5e.mp4",
+      "bytes": 626924,
+      "sha256": "a9fe64182d5e4b515e16557de738b236f300267b55355a4bfe78da85184995a2",
+      "github_asset_id": 669566849,
+      "github_digest": "sha256:a9fe64182d5e4b515e16557de738b236f300267b55355a4bfe78da85184995a2",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep19-proxy-romance-fe2f525675d6/si-ep19-proxy-romance--deliveries--si-ep19-proxy-romance--review--motion-0-179--a9fe64182d5e.mp4",
+      "local_and_remote_match": true
+    },
+    {
+      "path": "deliveries/si-ep19-proxy-romance/review/motion-2760-2939.mp4",
+      "name": "si-ep19-proxy-romance--deliveries--si-ep19-proxy-romance--review--motion-2760-2939--8a0b04dbac41.mp4",
+      "bytes": 1442282,
+      "sha256": "8a0b04dbac415c924bd0aab8f6db7f93bc8d7f6e752da5aeefed171a8bf630fd",
+      "github_asset_id": 669566925,
+      "github_digest": "sha256:8a0b04dbac415c924bd0aab8f6db7f93bc8d7f6e752da5aeefed171a8bf630fd",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep19-proxy-romance-fe2f525675d6/si-ep19-proxy-romance--deliveries--si-ep19-proxy-romance--review--motion-2760-2939--8a0b04dbac41.mp4",
+      "local_and_remote_match": true
+    },
+    {
+      "path": "deliveries/si-ep19-proxy-romance/review/motion-4800-4979.mp4",
+      "name": "si-ep19-proxy-romance--deliveries--si-ep19-proxy-romance--review--motion-4800-4979--620b5513c6a3.mp4",
+      "bytes": 626426,
+      "sha256": "620b5513c6a3ea6ca3de6696537e537102590dcae3eb703f58777c130521b258",
+      "github_asset_id": 669567004,
+      "github_digest": "sha256:620b5513c6a3ea6ca3de6696537e537102590dcae3eb703f58777c130521b258",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep19-proxy-romance-fe2f525675d6/si-ep19-proxy-romance--deliveries--si-ep19-proxy-romance--review--motion-4800-4979--620b5513c6a3.mp4",
+      "local_and_remote_match": true
+    },
+    {
+      "path": "deliveries/si-ep19-proxy-romance/si-ep19-proxy-romance-editable-project.zip",
+      "name": "si-ep19-proxy-romance--deliveries--si-ep19-proxy-romance--si-ep19-proxy-romance-editable-project--bea554f4eb04.zip",
+      "bytes": 50799894,
+      "sha256": "bea554f4eb0497814dc78b7c7f87c8b610a58651845a84da8c7442cf23821db2",
+      "github_asset_id": 669567051,
+      "github_digest": "sha256:bea554f4eb0497814dc78b7c7f87c8b610a58651845a84da8c7442cf23821db2",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep19-proxy-romance-fe2f525675d6/si-ep19-proxy-romance--deliveries--si-ep19-proxy-romance--si-ep19-proxy-romance-editable-project--bea554f4eb04.zip",
+      "local_and_remote_match": true
+    },
+    {
+      "path": "deliveries/si-ep19-proxy-romance/小红书/si-ep19-proxy-romance-xiaohongshu-90s-portrait.mp4",
+      "name": "si-ep19-proxy-romance--deliveries--si-ep19-proxy-romance-----si-ep19-proxy-romance-xiaohongshu-90s-portrait--5bc9d8fe30c4.mp4",
+      "bytes": 37875218,
+      "sha256": "5bc9d8fe30c485ca44b97cd3fac352ba21f726eb476caf62e72ff0bc83b9b758",
+      "github_asset_id": 669567255,
+      "github_digest": "sha256:5bc9d8fe30c485ca44b97cd3fac352ba21f726eb476caf62e72ff0bc83b9b758",
+      "download_url": "https://github.com/jggagi/video-making/releases/download/film-si-ep19-proxy-romance-fe2f525675d6/si-ep19-proxy-romance--deliveries--si-ep19-proxy-romance-----si-ep19-proxy-romance-xiaohongshu-90s-portrait--5bc9d8fe30c4.mp4",
+      "local_and_remote_match": true
+    }
+  ],
+  "scope": "5 EP19 film/project/preview assets; fresh GitHub metadata verification, not a download restore test"
+}

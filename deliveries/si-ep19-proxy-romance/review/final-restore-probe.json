@@ -1,0 +1,71 @@
+{
+  "status": "PASS",
+  "createdAtUtc": "2026-10-23T15:40:31.253443Z",
+  "scope": "Exactly one EP19 Xiaohongshu final movie was restored into isolated scratch; no other work or asset was restored.",
+  "humanQaClaim": "none; this report records archive restore integrity only",
+  "workId": "si-ep19-proxy-romance",
+  "workTitle": "Final 成片备份 · 替身社交：倒悬在阳光下的影子",
+  "deliveryIdentity": {
+    "path": "/Volumes/AgentDev/Projects/video/deliveries/si-ep19-proxy-romance/delivery.json",
+    "sha256": "e2eaba1dc50d17d97dc67e307e3c82dfaa82c26187f83ee0b18bc054460d9119",
+    "durationSeconds": 90,
+    "fps": 60,
+    "totalFrames": 5400,
+    "finalMovieSha256": "5bc9d8fe30c485ca44b97cd3fac352ba21f726eb476caf62e72ff0bc83b9b758"
+  },
+  "catalog": {
+    "path": "/Volumes/AgentDev/Projects/video/final/backup-catalog.json",
+    "sha256": "008efaed250799b034d338f9f63f30b9420dcb48261849103588f85e985c2620",
+    "scopedProbeCatalogSha256": "327f5f66728caa35c81c6f64a8f0118918b366ec76b92daf64507864e688cedc",
+    "releaseTag": "final-si-ep19-proxy-romance-fe2f525675d6"
+  },
+  "asset": {
+    "relativePath": "final/si-ep19-proxy-romance/小红书/si-ep19-proxy-romance-xiaohongshu-90s-portrait.mp4",
+    "name": "final--si-ep19-proxy-romance--deliveries--si-ep19-proxy-romance-----si-ep19-proxy-romance-xiaohongshu-90s-portrait--5bc9d8fe30c4.mp4",
+    "bytes": 37875218,
+    "sha256": "5bc9d8fe30c485ca44b97cd3fac352ba21f726eb476caf62e72ff0bc83b9b758",
+    "downloadUrl": "https://github.com/jggagi/video-making/releases/download/final-si-ep19-proxy-romance-fe2f525675d6/final--si-ep19-proxy-romance--deliveries--si-ep19-proxy-romance-----si-ep19-proxy-romance-xiaohongshu-90s-portrait--5bc9d8fe30c4.mp4",
+    "kind": "video",
+    "platform": "小红书"
+  },
+  "localMovieAndFinal": {
+    "matchedBeforeRestore": true,
+    "matchedAfterRestore": true,
+    "before": {
+      "deliveryMovie": {
+        "path": "/Volumes/AgentDev/Projects/video/deliveries/si-ep19-proxy-romance/小红书/si-ep19-proxy-romance-xiaohongshu-90s-portrait.mp4",
+        "bytes": 37875218,
+        "sha256": "5bc9d8fe30c485ca44b97cd3fac352ba21f726eb476caf62e72ff0bc83b9b758",
+        "inode": 1276104
+      },
+      "localFinal": {
+        "path": "/Volumes/AgentDev/Projects/video/final/si-ep19-proxy-romance/小红书/si-ep19-proxy-romance-xiaohongshu-90s-portrait.mp4",
+        "bytes": 37875218,
+        "sha256": "5bc9d8fe30c485ca44b97cd3fac352ba21f726eb476caf62e72ff0bc83b9b758",
+        "inode": 1278144
+      }
+    },
+    "after": {
+      "deliveryMovie": {
+        "path": "/Volumes/AgentDev/Projects/video/deliveries/si-ep19-proxy-romance/小红书/si-ep19-proxy-romance-xiaohongshu-90s-portrait.mp4",
+        "bytes": 37875218,
+        "sha256": "5bc9d8fe30c485ca44b97cd3fac352ba21f726eb476caf62e72ff0bc83b9b758",
+        "inode": 1276104
+      },
+      "localFinal": {
+        "path": "/Volumes/AgentDev/Projects/video/final/si-ep19-proxy-romance/小红书/si-ep19-proxy-romance-xiaohongshu-90s-portrait.mp4",
+        "bytes": 37875218,
+        "sha256": "5bc9d8fe30c485ca44b97cd3fac352ba21f726eb476caf62e72ff0bc83b9b758",
+        "inode": 1278144
+      }
+    }
+  },
+  "firstRunSummary": "Restore complete: 0 already verified, 1 downloaded",
+  "firstRunOutput": "Restored: final/si-ep19-proxy-romance/小红书/si-ep19-proxy-romance-xiaohongshu-90s-portrait.mp4 (37,875,218 bytes)\nRestore complete: 0 already verified, 1 downloaded",
+  "secondRunSummary": "Restore complete: 1 already verified, 0 downloaded",
+  "secondRunOutput": "Restore complete: 1 already verified, 0 downloaded",
+  "secondRunSkippedMatchingFile": true,
+  "repeatPreservedFileInode": true,
+  "isolatedTemporaryDirectoryCleanedAfterVerification": true,
+  "isolationRootPolicy": "TMPDIR resolved inside /Volumes/AgentDev/Scratch"
+}

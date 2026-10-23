@@ -1,6 +1,6 @@
 # EP19《替身社交：倒悬在阳光下的影子》验收
 
-当前：本地技术交付 PASS；归档待完成。人工完整听看、发音和真实手机/App验收 NOT_RUN。
+当前：本地技术交付、源码push、作品Release、独立final备份与EP19真实恢复抽测均 PASS。人工完整听看、发音和真实手机/App验收 NOT_RUN。
 
 ## 规格与实际媒体
 
@@ -36,5 +36,5 @@
 
 - 原始CoverA精确取最终MP4第2100帧，CoverB第5040帧；完整原始像素保留。加标题候选另存，并记录其背景来源与字体排版。
 - `小红书/publication-copy.md`与`publication-package.json`保留用户指定原题、正文和八个话题。标题实际平台限制以页面反馈为准，任何改写另留版本。
-- 本地final：PASS，已创建独立APFS克隆并核对字节数/散列。历史63个final文件复验，索引记录和34个备份作品逐项未变；旧source含迁移后的符号链接，未重新验证，详情`local-final-addition.json`。作品Release、独立finalRelease和真实恢复抽测：PENDING。仅有索引不算视频备份。
+- 本地final：PASS，已创建独立APFS克隆并核对字节数/散列。历史63个final文件复验，索引记录和34个备份作品逐项未变；旧source含迁移后的符号链接，未重新验证，详情`local-final-addition.json`。作品Release与独立finalRelease均已公开、远端大小/SHA-256核对PASS。全库35个finalRelease共64个资产的准确集合、大小和散列均匹配当前清单。EP19单片真实恢复PASS，重复执行正确跳过且文件inode不变，临时目录清理；不声称所有历史影片都下载恢复。证据`github-film-verification.json`、`final-restore-probe.json`及仓库`final/backup-verification.json`。
 - 小红书上传与编辑完成：封面A v03（实际3:4裁切）、完整正文、八个关联话题、AI声明、公开可见。原题27/20，等待用户短标题选择；最终提交尚未执行。账号现有登录态为「余问 QStory」；管理页搜索“替身”暂无匹配。审核/发布/独立公开可见性分开记录，未创建后台监控。

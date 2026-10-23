@@ -1,0 +1,30 @@
+{
+  "status": "READY_EXCEPT_TITLE",
+  "account_display_name": "余问 QStory",
+  "upload_status": "UPLOADED_EDITOR",
+  "selected_cover": "cover-A-headline-v03.png",
+  "cover_platform_crop": "3:4",
+  "platform_cover_assessment": "封面效果评估通过，未发现封面质量问题",
+  "associated_topic_names": [
+    "赛博朋克",
+    "社交恐惧",
+    "人工智能",
+    "深度思考",
+    "现代人的困境",
+    "生成艺术",
+    "极简美学",
+    "一眼万年"
+  ],
+  "caption_readback_normalized_match": true,
+  "content_declaration": "笔记含AI合成内容",
+  "visibility": "公开可见",
+  "scheduled": false,
+  "original_title": "当影子在阳光下学会了相爱，而你成了它的影子｜一眼万年S4",
+  "page_counter": "27 / 20",
+  "pending_user_title_choice": true,
+  "short_title_proposed": "影子相爱，我们忘了拥抱｜一眼万年S4",
+  "submission_attempted": false,
+  "publication_verified": false,
+  "public_visibility_verified": false,
+  "private_ui_evidence": "Screenshots and raw browser readback retained only in private temporary storage; excluded from public archive"
+}

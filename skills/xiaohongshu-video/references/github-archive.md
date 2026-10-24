@@ -1,7 +1,7 @@
 # GitHub 归档与后续同步
 
 Q 已明确要求：把本技能、当前视频工作区的所有历史短片、之后使用本技能制作的作品，都归档到
-[jggagi/video-making](https://github.com/jggagi/video-making)。这项授权覆盖相关源码的提交/push 和该仓库的 Release 媒体上传；不覆盖 B站/小红书账号发布、仓库可见性变更或无关个人文件上传。
+[jggagi/video-making](https://github.com/jggagi/video-making)。这项授权覆盖相关源码的提交/push 和该仓库的 Release 媒体上传；不覆盖 B站/小红书账号发布、仓库可见性变更或无关个人文件上传。按 Q 于 2026-10-23 更新的分工，小红书只交付本地发布包，由用户自行上传和发布；取消平台代发不影响这里的 GitHub 源码、作品及 final 备份归档。
 
 ## 位置与结构
 

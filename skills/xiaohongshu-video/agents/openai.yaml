@@ -1,6 +1,6 @@
 interface:
   display_name: "小红书剧本短片"
-  short_description: "默认仅制作小红书两分钟原生竖屏 4K，优化封面标题与开场钩子，完成验收归档"
-  default_prompt: "使用 $xiaohongshu-video，根据以下剧本制作小红书短片，默认仅原生竖屏 4K、120 秒；对齐封面、标题、首句旁白和前三秒的情绪钩子，完成渲染、验收与归档，并按明确项目规格调整。"
+  short_description: "制作小红书原生竖屏 4K 视频、封面文案与手动发布包，完成验收归档，由用户自行发布"
+  default_prompt: "使用 $xiaohongshu-video，根据以下剧本制作小红书短片，默认仅原生竖屏 4K、120 秒；对齐封面、标题、首句旁白和前三秒，完成渲染、验收、归档和本地发布包，交给我手动上传发布。"
 policy:
   allow_implicit_invocation: true

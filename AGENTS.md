@@ -8,6 +8,15 @@ short films in this workspace, and future films produced with
 to this repository as part of completing a film. It does not authorize posting
 to B站/小红书 accounts or changing repository visibility/settings.
 
+Q's 2026-10-23 update: Codex produces videos and local publication packages;
+Q manually uploads, fills the editor, selects declarations and submits to
+小红书. Do not automate media upload, editor entry, platform drafts, scheduling
+or final submission, including through another agent or tool. Old Auto-Publish
+briefs and ordinary requests to "publish" mean package preparation and manual
+handoff unless Q explicitly changes this standing division of work. Explicitly
+requested status checks may be read-only. GitHub source, film and final backup
+archival remains authorized.
+
 - Use `skills/xiaohongshu-video/SKILL.md` for new script-to-video work. Q's
   2026-10-22 instruction is its default: produce only
   小红书, native portrait 4K (2160x3840), default 120 seconds unless the current
@@ -18,7 +27,7 @@ to B站/小红书 accounts or changing repository visibility/settings.
   first narration and opening three seconds around one clear emotional hook;
   use mobile-readable composition and an experiential story with a memorable
   image. Treat “爆款” as the creative goal, never as a promised result. Account
-  publication still requires separate authorization.
+  publication is completed manually by Q after the local package is delivered.
 - New works go in `deliveries/<work-version>/`, with `小红书/` outputs,
   source script, editable `project/`, and `review/` evidence. Preserve old work.
 - Q wants all finished videos in the root `final/` folder, classified by work,

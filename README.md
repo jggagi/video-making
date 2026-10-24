@@ -4,7 +4,7 @@
 从剧本到小红书短片的制作技能、可编辑工程与作品档案。历史双平台作品保留。
 
 - [小红书剧本短片 Skill](skills/xiaohongshu-video/SKILL.md)：按 Q 于 2026-10-22 的要求，新作默认只制作 **小红书 2160×3840 原生竖屏 4K、120 秒**；封面、标题、首句与前三秒围绕同一情绪钩子设计，以小红书传播为创作目标。其他平台须另有明确要求。
-- [小红书视频发布 Skill](skills/xiaohongshu-publish/SKILL.md)：接收已完成的视频，在用户要求发布时处理登录协助、封面文案、上传提交与状态核验；可独立使用，也可承接本制作流程。
+- [小红书手动发布包 Skill](skills/xiaohongshu-publish/SKILL.md)：接收已完成的视频，整理封面、标题正文、话题、AI 声明建议和手动发布说明；由 Q 自行上传、填写和提交，Codex 不自动代发。用户另行要求时可只读核验既有发布结果。
 - [全部成片与工程下载](https://github.com/jggagi/video-making/releases)：每部作品独立 Release，包含完整成片、历史版本、样片与工程 ZIP。
 - [final 成片与备份目录](final/README.md)：本地保留全部正式成片，GitHub专用 `final-*` Releases 保存对应实际视频；按作品、版本和平台整理，排除样片、草稿和工程 ZIP。
 - [全部作品索引](deliveries/README.md)：包含历史作品与之后的新作，每次归档自动更新。

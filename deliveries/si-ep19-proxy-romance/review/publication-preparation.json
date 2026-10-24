@@ -1,7 +1,7 @@
 {
-  "status": "READY_EXCEPT_TITLE",
+  "status": "PLATFORM_REJECTED",
   "account_display_name": "余问 QStory",
-  "upload_status": "UPLOADED_EDITOR",
+  "upload_status": "PLATFORM_REJECTED",
   "selected_cover": "cover-A-headline-v03.png",
   "cover_platform_crop": "3:4",
   "platform_cover_assessment": "封面效果评估通过，未发现封面质量问题",
@@ -20,11 +20,26 @@
   "visibility": "公开可见",
   "scheduled": false,
   "original_title": "当影子在阳光下学会了相爱，而你成了它的影子｜一眼万年S4",
-  "page_counter": "27 / 20",
-  "pending_user_title_choice": true,
+  "pending_user_title_choice": false,
   "short_title_proposed": "影子相爱，我们忘了拥抱｜一眼万年S4",
-  "submission_attempted": false,
+  "submission_attempted": true,
   "publication_verified": false,
   "public_visibility_verified": false,
-  "private_ui_evidence": "Screenshots and raw browser readback retained only in private temporary storage; excluded from public archive"
+  "private_ui_evidence": "Screenshots and raw browser readback retained only in private temporary storage; excluded from public archive",
+  "history": [
+    {
+      "status": "READY_EXCEPT_TITLE",
+      "page_counter": "27 / 20",
+      "pending_user_title_choice": true,
+      "submission_attempted": false
+    }
+  ],
+  "title_confirmed": "影子相爱，我们忘了拥抱｜一眼万年S4",
+  "original_title_page_counter": "27 / 20",
+  "current_title_validation": "Under the page limit; previous over-limit indicator cleared",
+  "submission_verified": false,
+  "platform_reason_retained_privately": true,
+  "attempt_started_at_utc": "2026-10-24T01:19:34.111Z",
+  "observed_at_utc": "2026-10-24T01:19:59.855Z",
+  "retry_performed": false
 }

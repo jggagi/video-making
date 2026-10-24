@@ -33,7 +33,7 @@
     "一眼万年"
   ],
   "ai_declaration_required": true,
-  "submission_attempted": false,
+  "submission_attempted": true,
   "submission_verified": false,
   "publication_verified": false,
   "public_visibility_verified": false,
@@ -42,7 +42,7 @@
   "selected_cover_kind": "A",
   "user_authorized_public_submission": true,
   "authorization": "Direct user in this chat: 现在上传并提交小红书（推荐）",
-  "upload_status": "UPLOADED_EDITOR",
+  "upload_status": "PLATFORM_REJECTED",
   "scheduled": false,
   "account_display_name": "余问 QStory",
   "associated_topics": [
@@ -91,6 +91,30 @@
   "content_declaration": "笔记含AI合成内容",
   "cover_platform_crop": "3:4",
   "cover_applied": true,
-  "observed_at_utc": "2026-10-23T15:32:55.135Z",
-  "title_status": "ORIGINAL_27_OVER_PAGE_LIMIT_20_AWAITING_USER_SHORT_TITLE"
+  "observed_at_utc": "2026-10-24T01:19:59.855Z",
+  "title_status": "USER_CONFIRMED_SHORT_TITLE_UI_READBACK_MATCH",
+  "title_submitted": "影子相爱，我们忘了拥抱｜一眼万年S4",
+  "title_authorization": "Direct user reply: 使用：影子相爱，我们忘了拥抱｜一眼万年S4（推荐）",
+  "final_settings_verified_at_utc": "2026-10-24T01:19:22.723001+00:00",
+  "input_file": {
+    "path": "小红书/si-ep19-proxy-romance-xiaohongshu-90s-portrait.mp4",
+    "bytes": 37875218,
+    "sha256": "5bc9d8fe30c485ca44b97cd3fac352ba21f726eb476caf62e72ff0bc83b9b758",
+    "duration_seconds": 90
+  },
+  "submission_status": "PLATFORM_REJECTED",
+  "attempt_started_at_utc": "2026-10-24T01:19:34.111Z",
+  "platform_reason_retained_privately": true,
+  "note_id": null,
+  "note_url": null,
+  "retry_performed": false,
+  "history": [
+    {
+      "state": "UPLOADED_EDITOR_AWAITING_USER_SHORT_TITLE",
+      "submission_attempted": false,
+      "title_original": "当影子在阳光下学会了相爱，而你成了它的影子｜一眼万年S4",
+      "evidence": "prior published preparation record"
+    }
+  ],
+  "next_step": "User reviews platform account status and moderation notice before any retry."
 }

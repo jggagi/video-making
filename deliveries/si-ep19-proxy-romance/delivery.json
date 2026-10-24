@@ -58,11 +58,13 @@
     "restore_probe": "review/final-restore-probe.json"
   },
   "publication": {
-    "status": "UPLOADED_EDITOR_AWAITING_USER_SHORT_TITLE",
-    "submission_attempted": false,
+    "status": "PLATFORM_REJECTED",
+    "submission_attempted": true,
     "submission_verified": false,
     "publication_verified": false,
     "public_visibility_verified": false,
-    "record": "小红书/publication-package.json"
+    "record": "小红书/publication-package.json",
+    "title": "影子相爱，我们忘了拥抱｜一眼万年S4",
+    "attempt_started_at_utc": "2026-10-24T01:19:34.111Z"
   }
 }
